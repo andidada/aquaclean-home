@@ -1,14 +1,14 @@
 # Decap CMS Configuration
-# Place this in your site's repo root or /admin/ directory
+# Backend: Netlify Identity (no GitHub required)
 backend:
-  name: git-gateway
+  name: netlify
   branch: main
 
-# Media storage (optional — stores images in your repo)
+# Media storage
 media_folder: "assets/images/uploads"
 public_folder: "/assets/images/uploads"
 
-# Editorial workflow (draft → review → published)
+# Editorial workflow
 publish_mode: editorial_workflow
 
 # Collections
@@ -27,6 +27,9 @@ collections:
       - { label: "Short Description (Vietnamese)", name: "description_vi", widget: "text", required: false }
       - { label: "Short Description (Thai)", name: "description_th", widget: "text", required: false }
       - { label: "Short Description (Indonesian)", name: "description_id", widget: "text", required: false }
+      - { label: "Short Description (Russian)", name: "description_ru", widget: "text", required: false }
+      - { label: "Short Description (Spanish)", name: "description_es", widget: "text", required: false }
+      - { label: "Short Description (French)", name: "description_fr", widget: "text", required: false }
       - { label: "Product Image", name: "image", widget: "image" }
       - { label: "Badge Tag", name: "badge", widget: "string", required: false, hint: "e.g. Best Seller, New, High Demand" }
       - label: "Specifications"
@@ -50,7 +53,7 @@ collections:
     fields:
       - { label: "Quote", name: "quote", widget: "text" }
       - { label: "Author Name", name: "author", widget: "string" }
-      - { label: "Role & Company", name: "role", widget: "string", hint: "e.g. CEO, TechLife — Spain" }
+      - { label: "Role & Company", name: "role", widget: "string", hint: "e.g. CEO, TechLife - Spain" }
       - { label: "Country Flag Emoji", name: "flag", widget: "string", hint: "e.g. 🇪🇸" }
       - { label: "Featured", name: "featured", widget: "boolean", default: false }
       - { label: "Publish Date", name: "date", widget: "datetime" }
@@ -64,7 +67,10 @@ collections:
         fields:
           - { label: "Company Name (English)", name: "company_name_en", widget: "string" }
           - { label: "Company Name (Arabic)", name: "company_name_ar", widget: "string" }
-          - { label: "WhatsApp Number", name: "whatsapp", widget: "string", hint: "e.g. 86138XXXXXXXX" }
+          - { label: "Company Name (Vietnamese)", name: "company_name_vi", widget: "string" }
+          - { label: "Company Name (Thai)", name: "company_name_th", widget: "string" }
+          - { label: "Company Name (Indonesian)", name: "company_name_id", widget: "string" }
+          - { label: "WhatsApp Number", name: "whatsapp", widget: "string", hint: "e.g. 8617779190118" }
           - { label: "Email", name: "email", widget: "string" }
           - { label: "Address", name: "address", widget: "string" }
           - { label: "Factory Location", name: "location", widget: "string" }
