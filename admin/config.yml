@@ -1,0 +1,70 @@
+# Decap CMS Configuration
+# Place this in your site's repo root or /admin/ directory
+backend:
+  name: git-gateway
+  branch: main
+
+# Media storage (optional — stores images in your repo)
+media_folder: "assets/images/uploads"
+public_folder: "/assets/images/uploads"
+
+# Editorial workflow (draft → review → published)
+publish_mode: editorial_workflow
+
+# Collections
+collections:
+  - name: "products"
+    label: "Products"
+    folder: "content/products"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Product Name", name: "title", widget: "string" }
+      - { label: "SKU Code", name: "sku", widget: "string", hint: "e.g. AC-HV-001" }
+      - { label: "Category", name: "category", widget: "select", options: ["Handheld Vacuum", "Robot Vacuum", "Steam Cleaner", "UV Mite Remover", "Window Robot", "Car Vacuum", "Tire Inflator"] }
+      - { label: "Short Description (English)", name: "description_en", widget: "text" }
+      - { label: "Short Description (Arabic)", name: "description_ar", widget: "text", required: false }
+      - { label: "Short Description (Vietnamese)", name: "description_vi", widget: "text", required: false }
+      - { label: "Short Description (Thai)", name: "description_th", widget: "text", required: false }
+      - { label: "Short Description (Indonesian)", name: "description_id", widget: "text", required: false }
+      - { label: "Product Image", name: "image", widget: "image" }
+      - { label: "Badge Tag", name: "badge", widget: "string", required: false, hint: "e.g. Best Seller, New, High Demand" }
+      - label: "Specifications"
+        name: "specs"
+        widget: "list"
+        required: false
+        field: { label: "Spec", name: "spec", widget: "string" }
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        field: { label: "Tag", name: "tag", widget: "string" }
+      - { label: "Featured", name: "featured", widget: "boolean", default: false }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+
+  - name: "testimonials"
+    label: "Testimonials"
+    folder: "content/testimonials"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Quote", name: "quote", widget: "text" }
+      - { label: "Author Name", name: "author", widget: "string" }
+      - { label: "Role & Company", name: "role", widget: "string", hint: "e.g. CEO, TechLife — Spain" }
+      - { label: "Country Flag Emoji", name: "flag", widget: "string", hint: "e.g. 🇪🇸" }
+      - { label: "Featured", name: "featured", widget: "boolean", default: false }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+
+  - name: "settings"
+    label: "Site Settings"
+    files:
+      - name: "general"
+        label: "General Settings"
+        file: "content/settings/general.json"
+        fields:
+          - { label: "Company Name (English)", name: "company_name_en", widget: "string" }
+          - { label: "Company Name (Arabic)", name: "company_name_ar", widget: "string" }
+          - { label: "WhatsApp Number", name: "whatsapp", widget: "string", hint: "e.g. 86138XXXXXXXX" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Address", name: "address", widget: "string" }
+          - { label: "Factory Location", name: "location", widget: "string" }
