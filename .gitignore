@@ -13,3 +13,8 @@ npm-debug.log*
 
 # Netlify (local state)
 .netlify/
+
+# debug scripts
+*.cjs
+
+github_auth_url.txt

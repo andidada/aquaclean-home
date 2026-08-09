@@ -1,7 +1,6 @@
 # Decap CMS Configuration
-# Backend: Netlify Identity (no GitHub required)
 backend:
-  name: netlify
+  name: git-gateway
   branch: main
 
 # Media storage
