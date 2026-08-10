@@ -11,26 +11,70 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Deploy to Netlify
+      - name: Deploy to Netlify via API
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          NETLIFY_SITE_ID:    ${{ secrets.NETLIFY_SITE_ID }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
         run: |
-          set -e
-          echo "=== ENV CHECK ==="
           echo "NETLIFY_SITE_ID is set: $NETLIFY_SITE_ID"
           echo "NETLIFY_AUTH_TOKEN length: ${#NETLIFY_AUTH_TOKEN}"
 
-          echo "=== INSTALLING NETLIFY CLI ==="
-          timeout 120 npx netlify-cli@27.1.0 --version || echo "npx install timed out or failed"
+          python3 << 'PYEOF'
+          import os, tarfile, io, json, base64, http.client
 
-          echo "=== NETLIFY DEPLOY ==="
-          npx netlify-cli@27.1.0 deploy \
-            --prod \
-            --dir=. \
-            --auth "$NETLIFY_AUTH_TOKEN" \
-            --site "$NETLIFY_SITE_ID" \
-            2>&1 | tee deploy.log
+          TOKEN = os.environ["NETLIFY_AUTH_TOKEN"]
+          SITE  = os.environ["NETLIFY_SITE_ID"]
+          print(f"Site ID: {SITE}")
 
-          echo "=== DEPLOY LOG TAIL ==="
-          tail -20 deploy.log || true
+          # ── Step 1: Create new deploy ──────────────────────────────────────
+          conn = http.client.HTTPSConnection("api.netlify.com")
+          headers = {
+              "Authorization": f"Bearer {TOKEN}",
+              "Content-Type": "application/octet-stream"
+          }
+
+          # Build tarball
+          buf = io.BytesIO()
+          with tarfile.open(fileobj=buf, mode="w:gz") as tar:
+              tar.add(".", arcname="")
+          tar_bytes = buf.getvalue()
+          print(f"Tarball: {len(tar_bytes)/1024:.0f} KB")
+
+          # Create deploy
+          conn.request("POST",
+              f"/api/v1/sites/{SITE}/deploys",
+              headers={**headers, "Content-Type": "application/json"},
+              body=json.dumps({}).encode())
+          resp = conn.getresponse()
+          raw  = resp.read()
+          data = json.loads(raw)
+          print(f"Create deploy: {resp.status} -> {data.get('id','?')} / {data.get('state','?')}")
+          deploy_id  = data["id"]
+          deploy_url = data["deploy_url"]
+          assert resp.status in (200, 201), f"Create failed: {raw[:200]}"
+
+          # ── Step 2: Upload tarball ─────────────────────────────────────────
+          conn.request("PUT",
+              f"/api/v1/deploys/{deploy_id}/files",
+              body=tar_bytes,
+              headers={**headers, "Content-Type": "application/gzip"})
+          resp2 = conn.getresponse()
+          raw2  = resp2.read()
+          print(f"Upload tarball: {resp2.status} -> {raw2[:200].decode(errors='replace')}")
+          assert resp2.status in (200, 201), f"Upload failed: {raw2[:200]}"
+
+          # ── Step 3: Restore (make live) ─────────────────────────────────────
+          conn.request("POST",
+              f"/api/v1/deploys/{deploy_id}/restore",
+              headers={**headers, "Content-Type": "application/json"},
+              body=json.dumps({}).encode())
+          resp3 = conn.getresponse()
+          raw3  = resp3.read()
+          print(f"Restore: {resp3.status} -> {raw3[:200].decode(errors='replace')}")
+
+          conn.close()
+          print()
+          print(f"SUCCESS! Deploy {deploy_id}")
+          print(f"URL: https://{deploy_url}")
+          print(f"Site: https://aquaclean-home.netlify.app")
+          PYEOF
