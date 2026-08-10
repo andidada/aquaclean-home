@@ -357,16 +357,46 @@
     .modal-close:hover {
       color: #333;
     }
+    .btn-publish {
+      background: #22c55e;
+      border-color: #16a34a;
+      font-weight: 600;
+    }
+    .btn-publish:hover { background: #16a34a; }
+    .btn-publish:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+    .publish-log {
+      margin-top: 12px;
+      padding: 10px 14px;
+      background: #1e293b;
+      color: #e2e8f0;
+      border-radius: 8px;
+      font-size: 12px;
+      font-family: 'Courier New', monospace;
+      max-height: 120px;
+      overflow-y: auto;
+      white-space: pre-wrap;
+      display: none;
+    }
+    .publish-log.show { display: block; }
+    .publish-log .ok { color: #4ade80; }
+    .publish-log .err { color: #f87171; }
+    .publish-log .info { color: #60a5fa; }
+
   </style>
 </head>
 <body>
   <div class="header">
     <h1>🌐 AquaClean 管理后台</h1>
     <div class="user">
+      <button class="btn-publish" id="publishBtn" onclick="publishToSite()">🚀 发布到网站</button>
       <span id="currentUser">管理员</span>
       <button onclick="logout()">退出登录</button>
     </div>
   </div>
+  <div id="publishLog" class="publish-log"></div>
 
   <div class="container">
     <!-- 标签页 -->
@@ -695,6 +725,94 @@
       document.getElementById(tabName).classList.add('active');
     }
     
+    // ── 发布到网站（通过 GitHub Bridge → commit → GitHub Actions → Netlify） ──
+    function log(msg, type) {
+      const el = document.getElementById('publishLog');
+      if (!el) return;
+      el.classList.add('show');
+      const cls = type === 'err' ? 'err' : type === 'ok' ? 'ok' : 'info';
+      const line = document.createElement('div');
+      line.className = cls;
+      line.textContent = '[' + new Date().toLocaleTimeString() + '] ' + msg;
+      el.appendChild(line);
+      el.scrollTop = el.scrollHeight;
+    }
+    async function publishToSite() {
+      const btn = document.getElementById('publishBtn');
+      const logEl = document.getElementById('publishLog');
+      if (logEl) logEl.innerHTML = '';
+      btn.disabled = true;
+      btn.textContent = '发布中...';
+      try {
+        // 1. 检查本地 GitHub Bridge 服务是否在运行
+        log('检查 GitHub Bridge 服务...', 'info');
+        let bridgeOk = false;
+        try {
+          const sr = await fetch('http://127.0.0.1:18765/status');
+          const sd = await sr.json();
+          bridgeOk = sd.status === 'ok';
+        } catch(e) {}
+        if (!bridgeOk) {
+          log('错误：未找到 GitHub Bridge 服务', 'err');
+          log('请双击运行 gh_token_server.py 后重试', 'info');
+          btn.disabled = false; btn.textContent = '🚀 发布到网站';
+          return;
+        }
+        log('GitHub Bridge 就绪 ✓', 'ok');
+
+        // 2. 读取所有 HTML 文件内容
+        const htmlFiles = [
+          'en/index.html', 'en/about.html',
+          'ar/index.html', 'ru/index.html', 'fr/index.html',
+          'es/index.html', 'vi/index.html', 'id/index.html', 'th/index.html',
+          'index.html', 'admin/dashboard.html'
+        ];
+        log('收集页面文件...', 'info');
+        const files = {};
+        for (const path of htmlFiles) {
+          const url = '../' + path + '?t=' + Date.now();
+          try {
+            const r = await fetch(url);
+            if (r.ok) files[path] = await r.text();
+            else log('  跳过（未找到）: ' + path, 'info');
+          } catch(e) { log('  读取失败: ' + path, 'err'); }
+        }
+        const fileCount = Object.keys(files).length;
+        log('已收集 ' + fileCount + ' 个页面文件', 'info');
+        if (fileCount === 0) { log('错误：没有任何页面可发布', 'err'); btn.disabled = false; btn.textContent = '🚀 发布到网站'; return; }
+
+        // 3. 提交到 GitHub
+        log('正在提交到 GitHub...', 'info');
+        const commitMsg = 'Update content via dashboard at ' + new Date().toLocaleString('zh-CN');
+        const cr = await fetch('http://127.0.0.1:18765/commit', {
+          method: 'POST',
+          headers: {'Content-Type': 'application/json'},
+          body: JSON.stringify({files, message: commitMsg, bump_version: true})
+        });
+        const cd = await cr.json();
+        if (!cd.ok) { log('提交失败: ' + (cd.error || '未知错误'), 'err'); btn.disabled = false; btn.textContent = '🚀 发布到网站'; return; }
+        log('已提交 ✓  SHA: ' + cd.commit_sha.substring(0, 8), 'ok');
+        log('GitHub: ' + cd.commit_url, 'info');
+
+        // 4. 触发 GitHub Actions（Netlify 部署）
+        log('触发 Netlify 部署（预计 2-3 分钟）...', 'info');
+        if (cd.actions_triggered) {
+          log('GitHub Actions 已触发，请等待自动完成', 'ok');
+        } else {
+          log('GitHub Actions 触发失败，请手动去 GitHub Actions 页面点 Run', 'err');
+        }
+        log('', 'info');
+        log('✅ 发布已提交！约 2-3 分钟后网站自动更新', 'ok');
+        log('（旧版 CSS/JS 缓存请刷新页面 Ctrl+F5 清除）', 'info');
+
+      } catch(e) {
+        log('发生错误: ' + e.message, 'err');
+      } finally {
+        btn.disabled = false;
+        btn.textContent = '🚀 发布到网站';
+      }
+    }
+
     // 退出登录
     function logout() {
       sessionStorage.removeItem('admin_logged_in');
