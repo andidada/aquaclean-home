@@ -11,10 +11,61 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Deploy to Netlify
+      - name: Deploy to Netlify via API
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID:    ${{ secrets.NETLIFY_SITE_ID }}
         run: |
-          npm install -g netlify-cli
-          npx netlify@27.1.0 deploy --prod --dir=.
+          # Install Python + requests
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq python3 python3-pip
+          pip3 install -q requests
+
+          python3 << 'PYEOF'
+          import os, json, tarfile, requests, io, time
+
+          TOKEN = os.environ["NETLIFY_AUTH_TOKEN"]
+          SITE  = os.environ["NETLIFY_SITE_ID"]
+          API   = "https://api.netlify.com/api/v1"
+          HDR   = {"Authorization": f"Bearer {TOKEN}"}
+
+          # 1. Create new deploy
+          r = requests.post(
+              f"{API}/sites/{SITE}/deploys",
+              headers=HDR,
+              files={"tar": ("site.tar.gz", io.BytesIO(), "application/gzip")}
+          )
+          r.raise_for_status()
+          deploy_id = r.json()["id"]
+          deploy_url = r.json()["deploy_url"]
+          print(f"Deploy ID: {deploy_id}")
+          print(f"Deploy URL: {deploy_url}")
+
+          # 2. Build tarball of current dir
+          buf = io.BytesIO()
+          with tarfile.open(fileobj=buf, mode="w:gz") as tar:
+              tar.add(".", arcname="")
+          tar_bytes = buf.getvalue()
+          print(f"Tarball size: {len(tar_bytes)/1024:.1f} KB")
+
+          # 3. Upload each file
+          SHADES = ["0f0000","1f0000","2f0000","3f0000","4f0000","5f0000","6f0000","7f0000",
+                    "8f0000","9f0000","af0000","bf0000","cf0000","df0000","ef0000","ff0000"]
+          r2 = requests.put(
+              f"https://api.netlify.com/api/v1/deploys/{deploy_id}/files",
+              headers={**HDR, "Content-Type": "application/octet-stream"},
+              data=tar_bytes,
+              params={"overwrite": "true"}
+          )
+          print(f"Upload status: {r2.status_code}")
+          print(f"Response: {r2.text[:200]}")
+
+          if r2.status_code in (200, 201):
+              print("DEPLOY SUCCESS!")
+              # Signal success
+              with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+                  f.write(f"deploy_url=https://{deploy_url}\n")
+          else:
+              print("DEPLOY FAILED!")
+              exit(1)
+          PYEOF
