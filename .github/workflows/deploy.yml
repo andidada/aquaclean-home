@@ -25,26 +25,96 @@ jobs:
             assets
           sparse-checkout-cone-mode: false
 
-      - name: Install Netlify CLI
-        run: npm install -g netlify-cli@27.1.0
-
-      - name: Deploy to Netlify (skip build)
+      - name: Deploy via Python Netlify API
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-          NETLIFY_BUILD_DISABLED: "true"
         run: |
-          echo "=== NETLIFY TOKEN CHECK ==="
-          echo "Token length: ${#NETLIFY_AUTH_TOKEN}"
-          echo "Token prefix: ${NETLIFY_AUTH_TOKEN:0:4}"
-          echo "SITE_ID: $NETLIFY_SITE_ID"
+          echo "=== TOKEN DEBUG ==="
+          echo "NETLIFY_AUTH_TOKEN set: [${#NETLIFY_AUTH_TOKEN}] chars"
+          echo "NETLIFY_AUTH_TOKEN first4: [${NETLIFY_AUTH_TOKEN:0:4}]"
+          echo "NETLIFY_SITE_ID: [$NETLIFY_SITE_ID]"
           echo ""
-          echo "=== NETLIFY LOGIN CHECK ==="
-          netlify login --token "$NETLIFY_AUTH_TOKEN" 2>&1 || echo "Login returned: $?"
-          echo ""
-          echo "=== DEPLOY ==="
-          netlify deploy --prod --dir=. --site "$NETLIFY_SITE_ID" --auth "$NETLIFY_AUTH_TOKEN" --no-build 2>&1
-          echo "Deploy exit code: $?"
-          echo ""
-          echo "=== SITE CHECK ==="
-          curl -sI "https://aquaclean-home.netlify.app" | head -3
+          python3 << 'PYEOF'
+import os, sys, json, tarfile, io, http.client, traceback, base64, time
+
+TOKEN = os.environ.get("NETLIFY_AUTH_TOKEN", "")
+SITE  = os.environ.get("NETLIFY_SITE_ID", "")
+print(f"TOKEN len={len(TOKEN)}, prefix={TOKEN[:4]}, SITE={SITE}", flush=True)
+
+if not TOKEN:
+    print("FATAL: NETLIFY_AUTH_TOKEN empty — cannot deploy", flush=True)
+    sys.exit(1)
+if not SITE:
+    print("FATAL: NETLIFY_SITE_ID empty", flush=True)
+    sys.exit(1)
+
+# Quick test: call Netlify whoami
+print("\n=== TEST: Netlify API auth ===", flush=True)
+conn = http.client.HTTPSConnection("api.netlify.com", timeout=30)
+conn.request("GET", "/api/v1/accounts/me", headers={"Authorization": f"Bearer {TOKEN}"})
+resp = conn.getresponse()
+raw = resp.read()
+print(f"whoami: {resp.status} {raw[:300].decode(errors='replace')}", flush=True)
+resp_data = json.loads(raw)
+account_slug = resp_data["slug"]
+print(f"Account: {account_slug}", flush=True)
+
+# Step 1: Create deploy
+print("\n=== STEP 1: Create deploy ===", flush=True)
+conn.request("POST",
+    f"/api/v1/sites/{SITE}/deploys",
+    headers={"Authorization": f"Bearer {TOKEN}", "Content-Type": "application/json"},
+    body=b"{}")
+resp = conn.getresponse()
+raw = resp.read()
+print(f"Create deploy: {resp.status}", flush=True)
+if resp.status >= 400:
+    print(f"ERROR BODY: {raw[:500].decode(errors='replace')}", flush=True)
+    sys.exit(1)
+data = json.loads(raw)
+deploy_id  = data["id"]
+deploy_url = data["deploy_url"]
+required   = data.get("required", [])
+print(f"Got deploy_id={deploy_id}", flush=True)
+print(f"Deploy URL: {deploy_url}", flush=True)
+print(f"Required files: {len(required)}", flush=True)
+
+# Step 2: Upload files (tarball)
+print("\n=== STEP 2: Build & upload tarball ===", flush=True)
+buf = io.BytesIO()
+with tarfile.open(fileobj=buf, mode="w:gz") as tar:
+    tar.add(".", arcname="")
+tar_bytes = buf.getvalue()
+print(f"Tarball size: {len(tar_bytes)/1024:.0f} KB", flush=True)
+
+conn.request("PUT",
+    f"/api/v1/deploys/{deploy_id}/files",
+    body=tar_bytes,
+    headers={"Authorization": f"Bearer {TOKEN}", "Content-Type": "application/gzip"})
+resp2 = conn.getresponse()
+raw2 = resp2.read()
+print(f"Upload tarball: {resp2.status}", flush=True)
+if resp2.status >= 400:
+    print(f"ERROR BODY: {raw2[:500].decode(errors='replace')}", flush=True)
+    sys.exit(1)
+
+# Step 3: Restore (make live)
+print("\n=== STEP 3: Restore deploy (make live) ===", flush=True)
+conn.request("POST",
+    f"/api/v1/deploys/{deploy_id}/restore",
+    headers={"Authorization": f"Bearer {TOKEN}", "Content-Type": "application/json"},
+    body=b"{}")
+resp3 = conn.getresponse()
+raw3 = resp3.read()
+print(f"Restore: {resp3.status} {raw3[:200].decode(errors='replace')}", flush=True)
+conn.close()
+
+if resp3.status in (200, 201):
+    print("\n=== SUCCESS ===", flush=True)
+    print(f"Live: https://aquaclean-home.netlify.app", flush=True)
+else:
+    print(f"\nWARNING: Restore returned {resp3.status}", flush=True)
+    print(f"Restore body: {raw3.decode(errors='replace')}", flush=True)
+    sys.exit(1)
+          PYEOF
