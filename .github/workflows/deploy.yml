@@ -1,5 +1,5 @@
+# Trigger test 2026-08-10T13:55:08Z
 name: Deploy to Netlify
-
 on:
   push:
     branches: [main]
