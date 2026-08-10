@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node (if any)
+node_modules/
+npm-debug.log*
+
+# Netlify (local state)
+.netlify/
+
+# debug scripts
+*.cjs
+
+github_auth_url.txt
