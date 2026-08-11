@@ -175,13 +175,13 @@ const productDataLoc = {
   fr: {
     p1: {
       name: 'Aspirateur à Main',
-      desc: 'Aspirateur à main sans fil léger avec puissance d''aspiration de 120 W. Parfait pour les nettoyages rapides à la maison, en voiture ou au bureau.',
+      desc: 'Aspirateur à main sans fil léger avec puissance d\'aspiration de 120 W. Parfait pour les nettoyages rapides à la maison, en voiture ou au bureau.',
       specs: [['Puissance', '120 W, 16 kPa'], ['Batterie', '2000 mAh, 25 min'], ['Poids', '1.2 kg'], ['Capacité', '0.5 L'], ['Charge', 'USB-C, 3 h'], ['Bruit', '< 65 dB']]
     },
     p2: {
       name: 'Robot Aspirateur',
       desc: 'Robot aspirateur avec navigation laser LDS, contrôle par appli, fonction serpillière et aspiration 2000 Pa.',
-      specs: [['Navigation', 'Laser LDS'], ['Aspiration', '2000 Pa'], ['Batterie', '2600 mAh, 90 min'], ['Réservoir', '0.6 L'], ['Réservoir d''eau', '0.35 L'], ['Appli', 'TuyaSmart / SmartLife']]
+      specs: [['Navigation', 'Laser LDS'], ['Aspiration', '2000 Pa'], ['Batterie', '2600 mAh, 90 min'], ['Réservoir', '0.6 L'], ['Réservoir d\'eau', '0.35 L'], ['Appli', 'TuyaSmart / SmartLife']]
     },
     p3: {
       name: 'Nettoyeur Vapeur',
@@ -191,7 +191,7 @@ const productDataLoc = {
     p4: {
       name: 'Anti-Acariens UV',
       desc: 'Stérilisateur UV-C pour matelas avec air chaud à 55°C. Élimine 99.9% des acariens et bactéries.',
-      specs: [['Longueur d''onde UV', '253.7 nm UV-C'], ['Aspiration', '6000 tr/min'], ['Chaleur', 'air chaud 55°C'], ['Filtre', 'HEPA H13'], ['Puissance', '450 W'], ['Réservoir', '0.5 L']]
+      specs: [['Longueur d\'onde UV', '253.7 nm UV-C'], ['Aspiration', '6000 tr/min'], ['Chaleur', 'air chaud 55°C'], ['Filtre', 'HEPA H13'], ['Puissance', '450 W'], ['Réservoir', '0.5 L']]
     },
     p5: {
       name: 'Robot Lave-Vitres',
