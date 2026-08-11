@@ -35,6 +35,33 @@ if (detected && detected !== currentLang && detected !== 'en') {
   }
 }
 
+// ─── LANGUAGE PICKER (top-right dropdown) ──
+(function() {
+  const picker = document.getElementById('langPicker');
+  if (!picker) return;
+  const btn = picker.querySelector('.lang-current');
+  const menu = picker.querySelector('.lang-menu');
+  if (!btn || !menu) return;
+  btn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const open = picker.classList.toggle('open');
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  document.addEventListener('click', (e) => {
+    if (!picker.contains(e.target)) {
+      picker.classList.remove('open');
+      btn.setAttribute('aria-expanded', 'false');
+    }
+  });
+  // Close on Esc
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      picker.classList.remove('open');
+      btn.setAttribute('aria-expanded', 'false');
+    }
+  });
+})();
+
 // ─── POPUP MODAL (60% scroll, once per session) ──
 (function() {
   if (sessionStorage.getItem('popupShown')) return;
