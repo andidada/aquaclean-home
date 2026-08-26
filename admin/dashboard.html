@@ -440,6 +440,26 @@
               <div class="category-name">车载电器</div>
               <div class="category-count">2 款产品</div>
             </div>
+            <div class="category-card" onclick="showCategoryProducts('coffee')">
+              <div class="category-icon">☕</div>
+              <div class="category-name">咖啡电器</div>
+              <div class="category-count">1 款产品</div>
+            </div>
+            <div class="category-card" onclick="showCategoryProducts('steammop')">
+              <div class="category-icon">🧹</div>
+              <div class="category-name">蒸汽拖把</div>
+              <div class="category-count">1 款产品</div>
+            </div>
+            <div class="category-card" onclick="showCategoryProducts('carpro')">
+              <div class="category-icon">🚗</div>
+              <div class="category-name">车载电器 Pro</div>
+              <div class="category-count">1 款产品</div>
+            </div>
+            <div class="category-card" onclick="showCategoryProducts('garment')">
+              <div class="category-icon">👔</div>
+              <div class="category-name">衣物护理</div>
+              <div class="category-count">1 款产品</div>
+            </div>
           </div>
         </div>
       </div>
@@ -829,9 +849,58 @@
         'vacuum': '吸尘器系列',
         'cleaner': '清洗机系列',
         'robot': '智能机器人',
-        'car': '车载电器'
+        'car': '车载电器',
+        'coffee': '咖啡电器',
+        'steammop': '蒸汽拖把',
+        'carpro': '车载电器 Pro',
+        'garment': '衣物护理'
       };
       document.getElementById('currentCategoryName').textContent = categoryNames[categoryId] || categoryId;
+
+      const productsByCat = {
+        'vacuum': [
+          {id:'hv-001', img:'01-handheld-vacuum.png', name:'手持无线吸尘器', sku:'AC-HV-001', styles:'白色 / 黑色 / 红色'},
+          {id:'rv-001', img:'02-robot-vacuum.png', name:'智能扫地机器人', sku:'AC-RV-001', styles:'标准版 / 高配版'},
+          {id:'cv-001', img:'06-car-vacuum.png', name:'车载便携吸尘器', sku:'AC-CV-001', styles:'有线款 / 无线款'}
+        ],
+        'cleaner': [
+          {id:'sc-001', img:'03-steam-cleaner.png', name:'手持蒸汽清洁器', sku:'AC-SC-001', styles:'标准版 / 豪华版'},
+          {id:'mp-001', img:'09-steam-mop.png', name:'立式蒸汽拖把', sku:'AC-MP-001', styles:'白 / 灰'}
+        ],
+        'robot': [
+          {id:'wr-001', img:'05-window-robot.png', name:'智能擦窗机器人', sku:'AC-WR-001', styles:'标准版 / Pro'},
+          {id:'mr-001', img:'04-uv-mite-remover.png', name:'除螨仪', sku:'AC-MR-001', styles:'白 / 粉'}
+        ],
+        'car': [
+          {id:'ti-001', img:'07-tire-inflator.png', name:'数显充气泵', sku:'AC-TI-001', styles:'标准版 / 带灯版'},
+          {id:'cv-001', img:'06-car-vacuum.png', name:'车载便携吸尘器', sku:'AC-CV-001', styles:'有线款 / 无线款'}
+        ],
+        'coffee': [
+          {id:'cm-001', img:'08-coffee-machine.png', name:'意式咖啡机', sku:'AC-CM-001', styles:'白 / 玫瑰金'}
+        ],
+        'steammop': [
+          {id:'mp-001', img:'09-steam-mop.png', name:'立式蒸汽拖把', sku:'AC-MP-001', styles:'白 / 灰'}
+        ],
+        'carpro': [
+          {id:'cvp-001', img:'10-car-vacuum-pro.png', name:'车载吸尘器 Pro', sku:'AC-CVP-001', styles:'黑红 / 全黑'}
+        ],
+        'garment': [
+          {id:'gs-001', img:'11-garment-steamer.png', name:'立式挂烫机', sku:'AC-GS-001', styles:'白 / 玫瑰金'}
+        ]
+      };
+      const list = document.getElementById('productList');
+      const prods = productsByCat[categoryId] || [];
+      list.innerHTML = prods.map(function(p) {
+        return '<div class="product-item" onclick="editProduct(\'' + p.id + '\')">'
+          + '<img src="../assets/images/products/' + p.img + '" class="product-image" alt="' + p.name + '">'
+          + '<div class="product-info">'
+          + '<div class="product-name">' + p.name + '</div>'
+          + '<div class="product-sku">SKU: ' + p.sku + '</div>'
+          + '<div class="product-styles">' + p.styles + '</div>'
+          + '</div>'
+          + '<button class="btn btn-sm">编辑</button>'
+          + '</div>';
+      }).join('');
     }
     
     // 返回分类列表
