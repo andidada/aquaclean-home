@@ -226,7 +226,7 @@ const productData = {
   },
   'p2': {
     name: 'Robot Vacuum Cleaner',
-    img: '../assets/images/products/02-robot-vacuum.png',
+    img: '../assets/images/products/02-robot-vacuum.png?v=20260826',
     desc: 'Smart LDS laser navigation robot vacuum with app control, mopping function, and 2000Pa deep cleaning suction.',
     specs: [
       ['Navigation', 'LDS Laser'],
@@ -239,7 +239,7 @@ const productData = {
   },
   'p3': {
     name: 'Steam Cleaner',
-    img: '../assets/images/products/03-steam-cleaner.png',
+    img: '../assets/images/products/03-steam-cleaner.png?v=20260826',
     desc: 'Multi-surface steam cleaner with 1500W power, 105°C super-heated steam. Chemical-free deep cleaning for floors, tiles, windows, and more.',
     specs: [
       ['Power', '1500W'],
@@ -252,7 +252,7 @@ const productData = {
   },
   'p4': {
     name: 'UV Mite Remover',
-    img: '../assets/images/products/04-uv-mite-remover.png',
+    img: '../assets/images/products/04-uv-mite-remover.png?v=20260826',
     desc: 'UV-C sterilization mattress cleaner with 55°C hot air drying. Eliminates 99.9% of dust mites and bacteria.',
     specs: [
       ['UV Wavelength', '253.7nm UV-C'],
@@ -265,7 +265,7 @@ const productData = {
   },
   'p5': {
     name: 'Smart Window Cleaner Robot',
-    img: '../assets/images/products/05-window-robot.png',
+    img: '../assets/images/products/05-window-robot.png?v=20260826',
     desc: 'AI-powered automatic window cleaning robot. Senses edges, avoids obstacles, and cleans glass, tiles, and mirrors without manual operation.',
     specs: [
       ['Navigation', 'AI Edge Detection'],
@@ -291,7 +291,7 @@ const productData = {
   },
   'p7': {
     name: 'Digital Tire Inflator',
-    img: '../assets/images/products/07-tire-inflator.png',
+    img: '../assets/images/products/07-tire-inflator.png?v=20260826',
     desc: 'Portable digital air pump with auto shut-off. Preset 4 units (PSI/BAR/KPA/kg/cm²). LED light for night use.',
     specs: [
       ['Pressure Range', '0-150 PSI'],
