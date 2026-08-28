@@ -1,0 +1,146 @@
+{
+  "categories": [
+    { "id": "vacuum", "name": "吸尘器系列", "icon": "🧹" },
+    { "id": "cleaner", "name": "清洗机系列", "icon": "💨" },
+    { "id": "robot", "name": "智能机器人", "icon": "🤖" },
+    { "id": "car", "name": "车载电器", "icon": "🚗" },
+    { "id": "coffee", "name": "咖啡电器", "icon": "☕" },
+    { "id": "steammop", "name": "蒸汽拖把", "icon": "🧹" },
+    { "id": "carpro", "name": "车载电器 Pro", "icon": "🚗" },
+    { "id": "garment", "name": "衣物护理", "icon": "👔" }
+  ],
+  "products": {
+    "p1": {
+      "name": "Handheld Vacuum Cleaner",
+      "nameZh": "手持无线吸尘器",
+      "sku": "AC-HV-001",
+      "img": "01-handheld-vacuum.png",
+      "category": "vacuum",
+      "desc": "Lightweight cordless handheld vacuum with 120W suction power.",
+      "descZh": "轻便无线手持吸尘器，120W 强劲吸力",
+      "specs": [["Suction","120W, 16KPa"], ["Battery","2000mAh, 25 min"], ["Weight","1.2 kg"]],
+      "moq": "200",
+      "tags": ["Best Seller", "Hot"]
+    },
+    "p2": {
+      "name": "Robot Vacuum Cleaner",
+      "nameZh": "智能扫地机器人",
+      "sku": "AC-RV-001",
+      "img": "02-robot-vacuum.png",
+      "category": "robot",
+      "desc": "Smart LDS laser navigation robot vacuum.",
+      "descZh": "LDS 激光导航智能扫地机器人",
+      "specs": [["Navigation","LDS Laser"], ["Suction","4000Pa"], ["Battery","5200mAh"]],
+      "moq": "200",
+      "tags": ["Hot"]
+    },
+    "p3": {
+      "name": "Steam Cleaner",
+      "nameZh": "手持蒸汽清洁器",
+      "sku": "AC-SC-001",
+      "img": "03-steam-cleaner.png",
+      "category": "cleaner",
+      "desc": "High-temperature steam cleaner for deep cleaning.",
+      "descZh": "高温蒸汽清洁器，深度清洁",
+      "specs": [["Power","1500W"], ["Temp","105°C"], ["Tank","1200ml"]],
+      "moq": "200",
+      "tags": ["New"]
+    },
+    "p4": {
+      "name": "UV Mite Remover",
+      "nameZh": "除螨仪",
+      "sku": "AC-MR-001",
+      "img": "04-uv-mite-remover.png",
+      "category": "robot",
+      "desc": "UV-C light mite remover with HEPA filtration.",
+      "descZh": "UV-C 紫外线除螨仪，HEPA 过滤",
+      "specs": [["UV-C","253.7nm"], ["Suction","13KPa"], ["HEPA","H11"]],
+      "moq": "200",
+      "tags": []
+    },
+    "p5": {
+      "name": "Window Cleaning Robot",
+      "nameZh": "智能擦窗机器人",
+      "sku": "AC-WR-001",
+      "img": "05-window-robot.png",
+      "category": "robot",
+      "desc": "Automatic window cleaning robot with safety rope.",
+      "descZh": "自动擦窗机器人，带安全绳",
+      "specs": [["Speed","4 min/m²"], ["Coverage","99%"], ["Safety","Rope + UPS"]],
+      "moq": "200",
+      "tags": ["New"]
+    },
+    "p6": {
+      "name": "Car Vacuum",
+      "nameZh": "车载便携吸尘器",
+      "sku": "AC-CV-001",
+      "img": "06-car-vacuum.png",
+      "category": "car",
+      "desc": "Portable car vacuum with 12V adapter.",
+      "descZh": "便携车载吸尘器，12V 适配器",
+      "specs": [["Power","120W"], ["Voltage","12V DC"], ["Cord","5m"]],
+      "moq": "200",
+      "tags": ["Hot"]
+    },
+    "p7": {
+      "name": "Tire Inflator",
+      "nameZh": "数显充气泵",
+      "sku": "AC-TI-001",
+      "img": "07-tire-inflator.png",
+      "category": "car",
+      "desc": "Digital tire inflator with auto shut-off.",
+      "descZh": "数显充气泵，自动停止",
+      "specs": [["Max PSI","150"], ["Display","LCD"], ["Power","12V DC"]],
+      "moq": "200",
+      "tags": []
+    },
+    "p8": {
+      "name": "Coffee Machine",
+      "nameZh": "意式咖啡机",
+      "sku": "AC-CM-001",
+      "img": "08-coffee-machine.png",
+      "category": "coffee",
+      "desc": "19-Bar espresso machine with 1300W power.",
+      "descZh": "19 巴浓缩咖啡机，1300W 功率",
+      "specs": [["Pressure","19 Bar"], ["Power","1300W"], ["Tank","1.2L"]],
+      "moq": "200",
+      "tags": ["New"]
+    },
+    "p9": {
+      "name": "Steam Mop",
+      "nameZh": "立式蒸汽拖把",
+      "sku": "AC-MP-001",
+      "img": "09-steam-mop.png",
+      "category": "steammop",
+      "desc": "Upright steam mop with 110°C steam.",
+      "descZh": "立式蒸汽拖把，110°C 蒸汽",
+      "specs": [["Power","1500W"], ["Temp","110°C"], ["Tank","1.5L"]],
+      "moq": "200",
+      "tags": ["Best Seller"]
+    },
+    "p10": {
+      "name": "Car Vacuum Pro",
+      "nameZh": "车载吸尘器 Pro",
+      "sku": "AC-CVP-001",
+      "img": "10-car-vacuum-pro.png",
+      "category": "carpro",
+      "desc": "Pro car vacuum with 9000Pa suction and LED light.",
+      "descZh": "Pro 车载吸尘器，9000Pa 吸力 + LED 灯",
+      "specs": [["Suction","9000Pa"], ["LED","Yes"], ["HEPA","Yes"]],
+      "moq": "200",
+      "tags": ["Hot"]
+    },
+    "p11": {
+      "name": "Garment Steamer",
+      "nameZh": "立式挂烫机",
+      "sku": "AC-GS-001",
+      "img": "11-garment-steamer.png",
+      "category": "garment",
+      "desc": "Upright garment steamer with 30s heat-up.",
+      "descZh": "立式挂烫机，30 秒速热",
+      "specs": [["Power","1800W"], ["Heat-up","30s"], ["Plate","Ceramic"]],
+      "moq": "200",
+      "tags": ["New"]
+    }
+  }
+}

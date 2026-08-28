@@ -1019,14 +1019,64 @@
     
     // 保存产品编辑
     function saveProductEdit() {
-      const data = {
-        nameEn: document.getElementById('editProductNameEn').value,
-        nameZh: document.getElementById('editProductNameZh').value,
-        sku: document.getElementById('editProductSku').value,
-        moq: document.getElementById('editProductMoq').value,
-        descEn: document.getElementById('editProductDescEn').value,
-        descZh: document.getElementById('editProductDescZh').value
+      const nameEn = document.getElementById('editProductNameEn').value;
+      const nameZh = document.getElementById('editProductNameZh').value;
+      const sku = document.getElementById('editProductSku').value;
+      const moq = document.getElementById('editProductMoq').value;
+      const descEn = document.getElementById('editProductDescEn').value;
+      const descZh = document.getElementById('editProductDescZh').value;
+
+      const productId = document.getElementById('productModal').dataset.productId || 'new';
+      const statusEl = document.getElementById('contactStatus'); // Reuse status area
+
+      // Build product object
+      const product = {
+        name: nameEn,
+        nameZh: nameZh,
+        sku: sku,
+        moq: moq,
+        desc: descEn,
+        descZh: descZh,
+        img: '',
+        category: 'vacuum',
+        specs: [],
+        tags: [],
+        moq: moq
       };
+
+      // Read existing products.json, merge, then commit
+      fetch('../data/products.json')
+        .then(r => r.json())
+        .then(data => {
+          // Update or add product
+          if (!data.products) data.products = {};
+          data.products[productId] = product;
+
+          // Commit via bridge
+          return fetch('http://127.0.0.1:18765/commit', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({
+              message: 'feat(admin): update product ' + productId,
+              files: {
+                'data/products.json': JSON.stringify(data, null, 2)
+              }
+            })
+          });
+        })
+        .then(r => r.json())
+        .then(result => {
+          if (result.ok) {
+            alert('产品已保存并推送到 GitHub！\nCommit: ' + result.commit_sha.substring(0, 8));
+            closeModal();
+          } else {
+            alert('推送失败: ' + (result.error || '未知错误'));
+          }
+        })
+        .catch(err => {
+          alert('操作失败: ' + err.message + '\n\n请确保:\n1. gh_token_server.py 正在运行\n2. 访问 http://localhost:18765/status 检查服务状态');
+        });
+    };
       
       console.log('保存产品:', data);
       alert('产品已保存（演示模式，数据见控制台）');
@@ -1035,12 +1085,62 @@
     
     // 保存公司信息
     function saveCompany() {
-      showStatus('companyStatus', '公司信息已保存（演示模式）', true);
+      const data = {
+        name: document.getElementById('companyName').value,
+        slogan: document.getElementById('slogan').value,
+        founded: document.getElementById('founded').value,
+        employees: document.getElementById('employees').value,
+        revenue: document.getElementById('revenue').value,
+        headquarters: document.getElementById('headquarters').value
+      };
+      fetch('http://127.0.0.1:18765/commit', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({
+          message: 'feat(admin): update company info',
+          files: {'data/company.json': JSON.stringify(data, null, 2)}
+        })
+      })
+      .then(r => r.json())
+      .then(result => {
+        if (result.ok) {
+          showStatus('companyStatus', '公司信息已保存并推送到 GitHub', true);
+        } else {
+          showStatus('companyStatus', '推送失败: ' + result.error, false);
+        }
+      })
+      .catch(err => {
+        showStatus('companyStatus', '桥接服务连接失败: ' + err.message, false);
+      });
     }
     
     // 保存联系方式
     function saveContact() {
-      showStatus('contactStatus', '联系方式已保存（演示模式）', true);
+      const data = {
+        phone: document.getElementById('phone').value,
+        email: document.getElementById('email').value,
+        address: document.getElementById('address').value,
+        factory: document.getElementById('factory').value
+      };
+      fetch('http://127.0.0.1:18765/commit', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({
+          message: 'feat(admin): update contact info',
+          files: {'data/contact.json': JSON.stringify(data, null, 2)}
+        })
+      })
+      .then(r => r.json())
+      .then(result => {
+        if (result.ok) {
+          showStatus('contactStatus', '联系方式已保存并推送到 GitHub', true);
+        } else {
+          showStatus('contactStatus', '推送失败: ' + result.error, false);
+        }
+      })
+      .catch(err => {
+        showStatus('contactStatus', '桥接服务连接失败: ' + err.message, false);
+      });
     }
     
     // 显示状态消息
@@ -1055,6 +1155,20 @@
     document.getElementById('productModal').addEventListener('click', function(e) {
       if (e.target === this) closeModal();
     });
-  </script>
+  
+    // Load products data from JSON (for future edit mode)
+    let productsData = null;
+    async function loadProductsData() {
+      try {
+        const r = await fetch('../data/products.json');
+        productsData = await r.json();
+        console.log('Products data loaded:', Object.keys(productsData.products || {}).length, 'products');
+      } catch (e) {
+        console.warn('Could not load products.json:', e);
+      }
+    }
+    // Auto-load on page init
+    loadProductsData();
+</script>
 </body>
 </html>
