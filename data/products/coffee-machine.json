@@ -1,0 +1,170 @@
+{
+  "category": "coffee-machine",
+  "products": [
+    {
+      "id": "cm-600",
+      "name": {
+        "en": "BrewPro CM-600 Espresso Coffee Machine",
+        "zh": "BrewPro CM-600 意式咖啡机",
+        "ar": "ماكينة القهوة BrewPro CM-600",
+        "es": "Maquina de Cafe BrewPro CM-600",
+        "fr": "Machine a Cafe BrewPro CM-600",
+        "id": "Mesin Kopi BrewPro CM-600",
+        "ru": "Кофемашина BrewPro CM-600",
+        "th": "เครื่องทำกาแฟ BrewPro CM-600",
+        "vi": "May pha ca phe BrewPro CM-600"
+      },
+      "tagline": {
+        "en": "15-Bar Professional Espresso — Barista Quality at Home",
+        "zh": "15bar专业意式 — 在家享受咖啡师品质",
+        "ar": "إسبريسو احترافي 15 بار — جودة البارستا في المنزل",
+        "es": "Espresso Profesional de 15 Bar — Calidad de Barista en Casa",
+        "fr": "Expresso Professionnel 15 Bar — Qualite Barista a la Maison",
+        "id": "Espresso Profesional 15 Bar — Kualitas Barista di Rumah",
+        "ru": "Профессиональный эспрессо 15 бар — качество бариста дома",
+        "th": "เอสเปรสโซมืออาชีพ 15 บาร์ — คุณภาพบาริสต้าที่บ้าน",
+        "vi": "Espresso chuyen nghiep 15 Bar — Chat luong barista tai nha"
+      },
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/08-coffee-machine.png"
+      ],
+      "video_url": "",
+      "moq": {
+        "value": 200,
+        "unit": "pieces"
+      },
+      "certifications": [
+        "CE",
+        "CB",
+        "ETL",
+        "LFGB"
+      ],
+      "highlights": [
+        {
+          "icon": "pressure",
+          "text": {
+            "en": "15-Bar Pump Pressure for Rich Crema",
+            "zh": "15bar泵压，萃取丰富油脂"
+          }
+        },
+        {
+          "icon": "milk",
+          "text": {
+            "en": "Steam Wand Froths Milk for Cappuccino",
+            "zh": "蒸汽管打奶泡，制作卡布奇诺"
+          }
+        },
+        {
+          "icon": "temp",
+          "text": {
+            "en": "PID Temperature Control, +/- 1C Accuracy",
+            "zh": "PID温控，+/- 1C精度"
+          }
+        },
+        {
+          "icon": "cup",
+          "text": {
+            "en": "Dual Cup Brewing, 1-4 Cups at Once",
+            "zh": "双杯冲泡，最多4杯"
+          }
+        }
+      ],
+      "specs": [
+        {
+          "label": {
+            "en": "Pump Pressure",
+            "zh": "泵压"
+          },
+          "value": "15 Bar"
+        },
+        {
+          "label": {
+            "en": "Power",
+            "zh": "功率"
+          },
+          "value": "1100W"
+        },
+        {
+          "label": {
+            "en": "Boiler",
+            "zh": "锅炉"
+          },
+          "value": "Stainless Steel, 1.5L"
+        },
+        {
+          "label": {
+            "en": "Water Tank",
+            "zh": "水箱容量"
+          },
+          "value": "1.8L"
+        },
+        {
+          "label": {
+            "en": "Temperature Control",
+            "zh": "温控"
+          },
+          "value": "PID, 88-96C"
+        },
+        {
+          "label": {
+            "en": "Milk Frother",
+            "zh": "奶泡器"
+          },
+          "value": "Steam Wand, 360 rotatable"
+        },
+        {
+          "label": {
+            "en": "Cup Warmer",
+            "zh": "杯暖器"
+          },
+          "value": "Top Plate, 6 cups"
+        },
+        {
+          "label": {
+            "en": "Pressure Gauge",
+            "zh": "压力表"
+          },
+          "value": "Yes, Analog"
+        },
+        {
+          "label": {
+            "en": "Dimensions",
+            "zh": "尺寸"
+          },
+          "value": "28x30x32cm"
+        },
+        {
+          "label": {
+            "en": "MOQ",
+            "zh": "最小起订量"
+          },
+          "value": "200 pcs"
+        }
+      ],
+      "packaging": {
+        "unit": "color box",
+        "ctn_size": "45x32x18cm",
+        "ctn_qty": "12 pcs",
+        "gross_weight": "15kg"
+      },
+      "customization": {
+        "oem": true,
+        "odm": true,
+        "logo": true,
+        "color": true,
+        "package": true,
+        "sample_lead": "7-14 days",
+        "production_lead": "25-35 days"
+      },
+      "applications": {
+        "en": "Home, Car, Office, Kitchen",
+        "zh": "家庭, 汽车, 办公室, 厨房"
+      },
+      "price_indicator": {
+        "min": 65,
+        "max": 120,
+        "currency": "USD"
+      }
+    }
+  ]
+}
