@@ -1,0 +1,247 @@
+{
+  "categories": [
+    {
+      "slug": "handheld-vacuum",
+      "name": {
+        "en": "Handheld Vacuum Cleaner",
+        "zh": "手持无线吸尘器",
+        "ar": "مكنسة يدوية",
+        "es": "Aspiradora de Mano",
+        "fr": "Aspirateur Portable",
+        "id": "Pembersih Vakum Tangan",
+        "ru": "Ручной пылесос",
+        "th": "เครื่องดูดฝุ่นมือถือ",
+        "vi": "May hut bui cam tay"
+      },
+      "description": {
+        "en": "Lightweight and powerful cordless handheld vacuums. Perfect for quick clean-ups around the home, car, and office. USB-C charging, up to 25 minutes runtime, and wet & dry capability.",
+        "zh": "轻便强劲的无线手持吸尘器，适用于家庭、汽车和办公室的快速清洁。USB-C充电，最长25分钟续航，支持干湿两用。",
+        "ar": "مكنسات يدوية لاسلكية خفيفة وقوية. مثالية للتنظيف السريع في المنزل والسيارة والمكتب.",
+        "es": "Aspiradoras de mano inalambricas ligeras y potentes. Perfectas para limpiezas rapidas en el hogar, coche y oficina.",
+        "fr": "Aspirateurs portatifs sans fil legres et puissants. Parfaits pour un nettoyage rapide a la maison, en voiture et au bureau.",
+        "id": "Pembersih vakum tangan nirkabel yang ringan dan kuat. Sempurna untuk pembersihan cepat di rumah, mobil, dan kantor.",
+        "ru": "Legkie i moshhnye besprovodnye rukonnye pylesosy. Idealno dlya bystroj ochistki doma, mashiny i ofisa.",
+        "th": "เครื่องดูดฝุ่นมือถือไร้สายน้ำหนักเบาและทรงพลัง เหมาะสำหรับการทำความสะอาดอย่างรวดเร็วที่บ้าน รถยนต์ และสำนักงาน",
+        "vi": "May hut bui cam tay khong day nhe nhung manh, hoan hao cho viec don dep nhanh o nha, xe hoi va van phong"
+      },
+      "banner_image": "https://www.hkdmj.net/assets/images/products/01-handheld-vacuum.png",
+      "order": 1
+    },
+    {
+      "slug": "robot-vacuum",
+      "name": {
+        "en": "Robot Vacuum Cleaner",
+        "zh": "智能扫地机器人",
+        "ar": "روبوت تنظيف الارضيات",
+        "es": "Robot Aspirador",
+        "fr": "Robot Aspirateur",
+        "id": "Robot Pembersih Vakum",
+        "ru": "Робот-пылесос",
+        "th": "หุ่นยนต์ดูดฝุ่น",
+        "vi": "Robot hut bui thong minh"
+      },
+      "description": {
+        "en": "Smart robot vacuums with LDS laser navigation, app control, and mopping function. Auto charging, multi-floor mapping, and Alexa/Google Home compatible.",
+        "zh": "搭载LDS激光导航的智能扫地机器人，支持APP控制与拖布功能。自动充电、多楼层地图、兼容Alexa/Google Home。",
+        "ar": "روبوتات ذكية مع ملاحة ليزر LDS وتحكم بالتطبيق ووظيفة المسح. شحن تلقائي ورسم خرائط متعدد الطوابق.",
+        "es": "Robots aspiradores inteligentes con navegacion laser LDS, control por aplicacion y funcion de fregado. Carga automatica y mapeo multiplanta.",
+        "fr": "Robots aspirateurs intelligents avec navigation laser LDS, controle par application et fonction de lavage. Recharge automatique et cartographie multi-etages.",
+        "id": "Robot vakum cerdas dengan navigasi laser LDS, kontrol aplikasi, dan fungsi mengepel. Pengisian otomatis dan pemetaan multi-lantai.",
+        "ru": "Umnye robot-pylesosy s laser-navigatsiej LDS, upravleniem cherez prilozhenie i funktsiej mopleniya. Avtozaryadka i mnogofunktsionalnaya karta.",
+        "th": "หุ่นยนต์ดูดฝุ่นอัจฉริยะพร้อมการนำทางด้วยเลเซอร์ LDS การควบคุมแอป และฟังก์ชันถูพื้น ชาร์จอัตโนมัติและแมปหลายชั้น",
+        "vi": "Robot hut bui thong minh voi dieu huong laser LDS, dieu khien qua ung dung va chuc nang lau chan. Sac tu dong va danh cho nhieu tang"
+      },
+      "banner_image": "https://www.hkdmj.net/assets/images/products/02-robot-vacuum.png",
+      "order": 2
+    },
+    {
+      "slug": "steam-cleaner",
+      "name": {
+        "en": "Steam Cleaner",
+        "zh": "手持蒸汽清洁器",
+        "ar": "منظف بالبخار",
+        "es": "Limpiador de Vapor",
+        "fr": "Nettoyeur a Vapeur",
+        "id": "Pembersih Uap",
+        "ru": "Parnoyj ochistitel",
+        "th": "เครื่องทำความสะอาดด้วยไอน้ำ",
+        "vi": "May danh sach bang hoi nuoc"
+      },
+      "description": {
+        "en": "High-temperature steam cleaners that sanitize without chemicals. 1500W power, 105C steam, multiple attachments for floors, tiles, bathrooms, kitchens, and windows.",
+        "zh": "高温蒸汽清洁器，无需化学剂即可杀菌消毒。1500W功率，105C蒸汽，配备多种配件适用于地板、瓷砖、浴室、厨房和窗户。",
+        "ar": "منظفات بالبخار عالي الحرارة تطهر بدون مواد كيميائية. بقوة 1500 واط وبخار 105 درجة مئوية.",
+        "es": "Limpiadores de vapor de alta temperatura que desinfectan sin productos quimicos. Potencia 1500W, vapor a 105C.",
+        "fr": "Nettoyeurs a vapeur haute temperature qui assainissent sans produits chimiques. Puissance 1500W, vapeur a 105C.",
+        "id": "Pembersih uap suhu tinggi yang mensterilkan tanpa bahan kimia. Daya 1500W, uap 105C.",
+        "ru": "Parnyye ochistiteli s vysokoj temperaturoj dlya dezinfektsii bez khimikatov. Moshhnost 1500W, para 105S.",
+        "th": "เครื่องทำความสะอาดด้วยไอน้ำอุณหภูมิสูงที่ฆ่าเชื้อโรคโดยไม่ต้องใช้สารเคมี กำลัง 1500W ไอน้ำ 105 องศา",
+        "vi": "May danh sach bang hoi nuoc nhiet do cao khuan khuan khong can hoa chat. Cong suat 1500W, hoi nuoc 105C"
+      },
+      "banner_image": "https://www.hkdmj.net/assets/images/products/03-steam-cleaner.png",
+      "order": 3
+    },
+    {
+      "slug": "uv-mite-remover",
+      "name": {
+        "en": "UV Mite Remover",
+        "zh": "紫外线除螨仪",
+        "ar": "مزيل عث الاشعة فوق البنفسجية",
+        "es": "Eliminador de Acaros UV",
+        "fr": "Elimination des Acariens UV",
+        "id": "Pembasmi Tungau UV",
+        "ru": "UF-udalitel kleshhej",
+        "th": "เครื่องกำจัดไรด้วยรังสียูวี",
+        "vi": "Thiet bi tia UV loai bo ve sat"
+      },
+      "description": {
+        "en": "UV-C light mite removers with 55C hot air drying. HEPA filtration traps 99.97% of allergens. Essential for mattresses, sofas, and bedding hygiene.",
+        "zh": "UV-C紫外线除螨仪，55C热风烘干，HEPA过滤网捕捉99.97%过敏原。是床垫、沙发和床上用品清洁的必备品。",
+        "ar": "ازالة عث الاشعة فوق البنفسجية مع تجفيف بالهواء الساخن 55 درجة مئوية. ترشيح HEPA يحبس 99.97% من مسببات الحساسية.",
+        "es": "Eliminadores de acaros con luz UV-C y secado con aire caliente a 55C. Filtracion HEPA atrapa el 99.97% de alérgenos.",
+        "fr": "Elimination des acariens par lumiere UV-C avec sechage a l'air chaud a 55C. Filtration HEPA retient 99.97% des allergenes.",
+        "id": "Pembasmi tungau cahaya UV-C dengan pengeringan udara panas 55C. Filtrasi HEPA menjebak 99.97% alergen.",
+        "ru": "UV-C udaliteli kleshhej s sushkoj goryachim vozdukhom pri 55S. Filtrovanie HEPA ulavlivayet 99.97% allergenov.",
+        "th": "เครื่องกำจัดไรด้วยแสง UV-C พร้อมการทำให้แห้งด้วยอากาศร้อน 55 องศา กรอง HEPA กัก 99.97% ของสารก่อภูมิแพ้",
+        "vi": "Thiet bi loai bo ve sat bang tia UV-C voi say khi nong 55C. Loc HEPA bat 99.97% cac chat gay di ung"
+      },
+      "banner_image": "https://www.hkdmj.net/assets/images/products/04-uv-mite-remover.png",
+      "order": 4
+    },
+    {
+      "slug": "window-cleaner-robot",
+      "name": {
+        "en": "Smart Window Cleaner Robot",
+        "zh": "智能擦窗机器人",
+        "ar": "روبوت تنظيف النوافذ الذكي",
+        "es": "Robot Limpiacristales Inteligente",
+        "fr": "Robot Nettoyeur de Vitres Intelligent",
+        "id": "Robot Pembersih Jendela Cerdas",
+        "ru": "Umnyj robot-dlya-okon",
+        "th": "หุ่นยนต์ทำความสะอาดกระจกอัจฉริยะ",
+        "vi": "Robot lau kinh cua so thong minh"
+      },
+      "description": {
+        "en": "Automatic window cleaning robots with AI navigation and safety sensors. Clean glass, tiles, and mirrors. UPS battery backup prevents falls. 4min/m2 cleaning speed.",
+        "zh": "自动擦窗机器人，AI导航与安全传感器。适用于玻璃、瓷砖和镜子。UPS电池备用防跌落。清洁速度4分钟/平方米。",
+        "ar": "روبوتات تنظيف نوافذ تلقائية مع ملاحة الذكاء الاصطناعي ومستشعرات السلامة. تنظف الزجاج والبلاط والمرايا.",
+        "es": "Robots limpiacristales automaticos con navegacion IA y sensores de seguridad. Limpian vidrio, baldosas y espejos.",
+        "fr": "Robots nettoyeurs de vitres automatiques avec navigation IA et capteurs de securite. Nettoient verre, carrelage et miroirs.",
+        "id": "Robot pembersih jendela otomatis dengan navigasi AI dan sensor keamanan. Membersihkan kaca, ubin, dan cermin.",
+        "ru": "Avtomaticheskie roboty dlya okon s navigatsiej IS i datchikami bezopasnosti. CHistyat steklo, kafelyay i zerkala.",
+        "th": "หุ่นยนต์ทำความสะอาดกระจกอัตโนมัติพร้อมการนำทาง AI และเซนเซอร์ความปลอดภัย ทำความสะอาดกระจก กระเบื้อง และกระจกเงา",
+        "vi": "Robot lau cua so tu dong voi dieu huong AI va cam bien an toan. Don dep kinh, gach men va guong"
+      },
+      "banner_image": "https://www.hkdmj.net/assets/images/products/05-window-robot.png",
+      "order": 5
+    },
+    {
+      "slug": "car-vacuum",
+      "name": {
+        "en": "Car Vacuum Cleaner",
+        "zh": "车载便携吸尘器",
+        "ar": "مكنسة سيارات",
+        "es": "Aspirador de Coche",
+        "fr": "Aspirateur Voiture",
+        "id": "Pembersih Vakum Mobil",
+        "ru": "Avtomobilnyj pylesos",
+        "th": "เครื่องดูดฝุ่นรถยนต์",
+        "vi": "May hut bui o to"
+      },
+      "description": {
+        "en": "Portable car vacuums with 12V/USB power options. Compact design for tight spaces. Powerful suction for crumbs, pet hair, and dust in car interiors.",
+        "zh": "便携车载吸尘器，支持12V/USB供电。紧凑设计适合狭小空间。强劲吸力清理车内碎屑、宠物毛发和灰尘。",
+        "ar": "مكنسات سيارات محمولة بخيارات طاقة 12 فولت / يو اس بي. تصميم مدمج للمساحات الضيقة.",
+        "es": "Aspiradores de coche portatiles con opciones de alimentacion 12V/USB. Diseño compacto para espacios reducidos.",
+        "fr": "Aspirateurs voiture portables avec options d'alimentation 12V/USB. Conception compacte pour les espaces etroits.",
+        "id": "Pembersih vakum mobil portabel dengan pilihan daya 12V/USB. Desain ringkas untuk ruang sempit.",
+        "ru": "Portativnye avtomobilnye pylesosy s pitaniyem 12V/USB. Kompaktnyj dizajn dlya uzskikh prostranstv.",
+        "th": "เครื่องดูดฝุ่นรถยนต์แบบพกพาพร้อมตัวเลือกพลังงาน 12V/USB การออกแบบที่กะทัดรัดสำหรับพื้นที่แคบ",
+        "vi": "May hut bui xe hoi co dinh portabel voi nhieu tuy chon nap dien 12V/USB. Thiet ke nho gon cho khong gian hep"
+      },
+      "banner_image": "https://www.hkdmj.net/assets/images/products/06-car-vacuum.png",
+      "order": 6
+    },
+    {
+      "slug": "tire-inflator",
+      "name": {
+        "en": "Digital Tire Inflator",
+        "zh": "数显充气泵",
+        "ar": "مضخة اطارات رقمية",
+        "es": "Inflador de Neumaticos Digital",
+        "fr": "Gonfleur de Pneus Numérique",
+        "id": "Pompa Ban Digital",
+        "ru": "Tsifrovoj nazhutochnyj nasos",
+        "th": "ปั้มลมยางดิจิทัล",
+        "vi": "May bom long xe may"
+      },
+      "description": {
+        "en": "Digital tire inflators with LCD display and auto shut-off. Preset pressure modes for car, bike, motorcycle. Max 150 PSI. 12V DC or AC home use.",
+        "zh": "数显充气泵，LCD屏幕显示，自动停止。预设多种模式适用于汽车、自行车、摩托车。最高150 PSI，支持12V DC或AC家用。",
+        "ar": "مضخات اطارات رقمية مع شاشة LCD وايقاف تلقائي. اوضاع ضغط معدة مسبقاً للسيارات والدراجات.",
+        "es": "Infladores de neumaticos digitales con pantalla LCD y apagado automatico. Modos de presion preestablecidos.",
+        "fr": "Gonfleurs de pneus numeriques avec ecran LCD et arret automatique. Modes de pression predefinis.",
+        "id": "Pompa ban digital dengan layar LCD dan mati otomatis. Mode tekanan preset untuk mobil dan sepeda motor.",
+        "ru": "Tsifrovye nazhutochnye nasosy s ZHKD-displeem i avtootklyucheniem. Predustanrovlennye rezhimy davleniya.",
+        "th": "ปั้มลมยางดิจิทัลพร้อมหน้าจอ LCD และการปิดอัตโนมัติ โหมดความดันที่ตั้งค่าไว้ล่วงหน้าสำหรับรถยนต์และรถจักรยานยนต์",
+        "vi": "May bom long xe so do LCD va tat tu dong. Che do ap suat duoc cai san co the cho xe hoi, xe may"
+      },
+      "banner_image": "https://www.hkdmj.net/assets/images/products/07-tire-inflator.png",
+      "order": 7
+    },
+    {
+      "slug": "coffee-machine",
+      "name": {
+        "en": "Espresso Coffee Machine",
+        "zh": "意式咖啡机",
+        "ar": "ماكينة قهوة إسبريسو",
+        "es": "Maquina de Cafe Espresso",
+        "fr": "Machine a Cafe Expresso",
+        "id": "Mesin Kopi Espresso",
+        "ru": "Kofemashina espressso",
+        "th": "เครื่องทำกาแฟเอสเปรสโซ",
+        "vi": "May pha ca phe espresso"
+      },
+      "description": {
+        "en": "Professional espresso coffee machines with 15-bar pump pressure, milk frother, and programmable settings. Makes espresso, cappuccino, and latte at home or office.",
+        "zh": "专业意式咖啡机，15bar泵压，奶泡器，可编程设置。在家或办公室制作浓缩咖啡、卡布奇诺和拿铁。",
+        "ar": "ماكينات قهوة اسبريسو احترافية مع ضغط مضخة 15 بار ورغوة حليب واعدادات قابلة للبرمجة.",
+        "es": "Maquinas de cafe espresso profesionales con presión de bomba de 15 bares, espumador de leche y ajustes programables.",
+        "fr": "Machines a cafe expresso professionnelles avec pression de pompe 15 bar, mousseur a lait et reglages programmables.",
+        "id": "Mesin kopi espresso profesional dengan tekanan pompa 15 bar, pengocok susu, dan pengaturan yang dapat diprogram.",
+        "ru": "Professiya kofemashiny espresso s davleniem pompy 15 bar, vzbitivatelem moloka i programmiruyemymi nastrojkami.",
+        "th": "เครื่องทำกาแฟเอสเปรสโซมืออาชีพพร้อมความดันปั๊ม 15 บาร์ ฟองนม และการตั้งค่าที่สามารถตั้งโปรแกรมได้",
+        "vi": "May pha ca phe espresso chuyen nghiep voi ap suat bom 15 bar, vot sua va cai dat co the lap trinh"
+      },
+      "banner_image": "https://www.hkdmj.net/assets/images/products/08-coffee-machine.png",
+      "order": 8
+    },
+    {
+      "slug": "upright-steam-mop",
+      "name": {
+        "en": "Upright Steam Mop",
+        "zh": "立式蒸汽拖把",
+        "ar": "ممسحة بخار عمودية",
+        "es": "Mopa de Vapor Vertical",
+        "fr": "Serpilliere a Vapeur Verticale",
+        "id": "Pel Uap Tegak",
+        "ru": "Versskaya parovaya shvabra",
+        "th": "ถูพื้นไอน้ำแนวตั้ง",
+        "vi": "Chet lot hoi nuoc dung doc"
+      },
+      "description": {
+        "en": "Upright steam mops for chemical-free floor cleaning. 1500W, 100C steam, 500ml water tank. Sanitizes hard floors and carpets without detergents.",
+        "zh": "立式蒸汽拖把，无需化学剂清洁地板。1500W，100C蒸汽，500ml水箱。无需洗涤剂即可为硬地板和地毯消毒。",
+        "ar": "ممسحات بخار عمودية للتنظيف الكيميائي المجاني للارضيات. بقوة 1500 واط وبخار 100 درجة مئوية.",
+        "es": "Mopas de vapor verticales para limpieza de suelos sin productos quimicos. Potencia 1500W, vapor a 100C.",
+        "fr": "Serpillieres a vapeur verticales pour nettoyage chimique gratuit des sols. Puissance 1500W, vapeur a 100C.",
+        "id": "Pel uap tegak untuk pembersihan lantai tanpa bahan kimia. Daya 1500W, uap 100C, tangki air 500ml.",
+        "ru": "Versskaya parovaya shvabra dlya khimicheski chistki polov. Moshhnost 1500W, para 100S.",
+        "th": "ถูพื้นไอน้ำแนวตั้งสำหรับทำความสะอาดพื้นโดยไม่ต้องใช้สารเคมี กำลัง 1500W ไอน้ำ 100 องศา",
+        "vi": "Chet lot hoi nuoc dung doc de ve sinh san khong can hoa chat. Cong suat 1500W, hoi nuoc 100C"
+      },
+      "banner_image": "https://www.hkdmj.net/assets/images/products/09-steam-mop.png",
+      "order": 9
+    }
+  ]
+}
