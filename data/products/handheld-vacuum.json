@@ -1,0 +1,169 @@
+{
+  "category": "handheld-vacuum",
+  "products": [
+    {
+      "id": "hv-100",
+      "name": {
+        "en": "AquaPro HV-100 Handheld Vacuum",
+        "zh": "AquaPro HV-100 手持无线吸尘器",
+        "ar": "مكنسة AquaPro HV-100 يدوية",
+        "es": "Aspiradora de Mano AquaPro HV-100",
+        "fr": "Aspirateur Portable AquaPro HV-100",
+        "id": "Pembersih Vakum Tangan AquaPro HV-100",
+        "ru": "Ручной пылесос AquaPro HV-100",
+        "th": "เครื่องดูดฝุ่นมือถือ AquaPro HV-100",
+        "vi": "May hut bui cam tay AquaPro HV-100"
+      },
+      "tagline": {
+        "en": "Lightweight & Powerful — Perfect for Quick Cleanups",
+        "zh": "轻便强劲 — 快速清洁的理想之选",
+        "ar": "خفيف الوزن وقوي — مثالي للتنظيف السريع",
+        "es": "Ligero y Potente — Perfecto para Limpiezas Rapidas",
+        "fr": "Leger et Puissant — Parfait pour les Nettoyages Rapides",
+        "id": "Ringan & Kuat — Sempurna untuk Pembersihan Cepat",
+        "ru": "Legkij i moshhnyj — idealno dlya bystroj ochistki",
+        "th": "น้ำหนักเบาและทรงพลัง — สมบูรณ์แบบสำหรับการทำความสะอาดอย่างรวดเร็ว",
+        "vi": "Nhe nhung manh — Hoan hao cho viec don dep nhanh"
+      },
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/01-handheld-vacuum.png"
+      ],
+      "video_url": "",
+      "moq": {
+        "value": 500,
+        "unit": "pieces"
+      },
+      "certifications": [
+        "CE",
+        "FCC",
+        "RoHS"
+      ],
+      "highlights": [
+        {
+          "icon": "power",
+          "text": {
+            "en": "120W Motor, 9000Pa Suction",
+            "zh": "120W电机，9000Pa吸力"
+          }
+        },
+        {
+          "icon": "battery",
+          "text": {
+            "en": "25min Runtime, USB-C Charging",
+            "zh": "25分钟续航，USB-C充电"
+          }
+        },
+        {
+          "icon": "water",
+          "text": {
+            "en": "Wet & Dry Dual Function",
+            "zh": "干湿两用"
+          }
+        },
+        {
+          "icon": "light",
+          "text": {
+            "en": "LED Floor Light for Dark Areas",
+            "zh": "LED地面照明，适用于暗处"
+          }
+        }
+      ],
+      "specs": [
+        {
+          "label": {
+            "en": "Motor Power",
+            "zh": "电机功率"
+          },
+          "value": "120W"
+        },
+        {
+          "label": {
+            "en": "Suction",
+            "zh": "吸力"
+          },
+          "value": "9000Pa"
+        },
+        {
+          "label": {
+            "en": "Runtime",
+            "zh": "续航时间"
+          },
+          "value": "25 min"
+        },
+        {
+          "label": {
+            "en": "Charging",
+            "zh": "充电方式"
+          },
+          "value": "USB-C, 3-4 hrs"
+        },
+        {
+          "label": {
+            "en": "Dust Cup",
+            "zh": "尘杯容量"
+          },
+          "value": "0.5L"
+        },
+        {
+          "label": {
+            "en": "Weight",
+            "zh": "重量"
+          },
+          "value": "1.2kg"
+        },
+        {
+          "label": {
+            "en": "Noise",
+            "zh": "噪音"
+          },
+          "value": "< 70dB"
+        },
+        {
+          "label": {
+            "en": "Material",
+            "zh": "材质"
+          },
+          "value": "ABS"
+        },
+        {
+          "label": {
+            "en": "Colors",
+            "zh": "颜色"
+          },
+          "value": "White, Gray, Black"
+        },
+        {
+          "label": {
+            "en": "MOQ",
+            "zh": "最小起订量"
+          },
+          "value": "500 pcs"
+        }
+      ],
+      "packaging": {
+        "unit": "color box",
+        "ctn_size": "45x32x18cm",
+        "ctn_qty": "12 pcs",
+        "gross_weight": "15kg"
+      },
+      "customization": {
+        "oem": true,
+        "odm": true,
+        "logo": true,
+        "color": true,
+        "package": true,
+        "sample_lead": "7-14 days",
+        "production_lead": "25-35 days"
+      },
+      "applications": {
+        "en": "Home, Car, Office, Kitchen",
+        "zh": "家庭, 汽车, 办公室, 厨房"
+      },
+      "price_indicator": {
+        "min": 45,
+        "max": 75,
+        "currency": "USD"
+      }
+    }
+  ]
+}
