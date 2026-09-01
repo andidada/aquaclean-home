@@ -1,0 +1,169 @@
+{
+  "category": "tire-inflator",
+  "products": [
+    {
+      "id": "ti-400",
+      "name": {
+        "en": "AirPro TI-400 Digital Tire Inflator",
+        "zh": "AirPro TI-400 数显充气泵",
+        "ar": "مضخة AirPro TI-400 الرقمية للاطارات",
+        "es": "Inflador Digital AirPro TI-400",
+        "fr": "Gonfleur Numerique AirPro TI-400",
+        "id": "Pompa Ban Digital AirPro TI-400",
+        "ru": "Цифровой насос AirPro TI-400",
+        "th": "ปั้มลมยางดิจิทัล AirPro TI-400",
+        "vi": "May bom long xe AirPro TI-400"
+      },
+      "tagline": {
+        "en": "Digital Precision — Auto Shut-Off at Your Target PSI",
+        "zh": "数字精准 — 到达目标PSI自动停止",
+        "ar": "دقة رقمية — إيقاف تلقائي عند مستوى PSI المستهدف",
+        "es": "Precision Digital — Apagado Automatico en tu PSI Objetivo",
+        "fr": "Precision Numerique — Arret Automatique a Votre PSI Cible",
+        "id": "Presisi Digital — Mati Otomatis pada PSI Target Anda",
+        "ru": "Цифровая точность — автоотключение при достижении целевого PSI",
+        "th": "ความแม่นยำดิจิทัล — ปิดอัตโนมัติที่ PSI เป้าหมายของคุณ",
+        "vi": "Do chinh xac so — Tat tu dong khi dat PSI muc tieu"
+      },
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/07-tire-inflator.png"
+      ],
+      "video_url": "",
+      "moq": {
+        "value": 500,
+        "unit": "pieces"
+      },
+      "certifications": [
+        "CE",
+        "FCC",
+        "RoHS"
+      ],
+      "highlights": [
+        {
+          "icon": "display",
+          "text": {
+            "en": "Backlit LCD, 4 Units: PSI/bar/kPa/kg/cm2",
+            "zh": "背光LCD，4种单位：PSI/bar/kPa/kg/cm2"
+          }
+        },
+        {
+          "icon": "auto",
+          "text": {
+            "en": "Preset Modes: Car, Bike, Motorcycle, Ball",
+            "zh": "预设模式：汽车、自行车、摩托车、球类"
+          }
+        },
+        {
+          "icon": "max",
+          "text": {
+            "en": "Max 150 PSI, 12V DC or 220V AC Use",
+            "zh": "最高150 PSI，支持12V DC或220V AC"
+          }
+        },
+        {
+          "icon": "light",
+          "text": {
+            "en": "Built-in LED Light for Night Use",
+            "zh": "内置LED灯，夜间使用"
+          }
+        }
+      ],
+      "specs": [
+        {
+          "label": {
+            "en": "Max Pressure",
+            "zh": "最大压力"
+          },
+          "value": "150 PSI / 10.3 bar"
+        },
+        {
+          "label": {
+            "en": "Display",
+            "zh": "显示屏"
+          },
+          "value": "Backlit LCD"
+        },
+        {
+          "label": {
+            "en": "Units",
+            "zh": "单位"
+          },
+          "value": "PSI, bar, kPa, kg/cm2"
+        },
+        {
+          "label": {
+            "en": "Power",
+            "zh": "电源"
+          },
+          "value": "12V DC / 220V AC"
+        },
+        {
+          "label": {
+            "en": "Power Cord",
+            "zh": "电源线"
+          },
+          "value": "3m Air Hose"
+        },
+        {
+          "label": {
+            "en": "Accuracy",
+            "zh": "精度"
+          },
+          "value": "+/- 1 PSI"
+        },
+        {
+          "label": {
+            "en": "Auto Shut-Off",
+            "zh": "自动停止"
+          },
+          "value": "Yes"
+        },
+        {
+          "label": {
+            "en": "LED Light",
+            "zh": "LED灯"
+          },
+          "value": "Yes, Built-in"
+        },
+        {
+          "label": {
+            "en": "Weight",
+            "zh": "重量"
+          },
+          "value": "1.5kg"
+        },
+        {
+          "label": {
+            "en": "MOQ",
+            "zh": "最小起订量"
+          },
+          "value": "500 pcs"
+        }
+      ],
+      "packaging": {
+        "unit": "color box",
+        "ctn_size": "45x32x18cm",
+        "ctn_qty": "12 pcs",
+        "gross_weight": "15kg"
+      },
+      "customization": {
+        "oem": true,
+        "odm": true,
+        "logo": true,
+        "color": true,
+        "package": true,
+        "sample_lead": "7-14 days",
+        "production_lead": "25-35 days"
+      },
+      "applications": {
+        "en": "Home, Car, Office, Kitchen",
+        "zh": "家庭, 汽车, 办公室, 厨房"
+      },
+      "price_indicator": {
+        "min": 22,
+        "max": 42,
+        "currency": "USD"
+      }
+    }
+  ]
+}
