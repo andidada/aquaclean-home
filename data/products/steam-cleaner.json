@@ -1,0 +1,169 @@
+{
+  "category": "steam-cleaner",
+  "products": [
+    {
+      "id": "sc-200",
+      "name": {
+        "en": "AquaSteam SC-200 Steam Cleaner",
+        "zh": "AquaSteam SC-200 手持蒸汽清洁器",
+        "ar": "منظف البخار AquaSteam SC-200",
+        "es": "Limpiador de Vapor AquaSteam SC-200",
+        "fr": "Nettoyeur a Vapeur AquaSteam SC-200",
+        "id": "Pembersih Uap AquaSteam SC-200",
+        "ru": "Паровой очиститель AquaSteam SC-200",
+        "th": "เครื่องทำความสะอาดด้วยไอน้ำ AquaSteam SC-200",
+        "vi": "May danh sach hoi nuoc AquaSteam SC-200"
+      },
+      "tagline": {
+        "en": "1500W — 105C Steam for Chemical-Free Deep Clean",
+        "zh": "1500W — 105C蒸汽，化学剂零添加深度清洁",
+        "ar": "1500 واط — بخار 105 درجة مئوية للتنظيف العميق بدون مواد كيميائية",
+        "es": "1500W — Vapor a 105C para Limpieza Profunda sin Quimicos",
+        "fr": "1500W — Vapeur a 105C pour Nettoyage Profond sans Produits Chimiques",
+        "id": "1500W — Uap 105C untuk Pembersihan Dalam tanpa Bahan Kimia",
+        "ru": "1500W — пар 105C для глубокой очистки без химии",
+        "th": "1500W — ไอน้ำ 105 องศาสำหรับการทำความสะอาดลึกโดยไม่ต้องใช้สารเคมี",
+        "vi": "1500W — Hoi nuoc 105C don dep sau ma khong can hoa chat"
+      },
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/03-steam-cleaner.png"
+      ],
+      "video_url": "",
+      "moq": {
+        "value": 500,
+        "unit": "pieces"
+      },
+      "certifications": [
+        "CE",
+        "CB",
+        "ETL"
+      ],
+      "highlights": [
+        {
+          "icon": "heat",
+          "text": {
+            "en": "1500W Fast Heat-Up, Ready in 30s",
+            "zh": "1500W快速加热，30秒即可使用"
+          }
+        },
+        {
+          "icon": "temp",
+          "text": {
+            "en": "105C Super-Heated Steam, 0 Moisture",
+            "zh": "105C过热蒸汽，含水量为零"
+          }
+        },
+        {
+          "icon": "tank",
+          "text": {
+            "en": "1.2L Detachable Water Tank",
+            "zh": "1.2L可拆卸水箱"
+          }
+        },
+        {
+          "icon": "tools",
+          "text": {
+            "en": "9 Accessories: Floor, Tile, Glass, Fabric",
+            "zh": "9种配件：地板、瓷砖、玻璃、织物"
+          }
+        }
+      ],
+      "specs": [
+        {
+          "label": {
+            "en": "Power",
+            "zh": "功率"
+          },
+          "value": "1500W"
+        },
+        {
+          "label": {
+            "en": "Steam Temp",
+            "zh": "蒸汽温度"
+          },
+          "value": "105C"
+        },
+        {
+          "label": {
+            "en": "Heat-Up Time",
+            "zh": "加热时间"
+          },
+          "value": "30 seconds"
+        },
+        {
+          "label": {
+            "en": "Water Tank",
+            "zh": "水箱容量"
+          },
+          "value": "1.2L"
+        },
+        {
+          "label": {
+            "en": "Steam Duration",
+            "zh": "蒸汽持续时间"
+          },
+          "value": "40-60 min"
+        },
+        {
+          "label": {
+            "en": "Pressure",
+            "zh": "蒸汽压力"
+          },
+          "value": "3.5 bar"
+        },
+        {
+          "label": {
+            "en": "Cord Length",
+            "zh": "电源线长"
+          },
+          "value": "3m"
+        },
+        {
+          "label": {
+            "en": "Weight",
+            "zh": "重量"
+          },
+          "value": "2.5kg"
+        },
+        {
+          "label": {
+            "en": "Safety",
+            "zh": "安全功能"
+          },
+          "value": "Auto Shut-Off, Overheat Protection"
+        },
+        {
+          "label": {
+            "en": "MOQ",
+            "zh": "最小起订量"
+          },
+          "value": "500 pcs"
+        }
+      ],
+      "packaging": {
+        "unit": "color box",
+        "ctn_size": "45x32x18cm",
+        "ctn_qty": "12 pcs",
+        "gross_weight": "15kg"
+      },
+      "customization": {
+        "oem": true,
+        "odm": true,
+        "logo": true,
+        "color": true,
+        "package": true,
+        "sample_lead": "7-14 days",
+        "production_lead": "25-35 days"
+      },
+      "applications": {
+        "en": "Home, Car, Office, Kitchen",
+        "zh": "家庭, 汽车, 办公室, 厨房"
+      },
+      "price_indicator": {
+        "min": 55,
+        "max": 90,
+        "currency": "USD"
+      }
+    }
+  ]
+}
