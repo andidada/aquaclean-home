@@ -1,0 +1,169 @@
+{
+  "category": "upright-steam-mop",
+  "products": [
+    {
+      "id": "sm-700",
+      "name": {
+        "en": "FloorPro SM-700 Upright Steam Mop",
+        "zh": "FloorPro SM-700 立式蒸汽拖把",
+        "ar": "ممسحة FloorPro SM-700 البخارية العمودية",
+        "es": "Mopa de Vapor FloorPro SM-700",
+        "fr": "Serpilliere a Vapeur FloorPro SM-700",
+        "id": "Pel Uap FloorPro SM-700",
+        "ru": "Паровая швабра FloorPro SM-700",
+        "th": "ถูพื้นไอน้ำ FloorPro SM-700",
+        "vi": "Chet lot hoi nuoc FloorPro SM-700"
+      },
+      "tagline": {
+        "en": "100C Steam + Carpet Head — Sanitize All Floor Types",
+        "zh": "100C蒸汽+地毯头 — 全地形地板消毒",
+        "ar": "بخار 100 درجة مئوية + رأس للسجاد — تطهير جميع أنواع الأرضيات",
+        "es": "Vapor a 100C + Cabezal para Alfombra — Desinfecta Todos los Tipos de Suelo",
+        "fr": "Vapeur 100C + Tete Tapis — Desinfecte Tous les Types de Sol",
+        "id": "Uap 100C + Kepala Karpet — Sterilkan Semua Jenis Lantai",
+        "ru": "Пар 100C + насадка для ковра — дезинфекция всех типов полов",
+        "th": "ไอน้ำ 100 องศา + หัวพื้นพรม — ฆ่าเชื้อโรคทุกประเภทพื้น",
+        "vi": "Hoi nuoc 100C + dau danh chan — Khuan trung moi loai san"
+      },
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/09-steam-mop.png"
+      ],
+      "video_url": "",
+      "moq": {
+        "value": 500,
+        "unit": "pieces"
+      },
+      "certifications": [
+        "CE",
+        "CB",
+        "ETL"
+      ],
+      "highlights": [
+        {
+          "icon": "heat",
+          "text": {
+            "en": "1500W, 100C Steam in 30 Seconds",
+            "zh": "1500W，30秒出蒸汽"
+          }
+        },
+        {
+          "icon": "carpet",
+          "text": {
+            "en": "Detachable Carpet Glider Head Included",
+            "zh": "附带可拆卸地毯滑行头"
+          }
+        },
+        {
+          "icon": "tank",
+          "text": {
+            "en": "500ml Tank, 30min Continuous Steam",
+            "zh": "500ml水箱，持续30分钟蒸汽"
+          }
+        },
+        {
+          "icon": "chemical",
+          "text": {
+            "en": "100% Chemical-Free Floor Sanitization",
+            "zh": "100%无化学剂地板消毒"
+          }
+        }
+      ],
+      "specs": [
+        {
+          "label": {
+            "en": "Power",
+            "zh": "功率"
+          },
+          "value": "1500W"
+        },
+        {
+          "label": {
+            "en": "Steam Temp",
+            "zh": "蒸汽温度"
+          },
+          "value": "100C"
+        },
+        {
+          "label": {
+            "en": "Heat-Up",
+            "zh": "加热时间"
+          },
+          "value": "30 seconds"
+        },
+        {
+          "label": {
+            "en": "Water Tank",
+            "zh": "水箱容量"
+          },
+          "value": "500ml"
+        },
+        {
+          "label": {
+            "en": "Steam Duration",
+            "zh": "蒸汽持续时间"
+          },
+          "value": "30 min"
+        },
+        {
+          "label": {
+            "en": "Steam Control",
+            "zh": "蒸汽控制"
+          },
+          "value": "Trigger + Lock Button"
+        },
+        {
+          "label": {
+            "en": "Mop Pad",
+            "zh": "拖布"
+          },
+          "value": "Microfiber, Washable"
+        },
+        {
+          "label": {
+            "en": "Carpet Head",
+            "zh": "地毯头"
+          },
+          "value": "Detachable, Included"
+        },
+        {
+          "label": {
+            "en": "Cord Length",
+            "zh": "电源线"
+          },
+          "value": "5m"
+        },
+        {
+          "label": {
+            "en": "MOQ",
+            "zh": "最小起订量"
+          },
+          "value": "500 pcs"
+        }
+      ],
+      "packaging": {
+        "unit": "color box",
+        "ctn_size": "45x32x18cm",
+        "ctn_qty": "12 pcs",
+        "gross_weight": "15kg"
+      },
+      "customization": {
+        "oem": true,
+        "odm": true,
+        "logo": true,
+        "color": true,
+        "package": true,
+        "sample_lead": "7-14 days",
+        "production_lead": "25-35 days"
+      },
+      "applications": {
+        "en": "Home, Car, Office, Kitchen",
+        "zh": "家庭, 汽车, 办公室, 厨房"
+      },
+      "price_indicator": {
+        "min": 38,
+        "max": 68,
+        "currency": "USD"
+      }
+    }
+  ]
+}
