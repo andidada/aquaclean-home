@@ -204,18 +204,8 @@
     // ===== MAIN LAYOUT =====
     html += '<div class="d-layout">';
 
-    // --- Gallery ---
+    // --- Gallery (Alibaba style: vertical thumbs left, main image right) ---
     html += '<div class="d-gallery">';
-    html += '<div class="d-gallery-main" id="aqc-gallery-main">';
-    if (images.length) {
-      html += '<img src="' + esc(images[0]) + '" alt="' + esc(pick(product.name, state.lang)) + '" id="aqc-main-img">';
-    } else {
-      html += '<div class="d-loading">No image</div>';
-    }
-    if (hasVideo) {
-      html += '<div class="d-gallery-video" id="aqc-video-box"><video id="aqc-video" controls playsinline></video></div>';
-    }
-    html += '</div>';
     if (images.length > 1 || hasVideo) {
       html += '<div class="d-gallery-thumbs">';
       for (var gi = 0; gi < images.length; gi++) {
@@ -226,6 +216,17 @@
       }
       html += '</div>';
     }
+    html += '<div class="d-gallery-main" id="aqc-gallery-main">';
+    if (images.length) {
+      html += '<img src="' + esc(images[0]) + '" alt="' + esc(pick(product.name, state.lang)) + '" id="aqc-main-img">';
+    } else {
+      html += '<div class="d-loading">No image</div>';
+    }
+    html += '<span class="d-gallery-zoom" id="aqc-zoom">⤢</span>';
+    if (hasVideo) {
+      html += '<div class="d-gallery-video" id="aqc-video-box"><video id="aqc-video" controls playsinline></video></div>';
+    }
+    html += '</div>';
     html += '</div>';
 
     // --- Info panel ---
@@ -254,16 +255,23 @@
       html += '</div>';
     }
 
-    // price ladder
+    // price ladder (Alibaba 3-column cards)
     if (ladder.length) {
       html += '<div class="d-price-block">';
-      html += '<div class="d-price-label" style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#64748B;margin-bottom:4px;">' + esc(ui.priceTitle) + '</div>';
+      html += '<div class="d-price-label">' + esc(ui.priceTitle) + ' <span class="d-price-range-hint">(' + esc(ui.moq) + ': ' + moq + '+ ' + esc(ui.per) + ')</span></div>';
+      html += '<div class="d-price-cards">';
       for (var li = 0; li < ladder.length; li++) {
         var l = ladder[li];
-        var rangeStr = (l.max == null || l.max === -1) ? l.min + '+' : l.min + '–' + l.max;
-        html += '<div class="d-price-row"><span class="range">' + esc(rangeStr) + ' ' + esc(ui.per) + '</span><span class="price">' + esc(ui.currency) + l.price + '</span></div>';
+        var rangeStr = (l.max == null || l.max === -1) ? l.min + '+' : l.min + ' – ' + l.max;
+        var best = (li === ladder.length - 1);
+        html += '<div class="d-price-card' + (best ? ' best' : '') + '">';
+        if (best) html += '<span class="d-price-best">Best Price</span>';
+        html += '<div class="d-price-range">' + esc(rangeStr) + ' ' + esc(ui.per) + '</div>';
+        html += '<div class="d-price-val"><span class="cur">' + esc(ui.currency) + '</span>' + l.price + '</div>';
+        html += '</div>';
       }
-      html += '<div class="d-price-moq">' + esc(ui.moq) + ': <b>' + moq + ' ' + esc(ui.per) + '</b> · ' + esc(ui.inStock) + '</div>';
+      html += '</div>';
+      html += '<div class="d-price-moq"><span class="d-ta-icon">🛡</span> ' + esc(ui.moq) + ': <b>' + moq + ' ' + esc(ui.per) + '</b> · ' + esc(ui.inStock) + '</div>';
       html += '</div>';
     }
 
