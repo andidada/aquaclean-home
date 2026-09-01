@@ -1,0 +1,170 @@
+{
+  "category": "robot-vacuum",
+  "products": [
+    {
+      "id": "aq-rv100",
+      "name": {
+        "en": "AquaSmart AQ-RV100 Robot Vacuum",
+        "zh": "AquaSmart AQ-RV100 智能扫地机器人",
+        "ar": "روبوت التنظيف AquaSmart AQ-RV100",
+        "es": "Robot Aspirador AquaSmart AQ-RV100",
+        "fr": "Robot Aspirateur AquaSmart AQ-RV100",
+        "id": "Robot Pembersih Vakum AquaSmart AQ-RV100",
+        "ru": "Робот-пылесос AquaSmart AQ-RV100",
+        "th": "หุ่นยนต์ดูดฝุ่น AquaSmart AQ-RV100",
+        "vi": "Robot hut bui AquaSmart AQ-RV100"
+      },
+      "tagline": {
+        "en": "LDS Laser Navigation — Maps Your Entire Home",
+        "zh": "LDS激光导航 — 绘制全屋地图",
+        "ar": "ملاحة ليزر LDS — يرسم خريطة منزلك بالكامل",
+        "es": "Navegacion Laser LDS — Mapea Toda tu Casa",
+        "fr": "Navigation Laser LDS — Cartographie Complete de la Maison",
+        "id": "Navigasi Laser LDS — Pemetaan Rumah Seluruhnya",
+        "ru": "Лазерная навигация LDS — картографирование всего дома",
+        "th": "การนำทางด้วยเลเซอร์ LDS — แมปบ้านทั้งหมดของคุณ",
+        "vi": "Dieu huong laser LDS — Ban do nha cua ban"
+      },
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/02-robot-vacuum.png"
+      ],
+      "video_url": "",
+      "moq": {
+        "value": 200,
+        "unit": "pieces"
+      },
+      "certifications": [
+        "CE",
+        "FCC",
+        "RoHS",
+        "CB"
+      ],
+      "highlights": [
+        {
+          "icon": "laser",
+          "text": {
+            "en": "LDS Laser Navigation, 360° Scanning",
+            "zh": "LDS激光导航，360度扫描"
+          }
+        },
+        {
+          "icon": "mop",
+          "text": {
+            "en": "Vacuum & Mop 2-in-1, 200ml Tank",
+            "zh": "扫拖一体，200ml水箱"
+          }
+        },
+        {
+          "icon": "map",
+          "text": {
+            "en": "Multi-Floor Mapping, 5 Maps Stored",
+            "zh": "多层地图，存储5张地图"
+          }
+        },
+        {
+          "icon": "battery",
+          "text": {
+            "en": "150min Runtime, Auto Recharge",
+            "zh": "150分钟续航，自动回充"
+          }
+        }
+      ],
+      "specs": [
+        {
+          "label": {
+            "en": "Navigation",
+            "zh": "导航方式"
+          },
+          "value": "LDS Laser"
+        },
+        {
+          "label": {
+            "en": "Suction",
+            "zh": "吸力"
+          },
+          "value": "4000Pa"
+        },
+        {
+          "label": {
+            "en": "Runtime",
+            "zh": "续航时间"
+          },
+          "value": "150 min"
+        },
+        {
+          "label": {
+            "en": "Battery",
+            "zh": "电池容量"
+          },
+          "value": "5200mAh"
+        },
+        {
+          "label": {
+            "en": "Dust Box",
+            "zh": "尘盒容量"
+          },
+          "value": "600ml"
+        },
+        {
+          "label": {
+            "en": "Water Tank",
+            "zh": "水箱容量"
+          },
+          "value": "200ml"
+        },
+        {
+          "label": {
+            "en": "Climbing",
+            "zh": "越障能力"
+          },
+          "value": "20mm"
+        },
+        {
+          "label": {
+            "en": "Noise",
+            "zh": "噪音"
+          },
+          "value": "< 65dB"
+        },
+        {
+          "label": {
+            "en": "App Control",
+            "zh": "APP控制"
+          },
+          "value": "Tuya Smart / Smart Life"
+        },
+        {
+          "label": {
+            "en": "MOQ",
+            "zh": "最小起订量"
+          },
+          "value": "200 pcs"
+        }
+      ],
+      "packaging": {
+        "unit": "color box",
+        "ctn_size": "45x32x18cm",
+        "ctn_qty": "12 pcs",
+        "gross_weight": "15kg"
+      },
+      "customization": {
+        "oem": true,
+        "odm": true,
+        "logo": true,
+        "color": true,
+        "package": true,
+        "sample_lead": "7-14 days",
+        "production_lead": "25-35 days"
+      },
+      "applications": {
+        "en": "Home, Car, Office, Kitchen",
+        "zh": "家庭, 汽车, 办公室, 厨房"
+      },
+      "price_indicator": {
+        "min": 95,
+        "max": 165,
+        "currency": "USD"
+      }
+    }
+  ]
+}
