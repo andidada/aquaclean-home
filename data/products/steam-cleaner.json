@@ -1,169 +1,283 @@
 {
-  "category": "steam-cleaner",
-  "products": [
+ "category": "steam-cleaner",
+ "products": [
+  {
+   "id": "sc-200",
+   "name": {
+    "en": "AquaSteam SC-200 Steam Cleaner",
+    "zh": "AquaSteam SC-200 手持蒸汽清洁器",
+    "ar": "منظف البخار AquaSteam SC-200",
+    "es": "Limpiador de Vapor AquaSteam SC-200",
+    "fr": "Nettoyeur a Vapeur AquaSteam SC-200",
+    "id": "Pembersih Uap AquaSteam SC-200",
+    "ru": "Паровой очиститель AquaSteam SC-200",
+    "th": "เครื่องทำความสะอาดด้วยไอน้ำ AquaSteam SC-200",
+    "vi": "May danh sach hoi nuoc AquaSteam SC-200"
+   },
+   "tagline": {
+    "en": "1500W — 105C Steam for Chemical-Free Deep Clean",
+    "zh": "1500W — 105C蒸汽，化学剂零添加深度清洁",
+    "ar": "1500 واط — بخار 105 درجة مئوية للتنظيف العميق بدون مواد كيميائية",
+    "es": "1500W — Vapor a 105C para Limpieza Profunda sin Quimicos",
+    "fr": "1500W — Vapeur a 105C pour Nettoyage Profond sans Produits Chimiques",
+    "id": "1500W — Uap 105C untuk Pembersihan Dalam tanpa Bahan Kimia",
+    "ru": "1500W — пар 105C для глубокой очистки без химии",
+    "th": "1500W — ไอน้ำ 105 องศาสำหรับการทำความสะอาดลึกโดยไม่ต้องใช้สารเคมี",
+    "vi": "1500W — Hoi nuoc 105C don dep sau ma khong can hoa chat"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/03-steam-cleaner.png"
+   ],
+   "video_url": "",
+   "moq": {
+    "value": 500,
+    "unit": "pieces"
+   },
+   "certifications": [
+    "CE",
+    "CB",
+    "ETL"
+   ],
+   "highlights": [
     {
-      "id": "sc-200",
-      "name": {
-        "en": "AquaSteam SC-200 Steam Cleaner",
-        "zh": "AquaSteam SC-200 手持蒸汽清洁器",
-        "ar": "منظف البخار AquaSteam SC-200",
-        "es": "Limpiador de Vapor AquaSteam SC-200",
-        "fr": "Nettoyeur a Vapeur AquaSteam SC-200",
-        "id": "Pembersih Uap AquaSteam SC-200",
-        "ru": "Паровой очиститель AquaSteam SC-200",
-        "th": "เครื่องทำความสะอาดด้วยไอน้ำ AquaSteam SC-200",
-        "vi": "May danh sach hoi nuoc AquaSteam SC-200"
-      },
-      "tagline": {
-        "en": "1500W — 105C Steam for Chemical-Free Deep Clean",
-        "zh": "1500W — 105C蒸汽，化学剂零添加深度清洁",
-        "ar": "1500 واط — بخار 105 درجة مئوية للتنظيف العميق بدون مواد كيميائية",
-        "es": "1500W — Vapor a 105C para Limpieza Profunda sin Quimicos",
-        "fr": "1500W — Vapeur a 105C pour Nettoyage Profond sans Produits Chimiques",
-        "id": "1500W — Uap 105C untuk Pembersihan Dalam tanpa Bahan Kimia",
-        "ru": "1500W — пар 105C для глубокой очистки без химии",
-        "th": "1500W — ไอน้ำ 105 องศาสำหรับการทำความสะอาดลึกโดยไม่ต้องใช้สารเคมี",
-        "vi": "1500W — Hoi nuoc 105C don dep sau ma khong can hoa chat"
-      },
-      "images": [
-        "https://www.hkdmj.net/assets/images/products/03-steam-cleaner.png"
-      ],
-      "video_url": "",
-      "moq": {
-        "value": 500,
-        "unit": "pieces"
-      },
-      "certifications": [
-        "CE",
-        "CB",
-        "ETL"
-      ],
-      "highlights": [
-        {
-          "icon": "heat",
-          "text": {
-            "en": "1500W Fast Heat-Up, Ready in 30s",
-            "zh": "1500W快速加热，30秒即可使用"
-          }
-        },
-        {
-          "icon": "temp",
-          "text": {
-            "en": "105C Super-Heated Steam, 0 Moisture",
-            "zh": "105C过热蒸汽，含水量为零"
-          }
-        },
-        {
-          "icon": "tank",
-          "text": {
-            "en": "1.2L Detachable Water Tank",
-            "zh": "1.2L可拆卸水箱"
-          }
-        },
-        {
-          "icon": "tools",
-          "text": {
-            "en": "9 Accessories: Floor, Tile, Glass, Fabric",
-            "zh": "9种配件：地板、瓷砖、玻璃、织物"
-          }
-        }
-      ],
-      "specs": [
-        {
-          "label": {
-            "en": "Power",
-            "zh": "功率"
-          },
-          "value": "1500W"
-        },
-        {
-          "label": {
-            "en": "Steam Temp",
-            "zh": "蒸汽温度"
-          },
-          "value": "105C"
-        },
-        {
-          "label": {
-            "en": "Heat-Up Time",
-            "zh": "加热时间"
-          },
-          "value": "30 seconds"
-        },
-        {
-          "label": {
-            "en": "Water Tank",
-            "zh": "水箱容量"
-          },
-          "value": "1.2L"
-        },
-        {
-          "label": {
-            "en": "Steam Duration",
-            "zh": "蒸汽持续时间"
-          },
-          "value": "40-60 min"
-        },
-        {
-          "label": {
-            "en": "Pressure",
-            "zh": "蒸汽压力"
-          },
-          "value": "3.5 bar"
-        },
-        {
-          "label": {
-            "en": "Cord Length",
-            "zh": "电源线长"
-          },
-          "value": "3m"
-        },
-        {
-          "label": {
-            "en": "Weight",
-            "zh": "重量"
-          },
-          "value": "2.5kg"
-        },
-        {
-          "label": {
-            "en": "Safety",
-            "zh": "安全功能"
-          },
-          "value": "Auto Shut-Off, Overheat Protection"
-        },
-        {
-          "label": {
-            "en": "MOQ",
-            "zh": "最小起订量"
-          },
-          "value": "500 pcs"
-        }
-      ],
-      "packaging": {
-        "unit": "color box",
-        "ctn_size": "45x32x18cm",
-        "ctn_qty": "12 pcs",
-        "gross_weight": "15kg"
-      },
-      "customization": {
-        "oem": true,
-        "odm": true,
-        "logo": true,
-        "color": true,
-        "package": true,
-        "sample_lead": "7-14 days",
-        "production_lead": "25-35 days"
-      },
-      "applications": {
-        "en": "Home, Car, Office, Kitchen",
-        "zh": "家庭, 汽车, 办公室, 厨房"
-      },
-      "price_indicator": {
-        "min": 55,
-        "max": 90,
-        "currency": "USD"
-      }
+     "icon": "heat",
+     "text": {
+      "en": "1500W Fast Heat-Up, Ready in 30s",
+      "zh": "1500W快速加热，30秒即可使用"
+     }
+    },
+    {
+     "icon": "temp",
+     "text": {
+      "en": "105C Super-Heated Steam, 0 Moisture",
+      "zh": "105C过热蒸汽，含水量为零"
+     }
+    },
+    {
+     "icon": "tank",
+     "text": {
+      "en": "1.2L Detachable Water Tank",
+      "zh": "1.2L可拆卸水箱"
+     }
+    },
+    {
+     "icon": "tools",
+     "text": {
+      "en": "9 Accessories: Floor, Tile, Glass, Fabric",
+      "zh": "9种配件：地板、瓷砖、玻璃、织物"
+     }
     }
-  ]
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "Power",
+      "zh": "功率"
+     },
+     "value": "1500W"
+    },
+    {
+     "label": {
+      "en": "Steam Temp",
+      "zh": "蒸汽温度"
+     },
+     "value": "105C"
+    },
+    {
+     "label": {
+      "en": "Heat-Up Time",
+      "zh": "加热时间"
+     },
+     "value": "30 seconds"
+    },
+    {
+     "label": {
+      "en": "Water Tank",
+      "zh": "水箱容量"
+     },
+     "value": "1.2L"
+    },
+    {
+     "label": {
+      "en": "Steam Duration",
+      "zh": "蒸汽持续时间"
+     },
+     "value": "40-60 min"
+    },
+    {
+     "label": {
+      "en": "Pressure",
+      "zh": "蒸汽压力"
+     },
+     "value": "3.5 bar"
+    },
+    {
+     "label": {
+      "en": "Cord Length",
+      "zh": "电源线长"
+     },
+     "value": "3m"
+    },
+    {
+     "label": {
+      "en": "Weight",
+      "zh": "重量"
+     },
+     "value": "2.5kg"
+    },
+    {
+     "label": {
+      "en": "Safety",
+      "zh": "安全功能"
+     },
+     "value": "Auto Shut-Off, Overheat Protection"
+    },
+    {
+     "label": {
+      "en": "MOQ",
+      "zh": "最小起订量"
+     },
+     "value": "500 pcs"
+    }
+   ],
+   "packaging": {
+    "unit": "color box",
+    "ctn_size": "45x32x18cm",
+    "ctn_qty": "12 pcs",
+    "gross_weight": "15kg"
+   },
+   "customization": {
+    "oem": true,
+    "odm": true,
+    "logo": true,
+    "color": true,
+    "package": true,
+    "sample_lead": "7-14 days",
+    "production_lead": "25-35 days"
+   },
+   "applications": {
+    "en": "Home, Car, Office, Kitchen",
+    "zh": "家庭, 汽车, 办公室, 厨房"
+   },
+   "price_indicator": {
+    "min": 55,
+    "max": 90,
+    "currency": "USD"
+   },
+   "quick_specs": [
+    {
+     "label": {
+      "en": "Power",
+      "zh": "功率"
+     },
+     "value": "1500W"
+    },
+    {
+     "label": {
+      "en": "Steam Temp",
+      "zh": "蒸汽温度"
+     },
+     "value": "105C"
+    },
+    {
+     "label": {
+      "en": "Heat-Up Time",
+      "zh": "加热时间"
+     },
+     "value": "30 seconds"
+    },
+    {
+     "label": {
+      "en": "Water Tank",
+      "zh": "水箱容量"
+     },
+     "value": "1.2L"
+    }
+   ],
+   "price_ladder": [
+    {
+     "min": 500,
+     "max": 499,
+     "price": 90
+    },
+    {
+     "min": 500,
+     "max": 999,
+     "price": 72
+    },
+    {
+     "min": 1000,
+     "max": null,
+     "price": 55
+    }
+   ],
+   "sku": [
+    {
+     "name": {
+      "en": "Color",
+      "zh": "颜色"
+     },
+     "values": [
+      {
+       "name": "White",
+       "color": "#F3F4F6"
+      },
+      {
+       "name": "Pink",
+       "color": "#F9A8D4"
+      }
+     ]
+    },
+    {
+     "name": {
+      "en": "Voltage",
+      "zh": "电压"
+     },
+     "values": [
+      {
+       "name": "220-240V"
+      },
+      {
+       "name": "110-120V"
+      }
+     ]
+    }
+   ],
+   "description": {
+    "en": "Our steam cleaners deliver high-temperature steam up to 140°C to sanitize and deep-clean surfaces without chemicals. Perfect for kitchens, bathrooms, floors, and upholstery, they eliminate 99.9% of bacteria and germs naturally.\n\nEach model features rapid 30-second heat-up, continuous steam control, and a comprehensive accessory kit for versatile cleaning. The detachable handheld mode converts the unit for portable use, covering every corner of your home.\n\nAs an OEM/ODM partner, we offer custom color matching, logo printing, and tailored packaging. MOQ 300 units with a 25-35 day production lead time.",
+    "zh": "我们的蒸汽清洁机可产生高达140°C的高温蒸汽，无需化学清洁剂即可消毒和深层清洁表面。适用于厨房、浴室、地板和布艺家具，天然消除99.9%的细菌。\n\n每款机型配备30秒快速加热、持续蒸汽控制和全套配件，实现多功能清洁。可拆卸手持模式将主机转换为便携设备，覆盖家中每个角落。\n\n作为OEM/ODM合作伙伴，我们提供定制配色、Logo印刷和专属包装。最小起订量300台，大货交期25-35天。",
+    "ar": "Our steam cleaners deliver high-temperature steam up to 140°C to sanitize and deep-clean surfaces without chemicals. Perfect for kitchens, bathrooms, floors, and upholstery, they eliminate 99.9% of bacteria and germs naturally.\n\nEach model features rapid 30-second heat-up, continuous steam control, and a comprehensive accessory kit for versatile cleaning. The detachable handheld mode converts the unit for portable use, covering every corner of your home.\n\nAs an OEM/ODM partner, we offer custom color matching, logo printing, and tailored packaging. MOQ 300 units with a 25-35 day production lead time.",
+    "es": "Our steam cleaners deliver high-temperature steam up to 140°C to sanitize and deep-clean surfaces without chemicals. Perfect for kitchens, bathrooms, floors, and upholstery, they eliminate 99.9% of bacteria and germs naturally.\n\nEach model features rapid 30-second heat-up, continuous steam control, and a comprehensive accessory kit for versatile cleaning. The detachable handheld mode converts the unit for portable use, covering every corner of your home.\n\nAs an OEM/ODM partner, we offer custom color matching, logo printing, and tailored packaging. MOQ 300 units with a 25-35 day production lead time.",
+    "fr": "Our steam cleaners deliver high-temperature steam up to 140°C to sanitize and deep-clean surfaces without chemicals. Perfect for kitchens, bathrooms, floors, and upholstery, they eliminate 99.9% of bacteria and germs naturally.\n\nEach model features rapid 30-second heat-up, continuous steam control, and a comprehensive accessory kit for versatile cleaning. The detachable handheld mode converts the unit for portable use, covering every corner of your home.\n\nAs an OEM/ODM partner, we offer custom color matching, logo printing, and tailored packaging. MOQ 300 units with a 25-35 day production lead time.",
+    "id": "Our steam cleaners deliver high-temperature steam up to 140°C to sanitize and deep-clean surfaces without chemicals. Perfect for kitchens, bathrooms, floors, and upholstery, they eliminate 99.9% of bacteria and germs naturally.\n\nEach model features rapid 30-second heat-up, continuous steam control, and a comprehensive accessory kit for versatile cleaning. The detachable handheld mode converts the unit for portable use, covering every corner of your home.\n\nAs an OEM/ODM partner, we offer custom color matching, logo printing, and tailored packaging. MOQ 300 units with a 25-35 day production lead time.",
+    "ru": "Our steam cleaners deliver high-temperature steam up to 140°C to sanitize and deep-clean surfaces without chemicals. Perfect for kitchens, bathrooms, floors, and upholstery, they eliminate 99.9% of bacteria and germs naturally.\n\nEach model features rapid 30-second heat-up, continuous steam control, and a comprehensive accessory kit for versatile cleaning. The detachable handheld mode converts the unit for portable use, covering every corner of your home.\n\nAs an OEM/ODM partner, we offer custom color matching, logo printing, and tailored packaging. MOQ 300 units with a 25-35 day production lead time.",
+    "th": "Our steam cleaners deliver high-temperature steam up to 140°C to sanitize and deep-clean surfaces without chemicals. Perfect for kitchens, bathrooms, floors, and upholstery, they eliminate 99.9% of bacteria and germs naturally.\n\nEach model features rapid 30-second heat-up, continuous steam control, and a comprehensive accessory kit for versatile cleaning. The detachable handheld mode converts the unit for portable use, covering every corner of your home.\n\nAs an OEM/ODM partner, we offer custom color matching, logo printing, and tailored packaging. MOQ 300 units with a 25-35 day production lead time.",
+    "vi": "Our steam cleaners deliver high-temperature steam up to 140°C to sanitize and deep-clean surfaces without chemicals. Perfect for kitchens, bathrooms, floors, and upholstery, they eliminate 99.9% of bacteria and germs naturally.\n\nEach model features rapid 30-second heat-up, continuous steam control, and a comprehensive accessory kit for versatile cleaning. The detachable handheld mode converts the unit for portable use, covering every corner of your home.\n\nAs an OEM/ODM partner, we offer custom color matching, logo printing, and tailored packaging. MOQ 300 units with a 25-35 day production lead time."
+   },
+   "supplier_rating": "4.8",
+   "response_time": "≤ 2h",
+   "transactions": "US $100K+",
+   "years": "10+",
+   "ship_from": {
+    "en": "Ningbo, China",
+    "zh": "中国宁波"
+   },
+   "sample": {
+    "enabled": true,
+    "qty": 5,
+    "note": "Sample available, lead 7-14 days"
+   },
+   "category_name": {
+    "en": "Steam Cleaner",
+    "zh": "手持蒸汽清洁器",
+    "ar": "منظف بالبخار",
+    "es": "Limpiador de Vapor",
+    "fr": "Nettoyeur a Vapeur",
+    "id": "Pembersih Uap",
+    "ru": "Parnoyj ochistitel",
+    "th": "เครื่องทำความสะอาดด้วยไอน้ำ",
+    "vi": "May danh sach bang hoi nuoc"
+   }
+  }
+ ]
 }

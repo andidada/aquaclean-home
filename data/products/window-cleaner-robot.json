@@ -1,170 +1,270 @@
 {
-  "category": "window-cleaner-robot",
-  "products": [
+ "category": "window-cleaner-robot",
+ "products": [
+  {
+   "id": "wr-500",
+   "name": {
+    "en": "WindowBot WR-500 Smart Window Cleaner",
+    "zh": "WindowBot WR-500 智能擦窗机器人",
+    "ar": "روبوت WindowBot WR-500 الذكي لتنظيف النوافذ",
+    "es": "Robot Limpiacristales WindowBot WR-500",
+    "fr": "Robot Nettoyeur de Vitres WindowBot WR-500",
+    "id": "Robot Pembersih Jendela Cerdas WindowBot WR-500",
+    "ru": "Робот для окон WindowBot WR-500",
+    "th": "หุ่นยนต์ทำความสะอาดกระจก WindowBot WR-500",
+    "vi": "Robot lau kinh thong minh WindowBot WR-500"
+   },
+   "tagline": {
+    "en": "AI-Controlled — Cleans 1m² in Just 4 Minutes",
+    "zh": "AI智能控制 — 每平方米仅需4分钟",
+    "ar": "تحكم بالذكاء الاصطناعي — ينظف 1 متر مربع في 4 دقائق فقط",
+    "es": "Controlado por IA — Limpia 1m2 en Solo 4 Minutos",
+    "fr": " Controle IA — Nettoie 1m2 en Seulement 4 Minutes",
+    "id": "Dikontrol AI — Membersihkan 1m2 Hanya dalam 4 Menit",
+    "ru": "ИИ-контроль — очищает 1м2 всего за 4 минуты",
+    "th": "ควบคุมด้วย AI — ทำความสะอาด 1 ตร.ม. ใน 4 นาที",
+    "vi": "Dieu khien bang AI — Don dep 1m2 chi mat 4 phut"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/05-window-robot.png"
+   ],
+   "video_url": "",
+   "moq": {
+    "value": 200,
+    "unit": "pieces"
+   },
+   "certifications": [
+    "CE",
+    "FCC",
+    "RoHS",
+    "UL"
+   ],
+   "highlights": [
     {
-      "id": "wr-500",
-      "name": {
-        "en": "WindowBot WR-500 Smart Window Cleaner",
-        "zh": "WindowBot WR-500 智能擦窗机器人",
-        "ar": "روبوت WindowBot WR-500 الذكي لتنظيف النوافذ",
-        "es": "Robot Limpiacristales WindowBot WR-500",
-        "fr": "Robot Nettoyeur de Vitres WindowBot WR-500",
-        "id": "Robot Pembersih Jendela Cerdas WindowBot WR-500",
-        "ru": "Робот для окон WindowBot WR-500",
-        "th": "หุ่นยนต์ทำความสะอาดกระจก WindowBot WR-500",
-        "vi": "Robot lau kinh thong minh WindowBot WR-500"
-      },
-      "tagline": {
-        "en": "AI-Controlled — Cleans 1m² in Just 4 Minutes",
-        "zh": "AI智能控制 — 每平方米仅需4分钟",
-        "ar": "تحكم بالذكاء الاصطناعي — ينظف 1 متر مربع في 4 دقائق فقط",
-        "es": "Controlado por IA — Limpia 1m2 en Solo 4 Minutos",
-        "fr": " Controle IA — Nettoie 1m2 en Seulement 4 Minutes",
-        "id": "Dikontrol AI — Membersihkan 1m2 Hanya dalam 4 Menit",
-        "ru": "ИИ-контроль — очищает 1м2 всего за 4 минуты",
-        "th": "ควบคุมด้วย AI — ทำความสะอาด 1 ตร.ม. ใน 4 นาที",
-        "vi": "Dieu khien bang AI — Don dep 1m2 chi mat 4 phut"
-      },
-      "images": [
-        "https://www.hkdmj.net/assets/images/products/05-window-robot.png"
-      ],
-      "video_url": "",
-      "moq": {
-        "value": 200,
-        "unit": "pieces"
-      },
-      "certifications": [
-        "CE",
-        "FCC",
-        "RoHS",
-        "UL"
-      ],
-      "highlights": [
-        {
-          "icon": "ai",
-          "text": {
-            "en": "AI Path Planning, No Missed Spots",
-            "zh": "AI路径规划，无遗漏"
-          }
-        },
-        {
-          "icon": "safety",
-          "text": {
-            "en": "UPS Battery, 30min Fall Protection",
-            "zh": "UPS电池，30分钟防跌落保护"
-          }
-        },
-        {
-          "icon": "speed",
-          "text": {
-            "en": "4min/m2 Fast Cleaning Speed",
-            "zh": "4分钟/平方米快速清洁"
-          }
-        },
-        {
-          "icon": "sensor",
-          "text": {
-            "en": "Edge Detection for Frameless Windows",
-            "zh": "边缘感应，支持无框玻璃"
-          }
-        }
-      ],
-      "specs": [
-        {
-          "label": {
-            "en": "Cleaning Speed",
-            "zh": "清洁速度"
-          },
-          "value": "4 min/m2"
-        },
-        {
-          "label": {
-            "en": "UPS Backup",
-            "zh": "UPS备用电源"
-          },
-          "value": "20-30 min"
-        },
-        {
-          "label": {
-            "en": "Noise",
-            "zh": "噪音"
-          },
-          "value": "< 65dB"
-        },
-        {
-          "label": {
-            "en": "Safety Rope",
-            "zh": "安全绳"
-          },
-          "value": "150kg Load Capacity"
-        },
-        {
-          "label": {
-            "en": "Glass Thickness",
-            "zh": "适用玻璃厚度"
-          },
-          "value": "3-35mm"
-        },
-        {
-          "label": {
-            "en": "Min Window Size",
-            "zh": "最小窗户尺寸"
-          },
-          "value": "40x40cm"
-        },
-        {
-          "label": {
-            "en": "Power",
-            "zh": "功率"
-          },
-          "value": "75W"
-        },
-        {
-          "label": {
-            "en": "Sides Cleaned",
-            "zh": "双面清洁"
-          },
-          "value": "Yes, Both Sides"
-        },
-        {
-          "label": {
-            "en": "Control",
-            "zh": "控制方式"
-          },
-          "value": "Remote + App"
-        },
-        {
-          "label": {
-            "en": "MOQ",
-            "zh": "最小起订量"
-          },
-          "value": "200 pcs"
-        }
-      ],
-      "packaging": {
-        "unit": "color box",
-        "ctn_size": "45x32x18cm",
-        "ctn_qty": "12 pcs",
-        "gross_weight": "15kg"
-      },
-      "customization": {
-        "oem": true,
-        "odm": true,
-        "logo": true,
-        "color": true,
-        "package": true,
-        "sample_lead": "7-14 days",
-        "production_lead": "25-35 days"
-      },
-      "applications": {
-        "en": "Home, Car, Office, Kitchen",
-        "zh": "家庭, 汽车, 办公室, 厨房"
-      },
-      "price_indicator": {
-        "min": 65,
-        "max": 110,
-        "currency": "USD"
-      }
+     "icon": "ai",
+     "text": {
+      "en": "AI Path Planning, No Missed Spots",
+      "zh": "AI路径规划，无遗漏"
+     }
+    },
+    {
+     "icon": "safety",
+     "text": {
+      "en": "UPS Battery, 30min Fall Protection",
+      "zh": "UPS电池，30分钟防跌落保护"
+     }
+    },
+    {
+     "icon": "speed",
+     "text": {
+      "en": "4min/m2 Fast Cleaning Speed",
+      "zh": "4分钟/平方米快速清洁"
+     }
+    },
+    {
+     "icon": "sensor",
+     "text": {
+      "en": "Edge Detection for Frameless Windows",
+      "zh": "边缘感应，支持无框玻璃"
+     }
     }
-  ]
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "Cleaning Speed",
+      "zh": "清洁速度"
+     },
+     "value": "4 min/m2"
+    },
+    {
+     "label": {
+      "en": "UPS Backup",
+      "zh": "UPS备用电源"
+     },
+     "value": "20-30 min"
+    },
+    {
+     "label": {
+      "en": "Noise",
+      "zh": "噪音"
+     },
+     "value": "< 65dB"
+    },
+    {
+     "label": {
+      "en": "Safety Rope",
+      "zh": "安全绳"
+     },
+     "value": "150kg Load Capacity"
+    },
+    {
+     "label": {
+      "en": "Glass Thickness",
+      "zh": "适用玻璃厚度"
+     },
+     "value": "3-35mm"
+    },
+    {
+     "label": {
+      "en": "Min Window Size",
+      "zh": "最小窗户尺寸"
+     },
+     "value": "40x40cm"
+    },
+    {
+     "label": {
+      "en": "Power",
+      "zh": "功率"
+     },
+     "value": "75W"
+    },
+    {
+     "label": {
+      "en": "Sides Cleaned",
+      "zh": "双面清洁"
+     },
+     "value": "Yes, Both Sides"
+    },
+    {
+     "label": {
+      "en": "Control",
+      "zh": "控制方式"
+     },
+     "value": "Remote + App"
+    },
+    {
+     "label": {
+      "en": "MOQ",
+      "zh": "最小起订量"
+     },
+     "value": "200 pcs"
+    }
+   ],
+   "packaging": {
+    "unit": "color box",
+    "ctn_size": "45x32x18cm",
+    "ctn_qty": "12 pcs",
+    "gross_weight": "15kg"
+   },
+   "customization": {
+    "oem": true,
+    "odm": true,
+    "logo": true,
+    "color": true,
+    "package": true,
+    "sample_lead": "7-14 days",
+    "production_lead": "25-35 days"
+   },
+   "applications": {
+    "en": "Home, Car, Office, Kitchen",
+    "zh": "家庭, 汽车, 办公室, 厨房"
+   },
+   "price_indicator": {
+    "min": 65,
+    "max": 110,
+    "currency": "USD"
+   },
+   "quick_specs": [
+    {
+     "label": {
+      "en": "Cleaning Speed",
+      "zh": "清洁速度"
+     },
+     "value": "4 min/m2"
+    },
+    {
+     "label": {
+      "en": "UPS Backup",
+      "zh": "UPS备用电源"
+     },
+     "value": "20-30 min"
+    },
+    {
+     "label": {
+      "en": "Noise",
+      "zh": "噪音"
+     },
+     "value": "< 65dB"
+    },
+    {
+     "label": {
+      "en": "Safety Rope",
+      "zh": "安全绳"
+     },
+     "value": "150kg Load Capacity"
+    }
+   ],
+   "price_ladder": [
+    {
+     "min": 200,
+     "max": 499,
+     "price": 110
+    },
+    {
+     "min": 500,
+     "max": 999,
+     "price": 88
+    },
+    {
+     "min": 1000,
+     "max": null,
+     "price": 65
+    }
+   ],
+   "sku": [
+    {
+     "name": {
+      "en": "Color",
+      "zh": "颜色"
+     },
+     "values": [
+      {
+       "name": "Black",
+       "color": "#111827"
+      },
+      {
+       "name": "White",
+       "color": "#F3F4F6"
+      }
+     ]
+    }
+   ],
+   "description": {
+    "en": "Our window cleaning robots use intelligent path planning and powerful suction (2800Pa) to clean glass surfaces safely and efficiently. Perfect for high-rise windows, glass walls, and large glass surfaces that are hard to reach.\n\nFeatures include remote control and APP control, automatic edge detection, fall-prevention with safety rope, and 25-minute runtime with 65dB quiet operation. The smart water spray system delivers just the right amount of moisture for streak-free cleaning.\n\nWe support OEM/ODM customization including colors, branding, and packaging. MOQ 200 units, production lead time 25-35 days.",
+    "zh": "我们的擦窗机器人采用智能路径规划和2800Pa强力吸附，安全高效地清洁玻璃表面。非常适合高层窗户、玻璃幕墙和难以触及的大型玻璃表面。\n\n功能包括遥控器和APP控制、自动边缘检测、安全绳防坠落，以及25分钟续航和65dB静音运行。智能喷水系统提供恰到好处的水量，实现无水痕清洁。\n\n我们支持OEM/ODM定制，包括颜色、品牌和包装。最小起订量200台，大货交期25-35天。",
+    "ar": "Our window cleaning robots use intelligent path planning and powerful suction (2800Pa) to clean glass surfaces safely and efficiently. Perfect for high-rise windows, glass walls, and large glass surfaces that are hard to reach.\n\nFeatures include remote control and APP control, automatic edge detection, fall-prevention with safety rope, and 25-minute runtime with 65dB quiet operation. The smart water spray system delivers just the right amount of moisture for streak-free cleaning.\n\nWe support OEM/ODM customization including colors, branding, and packaging. MOQ 200 units, production lead time 25-35 days.",
+    "es": "Our window cleaning robots use intelligent path planning and powerful suction (2800Pa) to clean glass surfaces safely and efficiently. Perfect for high-rise windows, glass walls, and large glass surfaces that are hard to reach.\n\nFeatures include remote control and APP control, automatic edge detection, fall-prevention with safety rope, and 25-minute runtime with 65dB quiet operation. The smart water spray system delivers just the right amount of moisture for streak-free cleaning.\n\nWe support OEM/ODM customization including colors, branding, and packaging. MOQ 200 units, production lead time 25-35 days.",
+    "fr": "Our window cleaning robots use intelligent path planning and powerful suction (2800Pa) to clean glass surfaces safely and efficiently. Perfect for high-rise windows, glass walls, and large glass surfaces that are hard to reach.\n\nFeatures include remote control and APP control, automatic edge detection, fall-prevention with safety rope, and 25-minute runtime with 65dB quiet operation. The smart water spray system delivers just the right amount of moisture for streak-free cleaning.\n\nWe support OEM/ODM customization including colors, branding, and packaging. MOQ 200 units, production lead time 25-35 days.",
+    "id": "Our window cleaning robots use intelligent path planning and powerful suction (2800Pa) to clean glass surfaces safely and efficiently. Perfect for high-rise windows, glass walls, and large glass surfaces that are hard to reach.\n\nFeatures include remote control and APP control, automatic edge detection, fall-prevention with safety rope, and 25-minute runtime with 65dB quiet operation. The smart water spray system delivers just the right amount of moisture for streak-free cleaning.\n\nWe support OEM/ODM customization including colors, branding, and packaging. MOQ 200 units, production lead time 25-35 days.",
+    "ru": "Our window cleaning robots use intelligent path planning and powerful suction (2800Pa) to clean glass surfaces safely and efficiently. Perfect for high-rise windows, glass walls, and large glass surfaces that are hard to reach.\n\nFeatures include remote control and APP control, automatic edge detection, fall-prevention with safety rope, and 25-minute runtime with 65dB quiet operation. The smart water spray system delivers just the right amount of moisture for streak-free cleaning.\n\nWe support OEM/ODM customization including colors, branding, and packaging. MOQ 200 units, production lead time 25-35 days.",
+    "th": "Our window cleaning robots use intelligent path planning and powerful suction (2800Pa) to clean glass surfaces safely and efficiently. Perfect for high-rise windows, glass walls, and large glass surfaces that are hard to reach.\n\nFeatures include remote control and APP control, automatic edge detection, fall-prevention with safety rope, and 25-minute runtime with 65dB quiet operation. The smart water spray system delivers just the right amount of moisture for streak-free cleaning.\n\nWe support OEM/ODM customization including colors, branding, and packaging. MOQ 200 units, production lead time 25-35 days.",
+    "vi": "Our window cleaning robots use intelligent path planning and powerful suction (2800Pa) to clean glass surfaces safely and efficiently. Perfect for high-rise windows, glass walls, and large glass surfaces that are hard to reach.\n\nFeatures include remote control and APP control, automatic edge detection, fall-prevention with safety rope, and 25-minute runtime with 65dB quiet operation. The smart water spray system delivers just the right amount of moisture for streak-free cleaning.\n\nWe support OEM/ODM customization including colors, branding, and packaging. MOQ 200 units, production lead time 25-35 days."
+   },
+   "supplier_rating": "4.8",
+   "response_time": "≤ 2h",
+   "transactions": "US $100K+",
+   "years": "10+",
+   "ship_from": {
+    "en": "Ningbo, China",
+    "zh": "中国宁波"
+   },
+   "sample": {
+    "enabled": true,
+    "qty": 5,
+    "note": "Sample available, lead 7-14 days"
+   },
+   "category_name": {
+    "en": "Smart Window Cleaner Robot",
+    "zh": "智能擦窗机器人",
+    "ar": "روبوت تنظيف النوافذ الذكي",
+    "es": "Robot Limpiacristales Inteligente",
+    "fr": "Robot Nettoyeur de Vitres Intelligent",
+    "id": "Robot Pembersih Jendela Cerdas",
+    "ru": "Umnyj robot-dlya-okon",
+    "th": "หุ่นยนต์ทำความสะอาดกระจกอัจฉริยะ",
+    "vi": "Robot lau kinh cua so thong minh"
+   }
+  }
+ ]
 }

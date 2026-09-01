@@ -1,170 +1,284 @@
 {
-  "category": "coffee-machine",
-  "products": [
+ "category": "coffee-machine",
+ "products": [
+  {
+   "id": "cm-600",
+   "name": {
+    "en": "BrewPro CM-600 Espresso Coffee Machine",
+    "zh": "BrewPro CM-600 意式咖啡机",
+    "ar": "ماكينة القهوة BrewPro CM-600",
+    "es": "Maquina de Cafe BrewPro CM-600",
+    "fr": "Machine a Cafe BrewPro CM-600",
+    "id": "Mesin Kopi BrewPro CM-600",
+    "ru": "Кофемашина BrewPro CM-600",
+    "th": "เครื่องทำกาแฟ BrewPro CM-600",
+    "vi": "May pha ca phe BrewPro CM-600"
+   },
+   "tagline": {
+    "en": "15-Bar Professional Espresso — Barista Quality at Home",
+    "zh": "15bar专业意式 — 在家享受咖啡师品质",
+    "ar": "إسبريسو احترافي 15 بار — جودة البارستا في المنزل",
+    "es": "Espresso Profesional de 15 Bar — Calidad de Barista en Casa",
+    "fr": "Expresso Professionnel 15 Bar — Qualite Barista a la Maison",
+    "id": "Espresso Profesional 15 Bar — Kualitas Barista di Rumah",
+    "ru": "Профессиональный эспрессо 15 бар — качество бариста дома",
+    "th": "เอสเปรสโซมืออาชีพ 15 บาร์ — คุณภาพบาริสต้าที่บ้าน",
+    "vi": "Espresso chuyen nghiep 15 Bar — Chat luong barista tai nha"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/08-coffee-machine.png"
+   ],
+   "video_url": "",
+   "moq": {
+    "value": 200,
+    "unit": "pieces"
+   },
+   "certifications": [
+    "CE",
+    "CB",
+    "ETL",
+    "LFGB"
+   ],
+   "highlights": [
     {
-      "id": "cm-600",
-      "name": {
-        "en": "BrewPro CM-600 Espresso Coffee Machine",
-        "zh": "BrewPro CM-600 意式咖啡机",
-        "ar": "ماكينة القهوة BrewPro CM-600",
-        "es": "Maquina de Cafe BrewPro CM-600",
-        "fr": "Machine a Cafe BrewPro CM-600",
-        "id": "Mesin Kopi BrewPro CM-600",
-        "ru": "Кофемашина BrewPro CM-600",
-        "th": "เครื่องทำกาแฟ BrewPro CM-600",
-        "vi": "May pha ca phe BrewPro CM-600"
-      },
-      "tagline": {
-        "en": "15-Bar Professional Espresso — Barista Quality at Home",
-        "zh": "15bar专业意式 — 在家享受咖啡师品质",
-        "ar": "إسبريسو احترافي 15 بار — جودة البارستا في المنزل",
-        "es": "Espresso Profesional de 15 Bar — Calidad de Barista en Casa",
-        "fr": "Expresso Professionnel 15 Bar — Qualite Barista a la Maison",
-        "id": "Espresso Profesional 15 Bar — Kualitas Barista di Rumah",
-        "ru": "Профессиональный эспрессо 15 бар — качество бариста дома",
-        "th": "เอสเปรสโซมืออาชีพ 15 บาร์ — คุณภาพบาริสต้าที่บ้าน",
-        "vi": "Espresso chuyen nghiep 15 Bar — Chat luong barista tai nha"
-      },
-      "images": [
-        "https://www.hkdmj.net/assets/images/products/08-coffee-machine.png"
-      ],
-      "video_url": "",
-      "moq": {
-        "value": 200,
-        "unit": "pieces"
-      },
-      "certifications": [
-        "CE",
-        "CB",
-        "ETL",
-        "LFGB"
-      ],
-      "highlights": [
-        {
-          "icon": "pressure",
-          "text": {
-            "en": "15-Bar Pump Pressure for Rich Crema",
-            "zh": "15bar泵压，萃取丰富油脂"
-          }
-        },
-        {
-          "icon": "milk",
-          "text": {
-            "en": "Steam Wand Froths Milk for Cappuccino",
-            "zh": "蒸汽管打奶泡，制作卡布奇诺"
-          }
-        },
-        {
-          "icon": "temp",
-          "text": {
-            "en": "PID Temperature Control, +/- 1C Accuracy",
-            "zh": "PID温控，+/- 1C精度"
-          }
-        },
-        {
-          "icon": "cup",
-          "text": {
-            "en": "Dual Cup Brewing, 1-4 Cups at Once",
-            "zh": "双杯冲泡，最多4杯"
-          }
-        }
-      ],
-      "specs": [
-        {
-          "label": {
-            "en": "Pump Pressure",
-            "zh": "泵压"
-          },
-          "value": "15 Bar"
-        },
-        {
-          "label": {
-            "en": "Power",
-            "zh": "功率"
-          },
-          "value": "1100W"
-        },
-        {
-          "label": {
-            "en": "Boiler",
-            "zh": "锅炉"
-          },
-          "value": "Stainless Steel, 1.5L"
-        },
-        {
-          "label": {
-            "en": "Water Tank",
-            "zh": "水箱容量"
-          },
-          "value": "1.8L"
-        },
-        {
-          "label": {
-            "en": "Temperature Control",
-            "zh": "温控"
-          },
-          "value": "PID, 88-96C"
-        },
-        {
-          "label": {
-            "en": "Milk Frother",
-            "zh": "奶泡器"
-          },
-          "value": "Steam Wand, 360 rotatable"
-        },
-        {
-          "label": {
-            "en": "Cup Warmer",
-            "zh": "杯暖器"
-          },
-          "value": "Top Plate, 6 cups"
-        },
-        {
-          "label": {
-            "en": "Pressure Gauge",
-            "zh": "压力表"
-          },
-          "value": "Yes, Analog"
-        },
-        {
-          "label": {
-            "en": "Dimensions",
-            "zh": "尺寸"
-          },
-          "value": "28x30x32cm"
-        },
-        {
-          "label": {
-            "en": "MOQ",
-            "zh": "最小起订量"
-          },
-          "value": "200 pcs"
-        }
-      ],
-      "packaging": {
-        "unit": "color box",
-        "ctn_size": "45x32x18cm",
-        "ctn_qty": "12 pcs",
-        "gross_weight": "15kg"
-      },
-      "customization": {
-        "oem": true,
-        "odm": true,
-        "logo": true,
-        "color": true,
-        "package": true,
-        "sample_lead": "7-14 days",
-        "production_lead": "25-35 days"
-      },
-      "applications": {
-        "en": "Home, Car, Office, Kitchen",
-        "zh": "家庭, 汽车, 办公室, 厨房"
-      },
-      "price_indicator": {
-        "min": 65,
-        "max": 120,
-        "currency": "USD"
-      }
+     "icon": "pressure",
+     "text": {
+      "en": "15-Bar Pump Pressure for Rich Crema",
+      "zh": "15bar泵压，萃取丰富油脂"
+     }
+    },
+    {
+     "icon": "milk",
+     "text": {
+      "en": "Steam Wand Froths Milk for Cappuccino",
+      "zh": "蒸汽管打奶泡，制作卡布奇诺"
+     }
+    },
+    {
+     "icon": "temp",
+     "text": {
+      "en": "PID Temperature Control, +/- 1C Accuracy",
+      "zh": "PID温控，+/- 1C精度"
+     }
+    },
+    {
+     "icon": "cup",
+     "text": {
+      "en": "Dual Cup Brewing, 1-4 Cups at Once",
+      "zh": "双杯冲泡，最多4杯"
+     }
     }
-  ]
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "Pump Pressure",
+      "zh": "泵压"
+     },
+     "value": "15 Bar"
+    },
+    {
+     "label": {
+      "en": "Power",
+      "zh": "功率"
+     },
+     "value": "1100W"
+    },
+    {
+     "label": {
+      "en": "Boiler",
+      "zh": "锅炉"
+     },
+     "value": "Stainless Steel, 1.5L"
+    },
+    {
+     "label": {
+      "en": "Water Tank",
+      "zh": "水箱容量"
+     },
+     "value": "1.8L"
+    },
+    {
+     "label": {
+      "en": "Temperature Control",
+      "zh": "温控"
+     },
+     "value": "PID, 88-96C"
+    },
+    {
+     "label": {
+      "en": "Milk Frother",
+      "zh": "奶泡器"
+     },
+     "value": "Steam Wand, 360 rotatable"
+    },
+    {
+     "label": {
+      "en": "Cup Warmer",
+      "zh": "杯暖器"
+     },
+     "value": "Top Plate, 6 cups"
+    },
+    {
+     "label": {
+      "en": "Pressure Gauge",
+      "zh": "压力表"
+     },
+     "value": "Yes, Analog"
+    },
+    {
+     "label": {
+      "en": "Dimensions",
+      "zh": "尺寸"
+     },
+     "value": "28x30x32cm"
+    },
+    {
+     "label": {
+      "en": "MOQ",
+      "zh": "最小起订量"
+     },
+     "value": "200 pcs"
+    }
+   ],
+   "packaging": {
+    "unit": "color box",
+    "ctn_size": "45x32x18cm",
+    "ctn_qty": "12 pcs",
+    "gross_weight": "15kg"
+   },
+   "customization": {
+    "oem": true,
+    "odm": true,
+    "logo": true,
+    "color": true,
+    "package": true,
+    "sample_lead": "7-14 days",
+    "production_lead": "25-35 days"
+   },
+   "applications": {
+    "en": "Home, Car, Office, Kitchen",
+    "zh": "家庭, 汽车, 办公室, 厨房"
+   },
+   "price_indicator": {
+    "min": 65,
+    "max": 120,
+    "currency": "USD"
+   },
+   "quick_specs": [
+    {
+     "label": {
+      "en": "Pump Pressure",
+      "zh": "泵压"
+     },
+     "value": "15 Bar"
+    },
+    {
+     "label": {
+      "en": "Power",
+      "zh": "功率"
+     },
+     "value": "1100W"
+    },
+    {
+     "label": {
+      "en": "Boiler",
+      "zh": "锅炉"
+     },
+     "value": "Stainless Steel, 1.5L"
+    },
+    {
+     "label": {
+      "en": "Water Tank",
+      "zh": "水箱容量"
+     },
+     "value": "1.8L"
+    }
+   ],
+   "price_ladder": [
+    {
+     "min": 200,
+     "max": 499,
+     "price": 120
+    },
+    {
+     "min": 500,
+     "max": 999,
+     "price": 92
+    },
+    {
+     "min": 1000,
+     "max": null,
+     "price": 65
+    }
+   ],
+   "sku": [
+    {
+     "name": {
+      "en": "Color",
+      "zh": "颜色"
+     },
+     "values": [
+      {
+       "name": "Black",
+       "color": "#111827"
+      },
+      {
+       "name": "Silver",
+       "color": "#D1D5DB"
+      }
+     ]
+    },
+    {
+     "name": {
+      "en": "Voltage",
+      "zh": "电压"
+     },
+     "values": [
+      {
+       "name": "220-240V"
+      },
+      {
+       "name": "110-120V"
+      }
+     ]
+    }
+   ],
+   "description": {
+    "en": "Our espresso coffee machines bring professional-grade brewing to your kitchen or office. The 20-bar pump pressure extracts rich, aromatic espresso with perfect crema, while the milk frother creates silky microfoam for lattes and cappuccinos.\n\nKey features include a 1.5L removable water tank, 1350W fast heating, programmable cup sizes, and a compact stainless steel body. The intuitive control panel makes it easy to brew single or double shots.\n\nWe offer OEM/ODM customization: colors, branding, packaging, and even coffee accessories. MOQ 200 units, sample lead time 7-14 days.",
+    "zh": "我们的意式咖啡机将专业级萃取带入您的厨房或办公室。20巴泵压萃取出浓郁芳香的浓缩咖啡，奶泡器为拿铁和卡布奇诺打造丝滑微泡。\n\n核心功能包括1.5L可拆卸水箱、1350W快速加热、可编程杯量和紧凑不锈钢机身。直观控制面板轻松制作单杯或双杯。\n\n我们提供OEM/ODM定制：颜色、品牌、包装，甚至咖啡配件。最小起订量200台，样品交期7-14天。",
+    "ar": "Our espresso coffee machines bring professional-grade brewing to your kitchen or office. The 20-bar pump pressure extracts rich, aromatic espresso with perfect crema, while the milk frother creates silky microfoam for lattes and cappuccinos.\n\nKey features include a 1.5L removable water tank, 1350W fast heating, programmable cup sizes, and a compact stainless steel body. The intuitive control panel makes it easy to brew single or double shots.\n\nWe offer OEM/ODM customization: colors, branding, packaging, and even coffee accessories. MOQ 200 units, sample lead time 7-14 days.",
+    "es": "Our espresso coffee machines bring professional-grade brewing to your kitchen or office. The 20-bar pump pressure extracts rich, aromatic espresso with perfect crema, while the milk frother creates silky microfoam for lattes and cappuccinos.\n\nKey features include a 1.5L removable water tank, 1350W fast heating, programmable cup sizes, and a compact stainless steel body. The intuitive control panel makes it easy to brew single or double shots.\n\nWe offer OEM/ODM customization: colors, branding, packaging, and even coffee accessories. MOQ 200 units, sample lead time 7-14 days.",
+    "fr": "Our espresso coffee machines bring professional-grade brewing to your kitchen or office. The 20-bar pump pressure extracts rich, aromatic espresso with perfect crema, while the milk frother creates silky microfoam for lattes and cappuccinos.\n\nKey features include a 1.5L removable water tank, 1350W fast heating, programmable cup sizes, and a compact stainless steel body. The intuitive control panel makes it easy to brew single or double shots.\n\nWe offer OEM/ODM customization: colors, branding, packaging, and even coffee accessories. MOQ 200 units, sample lead time 7-14 days.",
+    "id": "Our espresso coffee machines bring professional-grade brewing to your kitchen or office. The 20-bar pump pressure extracts rich, aromatic espresso with perfect crema, while the milk frother creates silky microfoam for lattes and cappuccinos.\n\nKey features include a 1.5L removable water tank, 1350W fast heating, programmable cup sizes, and a compact stainless steel body. The intuitive control panel makes it easy to brew single or double shots.\n\nWe offer OEM/ODM customization: colors, branding, packaging, and even coffee accessories. MOQ 200 units, sample lead time 7-14 days.",
+    "ru": "Our espresso coffee machines bring professional-grade brewing to your kitchen or office. The 20-bar pump pressure extracts rich, aromatic espresso with perfect crema, while the milk frother creates silky microfoam for lattes and cappuccinos.\n\nKey features include a 1.5L removable water tank, 1350W fast heating, programmable cup sizes, and a compact stainless steel body. The intuitive control panel makes it easy to brew single or double shots.\n\nWe offer OEM/ODM customization: colors, branding, packaging, and even coffee accessories. MOQ 200 units, sample lead time 7-14 days.",
+    "th": "Our espresso coffee machines bring professional-grade brewing to your kitchen or office. The 20-bar pump pressure extracts rich, aromatic espresso with perfect crema, while the milk frother creates silky microfoam for lattes and cappuccinos.\n\nKey features include a 1.5L removable water tank, 1350W fast heating, programmable cup sizes, and a compact stainless steel body. The intuitive control panel makes it easy to brew single or double shots.\n\nWe offer OEM/ODM customization: colors, branding, packaging, and even coffee accessories. MOQ 200 units, sample lead time 7-14 days.",
+    "vi": "Our espresso coffee machines bring professional-grade brewing to your kitchen or office. The 20-bar pump pressure extracts rich, aromatic espresso with perfect crema, while the milk frother creates silky microfoam for lattes and cappuccinos.\n\nKey features include a 1.5L removable water tank, 1350W fast heating, programmable cup sizes, and a compact stainless steel body. The intuitive control panel makes it easy to brew single or double shots.\n\nWe offer OEM/ODM customization: colors, branding, packaging, and even coffee accessories. MOQ 200 units, sample lead time 7-14 days."
+   },
+   "supplier_rating": "4.8",
+   "response_time": "≤ 2h",
+   "transactions": "US $100K+",
+   "years": "10+",
+   "ship_from": {
+    "en": "Ningbo, China",
+    "zh": "中国宁波"
+   },
+   "sample": {
+    "enabled": true,
+    "qty": 5,
+    "note": "Sample available, lead 7-14 days"
+   },
+   "category_name": {
+    "en": "Espresso Coffee Machine",
+    "zh": "意式咖啡机",
+    "ar": "ماكينة قهوة إسبريسو",
+    "es": "Maquina de Cafe Espresso",
+    "fr": "Machine a Cafe Expresso",
+    "id": "Mesin Kopi Espresso",
+    "ru": "Kofemashina espressso",
+    "th": "เครื่องทำกาแฟเอสเปรสโซ",
+    "vi": "May pha ca phe espresso"
+   }
+  }
+ ]
 }

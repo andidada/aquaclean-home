@@ -1,169 +1,269 @@
 {
-  "category": "uv-mite-remover",
-  "products": [
+ "category": "uv-mite-remover",
+ "products": [
+  {
+   "id": "um-300",
+   "name": {
+    "en": "UVPure UM-300 UV Mite Remover",
+    "zh": "UVPure UM-300 紫外线除螨仪",
+    "ar": "مزيل عث UVPure UM-300 بالاشعة فوق البنفسجية",
+    "es": "Eliminador de Acaros UVPure UM-300",
+    "fr": "Elimination des Acariens UVPure UM-300",
+    "id": "Pembasmi Tungau UVPure UM-300",
+    "ru": "УФ-удалитель клещей UVPure UM-300",
+    "th": "เครื่องกำจัดไร UVPure UM-300",
+    "vi": "Thiet bi tia UV UVPure UM-300 loai bo ve sat"
+   },
+   "tagline": {
+    "en": "UV-C + 55C Hot Air — Kills 99.9% of Dust Mites",
+    "zh": "UV-C + 55C热风 — 杀灭99.9%尘螨",
+    "ar": "أشعة فوق بنفسجية-ج + هواء ساخن 55 درجة — يقتل 99.9% من عث الغبار",
+    "es": "UV-C + Aire Caliente a 55C — Elimina el 99.9% de los Acaros",
+    "fr": "UV-C + Air Chaud a 55C — Tue 99.9% des Acariens",
+    "id": "UV-C + Udara Panas 55C — Membunuh 99.9% Tungau Debu",
+    "ru": "УФ-C + горячий воздух 55C — убивает 99.9% пылевых клещей",
+    "th": "UV-C + อากาศร้อน 55 องศา — ฆ่าเชื้อไรฝุ่น 99.9%",
+    "vi": "UV-C + Khi nong 55C — Tieu diet 99.9% ve sat bui"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/04-uv-mite-remover.png"
+   ],
+   "video_url": "",
+   "moq": {
+    "value": 500,
+    "unit": "pieces"
+   },
+   "certifications": [
+    "CE",
+    "FCC",
+    "RoHS"
+   ],
+   "highlights": [
     {
-      "id": "um-300",
-      "name": {
-        "en": "UVPure UM-300 UV Mite Remover",
-        "zh": "UVPure UM-300 紫外线除螨仪",
-        "ar": "مزيل عث UVPure UM-300 بالاشعة فوق البنفسجية",
-        "es": "Eliminador de Acaros UVPure UM-300",
-        "fr": "Elimination des Acariens UVPure UM-300",
-        "id": "Pembasmi Tungau UVPure UM-300",
-        "ru": "УФ-удалитель клещей UVPure UM-300",
-        "th": "เครื่องกำจัดไร UVPure UM-300",
-        "vi": "Thiet bi tia UV UVPure UM-300 loai bo ve sat"
-      },
-      "tagline": {
-        "en": "UV-C + 55C Hot Air — Kills 99.9% of Dust Mites",
-        "zh": "UV-C + 55C热风 — 杀灭99.9%尘螨",
-        "ar": "أشعة فوق بنفسجية-ج + هواء ساخن 55 درجة — يقتل 99.9% من عث الغبار",
-        "es": "UV-C + Aire Caliente a 55C — Elimina el 99.9% de los Acaros",
-        "fr": "UV-C + Air Chaud a 55C — Tue 99.9% des Acariens",
-        "id": "UV-C + Udara Panas 55C — Membunuh 99.9% Tungau Debu",
-        "ru": "УФ-C + горячий воздух 55C — убивает 99.9% пылевых клещей",
-        "th": "UV-C + อากาศร้อน 55 องศา — ฆ่าเชื้อไรฝุ่น 99.9%",
-        "vi": "UV-C + Khi nong 55C — Tieu diet 99.9% ve sat bui"
-      },
-      "images": [
-        "https://www.hkdmj.net/assets/images/products/04-uv-mite-remover.png"
-      ],
-      "video_url": "",
-      "moq": {
-        "value": 500,
-        "unit": "pieces"
-      },
-      "certifications": [
-        "CE",
-        "FCC",
-        "RoHS"
-      ],
-      "highlights": [
-        {
-          "icon": "uv",
-          "text": {
-            "en": "UV-C Light 253.7nm Destroys Mites",
-            "zh": "UV-C灯253.7nm破坏螨虫结构"
-          }
-        },
-        {
-          "icon": "heat",
-          "text": {
-            "en": "55C Hot Air Dries & Eliminates Mites",
-            "zh": "55C热风干燥并消灭螨虫"
-          }
-        },
-        {
-          "icon": "filter",
-          "text": {
-            "en": "H11 HEPA Filter, 99.97% Allergen Capture",
-            "zh": "H11 HEPA过滤器，捕获99.97%过敏原"
-          }
-        },
-        {
-          "icon": "拍拍",
-          "text": {
-            "en": "4500/min Vibration Beats Mites Loose",
-            "zh": "4500次/分钟振动拍出螨虫"
-          }
-        }
-      ],
-      "specs": [
-        {
-          "label": {
-            "en": "UV-C Wavelength",
-            "zh": "UV-C波长"
-          },
-          "value": "253.7nm"
-        },
-        {
-          "label": {
-            "en": "Hot Air Temp",
-            "zh": "热风温度"
-          },
-          "value": "55C"
-        },
-        {
-          "label": {
-            "en": "Suction",
-            "zh": "吸力"
-          },
-          "value": "13000Pa"
-        },
-        {
-          "label": {
-            "en": "Vibration",
-            "zh": "振动频率"
-          },
-          "value": "4500/min"
-        },
-        {
-          "label": {
-            "en": "HEPA Filter",
-            "zh": "HEPA过滤"
-          },
-          "value": "H11 Grade"
-        },
-        {
-          "label": {
-            "en": "Dust Cup",
-            "zh": "尘杯容量"
-          },
-          "value": "0.5L"
-        },
-        {
-          "label": {
-            "en": "Power",
-            "zh": "功率"
-          },
-          "value": "450W"
-        },
-        {
-          "label": {
-            "en": "Noise",
-            "zh": "噪音"
-          },
-          "value": "< 75dB"
-        },
-        {
-          "label": {
-            "en": "Weight",
-            "zh": "重量"
-          },
-          "value": "2.3kg"
-        },
-        {
-          "label": {
-            "en": "MOQ",
-            "zh": "最小起订量"
-          },
-          "value": "500 pcs"
-        }
-      ],
-      "packaging": {
-        "unit": "color box",
-        "ctn_size": "45x32x18cm",
-        "ctn_qty": "12 pcs",
-        "gross_weight": "15kg"
-      },
-      "customization": {
-        "oem": true,
-        "odm": true,
-        "logo": true,
-        "color": true,
-        "package": true,
-        "sample_lead": "7-14 days",
-        "production_lead": "25-35 days"
-      },
-      "applications": {
-        "en": "Home, Car, Office, Kitchen",
-        "zh": "家庭, 汽车, 办公室, 厨房"
-      },
-      "price_indicator": {
-        "min": 35,
-        "max": 60,
-        "currency": "USD"
-      }
+     "icon": "uv",
+     "text": {
+      "en": "UV-C Light 253.7nm Destroys Mites",
+      "zh": "UV-C灯253.7nm破坏螨虫结构"
+     }
+    },
+    {
+     "icon": "heat",
+     "text": {
+      "en": "55C Hot Air Dries & Eliminates Mites",
+      "zh": "55C热风干燥并消灭螨虫"
+     }
+    },
+    {
+     "icon": "filter",
+     "text": {
+      "en": "H11 HEPA Filter, 99.97% Allergen Capture",
+      "zh": "H11 HEPA过滤器，捕获99.97%过敏原"
+     }
+    },
+    {
+     "icon": "拍拍",
+     "text": {
+      "en": "4500/min Vibration Beats Mites Loose",
+      "zh": "4500次/分钟振动拍出螨虫"
+     }
     }
-  ]
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "UV-C Wavelength",
+      "zh": "UV-C波长"
+     },
+     "value": "253.7nm"
+    },
+    {
+     "label": {
+      "en": "Hot Air Temp",
+      "zh": "热风温度"
+     },
+     "value": "55C"
+    },
+    {
+     "label": {
+      "en": "Suction",
+      "zh": "吸力"
+     },
+     "value": "13000Pa"
+    },
+    {
+     "label": {
+      "en": "Vibration",
+      "zh": "振动频率"
+     },
+     "value": "4500/min"
+    },
+    {
+     "label": {
+      "en": "HEPA Filter",
+      "zh": "HEPA过滤"
+     },
+     "value": "H11 Grade"
+    },
+    {
+     "label": {
+      "en": "Dust Cup",
+      "zh": "尘杯容量"
+     },
+     "value": "0.5L"
+    },
+    {
+     "label": {
+      "en": "Power",
+      "zh": "功率"
+     },
+     "value": "450W"
+    },
+    {
+     "label": {
+      "en": "Noise",
+      "zh": "噪音"
+     },
+     "value": "< 75dB"
+    },
+    {
+     "label": {
+      "en": "Weight",
+      "zh": "重量"
+     },
+     "value": "2.3kg"
+    },
+    {
+     "label": {
+      "en": "MOQ",
+      "zh": "最小起订量"
+     },
+     "value": "500 pcs"
+    }
+   ],
+   "packaging": {
+    "unit": "color box",
+    "ctn_size": "45x32x18cm",
+    "ctn_qty": "12 pcs",
+    "gross_weight": "15kg"
+   },
+   "customization": {
+    "oem": true,
+    "odm": true,
+    "logo": true,
+    "color": true,
+    "package": true,
+    "sample_lead": "7-14 days",
+    "production_lead": "25-35 days"
+   },
+   "applications": {
+    "en": "Home, Car, Office, Kitchen",
+    "zh": "家庭, 汽车, 办公室, 厨房"
+   },
+   "price_indicator": {
+    "min": 35,
+    "max": 60,
+    "currency": "USD"
+   },
+   "quick_specs": [
+    {
+     "label": {
+      "en": "UV-C Wavelength",
+      "zh": "UV-C波长"
+     },
+     "value": "253.7nm"
+    },
+    {
+     "label": {
+      "en": "Hot Air Temp",
+      "zh": "热风温度"
+     },
+     "value": "55C"
+    },
+    {
+     "label": {
+      "en": "Suction",
+      "zh": "吸力"
+     },
+     "value": "13000Pa"
+    },
+    {
+     "label": {
+      "en": "Vibration",
+      "zh": "振动频率"
+     },
+     "value": "4500/min"
+    }
+   ],
+   "price_ladder": [
+    {
+     "min": 500,
+     "max": 499,
+     "price": 60
+    },
+    {
+     "min": 500,
+     "max": 999,
+     "price": 48
+    },
+    {
+     "min": 1000,
+     "max": null,
+     "price": 35
+    }
+   ],
+   "sku": [
+    {
+     "name": {
+      "en": "Color",
+      "zh": "颜色"
+     },
+     "values": [
+      {
+       "name": "White",
+       "color": "#F3F4F6"
+      },
+      {
+       "name": "Blue",
+       "color": "#60A5FA"
+      }
+     ]
+    }
+   ],
+   "description": {
+    "en": "Our UV mite removers combine powerful suction with UVC sterilization to eliminate dust mites, bacteria, and allergens from bedding, sofas, and carpets. The dual-function design kills 99.9% of mites while extracting dust and debris.\n\nFeatures include 8W UVC lamp, 12000Pa strong suction, HEPA filtration to trap allergens, and a transparent dust cup for easy monitoring. The 400W motor and 5-meter power cord ensure thorough coverage of any room.\n\nWe provide OEM/ODM services including custom colors, branding, and packaging. MOQ 300 units, sample lead time 7-14 days.",
+    "zh": "我们的紫外线除螨仪结合强力吸尘与UVC杀菌，消除床品、沙发和地毯中的尘螨、细菌和过敏原。双功能设计在吸除灰尘碎屑的同时杀灭99.9%的螨虫。\n\n功能包括8W UVC灯管、12000Pa强劲吸力、HEPA过滤网拦截过敏原，以及透明尘杯便于观察。400W电机和5米电源线确保彻底覆盖任何房间。\n\n我们提供OEM/ODM服务，包括定制颜色、品牌和包装。最小起订量300台，样品交期7-14天。",
+    "ar": "Our UV mite removers combine powerful suction with UVC sterilization to eliminate dust mites, bacteria, and allergens from bedding, sofas, and carpets. The dual-function design kills 99.9% of mites while extracting dust and debris.\n\nFeatures include 8W UVC lamp, 12000Pa strong suction, HEPA filtration to trap allergens, and a transparent dust cup for easy monitoring. The 400W motor and 5-meter power cord ensure thorough coverage of any room.\n\nWe provide OEM/ODM services including custom colors, branding, and packaging. MOQ 300 units, sample lead time 7-14 days.",
+    "es": "Our UV mite removers combine powerful suction with UVC sterilization to eliminate dust mites, bacteria, and allergens from bedding, sofas, and carpets. The dual-function design kills 99.9% of mites while extracting dust and debris.\n\nFeatures include 8W UVC lamp, 12000Pa strong suction, HEPA filtration to trap allergens, and a transparent dust cup for easy monitoring. The 400W motor and 5-meter power cord ensure thorough coverage of any room.\n\nWe provide OEM/ODM services including custom colors, branding, and packaging. MOQ 300 units, sample lead time 7-14 days.",
+    "fr": "Our UV mite removers combine powerful suction with UVC sterilization to eliminate dust mites, bacteria, and allergens from bedding, sofas, and carpets. The dual-function design kills 99.9% of mites while extracting dust and debris.\n\nFeatures include 8W UVC lamp, 12000Pa strong suction, HEPA filtration to trap allergens, and a transparent dust cup for easy monitoring. The 400W motor and 5-meter power cord ensure thorough coverage of any room.\n\nWe provide OEM/ODM services including custom colors, branding, and packaging. MOQ 300 units, sample lead time 7-14 days.",
+    "id": "Our UV mite removers combine powerful suction with UVC sterilization to eliminate dust mites, bacteria, and allergens from bedding, sofas, and carpets. The dual-function design kills 99.9% of mites while extracting dust and debris.\n\nFeatures include 8W UVC lamp, 12000Pa strong suction, HEPA filtration to trap allergens, and a transparent dust cup for easy monitoring. The 400W motor and 5-meter power cord ensure thorough coverage of any room.\n\nWe provide OEM/ODM services including custom colors, branding, and packaging. MOQ 300 units, sample lead time 7-14 days.",
+    "ru": "Our UV mite removers combine powerful suction with UVC sterilization to eliminate dust mites, bacteria, and allergens from bedding, sofas, and carpets. The dual-function design kills 99.9% of mites while extracting dust and debris.\n\nFeatures include 8W UVC lamp, 12000Pa strong suction, HEPA filtration to trap allergens, and a transparent dust cup for easy monitoring. The 400W motor and 5-meter power cord ensure thorough coverage of any room.\n\nWe provide OEM/ODM services including custom colors, branding, and packaging. MOQ 300 units, sample lead time 7-14 days.",
+    "th": "Our UV mite removers combine powerful suction with UVC sterilization to eliminate dust mites, bacteria, and allergens from bedding, sofas, and carpets. The dual-function design kills 99.9% of mites while extracting dust and debris.\n\nFeatures include 8W UVC lamp, 12000Pa strong suction, HEPA filtration to trap allergens, and a transparent dust cup for easy monitoring. The 400W motor and 5-meter power cord ensure thorough coverage of any room.\n\nWe provide OEM/ODM services including custom colors, branding, and packaging. MOQ 300 units, sample lead time 7-14 days.",
+    "vi": "Our UV mite removers combine powerful suction with UVC sterilization to eliminate dust mites, bacteria, and allergens from bedding, sofas, and carpets. The dual-function design kills 99.9% of mites while extracting dust and debris.\n\nFeatures include 8W UVC lamp, 12000Pa strong suction, HEPA filtration to trap allergens, and a transparent dust cup for easy monitoring. The 400W motor and 5-meter power cord ensure thorough coverage of any room.\n\nWe provide OEM/ODM services including custom colors, branding, and packaging. MOQ 300 units, sample lead time 7-14 days."
+   },
+   "supplier_rating": "4.8",
+   "response_time": "≤ 2h",
+   "transactions": "US $100K+",
+   "years": "10+",
+   "ship_from": {
+    "en": "Ningbo, China",
+    "zh": "中国宁波"
+   },
+   "sample": {
+    "enabled": true,
+    "qty": 5,
+    "note": "Sample available, lead 7-14 days"
+   },
+   "category_name": {
+    "en": "UV Mite Remover",
+    "zh": "紫外线除螨仪",
+    "ar": "مزيل عث الاشعة فوق البنفسجية",
+    "es": "Eliminador de Acaros UV",
+    "fr": "Elimination des Acariens UV",
+    "id": "Pembasmi Tungau UV",
+    "ru": "UF-udalitel kleshhej",
+    "th": "เครื่องกำจัดไรด้วยรังสียูวี",
+    "vi": "Thiet bi tia UV loai bo ve sat"
+   }
+  }
+ ]
 }

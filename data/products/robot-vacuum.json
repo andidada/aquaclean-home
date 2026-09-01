@@ -1,170 +1,304 @@
 {
-  "category": "robot-vacuum",
-  "products": [
+ "category": "robot-vacuum",
+ "products": [
+  {
+   "id": "aq-rv100",
+   "name": {
+    "en": "AquaSmart AQ-RV100 Robot Vacuum",
+    "zh": "AquaSmart AQ-RV100 智能扫地机器人",
+    "ar": "روبوت التنظيف AquaSmart AQ-RV100",
+    "es": "Robot Aspirador AquaSmart AQ-RV100",
+    "fr": "Robot Aspirateur AquaSmart AQ-RV100",
+    "id": "Robot Pembersih Vakum AquaSmart AQ-RV100",
+    "ru": "Робот-пылесос AquaSmart AQ-RV100",
+    "th": "หุ่นยนต์ดูดฝุ่น AquaSmart AQ-RV100",
+    "vi": "Robot hut bui AquaSmart AQ-RV100"
+   },
+   "tagline": {
+    "en": "LDS Laser Navigation — Maps Your Entire Home",
+    "zh": "LDS激光导航 — 绘制全屋地图",
+    "ar": "ملاحة ليزر LDS — يرسم خريطة منزلك بالكامل",
+    "es": "Navegacion Laser LDS — Mapea Toda tu Casa",
+    "fr": "Navigation Laser LDS — Cartographie Complete de la Maison",
+    "id": "Navigasi Laser LDS — Pemetaan Rumah Seluruhnya",
+    "ru": "Лазерная навигация LDS — картографирование всего дома",
+    "th": "การนำทางด้วยเลเซอร์ LDS — แมปบ้านทั้งหมดของคุณ",
+    "vi": "Dieu huong laser LDS — Ban do nha cua ban"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/02-robot-vacuum.png"
+   ],
+   "video_url": "",
+   "moq": {
+    "value": 200,
+    "unit": "pieces"
+   },
+   "certifications": [
+    "CE",
+    "FCC",
+    "RoHS",
+    "CB"
+   ],
+   "highlights": [
     {
-      "id": "aq-rv100",
-      "name": {
-        "en": "AquaSmart AQ-RV100 Robot Vacuum",
-        "zh": "AquaSmart AQ-RV100 智能扫地机器人",
-        "ar": "روبوت التنظيف AquaSmart AQ-RV100",
-        "es": "Robot Aspirador AquaSmart AQ-RV100",
-        "fr": "Robot Aspirateur AquaSmart AQ-RV100",
-        "id": "Robot Pembersih Vakum AquaSmart AQ-RV100",
-        "ru": "Робот-пылесос AquaSmart AQ-RV100",
-        "th": "หุ่นยนต์ดูดฝุ่น AquaSmart AQ-RV100",
-        "vi": "Robot hut bui AquaSmart AQ-RV100"
-      },
-      "tagline": {
-        "en": "LDS Laser Navigation — Maps Your Entire Home",
-        "zh": "LDS激光导航 — 绘制全屋地图",
-        "ar": "ملاحة ليزر LDS — يرسم خريطة منزلك بالكامل",
-        "es": "Navegacion Laser LDS — Mapea Toda tu Casa",
-        "fr": "Navigation Laser LDS — Cartographie Complete de la Maison",
-        "id": "Navigasi Laser LDS — Pemetaan Rumah Seluruhnya",
-        "ru": "Лазерная навигация LDS — картографирование всего дома",
-        "th": "การนำทางด้วยเลเซอร์ LDS — แมปบ้านทั้งหมดของคุณ",
-        "vi": "Dieu huong laser LDS — Ban do nha cua ban"
-      },
-      "images": [
-        "https://www.hkdmj.net/assets/images/products/02-robot-vacuum.png"
-      ],
-      "video_url": "",
-      "moq": {
-        "value": 200,
-        "unit": "pieces"
-      },
-      "certifications": [
-        "CE",
-        "FCC",
-        "RoHS",
-        "CB"
-      ],
-      "highlights": [
-        {
-          "icon": "laser",
-          "text": {
-            "en": "LDS Laser Navigation, 360° Scanning",
-            "zh": "LDS激光导航，360度扫描"
-          }
-        },
-        {
-          "icon": "mop",
-          "text": {
-            "en": "Vacuum & Mop 2-in-1, 200ml Tank",
-            "zh": "扫拖一体，200ml水箱"
-          }
-        },
-        {
-          "icon": "map",
-          "text": {
-            "en": "Multi-Floor Mapping, 5 Maps Stored",
-            "zh": "多层地图，存储5张地图"
-          }
-        },
-        {
-          "icon": "battery",
-          "text": {
-            "en": "150min Runtime, Auto Recharge",
-            "zh": "150分钟续航，自动回充"
-          }
-        }
-      ],
-      "specs": [
-        {
-          "label": {
-            "en": "Navigation",
-            "zh": "导航方式"
-          },
-          "value": "LDS Laser"
-        },
-        {
-          "label": {
-            "en": "Suction",
-            "zh": "吸力"
-          },
-          "value": "4000Pa"
-        },
-        {
-          "label": {
-            "en": "Runtime",
-            "zh": "续航时间"
-          },
-          "value": "150 min"
-        },
-        {
-          "label": {
-            "en": "Battery",
-            "zh": "电池容量"
-          },
-          "value": "5200mAh"
-        },
-        {
-          "label": {
-            "en": "Dust Box",
-            "zh": "尘盒容量"
-          },
-          "value": "600ml"
-        },
-        {
-          "label": {
-            "en": "Water Tank",
-            "zh": "水箱容量"
-          },
-          "value": "200ml"
-        },
-        {
-          "label": {
-            "en": "Climbing",
-            "zh": "越障能力"
-          },
-          "value": "20mm"
-        },
-        {
-          "label": {
-            "en": "Noise",
-            "zh": "噪音"
-          },
-          "value": "< 65dB"
-        },
-        {
-          "label": {
-            "en": "App Control",
-            "zh": "APP控制"
-          },
-          "value": "Tuya Smart / Smart Life"
-        },
-        {
-          "label": {
-            "en": "MOQ",
-            "zh": "最小起订量"
-          },
-          "value": "200 pcs"
-        }
-      ],
-      "packaging": {
-        "unit": "color box",
-        "ctn_size": "45x32x18cm",
-        "ctn_qty": "12 pcs",
-        "gross_weight": "15kg"
-      },
-      "customization": {
-        "oem": true,
-        "odm": true,
-        "logo": true,
-        "color": true,
-        "package": true,
-        "sample_lead": "7-14 days",
-        "production_lead": "25-35 days"
-      },
-      "applications": {
-        "en": "Home, Car, Office, Kitchen",
-        "zh": "家庭, 汽车, 办公室, 厨房"
-      },
-      "price_indicator": {
-        "min": 95,
-        "max": 165,
-        "currency": "USD"
-      }
+     "icon": "laser",
+     "text": {
+      "en": "LDS Laser Navigation, 360° Scanning",
+      "zh": "LDS激光导航，360度扫描"
+     }
+    },
+    {
+     "icon": "mop",
+     "text": {
+      "en": "Vacuum & Mop 2-in-1, 200ml Tank",
+      "zh": "扫拖一体，200ml水箱"
+     }
+    },
+    {
+     "icon": "map",
+     "text": {
+      "en": "Multi-Floor Mapping, 5 Maps Stored",
+      "zh": "多层地图，存储5张地图"
+     }
+    },
+    {
+     "icon": "battery",
+     "text": {
+      "en": "150min Runtime, Auto Recharge",
+      "zh": "150分钟续航，自动回充"
+     }
     }
-  ]
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "Navigation",
+      "zh": "导航方式"
+     },
+     "value": "LDS Laser"
+    },
+    {
+     "label": {
+      "en": "Suction",
+      "zh": "吸力"
+     },
+     "value": "4000Pa"
+    },
+    {
+     "label": {
+      "en": "Runtime",
+      "zh": "续航时间"
+     },
+     "value": "150 min"
+    },
+    {
+     "label": {
+      "en": "Battery",
+      "zh": "电池容量"
+     },
+     "value": "5200mAh"
+    },
+    {
+     "label": {
+      "en": "Dust Box",
+      "zh": "尘盒容量"
+     },
+     "value": "600ml"
+    },
+    {
+     "label": {
+      "en": "Water Tank",
+      "zh": "水箱容量"
+     },
+     "value": "200ml"
+    },
+    {
+     "label": {
+      "en": "Climbing",
+      "zh": "越障能力"
+     },
+     "value": "20mm"
+    },
+    {
+     "label": {
+      "en": "Noise",
+      "zh": "噪音"
+     },
+     "value": "< 65dB"
+    },
+    {
+     "label": {
+      "en": "App Control",
+      "zh": "APP控制"
+     },
+     "value": "Tuya Smart / Smart Life"
+    },
+    {
+     "label": {
+      "en": "MOQ",
+      "zh": "最小起订量"
+     },
+     "value": "200 pcs"
+    }
+   ],
+   "packaging": {
+    "unit": "color box",
+    "ctn_size": "45x32x18cm",
+    "ctn_qty": "12 pcs",
+    "gross_weight": "15kg"
+   },
+   "customization": {
+    "oem": true,
+    "odm": true,
+    "logo": true,
+    "color": true,
+    "package": true,
+    "sample_lead": "7-14 days",
+    "production_lead": "25-35 days"
+   },
+   "applications": {
+    "en": "Home, Car, Office, Kitchen",
+    "zh": "家庭, 汽车, 办公室, 厨房"
+   },
+   "price_indicator": {
+    "min": 95,
+    "max": 165,
+    "currency": "USD"
+   },
+   "quick_specs": [
+    {
+     "label": {
+      "en": "Navigation",
+      "zh": "导航方式"
+     },
+     "value": "LDS Laser"
+    },
+    {
+     "label": {
+      "en": "Suction",
+      "zh": "吸力"
+     },
+     "value": "4000Pa"
+    },
+    {
+     "label": {
+      "en": "Runtime",
+      "zh": "续航时间"
+     },
+     "value": "150 min"
+    },
+    {
+     "label": {
+      "en": "Battery",
+      "zh": "电池容量"
+     },
+     "value": "5200mAh"
+    }
+   ],
+   "price_ladder": [
+    {
+     "min": 200,
+     "max": 499,
+     "price": 165
+    },
+    {
+     "min": 500,
+     "max": 999,
+     "price": 130
+    },
+    {
+     "min": 1000,
+     "max": null,
+     "price": 95
+    }
+   ],
+   "sku": [
+    {
+     "name": {
+      "en": "Color",
+      "zh": "颜色"
+     },
+     "values": [
+      {
+       "name": "Black",
+       "color": "#111827"
+      },
+      {
+       "name": "White",
+       "color": "#F3F4F6"
+      }
+     ]
+    },
+    {
+     "name": {
+      "en": "Voltage",
+      "zh": "电压"
+     },
+     "values": [
+      {
+       "name": "110-240V"
+      },
+      {
+       "name": "100-120V"
+      }
+     ]
+    },
+    {
+     "name": {
+      "en": "Plug Type",
+      "zh": "插头"
+     },
+     "values": [
+      {
+       "name": "EU"
+      },
+      {
+       "name": "US"
+      },
+      {
+       "name": "UK"
+      },
+      {
+       "name": "AU"
+      }
+     ]
+    }
+   ],
+   "description": {
+    "en": "Our robot vacuums combine LDS laser navigation with powerful 4000Pa suction to deliver thorough, intelligent cleaning. The 3-in-1 sweep, vacuum, and mop design handles all floor types, while multi-floor mapping stores up to 5 maps for different levels of your home.\n\nSmart features include app control via Tuya/Smart Life, voice control with Alexa and Google Home, auto recharge, and scheduled cleaning. The 5200mAh battery provides up to 150 minutes of runtime, and the 20mm climbing ability easily crosses thresholds and rugs.\n\nWe offer full OEM/ODM services: custom colors, branding, packaging, and even firmware customization for large orders. MOQ 200 units, sample available in 7-14 days.",
+    "zh": "我们的扫地机器人将LDS激光导航与4000Pa强劲吸力相结合，提供彻底而智能的清洁体验。扫拖一体设计适用于所有地面类型，多层地图功能可存储最多5张地图。\n\n智能功能包括Tuya/Smart Life APP控制、Alexa和Google Home语音控制、自动回充和定时清扫。5200mAh电池提供长达150分钟续航，20mm越障能力轻松跨越门槛和地毯。\n\n我们提供完整的OEM/ODM服务：定制颜色、品牌、包装，大订单甚至支持固件定制。最小起订量200台，样品7-14天。",
+    "ar": "Our robot vacuums combine LDS laser navigation with powerful 4000Pa suction to deliver thorough, intelligent cleaning. The 3-in-1 sweep, vacuum, and mop design handles all floor types, while multi-floor mapping stores up to 5 maps for different levels of your home.\n\nSmart features include app control via Tuya/Smart Life, voice control with Alexa and Google Home, auto recharge, and scheduled cleaning. The 5200mAh battery provides up to 150 minutes of runtime, and the 20mm climbing ability easily crosses thresholds and rugs.\n\nWe offer full OEM/ODM services: custom colors, branding, packaging, and even firmware customization for large orders. MOQ 200 units, sample available in 7-14 days.",
+    "es": "Our robot vacuums combine LDS laser navigation with powerful 4000Pa suction to deliver thorough, intelligent cleaning. The 3-in-1 sweep, vacuum, and mop design handles all floor types, while multi-floor mapping stores up to 5 maps for different levels of your home.\n\nSmart features include app control via Tuya/Smart Life, voice control with Alexa and Google Home, auto recharge, and scheduled cleaning. The 5200mAh battery provides up to 150 minutes of runtime, and the 20mm climbing ability easily crosses thresholds and rugs.\n\nWe offer full OEM/ODM services: custom colors, branding, packaging, and even firmware customization for large orders. MOQ 200 units, sample available in 7-14 days.",
+    "fr": "Our robot vacuums combine LDS laser navigation with powerful 4000Pa suction to deliver thorough, intelligent cleaning. The 3-in-1 sweep, vacuum, and mop design handles all floor types, while multi-floor mapping stores up to 5 maps for different levels of your home.\n\nSmart features include app control via Tuya/Smart Life, voice control with Alexa and Google Home, auto recharge, and scheduled cleaning. The 5200mAh battery provides up to 150 minutes of runtime, and the 20mm climbing ability easily crosses thresholds and rugs.\n\nWe offer full OEM/ODM services: custom colors, branding, packaging, and even firmware customization for large orders. MOQ 200 units, sample available in 7-14 days.",
+    "id": "Our robot vacuums combine LDS laser navigation with powerful 4000Pa suction to deliver thorough, intelligent cleaning. The 3-in-1 sweep, vacuum, and mop design handles all floor types, while multi-floor mapping stores up to 5 maps for different levels of your home.\n\nSmart features include app control via Tuya/Smart Life, voice control with Alexa and Google Home, auto recharge, and scheduled cleaning. The 5200mAh battery provides up to 150 minutes of runtime, and the 20mm climbing ability easily crosses thresholds and rugs.\n\nWe offer full OEM/ODM services: custom colors, branding, packaging, and even firmware customization for large orders. MOQ 200 units, sample available in 7-14 days.",
+    "ru": "Our robot vacuums combine LDS laser navigation with powerful 4000Pa suction to deliver thorough, intelligent cleaning. The 3-in-1 sweep, vacuum, and mop design handles all floor types, while multi-floor mapping stores up to 5 maps for different levels of your home.\n\nSmart features include app control via Tuya/Smart Life, voice control with Alexa and Google Home, auto recharge, and scheduled cleaning. The 5200mAh battery provides up to 150 minutes of runtime, and the 20mm climbing ability easily crosses thresholds and rugs.\n\nWe offer full OEM/ODM services: custom colors, branding, packaging, and even firmware customization for large orders. MOQ 200 units, sample available in 7-14 days.",
+    "th": "Our robot vacuums combine LDS laser navigation with powerful 4000Pa suction to deliver thorough, intelligent cleaning. The 3-in-1 sweep, vacuum, and mop design handles all floor types, while multi-floor mapping stores up to 5 maps for different levels of your home.\n\nSmart features include app control via Tuya/Smart Life, voice control with Alexa and Google Home, auto recharge, and scheduled cleaning. The 5200mAh battery provides up to 150 minutes of runtime, and the 20mm climbing ability easily crosses thresholds and rugs.\n\nWe offer full OEM/ODM services: custom colors, branding, packaging, and even firmware customization for large orders. MOQ 200 units, sample available in 7-14 days.",
+    "vi": "Our robot vacuums combine LDS laser navigation with powerful 4000Pa suction to deliver thorough, intelligent cleaning. The 3-in-1 sweep, vacuum, and mop design handles all floor types, while multi-floor mapping stores up to 5 maps for different levels of your home.\n\nSmart features include app control via Tuya/Smart Life, voice control with Alexa and Google Home, auto recharge, and scheduled cleaning. The 5200mAh battery provides up to 150 minutes of runtime, and the 20mm climbing ability easily crosses thresholds and rugs.\n\nWe offer full OEM/ODM services: custom colors, branding, packaging, and even firmware customization for large orders. MOQ 200 units, sample available in 7-14 days."
+   },
+   "supplier_rating": "4.8",
+   "response_time": "≤ 2h",
+   "transactions": "US $100K+",
+   "years": "10+",
+   "ship_from": {
+    "en": "Ningbo, China",
+    "zh": "中国宁波"
+   },
+   "sample": {
+    "enabled": true,
+    "qty": 5,
+    "note": "Sample available, lead 7-14 days"
+   },
+   "category_name": {
+    "en": "Robot Vacuum Cleaner",
+    "zh": "智能扫地机器人",
+    "ar": "روبوت تنظيف الارضيات",
+    "es": "Robot Aspirador",
+    "fr": "Robot Aspirateur",
+    "id": "Robot Pembersih Vakum",
+    "ru": "Робот-пылесос",
+    "th": "หุ่นยนต์ดูดฝุ่น",
+    "vi": "Robot hut bui thong minh"
+   }
+  }
+ ]
 }
