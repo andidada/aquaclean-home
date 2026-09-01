@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UVPure UM-300 紫外线除螨仪 — AquaClean Home</title>
+  <meta name="description" content="UV-C + 55C热风 — 杀灭99.9%尘螨 | AquaClean OEM/ODM manufacturer. 最小起订量 500+ units. CE/FCC certified products.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css?v=20260901">
+  <link rel="icon" href="../favicon.ico" type="image/x-icon">
+  <style>
+    * { box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; margin: 0; color: #1E293B; background: #fff; }
+    /* Navbar */
+    .navbar { position: sticky; top: 0; background: rgba(255,255,255,0.95); backdrop-filter: blur(12px); border-bottom: 1px solid #E2E8F0; z-index: 999; padding: 0 24px; }
+    .navbar-inner { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; gap: 32px; height: 64px; }
+    .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: #0F172A; font-size: 20px; font-weight: 800; }
+    .nav-links { display: flex; list-style: none; margin: 0; padding: 0; gap: 4px; flex: 1; }
+    .nav-links li a { display: block; padding: 8px 14px; color: #64748B; text-decoration: none; font-size: 14px; font-weight: 500; border-radius: 8px; transition: all 0.2s; }
+    .nav-links li a:hover { color: #2563EB; background: #DBEAFE; }
+    .nav-cta { background: #2563EB !important; color: #fff !important; box-shadow: 0 2px 8px rgb(37 99 235 / 0.3); }
+    /* Breadcrumb */
+    .breadcrumb { background: #F8FAFC; border-bottom: 1px solid #E2E8F0; padding: 12px 24px; font-size: 13px; color: #64748B; }
+    .breadcrumb-inner { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; gap: 8px; }
+    .breadcrumb a { color: #2563EB; text-decoration: none; }
+    .breadcrumb a:hover { text-decoration: underline; }
+    /* Product Layout */
+    .product-layout { max-width: 1200px; margin: 0 auto; padding: 40px 24px; display: grid; grid-template-columns: 55% 1fr; gap: 48px; align-items: start; }
+    /* Image Gallery */
+    .gallery-main { border-radius: 16px; overflow: hidden; background: #F8FAFC; border: 1px solid #E2E8F0; margin-bottom: 16px; aspect-ratio: 4/3; display: flex; align-items: center; justify-content: center; }
+    .gallery-main img { width: 100%; height: 100%; object-fit: cover; }
+    .gallery-thumbs { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+    .gallery-thumb { border-radius: 10px; overflow: hidden; border: 2px solid transparent; cursor: pointer; aspect-ratio: 1; background: #F8FAFC; transition: all 0.2s; display: flex; align-items: center; justify-content: center; }
+    .gallery-thumb.active, .gallery-thumb:hover { border-color: #2563EB; }
+    .gallery-thumb img { width: 100%; height: 100%; object-fit: cover; }
+    /* Product Info */
+    .product-info { position: sticky; top: 80px; }
+    .product-info h1 { font-size: 28px; font-weight: 800; color: #0F172A; margin: 0 0 8px; line-height: 1.2; }
+    .product-tagline { font-size: 17px; color: #64748B; margin: 0 0 20px; line-height: 1.5; }
+    .cert-badges { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
+    .cert-badge { display: inline-block; font-size: 12px; font-weight: 700; padding: 4px 12px; border-radius: 100px; background: #ECFDF5; color: #059669; border: 1px solid #A7F3D0; }
+    /* Highlights */
+    .highlights { margin: 24px 0; }
+    .highlights h3 { font-size: 14px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #64748B; margin: 0 0 12px; }
+    .highlight-item { display: flex; align-items: center; gap: 12px; padding: 10px 0; border-bottom: 1px solid #F1F5F9; }
+    .highlight-item:last-child { border-bottom: none; }
+    .highlight-icon { width: 36px; height: 36px; border-radius: 8px; background: #DBEAFE; display: flex; align-items: center; justify-content: center; color: #2563EB; flex-shrink: 0; }
+    .highlight-text { font-size: 14px; font-weight: 500; color: #1E293B; }
+    /* Price */
+    .price-block { background: linear-gradient(135deg, #EFF6FF, #DBEAFE); border: 1px solid #BFDBFE; border-radius: 12px; padding: 20px; margin: 20px 0; }
+    .price-label { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #64748B; margin-bottom: 4px; }
+    .price-value { font-size: 28px; font-weight: 800; color: #1D4ED8; }
+    .price-moq { font-size: 14px; font-weight: 500; color: #64748B; margin-top: 4px; }
+    /* CTA Buttons */
+    .cta-buttons { display: flex; flex-direction: column; gap: 12px; margin: 20px 0; }
+    .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 14px 24px; border-radius: 10px; font-size: 15px; font-weight: 600; text-decoration: none; transition: all 0.3s; border: none; cursor: pointer; }
+    .btn-primary { background: #2563EB; color: #fff; box-shadow: 0 4px 14px rgb(37 99 235 / 0.35); }
+    .btn-primary:hover { background: #1D4ED8; box-shadow: 0 6px 20px rgb(37 99 235 / 0.4); }
+    .btn-outline { background: #fff; color: #2563EB; border: 2px solid #DBEAFE; }
+    .btn-outline:hover { border-color: #2563EB; background: #DBEAFE; }
+    .btn-whatsapp { background: #25D366; color: #fff; box-shadow: 0 4px 14px rgb(37 211 102 / 0.3); }
+    .btn-whatsapp:hover { background: #20BA5A; }
+    .btn-sm { padding: 8px 16px; border-radius: 8px; font-size: 13px; font-weight: 600; }
+    /* Sections */
+    .section { padding: 60px 24px; }
+    .section-alt { background: #F8FAFC; }
+    .section-dark { background: #0F172A; color: #fff; }
+    .section-inner { max-width: 1200px; margin: 0 auto; }
+    .section-title { font-size: clamp(24px, 3vw, 32px); font-weight: 800; color: #0F172A; line-height: 1.2; margin-bottom: 24px; }
+    .section-title-white { color: #fff; }
+    .section-label { display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #2563EB; margin-bottom: 8px; }
+    /* Specs Table */
+    .specs-table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.07); border: 1px solid #E2E8F0; }
+    .specs-table th { background: #0F172A; color: #fff; padding: 14px 20px; text-align: left; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
+    .specs-table td { padding: 12px 20px; border-bottom: 1px solid #F1F5F9; font-size: 14px; color: #1E293B; }
+    .specs-table tr:last-child td { border-bottom: none; }
+    .specs-table tr:nth-child(even) td { background: #F8FAFC; }
+    .specs-table .spec-label { font-weight: 600; color: #64748B; width: 40%; }
+    /* OEM Grid */
+    .oem-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; }
+    .oem-item { display: flex; align-items: center; gap: 10px; background: #fff; border: 1px solid #E2E8F0; border-radius: 10px; padding: 14px 16px; font-size: 14px; font-weight: 500; color: #1E293B; }
+    .oem-check { width: 22px; height: 22px; border-radius: 50%; background: #10B981; display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: #fff; font-size: 12px; }
+    /* Quote Form */
+    .form-section { background: #fff; border-radius: 16px; padding: 40px; max-width: 700px; margin: 0 auto; border: 1px solid #E2E8F0; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.07); }
+    .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .form-group { display: flex; flex-direction: column; gap: 6px; }
+    .form-group.full-width { grid-column: 1 / -1; }
+    .form-group label { font-size: 13px; font-weight: 600; color: #374151; }
+    .form-group input, .form-group textarea, .form-group select { width: 100%; padding: 12px 14px; border: 2px solid #E2E8F0; border-radius: 10px; font-size: 14px; font-family: 'Inter', sans-serif; color: #1E293B; transition: border-color 0.2s; background: #fff; }
+    .form-group input:focus, .form-group textarea:focus, .form-group select:focus { outline: none; border-color: #2563EB; }
+    .form-group textarea { resize: vertical; min-height: 100px; }
+    .form-success { display: none; text-align: center; padding: 40px; }
+    .form-success.show { display: block; }
+    .form-success-icon { font-size: 48px; margin-bottom: 16px; }
+    .form-success h3 { font-size: 22px; font-weight: 700; color: #0F172A; margin: 0 0 8px; }
+    .form-success p { color: #64748B; font-size: 15px; margin: 0; }
+    /* Footer */
+    .footer { background: #0F172A; color: #fff; padding: 60px 24px 24px; }
+    .footer-inner { max-width: 1200px; margin: 0 auto; }
+    .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 48px; }
+    .footer-brand p { color: rgba(255,255,255,0.6); font-size: 14px; line-height: 1.7; margin: 12px 0 0; }
+    .footer h4 { font-size: 14px; font-weight: 700; margin: 0 0 16px; text-transform: uppercase; letter-spacing: 0.05em; }
+    .footer ul { list-style: none; margin: 0; padding: 0; }
+    .footer ul li { margin-bottom: 8px; }
+    .footer ul li a { color: rgba(255,255,255,0.6); text-decoration: none; font-size: 14px; }
+    .footer ul li a:hover { color: #fff; }
+    .footer-bottom { border-top: 1px solid rgba(255,255,255,0.1); padding-top: 24px; text-align: center; color: rgba(255,255,255,0.5); font-size: 13px; }
+    /* Responsive */
+    @media (max-width: 900px) { .product-layout { grid-template-columns: 1fr; } .product-info { position: static; } }
+    @media (max-width: 768px) { .footer-top { grid-template-columns: 1fr 1fr; gap: 32px; } .form-grid { grid-template-columns: 1fr; } }
+    @media (max-width: 480px) { .footer-top { grid-template-columns: 1fr; } .gallery-thumbs { grid-template-columns: repeat(3, 1fr); } }
+    /* Loading */
+    .loading-skeleton { background: linear-gradient(90deg, #F1F5F9 25%, #E2E8F0 50%, #F1F5F9 75%); background-size: 200% 100%; animation: shimmer 1.5s infinite; border-radius: 8px; }
+    @keyframes shimmer { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
+  </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="navbar-inner">
+    <a href="../index.html" class="logo">
+      <div style="width:28px;height:28px;border-radius:8px;background:#2563EB;display:flex;align-items:center;justify-content:center;color:#fff;font-size:13px;font-weight:900;">AC</div>
+      <span>AquaClean</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="/zh/#products">产品</a></li>
+      <li><a href="/zh/about.html">关于我们</a></li>
+      <li><a href="../#why-us">Why Us</a></li>
+      <li><a href="../#contact" class="nav-cta">Get Quote</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- BREADCRUMB -->
+<div class="breadcrumb">
+  <div class="breadcrumb-inner">
+    <a href="../index.html">Home</a>
+    <span>/</span>
+    <a href="/zh/uv-mite-remover/index.html">UVPure UM-300 紫外线除螨仪</a>
+    <span>/</span>
+    <span id="productNameBreadcrumb">UVPure UM-300 紫外线除螨仪</span>
+  </div>
+</div>
+
+<!-- PRODUCT LAYOUT -->
+<div class="product-layout">
+  <!-- LEFT: Image Gallery -->
+  <div>
+    <div class="gallery-main" id="galleryMain">
+      <img src="" alt="" id="mainImage" onerror="this.parentElement.innerHTML='<div style=\'padding:40px;text-align:center;color:#64748B;font-size:16px;\'>Image loading...</div>'">
+    </div>
+    <div class="gallery-thumbs" id="galleryThumbs"></div>
+    <!-- Video Placeholder -->
+    <div id="videoPlaceholder" style="display:none;margin-top:16px;border:2px dashed #E2E8F0;border-radius:12px;padding:32px;text-align:center;color:#64748B;font-size:14px;">
+      <div style="font-size:32px;margin-bottom:8px;">▶</div>
+      <div>Product Video Available on Request</div>
+    </div>
+  </div>
+
+  <!-- RIGHT: Product Info -->
+  <div class="product-info">
+    <div class="section-label">产品详情</div>
+    <h1 id="productName">UVPure UM-300 紫外线除螨仪</h1>
+    <p class="product-tagline" id="productTagline">UV-C + 55C热风 — 杀灭99.9%尘螨</p>
+
+    <!-- Certifications -->
+    <div id="certsContainer">
+      <div class="cert-badges" id="certBadges"></div>
+    </div>
+
+    <!-- Key Highlights -->
+    <div class="highlights">
+      <h3>核心特点</h3>
+      <div id="highlightsList"></div>
+    </div>
+
+    <!-- Price -->
+    <div class="price-block">
+      <div class="price-label">价格区间</div>
+      <div class="price-value" id="priceRange">—</div>
+      <div class="price-moq" id="moqRange"></div>
+    </div>
+
+    <!-- CTA Buttons -->
+    <div class="cta-buttons">
+      <a href="#quote-form" class="btn btn-primary" style="justify-content:center;text-decoration:none;">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        获取报价
+      </a>
+      <a href="https://wa.me/861777910118?text=Hi, I'm interested in your product." class="btn btn-whatsapp" style="justify-content:center;text-decoration:none;" target="_blank">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+        WhatsApp Us
+      </a>
+      <a href="#" class="btn btn-outline" style="justify-content:center;" id="downloadSpecBtn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        下载规格表
+      </a>
+    </div>
+
+    <!-- Category Link -->
+    <div style="margin-top:16px;padding-top:16px;border-top:1px solid #E2E8F0;">
+      <a href="/zh/uv-mite-remover/index.html" class="btn btn-outline btn-sm" style="text-decoration:none;">
+        ← 查看同类产品
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- TECHNICAL SPECIFICATIONS -->
+<section class="section section-alt" id="specs">
+  <div class="section-inner">
+    <div class="section-label">技术规格</div>
+    <h2 class="section-title">技术规格</h2>
+    <div id="specsTable"></div>
+  </div>
+</section>
+
+<!-- PACKAGING & SHIPPING -->
+<section class="section" id="packaging">
+  <div class="section-inner">
+    <div class="section-label">包装与运输</div>
+    <h2 class="section-title">包装与运输</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px;margin-top:24px;" id="packagingGrid">
+      <div style="background:#fff;border:1px solid #E2E8F0;border-radius:12px;padding:20px;text-align:center;">
+        <div style="font-size:12px;font-weight:700;text-transform:uppercase;color:#64748B;margin-bottom:8px;">Unit Package</div>
+        <div style="font-size:20px;font-weight:700;color:#0F172A;" id="pkgUnit">—</div>
+      </div>
+      <div style="background:#fff;border:1px solid #E2E8F0;border-radius:12px;padding:20px;text-align:center;">
+        <div style="font-size:12px;font-weight:700;text-transform:uppercase;color:#64748B;margin-bottom:8px;">Carton Size</div>
+        <div style="font-size:20px;font-weight:700;color:#0F172A;" id="pkgCtnSize">—</div>
+      </div>
+      <div style="background:#fff;border:1px solid #E2E8F0;border-radius:12px;padding:20px;text-align:center;">
+        <div style="font-size:12px;font-weight:700;text-transform:uppercase;color:#64748B;margin-bottom:8px;">Qty / Carton</div>
+        <div style="font-size:20px;font-weight:700;color:#0F172A;" id="pkgCtnQty">—</div>
+      </div>
+      <div style="background:#fff;border:1px solid #E2E8F0;border-radius:12px;padding:20px;text-align:center;">
+        <div style="font-size:12px;font-weight:700;text-transform:uppercase;color:#64748B;margin-bottom:8px;">Gross Weight</div>
+        <div style="font-size:20px;font-weight:700;color:#0F172A;" id="pkgWeight">—</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OEM/ODM CAPABILITIES -->
+<section class="section section-alt" id="oem">
+  <div class="section-inner">
+    <div class="section-label">OEM / ODM 能力</div>
+    <h2 class="section-title">OEM / ODM 能力</h2>
+    <div class="oem-grid" id="oemGrid" style="margin-top:24px;"></div>
+    <div style="margin-top:24px;padding:20px;background:#fff;border:1px solid #E2E8F0;border-radius:12px;">
+      <div style="font-size:14px;color:#64748B;margin-bottom:12px;font-weight:600;">Lead Time</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+        <div>
+          <div style="font-size:12px;color:#64748B;text-transform:uppercase;font-weight:600;margin-bottom:4px;">Sample Lead Time</div>
+          <div style="font-size:18px;font-weight:700;color:#0F172A;" id="sampleLead">—</div>
+        </div>
+        <div>
+          <div style="font-size:12px;color:#64748B;text-transform:uppercase;font-weight:600;margin-bottom:4px;">Production Lead Time</div>
+          <div style="font-size:18px;font-weight:700;color:#0F172A;" id="prodLead">—</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GET QUOTE FORM -->
+<section class="section section-dark" id="quote-form">
+  <div class="section-inner">
+    <div class="text-center">
+      <div class="section-label" style="color:#93C5FD;">申请报价</div>
+      <h2 class="section-title section-title-white">申请报价</h2>
+      <p style="color:rgba(255,255,255,0.7);font-size:16px;margin:0 0 32px;">WhatsApp: +86 177 7919 0118 | 邮箱: info@aquaclean-home.com</p>
+    </div>
+    <div class="form-section" id="quoteFormSection">
+      <form id="quoteForm">
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="fName">姓名 *</label>
+            <input type="text" id="fName" name="name" placeholder="张先生" required>
+          </div>
+          <div class="form-group">
+            <label for="fEmail">邮箱 *</label>
+            <input type="email" id="fEmail" name="email" placeholder="zhang@company.com" required>
+          </div>
+          <div class="form-group">
+            <label for="fCompany">公司名称</label>
+            <input type="text" id="fCompany" name="company" placeholder="ABC贸易公司">
+          </div>
+          <div class="form-group">
+            <label for="fCountry">国家/地区 *</label>
+            <input type="text" id="fCountry" name="country" placeholder="美国" required>
+          </div>
+          <div class="form-group full-width">
+            <label for="fQuantity">订购数量 *</label>
+            <input type="text" id="fQuantity" name="quantity" placeholder="500" required>
+          </div>
+          <div class="form-group full-width">
+            <label for="fMessage">留言</label>
+            <textarea id="fMessage" name="message" placeholder="我想了解..."></textarea>
+          </div>
+          <div class="form-group full-width">
+            <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;" id="submitBtn">
+              提交询价
+            </button>
+          </div>
+        </div>
+      </form>
+      <div class="form-success" id="formSuccess">
+        <div class="form-success-icon">&#10004;</div>
+        <h3>感谢您的询价！我们将在48小时内回复。</h3>
+        <p>WhatsApp: +86 177 7919 0118 | 邮箱: info@aquaclean-home.com</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>.text-center{text-align:center;}</style>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="../index.html" class="logo" style="color:#fff;">
+          <div style="width:28px;height:28px;border-radius:8px;background:#2563EB;display:flex;align-items:center;justify-content:center;color:#fff;font-size:13px;font-weight:900;">AC</div>
+          <span>AquaClean</span>
+        </a>
+        <p>Professional manufacturer of smart home cleaning appliances. OEM/ODM solutions for brands worldwide since 2015.</p>
+      </div>
+      <div>
+        <h4>Products</h4>
+        <ul>
+          <li><a href="../en/handheld-vacuum/index.html">Handheld Vacuum</a></li>
+          <li><a href="../en/robot-vacuum/index.html">Robot Vacuum</a></li>
+          <li><a href="../en/steam-cleaner/index.html">Steam Cleaner</a></li>
+          <li><a href="../en/uv-mite-remover/index.html">UV Mite Remover</a></li>
+          <li><a href="../en/window-cleaner-robot/index.html">Window Cleaner</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="../#why-us">OEM / ODM</a></li>
+          <li><a href="../#why-us">Custom Branding</a></li>
+          <li><a href="../#contact">Bulk Orders</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="../about.html">About Us</a></li>
+          <li><a href="../#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 AquaClean Home Appliances Co., Ltd. 版权所有。</p>
+      <p>Ningbo, Zhejiang, China | info@aquaclean-home.com | WhatsApp: +86 177 7919 0118</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function() {
+  var LANG = "zh";
+  var SLUG = "uv-mite-remover";
+  var PID = "um-300";
+  var DATA_URL = "../data/products/uv-mite-remover.json";
+
+  // ICONS map
+  var ICONS = {
+    power: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18.36 6.64A9 9 0 1 1 5.64 6.64"/><line x1="12" y1="2" x2="12" y2="12"/></svg>',
+    battery: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="18" height="10" rx="2"/><path d="M22 11v2"/></svg>',
+    water: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>',
+    light: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83"/></svg>',
+    laser: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4"/></svg>',
+    mop: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M3 7l9-4 9 4M4 7v14M20 7v14"/></svg>',
+    map: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/></svg>',
+    heat: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v10M18.4 6.6a9 9 0 1 1-12.77.04"/></svg>',
+    temp: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z"/></svg>',
+    tank: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2h12M6 2v6a6 6 0 0 0 12 0V2M6 2H4M20 2h-2"/></svg>',
+    tools: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>',
+    uv: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2"/></svg>',
+    filter: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>',
+    ai: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 9h.01M15 9h.01M9 15h.01M15 15h.01"/></svg>',
+    safety: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>',
+    speed: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>',
+    sensor: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/></svg>',
+    suction: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/></svg>',
+    power2: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="10" rx="2"/></svg>',
+    size: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 21H3V3"/></svg>',
+    display: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>',
+    auto: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/></svg>',
+    max: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18.36 6.64a9 9 0 1 1-12.73 0M12 2v10"/></svg>',
+    pressure: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>',
+    milk: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 2h8l2 4H6l2-4zM5 8h14M6 8v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V8"/></svg>',
+    cup: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 8h1a4 4 0 1 1 0 8h-1M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V8z"/></svg>',
+    carpet: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="8" width="18" height="12" rx="2"/></svg>',
+    chemical: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 2v7.31M14 9.3V1.99M8.5 2h7M14 9.3a6.5 6.5 0 1 1-4 0"/></svg>'
+  };
+
+  function getIcon(name) {
+    return ICONS[name] || ICONS['power'];
+  }
+
+  function t(obj) {
+    if (typeof obj === 'string') return obj;
+    return obj[LANG] || obj['en'] || '';
+  }
+
+  var OEM_ITEMS = ["Custom Logo Printing","Custom Color Options","Custom Packaging Design","OEM/ODM Manufacturing","Sample Orders Available"];
+
+  function renderGallery(images) {
+    var mainImg = document.getElementById('mainImage');
+    var thumbs = document.getElementById('galleryThumbs');
+    if (!images || images.length === 0) {
+      images = ['https://via.placeholder.com/800x600?text=Product+Image'];
+    }
+    mainImg.src = images[0];
+    mainImg.alt = document.getElementById('productName').textContent;
+    thumbs.innerHTML = '';
+    images.forEach(function(img, i) {
+      var thumb = document.createElement('div');
+      thumb.className = 'gallery-thumb' + (i === 0 ? ' active' : '');
+      thumb.innerHTML = '<img src="' + img + '" alt="Thumbnail ' + (i+1) + '" loading="lazy" onerror="this.src='https://via.placeholder.com/200x200?text=Image'">';
+      thumb.addEventListener('click', function() {
+        mainImg.src = img;
+        document.querySelectorAll('.gallery-thumb').forEach(function(t) { t.classList.remove('active'); });
+        thumb.classList.add('active');
+      });
+      thumbs.appendChild(thumb);
+    });
+  }
+
+  function renderCerts(certs) {
+    var el = document.getElementById('certBadges');
+    if (!certs || certs.length === 0) return;
+    el.innerHTML = certs.map(function(c) {
+      return '<span class="cert-badge">' + c + '</span>';
+    }).join('');
+  }
+
+  function renderHighlights(highlights) {
+    var el = document.getElementById('highlightsList');
+    if (!highlights || highlights.length === 0) {
+      el.innerHTML = '<div style="font-size:14px;color:#64748B;">Contact us for detailed specifications.</div>';
+      return;
+    }
+    el.innerHTML = highlights.map(function(h) {
+      return '<div class="highlight-item">' +
+        '<div class="highlight-icon">' + getIcon(h.icon) + '</div>' +
+        '<div class="highlight-text">' + t(h.text) + '</div>' +
+        '</div>';
+    }).join('');
+  }
+
+  function renderPrice(price_indicator, moq) {
+    if (!price_indicator) return;
+    var currency = price_indicator.currency || 'USD';
+    var min = price_indicator.min;
+    var max = price_indicator.max;
+    document.getElementById('priceRange').textContent = '$' + min + '-$' + max + ' / ' + (LANG === 'zh' ? '台' : 'pc');
+    if (moq) {
+      document.getElementById('moqRange').textContent = (LANG === 'zh' ? '最低起订量 ' : 'MOQ ') + moq.value + ' ' + moq.unit;
+    }
+  }
+
+  function renderSpecs(specs) {
+    var el = document.getElementById('specsTable');
+    if (!specs || specs.length === 0) {
+      el.innerHTML = '<p style="color:#64748B;font-size:15px;">No specifications available.</p>';
+      return;
+    }
+    var html = '<table class="specs-table"><thead><tr><th>' +
+      (LANG === 'zh' ? '规格参数' : 'Specification') + '</th><th>' +
+      (LANG === 'zh' ? '参数值' : 'Value') + '</th></tr></thead><tbody>';
+    specs.forEach(function(s) {
+      html += '<tr><td class="spec-label">' + t(s.label) + '</td><td>' + t(s.value) + '</td></tr>';
+    });
+    html += '</tbody></table>';
+    el.innerHTML = html;
+  }
+
+  function renderPackaging(pkg) {
+    if (!pkg) return;
+    if (pkg.unit) document.getElementById('pkgUnit').textContent = pkg.unit;
+    if (pkg.ctn_size) document.getElementById('pkgCtnSize').textContent = pkg.ctn_size;
+    if (pkg.ctn_qty) document.getElementById('pkgCtnQty').textContent = pkg.ctn_qty;
+    if (pkg.gross_weight) document.getElementById('pkgWeight').textContent = pkg.gross_weight;
+  }
+
+  function renderOem(cust) {
+    var el = document.getElementById('oemGrid');
+    var items = [
+      {key: 'oem', label: 'OEM Manufacturing'},
+      {key: 'odm', label: 'ODM Development'},
+      {key: 'logo', label: 'Custom Logo Printing'},
+      {key: 'color', label: 'Custom Color Options'},
+      {key: 'package', label: 'Custom Packaging'}
+    ];
+    if (!cust) {
+      el.innerHTML = '<p>Contact us for OEM/ODM details.</p>';
+      return;
+    }
+    el.innerHTML = items.map(function(item) {
+      var enabled = cust[item.key];
+      return '<div class="oem-item">' +
+        '<div class="oem-check">' + (enabled ? '&#10003;' : '&#10007;') + '</div>' +
+        '<span style="color:' + (enabled ? '#1E293B' : '#94A3B8') + ';">' + item.label + '</span>' +
+        '</div>';
+    }).join('');
+    if (cust.sample_lead) document.getElementById('sampleLead').textContent = cust.sample_lead;
+    if (cust.production_lead) document.getElementById('prodLead').textContent = cust.production_lead;
+  }
+
+  function renderProduct(product) {
+    // Text
+    document.getElementById('productName').textContent = t(product.name);
+    document.getElementById('productTagline').textContent = t(product.tagline);
+    document.getElementById('productNameBreadcrumb').textContent = t(product.name);
+    // Gallery
+    renderGallery(product.images || []);
+    // Certs
+    renderCerts(product.certifications || []);
+    // Highlights
+    renderHighlights(product.highlights || []);
+    // Price
+    renderPrice(product.price_indicator, product.moq);
+    // Specs
+    renderSpecs(product.specs || []);
+    // Packaging
+    renderPackaging(product.packaging);
+    // OEM
+    renderOem(product.customization);
+    // Download spec btn
+    var specBtn = document.getElementById('downloadSpecBtn');
+    specBtn.addEventListener('click', function(e) {
+      e.preventDefault();
+      alert(LANG === 'zh' ? '规格表将发送到您的邮箱。' : 'Spec sheet will be sent to your email.');
+    });
+  }
+
+  // Form handling
+  document.getElementById('quoteForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    var form = e.target;
+    var btn = document.getElementById('submitBtn');
+    btn.textContent = LANG === 'zh' ? '提交中...' : 'Sending...';
+    btn.disabled = true;
+    // Simulate submission (replace with real endpoint)
+    setTimeout(function() {
+      form.style.display = 'none';
+      document.getElementById('formSuccess').classList.add('show');
+    }, 1500);
+  });
+
+  // Load product data
+  function init() {
+    fetch(DATA_URL)
+      .then(function(res) { return res.json(); })
+      .then(function(data) {
+        var products = data.products || [];
+        var product = null;
+        for (var i = 0; i < products.length; i++) {
+          if (products[i].id === PID) {
+            product = products[i];
+            break;
+          }
+        }
+        if (!product) {
+          // Fallback: use first product
+          product = products[0];
+          if (!product) {
+            document.getElementById('productName').textContent = (LANG === 'zh' ? '产品未找到' : 'Product not found');
+            return;
+          }
+        }
+        renderProduct(product);
+      })
+      .catch(function(err) {
+        console.error('Failed to load product data:', err);
+        document.getElementById('productName').textContent = (LANG === 'zh' ? '加载产品数据失败' : 'Failed to load product data');
+      });
+  }
+
+  init();
+})();
+</script>
+</body>
+</html>
