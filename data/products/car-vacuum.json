@@ -1,0 +1,169 @@
+{
+  "category": "car-vacuum",
+  "products": [
+    {
+      "id": "cv-150",
+      "name": {
+        "en": "AutoClean CV-150 Car Vacuum Cleaner",
+        "zh": "AutoClean CV-150 车载便携吸尘器",
+        "ar": "مكنسة AutoClean CV-150 للسيارات",
+        "es": "Aspirador de Coche AutoClean CV-150",
+        "fr": "Aspirateur Voiture AutoClean CV-150",
+        "id": "Pembersih Vakum Mobil AutoClean CV-150",
+        "ru": "Автомобильный пылесос AutoClean CV-150",
+        "th": "เครื่องดูดฝุ่นรถยนต์ AutoClean CV-150",
+        "vi": "May hut bui xe hoi AutoClean CV-150"
+      },
+      "tagline": {
+        "en": "Compact Power — Cleans Every Crevice in Your Car",
+        "zh": "小巧强劲 — 清洁车内每个角落",
+        "ar": "قوة مدمجة — تنظف كل شق في سيارتك",
+        "es": "Potencia Compacta — Limpia Cada Rincon de tu Coche",
+        "fr": "Puissance Compacte — Nettoie Chaque Recoin de Votre Voiture",
+        "id": "Daya Kompleks — Membersihkan Setiap Celah di Mobilmu",
+        "ru": "Компактная мощность — очищает каждый уголок вашего автомобиля",
+        "th": "พลังกระทัดรัด — ทำความสะอาดทุกซอกในรถของคุณ",
+        "vi": "Cong suat nho gon — Don dep moi goc trong xe cua ban"
+      },
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/06-car-vacuum.png"
+      ],
+      "video_url": "",
+      "moq": {
+        "value": 500,
+        "unit": "pieces"
+      },
+      "certifications": [
+        "CE",
+        "FCC",
+        "RoHS"
+      ],
+      "highlights": [
+        {
+          "icon": "suction",
+          "text": {
+            "en": "120W Suction, Removes Pet Hair & Crumbs",
+            "zh": "120W吸力，清理宠物毛发和碎屑"
+          }
+        },
+        {
+          "icon": "power",
+          "text": {
+            "en": "12V DC + USB Dual Power Options",
+            "zh": "12V DC + USB双电源接口"
+          }
+        },
+        {
+          "icon": "size",
+          "text": {
+            "en": "Ultra-Compact, Fits Any Car Glove Box",
+            "zh": "超紧凑设计，可放入任何车内手套箱"
+          }
+        },
+        {
+          "icon": "filter",
+          "text": {
+            "en": "HEPA Washable Filter, Reusable",
+            "zh": "HEPA可水洗过滤器，可重复使用"
+          }
+        }
+      ],
+      "specs": [
+        {
+          "label": {
+            "en": "Power",
+            "zh": "功率"
+          },
+          "value": "120W"
+        },
+        {
+          "label": {
+            "en": "Voltage",
+            "zh": "电压"
+          },
+          "value": "12V DC"
+        },
+        {
+          "label": {
+            "en": "Suction",
+            "zh": "吸力"
+          },
+          "value": "5000Pa"
+        },
+        {
+          "label": {
+            "en": "Dust Cup",
+            "zh": "尘杯容量"
+          },
+          "value": "0.3L"
+        },
+        {
+          "label": {
+            "en": "Cord Length",
+            "zh": "电源线长"
+          },
+          "value": "3.5m"
+        },
+        {
+          "label": {
+            "en": "Weight",
+            "zh": "重量"
+          },
+          "value": "0.8kg"
+        },
+        {
+          "label": {
+            "en": "Filter",
+            "zh": "过滤器"
+          },
+          "value": "HEPA, Washable"
+        },
+        {
+          "label": {
+            "en": "Noise",
+            "zh": "噪音"
+          },
+          "value": "< 72dB"
+        },
+        {
+          "label": {
+            "en": "Colors",
+            "zh": "颜色"
+          },
+          "value": "Black, Red, Blue, Gray"
+        },
+        {
+          "label": {
+            "en": "MOQ",
+            "zh": "最小起订量"
+          },
+          "value": "500 pcs"
+        }
+      ],
+      "packaging": {
+        "unit": "color box",
+        "ctn_size": "45x32x18cm",
+        "ctn_qty": "12 pcs",
+        "gross_weight": "15kg"
+      },
+      "customization": {
+        "oem": true,
+        "odm": true,
+        "logo": true,
+        "color": true,
+        "package": true,
+        "sample_lead": "7-14 days",
+        "production_lead": "25-35 days"
+      },
+      "applications": {
+        "en": "Home, Car, Office, Kitchen",
+        "zh": "家庭, 汽车, 办公室, 厨房"
+      },
+      "price_indicator": {
+        "min": 18,
+        "max": 32,
+        "currency": "USD"
+      }
+    }
+  ]
+}
