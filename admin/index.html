@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>后台管理 · AquaClean 产品管理器</title>
+<title>后台管理 · AquaClean</title>
 <link rel="icon" href="../favicon.ico" type="image/x-icon">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -14,39 +14,24 @@
 <header class="admin-bar">
   <div class="admin-bar-inner">
     <span class="admin-logo">🏠 AquaClean <b>后台</b></span>
-    <span class="admin-hint">本地草稿 · 无需登录 · 导出 JSON 后发布</span>
+    <span class="admin-hint">本地草稿自动保存 · 无需登录 · 导出 JSON 后推送 GitHub</span>
   </div>
 </header>
 <main class="admin-main">
-  <aside class="admin-side">
-    <div class="admin-field">
-      <label>类目</label>
-      <select id="catSel"></select>
-    </div>
-    <div class="admin-field">
-      <label>语言</label>
-      <select id="langSel">
-        <option value="en">English</option>
-        <option value="zh">中文</option>
-        <option value="es">Español</option>
-        <option value="fr">Français</option>
-        <option value="ar">العربية</option>
-        <option value="id">Indonesia</option>
-        <option value="ru">Русский</option>
-        <option value="th">ไทย</option>
-        <option value="vi">Tiếng Việt</option>
-      </select>
-    </div>
-    <button class="btn btn-primary" id="loadBtn">加载产品</button>
-    <button class="btn btn-outline" id="newBtn">新建空白</button>
-    <hr>
-    <button class="btn btn-outline" id="exportBtn">导出 JSON</button>
-    <button class="btn btn-outline" id="importBtn">导入 JSON</button>
-    <input type="file" id="importFile" accept="application/json" hidden>
-    <div class="admin-status" id="status">就绪</div>
+  <aside class="admin-side" id="sidebar">
+    <!-- rebuilt by buildSidebar() in admin.js -->
   </aside>
-  <section class="admin-form" id="formArea"></section>
+  <section class="admin-form" id="formArea">
+    <div class="admin-empty" style="padding:80px 20px;text-align:center;">
+      <div style="font-size:48px;margin-bottom:16px;">🏠</div>
+      <div style="font-size:18px;font-weight:700;color:#0F172A;margin-bottom:8px;">AquaClean 内容管理器</div>
+      <div style="color:#64748B;font-size:14px;line-height:1.6;">
+        选择左侧「📦 产品」或「🏠 首页」标签页<br>从线上拉取现有内容，在线编辑后导出 JSON
+      </div>
+    </div>
+  </section>
 </main>
+<input type="file" id="importFile" accept="application/json" hidden>
 <script src="admin.js"></script>
 </body>
 </html>
