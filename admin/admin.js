@@ -848,6 +848,20 @@
     buildSidebar();
   }
 
+  // Expose for debugging / tab buttons
+  window._aqc = {
+    loadHomepage: loadHomepage,
+    loadHomepageLive: loadHomepageLive,
+    loadProduct: loadProduct,
+    saveHome: saveHome,
+    exportHome: exportHome,
+    collectHome: collectHome,
+    renderHomeEditor: renderHomeEditor,
+    saveProduct: saveProduct,
+    exportProduct: exportProduct,
+    collectProduct: collectProduct
+  };
+
   // Also rebuild langSel if page already loaded
   var existingLangSel = $('langSel');
   if (existingLangSel) {
