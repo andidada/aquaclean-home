@@ -636,9 +636,9 @@
       side.appendChild(hr);
       buildHomeControls(side);
       side.appendChild(statusDiv);
-      // Auto-load homepage data
-      var lang = $('langSel') ? $('langSel').value : 'en';
-      loadHomepage(lang);
+      // Auto-load homepage data (defer 50ms so DOM from buildHomeControls is ready)
+      var _lang = $('langSel') ? $('langSel').value : 'en';
+      setTimeout(function(){ loadHomepage(_lang); }, 50);
     };
   }
 
