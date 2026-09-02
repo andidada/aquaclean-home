@@ -1,15 +1,52 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
-  <link rel="icon" href="../favicon.ico" type="image/x-icon">
-  <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="0; url=./login.html">
-  <title>AquaClean 管理后台</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin · AquaClean Product Manager</title>
+<link rel="icon" href="../favicon.ico" type="image/x-icon">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css?v=20260823a">
+<link rel="stylesheet" href="admin.css">
 </head>
 <body>
-  <p>正在跳转到登录页面...</p>
-  <script>
-    window.location.href = './login.html';
-  </script>
+<header class="admin-bar">
+  <div class="admin-bar-inner">
+    <span class="admin-logo">🏠 AquaClean <b>Admin</b></span>
+    <span class="admin-hint">Local draft · no login · export JSON to publish</span>
+  </div>
+</header>
+<main class="admin-main">
+  <aside class="admin-side">
+    <div class="admin-field">
+      <label>Category</label>
+      <select id="catSel"></select>
+    </div>
+    <div class="admin-field">
+      <label>Language</label>
+      <select id="langSel">
+        <option value="en">English</option>
+        <option value="zh">中文</option>
+        <option value="es">Español</option>
+        <option value="fr">Français</option>
+        <option value="ar">العربية</option>
+        <option value="id">Indonesia</option>
+        <option value="ru">Русский</option>
+        <option value="th">ไทย</option>
+        <option value="vi">Tiếng Việt</option>
+      </select>
+    </div>
+    <button class="btn btn-primary" id="loadBtn">Load Product</button>
+    <button class="btn btn-outline" id="newBtn">New Blank</button>
+    <hr>
+    <button class="btn btn-outline" id="exportBtn">Export JSON</button>
+    <button class="btn btn-outline" id="importBtn">Import JSON</button>
+    <input type="file" id="importFile" accept="application/json" hidden>
+    <div class="admin-status" id="status">Ready.</div>
+  </aside>
+  <section class="admin-form" id="formArea"></section>
+</main>
+<script src="admin.js"></script>
 </body>
 </html>
