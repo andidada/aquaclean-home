@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Admin · AquaClean Product Manager</title>
+<title>后台管理 · AquaClean 产品管理器</title>
 <link rel="icon" href="../favicon.ico" type="image/x-icon">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -13,18 +13,18 @@
 <body>
 <header class="admin-bar">
   <div class="admin-bar-inner">
-    <span class="admin-logo">🏠 AquaClean <b>Admin</b></span>
-    <span class="admin-hint">Local draft · no login · export JSON to publish</span>
+    <span class="admin-logo">🏠 AquaClean <b>后台</b></span>
+    <span class="admin-hint">本地草稿 · 无需登录 · 导出 JSON 后发布</span>
   </div>
 </header>
 <main class="admin-main">
   <aside class="admin-side">
     <div class="admin-field">
-      <label>Category</label>
+      <label>类目</label>
       <select id="catSel"></select>
     </div>
     <div class="admin-field">
-      <label>Language</label>
+      <label>语言</label>
       <select id="langSel">
         <option value="en">English</option>
         <option value="zh">中文</option>
@@ -37,13 +37,13 @@
         <option value="vi">Tiếng Việt</option>
       </select>
     </div>
-    <button class="btn btn-primary" id="loadBtn">Load Product</button>
-    <button class="btn btn-outline" id="newBtn">New Blank</button>
+    <button class="btn btn-primary" id="loadBtn">加载产品</button>
+    <button class="btn btn-outline" id="newBtn">新建空白</button>
     <hr>
-    <button class="btn btn-outline" id="exportBtn">Export JSON</button>
-    <button class="btn btn-outline" id="importBtn">Import JSON</button>
+    <button class="btn btn-outline" id="exportBtn">导出 JSON</button>
+    <button class="btn btn-outline" id="importBtn">导入 JSON</button>
     <input type="file" id="importFile" accept="application/json" hidden>
-    <div class="admin-status" id="status">Ready.</div>
+    <div class="admin-status" id="status">就绪</div>
   </aside>
   <section class="admin-form" id="formArea"></section>
 </main>
