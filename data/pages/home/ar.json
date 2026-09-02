@@ -1,0 +1,181 @@
+{
+  "hero": {
+    "badge": "🇨🇳 شركة تصنيع OEM / ODM · منذ 2015",
+    "h1": "أجهزة تنظيف ذكية<br>صُنعت لـ <span>الأسواق العالمية</span>",
+    "sub": "من روبوتات التنظيف إلى أجهزة البخار — نصمم ونصنع ونشحن أجهزة تنظيف منزلية فاخرة للعلامات التجارية حول العالم. الحد الأدنى للطلب 200 وحدة، شحن دولي مشمول.",
+    "btn_primary_text": "📩 احصل على عرض سعر مجاني",
+    "btn_primary_href": "#contact",
+    "btn_outline_text": "تصفح المنتجات",
+    "btn_outline_href": "#products"
+  },
+  "products": [
+    {
+      "id": "p1",
+      "name": "مكنسة يدوية لاسلكية",
+      "desc": "خفيفة الوزن 120 واط شفط. مثالية للتنظيف السريع في المنزل والسيارة والمكتب.",
+      "tags": [
+        "120W / 16KPa",
+        "USB-C",
+        "25 دقيقة"
+      ],
+      "img": "../assets/images/products/01-handheld-vacuum.png",
+      "btn_text": "المزيد من المنتجات",
+      "btn_href": "en/handheld-vacuum/",
+      "btn_slug": "handheld-vacuum"
+    },
+    {
+      "id": "p2",
+      "name": "روبوت تنظيف أرضيات",
+      "desc": "ملاحة ليزرية LDS مع تحكم بالتطبيق ووظيفة المسح وشفط عميق 2000Pa.",
+      "tags": [
+        "LDS ليزر",
+        "2000Pa",
+        "تحكم بالتطبيق"
+      ],
+      "img": "../assets/images/products/02-robot-vacuum.png",
+      "btn_text": "المزيد من المنتجات",
+      "btn_href": "en/robot-vacuum/",
+      "btn_slug": "robot-vacuum"
+    },
+    {
+      "id": "p3",
+      "name": "منظف بالبخار",
+      "desc": "1500 واط متعدد الأسطح. بخار فائق التسخين 105°C، تنظيف عميق بدون مواد كيميائية.",
+      "tags": [
+        "1500W",
+        "105°C",
+        "9 ملحقات"
+      ],
+      "img": "../assets/images/products/03-steam-cleaner.png",
+      "btn_text": "المزيد من المنتجات",
+      "btn_href": "en/steam-cleaner/",
+      "btn_slug": "steam-cleaner"
+    },
+    {
+      "id": "p4",
+      "name": "مزيل عث بالأشعة فوق البنفسجية",
+      "desc": "تعقيم UV-C مع تجفيف هواء ساخن 55°C. يقضي على 99.9% من عث الغبار والبكتيريا.",
+      "tags": [
+        "UV-C 253.7nm",
+        "HEPA H13",
+        "450W"
+      ],
+      "img": "../assets/images/products/04-uv-mite-remover.png",
+      "btn_text": "المزيد من المنتجات",
+      "btn_href": "en/uv-mite-remover/",
+      "btn_slug": "uv-mite-remover"
+    },
+    {
+      "id": "p5",
+      "name": "روبوت تنظيف النوافذ الذكي",
+      "desc": "روبوت تنظيف نوافذ وأسطح زجاجية بالذكاء الاصطناعي. يستشعر الحواف ويتجنب العوائق.",
+      "tags": [
+        "استشعار ذكي بالـ AI",
+        "بطارية احتياطية UPS",
+        "زجاج / بلاط"
+      ],
+      "img": "../assets/images/products/05-window-robot.png",
+      "btn_text": "المزيد من المنتجات",
+      "btn_href": "en/window-cleaner-robot/",
+      "btn_slug": "window-cleaner-robot"
+    },
+    {
+      "id": "p6",
+      "name": "مكنسة سيارات",
+      "desc": "مكنسة سيارات 12V صغيرة، للاستخدام الجاف والرطب. محرك 150W مع ملحقات متعددة.",
+      "tags": [
+        "12V / 150W",
+        "جاف ورطب",
+        "سلك 3.5م"
+      ],
+      "img": "../assets/images/products/06-car-vacuum.png",
+      "btn_text": "المزيد من المنتجات",
+      "btn_href": "en/car-vacuum/",
+      "btn_slug": "car-vacuum"
+    },
+    {
+      "id": "p7",
+      "name": "مضخة إطارات رقمية",
+      "desc": "مضخة هواء محمولة بإيقاف تلقائي. 4 وحدات قياس (PSI/BAR/KPA/kg/cm²) مع إضاءة LED.",
+      "tags": [
+        "0-150 PSI",
+        "شاشة LED رقمية",
+        "إيقاف تلقائي"
+      ],
+      "img": "../assets/images/products/07-tire-inflator.png",
+      "btn_text": "المزيد من المنتجات",
+      "btn_href": "en/tire-inflator/",
+      "btn_slug": "tire-inflator"
+    },
+    {
+      "id": "p8",
+      "name": "ماكينة قهوة إسبريسو",
+      "desc": "ماكينة قهوة متوافقة مع كبسولات متعددة. مضخة 19 بار، بخاخ حليب، تحضير كوبين.",
+      "tags": [
+        "19 بار",
+        "1300 واط",
+        "بخاخ حليب"
+      ],
+      "img": "../assets/images/products/08-coffee-machine.png?v=20260826",
+      "btn_text": "المزيد من المنتجات",
+      "btn_href": "en/coffee-machine/",
+      "btn_slug": "coffee-machine"
+    },
+    {
+      "id": "p9",
+      "name": "ممسحة بخار عمودية",
+      "desc": "ممسحة بخار عمودية 1500 واط، بخار 110°م وخزان 1.5 لتر للتنظيف العميق.",
+      "tags": [
+        "1500 واط",
+        "110°م",
+        "1.5 لتر"
+      ],
+      "img": "../assets/images/products/09-steam-mop.png?v=20260826",
+      "btn_text": "المزيد من المنتجات",
+      "btn_href": "en/upright-steam-mop/",
+      "btn_slug": "upright-steam-mop"
+    },
+    {
+      "id": "p10",
+      "name": "مكنسة سيارة Pro",
+      "desc": "مكنسة سيارة 12 فولت عالية القوة. شفط 9000 باسكال، جاف/رطب، HEPA و LED.",
+      "tags": [
+        "9000 باسكال",
+        "جاف/رطب",
+        "HEPA"
+      ],
+      "img": "../assets/images/products/10-car-vacuum-pro.png?v=20260826",
+      "btn_text": "المزيد من المنتجات",
+      "btn_href": "en/robot-vacuum/",
+      "btn_slug": "car-vacuum"
+    },
+    {
+      "id": "p11",
+      "name": "مكواة بخار عمودية",
+      "desc": "مكواة بخار 1800 واط تسخين سريع. جاهزة في 30 ث، قاعدة سيراميك، 50 دقيقة بخار.",
+      "tags": [
+        "1800 واط",
+        "جاهزة 30ث",
+        "1.8 لتر"
+      ],
+      "img": "../assets/images/products/11-garment-steamer.png?v=20260826",
+      "btn_text": "المزيد من المنتجات",
+      "btn_href": "en/robot-vacuum/",
+      "btn_slug": "upright-steam-mop"
+    }
+  ],
+  "contact": {
+    "h2": "اطلب عرض سعر — نرد خلال 48 ساعة",
+    "email": "info@aquaclean-home.com",
+    "phone": "+86 177 7919 0118",
+    "whatsapp": "+8617779190118",
+    "address": "نينغبو، تشجيانغ، الصين",
+    "hours": ""
+  },
+  "footer": {
+    "company_name": "AquaClean Home Appliances Co., Ltd.",
+    "description": "شركة تصنيع احترافية لأجهزة تنظيف المنزل الذكية. حلول OEM/ODM للعلامات التجارية العالمية منذ 2015.",
+    "email": "info@aquaclean-home.com",
+    "phone": "+86 177 7919 0118"
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "hero": {
+    "badge": "🇨🇳 Nhà Sản Xuất OEM / ODM · Kể Từ 2015",
+    "h1": "Thiết Bị Làm Sạch Thông Minh<br>Dành Cho <span>Thị Trường Toàn Cầu</span>",
+    "sub": "Từ robot hút bụi đến máy hơi nước — chúng tôi thiết kế, sản xuất và vận chuyển thiết bị làm sạch gia đình cao cấp cho các thương hiệu trên toàn thế giới. MOQ 200 đơn vị, vận chuyển quốc tế bao gồm.",
+    "btn_primary_text": "📩 Nhận Báo Giá Miễn Phí",
+    "btn_primary_href": "#contact",
+    "btn_outline_text": "Xem Sản Phẩm",
+    "btn_outline_href": "#products"
+  },
+  "products": [
+    {
+      "id": "p1",
+      "name": "Máy Hút Bụi Cầm Tay",
+      "desc": "Không dây, nhẹ, công suất hút 120W. Hoàn hảo để dọn dẹp nhanh tại nhà, ô tô và văn phòng.",
+      "tags": [
+        "120W / 16KPa",
+        "USB-C",
+        "25 Phút"
+      ],
+      "img": "../assets/images/products/01-handheld-vacuum.png",
+      "btn_text": "Xem thêm sản phẩm",
+      "btn_href": "en/handheld-vacuum/",
+      "btn_slug": "handheld-vacuum"
+    },
+    {
+      "id": "p2",
+      "name": "Robot Hút Bụi",
+      "desc": "Điều hướng laser LDS với điều khiển ứng dụng, chức năng lau nhà và công suất hút sâu 2000Pa.",
+      "tags": [
+        "Laser LDS",
+        "2000Pa",
+        "Điều Khiển App"
+      ],
+      "img": "../assets/images/products/02-robot-vacuum.png",
+      "btn_text": "Xem thêm sản phẩm",
+      "btn_href": "en/robot-vacuum/",
+      "btn_slug": "robot-vacuum"
+    },
+    {
+      "id": "p3",
+      "name": "Máy Hơi Nước Làm Sạch",
+      "desc": "Máy hơi đa năng 1500W. Hơi nước siêu nóng 105°C, làm sạch sâu không hóa chất.",
+      "tags": [
+        "1500W",
+        "105°C",
+        "9 Phụ Kiện"
+      ],
+      "img": "../assets/images/products/03-steam-cleaner.png",
+      "btn_text": "Xem thêm sản phẩm",
+      "btn_href": "en/steam-cleaner/",
+      "btn_slug": "steam-cleaner"
+    },
+    {
+      "id": "p4",
+      "name": "Máy Diệt Ve Bụi UV",
+      "desc": "Khử trùng UV-C với sấy khô bằng khí nóng 55°C. Tiêu diệt 99.9% ve bụi và vi khuẩn.",
+      "tags": [
+        "UV-C 253.7nm",
+        "HEPA H13",
+        "450W"
+      ],
+      "img": "../assets/images/products/04-uv-mite-remover.png",
+      "btn_text": "Xem thêm sản phẩm",
+      "btn_href": "en/uv-mite-remover/",
+      "btn_slug": "uv-mite-remover"
+    },
+    {
+      "id": "p5",
+      "name": "Robot Lau Kính Thông Minh",
+      "desc": "Robot làm sạch kính và gạch tự động bằng AI. Cảm biến mép, tránh vật cản, làm sạch an toàn.",
+      "tags": [
+        "AI Phát Hiện Mép",
+        "UPS Dự Phòng",
+        "Kính / Gạch"
+      ],
+      "img": "../assets/images/products/05-window-robot.png",
+      "btn_text": "Xem thêm sản phẩm",
+      "btn_href": "en/window-cleaner-robot/",
+      "btn_slug": "window-cleaner-robot"
+    },
+    {
+      "id": "p6",
+      "name": "Máy Hút Bụi Ô Tô",
+      "desc": "Máy hút bụi ô tô 12V nhỏ gọn, dùng được cho khô và ướt. Động cơ 150W với nhiều phụ kiện đi kèm.",
+      "tags": [
+        "12V / 150W",
+        "Khô & Ướt",
+        "Dây 3.5m"
+      ],
+      "img": "../assets/images/products/06-car-vacuum.png",
+      "btn_text": "Xem thêm sản phẩm",
+      "btn_href": "en/car-vacuum/",
+      "btn_slug": "car-vacuum"
+    },
+    {
+      "id": "p7",
+      "name": "Bơm Lốp Xe Kỹ Thuật Số",
+      "desc": "Máy bơm khí di động tự động ngắt. 4 đơn vị cài sẵn (PSI/BAR/KPA/kg/cm²) với đèn LED ban đêm.",
+      "tags": [
+        "0-150 PSI",
+        "LED Kỹ Thuật Số",
+        "Tự Ngắt"
+      ],
+      "img": "../assets/images/products/07-tire-inflator.png",
+      "btn_text": "Xem thêm sản phẩm",
+      "btn_href": "en/tire-inflator/",
+      "btn_slug": "tire-inflator"
+    },
+    {
+      "id": "p8",
+      "name": "Máy Pha Cà Phê Espresso",
+      "desc": "Máy pha cà phê tương thích đa capsule. Bơm 19 bar, vòi đánh sữa, pha 2 ly cùng lúc.",
+      "tags": [
+        "19 Bar",
+        "1300W",
+        "Vòi Sữa"
+      ],
+      "img": "../assets/images/products/08-coffee-machine.png?v=20260826",
+      "btn_text": "Xem thêm sản phẩm",
+      "btn_href": "en/coffee-machine/",
+      "btn_slug": "coffee-machine"
+    },
+    {
+      "id": "p9",
+      "name": "Cây Lau Hơi Nước Đứng",
+      "desc": "Máy lau hơi nước đứng 1500W, hơi 110°C và bình nước 1.5L làm sạch sâu toàn sàn.",
+      "tags": [
+        "1500W",
+        "110°C",
+        "1.5L"
+      ],
+      "img": "../assets/images/products/09-steam-mop.png?v=20260826",
+      "btn_text": "Xem thêm sản phẩm",
+      "btn_href": "en/upright-steam-mop/",
+      "btn_slug": "upright-steam-mop"
+    },
+    {
+      "id": "p10",
+      "name": "Máy Hút Bụi Ô Tô Pro",
+      "desc": "Máy hút bụi ô tô 12V công suất cao. Hút 9000Pa, khô/ướt, lọc HEPA và đèn LED.",
+      "tags": [
+        "9000Pa",
+        "Khô & Ướt",
+        "HEPA"
+      ],
+      "img": "../assets/images/products/10-car-vacuum-pro.png?v=20260826",
+      "btn_text": "Xem thêm sản phẩm",
+      "btn_href": "en/robot-vacuum/",
+      "btn_slug": "car-vacuum"
+    },
+    {
+      "id": "p11",
+      "name": "Máy Ủi Hơi Nước Đứng",
+      "desc": "Máy ủi hơi nước 1800W khởi động nhanh. Sẵn sàng 30s, đế gốm, hơi liên tục 50 phút.",
+      "tags": [
+        "1800W",
+        "Sẵn Sàng 30s",
+        "1.8L"
+      ],
+      "img": "../assets/images/products/11-garment-steamer.png?v=20260826",
+      "btn_text": "Xem thêm sản phẩm",
+      "btn_href": "en/robot-vacuum/",
+      "btn_slug": "upright-steam-mop"
+    }
+  ],
+  "contact": {
+    "h2": "Yêu Cầu Báo Giá — Chúng Tôi Phản Hồi Trong 48 Giờ",
+    "email": "info@aquaclean-home.com",
+    "phone": "86 177 7919 0118",
+    "whatsapp": "+8617779190118",
+    "address": "Ninh Ba, Chiết Giang, Trung Quốc",
+    "hours": ""
+  },
+  "footer": {
+    "company_name": "AquaClean Home Appliances Co., Ltd.",
+    "description": "Nhà sản xuất chuyên nghiệp thiết bị làm sạch nhà thông minh. Giải pháp OEM/ODM cho các thương hiệu toàn cầu kể từ 2015.",
+    "email": "info@aquaclean-home.com",
+    "phone": "+86 177 7919 0118"
+  }
+}

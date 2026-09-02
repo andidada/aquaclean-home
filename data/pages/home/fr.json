@@ -1,0 +1,181 @@
+{
+  "hero": {
+    "badge": "🇨🇳 Fabricant OEM / ODM · Depuis 2015",
+    "h1": "Appareils de nettoyage intelligents<br>Conçus pour les <span>marchés mondiaux</span>",
+    "sub": "Des robots aspirateurs aux nettoyeurs vapeur — nous concevons, fabriquons et expédions des appareils de nettoyage domestique premium pour des marques du monde entier. MOQ 200 unités, livraison mondiale incluse.",
+    "btn_primary_text": "📩 Obtenir un devis gratuit",
+    "btn_primary_href": "#contact",
+    "btn_outline_text": "Parcourir les produits",
+    "btn_outline_href": "#products"
+  },
+  "products": [
+    {
+      "id": "p1",
+      "name": "Aspirateur portable",
+      "desc": "Sans fil, léger, aspiration 120W. Idéal pour un nettoyage rapide à la maison, en voiture et au bureau.",
+      "tags": [
+        "120W / 16KPa",
+        "USB-C",
+        "25min Runtime"
+      ],
+      "img": "../assets/images/products/01-handheld-vacuum.png",
+      "btn_text": "Plus de produits",
+      "btn_href": "en/handheld-vacuum/",
+      "btn_slug": "handheld-vacuum"
+    },
+    {
+      "id": "p2",
+      "name": "Robot aspirateur",
+      "desc": "Navigation laser LDS avec contrôle par application, fonction de lavage et aspiration de nettoyage profond 2000Pa.",
+      "tags": [
+        "LDS Laser",
+        "2000Pa",
+        "App Control"
+      ],
+      "img": "../assets/images/products/02-robot-vacuum.png",
+      "btn_text": "Plus de produits",
+      "btn_href": "en/robot-vacuum/",
+      "btn_slug": "robot-vacuum"
+    },
+    {
+      "id": "p3",
+      "name": "Nettoyeur vapeur",
+      "desc": "Nettoyeur multifonction 1500W. Vapeur surchauffée à 105°C, nettoyage profond sans produits chimiques.",
+      "tags": [
+        "1500W",
+        "105°C",
+        "9 Attachments"
+      ],
+      "img": "../assets/images/products/03-steam-cleaner.png",
+      "btn_text": "Plus de produits",
+      "btn_href": "en/steam-cleaner/",
+      "btn_slug": "steam-cleaner"
+    },
+    {
+      "id": "p4",
+      "name": "Éliminateur d'acariens UV",
+      "desc": "Stérilisation UV-C avec séchage par air chaud à 55°C. Élimine 99,9 % des acariens et bactéries.",
+      "tags": [
+        "UV-C 253.7nm",
+        "HEPA H13",
+        "450W"
+      ],
+      "img": "../assets/images/products/04-uv-mite-remover.png",
+      "btn_text": "Plus de produits",
+      "btn_href": "en/uv-mite-remover/",
+      "btn_slug": "uv-mite-remover"
+    },
+    {
+      "id": "p5",
+      "name": "Robot nettoyeur de vitres intelligent",
+      "desc": "Robot nettoyeur de vitres et de surfaces vitrées automatique alimenté par IA. Détecte les bords, évite les obstacles, nettoie en toute sécurité.",
+      "tags": [
+        "AI Edge Detection",
+        "UPS Backup",
+        "Glass / Tiles"
+      ],
+      "img": "../assets/images/products/05-window-robot.png",
+      "btn_text": "Plus de produits",
+      "btn_href": "en/window-cleaner-robot/",
+      "btn_slug": "window-cleaner-robot"
+    },
+    {
+      "id": "p6",
+      "name": "Aspirateur voiture",
+      "desc": "Aspirateur voiture compact 12V, sec et humide. Moteur 150W avec plusieurs accessoires inclus.",
+      "tags": [
+        "12V / 150W",
+        "Dry & Wet",
+        "3.5m Cord"
+      ],
+      "img": "../assets/images/products/06-car-vacuum.png",
+      "btn_text": "Plus de produits",
+      "btn_href": "en/car-vacuum/",
+      "btn_slug": "car-vacuum"
+    },
+    {
+      "id": "p7",
+      "name": "Compresseur de pneus numérique",
+      "desc": "Pompe à air portable à arrêt automatique. 4 unités prédéfinies (PSI/BAR/KPA/kg/cm²) avec lumière LED de nuit.",
+      "tags": [
+        "0-150 PSI",
+        "Digital LED",
+        "Auto Shut-Off"
+      ],
+      "img": "../assets/images/products/07-tire-inflator.png",
+      "btn_text": "Plus de produits",
+      "btn_href": "en/tire-inflator/",
+      "btn_slug": "tire-inflator"
+    },
+    {
+      "id": "p8",
+      "name": "Cafetière Espresso",
+      "desc": "Cafetière compatible multi-capsules. Pompe 19 bar, buse à lait, 2 tasses simultanées.",
+      "tags": [
+        "19 Bar",
+        "1300W",
+        "Buse Lait"
+      ],
+      "img": "../assets/images/products/08-coffee-machine.png?v=20260826",
+      "btn_text": "Plus de produits",
+      "btn_href": "en/coffee-machine/",
+      "btn_slug": "coffee-machine"
+    },
+    {
+      "id": "p9",
+      "name": "Vadrouille Vapeur",
+      "desc": "Vadrouille vapeur verticale 1500W, vapeur 110°C et réservoir 1.5L pour nettoyage profond.",
+      "tags": [
+        "1500W",
+        "110°C",
+        "1.5L"
+      ],
+      "img": "../assets/images/products/09-steam-mop.png?v=20260826",
+      "btn_text": "Plus de produits",
+      "btn_href": "en/upright-steam-mop/",
+      "btn_slug": "upright-steam-mop"
+    },
+    {
+      "id": "p10",
+      "name": "Aspirateur Auto Pro",
+      "desc": "Aspirateur voiture 12V haute puissance. 9000Pa, sec/humide, HEPA et LED.",
+      "tags": [
+        "9000Pa",
+        "Sec/Hum.",
+        "HEPA"
+      ],
+      "img": "../assets/images/products/10-car-vacuum-pro.png?v=20260826",
+      "btn_text": "Plus de produits",
+      "btn_href": "en/robot-vacuum/",
+      "btn_slug": "car-vacuum"
+    },
+    {
+      "id": "p11",
+      "name": "Vapeur à Vêtements",
+      "desc": "Vapeur verticale 1800W chauffe rapide. Prête en 30s, semelle céramique, 50 min continu.",
+      "tags": [
+        "1800W",
+        "Prête 30s",
+        "1.8L"
+      ],
+      "img": "../assets/images/products/11-garment-steamer.png?v=20260826",
+      "btn_text": "Plus de produits",
+      "btn_href": "en/robot-vacuum/",
+      "btn_slug": "upright-steam-mop"
+    }
+  ],
+  "contact": {
+    "h2": "Demandez un devis — Nous répondons sous 48 heures",
+    "email": "info@aquaclean-home.com",
+    "phone": "86 177 7919 0118",
+    "whatsapp": "+8617779190118",
+    "address": "Ningbo, Zhejiang, Chine",
+    "hours": ""
+  },
+  "footer": {
+    "company_name": "AquaClean Home Appliances Co., Ltd.",
+    "description": "Fabricant professionnel d'appareils de nettoyage domestique intelligents. Solutions OEM/ODM pour des marques du monde entier depuis 2015.",
+    "email": "info@aquaclean-home.com",
+    "phone": "+86 177 7919 0118"
+  }
+}

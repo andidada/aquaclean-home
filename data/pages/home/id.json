@@ -1,0 +1,181 @@
+{
+  "hero": {
+    "badge": "🇨🇳 Produsen OEM / ODM · Sejak 2015",
+    "h1": "Peralatan Kebersihan Cerdas<br>Dibuat untuk <span>Pasar Global</span>",
+    "sub": "Dari robot penyedot debu hingga pembersih uap — kami merancang, memproduksi, dan mengirimkan peralatan kebersihan rumah premium untuk merek di seluruh dunia. MOQ 200 unit, pengiriman global termasuk.",
+    "btn_primary_text": "📩 Dapatkan Penawaran Gratis",
+    "btn_primary_href": "#contact",
+    "btn_outline_text": "Lihat Produk",
+    "btn_outline_href": "#products"
+  },
+  "products": [
+    {
+      "id": "p1",
+      "name": "Penyedot Debu Portabel",
+      "desc": "Nirkabel, ringan, daya hisap 120W. Sempurna untuk pembersihan cepat di rumah, mobil, dan kantor.",
+      "tags": [
+        "120W / 16KPa",
+        "USB-C",
+        "25 Menit"
+      ],
+      "img": "../assets/images/products/01-handheld-vacuum.png",
+      "btn_text": "Lebih banyak produk",
+      "btn_href": "en/handheld-vacuum/",
+      "btn_slug": "handheld-vacuum"
+    },
+    {
+      "id": "p2",
+      "name": "Robot Penyedot Debu",
+      "desc": "Navigasi laser LDS dengan kontrol aplikasi, fungsi pel, dan daya hisap pembersihan dalam 2000Pa.",
+      "tags": [
+        "Laser LDS",
+        "2000Pa",
+        "Kontrol Aplikasi"
+      ],
+      "img": "../assets/images/products/02-robot-vacuum.png",
+      "btn_text": "Lebih banyak produk",
+      "btn_href": "en/robot-vacuum/",
+      "btn_slug": "robot-vacuum"
+    },
+    {
+      "id": "p3",
+      "name": "Pembersih Uap",
+      "desc": "Pembersih multi-permukaan 1500W. Uap super-panas 105°C, pembersihan mendalam tanpa bahan kimia.",
+      "tags": [
+        "1500W",
+        "105°C",
+        "9 Perlengkapan"
+      ],
+      "img": "../assets/images/products/03-steam-cleaner.png",
+      "btn_text": "Lebih banyak produk",
+      "btn_href": "en/steam-cleaner/",
+      "btn_slug": "steam-cleaner"
+    },
+    {
+      "id": "p4",
+      "name": "Penghilang Tungau UV",
+      "desc": "Sterilisasi UV-C dengan pengeringan udara panas 55°C. Menghilangkan 99.9% tungau debu dan bakteri.",
+      "tags": [
+        "UV-C 253.7nm",
+        "HEPA H13",
+        "450W"
+      ],
+      "img": "../assets/images/products/04-uv-mite-remover.png",
+      "btn_text": "Lebih banyak produk",
+      "btn_href": "en/uv-mite-remover/",
+      "btn_slug": "uv-mite-remover"
+    },
+    {
+      "id": "p5",
+      "name": "Robot Pembersih Jendela Cerdas",
+      "desc": "Robot pembersih jendela dan kaca otomatis bertenaga AI. Mendeteksi tepi, menghindari rintangan, membersihkan dengan aman.",
+      "tags": [
+        "Deteksi Tepi AI",
+        "Cadangan UPS",
+        "Kaca / Ubin"
+      ],
+      "img": "../assets/images/products/05-window-robot.png",
+      "btn_text": "Lebih banyak produk",
+      "btn_href": "en/window-cleaner-robot/",
+      "btn_slug": "window-cleaner-robot"
+    },
+    {
+      "id": "p6",
+      "name": "Penyedot Debu Mobil",
+      "desc": "Penyedot debu mobil 12V ringkas, untuk kering & basah. Motor 150W dengan berbagai perlengkapan.",
+      "tags": [
+        "12V / 150W",
+        "Kering & Basah",
+        "Kabel 3.5m"
+      ],
+      "img": "../assets/images/products/06-car-vacuum.png",
+      "btn_text": "Lebih banyak produk",
+      "btn_href": "en/car-vacuum/",
+      "btn_slug": "car-vacuum"
+    },
+    {
+      "id": "p7",
+      "name": "Pompa Ban Digital",
+      "desc": "Pompa udara portabel dengan mati otomatis. 4 satuan preset (PSI/BAR/KPA/kg/cm²) dengan lampu LED.",
+      "tags": [
+        "0-150 PSI",
+        "LED Digital",
+        "Mati Otomatis"
+      ],
+      "img": "../assets/images/products/07-tire-inflator.png",
+      "btn_text": "Lebih banyak produk",
+      "btn_href": "en/tire-inflator/",
+      "btn_slug": "tire-inflator"
+    },
+    {
+      "id": "p8",
+      "name": "Mesin Kopi Espresso",
+      "desc": "Mesin kopi kompatibel multi-kapsul. Pompa 19 bar, frother susu, brew 2 cangkir sekaligus.",
+      "tags": [
+        "19 Bar",
+        "1300W",
+        "Frother"
+      ],
+      "img": "../assets/images/products/08-coffee-machine.png?v=20260826",
+      "btn_text": "Lebih banyak produk",
+      "btn_href": "en/coffee-machine/",
+      "btn_slug": "coffee-machine"
+    },
+    {
+      "id": "p9",
+      "name": "Pel Lapis Uap Berdiri",
+      "desc": "Pel uap berdiri 1500W, uap 110°C dan tangki 1.5L untuk sanitasi lantai mendalam.",
+      "tags": [
+        "1500W",
+        "110°C",
+        "1.5L"
+      ],
+      "img": "../assets/images/products/09-steam-mop.png?v=20260826",
+      "btn_text": "Lebih banyak produk",
+      "btn_href": "en/upright-steam-mop/",
+      "btn_slug": "upright-steam-mop"
+    },
+    {
+      "id": "p10",
+      "name": "Penyedot Debu Mobil Pro",
+      "desc": "Penyedot debu mobil 12V bertenaga tinggi. Hisap 9000Pa, kering/basah, filter HEPA & LED.",
+      "tags": [
+        "9000Pa",
+        "Kering & Basah",
+        "HEPA"
+      ],
+      "img": "../assets/images/products/10-car-vacuum-pro.png?v=20260826",
+      "btn_text": "Lebih banyak produk",
+      "btn_href": "en/robot-vacuum/",
+      "btn_slug": "car-vacuum"
+    },
+    {
+      "id": "p11",
+      "name": "Setrika Uap Berdiri",
+      "desc": "Setrika uap 1800W pemanasan cepat. Siap 30dtk, pelat keramik, uap kontinu 50 menit.",
+      "tags": [
+        "1800W",
+        "Siap 30dtk",
+        "1.8L"
+      ],
+      "img": "../assets/images/products/11-garment-steamer.png?v=20260826",
+      "btn_text": "Lebih banyak produk",
+      "btn_href": "en/robot-vacuum/",
+      "btn_slug": "upright-steam-mop"
+    }
+  ],
+  "contact": {
+    "h2": "Minta Penawaran — Kami Merespons dalam 48 Jam",
+    "email": "info@aquaclean-home.com",
+    "phone": "86 177 7919 0118",
+    "whatsapp": "+8617779190118",
+    "address": "Ningbo, Zhejiang, Tiongkok",
+    "hours": ""
+  },
+  "footer": {
+    "company_name": "AquaClean Home Appliances Co., Ltd.",
+    "description": "Produsen peralatan kebersihan rumah cerdas profesional. Solusi OEM/ODM untuk merek global sejak 2015.",
+    "email": "info@aquaclean-home.com",
+    "phone": "+86 177 7919 0118"
+  }
+}

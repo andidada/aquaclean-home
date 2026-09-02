@@ -1,0 +1,181 @@
+{
+  "hero": {
+    "badge": "🇨🇳 ผู้ผลิต OEM / ODM · ตั้งแต่ปี 2015",
+    "h1": "อุปกรณ์ทำความสะอาดอัจฉริยะ<br>ออกแบบสำหรับ <span>ตลาดทั่วโลก</span>",
+    "sub": "จากหุ่นยนต์ดูดฝุ่นไปจนถึงเครื่องทำความสะอาดด้วยไอน้ำ — เราออกแบบ ผลิต และจัดส่งอุปกรณ์ทำความสะอาดบ้านพรีเมียมให้กับแบรนด์ทั่วโลก ขั้นต่ำ 200 ชิ้น จัดส่งทั่วโลก",
+    "btn_primary_text": "📩 ขอใบเสนอราคาฟรี",
+    "btn_primary_href": "#contact",
+    "btn_outline_text": "ดูสินค้า",
+    "btn_outline_href": "#products"
+  },
+  "products": [
+    {
+      "id": "p1",
+      "name": "เครื่องดูดฝุ่นแบบพกพา",
+      "desc": "ไร้สาย น้ำหนักเบา กำลังดูด 120W เหมาะสำหรับทำความสะอาดบ้าน รถยนต์ และออฟฟิศอย่างรวดเร็ว",
+      "tags": [
+        "120W / 16KPa",
+        "USB-C",
+        "ใช้งานได้ 25 นาที"
+      ],
+      "img": "../assets/images/products/01-handheld-vacuum.png",
+      "btn_text": "สินค้าเพิ่มเติม",
+      "btn_href": "en/handheld-vacuum/",
+      "btn_slug": "handheld-vacuum"
+    },
+    {
+      "id": "p2",
+      "name": "หุ่นยนต์ดูดฝุ่น",
+      "desc": "นำทางด้วยเลเซอร์ LDS พร้อมควบคุมผ่านแอป ฟังก์ชันถูพื้น และกำลังดูดลึก 2000Pa",
+      "tags": [
+        "เลเซอร์ LDS",
+        "2000Pa",
+        "ควบคุมผ่านแอป"
+      ],
+      "img": "../assets/images/products/02-robot-vacuum.png",
+      "btn_text": "สินค้าเพิ่มเติม",
+      "btn_href": "en/robot-vacuum/",
+      "btn_slug": "robot-vacuum"
+    },
+    {
+      "id": "p3",
+      "name": "เครื่องทำความสะอาดด้วยไอน้ำ",
+      "desc": "เครื่องทำความสะอาดหลายพื้นผิว 1500W ไอน้ำร้อนพิเศษ 105°C ทำความสะอาดลึกโดยไม่ใช้สารเคมี",
+      "tags": [
+        "1500W",
+        "105°C",
+        "อุปกรณ์เสริม 9 ชิ้น"
+      ],
+      "img": "../assets/images/products/03-steam-cleaner.png",
+      "btn_text": "สินค้าเพิ่มเติม",
+      "btn_href": "en/steam-cleaner/",
+      "btn_slug": "steam-cleaner"
+    },
+    {
+      "id": "p4",
+      "name": "เครื่องกำจัดไรด้วย UV",
+      "desc": "ฆ่าเชื้อด้วย UV-C พร้อมทำให้แห้งด้วยลมร้อน 55°C กำจัดไรฝุ่นและแบคทีเรียได้ 99.9%",
+      "tags": [
+        "UV-C 253.7nm",
+        "HEPA H13",
+        "450W"
+      ],
+      "img": "../assets/images/products/04-uv-mite-remover.png",
+      "btn_text": "สินค้าเพิ่มเติม",
+      "btn_href": "en/uv-mite-remover/",
+      "btn_slug": "uv-mite-remover"
+    },
+    {
+      "id": "p5",
+      "name": "หุ่นยนต์ทำความสะอาดกระจกอัจฉริยะ",
+      "desc": "หุ่นยนต์ทำความสะอาดกระจกและผนังอัตโนมัติด้วย AI ตรวจจับขอบ หลีกเลี่ยงสิ่งกีดขวาง ทำความสะอาดได้อย่างปลอดภัย",
+      "tags": [
+        "AI ตรวจจับขอบ",
+        "UPS สำรอง",
+        "กระจก / กระเบื้อง"
+      ],
+      "img": "../assets/images/products/05-window-robot.png",
+      "btn_text": "สินค้าเพิ่มเติม",
+      "btn_href": "en/window-cleaner-robot/",
+      "btn_slug": "window-cleaner-robot"
+    },
+    {
+      "id": "p6",
+      "name": "เครื่องดูดฝุ่นในรถ",
+      "desc": "เครื่องดูดฝุ่นรถยนต์ 12V ขนาดกะทัดรัด ใช้ได้ทั้งแบบแห้งและเปียก มอเตอร์ 150W พร้อมอุปกรณ์เสริมหลายชิ้น",
+      "tags": [
+        "12V / 150W",
+        "แห้งและเปียก",
+        "สาย 3.5 ม."
+      ],
+      "img": "../assets/images/products/06-car-vacuum.png",
+      "btn_text": "สินค้าเพิ่มเติม",
+      "btn_href": "en/car-vacuum/",
+      "btn_slug": "car-vacuum"
+    },
+    {
+      "id": "p7",
+      "name": "เครื่องปั๊มลมยางดิจิทัล",
+      "desc": "เครื่องปั๊มลมพกพาปิดอัตโนมัติ ตั้งค่าได้ 4 หน่วย (PSI/BAR/KPA/kg/cm²) พร้อมไฟ LED สำหรับใช้ในเวลากลางคืน",
+      "tags": [
+        "0-150 PSI",
+        "LED ดิจิทัล",
+        "ปิดอัตโนมัติ"
+      ],
+      "img": "../assets/images/products/07-tire-inflator.png",
+      "btn_text": "สินค้าเพิ่มเติม",
+      "btn_href": "en/tire-inflator/",
+      "btn_slug": "tire-inflator"
+    },
+    {
+      "id": "p8",
+      "name": "เครื่องชงกาแฟเอสเปรสโซ",
+      "desc": "เครื่องชงกาแฟรองรับแคปซูลหลายแบบ ปั๊ม 19 บาร์ มีหัวฟองนม ชงพร้อมกัน 2 แก้ว",
+      "tags": [
+        "19 Bar",
+        "1300W",
+        "หัวฟองนม"
+      ],
+      "img": "../assets/images/products/08-coffee-machine.png?v=20260826",
+      "btn_text": "สินค้าเพิ่มเติม",
+      "btn_href": "en/coffee-machine/",
+      "btn_slug": "coffee-machine"
+    },
+    {
+      "id": "p9",
+      "name": "ไม้ถูพื้นไอน้ำแบบยืน",
+      "desc": "ไม้ถูพื้นไอน้ำยืน 1500W ไอน้ำ 110°C ถังน้ำ 1.5L ทำความสะอาดพื้นลึก",
+      "tags": [
+        "1500W",
+        "110°C",
+        "1.5L"
+      ],
+      "img": "../assets/images/products/09-steam-mop.png?v=20260826",
+      "btn_text": "สินค้าเพิ่มเติม",
+      "btn_href": "en/upright-steam-mop/",
+      "btn_slug": "upright-steam-mop"
+    },
+    {
+      "id": "p10",
+      "name": "เครื่องดูดฝุ่นรถยนต์ Pro",
+      "desc": "เครื่องดูดฝุ่นรถยนต์ 12V กำลังแรง ดูด 9000Pa แห้ง/เปียก กรอง HEPA และไฟ LED",
+      "tags": [
+        "9000Pa",
+        "แห้ง/เปียก",
+        "HEPA"
+      ],
+      "img": "../assets/images/products/10-car-vacuum-pro.png?v=20260826",
+      "btn_text": "สินค้าเพิ่มเติม",
+      "btn_href": "en/robot-vacuum/",
+      "btn_slug": "car-vacuum"
+    },
+    {
+      "id": "p11",
+      "name": "เครื่องรีดไอน้ำแบบยืน",
+      "desc": "เครื่องรีดไอน้ำ 1800W อุ่นเร็ว พร้อมใช้ 30 วินาที หน้าแผ่นเซรามิก ไอน้ำต่อเนื่อง 50 นาที",
+      "tags": [
+        "1800W",
+        "พร้อมใช้ 30s",
+        "1.8L"
+      ],
+      "img": "../assets/images/products/11-garment-steamer.png?v=20260826",
+      "btn_text": "สินค้าเพิ่มเติม",
+      "btn_href": "en/robot-vacuum/",
+      "btn_slug": "upright-steam-mop"
+    }
+  ],
+  "contact": {
+    "h2": "ขอใบเสนอราคา — เราตอบภายใน 48 ชั่วโมง",
+    "email": "info@aquaclean-home.com",
+    "phone": "86 177 7919 0118",
+    "whatsapp": "+8617779190118",
+    "address": "เมืองหนิงโป มณฑลเจ้อเจียง จีน",
+    "hours": ""
+  },
+  "footer": {
+    "company_name": "AquaClean Home Appliances Co., Ltd.",
+    "description": "ผู้ผลิตอุปกรณ์ทำความสะอาดบ้านอัจฉริยะระดับมืออาชีพ บริการ OEM/ODM สำหรับแบรนด์ทั่วโลกตั้งแต่ปี 2015",
+    "email": "info@aquaclean-home.com",
+    "phone": "+86 177 7919 0118"
+  }
+}

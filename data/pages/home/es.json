@@ -1,0 +1,181 @@
+{
+  "hero": {
+    "badge": "🇨🇳 Fabricante OEM / ODM · Desde 2015",
+    "h1": "Electrodomésticos de Limpieza Inteligente<br>Diseñados para <span>Mercados Globales</span>",
+    "sub": "Desde robots aspiradores hasta limpiadores a vapor — diseñamos, fabricamos y enviamos electrodomésticos de limpieza para el hogar premium a marcas de todo el mundo. MOQ 200 unidades, envío global incluido.",
+    "btn_primary_text": "📩 Solicitar Presupuesto Gratuito",
+    "btn_primary_href": "#contact",
+    "btn_outline_text": "Ver Productos",
+    "btn_outline_href": "#products"
+  },
+  "products": [
+    {
+      "id": "p1",
+      "name": "Aspirador de Mano",
+      "desc": "Inalámbrico, ligero, succión de 120W. Perfecto para limpiezas rápidas en el hogar, coche y oficina.",
+      "tags": [
+        "120W / 16KPa",
+        "USB-C",
+        "25min Runtime"
+      ],
+      "img": "../assets/images/products/01-handheld-vacuum.png",
+      "btn_text": "Más productos",
+      "btn_href": "en/handheld-vacuum/",
+      "btn_slug": "handheld-vacuum"
+    },
+    {
+      "id": "p2",
+      "name": "Robot Aspirador",
+      "desc": "Navegación láser LDS con control por app, función de fregado y succión de limpieza profunda de 2000Pa.",
+      "tags": [
+        "LDS Laser",
+        "2000Pa",
+        "App Control"
+      ],
+      "img": "../assets/images/products/02-robot-vacuum.png",
+      "btn_text": "Más productos",
+      "btn_href": "en/robot-vacuum/",
+      "btn_slug": "robot-vacuum"
+    },
+    {
+      "id": "p3",
+      "name": "Limpiador a Vapor",
+      "desc": "Limpiador multi-superficie de 1500W. Vapor sobrecalentado a 105°C, limpieza profunda sin productos químicos.",
+      "tags": [
+        "1500W",
+        "105°C",
+        "9 Accesorios"
+      ],
+      "img": "../assets/images/products/03-steam-cleaner.png",
+      "btn_text": "Más productos",
+      "btn_href": "en/steam-cleaner/",
+      "btn_slug": "steam-cleaner"
+    },
+    {
+      "id": "p4",
+      "name": "Eliminador de Ácaros UV",
+      "desc": "Esterilización UV-C con secado por aire caliente a 55°C. Elimina el 99,9% de ácaros del polvo y bacterias.",
+      "tags": [
+        "UV-C 253.7nm",
+        "HEPA H13",
+        "450W"
+      ],
+      "img": "../assets/images/products/04-uv-mite-remover.png",
+      "btn_text": "Más productos",
+      "btn_href": "en/uv-mite-remover/",
+      "btn_slug": "uv-mite-remover"
+    },
+    {
+      "id": "p5",
+      "name": "Robot Limpiacristales Inteligente",
+      "desc": "Robot limpiador automático de ventanas y cristales con IA. Detecta bordes, evita obstáculos, limpia con seguridad.",
+      "tags": [
+        "Deteción de Bordes AI",
+        "Respaldo UPS",
+        "Cristal / Azulejos"
+      ],
+      "img": "../assets/images/products/05-window-robot.png",
+      "btn_text": "Más productos",
+      "btn_href": "en/window-cleaner-robot/",
+      "btn_slug": "window-cleaner-robot"
+    },
+    {
+      "id": "p6",
+      "name": "Aspirador para Coche",
+      "desc": "Aspirador de coche compacto 12V, uso en seco y húmedo. Motor de 150W con múltiples accesorios incluidos.",
+      "tags": [
+        "12V / 150W",
+        "Seco y Húmedo",
+        "Cable 3.5m"
+      ],
+      "img": "../assets/images/products/06-car-vacuum.png",
+      "btn_text": "Más productos",
+      "btn_href": "en/car-vacuum/",
+      "btn_slug": "car-vacuum"
+    },
+    {
+      "id": "p7",
+      "name": "Compresor de Neumáticos Digital",
+      "desc": "Bomba de aire portátil con apagado automático. 4 unidades preset (PSI/BAR/KPA/kg/cm²) con luz LED nocturna.",
+      "tags": [
+        "0-150 PSI",
+        "LED Digital",
+        "Auto Shut-Off"
+      ],
+      "img": "../assets/images/products/07-tire-inflator.png",
+      "btn_text": "Más productos",
+      "btn_href": "en/tire-inflator/",
+      "btn_slug": "tire-inflator"
+    },
+    {
+      "id": "p8",
+      "name": "Cafetera Espresso",
+      "desc": "Cafetera compatible con múltiples cápsulas. Bomba 19 bar, espumador de leche, 2 tazas.",
+      "tags": [
+        "19 Bar",
+        "1300W",
+        "Espumador"
+      ],
+      "img": "../assets/images/products/08-coffee-machine.png?v=20260826",
+      "btn_text": "Más productos",
+      "btn_href": "en/coffee-machine/",
+      "btn_slug": "coffee-machine"
+    },
+    {
+      "id": "p9",
+      "name": "Fregona de Vapor",
+      "desc": "Fregona de vapor vertical 1500W, vapor 110°C y depósito 1.5L para limpieza profunda.",
+      "tags": [
+        "1500W",
+        "110°C",
+        "1.5L"
+      ],
+      "img": "../assets/images/products/09-steam-mop.png?v=20260826",
+      "btn_text": "Más productos",
+      "btn_href": "en/upright-steam-mop/",
+      "btn_slug": "upright-steam-mop"
+    },
+    {
+      "id": "p10",
+      "name": "Aspirador de Coche Pro",
+      "desc": "Aspirador de coche 12V de alta potencia. 9000Pa, seco/húmedo, HEPA y LED.",
+      "tags": [
+        "9000Pa",
+        "Seco/Húm.",
+        "HEPA"
+      ],
+      "img": "../assets/images/products/10-car-vacuum-pro.png?v=20260826",
+      "btn_text": "Más productos",
+      "btn_href": "en/robot-vacuum/",
+      "btn_slug": "car-vacuum"
+    },
+    {
+      "id": "p11",
+      "name": "Plancha de Vapor",
+      "desc": "Plancha de vapor vertical 1800W calentamiento rápido. Lista en 30s, suela cerámica, 50 min.",
+      "tags": [
+        "1800W",
+        "Lista 30s",
+        "1.8L"
+      ],
+      "img": "../assets/images/products/11-garment-steamer.png?v=20260826",
+      "btn_text": "Más productos",
+      "btn_href": "en/robot-vacuum/",
+      "btn_slug": "upright-steam-mop"
+    }
+  ],
+  "contact": {
+    "h2": "Solicite un Presupuesto — Respondemos en 48 Horas",
+    "email": "info@aquaclean-home.com",
+    "phone": "86 177 7919 0118",
+    "whatsapp": "+8617779190118",
+    "address": "Ningbo, Zhejiang, China",
+    "hours": ""
+  },
+  "footer": {
+    "company_name": "AquaClean Home Appliances Co., Ltd.",
+    "description": "Fabricante profesional de electrodomésticos inteligentes de limpieza para el hogar. Soluciones OEM/ODM para marcas globales desde 2015.",
+    "email": "info@aquaclean-home.com",
+    "phone": "+86 177 7919 0118"
+  }
+}

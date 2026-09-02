@@ -1,0 +1,181 @@
+{
+  "hero": {
+    "badge": "🇨🇳 OEM / ODM Manufacturer · Since 2015",
+    "h1": "Smart Cleaning Appliances<br>Built for <span>Global Markets</span>",
+    "sub": "From robot vacuums to steam cleaners — we design, manufacture, and ship premium home cleaning appliances for brands worldwide. MOQ 200 units, global shipping included.",
+    "btn_primary_text": "📩 Get a Free Quote",
+    "btn_primary_href": "#contact",
+    "btn_outline_text": "Browse Products",
+    "btn_outline_href": "#products"
+  },
+  "products": [
+    {
+      "id": "p1",
+      "name": "Handheld Vacuum Cleaner",
+      "desc": "Cordless, lightweight, 120W suction. Perfect for quick home, car, and office clean-ups.",
+      "tags": [
+        "120W / 16KPa",
+        "USB-C",
+        "25min Runtime"
+      ],
+      "img": "../assets/images/products/01-handheld-vacuum.png",
+      "btn_text": "More Products",
+      "btn_href": "handheld-vacuum/",
+      "btn_slug": "handheld-vacuum"
+    },
+    {
+      "id": "p2",
+      "name": "Robot Vacuum Cleaner",
+      "desc": "LDS laser navigation with app control, mopping function, and 2000Pa deep cleaning suction.",
+      "tags": [
+        "LDS Laser",
+        "2000Pa",
+        "App Control"
+      ],
+      "img": "../assets/images/products/02-robot-vacuum.png",
+      "btn_text": "More Products",
+      "btn_href": "robot-vacuum/",
+      "btn_slug": "robot-vacuum"
+    },
+    {
+      "id": "p3",
+      "name": "Steam Cleaner",
+      "desc": "1500W multi-surface steamer. 105°C super-heated steam, chemical-free deep cleaning.",
+      "tags": [
+        "1500W",
+        "105°C",
+        "9 Attachments"
+      ],
+      "img": "../assets/images/products/03-steam-cleaner.png",
+      "btn_text": "More Products",
+      "btn_href": "steam-cleaner/",
+      "btn_slug": "steam-cleaner"
+    },
+    {
+      "id": "p4",
+      "name": "UV Mite Remover",
+      "desc": "UV-C sterilization with 55°C hot air drying. Eliminates 99.9% of dust mites and bacteria.",
+      "tags": [
+        "UV-C 253.7nm",
+        "HEPA H13",
+        "450W"
+      ],
+      "img": "../assets/images/products/04-uv-mite-remover.png",
+      "btn_text": "More Products",
+      "btn_href": "uv-mite-remover/",
+      "btn_slug": "uv-mite-remover"
+    },
+    {
+      "id": "p5",
+      "name": "Smart Window Cleaner Robot",
+      "desc": "AI-powered automatic window and glass cleaner. Senses edges, avoids obstacles, cleans safely.",
+      "tags": [
+        "AI Edge Detection",
+        "UPS Backup",
+        "Glass / Tiles"
+      ],
+      "img": "../assets/images/products/05-window-robot.png",
+      "btn_text": "More Products",
+      "btn_href": "window-cleaner-robot/",
+      "btn_slug": "window-cleaner-robot"
+    },
+    {
+      "id": "p6",
+      "name": "Car Vacuum Cleaner",
+      "desc": "12V compact car vacuum, dry & wet dual-use. 150W motor with multiple attachments included.",
+      "tags": [
+        "12V / 150W",
+        "Dry & Wet",
+        "3.5m Cord"
+      ],
+      "img": "../assets/images/products/06-car-vacuum.png",
+      "btn_text": "More Products",
+      "btn_href": "car-vacuum/",
+      "btn_slug": "car-vacuum"
+    },
+    {
+      "id": "p7",
+      "name": "Digital Tire Inflator",
+      "desc": "Portable auto shut-off air pump. Preset 4 units (PSI/BAR/KPA/kg/cm²) with LED night light.",
+      "tags": [
+        "0-150 PSI",
+        "Digital LED",
+        "Auto Shut-Off"
+      ],
+      "img": "../assets/images/products/07-tire-inflator.png",
+      "btn_text": "More Products",
+      "btn_href": "tire-inflator/",
+      "btn_slug": "tire-inflator"
+    },
+    {
+      "id": "p8",
+      "name": "Espresso Coffee Machine",
+      "desc": "Multi-capsule compatible espresso machine. 19-bar pump, milk frother, dual-cup brewing.",
+      "tags": [
+        "19 Bar",
+        "1300W",
+        "Milk Frother"
+      ],
+      "img": "../assets/images/products/08-coffee-machine.png?v=20260826",
+      "btn_text": "More Products",
+      "btn_href": "coffee-machine/",
+      "btn_slug": "coffee-machine"
+    },
+    {
+      "id": "p9",
+      "name": "Upright Steam Mop",
+      "desc": "1500W upright steam mop with 110°C steam and large 1.5L tank for whole-floor deep sanitizing.",
+      "tags": [
+        "1500W",
+        "110°C",
+        "1.5L Tank"
+      ],
+      "img": "../assets/images/products/09-steam-mop.png?v=20260826",
+      "btn_text": "More Products",
+      "btn_href": "upright-steam-mop/",
+      "btn_slug": "upright-steam-mop"
+    },
+    {
+      "id": "p10",
+      "name": "Car Vacuum Cleaner Pro",
+      "desc": "High-power 12V car vacuum. 9000Pa suction, wet/dry dual-use, HEPA filter and LED work light.",
+      "tags": [
+        "9000Pa",
+        "Wet & Dry",
+        "HEPA"
+      ],
+      "img": "../assets/images/products/10-car-vacuum-pro.png?v=20260826",
+      "btn_text": "More Products",
+      "btn_href": "robot-vacuum/",
+      "btn_slug": "car-vacuum"
+    },
+    {
+      "id": "p11",
+      "name": "Standing Garment Steamer",
+      "desc": "1800W rapid heat-up garment steamer. 30s ready, ceramic soleplate, 50 minutes continuous steam.",
+      "tags": [
+        "1800W",
+        "30s Ready",
+        "1.8L Tank"
+      ],
+      "img": "../assets/images/products/11-garment-steamer.png?v=20260826",
+      "btn_text": "More Products",
+      "btn_href": "robot-vacuum/",
+      "btn_slug": "upright-steam-mop"
+    }
+  ],
+  "contact": {
+    "h2": "Request a Quote — We Reply Within 48 Hours",
+    "email": "info@aquaclean-home.com",
+    "phone": "86 177 7919 0118",
+    "whatsapp": "+8617779190118",
+    "address": "Ningbo, Zhejiang, China",
+    "hours": ""
+  },
+  "footer": {
+    "company_name": "AquaClean Home Appliances Co., Ltd.",
+    "description": "Professional manufacturer of smart home cleaning appliances. OEM/ODM solutions for brands worldwide since 2015.",
+    "email": "info@aquaclean-home.com",
+    "phone": "+86 177 7919 0118"
+  }
+}
