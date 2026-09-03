@@ -757,10 +757,15 @@
   };
 
   // ── Init ───────────────────────────────────────────────────────
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', buildSidebar);
-  } else {
+  function init() {
     buildSidebar();
+    // Auto-load default product after sidebar is built
+    setTimeout(function(){ loadProduct('handheld-vacuum', 'en'); }, 50);
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
   }
 
 })();
