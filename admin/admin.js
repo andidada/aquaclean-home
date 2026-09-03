@@ -77,7 +77,14 @@
   function makeSec(title, html) {
     var d = document.createElement('div');
     d.className = 'admin-sec';
-    d.innerHTML = '<h3>' + title + '</h3>' + (html || '');
+    var h3 = document.createElement('h3');
+    h3.textContent = title;
+    d.appendChild(h3);
+    if (typeof html === 'string') {
+      d.innerHTML += html;
+    } else if (html) {
+      d.appendChild(html);
+    }
     return d;
   }
 
