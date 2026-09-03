@@ -615,6 +615,10 @@
       side.appendChild(hr);
       buildProductControls(side);
       side.appendChild(statusDiv);
+      // Auto-load product data (defer 50ms for DOM ready)
+      var _cat = currentCat || 'handheld-vacuum';
+      var _lang = currentLang || 'en';
+      setTimeout(function(){ loadProduct(_cat, _lang); }, 50);
     };
 
     $('tab-home').onclick = function() {
