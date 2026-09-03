@@ -147,7 +147,7 @@
       certWrap.appendChild(lbl);
     });
     certDiv.appendChild(certWrap);
-    f.appendChild(makeSec('认证', certDiv.outerHTML));
+    f.appendChild(makeSec('认证', certDiv));
 
     // Media
     var imgSec = document.createElement('div');
