@@ -158,14 +158,18 @@
     f.appendChild(makeSec('产品卖点（逗号分隔）', '<textarea id="p-tags" rows="2">' + ((data.tags||[]).join(', ')) + '</textarea>'));
 
     // Specs table
-    f.appendChild(makeSec('规格参数表格（每行：参数|值）', '<textarea id="p-specs" rows="8" style="width:100%;font-family:monospace;" placeholder="Power|120W&#10;Suction|16KPa">' +
-      ((data.specs||[]).map(function(s){return s.key+'|'+s.value;}).join('\n')) + '</textarea>'));
+    var specsLines = (data.specs||[]).map(function(s){
+      var k = s.key || (typeof s.label === 'object' ? (s.label.en || s.label.zh || '') : (s.label || ''));
+      var v = (typeof s.value === 'object' ? (s.value.en || s.value.zh || '') : s.value) || '';
+      return k + '|' + v;
+    }).join('\n');
+    f.appendChild(makeSec('规格参数表格（每行：参数|值）', '<textarea id="p-specs" rows="8" style="width:100%;font-family:monospace;" placeholder="Power|120W&#10;Suction|16KPa">' + specsLines + '</textarea>'));
 
     // Packaging
-    f.appendChild(makeSec('包装内容（逗号分隔）', '<textarea id="p-packaging" rows="2">' + ((data.packaging||[]).join(', ')) + '</textarea>'));
+    f.appendChild(makeSec('包装内容（逗号分隔）', '<textarea id="p-packaging" rows="2">' + (Array.isArray(data.packaging) ? data.packaging.join(', ') : (data.packaging || '')) + '</textarea>'));
 
     // Applications
-    f.appendChild(makeSec('适用场景（逗号分隔）', '<textarea id="p-applications" rows="2">' + ((data.applications||[]).join(', ')) + '</textarea>'));
+    f.appendChild(makeSec('适用场景（逗号分隔）', '<textarea id="p-applications" rows="2">' + (Array.isArray(data.applications) ? data.applications.join(', ') : (data.applications || '')) + '</textarea>'));;
 
     // Supplier
     f.appendChild(makeSec('供应商信息', makeGrid(
@@ -512,45 +516,83 @@
       if (x.status === 200) {
         try {
           var data = JSON.parse(x.responseText);
-          // Real structure: { category, products: [{id, name:{en,zh,...}, ...}] }
-          // Find product by lang-agnostic id (take first product for now)
           var prod = (data.products && data.products[0]) || {};
-          // Flatten: extract lang-specific fields
-          function pickLang(obj, lang) {
+          // Helper: pick language from {en:..., zh:...} object
+          function pl(obj, lang) {
             if (!obj || typeof obj !== 'object') return obj || '';
             if (obj[lang]) return obj[lang];
             return obj.en || obj.zh || '';
           }
+          // Helper: array or string to string
+          function arrStr(v) {
+            if (Array.isArray(v)) return v.join(', ');
+            if (typeof v === 'string') return v;
+            if (v && typeof v === 'object') return pl(v, lang);
+            return '';
+          }
+          // Helper: specs array [{label:{en,zh}, value}] -> [{key,value}]
+          function normSpecs(arr) {
+            if (!Array.isArray(arr)) return [];
+            return arr.map(function(s) {
+              return {
+                key:   typeof s.label === 'object' ? pl(s.label, lang) : (s.label || s.key || ''),
+                value: typeof s.value === 'object' ? pl(s.value, lang) : (s.value || '')
+              };
+            }).filter(function(s){ return s.key && s.value; });
+          }
+          // Flatten product into admin form shape
           var entry = {
-            id:           prod.id || '',
-            slug:         cat,
-            lang:         lang,
-            name:         pickLang(prod.name, lang),
-            model:        prod.model || '',
-            tagline:      pickLang(prod.tagline, lang),
-            power:        prod.power || '',
-            suction:      prod.suction || '',
-            battery:      prod.battery || '',
-            weight:       prod.weight || '',
-            price_display: pickLang(prod.price_display, lang) || prod.price_display || '',
-            moq:          prod.moq || 200,
-            fob_price:    prod.fob_price || '',
-            currency:     prod.currency || 'USD',
-            colors:       prod.colors || [],
-            package:      prod.package || '',
-            dims:         prod.dims || '',
-            tags:         pickLang(prod.tags, lang) || prod.tags || [],
-            specs:        prod.specs || [],
+            id:            prod.id || '',
+            slug:          cat,
+            lang:          lang,
+            name:          pl(prod.name, lang),
+            model:         prod.model || (prod.id ? prod.id.toUpperCase() : ''),
+            tagline:       pl(prod.tagline, lang),
+            power:         '',
+            suction:       '',
+            battery:       '',
+            weight:        '',
+            price_display: (prod.price_indicator ? '$' + prod.price_indicator.min + ' - $' + prod.price_indicator.max : '') || arrStr(prod.price_display),
+            moq:           (prod.moq && prod.moq.value) ? prod.moq.value : (prod.moq || 200),
+            fob_price:     (prod.price_ladder && prod.price_ladder[0]) ? ('$' + prod.price_ladder[0].price) : '',
+            currency:      (prod.price_indicator && prod.price_indicator.currency) || 'USD',
+            colors:        [],
+            package:       (prod.packaging && typeof prod.packaging === 'object') ? (prod.packaging.unit + ', ' + prod.packaging.ctn_size + ', ' + prod.packaging.ctn_qty) : (prod.package || ''),
+            dims:          (prod.packaging && prod.packaging.ctn_size) || '',
+            tags:          [],
+            specs:         normSpecs(prod.specs || prod.quick_specs || []),
             certifications: prod.certifications || [],
-            packaging:    prod.packaging || [],
-            applications:  pickLang(prod.applications, lang) || prod.applications || [],
-            company:      pickLang(prod.company, lang) || prod.company || '',
-            address:      prod.address || '',
-            logo:         prod.logo || '',
-            packaging_custom: prod.packaging_custom || '',
-            description:  pickLang(prod.description, lang) || prod.description || '',
+            packaging:    [],
+            applications: arrStr(prod.applications),
+            company:      '',
+            address:      (prod.ship_from ? pl(prod.ship_from, lang) : ''),
+            logo:         (prod.customization && prod.customization.logo) ? 'Yes' : 'No',
+            packaging_custom: (prod.customization && prod.customization.package) ? 'Yes' : 'No',
+            description:  pl(prod.description, lang),
             images:       prod.images || []
           };
+          // Extract power/suction/battery/weight from specs
+          (prod.specs || []).forEach(function(s) {
+            var label = (typeof s.label === 'object') ? pl(s.label, 'en') : (s.label || '').toLowerCase();
+            var val = (typeof s.value === 'object') ? pl(s.value, 'en') : (s.value || '');
+            if (/power/.test(label)) entry.power = val;
+            if (/suction/.test(label)) entry.suction = val;
+            if (/runtime|battery/.test(label)) entry.battery = val;
+            if (/weight/.test(label)) entry.weight = val;
+          });
+          // Extract tags from highlights
+          if (prod.highlights) {
+            entry.tags = prod.highlights.map(function(h) { return pl(h.text, lang); }).filter(Boolean);
+          }
+          // Extract colors from sku
+          if (prod.sku) {
+            prod.sku.forEach(function(s) {
+              var sname = (typeof s.name === 'object') ? pl(s.name, 'en') : s.name;
+              if (/color|colour/i.test(sname) && s.values) {
+                entry.colors = s.values.map(function(v) { return v.name; }).filter(Boolean);
+              }
+            });
+          }
           renderProductForm(entry);
           setStatus('📂 已从线上加载（' + lang + ' / ' + cat + '）');
         } catch(e) {
