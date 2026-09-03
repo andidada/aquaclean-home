@@ -59,18 +59,18 @@
   var currentPid  = null;
 
   // ── HTML builders ──────────────────────────────────────────────
-  function fieldHTML(label, id, type, placeholder) {
+  function fieldHTML(label, id, type, value) {
     var t = type === 'textarea'
-      ? '<textarea id="' + id + '" rows="3" placeholder="' + (placeholder||'') + '"></textarea>'
-      : '<input id="' + id + '" type="text" placeholder="' + (placeholder||'') + '">';
+      ? '<textarea id="' + id + '" rows="3">' + (value || '') + '</textarea>'
+      : '<input id="' + id + '" type="text" value="' + (value || '') + '">';
     return '<div class="admin-field"><label>' + label + '</label>' + t + '</div>';
   }
 
-  function fieldHTML_note(label, id, type, placeholder, note) {
+  function fieldHTML_note(label, id, type, value, note) {
     var noteHtml = note ? '<div style="font-size:11px;color:#94A3B8;margin-top:3px;">' + note + '</div>' : '';
     var t = type === 'textarea'
-      ? '<textarea id="' + id + '" rows="3" placeholder="' + (placeholder||'') + '"></textarea>'
-      : '<input id="' + id + '" type="text" placeholder="' + (placeholder||'') + '">';
+      ? '<textarea id="' + id + '" rows="3">' + (value || '') + '</textarea>'
+      : '<input id="' + id + '" type="text" value="' + (value || '') + '">';
     return '<div class="admin-field" style="margin-bottom:18px;"><label>' + label + '</label>' + t + noteHtml + '</div>';
   }
 
