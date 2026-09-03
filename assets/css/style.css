@@ -100,6 +100,12 @@ body.lang-ar { direction: rtl; }
   gap: 8px;
   flex-shrink: 0;
 }
+.logo span {
+  font-size: 14px;
+  font-weight: 800;
+  white-space: nowrap;
+  letter-spacing: -0.1px;
+}
 .logo-icon {
   width: 36px;
   height: 36px;
