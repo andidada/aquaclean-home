@@ -511,15 +511,51 @@
     x.onload = function() {
       if (x.status === 200) {
         try {
-          var all = JSON.parse(x.responseText);
-          var entry = all.find(function(it){ return it.lang === lang; }) || all[0] || {};
-          entry.lang = lang;
-          entry.slug = cat;
+          var data = JSON.parse(x.responseText);
+          // Real structure: { category, products: [{id, name:{en,zh,...}, ...}] }
+          // Find product by lang-agnostic id (take first product for now)
+          var prod = (data.products && data.products[0]) || {};
+          // Flatten: extract lang-specific fields
+          function pickLang(obj, lang) {
+            if (!obj || typeof obj !== 'object') return obj || '';
+            if (obj[lang]) return obj[lang];
+            return obj.en || obj.zh || '';
+          }
+          var entry = {
+            id:           prod.id || '',
+            slug:         cat,
+            lang:         lang,
+            name:         pickLang(prod.name, lang),
+            model:        prod.model || '',
+            tagline:      pickLang(prod.tagline, lang),
+            power:        prod.power || '',
+            suction:      prod.suction || '',
+            battery:      prod.battery || '',
+            weight:       prod.weight || '',
+            price_display: pickLang(prod.price_display, lang) || prod.price_display || '',
+            moq:          prod.moq || 200,
+            fob_price:    prod.fob_price || '',
+            currency:     prod.currency || 'USD',
+            colors:       prod.colors || [],
+            package:      prod.package || '',
+            dims:         prod.dims || '',
+            tags:         pickLang(prod.tags, lang) || prod.tags || [],
+            specs:        prod.specs || [],
+            certifications: prod.certifications || [],
+            packaging:    prod.packaging || [],
+            applications:  pickLang(prod.applications, lang) || prod.applications || [],
+            company:      pickLang(prod.company, lang) || prod.company || '',
+            address:      prod.address || '',
+            logo:         prod.logo || '',
+            packaging_custom: prod.packaging_custom || '',
+            description:  pickLang(prod.description, lang) || prod.description || '',
+            images:       prod.images || []
+          };
           renderProductForm(entry);
-          setStatus('📂 已从线上加载（' + lang + '）');
+          setStatus('📂 已从线上加载（' + lang + ' / ' + cat + '）');
         } catch(e) {
           renderProductForm({ slug: cat, lang: lang });
-          setStatus('⚠ 线上数据解析失败');
+          setStatus('⚠ 线上数据解析失败：' + e.message);
         }
       } else {
         renderProductForm({ slug: cat, lang: lang });
