@@ -110,6 +110,10 @@ body.lang-ar { direction: rtl; }
   justify-content: center;
   color: #fff;
   font-size: 18px;
+  background-image: url('../images/logo-dmj.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .nav-links {
   display: flex;
