@@ -580,7 +580,8 @@
           };
           // Extract power/suction/battery/weight from specs
           (prod.specs || []).forEach(function(s) {
-            var label = (typeof s.label === 'object') ? pl(s.label, 'en') : (s.label || '').toLowerCase();
+            var raw = (typeof s.label === 'object') ? pl(s.label, 'en') : (s.label || '');
+            var label = String(raw).toLowerCase();
             var val = (typeof s.value === 'object') ? pl(s.value, 'en') : (s.value || '');
             if (/power/.test(label)) entry.power = val;
             if (/suction/.test(label)) entry.suction = val;
