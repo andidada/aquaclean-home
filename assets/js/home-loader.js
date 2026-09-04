@@ -106,13 +106,30 @@
   function renderFooter(d) {
     var ft = document.querySelector('footer');
     if (!ft) return;
-    // Company name
-    var logoLink = ft.querySelector('.footer-logo a, footer a[href="./"], footer a[href="/"]');
-    if (logoLink && d.company_name) logoLink.textContent = d.company_name;
-    // Description
-    var descEl = ft.querySelector('p');
+    // Company name: <span> inside the brand logo link
+    var brandSpan = ft.querySelector('.footer-brand .logo span');
+    if (brandSpan && d.company_name) brandSpan.textContent = d.company_name;
+    // Description: direct child <p> of .footer-brand
+    var descEl = ft.querySelector('.footer-brand > p');
     if (descEl && d.description) descEl.textContent = d.description;
-    // Email/phone links
+    // footer-bottom: copyright + address/email/phone line
+    var fbottom = ft.querySelector('.footer-bottom');
+    if (fbottom) {
+      var year = new Date().getFullYear();
+      var lines = fbottom.querySelectorAll('p');
+      if (lines[0] && d.company_name) {
+        lines[0].textContent = '© ' + year + ' ' + d.company_name + '. All rights reserved.';
+      }
+      if (lines[1]) {
+        var parts = [];
+        if (d.address) parts.push('📍 ' + d.address);
+        if (d.email) parts.push('✉ <a href="mailto:' + d.email + '" style="color:inherit;">' + d.email + '</a>');
+        if (d.phone) parts.push('📞 <a href="tel:' + d.phone.replace(/[^\d+]/g, '') + '" style="color:inherit;">' + d.phone + '</a>');
+        if (d.whatsapp) parts.push('💬 WhatsApp: ' + d.whatsapp);
+        if (parts.length) lines[1].innerHTML = parts.join('  |  ');
+      }
+    }
+    // Email/phone links anywhere in footer (mailto:/tel:)
     var links = ft.querySelectorAll('a[href^="mailto:"], a[href^="tel:"]');
     links.forEach(function (a) {
       if (a.href.startsWith('mailto:') && d.email) a.href = 'mailto:' + d.email;

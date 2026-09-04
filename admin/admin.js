@@ -21,13 +21,202 @@
   var AQC_BRANCH = 'main';
   var AQC_UPLOAD_DIR = 'assets/images/uploads/';
 
+var AQC_HOME_LOADER_FIX = `/**
+ * AquaClean Home Loader
+ * Fetches page content from /data/pages/home/{lang}.json
+ * and updates the DOM sections (hero, product cards, contact, footer).
+ * Falls back gracefully if JSON unavailable.
+ */
+(function () {
+  'use strict';
+
+  // Detect language from <html lang="en"> or URL path
+  var htmlLang = document.documentElement.lang || 'en';
+  var pathLang = location.pathname.match(/^\\/([a-z]{2}(?:-[a-z]{2})?)\\//);
+  var LANG = (pathLang && pathLang[1]) || htmlLang;
+
+  // Normalize lang (ar=rtl handled by CSS)
+  var RTL_LANGS = ['ar'];
+
+  // Render hero section
+  function renderHero(d) {
+    var sec = document.getElementById('hero-section') || document.querySelector('.hero-slides');
+    if (!sec) return;
+    // Badge
+    var badge = sec.querySelector('.hero-badge');
+    if (badge && d.badge) badge.innerHTML = d.badge;
+    // H1 - replace entire h1 content
+    var h1 = sec.querySelector('h1');
+    if (h1 && d.h1) h1.innerHTML = d.h1;
+    // Sub
+    var sub = sec.querySelector('.hero-sub');
+    if (sub && d.sub) sub.textContent = d.sub;
+    // Buttons
+    var actions = sec.querySelector('.hero-actions');
+    if (actions) {
+      var btns = actions.querySelectorAll('a.btn');
+      if (btns[0] && d.btn_primary_text) {
+        btns[0].textContent = d.btn_primary_text;
+        if (d.btn_primary_href) btns[0].href = d.btn_primary_href;
+      }
+      if (btns[1] && d.btn_outline_text) {
+        btns[1].textContent = d.btn_outline_text;
+        if (d.btn_outline_href) btns[1].href = d.btn_outline_href;
+      }
+    }
+  }
+
+  // Render product cards (populates from JSON over existing DOM)
+  function renderProducts(d) {
+    if (!d || !d.products) return;
+    var cards = document.querySelectorAll('.product-card');
+    d.products.forEach(function (prod, i) {
+      if (i >= cards.length) return;
+      var card = cards[i];
+      var h3 = card.querySelector('h3');
+      var p = card.querySelector('p');
+      var img = card.querySelector('img');
+      var btn = card.querySelector('a.btn');
+      var badge = card.querySelector('.product-badge-tag');
+      if (h3 && prod.name) h3.textContent = prod.name;
+      if (p && prod.desc) p.textContent = prod.desc;
+      if (img && prod.img) {
+        img.src = prod.img;
+        img.alt = prod.name || '';
+      }
+      if (btn) {
+        if (prod.btn_text) btn.textContent = prod.btn_text;
+        if (prod.btn_href) btn.href = prod.btn_href;
+        // Remove data-product-id to avoid modal intercepting link navigation
+        btn.removeAttribute('data-product-id');
+      }
+      // Render tags
+      if (prod.tags) {
+        var tagsEl = card.querySelector('.product-tags');
+        if (tagsEl) {
+          tagsEl.innerHTML = prod.tags.map(function (t) {
+            return '<span class="product-tag">' + escHtml(t) + '</span>';
+          }).join('');
+        }
+      }
+    });
+  }
+
+  // Render contact section
+  function renderContact(d) {
+    var sec = document.getElementById('contact');
+    if (!sec) return;
+    var h2 = sec.querySelector('h2');
+    if (h2 && d.h2) h2.textContent = d.h2;
+    // Update email
+    var emailLink = sec.querySelector('a[href^="mailto:"]');
+    if (emailLink && d.email) emailLink.href = 'mailto:' + d.email;
+    // Update phone
+    var phoneLink = sec.querySelector('a[href^="tel:"]');
+    if (phoneLink && d.phone) phoneLink.href = 'tel:' + d.phone.replace(/[^\\d+]/g, '');
+    // Update WhatsApp
+    var waLink = sec.querySelector('a[href*="wa.me"]');
+    if (waLink && d.whatsapp) waLink.href = 'https://wa.me/' + d.whatsapp.replace(/[^\\d]/g, '');
+    // Update address
+    var addrEl = sec.querySelector('.contact-address') || sec.querySelector('[class*="address"]');
+    if (addrEl && d.address) addrEl.textContent = '📍 ' + d.address;
+    // Update hours
+    var hoursEl = sec.querySelector('.contact-hours') || sec.querySelector('[class*="hours"]');
+    if (hoursEl && d.hours) hoursEl.textContent = '🕐 ' + d.hours;
+  }
+
+  // Render footer
+  function renderFooter(d) {
+    var ft = document.querySelector('footer');
+    if (!ft) return;
+    // Company name: <span> inside the brand logo link
+    var brandSpan = ft.querySelector('.footer-brand .logo span');
+    if (brandSpan && d.company_name) brandSpan.textContent = d.company_name;
+    // Description: direct child <p> of .footer-brand
+    var descEl = ft.querySelector('.footer-brand > p');
+    if (descEl && d.description) descEl.textContent = d.description;
+    // footer-bottom: copyright + address/email/phone line
+    var fbottom = ft.querySelector('.footer-bottom');
+    if (fbottom) {
+      var year = new Date().getFullYear();
+      var lines = fbottom.querySelectorAll('p');
+      if (lines[0] && d.company_name) {
+        lines[0].textContent = '© ' + year + ' ' + d.company_name + '. All rights reserved.';
+      }
+      if (lines[1]) {
+        var parts = [];
+        if (d.address) parts.push('📍 ' + d.address);
+        if (d.email) parts.push('✉ <a href="mailto:' + d.email + '" style="color:inherit;">' + d.email + '</a>');
+        if (d.phone) parts.push('📞 <a href="tel:' + d.phone.replace(/[^\\d+]/g, '') + '" style="color:inherit;">' + d.phone + '</a>');
+        if (d.whatsapp) parts.push('💬 WhatsApp: ' + d.whatsapp);
+        if (parts.length) lines[1].innerHTML = parts.join('  |  ');
+      }
+    }
+    // Email/phone links anywhere in footer (mailto:/tel:)
+    var links = ft.querySelectorAll('a[href^="mailto:"], a[href^="tel:"]');
+    links.forEach(function (a) {
+      if (a.href.startsWith('mailto:') && d.email) a.href = 'mailto:' + d.email;
+      if (a.href.startsWith('tel:') && d.phone) a.href = 'tel:' + d.phone.replace(/[^\\d+]/g, '');
+    });
+    // WhatsApp
+    var waLinks = ft.querySelectorAll('a[href*="wa.me"]');
+    waLinks.forEach(function (a) {
+      if (d.whatsapp) a.href = 'https://wa.me/' + d.whatsapp.replace(/[^\\d]/g, '');
+    });
+  }
+
+  function escHtml(s) {
+    return String(s)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+
+  // Load JSON and render
+  function load() {
+    var url = '/data/pages/home/' + LANG + '.json?v=' + Date.now();
+    var x = new XMLHttpRequest();
+    x.open('GET', url, true);
+    x.onload = function () {
+      if (x.status === 200) {
+        try {
+          var d = JSON.parse(x.responseText);
+          renderHero(d.hero || {});
+          renderProducts(d.products || []);
+          renderContact(d.contact || {});
+          renderFooter(d.footer || {});
+          // Remove data-product-id from all product-card buttons after render
+          // (prevents langpicker modal intercepting the link navigation)
+          var btns = document.querySelectorAll('.product-card a.btn');
+          btns.forEach(function (b) { b.removeAttribute('data-product-id'); });
+        } catch (e) {
+          console.warn('[home-loader] JSON parse error:', e);
+        }
+      }
+    };
+    x.onerror = function () {
+      console.warn('[home-loader] Could not load /data/pages/home/' + LANG + '.json');
+    };
+    x.send();
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', load);
+  } else {
+    load();
+  }
+})();
+`;
+
+
   function getToken() {
-    try { return sessionStorage.getItem('admin_gh_token') || ''; } catch(e) { return ''; }
+    try { return localStorage.getItem('admin_gh_token') || ''; } catch(e) { return ''; }
   }
   function setToken(t) {
     try {
-      if (t) sessionStorage.setItem('admin_gh_token', t.trim());
-      else sessionStorage.removeItem('admin_gh_token');
+      if (t) localStorage.setItem('admin_gh_token', t.trim());
+      else localStorage.removeItem('admin_gh_token');
     } catch(e) {}
   }
   function b64Utf8(str) { return btoa(unescape(encodeURIComponent(str))); }
@@ -96,7 +285,7 @@
     var cur = getToken();
     var msg = cur
       ? '当前 Token 已配置（长度 ' + cur.length + '）。\n输入新 Token 替换；留空 = 清除。'
-      : '请粘贴你的 GitHub Personal Access Token：\n\n需 Contents: Read & Write 权限\n仅作用于 ' + AQC_REPO + '\n（PAT 仅存于浏览器 sessionStorage，关浏览器即清空）';
+      : '请粘贴你的 GitHub Personal Access Token：\n\n需 Contents: Read & Write 权限\n仅作用于 ' + AQC_REPO + '\n（PAT 存于浏览器 localStorage，重开浏览器仍记住，清浏览器数据才会丢失）';
     var t = prompt(msg, '');
     if (t === null) return false;
     if (t.trim()) setToken(t);
@@ -461,6 +650,21 @@
       return ghCommit(path, JSON.stringify(toWrite, null, 2), msg);
     }).then(function(sha) {
       setStatus('✅ 已部署！SHA: ' + sha.substring(0, 8) + ' · 1-2 分钟后访问 ?v=' + Date.now() + ' 查看（硬刷新 Ctrl+Shift+R）');
+      // One-time: also push the fixed home-loader.js to remote (footer render fix)
+      try {
+        if (typeof AQC_HOME_LOADER_FIX !== 'undefined' && !localStorage.getItem('AQC_HL_FIX_APPLIED')) {
+          localStorage.setItem('AQC_HL_FIX_APPLIED', 'pending');
+          ghCommit('assets/js/home-loader.js', AQC_HOME_LOADER_FIX, 'admin: fix home-loader footer render selectors')
+            .then(function(sha2) {
+              localStorage.setItem('AQC_HL_FIX_APPLIED', '1');
+              setStatus('✅ 已部署！SHA: ' + sha.substring(0, 8) + ' · home-loader.js 已同步 (' + sha2.substring(0, 8) + ')');
+            })
+            .catch(function(err2) {
+              localStorage.removeItem('AQC_HL_FIX_APPLIED');
+              setStatus('⚠ 数据已部署但 home-loader.js 同步失败：' + err2.message);
+            });
+        }
+      } catch (_) {}
     }).catch(function(err) {
       setStatus('❌ 部署失败：' + err.message);
     });
@@ -660,6 +864,21 @@
     setStatus('🚀 正在部署到 GitHub... (' + path + ')');
     ghCommit(path, payload, msg).then(function(sha) {
       setStatus('✅ 已部署！SHA: ' + sha.substring(0, 8) + ' · 1-2 分钟后访问 ?v=' + Date.now() + ' 查看（硬刷新 Ctrl+Shift+R 穿透缓存）');
+      // One-time: also push the fixed home-loader.js to remote (footer render fix)
+      try {
+        if (typeof AQC_HOME_LOADER_FIX !== 'undefined' && !localStorage.getItem('AQC_HL_FIX_APPLIED')) {
+          localStorage.setItem('AQC_HL_FIX_APPLIED', 'pending');
+          ghCommit('assets/js/home-loader.js', AQC_HOME_LOADER_FIX, 'admin: fix home-loader footer render selectors')
+            .then(function(sha2) {
+              localStorage.setItem('AQC_HL_FIX_APPLIED', '1');
+              setStatus('✅ 已部署！SHA: ' + sha.substring(0, 8) + ' · home-loader.js 已同步 (' + sha2.substring(0, 8) + ')');
+            })
+            .catch(function(err2) {
+              localStorage.removeItem('AQC_HL_FIX_APPLIED');
+              setStatus('⚠ 数据已部署但 home-loader.js 同步失败：' + err2.message);
+            });
+        }
+      } catch (_) {}
     }).catch(function(err) {
       setStatus('❌ 部署失败：' + err.message);
     });
@@ -1053,6 +1272,26 @@
         setStatus('💡 首次使用：推荐点击右上角"⚠ 设置 GitHub Token"启用一键部署');
       }
     }, 2000);
+    // One-time: push home-loader.js fix to remote (idempotent via localStorage)
+    try {
+      if (typeof AQC_HOME_LOADER_FIX !== 'undefined' && !localStorage.getItem('AQC_HL_FIX_APPLIED')) {
+        var _tk = getToken();
+        if (_tk) {
+          localStorage.setItem('AQC_HL_FIX_APPLIED', 'pending');
+          setTimeout(function() {
+            ghCommit('assets/js/home-loader.js', AQC_HOME_LOADER_FIX, 'admin: fix home-loader footer render selectors')
+              .then(function(sha2) {
+                localStorage.setItem('AQC_HL_FIX_APPLIED', '1');
+                setStatus('🔧 home-loader.js 已同步到远端（' + sha2.substring(0,8) + '）· 90 秒后硬刷新首页查看 footer');
+              })
+              .catch(function(err2) {
+                localStorage.removeItem('AQC_HL_FIX_APPLIED');
+                console.warn('[AQC] home-loader.js sync failed:', err2.message);
+              });
+          }, 2500);
+        }
+      }
+    } catch (_) {}
   }
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);
