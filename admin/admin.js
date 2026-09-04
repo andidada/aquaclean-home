@@ -14,6 +14,106 @@
     if (el) el.textContent = msg;
   }
 
+  // ── GitHub Deploy Helpers (added 2026-09-04) ────────────────────
+  // One-click save: writes JSON / images straight to GitHub via Contents API.
+  // Requires a Fine-grained PAT (Contents: Read & Write on andidada/aquaclean-home).
+  var AQC_REPO = 'andidada/aquaclean-home';
+  var AQC_BRANCH = 'main';
+  var AQC_UPLOAD_DIR = 'assets/images/uploads/';
+
+  function getToken() {
+    try { return sessionStorage.getItem('admin_gh_token') || ''; } catch(e) { return ''; }
+  }
+  function setToken(t) {
+    try {
+      if (t) sessionStorage.setItem('admin_gh_token', t.trim());
+      else sessionStorage.removeItem('admin_gh_token');
+    } catch(e) {}
+  }
+  function b64Utf8(str) { return btoa(unescape(encodeURIComponent(str))); }
+
+  async function ghGetSha(path) {
+    var token = getToken();
+    if (!token) return null;
+    var url = 'https://api.github.com/repos/' + AQC_REPO + '/contents/' + encodeURI(path) + '?ref=' + AQC_BRANCH + '&t=' + Date.now();
+    var r = await fetch(url, {
+      headers: { 'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json' }
+    });
+    if (r.status === 404) return null;
+    if (!r.ok) throw new Error('GET ' + path + ' failed: HTTP ' + r.status);
+    var d = await r.json();
+    return d.sha;
+  }
+
+  async function ghCommit(path, content, message) {
+    var token = getToken();
+    if (!token) throw new Error('未配置 GitHub Token：请先点击右上角"⚠ 设置 GitHub Token"');
+    var sha = await ghGetSha(path);
+    var body = { message: message, content: b64Utf8(content), branch: AQC_BRANCH };
+    if (sha) body.sha = sha;
+    var r = await fetch('https://api.github.com/repos/' + AQC_REPO + '/contents/' + encodeURI(path), {
+      method: 'PUT',
+      headers: { 'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json' },
+      body: JSON.stringify(body)
+    });
+    if (!r.ok) {
+      var err = await r.json().catch(function(){ return {}; });
+      throw new Error('GitHub PUT ' + r.status + ': ' + (err.message || err.error || ''));
+    }
+    var result = await r.json();
+    return (result.content && result.content.sha) || '';
+  }
+
+  async function ghUploadImage(file) {
+    var token = getToken();
+    if (!token) throw new Error('未配置 GitHub Token');
+    var safeName = (file.name || 'image').replace(/[^a-zA-Z0-9._-]/g, '_').slice(0, 80);
+    var stamp = Date.now();
+    var path = AQC_UPLOAD_DIR + stamp + '-' + safeName;
+    var dataUrl = await new Promise(function(res, rej) {
+      var fr = new FileReader();
+      fr.onload = function(e) { res(e.target.result); };
+      fr.onerror = rej;
+      fr.readAsDataURL(file);
+    });
+    var b64 = dataUrl.split(',')[1];
+    var sha = await ghGetSha(path);
+    var body = { message: 'admin upload: ' + safeName, content: b64, branch: AQC_BRANCH };
+    if (sha) body.sha = sha;
+    var r = await fetch('https://api.github.com/repos/' + AQC_REPO + '/contents/' + encodeURI(path), {
+      method: 'PUT',
+      headers: { 'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json' },
+      body: JSON.stringify(body)
+    });
+    if (!r.ok) {
+      var err = await r.json().catch(function(){ return {}; });
+      throw new Error('上传失败 ' + r.status + ': ' + (err.message || err.error || ''));
+    }
+    return '/assets/images/uploads/' + stamp + '-' + safeName;
+  }
+
+  function promptForToken() {
+    var cur = getToken();
+    var msg = cur
+      ? '当前 Token 已配置（长度 ' + cur.length + '）。\n输入新 Token 替换；留空 = 清除。'
+      : '请粘贴你的 GitHub Personal Access Token：\n\n需 Contents: Read & Write 权限\n仅作用于 ' + AQC_REPO + '\n（PAT 仅存于浏览器 sessionStorage，关浏览器即清空）';
+    var t = prompt(msg, '');
+    if (t === null) return false;
+    if (t.trim()) setToken(t);
+    else setToken('');
+    refreshTokenUI();
+    return !!getToken();
+  }
+
+  function refreshTokenUI() {
+    var link = $('setTokenLink');
+    if (!link) return;
+    var has = !!getToken();
+    link.textContent = has ? '✓ GitHub Token 已配置' : '⚠ 设置 GitHub Token';
+    link.style.color = has ? '#22c55e' : '#fbbf24';
+    link.style.borderColor = has ? '#22c55e' : '#fbbf24';
+  }
+
   function slugify(s) {
     return String(s || '').toLowerCase()
       .replace(/[^\w\s-]/g, '')
@@ -153,13 +253,54 @@
     var imgSec = document.createElement('div');
     imgSec.className = 'admin-sec';
     imgSec.innerHTML = '<h3>产品图片</h3>' +
-      '<div id="p-img-drop" class="admin-drop">📁 拖放图片或粘贴 URL（每行一个）</div>' +
+      '<div id="p-img-drop" class="admin-drop">📁 拖放图片到此处上传到 GitHub · 也可直接粘贴 URL（每行一个）</div>' +
       '<textarea id="p-img-urls" rows="3" placeholder="https://...&#10;https://..." style="width:100%;margin-top:8px;"></textarea>' +
       '<div id="p-img-preview" class="admin-imgs" style="margin-top:8px;"></div>';
     f.appendChild(imgSec);
     $('p-img-urls').value = (data.images||[]).join('\n');
     $('p-img-urls').addEventListener('input', renderImgPreview);
     renderImgPreview();
+    // Drag-and-drop upload → GitHub Contents API
+    var dropZone = $('p-img-drop');
+    if (dropZone) {
+      dropZone.addEventListener('dragover', function(e) {
+        e.preventDefault(); e.stopPropagation();
+        dropZone.style.background = '#DBEAFE';
+      });
+      dropZone.addEventListener('dragleave', function(e) {
+        e.preventDefault(); e.stopPropagation();
+        dropZone.style.background = '';
+      });
+      dropZone.addEventListener('drop', async function(e) {
+        e.preventDefault(); e.stopPropagation();
+        dropZone.style.background = '';
+        var files = e.dataTransfer && e.dataTransfer.files;
+        if (!files || files.length === 0) return;
+        if (!getToken()) {
+          setStatus('⚠ 上传需先设置 GitHub Token');
+          if (confirm('上传需配置 GitHub Token。现在设置？')) {
+            if (!promptForToken()) return;
+          } else { return; }
+        }
+        setStatus('🚀 正在上传 ' + files.length + ' 张图片到 GitHub...');
+        var urls = [];
+        for (var i = 0; i < files.length; i++) {
+          try {
+            var url = await ghUploadImage(files[i]);
+            urls.push(url);
+          } catch (err) {
+            setStatus('❌ ' + files[i].name + ' 上传失败：' + err.message);
+            return;
+          }
+        }
+        var existing = $('p-img-urls').value;
+        var newVal = (existing ? existing + '\n' : '') + urls.join('\n');
+        $('p-img-urls').value = newVal;
+        renderImgPreview();
+        autoSaveProduct();
+        setStatus('✅ 已上传 ' + urls.length + ' 张图片到 GitHub · 记得点"保存草稿"部署');
+      });
+    }
 
     // Tags
     f.appendChild(makeSec('产品卖点（逗号分隔）', '<textarea id="p-tags" rows="2">' + ((data.tags||[]).join(', ')) + '</textarea>'));
@@ -288,7 +429,39 @@
   function saveProduct() {
     var data = collectProduct();
     localStorage.setItem(sk('product', data.lang, currentCat), JSON.stringify(data));
-    setStatus('💾 已保存草稿（刷新前请导出）');
+    setStatus('💾 产品草稿已保存到 localStorage');
+    // Auto-deploy to GitHub
+    if (!getToken()) {
+      setStatus('💾 已存草稿 · ⚠ 未部署：未配置 GitHub Token（点右上角设置）');
+      if (!confirm('需要部署到 GitHub Pages 吗？\n点确定 = 现在设置 Token 并部署\n点取消 = 仅保存草稿（不部署）')) return;
+      if (!promptForToken()) return;
+    }
+    var cat = currentCat;
+    var lang = data.lang;
+    var path = 'data/products/' + cat + '.json';
+    setStatus('🚀 正在部署产品 JSON 到 GitHub...');
+    // Read existing to keep multi-product array shape (admin edits first product)
+    fetch('https://www.hkdmj.net/' + path + '?t=' + Date.now()).then(function(r) {
+      if (r.ok) return r.json();
+      return null;
+    }).then(function(existing) {
+      var toWrite;
+      if (existing && Array.isArray(existing.products)) {
+        existing.products[0] = data;
+        toWrite = existing;
+      } else if (existing && typeof existing === 'object' && Object.keys(existing).length) {
+        // Single-product shape — replace with new
+        toWrite = data;
+      } else {
+        toWrite = { products: [data] };
+      }
+      var msg = 'admin: update ' + cat + '-' + lang;
+      return ghCommit(path, JSON.stringify(toWrite, null, 2), msg);
+    }).then(function(sha) {
+      setStatus('✅ 已部署！SHA: ' + sha.substring(0, 8) + ' · 1-2 分钟后访问 ?v=' + Date.now()() + ' 查看（硬刷新 Ctrl+Shift+R）');
+    }).catch(function(err) {
+      setStatus('❌ 部署失败：' + err.message);
+    });
   }
 
   function autoSaveProduct() {
@@ -469,7 +642,23 @@
     var data = collectHome();
     var lang = $('langSel') ? $('langSel').value : 'en';
     localStorage.setItem(sk('home', lang), JSON.stringify(data));
-    setStatus('💾 首页草稿已保存（刷新前请导出 JSON）');
+    setStatus('💾 首页草稿已保存到 localStorage');
+    // Auto-deploy to GitHub
+    if (!getToken()) {
+      setStatus('💾 已存草稿 · ⚠ 未部署：未配置 GitHub Token（点右上角设置）');
+      if (!confirm('需要部署到 GitHub Pages 吗？\n点确定 = 现在设置 Token 并部署\n点取消 = 仅保存草稿（不部署）')) return;
+      if (!promptForToken()) return;
+    }
+    var lang = $('langSel') ? $('langSel').value : 'en';
+    var path = 'data/pages/home/' + lang + '.json';
+    var payload = JSON.stringify(data, null, 2);
+    var msg = 'admin: update home-' + lang;
+    setStatus('🚀 正在部署到 GitHub... (' + path + ')');
+    ghCommit(path, payload, msg).then(function(sha) {
+      setStatus('✅ 已部署！SHA: ' + sha.substring(0, 8) + ' · 1-2 分钟后访问 ?v=' + Date.now()() + ' 查看（硬刷新 Ctrl+Shift+R 穿透缓存）');
+    }).catch(function(err) {
+      setStatus('❌ 部署失败：' + err.message);
+    });
   }
 
   function autoSaveHome() {
@@ -847,6 +1036,19 @@
     buildSidebar();
     // Auto-load default product after sidebar is built
     setTimeout(function(){ loadProduct('handheld-vacuum', 'en'); }, 50);
+    // Token UI: click header link to set/update token
+    var tokenLink = $('setTokenLink');
+    if (tokenLink) tokenLink.addEventListener('click', function(e) {
+      e.preventDefault();
+      promptForToken();
+    });
+    refreshTokenUI();
+    // First-visit nudge for token
+    setTimeout(function() {
+      if (!getToken()) {
+        setStatus('💡 首次使用：推荐点击右上角"⚠ 设置 GitHub Token"启用一键部署');
+      }
+    }, 2000);
   }
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);
