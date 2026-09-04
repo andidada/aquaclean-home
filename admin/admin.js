@@ -432,9 +432,11 @@
     setStatus('💾 产品草稿已保存到 localStorage');
     // Auto-deploy to GitHub
     if (!getToken()) {
-      setStatus('💾 已存草稿 · ⚠ 未部署：未配置 GitHub Token（点右上角设置）');
-      if (!confirm('需要部署到 GitHub Pages 吗？\n点确定 = 现在设置 Token 并部署\n点取消 = 仅保存草稿（不部署）')) return;
+      setStatus('💾 已存草稿 · ⚠ 未配置 Token');
+      if (!confirm('需要部署到 GitHub Pages 吗？\n确定 = 现在设置 Token 并部署\n取消 = 仅保存草稿（不部署）')) return;
       if (!promptForToken()) return;
+    } else {
+      if (!confirm('💾 草稿已保存。\n\n是否立即部署到 GitHub Pages？\n确定 = 部署（1-2 分钟生效）\n取消 = 仅保存草稿（不部署）')) return;
     }
     var cat = currentCat;
     var lang = data.lang;
@@ -458,7 +460,7 @@
       var msg = 'admin: update ' + cat + '-' + lang;
       return ghCommit(path, JSON.stringify(toWrite, null, 2), msg);
     }).then(function(sha) {
-      setStatus('✅ 已部署！SHA: ' + sha.substring(0, 8) + ' · 1-2 分钟后访问 ?v=' + Date.now()() + ' 查看（硬刷新 Ctrl+Shift+R）');
+      setStatus('✅ 已部署！SHA: ' + sha.substring(0, 8) + ' · 1-2 分钟后访问 ?v=' + Date.now() + ' 查看（硬刷新 Ctrl+Shift+R）');
     }).catch(function(err) {
       setStatus('❌ 部署失败：' + err.message);
     });
@@ -645,9 +647,11 @@
     setStatus('💾 首页草稿已保存到 localStorage');
     // Auto-deploy to GitHub
     if (!getToken()) {
-      setStatus('💾 已存草稿 · ⚠ 未部署：未配置 GitHub Token（点右上角设置）');
-      if (!confirm('需要部署到 GitHub Pages 吗？\n点确定 = 现在设置 Token 并部署\n点取消 = 仅保存草稿（不部署）')) return;
+      setStatus('💾 已存草稿 · ⚠ 未配置 Token');
+      if (!confirm('需要部署到 GitHub Pages 吗？\n确定 = 现在设置 Token 并部署\n取消 = 仅保存草稿（不部署）')) return;
       if (!promptForToken()) return;
+    } else {
+      if (!confirm('💾 草稿已保存。\n\n是否立即部署到 GitHub Pages？\n确定 = 部署（1-2 分钟生效）\n取消 = 仅保存草稿（不部署）')) return;
     }
     var lang = $('langSel') ? $('langSel').value : 'en';
     var path = 'data/pages/home/' + lang + '.json';
@@ -655,7 +659,7 @@
     var msg = 'admin: update home-' + lang;
     setStatus('🚀 正在部署到 GitHub... (' + path + ')');
     ghCommit(path, payload, msg).then(function(sha) {
-      setStatus('✅ 已部署！SHA: ' + sha.substring(0, 8) + ' · 1-2 分钟后访问 ?v=' + Date.now()() + ' 查看（硬刷新 Ctrl+Shift+R 穿透缓存）');
+      setStatus('✅ 已部署！SHA: ' + sha.substring(0, 8) + ' · 1-2 分钟后访问 ?v=' + Date.now() + ' 查看（硬刷新 Ctrl+Shift+R 穿透缓存）');
     }).catch(function(err) {
       setStatus('❌ 部署失败：' + err.message);
     });
