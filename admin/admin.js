@@ -125,30 +125,38 @@ var AQC_HOME_LOADER_FIX = `/**
     if (hoursEl && d.hours) hoursEl.textContent = '🕐 ' + d.hours;
   }
 
-  // Render footer
-  function renderFooter(d) {
+  // Render footer. \`contact\` is passed as fallback for address/whatsapp
+  // (footer JSON may omit them; contact section usually has them).
+  function renderFooter(d, contact) {
     var ft = document.querySelector('footer');
     if (!ft) return;
+    contact = contact || {};
+    var fCompany = d.company_name || contact.company_name || '';
+    var fDesc = d.description || contact.description || '';
+    var fAddress = d.address || contact.address || '';
+    var fEmail = d.email || contact.email || '';
+    var fPhone = d.phone || contact.phone || '';
+    var fWhatsapp = d.whatsapp || contact.whatsapp || '';
     // Company name: <span> inside the brand logo link
     var brandSpan = ft.querySelector('.footer-brand .logo span');
-    if (brandSpan && d.company_name) brandSpan.textContent = d.company_name;
+    if (brandSpan && fCompany) brandSpan.textContent = fCompany;
     // Description: direct child <p> of .footer-brand
     var descEl = ft.querySelector('.footer-brand > p');
-    if (descEl && d.description) descEl.textContent = d.description;
+    if (descEl && fDesc) descEl.textContent = fDesc;
     // footer-bottom: copyright + address/email/phone line
     var fbottom = ft.querySelector('.footer-bottom');
     if (fbottom) {
       var year = new Date().getFullYear();
       var lines = fbottom.querySelectorAll('p');
-      if (lines[0] && d.company_name) {
-        lines[0].textContent = '© ' + year + ' ' + d.company_name + '. All rights reserved.';
+      if (lines[0] && fCompany) {
+        lines[0].textContent = '© ' + year + ' ' + fCompany + '. All rights reserved.';
       }
       if (lines[1]) {
         var parts = [];
-        if (d.address) parts.push('📍 ' + d.address);
-        if (d.email) parts.push('✉ <a href="mailto:' + d.email + '" style="color:inherit;">' + d.email + '</a>');
-        if (d.phone) parts.push('📞 <a href="tel:' + d.phone.replace(/[^\\d+]/g, '') + '" style="color:inherit;">' + d.phone + '</a>');
-        if (d.whatsapp) parts.push('💬 WhatsApp: ' + d.whatsapp);
+        if (fAddress) parts.push('📍 ' + fAddress);
+        if (fEmail) parts.push('✉ <a href="mailto:' + fEmail + '" style="color:inherit;">' + fEmail + '</a>');
+        if (fPhone) parts.push('📞 <a href="tel:' + fPhone.replace(/[^\\d+]/g, '') + '" style="color:inherit;">' + fPhone + '</a>');
+        if (fWhatsapp) parts.push('💬 WhatsApp: ' + fWhatsapp);
         if (parts.length) lines[1].innerHTML = parts.join('  |  ');
       }
     }
@@ -185,7 +193,7 @@ var AQC_HOME_LOADER_FIX = `/**
           renderHero(d.hero || {});
           renderProducts(d.products || []);
           renderContact(d.contact || {});
-          renderFooter(d.footer || {});
+          renderFooter(d.footer || {}, d.contact || {});
           // Remove data-product-id from all product-card buttons after render
           // (prevents langpicker modal intercepting the link navigation)
           var btns = document.querySelectorAll('.product-card a.btn');
@@ -208,6 +216,7 @@ var AQC_HOME_LOADER_FIX = `/**
   }
 })();
 `;
+
 
 
   function getToken() {
