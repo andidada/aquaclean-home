@@ -1089,7 +1089,8 @@ var AQC_HOME_LOADER_FIX = `/**
     tabsDiv.style.cssText = 'display:flex;gap:0;margin-bottom:16px;background:#E2E8F0;border-radius:8px;padding:3px;';
     tabsDiv.innerHTML =
       '<button id="tab-product" class="btn btn-primary" style="flex:1;border-radius:6px;font-size:13px;padding:10px 6px;background:#2563EB;color:#fff;">📦 产品</button>' +
-      '<button id="tab-home" class="btn btn-outline" style="flex:1;border-radius:6px;font-size:13px;padding:10px 6px;">🏠 首页</button>';
+      '<button id="tab-home" class="btn btn-outline" style="flex:1;border-radius:6px;font-size:13px;padding:10px 6px;">🏠 首页</button>' +
+      '<button id="tab-category" class="btn btn-outline" style="flex:1;border-radius:6px;font-size:13px;padding:10px 6px;">📚 类目页</button>';
     side.appendChild(tabsDiv);
 
     // Status
@@ -1151,9 +1152,192 @@ var AQC_HOME_LOADER_FIX = `/**
       var _lang = $('langSel') ? $('langSel').value : 'en';
       setTimeout(function(){ loadHomepage(_lang); }, 50);
     };
+
+    $('tab-category').onclick = function() {
+      activeTab = 'category';
+      $('tab-category').className = 'btn btn-primary';
+      $('tab-product').className = 'btn btn-outline';
+      $('tab-home').className = 'btn btn-outline';
+      $('tab-category').style.background = '#2563EB';
+      $('tab-category').style.color = '#fff';
+      $('tab-product').style.background = '';
+      $('tab-product').style.color = '';
+      $('tab-home').style.background = '';
+      $('tab-home').style.color = '';
+      // Clear sidebar after hr
+      var hrs = qsa('.admin-side hr');
+      if (hrs.length) {
+        var lastHr = hrs[hrs.length-1];
+        while (lastHr.nextSibling) side.removeChild(lastHr.nextSibling);
+        side.removeChild(lastHr);
+      }
+      var hr = document.createElement('hr');
+      side.appendChild(hr);
+      buildCategoryControls(side);
+      side.appendChild(statusDiv);
+      // Auto-load categories.json
+      setTimeout(function(){ loadCategoryPage(); }, 50);
+    };
   }
 
-  function buildProductControls(side) {
+  function buildCategoryControls(side) {
+    // Category selector
+    var catDiv = document.createElement('div');
+    catDiv.className = 'admin-field';
+    catDiv.innerHTML = '<label>类目</label><select id="catPageSel"></select>';
+    side.appendChild(catDiv);
+    // Language selector
+    var langDiv = document.createElement('div');
+    langDiv.className = 'admin-field';
+    langDiv.innerHTML = '<label>语言</label><select id="catPageLangSel"></select>';
+    side.appendChild(langDiv);
+    // Load button
+    var loadBtn = document.createElement('button');
+    loadBtn.className = 'btn btn-outline';
+    loadBtn.style.cssText = 'width:100%;margin-bottom:8px;';
+    loadBtn.textContent = '📂 加载类目数据';
+    loadBtn.onclick = function() { loadCategoryPage(); };
+    side.appendChild(loadBtn);
+    // Save button
+    var saveBtn = document.createElement('button');
+    saveBtn.className = 'btn btn-primary';
+    saveBtn.style.cssText = 'width:100%;margin-bottom:8px;';
+    saveBtn.textContent = '💾 保存并部署';
+    saveBtn.onclick = function() { saveCategoryPage(); };
+    side.appendChild(saveBtn);
+    // Hint
+    var hint = document.createElement('div');
+    hint.style.cssText = 'font-size:12px;color:#64748B;margin-top:8px;line-height:1.5;';
+    hint.innerHTML = '编辑类目页标题、描述、Banner图。保存即部署到 GitHub Pages（1-2 分钟生效）。';
+    side.appendChild(hint);
+    // Populate category select
+    var catSel = $('catPageSel');
+    if (catSel) {
+      var cats = ['handheld-vacuum','robot-vacuum','steam-cleaner','uv-mite-remover','window-cleaner-robot','car-vacuum','tire-inflator','coffee-machine','upright-steam-mop'];
+      catSel.innerHTML = cats.map(function(c){ return '<option value="'+c+'">'+c+'</option>'; }).join('');
+      if (currentCat) catSel.value = currentCat;
+      catSel.onchange = function() { currentCat = catSel.value; loadCategoryPage(); };
+    }
+    // Populate language select
+    var langSel = $('catPageLangSel');
+    if (langSel) {
+      var langs = [['en','English'],['zh','中文'],['ar','العربية'],['es','Español'],['fr','Français'],['id','Indonesia'],['ru','Русский'],['th','ไทย'],['vi','Tiếng Việt']];
+      langSel.innerHTML = langs.map(function(l){ return '<option value="'+l[0]+'">'+l[1]+'</option>'; }).join('');
+      if (currentLang) langSel.value = currentLang;
+      langSel.onchange = function() { currentLang = langSel.value; loadCategoryPage(); };
+    }
+  }
+
+  function loadCategoryPage() {
+    var cat = $('catPageSel') ? $('catPageSel').value : (currentCat || 'handheld-vacuum');
+    var lang = $('catPageLangSel') ? $('catPageLangSel').value : (currentLang || 'en');
+    currentCat = cat;
+    currentLang = lang;
+    setStatus('🔄 加载 categories.json ...');
+    var x = new XMLHttpRequest();
+    var url = '/data/products/categories.json?v=' + Date.now();
+    x.open('GET', url, true);
+    x.onload = function() {
+      if (x.status !== 200) { setStatus('❌ 加载失败: ' + x.status); return; }
+      try {
+        var data = JSON.parse(x.responseText);
+        var cats = data.categories || [];
+        var found = null;
+        for (var i = 0; i < cats.length; i++) {
+          if (cats[i].slug === cat) { found = cats[i]; break; }
+        }
+        if (!found) { setStatus('❌ 未找到类目: ' + cat); return; }
+        renderCategoryForm(found, lang, data);
+        setStatus('✅ 已加载: ' + cat + ' (' + lang + ')');
+      } catch (e) {
+        setStatus('❌ JSON 解析错误: ' + e.message);
+      }
+    };
+    x.onerror = function() { setStatus('❌ 网络错误'); };
+    x.send();
+  }
+
+  function renderCategoryForm(cat, lang, fullData) {
+    var f = $('formArea');
+    if (!f) return;
+    f.innerHTML = '';
+    var name = (cat.name && cat.name[lang]) || '';
+    var desc = (cat.description && cat.description[lang]) || '';
+    var banner = cat.banner_image || '';
+    var order = cat.order || 0;
+    // Section: basic
+    f.appendChild(makeSec('类目信息 (' + lang + ')', makeGrid(
+      fieldHTML('类目 slug', 'c-slug', 'text', cat.slug || '') +
+      fieldHTML('排序', 'c-order', 'number', String(order)) +
+      fieldHTML('Banner 图片 URL', 'c-banner', 'text', banner)
+    )));
+    // Section: multilingual
+    f.appendChild(makeSec('多语言内容', makeGrid(
+      fieldHTML('类目名称 (' + lang + ') *', 'c-name', 'text', name) +
+      fieldHTML('类目描述 (' + lang + ')', 'c-desc', 'textarea', desc)
+    )));
+    // Preview banner
+    if (banner) {
+      var prev = document.createElement('div');
+      prev.style.cssText = 'margin-top:12px;';
+      prev.innerHTML = '<label style="font-size:12px;color:#64748B;">Banner 预览</label><br><img src="'+banner+'" style="max-width:300px;max-height:120px;border-radius:6px;margin-top:4px;border:1px solid #E2E8F0;" onerror="this.style.display=\'none\'">';
+      f.appendChild(prev);
+    }
+    // Stash full data for save
+    window._catFullData = fullData;
+    window._catCurrent = cat;
+    window._catLang = lang;
+  }
+
+  function saveCategoryPage() {
+    var cat = window._catCurrent;
+    var lang = window._catLang;
+    var fullData = window._catFullData;
+    if (!cat || !lang || !fullData) { setStatus('❌ 没有加载的数据'); return; }
+    // Read form
+    var nameEl = $('c-name');
+    var descEl = $('c-desc');
+    var bannerEl = $('c-banner');
+    var orderEl = $('c-order');
+    if (!nameEl) { setStatus('❌ 表单未准备好'); return; }
+    var newName = nameEl.value.trim();
+    if (!newName) { alert('类目名称不能为空'); return; }
+    // Update cat in fullData
+    if (!cat.name) cat.name = {};
+    if (!cat.description) cat.description = {};
+    cat.name[lang] = newName;
+    cat.description[lang] = descEl.value.trim();
+    cat.banner_image = bannerEl.value.trim();
+    if (orderEl) cat.order = parseInt(orderEl.value, 10) || 0;
+    // Find and replace in fullData.categories
+    var cats = fullData.categories || [];
+    for (var i = 0; i < cats.length; i++) {
+      if (cats[i].slug === cat.slug) { cats[i] = cat; break; }
+    }
+    var jsonStr = JSON.stringify(fullData, null, 2);
+    // Save draft to localStorage
+    localStorage.setItem('aqc_cat_draft', jsonStr);
+    // Deploy
+    if (!getToken()) {
+      if (!confirm('需要部署到 GitHub Pages 吗？\n确定 = 设置 Token 并部署\n取消 = 仅存草稿')) return;
+      if (!promptForToken()) return;
+    } else {
+      if (!confirm('💾 类目数据已更新。\n\n是否立即部署到 GitHub Pages？\n确定 = 部署（1-2 分钟生效）\n取消 = 仅保存草稿')) return;
+    }
+    setStatus('🚀 部署中...');
+    ghCommit('data/products/categories.json', jsonStr, 'admin: update category page ' + cat.slug + ' (' + lang + ')')
+      .then(function(sha) {
+        setStatus('✅ 已部署! commit ' + sha.substring(0,8));
+        // Sync home-loader if embedded
+        if (typeof AQC_HOME_LOADER_FIX !== 'undefined' && !localStorage.getItem('AQC_HL_FIX_APPLIED')) {
+          return ghCommit('assets/js/home-loader.js', AQC_HOME_LOADER_FIX, 'admin: sync home-loader.js')
+            .then(function(s2) { localStorage.setItem('AQC_HL_FIX_APPLIED', '1'); });
+        }
+      })
+      .catch(function(err) { setStatus('❌ 部署失败: ' + err.message); });
+  }
+
+function buildProductControls(side) {
     var catDiv = document.createElement('div');
     catDiv.className = 'admin-field';
     catDiv.innerHTML = '<label>类目</label><select id="catSel"></select>';
