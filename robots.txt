@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+Disallow: /assets/images/uploads/
+
+# Crawl-delay for polite spiders
+Crawl-delay: 1
+
+Sitemap: https://www.hkdmj.net/sitemap.xml
+
+# AI/Crawler access
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
