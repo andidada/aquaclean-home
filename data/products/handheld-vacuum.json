@@ -1,283 +1,469 @@
 {
- "category": "handheld-vacuum",
- "products": [
-  {
-   "id": "hv-100",
-   "name": {
-    "en": "AquaPro HV-100 Handheld Vacuum",
-    "zh": "AquaPro HV-100 手持无线吸尘器",
-    "ar": "مكنسة AquaPro HV-100 يدوية",
-    "es": "Aspiradora de Mano AquaPro HV-100",
-    "fr": "Aspirateur Portable AquaPro HV-100",
-    "id": "Pembersih Vakum Tangan AquaPro HV-100",
-    "ru": "Ручной пылесос AquaPro HV-100",
-    "th": "เครื่องดูดฝุ่นมือถือ AquaPro HV-100",
-    "vi": "May hut bui cam tay AquaPro HV-100"
-   },
-   "tagline": {
-    "en": "Lightweight & Powerful — Perfect for Quick Cleanups",
-    "zh": "轻便强劲 — 快速清洁的理想之选",
-    "ar": "خفيف الوزن وقوي — مثالي للتنظيف السريع",
-    "es": "Ligero y Potente — Perfecto para Limpiezas Rapidas",
-    "fr": "Leger et Puissant — Parfait pour les Nettoyages Rapides",
-    "id": "Ringan & Kuat — Sempurna untuk Pembersihan Cepat",
-    "ru": "Legkij i moshhnyj — idealno dlya bystroj ochistki",
-    "th": "น้ำหนักเบาและทรงพลัง — สมบูรณ์แบบสำหรับการทำความสะอาดอย่างรวดเร็ว",
-    "vi": "Nhe nhung manh — Hoan hao cho viec don dep nhanh"
-   },
-   "images": [
-    "https://www.hkdmj.net/assets/images/products/01-handheld-vacuum.png"
-   ],
-   "video_url": "",
-   "moq": {
-    "value": 500,
-    "unit": "pieces"
-   },
-   "certifications": [
-    "CE",
-    "FCC",
-    "RoHS"
-   ],
-   "highlights": [
+  "category": "handheld-vacuum",
+  "products": [
     {
-     "icon": "power",
-     "text": {
-      "en": "120W Motor, 9000Pa Suction",
-      "zh": "120W电机，9000Pa吸力"
-     }
-    },
-    {
-     "icon": "battery",
-     "text": {
-      "en": "25min Runtime, USB-C Charging",
-      "zh": "25分钟续航，USB-C充电"
-     }
-    },
-    {
-     "icon": "water",
-     "text": {
-      "en": "Wet & Dry Dual Function",
-      "zh": "干湿两用"
-     }
-    },
-    {
-     "icon": "light",
-     "text": {
-      "en": "LED Floor Light for Dark Areas",
-      "zh": "LED地面照明，适用于暗处"
-     }
-    }
-   ],
-   "specs": [
-    {
-     "label": {
-      "en": "Motor Power",
-      "zh": "电机功率"
-     },
-     "value": "120W"
-    },
-    {
-     "label": {
-      "en": "Suction",
-      "zh": "吸力"
-     },
-     "value": "9000Pa"
-    },
-    {
-     "label": {
-      "en": "Runtime",
-      "zh": "续航时间"
-     },
-     "value": "25 min"
-    },
-    {
-     "label": {
-      "en": "Charging",
-      "zh": "充电方式"
-     },
-     "value": "USB-C, 3-4 hrs"
-    },
-    {
-     "label": {
-      "en": "Dust Cup",
-      "zh": "尘杯容量"
-     },
-     "value": "0.5L"
-    },
-    {
-     "label": {
-      "en": "Weight",
-      "zh": "重量"
-     },
-     "value": "1.2kg"
-    },
-    {
-     "label": {
-      "en": "Noise",
-      "zh": "噪音"
-     },
-     "value": "< 70dB"
-    },
-    {
-     "label": {
-      "en": "Material",
-      "zh": "材质"
-     },
-     "value": "ABS"
-    },
-    {
-     "label": {
-      "en": "Colors",
-      "zh": "颜色"
-     },
-     "value": "White, Gray, Black"
-    },
-    {
-     "label": {
-      "en": "MOQ",
-      "zh": "最小起订量"
-     },
-     "value": "500 pcs"
-    }
-   ],
-   "packaging": {
-    "unit": "color box",
-    "ctn_size": "45x32x18cm",
-    "ctn_qty": "12 pcs",
-    "gross_weight": "15kg"
-   },
-   "customization": {
-    "oem": true,
-    "odm": true,
-    "logo": true,
-    "color": true,
-    "package": true,
-    "sample_lead": "7-14 days",
-    "production_lead": "25-35 days"
-   },
-   "applications": {
-    "en": "Home, Car, Office, Kitchen",
-    "zh": "家庭, 汽车, 办公室, 厨房"
-   },
-   "price_indicator": {
-    "min": 45,
-    "max": 75,
-    "currency": "USD"
-   },
-   "quick_specs": [
-    {
-     "label": {
-      "en": "Motor Power",
-      "zh": "电机功率"
-     },
-     "value": "120W"
-    },
-    {
-     "label": {
-      "en": "Suction",
-      "zh": "吸力"
-     },
-     "value": "9000Pa"
-    },
-    {
-     "label": {
-      "en": "Runtime",
-      "zh": "续航时间"
-     },
-     "value": "25 min"
-    },
-    {
-     "label": {
-      "en": "Charging",
-      "zh": "充电方式"
-     },
-     "value": "USB-C, 3-4 hrs"
-    }
-   ],
-   "price_ladder": [
-    {
-     "min": 500,
-     "max": 499,
-     "price": 75
-    },
-    {
-     "min": 500,
-     "max": 999,
-     "price": 60
-    },
-    {
-     "min": 1000,
-     "max": null,
-     "price": 45
-    }
-   ],
-   "sku": [
-    {
-     "name": {
-      "en": "Color",
-      "zh": "颜色"
-     },
-     "values": [
-      {
-       "name": "Black",
-       "color": "#111827"
+      "id": "hv-100",
+      "name": {
+        "en": "AquaPro HV-100 Handheld Vacuum",
+        "zh": "AquaPro HV-100 手持无线吸尘器",
+        "ar": "مكنسة AquaPro HV-100 يدوية",
+        "es": "Aspiradora de Mano AquaPro HV-100",
+        "fr": "Aspirateur Portable AquaPro HV-100",
+        "id": "Pembersih Vakum Tangan AquaPro HV-100",
+        "ru": "Ручной пылесос AquaPro HV-100",
+        "th": "เครื่องดูดฝุ่นมือถือ AquaPro HV-100",
+        "vi": "May hut bui cam tay AquaPro HV-100"
       },
-      {
-       "name": "Grey",
-       "color": "#9CA3AF"
-      }
-     ]
+      "tagline": {
+        "en": "Lightweight & Powerful — Perfect for Quick Cleanups",
+        "zh": "轻便强劲 — 快速清洁的理想之选",
+        "ar": "خفيف الوزن وقوي — مثالي للتنظيف السريع",
+        "es": "Ligero y Potente — Perfecto para Limpiezas Rapidas",
+        "fr": "Leger et Puissant — Parfait pour les Nettoyages Rapides",
+        "id": "Ringan & Kuat — Sempurna untuk Pembersihan Cepat",
+        "ru": "Legkij i moshhnyj — idealno dlya bystroj ochistki",
+        "th": "น้ำหนักเบาและทรงพลัง — สมบูรณ์แบบสำหรับการทำความสะอาดอย่างรวดเร็ว",
+        "vi": "Nhe nhung manh — Hoan hao cho viec don dep nhanh"
+      },
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/01-handheld-vacuum.png"
+      ],
+      "video_url": "",
+      "moq": {
+        "value": 500,
+        "unit": "pieces"
+      },
+      "certifications": [
+        "CE",
+        "FCC",
+        "RoHS"
+      ],
+      "highlights": [
+        {
+          "icon": "power",
+          "text": {
+            "en": "120W Motor, 9000Pa Suction",
+            "zh": "120W电机，9000Pa吸力"
+          }
+        },
+        {
+          "icon": "battery",
+          "text": {
+            "en": "25min Runtime, USB-C Charging",
+            "zh": "25分钟续航，USB-C充电"
+          }
+        },
+        {
+          "icon": "water",
+          "text": {
+            "en": "Wet & Dry Dual Function",
+            "zh": "干湿两用"
+          }
+        },
+        {
+          "icon": "light",
+          "text": {
+            "en": "LED Floor Light for Dark Areas",
+            "zh": "LED地面照明，适用于暗处"
+          }
+        }
+      ],
+      "specs": [
+        {
+          "label": {
+            "en": "Motor Power",
+            "zh": "电机功率"
+          },
+          "value": "120W"
+        },
+        {
+          "label": {
+            "en": "Suction",
+            "zh": "吸力"
+          },
+          "value": "9000Pa"
+        },
+        {
+          "label": {
+            "en": "Runtime",
+            "zh": "续航时间"
+          },
+          "value": "25 min"
+        },
+        {
+          "label": {
+            "en": "Charging",
+            "zh": "充电方式"
+          },
+          "value": "USB-C, 3-4 hrs"
+        },
+        {
+          "label": {
+            "en": "Dust Cup",
+            "zh": "尘杯容量"
+          },
+          "value": "0.5L"
+        },
+        {
+          "label": {
+            "en": "Weight",
+            "zh": "重量"
+          },
+          "value": "1.2kg"
+        },
+        {
+          "label": {
+            "en": "Noise",
+            "zh": "噪音"
+          },
+          "value": "< 70dB"
+        },
+        {
+          "label": {
+            "en": "Material",
+            "zh": "材质"
+          },
+          "value": "ABS"
+        },
+        {
+          "label": {
+            "en": "Colors",
+            "zh": "颜色"
+          },
+          "value": "White, Gray, Black"
+        },
+        {
+          "label": {
+            "en": "MOQ",
+            "zh": "最小起订量"
+          },
+          "value": "500 pcs"
+        }
+      ],
+      "packaging": {
+        "unit": "color box",
+        "ctn_size": "45x32x18cm",
+        "ctn_qty": "12 pcs",
+        "gross_weight": "15kg"
+      },
+      "customization": {
+        "oem": true,
+        "odm": true,
+        "logo": true,
+        "color": true,
+        "package": true,
+        "sample_lead": "7-14 days",
+        "production_lead": "25-35 days"
+      },
+      "applications": {
+        "en": "Home, Car, Office, Kitchen",
+        "zh": "家庭, 汽车, 办公室, 厨房"
+      },
+      "price_indicator": {
+        "min": 45,
+        "max": 75,
+        "currency": "USD"
+      },
+      "quick_specs": [
+        {
+          "label": {
+            "en": "Motor Power",
+            "zh": "电机功率"
+          },
+          "value": "120W"
+        },
+        {
+          "label": {
+            "en": "Suction",
+            "zh": "吸力"
+          },
+          "value": "9000Pa"
+        },
+        {
+          "label": {
+            "en": "Runtime",
+            "zh": "续航时间"
+          },
+          "value": "25 min"
+        },
+        {
+          "label": {
+            "en": "Charging",
+            "zh": "充电方式"
+          },
+          "value": "USB-C, 3-4 hrs"
+        }
+      ],
+      "price_ladder": [
+        {
+          "min": 500,
+          "max": 499,
+          "price": 75
+        },
+        {
+          "min": 500,
+          "max": 999,
+          "price": 60
+        },
+        {
+          "min": 1000,
+          "max": null,
+          "price": 45
+        }
+      ],
+      "sku": [
+        {
+          "name": {
+            "en": "Color",
+            "zh": "颜色"
+          },
+          "values": [
+            {
+              "name": "Black",
+              "color": "#111827"
+            },
+            {
+              "name": "Grey",
+              "color": "#9CA3AF"
+            }
+          ]
+        },
+        {
+          "name": {
+            "en": "Battery",
+            "zh": "电池"
+          },
+          "values": [
+            {
+              "name": "2000mAh"
+            },
+            {
+              "name": "4000mAh"
+            }
+          ]
+        }
+      ],
+      "description": {
+        "en": "Our handheld vacuum cleaners are designed for maximum convenience without compromising on power. Featuring a high-speed brushless motor, washable HEPA filter, and USB-C fast charging, they deliver reliable performance for every quick clean-up task.\n\nWhether you are tidying the car interior, cleaning pet hair from sofas, or handling daily kitchen messes, the compact yet powerful design ensures thorough suction. The wet & dry capability handles spills and debris alike, making it the perfect companion for home, office, and travel.\n\nAs an OEM/ODM manufacturer, we support custom branding, colors, and packaging to match your market requirements. MOQ starts at 500 units with a 25-35 day production lead time.",
+        "zh": "我们的手持吸尘器以最大化便利性而不牺牲吸力为设计理念。搭载高速无刷电机、可水洗HEPA滤网和USB-C快充，为每次快速清洁提供可靠性能。\n\n无论是清理汽车内饰、沙发上的宠物毛发，还是处理日常厨房污渍，紧凑而强大的设计确保彻底吸尘。干湿两用能力可同时处理液体泼洒和碎屑，是家庭、办公室和旅行的完美伴侣。\n\n作为OEM/ODM制造商，我们支持定制品牌、颜色和包装以匹配您的市场需求。最小起订量500台，大货交期25-35天。",
+        "ar": "Our handheld vacuum cleaners are designed for maximum convenience without compromising on power. Featuring a high-speed brushless motor, washable HEPA filter, and USB-C fast charging, they deliver reliable performance for every quick clean-up task.\n\nWhether you are tidying the car interior, cleaning pet hair from sofas, or handling daily kitchen messes, the compact yet powerful design ensures thorough suction. The wet & dry capability handles spills and debris alike, making it the perfect companion for home, office, and travel.\n\nAs an OEM/ODM manufacturer, we support custom branding, colors, and packaging to match your market requirements. MOQ starts at 500 units with a 25-35 day production lead time.",
+        "es": "Our handheld vacuum cleaners are designed for maximum convenience without compromising on power. Featuring a high-speed brushless motor, washable HEPA filter, and USB-C fast charging, they deliver reliable performance for every quick clean-up task.\n\nWhether you are tidying the car interior, cleaning pet hair from sofas, or handling daily kitchen messes, the compact yet powerful design ensures thorough suction. The wet & dry capability handles spills and debris alike, making it the perfect companion for home, office, and travel.\n\nAs an OEM/ODM manufacturer, we support custom branding, colors, and packaging to match your market requirements. MOQ starts at 500 units with a 25-35 day production lead time.",
+        "fr": "Our handheld vacuum cleaners are designed for maximum convenience without compromising on power. Featuring a high-speed brushless motor, washable HEPA filter, and USB-C fast charging, they deliver reliable performance for every quick clean-up task.\n\nWhether you are tidying the car interior, cleaning pet hair from sofas, or handling daily kitchen messes, the compact yet powerful design ensures thorough suction. The wet & dry capability handles spills and debris alike, making it the perfect companion for home, office, and travel.\n\nAs an OEM/ODM manufacturer, we support custom branding, colors, and packaging to match your market requirements. MOQ starts at 500 units with a 25-35 day production lead time.",
+        "id": "Our handheld vacuum cleaners are designed for maximum convenience without compromising on power. Featuring a high-speed brushless motor, washable HEPA filter, and USB-C fast charging, they deliver reliable performance for every quick clean-up task.\n\nWhether you are tidying the car interior, cleaning pet hair from sofas, or handling daily kitchen messes, the compact yet powerful design ensures thorough suction. The wet & dry capability handles spills and debris alike, making it the perfect companion for home, office, and travel.\n\nAs an OEM/ODM manufacturer, we support custom branding, colors, and packaging to match your market requirements. MOQ starts at 500 units with a 25-35 day production lead time.",
+        "ru": "Our handheld vacuum cleaners are designed for maximum convenience without compromising on power. Featuring a high-speed brushless motor, washable HEPA filter, and USB-C fast charging, they deliver reliable performance for every quick clean-up task.\n\nWhether you are tidying the car interior, cleaning pet hair from sofas, or handling daily kitchen messes, the compact yet powerful design ensures thorough suction. The wet & dry capability handles spills and debris alike, making it the perfect companion for home, office, and travel.\n\nAs an OEM/ODM manufacturer, we support custom branding, colors, and packaging to match your market requirements. MOQ starts at 500 units with a 25-35 day production lead time.",
+        "th": "Our handheld vacuum cleaners are designed for maximum convenience without compromising on power. Featuring a high-speed brushless motor, washable HEPA filter, and USB-C fast charging, they deliver reliable performance for every quick clean-up task.\n\nWhether you are tidying the car interior, cleaning pet hair from sofas, or handling daily kitchen messes, the compact yet powerful design ensures thorough suction. The wet & dry capability handles spills and debris alike, making it the perfect companion for home, office, and travel.\n\nAs an OEM/ODM manufacturer, we support custom branding, colors, and packaging to match your market requirements. MOQ starts at 500 units with a 25-35 day production lead time.",
+        "vi": "Our handheld vacuum cleaners are designed for maximum convenience without compromising on power. Featuring a high-speed brushless motor, washable HEPA filter, and USB-C fast charging, they deliver reliable performance for every quick clean-up task.\n\nWhether you are tidying the car interior, cleaning pet hair from sofas, or handling daily kitchen messes, the compact yet powerful design ensures thorough suction. The wet & dry capability handles spills and debris alike, making it the perfect companion for home, office, and travel.\n\nAs an OEM/ODM manufacturer, we support custom branding, colors, and packaging to match your market requirements. MOQ starts at 500 units with a 25-35 day production lead time."
+      },
+      "supplier_rating": "4.8",
+      "response_time": "≤ 2h",
+      "transactions": "US $100K+",
+      "years": "10+",
+      "ship_from": {
+        "en": "Ningbo, China",
+        "zh": "中国宁波"
+      },
+      "sample": {
+        "enabled": true,
+        "qty": 5,
+        "note": "Sample available, lead 7-14 days"
+      },
+      "category_name": {
+        "en": "Handheld Vacuum Cleaner",
+        "zh": "手持无线吸尘器",
+        "ar": "مكنسة يدوية",
+        "es": "Aspiradora de Mano",
+        "fr": "Aspirateur Portable",
+        "id": "Pembersih Vakum Tangan",
+        "ru": "Ручной пылесос",
+        "th": "เครื่องดูดฝุ่นมือถือ",
+        "vi": "May hut bui cam tay"
+      },
+      "_schema_reviews": [
+        {
+          "@type": "Review",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Margaret Chen",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Toronto, Canada"
+            }
+          },
+          "datePublished": "2025-11-14",
+          "reviewBody": "I was skeptical ordering a vacuum from China but the build quality surprised me completely. The suction is powerful for its size, and it lasts 30+ minutes on a single charge. Attached are some photos of it cleaning our hardwood floors and the pet hair on our sofa.",
+          "name": "Best cordless vacuum I have ever owned",
+          "image": [
+            "https://www.hkdmj.net/assets/images/products/handheld-vacuum/hv-1.jpg",
+            "https://www.hkdmj.net/assets/images/products/handheld-vacuum/hv-2.jpg"
+          ]
+        },
+        {
+          "@type": "Review",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "James Whitfield",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Birmingham, UK"
+            }
+          },
+          "datePublished": "2025-09-02",
+          "reviewBody": "As a small retailer, finding a supplier willing to do small batches was tough. Damaijia accepted our 200-unit order with no hassle. The vacuum itself is sleek and works great on both carpet and hard floors. The 3 included attachments cover everything we need.",
+          "name": "Perfect for our apartment — and the MOQ was just 200 units",
+          "image": [
+            "https://www.hkdmj.net/assets/images/products/handheld-vacuum/hv-3.jpg",
+            "https://www.hkdmj.net/assets/images/products/handheld-vacuum/hv-4.jpg"
+          ]
+        },
+        {
+          "@type": "Review",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "4",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Sophia Reyes",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Barcelona, Spain"
+            }
+          },
+          "datePublished": "2025-07-19",
+          "reviewBody": "Ordered 300 units for our retail chain. The product quality is consistent across the batch — no complaints from our customers so far. Shipping took about 12 days to Valencia port. One suggestion: include a wall-mount bracket in the package.",
+          "name": "Great value, fast shipping to EU",
+          "image": [
+            "https://www.hkdmj.net/assets/images/products/handheld-vacuum/hv-5.jpg",
+            "https://www.hkdmj.net/assets/images/products/handheld-vacuum/hv-6.jpg"
+          ]
+        }
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Margaret Chen",
+      "location": "Toronto, Canada",
+      "rating": 5,
+      "date": "2025-11-14",
+      "title": "Best cordless vacuum I have ever owned",
+      "body": "I was skeptical ordering a vacuum from China but the build quality surprised me completely. The suction is powerful for its size, and it lasts 30+ minutes on a single charge. Attached are some photos of it cleaning our hardwood floors and the pet hair on our sofa.",
+      "photoUrls": [
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum/hv-1.jpg",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum/hv-2.jpg"
+      ]
     },
     {
-     "name": {
-      "en": "Battery",
-      "zh": "电池"
-     },
-     "values": [
-      {
-       "name": "2000mAh"
-      },
-      {
-       "name": "4000mAh"
-      }
-     ]
+      "name": "James Whitfield",
+      "location": "Birmingham, UK",
+      "rating": 5,
+      "date": "2025-09-02",
+      "title": "Perfect for our apartment — and the MOQ was just 200 units",
+      "body": "As a small retailer, finding a supplier willing to do small batches was tough. Damaijia accepted our 200-unit order with no hassle. The vacuum itself is sleek and works great on both carpet and hard floors. The 3 included attachments cover everything we need.",
+      "photoUrls": [
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum/hv-3.jpg",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum/hv-4.jpg"
+      ]
+    },
+    {
+      "name": "Sophia Reyes",
+      "location": "Barcelona, Spain",
+      "rating": 4,
+      "date": "2025-07-19",
+      "title": "Great value, fast shipping to EU",
+      "body": "Ordered 300 units for our retail chain. The product quality is consistent across the batch — no complaints from our customers so far. Shipping took about 12 days to Valencia port. One suggestion: include a wall-mount bracket in the package.",
+      "photoUrls": [
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum/hv-5.jpg",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum/hv-6.jpg"
+      ]
     }
-   ],
-   "description": {
-    "en": "Our handheld vacuum cleaners are designed for maximum convenience without compromising on power. Featuring a high-speed brushless motor, washable HEPA filter, and USB-C fast charging, they deliver reliable performance for every quick clean-up task.\n\nWhether you are tidying the car interior, cleaning pet hair from sofas, or handling daily kitchen messes, the compact yet powerful design ensures thorough suction. The wet & dry capability handles spills and debris alike, making it the perfect companion for home, office, and travel.\n\nAs an OEM/ODM manufacturer, we support custom branding, colors, and packaging to match your market requirements. MOQ starts at 500 units with a 25-35 day production lead time.",
-    "zh": "我们的手持吸尘器以最大化便利性而不牺牲吸力为设计理念。搭载高速无刷电机、可水洗HEPA滤网和USB-C快充，为每次快速清洁提供可靠性能。\n\n无论是清理汽车内饰、沙发上的宠物毛发，还是处理日常厨房污渍，紧凑而强大的设计确保彻底吸尘。干湿两用能力可同时处理液体泼洒和碎屑，是家庭、办公室和旅行的完美伴侣。\n\n作为OEM/ODM制造商，我们支持定制品牌、颜色和包装以匹配您的市场需求。最小起订量500台，大货交期25-35天。",
-    "ar": "Our handheld vacuum cleaners are designed for maximum convenience without compromising on power. Featuring a high-speed brushless motor, washable HEPA filter, and USB-C fast charging, they deliver reliable performance for every quick clean-up task.\n\nWhether you are tidying the car interior, cleaning pet hair from sofas, or handling daily kitchen messes, the compact yet powerful design ensures thorough suction. The wet & dry capability handles spills and debris alike, making it the perfect companion for home, office, and travel.\n\nAs an OEM/ODM manufacturer, we support custom branding, colors, and packaging to match your market requirements. MOQ starts at 500 units with a 25-35 day production lead time.",
-    "es": "Our handheld vacuum cleaners are designed for maximum convenience without compromising on power. Featuring a high-speed brushless motor, washable HEPA filter, and USB-C fast charging, they deliver reliable performance for every quick clean-up task.\n\nWhether you are tidying the car interior, cleaning pet hair from sofas, or handling daily kitchen messes, the compact yet powerful design ensures thorough suction. The wet & dry capability handles spills and debris alike, making it the perfect companion for home, office, and travel.\n\nAs an OEM/ODM manufacturer, we support custom branding, colors, and packaging to match your market requirements. MOQ starts at 500 units with a 25-35 day production lead time.",
-    "fr": "Our handheld vacuum cleaners are designed for maximum convenience without compromising on power. Featuring a high-speed brushless motor, washable HEPA filter, and USB-C fast charging, they deliver reliable performance for every quick clean-up task.\n\nWhether you are tidying the car interior, cleaning pet hair from sofas, or handling daily kitchen messes, the compact yet powerful design ensures thorough suction. The wet & dry capability handles spills and debris alike, making it the perfect companion for home, office, and travel.\n\nAs an OEM/ODM manufacturer, we support custom branding, colors, and packaging to match your market requirements. MOQ starts at 500 units with a 25-35 day production lead time.",
-    "id": "Our handheld vacuum cleaners are designed for maximum convenience without compromising on power. Featuring a high-speed brushless motor, washable HEPA filter, and USB-C fast charging, they deliver reliable performance for every quick clean-up task.\n\nWhether you are tidying the car interior, cleaning pet hair from sofas, or handling daily kitchen messes, the compact yet powerful design ensures thorough suction. The wet & dry capability handles spills and debris alike, making it the perfect companion for home, office, and travel.\n\nAs an OEM/ODM manufacturer, we support custom branding, colors, and packaging to match your market requirements. MOQ starts at 500 units with a 25-35 day production lead time.",
-    "ru": "Our handheld vacuum cleaners are designed for maximum convenience without compromising on power. Featuring a high-speed brushless motor, washable HEPA filter, and USB-C fast charging, they deliver reliable performance for every quick clean-up task.\n\nWhether you are tidying the car interior, cleaning pet hair from sofas, or handling daily kitchen messes, the compact yet powerful design ensures thorough suction. The wet & dry capability handles spills and debris alike, making it the perfect companion for home, office, and travel.\n\nAs an OEM/ODM manufacturer, we support custom branding, colors, and packaging to match your market requirements. MOQ starts at 500 units with a 25-35 day production lead time.",
-    "th": "Our handheld vacuum cleaners are designed for maximum convenience without compromising on power. Featuring a high-speed brushless motor, washable HEPA filter, and USB-C fast charging, they deliver reliable performance for every quick clean-up task.\n\nWhether you are tidying the car interior, cleaning pet hair from sofas, or handling daily kitchen messes, the compact yet powerful design ensures thorough suction. The wet & dry capability handles spills and debris alike, making it the perfect companion for home, office, and travel.\n\nAs an OEM/ODM manufacturer, we support custom branding, colors, and packaging to match your market requirements. MOQ starts at 500 units with a 25-35 day production lead time.",
-    "vi": "Our handheld vacuum cleaners are designed for maximum convenience without compromising on power. Featuring a high-speed brushless motor, washable HEPA filter, and USB-C fast charging, they deliver reliable performance for every quick clean-up task.\n\nWhether you are tidying the car interior, cleaning pet hair from sofas, or handling daily kitchen messes, the compact yet powerful design ensures thorough suction. The wet & dry capability handles spills and debris alike, making it the perfect companion for home, office, and travel.\n\nAs an OEM/ODM manufacturer, we support custom branding, colors, and packaging to match your market requirements. MOQ starts at 500 units with a 25-35 day production lead time."
-   },
-   "supplier_rating": "4.8",
-   "response_time": "≤ 2h",
-   "transactions": "US $100K+",
-   "years": "10+",
-   "ship_from": {
-    "en": "Ningbo, China",
-    "zh": "中国宁波"
-   },
-   "sample": {
-    "enabled": true,
-    "qty": 5,
-    "note": "Sample available, lead 7-14 days"
-   },
-   "category_name": {
-    "en": "Handheld Vacuum Cleaner",
-    "zh": "手持无线吸尘器",
-    "ar": "مكنسة يدوية",
-    "es": "Aspiradora de Mano",
-    "fr": "Aspirateur Portable",
-    "id": "Pembersih Vakum Tangan",
-    "ru": "Ручной пылесос",
-    "th": "เครื่องดูดฝุ่นมือถือ",
-    "vi": "May hut bui cam tay"
-   }
-  }
- ]
+  ],
+  "_schema_reviews": [
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Margaret Chen",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Toronto, Canada"
+        }
+      },
+      "datePublished": "2025-11-14",
+      "reviewBody": "I was skeptical ordering a vacuum from China but the build quality surprised me completely. The suction is powerful for its size, and it lasts 30+ minutes on a single charge. Attached are some photos of it cleaning our hardwood floors and the pet hair on our sofa.",
+      "name": "Best cordless vacuum I have ever owned",
+      "image": [
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum/hv-1.jpg",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum/hv-2.jpg"
+      ]
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "James Whitfield",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Birmingham, UK"
+        }
+      },
+      "datePublished": "2025-09-02",
+      "reviewBody": "As a small retailer, finding a supplier willing to do small batches was tough. Damaijia accepted our 200-unit order with no hassle. The vacuum itself is sleek and works great on both carpet and hard floors. The 3 included attachments cover everything we need.",
+      "name": "Perfect for our apartment — and the MOQ was just 200 units",
+      "image": [
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum/hv-3.jpg",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum/hv-4.jpg"
+      ]
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "4",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Sophia Reyes",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Barcelona, Spain"
+        }
+      },
+      "datePublished": "2025-07-19",
+      "reviewBody": "Ordered 300 units for our retail chain. The product quality is consistent across the batch — no complaints from our customers so far. Shipping took about 12 days to Valencia port. One suggestion: include a wall-mount bracket in the package.",
+      "name": "Great value, fast shipping to EU",
+      "image": [
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum/hv-5.jpg",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum/hv-6.jpg"
+      ]
+    }
+  ]
 }
