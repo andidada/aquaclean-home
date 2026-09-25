@@ -1090,7 +1090,8 @@ var AQC_HOME_LOADER_FIX = `/**
     tabsDiv.innerHTML =
       '<button id="tab-product" class="btn btn-primary" style="flex:1;border-radius:6px;font-size:13px;padding:10px 6px;background:#2563EB;color:#fff;">📦 产品</button>' +
       '<button id="tab-home" class="btn btn-outline" style="flex:1;border-radius:6px;font-size:13px;padding:10px 6px;">🏠 首页</button>' +
-      '<button id="tab-category" class="btn btn-outline" style="flex:1;border-radius:6px;font-size:13px;padding:10px 6px;">📚 类目页</button>';
+      '<button id="tab-category" class="btn btn-outline" style="flex:1;border-radius:6px;font-size:13px;padding:10px 6px;">📚 类目页</button>'
+      + '<button id="tab-about" class="btn btn-outline" style="flex:1;border-radius:6px;font-size:13px;padding:10px 6px;">ℹ️ 关于</button>';
     side.appendChild(tabsDiv);
 
     // Status
@@ -1177,6 +1178,33 @@ var AQC_HOME_LOADER_FIX = `/**
       side.appendChild(statusDiv);
       // Auto-load categories.json
       setTimeout(function(){ loadCategoryPage(); }, 50);
+    };
+
+    $('tab-about').onclick = function() {
+      activeTab = 'about';
+      $('tab-about').className = 'btn btn-primary';
+      $('tab-product').className = 'btn btn-outline';
+      $('tab-home').className = 'btn btn-outline';
+      $('tab-category').className = 'btn btn-outline';
+      $('tab-about').style.background = '#2563EB';
+      $('tab-about').style.color = '#fff';
+      $('tab-product').style.background = '';
+      $('tab-product').style.color = '';
+      $('tab-home').style.background = '';
+      $('tab-home').style.color = '';
+      $('tab-category').style.background = '';
+      $('tab-category').style.color = '';
+      var hrs = qsa('.admin-side hr');
+      if (hrs.length) {
+        var lastHr = hrs[hrs.length-1];
+        while (lastHr.nextSibling) side.removeChild(lastHr.nextSibling);
+        side.removeChild(lastHr);
+      }
+      var hr = document.createElement('hr');
+      side.appendChild(hr);
+      buildAboutControls(side);
+      side.appendChild(statusDiv);
+      setTimeout(function(){ loadAboutPage(); }, 50);
     };
   }
 
@@ -1337,6 +1365,189 @@ var AQC_HOME_LOADER_FIX = `/**
       .catch(function(err) { setStatus('❌ 部署失败: ' + err.message); });
   }
 
+function buildAboutControls(side) {
+    // Language selector (about page only in en / zh)
+    var langDiv = document.createElement('div');
+    langDiv.className = 'admin-field';
+    langDiv.innerHTML = '<label>语言</label><select id="aboutLangSel"></select>';
+    side.appendChild(langDiv);
+    var langSel = $('aboutLangSel');
+    var langs = [['en','English'],['zh','中文']];
+    langSel.innerHTML = langs.map(function(l){ return '<option value="'+l[0]+'">'+l[1]+'</option>'; }).join('');
+    if (currentLang) langSel.value = currentLang;
+    langSel.onchange = function() { loadAboutPage(); };
+    // Load button
+    var loadBtn = document.createElement('button');
+    loadBtn.className = 'btn btn-primary';
+    loadBtn.style.cssText = 'width:100%;margin-bottom:8px;';
+    loadBtn.textContent = '📂 加载关于页数据';
+    loadBtn.onclick = function() { loadAboutPage(); };
+    side.appendChild(loadBtn);
+    // Hint
+    var hint = document.createElement('div');
+    hint.style.cssText = 'font-size:12px;color:#64748B;margin-top:8px;line-height:1.5;';
+    hint.innerHTML = '编辑关于页全部内容：Hero、故事、能力、工厂图集、里程碑、CTA。保存即部署到 GitHub Pages（1-2 分钟生效）。';
+    side.appendChild(hint);
+  }
+
+  function loadAboutPage() {
+    var lang = $('aboutLangSel') ? $('aboutLangSel').value : (currentLang || 'en');
+    currentLang = lang;
+    setStatus('⏳ 正在从线上拉取 about/' + lang + '.json ...');
+    var x = new XMLHttpRequest();
+    x.open('GET', '/data/pages/about/' + lang + '.json?v=' + Date.now(), true);
+    x.onload = function() {
+      if (x.status === 200) {
+        try {
+          var d = JSON.parse(x.responseText);
+          renderAboutForm(d, lang);
+          setStatus('🌐 已加载关于页（' + lang + '）');
+        } catch(e) { setStatus('❌ JSON 解析失败：' + e.message); }
+      } else {
+        setStatus('❌ 找不到 about/' + lang + '.json（HTTP ' + x.status + '）');
+      }
+    };
+    x.onerror = function() { setStatus('❌ 网络错误'); };
+    x.send();
+  }
+
+  function renderAboutForm(d, lang) {
+    var f = $('formArea');
+    if (!f) return;
+    f.innerHTML = '';
+    window._aboutData = d || {};
+    window._aboutLang = lang;
+    var hero = (d && d.hero) || {};
+    var story = (d && d.story) || {};
+    var sp = story.paragraphs || ['',''];
+    var sb = story.bullets || ['','','',''];
+    var cap = (d && d.capabilities) || {};
+    var capItems = cap.items || [];
+    var gal = (d && d.gallery) || {};
+    var galItems = gal.items || [];
+    var mil = (d && d.milestones) || {};
+    var milItems = mil.items || [];
+    var cta = (d && d.cta) || {};
+
+    f.appendChild(makeSec('① Hero 首屏', makeGrid(
+      fieldHTML('徽章文字', 'a-hero-badge', 'text', hero.badge || '') +
+      fieldHTML('主标题（可含 <span>高亮</span>）', 'a-hero-h1', 'text', hero.h1 || '') +
+      fieldHTML_note('首屏介绍语（支持 HTML）', 'a-hero-intro', 'textarea', hero.intro || '') +
+      fieldHTML('主按钮文字', 'a-hero-btn1-text', 'text', hero.btn_primary_text || '') +
+      fieldHTML('主按钮链接', 'a-hero-btn1-href', 'text', hero.btn_primary_href || '') +
+      fieldHTML('次按钮文字', 'a-hero-btn2-text', 'text', hero.btn_outline_text || '') +
+      fieldHTML('次按钮链接', 'a-hero-btn2-href', 'text', hero.btn_outline_href || '') +
+      fieldHTML('背景图 URL', 'a-hero-bg', 'text', hero.bg_image || '')
+    )));
+
+    f.appendChild(makeSec('② 故事区块', makeGrid(
+      fieldHTML('小标签', 'a-story-label', 'text', story.label || '') +
+      fieldHTML('标题', 'a-story-h2', 'text', story.h2 || '') +
+      fieldHTML_note('正文段落 1', 'a-story-p0', 'textarea', sp[0] || '') +
+      fieldHTML_note('正文段落 2', 'a-story-p1', 'textarea', sp[1] || '') +
+      fieldHTML('要点 1', 'a-story-b0', 'text', sb[0] || '') +
+      fieldHTML('要点 2', 'a-story-b1', 'text', sb[1] || '') +
+      fieldHTML('要点 3', 'a-story-b2', 'text', sb[2] || '') +
+      fieldHTML('要点 4', 'a-story-b3', 'text', sb[3] || '') +
+      fieldHTML('配图 URL', 'a-story-img', 'text', story.image || '') +
+      fieldHTML('配图 alt', 'a-story-img-alt', 'text', story.image_alt || '')
+    )));
+
+    var capHtml = fieldHTML('小标签', 'a-cap-label', 'text', cap.label || '') +
+      fieldHTML('标题', 'a-cap-title', 'text', cap.title || '') +
+      fieldHTML_note('副标题', 'a-cap-sub', 'textarea', cap.sub || '');
+    for (var i = 0; i < 4; i++) {
+      var ci = capItems[i] || {};
+      capHtml += '<div style="border-top:1px dashed #E2E8F0;margin:10px 0;padding-top:10px;">' +
+        '<div style="font-size:12px;color:#94A3B8;margin-bottom:6px;">能力 ' + (i+1) + '</div>' +
+        fieldHTML('图标(emoji)', 'a-cap-ico-' + i, 'text', ci.icon || '') +
+        fieldHTML('标题', 'a-cap-h4-' + i, 'text', ci.h4 || '') +
+        fieldHTML('描述', 'a-cap-p-' + i, 'textarea', ci.p || '') + '</div>';
+    }
+    f.appendChild(makeSec('③ 能力区块', makeGrid(capHtml)));
+
+    var galHtml = fieldHTML('小标签', 'a-gal-label', 'text', gal.label || '') +
+      fieldHTML('标题', 'a-gal-title', 'text', gal.title || '') +
+      fieldHTML_note('副标题', 'a-gal-sub', 'textarea', gal.sub || '');
+    for (var j = 0; j < 6; j++) {
+      var gi = galItems[j] || {};
+      galHtml += '<div style="border-top:1px dashed #E2E8F0;margin:10px 0;padding-top:10px;">' +
+        '<div style="font-size:12px;color:#94A3B8;margin-bottom:6px;">图集 ' + (j+1) + '</div>' +
+        fieldHTML('图片 URL', 'a-gal-img-' + j, 'text', gi.img || '') +
+        fieldHTML('图片 alt', 'a-gal-alt-' + j, 'text', gi.alt || '') +
+        fieldHTML('标题', 'a-gal-h4-' + j, 'text', gi.h4 || '') +
+        fieldHTML('描述', 'a-gal-p-' + j, 'textarea', gi.p || '') + '</div>';
+    }
+    f.appendChild(makeSec('④ 工厂图集', makeGrid(galHtml)));
+
+    var milHtml = fieldHTML('小标签', 'a-mil-label', 'text', mil.label || '') +
+      fieldHTML('标题', 'a-mil-title', 'text', mil.title || '');
+    for (var k = 0; k < 5; k++) {
+      var mi = milItems[k] || {};
+      milHtml += '<div style="border-top:1px dashed #E2E8F0;margin:10px 0;padding-top:10px;">' +
+        '<div style="font-size:12px;color:#94A3B8;margin-bottom:6px;">里程碑 ' + (k+1) + '</div>' +
+        fieldHTML('年份', 'a-mil-year-' + k, 'text', mi.year || '') +
+        fieldHTML('标题', 'a-mil-h4-' + k, 'text', mi.h4 || '') +
+        fieldHTML('描述', 'a-mil-p-' + k, 'textarea', mi.p || '') + '</div>';
+    }
+    f.appendChild(makeSec('⑤ 里程碑', makeGrid(milHtml)));
+
+    f.appendChild(makeSec('⑥ CTA 行动号召', makeGrid(
+      fieldHTML('标题', 'a-cta-h2', 'text', cta.h2 || '') +
+      fieldHTML_note('描述', 'a-cta-p', 'textarea', cta.p || '') +
+      fieldHTML('按钮文字', 'a-cta-btn-text', 'text', cta.btn_text || '') +
+      fieldHTML('按钮链接', 'a-cta-btn-href', 'text', cta.btn_href || '')
+    )));
+
+    var saveWrap = document.createElement('div');
+    saveWrap.style.cssText = 'margin-bottom:16px;';
+    saveWrap.innerHTML = '<button class="btn btn-primary" id="saveAboutBtn" style="width:100%;">💾 保存并部署</button>';
+    f.insertBefore(saveWrap, f.firstChild);
+    $('saveAboutBtn').onclick = function() { saveAboutPage(); };
+  }
+
+  function saveAboutPage() {
+    var lang = window._aboutLang || ($('aboutLangSel') ? $('aboutLangSel').value : 'en');
+    var d = window._aboutData || {};
+    d.hero = {
+      badge: val('a-hero-badge'), h1: val('a-hero-h1'), intro: val('a-hero-intro'),
+      btn_primary_text: val('a-hero-btn1-text'), btn_primary_href: val('a-hero-btn1-href'),
+      btn_outline_text: val('a-hero-btn2-text'), btn_outline_href: val('a-hero-btn2-href'),
+      bg_image: val('a-hero-bg')
+    };
+    d.story = {
+      label: val('a-story-label'), h2: val('a-story-h2'),
+      paragraphs: [val('a-story-p0'), val('a-story-p1')],
+      bullets: [val('a-story-b0'), val('a-story-b1'), val('a-story-b2'), val('a-story-b3')],
+      image: val('a-story-img'), image_alt: val('a-story-img-alt')
+    };
+    d.capabilities = { label: val('a-cap-label'), title: val('a-cap-title'), sub: val('a-cap-sub'), items: [] };
+    for (var i = 0; i < 4; i++) {
+      d.capabilities.items.push({ icon: val('a-cap-ico-' + i), h4: val('a-cap-h4-' + i), p: val('a-cap-p-' + i) });
+    }
+    d.gallery = { label: val('a-gal-label'), title: val('a-gal-title'), sub: val('a-gal-sub'), items: [] };
+    for (var j = 0; j < 6; j++) {
+      d.gallery.items.push({ img: val('a-gal-img-' + j), alt: val('a-gal-alt-' + j), h4: val('a-gal-h4-' + j), p: val('a-gal-p-' + j) });
+    }
+    d.milestones = { label: val('a-mil-label'), title: val('a-mil-title'), items: [] };
+    for (var k = 0; k < 5; k++) {
+      d.milestones.items.push({ year: val('a-mil-year-' + k), h4: val('a-mil-h4-' + k), p: val('a-mil-p-' + k) });
+    }
+    d.cta = { h2: val('a-cta-h2'), p: val('a-cta-p'), btn_text: val('a-cta-btn-text'), btn_href: val('a-cta-btn-href') };
+    var jsonStr = JSON.stringify(d, null, 2);
+    localStorage.setItem('aqc_about_draft_' + lang, jsonStr);
+    if (!getToken()) {
+      if (!confirm('需要部署到 GitHub Pages 吗？\n确定 = 设置 Token 并部署\n取消 = 仅存草稿')) return;
+      if (!promptForToken()) return;
+    } else {
+      if (!confirm('💾 关于页数据已更新。\n\n是否立即部署到 GitHub Pages？\n确定 = 部署（1-2 分钟生效）\n取消 = 仅保存草稿')) return;
+    }
+    setStatus('🚀 部署中...');
+    ghCommit('data/pages/about/' + lang + '.json', jsonStr, 'admin: update about page (' + lang + ')')
+      .then(function(sha) { setStatus('✅ 已部署! commit ' + sha.substring(0,8)); })
+      .catch(function(err) { setStatus('❌ 部署失败: ' + err.message); });
+  }
+
 function buildProductControls(side) {
     var catDiv = document.createElement('div');
     catDiv.className = 'admin-field';
@@ -1444,7 +1655,10 @@ function buildProductControls(side) {
     renderHomeEditor:   renderHomeEditor,
     saveProduct:       saveProduct,
     exportProduct:     exportProduct,
-    collectProduct:    collectProduct
+    collectProduct:    collectProduct,
+    loadAboutPage:     loadAboutPage,
+    saveAboutPage:     saveAboutPage,
+    renderAboutForm:   renderAboutForm
   };
 
   // ── Init ───────────────────────────────────────────────────────

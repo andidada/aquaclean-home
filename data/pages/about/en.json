@@ -1,0 +1,69 @@
+{
+  "hero": {
+    "badge": "🏭 Since 2015 · Ningbo, China",
+    "h1": "A Trusted <span>Cleaning Appliance</span> Manufacturer",
+    "intro": "For over a decade, AquaClean has designed and built smart home cleaning appliances for brands in 50+ countries. From OEM/ODM to certified quality control, we help businesses bring reliable products to market — fast.",
+    "btn_primary_text": "📩 Get a Free Quote",
+    "btn_primary_href": "index.html#contact",
+    "btn_outline_text": "Our Story",
+    "btn_outline_href": "#story",
+    "bg_image": "../assets/images/banners/banner-1.png"
+  },
+  "story": {
+    "label": "Our Story",
+    "h2": "Built on a Simple Mission",
+    "paragraphs": [
+      "Founded in 2015 in Ningbo, Zhejiang, AquaClean began with one goal: make professional-grade cleaning technology accessible to households everywhere. What started as a single handheld vacuum line has grown into a full portfolio of smart cleaning appliances.",
+      "Today, our 10,000 m² factory combines in-house R&D, automated assembly, and a strict three-stage quality system — delivering consistent, certifiable products at scale for partners worldwide."
+    ],
+    "bullets": [
+      "10,000 m² owned manufacturing facility in Ningbo",
+      "60+ engineers in R&D, firmware, and industrial design",
+      "3-stage quality control: IQC → IPQC → OQC",
+      "50+ countries served, 200+ active B2B partners"
+    ],
+    "image": "../assets/images/banners/banner-2.png",
+    "image_alt": "AquaClean user cleaning at home"
+  },
+  "capabilities": {
+    "label": "What We Do",
+    "title": "One-Stop Manufacturing Partner",
+    "sub": "From concept to container — we handle every step so you can launch your brand with confidence.",
+    "items": [
+      {"icon": "🏭", "h4": "Manufacturing", "p": "10,000 m² factory with a full production line under one roof — molding, assembly, and packaging."},
+      {"icon": "🔬", "h4": "R&D Team", "p": "60+ engineers developing custom firmware, molds, and product improvements every quarter."},
+      {"icon": "✅", "h4": "Quality System", "p": "3-stage inspection keeps our defect rate below 0.5%, backed by full test reports."},
+      {"icon": "🚚", "h4": "Global Logistics", "p": "FOB, CIF, and DDP shipping to every major market, with experienced freight forwarding."}
+    ]
+  },
+  "gallery": {
+    "label": "Inside AquaClean",
+    "title": "Factory, Labs & Product Lines",
+    "sub": "A look at where and how we build the appliances your customers love.",
+    "items": [
+      {"img": "../assets/images/banners/banner-3.png", "alt": "Modern living showroom", "h4": "Modern Showroom", "p": "We showcase the latest cleaning innovations to visiting partners from around the world."},
+      {"img": "../assets/images/banners/banner-4.png", "alt": "Steam technology lab", "h4": "Steam Technology Lab", "p": "High-temperature steam R&D for chemical-free, deep-cleaning performance."},
+      {"img": "../assets/images/banners/banner-6.png", "alt": "Automotive care line", "h4": "Automotive Care Line", "p": "Car vacuums and tire inflators engineered for the global auto aftermarket."},
+      {"img": "../assets/images/products/01-handheld-vacuum.png", "alt": "Handheld series", "h4": "Handheld Series", "p": "Cordless, lightweight, and powerful — our best-selling export category."},
+      {"img": "../assets/images/products/03-steam-cleaner.png", "alt": "Steam series", "h4": "Steam Series", "p": "Multi-surface steamers with full CE / CB / ETL certification support."},
+      {"img": "../assets/images/products/07-tire-inflator.png", "alt": "Automotive series", "h4": "Automotive Series", "p": "Portable inflators with digital gauges, auto-stop, and LED lighting."}
+    ]
+  },
+  "milestones": {
+    "label": "Our Journey",
+    "title": "Milestones",
+    "items": [
+      {"year": "2015", "h4": "Founded in Ningbo", "p": "Launched our first handheld vacuum line for export markets across Asia and Europe."},
+      {"year": "2018", "h4": "10,000 m² Factory", "p": "Expanded production capacity and added robot vacuum manufacturing to the line."},
+      {"year": "2021", "h4": "Global Certifications", "p": "Passed ETL & CB audits and entered the North American and EU markets."},
+      {"year": "2024", "h4": "200+ Partners", "p": "Reached 200+ active B2B partners across more than 50 countries worldwide."},
+      {"year": "2026", "h4": "Smart & Automotive", "p": "Launched window-cleaning robots and a full automotive care series."}
+    ]
+  },
+  "cta": {
+    "h2": "Ready to Build Your Brand With Us?",
+    "p": "Get a free quotation with FOB pricing, lead times, and custom branding options — no obligation.",
+    "btn_text": "📩 Get Your Free Quote Now",
+    "btn_href": "index.html#contact"
+  }
+}
