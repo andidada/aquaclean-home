@@ -1,0 +1,317 @@
+{
+  "category": "gt20-robot-vacuum",
+  "category_name": {
+    "en": "Robot Vacuum Cleaner",
+    "zh": "扫地机器人"
+  },
+  "products": [
+    {
+      "id": "gt20",
+      "name": {
+        "en": "GT20 Robot Vacuum & Mop",
+        "zh": "GT20 扫拖一体机器人"
+      },
+      "tagline": {
+        "en": "LiDAR Navigation · 5000Pa Suction · App & Voice Control",
+        "zh": "LDS 激光导航 · 5000Pa 吸力 · APP 与语音控制"
+      },
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/gt20-robot-vacuum/01-main.jpg",
+        "https://www.hkdmj.net/assets/images/products/gt20-robot-vacuum/02.jpg",
+        "https://www.hkdmj.net/assets/images/products/gt20-robot-vacuum/03.jpg",
+        "https://www.hkdmj.net/assets/images/products/gt20-robot-vacuum/04.jpg",
+        "https://www.hkdmj.net/assets/images/products/gt20-robot-vacuum/05.jpg",
+        "https://www.hkdmj.net/assets/images/products/gt20-robot-vacuum/06.jpg"
+      ],
+      "video_url": "",
+      "moq": {
+        "value": 2,
+        "unit": "pieces"
+      },
+      "certifications": [],
+      "cert_note": {
+        "en": "Certification documents on file — available on request.",
+        "zh": "认证资料已备案，可按需提供。"
+      },
+      "highlights": [
+        {
+          "icon": "navigation",
+          "text": {
+            "en": "LDS SLAM Navigation with Smart Mapping",
+            "zh": "LDS SLAM 导航与智能建图"
+          }
+        },
+        {
+          "icon": "suction",
+          "text": {
+            "en": "5000Pa Suction Power",
+            "zh": "5000Pa 强吸力"
+          }
+        },
+        {
+          "icon": "app",
+          "text": {
+            "en": "App Control (Tuya) + Voice Control (Alexa / Google)",
+            "zh": "APP 控制（涂鸦）+ 语音控制（Alexa / Google）"
+          }
+        },
+        {
+          "icon": "battery",
+          "text": {
+            "en": "Auto Recharge · No-Go Zones & Virtual Walls",
+            "zh": "自动回充 · 禁区与虚拟墙"
+          }
+        }
+      ],
+      "specs": [
+        {
+          "label": {
+            "en": "Model",
+            "zh": "型号"
+          },
+          "value": "GT20"
+        },
+        {
+          "label": {
+            "en": "Navigation",
+            "zh": "导航方式"
+          },
+          "value": "LDS SLAM"
+        },
+        {
+          "label": {
+            "en": "Suction Power",
+            "zh": "吸力"
+          },
+          "value": "5000Pa"
+        },
+        {
+          "label": {
+            "en": "Runtime",
+            "zh": "续航时间"
+          },
+          "value": "120–150 min"
+        },
+        {
+          "label": {
+            "en": "Dustbin Capacity",
+            "zh": "尘盒容量"
+          },
+          "value": "220ml"
+        },
+        {
+          "label": {
+            "en": "Water Tank Capacity",
+            "zh": "水箱容量"
+          },
+          "value": "230ml"
+        },
+        {
+          "label": {
+            "en": "Charging Time",
+            "zh": "充电时间"
+          },
+          "value": "5–6 hours"
+        },
+        {
+          "label": {
+            "en": "Battery Type",
+            "zh": "电池类型"
+          },
+          "value": "Li-Ion Battery"
+        },
+        {
+          "label": {
+            "en": "Power",
+            "zh": "功率"
+          },
+          "value": "40W"
+        },
+        {
+          "label": {
+            "en": "Motor Type",
+            "zh": "电机类型"
+          },
+          "value": "Brushless Motor"
+        },
+        {
+          "label": {
+            "en": "Filter Type",
+            "zh": "滤网类型"
+          },
+          "value": "HEPA"
+        },
+        {
+          "label": {
+            "en": "Function",
+            "zh": "功能"
+          },
+          "value": "Wet & Dry Cleaning, App & Voice Control"
+        },
+        {
+          "label": {
+            "en": "Material",
+            "zh": "材质"
+          },
+          "value": "ABS"
+        },
+        {
+          "label": {
+            "en": "Warranty",
+            "zh": "质保"
+          },
+          "value": "1 Year"
+        }
+      ],
+      "quick_specs": [
+        {
+          "label": {
+            "en": "Navigation",
+            "zh": "导航"
+          },
+          "value": "LDS SLAM"
+        },
+        {
+          "label": {
+            "en": "Suction",
+            "zh": "吸力"
+          },
+          "value": "5000Pa"
+        },
+        {
+          "label": {
+            "en": "Runtime",
+            "zh": "续航"
+          },
+          "value": "120–150 min"
+        },
+        {
+          "label": {
+            "en": "Dustbin",
+            "zh": "尘盒"
+          },
+          "value": "220ml"
+        }
+      ],
+      "packaging": {
+        "unit": "Color Box",
+        "ctn_size": "35x40x16cm",
+        "ctn_qty": "—",
+        "gross_weight": "4.0kg"
+      },
+      "customization": {
+        "oem": true,
+        "odm": true,
+        "logo": null,
+        "color": true,
+        "package": null,
+        "sample_lead": "on request",
+        "production_lead": "on request"
+      },
+      "applications": {
+        "en": "Household, Office",
+        "zh": "家庭、办公室"
+      },
+      "price_indicator": {
+        "min": 81,
+        "max": 98,
+        "currency": "USD"
+      },
+      "price_ladder": [
+        {
+          "min": 2,
+          "max": 99,
+          "price": 98
+        },
+        {
+          "min": 100,
+          "max": 499,
+          "price": 95
+        },
+        {
+          "min": 500,
+          "max": 1999,
+          "price": 90
+        },
+        {
+          "min": 2000,
+          "max": null,
+          "price": 81
+        }
+      ],
+      "sku": [
+        {
+          "name": {
+            "en": "Voltage",
+            "zh": "电压"
+          },
+          "values": [
+            {
+              "name": "110-120 V"
+            },
+            {
+              "name": "220-240V"
+            }
+          ]
+        },
+        {
+          "name": {
+            "en": "Plug Type",
+            "zh": "插头"
+          },
+          "values": [
+            {
+              "name": "AU"
+            },
+            {
+              "name": "EU"
+            },
+            {
+              "name": "UK"
+            },
+            {
+              "name": "US"
+            }
+          ]
+        },
+        {
+          "name": {
+            "en": "Colour",
+            "zh": "颜色"
+          },
+          "values": [
+            {
+              "name": "Black"
+            }
+          ]
+        }
+      ],
+      "description": {
+        "en": "The GT20 is a 3-in-1 robot vacuum and mop with LDS SLAM navigation, 5000Pa suction and 120–150 minutes of runtime. It sweeps and mops with a 220ml dustbin and 230ml water tank, supports App control (Tuya) and voice control (Alexa / Google Assistant), and offers smart mapping, no-go zones and virtual walls, obstacle avoidance and auto recharge. OEM/ODM customisation available for colour, voltage and plug type. Certification documents on file.",
+        "zh": "GT20 是扫拖一体的三合一扫地机器人，采用 LDS SLAM 激光导航，吸力 5000Pa，续航 120–150 分钟。220ml 尘盒 + 230ml 水箱，支持 APP（涂鸦）与语音控制（Alexa / Google），具备智能建图、禁区与虚拟墙、越障避让、自动回充等功能。支持 OEM/ODM 定制颜色、电压与插头规格，认证资料已备案。"
+      },
+      "supplier_rating": "—",
+      "response_time": "—",
+      "transactions": "—",
+      "years": "—",
+      "ship_from": {
+        "en": "China",
+        "zh": "中国"
+      },
+      "sample": {
+        "enabled": true,
+        "qty": 1,
+        "note": {
+          "en": "Sample available (max 1 pc)",
+          "zh": "支持打样（最多 1 台）"
+        }
+      },
+      "category_name": {
+        "en": "Robot Vacuum Cleaner",
+        "zh": "扫地机器人"
+      }
+    }
+  ],
+  "reviews": [],
+  "_schema_reviews": []
+}

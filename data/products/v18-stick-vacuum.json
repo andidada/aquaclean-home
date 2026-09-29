@@ -1,0 +1,328 @@
+{
+  "category": "v18-stick-vacuum",
+  "category_name": {
+    "en": "Cordless Stick Vacuum Cleaner",
+    "zh": "无线立式吸尘器"
+  },
+  "products": [
+    {
+      "id": "gv18",
+      "name": {
+        "en": "V18 Cordless Stick Vacuum Cleaner",
+        "zh": "V18 无线立式吸尘器"
+      },
+      "tagline": {
+        "en": "400W Brushless Motor · 30kPa Suction · Wet & Dry",
+        "zh": "400W 无刷电机 · 30kPa 大吸力 · 干湿两用"
+      },
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/v18-stick-vacuum/01-main.jpg",
+        "https://www.hkdmj.net/assets/images/products/v18-stick-vacuum/02.jpg",
+        "https://www.hkdmj.net/assets/images/products/v18-stick-vacuum/03.jpg",
+        "https://www.hkdmj.net/assets/images/products/v18-stick-vacuum/04.jpg",
+        "https://www.hkdmj.net/assets/images/products/v18-stick-vacuum/05.jpg",
+        "https://www.hkdmj.net/assets/images/products/v18-stick-vacuum/06.jpg"
+      ],
+      "video_url": "",
+      "moq": {
+        "value": 2,
+        "unit": "pieces"
+      },
+      "certifications": [],
+      "cert_note": {
+        "en": "Certification documents on file — available on request.",
+        "zh": "认证资料已备案，可按需提供。"
+      },
+      "highlights": [
+        {
+          "icon": "power",
+          "text": {
+            "en": "400W Brushless Motor with 30kPa Suction",
+            "zh": "400W 无刷电机，30kPa 强吸力"
+          }
+        },
+        {
+          "icon": "suction",
+          "text": {
+            "en": "Wet & Dry Cleaning with 1.2L Dust Cup",
+            "zh": "干湿两用，1.2L 大尘杯"
+          }
+        },
+        {
+          "icon": "filter",
+          "text": {
+            "en": "HEPA Filtration · Noise ≤65dB",
+            "zh": "HEPA 过滤 · 噪音 ≤65dB"
+          }
+        },
+        {
+          "icon": "battery",
+          "text": {
+            "en": "Removable 2200mAh Battery · 20–65 min Runtime",
+            "zh": "可拆卸 2200mAh 电池 · 续航 20–65 分钟"
+          }
+        }
+      ],
+      "specs": [
+        {
+          "label": {
+            "en": "Model",
+            "zh": "型号"
+          },
+          "value": "GV18"
+        },
+        {
+          "label": {
+            "en": "Motor Power",
+            "zh": "电机功率"
+          },
+          "value": "400W"
+        },
+        {
+          "label": {
+            "en": "Suction Power",
+            "zh": "吸力"
+          },
+          "value": "30kPa"
+        },
+        {
+          "label": {
+            "en": "Air Power",
+            "zh": "气动功率"
+          },
+          "value": "210AW / 100AW / 60AW"
+        },
+        {
+          "label": {
+            "en": "Runtime",
+            "zh": "续航时间"
+          },
+          "value": "20–65 min"
+        },
+        {
+          "label": {
+            "en": "Charging Time",
+            "zh": "充电时间"
+          },
+          "value": "4–5 hours"
+        },
+        {
+          "label": {
+            "en": "Battery",
+            "zh": "电池"
+          },
+          "value": "2200mAh Lithium-Ion (removable)"
+        },
+        {
+          "label": {
+            "en": "Dust Cup Capacity",
+            "zh": "尘杯容量"
+          },
+          "value": "1.2L"
+        },
+        {
+          "label": {
+            "en": "Filter Type",
+            "zh": "滤网类型"
+          },
+          "value": "HEPA"
+        },
+        {
+          "label": {
+            "en": "Function",
+            "zh": "功能"
+          },
+          "value": "Wet & Dry"
+        },
+        {
+          "label": {
+            "en": "Noise",
+            "zh": "噪音"
+          },
+          "value": "≤65dB"
+        },
+        {
+          "label": {
+            "en": "Housing Material",
+            "zh": "外壳材质"
+          },
+          "value": "ABS"
+        },
+        {
+          "label": {
+            "en": "Net Weight",
+            "zh": "净重"
+          },
+          "value": "1–2 kg"
+        },
+        {
+          "label": {
+            "en": "Packaging Type",
+            "zh": "包装形式"
+          },
+          "value": "Color Box"
+        },
+        {
+          "label": {
+            "en": "Warranty",
+            "zh": "质保"
+          },
+          "value": "1 Year"
+        },
+        {
+          "label": {
+            "en": "After-sales",
+            "zh": "售后"
+          },
+          "value": "Free Spare Parts"
+        }
+      ],
+      "quick_specs": [
+        {
+          "label": {
+            "en": "Motor Power",
+            "zh": "电机功率"
+          },
+          "value": "400W"
+        },
+        {
+          "label": {
+            "en": "Suction",
+            "zh": "吸力"
+          },
+          "value": "30kPa"
+        },
+        {
+          "label": {
+            "en": "Dust Cup",
+            "zh": "尘杯"
+          },
+          "value": "1.2L"
+        },
+        {
+          "label": {
+            "en": "Runtime",
+            "zh": "续航"
+          },
+          "value": "20–65 min"
+        }
+      ],
+      "packaging": {
+        "unit": "Color Box",
+        "ctn_size": "45x34x21cm",
+        "ctn_qty": "—",
+        "gross_weight": "3.0kg"
+      },
+      "customization": {
+        "oem": true,
+        "odm": true,
+        "logo": null,
+        "color": true,
+        "package": null,
+        "sample_lead": "on request",
+        "production_lead": "on request"
+      },
+      "applications": {
+        "en": "Household, Carpet & Ceramic Surfaces",
+        "zh": "家庭、地毯与瓷砖地面"
+      },
+      "price_indicator": {
+        "min": 54,
+        "max": 64,
+        "currency": "USD"
+      },
+      "price_ladder": [
+        {
+          "min": 2,
+          "max": 199,
+          "price": 64
+        },
+        {
+          "min": 200,
+          "max": 999,
+          "price": 62
+        },
+        {
+          "min": 1000,
+          "max": 1999,
+          "price": 58
+        },
+        {
+          "min": 2000,
+          "max": null,
+          "price": 54
+        }
+      ],
+      "sku": [
+        {
+          "name": {
+            "en": "Voltage",
+            "zh": "电压"
+          },
+          "values": [
+            {
+              "name": "110-240V"
+            }
+          ]
+        },
+        {
+          "name": {
+            "en": "Plug Type",
+            "zh": "插头"
+          },
+          "values": [
+            {
+              "name": "AU"
+            },
+            {
+              "name": "EU"
+            },
+            {
+              "name": "UK"
+            },
+            {
+              "name": "US"
+            }
+          ]
+        },
+        {
+          "name": {
+            "en": "Colour",
+            "zh": "颜色"
+          },
+          "values": [
+            {
+              "name": "Purple"
+            }
+          ]
+        }
+      ],
+      "description": {
+        "en": "The GV18 is a 400W brushless cordless stick vacuum delivering 30kPa of suction in a lightweight body, with a removable 2200mAh battery that runs 20–65 minutes per charge. It handles wet and dry pick-up with a 1.2L dust cup and HEPA filtration, runs at ≤65dB, and features a smart touch LED display. Available as OEM/ODM with custom colour and plug type for your market. Certification documents are on file and available on request.",
+        "zh": "GV18 是一款 400W 无刷电机无线立式吸尘器，机身轻巧、吸力达 30kPa，配可拆卸 2200mAh 电池，单次充电续航 20–65 分钟。干湿两用，1.2L 尘杯配 HEPA 滤网，运行噪音 ≤65dB，带智能触控 LED 显示屏。支持 OEM/ODM 定制颜色与插头规格，认证资料已备案、可按需提供。"
+      },
+      "supplier_rating": "—",
+      "response_time": "—",
+      "transactions": "—",
+      "years": "—",
+      "ship_from": {
+        "en": "China",
+        "zh": "中国"
+      },
+      "sample": {
+        "enabled": true,
+        "qty": 1,
+        "note": {
+          "en": "Sample available (max 1 pc)",
+          "zh": "支持打样（最多 1 台）"
+        }
+      },
+      "category_name": {
+        "en": "Cordless Stick Vacuum Cleaner",
+        "zh": "无线立式吸尘器"
+      }
+    }
+  ],
+  "reviews": [],
+  "_schema_reviews": []
+}

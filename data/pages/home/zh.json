@@ -98,6 +98,48 @@
       "btn_text": "查看产品",
       "btn_href": "/zh/upright-steam-mop/",
       "btn_slug": "upright-steam-mop"
+    },
+    {
+      "id": "p10",
+      "name": "V18 无线立式吸尘器",
+      "slug": "v18-stick-vacuum",
+      "desc": "400W 无刷无线立式吸尘器，30kPa 吸力，电池可拆卸。",
+      "img": "../assets/images/products/v18-stick-vacuum/01-main.jpg",
+      "btn_text": "查看产品",
+      "btn_href": "/zh/v18-stick-vacuum/",
+      "tags": [
+        "400W 电机",
+        "30kPa",
+        "1.2L 尘杯"
+      ]
+    },
+    {
+      "id": "p11",
+      "name": "GT20 扫拖一体机器人",
+      "slug": "gt20-robot-vacuum",
+      "desc": "扫拖一体机器人，LDS 激光导航，5000Pa 强吸力。",
+      "img": "../assets/images/products/gt20-robot-vacuum/01-main.jpg",
+      "btn_text": "查看产品",
+      "btn_href": "/zh/gt20-robot-vacuum/",
+      "tags": [
+        "LDS 导航",
+        "5000Pa",
+        "120–150 分钟"
+      ]
+    },
+    {
+      "id": "p12",
+      "name": "YMC6628 便携数显充气泵",
+      "slug": "portable-tire-inflator",
+      "desc": "无线 150PSI 充气泵，数显胎压，带移动电源与照明。",
+      "img": "../assets/images/products/portable-tire-inflator/01-main.jpg",
+      "btn_text": "查看产品",
+      "btn_href": "/zh/portable-tire-inflator/",
+      "tags": [
+        "150PSI",
+        "数显",
+        "CE"
+      ]
     }
   ],
   "contact": {

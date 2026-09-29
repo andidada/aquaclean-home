@@ -185,10 +185,10 @@
     var apps = (product.applications && pick(product.applications, state.lang)) || '';
 
     // supplier stats
-    var rating = product.supplier_rating || '4.8';
-    var responseTime = product.response_time || '≤ 2h';
-    var transactions = product.transactions || 'US $100K+';
-    var years = product.years || '10+';
+    var rating = product.supplier_rating || '—';
+    var responseTime = product.response_time || '—';
+    var transactions = product.transactions || '—';
+    var years = product.years || '—';
 
     var html = '';
 
@@ -322,7 +322,7 @@
 
     // trust strip
     html += '<div class="d-trust">';
-    html += '<div class="d-trust-item"><div class="t-ico">🚢</div><div class="t-label">' + esc(ui.trustShip) + '</div><div class="t-value">' + esc((product.ship_from || {}).en || 'Ningbo, China') + '</div></div>';
+    html += '<div class="d-trust-item"><div class="t-ico">🚢</div><div class="t-label">' + esc(ui.trustShip) + '</div><div class="t-value">' + esc((product.ship_from || {}).en || '—') + '</div></div>';
     var leadTime = (product.customization && product.customization.production_lead) || '25-35 days';
     html += '<div class="d-trust-item"><div class="t-ico">⏱</div><div class="t-label">' + esc(ui.trustLead) + '</div><div class="t-value">' + esc(leadTime) + '</div></div>';
     html += '<div class="d-trust-item"><div class="t-ico">📦</div><div class="t-label">' + esc(ui.trustPack) + '</div><div class="t-value">' + esc((packaging.unit || 'Color box')) + '</div></div>';
@@ -339,7 +339,7 @@
     html += '<div class="d-supplier-logo">🏠</div>';
     html += '<div>';
     html += '<h3 class="d-supplier-name">AquaClean Home Appliances Co., Ltd.</h3>';
-    html += '<p class="d-supplier-meta">Ningbo, Zhejiang, China · OEM/ODM Manufacturer · <span class="d-supplier-stars">★★★★★</span> ' + esc(rating) + '</p>';
+    html += '<p class="d-supplier-meta">' + esc((product.ship_from || {}).en || '—') + ' · OEM/ODM Manufacturer · <span class="d-supplier-stars">' + (isNaN(parseFloat(rating)) ? '' : '★★★★★ ') + esc(rating) + '</span></p>';
     html += '<div class="d-supplier-stats">';
     html += '<div class="d-supplier-stat"><div class="v">' + esc(rating) + '</div><div class="l">' + esc(ui.rating) + '</div></div>';
     html += '<div class="d-supplier-stat"><div class="v">' + esc(responseTime) + '</div><div class="l">' + esc(ui.responseTime) + '</div></div>';
@@ -373,7 +373,7 @@
     html += '<tr><td class="spec-label">Carton Size</td><td>' + esc(packaging.ctn_size || '—') + '</td></tr>';
     html += '<tr><td class="spec-label">Qty / Carton</td><td>' + esc(packaging.ctn_qty || '—') + '</td></tr>';
     html += '<tr><td class="spec-label">Gross Weight</td><td>' + esc(packaging.gross_weight || '—') + '</td></tr>';
-    html += '<tr><td class="spec-label">' + esc(ui.trustShip) + '</td><td>' + esc((product.ship_from || {}).en || 'Ningbo, China') + '</td></tr>';
+    html += '<tr><td class="spec-label">' + esc(ui.trustShip) + '</td><td>' + esc((product.ship_from || {}).en || '—') + '</td></tr>';
     html += '<tr><td class="spec-label">' + esc(ui.leadTime) + '</td><td>' + esc(leadTime) + '</td></tr>';
     html += '</tbody></table>';
     html += '</div></div>';
