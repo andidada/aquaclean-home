@@ -422,19 +422,111 @@
 </section>
 
 <style>
-.aqc-ss { max-width: 900px; margin: 32px auto 0; }
+.aqc-ss { max-width: 900px; margin: 28px auto 0; }
 .aqc-ss table { width: 100%; border-collapse: collapse; font-size: 15px; }
-.aqc-ss th, .aqc-ss td { padding: 12px 16px; border-bottom: 1px solid #E2E8F0; text-align: left; }
+.aqc-ss th, .aqc-ss td { padding: 11px 14px; border-bottom: 1px solid #E2E8F0; text-align: left; vertical-align: top; }
 .aqc-ss th { width: 40%; color: #334155; font-weight: 600; background: #F8FAFC; }
-.aqc-ss details { border: 1px solid #E2E8F0; border-radius: 10px; padding: 14px 18px; margin-bottom: 12px; }
+.aqc-ss details { border: 1px solid #E2E8F0; border-radius: 10px; padding: 13px 16px; margin-bottom: 10px; }
 .aqc-ss summary { font-weight: 600; cursor: pointer; color: #0F172A; }
 .aqc-ss .opts { list-style: none; padding: 0; margin: 0; }
-.aqc-ss .opts li { padding: 8px 0; border-bottom: 1px dashed #E2E8F0; }
+.aqc-ss .opts li { padding: 7px 0; border-bottom: 1px dashed #E2E8F0; }
+.aqc-ss .metrics { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; }
+.aqc-ss .metric { border: 1px solid #E2E8F0; border-radius: 10px; padding: 14px 16px; }
+.aqc-ss .metric b { display: block; font-size: 22px; color: #0F172A; line-height: 1.2; }
+.aqc-ss .metric span { font-size: 13px; color: #64748B; }
+.aqc-ss .strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin-top: 14px; }
+.aqc-ss .strip figure { margin: 0; }
+.aqc-ss .strip img { width: 100%; border-radius: 10px; display: block; }
+.aqc-ss .strip figcaption { font-size: 13px; color: #64748B; margin-top: 6px; }
+.aqc-ss .flow { counter-reset: s; list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 10px; }
+.aqc-ss .flow li { counter-increment: s; border: 1px solid #E2E8F0; border-radius: 10px; padding: 12px 14px; font-size: 14px; color: #0F172A; }
+.aqc-ss .flow li::before { content: counter(s); display: inline-block; width: 20px; height: 20px; margin-right: 8px; border-radius: 50%; background: #2563EB; color: #fff; font-size: 12px; text-align: center; line-height: 20px; }
 .aqc-ss .rel { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 10px; }
-.aqc-ss .rel a { display: inline-block; padding: 10px 16px; border: 1px solid #DBEAFE; border-radius: 8px; color: #2563EB; text-decoration: none; font-size: 14px; }
+.aqc-ss .rel a { display: inline-block; padding: 9px 15px; border: 1px solid #DBEAFE; border-radius: 8px; color: #2563EB; text-decoration: none; font-size: 14px; }
+.aqc-note { margin: 10px 0 0; color: #64748B; font-size: 13px; }
 </style>
+<!-- 服务端渲染的详情图文（静态，爬虫与 AI 可直接读取；顺序按图片规范：实力→认证→定制→评价） -->
+<section class="section" id="glance">
+  <div class="section-inner">
+    <div class="text-center">
+      <h2 class="section-title">一眼看懂</h2>
+      <p class="section-sub">150PSI · 数显自动停机 · 移动电源与照明</p>
+    </div>
+    <div class="aqc-ss">
+      <div class="metrics">
+        <div class="metric"><b>150PSI</b><span>最高压力</span></div>        <div class="metric"><b>2000mAh × 3</b><span>电池</span></div>        <div class="metric"><b>25 min</b><span>工作时长</span></div>        <div class="metric"><b>CE</b><span>认证</span></div>
+      </div>
+      <div class="strip">
+          <figure><img src="/assets/images/products/portable-tire-inflator/02.jpg" alt="YMC6628 便携数显充气泵 2" loading="lazy"><figcaption>YMC6628 便携数显充气泵</figcaption></figure>          <figure><img src="/assets/images/products/portable-tire-inflator/03.jpg" alt="YMC6628 便携数显充气泵 3" loading="lazy"><figcaption>YMC6628 便携数显充气泵</figcaption></figure>          <figure><img src="/assets/images/products/portable-tire-inflator/04.jpg" alt="YMC6628 便携数显充气泵 4" loading="lazy"><figcaption>YMC6628 便携数显充气泵</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
 
-<!-- 服务端渲染的产品内容（静态，爬虫与 AI 可直接读取） -->
+<section class="section section-alt" id="certifications">
+  <div class="section-inner">
+    <div class="text-center">
+      <h2 class="section-title">认证</h2>
+      
+    </div>
+    <div class="aqc-ss">
+      <table>
+        <thead><tr><th scope="col">证书名称</th><th scope="col">证书编号</th><th scope="col">有效期至</th><th scope="col">阿里国际站验真</th><th scope="col"></th></tr></thead>
+        <tbody>
+          <tr><td>Declaration of Conformity</td><td>EFW526022843-CG-02+REV 1</td><td>2031-07-24</td><td>阿里国际站验真</td><td>—</td></tr>          <tr><td>Declaration of Conformity</td><td>CTA25030700203+CTA25030700205+CQASZ20250902238E+YHJC202412100039R1</td><td>2031-07-24</td><td>阿里国际站验真</td><td>—</td></tr>          <tr><td>Declaration of Conformity</td><td>XDX50238736101701EC</td><td>2031-09-07</td><td>阿里国际站验真</td><td><a href="/assets/images/certificates/60008004208.jpg" target="_blank" rel="noopener">查看</a></td></tr>
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+</section>
+
+<section class="section" id="customization">
+  <div class="section-inner">
+    <div class="text-center">
+      <h2 class="section-title">可定制项</h2>
+      <p class="section-sub">OEM / ODM · 起订量 10 台 · 打样最多 2 台</p>
+    </div>
+    <div class="aqc-ss">
+      <table>
+        <tbody>
+          <tr><th scope="row">压力范围</th><td>101-150Psi</td></tr>          <tr><th scope="row">供电方式</th><td>Battery Powered</td></tr>
+          <tr><th scope="row">定制 Logo</th><td>—</td></tr>
+          <tr><th scope="row">定制颜色</th><td>✓</td></tr>
+          <tr><th scope="row">定制包装</th><td>—</td></tr>
+        </tbody>
+      </table>
+      <h3 style="margin:24px 0 8px;font-size:16px;color:#0F172A;">包装</h3>
+      <table><tbody>
+        <tr><th scope="row">单台包装</th><td>Color Box</td></tr>
+        <tr><th scope="row">外箱尺寸</th><td>11x10x19cm</td></tr>
+        <tr><th scope="row">毛重</th><td>1.0kg</td></tr>
+      </tbody></table>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="feedback">
+  <div class="section-inner">
+    <div class="text-center">
+      <h2 class="section-title">客户评价</h2>
+      
+    </div>
+    <div class="aqc-ss">
+      <div class="metrics">
+        <div class="metric"><b>4.81</b><span>7 条评价</span></div>
+        <div class="metric"><b>99.87%</b><span>回复率</span></div>
+        <div class="metric"><b>2024</b><span>入驻阿里国际站</span></div>
+      </div>
+      <table style="margin-top:14px;"><tbody>
+        <tr><th scope="row">主要出口市场</th><td>North America · South America · Eastern Europe · Southeast Asia</td></tr>
+        <tr><th scope="row">供应商所在地</th><td>HK / New Territories</td></tr>
+      </tbody></table>
+      <p class="aqc-note">数据来源：阿里国际站店铺数据（店铺维度，非单品评价）</p>
+    </div>
+  </div>
+</section>
+
 <section class="section" id="specifications">
   <div class="section-inner">
     <div class="text-center">
@@ -443,30 +535,11 @@
     </div>
     <div class="aqc-ss">
       <table>
-        <caption style="text-align:left;padding:0 0 10px;color:#64748B;font-size:14px;">150PSI · 数显自动停机 · 移动电源与照明</caption>
+        <caption style="text-align:left;padding:0 0 10px;color:#64748B;font-size:13px;">产品参数表格（文本型）</caption>
         <tbody>
-            <tr><th scope="row">型号</th><td>YMC6628</td></tr>
-            <tr><th scope="row">最高压力</th><td>150PSI / 10.3Bar</td></tr>
-            <tr><th scope="row">电压</th><td>11.1V</td></tr>
-            <tr><th scope="row">功率</th><td>≤95W</td></tr>
-            <tr><th scope="row">电池</th><td>2000mAh × 3 Lithium Polymer</td></tr>
-            <tr><th scope="row">充电时间</th><td>2–3 hours</td></tr>
-            <tr><th scope="row">工作时长</th><td>25 min</td></tr>
-            <tr><th scope="row">显示方式</th><td>Digital Pressure Gauge</td></tr>
-            <tr><th scope="row">气缸类型</th><td>Single Cylinder</td></tr>
-            <tr><th scope="row">噪音</th><td>≤85dB</td></tr>
-            <tr><th scope="row">尺寸</th><td>9 × 5 × 17 cm</td></tr>
-            <tr><th scope="row">材质</th><td>ABS</td></tr>
-            <tr><th scope="row">适用车型</th><td>Compact Car / Motorcycle</td></tr>
-            <tr><th scope="row">认证</th><td>CE</td></tr>
-            <tr><th scope="row">质保</th><td>1 Year</td></tr>
+            <tr><th scope="row">型号</th><td>YMC6628</td></tr>            <tr><th scope="row">最高压力</th><td>150PSI / 10.3Bar</td></tr>            <tr><th scope="row">电压</th><td>11.1V</td></tr>            <tr><th scope="row">功率</th><td>≤95W</td></tr>            <tr><th scope="row">电池</th><td>2000mAh × 3 Lithium Polymer</td></tr>            <tr><th scope="row">充电时间</th><td>2–3 hours</td></tr>            <tr><th scope="row">工作时长</th><td>25 min</td></tr>            <tr><th scope="row">显示方式</th><td>Digital Pressure Gauge</td></tr>            <tr><th scope="row">气缸类型</th><td>Single Cylinder</td></tr>            <tr><th scope="row">噪音</th><td>≤85dB</td></tr>            <tr><th scope="row">尺寸</th><td>9 × 5 × 17 cm</td></tr>            <tr><th scope="row">材质</th><td>ABS</td></tr>            <tr><th scope="row">适用车型</th><td>Compact Car / Motorcycle</td></tr>            <tr><th scope="row">认证</th><td>CE</td></tr>            <tr><th scope="row">质保</th><td>1 Year</td></tr>
         </tbody>
       </table>
-      <h3 style="margin:28px 0 8px;font-size:17px;color:#0F172A;">可选配置</h3>
-      <ul class="opts">
-              <li><strong>压力范围</strong>: 101-150Psi</li>
-              <li><strong>供电方式</strong>: Battery Powered</li>
-      </ul>
     </div>
   </div>
 </section>
@@ -475,70 +548,77 @@
   <div class="section-inner">
     <div class="text-center">
       <h2 class="section-title">价格与起订量</h2>
-      <p class="section-sub">起订量 10 台 · 支持打样（2 台以内）</p>
+      <p class="section-sub">MOQ 10 台</p>
     </div>
     <div class="aqc-ss">
       <table>
         <thead><tr><th scope="col">订购数量</th><th scope="col">单价</th></tr></thead>
         <tbody>
-            <tr><td>10–499 台</td><td>US$14.5 / pc</td></tr>
-            <tr><td>500–999 台</td><td>US$12.8 / pc</td></tr>
-            <tr><td>1000–+ 台</td><td>US$11 / pc</td></tr>
+            <tr><td>10–499 台</td><td>US$14.5 / pc</td></tr>            <tr><td>500–999 台</td><td>US$12.8 / pc</td></tr>            <tr><td>1000–+ 台</td><td>US$11 / pc</td></tr>
         </tbody>
       </table>
+      <p class="aqc-note">平台运费参考: US$17.02</p>
     </div>
   </div>
 </section>
 
-<section class="section" id="customization">
+<section class="section" id="flow">
   <div class="section-inner">
     <div class="text-center">
-      <h2 class="section-title">OEM / ODM 定制能力</h2>
+      <h2 class="section-title">下单与定制流程</h2>
+      
     </div>
     <div class="aqc-ss">
-      <ul class="opts">
-        <li><strong>定制 Logo</strong>: —</li>
-        <li><strong>定制颜色</strong>: ✓</li>
-        <li><strong>定制包装</strong>: —</li>
-      </ul>
-      <h3 style="margin:28px 0 8px;font-size:17px;color:#0F172A;">包装与物流</h3>
-      <table>
-        <tbody>
-          <tr><th scope="row">单台包装</th><td>Color Box</td></tr>
-          <tr><th scope="row">外箱尺寸</th><td>11x10x19cm</td></tr>
-          <tr><th scope="row">每箱数量</th><td>—</td></tr>
-          <tr><th scope="row">毛重</th><td>1.0kg</td></tr>
-        </tbody>
-      </table>
-            <h3 style="margin:28px 0 8px;font-size:17px;color:#0F172A;">认证</h3>
-      <table>
-        <thead><tr><th scope="col">证书名称</th><th scope="col">证书编号</th>
-          <th scope="col">有效期至</th><th scope="col">阿里国际站验真</th><th scope="col"></th></tr></thead>
-        <tbody>
-          <tr><td>Declaration of Conformity</td><td>EFW526022843-CG-02+REV 1</td><td>2031-07-24</td><td>已验真</td><td>—</td></tr>
-          <tr><td>Declaration of Conformity</td><td>CTA25030700203+CTA25030700205+CQASZ20250902238E+YHJC202412100039R1</td><td>2031-07-24</td><td>已验真</td><td>—</td></tr>
-          <tr><td>Declaration of Conformity</td><td>XDX50238736101701EC</td><td>2031-09-07</td><td>已验真</td><td><a href="/assets/images/certificates/60008004208.jpg" target="_blank" rel="noopener">查看证书</a></td></tr>
-        </tbody>
-      </table>
-      <p style="margin:12px 0 0;color:#475569;font-size:14px;">证书已通过阿里国际站验真，可提供原件供目标市场准入审核。</p>
-
+      <ol class="flow">
+        <li>询盘与需求确认</li>
+        <li>打样与确认</li>
+        <li>定制项确认</li>
+        <li>批量生产</li>
+        <li>质检</li>
+        <li>发货与单证</li>
+      </ol>
     </div>
   </div>
 </section>
 
-<section class="section section-alt" id="faq">
+<section class="section section-alt" id="company">
+  <div class="section-inner">
+    <div class="text-center">
+      <h2 class="section-title">关于制造方</h2>
+      <p class="section-sub">2015 年创立</p>
+    </div>
+    <div class="aqc-ss">
+      <table><tbody>
+        <tr><th scope="row">工厂</th><td>宁波自有工厂 10,000 m²</td></tr>
+        <tr><th scope="row">研发</th><td>60+ 名研发工程师</td></tr>
+        <tr><th scope="row">质量管控</th><td>三段式质检：IQC → IPQC → OQC，不良率 &lt; 0.5%</td></tr>
+        <tr><th scope="row">覆盖</th><td>产品销往 50+ 国家 · 200+ 家活跃 B2B 客户</td></tr>
+        <tr><th scope="row">物流</th><td>支持 FOB / CIF / DDP 多种贸易方式</td></tr>
+      </tbody></table>
+      <div class="strip">
+          <figure><img src="/assets/images/banners/banner-3.png" alt="现代家居展厅" loading="lazy"><figcaption>现代家居展厅</figcaption></figure>          <figure><img src="/assets/images/banners/banner-4.png" alt="蒸汽技术实验室" loading="lazy"><figcaption>蒸汽技术实验室</figcaption></figure>          <figure><img src="/assets/images/banners/banner-6.png" alt="汽车护理产线" loading="lazy"><figcaption>汽车护理产线</figcaption></figure>
+      </div>
+      <details style="margin-top:16px;"><summary>运输如何安排？</summary><p>可按你的偏好采用 FOB / CIF / DDP。海运、空运与快递均可，时效与费用按订单与目的地确认。</p></details>
+      <details><summary>关税与税费由谁承担？</summary><p>报价为 FOB 价，进口关税、增值税及目的港费用由买方自行清关承担。我们提供清关所需的商业发票、装箱单与证书文件。</p></details>
+      <p class="aqc-note">数据来源：AquaClean 公司简介</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="faq">
   <div class="section-inner">
     <div class="text-center">
       <h2 class="section-title">常见问题</h2>
+      
     </div>
     <div class="aqc-ss">
         <details>
           <summary>YMC6628 便携数显充气泵的起订量和价格是多少？</summary>
-          <p>起订量 10 台。FOB 单价 US$11–14.5/台，按数量阶梯计价（10-499 台 $14.5/台；500-999 台 $12.8/台；1000-+ 台 $11/台）。支持打样（2 台以内）。</p>
+          <p>起订量 10 台。FOB 单价 US$11–14.5/台，按数量阶梯计价，支持打样（最多 2 台）。</p>
         </details>
         <details>
           <summary>可以按我们的市场需求定制吗？</summary>
-          <p>可以，支持 OEM/ODM，可选配置：压力范围: 101-150Psi / 供电方式: Battery Powered。定制颜色需达到更高的起订量，具体按选项确认。</p>
+          <p>可以，支持 OEM/ODM，可选配置：压力范围: 101-150Psi / 供电方式: Battery Powered。定制颜色需达到更高起订量，按选项确认。</p>
         </details>
         <details>
           <summary>该产品有哪些认证？</summary>
@@ -546,16 +626,17 @@
         </details>
         <details>
           <summary>大批量采购前可以先拿样吗？</summary>
-          <p>可以，支持打样（每单最多 2 台），便于你在下 10 台订单前确认质量。</p>
+          <p>可以，支持打样（最多 2 台），便于你在下 10 台订单前确认质量。</p>
         </details>
     </div>
   </div>
 </section>
 
-<section class="section" id="related">
+<section class="section section-alt" id="related">
   <div class="section-inner">
     <div class="text-center">
       <h2 class="section-title">相关产品</h2>
+      
     </div>
     <div class="aqc-ss">
       <ul class="rel">

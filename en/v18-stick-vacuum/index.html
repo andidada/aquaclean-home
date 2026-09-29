@@ -706,19 +706,111 @@
 </section>
 
 <style>
-.aqc-ss { max-width: 900px; margin: 32px auto 0; }
+.aqc-ss { max-width: 900px; margin: 28px auto 0; }
 .aqc-ss table { width: 100%; border-collapse: collapse; font-size: 15px; }
-.aqc-ss th, .aqc-ss td { padding: 12px 16px; border-bottom: 1px solid #E2E8F0; text-align: left; }
+.aqc-ss th, .aqc-ss td { padding: 11px 14px; border-bottom: 1px solid #E2E8F0; text-align: left; vertical-align: top; }
 .aqc-ss th { width: 40%; color: #334155; font-weight: 600; background: #F8FAFC; }
-.aqc-ss details { border: 1px solid #E2E8F0; border-radius: 10px; padding: 14px 18px; margin-bottom: 12px; }
+.aqc-ss details { border: 1px solid #E2E8F0; border-radius: 10px; padding: 13px 16px; margin-bottom: 10px; }
 .aqc-ss summary { font-weight: 600; cursor: pointer; color: #0F172A; }
 .aqc-ss .opts { list-style: none; padding: 0; margin: 0; }
-.aqc-ss .opts li { padding: 8px 0; border-bottom: 1px dashed #E2E8F0; }
+.aqc-ss .opts li { padding: 7px 0; border-bottom: 1px dashed #E2E8F0; }
+.aqc-ss .metrics { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; }
+.aqc-ss .metric { border: 1px solid #E2E8F0; border-radius: 10px; padding: 14px 16px; }
+.aqc-ss .metric b { display: block; font-size: 22px; color: #0F172A; line-height: 1.2; }
+.aqc-ss .metric span { font-size: 13px; color: #64748B; }
+.aqc-ss .strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin-top: 14px; }
+.aqc-ss .strip figure { margin: 0; }
+.aqc-ss .strip img { width: 100%; border-radius: 10px; display: block; }
+.aqc-ss .strip figcaption { font-size: 13px; color: #64748B; margin-top: 6px; }
+.aqc-ss .flow { counter-reset: s; list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 10px; }
+.aqc-ss .flow li { counter-increment: s; border: 1px solid #E2E8F0; border-radius: 10px; padding: 12px 14px; font-size: 14px; color: #0F172A; }
+.aqc-ss .flow li::before { content: counter(s); display: inline-block; width: 20px; height: 20px; margin-right: 8px; border-radius: 50%; background: #2563EB; color: #fff; font-size: 12px; text-align: center; line-height: 20px; }
 .aqc-ss .rel { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 10px; }
-.aqc-ss .rel a { display: inline-block; padding: 10px 16px; border: 1px solid #DBEAFE; border-radius: 8px; color: #2563EB; text-decoration: none; font-size: 14px; }
+.aqc-ss .rel a { display: inline-block; padding: 9px 15px; border: 1px solid #DBEAFE; border-radius: 8px; color: #2563EB; text-decoration: none; font-size: 14px; }
+.aqc-note { margin: 10px 0 0; color: #64748B; font-size: 13px; }
 </style>
+<!-- 服务端渲染的详情图文（静态，爬虫与 AI 可直接读取；顺序按图片规范：实力→认证→定制→评价） -->
+<section class="section" id="glance">
+  <div class="section-inner">
+    <div class="text-center">
+      <h2 class="section-title">At a glance</h2>
+      <p class="section-sub">400W Brushless Motor · 30kPa Suction · Wet &amp; Dry</p>
+    </div>
+    <div class="aqc-ss">
+      <div class="metrics">
+        <div class="metric"><b>400W</b><span>Motor Power</span></div>        <div class="metric"><b>30kPa</b><span>Suction</span></div>        <div class="metric"><b>1.2L</b><span>Dust Cup</span></div>        <div class="metric"><b>20–65 min</b><span>Runtime</span></div>
+      </div>
+      <div class="strip">
+          <figure><img src="/assets/images/products/v18-stick-vacuum/02.jpg" alt="V18 Cordless Stick Vacuum Cleaner 2" loading="lazy"><figcaption>V18 Cordless Stick Vacuum Cleaner</figcaption></figure>          <figure><img src="/assets/images/products/v18-stick-vacuum/03.jpg" alt="V18 Cordless Stick Vacuum Cleaner 3" loading="lazy"><figcaption>V18 Cordless Stick Vacuum Cleaner</figcaption></figure>          <figure><img src="/assets/images/products/v18-stick-vacuum/04.jpg" alt="V18 Cordless Stick Vacuum Cleaner 4" loading="lazy"><figcaption>V18 Cordless Stick Vacuum Cleaner</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
 
-<!-- 服务端渲染的产品内容（静态，爬虫与 AI 可直接读取） -->
+<section class="section section-alt" id="certifications">
+  <div class="section-inner">
+    <div class="text-center">
+      <h2 class="section-title">Certifications</h2>
+      
+    </div>
+    <div class="aqc-ss">
+      <table>
+        <thead><tr><th scope="col">Certificate</th><th scope="col">Certificate no.</th><th scope="col">Valid until</th><th scope="col">Alibaba verification</th><th scope="col"></th></tr></thead>
+        <tbody>
+          <tr><td>Declaration of Conformity</td><td>EFW526022843-CG-02+REV 1</td><td>2031-07-24</td><td>Alibaba verification</td><td>—</td></tr>          <tr><td>Declaration of Conformity</td><td>CTA25030700203+CTA25030700205+CQASZ20250902238E+YHJC202412100039R1</td><td>2031-07-24</td><td>Alibaba verification</td><td>—</td></tr>          <tr><td>Declaration of Conformity</td><td>XDX50238736101701EC</td><td>2031-09-07</td><td>Alibaba verification</td><td><a href="/assets/images/certificates/60008004208.jpg" target="_blank" rel="noopener">View</a></td></tr>
+        </tbody>
+      </table>
+      <p class="aqc-note">Certification documents on file — available on request.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="customization">
+  <div class="section-inner">
+    <div class="text-center">
+      <h2 class="section-title">Customisation</h2>
+      <p class="section-sub">OEM / ODM · MOQ 2 pcs · sample up to 1 pc</p>
+    </div>
+    <div class="aqc-ss">
+      <table>
+        <tbody>
+          <tr><th scope="row">Voltage</th><td>110-240V</td></tr>          <tr><th scope="row">Plug Type</th><td>AU, EU, UK, US</td></tr>          <tr><th scope="row">Colour</th><td>Purple</td></tr>
+          <tr><th scope="row">Custom logo</th><td>—</td></tr>
+          <tr><th scope="row">Custom colour</th><td>✓</td></tr>
+          <tr><th scope="row">Custom packaging</th><td>—</td></tr>
+        </tbody>
+      </table>
+      <h3 style="margin:24px 0 8px;font-size:16px;color:#0F172A;">Packaging</h3>
+      <table><tbody>
+        <tr><th scope="row">Unit</th><td>Color Box</td></tr>
+        <tr><th scope="row">Carton size</th><td>45x34x21cm</td></tr>
+        <tr><th scope="row">Gross weight</th><td>3.0kg</td></tr>
+      </tbody></table>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="feedback">
+  <div class="section-inner">
+    <div class="text-center">
+      <h2 class="section-title">Buyer feedback</h2>
+      
+    </div>
+    <div class="aqc-ss">
+      <div class="metrics">
+        <div class="metric"><b>4.81</b><span>7 reviews</span></div>
+        <div class="metric"><b>99.87%</b><span>reply rate</span></div>
+        <div class="metric"><b>2024</b><span>on Alibaba.com since</span></div>
+      </div>
+      <table style="margin-top:14px;"><tbody>
+        <tr><th scope="row">Main markets</th><td>North America · South America · Eastern Europe · Southeast Asia</td></tr>
+        <tr><th scope="row">Supplier location</th><td>HK / New Territories</td></tr>
+      </tbody></table>
+      <p class="aqc-note">Source: Alibaba.com store data (store-level, not per-product reviews)</p>
+    </div>
+  </div>
+</section>
+
 <section class="section" id="specifications">
   <div class="section-inner">
     <div class="text-center">
@@ -727,32 +819,11 @@
     </div>
     <div class="aqc-ss">
       <table>
-        <caption style="text-align:left;padding:0 0 10px;color:#64748B;font-size:14px;">400W Brushless Motor · 30kPa Suction · Wet &amp; Dry</caption>
+        <caption style="text-align:left;padding:0 0 10px;color:#64748B;font-size:13px;">Written specification table (text-based)</caption>
         <tbody>
-            <tr><th scope="row">Model</th><td>GV18</td></tr>
-            <tr><th scope="row">Motor Power</th><td>400W</td></tr>
-            <tr><th scope="row">Suction Power</th><td>30kPa</td></tr>
-            <tr><th scope="row">Air Power</th><td>210AW / 100AW / 60AW</td></tr>
-            <tr><th scope="row">Runtime</th><td>20–65 min</td></tr>
-            <tr><th scope="row">Charging Time</th><td>4–5 hours</td></tr>
-            <tr><th scope="row">Battery</th><td>2200mAh Lithium-Ion (removable)</td></tr>
-            <tr><th scope="row">Dust Cup Capacity</th><td>1.2L</td></tr>
-            <tr><th scope="row">Filter Type</th><td>HEPA</td></tr>
-            <tr><th scope="row">Function</th><td>Wet &amp; Dry</td></tr>
-            <tr><th scope="row">Noise</th><td>≤65dB</td></tr>
-            <tr><th scope="row">Housing Material</th><td>ABS</td></tr>
-            <tr><th scope="row">Net Weight</th><td>1–2 kg</td></tr>
-            <tr><th scope="row">Packaging Type</th><td>Color Box</td></tr>
-            <tr><th scope="row">Warranty</th><td>1 Year</td></tr>
-            <tr><th scope="row">After-sales</th><td>Free Spare Parts</td></tr>
+            <tr><th scope="row">Model</th><td>GV18</td></tr>            <tr><th scope="row">Motor Power</th><td>400W</td></tr>            <tr><th scope="row">Suction Power</th><td>30kPa</td></tr>            <tr><th scope="row">Air Power</th><td>210AW / 100AW / 60AW</td></tr>            <tr><th scope="row">Runtime</th><td>20–65 min</td></tr>            <tr><th scope="row">Charging Time</th><td>4–5 hours</td></tr>            <tr><th scope="row">Battery</th><td>2200mAh Lithium-Ion (removable)</td></tr>            <tr><th scope="row">Dust Cup Capacity</th><td>1.2L</td></tr>            <tr><th scope="row">Filter Type</th><td>HEPA</td></tr>            <tr><th scope="row">Function</th><td>Wet &amp; Dry</td></tr>            <tr><th scope="row">Noise</th><td>≤65dB</td></tr>            <tr><th scope="row">Housing Material</th><td>ABS</td></tr>            <tr><th scope="row">Net Weight</th><td>1–2 kg</td></tr>            <tr><th scope="row">Packaging Type</th><td>Color Box</td></tr>            <tr><th scope="row">Warranty</th><td>1 Year</td></tr>            <tr><th scope="row">After-sales</th><td>Free Spare Parts</td></tr>
         </tbody>
       </table>
-      <h3 style="margin:28px 0 8px;font-size:17px;color:#0F172A;">Available options</h3>
-      <ul class="opts">
-              <li><strong>Voltage</strong>: 110-240V</li>
-              <li><strong>Plug Type</strong>: AU, EU, UK, US</li>
-              <li><strong>Colour</strong>: Purple</li>
-      </ul>
     </div>
   </div>
 </section>
@@ -760,73 +831,78 @@
 <section class="section section-alt" id="pricing">
   <div class="section-inner">
     <div class="text-center">
-      <h2 class="section-title">Pricing &amp; MOQ</h2>
-      <p class="section-sub">MOQ 2 pcs · sample 1 pc available</p>
+      <h2 class="section-title">Pricing & MOQ</h2>
+      <p class="section-sub">MOQ 2 pcs</p>
     </div>
     <div class="aqc-ss">
       <table>
         <thead><tr><th scope="col">Order quantity</th><th scope="col">Unit price</th></tr></thead>
         <tbody>
-            <tr><td>2–199 pcs</td><td>US$64 / pc</td></tr>
-            <tr><td>200–999 pcs</td><td>US$62 / pc</td></tr>
-            <tr><td>1000–1999 pcs</td><td>US$58 / pc</td></tr>
-            <tr><td>2000–+ pcs</td><td>US$54 / pc</td></tr>
+            <tr><td>2–199 pcs</td><td>US$64 / pc</td></tr>            <tr><td>200–999 pcs</td><td>US$62 / pc</td></tr>            <tr><td>1000–1999 pcs</td><td>US$58 / pc</td></tr>            <tr><td>2000–+ pcs</td><td>US$54 / pc</td></tr>
         </tbody>
       </table>
+      <p class="aqc-note">Platform shipping estimate: US$17.02</p>
     </div>
   </div>
 </section>
 
-<section class="section" id="customization">
+<section class="section" id="flow">
   <div class="section-inner">
     <div class="text-center">
-      <h2 class="section-title">OEM / ODM customization</h2>
+      <h2 class="section-title">Order & customisation flow</h2>
+      
     </div>
     <div class="aqc-ss">
-      <ul class="opts">
-        <li><strong>Custom logo</strong>: —</li>
-        <li><strong>Custom colour</strong>: ✓</li>
-        <li><strong>Custom packaging</strong>: —</li>
-      </ul>
-      <h3 style="margin:28px 0 8px;font-size:17px;color:#0F172A;">Packaging &amp; shipping</h3>
-      <table>
-        <tbody>
-          <tr><th scope="row">Unit</th><td>Color Box</td></tr>
-          <tr><th scope="row">Carton size</th><td>45x34x21cm</td></tr>
-          <tr><th scope="row">Qty per carton</th><td>—</td></tr>
-          <tr><th scope="row">Gross weight</th><td>3.0kg</td></tr>
-        </tbody>
-      </table>
-            <h3 style="margin:28px 0 8px;font-size:17px;color:#0F172A;">Certifications</h3>
-      <table>
-        <thead><tr><th scope="col">Certificate</th><th scope="col">Certificate no.</th>
-          <th scope="col">Valid until</th><th scope="col">Verified by Alibaba.com</th><th scope="col"></th></tr></thead>
-        <tbody>
-          <tr><td>Declaration of Conformity</td><td>EFW526022843-CG-02+REV 1</td><td>2031-07-24</td><td>Verified</td><td>—</td></tr>
-          <tr><td>Declaration of Conformity</td><td>CTA25030700203+CTA25030700205+CQASZ20250902238E+YHJC202412100039R1</td><td>2031-07-24</td><td>Verified</td><td>—</td></tr>
-          <tr><td>Declaration of Conformity</td><td>XDX50238736101701EC</td><td>2031-09-07</td><td>Verified</td><td><a href="/assets/images/certificates/60008004208.jpg" target="_blank" rel="noopener">View certificate</a></td></tr>
-        </tbody>
-      </table>
-      <p style="margin:12px 0 0;color:#475569;font-size:14px;">Certificate documents verified by Alibaba.com; originals can be shared for your market-entry review.</p>
-      <p style="margin:12px 0 0;color:#475569;font-size:14px;">This Declaration of Conformity lists V18 among its covered models.</p>
-
+      <ol class="flow">
+        <li>Inquiry &amp; requirements</li>
+        <li>Sample &amp; confirmation</li>
+        <li>Customisation approval</li>
+        <li>Mass production</li>
+        <li>QC inspection</li>
+        <li>Shipping &amp; documents</li>
+      </ol>
     </div>
   </div>
 </section>
 
-<section class="section section-alt" id="faq">
+<section class="section section-alt" id="company">
+  <div class="section-inner">
+    <div class="text-center">
+      <h2 class="section-title">About the manufacturer</h2>
+      <p class="section-sub">Since 2015</p>
+    </div>
+    <div class="aqc-ss">
+      <table><tbody>
+        <tr><th scope="row">Factory</th><td>10,000 m² owned factory in Ningbo, Zhejiang</td></tr>
+        <tr><th scope="row">R&D</th><td>60+ R&amp;D engineers</td></tr>
+        <tr><th scope="row">Quality control</th><td>3-stage QC: IQC → IPQC → OQC, defect rate &lt; 0.5%</td></tr>
+        <tr><th scope="row">Reach</th><td>50+ countries served · 200+ active B2B partners</td></tr>
+        <tr><th scope="row">Logistics</th><td>FOB, CIF and DDP shipping to major markets</td></tr>
+      </tbody></table>
+      <div class="strip">
+          <figure><img src="/assets/images/banners/banner-3.png" alt="Modern living showroom" loading="lazy"><figcaption>Modern living showroom</figcaption></figure>          <figure><img src="/assets/images/banners/banner-4.png" alt="Steam technology lab" loading="lazy"><figcaption>Steam technology lab</figcaption></figure>          <figure><img src="/assets/images/banners/banner-6.png" alt="Automotive care line" loading="lazy"><figcaption>Automotive care line</figcaption></figure>
+      </div>
+      <details style="margin-top:16px;"><summary>How is shipping arranged?</summary><p>We ship FOB, CIF or DDP depending on your preference. Sea, air and express are all available; transit time and cost are confirmed per order and destination.</p></details>
+      <details><summary>Who pays import duties and taxes?</summary><p>Prices are quoted FOB; import duties, VAT and destination charges are settled by the buyer's own customs broker. We provide the commercial invoice, packing list and certificates needed for clearance.</p></details>
+      <p class="aqc-note">Source: AquaClean company profile</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="faq">
   <div class="section-inner">
     <div class="text-center">
       <h2 class="section-title">Frequently asked questions</h2>
+      
     </div>
     <div class="aqc-ss">
         <details>
           <summary>What is the MOQ and price for the V18 Cordless Stick Vacuum Cleaner?</summary>
-          <p>MOQ is 2 pcs. FOB price is US$54–64/pc depending on quantity (2–199 pcs at US$64; 200–999 pcs at US$62; 1000–1999 pcs at US$58). Samples are available (up to 1 pc).</p>
+          <p>MOQ is 2 pcs. FOB price is US$54–64/pc depending on quantity. Samples are available (up to 1 pc).</p>
         </details>
         <details>
           <summary>Can you customise the product for our market?</summary>
-          <p>Yes — OEM/ODM with these configurable options: Voltage: 110-240V / Plug Type: AU, EU, UK, US / Colour: Purple. Custom colour orders start at higher MOQ; the exact MOQ is confirmed per option.</p>
+          <p>Yes — OEM/ODM with these configurable options: Voltage: 110-240V / Plug Type: AU, EU, UK, US / Colour: Purple. Custom colour orders start at a higher MOQ, confirmed per option.</p>
         </details>
         <details>
           <summary>Which certifications does this product have?</summary>
@@ -834,16 +910,17 @@
         </details>
         <details>
           <summary>Is a sample available before a bulk order?</summary>
-          <p>Yes, samples are supported (up to 1 pc per order) so you can validate quality before committing to 2 pcs.</p>
+          <p>Yes, samples are supported (up to 1 pc) so you can validate quality before committing to 2 pcs.</p>
         </details>
     </div>
   </div>
 </section>
 
-<section class="section" id="related">
+<section class="section section-alt" id="related">
   <div class="section-inner">
     <div class="text-center">
       <h2 class="section-title">Related products</h2>
+      
     </div>
     <div class="aqc-ss">
       <ul class="rel">

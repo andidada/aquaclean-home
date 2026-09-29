@@ -301,7 +301,7 @@
         "en": "The GV18 is a 400W brushless cordless stick vacuum delivering 30kPa of suction in a lightweight body, with a removable 2200mAh battery that runs 20–65 minutes per charge. It handles wet and dry pick-up with a 1.2L dust cup and HEPA filtration, runs at ≤65dB, and features a smart touch LED display. Available as OEM/ODM with custom colour and plug type for your market. Certification documents are on file and available on request.",
         "zh": "GV18 是一款 400W 无刷电机无线立式吸尘器，机身轻巧、吸力达 30kPa，配可拆卸 2200mAh 电池，单次充电续航 20–65 分钟。干湿两用，1.2L 尘杯配 HEPA 滤网，运行噪音 ≤65dB，带智能触控 LED 显示屏。支持 OEM/ODM 定制颜色与插头规格，认证资料已备案、可按需提供。"
       },
-      "supplier_rating": "—",
+      "supplier_rating": "4.81",
       "response_time": "—",
       "transactions": "—",
       "years": "—",
@@ -352,7 +352,27 @@
           "image": "/assets/images/certificates/60008004208.jpg",
           "coversHint": null
         }
-      ]
+      ],
+      "supplier": {
+        "country": "HK",
+        "province": "New Territories",
+        "established": 2024,
+        "reply_rate": 0.9987,
+        "verified": false,
+        "main_markets": [
+          "North America",
+          "South America",
+          "Eastern Europe",
+          "Southeast Asia"
+        ]
+      },
+      "store_rating": {
+        "score": 4.81,
+        "reviews": 7,
+        "scope": "store"
+      },
+      "shipping_fee_usd": 17.02,
+      "alibaba_url": "https://www.alibaba.com/product-detail/V18-Rechargeable-Cordless-Stick-Vacuum-Cleaner_1601887639841.html"
     }
   ],
   "reviews": [],

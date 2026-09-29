@@ -290,7 +290,7 @@
         "en": "The GT20 is a 3-in-1 robot vacuum and mop with LDS SLAM navigation, 5000Pa suction and 120–150 minutes of runtime. It sweeps and mops with a 220ml dustbin and 230ml water tank, supports App control (Tuya) and voice control (Alexa / Google Assistant), and offers smart mapping, no-go zones and virtual walls, obstacle avoidance and auto recharge. OEM/ODM customisation available for colour, voltage and plug type. Certification documents on file.",
         "zh": "GT20 是扫拖一体的三合一扫地机器人，采用 LDS SLAM 激光导航，吸力 5000Pa，续航 120–150 分钟。220ml 尘盒 + 230ml 水箱，支持 APP（涂鸦）与语音控制（Alexa / Google），具备智能建图、禁区与虚拟墙、越障避让、自动回充等功能。支持 OEM/ODM 定制颜色、电压与插头规格，认证资料已备案。"
       },
-      "supplier_rating": "—",
+      "supplier_rating": "4.81",
       "response_time": "—",
       "transactions": "—",
       "years": "—",
@@ -341,7 +341,27 @@
           "image": "/assets/images/certificates/60008004208.jpg",
           "coversHint": null
         }
-      ]
+      ],
+      "supplier": {
+        "country": "HK",
+        "province": "New Territories",
+        "established": 2024,
+        "reply_rate": 0.9987,
+        "verified": false,
+        "main_markets": [
+          "North America",
+          "South America",
+          "Eastern Europe",
+          "Southeast Asia"
+        ]
+      },
+      "store_rating": {
+        "score": 4.81,
+        "reviews": 7,
+        "scope": "store"
+      },
+      "shipping_fee_usd": 22.06,
+      "alibaba_url": "https://www.alibaba.com/product-detail/GT20-Electric-Smart-Robot-Vacuum-Mop_1601781982522.html"
     }
   ],
   "reviews": [],
