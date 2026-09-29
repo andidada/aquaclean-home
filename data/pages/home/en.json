@@ -134,48 +134,6 @@
         "110°C",
         "1.5L Tank"
       ]
-    },
-    {
-      "id": "p10",
-      "name": "V18 Cordless Stick Vacuum Cleaner",
-      "slug": "v18-stick-vacuum",
-      "desc": "400W brushless cordless stick vacuum with 30kPa suction and removable battery.",
-      "img": "../assets/images/products/v18-stick-vacuum/01-main.jpg",
-      "btn_text": "More Products",
-      "btn_href": "/en/v18-stick-vacuum/",
-      "tags": [
-        "400W Motor",
-        "30kPa",
-        "1.2L Dust Cup"
-      ]
-    },
-    {
-      "id": "p11",
-      "name": "GT20 Robot Vacuum & Mop",
-      "slug": "gt20-robot-vacuum",
-      "desc": "3-in-1 robot vacuum and mop with LDS navigation and 5000Pa suction.",
-      "img": "../assets/images/products/gt20-robot-vacuum/01-main.jpg",
-      "btn_text": "More Products",
-      "btn_href": "/en/gt20-robot-vacuum/",
-      "tags": [
-        "LDS SLAM",
-        "5000Pa",
-        "120–150 min"
-      ]
-    },
-    {
-      "id": "p12",
-      "name": "YMC6628 Portable Tire Inflator",
-      "slug": "portable-tire-inflator",
-      "desc": "Cordless 150PSI tire inflator with digital gauge, power bank and LED light.",
-      "img": "../assets/images/products/portable-tire-inflator/01-main.jpg",
-      "btn_text": "More Products",
-      "btn_href": "/en/portable-tire-inflator/",
-      "tags": [
-        "150PSI",
-        "Digital Gauge",
-        "CE"
-      ]
     }
   ],
   "contact": {
