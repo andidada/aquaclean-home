@@ -290,7 +290,39 @@
       "category_name": {
         "en": "Portable Tire Inflator",
         "zh": "便携充气泵"
-      }
+      },
+      "certificates": [
+        {
+          "certId": "60007675410",
+          "name": "Declaration of Conformity",
+          "certNo": "EFW526022843-CG-02+REV 1",
+          "availableDate": "2026-07-27",
+          "expiredDate": "2031-07-24",
+          "verified": true,
+          "image": null,
+          "coversHint": "V18"
+        },
+        {
+          "certId": "60007673019",
+          "name": "Declaration of Conformity",
+          "certNo": "CTA25030700203+CTA25030700205+CQASZ20250902238E+YHJC202412100039R1",
+          "availableDate": "2026-07-27",
+          "expiredDate": "2031-07-24",
+          "verified": true,
+          "image": null,
+          "coversHint": null
+        },
+        {
+          "certId": "60008004208",
+          "name": "Declaration of Conformity",
+          "certNo": "XDX50238736101701EC",
+          "availableDate": "2026-09-02",
+          "expiredDate": "2031-09-07",
+          "verified": true,
+          "image": "/assets/images/certificates/60008004208.jpg",
+          "coversHint": null
+        }
+      ]
     }
   ],
   "reviews": [],
