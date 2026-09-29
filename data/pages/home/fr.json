@@ -20,7 +20,7 @@
       ],
       "img": "../assets/images/products/01-handheld-vacuum.png",
       "btn_text": "Plus de produits",
-      "btn_href": "en/handheld-vacuum/",
+      "btn_href": "/en/handheld-vacuum/",
       "btn_slug": "handheld-vacuum"
     },
     {
@@ -34,7 +34,7 @@
       ],
       "img": "../assets/images/products/02-robot-vacuum.png",
       "btn_text": "Plus de produits",
-      "btn_href": "en/robot-vacuum/",
+      "btn_href": "/en/robot-vacuum/",
       "btn_slug": "robot-vacuum"
     },
     {
@@ -48,7 +48,7 @@
       ],
       "img": "../assets/images/products/03-steam-cleaner.png",
       "btn_text": "Plus de produits",
-      "btn_href": "en/steam-cleaner/",
+      "btn_href": "/en/steam-cleaner/",
       "btn_slug": "steam-cleaner"
     },
     {
@@ -62,7 +62,7 @@
       ],
       "img": "../assets/images/products/04-uv-mite-remover.png",
       "btn_text": "Plus de produits",
-      "btn_href": "en/uv-mite-remover/",
+      "btn_href": "/en/uv-mite-remover/",
       "btn_slug": "uv-mite-remover"
     },
     {
@@ -76,7 +76,7 @@
       ],
       "img": "../assets/images/products/05-window-robot.png",
       "btn_text": "Plus de produits",
-      "btn_href": "en/window-cleaner-robot/",
+      "btn_href": "/en/window-cleaner-robot/",
       "btn_slug": "window-cleaner-robot"
     },
     {
@@ -90,7 +90,7 @@
       ],
       "img": "../assets/images/products/06-car-vacuum.png",
       "btn_text": "Plus de produits",
-      "btn_href": "en/car-vacuum/",
+      "btn_href": "/en/car-vacuum/",
       "btn_slug": "car-vacuum"
     },
     {
@@ -104,7 +104,7 @@
       ],
       "img": "../assets/images/products/07-tire-inflator.png",
       "btn_text": "Plus de produits",
-      "btn_href": "en/tire-inflator/",
+      "btn_href": "/en/tire-inflator/",
       "btn_slug": "tire-inflator"
     },
     {
@@ -118,7 +118,7 @@
       ],
       "img": "../assets/images/products/08-coffee-machine.png?v=20260826",
       "btn_text": "Plus de produits",
-      "btn_href": "en/coffee-machine/",
+      "btn_href": "/en/coffee-machine/",
       "btn_slug": "coffee-machine"
     },
     {
@@ -132,35 +132,7 @@
       ],
       "img": "../assets/images/products/09-steam-mop.png?v=20260826",
       "btn_text": "Plus de produits",
-      "btn_href": "en/upright-steam-mop/",
-      "btn_slug": "upright-steam-mop"
-    },
-    {
-      "id": "p10",
-      "name": "Aspirateur Auto Pro",
-      "desc": "Aspirateur voiture 12V haute puissance. 9000Pa, sec/humide, HEPA et LED.",
-      "tags": [
-        "9000Pa",
-        "Sec/Hum.",
-        "HEPA"
-      ],
-      "img": "../assets/images/products/10-car-vacuum-pro.png?v=20260826",
-      "btn_text": "Plus de produits",
-      "btn_href": "en/robot-vacuum/",
-      "btn_slug": "car-vacuum"
-    },
-    {
-      "id": "p11",
-      "name": "Vapeur à Vêtements",
-      "desc": "Vapeur verticale 1800W chauffe rapide. Prête en 30s, semelle céramique, 50 min continu.",
-      "tags": [
-        "1800W",
-        "Prête 30s",
-        "1.8L"
-      ],
-      "img": "../assets/images/products/11-garment-steamer.png?v=20260826",
-      "btn_text": "Plus de produits",
-      "btn_href": "en/robot-vacuum/",
+      "btn_href": "/en/upright-steam-mop/",
       "btn_slug": "upright-steam-mop"
     }
   ],
