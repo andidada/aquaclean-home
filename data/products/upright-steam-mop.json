@@ -2,337 +2,489 @@
   "category": "upright-steam-mop",
   "products": [
     {
-      "id": "sm-700",
+      "id": "qst063",
       "name": {
-        "en": "FloorPro SM-700 Upright Steam Mop",
-        "zh": "FloorPro SM-700 立式蒸汽拖把",
-        "ar": "ممسحة FloorPro SM-700 البخارية العمودية",
-        "es": "Mopa de Vapor FloorPro SM-700",
-        "fr": "Serpilliere a Vapeur FloorPro SM-700",
-        "id": "Pel Uap FloorPro SM-700",
-        "ru": "Паровая швабра FloorPro SM-700",
-        "th": "ถูพื้นไอน้ำ FloorPro SM-700",
-        "vi": "Chet lot hoi nuoc FloorPro SM-700"
+        "en": "QST063 Electric High TemperatureSteam Mop Hotel Floor Steam Mop 800W Steam Cleaner",
+        "zh": "QST063 高温蒸汽拖把（800W / 酒店地板）"
       },
       "tagline": {
-        "en": "100C Steam + Carpet Head — Sanitize All Floor Types",
-        "zh": "100C蒸汽+地毯头 — 全地形地板消毒",
-        "ar": "بخار 100 درجة مئوية + رأس للسجاد — تطهير جميع أنواع الأرضيات",
-        "es": "Vapor a 100C + Cabezal para Alfombra — Desinfecta Todos los Tipos de Suelo",
-        "fr": "Vapeur 100C + Tete Tapis — Desinfecte Tous les Types de Sol",
-        "id": "Uap 100C + Kepala Karpet — Sterilkan Semua Jenis Lantai",
-        "ru": "Пар 100C + насадка для ковра — дезинфекция всех типов полов",
-        "th": "ไอน้ำ 100 องศา + หัวพื้นพรม — ฆ่าเชื้อโรคทุกประเภทพื้น",
-        "vi": "Hoi nuoc 100C + dau danh chan — Khuan trung moi loai san"
+        "en": "400ml · Electric · Steam Mop",
+        "zh": "400ml · Electric · Steam Mop"
       },
       "images": [
-        "https://www.hkdmj.net/assets/images/products/09-steam-mop.png"
+        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/01.jpg",
+        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/02.jpg",
+        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/03.jpg",
+        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/04.jpg",
+        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/05.jpg"
       ],
-      "video_url": "",
+      "video_url": null,
       "moq": {
-        "value": 500,
+        "value": 1,
         "unit": "pieces"
       },
-      "certifications": [
-        "CE",
-        "CB",
-        "ETL"
-      ],
+      "certifications": [],
       "highlights": [
         {
-          "icon": "heat",
+          "icon": "check",
           "text": {
-            "en": "1500W, 100C Steam in 30 Seconds",
-            "zh": "1500W，30秒出蒸汽"
+            "en": "Power Source: Electric",
+            "zh": "Power Source: Electric"
           }
         },
         {
-          "icon": "carpet",
+          "icon": "check",
           "text": {
-            "en": "Detachable Carpet Glider Head Included",
-            "zh": "附带可拆卸地毯滑行头"
+            "en": "type: Steam Mop",
+            "zh": "type: Steam Mop"
           }
         },
         {
-          "icon": "tank",
+          "icon": "check",
           "text": {
-            "en": "500ml Tank, 30min Continuous Steam",
-            "zh": "500ml水箱，持续30分钟蒸汽"
+            "en": "app-controlled: No",
+            "zh": "app-controlled: No"
           }
         },
         {
-          "icon": "chemical",
+          "icon": "check",
           "text": {
-            "en": "100% Chemical-Free Floor Sanitization",
-            "zh": "100%无化学剂地板消毒"
+            "en": "application: Hotel",
+            "zh": "application: Hotel"
           }
         }
       ],
       "specs": [
         {
           "label": {
-            "en": "Power",
-            "zh": "功率"
+            "en": "Power Source",
+            "zh": "Power Source"
           },
-          "value": "1500W"
+          "value": "Electric"
         },
         {
           "label": {
-            "en": "Steam Temp",
-            "zh": "蒸汽温度"
+            "en": "type",
+            "zh": "type"
           },
-          "value": "100C"
+          "value": "Steam Mop"
         },
         {
           "label": {
-            "en": "Heat-Up",
-            "zh": "加热时间"
+            "en": "app-controlled",
+            "zh": "app-controlled"
           },
-          "value": "30 seconds"
+          "value": "No"
         },
         {
           "label": {
-            "en": "Water Tank",
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Hotel"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "High Efficiency"
+        },
+        {
+          "label": {
+            "en": "Material",
+            "zh": "材质"
+          },
+          "value": "Plastic"
+        },
+        {
+          "label": {
+            "en": "operating language",
+            "zh": "operating language"
+          },
+          "value": "English"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Color Box"
+        },
+        {
+          "label": {
+            "en": "power (w)",
+            "zh": "power (w)"
+          },
+          "value": "800 W"
+        },
+        {
+          "label": {
+            "en": "power source",
+            "zh": "power source"
+          },
+          "value": "Electric"
+        },
+        {
+          "label": {
+            "en": "private mold",
+            "zh": "private mold"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "place of origin",
+            "zh": "place of origin"
+          },
+          "value": "CN;GUA"
+        },
+        {
+          "label": {
+            "en": "brand name",
+            "zh": "brand name"
+          },
+          "value": "OEM"
+        },
+        {
+          "label": {
+            "en": "Heating Time",
+            "zh": "Heating Time"
+          },
+          "value": "2min"
+        },
+        {
+          "label": {
+            "en": "Water Tank Capacity",
             "zh": "水箱容量"
           },
-          "value": "500ml"
+          "value": "400ml"
         },
         {
           "label": {
-            "en": "Steam Duration",
-            "zh": "蒸汽持续时间"
+            "en": "model number",
+            "zh": "model number"
           },
-          "value": "30 min"
-        },
-        {
-          "label": {
-            "en": "Steam Control",
-            "zh": "蒸汽控制"
-          },
-          "value": "Trigger + Lock Button"
-        },
-        {
-          "label": {
-            "en": "Mop Pad",
-            "zh": "拖布"
-          },
-          "value": "Microfiber, Washable"
-        },
-        {
-          "label": {
-            "en": "Carpet Head",
-            "zh": "地毯头"
-          },
-          "value": "Detachable, Included"
-        },
-        {
-          "label": {
-            "en": "Cord Length",
-            "zh": "电源线"
-          },
-          "value": "5m"
-        },
-        {
-          "label": {
-            "en": "MOQ",
-            "zh": "最小起订量"
-          },
-          "value": "500 pcs"
+          "value": "QST063"
         }
       ],
       "packaging": {
-        "unit": "color box",
-        "ctn_size": "45x32x18cm",
-        "ctn_qty": "12 pcs",
-        "gross_weight": "15kg"
+        "unit": "Color Box"
       },
-      "customization": {
-        "oem": true,
-        "odm": true,
-        "logo": true,
-        "color": true,
-        "package": true,
-        "sample_lead": "7-14 days",
-        "production_lead": "25-35 days"
-      },
+      "customization": {},
       "applications": {
-        "en": "Home, Car, Office, Kitchen",
-        "zh": "家庭, 汽车, 办公室, 厨房"
+        "en": "",
+        "zh": ""
       },
-      "price_indicator": {
-        "min": 38,
-        "max": 68,
-        "currency": "USD"
-      },
+      "price_indicator": null,
       "quick_specs": [
         {
           "label": {
-            "en": "Power",
-            "zh": "功率"
+            "en": "Power Source",
+            "zh": "Power Source"
+          },
+          "value": "Electric"
+        },
+        {
+          "label": {
+            "en": "type",
+            "zh": "type"
+          },
+          "value": "Steam Mop"
+        },
+        {
+          "label": {
+            "en": "app-controlled",
+            "zh": "app-controlled"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Hotel"
+        }
+      ],
+      "price_ladder": [],
+      "sku": "1601842693924",
+      "description": {
+        "en": "400ml · Electric · Steam Mop. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "400ml · Electric · Steam Mop。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+      },
+      "supplier_rating": null,
+      "response_time": null,
+      "transactions": null,
+      "years": null,
+      "ship_from": null,
+      "sample": null,
+      "category_name": {
+        "en": "Upright Steam Mops",
+        "zh": "立式蒸汽拖把"
+      },
+      "_source": {
+        "platform": "alibaba.com",
+        "productId": "1601842693924"
+      },
+      "_cat": "upright-steam-mop"
+    },
+    {
+      "id": "qjj071",
+      "name": {
+        "en": "1500W Handheld High Pressure Steam Mop 1.5-2.6Bar 20s Fast Heat 380ml Dual Tank 4M Cord 2.4KG Compact Design Household Use",
+        "zh": "QJJ071 高压蒸汽拖把（1500W / 1.5–2.6Bar / 380ml 双水箱）"
+      },
+      "tagline": {
+        "en": "380ML · Handheld · No",
+        "zh": "380ML · Handheld · No"
+      },
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qjj071/01.jpg",
+        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qjj071/02.jpg",
+        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qjj071/03.jpg",
+        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qjj071/04.jpg",
+        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qjj071/05.jpg",
+        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qjj071/06.jpg"
+      ],
+      "video_url": null,
+      "moq": {
+        "value": 1,
+        "unit": "pieces"
+      },
+      "certifications": [],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": {
+            "en": "type: Handheld",
+            "zh": "type: Handheld"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "after-sales service provided: Overseas Call Centers",
+            "zh": "after-sales service provided: Overseas Call Centers"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "app-controlled: No",
+            "zh": "app-controlled: No"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "application: Hotel",
+            "zh": "application: Hotel"
+          }
+        }
+      ],
+      "specs": [
+        {
+          "label": {
+            "en": "type",
+            "zh": "type"
+          },
+          "value": "Handheld"
+        },
+        {
+          "label": {
+            "en": "after-sales service provided",
+            "zh": "after-sales service provided"
+          },
+          "value": "Overseas Call Centers"
+        },
+        {
+          "label": {
+            "en": "app-controlled",
+            "zh": "app-controlled"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Hotel"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Household"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Dual Tank"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Compact Design"
+        },
+        {
+          "label": {
+            "en": "operating language",
+            "zh": "operating language"
+          },
+          "value": "English"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Corrugated Box"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Color Box"
+        },
+        {
+          "label": {
+            "en": "power source",
+            "zh": "power source"
+          },
+          "value": "Electric"
+        },
+        {
+          "label": {
+            "en": "private mold",
+            "zh": "private mold"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "warranty",
+            "zh": "warranty"
+          },
+          "value": "1 Year"
+        },
+        {
+          "label": {
+            "en": "place of origin",
+            "zh": "place of origin"
+          },
+          "value": "CN"
+        },
+        {
+          "label": {
+            "en": "brand name",
+            "zh": "brand name"
+          },
+          "value": "OEM"
+        },
+        {
+          "label": {
+            "en": "Heating Time",
+            "zh": "Heating Time"
+          },
+          "value": "20S"
+        },
+        {
+          "label": {
+            "en": "Material",
+            "zh": "材质"
+          },
+          "value": "ABS"
+        },
+        {
+          "label": {
+            "en": "power (w)",
+            "zh": "power (w)"
           },
           "value": "1500W"
         },
         {
           "label": {
-            "en": "Steam Temp",
-            "zh": "蒸汽温度"
-          },
-          "value": "100C"
-        },
-        {
-          "label": {
-            "en": "Heat-Up",
-            "zh": "加热时间"
-          },
-          "value": "30 seconds"
-        },
-        {
-          "label": {
-            "en": "Water Tank",
+            "en": "Water Tank Capacity",
             "zh": "水箱容量"
           },
-          "value": "500ml"
-        }
-      ],
-      "price_ladder": [
-        {
-          "min": 500,
-          "max": 999,
-          "price": 68
+          "value": "380ML"
         },
         {
-          "min": 1000,
-          "max": null,
-          "price": 38
-        }
-      ],
-      "sku": [
-        {
-          "name": {
-            "en": "Color",
-            "zh": "颜色"
+          "label": {
+            "en": "model number",
+            "zh": "model number"
           },
-          "values": [
-            {
-              "name": "White",
-              "color": "#F3F4F6"
-            },
-            {
-              "name": "Grey",
-              "color": "#9CA3AF"
-            }
-          ]
+          "value": "QJJ071"
         }
       ],
+      "packaging": {
+        "unit": "Color Box"
+      },
+      "customization": {},
+      "applications": {
+        "en": "",
+        "zh": ""
+      },
+      "price_indicator": null,
+      "quick_specs": [
+        {
+          "label": {
+            "en": "type",
+            "zh": "type"
+          },
+          "value": "Handheld"
+        },
+        {
+          "label": {
+            "en": "after-sales service provided",
+            "zh": "after-sales service provided"
+          },
+          "value": "Overseas Call Centers"
+        },
+        {
+          "label": {
+            "en": "app-controlled",
+            "zh": "app-controlled"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Hotel"
+        }
+      ],
+      "price_ladder": [],
+      "sku": "1601857978782",
       "description": {
-        "en": "Our upright steam mops clean and sanitize hard floors with high-temperature steam — no chemicals needed. The lightweight design glides effortlessly while delivering powerful steam for streak-free results.\n\nFeatures include 30-second heat-up, 1500W power, adjustable steam control, washable microfiber pads, and a 5-meter cord for large rooms. The swivel head reaches under furniture with ease, and the dual water tank allows continuous use.\n\nWe support OEM/ODM services: custom colors, branding, and packaging. MOQ 300 units, production lead time 25-35 days.",
-        "zh": "我们的立式蒸汽拖把利用高温蒸汽清洁和消毒硬质地板，无需化学清洁剂。轻量化设计轻松滑行，强劲蒸汽带来无水痕效果。\n\n功能包括30秒加热、1500W功率、可调蒸汽控制、可水洗超细纤维拖布和5米电源线。旋转头轻松深入家具底部，双水箱支持连续使用。\n\n我们支持OEM/ODM服务：定制颜色、品牌和包装。最小起订量300台，大货交期25-35天。",
-        "ar": "Our upright steam mops clean and sanitize hard floors with high-temperature steam — no chemicals needed. The lightweight design glides effortlessly while delivering powerful steam for streak-free results.\n\nFeatures include 30-second heat-up, 1500W power, adjustable steam control, washable microfiber pads, and a 5-meter cord for large rooms. The swivel head reaches under furniture with ease, and the dual water tank allows continuous use.\n\nWe support OEM/ODM services: custom colors, branding, and packaging. MOQ 300 units, production lead time 25-35 days.",
-        "es": "Our upright steam mops clean and sanitize hard floors with high-temperature steam — no chemicals needed. The lightweight design glides effortlessly while delivering powerful steam for streak-free results.\n\nFeatures include 30-second heat-up, 1500W power, adjustable steam control, washable microfiber pads, and a 5-meter cord for large rooms. The swivel head reaches under furniture with ease, and the dual water tank allows continuous use.\n\nWe support OEM/ODM services: custom colors, branding, and packaging. MOQ 300 units, production lead time 25-35 days.",
-        "fr": "Our upright steam mops clean and sanitize hard floors with high-temperature steam — no chemicals needed. The lightweight design glides effortlessly while delivering powerful steam for streak-free results.\n\nFeatures include 30-second heat-up, 1500W power, adjustable steam control, washable microfiber pads, and a 5-meter cord for large rooms. The swivel head reaches under furniture with ease, and the dual water tank allows continuous use.\n\nWe support OEM/ODM services: custom colors, branding, and packaging. MOQ 300 units, production lead time 25-35 days.",
-        "id": "Our upright steam mops clean and sanitize hard floors with high-temperature steam — no chemicals needed. The lightweight design glides effortlessly while delivering powerful steam for streak-free results.\n\nFeatures include 30-second heat-up, 1500W power, adjustable steam control, washable microfiber pads, and a 5-meter cord for large rooms. The swivel head reaches under furniture with ease, and the dual water tank allows continuous use.\n\nWe support OEM/ODM services: custom colors, branding, and packaging. MOQ 300 units, production lead time 25-35 days.",
-        "ru": "Our upright steam mops clean and sanitize hard floors with high-temperature steam — no chemicals needed. The lightweight design glides effortlessly while delivering powerful steam for streak-free results.\n\nFeatures include 30-second heat-up, 1500W power, adjustable steam control, washable microfiber pads, and a 5-meter cord for large rooms. The swivel head reaches under furniture with ease, and the dual water tank allows continuous use.\n\nWe support OEM/ODM services: custom colors, branding, and packaging. MOQ 300 units, production lead time 25-35 days.",
-        "th": "Our upright steam mops clean and sanitize hard floors with high-temperature steam — no chemicals needed. The lightweight design glides effortlessly while delivering powerful steam for streak-free results.\n\nFeatures include 30-second heat-up, 1500W power, adjustable steam control, washable microfiber pads, and a 5-meter cord for large rooms. The swivel head reaches under furniture with ease, and the dual water tank allows continuous use.\n\nWe support OEM/ODM services: custom colors, branding, and packaging. MOQ 300 units, production lead time 25-35 days.",
-        "vi": "Our upright steam mops clean and sanitize hard floors with high-temperature steam — no chemicals needed. The lightweight design glides effortlessly while delivering powerful steam for streak-free results.\n\nFeatures include 30-second heat-up, 1500W power, adjustable steam control, washable microfiber pads, and a 5-meter cord for large rooms. The swivel head reaches under furniture with ease, and the dual water tank allows continuous use.\n\nWe support OEM/ODM services: custom colors, branding, and packaging. MOQ 300 units, production lead time 25-35 days."
+        "en": "380ML · Handheld · No. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "380ML · Handheld · No。支持 OEM/ODM 定制，规格取自供应商商品资料。"
       },
-      "supplier_rating": "4.8",
-      "response_time": "≤ 2h",
-      "transactions": "US $100K+",
-      "years": "10+",
-      "ship_from": {
-        "en": "Ningbo, China",
-        "zh": "中国宁波"
-      },
-      "sample": {
-        "enabled": true,
-        "qty": 5,
-        "note": "Sample available, lead 7-14 days"
-      },
+      "supplier_rating": null,
+      "response_time": null,
+      "transactions": null,
+      "years": null,
+      "ship_from": null,
+      "sample": null,
       "category_name": {
-        "en": "Upright Steam Mop",
-        "zh": "立式蒸汽拖把",
-        "ar": "ممسحة بخار عمودية",
-        "es": "Mopa de Vapor Vertical",
-        "fr": "Serpilliere a Vapeur Verticale",
-        "id": "Pel Uap Tegak",
-        "ru": "Versskaya parovaya shvabra",
-        "th": "ถูพื้นไอน้ำแนวตั้ง",
-        "vi": "Chet lot hoi nuoc dung doc"
+        "en": "Upright Steam Mops",
+        "zh": "立式蒸汽拖把"
       },
-      "_schema_reviews": [
-        {
-          "@type": "Review",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "Sandra Kim",
-            "address": {
-              "@type": "PostalAddress",
-              "addressLocality": "Seoul, South Korea"
-            }
-          },
-          "datePublished": "2025-11-12",
-          "reviewBody": "With two toddlers on the floor all day, chemical residues were a big concern. This steam mop uses only water and heats to 145°C, killing 99.9% of bacteria. The washable microfiber pad lasts through dozens of washes. See the steam action photos.",
-          "name": "Cleans and sanitizes all hard floors in one pass — no chemicals needed",
-          "image": [
-            "https://www.hkdmj.net/assets/images/products/upright-steam-mop/usm-1.jpg",
-            "https://www.hkdmj.net/assets/images/products/upright-steam-mop/usm-2.jpg"
-          ]
-        },
-        {
-          "@type": "Review",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "Robert Green",
-            "address": {
-              "@type": "PostalAddress",
-              "addressLocality": "London, UK"
-            }
-          },
-          "datePublished": "2025-10-08",
-          "reviewBody": "We run a 20-room boutique hotel and needed something more robust than consumer steam mops. This commercial unit has a 1.6L tank and 2500W heating element. The steam is ready in 30 seconds and it continuously for 30 minutes. The carpet glider attachment is included.",
-          "name": "Heavier commercial model is worth it — cleans our entire hotel in 40 minutes",
-          "image": [
-            "https://www.hkdmj.net/assets/images/products/upright-steam-mop/usm-3.jpg",
-            "https://www.hkdmj.net/assets/images/products/upright-steam-mop/usm-4.jpg"
-          ]
-        },
-        {
-          "@type": "Review",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "4",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "Marie Dubois",
-            "address": {
-              "@type": "PostalAddress",
-              "addressLocality": "Paris, France"
-            }
-          },
-          "datePublished": "2025-07-27",
-          "reviewBody": "The triangular head reaches corners and the low profile (6cm) slides under our beds and sofas. The 360° swivel head makes it easy to navigate around chair legs. Steam power is adjustable between 2 levels. The 280ml water tank lasts about 20 minutes.",
-          "name": "Lightweight and maneuverable — cleans under furniture with the low-profile head",
-          "image": [
-            "https://www.hkdmj.net/assets/images/products/upright-steam-mop/usm-5.jpg",
-            "https://www.hkdmj.net/assets/images/products/upright-steam-mop/usm-6.jpg"
-          ]
-        }
-      ]
+      "_source": {
+        "platform": "alibaba.com",
+        "productId": "1601857978782"
+      },
+      "_cat": "upright-steam-mop"
     }
   ],
   "reviews": [
