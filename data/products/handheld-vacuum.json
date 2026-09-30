@@ -378,8 +378,8 @@
         "zh": "37000Pa 便携手持吸尘器（CE/FCC）"
       },
       "tagline": {
-        "en": "37000Pa · 20-65mins · Brushless Motor",
-        "zh": "37000Pa · 20-65mins · Brushless Motor"
+        "en": "37000Pa · 550W · 20-65mins",
+        "zh": "37000Pa · 550W · 20-65mins"
       },
       "images": [
         "https://www.hkdmj.net/assets/images/products/handheld-vacuum-v22/01.jpg",
@@ -400,28 +400,28 @@
           "icon": "check",
           "text": {
             "en": "Suction Power: 37000Pa",
-            "zh": "Suction Power: 37000Pa"
+            "zh": "吸力: 37000Pa"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "Air Power: 230AW",
-            "zh": "Air Power: 230AW"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Battery capacity: 2200mAh",
-            "zh": "Battery capacity: 2200mAh"
+            "en": "Power (W): 550W",
+            "zh": "功率(W): 550W"
           }
         },
         {
           "icon": "check",
           "text": {
             "en": "Runtime: 20-65mins",
-            "zh": "Runtime: 20-65mins"
+            "zh": "续航时间: 20-65mins"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Maximum Runtime: 30-60 min",
+            "zh": "最长续航: 30-60 min"
           }
         }
       ],
@@ -726,17 +726,10 @@
         },
         {
           "label": {
-            "en": "Air Power",
-            "zh": "Air Power"
+            "en": "Power (W)",
+            "zh": "功率(W)"
           },
-          "value": "230AW"
-        },
-        {
-          "label": {
-            "en": "Battery capacity",
-            "zh": "Battery capacity"
-          },
-          "value": "2200mAh"
+          "value": "550W"
         },
         {
           "label": {
@@ -744,13 +737,20 @@
             "zh": "续航时间"
           },
           "value": "20-65mins"
+        },
+        {
+          "label": {
+            "en": "Maximum Runtime",
+            "zh": "最长续航"
+          },
+          "value": "30-60 min"
         }
       ],
       "price_ladder": [],
       "sku": "1601690778053",
       "description": {
-        "en": "37000Pa · 20-65mins · Brushless Motor. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "37000Pa · 20-65mins · Brushless Motor。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+        "en": "37000Pa · 550W · 20-65mins. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "37000Pa · 550W · 20-65mins。支持 OEM/ODM 定制，规格取自供应商商品资料。"
       },
       "supplier_rating": "4.8",
       "response_time": "≤ 2h",
@@ -782,8 +782,8 @@
         "zh": "OEM/ODM 40000Pa 无刷立式吸尘器（HEPA）"
       },
       "tagline": {
-        "en": "40000Pa · 20-65mins · Brushless Motor",
-        "zh": "40000Pa · 20-65mins · Brushless Motor"
+        "en": "40000Pa · 35W · 1.2 L",
+        "zh": "40000Pa · 35W · 1.2 L"
       },
       "images": [
         "https://www.hkdmj.net/assets/images/products/handheld-vacuum-v22-2/01.jpg",
@@ -804,28 +804,28 @@
           "icon": "check",
           "text": {
             "en": "Suction Power: 40000Pa",
-            "zh": "Suction Power: 40000Pa"
+            "zh": "吸力: 40000Pa"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "Air Power: 230AW",
-            "zh": "Air Power: 230AW"
+            "en": "Power (W): 35W",
+            "zh": "功率(W): 35W"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "Battery capacity: 2200mAh",
-            "zh": "Battery capacity: 2200mAh"
+            "en": "Capacity: 1.2 L",
+            "zh": "容量: 1.2 L"
           }
         },
         {
           "icon": "check",
           "text": {
             "en": "Runtime: 20-65mins",
-            "zh": "Runtime: 20-65mins"
+            "zh": "续航时间: 20-65mins"
           }
         }
       ],
@@ -1130,17 +1130,17 @@
         },
         {
           "label": {
-            "en": "Air Power",
-            "zh": "Air Power"
+            "en": "Power (W)",
+            "zh": "功率(W)"
           },
-          "value": "230AW"
+          "value": "35W"
         },
         {
           "label": {
-            "en": "Battery capacity",
-            "zh": "Battery capacity"
+            "en": "Capacity",
+            "zh": "容量"
           },
-          "value": "2200mAh"
+          "value": "1.2 L"
         },
         {
           "label": {
@@ -1153,8 +1153,8 @@
       "price_ladder": [],
       "sku": "1601715098186",
       "description": {
-        "en": "40000Pa · 20-65mins · Brushless Motor. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "40000Pa · 20-65mins · Brushless Motor。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+        "en": "40000Pa · 35W · 1.2 L. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "40000Pa · 35W · 1.2 L。支持 OEM/ODM 定制，规格取自供应商商品资料。"
       },
       "supplier_rating": "4.8",
       "response_time": "≤ 2h",
@@ -1186,8 +1186,8 @@
         "zh": "热销干式无刷立式吸尘器（地板/地毯）"
       },
       "tagline": {
-        "en": "30-60 min · ＞200 AW · Cyclone",
-        "zh": "30-60 min · ＞200 AW · Cyclone"
+        "en": "550W · 1.0 L · 30-60 min",
+        "zh": "550W · 1.0 L · 30-60 min"
       },
       "images": [
         "https://www.hkdmj.net/assets/images/products/handheld-vacuum-gv22/01.jpg",
@@ -1207,29 +1207,29 @@
         {
           "icon": "check",
           "text": {
-            "en": "function: OLED Display Screen",
-            "zh": "function: OLED Display Screen"
+            "en": "Power (W): 550W",
+            "zh": "功率(W): 550W"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "maximum runtime: 30-60 min",
-            "zh": "maximum runtime: 30-60 min"
+            "en": "Capacity: 1.0 L",
+            "zh": "容量: 1.0 L"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "suction power (airwatts): ＞200 AW",
-            "zh": "suction power (airwatts): ＞200 AW"
+            "en": "Maximum Runtime: 30-60 min",
+            "zh": "最长续航: 30-60 min"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "type: Cyclone",
-            "zh": "type: Cyclone"
+            "en": "Motor Type: Brushless Motor",
+            "zh": "电机类型: Brushless Motor"
           }
         }
       ],
@@ -1460,38 +1460,38 @@
       "quick_specs": [
         {
           "label": {
-            "en": "function",
-            "zh": "function"
+            "en": "Power (W)",
+            "zh": "功率(W)"
           },
-          "value": "OLED Display Screen"
+          "value": "550W"
         },
         {
           "label": {
-            "en": "maximum runtime",
-            "zh": "maximum runtime"
+            "en": "Capacity",
+            "zh": "容量"
+          },
+          "value": "1.0 L"
+        },
+        {
+          "label": {
+            "en": "Maximum Runtime",
+            "zh": "最长续航"
           },
           "value": "30-60 min"
         },
         {
           "label": {
-            "en": "suction power (airwatts)",
-            "zh": "suction power (airwatts)"
+            "en": "Motor Type",
+            "zh": "电机类型"
           },
-          "value": "＞200 AW"
-        },
-        {
-          "label": {
-            "en": "type",
-            "zh": "type"
-          },
-          "value": "Cyclone"
+          "value": "Brushless Motor"
         }
       ],
       "price_ladder": [],
       "sku": "1601719491601",
       "description": {
-        "en": "30-60 min · ＞200 AW · Cyclone. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "30-60 min · ＞200 AW · Cyclone。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+        "en": "550W · 1.0 L · 30-60 min. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "550W · 1.0 L · 30-60 min。支持 OEM/ODM 定制，规格取自供应商商品资料。"
       },
       "supplier_rating": "4.8",
       "response_time": "≤ 2h",
@@ -1523,8 +1523,8 @@
         "zh": "60 分钟续航无刷无线立式吸尘器（40KPa）"
       },
       "tagline": {
-        "en": "2200mAh · Battery · Li-ion Battery",
-        "zh": "2200mAh · Battery · Li-ion Battery"
+        "en": "800W · 1.2L · 30-60 min",
+        "zh": "800W · 1.2L · 30-60 min"
       },
       "images": [
         "https://www.hkdmj.net/assets/images/products/handheld-vacuum-v26/01.jpg",
@@ -1544,29 +1544,29 @@
         {
           "icon": "check",
           "text": {
-            "en": "Power Source: Battery",
-            "zh": "Power Source: Battery"
+            "en": "Power (W): 800W",
+            "zh": "功率(W): 800W"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "Battery: Li-ion Battery",
-            "zh": "Battery: Li-ion Battery"
+            "en": "Capacity: 1.2L",
+            "zh": "容量: 1.2L"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Maximum Runtime: 30-60 min",
+            "zh": "最长续航: 30-60 min"
           }
         },
         {
           "icon": "check",
           "text": {
             "en": "Battery Capacity: 2200mAh",
-            "zh": "Battery Capacity: 2200mAh"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Keywords: Cordless Vcuum Cleaner",
-            "zh": "Keywords: Cordless Vcuum Cleaner"
+            "zh": "电池容量: 2200mAh"
           }
         }
       ],
@@ -1836,17 +1836,24 @@
       "quick_specs": [
         {
           "label": {
-            "en": "Power Source",
-            "zh": "Power Source"
+            "en": "Power (W)",
+            "zh": "功率(W)"
           },
-          "value": "Battery"
+          "value": "800W"
         },
         {
           "label": {
-            "en": "Battery",
-            "zh": "Battery"
+            "en": "Capacity",
+            "zh": "容量"
           },
-          "value": "Li-ion Battery"
+          "value": "1.2L"
+        },
+        {
+          "label": {
+            "en": "Maximum Runtime",
+            "zh": "最长续航"
+          },
+          "value": "30-60 min"
         },
         {
           "label": {
@@ -1854,20 +1861,13 @@
             "zh": "电池容量"
           },
           "value": "2200mAh"
-        },
-        {
-          "label": {
-            "en": "Keywords",
-            "zh": "Keywords"
-          },
-          "value": "Cordless Vcuum Cleaner"
         }
       ],
       "price_ladder": [],
       "sku": "1601799172634",
       "description": {
-        "en": "2200mAh · Battery · Li-ion Battery. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "2200mAh · Battery · Li-ion Battery。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+        "en": "800W · 1.2L · 30-60 min. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "800W · 1.2L · 30-60 min。支持 OEM/ODM 定制，规格取自供应商商品资料。"
       },
       "supplier_rating": "4.8",
       "response_time": "≤ 2h",
@@ -1899,8 +1899,8 @@
         "zh": "PV18 无线立式吸尘器（轻量强吸力）"
       },
       "tagline": {
-        "en": "Dry · 30-60 min · No",
-        "zh": "Dry · 30-60 min · No"
+        "en": "550 W · 30-60 min · 1.2L",
+        "zh": "550 W · 30-60 min · 1.2L"
       },
       "images": [
         "https://www.hkdmj.net/assets/images/products/handheld-vacuum-pv18/01.jpg",
@@ -1920,29 +1920,29 @@
         {
           "icon": "check",
           "text": {
-            "en": "Function: Dry",
-            "zh": "Function: Dry"
+            "en": "Power (W): 550 W",
+            "zh": "功率(W): 550 W"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "Function: With LED Lights",
-            "zh": "Function: With LED Lights"
+            "en": "Maximum Runtime: 30-60 min",
+            "zh": "最长续航: 30-60 min"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "maximum runtime: 30-60 min",
-            "zh": "maximum runtime: 30-60 min"
+            "en": "Dust capacity: 1.2L",
+            "zh": "尘杯容量: 1.2L"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "after-sales service provided: Return and Replacement",
-            "zh": "after-sales service provided: Return and Replacement"
+            "en": "Motor Type: Brushless Motor",
+            "zh": "电机类型: Brushless Motor"
           }
         }
       ],
@@ -2145,38 +2145,38 @@
       "quick_specs": [
         {
           "label": {
-            "en": "Function",
-            "zh": "功能"
+            "en": "Power (W)",
+            "zh": "功率(W)"
           },
-          "value": "Dry"
+          "value": "550 W"
         },
         {
           "label": {
-            "en": "Function",
-            "zh": "功能"
-          },
-          "value": "With LED Lights"
-        },
-        {
-          "label": {
-            "en": "maximum runtime",
-            "zh": "maximum runtime"
+            "en": "Maximum Runtime",
+            "zh": "最长续航"
           },
           "value": "30-60 min"
         },
         {
           "label": {
-            "en": "after-sales service provided",
-            "zh": "after-sales service provided"
+            "en": "Dust capacity",
+            "zh": "尘杯容量"
           },
-          "value": "Return and Replacement"
+          "value": "1.2L"
+        },
+        {
+          "label": {
+            "en": "Motor Type",
+            "zh": "电机类型"
+          },
+          "value": "Brushless Motor"
         }
       ],
       "price_ladder": [],
       "sku": "1601835508524",
       "description": {
-        "en": "Dry · 30-60 min · No. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "Dry · 30-60 min · No。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+        "en": "550 W · 30-60 min · 1.2L. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "550 W · 30-60 min · 1.2L。支持 OEM/ODM 定制，规格取自供应商商品资料。"
       },
       "supplier_rating": "4.8",
       "response_time": "≤ 2h",
@@ -2208,8 +2208,8 @@
         "zh": "400W 无线手持吸尘器（电池驱动）"
       },
       "tagline": {
-        "en": "High Power Motor · Dust Cup · Low Noise",
-        "zh": "High Power Motor · Dust Cup · Low Noise"
+        "en": "450 W · 1.2L · 30-60 min",
+        "zh": "450 W · 1.2L · 30-60 min"
       },
       "images": [
         "https://www.hkdmj.net/assets/images/products/handheld-vacuum-v18/01.jpg",
@@ -2229,29 +2229,29 @@
         {
           "icon": "check",
           "text": {
-            "en": "Product Name: Cordless Handheld Vacuum Cleaner",
-            "zh": "Product Name: Cordless Handheld Vacuum Cleaner"
+            "en": "Power (W): 450 W",
+            "zh": "功率(W): 450 W"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "Type: Handheld Vacuum Cleaner",
-            "zh": "Type: Handheld Vacuum Cleaner"
+            "en": "Capacity: 1.2L",
+            "zh": "容量: 1.2L"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "Function: Vacuum Cleaning",
-            "zh": "Function: Vacuum Cleaning"
+            "en": "Maximum Runtime: 30-60 min",
+            "zh": "最长续航: 30-60 min"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "Application: Home Car Office Hotel",
-            "zh": "Application: Home Car Office Hotel"
+            "en": "Motor Type: High Power Motor",
+            "zh": "电机类型: High Power Motor"
           }
         }
       ],
@@ -2535,38 +2535,38 @@
       "quick_specs": [
         {
           "label": {
-            "en": "Product Name",
-            "zh": "产品名称"
+            "en": "Power (W)",
+            "zh": "功率(W)"
           },
-          "value": "Cordless Handheld Vacuum Cleaner"
+          "value": "450 W"
         },
         {
           "label": {
-            "en": "Type",
-            "zh": "类型"
+            "en": "Capacity",
+            "zh": "容量"
           },
-          "value": "Handheld Vacuum Cleaner"
+          "value": "1.2L"
         },
         {
           "label": {
-            "en": "Function",
-            "zh": "功能"
+            "en": "Maximum Runtime",
+            "zh": "最长续航"
           },
-          "value": "Vacuum Cleaning"
+          "value": "30-60 min"
         },
         {
           "label": {
-            "en": "Application",
-            "zh": "适用场景"
+            "en": "Motor Type",
+            "zh": "电机类型"
           },
-          "value": "Home Car Office Hotel"
+          "value": "High Power Motor"
         }
       ],
       "price_ladder": [],
       "sku": "1601845096939",
       "description": {
-        "en": "High Power Motor · Dust Cup · Low Noise. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "High Power Motor · Dust Cup · Low Noise。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+        "en": "450 W · 1.2L · 30-60 min. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "450 W · 1.2L · 30-60 min。支持 OEM/ODM 定制，规格取自供应商商品资料。"
       },
       "supplier_rating": "4.8",
       "response_time": "≤ 2h",
@@ -2598,8 +2598,8 @@
         "zh": "600W 有线立式吸尘器（16KPa / 5m 线长）"
       },
       "tagline": {
-        "en": "Battery · Dry · 30-60 min",
-        "zh": "Battery · Dry · 30-60 min"
+        "en": "600 W · 0.5 L · 30-60 min",
+        "zh": "600 W · 0.5 L · 30-60 min"
       },
       "images": [
         "https://www.hkdmj.net/assets/images/products/handheld-vacuum-c703c/01.jpg",
@@ -2619,29 +2619,29 @@
         {
           "icon": "check",
           "text": {
-            "en": "Power Source: Battery",
-            "zh": "Power Source: Battery"
+            "en": "Power (W): 600 W",
+            "zh": "功率(W): 600 W"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "function: Dry",
-            "zh": "function: Dry"
+            "en": "Capacity: 0.5 L",
+            "zh": "容量: 0.5 L"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "function: Laser Dust Illumination",
-            "zh": "function: Laser Dust Illumination"
+            "en": "Maximum Runtime: 30-60 min",
+            "zh": "最长续航: 30-60 min"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "function: OLED Display Screen",
-            "zh": "function: OLED Display Screen"
+            "en": "Motor Type: Brush Motor",
+            "zh": "电机类型: Brush Motor"
           }
         }
       ],
@@ -2939,38 +2939,38 @@
       "quick_specs": [
         {
           "label": {
-            "en": "Power Source",
-            "zh": "Power Source"
+            "en": "Power (W)",
+            "zh": "功率(W)"
           },
-          "value": "Battery"
+          "value": "600 W"
         },
         {
           "label": {
-            "en": "function",
-            "zh": "function"
+            "en": "Capacity",
+            "zh": "容量"
           },
-          "value": "Dry"
+          "value": "0.5 L"
         },
         {
           "label": {
-            "en": "function",
-            "zh": "function"
+            "en": "Maximum Runtime",
+            "zh": "最长续航"
           },
-          "value": "Laser Dust Illumination"
+          "value": "30-60 min"
         },
         {
           "label": {
-            "en": "function",
-            "zh": "function"
+            "en": "Motor Type",
+            "zh": "电机类型"
           },
-          "value": "OLED Display Screen"
+          "value": "Brush Motor"
         }
       ],
       "price_ladder": [],
       "sku": "1601847256108",
       "description": {
-        "en": "Battery · Dry · 30-60 min. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "Battery · Dry · 30-60 min。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+        "en": "600 W · 0.5 L · 30-60 min. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "600 W · 0.5 L · 30-60 min。支持 OEM/ODM 定制，规格取自供应商商品资料。"
       },
       "supplier_rating": "4.8",
       "response_time": "≤ 2h",
@@ -3002,8 +3002,8 @@
         "zh": "OEM/ODM 26000Pa 无刷手持吸尘器（HEPA）"
       },
       "tagline": {
-        "en": "Dry · 30-60 min · 151-180 AW",
-        "zh": "Dry · 30-60 min · 151-180 AW"
+        "en": "350 W · 30-60 min · 0.8 L",
+        "zh": "350 W · 30-60 min · 0.8 L"
       },
       "images": [
         "https://www.hkdmj.net/assets/images/products/handheld-vacuum-qw3013/01.jpg",
@@ -3023,29 +3023,29 @@
         {
           "icon": "check",
           "text": {
-            "en": "Function: Dry",
-            "zh": "Function: Dry"
+            "en": "Power (W): 350 W",
+            "zh": "功率(W): 350 W"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "Function: With LED Lights",
-            "zh": "Function: With LED Lights"
+            "en": "Maximum Runtime: 30-60 min",
+            "zh": "最长续航: 30-60 min"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "maximum runtime: 30-60 min",
-            "zh": "maximum runtime: 30-60 min"
+            "en": "Dust capacity: 0.8 L",
+            "zh": "尘杯容量: 0.8 L"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "suction power (airwatts): 151-180 AW",
-            "zh": "suction power (airwatts): 151-180 AW"
+            "en": "Motor Type: Brushless Motor",
+            "zh": "电机类型: Brushless Motor"
           }
         }
       ],
@@ -3273,38 +3273,38 @@
       "quick_specs": [
         {
           "label": {
-            "en": "Function",
-            "zh": "功能"
+            "en": "Power (W)",
+            "zh": "功率(W)"
           },
-          "value": "Dry"
+          "value": "350 W"
         },
         {
           "label": {
-            "en": "Function",
-            "zh": "功能"
-          },
-          "value": "With LED Lights"
-        },
-        {
-          "label": {
-            "en": "maximum runtime",
-            "zh": "maximum runtime"
+            "en": "Maximum Runtime",
+            "zh": "最长续航"
           },
           "value": "30-60 min"
         },
         {
           "label": {
-            "en": "suction power (airwatts)",
-            "zh": "suction power (airwatts)"
+            "en": "Dust capacity",
+            "zh": "尘杯容量"
           },
-          "value": "151-180 AW"
+          "value": "0.8 L"
+        },
+        {
+          "label": {
+            "en": "Motor Type",
+            "zh": "电机类型"
+          },
+          "value": "Brushless Motor"
         }
       ],
       "price_ladder": [],
       "sku": "1601866709310",
       "description": {
-        "en": "Dry · 30-60 min · 151-180 AW. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "Dry · 30-60 min · 151-180 AW。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+        "en": "350 W · 30-60 min · 0.8 L. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "350 W · 30-60 min · 0.8 L。支持 OEM/ODM 定制，规格取自供应商商品资料。"
       },
       "supplier_rating": "4.8",
       "response_time": "≤ 2h",
@@ -3336,8 +3336,8 @@
         "zh": "OEM 100W 无线干式立式吸尘器（0.8L）"
       },
       "tagline": {
-        "en": "Dry · 30-60 min · 151-180 AW",
-        "zh": "Dry · 30-60 min · 151-180 AW"
+        "en": "0.8 L · 30-60 min · Brushless Motor",
+        "zh": "0.8 L · 30-60 min · Brushless Motor"
       },
       "images": [
         "https://www.hkdmj.net/assets/images/products/handheld-vacuum-qw3011/01.jpg",
@@ -3357,29 +3357,29 @@
         {
           "icon": "check",
           "text": {
-            "en": "function: Dry",
-            "zh": "function: Dry"
+            "en": "Capacity: 0.8 L",
+            "zh": "容量: 0.8 L"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "maximum runtime: 30-60 min",
-            "zh": "maximum runtime: 30-60 min"
+            "en": "Maximum Runtime: 30-60 min",
+            "zh": "最长续航: 30-60 min"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "suction power (airwatts): 151-180 AW",
-            "zh": "suction power (airwatts): 151-180 AW"
+            "en": "Motor Type: Brushless Motor",
+            "zh": "电机类型: Brushless Motor"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "type: Cyclone",
-            "zh": "type: Cyclone"
+            "en": "Battery Type: Lithium-Ion Battery",
+            "zh": "电池类型: Lithium-Ion Battery"
           }
         }
       ],
@@ -3565,38 +3565,38 @@
       "quick_specs": [
         {
           "label": {
-            "en": "function",
-            "zh": "function"
+            "en": "Capacity",
+            "zh": "容量"
           },
-          "value": "Dry"
+          "value": "0.8 L"
         },
         {
           "label": {
-            "en": "maximum runtime",
-            "zh": "maximum runtime"
+            "en": "Maximum Runtime",
+            "zh": "最长续航"
           },
           "value": "30-60 min"
         },
         {
           "label": {
-            "en": "suction power (airwatts)",
-            "zh": "suction power (airwatts)"
+            "en": "Motor Type",
+            "zh": "电机类型"
           },
-          "value": "151-180 AW"
+          "value": "Brushless Motor"
         },
         {
           "label": {
-            "en": "type",
-            "zh": "type"
+            "en": "Battery Type",
+            "zh": "电池类型"
           },
-          "value": "Cyclone"
+          "value": "Lithium-Ion Battery"
         }
       ],
       "price_ladder": [],
       "sku": "1601873126522",
       "description": {
-        "en": "Dry · 30-60 min · 151-180 AW. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "Dry · 30-60 min · 151-180 AW。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+        "en": "0.8 L · 30-60 min · Brushless Motor. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "0.8 L · 30-60 min · Brushless Motor。支持 OEM/ODM 定制，规格取自供应商商品资料。"
       },
       "supplier_rating": "4.8",
       "response_time": "≤ 2h",

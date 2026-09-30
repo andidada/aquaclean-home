@@ -348,8 +348,8 @@
         "zh": "1200A 七合一应急启动电源 + 充气泵"
       },
       "tagline": {
-        "en": "2500mAh*4 · ≤120W · 3-5H",
-        "zh": "2500mAh*4 · ≤120W · 3-5H"
+        "en": "≤120W · 150PSI / 10.3Bar · 40mins",
+        "zh": "≤120W · 150PSI / 10.3Bar · 40mins"
       },
       "images": [
         "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/01.jpg",
@@ -370,28 +370,28 @@
           "icon": "check",
           "text": {
             "en": "Power: ≤120W",
-            "zh": "Power: ≤120W"
+            "zh": "功率: ≤120W"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "Battery Type: Lithium Polymer Battery",
-            "zh": "Battery Type: Lithium Polymer Battery"
+            "en": "Maximum Pressure: 150PSI / 10.3Bar",
+            "zh": "最大气压: 150PSI / 10.3Bar"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Working Time: 40mins",
+            "zh": "工作时间: 40mins"
           }
         },
         {
           "icon": "check",
           "text": {
             "en": "Battery Capacity: 2500mAh*4",
-            "zh": "Battery Capacity: 2500mAh*4"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Charging Time: 3-5H",
-            "zh": "Charging Time: 3-5H"
+            "zh": "电池容量: 2500mAh*4"
           }
         }
       ],
@@ -563,10 +563,17 @@
         },
         {
           "label": {
-            "en": "Battery Type",
-            "zh": "电池类型"
+            "en": "Maximum Pressure",
+            "zh": "最大气压"
           },
-          "value": "Lithium Polymer Battery"
+          "value": "150PSI / 10.3Bar"
+        },
+        {
+          "label": {
+            "en": "Working Time",
+            "zh": "工作时间"
+          },
+          "value": "40mins"
         },
         {
           "label": {
@@ -574,20 +581,13 @@
             "zh": "电池容量"
           },
           "value": "2500mAh*4"
-        },
-        {
-          "label": {
-            "en": "Charging Time",
-            "zh": "充电时间"
-          },
-          "value": "3-5H"
         }
       ],
       "price_ladder": [],
       "sku": "1601909117845",
       "description": {
-        "en": "2500mAh*4 · ≤120W · 3-5H. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "2500mAh*4 · ≤120W · 3-5H。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+        "en": "≤120W · 150PSI / 10.3Bar · 40mins. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "≤120W · 150PSI / 10.3Bar · 40mins。支持 OEM/ODM 定制，规格取自供应商商品资料。"
       },
       "supplier_rating": "4.8",
       "response_time": "≤ 2h",
@@ -619,8 +619,8 @@
         "zh": "YMC6616 无线数显充气泵（90W / 150PSI / 22L·min）"
       },
       "tagline": {
-        "en": "2000mAh*3 · ≤90W · 2-3H",
-        "zh": "2000mAh*3 · ≤90W · 2-3H"
+        "en": "≤90W · 150PSI / 10.3Bar · 25mins",
+        "zh": "≤90W · 150PSI / 10.3Bar · 25mins"
       },
       "images": [
         "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6616/01.jpg",
@@ -641,28 +641,28 @@
           "icon": "check",
           "text": {
             "en": "Power: ≤90W",
-            "zh": "Power: ≤90W"
+            "zh": "功率: ≤90W"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "Battery Type: Lithium Polymer Battery",
-            "zh": "Battery Type: Lithium Polymer Battery"
+            "en": "Maximum Pressure: 150PSI / 10.3Bar",
+            "zh": "最大气压: 150PSI / 10.3Bar"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Working Time: 25mins",
+            "zh": "工作时间: 25mins"
           }
         },
         {
           "icon": "check",
           "text": {
             "en": "Battery Capacity: 2000mAh*3",
-            "zh": "Battery Capacity: 2000mAh*3"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Charging Time: 2-3H",
-            "zh": "Charging Time: 2-3H"
+            "zh": "电池容量: 2000mAh*3"
           }
         }
       ],
@@ -834,10 +834,17 @@
         },
         {
           "label": {
-            "en": "Battery Type",
-            "zh": "电池类型"
+            "en": "Maximum Pressure",
+            "zh": "最大气压"
           },
-          "value": "Lithium Polymer Battery"
+          "value": "150PSI / 10.3Bar"
+        },
+        {
+          "label": {
+            "en": "Working Time",
+            "zh": "工作时间"
+          },
+          "value": "25mins"
         },
         {
           "label": {
@@ -845,20 +852,13 @@
             "zh": "电池容量"
           },
           "value": "2000mAh*3"
-        },
-        {
-          "label": {
-            "en": "Charging Time",
-            "zh": "充电时间"
-          },
-          "value": "2-3H"
         }
       ],
       "price_ladder": [],
       "sku": "1601911130124",
       "description": {
-        "en": "2000mAh*3 · ≤90W · 2-3H. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "2000mAh*3 · ≤90W · 2-3H。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+        "en": "≤90W · 150PSI / 10.3Bar · 25mins. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "≤90W · 150PSI / 10.3Bar · 25mins。支持 OEM/ODM 定制，规格取自供应商商品资料。"
       },
       "supplier_rating": "4.81",
       "response_time": "—",
@@ -893,8 +893,8 @@
         "zh": "YMC6657 便携无线充气泵（65W / 150PSI / 数显）"
       },
       "tagline": {
-        "en": "2000mAh*2 · ≤65W · 2-3H",
-        "zh": "2000mAh*2 · ≤65W · 2-3H"
+        "en": "≤65W · 150PSI / 10.3Bar · 25mins",
+        "zh": "≤65W · 150PSI / 10.3Bar · 25mins"
       },
       "images": [
         "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6657/01.jpg",
@@ -915,28 +915,28 @@
           "icon": "check",
           "text": {
             "en": "Power: ≤65W",
-            "zh": "Power: ≤65W"
+            "zh": "功率: ≤65W"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "Battery Type: Lithium Polymer Battery",
-            "zh": "Battery Type: Lithium Polymer Battery"
+            "en": "Maximum Pressure: 150PSI / 10.3Bar",
+            "zh": "最大气压: 150PSI / 10.3Bar"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Working Time: 25mins",
+            "zh": "工作时间: 25mins"
           }
         },
         {
           "icon": "check",
           "text": {
             "en": "Battery Capacity: 2000mAh*2",
-            "zh": "Battery Capacity: 2000mAh*2"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Charging Time: 2-3H",
-            "zh": "Charging Time: 2-3H"
+            "zh": "电池容量: 2000mAh*2"
           }
         }
       ],
@@ -1108,10 +1108,17 @@
         },
         {
           "label": {
-            "en": "Battery Type",
-            "zh": "电池类型"
+            "en": "Maximum Pressure",
+            "zh": "最大气压"
           },
-          "value": "Lithium Polymer Battery"
+          "value": "150PSI / 10.3Bar"
+        },
+        {
+          "label": {
+            "en": "Working Time",
+            "zh": "工作时间"
+          },
+          "value": "25mins"
         },
         {
           "label": {
@@ -1119,20 +1126,13 @@
             "zh": "电池容量"
           },
           "value": "2000mAh*2"
-        },
-        {
-          "label": {
-            "en": "Charging Time",
-            "zh": "充电时间"
-          },
-          "value": "2-3H"
         }
       ],
       "price_ladder": [],
       "sku": "1601912149842",
       "description": {
-        "en": "2000mAh*2 · ≤65W · 2-3H. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "2000mAh*2 · ≤65W · 2-3H。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+        "en": "≤65W · 150PSI / 10.3Bar · 25mins. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "≤65W · 150PSI / 10.3Bar · 25mins。支持 OEM/ODM 定制，规格取自供应商商品资料。"
       },
       "supplier_rating": "4.81",
       "response_time": "—",
@@ -1167,8 +1167,8 @@
         "zh": "YM2 无线充气泵（90W Type-C / 19 缸 / LED 显示）"
       },
       "tagline": {
-        "en": "1500mAh*4 · 90W · Tire Inflation",
-        "zh": "1500mAh*4 · 90W · Tire Inflation"
+        "en": "90W · 1500mAh*4 · Lithium Battery",
+        "zh": "90W · 1500mAh*4 · Lithium Battery"
       },
       "images": [
         "https://www.hkdmj.net/assets/images/products/tire-inflator-ym2/01.jpg",
@@ -1188,29 +1188,29 @@
         {
           "icon": "check",
           "text": {
-            "en": "Product Type: Cordless Tire Inflator",
-            "zh": "Product Type: Cordless Tire Inflator"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Function: Tire Inflation",
-            "zh": "Function: Tire Inflation"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Application: Car Motorcycle Bicycle",
-            "zh": "Application: Car Motorcycle Bicycle"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
             "en": "Power: 90W",
-            "zh": "Power: 90W"
+            "zh": "功率: 90W"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Battery Capacity: 1500mAh*4",
+            "zh": "电池容量: 1500mAh*4"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Battery Type: Lithium Battery",
+            "zh": "电池类型: Lithium Battery"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Voltage: 14.2-16.8V",
+            "zh": "电压: 14.2-16.8V"
           }
         }
       ],
@@ -1410,38 +1410,38 @@
       "quick_specs": [
         {
           "label": {
-            "en": "Product Type",
-            "zh": "Product Type"
-          },
-          "value": "Cordless Tire Inflator"
-        },
-        {
-          "label": {
-            "en": "Function",
-            "zh": "功能"
-          },
-          "value": "Tire Inflation"
-        },
-        {
-          "label": {
-            "en": "Application",
-            "zh": "适用场景"
-          },
-          "value": "Car Motorcycle Bicycle"
-        },
-        {
-          "label": {
             "en": "Power",
             "zh": "功率"
           },
           "value": "90W"
+        },
+        {
+          "label": {
+            "en": "Battery Capacity",
+            "zh": "电池容量"
+          },
+          "value": "1500mAh*4"
+        },
+        {
+          "label": {
+            "en": "Battery Type",
+            "zh": "电池类型"
+          },
+          "value": "Lithium Battery"
+        },
+        {
+          "label": {
+            "en": "Voltage",
+            "zh": "电压"
+          },
+          "value": "14.2-16.8V"
         }
       ],
       "price_ladder": [],
       "sku": "1601904697003",
       "description": {
-        "en": "1500mAh*4 · 90W · Tire Inflation. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "1500mAh*4 · 90W · Tire Inflation。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+        "en": "90W · 1500mAh*4 · Lithium Battery. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "90W · 1500mAh*4 · Lithium Battery。支持 OEM/ODM 定制，规格取自供应商商品资料。"
       },
       "supplier_rating": "4.81",
       "response_time": "—",
@@ -1476,8 +1476,8 @@
         "zh": "YMC6688 应急启动电源+充气泵（120W / 150PSI / 2500mAh×4）"
       },
       "tagline": {
-        "en": "2500mAh*4 · ≤120W · 3-5H",
-        "zh": "2500mAh*4 · ≤120W · 3-5H"
+        "en": "≤120W · 150PSI / 10.3Bar · 40mins",
+        "zh": "≤120W · 150PSI / 10.3Bar · 40mins"
       },
       "images": [
         "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6688/01.jpg",
@@ -1498,28 +1498,28 @@
           "icon": "check",
           "text": {
             "en": "Power: ≤120W",
-            "zh": "Power: ≤120W"
+            "zh": "功率: ≤120W"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "Battery Type: Lithium Polymer Battery",
-            "zh": "Battery Type: Lithium Polymer Battery"
+            "en": "Maximum Pressure: 150PSI / 10.3Bar",
+            "zh": "最大气压: 150PSI / 10.3Bar"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Working Time: 40mins",
+            "zh": "工作时间: 40mins"
           }
         },
         {
           "icon": "check",
           "text": {
             "en": "Battery Capacity: 2500mAh*4",
-            "zh": "Battery Capacity: 2500mAh*4"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Charging Time: 3-5H",
-            "zh": "Charging Time: 3-5H"
+            "zh": "电池容量: 2500mAh*4"
           }
         }
       ],
@@ -1691,10 +1691,17 @@
         },
         {
           "label": {
-            "en": "Battery Type",
-            "zh": "电池类型"
+            "en": "Maximum Pressure",
+            "zh": "最大气压"
           },
-          "value": "Lithium Polymer Battery"
+          "value": "150PSI / 10.3Bar"
+        },
+        {
+          "label": {
+            "en": "Working Time",
+            "zh": "工作时间"
+          },
+          "value": "40mins"
         },
         {
           "label": {
@@ -1702,20 +1709,13 @@
             "zh": "电池容量"
           },
           "value": "2500mAh*4"
-        },
-        {
-          "label": {
-            "en": "Charging Time",
-            "zh": "充电时间"
-          },
-          "value": "3-5H"
         }
       ],
       "price_ladder": [],
       "sku": "1601909142066",
       "description": {
-        "en": "2500mAh*4 · ≤120W · 3-5H. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "2500mAh*4 · ≤120W · 3-5H。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+        "en": "≤120W · 150PSI / 10.3Bar · 40mins. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "≤120W · 150PSI / 10.3Bar · 40mins。支持 OEM/ODM 定制，规格取自供应商商品资料。"
       },
       "supplier_rating": "4.81",
       "response_time": "—",

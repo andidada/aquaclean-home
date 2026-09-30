@@ -8,8 +8,8 @@
         "zh": "QST063 高温蒸汽拖把（800W / 酒店地板）"
       },
       "tagline": {
-        "en": "400ml · Electric · Steam Mop",
-        "zh": "400ml · Electric · Steam Mop"
+        "en": "800 W · 400ml · 2min",
+        "zh": "800 W · 400ml · 2min"
       },
       "images": [
         "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/01.jpg",
@@ -28,29 +28,22 @@
         {
           "icon": "check",
           "text": {
-            "en": "Power Source: Electric",
-            "zh": "Power Source: Electric"
+            "en": "Power (W): 800 W",
+            "zh": "功率(W): 800 W"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "type: Steam Mop",
-            "zh": "type: Steam Mop"
+            "en": "Water Tank Capacity: 400ml",
+            "zh": "水箱容量: 400ml"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "app-controlled: No",
-            "zh": "app-controlled: No"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "application: Hotel",
-            "zh": "application: Hotel"
+            "en": "Heating Time: 2min",
+            "zh": "加热时间: 2min"
           }
         }
       ],
@@ -180,38 +173,31 @@
       "quick_specs": [
         {
           "label": {
-            "en": "Power Source",
-            "zh": "Power Source"
+            "en": "Power (W)",
+            "zh": "功率(W)"
           },
-          "value": "Electric"
+          "value": "800 W"
         },
         {
           "label": {
-            "en": "type",
-            "zh": "type"
+            "en": "Water Tank Capacity",
+            "zh": "水箱容量"
           },
-          "value": "Steam Mop"
+          "value": "400ml"
         },
         {
           "label": {
-            "en": "app-controlled",
-            "zh": "app-controlled"
+            "en": "Heating Time",
+            "zh": "加热时间"
           },
-          "value": "No"
-        },
-        {
-          "label": {
-            "en": "application",
-            "zh": "application"
-          },
-          "value": "Hotel"
+          "value": "2min"
         }
       ],
       "price_ladder": [],
       "sku": "1601842693924",
       "description": {
-        "en": "400ml · Electric · Steam Mop. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "400ml · Electric · Steam Mop。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+        "en": "800 W · 400ml · 2min. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "800 W · 400ml · 2min。支持 OEM/ODM 定制，规格取自供应商商品资料。"
       },
       "supplier_rating": null,
       "response_time": null,
@@ -236,8 +222,8 @@
         "zh": "QJJ071 高压蒸汽拖把（1500W / 1.5–2.6Bar / 380ml 双水箱）"
       },
       "tagline": {
-        "en": "380ML · Handheld · No",
-        "zh": "380ML · Handheld · No"
+        "en": "1500W · 380ML · 20S",
+        "zh": "1500W · 380ML · 20S"
       },
       "images": [
         "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qjj071/01.jpg",
@@ -257,29 +243,22 @@
         {
           "icon": "check",
           "text": {
-            "en": "type: Handheld",
-            "zh": "type: Handheld"
+            "en": "Power (W): 1500W",
+            "zh": "功率(W): 1500W"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "after-sales service provided: Overseas Call Centers",
-            "zh": "after-sales service provided: Overseas Call Centers"
+            "en": "Water Tank Capacity: 380ML",
+            "zh": "水箱容量: 380ML"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "app-controlled: No",
-            "zh": "app-controlled: No"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "application: Hotel",
-            "zh": "application: Hotel"
+            "en": "Heating Time: 20S",
+            "zh": "加热时间: 20S"
           }
         }
       ],
@@ -437,38 +416,31 @@
       "quick_specs": [
         {
           "label": {
-            "en": "type",
-            "zh": "type"
+            "en": "Power (W)",
+            "zh": "功率(W)"
           },
-          "value": "Handheld"
+          "value": "1500W"
         },
         {
           "label": {
-            "en": "after-sales service provided",
-            "zh": "after-sales service provided"
+            "en": "Water Tank Capacity",
+            "zh": "水箱容量"
           },
-          "value": "Overseas Call Centers"
+          "value": "380ML"
         },
         {
           "label": {
-            "en": "app-controlled",
-            "zh": "app-controlled"
+            "en": "Heating Time",
+            "zh": "加热时间"
           },
-          "value": "No"
-        },
-        {
-          "label": {
-            "en": "application",
-            "zh": "application"
-          },
-          "value": "Hotel"
+          "value": "20S"
         }
       ],
       "price_ladder": [],
       "sku": "1601857978782",
       "description": {
-        "en": "380ML · Handheld · No. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "380ML · Handheld · No。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+        "en": "1500W · 380ML · 20S. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "1500W · 380ML · 20S。支持 OEM/ODM 定制，规格取自供应商商品资料。"
       },
       "supplier_rating": null,
       "response_time": null,

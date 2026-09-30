@@ -8,8 +8,8 @@
         "zh": "2604 便携胶囊咖啡机（USB 充电 / 车载户外两用）"
       },
       "tagline": {
-        "en": "Programmable · Self-Cleaning · Single Service",
-        "zh": "Programmable · Self-Cleaning · Single Service"
+        "en": "100 W · Up to 4 cups · 8 - 10 bar",
+        "zh": "100 W · Up to 4 cups · 8 - 10 bar"
       },
       "images": [
         "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/01.jpg",
@@ -29,29 +29,22 @@
         {
           "icon": "check",
           "text": {
-            "en": "function: Hot Water System",
-            "zh": "function: Hot Water System"
+            "en": "Power (W): 100 W",
+            "zh": "功率(W): 100 W"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "function: Programmable",
-            "zh": "function: Programmable"
+            "en": "Coffee Maker Capacity: Up to 4 cups",
+            "zh": "咖啡容量: Up to 4 cups"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "function: Self-Cleaning",
-            "zh": "function: Self-Cleaning"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "function: Single Service",
-            "zh": "function: Single Service"
+            "en": "Pump Pressure Bars: 8 - 10 bar",
+            "zh": "泵压(bar): 8 - 10 bar"
           }
         }
       ],
@@ -279,38 +272,31 @@
       "quick_specs": [
         {
           "label": {
-            "en": "function",
-            "zh": "function"
+            "en": "Power (W)",
+            "zh": "功率(W)"
           },
-          "value": "Hot Water System"
+          "value": "100 W"
         },
         {
           "label": {
-            "en": "function",
-            "zh": "function"
+            "en": "Coffee Maker Capacity",
+            "zh": "咖啡容量"
           },
-          "value": "Programmable"
+          "value": "Up to 4 cups"
         },
         {
           "label": {
-            "en": "function",
-            "zh": "function"
+            "en": "Pump Pressure Bars",
+            "zh": "泵压(bar)"
           },
-          "value": "Self-Cleaning"
-        },
-        {
-          "label": {
-            "en": "function",
-            "zh": "function"
-          },
-          "value": "Single Service"
+          "value": "8 - 10 bar"
         }
       ],
       "price_ladder": [],
       "sku": "1601724407427",
       "description": {
-        "en": "Programmable · Self-Cleaning · Single Service. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "Programmable · Self-Cleaning · Single Service。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+        "en": "100 W · Up to 4 cups · 8 - 10 bar. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "100 W · Up to 4 cups · 8 - 10 bar。支持 OEM/ODM 定制，规格取自供应商商品资料。"
       },
       "supplier_rating": null,
       "response_time": null,
@@ -335,8 +321,8 @@
         "zh": "SK-KF-6871 全自动意式咖啡机（铝制机身 / 商用）"
       },
       "tagline": {
-        "en": "Aluminum · No · Commercial",
-        "zh": "Aluminum · No · Commercial"
+        "en": "700 W · Up to 4 cups",
+        "zh": "700 W · Up to 4 cups"
       },
       "images": [
         "https://www.hkdmj.net/assets/images/products/coffee-machine-sk-kf-6871/01.jpg",
@@ -356,29 +342,15 @@
         {
           "icon": "check",
           "text": {
-            "en": "function: Hot Water System",
-            "zh": "function: Hot Water System"
+            "en": "Power (W): 700 W",
+            "zh": "功率(W): 700 W"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "Housing Material: Aluminum",
-            "zh": "Housing Material: Aluminum"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "type: Automatic Coffee Machine",
-            "zh": "type: Automatic Coffee Machine"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "after-sales service provided: Overseas Call Centers",
-            "zh": "after-sales service provided: Overseas Call Centers"
+            "en": "Coffee Maker Capacity: Up to 4 cups",
+            "zh": "咖啡容量: Up to 4 cups"
           }
         }
       ],
@@ -543,38 +515,24 @@
       "quick_specs": [
         {
           "label": {
-            "en": "function",
-            "zh": "function"
+            "en": "Power (W)",
+            "zh": "功率(W)"
           },
-          "value": "Hot Water System"
+          "value": "700 W"
         },
         {
           "label": {
-            "en": "Housing Material",
-            "zh": "Housing Material"
+            "en": "Coffee Maker Capacity",
+            "zh": "咖啡容量"
           },
-          "value": "Aluminum"
-        },
-        {
-          "label": {
-            "en": "type",
-            "zh": "type"
-          },
-          "value": "Automatic Coffee Machine"
-        },
-        {
-          "label": {
-            "en": "after-sales service provided",
-            "zh": "after-sales service provided"
-          },
-          "value": "Overseas Call Centers"
+          "value": "Up to 4 cups"
         }
       ],
       "price_ladder": [],
       "sku": "1601723739803",
       "description": {
-        "en": "Aluminum · No · Commercial. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "Aluminum · No · Commercial。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+        "en": "700 W · Up to 4 cups. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "700 W · Up to 4 cups。支持 OEM/ODM 定制，规格取自供应商商品资料。"
       },
       "supplier_rating": null,
       "response_time": null,

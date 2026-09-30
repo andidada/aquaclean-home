@@ -367,8 +367,8 @@
         "zh": "2026 新款三合一扫拖机器人"
       },
       "tagline": {
-        "en": "CE RoHS · Multiple Modes · Dry",
-        "zh": "CE RoHS · Multiple Modes · Dry"
+        "en": "3500PA · 91-120 min · Brushless Motor",
+        "zh": "3500PA · 91-120 min · Brushless Motor"
       },
       "images": [
         "https://www.hkdmj.net/assets/images/products/robot-vacuum-v2g-sj/01.jpg",
@@ -388,29 +388,29 @@
         {
           "icon": "check",
           "text": {
-            "en": "Product name: Smart Vacuum Cleaner",
-            "zh": "Product name: Smart Vacuum Cleaner"
+            "en": "Suction Power: 3500PA",
+            "zh": "吸力: 3500PA"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "Keywords: Robot Vacuum Cleaner Mopping Sweeping",
-            "zh": "Keywords: Robot Vacuum Cleaner Mopping Sweeping"
+            "en": "Maximum Runtime: 91-120 min",
+            "zh": "最长续航: 91-120 min"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "Feature: Automatic Cleaning",
-            "zh": "Feature: Automatic Cleaning"
+            "en": "Motor Type: Brushless Motor",
+            "zh": "电机类型: Brushless Motor"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "Type: Remote+Button Control+Wifi APP",
-            "zh": "Type: Remote+Button Control+Wifi APP"
+            "en": "Battery Type: Li-Ion Battery",
+            "zh": "电池类型: Li-Ion Battery"
           }
         }
       ],
@@ -708,38 +708,38 @@
       "quick_specs": [
         {
           "label": {
-            "en": "Product name",
-            "zh": "Product name"
+            "en": "Suction Power",
+            "zh": "吸力"
           },
-          "value": "Smart Vacuum Cleaner"
+          "value": "3500PA"
         },
         {
           "label": {
-            "en": "Keywords",
-            "zh": "Keywords"
+            "en": "Maximum Runtime",
+            "zh": "最长续航"
           },
-          "value": "Robot Vacuum Cleaner Mopping Sweeping"
+          "value": "91-120 min"
         },
         {
           "label": {
-            "en": "Feature",
-            "zh": "Feature"
+            "en": "Motor Type",
+            "zh": "电机类型"
           },
-          "value": "Automatic Cleaning"
+          "value": "Brushless Motor"
         },
         {
           "label": {
-            "en": "Type",
-            "zh": "类型"
+            "en": "Battery Type",
+            "zh": "电池类型"
           },
-          "value": "Remote+Button Control+Wifi APP"
+          "value": "Li-Ion Battery"
         }
       ],
       "price_ladder": [],
       "sku": "1601696484785",
       "description": {
-        "en": "CE RoHS · Multiple Modes · Dry. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "CE RoHS · Multiple Modes · Dry。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+        "en": "3500PA · 91-120 min · Brushless Motor. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "3500PA · 91-120 min · Brushless Motor。支持 OEM/ODM 定制，规格取自供应商商品资料。"
       },
       "supplier_rating": "4.8",
       "response_time": "≤ 2h",
@@ -771,8 +771,8 @@
         "zh": "新款干湿两用扫拖机器人"
       },
       "tagline": {
-        "en": "Multiple Modes · Morden · Dry",
-        "zh": "Multiple Modes · Morden · Dry"
+        "en": "1000–1499 Pa · 15W · 91-120 min",
+        "zh": "1000–1499 Pa · 15W · 91-120 min"
       },
       "images": [
         "https://www.hkdmj.net/assets/images/products/robot-vacuum-d2-004/01.jpg",
@@ -792,29 +792,29 @@
         {
           "icon": "check",
           "text": {
-            "en": "Feature: Automatic Cleaning",
-            "zh": "Feature: Automatic Cleaning"
+            "en": "Suction Power: 1000–1499 Pa",
+            "zh": "吸力: 1000–1499 Pa"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "Product name: Smart Vacuum Cleaner",
-            "zh": "Product name: Smart Vacuum Cleaner"
+            "en": "Power (W): 15W",
+            "zh": "功率(W): 15W"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "Keywords: Robot Vacuum Cleaner Mopping Sweeping",
-            "zh": "Keywords: Robot Vacuum Cleaner Mopping Sweeping"
+            "en": "Maximum Runtime: 91-120 min",
+            "zh": "最长续航: 91-120 min"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "Type: Home Cleaning Appliance",
-            "zh": "Type: Home Cleaning Appliance"
+            "en": "Motor Type: Brushless Motor",
+            "zh": "电机类型: Brushless Motor"
           }
         }
       ],
@@ -1112,38 +1112,38 @@
       "quick_specs": [
         {
           "label": {
-            "en": "Feature",
-            "zh": "Feature"
+            "en": "Suction Power",
+            "zh": "吸力"
           },
-          "value": "Automatic Cleaning"
+          "value": "1000–1499 Pa"
         },
         {
           "label": {
-            "en": "Product name",
-            "zh": "Product name"
+            "en": "Power (W)",
+            "zh": "功率(W)"
           },
-          "value": "Smart Vacuum Cleaner"
+          "value": "15W"
         },
         {
           "label": {
-            "en": "Keywords",
-            "zh": "Keywords"
+            "en": "Maximum Runtime",
+            "zh": "最长续航"
           },
-          "value": "Robot Vacuum Cleaner Mopping Sweeping"
+          "value": "91-120 min"
         },
         {
           "label": {
-            "en": "Type",
-            "zh": "类型"
+            "en": "Motor Type",
+            "zh": "电机类型"
           },
-          "value": "Home Cleaning Appliance"
+          "value": "Brushless Motor"
         }
       ],
       "price_ladder": [],
       "sku": "1601696650572",
       "description": {
-        "en": "Multiple Modes · Morden · Dry. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "Multiple Modes · Morden · Dry。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+        "en": "1000–1499 Pa · 15W · 91-120 min. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "1000–1499 Pa · 15W · 91-120 min。支持 OEM/ODM 定制，规格取自供应商商品资料。"
       },
       "supplier_rating": "4.8",
       "response_time": "≤ 2h",
@@ -1175,8 +1175,8 @@
         "zh": "智能扫地机器人（自动脏污识别）"
       },
       "tagline": {
-        "en": "20000Pa · 150-180mins · LDS+SLAM",
-        "zh": "20000Pa · 150-180mins · LDS+SLAM"
+        "en": "20000Pa · 60 W · 150-180mins",
+        "zh": "20000Pa · 60 W · 150-180mins"
       },
       "images": [
         "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9/01.jpg",
@@ -1196,29 +1196,29 @@
         {
           "icon": "check",
           "text": {
-            "en": "Navigation: LDS+SLAM",
-            "zh": "Navigation: LDS+SLAM"
+            "en": "Suction Power: 20000Pa",
+            "zh": "吸力: 20000Pa"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Power (W): 60 W",
+            "zh": "功率(W): 60 W"
           }
         },
         {
           "icon": "check",
           "text": {
             "en": "Runtime: 150-180mins",
-            "zh": "Runtime: 150-180mins"
+            "zh": "续航时间: 150-180mins"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "Dustbin Capacity: 800ml",
-            "zh": "Dustbin Capacity: 800ml"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Dust Collection Bag Capacity: 1L",
-            "zh": "Dust Collection Bag Capacity: 1L"
+            "en": "Maximum Runtime: 150-180 min",
+            "zh": "最长续航: 150-180 min"
           }
         }
       ],
@@ -1516,10 +1516,17 @@
       "quick_specs": [
         {
           "label": {
-            "en": "Navigation",
-            "zh": "导航方式"
+            "en": "Suction Power",
+            "zh": "吸力"
           },
-          "value": "LDS+SLAM"
+          "value": "20000Pa"
+        },
+        {
+          "label": {
+            "en": "Power (W)",
+            "zh": "功率(W)"
+          },
+          "value": "60 W"
         },
         {
           "label": {
@@ -1530,24 +1537,17 @@
         },
         {
           "label": {
-            "en": "Dustbin Capacity",
-            "zh": "Dustbin Capacity"
+            "en": "Maximum Runtime",
+            "zh": "最长续航"
           },
-          "value": "800ml"
-        },
-        {
-          "label": {
-            "en": "Dust Collection Bag Capacity",
-            "zh": "Dust Collection Bag Capacity"
-          },
-          "value": "1L"
+          "value": "150-180 min"
         }
       ],
       "price_ladder": [],
       "sku": "1601715304265",
       "description": {
-        "en": "20000Pa · 150-180mins · LDS+SLAM. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "20000Pa · 150-180mins · LDS+SLAM。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+        "en": "20000Pa · 60 W · 150-180mins. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "20000Pa · 60 W · 150-180mins。支持 OEM/ODM 定制，规格取自供应商商品资料。"
       },
       "supplier_rating": "4.8",
       "response_time": "≤ 2h",
@@ -1579,8 +1579,8 @@
         "zh": "18000Pa 带清洗基站智能扫地机器人"
       },
       "tagline": {
-        "en": "Multiple Modes · Morden · Mopping",
-        "zh": "Multiple Modes · Morden · Mopping"
+        "en": "18000Pa · 40W · 91-120 min",
+        "zh": "18000Pa · 40W · 91-120 min"
       },
       "images": [
         "https://www.hkdmj.net/assets/images/products/robot-vacuum-pt20c800/01.jpg",
@@ -1600,29 +1600,29 @@
         {
           "icon": "check",
           "text": {
-            "en": "Feature: Automatic Cleaning",
-            "zh": "Feature: Automatic Cleaning"
+            "en": "Suction Power: 18000Pa",
+            "zh": "吸力: 18000Pa"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "Product name: Smart Vacuum Cleaner",
-            "zh": "Product name: Smart Vacuum Cleaner"
+            "en": "Power (W): 40W",
+            "zh": "功率(W): 40W"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "Keywords: Robot Vacuum Cleaner Mopping Sweeping",
-            "zh": "Keywords: Robot Vacuum Cleaner Mopping Sweeping"
+            "en": "Maximum Runtime: 91-120 min",
+            "zh": "最长续航: 91-120 min"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "Type: wet and dry car vacuum cleaner",
-            "zh": "Type: wet and dry car vacuum cleaner"
+            "en": "Motor Type: Brushless Motor",
+            "zh": "电机类型: Brushless Motor"
           }
         }
       ],
@@ -1913,38 +1913,38 @@
       "quick_specs": [
         {
           "label": {
-            "en": "Feature",
-            "zh": "Feature"
+            "en": "Suction Power",
+            "zh": "吸力"
           },
-          "value": "Automatic Cleaning"
+          "value": "18000Pa"
         },
         {
           "label": {
-            "en": "Product name",
-            "zh": "Product name"
+            "en": "Power (W)",
+            "zh": "功率(W)"
           },
-          "value": "Smart Vacuum Cleaner"
+          "value": "40W"
         },
         {
           "label": {
-            "en": "Keywords",
-            "zh": "Keywords"
+            "en": "Maximum Runtime",
+            "zh": "最长续航"
           },
-          "value": "Robot Vacuum Cleaner Mopping Sweeping"
+          "value": "91-120 min"
         },
         {
           "label": {
-            "en": "Type",
-            "zh": "类型"
+            "en": "Motor Type",
+            "zh": "电机类型"
           },
-          "value": "wet and dry car vacuum cleaner"
+          "value": "Brushless Motor"
         }
       ],
       "price_ladder": [],
       "sku": "1601744101720",
       "description": {
-        "en": "Multiple Modes · Morden · Mopping. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "Multiple Modes · Morden · Mopping。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+        "en": "18000Pa · 40W · 91-120 min. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "18000Pa · 40W · 91-120 min。支持 OEM/ODM 定制，规格取自供应商商品资料。"
       },
       "supplier_rating": "4.8",
       "response_time": "≤ 2h",
@@ -1976,8 +1976,8 @@
         "zh": "扫拖一体自动集尘扫地机器人"
       },
       "tagline": {
-        "en": "Multiple Modes · Morden · Mopping",
-        "zh": "Multiple Modes · Morden · Mopping"
+        "en": "18000pa · 40W · 91-120 min",
+        "zh": "18000pa · 40W · 91-120 min"
       },
       "images": [
         "https://www.hkdmj.net/assets/images/products/robot-vacuum-pt40c800/01.jpg",
@@ -1997,29 +1997,29 @@
         {
           "icon": "check",
           "text": {
-            "en": "Feature: Automatic Cleaning",
-            "zh": "Feature: Automatic Cleaning"
+            "en": "Suction Power: 18000pa",
+            "zh": "吸力: 18000pa"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "Product name: Smart Vacuum Cleaner",
-            "zh": "Product name: Smart Vacuum Cleaner"
+            "en": "Power (W): 40W",
+            "zh": "功率(W): 40W"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "Keywords: Robot Vacuum Cleaner Mopping Sweeping",
-            "zh": "Keywords: Robot Vacuum Cleaner Mopping Sweeping"
+            "en": "Maximum Runtime: 91-120 min",
+            "zh": "最长续航: 91-120 min"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "Type: wet and dry car vacuum cleaner",
-            "zh": "Type: wet and dry car vacuum cleaner"
+            "en": "Motor Type: Brushless Motor",
+            "zh": "电机类型: Brushless Motor"
           }
         }
       ],
@@ -2303,38 +2303,38 @@
       "quick_specs": [
         {
           "label": {
-            "en": "Feature",
-            "zh": "Feature"
+            "en": "Suction Power",
+            "zh": "吸力"
           },
-          "value": "Automatic Cleaning"
+          "value": "18000pa"
         },
         {
           "label": {
-            "en": "Product name",
-            "zh": "Product name"
+            "en": "Power (W)",
+            "zh": "功率(W)"
           },
-          "value": "Smart Vacuum Cleaner"
+          "value": "40W"
         },
         {
           "label": {
-            "en": "Keywords",
-            "zh": "Keywords"
+            "en": "Maximum Runtime",
+            "zh": "最长续航"
           },
-          "value": "Robot Vacuum Cleaner Mopping Sweeping"
+          "value": "91-120 min"
         },
         {
           "label": {
-            "en": "Type",
-            "zh": "类型"
+            "en": "Motor Type",
+            "zh": "电机类型"
           },
-          "value": "wet and dry car vacuum cleaner"
+          "value": "Brushless Motor"
         }
       ],
       "price_ladder": [],
       "sku": "1601744170441",
       "description": {
-        "en": "Multiple Modes · Morden · Mopping. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "Multiple Modes · Morden · Mopping。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+        "en": "18000pa · 40W · 91-120 min. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "18000pa · 40W · 91-120 min。支持 OEM/ODM 定制，规格取自供应商商品资料。"
       },
       "supplier_rating": "4.8",
       "response_time": "≤ 2h",
@@ -2366,8 +2366,8 @@
         "zh": "X7-D 扫地机器人（LDS 导航 / 18000Pa / 自动集尘）"
       },
       "tagline": {
-        "en": "Dry · Mopping · Sweeping",
-        "zh": "Dry · Mopping · Sweeping"
+        "en": "18000 Pa · 80 W · 121-150 min",
+        "zh": "18000 Pa · 80 W · 121-150 min"
       },
       "images": [
         "https://www.hkdmj.net/assets/images/products/robot-vacuum-x7-d/01.jpg",
@@ -2387,29 +2387,29 @@
         {
           "icon": "check",
           "text": {
-            "en": "function: Dry",
-            "zh": "function: Dry"
+            "en": "Suction Power: 18000 Pa",
+            "zh": "吸力: 18000 Pa"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "function: Mopping",
-            "zh": "function: Mopping"
+            "en": "Power (W): 80 W",
+            "zh": "功率(W): 80 W"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "function: Sweeping",
-            "zh": "function: Sweeping"
+            "en": "Maximum Runtime: 121-150 min",
+            "zh": "最长续航: 121-150 min"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "function: Sweeping And Mopping",
-            "zh": "function: Sweeping And Mopping"
+            "en": "Motor Type: Brushless Motor",
+            "zh": "电机类型: Brushless Motor"
           }
         }
       ],
@@ -2707,38 +2707,38 @@
       "quick_specs": [
         {
           "label": {
-            "en": "function",
-            "zh": "function"
+            "en": "Suction Power",
+            "zh": "吸力"
           },
-          "value": "Dry"
+          "value": "18000 Pa"
         },
         {
           "label": {
-            "en": "function",
-            "zh": "function"
+            "en": "Power (W)",
+            "zh": "功率(W)"
           },
-          "value": "Mopping"
+          "value": "80 W"
         },
         {
           "label": {
-            "en": "function",
-            "zh": "function"
+            "en": "Maximum Runtime",
+            "zh": "最长续航"
           },
-          "value": "Sweeping"
+          "value": "121-150 min"
         },
         {
           "label": {
-            "en": "function",
-            "zh": "function"
+            "en": "Motor Type",
+            "zh": "电机类型"
           },
-          "value": "Sweeping And Mopping"
+          "value": "Brushless Motor"
         }
       ],
       "price_ladder": [],
       "sku": "1601832190781",
       "description": {
-        "en": "Dry · Mopping · Sweeping. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "Dry · Mopping · Sweeping。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+        "en": "18000 Pa · 80 W · 121-150 min. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "18000 Pa · 80 W · 121-150 min。支持 OEM/ODM 定制，规格取自供应商商品资料。"
       },
       "supplier_rating": "4.8",
       "response_time": "≤ 2h",
@@ -2770,8 +2770,8 @@
         "zh": "18000Pa 自动集尘扫地机器人（LDS 导航）"
       },
       "tagline": {
-        "en": "120 mins · 18,000Pa · LDS Navigation",
-        "zh": "120 mins · 18,000Pa · LDS Navigation"
+        "en": "18000pa · 650W · 120 mins",
+        "zh": "18000pa · 650W · 120 mins"
       },
       "images": [
         "https://www.hkdmj.net/assets/images/products/robot-vacuum-t20-c800/01.jpg",
@@ -2791,29 +2791,29 @@
         {
           "icon": "check",
           "text": {
-            "en": "Peak Suction: 18,000Pa",
-            "zh": "Peak Suction: 18,000Pa"
+            "en": "Suction Power: 18000pa",
+            "zh": "吸力: 18000pa"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "Navigation: LDS Navigation",
-            "zh": "Navigation: LDS Navigation"
+            "en": "Power (W): 650W",
+            "zh": "功率(W): 650W"
           }
         },
         {
           "icon": "check",
           "text": {
             "en": "Runtime: 120 mins",
-            "zh": "Runtime: 120 mins"
+            "zh": "续航时间: 120 mins"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "Battery: 2600mAh",
-            "zh": "Battery: 2600mAh"
+            "en": "Maximum Runtime: 121-150 min",
+            "zh": "最长续航: 121-150 min"
           }
         }
       ],
@@ -3023,17 +3023,17 @@
       "quick_specs": [
         {
           "label": {
-            "en": "Peak Suction",
-            "zh": "Peak Suction"
+            "en": "Suction Power",
+            "zh": "吸力"
           },
-          "value": "18,000Pa"
+          "value": "18000pa"
         },
         {
           "label": {
-            "en": "Navigation",
-            "zh": "导航方式"
+            "en": "Power (W)",
+            "zh": "功率(W)"
           },
-          "value": "LDS Navigation"
+          "value": "650W"
         },
         {
           "label": {
@@ -3044,17 +3044,17 @@
         },
         {
           "label": {
-            "en": "Battery",
-            "zh": "Battery"
+            "en": "Maximum Runtime",
+            "zh": "最长续航"
           },
-          "value": "2600mAh"
+          "value": "121-150 min"
         }
       ],
       "price_ladder": [],
       "sku": "1601887224510",
       "description": {
-        "en": "120 mins · 18,000Pa · LDS Navigation. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "120 mins · 18,000Pa · LDS Navigation。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+        "en": "18000pa · 650W · 120 mins. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "18000pa · 650W · 120 mins。支持 OEM/ODM 定制，规格取自供应商商品资料。"
       },
       "supplier_rating": "4.8",
       "response_time": "≤ 2h",

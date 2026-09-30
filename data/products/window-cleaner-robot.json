@@ -8,8 +8,8 @@
         "zh": "GM1-C 智能擦窗机器人（遥控 / 自动玻璃清洁）"
       },
       "tagline": {
-        "en": "8000Pa · 20-35mins · 500 mAh",
-        "zh": "8000Pa · 20-35mins · 500 mAh"
+        "en": "8000Pa · 72W · 100ml",
+        "zh": "8000Pa · 72W · 100ml"
       },
       "images": [
         "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/01.jpg",
@@ -28,28 +28,28 @@
           "icon": "check",
           "text": {
             "en": "Suction Power: 8000Pa",
-            "zh": "Suction Power: 8000Pa"
+            "zh": "吸力: 8000Pa"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "Battery capacity: 500mAh",
-            "zh": "Battery capacity: 500mAh"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Runtime: 20-35mins",
-            "zh": "Runtime: 20-35mins"
+            "en": "Power (W): 72W",
+            "zh": "功率(W): 72W"
           }
         },
         {
           "icon": "check",
           "text": {
             "en": "Water tank capacity: 100ml",
-            "zh": "Water tank capacity: 100ml"
+            "zh": "水箱容量: 100ml"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Runtime: 20-35mins",
+            "zh": "续航时间: 20-35mins"
           }
         }
       ],
@@ -284,10 +284,17 @@
         },
         {
           "label": {
-            "en": "Battery capacity",
-            "zh": "Battery capacity"
+            "en": "Power (W)",
+            "zh": "功率(W)"
           },
-          "value": "500mAh"
+          "value": "72W"
+        },
+        {
+          "label": {
+            "en": "Water tank capacity",
+            "zh": "水箱容量"
+          },
+          "value": "100ml"
         },
         {
           "label": {
@@ -295,20 +302,13 @@
             "zh": "续航时间"
           },
           "value": "20-35mins"
-        },
-        {
-          "label": {
-            "en": "Water tank capacity",
-            "zh": "Water tank capacity"
-          },
-          "value": "100ml"
         }
       ],
       "price_ladder": [],
       "sku": "1601905990885",
       "description": {
-        "en": "8000Pa · 20-35mins · 500 mAh. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "8000Pa · 20-35mins · 500 mAh。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+        "en": "8000Pa · 72W · 100ml. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "8000Pa · 72W · 100ml。支持 OEM/ODM 定制，规格取自供应商商品资料。"
       },
       "supplier_rating": null,
       "response_time": null,

@@ -8,8 +8,8 @@
         "zh": "PC708 床褥除螨吸尘器（22kPa 无刷 / 45 分钟续航）"
       },
       "tagline": {
-        "en": "Battery · Dry · Wet And Dry",
-        "zh": "Battery · Dry · Wet And Dry"
+        "en": "200 W · 30-60 min · 0.5L",
+        "zh": "200 W · 30-60 min · 0.5L"
       },
       "images": [
         "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/01.jpg",
@@ -29,29 +29,29 @@
         {
           "icon": "check",
           "text": {
-            "en": "Power Source: Battery",
-            "zh": "Power Source: Battery"
+            "en": "Power (W): 200 W",
+            "zh": "功率(W): 200 W"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "Function: Dry",
-            "zh": "Function: Dry"
+            "en": "Maximum Runtime: 30-60 min",
+            "zh": "最长续航: 30-60 min"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "Function: With LED Lights",
-            "zh": "Function: With LED Lights"
+            "en": "Dust capacity: 0.5L",
+            "zh": "尘杯容量: 0.5L"
           }
         },
         {
           "icon": "check",
           "text": {
-            "en": "Function: Laser Dust Illumination",
-            "zh": "Function: Laser Dust Illumination"
+            "en": "Motor Type: Brushless Motor",
+            "zh": "电机类型: Brushless Motor"
           }
         }
       ],
@@ -279,38 +279,38 @@
       "quick_specs": [
         {
           "label": {
-            "en": "Power Source",
-            "zh": "Power Source"
+            "en": "Power (W)",
+            "zh": "功率(W)"
           },
-          "value": "Battery"
+          "value": "200 W"
         },
         {
           "label": {
-            "en": "Function",
-            "zh": "功能"
+            "en": "Maximum Runtime",
+            "zh": "最长续航"
           },
-          "value": "Dry"
+          "value": "30-60 min"
         },
         {
           "label": {
-            "en": "Function",
-            "zh": "功能"
+            "en": "Dust capacity",
+            "zh": "尘杯容量"
           },
-          "value": "With LED Lights"
+          "value": "0.5L"
         },
         {
           "label": {
-            "en": "Function",
-            "zh": "功能"
+            "en": "Motor Type",
+            "zh": "电机类型"
           },
-          "value": "Laser Dust Illumination"
+          "value": "Brushless Motor"
         }
       ],
       "price_ladder": [],
       "sku": "1601848192870",
       "description": {
-        "en": "Battery · Dry · Wet And Dry. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "Battery · Dry · Wet And Dry。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+        "en": "200 W · 30-60 min · 0.5L. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "200 W · 30-60 min · 0.5L。支持 OEM/ODM 定制，规格取自供应商商品资料。"
       },
       "supplier_rating": null,
       "response_time": null,
