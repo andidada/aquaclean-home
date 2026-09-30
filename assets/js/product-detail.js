@@ -194,9 +194,9 @@
 
     // ===== BREADCRUMB =====
     html += '<div class="d-breadcrumb"><div class="d-breadcrumb-inner">';
-    html += '<a href="' + (state.lang === 'zh' ? '../zh/index.html' : '../index.html') + '">' + esc(ui.home) + '</a>';
+    html += '<a href="' + ('/' + state.lang + '/index.html') + '">' + esc(ui.home) + '</a>';
     html += '<span class="sep">›</span>';
-    html += '<a href="' + (state.lang === 'zh' ? '../zh/' + CATEGORY + '/index.html' : '../' + CATEGORY + '/index.html') + '">' + esc(CATEGORY_NAME || pick(data.category_name, state.lang) || CATEGORY) + '</a>';
+    html += '<a href="' + ('/' + state.lang + '/' + CATEGORY + '/index.html') + '">' + esc(CATEGORY_NAME || pick(data.category_name, state.lang) || CATEGORY) + '</a>';
     html += '<span class="sep">›</span>';
     html += '<span>' + esc(pick(product.name, state.lang)) + '</span>';
     html += '</div></div>';
@@ -461,7 +461,7 @@
       for (var ri = 1; ri < products.length && ri < 4; ri++) {
         var rp = products[ri];
         var rImg = (rp.images && rp.images[0]) || '';
-        html += '<a class="d-related-card" href="' + (state.lang === 'zh' ? '../zh/' + CATEGORY + '-' + rp.id + '.html' : '../' + CATEGORY + '-' + rp.id + '.html') + '">';
+        html += '<a class="d-related-card" href="' + ('/' + state.lang + '/' + CATEGORY + '-' + rp.id + '.html') + '">';
         html += '<div class="d-related-img">' + (rImg ? '<img src="' + esc(rImg) + '" alt="">' : '') + '</div>';
         html += '<div class="d-related-body"><h4>' + esc(pick(rp.name, state.lang)) + '</h4><p>' + esc(pick(rp.tagline, state.lang)) + '</p></div>';
         html += '</a>';
