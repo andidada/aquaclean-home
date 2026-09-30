@@ -332,7 +332,8 @@
             "https://www.hkdmj.net/assets/images/products/tire-inflator/ti-6.jpg"
           ]
         }
-      ]
+      ],
+      "_cat": "tire-inflator"
     },
     {
       "id": "ymc6628",
@@ -671,7 +672,286 @@
         "scope": "store"
       },
       "shipping_fee_usd": 17.02,
-      "alibaba_url": "https://www.alibaba.com/product-detail/OEM-ODM-Portable-ABS-Tire-Inflator_1601910965318.html"
+      "alibaba_url": "https://www.alibaba.com/product-detail/OEM-ODM-Portable-ABS-Tire-Inflator_1601910965318.html",
+      "_cat": "tire-inflator"
+    },
+    {
+      "id": "1601909117845",
+      "name": {
+        "en": "1200A Jump Starter Tire Inflator Air Compressor 7 in 1 Car Battery Booster with Blower Vacuum LED Light Power Bank SOS OEM ODM",
+        "zh": "1200A 七合一应急启动电源 + 充气泵"
+      },
+      "tagline": {
+        "en": "2500mAh*4 · ≤120W · 3-5H",
+        "zh": "2500mAh*4 · ≤120W · 3-5H"
+      },
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-1601909117845/01.jpg",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-1601909117845/02.jpg",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-1601909117845/03.jpg",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-1601909117845/04.jpg",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-1601909117845/05.jpg",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-1601909117845/06.jpg"
+      ],
+      "video_url": null,
+      "moq": {
+        "value": 1,
+        "unit": "pieces"
+      },
+      "certifications": [],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": {
+            "en": "Power: ≤120W",
+            "zh": "Power: ≤120W"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Battery Type: Lithium Polymer Battery",
+            "zh": "Battery Type: Lithium Polymer Battery"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Battery Capacity: 2500mAh*4",
+            "zh": "Battery Capacity: 2500mAh*4"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Charging Time: 3-5H",
+            "zh": "Charging Time: 3-5H"
+          }
+        }
+      ],
+      "specs": [
+        {
+          "label": {
+            "en": "Power",
+            "zh": "功率"
+          },
+          "value": "≤120W"
+        },
+        {
+          "label": {
+            "en": "Battery Type",
+            "zh": "电池类型"
+          },
+          "value": "Lithium Polymer Battery"
+        },
+        {
+          "label": {
+            "en": "Battery Capacity",
+            "zh": "电池容量"
+          },
+          "value": "2500mAh*4"
+        },
+        {
+          "label": {
+            "en": "Charging Time",
+            "zh": "充电时间"
+          },
+          "value": "3-5H"
+        },
+        {
+          "label": {
+            "en": "Working Time",
+            "zh": "工作时间"
+          },
+          "value": "40mins"
+        },
+        {
+          "label": {
+            "en": "Maximum Pressure",
+            "zh": "Maximum Pressure"
+          },
+          "value": "150PSI / 10.3Bar"
+        },
+        {
+          "label": {
+            "en": "Warranty",
+            "zh": "质保"
+          },
+          "value": "1 Year"
+        },
+        {
+          "label": {
+            "en": "Function",
+            "zh": "功能"
+          },
+          "value": "Emergency Light"
+        },
+        {
+          "label": {
+            "en": "Function",
+            "zh": "功能"
+          },
+          "value": "Power Indicator"
+        },
+        {
+          "label": {
+            "en": "Function",
+            "zh": "功能"
+          },
+          "value": "Tire Pressure Monitor"
+        },
+        {
+          "label": {
+            "en": "Display Type",
+            "zh": "Display Type"
+          },
+          "value": "digital pressure gauge"
+        },
+        {
+          "label": {
+            "en": "Cylinder type",
+            "zh": "Cylinder type"
+          },
+          "value": "Single Cylinder Inflators"
+        },
+        {
+          "label": {
+            "en": "Material",
+            "zh": "材质"
+          },
+          "value": "ABS"
+        },
+        {
+          "label": {
+            "en": "Suitable for",
+            "zh": "Suitable for"
+          },
+          "value": "Compact Car / Motorcycle"
+        },
+        {
+          "label": {
+            "en": "certification",
+            "zh": "certification"
+          },
+          "value": "CE"
+        },
+        {
+          "label": {
+            "en": "Color",
+            "zh": "颜色"
+          },
+          "value": "Black"
+        },
+        {
+          "label": {
+            "en": "Place of Origin",
+            "zh": "产地"
+          },
+          "value": "CN"
+        },
+        {
+          "label": {
+            "en": "Voltage",
+            "zh": "电压"
+          },
+          "value": "14.8V"
+        },
+        {
+          "label": {
+            "en": "Size",
+            "zh": "尺寸"
+          },
+          "value": "23*10*11CM"
+        },
+        {
+          "label": {
+            "en": "Model Number",
+            "zh": "型号"
+          },
+          "value": "YMC6667"
+        },
+        {
+          "label": {
+            "en": "Noise Level",
+            "zh": "噪音"
+          },
+          "value": "85"
+        }
+      ],
+      "packaging": {
+        "unit": "Color Box"
+      },
+      "customization": {},
+      "applications": {
+        "en": "",
+        "zh": ""
+      },
+      "price_indicator": null,
+      "quick_specs": [
+        {
+          "label": {
+            "en": "Power",
+            "zh": "功率"
+          },
+          "value": "≤120W"
+        },
+        {
+          "label": {
+            "en": "Battery Type",
+            "zh": "电池类型"
+          },
+          "value": "Lithium Polymer Battery"
+        },
+        {
+          "label": {
+            "en": "Battery Capacity",
+            "zh": "电池容量"
+          },
+          "value": "2500mAh*4"
+        },
+        {
+          "label": {
+            "en": "Charging Time",
+            "zh": "充电时间"
+          },
+          "value": "3-5H"
+        }
+      ],
+      "price_ladder": [],
+      "sku": "1601909117845",
+      "description": {
+        "en": "2500mAh*4 · ≤120W · 3-5H. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "2500mAh*4 · ≤120W · 3-5H。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+      },
+      "supplier_rating": "4.8",
+      "response_time": "≤ 2h",
+      "transactions": "US $100K+",
+      "years": "10+",
+      "ship_from": {
+        "en": "Ningbo, China",
+        "zh": "中国宁波"
+      },
+      "sample": {
+        "enabled": true,
+        "qty": 5,
+        "note": "Sample available, lead 7-14 days"
+      },
+      "category_name": {
+        "en": "Digital Tire Inflator",
+        "zh": "数显充气泵",
+        "ar": "مضخة اطارات رقمية",
+        "es": "Inflador de Neumaticos Digital",
+        "fr": "Gonfleur de Pneus Numérique",
+        "id": "Pompa Ban Digital",
+        "ru": "Tsifrovoj nazhutochnyj nasos",
+        "th": "ปั้มลมยางดิจิทัล",
+        "vi": "May bom long xe may"
+      },
+      "_source": {
+        "platform": "alibaba.com",
+        "productId": "1601909117845"
+      },
+      "_cat": "tire-inflator"
     }
   ],
   "reviews": [

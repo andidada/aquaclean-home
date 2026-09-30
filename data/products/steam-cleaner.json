@@ -346,7 +346,982 @@
             "https://www.hkdmj.net/assets/images/products/steam-cleaner/sc-6.jpg"
           ]
         }
-      ]
+      ],
+      "_cat": "steam-cleaner"
+    },
+    {
+      "id": "1601865685196",
+      "name": {
+        "en": "Portable High Pressure Steam Cleaner 1500W 1600ml Tank 3 Bar Household Cleaning Kit with Multi Attachments",
+        "zh": "1500W 便携高压蒸汽清洁机（1600ml 水箱 / 3Bar）"
+      },
+      "tagline": {
+        "en": "1.6L · Water Filter · Steam Cleaner",
+        "zh": "1.6L · Water Filter · Steam Cleaner"
+      },
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/steam-cleaner-1601865685196/01.jpg",
+        "https://www.hkdmj.net/assets/images/products/steam-cleaner-1601865685196/02.jpg",
+        "https://www.hkdmj.net/assets/images/products/steam-cleaner-1601865685196/03.jpg",
+        "https://www.hkdmj.net/assets/images/products/steam-cleaner-1601865685196/04.jpg",
+        "https://www.hkdmj.net/assets/images/products/steam-cleaner-1601865685196/05.jpg",
+        "https://www.hkdmj.net/assets/images/products/steam-cleaner-1601865685196/06.jpg"
+      ],
+      "video_url": null,
+      "moq": {
+        "value": 1,
+        "unit": "pieces"
+      },
+      "certifications": [],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": {
+            "en": "Type: Water Filter",
+            "zh": "Type: Water Filter"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Product name: Steam Cleaner",
+            "zh": "Product name: Steam Cleaner"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Power Source: Usb",
+            "zh": "Power Source: Usb"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Function: Dry",
+            "zh": "Function: Dry"
+          }
+        }
+      ],
+      "specs": [
+        {
+          "label": {
+            "en": "Type",
+            "zh": "类型"
+          },
+          "value": "Water Filter"
+        },
+        {
+          "label": {
+            "en": "Product name",
+            "zh": "Product name"
+          },
+          "value": "Steam Cleaner"
+        },
+        {
+          "label": {
+            "en": "Power Source",
+            "zh": "Power Source"
+          },
+          "value": "Usb"
+        },
+        {
+          "label": {
+            "en": "Function",
+            "zh": "功能"
+          },
+          "value": "Dry"
+        },
+        {
+          "label": {
+            "en": "Keywords",
+            "zh": "Keywords"
+          },
+          "value": "Steam Cleanmer"
+        },
+        {
+          "label": {
+            "en": "Material",
+            "zh": "材质"
+          },
+          "value": "ABS"
+        },
+        {
+          "label": {
+            "en": "Usage",
+            "zh": "Usage"
+          },
+          "value": "Public . Home . Office . Hospital"
+        },
+        {
+          "label": {
+            "en": "Water Tank Capacity",
+            "zh": "水箱容量"
+          },
+          "value": "1600ml"
+        },
+        {
+          "label": {
+            "en": "Color",
+            "zh": "颜色"
+          },
+          "value": "Photo"
+        },
+        {
+          "label": {
+            "en": "Weight (KG)",
+            "zh": "Weight (KG)"
+          },
+          "value": "2kg"
+        },
+        {
+          "label": {
+            "en": "SIZE",
+            "zh": "SIZE"
+          },
+          "value": "20x14.5x13 cm"
+        },
+        {
+          "label": {
+            "en": "Capacity",
+            "zh": "Capacity"
+          },
+          "value": "1600ml"
+        },
+        {
+          "label": {
+            "en": "PACKING",
+            "zh": "PACKING"
+          },
+          "value": "Box Package"
+        },
+        {
+          "label": {
+            "en": "Design",
+            "zh": "Design"
+          },
+          "value": "Handle Slicker Brush"
+        },
+        {
+          "label": {
+            "en": "Steam Pipe Length",
+            "zh": "Steam Pipe Length"
+          },
+          "value": "2.0"
+        },
+        {
+          "label": {
+            "en": "MOQ",
+            "zh": "起订量"
+          },
+          "value": "2 Pcs"
+        },
+        {
+          "label": {
+            "en": "Steam pressure",
+            "zh": "Steam pressure"
+          },
+          "value": "3 bar"
+        },
+        {
+          "label": {
+            "en": "app-controlled",
+            "zh": "app-controlled"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Household"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Car"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Outdoor"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Hotel"
+        },
+        {
+          "label": {
+            "en": "Installation",
+            "zh": "Installation"
+          },
+          "value": "Handheld"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Corrugated Box"
+        },
+        {
+          "label": {
+            "en": "power (w)",
+            "zh": "power (w)"
+          },
+          "value": "1500 W"
+        },
+        {
+          "label": {
+            "en": "warranty",
+            "zh": "warranty"
+          },
+          "value": "1 Year"
+        },
+        {
+          "label": {
+            "en": "place of origin",
+            "zh": "place of origin"
+          },
+          "value": "CN;GUA"
+        },
+        {
+          "label": {
+            "en": "Water Tank Capacity",
+            "zh": "水箱容量"
+          },
+          "value": "1.6L"
+        },
+        {
+          "label": {
+            "en": "Heating Time",
+            "zh": "Heating Time"
+          },
+          "value": "15 s"
+        },
+        {
+          "label": {
+            "en": "Material",
+            "zh": "材质"
+          },
+          "value": "ABS"
+        },
+        {
+          "label": {
+            "en": "model number",
+            "zh": "model number"
+          },
+          "value": "D09S"
+        }
+      ],
+      "packaging": {
+        "unit": "Corrugated Box"
+      },
+      "customization": {},
+      "applications": {
+        "en": "",
+        "zh": ""
+      },
+      "price_indicator": null,
+      "quick_specs": [
+        {
+          "label": {
+            "en": "Type",
+            "zh": "类型"
+          },
+          "value": "Water Filter"
+        },
+        {
+          "label": {
+            "en": "Product name",
+            "zh": "Product name"
+          },
+          "value": "Steam Cleaner"
+        },
+        {
+          "label": {
+            "en": "Power Source",
+            "zh": "Power Source"
+          },
+          "value": "Usb"
+        },
+        {
+          "label": {
+            "en": "Function",
+            "zh": "功能"
+          },
+          "value": "Dry"
+        }
+      ],
+      "price_ladder": [],
+      "sku": "1601865685196",
+      "description": {
+        "en": "1.6L · Water Filter · Steam Cleaner. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "1.6L · Water Filter · Steam Cleaner。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+      },
+      "supplier_rating": "4.8",
+      "response_time": "≤ 2h",
+      "transactions": "US $100K+",
+      "years": "10+",
+      "ship_from": {
+        "en": "Ningbo, China",
+        "zh": "中国宁波"
+      },
+      "sample": {
+        "enabled": true,
+        "qty": 5,
+        "note": "Sample available, lead 7-14 days"
+      },
+      "category_name": {
+        "en": "Steam Cleaner",
+        "zh": "手持蒸汽清洁器",
+        "ar": "منظف بالبخار",
+        "es": "Limpiador de Vapor",
+        "fr": "Nettoyeur a Vapeur",
+        "id": "Pembersih Uap",
+        "ru": "Parnoyj ochistitel",
+        "th": "เครื่องทำความสะอาดด้วยไอน้ำ",
+        "vi": "May danh sach bang hoi nuoc"
+      },
+      "_source": {
+        "platform": "alibaba.com",
+        "productId": "1601865685196"
+      },
+      "_cat": "steam-cleaner"
+    },
+    {
+      "id": "1601898271900",
+      "name": {
+        "en": "1500W High Pressure Steam Cleaner Machine 100℃ Hot Steam Portable Multipurpose Cleaning Machine With 1400ml Water Tank",
+        "zh": "1500W 高温蒸汽清洁机（100℃ 便携多用途）"
+      },
+      "tagline": {
+        "en": "1.2L · Water Filter · Steam Cleaner",
+        "zh": "1.2L · Water Filter · Steam Cleaner"
+      },
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/steam-cleaner-1601898271900/01.jpg",
+        "https://www.hkdmj.net/assets/images/products/steam-cleaner-1601898271900/02.jpg",
+        "https://www.hkdmj.net/assets/images/products/steam-cleaner-1601898271900/03.jpg",
+        "https://www.hkdmj.net/assets/images/products/steam-cleaner-1601898271900/04.jpg",
+        "https://www.hkdmj.net/assets/images/products/steam-cleaner-1601898271900/05.jpg",
+        "https://www.hkdmj.net/assets/images/products/steam-cleaner-1601898271900/06.jpg"
+      ],
+      "video_url": null,
+      "moq": {
+        "value": 1,
+        "unit": "pieces"
+      },
+      "certifications": [],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": {
+            "en": "Type: Water Filter",
+            "zh": "Type: Water Filter"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Product name: Steam Cleaner",
+            "zh": "Product name: Steam Cleaner"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Power Source: Usb",
+            "zh": "Power Source: Usb"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Function: Dry",
+            "zh": "Function: Dry"
+          }
+        }
+      ],
+      "specs": [
+        {
+          "label": {
+            "en": "Type",
+            "zh": "类型"
+          },
+          "value": "Water Filter"
+        },
+        {
+          "label": {
+            "en": "Product name",
+            "zh": "Product name"
+          },
+          "value": "Steam Cleaner"
+        },
+        {
+          "label": {
+            "en": "Power Source",
+            "zh": "Power Source"
+          },
+          "value": "Usb"
+        },
+        {
+          "label": {
+            "en": "Function",
+            "zh": "功能"
+          },
+          "value": "Dry"
+        },
+        {
+          "label": {
+            "en": "Keywords",
+            "zh": "Keywords"
+          },
+          "value": "Steam Cleanmer"
+        },
+        {
+          "label": {
+            "en": "Material",
+            "zh": "材质"
+          },
+          "value": "ABS"
+        },
+        {
+          "label": {
+            "en": "Usage",
+            "zh": "Usage"
+          },
+          "value": "Public . Home . Office . Hospital"
+        },
+        {
+          "label": {
+            "en": "Water Tank Capacity",
+            "zh": "水箱容量"
+          },
+          "value": "1200ml"
+        },
+        {
+          "label": {
+            "en": "Color",
+            "zh": "颜色"
+          },
+          "value": "Photo"
+        },
+        {
+          "label": {
+            "en": "Weight (KG)",
+            "zh": "Weight (KG)"
+          },
+          "value": "2kg"
+        },
+        {
+          "label": {
+            "en": "SIZE",
+            "zh": "SIZE"
+          },
+          "value": "20x14.5x13 cm"
+        },
+        {
+          "label": {
+            "en": "Capacity",
+            "zh": "Capacity"
+          },
+          "value": "1000ml"
+        },
+        {
+          "label": {
+            "en": "PACKING",
+            "zh": "PACKING"
+          },
+          "value": "Box Package"
+        },
+        {
+          "label": {
+            "en": "Design",
+            "zh": "Design"
+          },
+          "value": "Handle Slicker Brush"
+        },
+        {
+          "label": {
+            "en": "Steam Pipe Length",
+            "zh": "Steam Pipe Length"
+          },
+          "value": "2.0"
+        },
+        {
+          "label": {
+            "en": "MOQ",
+            "zh": "起订量"
+          },
+          "value": "2 Pcs"
+        },
+        {
+          "label": {
+            "en": "Steam pressure",
+            "zh": "Steam pressure"
+          },
+          "value": "3 bar"
+        },
+        {
+          "label": {
+            "en": "app-controlled",
+            "zh": "app-controlled"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Car"
+        },
+        {
+          "label": {
+            "en": "Installation",
+            "zh": "Installation"
+          },
+          "value": "Handheld"
+        },
+        {
+          "label": {
+            "en": "operating language",
+            "zh": "operating language"
+          },
+          "value": "Spanish"
+        },
+        {
+          "label": {
+            "en": "operating language",
+            "zh": "operating language"
+          },
+          "value": "English"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Corrugated Box"
+        },
+        {
+          "label": {
+            "en": "power (w)",
+            "zh": "power (w)"
+          },
+          "value": "1500 W"
+        },
+        {
+          "label": {
+            "en": "warranty",
+            "zh": "warranty"
+          },
+          "value": "1 Year"
+        },
+        {
+          "label": {
+            "en": "place of origin",
+            "zh": "place of origin"
+          },
+          "value": "CN;GUA"
+        },
+        {
+          "label": {
+            "en": "Water Tank Capacity",
+            "zh": "水箱容量"
+          },
+          "value": "1.2L"
+        },
+        {
+          "label": {
+            "en": "Heating Time",
+            "zh": "Heating Time"
+          },
+          "value": "15 s"
+        },
+        {
+          "label": {
+            "en": "Material",
+            "zh": "材质"
+          },
+          "value": "ABS"
+        },
+        {
+          "label": {
+            "en": "model number",
+            "zh": "model number"
+          },
+          "value": "PTC-SC-004"
+        }
+      ],
+      "packaging": {
+        "unit": "Corrugated Box"
+      },
+      "customization": {},
+      "applications": {
+        "en": "",
+        "zh": ""
+      },
+      "price_indicator": null,
+      "quick_specs": [
+        {
+          "label": {
+            "en": "Type",
+            "zh": "类型"
+          },
+          "value": "Water Filter"
+        },
+        {
+          "label": {
+            "en": "Product name",
+            "zh": "Product name"
+          },
+          "value": "Steam Cleaner"
+        },
+        {
+          "label": {
+            "en": "Power Source",
+            "zh": "Power Source"
+          },
+          "value": "Usb"
+        },
+        {
+          "label": {
+            "en": "Function",
+            "zh": "功能"
+          },
+          "value": "Dry"
+        }
+      ],
+      "price_ladder": [],
+      "sku": "1601898271900",
+      "description": {
+        "en": "1.2L · Water Filter · Steam Cleaner. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "1.2L · Water Filter · Steam Cleaner。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+      },
+      "supplier_rating": "4.8",
+      "response_time": "≤ 2h",
+      "transactions": "US $100K+",
+      "years": "10+",
+      "ship_from": {
+        "en": "Ningbo, China",
+        "zh": "中国宁波"
+      },
+      "sample": {
+        "enabled": true,
+        "qty": 5,
+        "note": "Sample available, lead 7-14 days"
+      },
+      "category_name": {
+        "en": "Steam Cleaner",
+        "zh": "手持蒸汽清洁器",
+        "ar": "منظف بالبخار",
+        "es": "Limpiador de Vapor",
+        "fr": "Nettoyeur a Vapeur",
+        "id": "Pembersih Uap",
+        "ru": "Parnoyj ochistitel",
+        "th": "เครื่องทำความสะอาดด้วยไอน้ำ",
+        "vi": "May danh sach bang hoi nuoc"
+      },
+      "_source": {
+        "platform": "alibaba.com",
+        "productId": "1601898271900"
+      },
+      "_cat": "steam-cleaner"
+    },
+    {
+      "id": "1601905921428",
+      "name": {
+        "en": "1500W Electric High Pressure Steam Cleaner 3BAR Portable Multi-Purpose Household Steam Cleaning Machine for Kitchen Bathroom Car",
+        "zh": "1500W 高压蒸汽清洁机（3Bar 多用途）"
+      },
+      "tagline": {
+        "en": "1400ml · 1400 mL · 1500W",
+        "zh": "1400ml · 1400 mL · 1500W"
+      },
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/steam-cleaner-1601905921428/01.jpg",
+        "https://www.hkdmj.net/assets/images/products/steam-cleaner-1601905921428/02.jpg",
+        "https://www.hkdmj.net/assets/images/products/steam-cleaner-1601905921428/03.jpg",
+        "https://www.hkdmj.net/assets/images/products/steam-cleaner-1601905921428/04.jpg",
+        "https://www.hkdmj.net/assets/images/products/steam-cleaner-1601905921428/05.jpg",
+        "https://www.hkdmj.net/assets/images/products/steam-cleaner-1601905921428/06.jpg"
+      ],
+      "video_url": null,
+      "moq": {
+        "value": 1,
+        "unit": "pieces"
+      },
+      "certifications": [],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": {
+            "en": "Water Tank Capacity: 1400 mL",
+            "zh": "Water Tank Capacity: 1400 mL"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Rated Power: 1500W",
+            "zh": "Rated Power: 1500W"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Adjustable Gears: 3 gears adjustable",
+            "zh": "Adjustable Gears: 3 gears adjustable"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Product Dimension: 21*14.5*14.2 cm",
+            "zh": "Product Dimension: 21*14.5*14.2 cm"
+          }
+        }
+      ],
+      "specs": [
+        {
+          "label": {
+            "en": "Water Tank Capacity",
+            "zh": "水箱容量"
+          },
+          "value": "1400 mL"
+        },
+        {
+          "label": {
+            "en": "Rated Power",
+            "zh": "Rated Power"
+          },
+          "value": "1500W"
+        },
+        {
+          "label": {
+            "en": "Adjustable Gears",
+            "zh": "Adjustable Gears"
+          },
+          "value": "3 gears adjustable"
+        },
+        {
+          "label": {
+            "en": "Product Dimension",
+            "zh": "Product Dimension"
+          },
+          "value": "21*14.5*14.2 cm"
+        },
+        {
+          "label": {
+            "en": "Maximum Runtime",
+            "zh": "Maximum Runtime"
+          },
+          "value": "30 min"
+        },
+        {
+          "label": {
+            "en": "Steam pressure",
+            "zh": "Steam pressure"
+          },
+          "value": "3 bar"
+        },
+        {
+          "label": {
+            "en": "app-controlled",
+            "zh": "app-controlled"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Household"
+        },
+        {
+          "label": {
+            "en": "Installation",
+            "zh": "Installation"
+          },
+          "value": "Handheld"
+        },
+        {
+          "label": {
+            "en": "operating language",
+            "zh": "operating language"
+          },
+          "value": "English"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Corrugated Box"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Color Box"
+        },
+        {
+          "label": {
+            "en": "power (w)",
+            "zh": "power (w)"
+          },
+          "value": "1500 W"
+        },
+        {
+          "label": {
+            "en": "Power Source",
+            "zh": "Power Source"
+          },
+          "value": "Electric"
+        },
+        {
+          "label": {
+            "en": "private mold",
+            "zh": "private mold"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "warranty",
+            "zh": "warranty"
+          },
+          "value": "1 Year"
+        },
+        {
+          "label": {
+            "en": "place of origin",
+            "zh": "place of origin"
+          },
+          "value": "CN"
+        },
+        {
+          "label": {
+            "en": "Water Tank Capacity",
+            "zh": "水箱容量"
+          },
+          "value": "1400ml"
+        },
+        {
+          "label": {
+            "en": "brand name",
+            "zh": "brand name"
+          },
+          "value": "OEM"
+        },
+        {
+          "label": {
+            "en": "Heating Time",
+            "zh": "Heating Time"
+          },
+          "value": "15s"
+        },
+        {
+          "label": {
+            "en": "Material",
+            "zh": "材质"
+          },
+          "value": "PP"
+        },
+        {
+          "label": {
+            "en": "model number",
+            "zh": "model number"
+          },
+          "value": "YTC-SC-004"
+        }
+      ],
+      "packaging": {
+        "unit": "Color Box"
+      },
+      "customization": {},
+      "applications": {
+        "en": "",
+        "zh": ""
+      },
+      "price_indicator": null,
+      "quick_specs": [
+        {
+          "label": {
+            "en": "Water Tank Capacity",
+            "zh": "水箱容量"
+          },
+          "value": "1400 mL"
+        },
+        {
+          "label": {
+            "en": "Rated Power",
+            "zh": "Rated Power"
+          },
+          "value": "1500W"
+        },
+        {
+          "label": {
+            "en": "Adjustable Gears",
+            "zh": "Adjustable Gears"
+          },
+          "value": "3 gears adjustable"
+        },
+        {
+          "label": {
+            "en": "Product Dimension",
+            "zh": "Product Dimension"
+          },
+          "value": "21*14.5*14.2 cm"
+        }
+      ],
+      "price_ladder": [],
+      "sku": "1601905921428",
+      "description": {
+        "en": "1400ml · 1400 mL · 1500W. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "1400ml · 1400 mL · 1500W。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+      },
+      "supplier_rating": "4.8",
+      "response_time": "≤ 2h",
+      "transactions": "US $100K+",
+      "years": "10+",
+      "ship_from": {
+        "en": "Ningbo, China",
+        "zh": "中国宁波"
+      },
+      "sample": {
+        "enabled": true,
+        "qty": 5,
+        "note": "Sample available, lead 7-14 days"
+      },
+      "category_name": {
+        "en": "Steam Cleaner",
+        "zh": "手持蒸汽清洁器",
+        "ar": "منظف بالبخار",
+        "es": "Limpiador de Vapor",
+        "fr": "Nettoyeur a Vapeur",
+        "id": "Pembersih Uap",
+        "ru": "Parnoyj ochistitel",
+        "th": "เครื่องทำความสะอาดด้วยไอน้ำ",
+        "vi": "May danh sach bang hoi nuoc"
+      },
+      "_source": {
+        "platform": "alibaba.com",
+        "productId": "1601905921428"
+      },
+      "_cat": "steam-cleaner"
     }
   ],
   "reviews": [
