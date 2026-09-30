@@ -300,32 +300,12 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hkdmj.net/en/handheld-vacuum-v22-3.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://www.hkdmj.net/en/handheld-vacuum-gv22.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hkdmj.net/en/handheld-vacuum-qv18.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.hkdmj.net/en/handheld-vacuum-v22-4.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://www.hkdmj.net/en/handheld-vacuum-v26.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.hkdmj.net/en/handheld-vacuum-v22-5.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -365,32 +345,12 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hkdmj.net/zh/handheld-vacuum-v22-3.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://www.hkdmj.net/zh/handheld-vacuum-gv22.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hkdmj.net/zh/handheld-vacuum-qv18.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.hkdmj.net/zh/handheld-vacuum-v22-4.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://www.hkdmj.net/zh/handheld-vacuum-v26.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.hkdmj.net/zh/handheld-vacuum-v22-5.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -421,11 +381,6 @@
   </url>
   <url>
     <loc>https://www.hkdmj.net/en/robot-vacuum-v2g-sj.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.hkdmj.net/en/robot-vacuum-v2g-sj-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -461,11 +416,6 @@
   </url>
   <url>
     <loc>https://www.hkdmj.net/zh/robot-vacuum-v2g-sj.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.hkdmj.net/zh/robot-vacuum-v2g-sj-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -539,5 +489,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+
 
 </urlset>
