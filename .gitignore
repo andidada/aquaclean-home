@@ -18,10 +18,3 @@ npm-debug.log*
 *.cjs
 
 github_auth_url.txt
-
-# 本地工具/临时产物，不属于站点，禁止部署
-skills/
-*.py
-!scripts/*.py
-_*.json
-_*.txt

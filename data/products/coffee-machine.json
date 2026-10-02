@@ -2,357 +2,553 @@
   "category": "coffee-machine",
   "products": [
     {
-      "id": "cm-600",
+      "id": "2604",
       "name": {
-        "en": "BrewPro CM-600 Espresso Coffee Machine",
-        "zh": "BrewPro CM-600 意式咖啡机",
-        "ar": "ماكينة القهوة BrewPro CM-600",
-        "es": "Maquina de Cafe BrewPro CM-600",
-        "fr": "Machine a Cafe BrewPro CM-600",
-        "id": "Mesin Kopi BrewPro CM-600",
-        "ru": "Кофемашина BrewPro CM-600",
-        "th": "เครื่องทำกาแฟ BrewPro CM-600",
-        "vi": "May pha ca phe BrewPro CM-600"
+        "en": "Portable USB Rechargeable Capsule Coffee Maker with Aluminum Housing Car-Mountable Design Programmable Functions 4 Cups Capacity",
+        "zh": "2604 便携胶囊咖啡机（USB 充电 / 车载户外两用）"
       },
       "tagline": {
-        "en": "15-Bar Professional Espresso — Barista Quality at Home",
-        "zh": "15bar专业意式 — 在家享受咖啡师品质",
-        "ar": "إسبريسو احترافي 15 بار — جودة البارستا في المنزل",
-        "es": "Espresso Profesional de 15 Bar — Calidad de Barista en Casa",
-        "fr": "Expresso Professionnel 15 Bar — Qualite Barista a la Maison",
-        "id": "Espresso Profesional 15 Bar — Kualitas Barista di Rumah",
-        "ru": "Профессиональный эспрессо 15 бар — качество бариста дома",
-        "th": "เอสเปรสโซมืออาชีพ 15 บาร์ — คุณภาพบาริสต้าที่บ้าน",
-        "vi": "Espresso chuyen nghiep 15 Bar — Chat luong barista tai nha"
+        "en": "100 W · Up to 4 cups · 8 - 10 bar",
+        "zh": "100 W · Up to 4 cups · 8 - 10 bar"
       },
       "images": [
-        "https://www.hkdmj.net/assets/images/products/08-coffee-machine.png"
+        "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/01.webp",
+        "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/02.webp",
+        "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/03.webp",
+        "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/04.webp",
+        "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/05.webp",
+        "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/06.webp"
       ],
-      "video_url": "",
+      "video_url": null,
       "moq": {
-        "value": 200,
+        "value": 1,
         "unit": "pieces"
       },
-      "certifications": [
-        "CE",
-        "CB",
-        "ETL",
-        "LFGB"
-      ],
+      "certifications": [],
       "highlights": [
         {
-          "icon": "pressure",
+          "icon": "check",
           "text": {
-            "en": "15-Bar Pump Pressure for Rich Crema",
-            "zh": "15bar泵压，萃取丰富油脂"
+            "en": "Power (W): 100 W",
+            "zh": "功率(W): 100 W"
           }
         },
         {
-          "icon": "milk",
+          "icon": "check",
           "text": {
-            "en": "Steam Wand Froths Milk for Cappuccino",
-            "zh": "蒸汽管打奶泡，制作卡布奇诺"
+            "en": "Coffee Maker Capacity: Up to 4 cups",
+            "zh": "咖啡容量: Up to 4 cups"
           }
         },
         {
-          "icon": "temp",
+          "icon": "check",
           "text": {
-            "en": "PID Temperature Control, +/- 1C Accuracy",
-            "zh": "PID温控，+/- 1C精度"
-          }
-        },
-        {
-          "icon": "cup",
-          "text": {
-            "en": "Dual Cup Brewing, 1-4 Cups at Once",
-            "zh": "双杯冲泡，最多4杯"
+            "en": "Pump Pressure Bars: 8 - 10 bar",
+            "zh": "泵压(bar): 8 - 10 bar"
           }
         }
       ],
       "specs": [
         {
           "label": {
-            "en": "Pump Pressure",
-            "zh": "泵压"
+            "en": "function",
+            "zh": "function"
           },
-          "value": "15 Bar"
+          "value": "Hot Water System"
         },
         {
           "label": {
-            "en": "Power",
-            "zh": "功率"
+            "en": "function",
+            "zh": "function"
           },
-          "value": "1100W"
+          "value": "Programmable"
         },
         {
           "label": {
-            "en": "Boiler",
-            "zh": "锅炉"
+            "en": "function",
+            "zh": "function"
           },
-          "value": "Stainless Steel, 1.5L"
+          "value": "Self-Cleaning"
         },
         {
           "label": {
-            "en": "Water Tank",
-            "zh": "水箱容量"
+            "en": "function",
+            "zh": "function"
           },
-          "value": "1.8L"
+          "value": "Single Service"
         },
         {
           "label": {
-            "en": "Temperature Control",
-            "zh": "温控"
+            "en": "function",
+            "zh": "function"
           },
-          "value": "PID, 88-96C"
+          "value": "Temprature Control"
         },
         {
           "label": {
-            "en": "Milk Frother",
-            "zh": "奶泡器"
+            "en": "Housing Material",
+            "zh": "Housing Material"
           },
-          "value": "Steam Wand, 360 rotatable"
+          "value": "Aluminum"
         },
         {
           "label": {
-            "en": "Cup Warmer",
-            "zh": "杯暖器"
+            "en": "type",
+            "zh": "type"
           },
-          "value": "Top Plate, 6 cups"
+          "value": "Capsule Coffee Maker"
         },
         {
           "label": {
-            "en": "Pressure Gauge",
-            "zh": "压力表"
+            "en": "after-sales service provided",
+            "zh": "after-sales service provided"
           },
-          "value": "Yes, Analog"
+          "value": "Overseas Call Centers"
         },
         {
           "label": {
-            "en": "Dimensions",
-            "zh": "尺寸"
+            "en": "app-controlled",
+            "zh": "app-controlled"
           },
-          "value": "28x30x32cm"
+          "value": "No"
         },
         {
           "label": {
-            "en": "MOQ",
-            "zh": "最小起订量"
+            "en": "application",
+            "zh": "application"
           },
-          "value": "200 pcs"
+          "value": "Coffee Shop"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Commercial"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Garage"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Hotel"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Household"
+        },
+        {
+          "label": {
+            "en": "Coffee Maker Capacity",
+            "zh": "Coffee Maker Capacity"
+          },
+          "value": "Up to 4 cups"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Easy Cleaning"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Easy to Operate"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Eco-Friendly"
+        },
+        {
+          "label": {
+            "en": "operating language",
+            "zh": "operating language"
+          },
+          "value": "English"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Corrugated Box"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Color Box"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Gift Box"
+        },
+        {
+          "label": {
+            "en": "power (w)",
+            "zh": "power (w)"
+          },
+          "value": "100 W"
+        },
+        {
+          "label": {
+            "en": "power source",
+            "zh": "power source"
+          },
+          "value": "Battery"
+        },
+        {
+          "label": {
+            "en": "power source",
+            "zh": "power source"
+          },
+          "value": "Electric"
+        },
+        {
+          "label": {
+            "en": "pump pressure bars",
+            "zh": "pump pressure bars"
+          },
+          "value": "8 - 10 bar"
+        },
+        {
+          "label": {
+            "en": "warranty",
+            "zh": "warranty"
+          },
+          "value": "1 Year"
+        },
+        {
+          "label": {
+            "en": "place of origin",
+            "zh": "place of origin"
+          },
+          "value": "CN;GUA"
+        },
+        {
+          "label": {
+            "en": "dimensions (l x w x h (inches)",
+            "zh": "dimensions (l x w x h (inches)"
+          },
+          "value": "7.5*7.5*24.8"
+        },
+        {
+          "label": {
+            "en": "model number",
+            "zh": "model number"
+          },
+          "value": "2604"
         }
       ],
       "packaging": {
-        "unit": "color box",
-        "ctn_size": "45x32x18cm",
-        "ctn_qty": "12 pcs",
-        "gross_weight": "15kg"
+        "unit": "Gift Box"
       },
-      "customization": {
-        "oem": true,
-        "odm": true,
-        "logo": true,
-        "color": true,
-        "package": true,
-        "sample_lead": "7-14 days",
-        "production_lead": "25-35 days"
-      },
+      "customization": {},
       "applications": {
-        "en": "Home, Car, Office, Kitchen",
-        "zh": "家庭, 汽车, 办公室, 厨房"
+        "en": "",
+        "zh": ""
       },
-      "price_indicator": {
-        "min": 65,
-        "max": 120,
-        "currency": "USD"
-      },
+      "price_indicator": null,
       "quick_specs": [
         {
           "label": {
-            "en": "Pump Pressure",
-            "zh": "泵压"
+            "en": "Power (W)",
+            "zh": "功率(W)"
           },
-          "value": "15 Bar"
+          "value": "100 W"
         },
         {
           "label": {
-            "en": "Power",
-            "zh": "功率"
+            "en": "Coffee Maker Capacity",
+            "zh": "咖啡容量"
           },
-          "value": "1100W"
+          "value": "Up to 4 cups"
         },
         {
           "label": {
-            "en": "Boiler",
-            "zh": "锅炉"
+            "en": "Pump Pressure Bars",
+            "zh": "泵压(bar)"
           },
-          "value": "Stainless Steel, 1.5L"
-        },
-        {
-          "label": {
-            "en": "Water Tank",
-            "zh": "水箱容量"
-          },
-          "value": "1.8L"
+          "value": "8 - 10 bar"
         }
       ],
-      "price_ladder": [
-        {
-          "min": 200,
-          "max": 499,
-          "price": 120
-        },
-        {
-          "min": 500,
-          "max": 999,
-          "price": 92
-        },
-        {
-          "min": 1000,
-          "max": null,
-          "price": 65
-        }
-      ],
-      "sku": [
-        {
-          "name": {
-            "en": "Color",
-            "zh": "颜色"
-          },
-          "values": [
-            {
-              "name": "Black",
-              "color": "#111827"
-            },
-            {
-              "name": "Silver",
-              "color": "#D1D5DB"
-            }
-          ]
-        },
-        {
-          "name": {
-            "en": "Voltage",
-            "zh": "电压"
-          },
-          "values": [
-            {
-              "name": "220-240V"
-            },
-            {
-              "name": "110-120V"
-            }
-          ]
-        }
-      ],
+      "price_ladder": [],
+      "sku": "1601724407427",
       "description": {
-        "en": "Our espresso coffee machines bring professional-grade brewing to your kitchen or office. The 20-bar pump pressure extracts rich, aromatic espresso with perfect crema, while the milk frother creates silky microfoam for lattes and cappuccinos.\n\nKey features include a 1.5L removable water tank, 1350W fast heating, programmable cup sizes, and a compact stainless steel body. The intuitive control panel makes it easy to brew single or double shots.\n\nWe offer OEM/ODM customization: colors, branding, packaging, and even coffee accessories. MOQ 200 units, sample lead time 7-14 days.",
-        "zh": "我们的意式咖啡机将专业级萃取带入您的厨房或办公室。20巴泵压萃取出浓郁芳香的浓缩咖啡，奶泡器为拿铁和卡布奇诺打造丝滑微泡。\n\n核心功能包括1.5L可拆卸水箱、1350W快速加热、可编程杯量和紧凑不锈钢机身。直观控制面板轻松制作单杯或双杯。\n\n我们提供OEM/ODM定制：颜色、品牌、包装，甚至咖啡配件。最小起订量200台，样品交期7-14天。",
-        "ar": "Our espresso coffee machines bring professional-grade brewing to your kitchen or office. The 20-bar pump pressure extracts rich, aromatic espresso with perfect crema, while the milk frother creates silky microfoam for lattes and cappuccinos.\n\nKey features include a 1.5L removable water tank, 1350W fast heating, programmable cup sizes, and a compact stainless steel body. The intuitive control panel makes it easy to brew single or double shots.\n\nWe offer OEM/ODM customization: colors, branding, packaging, and even coffee accessories. MOQ 200 units, sample lead time 7-14 days.",
-        "es": "Our espresso coffee machines bring professional-grade brewing to your kitchen or office. The 20-bar pump pressure extracts rich, aromatic espresso with perfect crema, while the milk frother creates silky microfoam for lattes and cappuccinos.\n\nKey features include a 1.5L removable water tank, 1350W fast heating, programmable cup sizes, and a compact stainless steel body. The intuitive control panel makes it easy to brew single or double shots.\n\nWe offer OEM/ODM customization: colors, branding, packaging, and even coffee accessories. MOQ 200 units, sample lead time 7-14 days.",
-        "fr": "Our espresso coffee machines bring professional-grade brewing to your kitchen or office. The 20-bar pump pressure extracts rich, aromatic espresso with perfect crema, while the milk frother creates silky microfoam for lattes and cappuccinos.\n\nKey features include a 1.5L removable water tank, 1350W fast heating, programmable cup sizes, and a compact stainless steel body. The intuitive control panel makes it easy to brew single or double shots.\n\nWe offer OEM/ODM customization: colors, branding, packaging, and even coffee accessories. MOQ 200 units, sample lead time 7-14 days.",
-        "id": "Our espresso coffee machines bring professional-grade brewing to your kitchen or office. The 20-bar pump pressure extracts rich, aromatic espresso with perfect crema, while the milk frother creates silky microfoam for lattes and cappuccinos.\n\nKey features include a 1.5L removable water tank, 1350W fast heating, programmable cup sizes, and a compact stainless steel body. The intuitive control panel makes it easy to brew single or double shots.\n\nWe offer OEM/ODM customization: colors, branding, packaging, and even coffee accessories. MOQ 200 units, sample lead time 7-14 days.",
-        "ru": "Our espresso coffee machines bring professional-grade brewing to your kitchen or office. The 20-bar pump pressure extracts rich, aromatic espresso with perfect crema, while the milk frother creates silky microfoam for lattes and cappuccinos.\n\nKey features include a 1.5L removable water tank, 1350W fast heating, programmable cup sizes, and a compact stainless steel body. The intuitive control panel makes it easy to brew single or double shots.\n\nWe offer OEM/ODM customization: colors, branding, packaging, and even coffee accessories. MOQ 200 units, sample lead time 7-14 days.",
-        "th": "Our espresso coffee machines bring professional-grade brewing to your kitchen or office. The 20-bar pump pressure extracts rich, aromatic espresso with perfect crema, while the milk frother creates silky microfoam for lattes and cappuccinos.\n\nKey features include a 1.5L removable water tank, 1350W fast heating, programmable cup sizes, and a compact stainless steel body. The intuitive control panel makes it easy to brew single or double shots.\n\nWe offer OEM/ODM customization: colors, branding, packaging, and even coffee accessories. MOQ 200 units, sample lead time 7-14 days.",
-        "vi": "Our espresso coffee machines bring professional-grade brewing to your kitchen or office. The 20-bar pump pressure extracts rich, aromatic espresso with perfect crema, while the milk frother creates silky microfoam for lattes and cappuccinos.\n\nKey features include a 1.5L removable water tank, 1350W fast heating, programmable cup sizes, and a compact stainless steel body. The intuitive control panel makes it easy to brew single or double shots.\n\nWe offer OEM/ODM customization: colors, branding, packaging, and even coffee accessories. MOQ 200 units, sample lead time 7-14 days."
+        "en": "100 W · Up to 4 cups · 8 - 10 bar. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "100 W · Up to 4 cups · 8 - 10 bar。支持 OEM/ODM 定制，规格取自供应商商品资料。"
       },
-      "supplier_rating": "4.8",
-      "response_time": "≤ 2h",
-      "transactions": "US $100K+",
-      "years": "10+",
-      "ship_from": {
-        "en": "Ningbo, China",
-        "zh": "中国宁波"
-      },
-      "sample": {
-        "enabled": true,
-        "qty": 5,
-        "note": "Sample available, lead 7-14 days"
-      },
+      "supplier_rating": null,
+      "response_time": null,
+      "transactions": null,
+      "years": null,
+      "ship_from": null,
+      "sample": null,
       "category_name": {
-        "en": "Espresso Coffee Machine",
-        "zh": "意式咖啡机",
-        "ar": "ماكينة قهوة إسبريسو",
-        "es": "Maquina de Cafe Espresso",
-        "fr": "Machine a Cafe Expresso",
-        "id": "Mesin Kopi Espresso",
-        "ru": "Kofemashina espressso",
-        "th": "เครื่องทำกาแฟเอสเปรสโซ",
-        "vi": "May pha ca phe espresso"
+        "en": "Espresso Coffee Machines",
+        "zh": "意式咖啡机"
       },
-      "_schema_reviews": [
+      "_source": {
+        "platform": "alibaba.com",
+        "productId": "1601724407427"
+      },
+      "_cat": "coffee-machine"
+    },
+    {
+      "id": "sk-kf-6871",
+      "name": {
+        "en": "Electric Automatic Aluminum Coffee Maker Espresso Machine for Commercial Use",
+        "zh": "SK-KF-6871 全自动意式咖啡机（铝制机身 / 商用）"
+      },
+      "tagline": {
+        "en": "700 W · Up to 4 cups",
+        "zh": "700 W · Up to 4 cups"
+      },
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/coffee-machine-sk-kf-6871/01.webp",
+        "https://www.hkdmj.net/assets/images/products/coffee-machine-sk-kf-6871/02.webp",
+        "https://www.hkdmj.net/assets/images/products/coffee-machine-sk-kf-6871/03.webp",
+        "https://www.hkdmj.net/assets/images/products/coffee-machine-sk-kf-6871/04.webp",
+        "https://www.hkdmj.net/assets/images/products/coffee-machine-sk-kf-6871/05.webp",
+        "https://www.hkdmj.net/assets/images/products/coffee-machine-sk-kf-6871/06.webp"
+      ],
+      "video_url": null,
+      "moq": {
+        "value": 1,
+        "unit": "pieces"
+      },
+      "certifications": [],
+      "highlights": [
         {
-          "@type": "Review",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "Lucas Schmidt",
-            "address": {
-              "@type": "PostalAddress",
-              "addressLocality": "Berlin, Germany"
-            }
-          },
-          "datePublished": "2025-11-05",
-          "reviewBody": "I have been roasting coffee for 10 years and this machine produces cafe-quality espresso at home. The PID-controlled boiler maintains 93°C ±1°C. The steam wand produces microfoam for latte art. The attached photos show the extraction and the milk texturing.",
-          "name": "Professional 20-bar pressure and PID temperature control at an unbeatable price",
-          "image": [
-            "https://www.hkdmj.net/assets/images/products/coffee-machine/cm-1.jpg",
-            "https://www.hkdmj.net/assets/images/products/coffee-machine/cm-2.jpg"
-          ]
+          "icon": "check",
+          "text": {
+            "en": "Power (W): 700 W",
+            "zh": "功率(W): 700 W"
+          }
         },
         {
-          "@type": "Review",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "Isabella Romano",
-            "address": {
-              "@type": "PostalAddress",
-              "addressLocality": "Rome, Italy"
-            }
-          },
-          "datePublished": "2025-09-18",
-          "reviewBody": "As an Italian I am picky about espresso. This machine pulls a rich crema with our medium roast blend. The dual-boiler system lets us steam milk and pull shots simultaneously. The LED display and touch controls are intuitive and responsive.",
-          "name": "OEM quality that rivals DeLonghi and Gaggia at half the price",
-          "image": [
-            "https://www.hkdmj.net/assets/images/products/coffee-machine/cm-3.jpg",
-            "https://www.hkdmj.net/assets/images/products/coffee-machine/cm-4.jpg"
-          ]
-        },
-        {
-          "@type": "Review",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "4",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "Jessica Chen",
-            "address": {
-              "@type": "PostalAddress",
-              "addressLocality": "Vancouver, Canada"
-            }
-          },
-          "datePublished": "2025-08-04",
-          "reviewBody": "We opened a 12-seat cafe and needed a reliable semi-automatic espresso machine within budget. This one delivers consistent shots across a 6-hour shift. We did a test run of 200 espressos in one day and the machine performed without any issues.",
-          "name": "Great for our boutique cafe — 200 unit order arrived perfectly packed",
-          "image": [
-            "https://www.hkdmj.net/assets/images/products/coffee-machine/cm-5.jpg",
-            "https://www.hkdmj.net/assets/images/products/coffee-machine/cm-6.jpg"
-          ]
+          "icon": "check",
+          "text": {
+            "en": "Coffee Maker Capacity: Up to 4 cups",
+            "zh": "咖啡容量: Up to 4 cups"
+          }
         }
-      ]
+      ],
+      "specs": [
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Hot Water System"
+        },
+        {
+          "label": {
+            "en": "Housing Material",
+            "zh": "Housing Material"
+          },
+          "value": "Aluminum"
+        },
+        {
+          "label": {
+            "en": "type",
+            "zh": "type"
+          },
+          "value": "Automatic Coffee Machine"
+        },
+        {
+          "label": {
+            "en": "after-sales service provided",
+            "zh": "after-sales service provided"
+          },
+          "value": "Overseas Call Centers"
+        },
+        {
+          "label": {
+            "en": "app-controlled",
+            "zh": "app-controlled"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Commercial"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Garage"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Coffee Shop"
+        },
+        {
+          "label": {
+            "en": "Coffee Maker Capacity",
+            "zh": "Coffee Maker Capacity"
+          },
+          "value": "Up to 4 cups"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Automatic"
+        },
+        {
+          "label": {
+            "en": "operating language",
+            "zh": "operating language"
+          },
+          "value": "English"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Corrugated Box"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Color Box"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Gift Box"
+        },
+        {
+          "label": {
+            "en": "power (w)",
+            "zh": "power (w)"
+          },
+          "value": "700 W"
+        },
+        {
+          "label": {
+            "en": "power source",
+            "zh": "power source"
+          },
+          "value": "Battery"
+        },
+        {
+          "label": {
+            "en": "power source",
+            "zh": "power source"
+          },
+          "value": "Electric"
+        },
+        {
+          "label": {
+            "en": "warranty",
+            "zh": "warranty"
+          },
+          "value": "1 Year"
+        },
+        {
+          "label": {
+            "en": "place of origin",
+            "zh": "place of origin"
+          },
+          "value": "CN;GUA"
+        },
+        {
+          "label": {
+            "en": "dimensions (l x w x h (inches)",
+            "zh": "dimensions (l x w x h (inches)"
+          },
+          "value": "49.3*49.3*39.4"
+        },
+        {
+          "label": {
+            "en": "model number",
+            "zh": "model number"
+          },
+          "value": "SK-KF-6871"
+        }
+      ],
+      "packaging": {
+        "unit": "Gift Box"
+      },
+      "customization": {},
+      "applications": {
+        "en": "",
+        "zh": ""
+      },
+      "price_indicator": null,
+      "quick_specs": [
+        {
+          "label": {
+            "en": "Power (W)",
+            "zh": "功率(W)"
+          },
+          "value": "700 W"
+        },
+        {
+          "label": {
+            "en": "Coffee Maker Capacity",
+            "zh": "咖啡容量"
+          },
+          "value": "Up to 4 cups"
+        }
+      ],
+      "price_ladder": [],
+      "sku": "1601723739803",
+      "description": {
+        "en": "700 W · Up to 4 cups. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "700 W · Up to 4 cups。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+      },
+      "supplier_rating": null,
+      "response_time": null,
+      "transactions": null,
+      "years": null,
+      "ship_from": null,
+      "sample": null,
+      "category_name": {
+        "en": "Espresso Coffee Machines",
+        "zh": "意式咖啡机"
+      },
+      "_source": {
+        "platform": "alibaba.com",
+        "productId": "1601723739803"
+      },
+      "_cat": "coffee-machine"
     }
   ],
   "reviews": [
@@ -364,8 +560,8 @@
       "title": "Professional 20-bar pressure and PID temperature control at an unbeatable price",
       "body": "I have been roasting coffee for 10 years and this machine produces cafe-quality espresso at home. The PID-controlled boiler maintains 93°C ±1°C. The steam wand produces microfoam for latte art. The attached photos show the extraction and the milk texturing.",
       "photoUrls": [
-        "https://www.hkdmj.net/assets/images/products/coffee-machine/cm-1.jpg",
-        "https://www.hkdmj.net/assets/images/products/coffee-machine/cm-2.jpg"
+        "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/01.webp",
+        "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/02.webp"
       ]
     },
     {
@@ -376,8 +572,8 @@
       "title": "OEM quality that rivals DeLonghi and Gaggia at half the price",
       "body": "As an Italian I am picky about espresso. This machine pulls a rich crema with our medium roast blend. The dual-boiler system lets us steam milk and pull shots simultaneously. The LED display and touch controls are intuitive and responsive.",
       "photoUrls": [
-        "https://www.hkdmj.net/assets/images/products/coffee-machine/cm-3.jpg",
-        "https://www.hkdmj.net/assets/images/products/coffee-machine/cm-4.jpg"
+        "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/01.webp",
+        "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/02.webp"
       ]
     },
     {
@@ -388,8 +584,8 @@
       "title": "Great for our boutique cafe — 200 unit order arrived perfectly packed",
       "body": "We opened a 12-seat cafe and needed a reliable semi-automatic espresso machine within budget. This one delivers consistent shots across a 6-hour shift. We did a test run of 200 espressos in one day and the machine performed without any issues.",
       "photoUrls": [
-        "https://www.hkdmj.net/assets/images/products/coffee-machine/cm-5.jpg",
-        "https://www.hkdmj.net/assets/images/products/coffee-machine/cm-6.jpg"
+        "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/01.webp",
+        "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/02.webp"
       ]
     }
   ],
@@ -414,8 +610,8 @@
       "reviewBody": "I have been roasting coffee for 10 years and this machine produces cafe-quality espresso at home. The PID-controlled boiler maintains 93°C ±1°C. The steam wand produces microfoam for latte art. The attached photos show the extraction and the milk texturing.",
       "name": "Professional 20-bar pressure and PID temperature control at an unbeatable price",
       "image": [
-        "https://www.hkdmj.net/assets/images/products/coffee-machine/cm-1.jpg",
-        "https://www.hkdmj.net/assets/images/products/coffee-machine/cm-2.jpg"
+        "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/01.webp",
+        "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/02.webp"
       ]
     },
     {
@@ -438,8 +634,8 @@
       "reviewBody": "As an Italian I am picky about espresso. This machine pulls a rich crema with our medium roast blend. The dual-boiler system lets us steam milk and pull shots simultaneously. The LED display and touch controls are intuitive and responsive.",
       "name": "OEM quality that rivals DeLonghi and Gaggia at half the price",
       "image": [
-        "https://www.hkdmj.net/assets/images/products/coffee-machine/cm-3.jpg",
-        "https://www.hkdmj.net/assets/images/products/coffee-machine/cm-4.jpg"
+        "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/01.webp",
+        "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/02.webp"
       ]
     },
     {
@@ -462,8 +658,8 @@
       "reviewBody": "We opened a 12-seat cafe and needed a reliable semi-automatic espresso machine within budget. This one delivers consistent shots across a 6-hour shift. We did a test run of 200 espressos in one day and the machine performed without any issues.",
       "name": "Great for our boutique cafe — 200 unit order arrived perfectly packed",
       "image": [
-        "https://www.hkdmj.net/assets/images/products/coffee-machine/cm-5.jpg",
-        "https://www.hkdmj.net/assets/images/products/coffee-machine/cm-6.jpg"
+        "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/01.webp",
+        "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/02.webp"
       ]
     }
   ]

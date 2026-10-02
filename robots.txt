@@ -12,10 +12,10 @@ Sitemap: https://www.hkdmj.net/sitemap.xml
 
 # AI/Crawler access
 User-agent: GPTBot
-Disallow: /
+Allow: /
 
 User-agent: ChatGPT-User
-Disallow: /
+Allow: /
 
 User-agent: CCBot
 Disallow: /

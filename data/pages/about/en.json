@@ -7,7 +7,7 @@
     "btn_primary_href": "index.html#contact",
     "btn_outline_text": "Our Story",
     "btn_outline_href": "#story",
-    "bg_image": "../assets/images/banners/banner-1.png"
+    "bg_image": "../assets/images/banners/banner-1.webp"
   },
   "story": {
     "label": "Our Story",
@@ -22,7 +22,7 @@
       "3-stage quality control: IQC → IPQC → OQC",
       "50+ countries served, 200+ active B2B partners"
     ],
-    "image": "../assets/images/banners/banner-2.png",
+    "image": "../assets/images/banners/banner-2.webp",
     "image_alt": "AquaClean user cleaning at home"
   },
   "capabilities": {
@@ -41,12 +41,12 @@
     "title": "Factory, Labs & Product Lines",
     "sub": "A look at where and how we build the appliances your customers love.",
     "items": [
-      {"img": "../assets/images/banners/banner-3.png", "alt": "Modern living showroom", "h4": "Modern Showroom", "p": "We showcase the latest cleaning innovations to visiting partners from around the world."},
-      {"img": "../assets/images/banners/banner-4.png", "alt": "Steam technology lab", "h4": "Steam Technology Lab", "p": "High-temperature steam R&D for chemical-free, deep-cleaning performance."},
-      {"img": "../assets/images/banners/banner-6.png", "alt": "Automotive care line", "h4": "Automotive Care Line", "p": "Car vacuums and tire inflators engineered for the global auto aftermarket."},
-      {"img": "../assets/images/products/01-handheld-vacuum.png", "alt": "Handheld series", "h4": "Handheld Series", "p": "Cordless, lightweight, and powerful — our best-selling export category."},
-      {"img": "../assets/images/products/03-steam-cleaner.png", "alt": "Steam series", "h4": "Steam Series", "p": "Multi-surface steamers with full CE / CB / ETL certification support."},
-      {"img": "../assets/images/products/07-tire-inflator.png", "alt": "Automotive series", "h4": "Automotive Series", "p": "Portable inflators with digital gauges, auto-stop, and LED lighting."}
+      {"img": "../assets/images/banners/banner-3.webp", "alt": "Modern living showroom", "h4": "Modern Showroom", "p": "We showcase the latest cleaning innovations to visiting partners from around the world."},
+      {"img": "../assets/images/banners/banner-4.webp", "alt": "Steam technology lab", "h4": "Steam Technology Lab", "p": "High-temperature steam R&D for chemical-free, deep-cleaning performance."},
+      {"img": "../assets/images/banners/banner-6.webp", "alt": "Automotive care line", "h4": "Automotive Care Line", "p": "Car vacuums and tire inflators engineered for the global auto aftermarket."},
+      {"img": "../assets/images/products/01-handheld-vacuum.webp", "alt": "Handheld series", "h4": "Handheld Series", "p": "Cordless, lightweight, and powerful — our best-selling export category."},
+      {"img": "../assets/images/products/03-steam-cleaner.webp", "alt": "Steam series", "h4": "Steam Series", "p": "Multi-surface steamers with full CE / CB / ETL certification support."},
+      {"img": "../assets/images/products/07-tire-inflator.webp", "alt": "Automotive series", "h4": "Automotive Series", "p": "Portable inflators with digital gauges, auto-stop, and LED lighting."}
     ]
   },
   "milestones": {

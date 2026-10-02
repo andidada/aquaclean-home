@@ -24,7 +24,7 @@
         "th": "เครื่องดูดฝุ่นมือถือไร้สายน้ำหนักเบาและทรงพลัง เหมาะสำหรับการทำความสะอาดอย่างรวดเร็วที่บ้าน รถยนต์ และสำนักงาน",
         "vi": "May hut bui cam tay khong day nhe nhung manh, hoan hao cho viec don dep nhanh o nha, xe hoi va van phong"
       },
-      "banner_image": "https://www.hkdmj.net/assets/images/products/01-handheld-vacuum.png",
+      "banner_image": "https://www.hkdmj.net/assets/images/products/01-handheld-vacuum.webp",
       "order": 1
     },
     {
@@ -51,7 +51,7 @@
         "th": "หุ่นยนต์ดูดฝุ่นอัจฉริยะพร้อมการนำทางด้วยเลเซอร์ LDS การควบคุมแอป และฟังก์ชันถูพื้น ชาร์จอัตโนมัติและแมปหลายชั้น",
         "vi": "Robot hut bui thong minh voi dieu huong laser LDS, dieu khien qua ung dung va chuc nang lau chan. Sac tu dong va danh cho nhieu tang"
       },
-      "banner_image": "https://www.hkdmj.net/assets/images/products/02-robot-vacuum.png",
+      "banner_image": "https://www.hkdmj.net/assets/images/products/02-robot-vacuum.webp",
       "order": 2
     },
     {
@@ -78,7 +78,7 @@
         "th": "เครื่องทำความสะอาดด้วยไอน้ำอุณหภูมิสูงที่ฆ่าเชื้อโรคโดยไม่ต้องใช้สารเคมี กำลัง 1500W ไอน้ำ 105 องศา",
         "vi": "May danh sach bang hoi nuoc nhiet do cao khuan khuan khong can hoa chat. Cong suat 1500W, hoi nuoc 105C"
       },
-      "banner_image": "https://www.hkdmj.net/assets/images/products/03-steam-cleaner.png",
+      "banner_image": "https://www.hkdmj.net/assets/images/products/03-steam-cleaner.webp",
       "order": 3
     },
     {
@@ -105,7 +105,7 @@
         "th": "เครื่องกำจัดไรด้วยแสง UV-C พร้อมการทำให้แห้งด้วยอากาศร้อน 55 องศา กรอง HEPA กัก 99.97% ของสารก่อภูมิแพ้",
         "vi": "Thiet bi loai bo ve sat bang tia UV-C voi say khi nong 55C. Loc HEPA bat 99.97% cac chat gay di ung"
       },
-      "banner_image": "https://www.hkdmj.net/assets/images/products/04-uv-mite-remover.png",
+      "banner_image": "https://www.hkdmj.net/assets/images/products/04-uv-mite-remover.webp",
       "order": 4
     },
     {
@@ -132,7 +132,7 @@
         "th": "หุ่นยนต์ทำความสะอาดกระจกอัตโนมัติพร้อมการนำทาง AI และเซนเซอร์ความปลอดภัย ทำความสะอาดกระจก กระเบื้อง และกระจกเงา",
         "vi": "Robot lau cua so tu dong voi dieu huong AI va cam bien an toan. Don dep kinh, gach men va guong"
       },
-      "banner_image": "https://www.hkdmj.net/assets/images/products/05-window-robot.png",
+      "banner_image": "https://www.hkdmj.net/assets/images/products/05-window-robot.webp",
       "order": 5
     },
     {
@@ -159,7 +159,7 @@
         "th": "เครื่องดูดฝุ่นรถยนต์แบบพกพาพร้อมตัวเลือกพลังงาน 12V/USB การออกแบบที่กะทัดรัดสำหรับพื้นที่แคบ",
         "vi": "May hut bui xe hoi co dinh portabel voi nhieu tuy chon nap dien 12V/USB. Thiet ke nho gon cho khong gian hep"
       },
-      "banner_image": "https://www.hkdmj.net/assets/images/products/06-car-vacuum.png",
+      "banner_image": "https://www.hkdmj.net/assets/images/products/06-car-vacuum.webp",
       "order": 6
     },
     {
@@ -186,7 +186,7 @@
         "th": "ปั้มลมยางดิจิทัลพร้อมหน้าจอ LCD และการปิดอัตโนมัติ โหมดความดันที่ตั้งค่าไว้ล่วงหน้าสำหรับรถยนต์และรถจักรยานยนต์",
         "vi": "May bom long xe so do LCD va tat tu dong. Che do ap suat duoc cai san co the cho xe hoi, xe may"
       },
-      "banner_image": "https://www.hkdmj.net/assets/images/products/07-tire-inflator.png",
+      "banner_image": "https://www.hkdmj.net/assets/images/products/07-tire-inflator.webp",
       "order": 7
     },
     {
@@ -213,7 +213,7 @@
         "th": "เครื่องทำกาแฟเอสเปรสโซมืออาชีพพร้อมความดันปั๊ม 15 บาร์ ฟองนม และการตั้งค่าที่สามารถตั้งโปรแกรมได้",
         "vi": "May pha ca phe espresso chuyen nghiep voi ap suat bom 15 bar, vot sua va cai dat co the lap trinh"
       },
-      "banner_image": "https://www.hkdmj.net/assets/images/products/08-coffee-machine.png",
+      "banner_image": "https://www.hkdmj.net/assets/images/products/08-coffee-machine.webp",
       "order": 8
     },
     {
@@ -240,7 +240,7 @@
         "th": "ถูพื้นไอน้ำแนวตั้งสำหรับทำความสะอาดพื้นโดยไม่ต้องใช้สารเคมี กำลัง 1500W ไอน้ำ 100 องศา",
         "vi": "Chet lot hoi nuoc dung doc de ve sinh san khong can hoa chat. Cong suat 1500W, hoi nuoc 100C"
       },
-      "banner_image": "https://www.hkdmj.net/assets/images/products/09-steam-mop.png",
+      "banner_image": "https://www.hkdmj.net/assets/images/products/09-steam-mop.webp",
       "order": 9
     }
   ]

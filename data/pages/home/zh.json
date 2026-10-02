@@ -14,9 +14,9 @@
       "name": "手持无线吸尘器",
       "desc": "轻便无线，120W强劲吸力。适合家庭、汽车和办公室快速清洁。",
       "tags": [],
-      "img": "../assets/images/products/01-handheld-vacuum.png",
+      "img": "../assets/images/products/01-handheld-vacuum.webp",
       "btn_text": "查看产品",
-      "btn_href": "handheld-vacuum/index.html",
+      "btn_href": "/zh/handheld-vacuum/",
       "btn_slug": "handheld-vacuum"
     },
     {
@@ -24,9 +24,9 @@
       "name": "智能扫地机器人",
       "desc": "LDS激光导航，APP控制，扫拖一体。自动回充，多层地图。",
       "tags": [],
-      "img": "../assets/images/products/02-robot-vacuum.png",
+      "img": "../assets/images/products/02-robot-vacuum.webp",
       "btn_text": "查看产品",
-      "btn_href": "robot-vacuum/index.html",
+      "btn_href": "/zh/robot-vacuum/",
       "btn_slug": "robot-vacuum"
     },
     {
@@ -34,9 +34,9 @@
       "name": "手持蒸汽清洁器",
       "desc": "1500W高温蒸汽清洁，无需化学剂。105C蒸汽，9种配件。",
       "tags": [],
-      "img": "../assets/images/products/03-steam-cleaner.png",
+      "img": "../assets/images/products/03-steam-cleaner.webp",
       "btn_text": "查看产品",
-      "btn_href": "steam-cleaner/index.html",
+      "btn_href": "/zh/steam-cleaner/",
       "btn_slug": "steam-cleaner"
     },
     {
@@ -44,9 +44,9 @@
       "name": "紫外线除螨仪",
       "desc": "UV-C紫外线除螨，55C热风烘干，HEPA过滤，99.97%过敏原捕获。",
       "tags": [],
-      "img": "../assets/images/products/04-uv-mite-remover.png",
+      "img": "../assets/images/products/04-uv-mite-remover.webp",
       "btn_text": "查看产品",
-      "btn_href": "uv-mite-remover/index.html",
+      "btn_href": "/zh/uv-mite-remover/",
       "btn_slug": "uv-mite-remover"
     },
     {
@@ -54,9 +54,9 @@
       "name": "智能擦窗机器人",
       "desc": "AI导航，安全传感器，UPS防跌落。每平方米仅需4分钟。",
       "tags": [],
-      "img": "../assets/images/products/05-window-robot.png",
+      "img": "../assets/images/products/05-window-robot.webp",
       "btn_text": "查看产品",
-      "btn_href": "window-cleaner-robot/index.html",
+      "btn_href": "/zh/window-cleaner-robot/",
       "btn_slug": "window-cleaner-robot"
     },
     {
@@ -64,9 +64,9 @@
       "name": "车载便携吸尘器",
       "desc": "12V/USB双电源，强劲吸力清理车内碎屑和宠物毛发。",
       "tags": [],
-      "img": "../assets/images/products/06-car-vacuum.png",
+      "img": "../assets/images/products/06-car-vacuum.webp",
       "btn_text": "查看产品",
-      "btn_href": "car-vacuum/index.html",
+      "btn_href": "/zh/car-vacuum/",
       "btn_slug": "car-vacuum"
     },
     {
@@ -74,9 +74,9 @@
       "name": "数显充气泵",
       "desc": "LCD屏幕，自动停止，最高150 PSI。适用于汽车、自行车和摩托车。",
       "tags": [],
-      "img": "../assets/images/products/07-tire-inflator.png",
+      "img": "../assets/images/products/07-tire-inflator.webp",
       "btn_text": "查看产品",
-      "btn_href": "tire-inflator/index.html",
+      "btn_href": "/zh/tire-inflator/",
       "btn_slug": "tire-inflator"
     },
     {
@@ -84,9 +84,9 @@
       "name": "意式咖啡机",
       "desc": "15bar泵压，奶泡器，PID温控。在家享受咖啡师品质。",
       "tags": [],
-      "img": "../assets/images/products/08-coffee-machine.png",
+      "img": "../assets/images/products/08-coffee-machine.webp",
       "btn_text": "查看产品",
-      "btn_href": "coffee-machine/index.html",
+      "btn_href": "/zh/coffee-machine/",
       "btn_slug": "coffee-machine"
     },
     {
@@ -94,9 +94,9 @@
       "name": "立式蒸汽拖把",
       "desc": "1500W，100C蒸汽，500ml水箱。无需化学剂消毒硬地板。",
       "tags": [],
-      "img": "../assets/images/products/09-steam-mop.png",
+      "img": "../assets/images/products/09-steam-mop.webp",
       "btn_text": "查看产品",
-      "btn_href": "upright-steam-mop/index.html",
+      "btn_href": "/zh/upright-steam-mop/",
       "btn_slug": "upright-steam-mop"
     }
   ],
@@ -111,7 +111,7 @@
   "footer": {
     "company_name": "Hong Kong Damaijia Technology Co., Limited",
     "description": "专业智能家用清洁电器制造商。自2015年起为全球品牌提供OEM/ODM解决方案。",
-    "email": "postmaster@hkdmi.net",
+    "email": "postmaster@hkdmj.net",
     "phone": "+86 177 7919 0118"
   }
 }

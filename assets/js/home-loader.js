@@ -160,7 +160,7 @@
 
   // Load JSON and render
   function load() {
-    var url = '/data/pages/home/' + LANG + '.json?v=' + Date.now();
+    var url = '/data/pages/home/' + LANG + '.json';
     var x = new XMLHttpRequest();
     x.open('GET', url, true);
     x.onload = function () {

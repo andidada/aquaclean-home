@@ -2,343 +2,329 @@
   "category": "window-cleaner-robot",
   "products": [
     {
-      "id": "wr-500",
+      "id": "gm1-c",
       "name": {
-        "en": "WindowBot WR-500 Smart Window Cleaner",
-        "zh": "WindowBot WR-500 智能擦窗机器人",
-        "ar": "روبوت WindowBot WR-500 الذكي لتنظيف النوافذ",
-        "es": "Robot Limpiacristales WindowBot WR-500",
-        "fr": "Robot Nettoyeur de Vitres WindowBot WR-500",
-        "id": "Robot Pembersih Jendela Cerdas WindowBot WR-500",
-        "ru": "Робот для окон WindowBot WR-500",
-        "th": "หุ่นยนต์ทำความสะอาดกระจก WindowBot WR-500",
-        "vi": "Robot lau kinh thong minh WindowBot WR-500"
+        "en": "OEM ODM Smart Window Cleaning Robot Remote Control Brushless Motor Household Use Automatic Glass Cleaner Anti-Fall Protection",
+        "zh": "GM1-C 智能擦窗机器人（遥控 / 自动玻璃清洁）"
       },
       "tagline": {
-        "en": "AI-Controlled — Cleans 1m² in Just 4 Minutes",
-        "zh": "AI智能控制 — 每平方米仅需4分钟",
-        "ar": "تحكم بالذكاء الاصطناعي — ينظف 1 متر مربع في 4 دقائق فقط",
-        "es": "Controlado por IA — Limpia 1m2 en Solo 4 Minutos",
-        "fr": " Controle IA — Nettoie 1m2 en Seulement 4 Minutes",
-        "id": "Dikontrol AI — Membersihkan 1m2 Hanya dalam 4 Menit",
-        "ru": "ИИ-контроль — очищает 1м2 всего за 4 минуты",
-        "th": "ควบคุมด้วย AI — ทำความสะอาด 1 ตร.ม. ใน 4 นาที",
-        "vi": "Dieu khien bang AI — Don dep 1m2 chi mat 4 phut"
+        "en": "8000Pa · 72W · 100ml",
+        "zh": "8000Pa · 72W · 100ml"
       },
       "images": [
-        "https://www.hkdmj.net/assets/images/products/05-window-robot.png"
+        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/01.webp",
+        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/02.webp",
+        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/03.webp",
+        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/04.webp"
       ],
-      "video_url": "",
+      "video_url": null,
       "moq": {
-        "value": 200,
+        "value": 1,
         "unit": "pieces"
       },
-      "certifications": [
-        "CE",
-        "FCC",
-        "RoHS",
-        "UL"
-      ],
+      "certifications": [],
       "highlights": [
         {
-          "icon": "ai",
+          "icon": "check",
           "text": {
-            "en": "AI Path Planning, No Missed Spots",
-            "zh": "AI路径规划，无遗漏"
+            "en": "Suction Power: 8000Pa",
+            "zh": "吸力: 8000Pa"
           }
         },
         {
-          "icon": "safety",
+          "icon": "check",
           "text": {
-            "en": "UPS Battery, 30min Fall Protection",
-            "zh": "UPS电池，30分钟防跌落保护"
+            "en": "Power (W): 72W",
+            "zh": "功率(W): 72W"
           }
         },
         {
-          "icon": "speed",
+          "icon": "check",
           "text": {
-            "en": "4min/m2 Fast Cleaning Speed",
-            "zh": "4分钟/平方米快速清洁"
+            "en": "Water tank capacity: 100ml",
+            "zh": "水箱容量: 100ml"
           }
         },
         {
-          "icon": "sensor",
+          "icon": "check",
           "text": {
-            "en": "Edge Detection for Frameless Windows",
-            "zh": "边缘感应，支持无框玻璃"
+            "en": "Runtime: 20-35mins",
+            "zh": "续航时间: 20-35mins"
           }
         }
       ],
       "specs": [
         {
           "label": {
-            "en": "Cleaning Speed",
-            "zh": "清洁速度"
+            "en": "Suction Power",
+            "zh": "吸力"
           },
-          "value": "4 min/m2"
+          "value": "8000Pa"
         },
         {
           "label": {
-            "en": "UPS Backup",
-            "zh": "UPS备用电源"
+            "en": "Battery capacity",
+            "zh": "Battery capacity"
           },
-          "value": "20-30 min"
+          "value": "500mAh"
         },
         {
           "label": {
-            "en": "Noise",
-            "zh": "噪音"
+            "en": "Runtime",
+            "zh": "续航时间"
           },
-          "value": "< 65dB"
+          "value": "20-35mins"
         },
         {
           "label": {
-            "en": "Safety Rope",
-            "zh": "安全绳"
+            "en": "Water tank capacity",
+            "zh": "Water tank capacity"
           },
-          "value": "150kg Load Capacity"
+          "value": "100ml"
         },
         {
           "label": {
-            "en": "Glass Thickness",
-            "zh": "适用玻璃厚度"
+            "en": "Motor Power",
+            "zh": "Motor Power"
           },
-          "value": "3-35mm"
+          "value": "72W"
         },
         {
           "label": {
-            "en": "Min Window Size",
-            "zh": "最小窗户尺寸"
+            "en": "Motor Type",
+            "zh": "电机类型"
           },
-          "value": "40x40cm"
+          "value": "Brushless Motor"
         },
         {
           "label": {
-            "en": "Power",
-            "zh": "功率"
+            "en": "Feature 1",
+            "zh": "Feature 1"
           },
-          "value": "75W"
+          "value": "Safety Rope Protection"
         },
         {
           "label": {
-            "en": "Sides Cleaned",
-            "zh": "双面清洁"
+            "en": "Feature 2",
+            "zh": "Feature 2"
           },
-          "value": "Yes, Both Sides"
+          "value": "UPS Power Backup Protection"
         },
         {
           "label": {
-            "en": "Control",
-            "zh": "控制方式"
+            "en": "Battery Capacity",
+            "zh": "电池容量"
           },
-          "value": "Remote + App"
+          "value": "500 mAh"
         },
         {
           "label": {
-            "en": "MOQ",
-            "zh": "最小起订量"
+            "en": "Maximum Runtime",
+            "zh": "Maximum Runtime"
           },
-          "value": "200 pcs"
+          "value": "30-60 min"
+        },
+        {
+          "label": {
+            "en": "app-controlled",
+            "zh": "app-controlled"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Hotel"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Household"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Commercial"
+        },
+        {
+          "label": {
+            "en": "cleaning mode",
+            "zh": "cleaning mode"
+          },
+          "value": "multiple modes"
+        },
+        {
+          "label": {
+            "en": "dust box capacity l",
+            "zh": "dust box capacity l"
+          },
+          "value": "0.5 L"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Safety"
+        },
+        {
+          "label": {
+            "en": "Material",
+            "zh": "材质"
+          },
+          "value": "Plastic"
+        },
+        {
+          "label": {
+            "en": "Motor Type",
+            "zh": "电机类型"
+          },
+          "value": "Brushless Motor"
+        },
+        {
+          "label": {
+            "en": "Navigation Mode",
+            "zh": "Navigation Mode"
+          },
+          "value": "Infrared"
+        },
+        {
+          "label": {
+            "en": "operating language",
+            "zh": "operating language"
+          },
+          "value": "English"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Color Box"
+        },
+        {
+          "label": {
+            "en": "Power Source",
+            "zh": "Power Source"
+          },
+          "value": "Battery"
+        },
+        {
+          "label": {
+            "en": "private mold",
+            "zh": "private mold"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "Type",
+            "zh": "类型"
+          },
+          "value": "Fully Automatic"
+        },
+        {
+          "label": {
+            "en": "warranty",
+            "zh": "warranty"
+          },
+          "value": "1 Year"
+        },
+        {
+          "label": {
+            "en": "place of origin",
+            "zh": "place of origin"
+          },
+          "value": "CN;GUA"
+        },
+        {
+          "label": {
+            "en": "brand name",
+            "zh": "brand name"
+          },
+          "value": "OEM ODM"
+        },
+        {
+          "label": {
+            "en": "power (w)",
+            "zh": "power (w)"
+          },
+          "value": "72W"
+        },
+        {
+          "label": {
+            "en": "model number",
+            "zh": "model number"
+          },
+          "value": "GM1-C"
         }
       ],
       "packaging": {
-        "unit": "color box",
-        "ctn_size": "45x32x18cm",
-        "ctn_qty": "12 pcs",
-        "gross_weight": "15kg"
+        "unit": "Color Box"
       },
-      "customization": {
-        "oem": true,
-        "odm": true,
-        "logo": true,
-        "color": true,
-        "package": true,
-        "sample_lead": "7-14 days",
-        "production_lead": "25-35 days"
-      },
+      "customization": {},
       "applications": {
-        "en": "Home, Car, Office, Kitchen",
-        "zh": "家庭, 汽车, 办公室, 厨房"
+        "en": "",
+        "zh": ""
       },
-      "price_indicator": {
-        "min": 65,
-        "max": 110,
-        "currency": "USD"
-      },
+      "price_indicator": null,
       "quick_specs": [
         {
           "label": {
-            "en": "Cleaning Speed",
-            "zh": "清洁速度"
+            "en": "Suction Power",
+            "zh": "吸力"
           },
-          "value": "4 min/m2"
+          "value": "8000Pa"
         },
         {
           "label": {
-            "en": "UPS Backup",
-            "zh": "UPS备用电源"
+            "en": "Power (W)",
+            "zh": "功率(W)"
           },
-          "value": "20-30 min"
+          "value": "72W"
         },
         {
           "label": {
-            "en": "Noise",
-            "zh": "噪音"
+            "en": "Water tank capacity",
+            "zh": "水箱容量"
           },
-          "value": "< 65dB"
+          "value": "100ml"
         },
         {
           "label": {
-            "en": "Safety Rope",
-            "zh": "安全绳"
+            "en": "Runtime",
+            "zh": "续航时间"
           },
-          "value": "150kg Load Capacity"
+          "value": "20-35mins"
         }
       ],
-      "price_ladder": [
-        {
-          "min": 200,
-          "max": 499,
-          "price": 110
-        },
-        {
-          "min": 500,
-          "max": 999,
-          "price": 88
-        },
-        {
-          "min": 1000,
-          "max": null,
-          "price": 65
-        }
-      ],
-      "sku": [
-        {
-          "name": {
-            "en": "Color",
-            "zh": "颜色"
-          },
-          "values": [
-            {
-              "name": "Black",
-              "color": "#111827"
-            },
-            {
-              "name": "White",
-              "color": "#F3F4F6"
-            }
-          ]
-        }
-      ],
+      "price_ladder": [],
+      "sku": "1601905990885",
       "description": {
-        "en": "Our window cleaning robots use intelligent path planning and powerful suction (2800Pa) to clean glass surfaces safely and efficiently. Perfect for high-rise windows, glass walls, and large glass surfaces that are hard to reach.\n\nFeatures include remote control and APP control, automatic edge detection, fall-prevention with safety rope, and 25-minute runtime with 65dB quiet operation. The smart water spray system delivers just the right amount of moisture for streak-free cleaning.\n\nWe support OEM/ODM customization including colors, branding, and packaging. MOQ 200 units, production lead time 25-35 days.",
-        "zh": "我们的擦窗机器人采用智能路径规划和2800Pa强力吸附，安全高效地清洁玻璃表面。非常适合高层窗户、玻璃幕墙和难以触及的大型玻璃表面。\n\n功能包括遥控器和APP控制、自动边缘检测、安全绳防坠落，以及25分钟续航和65dB静音运行。智能喷水系统提供恰到好处的水量，实现无水痕清洁。\n\n我们支持OEM/ODM定制，包括颜色、品牌和包装。最小起订量200台，大货交期25-35天。",
-        "ar": "Our window cleaning robots use intelligent path planning and powerful suction (2800Pa) to clean glass surfaces safely and efficiently. Perfect for high-rise windows, glass walls, and large glass surfaces that are hard to reach.\n\nFeatures include remote control and APP control, automatic edge detection, fall-prevention with safety rope, and 25-minute runtime with 65dB quiet operation. The smart water spray system delivers just the right amount of moisture for streak-free cleaning.\n\nWe support OEM/ODM customization including colors, branding, and packaging. MOQ 200 units, production lead time 25-35 days.",
-        "es": "Our window cleaning robots use intelligent path planning and powerful suction (2800Pa) to clean glass surfaces safely and efficiently. Perfect for high-rise windows, glass walls, and large glass surfaces that are hard to reach.\n\nFeatures include remote control and APP control, automatic edge detection, fall-prevention with safety rope, and 25-minute runtime with 65dB quiet operation. The smart water spray system delivers just the right amount of moisture for streak-free cleaning.\n\nWe support OEM/ODM customization including colors, branding, and packaging. MOQ 200 units, production lead time 25-35 days.",
-        "fr": "Our window cleaning robots use intelligent path planning and powerful suction (2800Pa) to clean glass surfaces safely and efficiently. Perfect for high-rise windows, glass walls, and large glass surfaces that are hard to reach.\n\nFeatures include remote control and APP control, automatic edge detection, fall-prevention with safety rope, and 25-minute runtime with 65dB quiet operation. The smart water spray system delivers just the right amount of moisture for streak-free cleaning.\n\nWe support OEM/ODM customization including colors, branding, and packaging. MOQ 200 units, production lead time 25-35 days.",
-        "id": "Our window cleaning robots use intelligent path planning and powerful suction (2800Pa) to clean glass surfaces safely and efficiently. Perfect for high-rise windows, glass walls, and large glass surfaces that are hard to reach.\n\nFeatures include remote control and APP control, automatic edge detection, fall-prevention with safety rope, and 25-minute runtime with 65dB quiet operation. The smart water spray system delivers just the right amount of moisture for streak-free cleaning.\n\nWe support OEM/ODM customization including colors, branding, and packaging. MOQ 200 units, production lead time 25-35 days.",
-        "ru": "Our window cleaning robots use intelligent path planning and powerful suction (2800Pa) to clean glass surfaces safely and efficiently. Perfect for high-rise windows, glass walls, and large glass surfaces that are hard to reach.\n\nFeatures include remote control and APP control, automatic edge detection, fall-prevention with safety rope, and 25-minute runtime with 65dB quiet operation. The smart water spray system delivers just the right amount of moisture for streak-free cleaning.\n\nWe support OEM/ODM customization including colors, branding, and packaging. MOQ 200 units, production lead time 25-35 days.",
-        "th": "Our window cleaning robots use intelligent path planning and powerful suction (2800Pa) to clean glass surfaces safely and efficiently. Perfect for high-rise windows, glass walls, and large glass surfaces that are hard to reach.\n\nFeatures include remote control and APP control, automatic edge detection, fall-prevention with safety rope, and 25-minute runtime with 65dB quiet operation. The smart water spray system delivers just the right amount of moisture for streak-free cleaning.\n\nWe support OEM/ODM customization including colors, branding, and packaging. MOQ 200 units, production lead time 25-35 days.",
-        "vi": "Our window cleaning robots use intelligent path planning and powerful suction (2800Pa) to clean glass surfaces safely and efficiently. Perfect for high-rise windows, glass walls, and large glass surfaces that are hard to reach.\n\nFeatures include remote control and APP control, automatic edge detection, fall-prevention with safety rope, and 25-minute runtime with 65dB quiet operation. The smart water spray system delivers just the right amount of moisture for streak-free cleaning.\n\nWe support OEM/ODM customization including colors, branding, and packaging. MOQ 200 units, production lead time 25-35 days."
+        "en": "8000Pa · 72W · 100ml. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "8000Pa · 72W · 100ml。支持 OEM/ODM 定制，规格取自供应商商品资料。"
       },
-      "supplier_rating": "4.8",
-      "response_time": "≤ 2h",
-      "transactions": "US $100K+",
-      "years": "10+",
-      "ship_from": {
-        "en": "Ningbo, China",
-        "zh": "中国宁波"
-      },
-      "sample": {
-        "enabled": true,
-        "qty": 5,
-        "note": "Sample available, lead 7-14 days"
-      },
+      "supplier_rating": null,
+      "response_time": null,
+      "transactions": null,
+      "years": null,
+      "ship_from": null,
+      "sample": null,
       "category_name": {
-        "en": "Smart Window Cleaner Robot",
-        "zh": "智能擦窗机器人",
-        "ar": "روبوت تنظيف النوافذ الذكي",
-        "es": "Robot Limpiacristales Inteligente",
-        "fr": "Robot Nettoyeur de Vitres Intelligent",
-        "id": "Robot Pembersih Jendela Cerdas",
-        "ru": "Umnyj robot-dlya-okon",
-        "th": "หุ่นยนต์ทำความสะอาดกระจกอัจฉริยะ",
-        "vi": "Robot lau kinh cua so thong minh"
+        "en": "Smart Window Cleaning Robots",
+        "zh": "智能擦窗机器人"
       },
-      "_schema_reviews": [
-        {
-          "@type": "Review",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "Wei Zhang",
-            "address": {
-              "@type": "PostalAddress",
-              "addressLocality": "Singapore"
-            }
-          },
-          "datePublished": "2025-11-20",
-          "reviewBody": "Living on the 30th floor, window cleaning has always been dangerous. This robot handles both exterior and interior glass with its AI-powered path planning. The safety rope holds 150kg. Our windows have never been this clean.",
-          "name": "Finally safe window cleaning on our 30th floor apartment",
-          "image": [
-            "https://www.hkdmj.net/assets/images/products/window-cleaner-robot/wr-1.jpg",
-            "https://www.hkdmj.net/assets/images/products/window-cleaner-robot/wr-2.jpg"
-          ]
-        },
-        {
-          "@type": "Review",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "Olivia Brown",
-            "address": {
-              "@type": "PostalAddress",
-              "addressLocality": "San Francisco, CA, USA"
-            }
-          },
-          "datePublished": "2025-09-08",
-          "reviewBody": "We manage a small office building and this robot has replaced our quarterly window cleaning service. It works on any glass thickness from 3mm to 35mm and the edge detection prevents it from falling off. The 3.5m extension cord covers most spaces.",
-          "name": "Perfect for floor-to-ceiling glass offices",
-          "image": [
-            "https://www.hkdmj.net/assets/images/products/window-cleaner-robot/wr-3.jpg",
-            "https://www.hkdmj.net/assets/images/products/window-cleaner-robot/wr-4.jpg"
-          ]
-        },
-        {
-          "@type": "Review",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "4",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "Marco Rossi",
-            "address": {
-              "@type": "PostalAddress",
-              "addressLocality": "Milan, Italy"
-            }
-          },
-          "datePublished": "2025-07-22",
-          "reviewBody": "It takes about 5 minutes to learn the remote control and the app. Once you know how to set the cleaning path, it does an excellent job. Best results are on smooth, frameless glass. Ours are framed windows so it leaves a small 2cm gap at the edges.",
-          "name": "Works well on large glass panels — minor learning curve",
-          "image": [
-            "https://www.hkdmj.net/assets/images/products/window-cleaner-robot/wr-5.jpg",
-            "https://www.hkdmj.net/assets/images/products/window-cleaner-robot/wr-6.jpg"
-          ]
-        }
-      ]
+      "_source": {
+        "platform": "alibaba.com",
+        "productId": "1601905990885"
+      },
+      "_cat": "window-cleaner-robot"
     }
   ],
   "reviews": [
@@ -350,8 +336,8 @@
       "title": "Finally safe window cleaning on our 30th floor apartment",
       "body": "Living on the 30th floor, window cleaning has always been dangerous. This robot handles both exterior and interior glass with its AI-powered path planning. The safety rope holds 150kg. Our windows have never been this clean.",
       "photoUrls": [
-        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot/wr-1.jpg",
-        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot/wr-2.jpg"
+        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/01.webp",
+        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/02.webp"
       ]
     },
     {
@@ -362,8 +348,8 @@
       "title": "Perfect for floor-to-ceiling glass offices",
       "body": "We manage a small office building and this robot has replaced our quarterly window cleaning service. It works on any glass thickness from 3mm to 35mm and the edge detection prevents it from falling off. The 3.5m extension cord covers most spaces.",
       "photoUrls": [
-        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot/wr-3.jpg",
-        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot/wr-4.jpg"
+        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/01.webp",
+        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/02.webp"
       ]
     },
     {
@@ -374,8 +360,8 @@
       "title": "Works well on large glass panels — minor learning curve",
       "body": "It takes about 5 minutes to learn the remote control and the app. Once you know how to set the cleaning path, it does an excellent job. Best results are on smooth, frameless glass. Ours are framed windows so it leaves a small 2cm gap at the edges.",
       "photoUrls": [
-        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot/wr-5.jpg",
-        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot/wr-6.jpg"
+        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/01.webp",
+        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/02.webp"
       ]
     }
   ],
@@ -400,8 +386,8 @@
       "reviewBody": "Living on the 30th floor, window cleaning has always been dangerous. This robot handles both exterior and interior glass with its AI-powered path planning. The safety rope holds 150kg. Our windows have never been this clean.",
       "name": "Finally safe window cleaning on our 30th floor apartment",
       "image": [
-        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot/wr-1.jpg",
-        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot/wr-2.jpg"
+        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/01.webp",
+        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/02.webp"
       ]
     },
     {
@@ -424,8 +410,8 @@
       "reviewBody": "We manage a small office building and this robot has replaced our quarterly window cleaning service. It works on any glass thickness from 3mm to 35mm and the edge detection prevents it from falling off. The 3.5m extension cord covers most spaces.",
       "name": "Perfect for floor-to-ceiling glass offices",
       "image": [
-        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot/wr-3.jpg",
-        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot/wr-4.jpg"
+        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/01.webp",
+        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/02.webp"
       ]
     },
     {
@@ -448,8 +434,8 @@
       "reviewBody": "It takes about 5 minutes to learn the remote control and the app. Once you know how to set the cleaning path, it does an excellent job. Best results are on smooth, frameless glass. Ours are framed windows so it leaves a small 2cm gap at the edges.",
       "name": "Works well on large glass panels — minor learning curve",
       "image": [
-        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot/wr-5.jpg",
-        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot/wr-6.jpg"
+        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/01.webp",
+        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/02.webp"
       ]
     }
   ]

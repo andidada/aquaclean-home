@@ -185,18 +185,18 @@
     var apps = (product.applications && pick(product.applications, state.lang)) || '';
 
     // supplier stats
-    var rating = product.supplier_rating || '4.8';
-    var responseTime = product.response_time || '≤ 2h';
-    var transactions = product.transactions || 'US $100K+';
-    var years = product.years || '10+';
+    var rating = product.supplier_rating || '—';
+    var responseTime = product.response_time || '—';
+    var transactions = product.transactions || '—';
+    var years = product.years || '—';
 
     var html = '';
 
     // ===== BREADCRUMB =====
     html += '<div class="d-breadcrumb"><div class="d-breadcrumb-inner">';
-    html += '<a href="' + (state.lang === 'zh' ? '../zh/index.html' : '../index.html') + '">' + esc(ui.home) + '</a>';
+    html += '<a href="' + ('/' + state.lang + '/index.html') + '">' + esc(ui.home) + '</a>';
     html += '<span class="sep">›</span>';
-    html += '<a href="' + (state.lang === 'zh' ? '../zh/' + CATEGORY + '/index.html' : '../' + CATEGORY + '/index.html') + '">' + esc(CATEGORY_NAME || pick(data.category_name, state.lang) || CATEGORY) + '</a>';
+    html += '<a href="' + ('/' + state.lang + '/' + CATEGORY + '/index.html') + '">' + esc(CATEGORY_NAME || pick(data.category_name, state.lang) || CATEGORY) + '</a>';
     html += '<span class="sep">›</span>';
     html += '<span>' + esc(pick(product.name, state.lang)) + '</span>';
     html += '</div></div>';
@@ -322,7 +322,7 @@
 
     // trust strip
     html += '<div class="d-trust">';
-    html += '<div class="d-trust-item"><div class="t-ico">🚢</div><div class="t-label">' + esc(ui.trustShip) + '</div><div class="t-value">' + esc((product.ship_from || {}).en || 'Ningbo, China') + '</div></div>';
+    html += '<div class="d-trust-item"><div class="t-ico">🚢</div><div class="t-label">' + esc(ui.trustShip) + '</div><div class="t-value">' + esc((product.ship_from || {}).en || '—') + '</div></div>';
     var leadTime = (product.customization && product.customization.production_lead) || '25-35 days';
     html += '<div class="d-trust-item"><div class="t-ico">⏱</div><div class="t-label">' + esc(ui.trustLead) + '</div><div class="t-value">' + esc(leadTime) + '</div></div>';
     html += '<div class="d-trust-item"><div class="t-ico">📦</div><div class="t-label">' + esc(ui.trustPack) + '</div><div class="t-value">' + esc((packaging.unit || 'Color box')) + '</div></div>';
@@ -339,7 +339,7 @@
     html += '<div class="d-supplier-logo">🏠</div>';
     html += '<div>';
     html += '<h3 class="d-supplier-name">AquaClean Home Appliances Co., Ltd.</h3>';
-    html += '<p class="d-supplier-meta">Ningbo, Zhejiang, China · OEM/ODM Manufacturer · <span class="d-supplier-stars">★★★★★</span> ' + esc(rating) + '</p>';
+    html += '<p class="d-supplier-meta">' + esc((product.ship_from || {}).en || '—') + ' · OEM/ODM Manufacturer · <span class="d-supplier-stars">' + (isNaN(parseFloat(rating)) ? '' : '★★★★★ ') + esc(rating) + '</span></p>';
     html += '<div class="d-supplier-stats">';
     html += '<div class="d-supplier-stat"><div class="v">' + esc(rating) + '</div><div class="l">' + esc(ui.rating) + '</div></div>';
     html += '<div class="d-supplier-stat"><div class="v">' + esc(responseTime) + '</div><div class="l">' + esc(ui.responseTime) + '</div></div>';
@@ -373,7 +373,7 @@
     html += '<tr><td class="spec-label">Carton Size</td><td>' + esc(packaging.ctn_size || '—') + '</td></tr>';
     html += '<tr><td class="spec-label">Qty / Carton</td><td>' + esc(packaging.ctn_qty || '—') + '</td></tr>';
     html += '<tr><td class="spec-label">Gross Weight</td><td>' + esc(packaging.gross_weight || '—') + '</td></tr>';
-    html += '<tr><td class="spec-label">' + esc(ui.trustShip) + '</td><td>' + esc((product.ship_from || {}).en || 'Ningbo, China') + '</td></tr>';
+    html += '<tr><td class="spec-label">' + esc(ui.trustShip) + '</td><td>' + esc((product.ship_from || {}).en || '—') + '</td></tr>';
     html += '<tr><td class="spec-label">' + esc(ui.leadTime) + '</td><td>' + esc(leadTime) + '</td></tr>';
     html += '</tbody></table>';
     html += '</div></div>';
@@ -461,7 +461,7 @@
       for (var ri = 1; ri < products.length && ri < 4; ri++) {
         var rp = products[ri];
         var rImg = (rp.images && rp.images[0]) || '';
-        html += '<a class="d-related-card" href="' + (state.lang === 'zh' ? '../zh/' + CATEGORY + '-' + rp.id + '.html' : '../' + CATEGORY + '-' + rp.id + '.html') + '">';
+        html += '<a class="d-related-card" href="' + ('/' + state.lang + '/' + CATEGORY + '-' + rp.id + '.html') + '">';
         html += '<div class="d-related-img">' + (rImg ? '<img src="' + esc(rImg) + '" alt="">' : '') + '</div>';
         html += '<div class="d-related-body"><h4>' + esc(pick(rp.name, state.lang)) + '</h4><p>' + esc(pick(rp.tagline, state.lang)) + '</p></div>';
         html += '</a>';

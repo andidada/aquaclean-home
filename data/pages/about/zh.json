@@ -7,7 +7,7 @@
     "btn_primary_href": "index.html#contact",
     "btn_outline_text": "我们的故事",
     "btn_outline_href": "#story",
-    "bg_image": "../assets/images/banners/banner-1.png"
+    "bg_image": "../assets/images/banners/banner-1.webp"
   },
   "story": {
     "label": "我们的故事",
@@ -22,7 +22,7 @@
       "三段式品控：IQC → IPQC → OQC",
       "服务 50+ 国家，200+ 活跃 B2B 合作伙伴"
     ],
-    "image": "../assets/images/banners/banner-2.png",
+    "image": "../assets/images/banners/banner-2.webp",
     "image_alt": "用户在家使用 AquaClean 清洁"
   },
   "capabilities": {
@@ -41,12 +41,12 @@
     "title": "工厂、实验室与产品线",
     "sub": "看看我们如何制造深受客户喜爱的电器。",
     "items": [
-      {"img": "../assets/images/banners/banner-3.png", "alt": "现代生活展厅", "h4": "现代展厅", "p": "我们向来自全球的合作伙伴展示最新清洁创新成果。"},
-      {"img": "../assets/images/banners/banner-4.png", "alt": "蒸汽技术实验室", "h4": "蒸汽技术实验室", "p": "高温蒸汽研发，实现无化学、深层清洁的卓越性能。"},
-      {"img": "../assets/images/banners/banner-6.png", "alt": "汽车护理产品线", "h4": "汽车护理产品线", "p": "专为全球汽车后市场设计的车载吸尘器与充气泵。"},
-      {"img": "../assets/images/products/01-handheld-vacuum.png", "alt": "手持系列", "h4": "手持系列", "p": "无线、轻巧、强劲——我们最畅销的出口品类。"},
-      {"img": "../assets/images/products/03-steam-cleaner.png", "alt": "蒸汽系列", "h4": "蒸汽系列", "p": "多场景蒸汽清洁机，提供完整的 CE / CB / ETL 认证支持。"},
-      {"img": "../assets/images/products/07-tire-inflator.png", "alt": "汽车系列", "h4": "汽车系列", "p": "便携充气泵，配备数显、自动停充与 LED 照明。"}
+      {"img": "../assets/images/banners/banner-3.webp", "alt": "现代生活展厅", "h4": "现代展厅", "p": "我们向来自全球的合作伙伴展示最新清洁创新成果。"},
+      {"img": "../assets/images/banners/banner-4.webp", "alt": "蒸汽技术实验室", "h4": "蒸汽技术实验室", "p": "高温蒸汽研发，实现无化学、深层清洁的卓越性能。"},
+      {"img": "../assets/images/banners/banner-6.webp", "alt": "汽车护理产品线", "h4": "汽车护理产品线", "p": "专为全球汽车后市场设计的车载吸尘器与充气泵。"},
+      {"img": "../assets/images/products/01-handheld-vacuum.webp", "alt": "手持系列", "h4": "手持系列", "p": "无线、轻巧、强劲——我们最畅销的出口品类。"},
+      {"img": "../assets/images/products/03-steam-cleaner.webp", "alt": "蒸汽系列", "h4": "蒸汽系列", "p": "多场景蒸汽清洁机，提供完整的 CE / CB / ETL 认证支持。"},
+      {"img": "../assets/images/products/07-tire-inflator.webp", "alt": "汽车系列", "h4": "汽车系列", "p": "便携充气泵，配备数显、自动停充与 LED 照明。"}
     ]
   },
   "milestones": {

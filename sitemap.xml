@@ -3,170 +3,831 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.hkdmj.net/</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.hkdmj.net/en/</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.hkdmj.net/zh/</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-10-01</lastmod>
   </url>
   <url>
     <loc>https://www.hkdmj.net/ar/</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.hkdmj.net/ar/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.hkdmj.net/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.hkdmj.net/fr/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.hkdmj.net/id/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.hkdmj.net/ru/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://www.hkdmj.net/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.hkdmj.net/vi/"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/about.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/about.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/about.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/car-vacuum-k15.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/car-vacuum-k15.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/car-vacuum-k15.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/car-vacuum-px2.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/car-vacuum-px2.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/car-vacuum-px2.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/car-vacuum-yzx-305.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/car-vacuum-yzx-305.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/car-vacuum-yzx-305.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/car-vacuum-yzx-309.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/car-vacuum-yzx-309.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/car-vacuum-yzx-309.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/coffee-machine-2604.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/coffee-machine-2604.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/coffee-machine-2604.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/coffee-machine-sk-kf-6871.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/coffee-machine-sk-kf-6871.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/coffee-machine-sk-kf-6871.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/handheld-vacuum-c703c.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/handheld-vacuum-c703c.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/handheld-vacuum-c703c.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/handheld-vacuum-gv18.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/handheld-vacuum-gv18.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/handheld-vacuum-gv18.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/handheld-vacuum-gv22.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/handheld-vacuum-gv22.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/handheld-vacuum-gv22.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/handheld-vacuum-pv18.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/handheld-vacuum-pv18.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/handheld-vacuum-pv18.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/handheld-vacuum-qw3011.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/handheld-vacuum-qw3011.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/handheld-vacuum-qw3011.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/handheld-vacuum-qw3013.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/handheld-vacuum-qw3013.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/handheld-vacuum-qw3013.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/handheld-vacuum-v18.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/handheld-vacuum-v18.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/handheld-vacuum-v18.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/handheld-vacuum-v22-2.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/handheld-vacuum-v22-2.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/handheld-vacuum-v22-2.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/handheld-vacuum-v22.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/handheld-vacuum-v22.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/handheld-vacuum-v22.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/handheld-vacuum-v26.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/handheld-vacuum-v26.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/handheld-vacuum-v26.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.hkdmj.net/ar/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.hkdmj.net/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.hkdmj.net/fr/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.hkdmj.net/id/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.hkdmj.net/ru/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://www.hkdmj.net/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.hkdmj.net/vi/"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/robot-vacuum-d2-004.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/robot-vacuum-d2-004.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/robot-vacuum-d2-004.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/robot-vacuum-gt20.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/robot-vacuum-gt20.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/robot-vacuum-gt20.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/robot-vacuum-pt20c800.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/robot-vacuum-pt20c800.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/robot-vacuum-pt20c800.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/robot-vacuum-pt40c800.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/robot-vacuum-pt40c800.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/robot-vacuum-pt40c800.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/robot-vacuum-t20-c800.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/robot-vacuum-t20-c800.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/robot-vacuum-t20-c800.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/robot-vacuum-v2g-sj.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/robot-vacuum-v2g-sj.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/robot-vacuum-v2g-sj.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/robot-vacuum-v9.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/robot-vacuum-v9.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/robot-vacuum-v9.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/robot-vacuum-x7-d.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/robot-vacuum-x7-d.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/robot-vacuum-x7-d.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/steam-cleaner-d09s.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/steam-cleaner-d09s.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/steam-cleaner-d09s.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/steam-cleaner-f403.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/steam-cleaner-f403.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/steam-cleaner-f403.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/steam-cleaner-ptc-sc-004.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/steam-cleaner-ptc-sc-004.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/steam-cleaner-ptc-sc-004.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/steam-cleaner-ytc-sc-002.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/steam-cleaner-ytc-sc-002.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/steam-cleaner-ytc-sc-002.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/steam-cleaner-ytc-sc-004.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/steam-cleaner-ytc-sc-004.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/steam-cleaner-ytc-sc-004.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/tire-inflator-ym2.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/tire-inflator-ym2.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/tire-inflator-ym2.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/tire-inflator-ymc6616.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/tire-inflator-ymc6616.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/tire-inflator-ymc6616.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/tire-inflator-ymc6628.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/tire-inflator-ymc6628.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/tire-inflator-ymc6628.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/tire-inflator-ymc6657.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/tire-inflator-ymc6657.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/tire-inflator-ymc6657.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/tire-inflator-ymc6667.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/tire-inflator-ymc6667.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/tire-inflator-ymc6667.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/tire-inflator-ymc6688.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/tire-inflator-ymc6688.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/tire-inflator-ymc6688.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/upright-steam-mop-qjj071.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/upright-steam-mop-qjj071.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/upright-steam-mop-qjj071.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/upright-steam-mop-qst063.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/upright-steam-mop-qst063.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/upright-steam-mop-qst063.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/uv-mite-remover-pc708.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/uv-mite-remover-pc708.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/uv-mite-remover-pc708.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/window-cleaner-robot-gm1-c.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/window-cleaner-robot-gm1-c.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/window-cleaner-robot-gm1-c.html"/>
   </url>
   <url>
     <loc>https://www.hkdmj.net/es/</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.hkdmj.net/ar/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.hkdmj.net/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.hkdmj.net/fr/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.hkdmj.net/id/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.hkdmj.net/ru/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://www.hkdmj.net/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.hkdmj.net/vi/"/>
   </url>
   <url>
     <loc>https://www.hkdmj.net/fr/</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.hkdmj.net/ar/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.hkdmj.net/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.hkdmj.net/fr/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.hkdmj.net/id/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.hkdmj.net/ru/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://www.hkdmj.net/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.hkdmj.net/vi/"/>
   </url>
   <url>
     <loc>https://www.hkdmj.net/id/</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.hkdmj.net/ar/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.hkdmj.net/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.hkdmj.net/fr/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.hkdmj.net/id/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.hkdmj.net/ru/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://www.hkdmj.net/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.hkdmj.net/vi/"/>
   </url>
   <url>
     <loc>https://www.hkdmj.net/ru/</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.hkdmj.net/ar/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.hkdmj.net/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.hkdmj.net/fr/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.hkdmj.net/id/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.hkdmj.net/ru/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://www.hkdmj.net/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.hkdmj.net/vi/"/>
   </url>
   <url>
     <loc>https://www.hkdmj.net/th/</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.hkdmj.net/ar/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.hkdmj.net/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.hkdmj.net/fr/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.hkdmj.net/id/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.hkdmj.net/ru/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://www.hkdmj.net/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.hkdmj.net/vi/"/>
   </url>
   <url>
     <loc>https://www.hkdmj.net/vi/</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.hkdmj.net/ar/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.hkdmj.net/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.hkdmj.net/fr/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.hkdmj.net/id/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.hkdmj.net/ru/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://www.hkdmj.net/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.hkdmj.net/vi/"/>
   </url>
   <url>
-    <loc>https://www.hkdmj.net/en/handheld-vacuum/</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://www.hkdmj.net/zh/about.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/about.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/about.html"/>
   </url>
   <url>
-    <loc>https://www.hkdmj.net/zh/handheld-vacuum/</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://www.hkdmj.net/zh/car-vacuum-k15.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/car-vacuum-k15.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/car-vacuum-k15.html"/>
   </url>
   <url>
-    <loc>https://www.hkdmj.net/en/robot-vacuum/</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://www.hkdmj.net/zh/car-vacuum-px2.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/car-vacuum-px2.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/car-vacuum-px2.html"/>
   </url>
   <url>
-    <loc>https://www.hkdmj.net/zh/robot-vacuum/</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://www.hkdmj.net/zh/car-vacuum-yzx-305.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/car-vacuum-yzx-305.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/car-vacuum-yzx-305.html"/>
   </url>
   <url>
-    <loc>https://www.hkdmj.net/en/steam-cleaner/</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://www.hkdmj.net/zh/car-vacuum-yzx-309.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/car-vacuum-yzx-309.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/car-vacuum-yzx-309.html"/>
   </url>
   <url>
-    <loc>https://www.hkdmj.net/zh/steam-cleaner/</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://www.hkdmj.net/zh/coffee-machine-2604.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/coffee-machine-2604.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/coffee-machine-2604.html"/>
   </url>
   <url>
-    <loc>https://www.hkdmj.net/en/uv-mite-remover/</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://www.hkdmj.net/zh/coffee-machine-sk-kf-6871.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/coffee-machine-sk-kf-6871.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/coffee-machine-sk-kf-6871.html"/>
   </url>
   <url>
-    <loc>https://www.hkdmj.net/zh/uv-mite-remover/</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://www.hkdmj.net/zh/handheld-vacuum-c703c.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/handheld-vacuum-c703c.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/handheld-vacuum-c703c.html"/>
   </url>
   <url>
-    <loc>https://www.hkdmj.net/en/window-cleaner-robot/</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://www.hkdmj.net/zh/handheld-vacuum-gv18.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/handheld-vacuum-gv18.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/handheld-vacuum-gv18.html"/>
   </url>
   <url>
-    <loc>https://www.hkdmj.net/zh/window-cleaner-robot/</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://www.hkdmj.net/zh/handheld-vacuum-gv22.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/handheld-vacuum-gv22.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/handheld-vacuum-gv22.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/handheld-vacuum-pv18.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/handheld-vacuum-pv18.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/handheld-vacuum-pv18.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/handheld-vacuum-qw3011.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/handheld-vacuum-qw3011.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/handheld-vacuum-qw3011.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/handheld-vacuum-qw3013.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/handheld-vacuum-qw3013.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/handheld-vacuum-qw3013.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/handheld-vacuum-v18.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/handheld-vacuum-v18.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/handheld-vacuum-v18.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/handheld-vacuum-v22-2.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/handheld-vacuum-v22-2.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/handheld-vacuum-v22-2.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/handheld-vacuum-v22.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/handheld-vacuum-v22.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/handheld-vacuum-v22.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/handheld-vacuum-v26.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/handheld-vacuum-v26.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/handheld-vacuum-v26.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.hkdmj.net/ar/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.hkdmj.net/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.hkdmj.net/fr/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.hkdmj.net/id/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.hkdmj.net/ru/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://www.hkdmj.net/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.hkdmj.net/vi/"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/robot-vacuum-d2-004.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/robot-vacuum-d2-004.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/robot-vacuum-d2-004.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/robot-vacuum-gt20.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/robot-vacuum-gt20.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/robot-vacuum-gt20.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/robot-vacuum-pt20c800.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/robot-vacuum-pt20c800.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/robot-vacuum-pt20c800.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/robot-vacuum-pt40c800.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/robot-vacuum-pt40c800.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/robot-vacuum-pt40c800.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/robot-vacuum-t20-c800.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/robot-vacuum-t20-c800.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/robot-vacuum-t20-c800.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/robot-vacuum-v2g-sj.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/robot-vacuum-v2g-sj.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/robot-vacuum-v2g-sj.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/robot-vacuum-v9.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/robot-vacuum-v9.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/robot-vacuum-v9.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/robot-vacuum-x7-d.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/robot-vacuum-x7-d.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/robot-vacuum-x7-d.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/steam-cleaner-d09s.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/steam-cleaner-d09s.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/steam-cleaner-d09s.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/steam-cleaner-f403.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/steam-cleaner-f403.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/steam-cleaner-f403.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/steam-cleaner-ptc-sc-004.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/steam-cleaner-ptc-sc-004.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/steam-cleaner-ptc-sc-004.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/steam-cleaner-ytc-sc-002.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/steam-cleaner-ytc-sc-002.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/steam-cleaner-ytc-sc-002.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/steam-cleaner-ytc-sc-004.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/steam-cleaner-ytc-sc-004.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/steam-cleaner-ytc-sc-004.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/tire-inflator-ym2.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/tire-inflator-ym2.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/tire-inflator-ym2.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/tire-inflator-ymc6616.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/tire-inflator-ymc6616.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/tire-inflator-ymc6616.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/tire-inflator-ymc6628.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/tire-inflator-ymc6628.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/tire-inflator-ymc6628.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/tire-inflator-ymc6657.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/tire-inflator-ymc6657.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/tire-inflator-ymc6657.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/tire-inflator-ymc6667.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/tire-inflator-ymc6667.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/tire-inflator-ymc6667.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/tire-inflator-ymc6688.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/tire-inflator-ymc6688.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/tire-inflator-ymc6688.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/upright-steam-mop-qjj071.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/upright-steam-mop-qjj071.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/upright-steam-mop-qjj071.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/upright-steam-mop-qst063.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/upright-steam-mop-qst063.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/upright-steam-mop-qst063.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/uv-mite-remover-pc708.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/uv-mite-remover-pc708.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/uv-mite-remover-pc708.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/window-cleaner-robot-gm1-c.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/window-cleaner-robot-gm1-c.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/window-cleaner-robot-gm1-c.html"/>
   </url>
   <url>
     <loc>https://www.hkdmj.net/en/car-vacuum/</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.hkdmj.net/zh/car-vacuum/</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.hkdmj.net/en/tire-inflator/</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.hkdmj.net/zh/tire-inflator/</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/car-vacuum/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/car-vacuum/index.html"/>
   </url>
   <url>
     <loc>https://www.hkdmj.net/en/coffee-machine/</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/coffee-machine/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/coffee-machine/index.html"/>
   </url>
   <url>
-    <loc>https://www.hkdmj.net/zh/coffee-machine/</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://www.hkdmj.net/en/export-certifications/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/export-certifications/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/export-certifications/index.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/factory-vs-trading-company/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/factory-vs-trading-company/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/factory-vs-trading-company/index.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/faq/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/faq/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/faq/index.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/handheld-vacuum/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/handheld-vacuum/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/handheld-vacuum/index.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/moq-fob-negotiation/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/moq-fob-negotiation/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/moq-fob-negotiation/index.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/oem-cordless-vacuum-manufacturer/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/oem-cordless-vacuum-manufacturer/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/oem-cordless-vacuum-manufacturer/index.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/oem-robot-vacuum-manufacturer/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/oem-robot-vacuum-manufacturer/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/oem-robot-vacuum-manufacturer/index.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/oem-steam-cleaner-manufacturer/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/oem-steam-cleaner-manufacturer/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/oem-steam-cleaner-manufacturer/index.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/oem-uv-mite-remover-manufacturer/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/oem-uv-mite-remover-manufacturer/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/oem-uv-mite-remover-manufacturer/index.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/oem-vs-odm/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/oem-vs-odm/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/oem-vs-odm/index.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/robot-vacuum/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/robot-vacuum/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/robot-vacuum/index.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/steam-cleaner/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/steam-cleaner/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/steam-cleaner/index.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/tire-inflator/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/tire-inflator/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/tire-inflator/index.html"/>
   </url>
   <url>
     <loc>https://www.hkdmj.net/en/upright-steam-mop/</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/upright-steam-mop/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/upright-steam-mop/index.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/uv-mite-remover/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/uv-mite-remover/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/uv-mite-remover/index.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/verify-chinese-supplier/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/verify-chinese-supplier/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/verify-chinese-supplier/index.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/en/window-cleaner-robot/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/window-cleaner-robot/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/window-cleaner-robot/index.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/car-vacuum/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/car-vacuum/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/car-vacuum/index.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/coffee-machine/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/coffee-machine/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/coffee-machine/index.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/export-certifications/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/export-certifications/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/export-certifications/index.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/factory-vs-trading-company/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/factory-vs-trading-company/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/factory-vs-trading-company/index.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/faq/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/faq/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/faq/index.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/handheld-vacuum/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/handheld-vacuum/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/handheld-vacuum/index.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/moq-fob-negotiation/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/moq-fob-negotiation/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/moq-fob-negotiation/index.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/oem-cordless-vacuum-manufacturer/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/oem-cordless-vacuum-manufacturer/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/oem-cordless-vacuum-manufacturer/index.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/oem-robot-vacuum-manufacturer/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/oem-robot-vacuum-manufacturer/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/oem-robot-vacuum-manufacturer/index.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/oem-steam-cleaner-manufacturer/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/oem-steam-cleaner-manufacturer/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/oem-steam-cleaner-manufacturer/index.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/oem-uv-mite-remover-manufacturer/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/oem-uv-mite-remover-manufacturer/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/oem-uv-mite-remover-manufacturer/index.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/oem-vs-odm/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/oem-vs-odm/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/oem-vs-odm/index.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/robot-vacuum/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/robot-vacuum/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/robot-vacuum/index.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/steam-cleaner/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/steam-cleaner/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/steam-cleaner/index.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/tire-inflator/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/tire-inflator/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/tire-inflator/index.html"/>
   </url>
   <url>
     <loc>https://www.hkdmj.net/zh/upright-steam-mop/</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/upright-steam-mop/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/upright-steam-mop/index.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/uv-mite-remover/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/uv-mite-remover/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/uv-mite-remover/index.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/verify-chinese-supplier/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/verify-chinese-supplier/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/verify-chinese-supplier/index.html"/>
+  </url>
+  <url>
+    <loc>https://www.hkdmj.net/zh/window-cleaner-robot/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hkdmj.net/en/window-cleaner-robot/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.hkdmj.net/zh/window-cleaner-robot/index.html"/>
   </url>
 </urlset>

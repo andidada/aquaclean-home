@@ -2,257 +2,755 @@
   "category": "handheld-vacuum",
   "products": [
     {
-      "id": "hv-100",
+      "id": "gv18",
       "name": {
-        "en": "AquaPro HV-100 Handheld Vacuum",
-        "zh": "AquaPro HV-100 手持无线吸尘器",
-        "ar": "مكنسة AquaPro HV-100 يدوية",
-        "es": "Aspiradora de Mano AquaPro HV-100",
-        "fr": "Aspirateur Portable AquaPro HV-100",
-        "id": "Pembersih Vakum Tangan AquaPro HV-100",
-        "ru": "Ручной пылесос AquaPro HV-100",
-        "th": "เครื่องดูดฝุ่นมือถือ AquaPro HV-100",
-        "vi": "May hut bui cam tay AquaPro HV-100"
+        "en": "V18 Cordless Stick Vacuum Cleaner",
+        "zh": "V18 无线立式吸尘器"
       },
       "tagline": {
-        "en": "Lightweight & Powerful — Perfect for Quick Cleanups",
-        "zh": "轻便强劲 — 快速清洁的理想之选",
-        "ar": "خفيف الوزن وقوي — مثالي للتنظيف السريع",
-        "es": "Ligero y Potente — Perfecto para Limpiezas Rapidas",
-        "fr": "Leger et Puissant — Parfait pour les Nettoyages Rapides",
-        "id": "Ringan & Kuat — Sempurna untuk Pembersihan Cepat",
-        "ru": "Legkij i moshhnyj — idealno dlya bystroj ochistki",
-        "th": "น้ำหนักเบาและทรงพลัง — สมบูรณ์แบบสำหรับการทำความสะอาดอย่างรวดเร็ว",
-        "vi": "Nhe nhung manh — Hoan hao cho viec don dep nhanh"
+        "en": "400W Brushless Motor · 30kPa Suction · Wet & Dry",
+        "zh": "400W 无刷电机 · 30kPa 大吸力 · 干湿两用"
       },
       "images": [
-        "https://www.hkdmj.net/assets/images/products/01-handheld-vacuum.png"
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-gv18/01-main.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-gv18/02.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-gv18/03.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-gv18/04.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-gv18/05.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-gv18/06.webp"
       ],
       "video_url": "",
       "moq": {
-        "value": 500,
+        "value": 2,
         "unit": "pieces"
       },
-      "certifications": [
-        "CE",
-        "FCC",
-        "RoHS"
-      ],
+      "certifications": [],
+      "cert_note": {
+        "en": "Certification documents on file — available on request.",
+        "zh": "认证资料已备案，可按需提供。"
+      },
       "highlights": [
         {
           "icon": "power",
           "text": {
-            "en": "120W Motor, 9000Pa Suction",
-            "zh": "120W电机，9000Pa吸力"
+            "en": "400W Brushless Motor with 30kPa Suction",
+            "zh": "400W 无刷电机，30kPa 强吸力"
+          }
+        },
+        {
+          "icon": "suction",
+          "text": {
+            "en": "Wet & Dry Cleaning with 1.2L Dust Cup",
+            "zh": "干湿两用，1.2L 大尘杯"
+          }
+        },
+        {
+          "icon": "filter",
+          "text": {
+            "en": "HEPA Filtration · Noise ≤65dB",
+            "zh": "HEPA 过滤 · 噪音 ≤65dB"
           }
         },
         {
           "icon": "battery",
           "text": {
-            "en": "25min Runtime, USB-C Charging",
-            "zh": "25分钟续航，USB-C充电"
-          }
-        },
-        {
-          "icon": "water",
-          "text": {
-            "en": "Wet & Dry Dual Function",
-            "zh": "干湿两用"
-          }
-        },
-        {
-          "icon": "light",
-          "text": {
-            "en": "LED Floor Light for Dark Areas",
-            "zh": "LED地面照明，适用于暗处"
+            "en": "Removable 2200mAh Battery · 20–65 min Runtime",
+            "zh": "可拆卸 2200mAh 电池 · 续航 20–65 分钟"
           }
         }
       ],
       "specs": [
         {
           "label": {
-            "en": "Motor Power",
-            "zh": "电机功率"
+            "en": "Model",
+            "zh": "型号"
           },
-          "value": "120W"
+          "value": "GV18"
         },
         {
           "label": {
-            "en": "Suction",
+            "en": "Motor Power",
+            "zh": "电机功率"
+          },
+          "value": "400W"
+        },
+        {
+          "label": {
+            "en": "Suction Power",
             "zh": "吸力"
           },
-          "value": "9000Pa"
+          "value": "30kPa"
+        },
+        {
+          "label": {
+            "en": "Air Power",
+            "zh": "气动功率"
+          },
+          "value": "210AW / 100AW / 60AW"
         },
         {
           "label": {
             "en": "Runtime",
             "zh": "续航时间"
           },
-          "value": "25 min"
+          "value": "20–65 min"
         },
         {
           "label": {
-            "en": "Charging",
-            "zh": "充电方式"
+            "en": "Charging Time",
+            "zh": "充电时间"
           },
-          "value": "USB-C, 3-4 hrs"
+          "value": "4–5 hours"
         },
         {
           "label": {
-            "en": "Dust Cup",
+            "en": "Battery",
+            "zh": "电池"
+          },
+          "value": "2200mAh Lithium-Ion (removable)"
+        },
+        {
+          "label": {
+            "en": "Dust Cup Capacity",
             "zh": "尘杯容量"
           },
-          "value": "0.5L"
+          "value": "1.2L"
         },
         {
           "label": {
-            "en": "Weight",
-            "zh": "重量"
+            "en": "Filter Type",
+            "zh": "滤网类型"
           },
-          "value": "1.2kg"
+          "value": "HEPA"
+        },
+        {
+          "label": {
+            "en": "Function",
+            "zh": "功能"
+          },
+          "value": "Wet & Dry"
         },
         {
           "label": {
             "en": "Noise",
             "zh": "噪音"
           },
-          "value": "< 70dB"
+          "value": "≤65dB"
         },
         {
           "label": {
-            "en": "Material",
-            "zh": "材质"
+            "en": "Housing Material",
+            "zh": "外壳材质"
           },
           "value": "ABS"
         },
         {
           "label": {
-            "en": "Colors",
-            "zh": "颜色"
+            "en": "Net Weight",
+            "zh": "净重"
           },
-          "value": "White, Gray, Black"
+          "value": "1–2 kg"
         },
         {
           "label": {
-            "en": "MOQ",
-            "zh": "最小起订量"
+            "en": "Packaging Type",
+            "zh": "包装形式"
           },
-          "value": "500 pcs"
+          "value": "Color Box"
+        },
+        {
+          "label": {
+            "en": "Warranty",
+            "zh": "质保"
+          },
+          "value": "1 Year"
+        },
+        {
+          "label": {
+            "en": "After-sales",
+            "zh": "售后"
+          },
+          "value": "Free Spare Parts"
         }
       ],
-      "packaging": {
-        "unit": "color box",
-        "ctn_size": "45x32x18cm",
-        "ctn_qty": "12 pcs",
-        "gross_weight": "15kg"
-      },
-      "customization": {
-        "oem": true,
-        "odm": true,
-        "logo": true,
-        "color": true,
-        "package": true,
-        "sample_lead": "7-14 days",
-        "production_lead": "25-35 days"
-      },
-      "applications": {
-        "en": "Home, Car, Office, Kitchen",
-        "zh": "家庭, 汽车, 办公室, 厨房"
-      },
-      "price_indicator": {
-        "min": 45,
-        "max": 75,
-        "currency": "USD"
-      },
       "quick_specs": [
         {
           "label": {
             "en": "Motor Power",
             "zh": "电机功率"
           },
-          "value": "120W"
+          "value": "400W"
         },
         {
           "label": {
             "en": "Suction",
             "zh": "吸力"
           },
-          "value": "9000Pa"
+          "value": "30kPa"
+        },
+        {
+          "label": {
+            "en": "Dust Cup",
+            "zh": "尘杯"
+          },
+          "value": "1.2L"
+        },
+        {
+          "label": {
+            "en": "Runtime",
+            "zh": "续航"
+          },
+          "value": "20–65 min"
+        }
+      ],
+      "packaging": {
+        "unit": "Color Box",
+        "ctn_size": "45x34x21cm",
+        "ctn_qty": "—",
+        "gross_weight": "3.0kg"
+      },
+      "customization": {
+        "oem": true,
+        "odm": true,
+        "logo": null,
+        "color": true,
+        "package": null,
+        "sample_lead": "on request",
+        "production_lead": "on request"
+      },
+      "applications": {
+        "en": "Household, Carpet & Ceramic Surfaces",
+        "zh": "家庭、地毯与瓷砖地面"
+      },
+      "price_indicator": {
+        "min": 54,
+        "max": 64,
+        "currency": "USD"
+      },
+      "price_ladder": [
+        {
+          "min": 2,
+          "max": 199,
+          "price": 64
+        },
+        {
+          "min": 200,
+          "max": 999,
+          "price": 62
+        },
+        {
+          "min": 1000,
+          "max": 1999,
+          "price": 58
+        },
+        {
+          "min": 2000,
+          "max": null,
+          "price": 54
+        }
+      ],
+      "sku": [
+        {
+          "name": {
+            "en": "Voltage",
+            "zh": "电压"
+          },
+          "values": [
+            {
+              "name": "110-240V"
+            }
+          ]
+        },
+        {
+          "name": {
+            "en": "Plug Type",
+            "zh": "插头"
+          },
+          "values": [
+            {
+              "name": "AU"
+            },
+            {
+              "name": "EU"
+            },
+            {
+              "name": "UK"
+            },
+            {
+              "name": "US"
+            }
+          ]
+        },
+        {
+          "name": {
+            "en": "Colour",
+            "zh": "颜色"
+          },
+          "values": [
+            {
+              "name": "Purple"
+            }
+          ]
+        }
+      ],
+      "description": {
+        "en": "The GV18 is a 400W brushless cordless stick vacuum delivering 30kPa of suction in a lightweight body, with a removable 2200mAh battery that runs 20–65 minutes per charge. It handles wet and dry pick-up with a 1.2L dust cup and HEPA filtration, runs at ≤65dB, and features a smart touch LED display. Available as OEM/ODM with custom colour and plug type for your market. Certification documents are on file and available on request.",
+        "zh": "GV18 是一款 400W 无刷电机无线立式吸尘器，机身轻巧、吸力达 30kPa，配可拆卸 2200mAh 电池，单次充电续航 20–65 分钟。干湿两用，1.2L 尘杯配 HEPA 滤网，运行噪音 ≤65dB，带智能触控 LED 显示屏。支持 OEM/ODM 定制颜色与插头规格，认证资料已备案、可按需提供。"
+      },
+      "supplier_rating": "4.81",
+      "response_time": "—",
+      "transactions": "—",
+      "years": "—",
+      "ship_from": {
+        "en": "China",
+        "zh": "中国"
+      },
+      "sample": {
+        "enabled": true,
+        "qty": 1,
+        "note": {
+          "en": "Sample available (max 1 pc)",
+          "zh": "支持打样（最多 1 台）"
+        }
+      },
+      "category_name": {
+        "en": "Handheld & Stick Vacuums",
+        "zh": "手持与立式吸尘器"
+      },
+      "certificates": [
+        {
+          "certId": "60007675410",
+          "name": "Declaration of Conformity",
+          "certNo": "EFW526022843-CG-02+REV 1",
+          "availableDate": "2026-07-27",
+          "expiredDate": "2031-07-24",
+          "verified": true,
+          "image": null,
+          "coversHint": "V18"
+        },
+        {
+          "certId": "60007673019",
+          "name": "Declaration of Conformity",
+          "certNo": "CTA25030700203+CTA25030700205+CQASZ20250902238E+YHJC202412100039R1",
+          "availableDate": "2026-07-27",
+          "expiredDate": "2031-07-24",
+          "verified": true,
+          "image": null,
+          "coversHint": null
+        },
+        {
+          "certId": "60008004208",
+          "name": "Declaration of Conformity",
+          "certNo": "XDX50238736101701EC",
+          "availableDate": "2026-09-02",
+          "expiredDate": "2031-09-07",
+          "verified": true,
+          "image": "/assets/images/certificates/60008004208.webp",
+          "coversHint": null
+        }
+      ],
+      "supplier": {
+        "country": "HK",
+        "province": "New Territories",
+        "established": 2024,
+        "reply_rate": 0.9987,
+        "verified": false,
+        "main_markets": [
+          "North America",
+          "South America",
+          "Eastern Europe",
+          "Southeast Asia"
+        ]
+      },
+      "store_rating": {
+        "score": 4.81,
+        "reviews": 7,
+        "scope": "store"
+      },
+      "shipping_fee_usd": 17.02,
+      "alibaba_url": "https://www.alibaba.com/product-detail/V18-Rechargeable-Cordless-Stick-Vacuum-Cleaner_1601887639841.html",
+      "_cat": "handheld-vacuum"
+    },
+    {
+      "id": "v22",
+      "name": {
+        "en": "CE FCC Electric 37000PA Strong Suction Portable Handheld Vacuum Cleaner Bagless HEPA Filter LED Light Brushless Motor Car Home",
+        "zh": "37000Pa 便携手持吸尘器（CE/FCC）"
+      },
+      "tagline": {
+        "en": "37000Pa · 550W · 20-65mins",
+        "zh": "37000Pa · 550W · 20-65mins"
+      },
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-v22/01.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-v22/02.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-v22/03.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-v22/04.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-v22/05.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-v22/06.webp"
+      ],
+      "video_url": null,
+      "moq": {
+        "value": 1,
+        "unit": "pieces"
+      },
+      "certifications": [],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": {
+            "en": "Suction Power: 37000Pa",
+            "zh": "吸力: 37000Pa"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Power (W): 550W",
+            "zh": "功率(W): 550W"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Runtime: 20-65mins",
+            "zh": "续航时间: 20-65mins"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Maximum Runtime: 30-60 min",
+            "zh": "最长续航: 30-60 min"
+          }
+        }
+      ],
+      "specs": [
+        {
+          "label": {
+            "en": "Suction Power",
+            "zh": "吸力"
+          },
+          "value": "37000Pa"
+        },
+        {
+          "label": {
+            "en": "Air Power",
+            "zh": "Air Power"
+          },
+          "value": "230AW"
+        },
+        {
+          "label": {
+            "en": "Battery capacity",
+            "zh": "Battery capacity"
+          },
+          "value": "2200mAh"
         },
         {
           "label": {
             "en": "Runtime",
             "zh": "续航时间"
           },
-          "value": "25 min"
+          "value": "20-65mins"
         },
         {
           "label": {
-            "en": "Charging",
-            "zh": "充电方式"
+            "en": "Motor Power",
+            "zh": "Motor Power"
           },
-          "value": "USB-C, 3-4 hrs"
-        }
-      ],
-      "price_ladder": [
-        {
-          "min": 500,
-          "max": 499,
-          "price": 75
+          "value": "550W"
         },
         {
-          "min": 500,
-          "max": 999,
-          "price": 60
+          "label": {
+            "en": "Motor Type",
+            "zh": "电机类型"
+          },
+          "value": "Brushless Motor"
         },
         {
-          "min": 1000,
-          "max": null,
-          "price": 45
-        }
-      ],
-      "sku": [
-        {
-          "name": {
-            "en": "Color",
-            "zh": "颜色"
+          "label": {
+            "en": "Filter Type",
+            "zh": "滤网类型"
           },
-          "values": [
-            {
-              "name": "Black",
-              "color": "#111827"
-            },
-            {
-              "name": "Grey",
-              "color": "#9CA3AF"
-            }
-          ]
+          "value": "HEPA Filter"
         },
         {
-          "name": {
-            "en": "Battery",
-            "zh": "电池"
+          "label": {
+            "en": "Noise",
+            "zh": "噪音"
           },
-          "values": [
-            {
-              "name": "2000mAh"
-            },
-            {
-              "name": "4000mAh"
-            }
-          ]
+          "value": "1.2L"
+        },
+        {
+          "label": {
+            "en": "ChargingTime",
+            "zh": "ChargingTime"
+          },
+          "value": "4-5hours"
+        },
+        {
+          "label": {
+            "en": "Feature 1",
+            "zh": "Feature 1"
+          },
+          "value": "Smart Touch LED Display"
+        },
+        {
+          "label": {
+            "en": "Feature 2",
+            "zh": "Feature 2"
+          },
+          "value": "Removable Battery"
+        },
+        {
+          "label": {
+            "en": "Function",
+            "zh": "功能"
+          },
+          "value": "Dry"
+        },
+        {
+          "label": {
+            "en": "Function",
+            "zh": "功能"
+          },
+          "value": "With LED Lights"
+        },
+        {
+          "label": {
+            "en": "maximum runtime",
+            "zh": "maximum runtime"
+          },
+          "value": "30-60 min"
+        },
+        {
+          "label": {
+            "en": "suction power (airwatts)",
+            "zh": "suction power (airwatts)"
+          },
+          "value": "＞200 AW"
+        },
+        {
+          "label": {
+            "en": "after-sales service provided",
+            "zh": "after-sales service provided"
+          },
+          "value": "Overseas Call Centers"
+        },
+        {
+          "label": {
+            "en": "app-controlled",
+            "zh": "app-controlled"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Household"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Hotel"
+        },
+        {
+          "label": {
+            "en": "bag or bagless",
+            "zh": "bag or bagless"
+          },
+          "value": "Bagless"
+        },
+        {
+          "label": {
+            "en": "Charging Time",
+            "zh": "充电时间"
+          },
+          "value": "3-5H"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Cyclone Technology"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Easy Cleaning"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Lightweight"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Portable"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Washable Filter"
+        },
+        {
+          "label": {
+            "en": "filter",
+            "zh": "filter"
+          },
+          "value": "HEPA Filter"
+        },
+        {
+          "label": {
+            "en": "motor type",
+            "zh": "motor type"
+          },
+          "value": "Brushless Motor"
+        },
+        {
+          "label": {
+            "en": "nozzle number",
+            "zh": "nozzle number"
+          },
+          "value": "≤ 3"
+        },
+        {
+          "label": {
+            "en": "operating language",
+            "zh": "operating language"
+          },
+          "value": "English"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Color Box"
+        },
+        {
+          "label": {
+            "en": "power source",
+            "zh": "power source"
+          },
+          "value": "Battery"
+        },
+        {
+          "label": {
+            "en": "private mold",
+            "zh": "private mold"
+          },
+          "value": "Yes"
+        },
+        {
+          "label": {
+            "en": "product net weight",
+            "zh": "product net weight"
+          },
+          "value": "1~2Kg"
+        },
+        {
+          "label": {
+            "en": "warranty",
+            "zh": "warranty"
+          },
+          "value": "1 Year"
+        },
+        {
+          "label": {
+            "en": "place of origin",
+            "zh": "place of origin"
+          },
+          "value": "CN"
+        },
+        {
+          "label": {
+            "en": "brand name",
+            "zh": "brand name"
+          },
+          "value": "OEM ODM"
+        },
+        {
+          "label": {
+            "en": "Dust capacity",
+            "zh": "Dust capacity"
+          },
+          "value": "1.2L"
+        },
+        {
+          "label": {
+            "en": "power (w)",
+            "zh": "power (w)"
+          },
+          "value": "550W"
+        },
+        {
+          "label": {
+            "en": "model number",
+            "zh": "model number"
+          },
+          "value": "v22"
         }
       ],
+      "packaging": {
+        "unit": "Color Box"
+      },
+      "customization": {},
+      "applications": {
+        "en": "",
+        "zh": ""
+      },
+      "price_indicator": null,
+      "quick_specs": [
+        {
+          "label": {
+            "en": "Suction Power",
+            "zh": "吸力"
+          },
+          "value": "37000Pa"
+        },
+        {
+          "label": {
+            "en": "Power (W)",
+            "zh": "功率(W)"
+          },
+          "value": "550W"
+        },
+        {
+          "label": {
+            "en": "Runtime",
+            "zh": "续航时间"
+          },
+          "value": "20-65mins"
+        },
+        {
+          "label": {
+            "en": "Maximum Runtime",
+            "zh": "最长续航"
+          },
+          "value": "30-60 min"
+        }
+      ],
+      "price_ladder": [],
+      "sku": "1601690778053",
       "description": {
-        "en": "Our handheld vacuum cleaners are designed for maximum convenience without compromising on power. Featuring a high-speed brushless motor, washable HEPA filter, and USB-C fast charging, they deliver reliable performance for every quick clean-up task.\n\nWhether you are tidying the car interior, cleaning pet hair from sofas, or handling daily kitchen messes, the compact yet powerful design ensures thorough suction. The wet & dry capability handles spills and debris alike, making it the perfect companion for home, office, and travel.\n\nAs an OEM/ODM manufacturer, we support custom branding, colors, and packaging to match your market requirements. MOQ starts at 500 units with a 25-35 day production lead time.",
-        "zh": "我们的手持吸尘器以最大化便利性而不牺牲吸力为设计理念。搭载高速无刷电机、可水洗HEPA滤网和USB-C快充，为每次快速清洁提供可靠性能。\n\n无论是清理汽车内饰、沙发上的宠物毛发，还是处理日常厨房污渍，紧凑而强大的设计确保彻底吸尘。干湿两用能力可同时处理液体泼洒和碎屑，是家庭、办公室和旅行的完美伴侣。\n\n作为OEM/ODM制造商，我们支持定制品牌、颜色和包装以匹配您的市场需求。最小起订量500台，大货交期25-35天。",
-        "ar": "Our handheld vacuum cleaners are designed for maximum convenience without compromising on power. Featuring a high-speed brushless motor, washable HEPA filter, and USB-C fast charging, they deliver reliable performance for every quick clean-up task.\n\nWhether you are tidying the car interior, cleaning pet hair from sofas, or handling daily kitchen messes, the compact yet powerful design ensures thorough suction. The wet & dry capability handles spills and debris alike, making it the perfect companion for home, office, and travel.\n\nAs an OEM/ODM manufacturer, we support custom branding, colors, and packaging to match your market requirements. MOQ starts at 500 units with a 25-35 day production lead time.",
-        "es": "Our handheld vacuum cleaners are designed for maximum convenience without compromising on power. Featuring a high-speed brushless motor, washable HEPA filter, and USB-C fast charging, they deliver reliable performance for every quick clean-up task.\n\nWhether you are tidying the car interior, cleaning pet hair from sofas, or handling daily kitchen messes, the compact yet powerful design ensures thorough suction. The wet & dry capability handles spills and debris alike, making it the perfect companion for home, office, and travel.\n\nAs an OEM/ODM manufacturer, we support custom branding, colors, and packaging to match your market requirements. MOQ starts at 500 units with a 25-35 day production lead time.",
-        "fr": "Our handheld vacuum cleaners are designed for maximum convenience without compromising on power. Featuring a high-speed brushless motor, washable HEPA filter, and USB-C fast charging, they deliver reliable performance for every quick clean-up task.\n\nWhether you are tidying the car interior, cleaning pet hair from sofas, or handling daily kitchen messes, the compact yet powerful design ensures thorough suction. The wet & dry capability handles spills and debris alike, making it the perfect companion for home, office, and travel.\n\nAs an OEM/ODM manufacturer, we support custom branding, colors, and packaging to match your market requirements. MOQ starts at 500 units with a 25-35 day production lead time.",
-        "id": "Our handheld vacuum cleaners are designed for maximum convenience without compromising on power. Featuring a high-speed brushless motor, washable HEPA filter, and USB-C fast charging, they deliver reliable performance for every quick clean-up task.\n\nWhether you are tidying the car interior, cleaning pet hair from sofas, or handling daily kitchen messes, the compact yet powerful design ensures thorough suction. The wet & dry capability handles spills and debris alike, making it the perfect companion for home, office, and travel.\n\nAs an OEM/ODM manufacturer, we support custom branding, colors, and packaging to match your market requirements. MOQ starts at 500 units with a 25-35 day production lead time.",
-        "ru": "Our handheld vacuum cleaners are designed for maximum convenience without compromising on power. Featuring a high-speed brushless motor, washable HEPA filter, and USB-C fast charging, they deliver reliable performance for every quick clean-up task.\n\nWhether you are tidying the car interior, cleaning pet hair from sofas, or handling daily kitchen messes, the compact yet powerful design ensures thorough suction. The wet & dry capability handles spills and debris alike, making it the perfect companion for home, office, and travel.\n\nAs an OEM/ODM manufacturer, we support custom branding, colors, and packaging to match your market requirements. MOQ starts at 500 units with a 25-35 day production lead time.",
-        "th": "Our handheld vacuum cleaners are designed for maximum convenience without compromising on power. Featuring a high-speed brushless motor, washable HEPA filter, and USB-C fast charging, they deliver reliable performance for every quick clean-up task.\n\nWhether you are tidying the car interior, cleaning pet hair from sofas, or handling daily kitchen messes, the compact yet powerful design ensures thorough suction. The wet & dry capability handles spills and debris alike, making it the perfect companion for home, office, and travel.\n\nAs an OEM/ODM manufacturer, we support custom branding, colors, and packaging to match your market requirements. MOQ starts at 500 units with a 25-35 day production lead time.",
-        "vi": "Our handheld vacuum cleaners are designed for maximum convenience without compromising on power. Featuring a high-speed brushless motor, washable HEPA filter, and USB-C fast charging, they deliver reliable performance for every quick clean-up task.\n\nWhether you are tidying the car interior, cleaning pet hair from sofas, or handling daily kitchen messes, the compact yet powerful design ensures thorough suction. The wet & dry capability handles spills and debris alike, making it the perfect companion for home, office, and travel.\n\nAs an OEM/ODM manufacturer, we support custom branding, colors, and packaging to match your market requirements. MOQ starts at 500 units with a 25-35 day production lead time."
+        "en": "37000Pa · 550W · 20-65mins. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "37000Pa · 550W · 20-65mins。支持 OEM/ODM 定制，规格取自供应商商品资料。"
       },
       "supplier_rating": "4.8",
       "response_time": "≤ 2h",
@@ -268,90 +766,2860 @@
         "note": "Sample available, lead 7-14 days"
       },
       "category_name": {
-        "en": "Handheld Vacuum Cleaner",
-        "zh": "手持无线吸尘器",
-        "ar": "مكنسة يدوية",
-        "es": "Aspiradora de Mano",
-        "fr": "Aspirateur Portable",
-        "id": "Pembersih Vakum Tangan",
-        "ru": "Ручной пылесос",
-        "th": "เครื่องดูดฝุ่นมือถือ",
-        "vi": "May hut bui cam tay"
+        "en": "Handheld & Stick Vacuums",
+        "zh": "手持与立式吸尘器"
       },
-      "_schema_reviews": [
+      "_source": {
+        "platform": "alibaba.com",
+        "productId": "1601690778053"
+      },
+      "_cat": "handheld-vacuum"
+    },
+    {
+      "id": "v22-2",
+      "name": {
+        "en": "OEM ODM Cordless Vacuum Cleaner 40000Pa Brushless Stick Vacuum HEPA Filter Multi-Cyclone for Carpet Hard Floor Home Cleaning",
+        "zh": "OEM/ODM 40000Pa 无刷立式吸尘器（HEPA）"
+      },
+      "tagline": {
+        "en": "40000Pa · 35W · 1.2 L",
+        "zh": "40000Pa · 35W · 1.2 L"
+      },
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-v22-2/01.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-v22-2/02.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-v22-2/03.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-v22-2/04.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-v22-2/05.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-v22-2/06.webp"
+      ],
+      "video_url": null,
+      "moq": {
+        "value": 1,
+        "unit": "pieces"
+      },
+      "certifications": [],
+      "highlights": [
         {
-          "@type": "Review",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "Margaret Chen",
-            "address": {
-              "@type": "PostalAddress",
-              "addressLocality": "Toronto, Canada"
-            }
-          },
-          "datePublished": "2025-11-14",
-          "reviewBody": "I was skeptical ordering a vacuum from China but the build quality surprised me completely. The suction is powerful for its size, and it lasts 30+ minutes on a single charge. Attached are some photos of it cleaning our hardwood floors and the pet hair on our sofa.",
-          "name": "Best cordless vacuum I have ever owned",
-          "image": [
-            "https://www.hkdmj.net/assets/images/products/handheld-vacuum/hv-1.jpg",
-            "https://www.hkdmj.net/assets/images/products/handheld-vacuum/hv-2.jpg"
-          ]
+          "icon": "check",
+          "text": {
+            "en": "Suction Power: 40000Pa",
+            "zh": "吸力: 40000Pa"
+          }
         },
         {
-          "@type": "Review",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "James Whitfield",
-            "address": {
-              "@type": "PostalAddress",
-              "addressLocality": "Birmingham, UK"
-            }
-          },
-          "datePublished": "2025-09-02",
-          "reviewBody": "As a small retailer, finding a supplier willing to do small batches was tough. Damaijia accepted our 200-unit order with no hassle. The vacuum itself is sleek and works great on both carpet and hard floors. The 3 included attachments cover everything we need.",
-          "name": "Perfect for our apartment — and the MOQ was just 200 units",
-          "image": [
-            "https://www.hkdmj.net/assets/images/products/handheld-vacuum/hv-3.jpg",
-            "https://www.hkdmj.net/assets/images/products/handheld-vacuum/hv-4.jpg"
-          ]
+          "icon": "check",
+          "text": {
+            "en": "Power (W): 35W",
+            "zh": "功率(W): 35W"
+          }
         },
         {
-          "@type": "Review",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "4",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "Sophia Reyes",
-            "address": {
-              "@type": "PostalAddress",
-              "addressLocality": "Barcelona, Spain"
-            }
-          },
-          "datePublished": "2025-07-19",
-          "reviewBody": "Ordered 300 units for our retail chain. The product quality is consistent across the batch — no complaints from our customers so far. Shipping took about 12 days to Valencia port. One suggestion: include a wall-mount bracket in the package.",
-          "name": "Great value, fast shipping to EU",
-          "image": [
-            "https://www.hkdmj.net/assets/images/products/handheld-vacuum/hv-5.jpg",
-            "https://www.hkdmj.net/assets/images/products/handheld-vacuum/hv-6.jpg"
-          ]
+          "icon": "check",
+          "text": {
+            "en": "Capacity: 1.2 L",
+            "zh": "容量: 1.2 L"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Runtime: 20-65mins",
+            "zh": "续航时间: 20-65mins"
+          }
         }
-      ]
+      ],
+      "specs": [
+        {
+          "label": {
+            "en": "Suction Power",
+            "zh": "吸力"
+          },
+          "value": "40000Pa"
+        },
+        {
+          "label": {
+            "en": "Air Power",
+            "zh": "Air Power"
+          },
+          "value": "230AW"
+        },
+        {
+          "label": {
+            "en": "Battery capacity",
+            "zh": "Battery capacity"
+          },
+          "value": "2200mAh"
+        },
+        {
+          "label": {
+            "en": "Runtime",
+            "zh": "续航时间"
+          },
+          "value": "20-65mins"
+        },
+        {
+          "label": {
+            "en": "Motor Power",
+            "zh": "Motor Power"
+          },
+          "value": "650W"
+        },
+        {
+          "label": {
+            "en": "Motor Type",
+            "zh": "电机类型"
+          },
+          "value": "Brushless Motor"
+        },
+        {
+          "label": {
+            "en": "Filter Type",
+            "zh": "滤网类型"
+          },
+          "value": "HEPA Filter"
+        },
+        {
+          "label": {
+            "en": "Dust cup capacity",
+            "zh": "Dust cup capacity"
+          },
+          "value": "1.2L"
+        },
+        {
+          "label": {
+            "en": "Noise",
+            "zh": "噪音"
+          },
+          "value": "68dB"
+        },
+        {
+          "label": {
+            "en": "ChargingTime",
+            "zh": "ChargingTime"
+          },
+          "value": "4-5hours"
+        },
+        {
+          "label": {
+            "en": "Feature 1",
+            "zh": "Feature 1"
+          },
+          "value": "Smart Touch LED Display"
+        },
+        {
+          "label": {
+            "en": "Feature 2",
+            "zh": "Feature 2"
+          },
+          "value": "Removable Battery"
+        },
+        {
+          "label": {
+            "en": "maximum runtime",
+            "zh": "maximum runtime"
+          },
+          "value": "30-60 min"
+        },
+        {
+          "label": {
+            "en": "suction power (airwatts)",
+            "zh": "suction power (airwatts)"
+          },
+          "value": "＞200 AW"
+        },
+        {
+          "label": {
+            "en": "after-sales service provided",
+            "zh": "after-sales service provided"
+          },
+          "value": "Field Maintenance and Repair Service"
+        },
+        {
+          "label": {
+            "en": "after-sales service provided",
+            "zh": "after-sales service provided"
+          },
+          "value": "Free Spare Parts"
+        },
+        {
+          "label": {
+            "en": "after-sales service provided",
+            "zh": "after-sales service provided"
+          },
+          "value": "Overseas Call Centers"
+        },
+        {
+          "label": {
+            "en": "after-sales service provided",
+            "zh": "after-sales service provided"
+          },
+          "value": "Return and Replacement"
+        },
+        {
+          "label": {
+            "en": "app-controlled",
+            "zh": "app-controlled"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "bag or bagless",
+            "zh": "bag or bagless"
+          },
+          "value": "Bagless"
+        },
+        {
+          "label": {
+            "en": "Battery Type",
+            "zh": "电池类型"
+          },
+          "value": "Lithium-Ion Battery"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Easy Cleaning"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "HEPA Filtration"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Lightweight"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Pet Hair"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Portable"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Cyclonic"
+        },
+        {
+          "label": {
+            "en": "Filter Type",
+            "zh": "滤网类型"
+          },
+          "value": "HEPA"
+        },
+        {
+          "label": {
+            "en": "Housing Material",
+            "zh": "Housing Material"
+          },
+          "value": "Metal"
+        },
+        {
+          "label": {
+            "en": "motor type",
+            "zh": "motor type"
+          },
+          "value": "Brushless Motor"
+        },
+        {
+          "label": {
+            "en": "nozzle number",
+            "zh": "nozzle number"
+          },
+          "value": "≤ 3"
+        },
+        {
+          "label": {
+            "en": "operating language",
+            "zh": "operating language"
+          },
+          "value": "English"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Corrugated Box"
+        },
+        {
+          "label": {
+            "en": "power source",
+            "zh": "power source"
+          },
+          "value": "Electric"
+        },
+        {
+          "label": {
+            "en": "power source",
+            "zh": "power source"
+          },
+          "value": "Battery"
+        },
+        {
+          "label": {
+            "en": "private mold",
+            "zh": "private mold"
+          },
+          "value": "Yes"
+        },
+        {
+          "label": {
+            "en": "product net weight",
+            "zh": "product net weight"
+          },
+          "value": "2–3 kg"
+        },
+        {
+          "label": {
+            "en": "Surface recommendation",
+            "zh": "Surface recommendation"
+          },
+          "value": "Carpet"
+        },
+        {
+          "label": {
+            "en": "Surface recommendation",
+            "zh": "Surface recommendation"
+          },
+          "value": "Glass"
+        },
+        {
+          "label": {
+            "en": "Surface recommendation",
+            "zh": "Surface recommendation"
+          },
+          "value": "Stone"
+        }
+      ],
+      "packaging": {
+        "unit": "Corrugated Box"
+      },
+      "customization": {},
+      "applications": {
+        "en": "",
+        "zh": ""
+      },
+      "price_indicator": null,
+      "quick_specs": [
+        {
+          "label": {
+            "en": "Suction Power",
+            "zh": "吸力"
+          },
+          "value": "40000Pa"
+        },
+        {
+          "label": {
+            "en": "Power (W)",
+            "zh": "功率(W)"
+          },
+          "value": "35W"
+        },
+        {
+          "label": {
+            "en": "Capacity",
+            "zh": "容量"
+          },
+          "value": "1.2 L"
+        },
+        {
+          "label": {
+            "en": "Runtime",
+            "zh": "续航时间"
+          },
+          "value": "20-65mins"
+        }
+      ],
+      "price_ladder": [],
+      "sku": "1601715098186",
+      "description": {
+        "en": "40000Pa · 35W · 1.2 L. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "40000Pa · 35W · 1.2 L。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+      },
+      "supplier_rating": "4.8",
+      "response_time": "≤ 2h",
+      "transactions": "US $100K+",
+      "years": "10+",
+      "ship_from": {
+        "en": "Ningbo, China",
+        "zh": "中国宁波"
+      },
+      "sample": {
+        "enabled": true,
+        "qty": 5,
+        "note": "Sample available, lead 7-14 days"
+      },
+      "category_name": {
+        "en": "Handheld & Stick Vacuums",
+        "zh": "手持与立式吸尘器"
+      },
+      "_source": {
+        "platform": "alibaba.com",
+        "productId": "1601715098186"
+      },
+      "_cat": "handheld-vacuum"
+    },
+    {
+      "id": "gv22",
+      "name": {
+        "en": "Hot-selling Stick Cordless Vacuum Cleaner for Dry Floor Carpet Brushless Portable Vacuum Cleaner Car Care & Spot Stain Cleaning",
+        "zh": "热销干式无刷立式吸尘器（地板/地毯）"
+      },
+      "tagline": {
+        "en": "550W · 1.0 L · 30-60 min",
+        "zh": "550W · 1.0 L · 30-60 min"
+      },
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-gv22/01.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-gv22/02.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-gv22/03.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-gv22/04.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-gv22/05.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-gv22/06.webp"
+      ],
+      "video_url": null,
+      "moq": {
+        "value": 1,
+        "unit": "pieces"
+      },
+      "certifications": [],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": {
+            "en": "Power (W): 550W",
+            "zh": "功率(W): 550W"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Capacity: 1.0 L",
+            "zh": "容量: 1.0 L"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Maximum Runtime: 30-60 min",
+            "zh": "最长续航: 30-60 min"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Motor Type: Brushless Motor",
+            "zh": "电机类型: Brushless Motor"
+          }
+        }
+      ],
+      "specs": [
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "OLED Display Screen"
+        },
+        {
+          "label": {
+            "en": "maximum runtime",
+            "zh": "maximum runtime"
+          },
+          "value": "30-60 min"
+        },
+        {
+          "label": {
+            "en": "suction power (airwatts)",
+            "zh": "suction power (airwatts)"
+          },
+          "value": "＞200 AW"
+        },
+        {
+          "label": {
+            "en": "type",
+            "zh": "type"
+          },
+          "value": "Cyclone"
+        },
+        {
+          "label": {
+            "en": "app-controlled",
+            "zh": "app-controlled"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Household"
+        },
+        {
+          "label": {
+            "en": "bag or bagless",
+            "zh": "bag or bagless"
+          },
+          "value": "Bagless"
+        },
+        {
+          "label": {
+            "en": "Battery Type",
+            "zh": "电池类型"
+          },
+          "value": "Lithium-Ion Battery"
+        },
+        {
+          "label": {
+            "en": "Capacity",
+            "zh": "Capacity"
+          },
+          "value": "1.0 L"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Cyclonic"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Easy Cleaning"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "HEPA Filtration"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Lightweight"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Portable"
+        },
+        {
+          "label": {
+            "en": "Filter Type",
+            "zh": "滤网类型"
+          },
+          "value": "HEPA"
+        },
+        {
+          "label": {
+            "en": "motor type",
+            "zh": "motor type"
+          },
+          "value": "Brushless Motor"
+        },
+        {
+          "label": {
+            "en": "nozzle number",
+            "zh": "nozzle number"
+          },
+          "value": "≤ 3"
+        },
+        {
+          "label": {
+            "en": "operating language",
+            "zh": "operating language"
+          },
+          "value": "English"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Color Box"
+        },
+        {
+          "label": {
+            "en": "power source",
+            "zh": "power source"
+          },
+          "value": "Battery"
+        },
+        {
+          "label": {
+            "en": "private mold",
+            "zh": "private mold"
+          },
+          "value": "Yes"
+        },
+        {
+          "label": {
+            "en": "product net weight",
+            "zh": "product net weight"
+          },
+          "value": "2–3 kg"
+        },
+        {
+          "label": {
+            "en": "Surface recommendation",
+            "zh": "Surface recommendation"
+          },
+          "value": "Carpet"
+        },
+        {
+          "label": {
+            "en": "Surface recommendation",
+            "zh": "Surface recommendation"
+          },
+          "value": "Wood"
+        },
+        {
+          "label": {
+            "en": "warranty",
+            "zh": "warranty"
+          },
+          "value": "1 Year"
+        },
+        {
+          "label": {
+            "en": "place of origin",
+            "zh": "place of origin"
+          },
+          "value": "CN;GUA"
+        },
+        {
+          "label": {
+            "en": "Housing Material",
+            "zh": "Housing Material"
+          },
+          "value": "ABS"
+        },
+        {
+          "label": {
+            "en": "power (w)",
+            "zh": "power (w)"
+          },
+          "value": "550W"
+        },
+        {
+          "label": {
+            "en": "model number",
+            "zh": "model number"
+          },
+          "value": "GV22"
+        }
+      ],
+      "packaging": {
+        "unit": "Color Box"
+      },
+      "customization": {},
+      "applications": {
+        "en": "",
+        "zh": ""
+      },
+      "price_indicator": {
+        "min": {
+          "currency": "USD",
+          "number": 64.5
+        },
+        "max": {
+          "currency": "USD",
+          "number": 64.5
+        },
+        "currency": "USD"
+      },
+      "quick_specs": [
+        {
+          "label": {
+            "en": "Power (W)",
+            "zh": "功率(W)"
+          },
+          "value": "550W"
+        },
+        {
+          "label": {
+            "en": "Capacity",
+            "zh": "容量"
+          },
+          "value": "1.0 L"
+        },
+        {
+          "label": {
+            "en": "Maximum Runtime",
+            "zh": "最长续航"
+          },
+          "value": "30-60 min"
+        },
+        {
+          "label": {
+            "en": "Motor Type",
+            "zh": "电机类型"
+          },
+          "value": "Brushless Motor"
+        }
+      ],
+      "price_ladder": [],
+      "sku": "1601719491601",
+      "description": {
+        "en": "550W · 1.0 L · 30-60 min. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "550W · 1.0 L · 30-60 min。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+      },
+      "supplier_rating": "4.8",
+      "response_time": "≤ 2h",
+      "transactions": "US $100K+",
+      "years": "10+",
+      "ship_from": {
+        "en": "Ningbo, China",
+        "zh": "中国宁波"
+      },
+      "sample": {
+        "enabled": true,
+        "qty": 5,
+        "note": "Sample available, lead 7-14 days"
+      },
+      "category_name": {
+        "en": "Handheld & Stick Vacuums",
+        "zh": "手持与立式吸尘器"
+      },
+      "_source": {
+        "platform": "alibaba.com",
+        "productId": "1601719491601"
+      },
+      "_cat": "handheld-vacuum"
+    },
+    {
+      "id": "v26",
+      "name": {
+        "en": "60Min Cordless Stick Vacuum Cleaner with Brushless Motor 40KPa Powerful Suction LED Display HEPA Filter for Pet Hair Carpet Hair",
+        "zh": "60 分钟续航无刷无线立式吸尘器（40KPa）"
+      },
+      "tagline": {
+        "en": "800W · 1.2L · 30-60 min",
+        "zh": "800W · 1.2L · 30-60 min"
+      },
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-v26/01.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-v26/02.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-v26/03.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-v26/04.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-v26/05.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-v26/06.webp"
+      ],
+      "video_url": null,
+      "moq": {
+        "value": 1,
+        "unit": "pieces"
+      },
+      "certifications": [],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": {
+            "en": "Power (W): 800W",
+            "zh": "功率(W): 800W"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Capacity: 1.2L",
+            "zh": "容量: 1.2L"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Maximum Runtime: 30-60 min",
+            "zh": "最长续航: 30-60 min"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Battery Capacity: 2200mAh",
+            "zh": "电池容量: 2200mAh"
+          }
+        }
+      ],
+      "specs": [
+        {
+          "label": {
+            "en": "Power Source",
+            "zh": "Power Source"
+          },
+          "value": "Battery"
+        },
+        {
+          "label": {
+            "en": "Battery",
+            "zh": "Battery"
+          },
+          "value": "Li-ion Battery"
+        },
+        {
+          "label": {
+            "en": "Battery Capacity",
+            "zh": "电池容量"
+          },
+          "value": "2200mAh"
+        },
+        {
+          "label": {
+            "en": "Keywords",
+            "zh": "Keywords"
+          },
+          "value": "Cordless Vcuum Cleaner"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Long Runtime"
+        },
+        {
+          "label": {
+            "en": "Style",
+            "zh": "Style"
+          },
+          "value": "Handehld"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "With LED Lights"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Laser Dust Illumination"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "OLED Display Screen"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Dry"
+        },
+        {
+          "label": {
+            "en": "maximum runtime",
+            "zh": "maximum runtime"
+          },
+          "value": "30-60 min"
+        },
+        {
+          "label": {
+            "en": "after-sales service provided",
+            "zh": "after-sales service provided"
+          },
+          "value": "Free Spare Parts"
+        },
+        {
+          "label": {
+            "en": "app-controlled",
+            "zh": "app-controlled"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Household"
+        },
+        {
+          "label": {
+            "en": "bag or bagless",
+            "zh": "bag or bagless"
+          },
+          "value": "Bagless"
+        },
+        {
+          "label": {
+            "en": "Filter Type",
+            "zh": "滤网类型"
+          },
+          "value": "HEPA"
+        },
+        {
+          "label": {
+            "en": "motor type",
+            "zh": "motor type"
+          },
+          "value": "Brushless Motor"
+        },
+        {
+          "label": {
+            "en": "nozzle number",
+            "zh": "nozzle number"
+          },
+          "value": "≤ 3"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Color Box"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Corrugated Box"
+        },
+        {
+          "label": {
+            "en": "power source",
+            "zh": "power source"
+          },
+          "value": "Battery"
+        },
+        {
+          "label": {
+            "en": "private mold",
+            "zh": "private mold"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "product net weight",
+            "zh": "product net weight"
+          },
+          "value": "2–3 kg"
+        },
+        {
+          "label": {
+            "en": "warranty",
+            "zh": "warranty"
+          },
+          "value": "1 Year"
+        },
+        {
+          "label": {
+            "en": "place of origin",
+            "zh": "place of origin"
+          },
+          "value": "CN"
+        },
+        {
+          "label": {
+            "en": "suction power (airwatts)",
+            "zh": "suction power (airwatts)"
+          },
+          "value": "250W/110W/70W"
+        },
+        {
+          "label": {
+            "en": "Capacity",
+            "zh": "Capacity"
+          },
+          "value": "1.2L"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Easy Cleaning"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Lightweight"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Portable"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Washable Filter"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Cyclone Technology"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Wet Dry Clean"
+        },
+        {
+          "label": {
+            "en": "Housing Material",
+            "zh": "Housing Material"
+          },
+          "value": "ABS"
+        },
+        {
+          "label": {
+            "en": "power (w)",
+            "zh": "power (w)"
+          },
+          "value": "800W"
+        },
+        {
+          "label": {
+            "en": "model number",
+            "zh": "model number"
+          },
+          "value": "V26"
+        }
+      ],
+      "packaging": {
+        "unit": "Corrugated Box"
+      },
+      "customization": {},
+      "applications": {
+        "en": "",
+        "zh": ""
+      },
+      "price_indicator": null,
+      "quick_specs": [
+        {
+          "label": {
+            "en": "Power (W)",
+            "zh": "功率(W)"
+          },
+          "value": "800W"
+        },
+        {
+          "label": {
+            "en": "Capacity",
+            "zh": "容量"
+          },
+          "value": "1.2L"
+        },
+        {
+          "label": {
+            "en": "Maximum Runtime",
+            "zh": "最长续航"
+          },
+          "value": "30-60 min"
+        },
+        {
+          "label": {
+            "en": "Battery Capacity",
+            "zh": "电池容量"
+          },
+          "value": "2200mAh"
+        }
+      ],
+      "price_ladder": [],
+      "sku": "1601799172634",
+      "description": {
+        "en": "800W · 1.2L · 30-60 min. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "800W · 1.2L · 30-60 min。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+      },
+      "supplier_rating": "4.8",
+      "response_time": "≤ 2h",
+      "transactions": "US $100K+",
+      "years": "10+",
+      "ship_from": {
+        "en": "Ningbo, China",
+        "zh": "中国宁波"
+      },
+      "sample": {
+        "enabled": true,
+        "qty": 5,
+        "note": "Sample available, lead 7-14 days"
+      },
+      "category_name": {
+        "en": "Handheld & Stick Vacuums",
+        "zh": "手持与立式吸尘器"
+      },
+      "_source": {
+        "platform": "alibaba.com",
+        "productId": "1601799172634"
+      },
+      "_cat": "handheld-vacuum"
+    },
+    {
+      "id": "pv18",
+      "name": {
+        "en": "Cordless Stick Vacuum Cleaner PV18, Strong Suction Lightweight Handheld Vacuum with HEPA Filter for Carpet Floor Pet Hair",
+        "zh": "PV18 无线立式吸尘器（轻量强吸力）"
+      },
+      "tagline": {
+        "en": "550 W · 30-60 min · 1.2L",
+        "zh": "550 W · 30-60 min · 1.2L"
+      },
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-pv18/01.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-pv18/02.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-pv18/03.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-pv18/04.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-pv18/05.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-pv18/06.webp"
+      ],
+      "video_url": null,
+      "moq": {
+        "value": 1,
+        "unit": "pieces"
+      },
+      "certifications": [],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": {
+            "en": "Power (W): 550 W",
+            "zh": "功率(W): 550 W"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Maximum Runtime: 30-60 min",
+            "zh": "最长续航: 30-60 min"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Dust capacity: 1.2L",
+            "zh": "尘杯容量: 1.2L"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Motor Type: Brushless Motor",
+            "zh": "电机类型: Brushless Motor"
+          }
+        }
+      ],
+      "specs": [
+        {
+          "label": {
+            "en": "Function",
+            "zh": "功能"
+          },
+          "value": "Dry"
+        },
+        {
+          "label": {
+            "en": "Function",
+            "zh": "功能"
+          },
+          "value": "With LED Lights"
+        },
+        {
+          "label": {
+            "en": "maximum runtime",
+            "zh": "maximum runtime"
+          },
+          "value": "30-60 min"
+        },
+        {
+          "label": {
+            "en": "after-sales service provided",
+            "zh": "after-sales service provided"
+          },
+          "value": "Return and Replacement"
+        },
+        {
+          "label": {
+            "en": "app-controlled",
+            "zh": "app-controlled"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "bag or bagless",
+            "zh": "bag or bagless"
+          },
+          "value": "Bagless"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Easy Cleaning"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Portable"
+        },
+        {
+          "label": {
+            "en": "filter",
+            "zh": "filter"
+          },
+          "value": "HEPA Filter"
+        },
+        {
+          "label": {
+            "en": "installation",
+            "zh": "installation"
+          },
+          "value": "Hand Held"
+        },
+        {
+          "label": {
+            "en": "motor type",
+            "zh": "motor type"
+          },
+          "value": "Brushless Motor"
+        },
+        {
+          "label": {
+            "en": "nozzle number",
+            "zh": "nozzle number"
+          },
+          "value": "≤ 3"
+        },
+        {
+          "label": {
+            "en": "operating language",
+            "zh": "operating language"
+          },
+          "value": "English"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Color Box"
+        },
+        {
+          "label": {
+            "en": "power source",
+            "zh": "power source"
+          },
+          "value": "Battery"
+        },
+        {
+          "label": {
+            "en": "private mold",
+            "zh": "private mold"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "product net weight",
+            "zh": "product net weight"
+          },
+          "value": "1~2Kg"
+        },
+        {
+          "label": {
+            "en": "place of origin",
+            "zh": "place of origin"
+          },
+          "value": "CN;JIA"
+        },
+        {
+          "label": {
+            "en": "suction power (airwatts)",
+            "zh": "suction power (airwatts)"
+          },
+          "value": "210W/100W/60W"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "HOUSEHOLD"
+        },
+        {
+          "label": {
+            "en": "Charging Time",
+            "zh": "充电时间"
+          },
+          "value": "4-5H"
+        },
+        {
+          "label": {
+            "en": "Dust capacity",
+            "zh": "Dust capacity"
+          },
+          "value": "1.2L"
+        },
+        {
+          "label": {
+            "en": "power (w)",
+            "zh": "power (w)"
+          },
+          "value": "550 W"
+        },
+        {
+          "label": {
+            "en": "warranty",
+            "zh": "warranty"
+          },
+          "value": "1 YEAR"
+        },
+        {
+          "label": {
+            "en": "model number",
+            "zh": "model number"
+          },
+          "value": "V18"
+        }
+      ],
+      "packaging": {
+        "unit": "Color Box"
+      },
+      "customization": {},
+      "applications": {
+        "en": "",
+        "zh": ""
+      },
+      "price_indicator": {
+        "min": {
+          "currency": "USD",
+          "number": 60.0
+        },
+        "max": {
+          "currency": "USD",
+          "number": 60.0
+        },
+        "currency": "USD"
+      },
+      "quick_specs": [
+        {
+          "label": {
+            "en": "Power (W)",
+            "zh": "功率(W)"
+          },
+          "value": "550 W"
+        },
+        {
+          "label": {
+            "en": "Maximum Runtime",
+            "zh": "最长续航"
+          },
+          "value": "30-60 min"
+        },
+        {
+          "label": {
+            "en": "Dust capacity",
+            "zh": "尘杯容量"
+          },
+          "value": "1.2L"
+        },
+        {
+          "label": {
+            "en": "Motor Type",
+            "zh": "电机类型"
+          },
+          "value": "Brushless Motor"
+        }
+      ],
+      "price_ladder": [],
+      "sku": "1601835508524",
+      "description": {
+        "en": "550 W · 30-60 min · 1.2L. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "550 W · 30-60 min · 1.2L。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+      },
+      "supplier_rating": "4.8",
+      "response_time": "≤ 2h",
+      "transactions": "US $100K+",
+      "years": "10+",
+      "ship_from": {
+        "en": "Ningbo, China",
+        "zh": "中国宁波"
+      },
+      "sample": {
+        "enabled": true,
+        "qty": 5,
+        "note": "Sample available, lead 7-14 days"
+      },
+      "category_name": {
+        "en": "Handheld & Stick Vacuums",
+        "zh": "手持与立式吸尘器"
+      },
+      "_source": {
+        "platform": "alibaba.com",
+        "productId": "1601835508524"
+      },
+      "_cat": "handheld-vacuum"
+    },
+    {
+      "id": "v18",
+      "name": {
+        "en": "Cordless Handheld Vacuum Cleaner 400W Powerful Suction Battery Powered Portable Vacuum Cleaner Rechargeable Vacuum Cleaner",
+        "zh": "400W 无线手持吸尘器（电池驱动）"
+      },
+      "tagline": {
+        "en": "450 W · 1.2L · 30-60 min",
+        "zh": "450 W · 1.2L · 30-60 min"
+      },
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-v18/01.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-v18/02.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-v18/03.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-v18/04.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-v18/05.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-v18/06.webp"
+      ],
+      "video_url": null,
+      "moq": {
+        "value": 1,
+        "unit": "pieces"
+      },
+      "certifications": [],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": {
+            "en": "Power (W): 450 W",
+            "zh": "功率(W): 450 W"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Capacity: 1.2L",
+            "zh": "容量: 1.2L"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Maximum Runtime: 30-60 min",
+            "zh": "最长续航: 30-60 min"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Motor Type: High Power Motor",
+            "zh": "电机类型: High Power Motor"
+          }
+        }
+      ],
+      "specs": [
+        {
+          "label": {
+            "en": "Product Name",
+            "zh": "产品名称"
+          },
+          "value": "Cordless Handheld Vacuum Cleaner"
+        },
+        {
+          "label": {
+            "en": "Type",
+            "zh": "类型"
+          },
+          "value": "Handheld Vacuum Cleaner"
+        },
+        {
+          "label": {
+            "en": "Function",
+            "zh": "功能"
+          },
+          "value": "Vacuum Cleaning"
+        },
+        {
+          "label": {
+            "en": "Application",
+            "zh": "适用场景"
+          },
+          "value": "Home Car Office Hotel"
+        },
+        {
+          "label": {
+            "en": "Motor Type",
+            "zh": "电机类型"
+          },
+          "value": "High Power Motor"
+        },
+        {
+          "label": {
+            "en": "Dust Collection Type",
+            "zh": "Dust Collection Type"
+          },
+          "value": "Dust Cup"
+        },
+        {
+          "label": {
+            "en": "Noise Level",
+            "zh": "噪音"
+          },
+          "value": "Low Noise"
+        },
+        {
+          "label": {
+            "en": "Cleaning Area",
+            "zh": "清洁面积"
+          },
+          "value": "Floor Sofa Carpet Car Interior"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Cordless Portable Lightweight"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Dry"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Laser Dust Illumination"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "OLED Display Screen"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "With LED Lights"
+        },
+        {
+          "label": {
+            "en": "maximum runtime",
+            "zh": "maximum runtime"
+          },
+          "value": "30-60 min"
+        },
+        {
+          "label": {
+            "en": "after-sales service provided",
+            "zh": "after-sales service provided"
+          },
+          "value": "Overseas Call Centers"
+        },
+        {
+          "label": {
+            "en": "app-controlled",
+            "zh": "app-controlled"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Hotel"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Household"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Commercial"
+        },
+        {
+          "label": {
+            "en": "bag or bagless",
+            "zh": "bag or bagless"
+          },
+          "value": "Bagless"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Easy Cleaning"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Washable Filter"
+        },
+        {
+          "label": {
+            "en": "Filter Type",
+            "zh": "滤网类型"
+          },
+          "value": "HEPA"
+        },
+        {
+          "label": {
+            "en": "motor type",
+            "zh": "motor type"
+          },
+          "value": "Brushless Motor"
+        },
+        {
+          "label": {
+            "en": "nozzle number",
+            "zh": "nozzle number"
+          },
+          "value": "≤ 3"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Corrugated Box"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Color Box"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Gift Box"
+        },
+        {
+          "label": {
+            "en": "power source",
+            "zh": "power source"
+          },
+          "value": "Battery"
+        },
+        {
+          "label": {
+            "en": "private mold",
+            "zh": "private mold"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "product net weight",
+            "zh": "product net weight"
+          },
+          "value": "≥ 3 kg"
+        },
+        {
+          "label": {
+            "en": "warranty",
+            "zh": "warranty"
+          },
+          "value": "1 Year"
+        },
+        {
+          "label": {
+            "en": "place of origin",
+            "zh": "place of origin"
+          },
+          "value": "CN;GUA"
+        },
+        {
+          "label": {
+            "en": "suction power (airwatts)",
+            "zh": "suction power (airwatts)"
+          },
+          "value": "210W/100W/60W"
+        },
+        {
+          "label": {
+            "en": "Capacity",
+            "zh": "Capacity"
+          },
+          "value": "1.2L"
+        },
+        {
+          "label": {
+            "en": "Housing Material",
+            "zh": "Housing Material"
+          },
+          "value": "ABS"
+        },
+        {
+          "label": {
+            "en": "power (w)",
+            "zh": "power (w)"
+          },
+          "value": "450 W"
+        },
+        {
+          "label": {
+            "en": "model number",
+            "zh": "model number"
+          },
+          "value": "V18"
+        }
+      ],
+      "packaging": {
+        "unit": "Gift Box"
+      },
+      "customization": {},
+      "applications": {
+        "en": "Home Car Office Hotel",
+        "zh": "Home Car Office Hotel"
+      },
+      "price_indicator": null,
+      "quick_specs": [
+        {
+          "label": {
+            "en": "Power (W)",
+            "zh": "功率(W)"
+          },
+          "value": "450 W"
+        },
+        {
+          "label": {
+            "en": "Capacity",
+            "zh": "容量"
+          },
+          "value": "1.2L"
+        },
+        {
+          "label": {
+            "en": "Maximum Runtime",
+            "zh": "最长续航"
+          },
+          "value": "30-60 min"
+        },
+        {
+          "label": {
+            "en": "Motor Type",
+            "zh": "电机类型"
+          },
+          "value": "High Power Motor"
+        }
+      ],
+      "price_ladder": [],
+      "sku": "1601845096939",
+      "description": {
+        "en": "450 W · 1.2L · 30-60 min. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "450 W · 1.2L · 30-60 min。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+      },
+      "supplier_rating": "4.8",
+      "response_time": "≤ 2h",
+      "transactions": "US $100K+",
+      "years": "10+",
+      "ship_from": {
+        "en": "Ningbo, China",
+        "zh": "中国宁波"
+      },
+      "sample": {
+        "enabled": true,
+        "qty": 5,
+        "note": "Sample available, lead 7-14 days"
+      },
+      "category_name": {
+        "en": "Handheld & Stick Vacuums",
+        "zh": "手持与立式吸尘器"
+      },
+      "_source": {
+        "platform": "alibaba.com",
+        "productId": "1601845096939"
+      },
+      "_cat": "handheld-vacuum"
+    },
+    {
+      "id": "c703c",
+      "name": {
+        "en": "600W Corded Stick Vacuum Cleaner 16KPa Strong Suction with 5m Power Cord for Home Floor Carpet Pet Hair Cleaning",
+        "zh": "600W 有线立式吸尘器（16KPa / 5m 线长）"
+      },
+      "tagline": {
+        "en": "600 W · 0.5 L · 30-60 min",
+        "zh": "600 W · 0.5 L · 30-60 min"
+      },
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-c703c/01.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-c703c/02.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-c703c/03.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-c703c/04.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-c703c/05.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-c703c/06.webp"
+      ],
+      "video_url": null,
+      "moq": {
+        "value": 1,
+        "unit": "pieces"
+      },
+      "certifications": [],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": {
+            "en": "Power (W): 600 W",
+            "zh": "功率(W): 600 W"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Capacity: 0.5 L",
+            "zh": "容量: 0.5 L"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Maximum Runtime: 30-60 min",
+            "zh": "最长续航: 30-60 min"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Motor Type: Brush Motor",
+            "zh": "电机类型: Brush Motor"
+          }
+        }
+      ],
+      "specs": [
+        {
+          "label": {
+            "en": "Power Source",
+            "zh": "Power Source"
+          },
+          "value": "Battery"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Dry"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Laser Dust Illumination"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "OLED Display Screen"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "With LED Lights"
+        },
+        {
+          "label": {
+            "en": "maximum runtime",
+            "zh": "maximum runtime"
+          },
+          "value": "30-60 min"
+        },
+        {
+          "label": {
+            "en": "suction power (airwatts)",
+            "zh": "suction power (airwatts)"
+          },
+          "value": "81-100 AW"
+        },
+        {
+          "label": {
+            "en": "type",
+            "zh": "type"
+          },
+          "value": "Cyclone"
+        },
+        {
+          "label": {
+            "en": "after-sales service provided",
+            "zh": "after-sales service provided"
+          },
+          "value": "Overseas Call Centers"
+        },
+        {
+          "label": {
+            "en": "app-controlled",
+            "zh": "app-controlled"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Car"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Garage"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Hotel"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Household"
+        },
+        {
+          "label": {
+            "en": "bag or bagless",
+            "zh": "bag or bagless"
+          },
+          "value": "With Bag"
+        },
+        {
+          "label": {
+            "en": "Capacity",
+            "zh": "Capacity"
+          },
+          "value": "0.5 L"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Easy Cleaning"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Lightweight"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Pet Hair"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Portable"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Washable Filter"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "HEPA Filtration"
+        },
+        {
+          "label": {
+            "en": "Filter Type",
+            "zh": "滤网类型"
+          },
+          "value": "HEPA"
+        },
+        {
+          "label": {
+            "en": "motor type",
+            "zh": "motor type"
+          },
+          "value": "Brush Motor"
+        },
+        {
+          "label": {
+            "en": "nozzle number",
+            "zh": "nozzle number"
+          },
+          "value": "≤ 3"
+        },
+        {
+          "label": {
+            "en": "operating language",
+            "zh": "operating language"
+          },
+          "value": "English"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Gift Box"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Corrugated Box"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Color Box"
+        },
+        {
+          "label": {
+            "en": "power (w)",
+            "zh": "power (w)"
+          },
+          "value": "600 W"
+        },
+        {
+          "label": {
+            "en": "power source",
+            "zh": "power source"
+          },
+          "value": "Electric"
+        },
+        {
+          "label": {
+            "en": "private mold",
+            "zh": "private mold"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "product net weight",
+            "zh": "product net weight"
+          },
+          "value": "2–3 kg"
+        },
+        {
+          "label": {
+            "en": "Surface recommendation",
+            "zh": "Surface recommendation"
+          },
+          "value": "Carpet"
+        },
+        {
+          "label": {
+            "en": "Surface recommendation",
+            "zh": "Surface recommendation"
+          },
+          "value": "Ceramic"
+        },
+        {
+          "label": {
+            "en": "Surface recommendation",
+            "zh": "Surface recommendation"
+          },
+          "value": "Wood"
+        },
+        {
+          "label": {
+            "en": "warranty",
+            "zh": "warranty"
+          },
+          "value": "1 Year"
+        },
+        {
+          "label": {
+            "en": "place of origin",
+            "zh": "place of origin"
+          },
+          "value": "CN"
+        },
+        {
+          "label": {
+            "en": "Housing Material",
+            "zh": "Housing Material"
+          },
+          "value": "Plastic+Metal"
+        },
+        {
+          "label": {
+            "en": "model number",
+            "zh": "model number"
+          },
+          "value": "C703C"
+        }
+      ],
+      "packaging": {
+        "unit": "Color Box"
+      },
+      "customization": {},
+      "applications": {
+        "en": "",
+        "zh": ""
+      },
+      "price_indicator": null,
+      "quick_specs": [
+        {
+          "label": {
+            "en": "Power (W)",
+            "zh": "功率(W)"
+          },
+          "value": "600 W"
+        },
+        {
+          "label": {
+            "en": "Capacity",
+            "zh": "容量"
+          },
+          "value": "0.5 L"
+        },
+        {
+          "label": {
+            "en": "Maximum Runtime",
+            "zh": "最长续航"
+          },
+          "value": "30-60 min"
+        },
+        {
+          "label": {
+            "en": "Motor Type",
+            "zh": "电机类型"
+          },
+          "value": "Brush Motor"
+        }
+      ],
+      "price_ladder": [],
+      "sku": "1601847256108",
+      "description": {
+        "en": "600 W · 0.5 L · 30-60 min. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "600 W · 0.5 L · 30-60 min。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+      },
+      "supplier_rating": "4.8",
+      "response_time": "≤ 2h",
+      "transactions": "US $100K+",
+      "years": "10+",
+      "ship_from": {
+        "en": "Ningbo, China",
+        "zh": "中国宁波"
+      },
+      "sample": {
+        "enabled": true,
+        "qty": 5,
+        "note": "Sample available, lead 7-14 days"
+      },
+      "category_name": {
+        "en": "Handheld & Stick Vacuums",
+        "zh": "手持与立式吸尘器"
+      },
+      "_source": {
+        "platform": "alibaba.com",
+        "productId": "1601847256108"
+      },
+      "_cat": "handheld-vacuum"
+    },
+    {
+      "id": "qw3013",
+      "name": {
+        "en": "OEM ODM Cordless Handheld Vacuum Cleaner 26000Pa Brushless Motor HEPA Filter Portable Stick Vacuum For Home Use Floor Carpet",
+        "zh": "OEM/ODM 26000Pa 无刷手持吸尘器（HEPA）"
+      },
+      "tagline": {
+        "en": "350 W · 30-60 min · 0.8 L",
+        "zh": "350 W · 30-60 min · 0.8 L"
+      },
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-qw3013/01.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-qw3013/02.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-qw3013/03.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-qw3013/04.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-qw3013/05.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-qw3013/06.webp"
+      ],
+      "video_url": null,
+      "moq": {
+        "value": 1,
+        "unit": "pieces"
+      },
+      "certifications": [],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": {
+            "en": "Power (W): 350 W",
+            "zh": "功率(W): 350 W"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Maximum Runtime: 30-60 min",
+            "zh": "最长续航: 30-60 min"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Dust capacity: 0.8 L",
+            "zh": "尘杯容量: 0.8 L"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Motor Type: Brushless Motor",
+            "zh": "电机类型: Brushless Motor"
+          }
+        }
+      ],
+      "specs": [
+        {
+          "label": {
+            "en": "Function",
+            "zh": "功能"
+          },
+          "value": "Dry"
+        },
+        {
+          "label": {
+            "en": "Function",
+            "zh": "功能"
+          },
+          "value": "With LED Lights"
+        },
+        {
+          "label": {
+            "en": "maximum runtime",
+            "zh": "maximum runtime"
+          },
+          "value": "30-60 min"
+        },
+        {
+          "label": {
+            "en": "suction power (airwatts)",
+            "zh": "suction power (airwatts)"
+          },
+          "value": "151-180 AW"
+        },
+        {
+          "label": {
+            "en": "after-sales service provided",
+            "zh": "after-sales service provided"
+          },
+          "value": "Return and Replacement"
+        },
+        {
+          "label": {
+            "en": "app-controlled",
+            "zh": "app-controlled"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Hotel"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Household"
+        },
+        {
+          "label": {
+            "en": "bag or bagless",
+            "zh": "bag or bagless"
+          },
+          "value": "Bagless"
+        },
+        {
+          "label": {
+            "en": "Charging Time",
+            "zh": "充电时间"
+          },
+          "value": "3-5H"
+        },
+        {
+          "label": {
+            "en": "Dust capacity",
+            "zh": "Dust capacity"
+          },
+          "value": "0.8 L"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Cyclone Technology"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Easy Cleaning"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Lightweight"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Portable"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Washable Filter"
+        },
+        {
+          "label": {
+            "en": "filter",
+            "zh": "filter"
+          },
+          "value": "HEPA Filter"
+        },
+        {
+          "label": {
+            "en": "installation",
+            "zh": "installation"
+          },
+          "value": "Hand Held"
+        },
+        {
+          "label": {
+            "en": "motor type",
+            "zh": "motor type"
+          },
+          "value": "Brushless Motor"
+        },
+        {
+          "label": {
+            "en": "nozzle number",
+            "zh": "nozzle number"
+          },
+          "value": "≤ 3"
+        },
+        {
+          "label": {
+            "en": "operating language",
+            "zh": "operating language"
+          },
+          "value": "English"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Color Box"
+        },
+        {
+          "label": {
+            "en": "power source",
+            "zh": "power source"
+          },
+          "value": "Battery"
+        },
+        {
+          "label": {
+            "en": "private mold",
+            "zh": "private mold"
+          },
+          "value": "Yes"
+        },
+        {
+          "label": {
+            "en": "product net weight",
+            "zh": "product net weight"
+          },
+          "value": "1~2Kg"
+        },
+        {
+          "label": {
+            "en": "warranty",
+            "zh": "warranty"
+          },
+          "value": "1 Year"
+        },
+        {
+          "label": {
+            "en": "place of origin",
+            "zh": "place of origin"
+          },
+          "value": "CN"
+        },
+        {
+          "label": {
+            "en": "brand name",
+            "zh": "brand name"
+          },
+          "value": "OEM ODM"
+        },
+        {
+          "label": {
+            "en": "power (w)",
+            "zh": "power (w)"
+          },
+          "value": "350 W"
+        },
+        {
+          "label": {
+            "en": "model number",
+            "zh": "model number"
+          },
+          "value": "QW3013"
+        }
+      ],
+      "packaging": {
+        "unit": "Color Box"
+      },
+      "customization": {},
+      "applications": {
+        "en": "",
+        "zh": ""
+      },
+      "price_indicator": null,
+      "quick_specs": [
+        {
+          "label": {
+            "en": "Power (W)",
+            "zh": "功率(W)"
+          },
+          "value": "350 W"
+        },
+        {
+          "label": {
+            "en": "Maximum Runtime",
+            "zh": "最长续航"
+          },
+          "value": "30-60 min"
+        },
+        {
+          "label": {
+            "en": "Dust capacity",
+            "zh": "尘杯容量"
+          },
+          "value": "0.8 L"
+        },
+        {
+          "label": {
+            "en": "Motor Type",
+            "zh": "电机类型"
+          },
+          "value": "Brushless Motor"
+        }
+      ],
+      "price_ladder": [],
+      "sku": "1601866709310",
+      "description": {
+        "en": "350 W · 30-60 min · 0.8 L. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "350 W · 30-60 min · 0.8 L。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+      },
+      "supplier_rating": "4.8",
+      "response_time": "≤ 2h",
+      "transactions": "US $100K+",
+      "years": "10+",
+      "ship_from": {
+        "en": "Ningbo, China",
+        "zh": "中国宁波"
+      },
+      "sample": {
+        "enabled": true,
+        "qty": 5,
+        "note": "Sample available, lead 7-14 days"
+      },
+      "category_name": {
+        "en": "Handheld & Stick Vacuums",
+        "zh": "手持与立式吸尘器"
+      },
+      "_source": {
+        "platform": "alibaba.com",
+        "productId": "1601866709310"
+      },
+      "_cat": "handheld-vacuum"
+    },
+    {
+      "id": "qw3011",
+      "name": {
+        "en": "OEM 100W Cordless Stick Dry Vacuum Cleaner Rechargeable Wireless 0.8L Dust Cup Foldable Tube HEPA Filter Cyclone Home Cleaning",
+        "zh": "OEM 100W 无线干式立式吸尘器（0.8L）"
+      },
+      "tagline": {
+        "en": "0.8 L · 30-60 min · Brushless Motor",
+        "zh": "0.8 L · 30-60 min · Brushless Motor"
+      },
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-qw3011/01.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-qw3011/02.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-qw3011/03.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-qw3011/04.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-qw3011/05.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-qw3011/06.webp"
+      ],
+      "video_url": null,
+      "moq": {
+        "value": 1,
+        "unit": "pieces"
+      },
+      "certifications": [],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": {
+            "en": "Capacity: 0.8 L",
+            "zh": "容量: 0.8 L"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Maximum Runtime: 30-60 min",
+            "zh": "最长续航: 30-60 min"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Motor Type: Brushless Motor",
+            "zh": "电机类型: Brushless Motor"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Battery Type: Lithium-Ion Battery",
+            "zh": "电池类型: Lithium-Ion Battery"
+          }
+        }
+      ],
+      "specs": [
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Dry"
+        },
+        {
+          "label": {
+            "en": "maximum runtime",
+            "zh": "maximum runtime"
+          },
+          "value": "30-60 min"
+        },
+        {
+          "label": {
+            "en": "suction power (airwatts)",
+            "zh": "suction power (airwatts)"
+          },
+          "value": "151-180 AW"
+        },
+        {
+          "label": {
+            "en": "type",
+            "zh": "type"
+          },
+          "value": "Cyclone"
+        },
+        {
+          "label": {
+            "en": "after-sales service provided",
+            "zh": "after-sales service provided"
+          },
+          "value": "Overseas Call Centers"
+        },
+        {
+          "label": {
+            "en": "app-controlled",
+            "zh": "app-controlled"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Household"
+        },
+        {
+          "label": {
+            "en": "bag or bagless",
+            "zh": "bag or bagless"
+          },
+          "value": "Bagless"
+        },
+        {
+          "label": {
+            "en": "Battery Type",
+            "zh": "电池类型"
+          },
+          "value": "Lithium-Ion Battery"
+        },
+        {
+          "label": {
+            "en": "Capacity",
+            "zh": "Capacity"
+          },
+          "value": "0.8 L"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Portable"
+        },
+        {
+          "label": {
+            "en": "Filter Type",
+            "zh": "滤网类型"
+          },
+          "value": "HEPA"
+        },
+        {
+          "label": {
+            "en": "Housing Material",
+            "zh": "Housing Material"
+          },
+          "value": "Plastic"
+        },
+        {
+          "label": {
+            "en": "motor type",
+            "zh": "motor type"
+          },
+          "value": "Brushless Motor"
+        },
+        {
+          "label": {
+            "en": "nozzle number",
+            "zh": "nozzle number"
+          },
+          "value": "≤ 3"
+        },
+        {
+          "label": {
+            "en": "operating language",
+            "zh": "operating language"
+          },
+          "value": "English"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Corrugated Box"
+        },
+        {
+          "label": {
+            "en": "power source",
+            "zh": "power source"
+          },
+          "value": "Battery"
+        },
+        {
+          "label": {
+            "en": "private mold",
+            "zh": "private mold"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "product net weight",
+            "zh": "product net weight"
+          },
+          "value": "2–3 kg"
+        },
+        {
+          "label": {
+            "en": "Surface recommendation",
+            "zh": "Surface recommendation"
+          },
+          "value": "Carpet"
+        },
+        {
+          "label": {
+            "en": "warranty",
+            "zh": "warranty"
+          },
+          "value": "1 Year"
+        },
+        {
+          "label": {
+            "en": "place of origin",
+            "zh": "place of origin"
+          },
+          "value": "CN"
+        },
+        {
+          "label": {
+            "en": "model number",
+            "zh": "model number"
+          },
+          "value": "QW3011"
+        }
+      ],
+      "packaging": {
+        "unit": "Corrugated Box"
+      },
+      "customization": {},
+      "applications": {
+        "en": "",
+        "zh": ""
+      },
+      "price_indicator": null,
+      "quick_specs": [
+        {
+          "label": {
+            "en": "Capacity",
+            "zh": "容量"
+          },
+          "value": "0.8 L"
+        },
+        {
+          "label": {
+            "en": "Maximum Runtime",
+            "zh": "最长续航"
+          },
+          "value": "30-60 min"
+        },
+        {
+          "label": {
+            "en": "Motor Type",
+            "zh": "电机类型"
+          },
+          "value": "Brushless Motor"
+        },
+        {
+          "label": {
+            "en": "Battery Type",
+            "zh": "电池类型"
+          },
+          "value": "Lithium-Ion Battery"
+        }
+      ],
+      "price_ladder": [],
+      "sku": "1601873126522",
+      "description": {
+        "en": "0.8 L · 30-60 min · Brushless Motor. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "0.8 L · 30-60 min · Brushless Motor。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+      },
+      "supplier_rating": "4.8",
+      "response_time": "≤ 2h",
+      "transactions": "US $100K+",
+      "years": "10+",
+      "ship_from": {
+        "en": "Ningbo, China",
+        "zh": "中国宁波"
+      },
+      "sample": {
+        "enabled": true,
+        "qty": 5,
+        "note": "Sample available, lead 7-14 days"
+      },
+      "category_name": {
+        "en": "Handheld & Stick Vacuums",
+        "zh": "手持与立式吸尘器"
+      },
+      "_source": {
+        "platform": "alibaba.com",
+        "productId": "1601873126522"
+      },
+      "_cat": "handheld-vacuum"
     }
   ],
   "reviews": [
@@ -363,8 +3631,8 @@
       "title": "Best cordless vacuum I have ever owned",
       "body": "I was skeptical ordering a vacuum from China but the build quality surprised me completely. The suction is powerful for its size, and it lasts 30+ minutes on a single charge. Attached are some photos of it cleaning our hardwood floors and the pet hair on our sofa.",
       "photoUrls": [
-        "https://www.hkdmj.net/assets/images/products/handheld-vacuum/hv-1.jpg",
-        "https://www.hkdmj.net/assets/images/products/handheld-vacuum/hv-2.jpg"
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-gv18/01-main.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-gv18/02.webp"
       ]
     },
     {
@@ -375,8 +3643,8 @@
       "title": "Perfect for our apartment — and the MOQ was just 200 units",
       "body": "As a small retailer, finding a supplier willing to do small batches was tough. Damaijia accepted our 200-unit order with no hassle. The vacuum itself is sleek and works great on both carpet and hard floors. The 3 included attachments cover everything we need.",
       "photoUrls": [
-        "https://www.hkdmj.net/assets/images/products/handheld-vacuum/hv-3.jpg",
-        "https://www.hkdmj.net/assets/images/products/handheld-vacuum/hv-4.jpg"
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-gv18/01-main.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-gv18/02.webp"
       ]
     },
     {
@@ -387,8 +3655,8 @@
       "title": "Great value, fast shipping to EU",
       "body": "Ordered 300 units for our retail chain. The product quality is consistent across the batch — no complaints from our customers so far. Shipping took about 12 days to Valencia port. One suggestion: include a wall-mount bracket in the package.",
       "photoUrls": [
-        "https://www.hkdmj.net/assets/images/products/handheld-vacuum/hv-5.jpg",
-        "https://www.hkdmj.net/assets/images/products/handheld-vacuum/hv-6.jpg"
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-gv18/01-main.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-gv18/02.webp"
       ]
     }
   ],
@@ -413,8 +3681,8 @@
       "reviewBody": "I was skeptical ordering a vacuum from China but the build quality surprised me completely. The suction is powerful for its size, and it lasts 30+ minutes on a single charge. Attached are some photos of it cleaning our hardwood floors and the pet hair on our sofa.",
       "name": "Best cordless vacuum I have ever owned",
       "image": [
-        "https://www.hkdmj.net/assets/images/products/handheld-vacuum/hv-1.jpg",
-        "https://www.hkdmj.net/assets/images/products/handheld-vacuum/hv-2.jpg"
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-gv18/01-main.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-gv18/02.webp"
       ]
     },
     {
@@ -437,8 +3705,8 @@
       "reviewBody": "As a small retailer, finding a supplier willing to do small batches was tough. Damaijia accepted our 200-unit order with no hassle. The vacuum itself is sleek and works great on both carpet and hard floors. The 3 included attachments cover everything we need.",
       "name": "Perfect for our apartment — and the MOQ was just 200 units",
       "image": [
-        "https://www.hkdmj.net/assets/images/products/handheld-vacuum/hv-3.jpg",
-        "https://www.hkdmj.net/assets/images/products/handheld-vacuum/hv-4.jpg"
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-gv18/01-main.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-gv18/02.webp"
       ]
     },
     {
@@ -461,8 +3729,8 @@
       "reviewBody": "Ordered 300 units for our retail chain. The product quality is consistent across the batch — no complaints from our customers so far. Shipping took about 12 days to Valencia port. One suggestion: include a wall-mount bracket in the package.",
       "name": "Great value, fast shipping to EU",
       "image": [
-        "https://www.hkdmj.net/assets/images/products/handheld-vacuum/hv-5.jpg",
-        "https://www.hkdmj.net/assets/images/products/handheld-vacuum/hv-6.jpg"
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-gv18/01-main.webp",
+        "https://www.hkdmj.net/assets/images/products/handheld-vacuum-gv18/02.webp"
       ]
     }
   ]

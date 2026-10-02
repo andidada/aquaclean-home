@@ -2,238 +2,240 @@
   "category": "robot-vacuum",
   "products": [
     {
-      "id": "aq-rv100",
+      "id": "gt20",
       "name": {
-        "en": "AquaSmart AQ-RV100 Robot Vacuum",
-        "zh": "AquaSmart AQ-RV100 智能扫地机器人",
-        "ar": "روبوت التنظيف AquaSmart AQ-RV100",
-        "es": "Robot Aspirador AquaSmart AQ-RV100",
-        "fr": "Robot Aspirateur AquaSmart AQ-RV100",
-        "id": "Robot Pembersih Vakum AquaSmart AQ-RV100",
-        "ru": "Робот-пылесос AquaSmart AQ-RV100",
-        "th": "หุ่นยนต์ดูดฝุ่น AquaSmart AQ-RV100",
-        "vi": "Robot hut bui AquaSmart AQ-RV100"
+        "en": "GT20 Robot Vacuum & Mop",
+        "zh": "GT20 扫拖一体机器人"
       },
       "tagline": {
-        "en": "LDS Laser Navigation — Maps Your Entire Home",
-        "zh": "LDS激光导航 — 绘制全屋地图",
-        "ar": "ملاحة ليزر LDS — يرسم خريطة منزلك بالكامل",
-        "es": "Navegacion Laser LDS — Mapea Toda tu Casa",
-        "fr": "Navigation Laser LDS — Cartographie Complete de la Maison",
-        "id": "Navigasi Laser LDS — Pemetaan Rumah Seluruhnya",
-        "ru": "Лазерная навигация LDS — картографирование всего дома",
-        "th": "การนำทางด้วยเลเซอร์ LDS — แมปบ้านทั้งหมดของคุณ",
-        "vi": "Dieu huong laser LDS — Ban do nha cua ban"
+        "en": "LiDAR Navigation · 5000Pa Suction · App & Voice Control",
+        "zh": "LDS 激光导航 · 5000Pa 吸力 · APP 与语音控制"
       },
       "images": [
-        "https://www.hkdmj.net/assets/images/products/robot-vacuum/rv-1.jpg",
-        "https://www.hkdmj.net/assets/images/products/robot-vacuum/rv-2.jpg",
-        "https://www.hkdmj.net/assets/images/products/robot-vacuum/rv-3.jpg",
-        "https://www.hkdmj.net/assets/images/products/robot-vacuum/rv-4.jpg",
-        "https://www.hkdmj.net/assets/images/products/robot-vacuum/rv-5.jpg",
-        "https://www.hkdmj.net/assets/images/products/robot-vacuum/rv-6.jpg"
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/01-main.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/02.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/03.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/04.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/05.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/06.webp"
       ],
       "video_url": "",
       "moq": {
-        "value": 200,
+        "value": 2,
         "unit": "pieces"
       },
-      "certifications": [
-        "CE",
-        "FCC",
-        "RoHS",
-        "CB"
-      ],
+      "certifications": [],
+      "cert_note": {
+        "en": "Certification documents on file — available on request.",
+        "zh": "认证资料已备案，可按需提供。"
+      },
       "highlights": [
         {
-          "icon": "laser",
+          "icon": "navigation",
           "text": {
-            "en": "LDS Laser Navigation, 360° Scanning",
-            "zh": "LDS激光导航，360度扫描"
+            "en": "LDS SLAM Navigation with Smart Mapping",
+            "zh": "LDS SLAM 导航与智能建图"
           }
         },
         {
-          "icon": "mop",
+          "icon": "suction",
           "text": {
-            "en": "Vacuum & Mop 2-in-1, 200ml Tank",
-            "zh": "扫拖一体，200ml水箱"
+            "en": "5000Pa Suction Power",
+            "zh": "5000Pa 强吸力"
           }
         },
         {
-          "icon": "map",
+          "icon": "app",
           "text": {
-            "en": "Multi-Floor Mapping, 5 Maps Stored",
-            "zh": "多层地图，存储5张地图"
+            "en": "App Control (Tuya) + Voice Control (Alexa / Google)",
+            "zh": "APP 控制（涂鸦）+ 语音控制（Alexa / Google）"
           }
         },
         {
           "icon": "battery",
           "text": {
-            "en": "150min Runtime, Auto Recharge",
-            "zh": "150分钟续航，自动回充"
+            "en": "Auto Recharge · No-Go Zones & Virtual Walls",
+            "zh": "自动回充 · 禁区与虚拟墙"
           }
         }
       ],
       "specs": [
         {
           "label": {
-            "en": "Navigation",
-            "zh": "导航方式"
+            "en": "Model",
+            "zh": "型号"
           },
-          "value": "LDS Laser"
+          "value": "GT20"
         },
         {
           "label": {
-            "en": "Suction",
+            "en": "Navigation",
+            "zh": "导航方式"
+          },
+          "value": "LDS SLAM"
+        },
+        {
+          "label": {
+            "en": "Suction Power",
             "zh": "吸力"
           },
-          "value": "4000Pa"
+          "value": "5000Pa"
         },
         {
           "label": {
             "en": "Runtime",
             "zh": "续航时间"
           },
-          "value": "150 min"
+          "value": "120–150 min"
         },
         {
           "label": {
-            "en": "Battery",
-            "zh": "电池容量"
-          },
-          "value": "5200mAh"
-        },
-        {
-          "label": {
-            "en": "Dust Box",
+            "en": "Dustbin Capacity",
             "zh": "尘盒容量"
           },
-          "value": "600ml"
+          "value": "220ml"
         },
         {
           "label": {
-            "en": "Water Tank",
+            "en": "Water Tank Capacity",
             "zh": "水箱容量"
           },
-          "value": "200ml"
+          "value": "230ml"
         },
         {
           "label": {
-            "en": "Climbing",
-            "zh": "越障能力"
+            "en": "Charging Time",
+            "zh": "充电时间"
           },
-          "value": "20mm"
+          "value": "5–6 hours"
         },
         {
           "label": {
-            "en": "Noise",
-            "zh": "噪音"
+            "en": "Battery Type",
+            "zh": "电池类型"
           },
-          "value": "< 65dB"
+          "value": "Li-Ion Battery"
         },
         {
           "label": {
-            "en": "App Control",
-            "zh": "APP控制"
+            "en": "Power",
+            "zh": "功率"
           },
-          "value": "Tuya Smart / Smart Life"
+          "value": "40W"
         },
         {
           "label": {
-            "en": "MOQ",
-            "zh": "最小起订量"
+            "en": "Motor Type",
+            "zh": "电机类型"
           },
-          "value": "200 pcs"
+          "value": "Brushless Motor"
+        },
+        {
+          "label": {
+            "en": "Filter Type",
+            "zh": "滤网类型"
+          },
+          "value": "HEPA"
+        },
+        {
+          "label": {
+            "en": "Function",
+            "zh": "功能"
+          },
+          "value": "Wet & Dry Cleaning, App & Voice Control"
+        },
+        {
+          "label": {
+            "en": "Material",
+            "zh": "材质"
+          },
+          "value": "ABS"
+        },
+        {
+          "label": {
+            "en": "Warranty",
+            "zh": "质保"
+          },
+          "value": "1 Year"
         }
       ],
-      "packaging": {
-        "unit": "color box",
-        "ctn_size": "45x32x18cm",
-        "ctn_qty": "12 pcs",
-        "gross_weight": "15kg"
-      },
-      "customization": {
-        "oem": true,
-        "odm": true,
-        "logo": true,
-        "color": true,
-        "package": true,
-        "sample_lead": "7-14 days",
-        "production_lead": "25-35 days"
-      },
-      "applications": {
-        "en": "Home, Car, Office, Kitchen",
-        "zh": "家庭, 汽车, 办公室, 厨房"
-      },
-      "price_indicator": {
-        "min": 95,
-        "max": 165,
-        "currency": "USD"
-      },
       "quick_specs": [
         {
           "label": {
             "en": "Navigation",
-            "zh": "导航方式"
+            "zh": "导航"
           },
-          "value": "LDS Laser"
+          "value": "LDS SLAM"
         },
         {
           "label": {
             "en": "Suction",
             "zh": "吸力"
           },
-          "value": "4000Pa"
+          "value": "5000Pa"
         },
         {
           "label": {
             "en": "Runtime",
-            "zh": "续航时间"
+            "zh": "续航"
           },
-          "value": "150 min"
+          "value": "120–150 min"
         },
         {
           "label": {
-            "en": "Battery",
-            "zh": "电池容量"
+            "en": "Dustbin",
+            "zh": "尘盒"
           },
-          "value": "5200mAh"
+          "value": "220ml"
         }
       ],
+      "packaging": {
+        "unit": "Color Box",
+        "ctn_size": "35x40x16cm",
+        "ctn_qty": "—",
+        "gross_weight": "4.0kg"
+      },
+      "customization": {
+        "oem": true,
+        "odm": true,
+        "logo": null,
+        "color": true,
+        "package": null,
+        "sample_lead": "on request",
+        "production_lead": "on request"
+      },
+      "applications": {
+        "en": "Household, Office",
+        "zh": "家庭、办公室"
+      },
+      "price_indicator": {
+        "min": 81,
+        "max": 98,
+        "currency": "USD"
+      },
       "price_ladder": [
         {
-          "min": 200,
+          "min": 2,
+          "max": 99,
+          "price": 98
+        },
+        {
+          "min": 100,
           "max": 499,
-          "price": 165
+          "price": 95
         },
         {
           "min": 500,
-          "max": 999,
-          "price": 130
+          "max": 1999,
+          "price": 90
         },
         {
-          "min": 1000,
+          "min": 2000,
           "max": null,
-          "price": 95
+          "price": 81
         }
       ],
       "sku": [
-        {
-          "name": {
-            "en": "Color",
-            "zh": "颜色"
-          },
-          "values": [
-            {
-              "name": "Black",
-              "color": "#111827"
-            },
-            {
-              "name": "White",
-              "color": "#F3F4F6"
-            }
-          ]
-        },
         {
           "name": {
             "en": "Voltage",
@@ -241,10 +243,10 @@
           },
           "values": [
             {
-              "name": "110-240V"
+              "name": "110-120 V"
             },
             {
-              "name": "100-120V"
+              "name": "220-240V"
             }
           ]
         },
@@ -255,30 +257,489 @@
           },
           "values": [
             {
-              "name": "EU"
+              "name": "AU"
             },
             {
-              "name": "US"
+              "name": "EU"
             },
             {
               "name": "UK"
             },
             {
-              "name": "AU"
+              "name": "US"
+            }
+          ]
+        },
+        {
+          "name": {
+            "en": "Colour",
+            "zh": "颜色"
+          },
+          "values": [
+            {
+              "name": "Black"
             }
           ]
         }
       ],
       "description": {
-        "en": "Our robot vacuums combine LDS laser navigation with powerful 4000Pa suction to deliver thorough, intelligent cleaning. The 3-in-1 sweep, vacuum, and mop design handles all floor types, while multi-floor mapping stores up to 5 maps for different levels of your home.\n\nSmart features include app control via Tuya/Smart Life, voice control with Alexa and Google Home, auto recharge, and scheduled cleaning. The 5200mAh battery provides up to 150 minutes of runtime, and the 20mm climbing ability easily crosses thresholds and rugs.\n\nWe offer full OEM/ODM services: custom colors, branding, packaging, and even firmware customization for large orders. MOQ 200 units, sample available in 7-14 days.",
-        "zh": "我们的扫地机器人将LDS激光导航与4000Pa强劲吸力相结合，提供彻底而智能的清洁体验。扫拖一体设计适用于所有地面类型，多层地图功能可存储最多5张地图。\n\n智能功能包括Tuya/Smart Life APP控制、Alexa和Google Home语音控制、自动回充和定时清扫。5200mAh电池提供长达150分钟续航，20mm越障能力轻松跨越门槛和地毯。\n\n我们提供完整的OEM/ODM服务：定制颜色、品牌、包装，大订单甚至支持固件定制。最小起订量200台，样品7-14天。",
-        "ar": "Our robot vacuums combine LDS laser navigation with powerful 4000Pa suction to deliver thorough, intelligent cleaning. The 3-in-1 sweep, vacuum, and mop design handles all floor types, while multi-floor mapping stores up to 5 maps for different levels of your home.\n\nSmart features include app control via Tuya/Smart Life, voice control with Alexa and Google Home, auto recharge, and scheduled cleaning. The 5200mAh battery provides up to 150 minutes of runtime, and the 20mm climbing ability easily crosses thresholds and rugs.\n\nWe offer full OEM/ODM services: custom colors, branding, packaging, and even firmware customization for large orders. MOQ 200 units, sample available in 7-14 days.",
-        "es": "Our robot vacuums combine LDS laser navigation with powerful 4000Pa suction to deliver thorough, intelligent cleaning. The 3-in-1 sweep, vacuum, and mop design handles all floor types, while multi-floor mapping stores up to 5 maps for different levels of your home.\n\nSmart features include app control via Tuya/Smart Life, voice control with Alexa and Google Home, auto recharge, and scheduled cleaning. The 5200mAh battery provides up to 150 minutes of runtime, and the 20mm climbing ability easily crosses thresholds and rugs.\n\nWe offer full OEM/ODM services: custom colors, branding, packaging, and even firmware customization for large orders. MOQ 200 units, sample available in 7-14 days.",
-        "fr": "Our robot vacuums combine LDS laser navigation with powerful 4000Pa suction to deliver thorough, intelligent cleaning. The 3-in-1 sweep, vacuum, and mop design handles all floor types, while multi-floor mapping stores up to 5 maps for different levels of your home.\n\nSmart features include app control via Tuya/Smart Life, voice control with Alexa and Google Home, auto recharge, and scheduled cleaning. The 5200mAh battery provides up to 150 minutes of runtime, and the 20mm climbing ability easily crosses thresholds and rugs.\n\nWe offer full OEM/ODM services: custom colors, branding, packaging, and even firmware customization for large orders. MOQ 200 units, sample available in 7-14 days.",
-        "id": "Our robot vacuums combine LDS laser navigation with powerful 4000Pa suction to deliver thorough, intelligent cleaning. The 3-in-1 sweep, vacuum, and mop design handles all floor types, while multi-floor mapping stores up to 5 maps for different levels of your home.\n\nSmart features include app control via Tuya/Smart Life, voice control with Alexa and Google Home, auto recharge, and scheduled cleaning. The 5200mAh battery provides up to 150 minutes of runtime, and the 20mm climbing ability easily crosses thresholds and rugs.\n\nWe offer full OEM/ODM services: custom colors, branding, packaging, and even firmware customization for large orders. MOQ 200 units, sample available in 7-14 days.",
-        "ru": "Our robot vacuums combine LDS laser navigation with powerful 4000Pa suction to deliver thorough, intelligent cleaning. The 3-in-1 sweep, vacuum, and mop design handles all floor types, while multi-floor mapping stores up to 5 maps for different levels of your home.\n\nSmart features include app control via Tuya/Smart Life, voice control with Alexa and Google Home, auto recharge, and scheduled cleaning. The 5200mAh battery provides up to 150 minutes of runtime, and the 20mm climbing ability easily crosses thresholds and rugs.\n\nWe offer full OEM/ODM services: custom colors, branding, packaging, and even firmware customization for large orders. MOQ 200 units, sample available in 7-14 days.",
-        "th": "Our robot vacuums combine LDS laser navigation with powerful 4000Pa suction to deliver thorough, intelligent cleaning. The 3-in-1 sweep, vacuum, and mop design handles all floor types, while multi-floor mapping stores up to 5 maps for different levels of your home.\n\nSmart features include app control via Tuya/Smart Life, voice control with Alexa and Google Home, auto recharge, and scheduled cleaning. The 5200mAh battery provides up to 150 minutes of runtime, and the 20mm climbing ability easily crosses thresholds and rugs.\n\nWe offer full OEM/ODM services: custom colors, branding, packaging, and even firmware customization for large orders. MOQ 200 units, sample available in 7-14 days.",
-        "vi": "Our robot vacuums combine LDS laser navigation with powerful 4000Pa suction to deliver thorough, intelligent cleaning. The 3-in-1 sweep, vacuum, and mop design handles all floor types, while multi-floor mapping stores up to 5 maps for different levels of your home.\n\nSmart features include app control via Tuya/Smart Life, voice control with Alexa and Google Home, auto recharge, and scheduled cleaning. The 5200mAh battery provides up to 150 minutes of runtime, and the 20mm climbing ability easily crosses thresholds and rugs.\n\nWe offer full OEM/ODM services: custom colors, branding, packaging, and even firmware customization for large orders. MOQ 200 units, sample available in 7-14 days."
+        "en": "The GT20 is a 3-in-1 robot vacuum and mop with LDS SLAM navigation, 5000Pa suction and 120–150 minutes of runtime. It sweeps and mops with a 220ml dustbin and 230ml water tank, supports App control (Tuya) and voice control (Alexa / Google Assistant), and offers smart mapping, no-go zones and virtual walls, obstacle avoidance and auto recharge. OEM/ODM customisation available for colour, voltage and plug type. Certification documents on file.",
+        "zh": "GT20 是扫拖一体的三合一扫地机器人，采用 LDS SLAM 激光导航，吸力 5000Pa，续航 120–150 分钟。220ml 尘盒 + 230ml 水箱，支持 APP（涂鸦）与语音控制（Alexa / Google），具备智能建图、禁区与虚拟墙、越障避让、自动回充等功能。支持 OEM/ODM 定制颜色、电压与插头规格，认证资料已备案。"
+      },
+      "supplier_rating": "4.81",
+      "response_time": "—",
+      "transactions": "—",
+      "years": "—",
+      "ship_from": {
+        "en": "China",
+        "zh": "中国"
+      },
+      "sample": {
+        "enabled": true,
+        "qty": 1,
+        "note": {
+          "en": "Sample available (max 1 pc)",
+          "zh": "支持打样（最多 1 台）"
+        }
+      },
+      "category_name": {
+        "en": "Robot Vacuum Cleaners",
+        "zh": "扫地机器人"
+      },
+      "certificates": [
+        {
+          "certId": "60007675410",
+          "name": "Declaration of Conformity",
+          "certNo": "EFW526022843-CG-02+REV 1",
+          "availableDate": "2026-07-27",
+          "expiredDate": "2031-07-24",
+          "verified": true,
+          "image": null,
+          "coversHint": "V18"
+        },
+        {
+          "certId": "60007673019",
+          "name": "Declaration of Conformity",
+          "certNo": "CTA25030700203+CTA25030700205+CQASZ20250902238E+YHJC202412100039R1",
+          "availableDate": "2026-07-27",
+          "expiredDate": "2031-07-24",
+          "verified": true,
+          "image": null,
+          "coversHint": null
+        },
+        {
+          "certId": "60008004208",
+          "name": "Declaration of Conformity",
+          "certNo": "XDX50238736101701EC",
+          "availableDate": "2026-09-02",
+          "expiredDate": "2031-09-07",
+          "verified": true,
+          "image": "/assets/images/certificates/60008004208.webp",
+          "coversHint": null
+        }
+      ],
+      "supplier": {
+        "country": "HK",
+        "province": "New Territories",
+        "established": 2024,
+        "reply_rate": 0.9987,
+        "verified": false,
+        "main_markets": [
+          "North America",
+          "South America",
+          "Eastern Europe",
+          "Southeast Asia"
+        ]
+      },
+      "store_rating": {
+        "score": 4.81,
+        "reviews": 7,
+        "scope": "store"
+      },
+      "shipping_fee_usd": 22.06,
+      "alibaba_url": "https://www.alibaba.com/product-detail/GT20-Electric-Smart-Robot-Vacuum-Mop_1601781982522.html",
+      "_cat": "robot-vacuum"
+    },
+    {
+      "id": "v2g-sj",
+      "name": {
+        "en": "2026 New Product Robot Vacuum 3 in 1 Sweeping Mopping Vacuum Cleaner Wet and Dry Smart Robot Vacuum",
+        "zh": "2026 新款三合一扫拖机器人"
+      },
+      "tagline": {
+        "en": "3500PA · 91-120 min · Brushless Motor",
+        "zh": "3500PA · 91-120 min · Brushless Motor"
+      },
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-v2g-sj/01.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-v2g-sj/02.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-v2g-sj/03.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-v2g-sj/04.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-v2g-sj/05.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-v2g-sj/06.webp"
+      ],
+      "video_url": null,
+      "moq": {
+        "value": 1,
+        "unit": "pieces"
+      },
+      "certifications": [],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": {
+            "en": "Suction Power: 3500PA",
+            "zh": "吸力: 3500PA"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Maximum Runtime: 91-120 min",
+            "zh": "最长续航: 91-120 min"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Motor Type: Brushless Motor",
+            "zh": "电机类型: Brushless Motor"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Battery Type: Li-Ion Battery",
+            "zh": "电池类型: Li-Ion Battery"
+          }
+        }
+      ],
+      "specs": [
+        {
+          "label": {
+            "en": "Product name",
+            "zh": "Product name"
+          },
+          "value": "Smart Vacuum Cleaner"
+        },
+        {
+          "label": {
+            "en": "Keywords",
+            "zh": "Keywords"
+          },
+          "value": "Robot Vacuum Cleaner Mopping Sweeping"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Automatic Cleaning"
+        },
+        {
+          "label": {
+            "en": "Type",
+            "zh": "类型"
+          },
+          "value": "Remote+Button Control+Wifi APP"
+        },
+        {
+          "label": {
+            "en": "Certification",
+            "zh": "认证"
+          },
+          "value": "CE RoHS"
+        },
+        {
+          "label": {
+            "en": "Cleaning modes",
+            "zh": "Cleaning modes"
+          },
+          "value": "Multiple Modes"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Dry"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Mopping"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Sweeping"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Wet And Dry"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Sweeping And Mopping"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Wet"
+        },
+        {
+          "label": {
+            "en": "maximum runtime",
+            "zh": "maximum runtime"
+          },
+          "value": "91-120 min"
+        },
+        {
+          "label": {
+            "en": "navigation mode",
+            "zh": "navigation mode"
+          },
+          "value": "Gyroscope"
+        },
+        {
+          "label": {
+            "en": "after-sales service provided",
+            "zh": "after-sales service provided"
+          },
+          "value": "Free Spare Parts"
+        },
+        {
+          "label": {
+            "en": "app-controlled",
+            "zh": "app-controlled"
+          },
+          "value": "Yes"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Car"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Household"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Hotel"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Garage"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Office"
+        },
+        {
+          "label": {
+            "en": "automatic dirt disposal",
+            "zh": "automatic dirt disposal"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "Battery Type",
+            "zh": "电池类型"
+          },
+          "value": "Li-Ion Battery"
+        },
+        {
+          "label": {
+            "en": "dust box capacity (l)",
+            "zh": "dust box capacity (l)"
+          },
+          "value": "> 2 L"
+        },
+        {
+          "label": {
+            "en": "feature",
+            "zh": "feature"
+          },
+          "value": "Automatic Cleaning"
+        },
+        {
+          "label": {
+            "en": "feature",
+            "zh": "feature"
+          },
+          "value": "Auto-Recharge"
+        },
+        {
+          "label": {
+            "en": "feature",
+            "zh": "feature"
+          },
+          "value": "Eco-Friendly"
+        },
+        {
+          "label": {
+            "en": "feature",
+            "zh": "feature"
+          },
+          "value": "Edge Cleaning"
+        },
+        {
+          "label": {
+            "en": "feature",
+            "zh": "feature"
+          },
+          "value": "Pet Hair Pick Up"
+        },
+        {
+          "label": {
+            "en": "feature",
+            "zh": "feature"
+          },
+          "value": "Scheduling"
+        },
+        {
+          "label": {
+            "en": "filter type",
+            "zh": "filter type"
+          },
+          "value": "HEPA"
+        },
+        {
+          "label": {
+            "en": "motor type",
+            "zh": "motor type"
+          },
+          "value": "Brushless Motor"
+        },
+        {
+          "label": {
+            "en": "operating language",
+            "zh": "operating language"
+          },
+          "value": "English"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Color Box"
+        },
+        {
+          "label": {
+            "en": "power source",
+            "zh": "power source"
+          },
+          "value": "Battery"
+        },
+        {
+          "label": {
+            "en": "private mold",
+            "zh": "private mold"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "warranty",
+            "zh": "warranty"
+          },
+          "value": "1 Year"
+        },
+        {
+          "label": {
+            "en": "place of origin",
+            "zh": "place of origin"
+          },
+          "value": "CN"
+        },
+        {
+          "label": {
+            "en": "suction power",
+            "zh": "suction power"
+          },
+          "value": "3500PA"
+        },
+        {
+          "label": {
+            "en": "Material",
+            "zh": "材质"
+          },
+          "value": "ABS"
+        }
+      ],
+      "packaging": {
+        "unit": "Color Box"
+      },
+      "customization": {},
+      "applications": {
+        "en": "",
+        "zh": ""
+      },
+      "price_indicator": null,
+      "quick_specs": [
+        {
+          "label": {
+            "en": "Suction Power",
+            "zh": "吸力"
+          },
+          "value": "3500PA"
+        },
+        {
+          "label": {
+            "en": "Maximum Runtime",
+            "zh": "最长续航"
+          },
+          "value": "91-120 min"
+        },
+        {
+          "label": {
+            "en": "Motor Type",
+            "zh": "电机类型"
+          },
+          "value": "Brushless Motor"
+        },
+        {
+          "label": {
+            "en": "Battery Type",
+            "zh": "电池类型"
+          },
+          "value": "Li-Ion Battery"
+        }
+      ],
+      "price_ladder": [],
+      "sku": "1601696484785",
+      "description": {
+        "en": "3500PA · 91-120 min · Brushless Motor. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "3500PA · 91-120 min · Brushless Motor。支持 OEM/ODM 定制，规格取自供应商商品资料。"
       },
       "supplier_rating": "4.8",
       "response_time": "≤ 2h",
@@ -294,90 +755,2329 @@
         "note": "Sample available, lead 7-14 days"
       },
       "category_name": {
-        "en": "Robot Vacuum Cleaner",
-        "zh": "智能扫地机器人",
-        "ar": "روبوت تنظيف الارضيات",
-        "es": "Robot Aspirador",
-        "fr": "Robot Aspirateur",
-        "id": "Robot Pembersih Vakum",
-        "ru": "Робот-пылесос",
-        "th": "หุ่นยนต์ดูดฝุ่น",
-        "vi": "Robot hut bui thong minh"
+        "en": "Robot Vacuum Cleaners",
+        "zh": "扫地机器人"
       },
-      "_schema_reviews": [
+      "_source": {
+        "platform": "alibaba.com",
+        "productId": "1601696484785"
+      },
+      "_cat": "robot-vacuum"
+    },
+    {
+      "id": "d2-004",
+      "name": {
+        "en": "New Arrival Smart Robot Vacuum Cleaner with Wet & Dry Mopping and Car Use 1000-1499 Pa Suction Power",
+        "zh": "新款干湿两用扫拖机器人"
+      },
+      "tagline": {
+        "en": "1000–1499 Pa · 15W · 91-120 min",
+        "zh": "1000–1499 Pa · 15W · 91-120 min"
+      },
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-d2-004/01.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-d2-004/02.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-d2-004/03.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-d2-004/04.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-d2-004/05.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-d2-004/06.webp"
+      ],
+      "video_url": null,
+      "moq": {
+        "value": 1,
+        "unit": "pieces"
+      },
+      "certifications": [],
+      "highlights": [
         {
-          "@type": "Review",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "Thomas Mueller",
-            "address": {
-              "@type": "PostalAddress",
-              "addressLocality": "Munich, Germany"
-            }
-          },
-          "datePublished": "2025-12-03",
-          "reviewBody": "We have a large open-plan living area with some rugs and furniture. The LDS mapping is surprisingly accurate and it navigates around chair legs without bumping. The app control is intuitive. Here are some screenshots of the cleaning route and the dust compartment after one week.",
-          "name": "LDS laser navigation works flawlessly — mapped our 3BR house in 8 minutes",
-          "image": [
-            "https://www.hkdmj.net/assets/images/products/robot-vacuum/rv-1.jpg",
-            "https://www.hkdmj.net/assets/images/products/robot-vacuum/rv-2.jpg"
-          ]
+          "icon": "check",
+          "text": {
+            "en": "Suction Power: 1000–1499 Pa",
+            "zh": "吸力: 1000–1499 Pa"
+          }
         },
         {
-          "@type": "Review",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "Linda Park",
-            "address": {
-              "@type": "PostalAddress",
-              "addressLocality": "Seoul, South Korea"
-            }
-          },
-          "datePublished": "2025-10-17",
-          "reviewBody": "We have two cats and this robot handles the fur better than expected. It runs at about 55dB which is quiet enough to have on while watching TV. The auto-recharge and resume feature is essential for our 150m² apartment.",
-          "name": "Quiet enough to run at night, strong enough for pet hair",
-          "image": [
-            "https://www.hkdmj.net/assets/images/products/robot-vacuum/rv-3.jpg",
-            "https://www.hkdmj.net/assets/images/products/robot-vacuum/rv-4.jpg"
-          ]
+          "icon": "check",
+          "text": {
+            "en": "Power (W): 15W",
+            "zh": "功率(W): 15W"
+          }
         },
         {
-          "@type": "Review",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "4",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "Carlos Mendez",
-            "address": {
-              "@type": "PostalAddress",
-              "addressLocality": "Mexico City, Mexico"
-            }
-          },
-          "datePublished": "2025-08-28",
-          "reviewBody": "We are a home appliance distributor in Latin America. The OEM customization service was excellent — they printed our brand logo and designed custom retail packaging. The robot vacuum itself is reliable and our customers rate it 4.5/5 on average.",
-          "name": "Good OEM base — we customized the logo and packaging for our brand",
-          "image": [
-            "https://www.hkdmj.net/assets/images/products/robot-vacuum/rv-5.jpg",
-            "https://www.hkdmj.net/assets/images/products/robot-vacuum/rv-6.jpg"
-          ]
+          "icon": "check",
+          "text": {
+            "en": "Maximum Runtime: 91-120 min",
+            "zh": "最长续航: 91-120 min"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Motor Type: Brushless Motor",
+            "zh": "电机类型: Brushless Motor"
+          }
         }
-      ]
+      ],
+      "specs": [
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Automatic Cleaning"
+        },
+        {
+          "label": {
+            "en": "Product name",
+            "zh": "Product name"
+          },
+          "value": "Smart Vacuum Cleaner"
+        },
+        {
+          "label": {
+            "en": "Keywords",
+            "zh": "Keywords"
+          },
+          "value": "Robot Vacuum Cleaner Mopping Sweeping"
+        },
+        {
+          "label": {
+            "en": "Type",
+            "zh": "类型"
+          },
+          "value": "Home Cleaning Appliance"
+        },
+        {
+          "label": {
+            "en": "Cleaning modes",
+            "zh": "Cleaning modes"
+          },
+          "value": "Multiple Modes"
+        },
+        {
+          "label": {
+            "en": "Usage",
+            "zh": "Usage"
+          },
+          "value": "Household Appliance"
+        },
+        {
+          "label": {
+            "en": "Style",
+            "zh": "Style"
+          },
+          "value": "Morden"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Dry"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Mopping"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Sweeping"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Sweeping And Mopping"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Wet"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Wet And Dry"
+        },
+        {
+          "label": {
+            "en": "maximum runtime",
+            "zh": "maximum runtime"
+          },
+          "value": "91-120 min"
+        },
+        {
+          "label": {
+            "en": "navigation mode",
+            "zh": "navigation mode"
+          },
+          "value": "Infrared"
+        },
+        {
+          "label": {
+            "en": "suction power",
+            "zh": "suction power"
+          },
+          "value": "1000–1499 Pa"
+        },
+        {
+          "label": {
+            "en": "after-sales service provided",
+            "zh": "after-sales service provided"
+          },
+          "value": "Free Spare Parts"
+        },
+        {
+          "label": {
+            "en": "app-controlled",
+            "zh": "app-controlled"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Car"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Hotel"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Garage"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Household"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Office"
+        },
+        {
+          "label": {
+            "en": "automatic dirt disposal",
+            "zh": "automatic dirt disposal"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "Battery Type",
+            "zh": "电池类型"
+          },
+          "value": "Li-Ion Battery"
+        },
+        {
+          "label": {
+            "en": "dust box capacity (l)",
+            "zh": "dust box capacity (l)"
+          },
+          "value": "< 0.5 L"
+        },
+        {
+          "label": {
+            "en": "feature",
+            "zh": "feature"
+          },
+          "value": "Auto-Recharge"
+        },
+        {
+          "label": {
+            "en": "feature",
+            "zh": "feature"
+          },
+          "value": "Eco-Friendly"
+        },
+        {
+          "label": {
+            "en": "feature",
+            "zh": "feature"
+          },
+          "value": "Automatic Cleaning"
+        },
+        {
+          "label": {
+            "en": "filter type",
+            "zh": "filter type"
+          },
+          "value": "HEPA"
+        },
+        {
+          "label": {
+            "en": "Material",
+            "zh": "材质"
+          },
+          "value": "Plastic"
+        },
+        {
+          "label": {
+            "en": "motor type",
+            "zh": "motor type"
+          },
+          "value": "Brushless Motor"
+        },
+        {
+          "label": {
+            "en": "operating language",
+            "zh": "operating language"
+          },
+          "value": "English"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Color Box"
+        },
+        {
+          "label": {
+            "en": "power source",
+            "zh": "power source"
+          },
+          "value": "Battery"
+        },
+        {
+          "label": {
+            "en": "private mold",
+            "zh": "private mold"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "warranty",
+            "zh": "warranty"
+          },
+          "value": "1 Year"
+        },
+        {
+          "label": {
+            "en": "place of origin",
+            "zh": "place of origin"
+          },
+          "value": "CN"
+        },
+        {
+          "label": {
+            "en": "power (w)",
+            "zh": "power (w)"
+          },
+          "value": "15W"
+        },
+        {
+          "label": {
+            "en": "model number",
+            "zh": "model number"
+          },
+          "value": "D2-004"
+        }
+      ],
+      "packaging": {
+        "unit": "Color Box"
+      },
+      "customization": {},
+      "applications": {
+        "en": "",
+        "zh": ""
+      },
+      "price_indicator": null,
+      "quick_specs": [
+        {
+          "label": {
+            "en": "Suction Power",
+            "zh": "吸力"
+          },
+          "value": "1000–1499 Pa"
+        },
+        {
+          "label": {
+            "en": "Power (W)",
+            "zh": "功率(W)"
+          },
+          "value": "15W"
+        },
+        {
+          "label": {
+            "en": "Maximum Runtime",
+            "zh": "最长续航"
+          },
+          "value": "91-120 min"
+        },
+        {
+          "label": {
+            "en": "Motor Type",
+            "zh": "电机类型"
+          },
+          "value": "Brushless Motor"
+        }
+      ],
+      "price_ladder": [],
+      "sku": "1601696650572",
+      "description": {
+        "en": "1000–1499 Pa · 15W · 91-120 min. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "1000–1499 Pa · 15W · 91-120 min。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+      },
+      "supplier_rating": "4.8",
+      "response_time": "≤ 2h",
+      "transactions": "US $100K+",
+      "years": "10+",
+      "ship_from": {
+        "en": "Ningbo, China",
+        "zh": "中国宁波"
+      },
+      "sample": {
+        "enabled": true,
+        "qty": 5,
+        "note": "Sample available, lead 7-14 days"
+      },
+      "category_name": {
+        "en": "Robot Vacuum Cleaners",
+        "zh": "扫地机器人"
+      },
+      "_source": {
+        "platform": "alibaba.com",
+        "productId": "1601696650572"
+      },
+      "_cat": "robot-vacuum"
+    },
+    {
+      "id": "v9",
+      "name": {
+        "en": "Best Intelligent Robotic Vacuum Cleaner Auto Dirt Detect Efficient Home Cleaning 65℃ Hot Water Mop Washing 55℃ Drying Odor-Free",
+        "zh": "智能扫地机器人（自动脏污识别）"
+      },
+      "tagline": {
+        "en": "20000Pa · 60 W · 150-180mins",
+        "zh": "20000Pa · 60 W · 150-180mins"
+      },
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9/01.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9/02.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9/03.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9/04.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9/05.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9/06.webp"
+      ],
+      "video_url": null,
+      "moq": {
+        "value": 1,
+        "unit": "pieces"
+      },
+      "certifications": [],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": {
+            "en": "Suction Power: 20000Pa",
+            "zh": "吸力: 20000Pa"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Power (W): 60 W",
+            "zh": "功率(W): 60 W"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Runtime: 150-180mins",
+            "zh": "续航时间: 150-180mins"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Maximum Runtime: 150-180 min",
+            "zh": "最长续航: 150-180 min"
+          }
+        }
+      ],
+      "specs": [
+        {
+          "label": {
+            "en": "Navigation",
+            "zh": "导航方式"
+          },
+          "value": "LDS+SLAM"
+        },
+        {
+          "label": {
+            "en": "Runtime",
+            "zh": "续航时间"
+          },
+          "value": "150-180mins"
+        },
+        {
+          "label": {
+            "en": "Dustbin Capacity",
+            "zh": "Dustbin Capacity"
+          },
+          "value": "800ml"
+        },
+        {
+          "label": {
+            "en": "Dust Collection Bag Capacity",
+            "zh": "Dust Collection Bag Capacity"
+          },
+          "value": "1L"
+        },
+        {
+          "label": {
+            "en": "Waste Water Tank Capacity",
+            "zh": "Waste Water Tank Capacity"
+          },
+          "value": "4L"
+        },
+        {
+          "label": {
+            "en": "Clean Water Tank Capacity",
+            "zh": "Clean Water Tank Capacity"
+          },
+          "value": "4L"
+        },
+        {
+          "label": {
+            "en": "Battery capacity",
+            "zh": "Battery capacity"
+          },
+          "value": "5200mAh"
+        },
+        {
+          "label": {
+            "en": "Charging Time",
+            "zh": "充电时间"
+          },
+          "value": "5-6hours"
+        },
+        {
+          "label": {
+            "en": "Suction Power",
+            "zh": "吸力"
+          },
+          "value": "20000Pa"
+        },
+        {
+          "label": {
+            "en": "Feature 1",
+            "zh": "Feature 1"
+          },
+          "value": "Auto mop cleaning and drying"
+        },
+        {
+          "label": {
+            "en": "Feature 2",
+            "zh": "Feature 2"
+          },
+          "value": "Auto Mop Lifting"
+        },
+        {
+          "label": {
+            "en": "Feature 3",
+            "zh": "Feature 3"
+          },
+          "value": "Auto Water Refilln"
+        },
+        {
+          "label": {
+            "en": "Feature 4",
+            "zh": "Feature 4"
+          },
+          "value": "Smart Mapping"
+        },
+        {
+          "label": {
+            "en": "Feature 5",
+            "zh": "Feature 5"
+          },
+          "value": "No-Go Zones & Virtual Walls"
+        },
+        {
+          "label": {
+            "en": "Feature 6",
+            "zh": "Feature 6"
+          },
+          "value": "Auto Recharge"
+        },
+        {
+          "label": {
+            "en": "Feature 7",
+            "zh": "Feature 7"
+          },
+          "value": "Resume Cleaning"
+        },
+        {
+          "label": {
+            "en": "Feature 8",
+            "zh": "Feature 8"
+          },
+          "value": "App Control(Tuya)"
+        },
+        {
+          "label": {
+            "en": "Feature 9",
+            "zh": "Feature 9"
+          },
+          "value": "Voice control(Alexa / Google Assistant)"
+        },
+        {
+          "label": {
+            "en": "Feature 10",
+            "zh": "Feature 10"
+          },
+          "value": "Tangle-Free Side Brush Design"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Dry"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Mopping"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Sweeping"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Sweeping And Mopping"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Wet"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Wet And Dry"
+        },
+        {
+          "label": {
+            "en": "maximum runtime",
+            "zh": "maximum runtime"
+          },
+          "value": "150-180 min"
+        },
+        {
+          "label": {
+            "en": "navigation mode",
+            "zh": "navigation mode"
+          },
+          "value": "LDS Slam+Vslam"
+        },
+        {
+          "label": {
+            "en": "suction power",
+            "zh": "suction power"
+          },
+          "value": "> 2499 Pa"
+        },
+        {
+          "label": {
+            "en": "after-sales service provided",
+            "zh": "after-sales service provided"
+          },
+          "value": "Return and Replacement"
+        },
+        {
+          "label": {
+            "en": "app-controlled",
+            "zh": "app-controlled"
+          },
+          "value": "Yes"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Hotel"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Household"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Office"
+        },
+        {
+          "label": {
+            "en": "automatic dirt disposal",
+            "zh": "automatic dirt disposal"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "Battery Type",
+            "zh": "电池类型"
+          },
+          "value": "Li-Ion Battery"
+        },
+        {
+          "label": {
+            "en": "dust box capacity (l)",
+            "zh": "dust box capacity (l)"
+          },
+          "value": "0.6-1 L"
+        },
+        {
+          "label": {
+            "en": "feature",
+            "zh": "feature"
+          },
+          "value": "Automatic Cleaning"
+        },
+        {
+          "label": {
+            "en": "feature",
+            "zh": "feature"
+          },
+          "value": "Auto-Recharge"
+        },
+        {
+          "label": {
+            "en": "feature",
+            "zh": "feature"
+          },
+          "value": "Eco-Friendly"
+        },
+        {
+          "label": {
+            "en": "feature",
+            "zh": "feature"
+          },
+          "value": "Edge Cleaning"
+        }
+      ],
+      "packaging": {
+        "unit": "Color Box"
+      },
+      "customization": {},
+      "applications": {
+        "en": "",
+        "zh": ""
+      },
+      "price_indicator": null,
+      "quick_specs": [
+        {
+          "label": {
+            "en": "Suction Power",
+            "zh": "吸力"
+          },
+          "value": "20000Pa"
+        },
+        {
+          "label": {
+            "en": "Power (W)",
+            "zh": "功率(W)"
+          },
+          "value": "60 W"
+        },
+        {
+          "label": {
+            "en": "Runtime",
+            "zh": "续航时间"
+          },
+          "value": "150-180mins"
+        },
+        {
+          "label": {
+            "en": "Maximum Runtime",
+            "zh": "最长续航"
+          },
+          "value": "150-180 min"
+        }
+      ],
+      "price_ladder": [],
+      "sku": "1601715304265",
+      "description": {
+        "en": "20000Pa · 60 W · 150-180mins. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "20000Pa · 60 W · 150-180mins。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+      },
+      "supplier_rating": "4.8",
+      "response_time": "≤ 2h",
+      "transactions": "US $100K+",
+      "years": "10+",
+      "ship_from": {
+        "en": "Ningbo, China",
+        "zh": "中国宁波"
+      },
+      "sample": {
+        "enabled": true,
+        "qty": 5,
+        "note": "Sample available, lead 7-14 days"
+      },
+      "category_name": {
+        "en": "Robot Vacuum Cleaners",
+        "zh": "扫地机器人"
+      },
+      "_source": {
+        "platform": "alibaba.com",
+        "productId": "1601715304265"
+      },
+      "_cat": "robot-vacuum"
+    },
+    {
+      "id": "pt20c800",
+      "name": {
+        "en": "18000Pa Smart Robot Vacuum Cleaner with Cleaning Station Automatic Floor Cleaning Robot OEM ODM Wholesale Supplier",
+        "zh": "18000Pa 带清洗基站智能扫地机器人"
+      },
+      "tagline": {
+        "en": "18000Pa · 40W · 91-120 min",
+        "zh": "18000Pa · 40W · 91-120 min"
+      },
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-pt20c800/01.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-pt20c800/02.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-pt20c800/03.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-pt20c800/04.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-pt20c800/05.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-pt20c800/06.webp"
+      ],
+      "video_url": null,
+      "moq": {
+        "value": 1,
+        "unit": "pieces"
+      },
+      "certifications": [],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": {
+            "en": "Suction Power: 18000Pa",
+            "zh": "吸力: 18000Pa"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Power (W): 40W",
+            "zh": "功率(W): 40W"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Maximum Runtime: 91-120 min",
+            "zh": "最长续航: 91-120 min"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Motor Type: Brushless Motor",
+            "zh": "电机类型: Brushless Motor"
+          }
+        }
+      ],
+      "specs": [
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Automatic Cleaning"
+        },
+        {
+          "label": {
+            "en": "Product name",
+            "zh": "Product name"
+          },
+          "value": "Smart Vacuum Cleaner"
+        },
+        {
+          "label": {
+            "en": "Keywords",
+            "zh": "Keywords"
+          },
+          "value": "Robot Vacuum Cleaner Mopping Sweeping"
+        },
+        {
+          "label": {
+            "en": "Type",
+            "zh": "类型"
+          },
+          "value": "wet and dry car vacuum cleaner"
+        },
+        {
+          "label": {
+            "en": "Usage",
+            "zh": "Usage"
+          },
+          "value": "Household Appliance"
+        },
+        {
+          "label": {
+            "en": "Cleaning modes",
+            "zh": "Cleaning modes"
+          },
+          "value": "Multiple Modes"
+        },
+        {
+          "label": {
+            "en": "Style",
+            "zh": "Style"
+          },
+          "value": "Morden"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Mopping"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Dry"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Sweeping"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Sweeping And Mopping"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Wet"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Wet And Dry"
+        },
+        {
+          "label": {
+            "en": "maximum runtime",
+            "zh": "maximum runtime"
+          },
+          "value": "91-120 min"
+        },
+        {
+          "label": {
+            "en": "navigation mode",
+            "zh": "navigation mode"
+          },
+          "value": "LDS Slam"
+        },
+        {
+          "label": {
+            "en": "after-sales service provided",
+            "zh": "after-sales service provided"
+          },
+          "value": "Free Spare Parts"
+        },
+        {
+          "label": {
+            "en": "app-controlled",
+            "zh": "app-controlled"
+          },
+          "value": "Yes"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Hotel"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Garage"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Car"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Office"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Household"
+        },
+        {
+          "label": {
+            "en": "automatic dirt disposal",
+            "zh": "automatic dirt disposal"
+          },
+          "value": "Yes"
+        },
+        {
+          "label": {
+            "en": "Battery Type",
+            "zh": "电池类型"
+          },
+          "value": "Li-Ion Battery"
+        },
+        {
+          "label": {
+            "en": "dust box capacity (l)",
+            "zh": "dust box capacity (l)"
+          },
+          "value": "> 2 L"
+        },
+        {
+          "label": {
+            "en": "feature",
+            "zh": "feature"
+          },
+          "value": "Edge Cleaning"
+        },
+        {
+          "label": {
+            "en": "feature",
+            "zh": "feature"
+          },
+          "value": "Eco-Friendly"
+        },
+        {
+          "label": {
+            "en": "filter type",
+            "zh": "filter type"
+          },
+          "value": "HEPA"
+        },
+        {
+          "label": {
+            "en": "motor type",
+            "zh": "motor type"
+          },
+          "value": "Brushless Motor"
+        },
+        {
+          "label": {
+            "en": "operating language",
+            "zh": "operating language"
+          },
+          "value": "English"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Color Box"
+        },
+        {
+          "label": {
+            "en": "power source",
+            "zh": "power source"
+          },
+          "value": "Battery"
+        },
+        {
+          "label": {
+            "en": "private mold",
+            "zh": "private mold"
+          },
+          "value": "Yes"
+        },
+        {
+          "label": {
+            "en": "warranty",
+            "zh": "warranty"
+          },
+          "value": "1 Year"
+        },
+        {
+          "label": {
+            "en": "place of origin",
+            "zh": "place of origin"
+          },
+          "value": "CN"
+        },
+        {
+          "label": {
+            "en": "suction power",
+            "zh": "suction power"
+          },
+          "value": "18000Pa"
+        },
+        {
+          "label": {
+            "en": "Material",
+            "zh": "材质"
+          },
+          "value": "ABS"
+        },
+        {
+          "label": {
+            "en": "power (w)",
+            "zh": "power (w)"
+          },
+          "value": "40W"
+        },
+        {
+          "label": {
+            "en": "model number",
+            "zh": "model number"
+          },
+          "value": "PT20C800"
+        }
+      ],
+      "packaging": {
+        "unit": "Color Box"
+      },
+      "customization": {},
+      "applications": {
+        "en": "",
+        "zh": ""
+      },
+      "price_indicator": null,
+      "quick_specs": [
+        {
+          "label": {
+            "en": "Suction Power",
+            "zh": "吸力"
+          },
+          "value": "18000Pa"
+        },
+        {
+          "label": {
+            "en": "Power (W)",
+            "zh": "功率(W)"
+          },
+          "value": "40W"
+        },
+        {
+          "label": {
+            "en": "Maximum Runtime",
+            "zh": "最长续航"
+          },
+          "value": "91-120 min"
+        },
+        {
+          "label": {
+            "en": "Motor Type",
+            "zh": "电机类型"
+          },
+          "value": "Brushless Motor"
+        }
+      ],
+      "price_ladder": [],
+      "sku": "1601744101720",
+      "description": {
+        "en": "18000Pa · 40W · 91-120 min. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "18000Pa · 40W · 91-120 min。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+      },
+      "supplier_rating": "4.8",
+      "response_time": "≤ 2h",
+      "transactions": "US $100K+",
+      "years": "10+",
+      "ship_from": {
+        "en": "Ningbo, China",
+        "zh": "中国宁波"
+      },
+      "sample": {
+        "enabled": true,
+        "qty": 5,
+        "note": "Sample available, lead 7-14 days"
+      },
+      "category_name": {
+        "en": "Robot Vacuum Cleaners",
+        "zh": "扫地机器人"
+      },
+      "_source": {
+        "platform": "alibaba.com",
+        "productId": "1601744101720"
+      },
+      "_cat": "robot-vacuum"
+    },
+    {
+      "id": "pt40c800",
+      "name": {
+        "en": "Robot Vacuum Cleaner and Mop Combo Smart Robotic Vacuum with Self Emptying Station Auto Cleaning LDS Navigation App Control",
+        "zh": "扫拖一体自动集尘扫地机器人"
+      },
+      "tagline": {
+        "en": "18000pa · 40W · 91-120 min",
+        "zh": "18000pa · 40W · 91-120 min"
+      },
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-pt40c800/01.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-pt40c800/02.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-pt40c800/03.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-pt40c800/04.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-pt40c800/05.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-pt40c800/06.webp"
+      ],
+      "video_url": null,
+      "moq": {
+        "value": 1,
+        "unit": "pieces"
+      },
+      "certifications": [],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": {
+            "en": "Suction Power: 18000pa",
+            "zh": "吸力: 18000pa"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Power (W): 40W",
+            "zh": "功率(W): 40W"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Maximum Runtime: 91-120 min",
+            "zh": "最长续航: 91-120 min"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Motor Type: Brushless Motor",
+            "zh": "电机类型: Brushless Motor"
+          }
+        }
+      ],
+      "specs": [
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Automatic Cleaning"
+        },
+        {
+          "label": {
+            "en": "Product name",
+            "zh": "Product name"
+          },
+          "value": "Smart Vacuum Cleaner"
+        },
+        {
+          "label": {
+            "en": "Keywords",
+            "zh": "Keywords"
+          },
+          "value": "Robot Vacuum Cleaner Mopping Sweeping"
+        },
+        {
+          "label": {
+            "en": "Type",
+            "zh": "类型"
+          },
+          "value": "wet and dry car vacuum cleaner"
+        },
+        {
+          "label": {
+            "en": "Usage",
+            "zh": "Usage"
+          },
+          "value": "Household Appliance"
+        },
+        {
+          "label": {
+            "en": "Cleaning modes",
+            "zh": "Cleaning modes"
+          },
+          "value": "Multiple Modes"
+        },
+        {
+          "label": {
+            "en": "Style",
+            "zh": "Style"
+          },
+          "value": "Morden"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Mopping"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Dry"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Sweeping"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Sweeping And Mopping"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Wet"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Wet And Dry"
+        },
+        {
+          "label": {
+            "en": "maximum runtime",
+            "zh": "maximum runtime"
+          },
+          "value": "91-120 min"
+        },
+        {
+          "label": {
+            "en": "navigation mode",
+            "zh": "navigation mode"
+          },
+          "value": "LDS Slam+Vslam"
+        },
+        {
+          "label": {
+            "en": "after-sales service provided",
+            "zh": "after-sales service provided"
+          },
+          "value": "Free Spare Parts"
+        },
+        {
+          "label": {
+            "en": "app-controlled",
+            "zh": "app-controlled"
+          },
+          "value": "Yes"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Hotel"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Garage"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Car"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Office"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Household"
+        },
+        {
+          "label": {
+            "en": "automatic dirt disposal",
+            "zh": "automatic dirt disposal"
+          },
+          "value": "Yes"
+        },
+        {
+          "label": {
+            "en": "Battery Type",
+            "zh": "电池类型"
+          },
+          "value": "Li-Ion Battery"
+        },
+        {
+          "label": {
+            "en": "feature",
+            "zh": "feature"
+          },
+          "value": "Edge Cleaning"
+        },
+        {
+          "label": {
+            "en": "feature",
+            "zh": "feature"
+          },
+          "value": "Eco-Friendly"
+        },
+        {
+          "label": {
+            "en": "motor type",
+            "zh": "motor type"
+          },
+          "value": "Brushless Motor"
+        },
+        {
+          "label": {
+            "en": "operating language",
+            "zh": "operating language"
+          },
+          "value": "English"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Color Box"
+        },
+        {
+          "label": {
+            "en": "power source",
+            "zh": "power source"
+          },
+          "value": "Battery"
+        },
+        {
+          "label": {
+            "en": "private mold",
+            "zh": "private mold"
+          },
+          "value": "Yes"
+        },
+        {
+          "label": {
+            "en": "warranty",
+            "zh": "warranty"
+          },
+          "value": "1 Year"
+        },
+        {
+          "label": {
+            "en": "place of origin",
+            "zh": "place of origin"
+          },
+          "value": "CN"
+        },
+        {
+          "label": {
+            "en": "suction power",
+            "zh": "suction power"
+          },
+          "value": "18000pa"
+        },
+        {
+          "label": {
+            "en": "dust box capacity (l)",
+            "zh": "dust box capacity (l)"
+          },
+          "value": "2 L"
+        },
+        {
+          "label": {
+            "en": "Material",
+            "zh": "材质"
+          },
+          "value": "ABS"
+        },
+        {
+          "label": {
+            "en": "power (w)",
+            "zh": "power (w)"
+          },
+          "value": "40W"
+        },
+        {
+          "label": {
+            "en": "model number",
+            "zh": "model number"
+          },
+          "value": "PT40C800"
+        }
+      ],
+      "packaging": {
+        "unit": "Color Box"
+      },
+      "customization": {},
+      "applications": {
+        "en": "",
+        "zh": ""
+      },
+      "price_indicator": null,
+      "quick_specs": [
+        {
+          "label": {
+            "en": "Suction Power",
+            "zh": "吸力"
+          },
+          "value": "18000pa"
+        },
+        {
+          "label": {
+            "en": "Power (W)",
+            "zh": "功率(W)"
+          },
+          "value": "40W"
+        },
+        {
+          "label": {
+            "en": "Maximum Runtime",
+            "zh": "最长续航"
+          },
+          "value": "91-120 min"
+        },
+        {
+          "label": {
+            "en": "Motor Type",
+            "zh": "电机类型"
+          },
+          "value": "Brushless Motor"
+        }
+      ],
+      "price_ladder": [],
+      "sku": "1601744170441",
+      "description": {
+        "en": "18000pa · 40W · 91-120 min. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "18000pa · 40W · 91-120 min。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+      },
+      "supplier_rating": "4.8",
+      "response_time": "≤ 2h",
+      "transactions": "US $100K+",
+      "years": "10+",
+      "ship_from": {
+        "en": "Ningbo, China",
+        "zh": "中国宁波"
+      },
+      "sample": {
+        "enabled": true,
+        "qty": 5,
+        "note": "Sample available, lead 7-14 days"
+      },
+      "category_name": {
+        "en": "Robot Vacuum Cleaners",
+        "zh": "扫地机器人"
+      },
+      "_source": {
+        "platform": "alibaba.com",
+        "productId": "1601744170441"
+      },
+      "_cat": "robot-vacuum"
+    },
+    {
+      "id": "x7-d",
+      "name": {
+        "en": "Robot Vacuum Cleaner X7-D LDS Navigation 18000Pa Auto Empty Dock Sweep&Mop Wet & Dry Household & Car Smart App Control",
+        "zh": "X7-D 扫地机器人（LDS 导航 / 18000Pa / 自动集尘）"
+      },
+      "tagline": {
+        "en": "18000 Pa · 80 W · 121-150 min",
+        "zh": "18000 Pa · 80 W · 121-150 min"
+      },
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-x7-d/01.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-x7-d/02.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-x7-d/03.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-x7-d/04.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-x7-d/05.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-x7-d/06.webp"
+      ],
+      "video_url": null,
+      "moq": {
+        "value": 1,
+        "unit": "pieces"
+      },
+      "certifications": [],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": {
+            "en": "Suction Power: 18000 Pa",
+            "zh": "吸力: 18000 Pa"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Power (W): 80 W",
+            "zh": "功率(W): 80 W"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Maximum Runtime: 121-150 min",
+            "zh": "最长续航: 121-150 min"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Motor Type: Brushless Motor",
+            "zh": "电机类型: Brushless Motor"
+          }
+        }
+      ],
+      "specs": [
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Dry"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Mopping"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Sweeping"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Sweeping And Mopping"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Wet"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Wet And Dry"
+        },
+        {
+          "label": {
+            "en": "maximum runtime",
+            "zh": "maximum runtime"
+          },
+          "value": "121-150 min"
+        },
+        {
+          "label": {
+            "en": "navigation mode",
+            "zh": "navigation mode"
+          },
+          "value": "LDS Slam"
+        },
+        {
+          "label": {
+            "en": "app-controlled",
+            "zh": "app-controlled"
+          },
+          "value": "Yes"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Car"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Commercial"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Garage"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Hotel"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Household"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Office"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Outdoor"
+        },
+        {
+          "label": {
+            "en": "automatic dirt disposal",
+            "zh": "automatic dirt disposal"
+          },
+          "value": "Yes"
+        },
+        {
+          "label": {
+            "en": "Battery Type",
+            "zh": "电池类型"
+          },
+          "value": "Li-Ion Battery"
+        },
+        {
+          "label": {
+            "en": "feature",
+            "zh": "feature"
+          },
+          "value": "Auto-Recharge"
+        },
+        {
+          "label": {
+            "en": "feature",
+            "zh": "feature"
+          },
+          "value": "Automatic Cleaning"
+        },
+        {
+          "label": {
+            "en": "feature",
+            "zh": "feature"
+          },
+          "value": "Eco-Friendly"
+        },
+        {
+          "label": {
+            "en": "feature",
+            "zh": "feature"
+          },
+          "value": "Edge Cleaning"
+        },
+        {
+          "label": {
+            "en": "feature",
+            "zh": "feature"
+          },
+          "value": "Pet Hair Pick Up"
+        },
+        {
+          "label": {
+            "en": "feature",
+            "zh": "feature"
+          },
+          "value": "Room-By-Room Navigation"
+        },
+        {
+          "label": {
+            "en": "feature",
+            "zh": "feature"
+          },
+          "value": "Scheduling"
+        },
+        {
+          "label": {
+            "en": "feature",
+            "zh": "feature"
+          },
+          "value": "Sonic Mopping"
+        },
+        {
+          "label": {
+            "en": "feature",
+            "zh": "feature"
+          },
+          "value": "Washable Filter"
+        },
+        {
+          "label": {
+            "en": "filter type",
+            "zh": "filter type"
+          },
+          "value": "HEPA"
+        },
+        {
+          "label": {
+            "en": "Material",
+            "zh": "材质"
+          },
+          "value": "Plastic"
+        },
+        {
+          "label": {
+            "en": "motor type",
+            "zh": "motor type"
+          },
+          "value": "Brushless Motor"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Color Box"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Corrugated Box"
+        },
+        {
+          "label": {
+            "en": "power (w)",
+            "zh": "power (w)"
+          },
+          "value": "80 W"
+        },
+        {
+          "label": {
+            "en": "power source",
+            "zh": "power source"
+          },
+          "value": "Battery"
+        },
+        {
+          "label": {
+            "en": "private mold",
+            "zh": "private mold"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "warranty",
+            "zh": "warranty"
+          },
+          "value": "1 Year"
+        },
+        {
+          "label": {
+            "en": "place of origin",
+            "zh": "place of origin"
+          },
+          "value": "CN"
+        },
+        {
+          "label": {
+            "en": "suction power",
+            "zh": "suction power"
+          },
+          "value": "18000 Pa"
+        },
+        {
+          "label": {
+            "en": "dust box capacity (l)",
+            "zh": "dust box capacity (l)"
+          },
+          "value": "3.5L"
+        },
+        {
+          "label": {
+            "en": "model number",
+            "zh": "model number"
+          },
+          "value": "X7-D"
+        }
+      ],
+      "packaging": {
+        "unit": "Corrugated Box"
+      },
+      "customization": {},
+      "applications": {
+        "en": "",
+        "zh": ""
+      },
+      "price_indicator": null,
+      "quick_specs": [
+        {
+          "label": {
+            "en": "Suction Power",
+            "zh": "吸力"
+          },
+          "value": "18000 Pa"
+        },
+        {
+          "label": {
+            "en": "Power (W)",
+            "zh": "功率(W)"
+          },
+          "value": "80 W"
+        },
+        {
+          "label": {
+            "en": "Maximum Runtime",
+            "zh": "最长续航"
+          },
+          "value": "121-150 min"
+        },
+        {
+          "label": {
+            "en": "Motor Type",
+            "zh": "电机类型"
+          },
+          "value": "Brushless Motor"
+        }
+      ],
+      "price_ladder": [],
+      "sku": "1601832190781",
+      "description": {
+        "en": "18000 Pa · 80 W · 121-150 min. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "18000 Pa · 80 W · 121-150 min。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+      },
+      "supplier_rating": "4.8",
+      "response_time": "≤ 2h",
+      "transactions": "US $100K+",
+      "years": "10+",
+      "ship_from": {
+        "en": "Ningbo, China",
+        "zh": "中国宁波"
+      },
+      "sample": {
+        "enabled": true,
+        "qty": 5,
+        "note": "Sample available, lead 7-14 days"
+      },
+      "category_name": {
+        "en": "Robot Vacuum Cleaners",
+        "zh": "扫地机器人"
+      },
+      "_source": {
+        "platform": "alibaba.com",
+        "productId": "1601832190781"
+      },
+      "_cat": "robot-vacuum"
+    },
+    {
+      "id": "t20-c800",
+      "name": {
+        "en": "18000Pa Robot Vacuum Cleaner with Self Empty Station LDS Navigation Tuya App 2L Dustbin 120Min Runtime OEM ODM Manufacturer",
+        "zh": "18000Pa 自动集尘扫地机器人（LDS 导航）"
+      },
+      "tagline": {
+        "en": "18000pa · 650W · 120 mins",
+        "zh": "18000pa · 650W · 120 mins"
+      },
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-t20-c800/01.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-t20-c800/02.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-t20-c800/03.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-t20-c800/04.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-t20-c800/05.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-t20-c800/06.webp"
+      ],
+      "video_url": null,
+      "moq": {
+        "value": 1,
+        "unit": "pieces"
+      },
+      "certifications": [],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": {
+            "en": "Suction Power: 18000pa",
+            "zh": "吸力: 18000pa"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Power (W): 650W",
+            "zh": "功率(W): 650W"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Runtime: 120 mins",
+            "zh": "续航时间: 120 mins"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Maximum Runtime: 121-150 min",
+            "zh": "最长续航: 121-150 min"
+          }
+        }
+      ],
+      "specs": [
+        {
+          "label": {
+            "en": "Peak Suction",
+            "zh": "Peak Suction"
+          },
+          "value": "18,000Pa"
+        },
+        {
+          "label": {
+            "en": "Navigation",
+            "zh": "导航方式"
+          },
+          "value": "LDS Navigation"
+        },
+        {
+          "label": {
+            "en": "Runtime",
+            "zh": "续航时间"
+          },
+          "value": "120 mins"
+        },
+        {
+          "label": {
+            "en": "Battery",
+            "zh": "Battery"
+          },
+          "value": "2600mAh"
+        },
+        {
+          "label": {
+            "en": "Functions",
+            "zh": "Functions"
+          },
+          "value": "Vacuuming / Mopping / Vacuum & Mop"
+        },
+        {
+          "label": {
+            "en": "App",
+            "zh": "App"
+          },
+          "value": "Tuya"
+        },
+        {
+          "label": {
+            "en": "maximum runtime",
+            "zh": "maximum runtime"
+          },
+          "value": "121-150 min"
+        },
+        {
+          "label": {
+            "en": "navigation mode",
+            "zh": "navigation mode"
+          },
+          "value": "LDS Slam"
+        },
+        {
+          "label": {
+            "en": "app-controlled",
+            "zh": "app-controlled"
+          },
+          "value": "Yes"
+        },
+        {
+          "label": {
+            "en": "automatic dirt disposal",
+            "zh": "automatic dirt disposal"
+          },
+          "value": "Yes"
+        },
+        {
+          "label": {
+            "en": "Battery Type",
+            "zh": "电池类型"
+          },
+          "value": "Li-Ion Battery"
+        },
+        {
+          "label": {
+            "en": "filter type",
+            "zh": "filter type"
+          },
+          "value": "HEPA"
+        },
+        {
+          "label": {
+            "en": "motor type",
+            "zh": "motor type"
+          },
+          "value": "Brushless Motor"
+        },
+        {
+          "label": {
+            "en": "operating language",
+            "zh": "operating language"
+          },
+          "value": "English"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Color Box"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Corrugated Box"
+        },
+        {
+          "label": {
+            "en": "place of origin",
+            "zh": "place of origin"
+          },
+          "value": "CN;GUA"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "stain cleaning"
+        },
+        {
+          "label": {
+            "en": "suction power",
+            "zh": "suction power"
+          },
+          "value": "18000pa"
+        },
+        {
+          "label": {
+            "en": "after-sales service provided",
+            "zh": "after-sales service provided"
+          },
+          "value": "1 year"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "carpets, upholstery, car seats, windows"
+        },
+        {
+          "label": {
+            "en": "dust box capacity (l)",
+            "zh": "dust box capacity (l)"
+          },
+          "value": "2 L"
+        },
+        {
+          "label": {
+            "en": "feature",
+            "zh": "feature"
+          },
+          "value": "Washes and Dries"
+        },
+        {
+          "label": {
+            "en": "Material",
+            "zh": "材质"
+          },
+          "value": "ABS"
+        },
+        {
+          "label": {
+            "en": "power (w)",
+            "zh": "power (w)"
+          },
+          "value": "650W"
+        },
+        {
+          "label": {
+            "en": "model number",
+            "zh": "model number"
+          },
+          "value": "T20-C800"
+        }
+      ],
+      "packaging": {
+        "unit": "Corrugated Box"
+      },
+      "customization": {},
+      "applications": {
+        "en": "",
+        "zh": ""
+      },
+      "price_indicator": {
+        "min": {
+          "currency": "USD",
+          "number": 125
+        },
+        "max": {
+          "currency": "USD",
+          "number": 125
+        },
+        "currency": "USD"
+      },
+      "quick_specs": [
+        {
+          "label": {
+            "en": "Suction Power",
+            "zh": "吸力"
+          },
+          "value": "18000pa"
+        },
+        {
+          "label": {
+            "en": "Power (W)",
+            "zh": "功率(W)"
+          },
+          "value": "650W"
+        },
+        {
+          "label": {
+            "en": "Runtime",
+            "zh": "续航时间"
+          },
+          "value": "120 mins"
+        },
+        {
+          "label": {
+            "en": "Maximum Runtime",
+            "zh": "最长续航"
+          },
+          "value": "121-150 min"
+        }
+      ],
+      "price_ladder": [],
+      "sku": "1601887224510",
+      "description": {
+        "en": "18000pa · 650W · 120 mins. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "18000pa · 650W · 120 mins。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+      },
+      "supplier_rating": "4.8",
+      "response_time": "≤ 2h",
+      "transactions": "US $100K+",
+      "years": "10+",
+      "ship_from": {
+        "en": "Ningbo, China",
+        "zh": "中国宁波"
+      },
+      "sample": {
+        "enabled": true,
+        "qty": 5,
+        "note": "Sample available, lead 7-14 days"
+      },
+      "category_name": {
+        "en": "Robot Vacuum Cleaners",
+        "zh": "扫地机器人"
+      },
+      "_source": {
+        "platform": "alibaba.com",
+        "productId": "1601887224510"
+      },
+      "_cat": "robot-vacuum"
     }
   ],
   "reviews": [
@@ -389,8 +3089,8 @@
       "title": "LDS laser navigation works flawlessly — mapped our 3BR house in 8 minutes",
       "body": "We have a large open-plan living area with some rugs and furniture. The LDS mapping is surprisingly accurate and it navigates around chair legs without bumping. The app control is intuitive. Here are some screenshots of the cleaning route and the dust compartment after one week.",
       "photoUrls": [
-        "https://www.hkdmj.net/assets/images/products/robot-vacuum/rv-1.jpg",
-        "https://www.hkdmj.net/assets/images/products/robot-vacuum/rv-2.jpg"
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/01-main.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/02.webp"
       ]
     },
     {
@@ -401,8 +3101,8 @@
       "title": "Quiet enough to run at night, strong enough for pet hair",
       "body": "We have two cats and this robot handles the fur better than expected. It runs at about 55dB which is quiet enough to have on while watching TV. The auto-recharge and resume feature is essential for our 150m² apartment.",
       "photoUrls": [
-        "https://www.hkdmj.net/assets/images/products/robot-vacuum/rv-3.jpg",
-        "https://www.hkdmj.net/assets/images/products/robot-vacuum/rv-4.jpg"
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/01-main.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/02.webp"
       ]
     },
     {
@@ -413,8 +3113,8 @@
       "title": "Good OEM base — we customized the logo and packaging for our brand",
       "body": "We are a home appliance distributor in Latin America. The OEM customization service was excellent — they printed our brand logo and designed custom retail packaging. The robot vacuum itself is reliable and our customers rate it 4.5/5 on average.",
       "photoUrls": [
-        "https://www.hkdmj.net/assets/images/products/robot-vacuum/rv-5.jpg",
-        "https://www.hkdmj.net/assets/images/products/robot-vacuum/rv-6.jpg"
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/01-main.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/02.webp"
       ]
     }
   ],
@@ -439,8 +3139,8 @@
       "reviewBody": "We have a large open-plan living area with some rugs and furniture. The LDS mapping is surprisingly accurate and it navigates around chair legs without bumping. The app control is intuitive. Here are some screenshots of the cleaning route and the dust compartment after one week.",
       "name": "LDS laser navigation works flawlessly — mapped our 3BR house in 8 minutes",
       "image": [
-        "https://www.hkdmj.net/assets/images/products/robot-vacuum/rv-1.jpg",
-        "https://www.hkdmj.net/assets/images/products/robot-vacuum/rv-2.jpg"
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/01-main.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/02.webp"
       ]
     },
     {
@@ -463,8 +3163,8 @@
       "reviewBody": "We have two cats and this robot handles the fur better than expected. It runs at about 55dB which is quiet enough to have on while watching TV. The auto-recharge and resume feature is essential for our 150m² apartment.",
       "name": "Quiet enough to run at night, strong enough for pet hair",
       "image": [
-        "https://www.hkdmj.net/assets/images/products/robot-vacuum/rv-3.jpg",
-        "https://www.hkdmj.net/assets/images/products/robot-vacuum/rv-4.jpg"
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/01-main.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/02.webp"
       ]
     },
     {
@@ -487,8 +3187,8 @@
       "reviewBody": "We are a home appliance distributor in Latin America. The OEM customization service was excellent — they printed our brand logo and designed custom retail packaging. The robot vacuum itself is reliable and our customers rate it 4.5/5 on average.",
       "name": "Good OEM base — we customized the logo and packaging for our brand",
       "image": [
-        "https://www.hkdmj.net/assets/images/products/robot-vacuum/rv-5.jpg",
-        "https://www.hkdmj.net/assets/images/products/robot-vacuum/rv-6.jpg"
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/01-main.webp",
+        "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/02.webp"
       ]
     }
   ]
