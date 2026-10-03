@@ -21,201 +21,6 @@
   var AQC_BRANCH = 'main';
   var AQC_UPLOAD_DIR = 'assets/images/uploads/';
 
-var AQC_HOME_LOADER_FIX = `/**
- * AquaClean Home Loader
- * Fetches page content from /data/pages/home/{lang}.json
- * and updates the DOM sections (hero, product cards, contact, footer).
- * Falls back gracefully if JSON unavailable.
- */
-(function () {
-  'use strict';
-
-  // Detect language from <html lang="en"> or URL path
-  var htmlLang = document.documentElement.lang || 'en';
-  var pathLang = location.pathname.match(/^\\/([a-z]{2}(?:-[a-z]{2})?)\\//);
-  var LANG = (pathLang && pathLang[1]) || htmlLang;
-
-  // Normalize lang (ar=rtl handled by CSS)
-  var RTL_LANGS = ['ar'];
-
-  // Render hero section
-  function renderHero(d) {
-    var sec = document.getElementById('hero-section') || document.querySelector('.hero-slides');
-    if (!sec) return;
-    // Badge
-    var badge = sec.querySelector('.hero-badge');
-    if (badge && d.badge) badge.innerHTML = d.badge;
-    // H1 - replace entire h1 content
-    var h1 = sec.querySelector('h1');
-    if (h1 && d.h1) h1.innerHTML = d.h1;
-    // Sub
-    var sub = sec.querySelector('.hero-sub');
-    if (sub && d.sub) sub.textContent = d.sub;
-    // Buttons
-    var actions = sec.querySelector('.hero-actions');
-    if (actions) {
-      var btns = actions.querySelectorAll('a.btn');
-      if (btns[0] && d.btn_primary_text) {
-        btns[0].textContent = d.btn_primary_text;
-        if (d.btn_primary_href) btns[0].href = d.btn_primary_href;
-      }
-      if (btns[1] && d.btn_outline_text) {
-        btns[1].textContent = d.btn_outline_text;
-        if (d.btn_outline_href) btns[1].href = d.btn_outline_href;
-      }
-    }
-  }
-
-  // Render product cards (populates from JSON over existing DOM)
-  function renderProducts(d) {
-    if (!d || !d.products) return;
-    var cards = document.querySelectorAll('.product-card');
-    d.products.forEach(function (prod, i) {
-      if (i >= cards.length) return;
-      var card = cards[i];
-      var h3 = card.querySelector('h3');
-      var p = card.querySelector('p');
-      var img = card.querySelector('img');
-      var btn = card.querySelector('a.btn');
-      var badge = card.querySelector('.product-badge-tag');
-      if (h3 && prod.name) h3.textContent = prod.name;
-      if (p && prod.desc) p.textContent = prod.desc;
-      if (img && prod.img) {
-        img.src = prod.img;
-        img.alt = prod.name || '';
-      }
-      if (btn) {
-        if (prod.btn_text) btn.textContent = prod.btn_text;
-        if (prod.btn_href) btn.href = prod.btn_href;
-        // Remove data-product-id to avoid modal intercepting link navigation
-        btn.removeAttribute('data-product-id');
-      }
-      // Render tags
-      if (prod.tags) {
-        var tagsEl = card.querySelector('.product-tags');
-        if (tagsEl) {
-          tagsEl.innerHTML = prod.tags.map(function (t) {
-            return '<span class="product-tag">' + escHtml(t) + '</span>';
-          }).join('');
-        }
-      }
-    });
-  }
-
-  // Render contact section
-  function renderContact(d) {
-    var sec = document.getElementById('contact');
-    if (!sec) return;
-    var h2 = sec.querySelector('h2');
-    if (h2 && d.h2) h2.textContent = d.h2;
-    // Update email
-    var emailLink = sec.querySelector('a[href^="mailto:"]');
-    if (emailLink && d.email) emailLink.href = 'mailto:' + d.email;
-    // Update phone
-    var phoneLink = sec.querySelector('a[href^="tel:"]');
-    if (phoneLink && d.phone) phoneLink.href = 'tel:' + d.phone.replace(/[^\\d+]/g, '');
-    // Update WhatsApp
-    var waLink = sec.querySelector('a[href*="wa.me"]');
-    if (waLink && d.whatsapp) waLink.href = 'https://wa.me/' + d.whatsapp.replace(/[^\\d]/g, '');
-    // Update address
-    var addrEl = sec.querySelector('.contact-address') || sec.querySelector('[class*="address"]');
-    if (addrEl && d.address) addrEl.textContent = '📍 ' + d.address;
-    // Update hours
-    var hoursEl = sec.querySelector('.contact-hours') || sec.querySelector('[class*="hours"]');
-    if (hoursEl && d.hours) hoursEl.textContent = '🕐 ' + d.hours;
-  }
-
-  // Render footer. \`contact\` is passed as fallback for address/whatsapp
-  // (footer JSON may omit them; contact section usually has them).
-  function renderFooter(d, contact) {
-    var ft = document.querySelector('footer');
-    if (!ft) return;
-    contact = contact || {};
-    var fCompany = d.company_name || contact.company_name || '';
-    var fDesc = d.description || contact.description || '';
-    var fAddress = d.address || contact.address || '';
-    var fEmail = d.email || contact.email || '';
-    var fPhone = d.phone || contact.phone || '';
-    var fWhatsapp = d.whatsapp || contact.whatsapp || '';
-    // Company name: <span> inside the brand logo link
-    var brandSpan = ft.querySelector('.footer-brand .logo span');
-    if (brandSpan && fCompany) brandSpan.textContent = fCompany;
-    // Description: direct child <p> of .footer-brand
-    var descEl = ft.querySelector('.footer-brand > p');
-    if (descEl && fDesc) descEl.textContent = fDesc;
-    // footer-bottom: copyright + address/email/phone line
-    var fbottom = ft.querySelector('.footer-bottom');
-    if (fbottom) {
-      var year = new Date().getFullYear();
-      var lines = fbottom.querySelectorAll('p');
-      if (lines[0] && fCompany) {
-        lines[0].textContent = '© ' + year + ' ' + fCompany + '. All rights reserved.';
-      }
-      if (lines[1]) {
-        var parts = [];
-        if (fAddress) parts.push('📍 ' + fAddress);
-        if (fEmail) parts.push('✉ <a href="mailto:' + fEmail + '" style="color:inherit;">' + fEmail + '</a>');
-        if (fPhone) parts.push('📞 <a href="tel:' + fPhone.replace(/[^\\d+]/g, '') + '" style="color:inherit;">' + fPhone + '</a>');
-        if (fWhatsapp) parts.push('💬 WhatsApp: ' + fWhatsapp);
-        if (parts.length) lines[1].innerHTML = parts.join('  |  ');
-      }
-    }
-    // Email/phone links anywhere in footer (mailto:/tel:)
-    var links = ft.querySelectorAll('a[href^="mailto:"], a[href^="tel:"]');
-    links.forEach(function (a) {
-      if (a.href.startsWith('mailto:') && d.email) a.href = 'mailto:' + d.email;
-      if (a.href.startsWith('tel:') && d.phone) a.href = 'tel:' + d.phone.replace(/[^\\d+]/g, '');
-    });
-    // WhatsApp
-    var waLinks = ft.querySelectorAll('a[href*="wa.me"]');
-    waLinks.forEach(function (a) {
-      if (d.whatsapp) a.href = 'https://wa.me/' + d.whatsapp.replace(/[^\\d]/g, '');
-    });
-  }
-
-  function escHtml(s) {
-    return String(s)
-      .replace(/&/g, '&amp;')
-      .replace(/</g, '&lt;')
-      .replace(/>/g, '&gt;')
-      .replace(/"/g, '&quot;');
-  }
-
-  // Load JSON and render
-  function load() {
-    var url = '/data/pages/home/' + LANG + '.json?v=' + Date.now();
-    var x = new XMLHttpRequest();
-    x.open('GET', url, true);
-    x.onload = function () {
-      if (x.status === 200) {
-        try {
-          var d = JSON.parse(x.responseText);
-          renderHero(d.hero || {});
-          renderProducts(d.products || []);
-          renderContact(d.contact || {});
-          renderFooter(d.footer || {}, d.contact || {});
-          // Remove data-product-id from all product-card buttons after render
-          // (prevents langpicker modal intercepting the link navigation)
-          var btns = document.querySelectorAll('.product-card a.btn');
-          btns.forEach(function (b) { b.removeAttribute('data-product-id'); });
-        } catch (e) {
-          console.warn('[home-loader] JSON parse error:', e);
-        }
-      }
-    };
-    x.onerror = function () {
-      console.warn('[home-loader] Could not load /data/pages/home/' + LANG + '.json');
-    };
-    x.send();
-  }
-
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', load);
-  } else {
-    load();
-  }
-})();
-`;
 
 
 
@@ -357,18 +162,30 @@ var AQC_HOME_LOADER_FIX = `/**
   var currentPid  = null;
 
   // ── HTML builders ──────────────────────────────────────────────
+  // Escape for safe embedding into value="..." / textarea bodies.
+  // Browsers decode entities on .value read, so the roundtrip stays raw.
+  function escVal(s) {
+    return String(s == null ? '' : s)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+
   function fieldHTML(label, id, type, value) {
+    var v = escVal(value);
     var t = type === 'textarea'
-      ? '<textarea id="' + id + '" rows="3">' + (value || '') + '</textarea>'
-      : '<input id="' + id + '" type="text" value="' + (value || '') + '">';
+      ? '<textarea id="' + id + '" rows="3">' + v + '</textarea>'
+      : '<input id="' + id + '" type="text" value="' + v + '">';
     return '<div class="admin-field"><label>' + label + '</label>' + t + '</div>';
   }
 
   function fieldHTML_note(label, id, type, value, note) {
     var noteHtml = note ? '<div style="font-size:11px;color:#94A3B8;margin-top:3px;">' + note + '</div>' : '';
+    var v = escVal(value);
     var t = type === 'textarea'
-      ? '<textarea id="' + id + '" rows="3">' + (value || '') + '</textarea>'
-      : '<input id="' + id + '" type="text" value="' + (value || '') + '">';
+      ? '<textarea id="' + id + '" rows="3">' + v + '</textarea>'
+      : '<input id="' + id + '" type="text" value="' + v + '">';
     return '<div class="admin-field" style="margin-bottom:18px;"><label>' + label + '</label>' + t + noteHtml + '</div>';
   }
 
@@ -434,6 +251,7 @@ var AQC_HOME_LOADER_FIX = `/**
     certDiv.className = 'admin-field';
     certDiv.innerHTML = '<label>认证（多选）</label>';
     var certWrap = document.createElement('div');
+    certWrap.id = 'p-certs';
     certWrap.style.cssText = 'display:flex;flex-wrap:wrap;gap:8px;margin-top:6px;';
     CERT_OPTS.forEach(function(c) {
       var lbl = document.createElement('label');
@@ -640,43 +458,76 @@ var AQC_HOME_LOADER_FIX = `/**
     var lang = data.lang;
     var path = 'data/products/' + cat + '.json';
     setStatus('🚀 正在部署产品 JSON 到 GitHub...');
-    // Read existing to keep multi-product array shape (admin edits first product)
-    fetch('https://www.hkdmj.net/' + path + '?t=' + Date.now()).then(function(r) {
+    // Read the current file from repo main (source of truth) so the merge
+    // below preserves languages and fields this form does not manage.
+    fetch('https://raw.githubusercontent.com/' + AQC_REPO + '/' + AQC_BRANCH + '/' + path + '?t=' + Date.now()).then(function(r) {
       if (r.ok) return r.json();
       return null;
     }).then(function(existing) {
-      var toWrite;
-      if (existing && Array.isArray(existing.products)) {
-        existing.products[0] = data;
-        toWrite = existing;
-      } else if (existing && typeof existing === 'object' && Object.keys(existing).length) {
-        // Single-product shape — replace with new
-        toWrite = data;
-      } else {
-        toWrite = { products: [data] };
-      }
-      var msg = 'admin: update ' + cat + '-' + lang;
-      return ghCommit(path, JSON.stringify(toWrite, null, 2), msg);
+      var merged = mergeProductIntoSchema(existing, lang, data);
+      var msg = 'admin: update ' + cat + ' (' + lang + ')';
+      return ghCommit(path, JSON.stringify(merged, null, 2), msg);
     }).then(function(sha) {
-      setStatus('✅ 已部署！SHA: ' + sha.substring(0, 8) + ' · 1-2 分钟后访问 ?v=' + Date.now() + ' 查看（硬刷新 Ctrl+Shift+R）');
-      // One-time: also push the fixed home-loader.js to remote (footer render fix)
-      try {
-        if (typeof AQC_HOME_LOADER_FIX !== 'undefined' && !localStorage.getItem('AQC_HL_FIX_APPLIED')) {
-          localStorage.setItem('AQC_HL_FIX_APPLIED', 'pending');
-          ghCommit('assets/js/home-loader.js', AQC_HOME_LOADER_FIX, 'admin: fix home-loader footer render selectors')
-            .then(function(sha2) {
-              localStorage.setItem('AQC_HL_FIX_APPLIED', '1');
-              setStatus('✅ 已部署！SHA: ' + sha.substring(0, 8) + ' · home-loader.js 已同步 (' + sha2.substring(0, 8) + ')');
-            })
-            .catch(function(err2) {
-              localStorage.removeItem('AQC_HL_FIX_APPLIED');
-              setStatus('⚠ 数据已部署但 home-loader.js 同步失败：' + err2.message);
-            });
-        }
-      } catch (_) {}
+      setStatus('✅ 已部署！SHA: ' + sha.substring(0, 8) + ' · 1-2 分钟后生效（硬刷新 Ctrl+Shift+R）');
     }).catch(function(err) {
       setStatus('❌ 部署失败：' + err.message);
     });
+  }
+
+  // ── Schema-safe merge helpers ──────────────────────────────────
+  // The repo's product JSON is multilingual ({en:..., zh:...}) and carries
+  // fields (highlights, sku, packaging, customization) this simple form
+  // never edits. Overwriting products[0] with the flat form payload used to
+  // destroy all of that. These helpers merge only what the form manages.
+
+  // Update one language of an {en,zh} field, preserving the others.
+  function mergeLangField(existing, lang, value) {
+    if (existing && typeof existing === 'object') {
+      var out = {};
+      for (var k in existing) out[k] = existing[k];
+      if (value) out[lang] = value;
+      return out;
+    }
+    if (lang === 'en') return value;
+    var o = { en: value };
+    o[lang] = value;
+    return o;
+  }
+
+  // Merge form spec rows (key|value per line) into existing specs by index,
+  // per language. Existing rows the form no longer has are kept as-is.
+  function mergeSpecs(existing, lang, formSpecs) {
+    var ex = Array.isArray(existing) ? existing : [];
+    var n = Math.max(ex.length, formSpecs.length);
+    var out = [];
+    for (var i = 0; i < n; i++) {
+      var e = ex[i], f = formSpecs[i];
+      if (!f) { if (e) out.push(e); continue; }
+      var lab, val, k;
+      if (e && typeof e.label === 'object') { lab = {}; for (k in e.label) lab[k] = e.label[k]; lab[lang] = f.key; }
+      else if (e && e.label !== undefined) { lab = (lang === 'en') ? f.key : e.label; }
+      else { lab = {}; lab[lang] = f.key; }
+      if (e && typeof e.value === 'object') { val = {}; for (k in e.value) val[k] = e.value[k]; val[lang] = f.value; }
+      else if (e && e.value !== undefined) { val = (lang === 'en') ? f.value : e.value; }
+      else { val = {}; val[lang] = f.value; }
+      out.push({ label: lab, value: val });
+    }
+    return out;
+  }
+
+  function mergeProductIntoSchema(existing, lang, form) {
+    var container = (existing && typeof existing === 'object' && !Array.isArray(existing)) ? existing : {};
+    var list = Array.isArray(container.products) ? container.products : [];
+    var p = list.length ? list[0] : {};
+    if (form.name)        p.name = mergeLangField(p.name, lang, form.name);
+    if (form.tagline)     p.tagline = mergeLangField(p.tagline, lang, form.tagline);
+    if (form.description) p.description = mergeLangField(p.description, lang, form.description);
+    if (form.moq)         p.moq = { value: form.moq, unit: (p.moq && p.moq.unit) || 'pieces' };
+    if (form.images && form.images.length) p.images = form.images;
+    if (form.certifications && form.certifications.length) p.certifications = form.certifications;
+    if (form.specs && form.specs.length) p.specs = mergeSpecs(p.specs, lang, form.specs);
+    if (!list.length) container.products = [p];
+    return container;
   }
 
   function autoSaveProduct() {
@@ -873,21 +724,6 @@ var AQC_HOME_LOADER_FIX = `/**
     setStatus('🚀 正在部署到 GitHub... (' + path + ')');
     ghCommit(path, payload, msg).then(function(sha) {
       setStatus('✅ 已部署！SHA: ' + sha.substring(0, 8) + ' · 1-2 分钟后访问 ?v=' + Date.now() + ' 查看（硬刷新 Ctrl+Shift+R 穿透缓存）');
-      // One-time: also push the fixed home-loader.js to remote (footer render fix)
-      try {
-        if (typeof AQC_HOME_LOADER_FIX !== 'undefined' && !localStorage.getItem('AQC_HL_FIX_APPLIED')) {
-          localStorage.setItem('AQC_HL_FIX_APPLIED', 'pending');
-          ghCommit('assets/js/home-loader.js', AQC_HOME_LOADER_FIX, 'admin: fix home-loader footer render selectors')
-            .then(function(sha2) {
-              localStorage.setItem('AQC_HL_FIX_APPLIED', '1');
-              setStatus('✅ 已部署！SHA: ' + sha.substring(0, 8) + ' · home-loader.js 已同步 (' + sha2.substring(0, 8) + ')');
-            })
-            .catch(function(err2) {
-              localStorage.removeItem('AQC_HL_FIX_APPLIED');
-              setStatus('⚠ 数据已部署但 home-loader.js 同步失败：' + err2.message);
-            });
-        }
-      } catch (_) {}
     }).catch(function(err) {
       setStatus('❌ 部署失败：' + err.message);
     });
@@ -1356,11 +1192,6 @@ var AQC_HOME_LOADER_FIX = `/**
     ghCommit('data/products/categories.json', jsonStr, 'admin: update category page ' + cat.slug + ' (' + lang + ')')
       .then(function(sha) {
         setStatus('✅ 已部署! commit ' + sha.substring(0,8));
-        // Sync home-loader if embedded
-        if (typeof AQC_HOME_LOADER_FIX !== 'undefined' && !localStorage.getItem('AQC_HL_FIX_APPLIED')) {
-          return ghCommit('assets/js/home-loader.js', AQC_HOME_LOADER_FIX, 'admin: sync home-loader.js')
-            .then(function(s2) { localStorage.setItem('AQC_HL_FIX_APPLIED', '1'); });
-        }
       })
       .catch(function(err) { setStatus('❌ 部署失败: ' + err.message); });
   }
@@ -1679,26 +1510,6 @@ function buildProductControls(side) {
         setStatus('💡 首次使用：推荐点击右上角"⚠ 设置 GitHub Token"启用一键部署');
       }
     }, 2000);
-    // One-time: push home-loader.js fix to remote (idempotent via localStorage)
-    try {
-      if (typeof AQC_HOME_LOADER_FIX !== 'undefined' && !localStorage.getItem('AQC_HL_FIX_APPLIED')) {
-        var _tk = getToken();
-        if (_tk) {
-          localStorage.setItem('AQC_HL_FIX_APPLIED', 'pending');
-          setTimeout(function() {
-            ghCommit('assets/js/home-loader.js', AQC_HOME_LOADER_FIX, 'admin: fix home-loader footer render selectors')
-              .then(function(sha2) {
-                localStorage.setItem('AQC_HL_FIX_APPLIED', '1');
-                setStatus('🔧 home-loader.js 已同步到远端（' + sha2.substring(0,8) + '）· 90 秒后硬刷新首页查看 footer');
-              })
-              .catch(function(err2) {
-                localStorage.removeItem('AQC_HL_FIX_APPLIED');
-                console.warn('[AQC] home-loader.js sync failed:', err2.message);
-              });
-          }, 2500);
-        }
-      }
-    } catch (_) {}
   }
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);

@@ -128,32 +128,58 @@ def trigger_actions():
     return wf_id
 
 # ── HTTP Handler ──────────────────────────────────────────────────────────────
+# Only these origins may talk to the bridge. Without this check, ANY website
+# open in the user's browser could fetch http://127.0.0.1:18765/token and
+# exfiltrate the GitHub PAT (CORS "*" + no auth = drive-by token theft).
+ALLOWED_ORIGINS = {
+    "https://www.hkdmj.net",
+    "https://hkdmj.net",
+}
+
+def origin_ok(handler):
+    o = (handler.headers.get("Origin") or "").rstrip("/")
+    if not o:
+        return True  # non-browser client (curl / same-origin GET)
+    if o.startswith("http://127.0.0.1:") or o.startswith("http://localhost:"):
+        return True  # local dev servers, any port
+    return o in ALLOWED_ORIGINS
+
+
 class Handler(http.server.BaseHTTPRequestHandler):
     def log_message(self, fmt, *args):
         print(f"[{self.log_date_time_string()}] {fmt % args}")
 
+    def _cors_headers(self):
+        o = (self.headers.get("Origin") or "").rstrip("/")
+        if origin_ok(self) and o:
+            self.send_header("Access-Control-Allow-Origin", o)
+            self.send_header("Vary", "Origin")
+
     def send_json(self, status, data):
         self.send_response(status)
         self.send_header("Content-Type", "application/json")
-        self.send_header("Access-Control-Allow-Origin", "*")
+        self._cors_headers()
         self.end_headers()
         self.wfile.write(json.dumps(data).encode())
 
     def do_OPTIONS(self):
         self.send_response(204)
-        self.send_header("Access-Control-Allow-Origin", "*")
+        self._cors_headers()
         self.send_header("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
         self.send_header("Access-Control-Allow-Headers", "Content-Type")
         self.end_headers()
 
     def do_GET(self):
         global PAT
+        if not origin_ok(self):
+            self.send_json(403, {"error": "Origin not allowed"})
+            return
         if self.path == "/token":
             if not PAT:
                 PAT = get_pat()
             self.send_response(200)
             self.send_header("Content-Type", "text/plain")
-            self.send_header("Access-Control-Allow-Origin", "*")
+            self._cors_headers()
             self.end_headers()
             self.wfile.write(PAT.encode())
         elif self.path == "/status":
@@ -168,6 +194,9 @@ class Handler(http.server.BaseHTTPRequestHandler):
 
     def do_POST(self):
         global PAT
+        if not origin_ok(self):
+            self.send_json(403, {"error": "Origin not allowed"})
+            return
         if self.path != "/commit":
             self.send_json(404, {"error": "Not found"})
             return
