@@ -18,3 +18,9 @@ npm-debug.log*
 *.cjs
 
 github_auth_url.txt
+
+# pipeline scratch files (idempotency snapshots, audits, probes)
+.tmp_*
+
+# design-review screenshots (local working artifacts, 27M)
+shots/

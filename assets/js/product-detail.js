@@ -13,7 +13,11 @@
   var LANG = cfg.lang || 'en';
   var CATEGORY_NAME = cfg.categoryName || '';
 
-  // ---------- i18n UI strings ----------
+  // ------- i18n UI strings -------
+  // Pages generated for a locale embed `window.AQC_UI`, built from
+  // data/i18n/{lang}.json, so the runtime layout and the static prerender are
+  // guaranteed to use the same translations. The table below is only a
+  // fallback for the two hand-maintained locales (en / zh).
   var UI = {
     en: {
       home: 'Home', model: 'Model', moq: 'Min. Order', inStock: 'In Stock',
@@ -79,6 +83,25 @@
     if (typeof obj === 'string') return obj;
     return obj[lang] || obj.en || '';
   }
+  // Product data stores absolute URLs (they double as og:image values, which
+  // must be absolute), but <img> tags must load from the serving origin --
+  // the production host 404s these paths, and any other origin breaks too.
+  function localImg(u) { return (u || '').replace(/^https?:\/\/[^\/]+/i, ''); }
+  function shipFrom(p) { return pick(p && p.ship_from, LANG) || '—'; }
+  // UI labels: injected dictionary (all 9 locales) over the locale's built-in
+  // table over English. Prevents "undefined" for any key a locale omits.
+  function buildUiStrings() {
+    var out = {};
+    var chain = [UI.en || {}, UI[LANG] || {}, window.AQC_UI || {}];
+    for (var i = 0; i < chain.length; i++) {
+      var src = chain[i];
+      for (var k in src) {
+        if (Object.prototype.hasOwnProperty.call(src, k) && src[k]) out[k] = src[k];
+      }
+    }
+    return out;
+  }
+  var UI_STRINGS = buildUiStrings();
   function iconFor(name) {
     var icons = {
       laser: '◎', mop: '💧', map: '🗺', battery: '🔋', power: '⚡', quiet: '🔇',
@@ -162,7 +185,7 @@
 
     var mount = $('#aqc-detail-mount');
     if (!mount) return;
-    var ui = UI[state.lang] || UI.en;
+    var ui = UI_STRINGS;
     var isRTL = !!RTL[state.lang];
     if (isRTL) mount.setAttribute('dir', 'rtl');
 
@@ -173,8 +196,10 @@
     var ladder = buildPriceLadder(product);
     var moq = (product.moq && product.moq.value) || 10;
 
-    // sku
-    var skus = product.sku || [];
+    // sku selector groups -- `sku` itself is the product's SKU *code* (a
+    // string); treating it as a list iterated its characters and rendered one
+    // empty selector group per character (a stray column of ":")
+    var skus = Array.isArray(product.sku) ? product.sku : [];
     var quick = (product.quick_specs || []).slice(0, 4);
 
     var certs = product.certifications || [];
@@ -209,7 +234,7 @@
     if (images.length > 1 || hasVideo) {
       html += '<div class="d-gallery-thumbs">';
       for (var gi = 0; gi < images.length; gi++) {
-        html += '<div class="d-gallery-thumb' + (gi === 0 ? ' active' : '') + '" data-idx="' + gi + '"><img src="' + esc(images[gi]) + '" alt=""></div>';
+        html += '<div class="d-gallery-thumb' + (gi === 0 ? ' active' : '') + '" data-idx="' + gi + '"><img src="' + esc(localImg(images[gi])) + '" alt=""></div>';
       }
       if (hasVideo) {
         html += '<div class="d-gallery-thumb video-thumb" data-video="1">▶</div>';
@@ -218,9 +243,9 @@
     }
     html += '<div class="d-gallery-main" id="aqc-gallery-main">';
     if (images.length) {
-      html += '<img src="' + esc(images[0]) + '" alt="' + esc(pick(product.name, state.lang)) + '" id="aqc-main-img">';
+      html += '<img src="' + esc(localImg(images[0])) + '" alt="' + esc(pick(product.name, state.lang)) + '" id="aqc-main-img">';
     } else {
-      html += '<div class="d-loading">No image</div>';
+      html += '<div class="d-loading">' + esc(ui.noImage) + '</div>';
     }
     html += '<span class="d-gallery-zoom" id="aqc-zoom">⤢</span>';
     if (hasVideo) {
@@ -250,7 +275,7 @@
       html += '<div class="d-quick-specs">';
       for (var qi = 0; qi < quick.length; qi++) {
         var q = quick[qi];
-        html += '<span class="d-quick-spec">' + esc(pick(q.label, state.lang)) + ': <b>' + esc(q.value) + '</b></span>';
+        html += '<span class="d-quick-spec">' + esc(pick(q.label, state.lang)) + ': <b>' + esc(pick(q.value, state.lang)) + '</b></span>';
       }
       html += '</div>';
     }
@@ -265,7 +290,7 @@
         var rangeStr = (l.max == null || l.max === -1) ? l.min + '+' : l.min + ' – ' + l.max;
         var best = (li === ladder.length - 1);
         html += '<div class="d-price-card' + (best ? ' best' : '') + '">';
-        if (best) html += '<span class="d-price-best">Best Price</span>';
+        if (best) html += '<span class="d-price-best">' + esc(ui.bestPrice) + '</span>';
         html += '<div class="d-price-range">' + esc(rangeStr) + ' ' + esc(ui.per) + '</div>';
         html += '<div class="d-price-val"><span class="cur">' + esc(ui.currency) + '</span>' + l.price + '</div>';
         html += '</div>';
@@ -322,10 +347,10 @@
 
     // trust strip
     html += '<div class="d-trust">';
-    html += '<div class="d-trust-item"><div class="t-ico">🚢</div><div class="t-label">' + esc(ui.trustShip) + '</div><div class="t-value">' + esc((product.ship_from || {}).en || '—') + '</div></div>';
-    var leadTime = (product.customization && product.customization.production_lead) || '25-35 days';
+    html += '<div class="d-trust-item"><div class="t-ico">🚢</div><div class="t-label">' + esc(ui.trustShip) + '</div><div class="t-value">' + esc(shipFrom(product)) + '</div></div>';
+    var leadTime = (product.customization && product.customization.production_lead) || ui.defaultLeadTime;
     html += '<div class="d-trust-item"><div class="t-ico">⏱</div><div class="t-label">' + esc(ui.trustLead) + '</div><div class="t-value">' + esc(leadTime) + '</div></div>';
-    html += '<div class="d-trust-item"><div class="t-ico">📦</div><div class="t-label">' + esc(ui.trustPack) + '</div><div class="t-value">' + esc((packaging.unit || 'Color box')) + '</div></div>';
+    html += '<div class="d-trust-item"><div class="t-ico">📦</div><div class="t-label">' + esc(ui.trustPack) + '</div><div class="t-value">' + esc(packaging.unit || ui.defaultPackUnit || '') + '</div></div>';
     html += '</div>';
 
     html += '</div>'; // .d-info
@@ -339,7 +364,7 @@
     html += '<div class="d-supplier-logo">🏠</div>';
     html += '<div>';
     html += '<h3 class="d-supplier-name">AquaClean Home Appliances Co., Ltd.</h3>';
-    html += '<p class="d-supplier-meta">' + esc((product.ship_from || {}).en || '—') + ' · OEM/ODM Manufacturer · <span class="d-supplier-stars">' + (isNaN(parseFloat(rating)) ? '' : '★★★★★ ') + esc(rating) + '</span></p>';
+    html += '<p class="d-supplier-meta">' + esc(shipFrom(product)) + ' · ' + esc(ui.supplierRole) + ' · <span class="d-supplier-stars">' + (isNaN(parseFloat(rating)) ? '' : '★★★★★ ') + esc(rating) + '</span></p>';
     html += '<div class="d-supplier-stats">';
     html += '<div class="d-supplier-stat"><div class="v">' + esc(rating) + '</div><div class="l">' + esc(ui.rating) + '</div></div>';
     html += '<div class="d-supplier-stat"><div class="v">' + esc(responseTime) + '</div><div class="l">' + esc(ui.responseTime) + '</div></div>';
@@ -358,7 +383,7 @@
       html += '<div class="d-attr-grid">';
       for (var spi = 0; spi < specs.length; spi++) {
         var sp = specs[spi];
-        html += '<div class="d-attr-item"><span class="d-attr-name">' + esc(pick(sp.label, state.lang)) + '</span><span class="d-attr-value">' + esc(sp.value) + '</span></div>';
+        html += '<div class="d-attr-item"><span class="d-attr-name">' + esc(pick(sp.label, state.lang)) + '</span><span class="d-attr-value">' + esc(pick(sp.value, state.lang)) + '</span></div>';
       }
       html += '</div>';
       html += '</div></div>';
@@ -370,10 +395,10 @@
     html += '<h2 class="d-sec-title">' + esc(ui.packaging) + '</h2>';
     html += '<table class="d-spec-table"><thead><tr><th>' + esc(ui.packaging) + '</th><th></th></tr></thead><tbody>';
     html += '<tr><td class="spec-label">' + esc(ui.trustPack) + '</td><td>' + esc(packaging.unit || '—') + '</td></tr>';
-    html += '<tr><td class="spec-label">Carton Size</td><td>' + esc(packaging.ctn_size || '—') + '</td></tr>';
-    html += '<tr><td class="spec-label">Qty / Carton</td><td>' + esc(packaging.ctn_qty || '—') + '</td></tr>';
-    html += '<tr><td class="spec-label">Gross Weight</td><td>' + esc(packaging.gross_weight || '—') + '</td></tr>';
-    html += '<tr><td class="spec-label">' + esc(ui.trustShip) + '</td><td>' + esc((product.ship_from || {}).en || '—') + '</td></tr>';
+    html += '<tr><td class="spec-label">' + esc(ui.cartonSize) + '</td><td>' + esc(packaging.ctn_size || '—') + '</td></tr>';
+    html += '<tr><td class="spec-label">' + esc(ui.qtyPerCarton) + '</td><td>' + esc(packaging.ctn_qty || '—') + '</td></tr>';
+    html += '<tr><td class="spec-label">' + esc(ui.grossWeight) + '</td><td>' + esc(packaging.gross_weight || '—') + '</td></tr>';
+    html += '<tr><td class="spec-label">' + esc(ui.trustShip) + '</td><td>' + esc(shipFrom(product)) + '</td></tr>';
     html += '<tr><td class="spec-label">' + esc(ui.leadTime) + '</td><td>' + esc(leadTime) + '</td></tr>';
     html += '</tbody></table>';
     html += '</div></div>';
@@ -426,7 +451,7 @@
       html += '<span class="d-sec-label">' + esc(ui.description) + '</span>';
       html += '<h2 class="d-sec-title">' + esc(ui.description) + '</h2>';
       html += '<div class="d-desc-text">' + esc(descText).replace(/\n/g, '<br>') + '</div>';
-      if (descImg) html += '<img class="d-desc-img" src="' + esc(descImg) + '" alt="' + esc(pick(product.name, state.lang)) + '">';
+      if (descImg) html += '<img class="d-desc-img" src="' + esc(localImg(descImg)) + '" alt="' + esc(pick(product.name, state.lang)) + '">';
       html += '</div></div>';
     }
 
@@ -438,12 +463,12 @@
     html += '<div class="d-form-row">';
     html += '<div class="d-form-field"><label>' + esc(ui.inqProduct) + '</label><input type="text" value="' + esc(productName) + '" readonly></div>';
     html += '<div class="d-form-field"><label>' + esc(ui.inqModel) + '</label><input type="text" value="' + esc(product.id.toUpperCase()) + '" readonly></div>';
-    html += '<div class="d-form-field"><label>' + esc(ui.name) + '</label><input type="text" id="aqc-f-name" placeholder="John Smith"></div>';
+    html += '<div class="d-form-field"><label>' + esc(ui.name) + '</label><input type="text" id="aqc-f-name" placeholder="' + esc(ui.placeholderName) + '"></div>';
     html += '<div class="d-form-field"><label>' + esc(ui.email) + '</label><input type="email" id="aqc-f-email" placeholder="name@company.com"></div>';
-    html += '<div class="d-form-field"><label>' + esc(ui.company) + '</label><input type="text" id="aqc-f-company" placeholder="Company Ltd."></div>';
-    html += '<div class="d-form-field"><label>' + esc(ui.country) + '</label><input type="text" id="aqc-f-country" placeholder="Germany"></div>';
+    html += '<div class="d-form-field"><label>' + esc(ui.company) + '</label><input type="text" id="aqc-f-company" placeholder="' + esc(ui.placeholderCompany) + '"></div>';
+    html += '<div class="d-form-field"><label>' + esc(ui.country) + '</label><input type="text" id="aqc-f-country" placeholder="' + esc(ui.placeholderCountry) + '"></div>';
     html += '<div class="d-form-field"><label>' + esc(ui.quantity) + '</label><input type="number" id="aqc-f-qty" value="' + moq + '" min="1"></div>';
-    html += '<div class="d-form-field"><label>' + esc(ui.message) + '</label><textarea id="aqc-f-msg" placeholder="Tell us your requirements..."></textarea></div>';
+    html += '<div class="d-form-field"><label>' + esc(ui.message) + '</label><textarea id="aqc-f-msg" placeholder="' + esc(ui.placeholderMessage) + '"></textarea></div>';
     html += '</div>';
     html += '<div style="text-align:center;margin-top:8px;">';
     html += '<button class="btn btn-primary" id="aqc-submit" style="min-width:240px;">✉️ ' + esc(ui.submit) + '</button>';
@@ -462,7 +487,7 @@
         var rp = products[ri];
         var rImg = (rp.images && rp.images[0]) || '';
         html += '<a class="d-related-card" href="' + ('/' + state.lang + '/' + CATEGORY + '-' + rp.id + '.html') + '">';
-        html += '<div class="d-related-img">' + (rImg ? '<img src="' + esc(rImg) + '" alt="">' : '') + '</div>';
+        html += '<div class="d-related-img">' + (rImg ? '<img src="' + esc(localImg(rImg)) + '" alt="">' : '') + '</div>';
         html += '<div class="d-related-body"><h4>' + esc(pick(rp.name, state.lang)) + '</h4><p>' + esc(pick(rp.tagline, state.lang)) + '</p></div>';
         html += '</a>';
       }

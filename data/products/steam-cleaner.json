@@ -1,1682 +1,4442 @@
 {
-  "category": "steam-cleaner",
-  "products": [
+ "category": "steam-cleaner",
+ "products": [
+  {
+   "id": "d09s",
+   "name": {
+    "en": "Portable High Pressure Steam Cleaner 1500W 1600ml Tank 3 Bar Household Cleaning Kit with Multi Attachments",
+    "zh": "1500W 便携高压蒸汽清洁机（1600ml 水箱 / 3Bar）",
+    "es": "Limpiador a vapor de alta presión portátil 1500 W, depósito de 1600 ml, 3 bar, kit de limpieza del hogar con múltiples accesorios",
+    "ar": "منظف بخار عالي الضغط محمول 1500W، خزان 1600ml، 3 بار، طقم تنظيف منزلي بملحقات متعددة",
+    "fr": "Nettoyeur vapeur haute pression portatif 1500 W, réservoir de 1600 ml, 3 bar, kit de nettoyage domestique avec accessoires multiples",
+    "id": "Pembersih Uap Bertekanan Tinggi Portabel 1500W, Tangki 1600ml, 3 Bar, Kit Pembersih Rumah Tangga dengan Berbagai Perlengkapan",
+    "ru": "Портативный пароочиститель высокого давления 1500 W, бак 1600 мл, 3 бар, набор для уборки дома с множеством насадок",
+    "th": "เครื่องทำความสะอาดด้วยไอน้ำแรงดันสูงแบบพกพา 1500W ถัง 1600ml 3 บาร์ ชุดทำความสะอาดบ้านพร้อมอุปกรณ์เสริมหลายชิ้น",
+    "vi": "Máy hơi nước áp suất cao di động 1500W, bình 1600ml, 3 Bar, bộ dụng cụ vệ sinh gia đình với nhiều phụ kiện"
+   },
+   "tagline": {
+    "en": "1500 W · 3 bar · 1600ml",
+    "zh": "1500 W · 3 bar · 1600ml",
+    "es": "1500 W · 3 bar · 1600ml",
+    "ar": "1500 W · 3 bar · 1600ml",
+    "fr": "1500 W · 3 bar · 1600ml",
+    "id": "1500 W · 3 bar · 1600ml",
+    "ru": "1500 W · 3 bar · 1600ml",
+    "th": "1500 W · 3 bar · 1600ml",
+    "vi": "1500 W · 3 bar · 1600ml"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-d09s/01.webp",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-d09s/02.webp",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-d09s/03.webp",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-d09s/04.webp",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-d09s/05.webp",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-d09s/06.webp"
+   ],
+   "video_url": null,
+   "moq": {
+    "value": 1,
+    "unit": "pieces"
+   },
+   "certifications": [],
+   "highlights": [
     {
-      "id": "d09s",
-      "name": {
-        "en": "Portable High Pressure Steam Cleaner 1500W 1600ml Tank 3 Bar Household Cleaning Kit with Multi Attachments",
-        "zh": "1500W 便携高压蒸汽清洁机（1600ml 水箱 / 3Bar）"
-      },
-      "tagline": {
-        "en": "1500 W · 3 bar · 1600ml",
-        "zh": "1500 W · 3 bar · 1600ml"
-      },
-      "images": [
-        "https://www.hkdmj.net/assets/images/products/steam-cleaner-d09s/01.webp",
-        "https://www.hkdmj.net/assets/images/products/steam-cleaner-d09s/02.webp",
-        "https://www.hkdmj.net/assets/images/products/steam-cleaner-d09s/03.webp",
-        "https://www.hkdmj.net/assets/images/products/steam-cleaner-d09s/04.webp",
-        "https://www.hkdmj.net/assets/images/products/steam-cleaner-d09s/05.webp",
-        "https://www.hkdmj.net/assets/images/products/steam-cleaner-d09s/06.webp"
-      ],
-      "video_url": null,
-      "moq": {
-        "value": 1,
-        "unit": "pieces"
-      },
-      "certifications": [],
-      "highlights": [
-        {
-          "icon": "check",
-          "text": {
-            "en": "Power (W): 1500 W",
-            "zh": "功率(W): 1500 W"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Steam pressure: 3 bar",
-            "zh": "蒸汽压力: 3 bar"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Water Tank Capacity: 1600ml",
-            "zh": "水箱容量: 1600ml"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Heating Time: 15 s",
-            "zh": "加热时间: 15 s"
-          }
-        }
-      ],
-      "specs": [
-        {
-          "label": {
-            "en": "Type",
-            "zh": "类型"
-          },
-          "value": "Water Filter"
-        },
-        {
-          "label": {
-            "en": "Product name",
-            "zh": "Product name"
-          },
-          "value": "Steam Cleaner"
-        },
-        {
-          "label": {
-            "en": "Power Source",
-            "zh": "Power Source"
-          },
-          "value": "Usb"
-        },
-        {
-          "label": {
-            "en": "Function",
-            "zh": "功能"
-          },
-          "value": "Dry"
-        },
-        {
-          "label": {
-            "en": "Keywords",
-            "zh": "Keywords"
-          },
-          "value": "Steam Cleanmer"
-        },
-        {
-          "label": {
-            "en": "Material",
-            "zh": "材质"
-          },
-          "value": "ABS"
-        },
-        {
-          "label": {
-            "en": "Usage",
-            "zh": "Usage"
-          },
-          "value": "Public . Home . Office . Hospital"
-        },
-        {
-          "label": {
-            "en": "Water Tank Capacity",
-            "zh": "水箱容量"
-          },
-          "value": "1600ml"
-        },
-        {
-          "label": {
-            "en": "Color",
-            "zh": "颜色"
-          },
-          "value": "Photo"
-        },
-        {
-          "label": {
-            "en": "Weight (KG)",
-            "zh": "Weight (KG)"
-          },
-          "value": "2kg"
-        },
-        {
-          "label": {
-            "en": "SIZE",
-            "zh": "SIZE"
-          },
-          "value": "20x14.5x13 cm"
-        },
-        {
-          "label": {
-            "en": "Capacity",
-            "zh": "Capacity"
-          },
-          "value": "1600ml"
-        },
-        {
-          "label": {
-            "en": "PACKING",
-            "zh": "PACKING"
-          },
-          "value": "Box Package"
-        },
-        {
-          "label": {
-            "en": "Design",
-            "zh": "Design"
-          },
-          "value": "Handle Slicker Brush"
-        },
-        {
-          "label": {
-            "en": "Steam Pipe Length",
-            "zh": "Steam Pipe Length"
-          },
-          "value": "2.0"
-        },
-        {
-          "label": {
-            "en": "MOQ",
-            "zh": "起订量"
-          },
-          "value": "2 Pcs"
-        },
-        {
-          "label": {
-            "en": "Steam pressure",
-            "zh": "Steam pressure"
-          },
-          "value": "3 bar"
-        },
-        {
-          "label": {
-            "en": "app-controlled",
-            "zh": "app-controlled"
-          },
-          "value": "No"
-        },
-        {
-          "label": {
-            "en": "application",
-            "zh": "application"
-          },
-          "value": "Household"
-        },
-        {
-          "label": {
-            "en": "application",
-            "zh": "application"
-          },
-          "value": "Car"
-        },
-        {
-          "label": {
-            "en": "application",
-            "zh": "application"
-          },
-          "value": "Outdoor"
-        },
-        {
-          "label": {
-            "en": "application",
-            "zh": "application"
-          },
-          "value": "Hotel"
-        },
-        {
-          "label": {
-            "en": "Installation",
-            "zh": "Installation"
-          },
-          "value": "Handheld"
-        },
-        {
-          "label": {
-            "en": "packaging types",
-            "zh": "packaging types"
-          },
-          "value": "Corrugated Box"
-        },
-        {
-          "label": {
-            "en": "power (w)",
-            "zh": "power (w)"
-          },
-          "value": "1500 W"
-        },
-        {
-          "label": {
-            "en": "warranty",
-            "zh": "warranty"
-          },
-          "value": "1 Year"
-        },
-        {
-          "label": {
-            "en": "place of origin",
-            "zh": "place of origin"
-          },
-          "value": "CN;GUA"
-        },
-        {
-          "label": {
-            "en": "Water Tank Capacity",
-            "zh": "水箱容量"
-          },
-          "value": "1.6L"
-        },
-        {
-          "label": {
-            "en": "Heating Time",
-            "zh": "Heating Time"
-          },
-          "value": "15 s"
-        },
-        {
-          "label": {
-            "en": "Material",
-            "zh": "材质"
-          },
-          "value": "ABS"
-        },
-        {
-          "label": {
-            "en": "model number",
-            "zh": "model number"
-          },
-          "value": "D09S"
-        }
-      ],
-      "packaging": {
-        "unit": "Corrugated Box"
-      },
-      "customization": {},
-      "applications": {
-        "en": "",
-        "zh": ""
-      },
-      "price_indicator": null,
-      "quick_specs": [
-        {
-          "label": {
-            "en": "Power (W)",
-            "zh": "功率(W)"
-          },
-          "value": "1500 W"
-        },
-        {
-          "label": {
-            "en": "Steam pressure",
-            "zh": "蒸汽压力"
-          },
-          "value": "3 bar"
-        },
-        {
-          "label": {
-            "en": "Water Tank Capacity",
-            "zh": "水箱容量"
-          },
-          "value": "1600ml"
-        },
-        {
-          "label": {
-            "en": "Heating Time",
-            "zh": "加热时间"
-          },
-          "value": "15 s"
-        }
-      ],
-      "price_ladder": [],
-      "sku": "1601865685196",
-      "description": {
-        "en": "1500 W · 3 bar · 1600ml. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "1500 W · 3 bar · 1600ml。支持 OEM/ODM 定制，规格取自供应商商品资料。"
-      },
-      "supplier_rating": "4.8",
-      "response_time": "≤ 2h",
-      "transactions": "US $100K+",
-      "years": "10+",
-      "ship_from": {
-        "en": "Ningbo, China",
-        "zh": "中国宁波"
-      },
-      "sample": {
-        "enabled": true,
-        "qty": 5,
-        "note": "Sample available, lead 7-14 days"
-      },
-      "category_name": {
-        "en": "Steam Cleaners",
-        "zh": "蒸汽清洁机"
-      },
-      "_source": {
-        "platform": "alibaba.com",
-        "productId": "1601865685196"
-      },
-      "_cat": "steam-cleaner"
+     "icon": "check",
+     "text": {
+      "en": "Power (W): 1500 W",
+      "zh": "功率(W): 1500 W",
+      "es": "Potencia (W): 1500 W",
+      "ar": "القدرة (W): 1500 W",
+      "fr": "Puissance (W): 1500 W",
+      "id": "Daya (W): 1500 W",
+      "ru": "Мощность (Вт): 1500 W",
+      "th": "กำลังไฟ (W): 1500 W",
+      "vi": "Công suất (W): 1500 W"
+     }
     },
     {
-      "id": "ptc-sc-004",
-      "name": {
-        "en": "1500W High Pressure Steam Cleaner Machine 100℃ Hot Steam Portable Multipurpose Cleaning Machine With 1400ml Water Tank",
-        "zh": "1500W 高温蒸汽清洁机（100℃ 便携多用途）"
-      },
-      "tagline": {
-        "en": "1500 W · 3 bar · 1200ml",
-        "zh": "1500 W · 3 bar · 1200ml"
-      },
-      "images": [
-        "https://www.hkdmj.net/assets/images/products/steam-cleaner-ptc-sc-004/01.webp",
-        "https://www.hkdmj.net/assets/images/products/steam-cleaner-ptc-sc-004/02.webp",
-        "https://www.hkdmj.net/assets/images/products/steam-cleaner-ptc-sc-004/03.webp",
-        "https://www.hkdmj.net/assets/images/products/steam-cleaner-ptc-sc-004/04.webp",
-        "https://www.hkdmj.net/assets/images/products/steam-cleaner-ptc-sc-004/05.webp",
-        "https://www.hkdmj.net/assets/images/products/steam-cleaner-ptc-sc-004/06.webp"
-      ],
-      "video_url": null,
-      "moq": {
-        "value": 1,
-        "unit": "pieces"
-      },
-      "certifications": [],
-      "highlights": [
-        {
-          "icon": "check",
-          "text": {
-            "en": "Power (W): 1500 W",
-            "zh": "功率(W): 1500 W"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Steam pressure: 3 bar",
-            "zh": "蒸汽压力: 3 bar"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Water Tank Capacity: 1200ml",
-            "zh": "水箱容量: 1200ml"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Capacity: 1000ml",
-            "zh": "容量: 1000ml"
-          }
-        }
-      ],
-      "specs": [
-        {
-          "label": {
-            "en": "Type",
-            "zh": "类型"
-          },
-          "value": "Water Filter"
-        },
-        {
-          "label": {
-            "en": "Product name",
-            "zh": "Product name"
-          },
-          "value": "Steam Cleaner"
-        },
-        {
-          "label": {
-            "en": "Power Source",
-            "zh": "Power Source"
-          },
-          "value": "Usb"
-        },
-        {
-          "label": {
-            "en": "Function",
-            "zh": "功能"
-          },
-          "value": "Dry"
-        },
-        {
-          "label": {
-            "en": "Keywords",
-            "zh": "Keywords"
-          },
-          "value": "Steam Cleanmer"
-        },
-        {
-          "label": {
-            "en": "Material",
-            "zh": "材质"
-          },
-          "value": "ABS"
-        },
-        {
-          "label": {
-            "en": "Usage",
-            "zh": "Usage"
-          },
-          "value": "Public . Home . Office . Hospital"
-        },
-        {
-          "label": {
-            "en": "Water Tank Capacity",
-            "zh": "水箱容量"
-          },
-          "value": "1200ml"
-        },
-        {
-          "label": {
-            "en": "Color",
-            "zh": "颜色"
-          },
-          "value": "Photo"
-        },
-        {
-          "label": {
-            "en": "Weight (KG)",
-            "zh": "Weight (KG)"
-          },
-          "value": "2kg"
-        },
-        {
-          "label": {
-            "en": "SIZE",
-            "zh": "SIZE"
-          },
-          "value": "20x14.5x13 cm"
-        },
-        {
-          "label": {
-            "en": "Capacity",
-            "zh": "Capacity"
-          },
-          "value": "1000ml"
-        },
-        {
-          "label": {
-            "en": "PACKING",
-            "zh": "PACKING"
-          },
-          "value": "Box Package"
-        },
-        {
-          "label": {
-            "en": "Design",
-            "zh": "Design"
-          },
-          "value": "Handle Slicker Brush"
-        },
-        {
-          "label": {
-            "en": "Steam Pipe Length",
-            "zh": "Steam Pipe Length"
-          },
-          "value": "2.0"
-        },
-        {
-          "label": {
-            "en": "MOQ",
-            "zh": "起订量"
-          },
-          "value": "2 Pcs"
-        },
-        {
-          "label": {
-            "en": "Steam pressure",
-            "zh": "Steam pressure"
-          },
-          "value": "3 bar"
-        },
-        {
-          "label": {
-            "en": "app-controlled",
-            "zh": "app-controlled"
-          },
-          "value": "No"
-        },
-        {
-          "label": {
-            "en": "application",
-            "zh": "application"
-          },
-          "value": "Car"
-        },
-        {
-          "label": {
-            "en": "Installation",
-            "zh": "Installation"
-          },
-          "value": "Handheld"
-        },
-        {
-          "label": {
-            "en": "operating language",
-            "zh": "operating language"
-          },
-          "value": "Spanish"
-        },
-        {
-          "label": {
-            "en": "operating language",
-            "zh": "operating language"
-          },
-          "value": "English"
-        },
-        {
-          "label": {
-            "en": "packaging types",
-            "zh": "packaging types"
-          },
-          "value": "Corrugated Box"
-        },
-        {
-          "label": {
-            "en": "power (w)",
-            "zh": "power (w)"
-          },
-          "value": "1500 W"
-        },
-        {
-          "label": {
-            "en": "warranty",
-            "zh": "warranty"
-          },
-          "value": "1 Year"
-        },
-        {
-          "label": {
-            "en": "place of origin",
-            "zh": "place of origin"
-          },
-          "value": "CN;GUA"
-        },
-        {
-          "label": {
-            "en": "Water Tank Capacity",
-            "zh": "水箱容量"
-          },
-          "value": "1.2L"
-        },
-        {
-          "label": {
-            "en": "Heating Time",
-            "zh": "Heating Time"
-          },
-          "value": "15 s"
-        },
-        {
-          "label": {
-            "en": "Material",
-            "zh": "材质"
-          },
-          "value": "ABS"
-        },
-        {
-          "label": {
-            "en": "model number",
-            "zh": "model number"
-          },
-          "value": "PTC-SC-004"
-        }
-      ],
-      "packaging": {
-        "unit": "Corrugated Box"
-      },
-      "customization": {},
-      "applications": {
-        "en": "",
-        "zh": ""
-      },
-      "price_indicator": null,
-      "quick_specs": [
-        {
-          "label": {
-            "en": "Power (W)",
-            "zh": "功率(W)"
-          },
-          "value": "1500 W"
-        },
-        {
-          "label": {
-            "en": "Steam pressure",
-            "zh": "蒸汽压力"
-          },
-          "value": "3 bar"
-        },
-        {
-          "label": {
-            "en": "Water Tank Capacity",
-            "zh": "水箱容量"
-          },
-          "value": "1200ml"
-        },
-        {
-          "label": {
-            "en": "Capacity",
-            "zh": "容量"
-          },
-          "value": "1000ml"
-        }
-      ],
-      "price_ladder": [],
-      "sku": "1601898271900",
-      "description": {
-        "en": "1500 W · 3 bar · 1200ml. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "1500 W · 3 bar · 1200ml。支持 OEM/ODM 定制，规格取自供应商商品资料。"
-      },
-      "supplier_rating": "4.8",
-      "response_time": "≤ 2h",
-      "transactions": "US $100K+",
-      "years": "10+",
-      "ship_from": {
-        "en": "Ningbo, China",
-        "zh": "中国宁波"
-      },
-      "sample": {
-        "enabled": true,
-        "qty": 5,
-        "note": "Sample available, lead 7-14 days"
-      },
-      "category_name": {
-        "en": "Steam Cleaners",
-        "zh": "蒸汽清洁机"
-      },
-      "_source": {
-        "platform": "alibaba.com",
-        "productId": "1601898271900"
-      },
-      "_cat": "steam-cleaner"
+     "icon": "check",
+     "text": {
+      "en": "Steam pressure: 3 bar",
+      "zh": "蒸汽压力: 3 bar",
+      "es": "Presión de vapor: 3 bar",
+      "ar": "ضغط البخار: 3 bar",
+      "fr": "Pression de vapeur: 3 bar",
+      "id": "Tekanan uap: 3 bar",
+      "ru": "Давление пара: 3 bar",
+      "th": "แรงดันไอน้ำ: 3 bar",
+      "vi": "Áp suất hơi: 3 bar"
+     }
     },
     {
-      "id": "ytc-sc-004",
-      "name": {
-        "en": "1500W Electric High Pressure Steam Cleaner 3BAR Portable Multi-Purpose Household Steam Cleaning Machine for Kitchen Bathroom Car",
-        "zh": "1500W 高压蒸汽清洁机（3Bar 多用途）"
-      },
-      "tagline": {
-        "en": "1500W · 3 bar · 1400 mL",
-        "zh": "1500W · 3 bar · 1400 mL"
-      },
-      "images": [
-        "https://www.hkdmj.net/assets/images/products/steam-cleaner-ytc-sc-004/01.webp",
-        "https://www.hkdmj.net/assets/images/products/steam-cleaner-ytc-sc-004/02.webp",
-        "https://www.hkdmj.net/assets/images/products/steam-cleaner-ytc-sc-004/03.webp",
-        "https://www.hkdmj.net/assets/images/products/steam-cleaner-ytc-sc-004/04.webp",
-        "https://www.hkdmj.net/assets/images/products/steam-cleaner-ytc-sc-004/05.webp",
-        "https://www.hkdmj.net/assets/images/products/steam-cleaner-ytc-sc-004/06.webp"
-      ],
-      "video_url": null,
-      "moq": {
-        "value": 1,
-        "unit": "pieces"
-      },
-      "certifications": [],
-      "highlights": [
-        {
-          "icon": "check",
-          "text": {
-            "en": "Rated Power: 1500W",
-            "zh": "额定功率: 1500W"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Steam pressure: 3 bar",
-            "zh": "蒸汽压力: 3 bar"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Water Tank Capacity: 1400 mL",
-            "zh": "水箱容量: 1400 mL"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Heating Time: 15s",
-            "zh": "加热时间: 15s"
-          }
-        }
-      ],
-      "specs": [
-        {
-          "label": {
-            "en": "Water Tank Capacity",
-            "zh": "水箱容量"
-          },
-          "value": "1400 mL"
-        },
-        {
-          "label": {
-            "en": "Rated Power",
-            "zh": "Rated Power"
-          },
-          "value": "1500W"
-        },
-        {
-          "label": {
-            "en": "Adjustable Gears",
-            "zh": "Adjustable Gears"
-          },
-          "value": "3 gears adjustable"
-        },
-        {
-          "label": {
-            "en": "Product Dimension",
-            "zh": "Product Dimension"
-          },
-          "value": "21*14.5*14.2 cm"
-        },
-        {
-          "label": {
-            "en": "Maximum Runtime",
-            "zh": "Maximum Runtime"
-          },
-          "value": "30 min"
-        },
-        {
-          "label": {
-            "en": "Steam pressure",
-            "zh": "Steam pressure"
-          },
-          "value": "3 bar"
-        },
-        {
-          "label": {
-            "en": "app-controlled",
-            "zh": "app-controlled"
-          },
-          "value": "No"
-        },
-        {
-          "label": {
-            "en": "application",
-            "zh": "application"
-          },
-          "value": "Household"
-        },
-        {
-          "label": {
-            "en": "Installation",
-            "zh": "Installation"
-          },
-          "value": "Handheld"
-        },
-        {
-          "label": {
-            "en": "operating language",
-            "zh": "operating language"
-          },
-          "value": "English"
-        },
-        {
-          "label": {
-            "en": "packaging types",
-            "zh": "packaging types"
-          },
-          "value": "Corrugated Box"
-        },
-        {
-          "label": {
-            "en": "packaging types",
-            "zh": "packaging types"
-          },
-          "value": "Color Box"
-        },
-        {
-          "label": {
-            "en": "power (w)",
-            "zh": "power (w)"
-          },
-          "value": "1500 W"
-        },
-        {
-          "label": {
-            "en": "Power Source",
-            "zh": "Power Source"
-          },
-          "value": "Electric"
-        },
-        {
-          "label": {
-            "en": "private mold",
-            "zh": "private mold"
-          },
-          "value": "No"
-        },
-        {
-          "label": {
-            "en": "warranty",
-            "zh": "warranty"
-          },
-          "value": "1 Year"
-        },
-        {
-          "label": {
-            "en": "place of origin",
-            "zh": "place of origin"
-          },
-          "value": "CN"
-        },
-        {
-          "label": {
-            "en": "Water Tank Capacity",
-            "zh": "水箱容量"
-          },
-          "value": "1400ml"
-        },
-        {
-          "label": {
-            "en": "brand name",
-            "zh": "brand name"
-          },
-          "value": "OEM"
-        },
-        {
-          "label": {
-            "en": "Heating Time",
-            "zh": "Heating Time"
-          },
-          "value": "15s"
-        },
-        {
-          "label": {
-            "en": "Material",
-            "zh": "材质"
-          },
-          "value": "PP"
-        },
-        {
-          "label": {
-            "en": "model number",
-            "zh": "model number"
-          },
-          "value": "YTC-SC-004"
-        }
-      ],
-      "packaging": {
-        "unit": "Color Box"
-      },
-      "customization": {},
-      "applications": {
-        "en": "",
-        "zh": ""
-      },
-      "price_indicator": null,
-      "quick_specs": [
-        {
-          "label": {
-            "en": "Rated Power",
-            "zh": "额定功率"
-          },
-          "value": "1500W"
-        },
-        {
-          "label": {
-            "en": "Steam pressure",
-            "zh": "蒸汽压力"
-          },
-          "value": "3 bar"
-        },
-        {
-          "label": {
-            "en": "Water Tank Capacity",
-            "zh": "水箱容量"
-          },
-          "value": "1400 mL"
-        },
-        {
-          "label": {
-            "en": "Heating Time",
-            "zh": "加热时间"
-          },
-          "value": "15s"
-        }
-      ],
-      "price_ladder": [],
-      "sku": "1601905921428",
-      "description": {
-        "en": "1500W · 3 bar · 1400 mL. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "1500W · 3 bar · 1400 mL。支持 OEM/ODM 定制，规格取自供应商商品资料。"
-      },
-      "supplier_rating": "4.8",
-      "response_time": "≤ 2h",
-      "transactions": "US $100K+",
-      "years": "10+",
-      "ship_from": {
-        "en": "Ningbo, China",
-        "zh": "中国宁波"
-      },
-      "sample": {
-        "enabled": true,
-        "qty": 5,
-        "note": "Sample available, lead 7-14 days"
-      },
-      "category_name": {
-        "en": "Steam Cleaners",
-        "zh": "蒸汽清洁机"
-      },
-      "_source": {
-        "platform": "alibaba.com",
-        "productId": "1601905921428"
-      },
-      "_cat": "steam-cleaner"
+     "icon": "check",
+     "text": {
+      "en": "Water Tank Capacity: 1600ml",
+      "zh": "水箱容量: 1600ml",
+      "es": "Capacidad del depósito de agua: 1600ml",
+      "ar": "سعة خزان الماء: 1600ml",
+      "fr": "Capacité du réservoir d'eau: 1600ml",
+      "id": "Kapasitas Tangki Air: 1600ml",
+      "ru": "Объём бака для воды: 1600ml",
+      "th": "ความจุถังน้ำ: 1600ml",
+      "vi": "Dung tích bình nước: 1600ml"
+     }
     },
     {
-      "id": "ytc-sc-002",
-      "name": {
-        "en": "1500W Electric Handheld Portable Steam Cleaner 3BAR High Pressure 100C 1200ML Tank 15S Fast Heating 6 Speed Home Use",
-        "zh": "YTC-SC-002 手持高压蒸汽清洁机（1500W / 1200ml / 6 档 / 100℃）"
-      },
-      "tagline": {
-        "en": "1500W · 3 bar · 1200 mL",
-        "zh": "1500W · 3 bar · 1200 mL"
-      },
-      "images": [
-        "https://www.hkdmj.net/assets/images/products/steam-cleaner-ytc-sc-002/01.webp",
-        "https://www.hkdmj.net/assets/images/products/steam-cleaner-ytc-sc-002/02.webp",
-        "https://www.hkdmj.net/assets/images/products/steam-cleaner-ytc-sc-002/03.webp",
-        "https://www.hkdmj.net/assets/images/products/steam-cleaner-ytc-sc-002/04.webp",
-        "https://www.hkdmj.net/assets/images/products/steam-cleaner-ytc-sc-002/05.webp",
-        "https://www.hkdmj.net/assets/images/products/steam-cleaner-ytc-sc-002/06.webp"
-      ],
-      "video_url": null,
-      "moq": {
-        "value": 1,
-        "unit": "pieces"
-      },
-      "certifications": [],
-      "highlights": [
-        {
-          "icon": "check",
-          "text": {
-            "en": "Rated Power: 1500W",
-            "zh": "额定功率: 1500W"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Steam pressure: 3 bar",
-            "zh": "蒸汽压力: 3 bar"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Water Tank Capacity: 1200 mL",
-            "zh": "水箱容量: 1200 mL"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Heating Time: 15s",
-            "zh": "加热时间: 15s"
-          }
-        }
-      ],
-      "specs": [
-        {
-          "label": {
-            "en": "Water Tank Capacity",
-            "zh": "水箱容量"
-          },
-          "value": "1200 mL"
-        },
-        {
-          "label": {
-            "en": "Rated Power",
-            "zh": "Rated Power"
-          },
-          "value": "1500W"
-        },
-        {
-          "label": {
-            "en": "Adjustable Gears",
-            "zh": "Adjustable Gears"
-          },
-          "value": "6 gears adjustable"
-        },
-        {
-          "label": {
-            "en": "Product Dimension",
-            "zh": "Product Dimension"
-          },
-          "value": "21*15*13 cm"
-        },
-        {
-          "label": {
-            "en": "Maximum Runtime",
-            "zh": "Maximum Runtime"
-          },
-          "value": "30 min"
-        },
-        {
-          "label": {
-            "en": "Steam pressure",
-            "zh": "Steam pressure"
-          },
-          "value": "3 bar"
-        },
-        {
-          "label": {
-            "en": "app-controlled",
-            "zh": "app-controlled"
-          },
-          "value": "No"
-        },
-        {
-          "label": {
-            "en": "application",
-            "zh": "application"
-          },
-          "value": "Household"
-        },
-        {
-          "label": {
-            "en": "Installation",
-            "zh": "Installation"
-          },
-          "value": "Handheld"
-        },
-        {
-          "label": {
-            "en": "operating language",
-            "zh": "operating language"
-          },
-          "value": "English"
-        },
-        {
-          "label": {
-            "en": "packaging types",
-            "zh": "packaging types"
-          },
-          "value": "Corrugated Box"
-        },
-        {
-          "label": {
-            "en": "packaging types",
-            "zh": "packaging types"
-          },
-          "value": "Color Box"
-        },
-        {
-          "label": {
-            "en": "power (w)",
-            "zh": "功率(W)"
-          },
-          "value": "1500 W"
-        },
-        {
-          "label": {
-            "en": "Power Source",
-            "zh": "Power Source"
-          },
-          "value": "Electric"
-        },
-        {
-          "label": {
-            "en": "private mold",
-            "zh": "private mold"
-          },
-          "value": "No"
-        },
-        {
-          "label": {
-            "en": "warranty",
-            "zh": "warranty"
-          },
-          "value": "1 Year"
-        },
-        {
-          "label": {
-            "en": "place of origin",
-            "zh": "place of origin"
-          },
-          "value": "CN"
-        },
-        {
-          "label": {
-            "en": "Water Tank Capacity",
-            "zh": "水箱容量"
-          },
-          "value": "1L"
-        },
-        {
-          "label": {
-            "en": "brand name",
-            "zh": "brand name"
-          },
-          "value": "OEM"
-        },
-        {
-          "label": {
-            "en": "Heating Time",
-            "zh": "Heating Time"
-          },
-          "value": "15s"
-        },
-        {
-          "label": {
-            "en": "Material",
-            "zh": "材质"
-          },
-          "value": "PP"
-        },
-        {
-          "label": {
-            "en": "model number",
-            "zh": "model number"
-          },
-          "value": "YTC-SC-002"
-        }
-      ],
-      "packaging": {
-        "unit": "Color Box"
-      },
-      "customization": {},
-      "applications": {
-        "en": "",
-        "zh": ""
-      },
-      "price_indicator": null,
-      "quick_specs": [
-        {
-          "label": {
-            "en": "Rated Power",
-            "zh": "额定功率"
-          },
-          "value": "1500W"
-        },
-        {
-          "label": {
-            "en": "Steam pressure",
-            "zh": "蒸汽压力"
-          },
-          "value": "3 bar"
-        },
-        {
-          "label": {
-            "en": "Water Tank Capacity",
-            "zh": "水箱容量"
-          },
-          "value": "1200 mL"
-        },
-        {
-          "label": {
-            "en": "Heating Time",
-            "zh": "加热时间"
-          },
-          "value": "15s"
-        }
-      ],
-      "price_ladder": [],
-      "sku": "1601916489702",
-      "description": {
-        "en": "1500W · 3 bar · 1200 mL. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "1500W · 3 bar · 1200 mL。支持 OEM/ODM 定制，规格取自供应商商品资料。"
-      },
-      "supplier_rating": "4.8",
-      "response_time": "≤ 2h",
-      "transactions": "US $100K+",
-      "years": "10+",
-      "ship_from": {
-        "en": "Ningbo, China",
-        "zh": "中国宁波"
-      },
-      "sample": {
-        "enabled": true,
-        "qty": 5,
-        "note": "Sample available, lead 7-14 days"
-      },
-      "category_name": {
-        "en": "Steam Cleaners",
-        "zh": "蒸汽清洁机"
-      },
-      "_source": {
-        "platform": "alibaba.com",
-        "productId": "1601916489702"
-      },
-      "_cat": "steam-cleaner"
-    },
-    {
-      "id": "f403",
-      "name": {
-        "en": "Portable Handheld Steam Cleaner High Pressure Steam Cleaning Machine Multi Purpose Home Kitchen Car Cleaner 3Bar OEM ODM",
-        "zh": "F403 紧凑高压蒸汽清洁机（1500W / 1000ml / 3Bar）"
-      },
-      "tagline": {
-        "en": "1500 W · 3 bar · 1000ml",
-        "zh": "1500 W · 3 bar · 1000ml"
-      },
-      "images": [
-        "https://www.hkdmj.net/assets/images/products/steam-cleaner-f403/01.webp",
-        "https://www.hkdmj.net/assets/images/products/steam-cleaner-f403/02.webp",
-        "https://www.hkdmj.net/assets/images/products/steam-cleaner-f403/03.webp",
-        "https://www.hkdmj.net/assets/images/products/steam-cleaner-f403/04.webp",
-        "https://www.hkdmj.net/assets/images/products/steam-cleaner-f403/05.webp",
-        "https://www.hkdmj.net/assets/images/products/steam-cleaner-f403/06.webp"
-      ],
-      "video_url": null,
-      "moq": {
-        "value": 1,
-        "unit": "pieces"
-      },
-      "certifications": [],
-      "highlights": [
-        {
-          "icon": "check",
-          "text": {
-            "en": "Power (W): 1500 W",
-            "zh": "功率(W): 1500 W"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Steam pressure: 3 bar",
-            "zh": "蒸汽压力: 3 bar"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Water Tank Capacity: 1000ml",
-            "zh": "水箱容量: 1000ml"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Heating Time: 0–60 s",
-            "zh": "加热时间: 0–60 s"
-          }
-        }
-      ],
-      "specs": [
-        {
-          "label": {
-            "en": "Type",
-            "zh": "类型"
-          },
-          "value": "Water Filter"
-        },
-        {
-          "label": {
-            "en": "Product name",
-            "zh": "Product name"
-          },
-          "value": "Steam Cleaner"
-        },
-        {
-          "label": {
-            "en": "Power Source",
-            "zh": "Power Source"
-          },
-          "value": "Usb"
-        },
-        {
-          "label": {
-            "en": "Function",
-            "zh": "功能"
-          },
-          "value": "Dry"
-        },
-        {
-          "label": {
-            "en": "Keywords",
-            "zh": "Keywords"
-          },
-          "value": "Steam Cleanmer"
-        },
-        {
-          "label": {
-            "en": "Material",
-            "zh": "材质"
-          },
-          "value": "ABS"
-        },
-        {
-          "label": {
-            "en": "Usage",
-            "zh": "Usage"
-          },
-          "value": "Public . Home . Office . Hospital"
-        },
-        {
-          "label": {
-            "en": "Water Tank Capacity",
-            "zh": "水箱容量"
-          },
-          "value": "1000ml"
-        },
-        {
-          "label": {
-            "en": "Color",
-            "zh": "颜色"
-          },
-          "value": "Photo"
-        },
-        {
-          "label": {
-            "en": "Weight (KG)",
-            "zh": "Weight (KG)"
-          },
-          "value": "2kg"
-        },
-        {
-          "label": {
-            "en": "SIZE",
-            "zh": "SIZE"
-          },
-          "value": "20x14.5x13 cm"
-        },
-        {
-          "label": {
-            "en": "Capacity",
-            "zh": "Capacity"
-          },
-          "value": "1000ml"
-        },
-        {
-          "label": {
-            "en": "PACKING",
-            "zh": "PACKING"
-          },
-          "value": "Box Package"
-        },
-        {
-          "label": {
-            "en": "Design",
-            "zh": "Design"
-          },
-          "value": "Handle Slicker Brush"
-        },
-        {
-          "label": {
-            "en": "Steam Pipe Length",
-            "zh": "Steam Pipe Length"
-          },
-          "value": "2.0"
-        },
-        {
-          "label": {
-            "en": "MOQ",
-            "zh": "起订量"
-          },
-          "value": "2 Pcs"
-        },
-        {
-          "label": {
-            "en": "Steam pressure",
-            "zh": "Steam pressure"
-          },
-          "value": "3 bar"
-        },
-        {
-          "label": {
-            "en": "app-controlled",
-            "zh": "app-controlled"
-          },
-          "value": "No"
-        },
-        {
-          "label": {
-            "en": "application",
-            "zh": "application"
-          },
-          "value": "Car"
-        },
-        {
-          "label": {
-            "en": "Heating Time",
-            "zh": "Heating Time"
-          },
-          "value": "0–60 s"
-        },
-        {
-          "label": {
-            "en": "Installation",
-            "zh": "Installation"
-          },
-          "value": "Handheld"
-        },
-        {
-          "label": {
-            "en": "Material",
-            "zh": "材质"
-          },
-          "value": "Plastic"
-        },
-        {
-          "label": {
-            "en": "operating language",
-            "zh": "operating language"
-          },
-          "value": "Spanish"
-        },
-        {
-          "label": {
-            "en": "operating language",
-            "zh": "operating language"
-          },
-          "value": "English"
-        },
-        {
-          "label": {
-            "en": "packaging types",
-            "zh": "packaging types"
-          },
-          "value": "Corrugated Box"
-        },
-        {
-          "label": {
-            "en": "power (w)",
-            "zh": "功率(W)"
-          },
-          "value": "1500 W"
-        },
-        {
-          "label": {
-            "en": "warranty",
-            "zh": "warranty"
-          },
-          "value": "1 Year"
-        },
-        {
-          "label": {
-            "en": "place of origin",
-            "zh": "place of origin"
-          },
-          "value": "CN;GUA"
-        },
-        {
-          "label": {
-            "en": "Water Tank Capacity",
-            "zh": "水箱容量"
-          },
-          "value": "1 L"
-        },
-        {
-          "label": {
-            "en": "model number",
-            "zh": "model number"
-          },
-          "value": "F403"
-        }
-      ],
-      "packaging": {
-        "unit": "Corrugated Box"
-      },
-      "customization": {},
-      "applications": {
-        "en": "",
-        "zh": ""
-      },
-      "price_indicator": null,
-      "quick_specs": [
-        {
-          "label": {
-            "en": "Power (W)",
-            "zh": "功率(W)"
-          },
-          "value": "1500 W"
-        },
-        {
-          "label": {
-            "en": "Steam pressure",
-            "zh": "蒸汽压力"
-          },
-          "value": "3 bar"
-        },
-        {
-          "label": {
-            "en": "Water Tank Capacity",
-            "zh": "水箱容量"
-          },
-          "value": "1000ml"
-        },
-        {
-          "label": {
-            "en": "Heating Time",
-            "zh": "加热时间"
-          },
-          "value": "0–60 s"
-        }
-      ],
-      "price_ladder": [],
-      "sku": "1601906086131",
-      "description": {
-        "en": "1500 W · 3 bar · 1000ml. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "1500 W · 3 bar · 1000ml。支持 OEM/ODM 定制，规格取自供应商商品资料。"
-      },
-      "supplier_rating": "4.8",
-      "response_time": "≤ 2h",
-      "transactions": "US $100K+",
-      "years": "10+",
-      "ship_from": {
-        "en": "Ningbo, China",
-        "zh": "中国宁波"
-      },
-      "sample": {
-        "enabled": true,
-        "qty": 5,
-        "note": "Sample available, lead 7-14 days"
-      },
-      "category_name": {
-        "en": "Steam Cleaners",
-        "zh": "蒸汽清洁机"
-      },
-      "_source": {
-        "platform": "alibaba.com",
-        "productId": "1601906086131"
-      },
-      "_cat": "steam-cleaner"
+     "icon": "check",
+     "text": {
+      "en": "Heating Time: 15 s",
+      "zh": "加热时间: 15 s",
+      "es": "Tiempo de calentamiento: 15 s",
+      "ar": "زمن التسخين: 15 s",
+      "fr": "Temps de chauffe: 15 s",
+      "id": "Waktu Pemanasan: 15 s",
+      "ru": "Время нагрева: 15 s",
+      "th": "เวลาในการทำความร้อน: 15 s",
+      "vi": "Thời gian gia nhiệt: 15 s"
+     }
     }
-  ],
-  "reviews": [
+   ],
+   "specs": [
     {
-      "name": "Anna Kowalski",
-      "location": "Warsaw, Poland",
-      "rating": 5,
-      "date": "2025-11-28",
-      "title": "Cleans grout without any chemicals — our kitchen looks brand new",
-      "body": "After months of trying every cleaner on the market, one round with this steam cleaner and the grout between our kitchen tiles is white again. No chemicals, just water. The 1.5L tank gives about 25 minutes of continuous steam.",
-      "photoUrls": [
-        "https://www.hkdmj.net/assets/images/products/steam-cleaner-d09s/01.webp",
-        "https://www.hkdmj.net/assets/images/products/steam-cleaner-d09s/02.webp"
-      ]
+     "label": {
+      "en": "Type",
+      "zh": "类型",
+      "es": "Tipo",
+      "ar": "النوع",
+      "fr": "Type",
+      "id": "Tipe",
+      "ru": "Тип",
+      "th": "ประเภท",
+      "vi": "Loại"
+     },
+     "value": {
+      "en": "Water Filter",
+      "es": "Filtro de agua",
+      "ar": "فلتر ماء",
+      "fr": "Filtre à eau",
+      "id": "Filter Air",
+      "ru": "Водяной фильтр",
+      "th": "ตัวกรองน้ำ",
+      "vi": "Bộ lọc nước"
+     }
     },
     {
-      "name": "Rachel Thompson",
-      "location": "Auckland, New Zealand",
-      "rating": 5,
-      "date": "2025-09-14",
-      "title": "Steam mops are the only way to clean hardwood without warping it",
-      "body": "Our realtor recommended we get a steam mop before listing our house. The variable steam settings let us use it safely on our laminate flooring. It comes with 10 accessories and they all snap on easily. Great product.",
-      "photoUrls": [
-        "https://www.hkdmj.net/assets/images/products/steam-cleaner-d09s/01.webp",
-        "https://www.hkdmj.net/assets/images/products/steam-cleaner-d09s/02.webp"
-      ]
+     "label": {
+      "en": "Product name",
+      "zh": "Product name",
+      "es": "Nombre del producto",
+      "ar": "اسم المنتج",
+      "fr": "Nom du produit",
+      "id": "Nama produk",
+      "ru": "Название товара",
+      "th": "ชื่อสินค้า",
+      "vi": "Tên sản phẩm"
+     },
+     "value": {
+      "en": "Steam Cleaner",
+      "es": "Limpiador a Vapor",
+      "ar": "منظف بالبخار",
+      "fr": "Nettoyeur vapeur",
+      "id": "Pembersih Uap",
+      "ru": "Пароочиститель",
+      "th": "เครื่องทำความสะอาดด้วยไอน้ำ",
+      "vi": "Máy hơi nước làm sạch"
+     }
     },
     {
-      "name": "Henrik Larsen",
-      "location": "Copenhagen, Denmark",
-      "rating": 5,
-      "date": "2025-07-05",
-      "title": "Industrial quality at consumer price — we ordered 500 units",
-      "body": "We run a cleaning company and needed reliable equipment. This steamer has been running 6 hours a day for 3 months with no issues. The accessories kit is comprehensive and the unit heats up in under 30 seconds.",
-      "photoUrls": [
-        "https://www.hkdmj.net/assets/images/products/steam-cleaner-d09s/01.webp",
-        "https://www.hkdmj.net/assets/images/products/steam-cleaner-d09s/02.webp"
-      ]
+     "label": {
+      "en": "Power Source",
+      "zh": "Power Source",
+      "es": "Fuente de alimentación",
+      "ar": "مصدر الطاقة",
+      "fr": "Source d'alimentation",
+      "id": "Sumber Daya",
+      "ru": "Источник питания",
+      "th": "แหล่งจ่ายไฟ",
+      "vi": "Nguồn điện"
+     },
+     "value": {
+      "en": "Usb",
+      "es": "Usb",
+      "ar": "Usb",
+      "fr": "Usb",
+      "id": "Usb",
+      "ru": "Usb",
+      "th": "Usb",
+      "vi": "Usb"
+     }
+    },
+    {
+     "label": {
+      "en": "Function",
+      "zh": "功能",
+      "es": "Función",
+      "ar": "الوظيفة",
+      "fr": "Fonction",
+      "id": "Fungsi",
+      "ru": "Функция",
+      "th": "ฟังก์ชัน",
+      "vi": "Chức năng"
+     },
+     "value": {
+      "en": "Dry",
+      "es": "Seco",
+      "ar": "جاف",
+      "fr": "Sec",
+      "id": "Kering",
+      "ru": "Сухая уборка",
+      "th": "แห้ง",
+      "vi": "Khô"
+     }
+    },
+    {
+     "label": {
+      "en": "Keywords",
+      "zh": "Keywords",
+      "es": "Palabras clave",
+      "ar": "الكلمات المفتاحية",
+      "fr": "Mots-clés",
+      "id": "Kata Kunci",
+      "ru": "Ключевые слова",
+      "th": "คำค้นหา",
+      "vi": "Từ khóa"
+     },
+     "value": {
+      "en": "Steam Cleanmer",
+      "es": "Limpiador a vapor",
+      "ar": "منظف بالبخار",
+      "fr": "Nettoyeur vapeur",
+      "id": "Pembersih Uap",
+      "ru": "Пароочиститель",
+      "th": "เครื่องทำความสะอาดด้วยไอน้ำ",
+      "vi": "Máy hơi nước làm sạch"
+     }
+    },
+    {
+     "label": {
+      "en": "Material",
+      "zh": "材质",
+      "es": "Material",
+      "ar": "المادة",
+      "fr": "Matériau",
+      "id": "Material",
+      "ru": "Материал",
+      "th": "วัสดุ",
+      "vi": "Chất liệu"
+     },
+     "value": {
+      "en": "ABS",
+      "es": "ABS",
+      "ar": "ABS",
+      "fr": "ABS",
+      "id": "ABS",
+      "ru": "ABS",
+      "th": "ABS",
+      "vi": "ABS"
+     }
+    },
+    {
+     "label": {
+      "en": "Usage",
+      "zh": "Usage",
+      "es": "Uso",
+      "ar": "الاستخدام",
+      "fr": "Utilisation",
+      "id": "Penggunaan",
+      "ru": "Использование",
+      "th": "การใช้งาน",
+      "vi": "Mục đích sử dụng"
+     },
+     "value": {
+      "en": "Public . Home . Office . Hospital",
+      "es": "Público . Hogar . Oficina . Hospital",
+      "ar": "أماكن عامة . منزل . مكتب . مستشفى",
+      "fr": "Public . Maison . Bureau . Hôpital",
+      "id": "Publik . Rumah . Kantor . Rumah Sakit",
+      "ru": "Общественные места . Дом . Офис . Больница",
+      "th": "สาธารณะ . บ้าน . ออฟฟิศ . โรงพยาบาล",
+      "vi": "Công cộng . Nhà . Văn phòng . Bệnh viện"
+     }
+    },
+    {
+     "label": {
+      "en": "Water Tank Capacity",
+      "zh": "水箱容量",
+      "es": "Capacidad del depósito de agua",
+      "ar": "سعة خزان الماء",
+      "fr": "Capacité du réservoir d'eau",
+      "id": "Kapasitas Tangki Air",
+      "ru": "Объём бака для воды",
+      "th": "ความจุถังน้ำ",
+      "vi": "Dung tích bình nước"
+     },
+     "value": {
+      "en": "1600ml",
+      "es": "1600ml",
+      "ar": "1600ml",
+      "fr": "1600ml",
+      "id": "1600ml",
+      "ru": "1600ml",
+      "th": "1600ml",
+      "vi": "1600ml"
+     }
+    },
+    {
+     "label": {
+      "en": "Color",
+      "zh": "颜色",
+      "es": "Color",
+      "ar": "اللون",
+      "fr": "Couleur",
+      "id": "Warna",
+      "ru": "Цвет",
+      "th": "สี",
+      "vi": "Màu sắc"
+     },
+     "value": {
+      "en": "Photo",
+      "es": "Foto",
+      "ar": "صورة",
+      "fr": "Photo",
+      "id": "Foto",
+      "ru": "Фото",
+      "th": "รูปภาพ",
+      "vi": "Ảnh"
+     }
+    },
+    {
+     "label": {
+      "en": "Weight (KG)",
+      "zh": "Weight (KG)",
+      "es": "Peso (kg)",
+      "ar": "الوزن (KG)",
+      "fr": "Poids (kg)",
+      "id": "Berat (KG)",
+      "ru": "Вес (кг)",
+      "th": "น้ำหนัก (KG)",
+      "vi": "Trọng lượng (KG)"
+     },
+     "value": {
+      "en": "2kg",
+      "es": "2kg",
+      "ar": "2kg",
+      "fr": "2kg",
+      "id": "2kg",
+      "ru": "2kg",
+      "th": "2kg",
+      "vi": "2kg"
+     }
+    },
+    {
+     "label": {
+      "en": "SIZE",
+      "zh": "SIZE",
+      "es": "Tamaño",
+      "ar": "الحجم",
+      "fr": "Taille",
+      "id": "Ukuran",
+      "ru": "Размер",
+      "th": "ขนาด",
+      "vi": "Kích thước"
+     },
+     "value": {
+      "en": "20x14.5x13 cm",
+      "es": "20x14.5x13 cm",
+      "ar": "20x14.5x13 cm",
+      "fr": "20x14.5x13 cm",
+      "id": "20x14.5x13 cm",
+      "ru": "20x14.5x13 cm",
+      "th": "20x14.5x13 cm",
+      "vi": "20x14.5x13 cm"
+     }
+    },
+    {
+     "label": {
+      "en": "Capacity",
+      "zh": "Capacity",
+      "es": "Capacidad",
+      "ar": "السعة",
+      "fr": "Capacité",
+      "id": "Kapasitas",
+      "ru": "Ёмкость",
+      "th": "ความจุ",
+      "vi": "Dung tích"
+     },
+     "value": {
+      "en": "1600ml",
+      "es": "1600ml",
+      "ar": "1600ml",
+      "fr": "1600ml",
+      "id": "1600ml",
+      "ru": "1600ml",
+      "th": "1600ml",
+      "vi": "1600ml"
+     }
+    },
+    {
+     "label": {
+      "en": "PACKING",
+      "zh": "PACKING",
+      "es": "Embalaje",
+      "ar": "التغليف",
+      "fr": "Conditionnement",
+      "id": "Kemasan",
+      "ru": "Упаковка",
+      "th": "บรรจุภัณฑ์",
+      "vi": "Đóng gói"
+     },
+     "value": {
+      "en": "Box Package",
+      "es": "Embalaje en caja",
+      "ar": "تغليف بصندوق",
+      "fr": "Emballage en boîte",
+      "id": "Kemasan Kotak",
+      "ru": "Упаковка в коробку",
+      "th": "บรรจุภัณฑ์แบบกล่อง",
+      "vi": "Đóng gói hộp"
+     }
+    },
+    {
+     "label": {
+      "en": "Design",
+      "zh": "Design",
+      "es": "Diseño",
+      "ar": "التصميم",
+      "fr": "Design",
+      "id": "Desain",
+      "ru": "Дизайн",
+      "th": "ดีไซน์",
+      "vi": "Thiết kế"
+     },
+     "value": {
+      "en": "Handle Slicker Brush",
+      "es": "Cepillo slicker con mango",
+      "ar": "فرشاة تسليك بمقبض",
+      "fr": "Brosse de toilettage",
+      "id": "Sikat Slicker dengan Gagang",
+      "ru": "Щётка с ручкой",
+      "th": "แปรงขัดแบบมีด้ามจับ",
+      "vi": "Chổi chải lông"
+     }
+    },
+    {
+     "label": {
+      "en": "Steam Pipe Length",
+      "zh": "Steam Pipe Length",
+      "es": "Longitud del tubo de vapor",
+      "ar": "طول أنبوب البخار",
+      "fr": "Longueur du tuyau de vapeur",
+      "id": "Panjang Pipa Uap",
+      "ru": "Длина паровой трубки",
+      "th": "ความยาวท่อไอน้ำ",
+      "vi": "Chiều dài ống hơi"
+     },
+     "value": {
+      "en": "2.0",
+      "es": "2.0",
+      "ar": "2.0",
+      "fr": "2.0",
+      "id": "2.0",
+      "ru": "2.0",
+      "th": "2.0",
+      "vi": "2.0"
+     }
+    },
+    {
+     "label": {
+      "en": "MOQ",
+      "zh": "起订量",
+      "es": "MOQ",
+      "ar": "MOQ",
+      "fr": "MOQ",
+      "id": "MOQ",
+      "ru": "MOQ",
+      "th": "MOQ",
+      "vi": "MOQ"
+     },
+     "value": {
+      "en": "2 Pcs",
+      "es": "2 Pcs",
+      "ar": "2 Pcs",
+      "fr": "2 Pcs",
+      "id": "2 Pcs",
+      "ru": "2 Pcs",
+      "th": "2 Pcs",
+      "vi": "2 Pcs"
+     }
+    },
+    {
+     "label": {
+      "en": "Steam pressure",
+      "zh": "Steam pressure",
+      "es": "Presión de vapor",
+      "ar": "ضغط البخار",
+      "fr": "Pression de vapeur",
+      "id": "Tekanan uap",
+      "ru": "Давление пара",
+      "th": "แรงดันไอน้ำ",
+      "vi": "Áp suất hơi"
+     },
+     "value": {
+      "en": "3 bar",
+      "es": "3 bar",
+      "ar": "3 bar",
+      "fr": "3 bar",
+      "id": "3 bar",
+      "ru": "3 bar",
+      "th": "3 bar",
+      "vi": "3 bar"
+     }
+    },
+    {
+     "label": {
+      "en": "app-controlled",
+      "zh": "app-controlled",
+      "es": "control por app",
+      "ar": "يُتحكم به عبر التطبيق",
+      "fr": "contrôlé par application",
+      "id": "dikendalikan aplikasi",
+      "ru": "управление через приложение",
+      "th": "ควบคุมผ่านแอป",
+      "vi": "điều khiển qua app"
+     },
+     "value": {
+      "en": "No",
+      "es": "No",
+      "ar": "لا",
+      "fr": "Non",
+      "id": "Tidak",
+      "ru": "Нет",
+      "th": "ไม่",
+      "vi": "Không"
+     }
+    },
+    {
+     "label": {
+      "en": "application",
+      "zh": "application",
+      "es": "aplicación",
+      "ar": "التطبيق",
+      "fr": "utilisation",
+      "id": "aplikasi",
+      "ru": "применение",
+      "th": "การใช้งาน",
+      "vi": "ứng dụng"
+     },
+     "value": {
+      "en": "Household",
+      "es": "Hogar",
+      "ar": "منزلي",
+      "fr": "Ménager",
+      "id": "Rumah tangga",
+      "ru": "Бытовой",
+      "th": "ใช้ในบ้าน",
+      "vi": "Gia dụng"
+     }
+    },
+    {
+     "label": {
+      "en": "application",
+      "zh": "application",
+      "es": "aplicación",
+      "ar": "التطبيق",
+      "fr": "utilisation",
+      "id": "aplikasi",
+      "ru": "применение",
+      "th": "การใช้งาน",
+      "vi": "ứng dụng"
+     },
+     "value": {
+      "en": "Car",
+      "es": "Coche",
+      "ar": "سيارة",
+      "fr": "Voiture",
+      "id": "Mobil",
+      "ru": "Автомобиль",
+      "th": "รถยนต์",
+      "vi": "Ô tô"
+     }
+    },
+    {
+     "label": {
+      "en": "application",
+      "zh": "application",
+      "es": "aplicación",
+      "ar": "التطبيق",
+      "fr": "utilisation",
+      "id": "aplikasi",
+      "ru": "применение",
+      "th": "การใช้งาน",
+      "vi": "ứng dụng"
+     },
+     "value": {
+      "en": "Outdoor",
+      "es": "Exterior",
+      "ar": "في الهواء الطلق",
+      "fr": "Extérieur",
+      "id": "Luar Ruangan",
+      "ru": "Уличный",
+      "th": "กลางแจ้ง",
+      "vi": "Ngoài trời"
+     }
+    },
+    {
+     "label": {
+      "en": "application",
+      "zh": "application",
+      "es": "aplicación",
+      "ar": "التطبيق",
+      "fr": "utilisation",
+      "id": "aplikasi",
+      "ru": "применение",
+      "th": "การใช้งาน",
+      "vi": "ứng dụng"
+     },
+     "value": {
+      "en": "Hotel",
+      "es": "Hotel",
+      "ar": "فندق",
+      "fr": "Hôtel",
+      "id": "Hotel",
+      "ru": "Отель",
+      "th": "โรงแรม",
+      "vi": "Khách sạn"
+     }
+    },
+    {
+     "label": {
+      "en": "Installation",
+      "zh": "Installation",
+      "es": "Instalación",
+      "ar": "التركيب",
+      "fr": "Installation",
+      "id": "Instalasi",
+      "ru": "Установка",
+      "th": "การติดตั้ง",
+      "vi": "Lắp đặt"
+     },
+     "value": {
+      "en": "Handheld",
+      "es": "De mano",
+      "ar": "يدوية",
+      "fr": "À main",
+      "id": "Genggam",
+      "ru": "Ручной",
+      "th": "แบบพกพา",
+      "vi": "Cầm tay"
+     }
+    },
+    {
+     "label": {
+      "en": "packaging types",
+      "zh": "packaging types",
+      "es": "tipos de embalaje",
+      "ar": "أنواع التغليف",
+      "fr": "types d'emballage",
+      "id": "jenis kemasan",
+      "ru": "типы упаковки",
+      "th": "ประเภทบรรจุภัณฑ์",
+      "vi": "loại bao bì"
+     },
+     "value": {
+      "en": "Corrugated Box",
+      "es": "Caja de cartón ondulado",
+      "ar": "كرتون مموج",
+      "fr": "Carton ondulé",
+      "id": "Kotak Karton Bergelombang",
+      "ru": "Гофрокоробка",
+      "th": "กล่องกระดาษลูกฟูก",
+      "vi": "Thùng carton sóng"
+     }
+    },
+    {
+     "label": {
+      "en": "power (w)",
+      "zh": "power (w)",
+      "es": "potencia (W)",
+      "ar": "القدرة (W)",
+      "fr": "puissance (W)",
+      "id": "daya (W)",
+      "ru": "мощность (Вт)",
+      "th": "กำลังไฟ (W)",
+      "vi": "công suất (w)"
+     },
+     "value": {
+      "en": "1500 W",
+      "es": "1500 W",
+      "ar": "1500 W",
+      "fr": "1500 W",
+      "id": "1500 W",
+      "ru": "1500 W",
+      "th": "1500 W",
+      "vi": "1500 W"
+     }
+    },
+    {
+     "label": {
+      "en": "warranty",
+      "zh": "warranty",
+      "es": "garantía",
+      "ar": "الضمان",
+      "fr": "garantie",
+      "id": "garansi",
+      "ru": "гарантия",
+      "th": "การรับประกัน",
+      "vi": "bảo hành"
+     },
+     "value": {
+      "en": "1 Year",
+      "es": "1 año",
+      "ar": "سنة واحدة",
+      "fr": "1 an",
+      "id": "1 tahun",
+      "ru": "1 год",
+      "th": "1 ปี",
+      "vi": "1 năm"
+     }
+    },
+    {
+     "label": {
+      "en": "place of origin",
+      "zh": "place of origin",
+      "es": "país de origen",
+      "ar": "بلد المنشأ",
+      "fr": "lieu d'origine",
+      "id": "negara asal",
+      "ru": "страна происхождения",
+      "th": "แหล่งที่มา",
+      "vi": "xuất xứ"
+     },
+     "value": {
+      "en": "CN;GUA",
+      "es": "CN;GUA",
+      "ar": "CN;GUA",
+      "fr": "CN;GUA",
+      "id": "CN;GUA",
+      "ru": "CN;GUA",
+      "th": "CN;GUA",
+      "vi": "CN;GUA"
+     }
+    },
+    {
+     "label": {
+      "en": "Water Tank Capacity",
+      "zh": "水箱容量",
+      "es": "Capacidad del depósito de agua",
+      "ar": "سعة خزان الماء",
+      "fr": "Capacité du réservoir d'eau",
+      "id": "Kapasitas Tangki Air",
+      "ru": "Объём бака для воды",
+      "th": "ความจุถังน้ำ",
+      "vi": "Dung tích bình nước"
+     },
+     "value": {
+      "en": "1.6L",
+      "es": "1.6L",
+      "ar": "1.6L",
+      "fr": "1.6L",
+      "id": "1.6L",
+      "ru": "1.6L",
+      "th": "1.6L",
+      "vi": "1.6L"
+     }
+    },
+    {
+     "label": {
+      "en": "Heating Time",
+      "zh": "Heating Time",
+      "es": "Tiempo de calentamiento",
+      "ar": "زمن التسخين",
+      "fr": "Temps de chauffe",
+      "id": "Waktu Pemanasan",
+      "ru": "Время нагрева",
+      "th": "เวลาในการทำความร้อน",
+      "vi": "Thời gian gia nhiệt"
+     },
+     "value": {
+      "en": "15 s",
+      "es": "15 s",
+      "ar": "15 s",
+      "fr": "15 s",
+      "id": "15 s",
+      "ru": "15 s",
+      "th": "15 s",
+      "vi": "15 s"
+     }
+    },
+    {
+     "label": {
+      "en": "Material",
+      "zh": "材质",
+      "es": "Material",
+      "ar": "المادة",
+      "fr": "Matériau",
+      "id": "Material",
+      "ru": "Материал",
+      "th": "วัสดุ",
+      "vi": "Chất liệu"
+     },
+     "value": {
+      "en": "ABS",
+      "es": "ABS",
+      "ar": "ABS",
+      "fr": "ABS",
+      "id": "ABS",
+      "ru": "ABS",
+      "th": "ABS",
+      "vi": "ABS"
+     }
+    },
+    {
+     "label": {
+      "en": "model number",
+      "zh": "model number",
+      "es": "número de modelo",
+      "ar": "رقم الموديل",
+      "fr": "numéro de modèle",
+      "id": "nomor model",
+      "ru": "номер модели",
+      "th": "หมายเลขรุ่น",
+      "vi": "số model"
+     },
+     "value": {
+      "en": "D09S",
+      "es": "D09S",
+      "ar": "D09S",
+      "fr": "D09S",
+      "id": "D09S",
+      "ru": "D09S",
+      "th": "D09S",
+      "vi": "D09S"
+     }
     }
-  ],
-  "_schema_reviews": [
+   ],
+   "packaging": {
+    "unit": "Corrugated Box"
+   },
+   "customization": {},
+   "applications": {
+    "en": "",
+    "zh": ""
+   },
+   "price_indicator": null,
+   "quick_specs": [
     {
-      "@type": "Review",
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "5",
-        "bestRating": "5",
-        "worstRating": "1"
-      },
-      "author": {
-        "@type": "Person",
-        "name": "Anna Kowalski",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Warsaw, Poland"
-        }
-      },
-      "datePublished": "2025-11-28",
-      "reviewBody": "After months of trying every cleaner on the market, one round with this steam cleaner and the grout between our kitchen tiles is white again. No chemicals, just water. The 1.5L tank gives about 25 minutes of continuous steam.",
-      "name": "Cleans grout without any chemicals — our kitchen looks brand new",
-      "image": [
-        "https://www.hkdmj.net/assets/images/products/steam-cleaner-d09s/01.webp",
-        "https://www.hkdmj.net/assets/images/products/steam-cleaner-d09s/02.webp"
-      ]
+     "label": {
+      "en": "Power (W)",
+      "zh": "功率(W)",
+      "es": "Potencia (W)",
+      "ar": "القدرة (W)",
+      "fr": "Puissance (W)",
+      "id": "Daya (W)",
+      "ru": "Мощность (Вт)",
+      "th": "กำลังไฟ (W)",
+      "vi": "Công suất (W)"
+     },
+     "value": {
+      "en": "1500 W",
+      "es": "1500 W",
+      "ar": "1500 W",
+      "fr": "1500 W",
+      "id": "1500 W",
+      "ru": "1500 W",
+      "th": "1500 W",
+      "vi": "1500 W"
+     }
     },
     {
-      "@type": "Review",
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "5",
-        "bestRating": "5",
-        "worstRating": "1"
-      },
-      "author": {
-        "@type": "Person",
-        "name": "Rachel Thompson",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Auckland, New Zealand"
-        }
-      },
-      "datePublished": "2025-09-14",
-      "reviewBody": "Our realtor recommended we get a steam mop before listing our house. The variable steam settings let us use it safely on our laminate flooring. It comes with 10 accessories and they all snap on easily. Great product.",
-      "name": "Steam mops are the only way to clean hardwood without warping it",
-      "image": [
-        "https://www.hkdmj.net/assets/images/products/steam-cleaner-d09s/01.webp",
-        "https://www.hkdmj.net/assets/images/products/steam-cleaner-d09s/02.webp"
-      ]
+     "label": {
+      "en": "Steam pressure",
+      "zh": "蒸汽压力",
+      "es": "Presión de vapor",
+      "ar": "ضغط البخار",
+      "fr": "Pression de vapeur",
+      "id": "Tekanan uap",
+      "ru": "Давление пара",
+      "th": "แรงดันไอน้ำ",
+      "vi": "Áp suất hơi"
+     },
+     "value": {
+      "en": "3 bar",
+      "es": "3 bar",
+      "ar": "3 bar",
+      "fr": "3 bar",
+      "id": "3 bar",
+      "ru": "3 bar",
+      "th": "3 bar",
+      "vi": "3 bar"
+     }
     },
     {
-      "@type": "Review",
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "5",
-        "bestRating": "5",
-        "worstRating": "1"
-      },
-      "author": {
-        "@type": "Person",
-        "name": "Henrik Larsen",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Copenhagen, Denmark"
-        }
-      },
-      "datePublished": "2025-07-05",
-      "reviewBody": "We run a cleaning company and needed reliable equipment. This steamer has been running 6 hours a day for 3 months with no issues. The accessories kit is comprehensive and the unit heats up in under 30 seconds.",
-      "name": "Industrial quality at consumer price — we ordered 500 units",
-      "image": [
-        "https://www.hkdmj.net/assets/images/products/steam-cleaner-d09s/01.webp",
-        "https://www.hkdmj.net/assets/images/products/steam-cleaner-d09s/02.webp"
-      ]
+     "label": {
+      "en": "Water Tank Capacity",
+      "zh": "水箱容量",
+      "es": "Capacidad del depósito de agua",
+      "ar": "سعة خزان الماء",
+      "fr": "Capacité du réservoir d'eau",
+      "id": "Kapasitas Tangki Air",
+      "ru": "Объём бака для воды",
+      "th": "ความจุถังน้ำ",
+      "vi": "Dung tích bình nước"
+     },
+     "value": {
+      "en": "1600ml",
+      "es": "1600ml",
+      "ar": "1600ml",
+      "fr": "1600ml",
+      "id": "1600ml",
+      "ru": "1600ml",
+      "th": "1600ml",
+      "vi": "1600ml"
+     }
+    },
+    {
+     "label": {
+      "en": "Heating Time",
+      "zh": "加热时间",
+      "es": "Tiempo de calentamiento",
+      "ar": "زمن التسخين",
+      "fr": "Temps de chauffe",
+      "id": "Waktu Pemanasan",
+      "ru": "Время нагрева",
+      "th": "เวลาในการทำความร้อน",
+      "vi": "Thời gian gia nhiệt"
+     },
+     "value": {
+      "en": "15 s",
+      "es": "15 s",
+      "ar": "15 s",
+      "fr": "15 s",
+      "id": "15 s",
+      "ru": "15 s",
+      "th": "15 s",
+      "vi": "15 s"
+     }
     }
-  ]
+   ],
+   "price_ladder": [],
+   "sku": "1601865685196",
+   "description": {
+    "en": "1500 W · 3 bar · 1600ml. OEM/ODM available; specifications from the supplier listing.",
+    "zh": "1500 W · 3 bar · 1600ml。支持 OEM/ODM 定制，规格取自供应商商品资料。",
+    "es": "1500 W · 3 bar · 1600ml. Disponible en OEM/ODM; especificaciones tomadas del listado del proveedor.",
+    "ar": "1500 W · 3 bar · 1600ml. متاح بنظام OEM/ODM؛ المواصفات مأخوذة من قائمة المورّد.",
+    "fr": "1500 W · 3 bar · 1600ml. Disponible en OEM/ODM ; spécifications issues de la fiche du fournisseur.",
+    "id": "1500 W · 3 bar · 1600ml. Tersedia dalam OEM/ODM; spesifikasi diambil dari daftar pemasok.",
+    "ru": "1500 W · 3 bar · 1600ml. Доступно в OEM/ODM; характеристики взяты из карточки товара поставщика.",
+    "th": "1500 W · 3 bar · 1600ml. มีให้บริการในรูปแบบ OEM/ODM; ข้อมูลจำเพาะนำมาจากประกาศของผู้ขาย",
+    "vi": "1500 W · 3 bar · 1600ml. Có sẵn dạng OEM/ODM; thông số kỹ thuật lấy từ niêm yết của nhà cung cấp."
+   },
+   "supplier_rating": "4.8",
+   "response_time": "≤ 2h",
+   "transactions": "US $100K+",
+   "years": "10+",
+   "ship_from": {
+    "en": "Ningbo, China",
+    "zh": "中国宁波"
+   },
+   "sample": {
+    "enabled": true,
+    "qty": 5,
+    "note": "Sample available, lead 7-14 days"
+   },
+   "category_name": {
+    "en": "Steam Cleaners",
+    "zh": "蒸汽清洁机",
+    "es": "Limpiador de Vapor",
+    "ar": "منظف بالبخار",
+    "fr": "Nettoyeur vapeur",
+    "id": "Pembersih Uap",
+    "ru": "Пароочиститель",
+    "th": "เครื่องทำความสะอาดด้วยไอน้ำ",
+    "vi": "Máy vệ sinh hơi nước"
+   },
+   "_source": {
+    "platform": "alibaba.com",
+    "productId": "1601865685196"
+   },
+   "_cat": "steam-cleaner"
+  },
+  {
+   "id": "ptc-sc-004",
+   "name": {
+    "en": "1500W High Pressure Steam Cleaner Machine 100℃ Hot Steam Portable Multipurpose Cleaning Machine With 1400ml Water Tank",
+    "zh": "1500W 高温蒸汽清洁机（100℃ 便携多用途）",
+    "es": "Máquina limpiadora a vapor de alta presión 1500 W, vapor caliente a 100 ℃, limpiador portátil multiusos con depósito de agua de 1400 ml",
+    "ar": "ماكينة تنظيف بالبخار عالي الضغط 1500W، بخار ساخن 100℃، ماكينة تنظيف محمولة متعددة الأغراض بخزان ماء 1400ml",
+    "fr": "Nettoyeur vapeur haute pression 1500 W, vapeur chaude à 100 ℃, machine de nettoyage portative multiusage avec réservoir d'eau de 1400 ml",
+    "id": "Mesin Pembersih Uap Bertekanan Tinggi 1500W, Uap Panas 100℃, Mesin Pembersih Portabel Serbaguna dengan Tangki Air 1400ml",
+    "ru": "Пароочиститель высокого давления 1500 W, горячий пар 100 ℃, портативная многофункциональная машина для уборки с баком для воды 1400 мл",
+    "th": "เครื่องทำความสะอาดด้วยไอน้ำแรงดันสูง 1500W ไอน้ำร้อน 100℃ เครื่องทำความสะอาดแบบพกพาอเนกประสงค์ พร้อมถังน้ำ 1400ml",
+    "vi": "Máy hơi nước áp suất cao 1500W, hơi nóng 100℃, máy vệ sinh đa năng di động với bình nước 1400ml"
+   },
+   "tagline": {
+    "en": "1500 W · 3 bar · 1200ml",
+    "zh": "1500 W · 3 bar · 1200ml",
+    "es": "1500 W · 3 bar · 1200ml",
+    "ar": "1500 W · 3 bar · 1200ml",
+    "fr": "1500 W · 3 bar · 1200ml",
+    "id": "1500 W · 3 bar · 1200ml",
+    "ru": "1500 W · 3 bar · 1200ml",
+    "th": "1500 W · 3 bar · 1200ml",
+    "vi": "1500 W · 3 bar · 1200ml"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-ptc-sc-004/01.webp",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-ptc-sc-004/02.webp",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-ptc-sc-004/03.webp",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-ptc-sc-004/04.webp",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-ptc-sc-004/05.webp",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-ptc-sc-004/06.webp"
+   ],
+   "video_url": null,
+   "moq": {
+    "value": 1,
+    "unit": "pieces"
+   },
+   "certifications": [],
+   "highlights": [
+    {
+     "icon": "check",
+     "text": {
+      "en": "Power (W): 1500 W",
+      "zh": "功率(W): 1500 W",
+      "es": "Potencia (W): 1500 W",
+      "ar": "القدرة (W): 1500 W",
+      "fr": "Puissance (W): 1500 W",
+      "id": "Daya (W): 1500 W",
+      "ru": "Мощность (Вт): 1500 W",
+      "th": "กำลังไฟ (W): 1500 W",
+      "vi": "Công suất (W): 1500 W"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Steam pressure: 3 bar",
+      "zh": "蒸汽压力: 3 bar",
+      "es": "Presión de vapor: 3 bar",
+      "ar": "ضغط البخار: 3 bar",
+      "fr": "Pression de vapeur: 3 bar",
+      "id": "Tekanan uap: 3 bar",
+      "ru": "Давление пара: 3 bar",
+      "th": "แรงดันไอน้ำ: 3 bar",
+      "vi": "Áp suất hơi: 3 bar"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Water Tank Capacity: 1200ml",
+      "zh": "水箱容量: 1200ml",
+      "es": "Capacidad del depósito de agua: 1200ml",
+      "ar": "سعة خزان الماء: 1200ml",
+      "fr": "Capacité du réservoir d'eau: 1200ml",
+      "id": "Kapasitas Tangki Air: 1200ml",
+      "ru": "Объём бака для воды: 1200ml",
+      "th": "ความจุถังน้ำ: 1200ml",
+      "vi": "Dung tích bình nước: 1200ml"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Capacity: 1000ml",
+      "zh": "容量: 1000ml",
+      "es": "Capacidad: 1000ml",
+      "ar": "السعة: 1000ml",
+      "fr": "Capacité: 1000ml",
+      "id": "Kapasitas: 1000ml",
+      "ru": "Ёмкость: 1000ml",
+      "th": "ความจุ: 1000ml",
+      "vi": "Dung tích: 1000ml"
+     }
+    }
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "Type",
+      "zh": "类型",
+      "es": "Tipo",
+      "ar": "النوع",
+      "fr": "Type",
+      "id": "Tipe",
+      "ru": "Тип",
+      "th": "ประเภท",
+      "vi": "Loại"
+     },
+     "value": {
+      "en": "Water Filter",
+      "es": "Filtro de agua",
+      "ar": "فلتر ماء",
+      "fr": "Filtre à eau",
+      "id": "Filter Air",
+      "ru": "Водяной фильтр",
+      "th": "ตัวกรองน้ำ",
+      "vi": "Bộ lọc nước"
+     }
+    },
+    {
+     "label": {
+      "en": "Product name",
+      "zh": "Product name",
+      "es": "Nombre del producto",
+      "ar": "اسم المنتج",
+      "fr": "Nom du produit",
+      "id": "Nama produk",
+      "ru": "Название товара",
+      "th": "ชื่อสินค้า",
+      "vi": "Tên sản phẩm"
+     },
+     "value": {
+      "en": "Steam Cleaner",
+      "es": "Limpiador a Vapor",
+      "ar": "منظف بالبخار",
+      "fr": "Nettoyeur vapeur",
+      "id": "Pembersih Uap",
+      "ru": "Пароочиститель",
+      "th": "เครื่องทำความสะอาดด้วยไอน้ำ",
+      "vi": "Máy hơi nước làm sạch"
+     }
+    },
+    {
+     "label": {
+      "en": "Power Source",
+      "zh": "Power Source",
+      "es": "Fuente de alimentación",
+      "ar": "مصدر الطاقة",
+      "fr": "Source d'alimentation",
+      "id": "Sumber Daya",
+      "ru": "Источник питания",
+      "th": "แหล่งจ่ายไฟ",
+      "vi": "Nguồn điện"
+     },
+     "value": {
+      "en": "Usb",
+      "es": "Usb",
+      "ar": "Usb",
+      "fr": "Usb",
+      "id": "Usb",
+      "ru": "Usb",
+      "th": "Usb",
+      "vi": "Usb"
+     }
+    },
+    {
+     "label": {
+      "en": "Function",
+      "zh": "功能",
+      "es": "Función",
+      "ar": "الوظيفة",
+      "fr": "Fonction",
+      "id": "Fungsi",
+      "ru": "Функция",
+      "th": "ฟังก์ชัน",
+      "vi": "Chức năng"
+     },
+     "value": {
+      "en": "Dry",
+      "es": "Seco",
+      "ar": "جاف",
+      "fr": "Sec",
+      "id": "Kering",
+      "ru": "Сухая уборка",
+      "th": "แห้ง",
+      "vi": "Khô"
+     }
+    },
+    {
+     "label": {
+      "en": "Keywords",
+      "zh": "Keywords",
+      "es": "Palabras clave",
+      "ar": "الكلمات المفتاحية",
+      "fr": "Mots-clés",
+      "id": "Kata Kunci",
+      "ru": "Ключевые слова",
+      "th": "คำค้นหา",
+      "vi": "Từ khóa"
+     },
+     "value": {
+      "en": "Steam Cleanmer",
+      "es": "Limpiador a vapor",
+      "ar": "منظف بالبخار",
+      "fr": "Nettoyeur vapeur",
+      "id": "Pembersih Uap",
+      "ru": "Пароочиститель",
+      "th": "เครื่องทำความสะอาดด้วยไอน้ำ",
+      "vi": "Máy hơi nước làm sạch"
+     }
+    },
+    {
+     "label": {
+      "en": "Material",
+      "zh": "材质",
+      "es": "Material",
+      "ar": "المادة",
+      "fr": "Matériau",
+      "id": "Material",
+      "ru": "Материал",
+      "th": "วัสดุ",
+      "vi": "Chất liệu"
+     },
+     "value": {
+      "en": "ABS",
+      "es": "ABS",
+      "ar": "ABS",
+      "fr": "ABS",
+      "id": "ABS",
+      "ru": "ABS",
+      "th": "ABS",
+      "vi": "ABS"
+     }
+    },
+    {
+     "label": {
+      "en": "Usage",
+      "zh": "Usage",
+      "es": "Uso",
+      "ar": "الاستخدام",
+      "fr": "Utilisation",
+      "id": "Penggunaan",
+      "ru": "Использование",
+      "th": "การใช้งาน",
+      "vi": "Mục đích sử dụng"
+     },
+     "value": {
+      "en": "Public . Home . Office . Hospital",
+      "es": "Público . Hogar . Oficina . Hospital",
+      "ar": "أماكن عامة . منزل . مكتب . مستشفى",
+      "fr": "Public . Maison . Bureau . Hôpital",
+      "id": "Publik . Rumah . Kantor . Rumah Sakit",
+      "ru": "Общественные места . Дом . Офис . Больница",
+      "th": "สาธารณะ . บ้าน . ออฟฟิศ . โรงพยาบาล",
+      "vi": "Công cộng . Nhà . Văn phòng . Bệnh viện"
+     }
+    },
+    {
+     "label": {
+      "en": "Water Tank Capacity",
+      "zh": "水箱容量",
+      "es": "Capacidad del depósito de agua",
+      "ar": "سعة خزان الماء",
+      "fr": "Capacité du réservoir d'eau",
+      "id": "Kapasitas Tangki Air",
+      "ru": "Объём бака для воды",
+      "th": "ความจุถังน้ำ",
+      "vi": "Dung tích bình nước"
+     },
+     "value": {
+      "en": "1200ml",
+      "es": "1200ml",
+      "ar": "1200ml",
+      "fr": "1200ml",
+      "id": "1200ml",
+      "ru": "1200ml",
+      "th": "1200ml",
+      "vi": "1200ml"
+     }
+    },
+    {
+     "label": {
+      "en": "Color",
+      "zh": "颜色",
+      "es": "Color",
+      "ar": "اللون",
+      "fr": "Couleur",
+      "id": "Warna",
+      "ru": "Цвет",
+      "th": "สี",
+      "vi": "Màu sắc"
+     },
+     "value": {
+      "en": "Photo",
+      "es": "Foto",
+      "ar": "صورة",
+      "fr": "Photo",
+      "id": "Foto",
+      "ru": "Фото",
+      "th": "รูปภาพ",
+      "vi": "Ảnh"
+     }
+    },
+    {
+     "label": {
+      "en": "Weight (KG)",
+      "zh": "Weight (KG)",
+      "es": "Peso (kg)",
+      "ar": "الوزن (KG)",
+      "fr": "Poids (kg)",
+      "id": "Berat (KG)",
+      "ru": "Вес (кг)",
+      "th": "น้ำหนัก (KG)",
+      "vi": "Trọng lượng (KG)"
+     },
+     "value": {
+      "en": "2kg",
+      "es": "2kg",
+      "ar": "2kg",
+      "fr": "2kg",
+      "id": "2kg",
+      "ru": "2kg",
+      "th": "2kg",
+      "vi": "2kg"
+     }
+    },
+    {
+     "label": {
+      "en": "SIZE",
+      "zh": "SIZE",
+      "es": "Tamaño",
+      "ar": "الحجم",
+      "fr": "Taille",
+      "id": "Ukuran",
+      "ru": "Размер",
+      "th": "ขนาด",
+      "vi": "Kích thước"
+     },
+     "value": {
+      "en": "20x14.5x13 cm",
+      "es": "20x14.5x13 cm",
+      "ar": "20x14.5x13 cm",
+      "fr": "20x14.5x13 cm",
+      "id": "20x14.5x13 cm",
+      "ru": "20x14.5x13 cm",
+      "th": "20x14.5x13 cm",
+      "vi": "20x14.5x13 cm"
+     }
+    },
+    {
+     "label": {
+      "en": "Capacity",
+      "zh": "Capacity",
+      "es": "Capacidad",
+      "ar": "السعة",
+      "fr": "Capacité",
+      "id": "Kapasitas",
+      "ru": "Ёмкость",
+      "th": "ความจุ",
+      "vi": "Dung tích"
+     },
+     "value": {
+      "en": "1000ml",
+      "es": "1000ml",
+      "ar": "1000ml",
+      "fr": "1000ml",
+      "id": "1000ml",
+      "ru": "1000ml",
+      "th": "1000ml",
+      "vi": "1000ml"
+     }
+    },
+    {
+     "label": {
+      "en": "PACKING",
+      "zh": "PACKING",
+      "es": "Embalaje",
+      "ar": "التغليف",
+      "fr": "Conditionnement",
+      "id": "Kemasan",
+      "ru": "Упаковка",
+      "th": "บรรจุภัณฑ์",
+      "vi": "Đóng gói"
+     },
+     "value": {
+      "en": "Box Package",
+      "es": "Embalaje en caja",
+      "ar": "تغليف بصندوق",
+      "fr": "Emballage en boîte",
+      "id": "Kemasan Kotak",
+      "ru": "Упаковка в коробку",
+      "th": "บรรจุภัณฑ์แบบกล่อง",
+      "vi": "Đóng gói hộp"
+     }
+    },
+    {
+     "label": {
+      "en": "Design",
+      "zh": "Design",
+      "es": "Diseño",
+      "ar": "التصميم",
+      "fr": "Design",
+      "id": "Desain",
+      "ru": "Дизайн",
+      "th": "ดีไซน์",
+      "vi": "Thiết kế"
+     },
+     "value": {
+      "en": "Handle Slicker Brush",
+      "es": "Cepillo slicker con mango",
+      "ar": "فرشاة تسليك بمقبض",
+      "fr": "Brosse de toilettage",
+      "id": "Sikat Slicker dengan Gagang",
+      "ru": "Щётка с ручкой",
+      "th": "แปรงขัดแบบมีด้ามจับ",
+      "vi": "Chổi chải lông"
+     }
+    },
+    {
+     "label": {
+      "en": "Steam Pipe Length",
+      "zh": "Steam Pipe Length",
+      "es": "Longitud del tubo de vapor",
+      "ar": "طول أنبوب البخار",
+      "fr": "Longueur du tuyau de vapeur",
+      "id": "Panjang Pipa Uap",
+      "ru": "Длина паровой трубки",
+      "th": "ความยาวท่อไอน้ำ",
+      "vi": "Chiều dài ống hơi"
+     },
+     "value": {
+      "en": "2.0",
+      "es": "2.0",
+      "ar": "2.0",
+      "fr": "2.0",
+      "id": "2.0",
+      "ru": "2.0",
+      "th": "2.0",
+      "vi": "2.0"
+     }
+    },
+    {
+     "label": {
+      "en": "MOQ",
+      "zh": "起订量",
+      "es": "MOQ",
+      "ar": "MOQ",
+      "fr": "MOQ",
+      "id": "MOQ",
+      "ru": "MOQ",
+      "th": "MOQ",
+      "vi": "MOQ"
+     },
+     "value": {
+      "en": "2 Pcs",
+      "es": "2 Pcs",
+      "ar": "2 Pcs",
+      "fr": "2 Pcs",
+      "id": "2 Pcs",
+      "ru": "2 Pcs",
+      "th": "2 Pcs",
+      "vi": "2 Pcs"
+     }
+    },
+    {
+     "label": {
+      "en": "Steam pressure",
+      "zh": "Steam pressure",
+      "es": "Presión de vapor",
+      "ar": "ضغط البخار",
+      "fr": "Pression de vapeur",
+      "id": "Tekanan uap",
+      "ru": "Давление пара",
+      "th": "แรงดันไอน้ำ",
+      "vi": "Áp suất hơi"
+     },
+     "value": {
+      "en": "3 bar",
+      "es": "3 bar",
+      "ar": "3 bar",
+      "fr": "3 bar",
+      "id": "3 bar",
+      "ru": "3 bar",
+      "th": "3 bar",
+      "vi": "3 bar"
+     }
+    },
+    {
+     "label": {
+      "en": "app-controlled",
+      "zh": "app-controlled",
+      "es": "control por app",
+      "ar": "يُتحكم به عبر التطبيق",
+      "fr": "contrôlé par application",
+      "id": "dikendalikan aplikasi",
+      "ru": "управление через приложение",
+      "th": "ควบคุมผ่านแอป",
+      "vi": "điều khiển qua app"
+     },
+     "value": {
+      "en": "No",
+      "es": "No",
+      "ar": "لا",
+      "fr": "Non",
+      "id": "Tidak",
+      "ru": "Нет",
+      "th": "ไม่",
+      "vi": "Không"
+     }
+    },
+    {
+     "label": {
+      "en": "application",
+      "zh": "application",
+      "es": "aplicación",
+      "ar": "التطبيق",
+      "fr": "utilisation",
+      "id": "aplikasi",
+      "ru": "применение",
+      "th": "การใช้งาน",
+      "vi": "ứng dụng"
+     },
+     "value": {
+      "en": "Car",
+      "es": "Coche",
+      "ar": "سيارة",
+      "fr": "Voiture",
+      "id": "Mobil",
+      "ru": "Автомобиль",
+      "th": "รถยนต์",
+      "vi": "Ô tô"
+     }
+    },
+    {
+     "label": {
+      "en": "Installation",
+      "zh": "Installation",
+      "es": "Instalación",
+      "ar": "التركيب",
+      "fr": "Installation",
+      "id": "Instalasi",
+      "ru": "Установка",
+      "th": "การติดตั้ง",
+      "vi": "Lắp đặt"
+     },
+     "value": {
+      "en": "Handheld",
+      "es": "De mano",
+      "ar": "يدوية",
+      "fr": "À main",
+      "id": "Genggam",
+      "ru": "Ручной",
+      "th": "แบบพกพา",
+      "vi": "Cầm tay"
+     }
+    },
+    {
+     "label": {
+      "en": "operating language",
+      "zh": "operating language",
+      "es": "idioma de funcionamiento",
+      "ar": "لغة التشغيل",
+      "fr": "langue d'utilisation",
+      "id": "bahasa pengoperasian",
+      "ru": "язык интерфейса",
+      "th": "ภาษาที่ใช้งาน",
+      "vi": "ngôn ngữ hoạt động"
+     },
+     "value": {
+      "en": "Spanish",
+      "es": "Español",
+      "ar": "الإسبانية",
+      "fr": "Espagnol",
+      "id": "Spanyol",
+      "ru": "Испанский",
+      "th": "สเปน",
+      "vi": "Tiếng Tây Ban Nha"
+     }
+    },
+    {
+     "label": {
+      "en": "operating language",
+      "zh": "operating language",
+      "es": "idioma de funcionamiento",
+      "ar": "لغة التشغيل",
+      "fr": "langue d'utilisation",
+      "id": "bahasa pengoperasian",
+      "ru": "язык интерфейса",
+      "th": "ภาษาที่ใช้งาน",
+      "vi": "ngôn ngữ hoạt động"
+     },
+     "value": {
+      "en": "English",
+      "es": "Inglés",
+      "ar": "الإنجليزية",
+      "fr": "Anglais",
+      "id": "Inggris",
+      "ru": "Английский",
+      "th": "อังกฤษ",
+      "vi": "Tiếng Anh"
+     }
+    },
+    {
+     "label": {
+      "en": "packaging types",
+      "zh": "packaging types",
+      "es": "tipos de embalaje",
+      "ar": "أنواع التغليف",
+      "fr": "types d'emballage",
+      "id": "jenis kemasan",
+      "ru": "типы упаковки",
+      "th": "ประเภทบรรจุภัณฑ์",
+      "vi": "loại bao bì"
+     },
+     "value": {
+      "en": "Corrugated Box",
+      "es": "Caja de cartón ondulado",
+      "ar": "كرتون مموج",
+      "fr": "Carton ondulé",
+      "id": "Kotak Karton Bergelombang",
+      "ru": "Гофрокоробка",
+      "th": "กล่องกระดาษลูกฟูก",
+      "vi": "Thùng carton sóng"
+     }
+    },
+    {
+     "label": {
+      "en": "power (w)",
+      "zh": "power (w)",
+      "es": "potencia (W)",
+      "ar": "القدرة (W)",
+      "fr": "puissance (W)",
+      "id": "daya (W)",
+      "ru": "мощность (Вт)",
+      "th": "กำลังไฟ (W)",
+      "vi": "công suất (w)"
+     },
+     "value": {
+      "en": "1500 W",
+      "es": "1500 W",
+      "ar": "1500 W",
+      "fr": "1500 W",
+      "id": "1500 W",
+      "ru": "1500 W",
+      "th": "1500 W",
+      "vi": "1500 W"
+     }
+    },
+    {
+     "label": {
+      "en": "warranty",
+      "zh": "warranty",
+      "es": "garantía",
+      "ar": "الضمان",
+      "fr": "garantie",
+      "id": "garansi",
+      "ru": "гарантия",
+      "th": "การรับประกัน",
+      "vi": "bảo hành"
+     },
+     "value": {
+      "en": "1 Year",
+      "es": "1 año",
+      "ar": "سنة واحدة",
+      "fr": "1 an",
+      "id": "1 tahun",
+      "ru": "1 год",
+      "th": "1 ปี",
+      "vi": "1 năm"
+     }
+    },
+    {
+     "label": {
+      "en": "place of origin",
+      "zh": "place of origin",
+      "es": "país de origen",
+      "ar": "بلد المنشأ",
+      "fr": "lieu d'origine",
+      "id": "negara asal",
+      "ru": "страна происхождения",
+      "th": "แหล่งที่มา",
+      "vi": "xuất xứ"
+     },
+     "value": {
+      "en": "CN;GUA",
+      "es": "CN;GUA",
+      "ar": "CN;GUA",
+      "fr": "CN;GUA",
+      "id": "CN;GUA",
+      "ru": "CN;GUA",
+      "th": "CN;GUA",
+      "vi": "CN;GUA"
+     }
+    },
+    {
+     "label": {
+      "en": "Water Tank Capacity",
+      "zh": "水箱容量",
+      "es": "Capacidad del depósito de agua",
+      "ar": "سعة خزان الماء",
+      "fr": "Capacité du réservoir d'eau",
+      "id": "Kapasitas Tangki Air",
+      "ru": "Объём бака для воды",
+      "th": "ความจุถังน้ำ",
+      "vi": "Dung tích bình nước"
+     },
+     "value": {
+      "en": "1.2L",
+      "es": "1.2L",
+      "ar": "1.2L",
+      "fr": "1.2L",
+      "id": "1.2L",
+      "ru": "1.2L",
+      "th": "1.2L",
+      "vi": "1.2L"
+     }
+    },
+    {
+     "label": {
+      "en": "Heating Time",
+      "zh": "Heating Time",
+      "es": "Tiempo de calentamiento",
+      "ar": "زمن التسخين",
+      "fr": "Temps de chauffe",
+      "id": "Waktu Pemanasan",
+      "ru": "Время нагрева",
+      "th": "เวลาในการทำความร้อน",
+      "vi": "Thời gian gia nhiệt"
+     },
+     "value": {
+      "en": "15 s",
+      "es": "15 s",
+      "ar": "15 s",
+      "fr": "15 s",
+      "id": "15 s",
+      "ru": "15 s",
+      "th": "15 s",
+      "vi": "15 s"
+     }
+    },
+    {
+     "label": {
+      "en": "Material",
+      "zh": "材质",
+      "es": "Material",
+      "ar": "المادة",
+      "fr": "Matériau",
+      "id": "Material",
+      "ru": "Материал",
+      "th": "วัสดุ",
+      "vi": "Chất liệu"
+     },
+     "value": {
+      "en": "ABS",
+      "es": "ABS",
+      "ar": "ABS",
+      "fr": "ABS",
+      "id": "ABS",
+      "ru": "ABS",
+      "th": "ABS",
+      "vi": "ABS"
+     }
+    },
+    {
+     "label": {
+      "en": "model number",
+      "zh": "model number",
+      "es": "número de modelo",
+      "ar": "رقم الموديل",
+      "fr": "numéro de modèle",
+      "id": "nomor model",
+      "ru": "номер модели",
+      "th": "หมายเลขรุ่น",
+      "vi": "số model"
+     },
+     "value": {
+      "en": "PTC-SC-004",
+      "es": "PTC-SC-004",
+      "ar": "PTC-SC-004",
+      "fr": "PTC-SC-004",
+      "id": "PTC-SC-004",
+      "ru": "PTC-SC-004",
+      "th": "PTC-SC-004",
+      "vi": "PTC-SC-004"
+     }
+    }
+   ],
+   "packaging": {
+    "unit": "Corrugated Box"
+   },
+   "customization": {},
+   "applications": {
+    "en": "",
+    "zh": ""
+   },
+   "price_indicator": null,
+   "quick_specs": [
+    {
+     "label": {
+      "en": "Power (W)",
+      "zh": "功率(W)",
+      "es": "Potencia (W)",
+      "ar": "القدرة (W)",
+      "fr": "Puissance (W)",
+      "id": "Daya (W)",
+      "ru": "Мощность (Вт)",
+      "th": "กำลังไฟ (W)",
+      "vi": "Công suất (W)"
+     },
+     "value": {
+      "en": "1500 W",
+      "es": "1500 W",
+      "ar": "1500 W",
+      "fr": "1500 W",
+      "id": "1500 W",
+      "ru": "1500 W",
+      "th": "1500 W",
+      "vi": "1500 W"
+     }
+    },
+    {
+     "label": {
+      "en": "Steam pressure",
+      "zh": "蒸汽压力",
+      "es": "Presión de vapor",
+      "ar": "ضغط البخار",
+      "fr": "Pression de vapeur",
+      "id": "Tekanan uap",
+      "ru": "Давление пара",
+      "th": "แรงดันไอน้ำ",
+      "vi": "Áp suất hơi"
+     },
+     "value": {
+      "en": "3 bar",
+      "es": "3 bar",
+      "ar": "3 bar",
+      "fr": "3 bar",
+      "id": "3 bar",
+      "ru": "3 bar",
+      "th": "3 bar",
+      "vi": "3 bar"
+     }
+    },
+    {
+     "label": {
+      "en": "Water Tank Capacity",
+      "zh": "水箱容量",
+      "es": "Capacidad del depósito de agua",
+      "ar": "سعة خزان الماء",
+      "fr": "Capacité du réservoir d'eau",
+      "id": "Kapasitas Tangki Air",
+      "ru": "Объём бака для воды",
+      "th": "ความจุถังน้ำ",
+      "vi": "Dung tích bình nước"
+     },
+     "value": {
+      "en": "1200ml",
+      "es": "1200ml",
+      "ar": "1200ml",
+      "fr": "1200ml",
+      "id": "1200ml",
+      "ru": "1200ml",
+      "th": "1200ml",
+      "vi": "1200ml"
+     }
+    },
+    {
+     "label": {
+      "en": "Capacity",
+      "zh": "容量",
+      "es": "Capacidad",
+      "ar": "السعة",
+      "fr": "Capacité",
+      "id": "Kapasitas",
+      "ru": "Ёмкость",
+      "th": "ความจุ",
+      "vi": "Dung tích"
+     },
+     "value": {
+      "en": "1000ml",
+      "es": "1000ml",
+      "ar": "1000ml",
+      "fr": "1000ml",
+      "id": "1000ml",
+      "ru": "1000ml",
+      "th": "1000ml",
+      "vi": "1000ml"
+     }
+    }
+   ],
+   "price_ladder": [],
+   "sku": "1601898271900",
+   "description": {
+    "en": "1500 W · 3 bar · 1200ml. OEM/ODM available; specifications from the supplier listing.",
+    "zh": "1500 W · 3 bar · 1200ml。支持 OEM/ODM 定制，规格取自供应商商品资料。",
+    "es": "1500 W · 3 bar · 1200ml. Disponible en OEM/ODM; especificaciones tomadas del listado del proveedor.",
+    "ar": "1500 W · 3 bar · 1200ml. متاح بنظام OEM/ODM؛ المواصفات مأخوذة من قائمة المورّد.",
+    "fr": "1500 W · 3 bar · 1200ml. Disponible en OEM/ODM ; spécifications issues de la fiche du fournisseur.",
+    "id": "1500 W · 3 bar · 1200ml. Tersedia dalam OEM/ODM; spesifikasi diambil dari daftar pemasok.",
+    "ru": "1500 W · 3 bar · 1200ml. Доступно в OEM/ODM; характеристики взяты из карточки товара поставщика.",
+    "th": "1500 W · 3 bar · 1200ml. มีให้บริการในรูปแบบ OEM/ODM; ข้อมูลจำเพาะนำมาจากประกาศของผู้ขาย",
+    "vi": "1500 W · 3 bar · 1200ml. Có sẵn dạng OEM/ODM; thông số kỹ thuật lấy từ niêm yết của nhà cung cấp."
+   },
+   "supplier_rating": "4.8",
+   "response_time": "≤ 2h",
+   "transactions": "US $100K+",
+   "years": "10+",
+   "ship_from": {
+    "en": "Ningbo, China",
+    "zh": "中国宁波"
+   },
+   "sample": {
+    "enabled": true,
+    "qty": 5,
+    "note": "Sample available, lead 7-14 days"
+   },
+   "category_name": {
+    "en": "Steam Cleaners",
+    "zh": "蒸汽清洁机",
+    "es": "Limpiador de Vapor",
+    "ar": "منظف بالبخار",
+    "fr": "Nettoyeur vapeur",
+    "id": "Pembersih Uap",
+    "ru": "Пароочиститель",
+    "th": "เครื่องทำความสะอาดด้วยไอน้ำ",
+    "vi": "Máy vệ sinh hơi nước"
+   },
+   "_source": {
+    "platform": "alibaba.com",
+    "productId": "1601898271900"
+   },
+   "_cat": "steam-cleaner"
+  },
+  {
+   "id": "ytc-sc-004",
+   "name": {
+    "en": "1500W Electric High Pressure Steam Cleaner 3BAR Portable Multi-Purpose Household Steam Cleaning Machine for Kitchen Bathroom Car",
+    "zh": "1500W 高压蒸汽清洁机（3Bar 多用途）",
+    "es": "Limpiador a vapor eléctrico de alta presión 1500 W 3BAR, portátil y multiusos para el hogar, cocina, baño y coche",
+    "ar": "منظف بخار كهربائي عالي الضغط 1500W 3BAR، محمول متعدد الأغراض للمنزل والمطبخ والحمام والسيارة",
+    "fr": "Nettoyeur vapeur électrique haute pression 1500 W 3BAR, machine à vapeur portative multiusage pour la maison, cuisine, salle de bain et voiture",
+    "id": "Pembersih Uap Bertekanan Tinggi Elektrik 1500W 3BAR, Mesin Pembersih Uap Rumah Tangga Portabel Serbaguna untuk Dapur, Kamar Mandi, dan Mobil",
+    "ru": "Электрический пароочиститель высокого давления 1500 W 3BAR, портативная многофункциональная бытовая паровая машина для кухни, ванной и автомобиля",
+    "th": "เครื่องทำความสะอาดด้วยไอน้ำไฟฟ้าแรงดันสูง 1500W 3BAR แบบพกพาอเนกประสงค์สำหรับใช้ในบ้าน ครัว ห้องน้ำ และรถยนต์",
+    "vi": "Máy hơi nước áp suất cao bằng điện 1500W 3BAR, máy vệ sinh bằng hơi nước đa năng di động cho nhà bếp, phòng tắm và ô tô"
+   },
+   "tagline": {
+    "en": "1500W · 3 bar · 1400 mL",
+    "zh": "1500W · 3 bar · 1400 mL",
+    "es": "1500W · 3 bar · 1400 mL",
+    "ar": "1500W · 3 bar · 1400 mL",
+    "fr": "1500W · 3 bar · 1400 mL",
+    "id": "1500W · 3 bar · 1400 mL",
+    "ru": "1500W · 3 bar · 1400 mL",
+    "th": "1500W · 3 bar · 1400 mL",
+    "vi": "1500W · 3 bar · 1400 mL"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-ytc-sc-004/01.webp",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-ytc-sc-004/02.webp",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-ytc-sc-004/03.webp",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-ytc-sc-004/04.webp",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-ytc-sc-004/05.webp",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-ytc-sc-004/06.webp"
+   ],
+   "video_url": null,
+   "moq": {
+    "value": 1,
+    "unit": "pieces"
+   },
+   "certifications": [],
+   "highlights": [
+    {
+     "icon": "check",
+     "text": {
+      "en": "Rated Power: 1500W",
+      "zh": "额定功率: 1500W",
+      "es": "Potencia nominal: 1500W",
+      "ar": "القدرة المقدرة: 1500W",
+      "fr": "Puissance nominale: 1500W",
+      "id": "Daya Terukur: 1500W",
+      "ru": "Номинальная мощность: 1500W",
+      "th": "กำลังไฟพิกัด: 1500W",
+      "vi": "Công suất định mức: 1500W"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Steam pressure: 3 bar",
+      "zh": "蒸汽压力: 3 bar",
+      "es": "Presión de vapor: 3 bar",
+      "ar": "ضغط البخار: 3 bar",
+      "fr": "Pression de vapeur: 3 bar",
+      "id": "Tekanan uap: 3 bar",
+      "ru": "Давление пара: 3 bar",
+      "th": "แรงดันไอน้ำ: 3 bar",
+      "vi": "Áp suất hơi: 3 bar"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Water Tank Capacity: 1400 mL",
+      "zh": "水箱容量: 1400 mL",
+      "es": "Capacidad del depósito de agua: 1400 mL",
+      "ar": "سعة خزان الماء: 1400 mL",
+      "fr": "Capacité du réservoir d'eau: 1400 mL",
+      "id": "Kapasitas Tangki Air: 1400 mL",
+      "ru": "Объём бака для воды: 1400 mL",
+      "th": "ความจุถังน้ำ: 1400 mL",
+      "vi": "Dung tích bình nước: 1400 mL"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Heating Time: 15s",
+      "zh": "加热时间: 15s",
+      "es": "Tiempo de calentamiento: 15s",
+      "ar": "زمن التسخين: 15s",
+      "fr": "Temps de chauffe: 15s",
+      "id": "Waktu Pemanasan: 15s",
+      "ru": "Время нагрева: 15s",
+      "th": "เวลาในการทำความร้อน: 15s",
+      "vi": "Thời gian gia nhiệt: 15s"
+     }
+    }
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "Water Tank Capacity",
+      "zh": "水箱容量",
+      "es": "Capacidad del depósito de agua",
+      "ar": "سعة خزان الماء",
+      "fr": "Capacité du réservoir d'eau",
+      "id": "Kapasitas Tangki Air",
+      "ru": "Объём бака для воды",
+      "th": "ความจุถังน้ำ",
+      "vi": "Dung tích bình nước"
+     },
+     "value": {
+      "en": "1400 mL",
+      "es": "1400 mL",
+      "ar": "1400 mL",
+      "fr": "1400 mL",
+      "id": "1400 mL",
+      "ru": "1400 mL",
+      "th": "1400 mL",
+      "vi": "1400 mL"
+     }
+    },
+    {
+     "label": {
+      "en": "Rated Power",
+      "zh": "Rated Power",
+      "es": "Potencia nominal",
+      "ar": "القدرة المقدرة",
+      "fr": "Puissance nominale",
+      "id": "Daya Terukur",
+      "ru": "Номинальная мощность",
+      "th": "กำลังไฟพิกัด",
+      "vi": "Công suất định mức"
+     },
+     "value": {
+      "en": "1500W",
+      "es": "1500W",
+      "ar": "1500W",
+      "fr": "1500W",
+      "id": "1500W",
+      "ru": "1500W",
+      "th": "1500W",
+      "vi": "1500W"
+     }
+    },
+    {
+     "label": {
+      "en": "Adjustable Gears",
+      "zh": "Adjustable Gears",
+      "es": "Velocidades Ajustables",
+      "ar": "سرعات قابلة للتعديل",
+      "fr": "Vitesses réglables",
+      "id": "Tingkat Kecepatan yang Dapat Disesuaikan",
+      "ru": "Регулируемые скорости",
+      "th": "ปรับระดับได้",
+      "vi": "Số cấp điều chỉnh"
+     },
+     "value": {
+      "en": "3 gears adjustable",
+      "es": "3 velocidades ajustables",
+      "ar": "3 سرعات قابلة للتعديل",
+      "fr": "3 vitesses réglables",
+      "id": "3 tingkat yang dapat disesuaikan",
+      "ru": "3 регулируемые скорости",
+      "th": "ปรับได้ 3 ระดับ",
+      "vi": "3 cấp điều chỉnh"
+     }
+    },
+    {
+     "label": {
+      "en": "Product Dimension",
+      "zh": "Product Dimension",
+      "es": "Dimensiones del producto",
+      "ar": "أبعاد المنتج",
+      "fr": "Dimensions du produit",
+      "id": "Dimensi Produk",
+      "ru": "Размеры товара",
+      "th": "ขนาดสินค้า",
+      "vi": "Kích thước sản phẩm"
+     },
+     "value": {
+      "en": "21*14.5*14.2 cm",
+      "es": "21*14.5*14.2 cm",
+      "ar": "21*14.5*14.2 cm",
+      "fr": "21*14.5*14.2 cm",
+      "id": "21*14.5*14.2 cm",
+      "ru": "21*14.5*14.2 cm",
+      "th": "21*14.5*14.2 cm",
+      "vi": "21*14.5*14.2 cm"
+     }
+    },
+    {
+     "label": {
+      "en": "Maximum Runtime",
+      "zh": "Maximum Runtime",
+      "es": "Autonomía máxima",
+      "ar": "أقصى مدة تشغيل",
+      "fr": "Autonomie maximale",
+      "id": "Waktu Pakai Maksimum",
+      "ru": "Макс. время работы",
+      "th": "ระยะเวลาทำงานสูงสุด",
+      "vi": "Thời gian chạy tối đa"
+     },
+     "value": {
+      "en": "30 min",
+      "es": "30 min",
+      "ar": "30 min",
+      "fr": "30 min",
+      "id": "30 min",
+      "ru": "30 min",
+      "th": "30 min",
+      "vi": "30 min"
+     }
+    },
+    {
+     "label": {
+      "en": "Steam pressure",
+      "zh": "Steam pressure",
+      "es": "Presión de vapor",
+      "ar": "ضغط البخار",
+      "fr": "Pression de vapeur",
+      "id": "Tekanan uap",
+      "ru": "Давление пара",
+      "th": "แรงดันไอน้ำ",
+      "vi": "Áp suất hơi"
+     },
+     "value": {
+      "en": "3 bar",
+      "es": "3 bar",
+      "ar": "3 bar",
+      "fr": "3 bar",
+      "id": "3 bar",
+      "ru": "3 bar",
+      "th": "3 bar",
+      "vi": "3 bar"
+     }
+    },
+    {
+     "label": {
+      "en": "app-controlled",
+      "zh": "app-controlled",
+      "es": "control por app",
+      "ar": "يُتحكم به عبر التطبيق",
+      "fr": "contrôlé par application",
+      "id": "dikendalikan aplikasi",
+      "ru": "управление через приложение",
+      "th": "ควบคุมผ่านแอป",
+      "vi": "điều khiển qua app"
+     },
+     "value": {
+      "en": "No",
+      "es": "No",
+      "ar": "لا",
+      "fr": "Non",
+      "id": "Tidak",
+      "ru": "Нет",
+      "th": "ไม่",
+      "vi": "Không"
+     }
+    },
+    {
+     "label": {
+      "en": "application",
+      "zh": "application",
+      "es": "aplicación",
+      "ar": "التطبيق",
+      "fr": "utilisation",
+      "id": "aplikasi",
+      "ru": "применение",
+      "th": "การใช้งาน",
+      "vi": "ứng dụng"
+     },
+     "value": {
+      "en": "Household",
+      "es": "Hogar",
+      "ar": "منزلي",
+      "fr": "Ménager",
+      "id": "Rumah tangga",
+      "ru": "Бытовой",
+      "th": "ใช้ในบ้าน",
+      "vi": "Gia dụng"
+     }
+    },
+    {
+     "label": {
+      "en": "Installation",
+      "zh": "Installation",
+      "es": "Instalación",
+      "ar": "التركيب",
+      "fr": "Installation",
+      "id": "Instalasi",
+      "ru": "Установка",
+      "th": "การติดตั้ง",
+      "vi": "Lắp đặt"
+     },
+     "value": {
+      "en": "Handheld",
+      "es": "De mano",
+      "ar": "يدوية",
+      "fr": "À main",
+      "id": "Genggam",
+      "ru": "Ручной",
+      "th": "แบบพกพา",
+      "vi": "Cầm tay"
+     }
+    },
+    {
+     "label": {
+      "en": "operating language",
+      "zh": "operating language",
+      "es": "idioma de funcionamiento",
+      "ar": "لغة التشغيل",
+      "fr": "langue d'utilisation",
+      "id": "bahasa pengoperasian",
+      "ru": "язык интерфейса",
+      "th": "ภาษาที่ใช้งาน",
+      "vi": "ngôn ngữ hoạt động"
+     },
+     "value": {
+      "en": "English",
+      "es": "Inglés",
+      "ar": "الإنجليزية",
+      "fr": "Anglais",
+      "id": "Inggris",
+      "ru": "Английский",
+      "th": "อังกฤษ",
+      "vi": "Tiếng Anh"
+     }
+    },
+    {
+     "label": {
+      "en": "packaging types",
+      "zh": "packaging types",
+      "es": "tipos de embalaje",
+      "ar": "أنواع التغليف",
+      "fr": "types d'emballage",
+      "id": "jenis kemasan",
+      "ru": "типы упаковки",
+      "th": "ประเภทบรรจุภัณฑ์",
+      "vi": "loại bao bì"
+     },
+     "value": {
+      "en": "Corrugated Box",
+      "es": "Caja de cartón ondulado",
+      "ar": "كرتون مموج",
+      "fr": "Carton ondulé",
+      "id": "Kotak Karton Bergelombang",
+      "ru": "Гофрокоробка",
+      "th": "กล่องกระดาษลูกฟูก",
+      "vi": "Thùng carton sóng"
+     }
+    },
+    {
+     "label": {
+      "en": "packaging types",
+      "zh": "packaging types",
+      "es": "tipos de embalaje",
+      "ar": "أنواع التغليف",
+      "fr": "types d'emballage",
+      "id": "jenis kemasan",
+      "ru": "типы упаковки",
+      "th": "ประเภทบรรจุภัณฑ์",
+      "vi": "loại bao bì"
+     },
+     "value": {
+      "en": "Color Box",
+      "es": "Caja a color",
+      "ar": "علبة ملونة",
+      "fr": "Boîte couleur",
+      "id": "Kotak Warna",
+      "ru": "Цветная коробка",
+      "th": "กล่องสี",
+      "vi": "Hộp màu"
+     }
+    },
+    {
+     "label": {
+      "en": "power (w)",
+      "zh": "power (w)",
+      "es": "potencia (W)",
+      "ar": "القدرة (W)",
+      "fr": "puissance (W)",
+      "id": "daya (W)",
+      "ru": "мощность (Вт)",
+      "th": "กำลังไฟ (W)",
+      "vi": "công suất (w)"
+     },
+     "value": {
+      "en": "1500 W",
+      "es": "1500 W",
+      "ar": "1500 W",
+      "fr": "1500 W",
+      "id": "1500 W",
+      "ru": "1500 W",
+      "th": "1500 W",
+      "vi": "1500 W"
+     }
+    },
+    {
+     "label": {
+      "en": "Power Source",
+      "zh": "Power Source",
+      "es": "Fuente de alimentación",
+      "ar": "مصدر الطاقة",
+      "fr": "Source d'alimentation",
+      "id": "Sumber Daya",
+      "ru": "Источник питания",
+      "th": "แหล่งจ่ายไฟ",
+      "vi": "Nguồn điện"
+     },
+     "value": {
+      "en": "Electric",
+      "es": "Eléctrico",
+      "ar": "كهربائي",
+      "fr": "Électrique",
+      "id": "Listrik",
+      "ru": "Электрический",
+      "th": "ไฟฟ้า",
+      "vi": "Điện"
+     }
+    },
+    {
+     "label": {
+      "en": "private mold",
+      "zh": "private mold",
+      "es": "molde propio",
+      "ar": "قالب خاص",
+      "fr": "moule exclusif",
+      "id": "cetakan sendiri",
+      "ru": "собственная пресс-форма",
+      "th": "แม่พิมพ์เฉพาะ",
+      "vi": "khuôn riêng"
+     },
+     "value": {
+      "en": "No",
+      "es": "No",
+      "ar": "لا",
+      "fr": "Non",
+      "id": "Tidak",
+      "ru": "Нет",
+      "th": "ไม่",
+      "vi": "Không"
+     }
+    },
+    {
+     "label": {
+      "en": "warranty",
+      "zh": "warranty",
+      "es": "garantía",
+      "ar": "الضمان",
+      "fr": "garantie",
+      "id": "garansi",
+      "ru": "гарантия",
+      "th": "การรับประกัน",
+      "vi": "bảo hành"
+     },
+     "value": {
+      "en": "1 Year",
+      "es": "1 año",
+      "ar": "سنة واحدة",
+      "fr": "1 an",
+      "id": "1 tahun",
+      "ru": "1 год",
+      "th": "1 ปี",
+      "vi": "1 năm"
+     }
+    },
+    {
+     "label": {
+      "en": "place of origin",
+      "zh": "place of origin",
+      "es": "país de origen",
+      "ar": "بلد المنشأ",
+      "fr": "lieu d'origine",
+      "id": "negara asal",
+      "ru": "страна происхождения",
+      "th": "แหล่งที่มา",
+      "vi": "xuất xứ"
+     },
+     "value": {
+      "en": "CN",
+      "es": "CN",
+      "ar": "CN",
+      "fr": "CN",
+      "id": "CN",
+      "ru": "CN",
+      "th": "CN",
+      "vi": "CN"
+     }
+    },
+    {
+     "label": {
+      "en": "Water Tank Capacity",
+      "zh": "水箱容量",
+      "es": "Capacidad del depósito de agua",
+      "ar": "سعة خزان الماء",
+      "fr": "Capacité du réservoir d'eau",
+      "id": "Kapasitas Tangki Air",
+      "ru": "Объём бака для воды",
+      "th": "ความจุถังน้ำ",
+      "vi": "Dung tích bình nước"
+     },
+     "value": {
+      "en": "1400ml",
+      "es": "1400ml",
+      "ar": "1400ml",
+      "fr": "1400ml",
+      "id": "1400ml",
+      "ru": "1400ml",
+      "th": "1400ml",
+      "vi": "1400ml"
+     }
+    },
+    {
+     "label": {
+      "en": "brand name",
+      "zh": "brand name",
+      "es": "marca",
+      "ar": "اسم العلامة التجارية",
+      "fr": "nom de marque",
+      "id": "nama merek",
+      "ru": "бренд",
+      "th": "ชื่อแบรนด์",
+      "vi": "tên thương hiệu"
+     },
+     "value": {
+      "en": "OEM",
+      "es": "OEM",
+      "ar": "OEM",
+      "fr": "OEM",
+      "id": "OEM",
+      "ru": "OEM",
+      "th": "OEM",
+      "vi": "OEM"
+     }
+    },
+    {
+     "label": {
+      "en": "Heating Time",
+      "zh": "Heating Time",
+      "es": "Tiempo de calentamiento",
+      "ar": "زمن التسخين",
+      "fr": "Temps de chauffe",
+      "id": "Waktu Pemanasan",
+      "ru": "Время нагрева",
+      "th": "เวลาในการทำความร้อน",
+      "vi": "Thời gian gia nhiệt"
+     },
+     "value": {
+      "en": "15s",
+      "es": "15s",
+      "ar": "15s",
+      "fr": "15s",
+      "id": "15s",
+      "ru": "15s",
+      "th": "15s",
+      "vi": "15s"
+     }
+    },
+    {
+     "label": {
+      "en": "Material",
+      "zh": "材质",
+      "es": "Material",
+      "ar": "المادة",
+      "fr": "Matériau",
+      "id": "Material",
+      "ru": "Материал",
+      "th": "วัสดุ",
+      "vi": "Chất liệu"
+     },
+     "value": {
+      "en": "PP",
+      "es": "PP",
+      "ar": "PP",
+      "fr": "PP",
+      "id": "PP",
+      "ru": "PP",
+      "th": "PP",
+      "vi": "PP"
+     }
+    },
+    {
+     "label": {
+      "en": "model number",
+      "zh": "model number",
+      "es": "número de modelo",
+      "ar": "رقم الموديل",
+      "fr": "numéro de modèle",
+      "id": "nomor model",
+      "ru": "номер модели",
+      "th": "หมายเลขรุ่น",
+      "vi": "số model"
+     },
+     "value": {
+      "en": "YTC-SC-004",
+      "es": "YTC-SC-004",
+      "ar": "YTC-SC-004",
+      "fr": "YTC-SC-004",
+      "id": "YTC-SC-004",
+      "ru": "YTC-SC-004",
+      "th": "YTC-SC-004",
+      "vi": "YTC-SC-004"
+     }
+    }
+   ],
+   "packaging": {
+    "unit": "Color Box"
+   },
+   "customization": {},
+   "applications": {
+    "en": "",
+    "zh": ""
+   },
+   "price_indicator": null,
+   "quick_specs": [
+    {
+     "label": {
+      "en": "Rated Power",
+      "zh": "额定功率",
+      "es": "Potencia nominal",
+      "ar": "القدرة المقدرة",
+      "fr": "Puissance nominale",
+      "id": "Daya Terukur",
+      "ru": "Номинальная мощность",
+      "th": "กำลังไฟพิกัด",
+      "vi": "Công suất định mức"
+     },
+     "value": {
+      "en": "1500W",
+      "es": "1500W",
+      "ar": "1500W",
+      "fr": "1500W",
+      "id": "1500W",
+      "ru": "1500W",
+      "th": "1500W",
+      "vi": "1500W"
+     }
+    },
+    {
+     "label": {
+      "en": "Steam pressure",
+      "zh": "蒸汽压力",
+      "es": "Presión de vapor",
+      "ar": "ضغط البخار",
+      "fr": "Pression de vapeur",
+      "id": "Tekanan uap",
+      "ru": "Давление пара",
+      "th": "แรงดันไอน้ำ",
+      "vi": "Áp suất hơi"
+     },
+     "value": {
+      "en": "3 bar",
+      "es": "3 bar",
+      "ar": "3 bar",
+      "fr": "3 bar",
+      "id": "3 bar",
+      "ru": "3 bar",
+      "th": "3 bar",
+      "vi": "3 bar"
+     }
+    },
+    {
+     "label": {
+      "en": "Water Tank Capacity",
+      "zh": "水箱容量",
+      "es": "Capacidad del depósito de agua",
+      "ar": "سعة خزان الماء",
+      "fr": "Capacité du réservoir d'eau",
+      "id": "Kapasitas Tangki Air",
+      "ru": "Объём бака для воды",
+      "th": "ความจุถังน้ำ",
+      "vi": "Dung tích bình nước"
+     },
+     "value": {
+      "en": "1400 mL",
+      "es": "1400 mL",
+      "ar": "1400 mL",
+      "fr": "1400 mL",
+      "id": "1400 mL",
+      "ru": "1400 mL",
+      "th": "1400 mL",
+      "vi": "1400 mL"
+     }
+    },
+    {
+     "label": {
+      "en": "Heating Time",
+      "zh": "加热时间",
+      "es": "Tiempo de calentamiento",
+      "ar": "زمن التسخين",
+      "fr": "Temps de chauffe",
+      "id": "Waktu Pemanasan",
+      "ru": "Время нагрева",
+      "th": "เวลาในการทำความร้อน",
+      "vi": "Thời gian gia nhiệt"
+     },
+     "value": {
+      "en": "15s",
+      "es": "15s",
+      "ar": "15s",
+      "fr": "15s",
+      "id": "15s",
+      "ru": "15s",
+      "th": "15s",
+      "vi": "15s"
+     }
+    }
+   ],
+   "price_ladder": [],
+   "sku": "1601905921428",
+   "description": {
+    "en": "1500W · 3 bar · 1400 mL. OEM/ODM available; specifications from the supplier listing.",
+    "zh": "1500W · 3 bar · 1400 mL。支持 OEM/ODM 定制，规格取自供应商商品资料。",
+    "es": "1500W · 3 bar · 1400 mL. Disponible en OEM/ODM; especificaciones tomadas del listado del proveedor.",
+    "ar": "1500W · 3 bar · 1400 mL. متاح بنظام OEM/ODM؛ المواصفات مأخوذة من قائمة المورّد.",
+    "fr": "1500W · 3 bar · 1400 mL. Disponible en OEM/ODM ; spécifications issues de la fiche du fournisseur.",
+    "id": "1500W · 3 bar · 1400 mL. Tersedia dalam OEM/ODM; spesifikasi diambil dari daftar pemasok.",
+    "ru": "1500W · 3 bar · 1400 mL. Доступно в OEM/ODM; характеристики взяты из карточки товара поставщика.",
+    "th": "1500W · 3 bar · 1400 mL. มีให้บริการในรูปแบบ OEM/ODM; ข้อมูลจำเพาะนำมาจากประกาศของผู้ขาย",
+    "vi": "1500W · 3 bar · 1400 mL. Có sẵn dạng OEM/ODM; thông số kỹ thuật lấy từ niêm yết của nhà cung cấp."
+   },
+   "supplier_rating": "4.8",
+   "response_time": "≤ 2h",
+   "transactions": "US $100K+",
+   "years": "10+",
+   "ship_from": {
+    "en": "Ningbo, China",
+    "zh": "中国宁波"
+   },
+   "sample": {
+    "enabled": true,
+    "qty": 5,
+    "note": "Sample available, lead 7-14 days"
+   },
+   "category_name": {
+    "en": "Steam Cleaners",
+    "zh": "蒸汽清洁机",
+    "es": "Limpiador de Vapor",
+    "ar": "منظف بالبخار",
+    "fr": "Nettoyeur vapeur",
+    "id": "Pembersih Uap",
+    "ru": "Пароочиститель",
+    "th": "เครื่องทำความสะอาดด้วยไอน้ำ",
+    "vi": "Máy vệ sinh hơi nước"
+   },
+   "_source": {
+    "platform": "alibaba.com",
+    "productId": "1601905921428"
+   },
+   "_cat": "steam-cleaner"
+  },
+  {
+   "id": "ytc-sc-002",
+   "name": {
+    "en": "1500W Electric Handheld Portable Steam Cleaner 3BAR High Pressure 100C 1200ML Tank 15S Fast Heating 6 Speed Home Use",
+    "zh": "YTC-SC-002 手持高压蒸汽清洁机（1500W / 1200ml / 6 档 / 100℃）",
+    "es": "Limpiador a vapor eléctrico portátil de mano 1500 W 3BAR de alta presión, 100 ℃, depósito de 1200 ml, calentamiento rápido en 15 s, 6 velocidades para uso doméstico",
+    "ar": "منظف بخار كهربائي يدوي محمول 1500W 3BAR ضغط عالي، 100C، خزان 1200ML، تسخين سريع في 15 ثانية، 6 سرعات للاستخدام المنزلي",
+    "fr": "Nettoyeur vapeur électrique portatif à main 1500 W, 3BAR haute pression, 100C, réservoir de 1200 ml, chauffe rapide en 15 s, 6 vitesses, usage domestique",
+    "id": "Pembersih Uap Genggam Portabel Elektrik 1500W 3BAR, Tekanan Tinggi, 100C, Tangki 1200ML, Pemanasan Cepat 15S, 6 Kecepatan untuk Penggunaan Rumah",
+    "ru": "Электрический ручной портативный пароочиститель 1500 W 3BAR высокого давления, 100 °C, бак 1200 мл, быстрый нагрев за 15 с, 6 скоростей, для дома",
+    "th": "เครื่องทำความสะอาดด้วยไอน้ำไฟฟ้าแบบพกพา 1500W 3BAR แรงดันสูง 100C ถัง 1200ML ทำความร้อนเร็ว 15S 6 ระดับ สำหรับใช้ในบ้าน",
+    "vi": "Máy hơi nước cầm tay di động bằng điện 1500W 3BAR áp suất cao, 100C, bình 1200ML, gia nhiệt nhanh 15 giây, 6 tốc độ, dùng cho gia đình"
+   },
+   "tagline": {
+    "en": "1500W · 3 bar · 1200 mL",
+    "zh": "1500W · 3 bar · 1200 mL",
+    "es": "1500W · 3 bar · 1200 mL",
+    "ar": "1500W · 3 bar · 1200 mL",
+    "fr": "1500W · 3 bar · 1200 mL",
+    "id": "1500W · 3 bar · 1200 mL",
+    "ru": "1500W · 3 bar · 1200 mL",
+    "th": "1500W · 3 bar · 1200 mL",
+    "vi": "1500W · 3 bar · 1200 mL"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-ytc-sc-002/01.webp",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-ytc-sc-002/02.webp",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-ytc-sc-002/03.webp",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-ytc-sc-002/04.webp",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-ytc-sc-002/05.webp",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-ytc-sc-002/06.webp"
+   ],
+   "video_url": null,
+   "moq": {
+    "value": 1,
+    "unit": "pieces"
+   },
+   "certifications": [],
+   "highlights": [
+    {
+     "icon": "check",
+     "text": {
+      "en": "Rated Power: 1500W",
+      "zh": "额定功率: 1500W",
+      "es": "Potencia nominal: 1500W",
+      "ar": "القدرة المقدرة: 1500W",
+      "fr": "Puissance nominale: 1500W",
+      "id": "Daya Terukur: 1500W",
+      "ru": "Номинальная мощность: 1500W",
+      "th": "กำลังไฟพิกัด: 1500W",
+      "vi": "Công suất định mức: 1500W"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Steam pressure: 3 bar",
+      "zh": "蒸汽压力: 3 bar",
+      "es": "Presión de vapor: 3 bar",
+      "ar": "ضغط البخار: 3 bar",
+      "fr": "Pression de vapeur: 3 bar",
+      "id": "Tekanan uap: 3 bar",
+      "ru": "Давление пара: 3 bar",
+      "th": "แรงดันไอน้ำ: 3 bar",
+      "vi": "Áp suất hơi: 3 bar"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Water Tank Capacity: 1200 mL",
+      "zh": "水箱容量: 1200 mL",
+      "es": "Capacidad del depósito de agua: 1200 mL",
+      "ar": "سعة خزان الماء: 1200 mL",
+      "fr": "Capacité du réservoir d'eau: 1200 mL",
+      "id": "Kapasitas Tangki Air: 1200 mL",
+      "ru": "Объём бака для воды: 1200 mL",
+      "th": "ความจุถังน้ำ: 1200 mL",
+      "vi": "Dung tích bình nước: 1200 mL"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Heating Time: 15s",
+      "zh": "加热时间: 15s",
+      "es": "Tiempo de calentamiento: 15s",
+      "ar": "زمن التسخين: 15s",
+      "fr": "Temps de chauffe: 15s",
+      "id": "Waktu Pemanasan: 15s",
+      "ru": "Время нагрева: 15s",
+      "th": "เวลาในการทำความร้อน: 15s",
+      "vi": "Thời gian gia nhiệt: 15s"
+     }
+    }
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "Water Tank Capacity",
+      "zh": "水箱容量",
+      "es": "Capacidad del depósito de agua",
+      "ar": "سعة خزان الماء",
+      "fr": "Capacité du réservoir d'eau",
+      "id": "Kapasitas Tangki Air",
+      "ru": "Объём бака для воды",
+      "th": "ความจุถังน้ำ",
+      "vi": "Dung tích bình nước"
+     },
+     "value": {
+      "en": "1200 mL",
+      "es": "1200 mL",
+      "ar": "1200 mL",
+      "fr": "1200 mL",
+      "id": "1200 mL",
+      "ru": "1200 mL",
+      "th": "1200 mL",
+      "vi": "1200 mL"
+     }
+    },
+    {
+     "label": {
+      "en": "Rated Power",
+      "zh": "Rated Power",
+      "es": "Potencia nominal",
+      "ar": "القدرة المقدرة",
+      "fr": "Puissance nominale",
+      "id": "Daya Terukur",
+      "ru": "Номинальная мощность",
+      "th": "กำลังไฟพิกัด",
+      "vi": "Công suất định mức"
+     },
+     "value": {
+      "en": "1500W",
+      "es": "1500W",
+      "ar": "1500W",
+      "fr": "1500W",
+      "id": "1500W",
+      "ru": "1500W",
+      "th": "1500W",
+      "vi": "1500W"
+     }
+    },
+    {
+     "label": {
+      "en": "Adjustable Gears",
+      "zh": "Adjustable Gears",
+      "es": "Velocidades Ajustables",
+      "ar": "سرعات قابلة للتعديل",
+      "fr": "Vitesses réglables",
+      "id": "Tingkat Kecepatan yang Dapat Disesuaikan",
+      "ru": "Регулируемые скорости",
+      "th": "ปรับระดับได้",
+      "vi": "Số cấp điều chỉnh"
+     },
+     "value": {
+      "en": "6 gears adjustable",
+      "es": "6 velocidades ajustables",
+      "ar": "6 سرعات قابلة للتعديل",
+      "fr": "6 vitesses réglables",
+      "id": "6 tingkat yang dapat disesuaikan",
+      "ru": "6 регулируемых скоростей",
+      "th": "ปรับได้ 6 ระดับ",
+      "vi": "6 cấp điều chỉnh"
+     }
+    },
+    {
+     "label": {
+      "en": "Product Dimension",
+      "zh": "Product Dimension",
+      "es": "Dimensiones del producto",
+      "ar": "أبعاد المنتج",
+      "fr": "Dimensions du produit",
+      "id": "Dimensi Produk",
+      "ru": "Размеры товара",
+      "th": "ขนาดสินค้า",
+      "vi": "Kích thước sản phẩm"
+     },
+     "value": {
+      "en": "21*15*13 cm",
+      "es": "21*15*13 cm",
+      "ar": "21*15*13 cm",
+      "fr": "21*15*13 cm",
+      "id": "21*15*13 cm",
+      "ru": "21*15*13 cm",
+      "th": "21*15*13 cm",
+      "vi": "21*15*13 cm"
+     }
+    },
+    {
+     "label": {
+      "en": "Maximum Runtime",
+      "zh": "Maximum Runtime",
+      "es": "Autonomía máxima",
+      "ar": "أقصى مدة تشغيل",
+      "fr": "Autonomie maximale",
+      "id": "Waktu Pakai Maksimum",
+      "ru": "Макс. время работы",
+      "th": "ระยะเวลาทำงานสูงสุด",
+      "vi": "Thời gian chạy tối đa"
+     },
+     "value": {
+      "en": "30 min",
+      "es": "30 min",
+      "ar": "30 min",
+      "fr": "30 min",
+      "id": "30 min",
+      "ru": "30 min",
+      "th": "30 min",
+      "vi": "30 min"
+     }
+    },
+    {
+     "label": {
+      "en": "Steam pressure",
+      "zh": "Steam pressure",
+      "es": "Presión de vapor",
+      "ar": "ضغط البخار",
+      "fr": "Pression de vapeur",
+      "id": "Tekanan uap",
+      "ru": "Давление пара",
+      "th": "แรงดันไอน้ำ",
+      "vi": "Áp suất hơi"
+     },
+     "value": {
+      "en": "3 bar",
+      "es": "3 bar",
+      "ar": "3 bar",
+      "fr": "3 bar",
+      "id": "3 bar",
+      "ru": "3 bar",
+      "th": "3 bar",
+      "vi": "3 bar"
+     }
+    },
+    {
+     "label": {
+      "en": "app-controlled",
+      "zh": "app-controlled",
+      "es": "control por app",
+      "ar": "يُتحكم به عبر التطبيق",
+      "fr": "contrôlé par application",
+      "id": "dikendalikan aplikasi",
+      "ru": "управление через приложение",
+      "th": "ควบคุมผ่านแอป",
+      "vi": "điều khiển qua app"
+     },
+     "value": {
+      "en": "No",
+      "es": "No",
+      "ar": "لا",
+      "fr": "Non",
+      "id": "Tidak",
+      "ru": "Нет",
+      "th": "ไม่",
+      "vi": "Không"
+     }
+    },
+    {
+     "label": {
+      "en": "application",
+      "zh": "application",
+      "es": "aplicación",
+      "ar": "التطبيق",
+      "fr": "utilisation",
+      "id": "aplikasi",
+      "ru": "применение",
+      "th": "การใช้งาน",
+      "vi": "ứng dụng"
+     },
+     "value": {
+      "en": "Household",
+      "es": "Hogar",
+      "ar": "منزلي",
+      "fr": "Ménager",
+      "id": "Rumah tangga",
+      "ru": "Бытовой",
+      "th": "ใช้ในบ้าน",
+      "vi": "Gia dụng"
+     }
+    },
+    {
+     "label": {
+      "en": "Installation",
+      "zh": "Installation",
+      "es": "Instalación",
+      "ar": "التركيب",
+      "fr": "Installation",
+      "id": "Instalasi",
+      "ru": "Установка",
+      "th": "การติดตั้ง",
+      "vi": "Lắp đặt"
+     },
+     "value": {
+      "en": "Handheld",
+      "es": "De mano",
+      "ar": "يدوية",
+      "fr": "À main",
+      "id": "Genggam",
+      "ru": "Ручной",
+      "th": "แบบพกพา",
+      "vi": "Cầm tay"
+     }
+    },
+    {
+     "label": {
+      "en": "operating language",
+      "zh": "operating language",
+      "es": "idioma de funcionamiento",
+      "ar": "لغة التشغيل",
+      "fr": "langue d'utilisation",
+      "id": "bahasa pengoperasian",
+      "ru": "язык интерфейса",
+      "th": "ภาษาที่ใช้งาน",
+      "vi": "ngôn ngữ hoạt động"
+     },
+     "value": {
+      "en": "English",
+      "es": "Inglés",
+      "ar": "الإنجليزية",
+      "fr": "Anglais",
+      "id": "Inggris",
+      "ru": "Английский",
+      "th": "อังกฤษ",
+      "vi": "Tiếng Anh"
+     }
+    },
+    {
+     "label": {
+      "en": "packaging types",
+      "zh": "packaging types",
+      "es": "tipos de embalaje",
+      "ar": "أنواع التغليف",
+      "fr": "types d'emballage",
+      "id": "jenis kemasan",
+      "ru": "типы упаковки",
+      "th": "ประเภทบรรจุภัณฑ์",
+      "vi": "loại bao bì"
+     },
+     "value": {
+      "en": "Corrugated Box",
+      "es": "Caja de cartón ondulado",
+      "ar": "كرتون مموج",
+      "fr": "Carton ondulé",
+      "id": "Kotak Karton Bergelombang",
+      "ru": "Гофрокоробка",
+      "th": "กล่องกระดาษลูกฟูก",
+      "vi": "Thùng carton sóng"
+     }
+    },
+    {
+     "label": {
+      "en": "packaging types",
+      "zh": "packaging types",
+      "es": "tipos de embalaje",
+      "ar": "أنواع التغليف",
+      "fr": "types d'emballage",
+      "id": "jenis kemasan",
+      "ru": "типы упаковки",
+      "th": "ประเภทบรรจุภัณฑ์",
+      "vi": "loại bao bì"
+     },
+     "value": {
+      "en": "Color Box",
+      "es": "Caja a color",
+      "ar": "علبة ملونة",
+      "fr": "Boîte couleur",
+      "id": "Kotak Warna",
+      "ru": "Цветная коробка",
+      "th": "กล่องสี",
+      "vi": "Hộp màu"
+     }
+    },
+    {
+     "label": {
+      "en": "power (w)",
+      "zh": "功率(W)",
+      "es": "potencia (W)",
+      "ar": "القدرة (W)",
+      "fr": "puissance (W)",
+      "id": "daya (W)",
+      "ru": "мощность (Вт)",
+      "th": "กำลังไฟ (W)",
+      "vi": "công suất (w)"
+     },
+     "value": {
+      "en": "1500 W",
+      "es": "1500 W",
+      "ar": "1500 W",
+      "fr": "1500 W",
+      "id": "1500 W",
+      "ru": "1500 W",
+      "th": "1500 W",
+      "vi": "1500 W"
+     }
+    },
+    {
+     "label": {
+      "en": "Power Source",
+      "zh": "Power Source",
+      "es": "Fuente de alimentación",
+      "ar": "مصدر الطاقة",
+      "fr": "Source d'alimentation",
+      "id": "Sumber Daya",
+      "ru": "Источник питания",
+      "th": "แหล่งจ่ายไฟ",
+      "vi": "Nguồn điện"
+     },
+     "value": {
+      "en": "Electric",
+      "es": "Eléctrico",
+      "ar": "كهربائي",
+      "fr": "Électrique",
+      "id": "Listrik",
+      "ru": "Электрический",
+      "th": "ไฟฟ้า",
+      "vi": "Điện"
+     }
+    },
+    {
+     "label": {
+      "en": "private mold",
+      "zh": "private mold",
+      "es": "molde propio",
+      "ar": "قالب خاص",
+      "fr": "moule exclusif",
+      "id": "cetakan sendiri",
+      "ru": "собственная пресс-форма",
+      "th": "แม่พิมพ์เฉพาะ",
+      "vi": "khuôn riêng"
+     },
+     "value": {
+      "en": "No",
+      "es": "No",
+      "ar": "لا",
+      "fr": "Non",
+      "id": "Tidak",
+      "ru": "Нет",
+      "th": "ไม่",
+      "vi": "Không"
+     }
+    },
+    {
+     "label": {
+      "en": "warranty",
+      "zh": "warranty",
+      "es": "garantía",
+      "ar": "الضمان",
+      "fr": "garantie",
+      "id": "garansi",
+      "ru": "гарантия",
+      "th": "การรับประกัน",
+      "vi": "bảo hành"
+     },
+     "value": {
+      "en": "1 Year",
+      "es": "1 año",
+      "ar": "سنة واحدة",
+      "fr": "1 an",
+      "id": "1 tahun",
+      "ru": "1 год",
+      "th": "1 ปี",
+      "vi": "1 năm"
+     }
+    },
+    {
+     "label": {
+      "en": "place of origin",
+      "zh": "place of origin",
+      "es": "país de origen",
+      "ar": "بلد المنشأ",
+      "fr": "lieu d'origine",
+      "id": "negara asal",
+      "ru": "страна происхождения",
+      "th": "แหล่งที่มา",
+      "vi": "xuất xứ"
+     },
+     "value": {
+      "en": "CN",
+      "es": "CN",
+      "ar": "CN",
+      "fr": "CN",
+      "id": "CN",
+      "ru": "CN",
+      "th": "CN",
+      "vi": "CN"
+     }
+    },
+    {
+     "label": {
+      "en": "Water Tank Capacity",
+      "zh": "水箱容量",
+      "es": "Capacidad del depósito de agua",
+      "ar": "سعة خزان الماء",
+      "fr": "Capacité du réservoir d'eau",
+      "id": "Kapasitas Tangki Air",
+      "ru": "Объём бака для воды",
+      "th": "ความจุถังน้ำ",
+      "vi": "Dung tích bình nước"
+     },
+     "value": {
+      "en": "1L",
+      "es": "1L",
+      "ar": "1L",
+      "fr": "1L",
+      "id": "1L",
+      "ru": "1L",
+      "th": "1L",
+      "vi": "1L"
+     }
+    },
+    {
+     "label": {
+      "en": "brand name",
+      "zh": "brand name",
+      "es": "marca",
+      "ar": "اسم العلامة التجارية",
+      "fr": "nom de marque",
+      "id": "nama merek",
+      "ru": "бренд",
+      "th": "ชื่อแบรนด์",
+      "vi": "tên thương hiệu"
+     },
+     "value": {
+      "en": "OEM",
+      "es": "OEM",
+      "ar": "OEM",
+      "fr": "OEM",
+      "id": "OEM",
+      "ru": "OEM",
+      "th": "OEM",
+      "vi": "OEM"
+     }
+    },
+    {
+     "label": {
+      "en": "Heating Time",
+      "zh": "Heating Time",
+      "es": "Tiempo de calentamiento",
+      "ar": "زمن التسخين",
+      "fr": "Temps de chauffe",
+      "id": "Waktu Pemanasan",
+      "ru": "Время нагрева",
+      "th": "เวลาในการทำความร้อน",
+      "vi": "Thời gian gia nhiệt"
+     },
+     "value": {
+      "en": "15s",
+      "es": "15s",
+      "ar": "15s",
+      "fr": "15s",
+      "id": "15s",
+      "ru": "15s",
+      "th": "15s",
+      "vi": "15s"
+     }
+    },
+    {
+     "label": {
+      "en": "Material",
+      "zh": "材质",
+      "es": "Material",
+      "ar": "المادة",
+      "fr": "Matériau",
+      "id": "Material",
+      "ru": "Материал",
+      "th": "วัสดุ",
+      "vi": "Chất liệu"
+     },
+     "value": {
+      "en": "PP",
+      "es": "PP",
+      "ar": "PP",
+      "fr": "PP",
+      "id": "PP",
+      "ru": "PP",
+      "th": "PP",
+      "vi": "PP"
+     }
+    },
+    {
+     "label": {
+      "en": "model number",
+      "zh": "model number",
+      "es": "número de modelo",
+      "ar": "رقم الموديل",
+      "fr": "numéro de modèle",
+      "id": "nomor model",
+      "ru": "номер модели",
+      "th": "หมายเลขรุ่น",
+      "vi": "số model"
+     },
+     "value": {
+      "en": "YTC-SC-002",
+      "es": "YTC-SC-002",
+      "ar": "YTC-SC-002",
+      "fr": "YTC-SC-002",
+      "id": "YTC-SC-002",
+      "ru": "YTC-SC-002",
+      "th": "YTC-SC-002",
+      "vi": "YTC-SC-002"
+     }
+    }
+   ],
+   "packaging": {
+    "unit": "Color Box"
+   },
+   "customization": {},
+   "applications": {
+    "en": "",
+    "zh": ""
+   },
+   "price_indicator": null,
+   "quick_specs": [
+    {
+     "label": {
+      "en": "Rated Power",
+      "zh": "额定功率",
+      "es": "Potencia nominal",
+      "ar": "القدرة المقدرة",
+      "fr": "Puissance nominale",
+      "id": "Daya Terukur",
+      "ru": "Номинальная мощность",
+      "th": "กำลังไฟพิกัด",
+      "vi": "Công suất định mức"
+     },
+     "value": {
+      "en": "1500W",
+      "es": "1500W",
+      "ar": "1500W",
+      "fr": "1500W",
+      "id": "1500W",
+      "ru": "1500W",
+      "th": "1500W",
+      "vi": "1500W"
+     }
+    },
+    {
+     "label": {
+      "en": "Steam pressure",
+      "zh": "蒸汽压力",
+      "es": "Presión de vapor",
+      "ar": "ضغط البخار",
+      "fr": "Pression de vapeur",
+      "id": "Tekanan uap",
+      "ru": "Давление пара",
+      "th": "แรงดันไอน้ำ",
+      "vi": "Áp suất hơi"
+     },
+     "value": {
+      "en": "3 bar",
+      "es": "3 bar",
+      "ar": "3 bar",
+      "fr": "3 bar",
+      "id": "3 bar",
+      "ru": "3 bar",
+      "th": "3 bar",
+      "vi": "3 bar"
+     }
+    },
+    {
+     "label": {
+      "en": "Water Tank Capacity",
+      "zh": "水箱容量",
+      "es": "Capacidad del depósito de agua",
+      "ar": "سعة خزان الماء",
+      "fr": "Capacité du réservoir d'eau",
+      "id": "Kapasitas Tangki Air",
+      "ru": "Объём бака для воды",
+      "th": "ความจุถังน้ำ",
+      "vi": "Dung tích bình nước"
+     },
+     "value": {
+      "en": "1200 mL",
+      "es": "1200 mL",
+      "ar": "1200 mL",
+      "fr": "1200 mL",
+      "id": "1200 mL",
+      "ru": "1200 mL",
+      "th": "1200 mL",
+      "vi": "1200 mL"
+     }
+    },
+    {
+     "label": {
+      "en": "Heating Time",
+      "zh": "加热时间",
+      "es": "Tiempo de calentamiento",
+      "ar": "زمن التسخين",
+      "fr": "Temps de chauffe",
+      "id": "Waktu Pemanasan",
+      "ru": "Время нагрева",
+      "th": "เวลาในการทำความร้อน",
+      "vi": "Thời gian gia nhiệt"
+     },
+     "value": {
+      "en": "15s",
+      "es": "15s",
+      "ar": "15s",
+      "fr": "15s",
+      "id": "15s",
+      "ru": "15s",
+      "th": "15s",
+      "vi": "15s"
+     }
+    }
+   ],
+   "price_ladder": [],
+   "sku": "1601916489702",
+   "description": {
+    "en": "1500W · 3 bar · 1200 mL. OEM/ODM available; specifications from the supplier listing.",
+    "zh": "1500W · 3 bar · 1200 mL。支持 OEM/ODM 定制，规格取自供应商商品资料。",
+    "es": "1500W · 3 bar · 1200 mL. Disponible en OEM/ODM; especificaciones tomadas del listado del proveedor.",
+    "ar": "1500W · 3 bar · 1200 mL. متاح بنظام OEM/ODM؛ المواصفات مأخوذة من قائمة المورّد.",
+    "fr": "1500W · 3 bar · 1200 mL. Disponible en OEM/ODM ; spécifications issues de la fiche du fournisseur.",
+    "id": "1500W · 3 bar · 1200 mL. Tersedia dalam OEM/ODM; spesifikasi diambil dari daftar pemasok.",
+    "ru": "1500W · 3 bar · 1200 mL. Доступно в OEM/ODM; характеристики взяты из карточки товара поставщика.",
+    "th": "1500W · 3 bar · 1200 mL. มีให้บริการในรูปแบบ OEM/ODM; ข้อมูลจำเพาะนำมาจากประกาศของผู้ขาย",
+    "vi": "1500W · 3 bar · 1200 mL. Có sẵn dạng OEM/ODM; thông số kỹ thuật lấy từ niêm yết của nhà cung cấp."
+   },
+   "supplier_rating": "4.8",
+   "response_time": "≤ 2h",
+   "transactions": "US $100K+",
+   "years": "10+",
+   "ship_from": {
+    "en": "Ningbo, China",
+    "zh": "中国宁波"
+   },
+   "sample": {
+    "enabled": true,
+    "qty": 5,
+    "note": "Sample available, lead 7-14 days"
+   },
+   "category_name": {
+    "en": "Steam Cleaners",
+    "zh": "蒸汽清洁机",
+    "es": "Limpiador de Vapor",
+    "ar": "منظف بالبخار",
+    "fr": "Nettoyeur vapeur",
+    "id": "Pembersih Uap",
+    "ru": "Пароочиститель",
+    "th": "เครื่องทำความสะอาดด้วยไอน้ำ",
+    "vi": "Máy vệ sinh hơi nước"
+   },
+   "_source": {
+    "platform": "alibaba.com",
+    "productId": "1601916489702"
+   },
+   "_cat": "steam-cleaner"
+  },
+  {
+   "id": "f403",
+   "name": {
+    "en": "Portable Handheld Steam Cleaner High Pressure Steam Cleaning Machine Multi Purpose Home Kitchen Car Cleaner 3Bar OEM ODM",
+    "zh": "F403 紧凑高压蒸汽清洁机（1500W / 1000ml / 3Bar）",
+    "es": "Limpiador a vapor portátil de mano, máquina de limpieza a vapor de alta presión multiusos para hogar, cocina y coche, 3 bar, OEM ODM",
+    "ar": "منظف بخار محمول يدوي، ماكينة تنظيف بالبخار عالي الضغط متعددة الأغراض للمنزل والمطبخ والسيارة، 3Bar، OEM ODM",
+    "fr": "Nettoyeur vapeur portatif à main, machine de nettoyage vapeur haute pression multiusage pour maison, cuisine et voiture, 3 bar, OEM ODM",
+    "id": "Pembersih Uap Genggam Portabel, Mesin Pembersih Uap Bertekanan Tinggi Serbaguna untuk Rumah, Dapur, dan Mobil, 3Bar, OEM ODM",
+    "ru": "Портативный ручной пароочиститель, машина для паровой очистки высокого давления, многофункциональный очиститель для дома, кухни и автомобиля, 3 бар, OEM ODM",
+    "th": "เครื่องทำความสะอาดด้วยไอน้ำแบบพกพา เครื่องทำความสะอาดไอน้ำแรงดันสูงอเนกประสงค์สำหรับบ้าน ครัว และรถยนต์ 3Bar OEM ODM",
+    "vi": "Máy hơi nước cầm tay di động, máy vệ sinh bằng hơi nước áp suất cao đa năng cho nhà, nhà bếp và ô tô, 3Bar, OEM ODM"
+   },
+   "tagline": {
+    "en": "1500 W · 3 bar · 1000ml",
+    "zh": "1500 W · 3 bar · 1000ml",
+    "es": "1500 W · 3 bar · 1000ml",
+    "ar": "1500 W · 3 bar · 1000ml",
+    "fr": "1500 W · 3 bar · 1000ml",
+    "id": "1500 W · 3 bar · 1000ml",
+    "ru": "1500 W · 3 bar · 1000ml",
+    "th": "1500 W · 3 bar · 1000ml",
+    "vi": "1500 W · 3 bar · 1000ml"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-f403/01.webp",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-f403/02.webp",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-f403/03.webp",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-f403/04.webp",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-f403/05.webp",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-f403/06.webp"
+   ],
+   "video_url": null,
+   "moq": {
+    "value": 1,
+    "unit": "pieces"
+   },
+   "certifications": [],
+   "highlights": [
+    {
+     "icon": "check",
+     "text": {
+      "en": "Power (W): 1500 W",
+      "zh": "功率(W): 1500 W",
+      "es": "Potencia (W): 1500 W",
+      "ar": "القدرة (W): 1500 W",
+      "fr": "Puissance (W): 1500 W",
+      "id": "Daya (W): 1500 W",
+      "ru": "Мощность (Вт): 1500 W",
+      "th": "กำลังไฟ (W): 1500 W",
+      "vi": "Công suất (W): 1500 W"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Steam pressure: 3 bar",
+      "zh": "蒸汽压力: 3 bar",
+      "es": "Presión de vapor: 3 bar",
+      "ar": "ضغط البخار: 3 bar",
+      "fr": "Pression de vapeur: 3 bar",
+      "id": "Tekanan uap: 3 bar",
+      "ru": "Давление пара: 3 bar",
+      "th": "แรงดันไอน้ำ: 3 bar",
+      "vi": "Áp suất hơi: 3 bar"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Water Tank Capacity: 1000ml",
+      "zh": "水箱容量: 1000ml",
+      "es": "Capacidad del depósito de agua: 1000ml",
+      "ar": "سعة خزان الماء: 1000ml",
+      "fr": "Capacité du réservoir d'eau: 1000ml",
+      "id": "Kapasitas Tangki Air: 1000ml",
+      "ru": "Объём бака для воды: 1000ml",
+      "th": "ความจุถังน้ำ: 1000ml",
+      "vi": "Dung tích bình nước: 1000ml"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Heating Time: 0–60 s",
+      "zh": "加热时间: 0–60 s",
+      "es": "Tiempo de calentamiento: 0–60 s",
+      "ar": "زمن التسخين: 0–60 s",
+      "fr": "Temps de chauffe: 0–60 s",
+      "id": "Waktu Pemanasan: 0–60 s",
+      "ru": "Время нагрева: 0–60 s",
+      "th": "เวลาในการทำความร้อน: 0–60 s",
+      "vi": "Thời gian gia nhiệt: 0–60 s"
+     }
+    }
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "Type",
+      "zh": "类型",
+      "es": "Tipo",
+      "ar": "النوع",
+      "fr": "Type",
+      "id": "Tipe",
+      "ru": "Тип",
+      "th": "ประเภท",
+      "vi": "Loại"
+     },
+     "value": {
+      "en": "Water Filter",
+      "es": "Filtro de agua",
+      "ar": "فلتر ماء",
+      "fr": "Filtre à eau",
+      "id": "Filter Air",
+      "ru": "Водяной фильтр",
+      "th": "ตัวกรองน้ำ",
+      "vi": "Bộ lọc nước"
+     }
+    },
+    {
+     "label": {
+      "en": "Product name",
+      "zh": "Product name",
+      "es": "Nombre del producto",
+      "ar": "اسم المنتج",
+      "fr": "Nom du produit",
+      "id": "Nama produk",
+      "ru": "Название товара",
+      "th": "ชื่อสินค้า",
+      "vi": "Tên sản phẩm"
+     },
+     "value": {
+      "en": "Steam Cleaner",
+      "es": "Limpiador a Vapor",
+      "ar": "منظف بالبخار",
+      "fr": "Nettoyeur vapeur",
+      "id": "Pembersih Uap",
+      "ru": "Пароочиститель",
+      "th": "เครื่องทำความสะอาดด้วยไอน้ำ",
+      "vi": "Máy hơi nước làm sạch"
+     }
+    },
+    {
+     "label": {
+      "en": "Power Source",
+      "zh": "Power Source",
+      "es": "Fuente de alimentación",
+      "ar": "مصدر الطاقة",
+      "fr": "Source d'alimentation",
+      "id": "Sumber Daya",
+      "ru": "Источник питания",
+      "th": "แหล่งจ่ายไฟ",
+      "vi": "Nguồn điện"
+     },
+     "value": {
+      "en": "Usb",
+      "es": "Usb",
+      "ar": "Usb",
+      "fr": "Usb",
+      "id": "Usb",
+      "ru": "Usb",
+      "th": "Usb",
+      "vi": "Usb"
+     }
+    },
+    {
+     "label": {
+      "en": "Function",
+      "zh": "功能",
+      "es": "Función",
+      "ar": "الوظيفة",
+      "fr": "Fonction",
+      "id": "Fungsi",
+      "ru": "Функция",
+      "th": "ฟังก์ชัน",
+      "vi": "Chức năng"
+     },
+     "value": {
+      "en": "Dry",
+      "es": "Seco",
+      "ar": "جاف",
+      "fr": "Sec",
+      "id": "Kering",
+      "ru": "Сухая уборка",
+      "th": "แห้ง",
+      "vi": "Khô"
+     }
+    },
+    {
+     "label": {
+      "en": "Keywords",
+      "zh": "Keywords",
+      "es": "Palabras clave",
+      "ar": "الكلمات المفتاحية",
+      "fr": "Mots-clés",
+      "id": "Kata Kunci",
+      "ru": "Ключевые слова",
+      "th": "คำค้นหา",
+      "vi": "Từ khóa"
+     },
+     "value": {
+      "en": "Steam Cleanmer",
+      "es": "Limpiador a vapor",
+      "ar": "منظف بالبخار",
+      "fr": "Nettoyeur vapeur",
+      "id": "Pembersih Uap",
+      "ru": "Пароочиститель",
+      "th": "เครื่องทำความสะอาดด้วยไอน้ำ",
+      "vi": "Máy hơi nước làm sạch"
+     }
+    },
+    {
+     "label": {
+      "en": "Material",
+      "zh": "材质",
+      "es": "Material",
+      "ar": "المادة",
+      "fr": "Matériau",
+      "id": "Material",
+      "ru": "Материал",
+      "th": "วัสดุ",
+      "vi": "Chất liệu"
+     },
+     "value": {
+      "en": "ABS",
+      "es": "ABS",
+      "ar": "ABS",
+      "fr": "ABS",
+      "id": "ABS",
+      "ru": "ABS",
+      "th": "ABS",
+      "vi": "ABS"
+     }
+    },
+    {
+     "label": {
+      "en": "Usage",
+      "zh": "Usage",
+      "es": "Uso",
+      "ar": "الاستخدام",
+      "fr": "Utilisation",
+      "id": "Penggunaan",
+      "ru": "Использование",
+      "th": "การใช้งาน",
+      "vi": "Mục đích sử dụng"
+     },
+     "value": {
+      "en": "Public . Home . Office . Hospital",
+      "es": "Público . Hogar . Oficina . Hospital",
+      "ar": "أماكن عامة . منزل . مكتب . مستشفى",
+      "fr": "Public . Maison . Bureau . Hôpital",
+      "id": "Publik . Rumah . Kantor . Rumah Sakit",
+      "ru": "Общественные места . Дом . Офис . Больница",
+      "th": "สาธารณะ . บ้าน . ออฟฟิศ . โรงพยาบาล",
+      "vi": "Công cộng . Nhà . Văn phòng . Bệnh viện"
+     }
+    },
+    {
+     "label": {
+      "en": "Water Tank Capacity",
+      "zh": "水箱容量",
+      "es": "Capacidad del depósito de agua",
+      "ar": "سعة خزان الماء",
+      "fr": "Capacité du réservoir d'eau",
+      "id": "Kapasitas Tangki Air",
+      "ru": "Объём бака для воды",
+      "th": "ความจุถังน้ำ",
+      "vi": "Dung tích bình nước"
+     },
+     "value": {
+      "en": "1000ml",
+      "es": "1000ml",
+      "ar": "1000ml",
+      "fr": "1000ml",
+      "id": "1000ml",
+      "ru": "1000ml",
+      "th": "1000ml",
+      "vi": "1000ml"
+     }
+    },
+    {
+     "label": {
+      "en": "Color",
+      "zh": "颜色",
+      "es": "Color",
+      "ar": "اللون",
+      "fr": "Couleur",
+      "id": "Warna",
+      "ru": "Цвет",
+      "th": "สี",
+      "vi": "Màu sắc"
+     },
+     "value": {
+      "en": "Photo",
+      "es": "Foto",
+      "ar": "صورة",
+      "fr": "Photo",
+      "id": "Foto",
+      "ru": "Фото",
+      "th": "รูปภาพ",
+      "vi": "Ảnh"
+     }
+    },
+    {
+     "label": {
+      "en": "Weight (KG)",
+      "zh": "Weight (KG)",
+      "es": "Peso (kg)",
+      "ar": "الوزن (KG)",
+      "fr": "Poids (kg)",
+      "id": "Berat (KG)",
+      "ru": "Вес (кг)",
+      "th": "น้ำหนัก (KG)",
+      "vi": "Trọng lượng (KG)"
+     },
+     "value": {
+      "en": "2kg",
+      "es": "2kg",
+      "ar": "2kg",
+      "fr": "2kg",
+      "id": "2kg",
+      "ru": "2kg",
+      "th": "2kg",
+      "vi": "2kg"
+     }
+    },
+    {
+     "label": {
+      "en": "SIZE",
+      "zh": "SIZE",
+      "es": "Tamaño",
+      "ar": "الحجم",
+      "fr": "Taille",
+      "id": "Ukuran",
+      "ru": "Размер",
+      "th": "ขนาด",
+      "vi": "Kích thước"
+     },
+     "value": {
+      "en": "20x14.5x13 cm",
+      "es": "20x14.5x13 cm",
+      "ar": "20x14.5x13 cm",
+      "fr": "20x14.5x13 cm",
+      "id": "20x14.5x13 cm",
+      "ru": "20x14.5x13 cm",
+      "th": "20x14.5x13 cm",
+      "vi": "20x14.5x13 cm"
+     }
+    },
+    {
+     "label": {
+      "en": "Capacity",
+      "zh": "Capacity",
+      "es": "Capacidad",
+      "ar": "السعة",
+      "fr": "Capacité",
+      "id": "Kapasitas",
+      "ru": "Ёмкость",
+      "th": "ความจุ",
+      "vi": "Dung tích"
+     },
+     "value": {
+      "en": "1000ml",
+      "es": "1000ml",
+      "ar": "1000ml",
+      "fr": "1000ml",
+      "id": "1000ml",
+      "ru": "1000ml",
+      "th": "1000ml",
+      "vi": "1000ml"
+     }
+    },
+    {
+     "label": {
+      "en": "PACKING",
+      "zh": "PACKING",
+      "es": "Embalaje",
+      "ar": "التغليف",
+      "fr": "Conditionnement",
+      "id": "Kemasan",
+      "ru": "Упаковка",
+      "th": "บรรจุภัณฑ์",
+      "vi": "Đóng gói"
+     },
+     "value": {
+      "en": "Box Package",
+      "es": "Embalaje en caja",
+      "ar": "تغليف بصندوق",
+      "fr": "Emballage en boîte",
+      "id": "Kemasan Kotak",
+      "ru": "Упаковка в коробку",
+      "th": "บรรจุภัณฑ์แบบกล่อง",
+      "vi": "Đóng gói hộp"
+     }
+    },
+    {
+     "label": {
+      "en": "Design",
+      "zh": "Design",
+      "es": "Diseño",
+      "ar": "التصميم",
+      "fr": "Design",
+      "id": "Desain",
+      "ru": "Дизайн",
+      "th": "ดีไซน์",
+      "vi": "Thiết kế"
+     },
+     "value": {
+      "en": "Handle Slicker Brush",
+      "es": "Cepillo slicker con mango",
+      "ar": "فرشاة تسليك بمقبض",
+      "fr": "Brosse de toilettage",
+      "id": "Sikat Slicker dengan Gagang",
+      "ru": "Щётка с ручкой",
+      "th": "แปรงขัดแบบมีด้ามจับ",
+      "vi": "Chổi chải lông"
+     }
+    },
+    {
+     "label": {
+      "en": "Steam Pipe Length",
+      "zh": "Steam Pipe Length",
+      "es": "Longitud del tubo de vapor",
+      "ar": "طول أنبوب البخار",
+      "fr": "Longueur du tuyau de vapeur",
+      "id": "Panjang Pipa Uap",
+      "ru": "Длина паровой трубки",
+      "th": "ความยาวท่อไอน้ำ",
+      "vi": "Chiều dài ống hơi"
+     },
+     "value": {
+      "en": "2.0",
+      "es": "2.0",
+      "ar": "2.0",
+      "fr": "2.0",
+      "id": "2.0",
+      "ru": "2.0",
+      "th": "2.0",
+      "vi": "2.0"
+     }
+    },
+    {
+     "label": {
+      "en": "MOQ",
+      "zh": "起订量",
+      "es": "MOQ",
+      "ar": "MOQ",
+      "fr": "MOQ",
+      "id": "MOQ",
+      "ru": "MOQ",
+      "th": "MOQ",
+      "vi": "MOQ"
+     },
+     "value": {
+      "en": "2 Pcs",
+      "es": "2 Pcs",
+      "ar": "2 Pcs",
+      "fr": "2 Pcs",
+      "id": "2 Pcs",
+      "ru": "2 Pcs",
+      "th": "2 Pcs",
+      "vi": "2 Pcs"
+     }
+    },
+    {
+     "label": {
+      "en": "Steam pressure",
+      "zh": "Steam pressure",
+      "es": "Presión de vapor",
+      "ar": "ضغط البخار",
+      "fr": "Pression de vapeur",
+      "id": "Tekanan uap",
+      "ru": "Давление пара",
+      "th": "แรงดันไอน้ำ",
+      "vi": "Áp suất hơi"
+     },
+     "value": {
+      "en": "3 bar",
+      "es": "3 bar",
+      "ar": "3 bar",
+      "fr": "3 bar",
+      "id": "3 bar",
+      "ru": "3 bar",
+      "th": "3 bar",
+      "vi": "3 bar"
+     }
+    },
+    {
+     "label": {
+      "en": "app-controlled",
+      "zh": "app-controlled",
+      "es": "control por app",
+      "ar": "يُتحكم به عبر التطبيق",
+      "fr": "contrôlé par application",
+      "id": "dikendalikan aplikasi",
+      "ru": "управление через приложение",
+      "th": "ควบคุมผ่านแอป",
+      "vi": "điều khiển qua app"
+     },
+     "value": {
+      "en": "No",
+      "es": "No",
+      "ar": "لا",
+      "fr": "Non",
+      "id": "Tidak",
+      "ru": "Нет",
+      "th": "ไม่",
+      "vi": "Không"
+     }
+    },
+    {
+     "label": {
+      "en": "application",
+      "zh": "application",
+      "es": "aplicación",
+      "ar": "التطبيق",
+      "fr": "utilisation",
+      "id": "aplikasi",
+      "ru": "применение",
+      "th": "การใช้งาน",
+      "vi": "ứng dụng"
+     },
+     "value": {
+      "en": "Car",
+      "es": "Coche",
+      "ar": "سيارة",
+      "fr": "Voiture",
+      "id": "Mobil",
+      "ru": "Автомобиль",
+      "th": "รถยนต์",
+      "vi": "Ô tô"
+     }
+    },
+    {
+     "label": {
+      "en": "Heating Time",
+      "zh": "Heating Time",
+      "es": "Tiempo de calentamiento",
+      "ar": "زمن التسخين",
+      "fr": "Temps de chauffe",
+      "id": "Waktu Pemanasan",
+      "ru": "Время нагрева",
+      "th": "เวลาในการทำความร้อน",
+      "vi": "Thời gian gia nhiệt"
+     },
+     "value": {
+      "en": "0–60 s",
+      "es": "0–60 s",
+      "ar": "0–60 s",
+      "fr": "0–60 s",
+      "id": "0–60 s",
+      "ru": "0–60 s",
+      "th": "0–60 s",
+      "vi": "0–60 s"
+     }
+    },
+    {
+     "label": {
+      "en": "Installation",
+      "zh": "Installation",
+      "es": "Instalación",
+      "ar": "التركيب",
+      "fr": "Installation",
+      "id": "Instalasi",
+      "ru": "Установка",
+      "th": "การติดตั้ง",
+      "vi": "Lắp đặt"
+     },
+     "value": {
+      "en": "Handheld",
+      "es": "De mano",
+      "ar": "يدوية",
+      "fr": "À main",
+      "id": "Genggam",
+      "ru": "Ручной",
+      "th": "แบบพกพา",
+      "vi": "Cầm tay"
+     }
+    },
+    {
+     "label": {
+      "en": "Material",
+      "zh": "材质",
+      "es": "Material",
+      "ar": "المادة",
+      "fr": "Matériau",
+      "id": "Material",
+      "ru": "Материал",
+      "th": "วัสดุ",
+      "vi": "Chất liệu"
+     },
+     "value": {
+      "en": "Plastic",
+      "es": "Plástico",
+      "ar": "بلاستيك",
+      "fr": "Plastique",
+      "id": "Plastik",
+      "ru": "Пластик",
+      "th": "พลาสติก",
+      "vi": "Nhựa"
+     }
+    },
+    {
+     "label": {
+      "en": "operating language",
+      "zh": "operating language",
+      "es": "idioma de funcionamiento",
+      "ar": "لغة التشغيل",
+      "fr": "langue d'utilisation",
+      "id": "bahasa pengoperasian",
+      "ru": "язык интерфейса",
+      "th": "ภาษาที่ใช้งาน",
+      "vi": "ngôn ngữ hoạt động"
+     },
+     "value": {
+      "en": "Spanish",
+      "es": "Español",
+      "ar": "الإسبانية",
+      "fr": "Espagnol",
+      "id": "Spanyol",
+      "ru": "Испанский",
+      "th": "สเปน",
+      "vi": "Tiếng Tây Ban Nha"
+     }
+    },
+    {
+     "label": {
+      "en": "operating language",
+      "zh": "operating language",
+      "es": "idioma de funcionamiento",
+      "ar": "لغة التشغيل",
+      "fr": "langue d'utilisation",
+      "id": "bahasa pengoperasian",
+      "ru": "язык интерфейса",
+      "th": "ภาษาที่ใช้งาน",
+      "vi": "ngôn ngữ hoạt động"
+     },
+     "value": {
+      "en": "English",
+      "es": "Inglés",
+      "ar": "الإنجليزية",
+      "fr": "Anglais",
+      "id": "Inggris",
+      "ru": "Английский",
+      "th": "อังกฤษ",
+      "vi": "Tiếng Anh"
+     }
+    },
+    {
+     "label": {
+      "en": "packaging types",
+      "zh": "packaging types",
+      "es": "tipos de embalaje",
+      "ar": "أنواع التغليف",
+      "fr": "types d'emballage",
+      "id": "jenis kemasan",
+      "ru": "типы упаковки",
+      "th": "ประเภทบรรจุภัณฑ์",
+      "vi": "loại bao bì"
+     },
+     "value": {
+      "en": "Corrugated Box",
+      "es": "Caja de cartón ondulado",
+      "ar": "كرتون مموج",
+      "fr": "Carton ondulé",
+      "id": "Kotak Karton Bergelombang",
+      "ru": "Гофрокоробка",
+      "th": "กล่องกระดาษลูกฟูก",
+      "vi": "Thùng carton sóng"
+     }
+    },
+    {
+     "label": {
+      "en": "power (w)",
+      "zh": "功率(W)",
+      "es": "potencia (W)",
+      "ar": "القدرة (W)",
+      "fr": "puissance (W)",
+      "id": "daya (W)",
+      "ru": "мощность (Вт)",
+      "th": "กำลังไฟ (W)",
+      "vi": "công suất (w)"
+     },
+     "value": {
+      "en": "1500 W",
+      "es": "1500 W",
+      "ar": "1500 W",
+      "fr": "1500 W",
+      "id": "1500 W",
+      "ru": "1500 W",
+      "th": "1500 W",
+      "vi": "1500 W"
+     }
+    },
+    {
+     "label": {
+      "en": "warranty",
+      "zh": "warranty",
+      "es": "garantía",
+      "ar": "الضمان",
+      "fr": "garantie",
+      "id": "garansi",
+      "ru": "гарантия",
+      "th": "การรับประกัน",
+      "vi": "bảo hành"
+     },
+     "value": {
+      "en": "1 Year",
+      "es": "1 año",
+      "ar": "سنة واحدة",
+      "fr": "1 an",
+      "id": "1 tahun",
+      "ru": "1 год",
+      "th": "1 ปี",
+      "vi": "1 năm"
+     }
+    },
+    {
+     "label": {
+      "en": "place of origin",
+      "zh": "place of origin",
+      "es": "país de origen",
+      "ar": "بلد المنشأ",
+      "fr": "lieu d'origine",
+      "id": "negara asal",
+      "ru": "страна происхождения",
+      "th": "แหล่งที่มา",
+      "vi": "xuất xứ"
+     },
+     "value": {
+      "en": "CN;GUA",
+      "es": "CN;GUA",
+      "ar": "CN;GUA",
+      "fr": "CN;GUA",
+      "id": "CN;GUA",
+      "ru": "CN;GUA",
+      "th": "CN;GUA",
+      "vi": "CN;GUA"
+     }
+    },
+    {
+     "label": {
+      "en": "Water Tank Capacity",
+      "zh": "水箱容量",
+      "es": "Capacidad del depósito de agua",
+      "ar": "سعة خزان الماء",
+      "fr": "Capacité du réservoir d'eau",
+      "id": "Kapasitas Tangki Air",
+      "ru": "Объём бака для воды",
+      "th": "ความจุถังน้ำ",
+      "vi": "Dung tích bình nước"
+     },
+     "value": {
+      "en": "1 L",
+      "es": "1 L",
+      "ar": "1 L",
+      "fr": "1 L",
+      "id": "1 L",
+      "ru": "1 L",
+      "th": "1 L",
+      "vi": "1 L"
+     }
+    },
+    {
+     "label": {
+      "en": "model number",
+      "zh": "model number",
+      "es": "número de modelo",
+      "ar": "رقم الموديل",
+      "fr": "numéro de modèle",
+      "id": "nomor model",
+      "ru": "номер модели",
+      "th": "หมายเลขรุ่น",
+      "vi": "số model"
+     },
+     "value": {
+      "en": "F403",
+      "es": "F403",
+      "ar": "F403",
+      "fr": "F403",
+      "id": "F403",
+      "ru": "F403",
+      "th": "F403",
+      "vi": "F403"
+     }
+    }
+   ],
+   "packaging": {
+    "unit": "Corrugated Box"
+   },
+   "customization": {},
+   "applications": {
+    "en": "",
+    "zh": ""
+   },
+   "price_indicator": null,
+   "quick_specs": [
+    {
+     "label": {
+      "en": "Power (W)",
+      "zh": "功率(W)",
+      "es": "Potencia (W)",
+      "ar": "القدرة (W)",
+      "fr": "Puissance (W)",
+      "id": "Daya (W)",
+      "ru": "Мощность (Вт)",
+      "th": "กำลังไฟ (W)",
+      "vi": "Công suất (W)"
+     },
+     "value": {
+      "en": "1500 W",
+      "es": "1500 W",
+      "ar": "1500 W",
+      "fr": "1500 W",
+      "id": "1500 W",
+      "ru": "1500 W",
+      "th": "1500 W",
+      "vi": "1500 W"
+     }
+    },
+    {
+     "label": {
+      "en": "Steam pressure",
+      "zh": "蒸汽压力",
+      "es": "Presión de vapor",
+      "ar": "ضغط البخار",
+      "fr": "Pression de vapeur",
+      "id": "Tekanan uap",
+      "ru": "Давление пара",
+      "th": "แรงดันไอน้ำ",
+      "vi": "Áp suất hơi"
+     },
+     "value": {
+      "en": "3 bar",
+      "es": "3 bar",
+      "ar": "3 bar",
+      "fr": "3 bar",
+      "id": "3 bar",
+      "ru": "3 bar",
+      "th": "3 bar",
+      "vi": "3 bar"
+     }
+    },
+    {
+     "label": {
+      "en": "Water Tank Capacity",
+      "zh": "水箱容量",
+      "es": "Capacidad del depósito de agua",
+      "ar": "سعة خزان الماء",
+      "fr": "Capacité du réservoir d'eau",
+      "id": "Kapasitas Tangki Air",
+      "ru": "Объём бака для воды",
+      "th": "ความจุถังน้ำ",
+      "vi": "Dung tích bình nước"
+     },
+     "value": {
+      "en": "1000ml",
+      "es": "1000ml",
+      "ar": "1000ml",
+      "fr": "1000ml",
+      "id": "1000ml",
+      "ru": "1000ml",
+      "th": "1000ml",
+      "vi": "1000ml"
+     }
+    },
+    {
+     "label": {
+      "en": "Heating Time",
+      "zh": "加热时间",
+      "es": "Tiempo de calentamiento",
+      "ar": "زمن التسخين",
+      "fr": "Temps de chauffe",
+      "id": "Waktu Pemanasan",
+      "ru": "Время нагрева",
+      "th": "เวลาในการทำความร้อน",
+      "vi": "Thời gian gia nhiệt"
+     },
+     "value": {
+      "en": "0–60 s",
+      "es": "0–60 s",
+      "ar": "0–60 s",
+      "fr": "0–60 s",
+      "id": "0–60 s",
+      "ru": "0–60 s",
+      "th": "0–60 s",
+      "vi": "0–60 s"
+     }
+    }
+   ],
+   "price_ladder": [],
+   "sku": "1601906086131",
+   "description": {
+    "en": "1500 W · 3 bar · 1000ml. OEM/ODM available; specifications from the supplier listing.",
+    "zh": "1500 W · 3 bar · 1000ml。支持 OEM/ODM 定制，规格取自供应商商品资料。",
+    "es": "1500 W · 3 bar · 1000ml. Disponible en OEM/ODM; especificaciones tomadas del listado del proveedor.",
+    "ar": "1500 W · 3 bar · 1000ml. متاح بنظام OEM/ODM؛ المواصفات مأخوذة من قائمة المورّد.",
+    "fr": "1500 W · 3 bar · 1000ml. Disponible en OEM/ODM ; spécifications issues de la fiche du fournisseur.",
+    "id": "1500 W · 3 bar · 1000ml. Tersedia dalam OEM/ODM; spesifikasi diambil dari daftar pemasok.",
+    "ru": "1500 W · 3 bar · 1000ml. Доступно в OEM/ODM; характеристики взяты из карточки товара поставщика.",
+    "th": "1500 W · 3 bar · 1000ml. มีให้บริการในรูปแบบ OEM/ODM; ข้อมูลจำเพาะนำมาจากประกาศของผู้ขาย",
+    "vi": "1500 W · 3 bar · 1000ml. Có sẵn dạng OEM/ODM; thông số kỹ thuật lấy từ niêm yết của nhà cung cấp."
+   },
+   "supplier_rating": "4.8",
+   "response_time": "≤ 2h",
+   "transactions": "US $100K+",
+   "years": "10+",
+   "ship_from": {
+    "en": "Ningbo, China",
+    "zh": "中国宁波"
+   },
+   "sample": {
+    "enabled": true,
+    "qty": 5,
+    "note": "Sample available, lead 7-14 days"
+   },
+   "category_name": {
+    "en": "Steam Cleaners",
+    "zh": "蒸汽清洁机",
+    "es": "Limpiador de Vapor",
+    "ar": "منظف بالبخار",
+    "fr": "Nettoyeur vapeur",
+    "id": "Pembersih Uap",
+    "ru": "Пароочиститель",
+    "th": "เครื่องทำความสะอาดด้วยไอน้ำ",
+    "vi": "Máy vệ sinh hơi nước"
+   },
+   "_source": {
+    "platform": "alibaba.com",
+    "productId": "1601906086131"
+   },
+   "_cat": "steam-cleaner"
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Anna Kowalski",
+   "location": "Warsaw, Poland",
+   "rating": 5,
+   "date": "2025-11-28",
+   "title": "Cleans grout without any chemicals — our kitchen looks brand new",
+   "body": "After months of trying every cleaner on the market, one round with this steam cleaner and the grout between our kitchen tiles is white again. No chemicals, just water. The 1.5L tank gives about 25 minutes of continuous steam.",
+   "photoUrls": [
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-d09s/01.webp",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-d09s/02.webp"
+   ]
+  },
+  {
+   "name": "Rachel Thompson",
+   "location": "Auckland, New Zealand",
+   "rating": 5,
+   "date": "2025-09-14",
+   "title": "Steam mops are the only way to clean hardwood without warping it",
+   "body": "Our realtor recommended we get a steam mop before listing our house. The variable steam settings let us use it safely on our laminate flooring. It comes with 10 accessories and they all snap on easily. Great product.",
+   "photoUrls": [
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-d09s/01.webp",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-d09s/02.webp"
+   ]
+  },
+  {
+   "name": "Henrik Larsen",
+   "location": "Copenhagen, Denmark",
+   "rating": 5,
+   "date": "2025-07-05",
+   "title": "Industrial quality at consumer price — we ordered 500 units",
+   "body": "We run a cleaning company and needed reliable equipment. This steamer has been running 6 hours a day for 3 months with no issues. The accessories kit is comprehensive and the unit heats up in under 30 seconds.",
+   "photoUrls": [
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-d09s/01.webp",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-d09s/02.webp"
+   ]
+  }
+ ],
+ "_schema_reviews": [
+  {
+   "@type": "Review",
+   "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "5",
+    "bestRating": "5",
+    "worstRating": "1"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Anna Kowalski",
+    "address": {
+     "@type": "PostalAddress",
+     "addressLocality": "Warsaw, Poland"
+    }
+   },
+   "datePublished": "2025-11-28",
+   "reviewBody": "After months of trying every cleaner on the market, one round with this steam cleaner and the grout between our kitchen tiles is white again. No chemicals, just water. The 1.5L tank gives about 25 minutes of continuous steam.",
+   "name": "Cleans grout without any chemicals — our kitchen looks brand new",
+   "image": [
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-d09s/01.webp",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-d09s/02.webp"
+   ]
+  },
+  {
+   "@type": "Review",
+   "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "5",
+    "bestRating": "5",
+    "worstRating": "1"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Rachel Thompson",
+    "address": {
+     "@type": "PostalAddress",
+     "addressLocality": "Auckland, New Zealand"
+    }
+   },
+   "datePublished": "2025-09-14",
+   "reviewBody": "Our realtor recommended we get a steam mop before listing our house. The variable steam settings let us use it safely on our laminate flooring. It comes with 10 accessories and they all snap on easily. Great product.",
+   "name": "Steam mops are the only way to clean hardwood without warping it",
+   "image": [
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-d09s/01.webp",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-d09s/02.webp"
+   ]
+  },
+  {
+   "@type": "Review",
+   "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "5",
+    "bestRating": "5",
+    "worstRating": "1"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Henrik Larsen",
+    "address": {
+     "@type": "PostalAddress",
+     "addressLocality": "Copenhagen, Denmark"
+    }
+   },
+   "datePublished": "2025-07-05",
+   "reviewBody": "We run a cleaning company and needed reliable equipment. This steamer has been running 6 hours a day for 3 months with no issues. The accessories kit is comprehensive and the unit heats up in under 30 seconds.",
+   "name": "Industrial quality at consumer price — we ordered 500 units",
+   "image": [
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-d09s/01.webp",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-d09s/02.webp"
+   ]
+  }
+ ]
 }

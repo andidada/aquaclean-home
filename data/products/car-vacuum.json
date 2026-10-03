@@ -1,1418 +1,3811 @@
 {
-  "category": "car-vacuum",
-  "products": [
+ "category": "car-vacuum",
+ "products": [
+  {
+   "id": "yzx-305",
+   "name": {
+    "en": "OEM ODM 4000Pa Cordless Handheld Car Vacuum Cleaner Air Blower Inflator 3-in-1 Portable Type-C Rechargeable HEPA Filter",
+    "zh": "YZX-305 无线手持车载吸尘器（4000Pa 三合一：吸尘/吹风/充气）",
+    "es": "Aspiradora de coche inalámbrica de mano 3 en 1 OEM ODM 4000Pa con soplador e inflador, portátil, recargable por Type-C, filtro HEPA",
+    "ar": "مكنسة سيارة يدوية لاسلكية 3 في 1 بقوة 4000Pa مع منفاخ هواء ومضخة، محمولة، قابلة لإعادة الشحن Type-C، فلتر HEPA، OEM ODM",
+    "fr": "Aspirateur voiture sans fil à main 3 en 1 OEM ODM 4000Pa avec souffleur et gonfleur, portatif, rechargeable Type-C, filtre HEPA",
+    "id": "Penyedot Debu Mobil Genggam Nirkabel 3 in 1 4000Pa OEM ODM dengan Peniup Udara dan Pompa, Portabel, Dapat Diisi Ulang Type-C, Filter HEPA",
+    "ru": "Беспроводной ручной автомобильный пылесос 3 в 1 OEM ODM 4000Pa с воздуходувкой и компрессором, портативный, аккумуляторный, зарядка Type-C, фильтр HEPA",
+    "th": "เครื่องดูดฝุ่นในรถแบบพกพาไร้สาย OEM ODM 4000Pa 3-in-1 พร้อมเป่าลมและเติมลม ชาร์จผ่าน Type-C ตัวกรอง HEPA",
+    "vi": "Máy hút bụi ô tô cầm tay không dây OEM ODM 4000Pa, thổi khí và bơm hơi 3 trong 1, di động, sạc Type-C, bộ lọc HEPA"
+   },
+   "tagline": {
+    "en": "4000Pa · 50 W · <30 min",
+    "zh": "4000Pa · 50 W · <30 min",
+    "es": "4000Pa · 50 W · <30 min",
+    "ar": "4000Pa · 50 W · <30 min",
+    "fr": "4000Pa · 50 W · <30 min",
+    "id": "4000Pa · 50 W · <30 min",
+    "ru": "4000Pa · 50 W · <30 min",
+    "th": "4000Pa · 50 W · <30 min",
+    "vi": "4000Pa · 50 W · <30 min"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/01.webp",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/02.webp",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/03.webp",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/04.webp",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/05.webp",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/06.webp"
+   ],
+   "video_url": null,
+   "moq": {
+    "value": 1,
+    "unit": "pieces"
+   },
+   "certifications": [],
+   "highlights": [
     {
-      "id": "yzx-305",
-      "name": {
-        "en": "OEM ODM 4000Pa Cordless Handheld Car Vacuum Cleaner Air Blower Inflator 3-in-1 Portable Type-C Rechargeable HEPA Filter",
-        "zh": "YZX-305 无线手持车载吸尘器（4000Pa 三合一：吸尘/吹风/充气）"
-      },
-      "tagline": {
-        "en": "4000Pa · 50 W · <30 min",
-        "zh": "4000Pa · 50 W · <30 min"
-      },
-      "images": [
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/01.webp",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/02.webp",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/03.webp",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/04.webp",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/05.webp",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/06.webp"
-      ],
-      "video_url": null,
-      "moq": {
-        "value": 1,
-        "unit": "pieces"
-      },
-      "certifications": [],
-      "highlights": [
-        {
-          "icon": "check",
-          "text": {
-            "en": "Suction: 4000Pa",
-            "zh": "吸力: 4000Pa"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Power (W): 50 W",
-            "zh": "功率(W): 50 W"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Maximum Runtime: <30 min",
-            "zh": "最长续航: <30 min"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Working Time: 15mins",
-            "zh": "工作时间: 15mins"
-          }
-        }
-      ],
-      "specs": [
-        {
-          "label": {
-            "en": "Material",
-            "zh": "材质"
-          },
-          "value": "ABS"
-        },
-        {
-          "label": {
-            "en": "Working Time",
-            "zh": "工作时间"
-          },
-          "value": "15mins"
-        },
-        {
-          "label": {
-            "en": "Suction",
-            "zh": "Suction"
-          },
-          "value": "4000Pa"
-        },
-        {
-          "label": {
-            "en": "Battery",
-            "zh": "Battery"
-          },
-          "value": "Li-ion Battery"
-        },
-        {
-          "label": {
-            "en": "Battery Capacity",
-            "zh": "电池容量"
-          },
-          "value": "1500mAh*2"
-        },
-        {
-          "label": {
-            "en": "maximum runtime",
-            "zh": "maximum runtime"
-          },
-          "value": "<30 min"
-        },
-        {
-          "label": {
-            "en": "suction power (airwatts)",
-            "zh": "suction power (airwatts)"
-          },
-          "value": "≤ 50 AW"
-        },
-        {
-          "label": {
-            "en": "app-controlled",
-            "zh": "app-controlled"
-          },
-          "value": "No"
-        },
-        {
-          "label": {
-            "en": "application",
-            "zh": "application"
-          },
-          "value": "Car"
-        },
-        {
-          "label": {
-            "en": "bag or bagless",
-            "zh": "bag or bagless"
-          },
-          "value": "Bagless"
-        },
-        {
-          "label": {
-            "en": "Charging Time",
-            "zh": "充电时间"
-          },
-          "value": "1-3H"
-        },
-        {
-          "label": {
-            "en": "filter",
-            "zh": "filter"
-          },
-          "value": "HEPA Filter"
-        },
-        {
-          "label": {
-            "en": "installation",
-            "zh": "installation"
-          },
-          "value": "Hand Held"
-        },
-        {
-          "label": {
-            "en": "motor type",
-            "zh": "motor type"
-          },
-          "value": "Brush Motor"
-        },
-        {
-          "label": {
-            "en": "nozzle number",
-            "zh": "nozzle number"
-          },
-          "value": "4-6"
-        },
-        {
-          "label": {
-            "en": "operating language",
-            "zh": "operating language"
-          },
-          "value": "English"
-        },
-        {
-          "label": {
-            "en": "packaging types",
-            "zh": "packaging types"
-          },
-          "value": "Corrugated Box"
-        },
-        {
-          "label": {
-            "en": "packaging types",
-            "zh": "packaging types"
-          },
-          "value": "Color Box"
-        },
-        {
-          "label": {
-            "en": "private mold",
-            "zh": "private mold"
-          },
-          "value": "Yes"
-        },
-        {
-          "label": {
-            "en": "product net weight",
-            "zh": "product net weight"
-          },
-          "value": "0.5–1 kg"
-        },
-        {
-          "label": {
-            "en": "warranty",
-            "zh": "warranty"
-          },
-          "value": "1 Year"
-        },
-        {
-          "label": {
-            "en": "place of origin",
-            "zh": "place of origin"
-          },
-          "value": "CN;GUA"
-        },
-        {
-          "label": {
-            "en": "Function",
-            "zh": "功能"
-          },
-          "value": "vacuuming"
-        },
-        {
-          "label": {
-            "en": "Dust capacity",
-            "zh": "Dust capacity"
-          },
-          "value": "0.12L"
-        },
-        {
-          "label": {
-            "en": "Feature",
-            "zh": "Feature"
-          },
-          "value": "HEPA, lightweight, portable, wet/dry, rechargeable"
-        },
-        {
-          "label": {
-            "en": "power (w)",
-            "zh": "power (w)"
-          },
-          "value": "50 W"
-        },
-        {
-          "label": {
-            "en": "power source",
-            "zh": "power source"
-          },
-          "value": "Battery Powered"
-        },
-        {
-          "label": {
-            "en": "model number",
-            "zh": "model number"
-          },
-          "value": "YZX-305"
-        }
-      ],
-      "packaging": {
-        "unit": "Color Box"
-      },
-      "customization": {},
-      "applications": {
-        "en": "",
-        "zh": ""
-      },
-      "price_indicator": null,
-      "quick_specs": [
-        {
-          "label": {
-            "en": "Suction",
-            "zh": "吸力"
-          },
-          "value": "4000Pa"
-        },
-        {
-          "label": {
-            "en": "Power (W)",
-            "zh": "功率(W)"
-          },
-          "value": "50 W"
-        },
-        {
-          "label": {
-            "en": "Maximum Runtime",
-            "zh": "最长续航"
-          },
-          "value": "<30 min"
-        },
-        {
-          "label": {
-            "en": "Working Time",
-            "zh": "工作时间"
-          },
-          "value": "15mins"
-        }
-      ],
-      "price_ladder": [],
-      "sku": "1601898293964",
-      "description": {
-        "en": "4000Pa · 50 W · <30 min. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "4000Pa · 50 W · <30 min。支持 OEM/ODM 定制，规格取自供应商商品资料。"
-      },
-      "supplier_rating": null,
-      "response_time": null,
-      "transactions": null,
-      "years": null,
-      "ship_from": null,
-      "sample": null,
-      "category_name": {
-        "en": "Car Vacuum Cleaners",
-        "zh": "车载吸尘器"
-      },
-      "_source": {
-        "platform": "alibaba.com",
-        "productId": "1601898293964"
-      },
-      "_cat": "car-vacuum"
+     "icon": "check",
+     "text": {
+      "en": "Suction: 4000Pa",
+      "zh": "吸力: 4000Pa",
+      "es": "Succión: 4000Pa",
+      "ar": "الشفط: 4000Pa",
+      "fr": "Aspiration: 4000Pa",
+      "id": "Daya Hisap: 4000Pa",
+      "ru": "Всасывание: 4000Pa",
+      "th": "แรงดูด: 4000Pa",
+      "vi": "Lực hút: 4000Pa"
+     }
     },
     {
-      "id": "px2",
-      "name": {
-        "en": "USB Rechargeable Brushless Car Vacuum Cleaner 20KPa Powerful Suction Portable Handheld Vacuum OEM Factory Supplier",
-        "zh": "PX2 无刷车载吸尘器（20KPa 强吸力 / USB 充电）"
-      },
-      "tagline": {
-        "en": "100 W · <30 min · 2000mAh*3",
-        "zh": "100 W · <30 min · 2000mAh*3"
-      },
-      "images": [
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-px2/01.webp",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-px2/02.webp",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-px2/03.webp",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-px2/04.webp",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-px2/05.webp",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-px2/06.webp"
-      ],
-      "video_url": null,
-      "moq": {
-        "value": 1,
-        "unit": "pieces"
-      },
-      "certifications": [],
-      "highlights": [
-        {
-          "icon": "check",
-          "text": {
-            "en": "Power (W): 100 W",
-            "zh": "功率(W): 100 W"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Maximum Runtime: <30 min",
-            "zh": "最长续航: <30 min"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Battery Capacity: 2000mAh*3",
-            "zh": "电池容量: 2000mAh*3"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Dust capacity: 0.12L",
-            "zh": "尘杯容量: 0.12L"
-          }
-        }
-      ],
-      "specs": [
-        {
-          "label": {
-            "en": "Keywords",
-            "zh": "Keywords"
-          },
-          "value": "Car Cordless Cleaner Vacuum"
-        },
-        {
-          "label": {
-            "en": "Style",
-            "zh": "Style"
-          },
-          "value": "Handehld"
-        },
-        {
-          "label": {
-            "en": "Material",
-            "zh": "材质"
-          },
-          "value": "ABS"
-        },
-        {
-          "label": {
-            "en": "Battery Capacity",
-            "zh": "电池容量"
-          },
-          "value": "2000mAh*3"
-        },
-        {
-          "label": {
-            "en": "Battery",
-            "zh": "Battery"
-          },
-          "value": "Li-ion Battery"
-        },
-        {
-          "label": {
-            "en": "Vacuum",
-            "zh": "Vacuum"
-          },
-          "value": "20KPA"
-        },
-        {
-          "label": {
-            "en": "maximum runtime",
-            "zh": "maximum runtime"
-          },
-          "value": "<30 min"
-        },
-        {
-          "label": {
-            "en": "app-controlled",
-            "zh": "app-controlled"
-          },
-          "value": "No"
-        },
-        {
-          "label": {
-            "en": "application",
-            "zh": "application"
-          },
-          "value": "Car"
-        },
-        {
-          "label": {
-            "en": "bag or bagless",
-            "zh": "bag or bagless"
-          },
-          "value": "Bagless"
-        },
-        {
-          "label": {
-            "en": "Charging Time",
-            "zh": "充电时间"
-          },
-          "value": "1-3H"
-        },
-        {
-          "label": {
-            "en": "filter",
-            "zh": "filter"
-          },
-          "value": "HEPA Filter"
-        },
-        {
-          "label": {
-            "en": "installation",
-            "zh": "installation"
-          },
-          "value": "Hand Held"
-        },
-        {
-          "label": {
-            "en": "motor type",
-            "zh": "motor type"
-          },
-          "value": "Brushless Motor"
-        },
-        {
-          "label": {
-            "en": "nozzle number",
-            "zh": "nozzle number"
-          },
-          "value": "≤ 3"
-        },
-        {
-          "label": {
-            "en": "packaging types",
-            "zh": "packaging types"
-          },
-          "value": "Corrugated Box"
-        },
-        {
-          "label": {
-            "en": "packaging types",
-            "zh": "packaging types"
-          },
-          "value": "Color Box"
-        },
-        {
-          "label": {
-            "en": "packaging types",
-            "zh": "packaging types"
-          },
-          "value": "Gift Box"
-        },
-        {
-          "label": {
-            "en": "power (w)",
-            "zh": "power (w)"
-          },
-          "value": "100 W"
-        },
-        {
-          "label": {
-            "en": "private mold",
-            "zh": "private mold"
-          },
-          "value": "No"
-        },
-        {
-          "label": {
-            "en": "product net weight",
-            "zh": "product net weight"
-          },
-          "value": "0.5–1 kg"
-        },
-        {
-          "label": {
-            "en": "warranty",
-            "zh": "warranty"
-          },
-          "value": "1 Year"
-        },
-        {
-          "label": {
-            "en": "place of origin",
-            "zh": "place of origin"
-          },
-          "value": "CN"
-        },
-        {
-          "label": {
-            "en": "Function",
-            "zh": "功能"
-          },
-          "value": "vacuuming"
-        },
-        {
-          "label": {
-            "en": "Dust capacity",
-            "zh": "Dust capacity"
-          },
-          "value": "0.12L"
-        },
-        {
-          "label": {
-            "en": "Feature",
-            "zh": "Feature"
-          },
-          "value": "HEPA, lightweight, portable, wet/dry, rechargeable"
-        },
-        {
-          "label": {
-            "en": "power source",
-            "zh": "power source"
-          },
-          "value": "Battery Powered"
-        },
-        {
-          "label": {
-            "en": "model number",
-            "zh": "model number"
-          },
-          "value": "PX2"
-        }
-      ],
-      "packaging": {
-        "unit": "Gift Box"
-      },
-      "customization": {},
-      "applications": {
-        "en": "",
-        "zh": ""
-      },
-      "price_indicator": null,
-      "quick_specs": [
-        {
-          "label": {
-            "en": "Power (W)",
-            "zh": "功率(W)"
-          },
-          "value": "100 W"
-        },
-        {
-          "label": {
-            "en": "Maximum Runtime",
-            "zh": "最长续航"
-          },
-          "value": "<30 min"
-        },
-        {
-          "label": {
-            "en": "Battery Capacity",
-            "zh": "电池容量"
-          },
-          "value": "2000mAh*3"
-        },
-        {
-          "label": {
-            "en": "Dust capacity",
-            "zh": "尘杯容量"
-          },
-          "value": "0.12L"
-        }
-      ],
-      "price_ladder": [],
-      "sku": "1601877244718",
-      "description": {
-        "en": "100 W · <30 min · 2000mAh*3. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "100 W · <30 min · 2000mAh*3。支持 OEM/ODM 定制，规格取自供应商商品资料。"
-      },
-      "supplier_rating": null,
-      "response_time": null,
-      "transactions": null,
-      "years": null,
-      "ship_from": null,
-      "sample": null,
-      "category_name": {
-        "en": "Car Vacuum Cleaners",
-        "zh": "车载吸尘器"
-      },
-      "_source": {
-        "platform": "alibaba.com",
-        "productId": "1601877244718"
-      },
-      "_cat": "car-vacuum"
+     "icon": "check",
+     "text": {
+      "en": "Power (W): 50 W",
+      "zh": "功率(W): 50 W",
+      "es": "Potencia (W): 50 W",
+      "ar": "القدرة (W): 50 W",
+      "fr": "Puissance (W): 50 W",
+      "id": "Daya (W): 50 W",
+      "ru": "Мощность (Вт): 50 W",
+      "th": "กำลังไฟ (W): 50 W",
+      "vi": "Công suất (W): 50 W"
+     }
     },
     {
-      "id": "yzx-309",
-      "name": {
-        "en": "15KPa Brushless Cordless Car Vacuum Cleaner Air Duster 2 in 1 Portable Handheld Vacuum Cleaner OEM ODM Factory",
-        "zh": "YZX-309 无线车载吸尘器（15KPa 二合一：吸尘/吹气）"
-      },
-      "tagline": {
-        "en": "15kpa · 65 W · 16-25min",
-        "zh": "15kpa · 65 W · 16-25min"
-      },
-      "images": [
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/01.webp",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/02.webp",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/03.webp",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/04.webp",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/05.webp",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/06.webp"
-      ],
-      "video_url": null,
-      "moq": {
-        "value": 1,
-        "unit": "pieces"
-      },
-      "certifications": [],
-      "highlights": [
-        {
-          "icon": "check",
-          "text": {
-            "en": "Suction: 15kpa",
-            "zh": "吸力: 15kpa"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Power (W): 65 W",
-            "zh": "功率(W): 65 W"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Runtime: 16-25min",
-            "zh": "续航时间: 16-25min"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Maximum Runtime: <30 min",
-            "zh": "最长续航: <30 min"
-          }
-        }
-      ],
-      "specs": [
-        {
-          "label": {
-            "en": "Product name",
-            "zh": "Product name"
-          },
-          "value": "Handheld Vacuum Cleaner"
-        },
-        {
-          "label": {
-            "en": "Suction",
-            "zh": "Suction"
-          },
-          "value": "15kpa"
-        },
-        {
-          "label": {
-            "en": "Keywords",
-            "zh": "Keywords"
-          },
-          "value": "Car Cordless Cleaner Vacuum"
-        },
-        {
-          "label": {
-            "en": "Material",
-            "zh": "材质"
-          },
-          "value": "ABS"
-        },
-        {
-          "label": {
-            "en": "Battery Capacity",
-            "zh": "电池容量"
-          },
-          "value": "2000mAh*2"
-        },
-        {
-          "label": {
-            "en": "Style",
-            "zh": "Style"
-          },
-          "value": "Handehld"
-        },
-        {
-          "label": {
-            "en": "Runtime",
-            "zh": "续航时间"
-          },
-          "value": "16-25min"
-        },
-        {
-          "label": {
-            "en": "maximum runtime",
-            "zh": "maximum runtime"
-          },
-          "value": "<30 min"
-        },
-        {
-          "label": {
-            "en": "suction power (airwatts)",
-            "zh": "suction power (airwatts)"
-          },
-          "value": "81-100 AW"
-        },
-        {
-          "label": {
-            "en": "app-controlled",
-            "zh": "app-controlled"
-          },
-          "value": "No"
-        },
-        {
-          "label": {
-            "en": "application",
-            "zh": "application"
-          },
-          "value": "Car"
-        },
-        {
-          "label": {
-            "en": "application",
-            "zh": "application"
-          },
-          "value": "Household"
-        },
-        {
-          "label": {
-            "en": "application",
-            "zh": "application"
-          },
-          "value": "Hotel"
-        },
-        {
-          "label": {
-            "en": "bag or bagless",
-            "zh": "bag or bagless"
-          },
-          "value": "Bagless"
-        },
-        {
-          "label": {
-            "en": "Charging Time",
-            "zh": "充电时间"
-          },
-          "value": "1-3H"
-        },
-        {
-          "label": {
-            "en": "filter",
-            "zh": "filter"
-          },
-          "value": "HEPA Filter"
-        },
-        {
-          "label": {
-            "en": "installation",
-            "zh": "installation"
-          },
-          "value": "Hand Held"
-        },
-        {
-          "label": {
-            "en": "motor type",
-            "zh": "motor type"
-          },
-          "value": "Brushless Motor"
-        },
-        {
-          "label": {
-            "en": "nozzle number",
-            "zh": "nozzle number"
-          },
-          "value": "4-6"
-        },
-        {
-          "label": {
-            "en": "operating language",
-            "zh": "operating language"
-          },
-          "value": "English"
-        },
-        {
-          "label": {
-            "en": "packaging types",
-            "zh": "packaging types"
-          },
-          "value": "Corrugated Box"
-        },
-        {
-          "label": {
-            "en": "packaging types",
-            "zh": "packaging types"
-          },
-          "value": "Color Box"
-        },
-        {
-          "label": {
-            "en": "private mold",
-            "zh": "private mold"
-          },
-          "value": "Yes"
-        },
-        {
-          "label": {
-            "en": "product net weight",
-            "zh": "product net weight"
-          },
-          "value": "0.5–1 kg"
-        },
-        {
-          "label": {
-            "en": "warranty",
-            "zh": "warranty"
-          },
-          "value": "1 Year"
-        },
-        {
-          "label": {
-            "en": "place of origin",
-            "zh": "place of origin"
-          },
-          "value": "CN;GUA"
-        },
-        {
-          "label": {
-            "en": "Function",
-            "zh": "功能"
-          },
-          "value": "Wet And Dry"
-        },
-        {
-          "label": {
-            "en": "Function",
-            "zh": "功能"
-          },
-          "value": "vacuuming"
-        },
-        {
-          "label": {
-            "en": "Dust capacity",
-            "zh": "Dust capacity"
-          },
-          "value": "0.12L"
-        },
-        {
-          "label": {
-            "en": "Feature",
-            "zh": "Feature"
-          },
-          "value": "HEPA, lightweight, portable, wet/dry, rechargeable"
-        },
-        {
-          "label": {
-            "en": "power (w)",
-            "zh": "power (w)"
-          },
-          "value": "65 W"
-        },
-        {
-          "label": {
-            "en": "power source",
-            "zh": "power source"
-          },
-          "value": "Battery Powered"
-        },
-        {
-          "label": {
-            "en": "model number",
-            "zh": "model number"
-          },
-          "value": "YZX-309"
-        }
-      ],
-      "packaging": {
-        "unit": "Color Box"
-      },
-      "customization": {},
-      "applications": {
-        "en": "",
-        "zh": ""
-      },
-      "price_indicator": null,
-      "quick_specs": [
-        {
-          "label": {
-            "en": "Suction",
-            "zh": "吸力"
-          },
-          "value": "15kpa"
-        },
-        {
-          "label": {
-            "en": "Power (W)",
-            "zh": "功率(W)"
-          },
-          "value": "65 W"
-        },
-        {
-          "label": {
-            "en": "Runtime",
-            "zh": "续航时间"
-          },
-          "value": "16-25min"
-        },
-        {
-          "label": {
-            "en": "Maximum Runtime",
-            "zh": "最长续航"
-          },
-          "value": "<30 min"
-        }
-      ],
-      "price_ladder": [],
-      "sku": "1601900237070",
-      "description": {
-        "en": "15kpa · 65 W · 16-25min. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "15kpa · 65 W · 16-25min。支持 OEM/ODM 定制，规格取自供应商商品资料。"
-      },
-      "supplier_rating": null,
-      "response_time": null,
-      "transactions": null,
-      "years": null,
-      "ship_from": null,
-      "sample": null,
-      "category_name": {
-        "en": "Car Vacuum Cleaners",
-        "zh": "车载吸尘器"
-      },
-      "_source": {
-        "platform": "alibaba.com",
-        "productId": "1601900237070"
-      },
-      "_cat": "car-vacuum"
+     "icon": "check",
+     "text": {
+      "en": "Maximum Runtime: <30 min",
+      "zh": "最长续航: <30 min",
+      "es": "Autonomía máxima: <30 min",
+      "ar": "أقصى مدة تشغيل: <30 min",
+      "fr": "Autonomie maximale: <30 min",
+      "id": "Waktu Pakai Maksimum: <30 min",
+      "ru": "Макс. время работы: <30 min",
+      "th": "ระยะเวลาทำงานสูงสุด: <30 min",
+      "vi": "Thời gian chạy tối đa: <30 min"
+     }
     },
     {
-      "id": "k15",
-      "name": {
-        "en": "Best Selling Electric Handheld Wet & Dry Stain Vacuum Cleaner with Steam for Household Car & RV Use",
-        "zh": "K15 手持干湿两用蒸汽布艺清洗机（400W / 1.5–1.9L / 汽车·RV 内饰）"
-      },
-      "tagline": {
-        "en": "400 W · 1.5-1.9L · Plastic, ABS+aluminum",
-        "zh": "400 W · 1.5-1.9L · Plastic, ABS+aluminum"
-      },
-      "images": [
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-k15/01.webp",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-k15/02.webp",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-k15/03.webp",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-k15/04.webp",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-k15/05.webp",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-k15/06.webp"
-      ],
-      "video_url": null,
-      "moq": {
-        "value": 1,
-        "unit": "pieces"
-      },
-      "certifications": [],
-      "highlights": [
-        {
-          "icon": "check",
-          "text": {
-            "en": "Power (W): 400 W",
-            "zh": "功率(W): 400 W"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Capacity: 1.5-1.9L",
-            "zh": "容量: 1.5-1.9L"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Material: Plastic, ABS+aluminum",
-            "zh": "材质: Plastic, ABS+aluminum"
-          }
-        }
-      ],
-      "specs": [
-        {
-          "label": {
-            "en": "installation",
-            "zh": "installation"
-          },
-          "value": "Hand Held"
-        },
-        {
-          "label": {
-            "en": "type",
-            "zh": "type"
-          },
-          "value": "High Pressure Water Cleaning"
-        },
-        {
-          "label": {
-            "en": "after-sales service provided",
-            "zh": "after-sales service provided"
-          },
-          "value": "Return and Replacement"
-        },
-        {
-          "label": {
-            "en": "app-controlled",
-            "zh": "app-controlled"
-          },
-          "value": "No"
-        },
-        {
-          "label": {
-            "en": "application",
-            "zh": "application"
-          },
-          "value": "Household"
-        },
-        {
-          "label": {
-            "en": "application",
-            "zh": "application"
-          },
-          "value": "Hotel"
-        },
-        {
-          "label": {
-            "en": "application",
-            "zh": "application"
-          },
-          "value": "Car"
-        },
-        {
-          "label": {
-            "en": "application",
-            "zh": "application"
-          },
-          "value": "Garage"
-        },
-        {
-          "label": {
-            "en": "application",
-            "zh": "application"
-          },
-          "value": "Commercial"
-        },
-        {
-          "label": {
-            "en": "application",
-            "zh": "application"
-          },
-          "value": "RV"
-        },
-        {
-          "label": {
-            "en": "bag or bagless",
-            "zh": "bag or bagless"
-          },
-          "value": "With Bag"
-        },
-        {
-          "label": {
-            "en": "Capacity",
-            "zh": "Capacity"
-          },
-          "value": "1.5-1.9L"
-        },
-        {
-          "label": {
-            "en": "Feature",
-            "zh": "Feature"
-          },
-          "value": "Easy Operation"
-        },
-        {
-          "label": {
-            "en": "Feature",
-            "zh": "Feature"
-          },
-          "value": "Portable"
-        },
-        {
-          "label": {
-            "en": "Feature",
-            "zh": "Feature"
-          },
-          "value": "Scrubbing Function"
-        },
-        {
-          "label": {
-            "en": "Feature",
-            "zh": "Feature"
-          },
-          "value": "Deep Cleaning"
-        },
-        {
-          "label": {
-            "en": "function",
-            "zh": "function"
-          },
-          "value": "Wet And Dry"
-        },
-        {
-          "label": {
-            "en": "packaging types",
-            "zh": "packaging types"
-          },
-          "value": "Corrugated Box"
-        },
-        {
-          "label": {
-            "en": "power (w)",
-            "zh": "功率(W)"
-          },
-          "value": "400 W"
-        },
-        {
-          "label": {
-            "en": "power source",
-            "zh": "power source"
-          },
-          "value": "Electric"
-        },
-        {
-          "label": {
-            "en": "private mold",
-            "zh": "private mold"
-          },
-          "value": "Yes"
-        },
-        {
-          "label": {
-            "en": "Surface recommendation",
-            "zh": "Surface recommendation"
-          },
-          "value": "Textile"
-        },
-        {
-          "label": {
-            "en": "Surface recommendation",
-            "zh": "Surface recommendation"
-          },
-          "value": "Stone"
-        },
-        {
-          "label": {
-            "en": "Surface recommendation",
-            "zh": "Surface recommendation"
-          },
-          "value": "Wood"
-        },
-        {
-          "label": {
-            "en": "Surface recommendation",
-            "zh": "Surface recommendation"
-          },
-          "value": "Plastic"
-        },
-        {
-          "label": {
-            "en": "Surface recommendation",
-            "zh": "Surface recommendation"
-          },
-          "value": "Metal"
-        },
-        {
-          "label": {
-            "en": "Surface recommendation",
-            "zh": "Surface recommendation"
-          },
-          "value": "Ceramic"
-        },
-        {
-          "label": {
-            "en": "warranty",
-            "zh": "warranty"
-          },
-          "value": "1 Year"
-        },
-        {
-          "label": {
-            "en": "place of origin",
-            "zh": "place of origin"
-          },
-          "value": "CN;GUA"
-        },
-        {
-          "label": {
-            "en": "brand name",
-            "zh": "brand name"
-          },
-          "value": "OEM ODM"
-        },
-        {
-          "label": {
-            "en": "Material",
-            "zh": "材质"
-          },
-          "value": "Plastic, ABS+aluminum"
-        },
-        {
-          "label": {
-            "en": "model number",
-            "zh": "model number"
-          },
-          "value": "K15"
-        }
-      ],
-      "packaging": {
-        "unit": "Corrugated Box"
-      },
-      "customization": {},
-      "applications": {
-        "en": "",
-        "zh": ""
-      },
-      "price_indicator": null,
-      "quick_specs": [
-        {
-          "label": {
-            "en": "Power (W)",
-            "zh": "功率(W)"
-          },
-          "value": "400 W"
-        },
-        {
-          "label": {
-            "en": "Capacity",
-            "zh": "容量"
-          },
-          "value": "1.5-1.9L"
-        },
-        {
-          "label": {
-            "en": "Material",
-            "zh": "材质"
-          },
-          "value": "Plastic, ABS+aluminum"
-        }
-      ],
-      "price_ladder": [],
-      "sku": "1601716198186",
-      "description": {
-        "en": "400 W · 1.5-1.9L · Plastic, ABS+aluminum. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "400 W · 1.5-1.9L · Plastic, ABS+aluminum。支持 OEM/ODM 定制，规格取自供应商商品资料。"
-      },
-      "supplier_rating": null,
-      "response_time": null,
-      "transactions": null,
-      "years": null,
-      "ship_from": null,
-      "sample": null,
-      "category_name": {
-        "en": "Car Vacuum Cleaners",
-        "zh": "车载吸尘器"
-      },
-      "_source": {
-        "platform": "alibaba.com",
-        "productId": "1601716198186"
-      },
-      "_cat": "car-vacuum"
+     "icon": "check",
+     "text": {
+      "en": "Working Time: 15mins",
+      "zh": "工作时间: 15mins",
+      "es": "Tiempo de funcionamiento: 15mins",
+      "ar": "زمن العمل: 15mins",
+      "fr": "Temps de fonctionnement: 15mins",
+      "id": "Waktu Kerja: 15mins",
+      "ru": "Время работы: 15mins",
+      "th": "เวลาทำงาน: 15mins",
+      "vi": "Thời gian làm việc: 15mins"
+     }
     }
-  ],
-  "reviews": [
+   ],
+   "specs": [
     {
-      "name": "Ryan Cooper",
-      "location": "Chicago, IL, USA",
-      "rating": 5,
-      "date": "2025-10-29",
-      "title": "Strongest 12V car vacuum I have tested — handles sand and gravel",
-      "body": "I tested 6 different car vacuums and this one has the highest suction at 5000Pa. It pulls sand from the carpet, crumbs from the seat crevices, and even pet hair. The washable HEPA filter is a huge plus. See the before/after photos of my truck bed.",
-      "photoUrls": [
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/01.webp",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/02.webp"
-      ]
+     "label": {
+      "en": "Material",
+      "zh": "材质",
+      "es": "Material",
+      "ar": "المادة",
+      "fr": "Matériau",
+      "id": "Material",
+      "ru": "Материал",
+      "th": "วัสดุ",
+      "vi": "Chất liệu"
+     },
+     "value": {
+      "en": "ABS",
+      "es": "ABS",
+      "ar": "ABS",
+      "fr": "ABS",
+      "id": "ABS",
+      "ru": "ABS",
+      "th": "ABS",
+      "vi": "ABS"
+     }
     },
     {
-      "name": "Nina Johansson",
-      "location": "Stockholm, Sweden",
-      "rating": 5,
-      "date": "2025-08-11",
-      "title": "Compact enough to keep in the glove box, powerful enough for weekly cleans",
-      "body": "At just 1.2kg it fits in our glove box. The 5m car charger cable reaches every corner of our SUV. The LED light on the nozzle is perfect for cleaning under seats at night. No complaints after 8 months of weekly use.",
-      "photoUrls": [
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/01.webp",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/02.webp"
-      ]
+     "label": {
+      "en": "Working Time",
+      "zh": "工作时间",
+      "es": "Tiempo de funcionamiento",
+      "ar": "زمن العمل",
+      "fr": "Temps de fonctionnement",
+      "id": "Waktu Kerja",
+      "ru": "Время работы",
+      "th": "เวลาทำงาน",
+      "vi": "Thời gian làm việc"
+     },
+     "value": {
+      "en": "15mins",
+      "es": "15mins",
+      "ar": "15mins",
+      "fr": "15mins",
+      "id": "15mins",
+      "ru": "15mins",
+      "th": "15mins",
+      "vi": "15mins"
+     }
     },
     {
-      "name": "Ahmed Hassan",
-      "location": "Dubai, UAE",
-      "rating": 5,
-      "date": "2025-06-18",
-      "title": "DC 12V works perfectly in our extreme summer heat",
-      "body": "Many car accessories fail in Dubai summers. This vacuum has survived temperatures above 45°C in the car. The cord management is neat and the dust cup is easy to empty. The transparent design lets you see when it needs cleaning.",
-      "photoUrls": [
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/01.webp",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/02.webp"
-      ]
+     "label": {
+      "en": "Suction",
+      "zh": "Suction",
+      "es": "Succión",
+      "ar": "الشفط",
+      "fr": "Aspiration",
+      "id": "Daya Hisap",
+      "ru": "Всасывание",
+      "th": "แรงดูด",
+      "vi": "Lực hút"
+     },
+     "value": {
+      "en": "4000Pa",
+      "es": "4000Pa",
+      "ar": "4000Pa",
+      "fr": "4000Pa",
+      "id": "4000Pa",
+      "ru": "4000Pa",
+      "th": "4000Pa",
+      "vi": "4000Pa"
+     }
+    },
+    {
+     "label": {
+      "en": "Battery",
+      "zh": "Battery",
+      "es": "Batería",
+      "ar": "البطارية",
+      "fr": "Batterie",
+      "id": "Baterai",
+      "ru": "Аккумулятор",
+      "th": "แบตเตอรี่",
+      "vi": "Pin"
+     },
+     "value": {
+      "en": "Li-ion Battery",
+      "es": "Batería de iones de litio",
+      "ar": "بطارية ليثيوم أيون",
+      "fr": "Batterie Li-ion",
+      "id": "Baterai Li-Ion",
+      "ru": "Литий-ионный аккумулятор",
+      "th": "แบตเตอรี่ Li-ion",
+      "vi": "Pin Li-ion"
+     }
+    },
+    {
+     "label": {
+      "en": "Battery Capacity",
+      "zh": "电池容量",
+      "es": "Capacidad de batería",
+      "ar": "سعة البطارية",
+      "fr": "Capacité de la batterie",
+      "id": "Kapasitas Baterai",
+      "ru": "Ёмкость аккумулятора",
+      "th": "ความจุแบตเตอรี่",
+      "vi": "Dung lượng pin"
+     },
+     "value": {
+      "en": "1500mAh*2",
+      "es": "1500mAh*2",
+      "ar": "1500mAh*2",
+      "fr": "1500mAh*2",
+      "id": "1500mAh*2",
+      "ru": "1500mAh*2",
+      "th": "1500mAh*2",
+      "vi": "1500mAh*2"
+     }
+    },
+    {
+     "label": {
+      "en": "maximum runtime",
+      "zh": "maximum runtime",
+      "es": "autonomía máxima",
+      "ar": "أقصى مدة تشغيل",
+      "fr": "autonomie maximale",
+      "id": "waktu pakai maksimum",
+      "ru": "макс. время работы",
+      "th": "ระยะเวลาทำงานสูงสุด",
+      "vi": "thời gian chạy tối đa"
+     },
+     "value": {
+      "en": "<30 min",
+      "es": "<30 min",
+      "ar": "<30 min",
+      "fr": "<30 min",
+      "id": "<30 min",
+      "ru": "<30 min",
+      "th": "<30 min",
+      "vi": "<30 min"
+     }
+    },
+    {
+     "label": {
+      "en": "suction power (airwatts)",
+      "zh": "suction power (airwatts)",
+      "es": "potencia de succión (vatios de aire)",
+      "ar": "قوة الشفط (AirWatts)",
+      "fr": "puissance d'aspiration (AirWatts)",
+      "id": "daya hisap (AirWatts)",
+      "ru": "мощность всасывания (AirWatts)",
+      "th": "กำลังดูด (AirWatts)",
+      "vi": "công suất hút (airwatts)"
+     },
+     "value": {
+      "en": "≤ 50 AW",
+      "es": "≤ 50 AW",
+      "ar": "≤ 50 AW",
+      "fr": "≤ 50 AW",
+      "id": "≤ 50 AW",
+      "ru": "≤ 50 AW",
+      "th": "≤ 50 AW",
+      "vi": "≤ 50 AW"
+     }
+    },
+    {
+     "label": {
+      "en": "app-controlled",
+      "zh": "app-controlled",
+      "es": "control por app",
+      "ar": "يُتحكم به عبر التطبيق",
+      "fr": "contrôlé par application",
+      "id": "dikendalikan aplikasi",
+      "ru": "управление через приложение",
+      "th": "ควบคุมผ่านแอป",
+      "vi": "điều khiển qua app"
+     },
+     "value": {
+      "en": "No",
+      "es": "No",
+      "ar": "لا",
+      "fr": "Non",
+      "id": "Tidak",
+      "ru": "Нет",
+      "th": "ไม่",
+      "vi": "Không"
+     }
+    },
+    {
+     "label": {
+      "en": "application",
+      "zh": "application",
+      "es": "aplicación",
+      "ar": "التطبيق",
+      "fr": "utilisation",
+      "id": "aplikasi",
+      "ru": "применение",
+      "th": "การใช้งาน",
+      "vi": "ứng dụng"
+     },
+     "value": {
+      "en": "Car",
+      "es": "Coche",
+      "ar": "سيارة",
+      "fr": "Voiture",
+      "id": "Mobil",
+      "ru": "Автомобиль",
+      "th": "รถยนต์",
+      "vi": "Ô tô"
+     }
+    },
+    {
+     "label": {
+      "en": "bag or bagless",
+      "zh": "bag or bagless",
+      "es": "con bolsa o sin bolsa",
+      "ar": "بكيس أو بدون كيس",
+      "fr": "avec sac ou sans sac",
+      "id": "dengan kantong atau tanpa kantong",
+      "ru": "с мешком или без мешка",
+      "th": "มีถุงหรือไม่มีถุง",
+      "vi": "có túi hoặc không túi"
+     },
+     "value": {
+      "en": "Bagless",
+      "es": "Sin bolsa",
+      "ar": "بدون كيس",
+      "fr": "Sans sac",
+      "id": "Tanpa Kantong",
+      "ru": "Без мешка",
+      "th": "ไม่มีถุง",
+      "vi": "Không túi"
+     }
+    },
+    {
+     "label": {
+      "en": "Charging Time",
+      "zh": "充电时间",
+      "es": "Tiempo de carga",
+      "ar": "زمن الشحن",
+      "fr": "Temps de charge",
+      "id": "Waktu Pengisian",
+      "ru": "Время зарядки",
+      "th": "เวลาในการชาร์จ",
+      "vi": "Thời gian sạc"
+     },
+     "value": {
+      "en": "1-3H",
+      "es": "1-3H",
+      "ar": "1-3H",
+      "fr": "1-3H",
+      "id": "1-3H",
+      "ru": "1-3H",
+      "th": "1-3H",
+      "vi": "1-3H"
+     }
+    },
+    {
+     "label": {
+      "en": "filter",
+      "zh": "filter",
+      "es": "filtro",
+      "ar": "الفلتر",
+      "fr": "filtre",
+      "id": "filter",
+      "ru": "фильтр",
+      "th": "ตัวกรอง",
+      "vi": "bộ lọc"
+     },
+     "value": {
+      "en": "HEPA Filter",
+      "es": "Filtro HEPA",
+      "ar": "فلتر HEPA",
+      "fr": "Filtre HEPA",
+      "id": "Filter HEPA",
+      "ru": "Фильтр HEPA",
+      "th": "ตัวกรอง HEPA",
+      "vi": "Bộ lọc HEPA"
+     }
+    },
+    {
+     "label": {
+      "en": "installation",
+      "zh": "installation",
+      "es": "instalación",
+      "ar": "التركيب",
+      "fr": "installation",
+      "id": "instalasi",
+      "ru": "установка",
+      "th": "การติดตั้ง",
+      "vi": "lắp đặt"
+     },
+     "value": {
+      "en": "Hand Held",
+      "es": "De mano",
+      "ar": "محمولة باليد",
+      "fr": "À main",
+      "id": "Genggam",
+      "ru": "Ручной",
+      "th": "แบบพกพา",
+      "vi": "Cầm tay"
+     }
+    },
+    {
+     "label": {
+      "en": "motor type",
+      "zh": "motor type",
+      "es": "tipo de motor",
+      "ar": "نوع المحرك",
+      "fr": "type de moteur",
+      "id": "jenis motor",
+      "ru": "тип двигателя",
+      "th": "ประเภทมอเตอร์",
+      "vi": "loại động cơ"
+     },
+     "value": {
+      "en": "Brush Motor",
+      "es": "Motor con escobillas",
+      "ar": "محرك بفرشاة",
+      "fr": "Moteur à balais",
+      "id": "Motor Sikat",
+      "ru": "Щёточный двигатель",
+      "th": "มอเตอร์แบบมีแปรงถ่าน",
+      "vi": "Động cơ chổi than"
+     }
+    },
+    {
+     "label": {
+      "en": "nozzle number",
+      "zh": "nozzle number",
+      "es": "número de boquillas",
+      "ar": "عدد الفوهات",
+      "fr": "nombre de buses",
+      "id": "jumlah nozzle",
+      "ru": "количество насадок",
+      "th": "จำนวนหัวฉีด",
+      "vi": "số đầu vòi"
+     },
+     "value": {
+      "en": "4-6",
+      "es": "4-6",
+      "ar": "4-6",
+      "fr": "4-6",
+      "id": "4-6",
+      "ru": "4-6",
+      "th": "4-6",
+      "vi": "4-6"
+     }
+    },
+    {
+     "label": {
+      "en": "operating language",
+      "zh": "operating language",
+      "es": "idioma de funcionamiento",
+      "ar": "لغة التشغيل",
+      "fr": "langue d'utilisation",
+      "id": "bahasa pengoperasian",
+      "ru": "язык интерфейса",
+      "th": "ภาษาที่ใช้งาน",
+      "vi": "ngôn ngữ hoạt động"
+     },
+     "value": {
+      "en": "English",
+      "es": "Inglés",
+      "ar": "الإنجليزية",
+      "fr": "Anglais",
+      "id": "Inggris",
+      "ru": "Английский",
+      "th": "อังกฤษ",
+      "vi": "Tiếng Anh"
+     }
+    },
+    {
+     "label": {
+      "en": "packaging types",
+      "zh": "packaging types",
+      "es": "tipos de embalaje",
+      "ar": "أنواع التغليف",
+      "fr": "types d'emballage",
+      "id": "jenis kemasan",
+      "ru": "типы упаковки",
+      "th": "ประเภทบรรจุภัณฑ์",
+      "vi": "loại bao bì"
+     },
+     "value": {
+      "en": "Corrugated Box",
+      "es": "Caja de cartón ondulado",
+      "ar": "كرتون مموج",
+      "fr": "Carton ondulé",
+      "id": "Kotak Karton Bergelombang",
+      "ru": "Гофрокоробка",
+      "th": "กล่องกระดาษลูกฟูก",
+      "vi": "Thùng carton sóng"
+     }
+    },
+    {
+     "label": {
+      "en": "packaging types",
+      "zh": "packaging types",
+      "es": "tipos de embalaje",
+      "ar": "أنواع التغليف",
+      "fr": "types d'emballage",
+      "id": "jenis kemasan",
+      "ru": "типы упаковки",
+      "th": "ประเภทบรรจุภัณฑ์",
+      "vi": "loại bao bì"
+     },
+     "value": {
+      "en": "Color Box",
+      "es": "Caja a color",
+      "ar": "علبة ملونة",
+      "fr": "Boîte couleur",
+      "id": "Kotak Warna",
+      "ru": "Цветная коробка",
+      "th": "กล่องสี",
+      "vi": "Hộp màu"
+     }
+    },
+    {
+     "label": {
+      "en": "private mold",
+      "zh": "private mold",
+      "es": "molde propio",
+      "ar": "قالب خاص",
+      "fr": "moule exclusif",
+      "id": "cetakan sendiri",
+      "ru": "собственная пресс-форма",
+      "th": "แม่พิมพ์เฉพาะ",
+      "vi": "khuôn riêng"
+     },
+     "value": {
+      "en": "Yes",
+      "es": "Sí",
+      "ar": "نعم",
+      "fr": "Oui",
+      "id": "Ya",
+      "ru": "Да",
+      "th": "ใช่",
+      "vi": "Có"
+     }
+    },
+    {
+     "label": {
+      "en": "product net weight",
+      "zh": "product net weight",
+      "es": "peso neto",
+      "ar": "الوزن الصافي",
+      "fr": "poids net",
+      "id": "berat bersih",
+      "ru": "вес нетто",
+      "th": "น้ำหนักสุทธิ",
+      "vi": "trọng lượng tịnh"
+     },
+     "value": {
+      "en": "0.5–1 kg",
+      "es": "0.5–1 kg",
+      "ar": "0.5–1 kg",
+      "fr": "0.5–1 kg",
+      "id": "0.5–1 kg",
+      "ru": "0.5–1 kg",
+      "th": "0.5–1 kg",
+      "vi": "0.5–1 kg"
+     }
+    },
+    {
+     "label": {
+      "en": "warranty",
+      "zh": "warranty",
+      "es": "garantía",
+      "ar": "الضمان",
+      "fr": "garantie",
+      "id": "garansi",
+      "ru": "гарантия",
+      "th": "การรับประกัน",
+      "vi": "bảo hành"
+     },
+     "value": {
+      "en": "1 Year",
+      "es": "1 año",
+      "ar": "سنة واحدة",
+      "fr": "1 an",
+      "id": "1 tahun",
+      "ru": "1 год",
+      "th": "1 ปี",
+      "vi": "1 năm"
+     }
+    },
+    {
+     "label": {
+      "en": "place of origin",
+      "zh": "place of origin",
+      "es": "país de origen",
+      "ar": "بلد المنشأ",
+      "fr": "lieu d'origine",
+      "id": "negara asal",
+      "ru": "страна происхождения",
+      "th": "แหล่งที่มา",
+      "vi": "xuất xứ"
+     },
+     "value": {
+      "en": "CN;GUA",
+      "es": "CN;GUA",
+      "ar": "CN;GUA",
+      "fr": "CN;GUA",
+      "id": "CN;GUA",
+      "ru": "CN;GUA",
+      "th": "CN;GUA",
+      "vi": "CN;GUA"
+     }
+    },
+    {
+     "label": {
+      "en": "Function",
+      "zh": "功能",
+      "es": "Función",
+      "ar": "الوظيفة",
+      "fr": "Fonction",
+      "id": "Fungsi",
+      "ru": "Функция",
+      "th": "ฟังก์ชัน",
+      "vi": "Chức năng"
+     },
+     "value": {
+      "en": "vacuuming",
+      "es": "aspiración",
+      "ar": "شفط",
+      "fr": "aspiration",
+      "id": "vakum",
+      "ru": "уборка пылесосом",
+      "th": "การดูดฝุ่น",
+      "vi": "hút bụi"
+     }
+    },
+    {
+     "label": {
+      "en": "Dust capacity",
+      "zh": "Dust capacity",
+      "es": "Capacidad de polvo",
+      "ar": "سعة الغبار",
+      "fr": "Capacité du bac à poussière",
+      "id": "Kapasitas debu",
+      "ru": "Объём пылесборника",
+      "th": "ความจุฝุ่น",
+      "vi": "Dung tích bụi"
+     },
+     "value": {
+      "en": "0.12L",
+      "es": "0.12L",
+      "ar": "0.12L",
+      "fr": "0.12L",
+      "id": "0.12L",
+      "ru": "0.12L",
+      "th": "0.12L",
+      "vi": "0.12L"
+     }
+    },
+    {
+     "label": {
+      "en": "Feature",
+      "zh": "Feature",
+      "es": "Característica",
+      "ar": "الميزة",
+      "fr": "Caractéristique",
+      "id": "Fitur",
+      "ru": "Характеристика",
+      "th": "คุณสมบัติ",
+      "vi": "Tính năng"
+     },
+     "value": {
+      "en": "HEPA, lightweight, portable, wet/dry, rechargeable",
+      "es": "HEPA, ligera, portátil, en seco y húmedo, recargable",
+      "ar": "HEPA، خفيفة الوزن، محمولة، جاف/رطب، قابلة لإعادة الشحن",
+      "fr": "HEPA, léger, portatif, sec/humide, rechargeable",
+      "id": "HEPA, ringan, portabel, kering/basah, dapat diisi ulang",
+      "ru": "HEPA, лёгкий, портативный, сухая/влажная уборка, аккумуляторный",
+      "th": "HEPA น้ำหนักเบา พกพา เปียก/แห้ง ชาร์จไฟได้",
+      "vi": "HEPA, nhẹ, di động, khô/ướt, sạc lại"
+     }
+    },
+    {
+     "label": {
+      "en": "power (w)",
+      "zh": "power (w)",
+      "es": "potencia (W)",
+      "ar": "القدرة (W)",
+      "fr": "puissance (W)",
+      "id": "daya (W)",
+      "ru": "мощность (Вт)",
+      "th": "กำลังไฟ (W)",
+      "vi": "công suất (w)"
+     },
+     "value": {
+      "en": "50 W",
+      "es": "50 W",
+      "ar": "50 W",
+      "fr": "50 W",
+      "id": "50 W",
+      "ru": "50 W",
+      "th": "50 W",
+      "vi": "50 W"
+     }
+    },
+    {
+     "label": {
+      "en": "power source",
+      "zh": "power source",
+      "es": "fuente de alimentación",
+      "ar": "مصدر الطاقة",
+      "fr": "source d'alimentation",
+      "id": "sumber daya",
+      "ru": "источник питания",
+      "th": "แหล่งจ่ายไฟ",
+      "vi": "nguồn điện"
+     },
+     "value": {
+      "en": "Battery Powered",
+      "es": "Alimentación por batería",
+      "ar": "يعمل بالبطارية",
+      "fr": "Alimenté par batterie",
+      "id": "Berbaterai",
+      "ru": "Питание от аккумулятора",
+      "th": "ใช้พลังงานแบตเตอรี่",
+      "vi": "Chạy bằng pin"
+     }
+    },
+    {
+     "label": {
+      "en": "model number",
+      "zh": "model number",
+      "es": "número de modelo",
+      "ar": "رقم الموديل",
+      "fr": "numéro de modèle",
+      "id": "nomor model",
+      "ru": "номер модели",
+      "th": "หมายเลขรุ่น",
+      "vi": "số model"
+     },
+     "value": {
+      "en": "YZX-305",
+      "es": "YZX-305",
+      "ar": "YZX-305",
+      "fr": "YZX-305",
+      "id": "YZX-305",
+      "ru": "YZX-305",
+      "th": "YZX-305",
+      "vi": "YZX-305"
+     }
     }
-  ],
-  "_schema_reviews": [
+   ],
+   "packaging": {
+    "unit": "Color Box"
+   },
+   "customization": {},
+   "applications": {
+    "en": "",
+    "zh": ""
+   },
+   "price_indicator": null,
+   "quick_specs": [
     {
-      "@type": "Review",
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "5",
-        "bestRating": "5",
-        "worstRating": "1"
-      },
-      "author": {
-        "@type": "Person",
-        "name": "Ryan Cooper",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Chicago, IL, USA"
-        }
-      },
-      "datePublished": "2025-10-29",
-      "reviewBody": "I tested 6 different car vacuums and this one has the highest suction at 5000Pa. It pulls sand from the carpet, crumbs from the seat crevices, and even pet hair. The washable HEPA filter is a huge plus. See the before/after photos of my truck bed.",
-      "name": "Strongest 12V car vacuum I have tested — handles sand and gravel",
-      "image": [
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/01.webp",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/02.webp"
-      ]
+     "label": {
+      "en": "Suction",
+      "zh": "吸力",
+      "es": "Succión",
+      "ar": "الشفط",
+      "fr": "Aspiration",
+      "id": "Daya Hisap",
+      "ru": "Всасывание",
+      "th": "แรงดูด",
+      "vi": "Lực hút"
+     },
+     "value": {
+      "en": "4000Pa",
+      "es": "4000Pa",
+      "ar": "4000Pa",
+      "fr": "4000Pa",
+      "id": "4000Pa",
+      "ru": "4000Pa",
+      "th": "4000Pa",
+      "vi": "4000Pa"
+     }
     },
     {
-      "@type": "Review",
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "5",
-        "bestRating": "5",
-        "worstRating": "1"
-      },
-      "author": {
-        "@type": "Person",
-        "name": "Nina Johansson",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Stockholm, Sweden"
-        }
-      },
-      "datePublished": "2025-08-11",
-      "reviewBody": "At just 1.2kg it fits in our glove box. The 5m car charger cable reaches every corner of our SUV. The LED light on the nozzle is perfect for cleaning under seats at night. No complaints after 8 months of weekly use.",
-      "name": "Compact enough to keep in the glove box, powerful enough for weekly cleans",
-      "image": [
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/01.webp",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/02.webp"
-      ]
+     "label": {
+      "en": "Power (W)",
+      "zh": "功率(W)",
+      "es": "Potencia (W)",
+      "ar": "القدرة (W)",
+      "fr": "Puissance (W)",
+      "id": "Daya (W)",
+      "ru": "Мощность (Вт)",
+      "th": "กำลังไฟ (W)",
+      "vi": "Công suất (W)"
+     },
+     "value": {
+      "en": "50 W",
+      "es": "50 W",
+      "ar": "50 W",
+      "fr": "50 W",
+      "id": "50 W",
+      "ru": "50 W",
+      "th": "50 W",
+      "vi": "50 W"
+     }
     },
     {
-      "@type": "Review",
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "5",
-        "bestRating": "5",
-        "worstRating": "1"
-      },
-      "author": {
-        "@type": "Person",
-        "name": "Ahmed Hassan",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Dubai, UAE"
-        }
-      },
-      "datePublished": "2025-06-18",
-      "reviewBody": "Many car accessories fail in Dubai summers. This vacuum has survived temperatures above 45°C in the car. The cord management is neat and the dust cup is easy to empty. The transparent design lets you see when it needs cleaning.",
-      "name": "DC 12V works perfectly in our extreme summer heat",
-      "image": [
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/01.webp",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/02.webp"
-      ]
+     "label": {
+      "en": "Maximum Runtime",
+      "zh": "最长续航",
+      "es": "Autonomía máxima",
+      "ar": "أقصى مدة تشغيل",
+      "fr": "Autonomie maximale",
+      "id": "Waktu Pakai Maksimum",
+      "ru": "Макс. время работы",
+      "th": "ระยะเวลาทำงานสูงสุด",
+      "vi": "Thời gian chạy tối đa"
+     },
+     "value": {
+      "en": "<30 min",
+      "es": "<30 min",
+      "ar": "<30 min",
+      "fr": "<30 min",
+      "id": "<30 min",
+      "ru": "<30 min",
+      "th": "<30 min",
+      "vi": "<30 min"
+     }
+    },
+    {
+     "label": {
+      "en": "Working Time",
+      "zh": "工作时间",
+      "es": "Tiempo de funcionamiento",
+      "ar": "زمن العمل",
+      "fr": "Temps de fonctionnement",
+      "id": "Waktu Kerja",
+      "ru": "Время работы",
+      "th": "เวลาทำงาน",
+      "vi": "Thời gian làm việc"
+     },
+     "value": {
+      "en": "15mins",
+      "es": "15mins",
+      "ar": "15mins",
+      "fr": "15mins",
+      "id": "15mins",
+      "ru": "15mins",
+      "th": "15mins",
+      "vi": "15mins"
+     }
     }
-  ]
+   ],
+   "price_ladder": [],
+   "sku": "1601898293964",
+   "description": {
+    "en": "4000Pa · 50 W · <30 min. OEM/ODM available; specifications from the supplier listing.",
+    "zh": "4000Pa · 50 W · <30 min。支持 OEM/ODM 定制，规格取自供应商商品资料。",
+    "es": "4000Pa · 50 W · <30 min. Disponible en OEM/ODM; especificaciones tomadas del listado del proveedor.",
+    "ar": "4000Pa · 50 W · <30 min. متاح بنظام OEM/ODM؛ المواصفات مأخوذة من قائمة المورّد.",
+    "fr": "4000Pa · 50 W · <30 min. Disponible en OEM/ODM ; spécifications issues de la fiche du fournisseur.",
+    "id": "4000Pa · 50 W · <30 min. Tersedia dalam OEM/ODM; spesifikasi diambil dari daftar pemasok.",
+    "ru": "4000Pa · 50 W · <30 min. Доступно в OEM/ODM; характеристики взяты из карточки товара поставщика.",
+    "th": "4000Pa · 50 W · <30 min. มีให้บริการในรูปแบบ OEM/ODM; ข้อมูลจำเพาะนำมาจากประกาศของผู้ขาย",
+    "vi": "4000Pa · 50 W · <30 min. Có sẵn dạng OEM/ODM; thông số kỹ thuật lấy từ niêm yết của nhà cung cấp."
+   },
+   "supplier_rating": null,
+   "response_time": null,
+   "transactions": null,
+   "years": null,
+   "ship_from": null,
+   "sample": null,
+   "category_name": {
+    "en": "Car Vacuum Cleaners",
+    "zh": "车载吸尘器",
+    "es": "Aspirador de Coche",
+    "ar": "مكنسة سيارات",
+    "fr": "Aspirateur voiture",
+    "id": "Penyedot Debu Mobil",
+    "ru": "Автомобильный пылесос",
+    "th": "เครื่องดูดฝุ่นในรถ",
+    "vi": "Máy hút bụi ô tô"
+   },
+   "_source": {
+    "platform": "alibaba.com",
+    "productId": "1601898293964"
+   },
+   "_cat": "car-vacuum"
+  },
+  {
+   "id": "px2",
+   "name": {
+    "en": "USB Rechargeable Brushless Car Vacuum Cleaner 20KPa Powerful Suction Portable Handheld Vacuum OEM Factory Supplier",
+    "zh": "PX2 无刷车载吸尘器（20KPa 强吸力 / USB 充电）",
+    "es": "Aspiradora de coche recargable por USB con motor sin escobillas, succión potente de 20 kPa, portátil de mano, fábrica y proveedor OEM",
+    "ar": "مكنسة سيارة لاسلكية قابلة لإعادة الشحن USB بمحرك بدون فرشاة، شفط قوي 20KPa، مكنسة يدوية محمولة، مصنع ومورّد OEM",
+    "fr": "Aspirateur voiture sans balais rechargeable USB à aspiration puissante 20 kPa, aspirateur à main portatif, usine et fournisseur OEM",
+    "id": "Penyedot Debu Mobil Tanpa Sikat Dapat Diisi Ulang USB, Daya Hisap Kuat 20KPa, Penyedot Debu Genggam Portabel, Pemasok Pabrik OEM",
+    "ru": "Автомобильный пылесос с зарядкой USB и бесщёточным двигателем, мощное всасывание 20 кПа, портативный ручной пылесос, завод-производитель OEM",
+    "th": "เครื่องดูดฝุ่นในรถแบบไร้สายชาร์จผ่าน USB มอเตอร์แบบไม่มีแปรงถ่าน แรงดูดทรงพลัง 20KPa แบบพกพา โรงงานและซัพพลายเออร์ OEM",
+    "vi": "Máy hút bụi ô tô sạc USB dùng động cơ không chổi than, lực hút mạnh 20KPa, máy hút bụi cầm tay di động, nhà máy cung cấp OEM"
+   },
+   "tagline": {
+    "en": "100 W · <30 min · 2000mAh*3",
+    "zh": "100 W · <30 min · 2000mAh*3",
+    "es": "100 W · <30 min · 2000mAh*3",
+    "ar": "100 W · <30 min · 2000mAh*3",
+    "fr": "100 W · <30 min · 2000mAh*3",
+    "id": "100 W · <30 min · 2000mAh*3",
+    "ru": "100 W · <30 min · 2000mAh*3",
+    "th": "100 W · <30 min · 2000mAh*3",
+    "vi": "100 W · <30 min · 2000mAh*3"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-px2/01.webp",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-px2/02.webp",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-px2/03.webp",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-px2/04.webp",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-px2/05.webp",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-px2/06.webp"
+   ],
+   "video_url": null,
+   "moq": {
+    "value": 1,
+    "unit": "pieces"
+   },
+   "certifications": [],
+   "highlights": [
+    {
+     "icon": "check",
+     "text": {
+      "en": "Power (W): 100 W",
+      "zh": "功率(W): 100 W",
+      "es": "Potencia (W): 100 W",
+      "ar": "القدرة (W): 100 W",
+      "fr": "Puissance (W): 100 W",
+      "id": "Daya (W): 100 W",
+      "ru": "Мощность (Вт): 100 W",
+      "th": "กำลังไฟ (W): 100 W",
+      "vi": "Công suất (W): 100 W"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Maximum Runtime: <30 min",
+      "zh": "最长续航: <30 min",
+      "es": "Autonomía máxima: <30 min",
+      "ar": "أقصى مدة تشغيل: <30 min",
+      "fr": "Autonomie maximale: <30 min",
+      "id": "Waktu Pakai Maksimum: <30 min",
+      "ru": "Макс. время работы: <30 min",
+      "th": "ระยะเวลาทำงานสูงสุด: <30 min",
+      "vi": "Thời gian chạy tối đa: <30 min"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Battery Capacity: 2000mAh*3",
+      "zh": "电池容量: 2000mAh*3",
+      "es": "Capacidad de batería: 2000mAh*3",
+      "ar": "سعة البطارية: 2000mAh*3",
+      "fr": "Capacité de la batterie: 2000mAh*3",
+      "id": "Kapasitas Baterai: 2000mAh*3",
+      "ru": "Ёмкость аккумулятора: 2000mAh*3",
+      "th": "ความจุแบตเตอรี่: 2000mAh*3",
+      "vi": "Dung lượng pin: 2000mAh*3"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Dust capacity: 0.12L",
+      "zh": "尘杯容量: 0.12L",
+      "es": "Capacidad de polvo: 0.12L",
+      "ar": "سعة الغبار: 0.12L",
+      "fr": "Capacité du bac à poussière: 0.12L",
+      "id": "Kapasitas debu: 0.12L",
+      "ru": "Объём пылесборника: 0.12L",
+      "th": "ความจุฝุ่น: 0.12L",
+      "vi": "Dung tích bụi: 0.12L"
+     }
+    }
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "Keywords",
+      "zh": "Keywords",
+      "es": "Palabras clave",
+      "ar": "الكلمات المفتاحية",
+      "fr": "Mots-clés",
+      "id": "Kata Kunci",
+      "ru": "Ключевые слова",
+      "th": "คำค้นหา",
+      "vi": "Từ khóa"
+     },
+     "value": {
+      "en": "Car Cordless Cleaner Vacuum",
+      "es": "Aspiradora inalámbrica para coche",
+      "ar": "مكنسة سيارة لاسلكية",
+      "fr": "Aspirateur voiture sans fil",
+      "id": "Penyedot Debu Mobil Nirkabel",
+      "ru": "Беспроводной автомобильный пылесос",
+      "th": "เครื่องดูดฝุ่นไร้สายสำหรับรถยนต์",
+      "vi": "Máy hút bụi ô tô không dây"
+     }
+    },
+    {
+     "label": {
+      "en": "Style",
+      "zh": "Style",
+      "es": "Estilo",
+      "ar": "الطراز",
+      "fr": "Style",
+      "id": "Gaya",
+      "ru": "Стиль",
+      "th": "สไตล์",
+      "vi": "Kiểu dáng"
+     },
+     "value": {
+      "en": "Handehld",
+      "es": "De mano",
+      "ar": "محمولة باليد",
+      "fr": "À main",
+      "id": "Genggam",
+      "ru": "Ручной",
+      "th": "แบบพกพา",
+      "vi": "Cầm tay"
+     }
+    },
+    {
+     "label": {
+      "en": "Material",
+      "zh": "材质",
+      "es": "Material",
+      "ar": "المادة",
+      "fr": "Matériau",
+      "id": "Material",
+      "ru": "Материал",
+      "th": "วัสดุ",
+      "vi": "Chất liệu"
+     },
+     "value": {
+      "en": "ABS",
+      "es": "ABS",
+      "ar": "ABS",
+      "fr": "ABS",
+      "id": "ABS",
+      "ru": "ABS",
+      "th": "ABS",
+      "vi": "ABS"
+     }
+    },
+    {
+     "label": {
+      "en": "Battery Capacity",
+      "zh": "电池容量",
+      "es": "Capacidad de batería",
+      "ar": "سعة البطارية",
+      "fr": "Capacité de la batterie",
+      "id": "Kapasitas Baterai",
+      "ru": "Ёмкость аккумулятора",
+      "th": "ความจุแบตเตอรี่",
+      "vi": "Dung lượng pin"
+     },
+     "value": {
+      "en": "2000mAh*3",
+      "es": "2000mAh*3",
+      "ar": "2000mAh*3",
+      "fr": "2000mAh*3",
+      "id": "2000mAh*3",
+      "ru": "2000mAh*3",
+      "th": "2000mAh*3",
+      "vi": "2000mAh*3"
+     }
+    },
+    {
+     "label": {
+      "en": "Battery",
+      "zh": "Battery",
+      "es": "Batería",
+      "ar": "البطارية",
+      "fr": "Batterie",
+      "id": "Baterai",
+      "ru": "Аккумулятор",
+      "th": "แบตเตอรี่",
+      "vi": "Pin"
+     },
+     "value": {
+      "en": "Li-ion Battery",
+      "es": "Batería de iones de litio",
+      "ar": "بطارية ليثيوم أيون",
+      "fr": "Batterie Li-ion",
+      "id": "Baterai Li-Ion",
+      "ru": "Литий-ионный аккумулятор",
+      "th": "แบตเตอรี่ Li-ion",
+      "vi": "Pin Li-ion"
+     }
+    },
+    {
+     "label": {
+      "en": "Vacuum",
+      "zh": "Vacuum",
+      "es": "Aspiración",
+      "ar": "الشفط",
+      "fr": "Aspiration",
+      "id": "Vakum",
+      "ru": "Всасывание",
+      "th": "การดูดฝุ่น",
+      "vi": "Hút bụi"
+     },
+     "value": {
+      "en": "20KPA",
+      "es": "20KPA",
+      "ar": "20KPA",
+      "fr": "20KPA",
+      "id": "20KPA",
+      "ru": "20KPA",
+      "th": "20KPA",
+      "vi": "20KPA"
+     }
+    },
+    {
+     "label": {
+      "en": "maximum runtime",
+      "zh": "maximum runtime",
+      "es": "autonomía máxima",
+      "ar": "أقصى مدة تشغيل",
+      "fr": "autonomie maximale",
+      "id": "waktu pakai maksimum",
+      "ru": "макс. время работы",
+      "th": "ระยะเวลาทำงานสูงสุด",
+      "vi": "thời gian chạy tối đa"
+     },
+     "value": {
+      "en": "<30 min",
+      "es": "<30 min",
+      "ar": "<30 min",
+      "fr": "<30 min",
+      "id": "<30 min",
+      "ru": "<30 min",
+      "th": "<30 min",
+      "vi": "<30 min"
+     }
+    },
+    {
+     "label": {
+      "en": "app-controlled",
+      "zh": "app-controlled",
+      "es": "control por app",
+      "ar": "يُتحكم به عبر التطبيق",
+      "fr": "contrôlé par application",
+      "id": "dikendalikan aplikasi",
+      "ru": "управление через приложение",
+      "th": "ควบคุมผ่านแอป",
+      "vi": "điều khiển qua app"
+     },
+     "value": {
+      "en": "No",
+      "es": "No",
+      "ar": "لا",
+      "fr": "Non",
+      "id": "Tidak",
+      "ru": "Нет",
+      "th": "ไม่",
+      "vi": "Không"
+     }
+    },
+    {
+     "label": {
+      "en": "application",
+      "zh": "application",
+      "es": "aplicación",
+      "ar": "التطبيق",
+      "fr": "utilisation",
+      "id": "aplikasi",
+      "ru": "применение",
+      "th": "การใช้งาน",
+      "vi": "ứng dụng"
+     },
+     "value": {
+      "en": "Car",
+      "es": "Coche",
+      "ar": "سيارة",
+      "fr": "Voiture",
+      "id": "Mobil",
+      "ru": "Автомобиль",
+      "th": "รถยนต์",
+      "vi": "Ô tô"
+     }
+    },
+    {
+     "label": {
+      "en": "bag or bagless",
+      "zh": "bag or bagless",
+      "es": "con bolsa o sin bolsa",
+      "ar": "بكيس أو بدون كيس",
+      "fr": "avec sac ou sans sac",
+      "id": "dengan kantong atau tanpa kantong",
+      "ru": "с мешком или без мешка",
+      "th": "มีถุงหรือไม่มีถุง",
+      "vi": "có túi hoặc không túi"
+     },
+     "value": {
+      "en": "Bagless",
+      "es": "Sin bolsa",
+      "ar": "بدون كيس",
+      "fr": "Sans sac",
+      "id": "Tanpa Kantong",
+      "ru": "Без мешка",
+      "th": "ไม่มีถุง",
+      "vi": "Không túi"
+     }
+    },
+    {
+     "label": {
+      "en": "Charging Time",
+      "zh": "充电时间",
+      "es": "Tiempo de carga",
+      "ar": "زمن الشحن",
+      "fr": "Temps de charge",
+      "id": "Waktu Pengisian",
+      "ru": "Время зарядки",
+      "th": "เวลาในการชาร์จ",
+      "vi": "Thời gian sạc"
+     },
+     "value": {
+      "en": "1-3H",
+      "es": "1-3H",
+      "ar": "1-3H",
+      "fr": "1-3H",
+      "id": "1-3H",
+      "ru": "1-3H",
+      "th": "1-3H",
+      "vi": "1-3H"
+     }
+    },
+    {
+     "label": {
+      "en": "filter",
+      "zh": "filter",
+      "es": "filtro",
+      "ar": "الفلتر",
+      "fr": "filtre",
+      "id": "filter",
+      "ru": "фильтр",
+      "th": "ตัวกรอง",
+      "vi": "bộ lọc"
+     },
+     "value": {
+      "en": "HEPA Filter",
+      "es": "Filtro HEPA",
+      "ar": "فلتر HEPA",
+      "fr": "Filtre HEPA",
+      "id": "Filter HEPA",
+      "ru": "Фильтр HEPA",
+      "th": "ตัวกรอง HEPA",
+      "vi": "Bộ lọc HEPA"
+     }
+    },
+    {
+     "label": {
+      "en": "installation",
+      "zh": "installation",
+      "es": "instalación",
+      "ar": "التركيب",
+      "fr": "installation",
+      "id": "instalasi",
+      "ru": "установка",
+      "th": "การติดตั้ง",
+      "vi": "lắp đặt"
+     },
+     "value": {
+      "en": "Hand Held",
+      "es": "De mano",
+      "ar": "محمولة باليد",
+      "fr": "À main",
+      "id": "Genggam",
+      "ru": "Ручной",
+      "th": "แบบพกพา",
+      "vi": "Cầm tay"
+     }
+    },
+    {
+     "label": {
+      "en": "motor type",
+      "zh": "motor type",
+      "es": "tipo de motor",
+      "ar": "نوع المحرك",
+      "fr": "type de moteur",
+      "id": "jenis motor",
+      "ru": "тип двигателя",
+      "th": "ประเภทมอเตอร์",
+      "vi": "loại động cơ"
+     },
+     "value": {
+      "en": "Brushless Motor",
+      "es": "Motor sin escobillas",
+      "ar": "محرك بدون فرشاة",
+      "fr": "Moteur sans balais",
+      "id": "Motor Tanpa Sikat",
+      "ru": "Бесщёточный двигатель",
+      "th": "มอเตอร์แบบไม่มีแปรงถ่าน",
+      "vi": "Động cơ không chổi than"
+     }
+    },
+    {
+     "label": {
+      "en": "nozzle number",
+      "zh": "nozzle number",
+      "es": "número de boquillas",
+      "ar": "عدد الفوهات",
+      "fr": "nombre de buses",
+      "id": "jumlah nozzle",
+      "ru": "количество насадок",
+      "th": "จำนวนหัวฉีด",
+      "vi": "số đầu vòi"
+     },
+     "value": {
+      "en": "≤ 3",
+      "es": "≤ 3",
+      "ar": "≤ 3",
+      "fr": "≤ 3",
+      "id": "≤ 3",
+      "ru": "≤ 3",
+      "th": "≤ 3",
+      "vi": "≤ 3"
+     }
+    },
+    {
+     "label": {
+      "en": "packaging types",
+      "zh": "packaging types",
+      "es": "tipos de embalaje",
+      "ar": "أنواع التغليف",
+      "fr": "types d'emballage",
+      "id": "jenis kemasan",
+      "ru": "типы упаковки",
+      "th": "ประเภทบรรจุภัณฑ์",
+      "vi": "loại bao bì"
+     },
+     "value": {
+      "en": "Corrugated Box",
+      "es": "Caja de cartón ondulado",
+      "ar": "كرتون مموج",
+      "fr": "Carton ondulé",
+      "id": "Kotak Karton Bergelombang",
+      "ru": "Гофрокоробка",
+      "th": "กล่องกระดาษลูกฟูก",
+      "vi": "Thùng carton sóng"
+     }
+    },
+    {
+     "label": {
+      "en": "packaging types",
+      "zh": "packaging types",
+      "es": "tipos de embalaje",
+      "ar": "أنواع التغليف",
+      "fr": "types d'emballage",
+      "id": "jenis kemasan",
+      "ru": "типы упаковки",
+      "th": "ประเภทบรรจุภัณฑ์",
+      "vi": "loại bao bì"
+     },
+     "value": {
+      "en": "Color Box",
+      "es": "Caja a color",
+      "ar": "علبة ملونة",
+      "fr": "Boîte couleur",
+      "id": "Kotak Warna",
+      "ru": "Цветная коробка",
+      "th": "กล่องสี",
+      "vi": "Hộp màu"
+     }
+    },
+    {
+     "label": {
+      "en": "packaging types",
+      "zh": "packaging types",
+      "es": "tipos de embalaje",
+      "ar": "أنواع التغليف",
+      "fr": "types d'emballage",
+      "id": "jenis kemasan",
+      "ru": "типы упаковки",
+      "th": "ประเภทบรรจุภัณฑ์",
+      "vi": "loại bao bì"
+     },
+     "value": {
+      "en": "Gift Box",
+      "es": "Caja de regalo",
+      "ar": "علبة هدايا",
+      "fr": "Boîte cadeau",
+      "id": "Kotak Hadiah",
+      "ru": "Подарочная коробка",
+      "th": "กล่องของขวัญ",
+      "vi": "Hộp quà"
+     }
+    },
+    {
+     "label": {
+      "en": "power (w)",
+      "zh": "power (w)",
+      "es": "potencia (W)",
+      "ar": "القدرة (W)",
+      "fr": "puissance (W)",
+      "id": "daya (W)",
+      "ru": "мощность (Вт)",
+      "th": "กำลังไฟ (W)",
+      "vi": "công suất (w)"
+     },
+     "value": {
+      "en": "100 W",
+      "es": "100 W",
+      "ar": "100 W",
+      "fr": "100 W",
+      "id": "100 W",
+      "ru": "100 W",
+      "th": "100 W",
+      "vi": "100 W"
+     }
+    },
+    {
+     "label": {
+      "en": "private mold",
+      "zh": "private mold",
+      "es": "molde propio",
+      "ar": "قالب خاص",
+      "fr": "moule exclusif",
+      "id": "cetakan sendiri",
+      "ru": "собственная пресс-форма",
+      "th": "แม่พิมพ์เฉพาะ",
+      "vi": "khuôn riêng"
+     },
+     "value": {
+      "en": "No",
+      "es": "No",
+      "ar": "لا",
+      "fr": "Non",
+      "id": "Tidak",
+      "ru": "Нет",
+      "th": "ไม่",
+      "vi": "Không"
+     }
+    },
+    {
+     "label": {
+      "en": "product net weight",
+      "zh": "product net weight",
+      "es": "peso neto",
+      "ar": "الوزن الصافي",
+      "fr": "poids net",
+      "id": "berat bersih",
+      "ru": "вес нетто",
+      "th": "น้ำหนักสุทธิ",
+      "vi": "trọng lượng tịnh"
+     },
+     "value": {
+      "en": "0.5–1 kg",
+      "es": "0.5–1 kg",
+      "ar": "0.5–1 kg",
+      "fr": "0.5–1 kg",
+      "id": "0.5–1 kg",
+      "ru": "0.5–1 kg",
+      "th": "0.5–1 kg",
+      "vi": "0.5–1 kg"
+     }
+    },
+    {
+     "label": {
+      "en": "warranty",
+      "zh": "warranty",
+      "es": "garantía",
+      "ar": "الضمان",
+      "fr": "garantie",
+      "id": "garansi",
+      "ru": "гарантия",
+      "th": "การรับประกัน",
+      "vi": "bảo hành"
+     },
+     "value": {
+      "en": "1 Year",
+      "es": "1 año",
+      "ar": "سنة واحدة",
+      "fr": "1 an",
+      "id": "1 tahun",
+      "ru": "1 год",
+      "th": "1 ปี",
+      "vi": "1 năm"
+     }
+    },
+    {
+     "label": {
+      "en": "place of origin",
+      "zh": "place of origin",
+      "es": "país de origen",
+      "ar": "بلد المنشأ",
+      "fr": "lieu d'origine",
+      "id": "negara asal",
+      "ru": "страна происхождения",
+      "th": "แหล่งที่มา",
+      "vi": "xuất xứ"
+     },
+     "value": {
+      "en": "CN",
+      "es": "CN",
+      "ar": "CN",
+      "fr": "CN",
+      "id": "CN",
+      "ru": "CN",
+      "th": "CN",
+      "vi": "CN"
+     }
+    },
+    {
+     "label": {
+      "en": "Function",
+      "zh": "功能",
+      "es": "Función",
+      "ar": "الوظيفة",
+      "fr": "Fonction",
+      "id": "Fungsi",
+      "ru": "Функция",
+      "th": "ฟังก์ชัน",
+      "vi": "Chức năng"
+     },
+     "value": {
+      "en": "vacuuming",
+      "es": "aspiración",
+      "ar": "شفط",
+      "fr": "aspiration",
+      "id": "vakum",
+      "ru": "уборка пылесосом",
+      "th": "การดูดฝุ่น",
+      "vi": "hút bụi"
+     }
+    },
+    {
+     "label": {
+      "en": "Dust capacity",
+      "zh": "Dust capacity",
+      "es": "Capacidad de polvo",
+      "ar": "سعة الغبار",
+      "fr": "Capacité du bac à poussière",
+      "id": "Kapasitas debu",
+      "ru": "Объём пылесборника",
+      "th": "ความจุฝุ่น",
+      "vi": "Dung tích bụi"
+     },
+     "value": {
+      "en": "0.12L",
+      "es": "0.12L",
+      "ar": "0.12L",
+      "fr": "0.12L",
+      "id": "0.12L",
+      "ru": "0.12L",
+      "th": "0.12L",
+      "vi": "0.12L"
+     }
+    },
+    {
+     "label": {
+      "en": "Feature",
+      "zh": "Feature",
+      "es": "Característica",
+      "ar": "الميزة",
+      "fr": "Caractéristique",
+      "id": "Fitur",
+      "ru": "Характеристика",
+      "th": "คุณสมบัติ",
+      "vi": "Tính năng"
+     },
+     "value": {
+      "en": "HEPA, lightweight, portable, wet/dry, rechargeable",
+      "es": "HEPA, ligera, portátil, en seco y húmedo, recargable",
+      "ar": "HEPA، خفيفة الوزن، محمولة، جاف/رطب، قابلة لإعادة الشحن",
+      "fr": "HEPA, léger, portatif, sec/humide, rechargeable",
+      "id": "HEPA, ringan, portabel, kering/basah, dapat diisi ulang",
+      "ru": "HEPA, лёгкий, портативный, сухая/влажная уборка, аккумуляторный",
+      "th": "HEPA น้ำหนักเบา พกพา เปียก/แห้ง ชาร์จไฟได้",
+      "vi": "HEPA, nhẹ, di động, khô/ướt, sạc lại"
+     }
+    },
+    {
+     "label": {
+      "en": "power source",
+      "zh": "power source",
+      "es": "fuente de alimentación",
+      "ar": "مصدر الطاقة",
+      "fr": "source d'alimentation",
+      "id": "sumber daya",
+      "ru": "источник питания",
+      "th": "แหล่งจ่ายไฟ",
+      "vi": "nguồn điện"
+     },
+     "value": {
+      "en": "Battery Powered",
+      "es": "Alimentación por batería",
+      "ar": "يعمل بالبطارية",
+      "fr": "Alimenté par batterie",
+      "id": "Berbaterai",
+      "ru": "Питание от аккумулятора",
+      "th": "ใช้พลังงานแบตเตอรี่",
+      "vi": "Chạy bằng pin"
+     }
+    },
+    {
+     "label": {
+      "en": "model number",
+      "zh": "model number",
+      "es": "número de modelo",
+      "ar": "رقم الموديل",
+      "fr": "numéro de modèle",
+      "id": "nomor model",
+      "ru": "номер модели",
+      "th": "หมายเลขรุ่น",
+      "vi": "số model"
+     },
+     "value": {
+      "en": "PX2",
+      "es": "PX2",
+      "ar": "PX2",
+      "fr": "PX2",
+      "id": "PX2",
+      "ru": "PX2",
+      "th": "PX2",
+      "vi": "PX2"
+     }
+    }
+   ],
+   "packaging": {
+    "unit": "Gift Box"
+   },
+   "customization": {},
+   "applications": {
+    "en": "",
+    "zh": ""
+   },
+   "price_indicator": null,
+   "quick_specs": [
+    {
+     "label": {
+      "en": "Power (W)",
+      "zh": "功率(W)",
+      "es": "Potencia (W)",
+      "ar": "القدرة (W)",
+      "fr": "Puissance (W)",
+      "id": "Daya (W)",
+      "ru": "Мощность (Вт)",
+      "th": "กำลังไฟ (W)",
+      "vi": "Công suất (W)"
+     },
+     "value": {
+      "en": "100 W",
+      "es": "100 W",
+      "ar": "100 W",
+      "fr": "100 W",
+      "id": "100 W",
+      "ru": "100 W",
+      "th": "100 W",
+      "vi": "100 W"
+     }
+    },
+    {
+     "label": {
+      "en": "Maximum Runtime",
+      "zh": "最长续航",
+      "es": "Autonomía máxima",
+      "ar": "أقصى مدة تشغيل",
+      "fr": "Autonomie maximale",
+      "id": "Waktu Pakai Maksimum",
+      "ru": "Макс. время работы",
+      "th": "ระยะเวลาทำงานสูงสุด",
+      "vi": "Thời gian chạy tối đa"
+     },
+     "value": {
+      "en": "<30 min",
+      "es": "<30 min",
+      "ar": "<30 min",
+      "fr": "<30 min",
+      "id": "<30 min",
+      "ru": "<30 min",
+      "th": "<30 min",
+      "vi": "<30 min"
+     }
+    },
+    {
+     "label": {
+      "en": "Battery Capacity",
+      "zh": "电池容量",
+      "es": "Capacidad de batería",
+      "ar": "سعة البطارية",
+      "fr": "Capacité de la batterie",
+      "id": "Kapasitas Baterai",
+      "ru": "Ёмкость аккумулятора",
+      "th": "ความจุแบตเตอรี่",
+      "vi": "Dung lượng pin"
+     },
+     "value": {
+      "en": "2000mAh*3",
+      "es": "2000mAh*3",
+      "ar": "2000mAh*3",
+      "fr": "2000mAh*3",
+      "id": "2000mAh*3",
+      "ru": "2000mAh*3",
+      "th": "2000mAh*3",
+      "vi": "2000mAh*3"
+     }
+    },
+    {
+     "label": {
+      "en": "Dust capacity",
+      "zh": "尘杯容量",
+      "es": "Capacidad de polvo",
+      "ar": "سعة الغبار",
+      "fr": "Capacité du bac à poussière",
+      "id": "Kapasitas debu",
+      "ru": "Объём пылесборника",
+      "th": "ความจุฝุ่น",
+      "vi": "Dung tích bụi"
+     },
+     "value": {
+      "en": "0.12L",
+      "es": "0.12L",
+      "ar": "0.12L",
+      "fr": "0.12L",
+      "id": "0.12L",
+      "ru": "0.12L",
+      "th": "0.12L",
+      "vi": "0.12L"
+     }
+    }
+   ],
+   "price_ladder": [],
+   "sku": "1601877244718",
+   "description": {
+    "en": "100 W · <30 min · 2000mAh*3. OEM/ODM available; specifications from the supplier listing.",
+    "zh": "100 W · <30 min · 2000mAh*3。支持 OEM/ODM 定制，规格取自供应商商品资料。",
+    "es": "100 W · <30 min · 2000mAh*3. Disponible en OEM/ODM; especificaciones tomadas del listado del proveedor.",
+    "ar": "100 W · <30 min · 2000mAh*3. متاح بنظام OEM/ODM؛ المواصفات مأخوذة من قائمة المورّد.",
+    "fr": "100 W · <30 min · 2000mAh*3. Disponible en OEM/ODM ; spécifications issues de la fiche du fournisseur.",
+    "id": "100 W · <30 min · 2000mAh*3. Tersedia dalam OEM/ODM; spesifikasi diambil dari daftar pemasok.",
+    "ru": "100 W · <30 min · 2000mAh*3. Доступно в OEM/ODM; характеристики взяты из карточки товара поставщика.",
+    "th": "100 W · <30 min · 2000mAh*3. มีให้บริการในรูปแบบ OEM/ODM; ข้อมูลจำเพาะนำมาจากประกาศของผู้ขาย",
+    "vi": "100 W · <30 min · 2000mAh*3. Có sẵn dạng OEM/ODM; thông số kỹ thuật lấy từ niêm yết của nhà cung cấp."
+   },
+   "supplier_rating": null,
+   "response_time": null,
+   "transactions": null,
+   "years": null,
+   "ship_from": null,
+   "sample": null,
+   "category_name": {
+    "en": "Car Vacuum Cleaners",
+    "zh": "车载吸尘器",
+    "es": "Aspirador de Coche",
+    "ar": "مكنسة سيارات",
+    "fr": "Aspirateur voiture",
+    "id": "Penyedot Debu Mobil",
+    "ru": "Автомобильный пылесос",
+    "th": "เครื่องดูดฝุ่นในรถ",
+    "vi": "Máy hút bụi ô tô"
+   },
+   "_source": {
+    "platform": "alibaba.com",
+    "productId": "1601877244718"
+   },
+   "_cat": "car-vacuum"
+  },
+  {
+   "id": "yzx-309",
+   "name": {
+    "en": "15KPa Brushless Cordless Car Vacuum Cleaner Air Duster 2 in 1 Portable Handheld Vacuum Cleaner OEM ODM Factory",
+    "zh": "YZX-309 无线车载吸尘器（15KPa 二合一：吸尘/吹气）",
+    "es": "Aspiradora de coche inalámbrica sin escobillas 15 kPa con soplador de aire 2 en 1, portátil de mano, fábrica OEM ODM",
+    "ar": "مكنسة سيارة لاسلكية بدون فرشاة بقوة 15KPa مع منظف هواء 2 في 1، مكنسة يدوية محمولة، مصنع OEM ODM",
+    "fr": "Aspirateur voiture sans fil sans balais 15 kPa avec soufflette 2 en 1, aspirateur à main portatif, usine OEM ODM",
+    "id": "Penyedot Debu Mobil Nirkabel Tanpa Sikat 15KPa, Peniup Udara 2 in 1, Penyedot Debu Genggam Portabel, Pabrik OEM ODM",
+    "ru": "Беспроводной автомобильный пылесос 15 кПа с бесщёточным двигателем и воздуходувкой 2 в 1, портативный ручной пылесос, фабрика OEM ODM",
+    "th": "เครื่องดูดฝุ่นในรถไร้สายแบบไม่มีแปรงถ่าน 15KPa พร้อมเป่าลม 2 in 1 เครื่องดูดฝุ่นแบบพกพา โรงงาน OEM ODM",
+    "vi": "Máy hút bụi ô tô không dây không chổi than 15KPa, máy thổi khí 2 trong 1, máy hút bụi cầm tay di động, nhà máy OEM ODM"
+   },
+   "tagline": {
+    "en": "15kpa · 65 W · 16-25min",
+    "zh": "15kpa · 65 W · 16-25min",
+    "es": "15kpa · 65 W · 16-25min",
+    "ar": "15kpa · 65 W · 16-25min",
+    "fr": "15kpa · 65 W · 16-25min",
+    "id": "15kpa · 65 W · 16-25min",
+    "ru": "15kpa · 65 W · 16-25min",
+    "th": "15kpa · 65 W · 16-25min",
+    "vi": "15kpa · 65 W · 16-25min"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/01.webp",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/02.webp",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/03.webp",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/04.webp",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/05.webp",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/06.webp"
+   ],
+   "video_url": null,
+   "moq": {
+    "value": 1,
+    "unit": "pieces"
+   },
+   "certifications": [],
+   "highlights": [
+    {
+     "icon": "check",
+     "text": {
+      "en": "Suction: 15kpa",
+      "zh": "吸力: 15kpa",
+      "es": "Succión: 15kpa",
+      "ar": "الشفط: 15kpa",
+      "fr": "Aspiration: 15kpa",
+      "id": "Daya Hisap: 15kpa",
+      "ru": "Всасывание: 15kpa",
+      "th": "แรงดูด: 15kpa",
+      "vi": "Lực hút: 15kpa"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Power (W): 65 W",
+      "zh": "功率(W): 65 W",
+      "es": "Potencia (W): 65 W",
+      "ar": "القدرة (W): 65 W",
+      "fr": "Puissance (W): 65 W",
+      "id": "Daya (W): 65 W",
+      "ru": "Мощность (Вт): 65 W",
+      "th": "กำลังไฟ (W): 65 W",
+      "vi": "Công suất (W): 65 W"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Runtime: 16-25min",
+      "zh": "续航时间: 16-25min",
+      "es": "Autonomía: 16-25min",
+      "ar": "مدة التشغيل: 16-25min",
+      "fr": "Autonomie: 16-25min",
+      "id": "Waktu Pakai: 16-25min",
+      "ru": "Время работы: 16-25min",
+      "th": "ระยะเวลาทำงาน: 16-25min",
+      "vi": "Thời gian chạy: 16-25min"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Maximum Runtime: <30 min",
+      "zh": "最长续航: <30 min",
+      "es": "Autonomía máxima: <30 min",
+      "ar": "أقصى مدة تشغيل: <30 min",
+      "fr": "Autonomie maximale: <30 min",
+      "id": "Waktu Pakai Maksimum: <30 min",
+      "ru": "Макс. время работы: <30 min",
+      "th": "ระยะเวลาทำงานสูงสุด: <30 min",
+      "vi": "Thời gian chạy tối đa: <30 min"
+     }
+    }
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "Product name",
+      "zh": "Product name",
+      "es": "Nombre del producto",
+      "ar": "اسم المنتج",
+      "fr": "Nom du produit",
+      "id": "Nama produk",
+      "ru": "Название товара",
+      "th": "ชื่อสินค้า",
+      "vi": "Tên sản phẩm"
+     },
+     "value": {
+      "en": "Handheld Vacuum Cleaner",
+      "es": "Aspiradora de mano",
+      "ar": "مكنسة يدوية",
+      "fr": "Aspirateur à main",
+      "id": "Penyedot Debu Genggam",
+      "ru": "Ручной пылесос",
+      "th": "เครื่องดูดฝุ่นแบบพกพา",
+      "vi": "Máy hút bụi cầm tay"
+     }
+    },
+    {
+     "label": {
+      "en": "Suction",
+      "zh": "Suction",
+      "es": "Succión",
+      "ar": "الشفط",
+      "fr": "Aspiration",
+      "id": "Daya Hisap",
+      "ru": "Всасывание",
+      "th": "แรงดูด",
+      "vi": "Lực hút"
+     },
+     "value": {
+      "en": "15kpa",
+      "es": "15kpa",
+      "ar": "15kpa",
+      "fr": "15kpa",
+      "id": "15kpa",
+      "ru": "15kpa",
+      "th": "15kpa",
+      "vi": "15kpa"
+     }
+    },
+    {
+     "label": {
+      "en": "Keywords",
+      "zh": "Keywords",
+      "es": "Palabras clave",
+      "ar": "الكلمات المفتاحية",
+      "fr": "Mots-clés",
+      "id": "Kata Kunci",
+      "ru": "Ключевые слова",
+      "th": "คำค้นหา",
+      "vi": "Từ khóa"
+     },
+     "value": {
+      "en": "Car Cordless Cleaner Vacuum",
+      "es": "Aspiradora inalámbrica para coche",
+      "ar": "مكنسة سيارة لاسلكية",
+      "fr": "Aspirateur voiture sans fil",
+      "id": "Penyedot Debu Mobil Nirkabel",
+      "ru": "Беспроводной автомобильный пылесос",
+      "th": "เครื่องดูดฝุ่นไร้สายสำหรับรถยนต์",
+      "vi": "Máy hút bụi ô tô không dây"
+     }
+    },
+    {
+     "label": {
+      "en": "Material",
+      "zh": "材质",
+      "es": "Material",
+      "ar": "المادة",
+      "fr": "Matériau",
+      "id": "Material",
+      "ru": "Материал",
+      "th": "วัสดุ",
+      "vi": "Chất liệu"
+     },
+     "value": {
+      "en": "ABS",
+      "es": "ABS",
+      "ar": "ABS",
+      "fr": "ABS",
+      "id": "ABS",
+      "ru": "ABS",
+      "th": "ABS",
+      "vi": "ABS"
+     }
+    },
+    {
+     "label": {
+      "en": "Battery Capacity",
+      "zh": "电池容量",
+      "es": "Capacidad de batería",
+      "ar": "سعة البطارية",
+      "fr": "Capacité de la batterie",
+      "id": "Kapasitas Baterai",
+      "ru": "Ёмкость аккумулятора",
+      "th": "ความจุแบตเตอรี่",
+      "vi": "Dung lượng pin"
+     },
+     "value": {
+      "en": "2000mAh*2",
+      "es": "2000mAh*2",
+      "ar": "2000mAh*2",
+      "fr": "2000mAh*2",
+      "id": "2000mAh*2",
+      "ru": "2000mAh*2",
+      "th": "2000mAh*2",
+      "vi": "2000mAh*2"
+     }
+    },
+    {
+     "label": {
+      "en": "Style",
+      "zh": "Style",
+      "es": "Estilo",
+      "ar": "الطراز",
+      "fr": "Style",
+      "id": "Gaya",
+      "ru": "Стиль",
+      "th": "สไตล์",
+      "vi": "Kiểu dáng"
+     },
+     "value": {
+      "en": "Handehld",
+      "es": "De mano",
+      "ar": "محمولة باليد",
+      "fr": "À main",
+      "id": "Genggam",
+      "ru": "Ручной",
+      "th": "แบบพกพา",
+      "vi": "Cầm tay"
+     }
+    },
+    {
+     "label": {
+      "en": "Runtime",
+      "zh": "续航时间",
+      "es": "Autonomía",
+      "ar": "مدة التشغيل",
+      "fr": "Autonomie",
+      "id": "Waktu Pakai",
+      "ru": "Время работы",
+      "th": "ระยะเวลาทำงาน",
+      "vi": "Thời gian chạy"
+     },
+     "value": {
+      "en": "16-25min",
+      "es": "16-25min",
+      "ar": "16-25min",
+      "fr": "16-25min",
+      "id": "16-25min",
+      "ru": "16-25min",
+      "th": "16-25min",
+      "vi": "16-25min"
+     }
+    },
+    {
+     "label": {
+      "en": "maximum runtime",
+      "zh": "maximum runtime",
+      "es": "autonomía máxima",
+      "ar": "أقصى مدة تشغيل",
+      "fr": "autonomie maximale",
+      "id": "waktu pakai maksimum",
+      "ru": "макс. время работы",
+      "th": "ระยะเวลาทำงานสูงสุด",
+      "vi": "thời gian chạy tối đa"
+     },
+     "value": {
+      "en": "<30 min",
+      "es": "<30 min",
+      "ar": "<30 min",
+      "fr": "<30 min",
+      "id": "<30 min",
+      "ru": "<30 min",
+      "th": "<30 min",
+      "vi": "<30 min"
+     }
+    },
+    {
+     "label": {
+      "en": "suction power (airwatts)",
+      "zh": "suction power (airwatts)",
+      "es": "potencia de succión (vatios de aire)",
+      "ar": "قوة الشفط (AirWatts)",
+      "fr": "puissance d'aspiration (AirWatts)",
+      "id": "daya hisap (AirWatts)",
+      "ru": "мощность всасывания (AirWatts)",
+      "th": "กำลังดูด (AirWatts)",
+      "vi": "công suất hút (airwatts)"
+     },
+     "value": {
+      "en": "81-100 AW",
+      "es": "81-100 AW",
+      "ar": "81-100 AW",
+      "fr": "81-100 AW",
+      "id": "81-100 AW",
+      "ru": "81-100 AW",
+      "th": "81-100 AW",
+      "vi": "81-100 AW"
+     }
+    },
+    {
+     "label": {
+      "en": "app-controlled",
+      "zh": "app-controlled",
+      "es": "control por app",
+      "ar": "يُتحكم به عبر التطبيق",
+      "fr": "contrôlé par application",
+      "id": "dikendalikan aplikasi",
+      "ru": "управление через приложение",
+      "th": "ควบคุมผ่านแอป",
+      "vi": "điều khiển qua app"
+     },
+     "value": {
+      "en": "No",
+      "es": "No",
+      "ar": "لا",
+      "fr": "Non",
+      "id": "Tidak",
+      "ru": "Нет",
+      "th": "ไม่",
+      "vi": "Không"
+     }
+    },
+    {
+     "label": {
+      "en": "application",
+      "zh": "application",
+      "es": "aplicación",
+      "ar": "التطبيق",
+      "fr": "utilisation",
+      "id": "aplikasi",
+      "ru": "применение",
+      "th": "การใช้งาน",
+      "vi": "ứng dụng"
+     },
+     "value": {
+      "en": "Car",
+      "es": "Coche",
+      "ar": "سيارة",
+      "fr": "Voiture",
+      "id": "Mobil",
+      "ru": "Автомобиль",
+      "th": "รถยนต์",
+      "vi": "Ô tô"
+     }
+    },
+    {
+     "label": {
+      "en": "application",
+      "zh": "application",
+      "es": "aplicación",
+      "ar": "التطبيق",
+      "fr": "utilisation",
+      "id": "aplikasi",
+      "ru": "применение",
+      "th": "การใช้งาน",
+      "vi": "ứng dụng"
+     },
+     "value": {
+      "en": "Household",
+      "es": "Hogar",
+      "ar": "منزلي",
+      "fr": "Ménager",
+      "id": "Rumah tangga",
+      "ru": "Бытовой",
+      "th": "ใช้ในบ้าน",
+      "vi": "Gia dụng"
+     }
+    },
+    {
+     "label": {
+      "en": "application",
+      "zh": "application",
+      "es": "aplicación",
+      "ar": "التطبيق",
+      "fr": "utilisation",
+      "id": "aplikasi",
+      "ru": "применение",
+      "th": "การใช้งาน",
+      "vi": "ứng dụng"
+     },
+     "value": {
+      "en": "Hotel",
+      "es": "Hotel",
+      "ar": "فندق",
+      "fr": "Hôtel",
+      "id": "Hotel",
+      "ru": "Отель",
+      "th": "โรงแรม",
+      "vi": "Khách sạn"
+     }
+    },
+    {
+     "label": {
+      "en": "bag or bagless",
+      "zh": "bag or bagless",
+      "es": "con bolsa o sin bolsa",
+      "ar": "بكيس أو بدون كيس",
+      "fr": "avec sac ou sans sac",
+      "id": "dengan kantong atau tanpa kantong",
+      "ru": "с мешком или без мешка",
+      "th": "มีถุงหรือไม่มีถุง",
+      "vi": "có túi hoặc không túi"
+     },
+     "value": {
+      "en": "Bagless",
+      "es": "Sin bolsa",
+      "ar": "بدون كيس",
+      "fr": "Sans sac",
+      "id": "Tanpa Kantong",
+      "ru": "Без мешка",
+      "th": "ไม่มีถุง",
+      "vi": "Không túi"
+     }
+    },
+    {
+     "label": {
+      "en": "Charging Time",
+      "zh": "充电时间",
+      "es": "Tiempo de carga",
+      "ar": "زمن الشحن",
+      "fr": "Temps de charge",
+      "id": "Waktu Pengisian",
+      "ru": "Время зарядки",
+      "th": "เวลาในการชาร์จ",
+      "vi": "Thời gian sạc"
+     },
+     "value": {
+      "en": "1-3H",
+      "es": "1-3H",
+      "ar": "1-3H",
+      "fr": "1-3H",
+      "id": "1-3H",
+      "ru": "1-3H",
+      "th": "1-3H",
+      "vi": "1-3H"
+     }
+    },
+    {
+     "label": {
+      "en": "filter",
+      "zh": "filter",
+      "es": "filtro",
+      "ar": "الفلتر",
+      "fr": "filtre",
+      "id": "filter",
+      "ru": "фильтр",
+      "th": "ตัวกรอง",
+      "vi": "bộ lọc"
+     },
+     "value": {
+      "en": "HEPA Filter",
+      "es": "Filtro HEPA",
+      "ar": "فلتر HEPA",
+      "fr": "Filtre HEPA",
+      "id": "Filter HEPA",
+      "ru": "Фильтр HEPA",
+      "th": "ตัวกรอง HEPA",
+      "vi": "Bộ lọc HEPA"
+     }
+    },
+    {
+     "label": {
+      "en": "installation",
+      "zh": "installation",
+      "es": "instalación",
+      "ar": "التركيب",
+      "fr": "installation",
+      "id": "instalasi",
+      "ru": "установка",
+      "th": "การติดตั้ง",
+      "vi": "lắp đặt"
+     },
+     "value": {
+      "en": "Hand Held",
+      "es": "De mano",
+      "ar": "محمولة باليد",
+      "fr": "À main",
+      "id": "Genggam",
+      "ru": "Ручной",
+      "th": "แบบพกพา",
+      "vi": "Cầm tay"
+     }
+    },
+    {
+     "label": {
+      "en": "motor type",
+      "zh": "motor type",
+      "es": "tipo de motor",
+      "ar": "نوع المحرك",
+      "fr": "type de moteur",
+      "id": "jenis motor",
+      "ru": "тип двигателя",
+      "th": "ประเภทมอเตอร์",
+      "vi": "loại động cơ"
+     },
+     "value": {
+      "en": "Brushless Motor",
+      "es": "Motor sin escobillas",
+      "ar": "محرك بدون فرشاة",
+      "fr": "Moteur sans balais",
+      "id": "Motor Tanpa Sikat",
+      "ru": "Бесщёточный двигатель",
+      "th": "มอเตอร์แบบไม่มีแปรงถ่าน",
+      "vi": "Động cơ không chổi than"
+     }
+    },
+    {
+     "label": {
+      "en": "nozzle number",
+      "zh": "nozzle number",
+      "es": "número de boquillas",
+      "ar": "عدد الفوهات",
+      "fr": "nombre de buses",
+      "id": "jumlah nozzle",
+      "ru": "количество насадок",
+      "th": "จำนวนหัวฉีด",
+      "vi": "số đầu vòi"
+     },
+     "value": {
+      "en": "4-6",
+      "es": "4-6",
+      "ar": "4-6",
+      "fr": "4-6",
+      "id": "4-6",
+      "ru": "4-6",
+      "th": "4-6",
+      "vi": "4-6"
+     }
+    },
+    {
+     "label": {
+      "en": "operating language",
+      "zh": "operating language",
+      "es": "idioma de funcionamiento",
+      "ar": "لغة التشغيل",
+      "fr": "langue d'utilisation",
+      "id": "bahasa pengoperasian",
+      "ru": "язык интерфейса",
+      "th": "ภาษาที่ใช้งาน",
+      "vi": "ngôn ngữ hoạt động"
+     },
+     "value": {
+      "en": "English",
+      "es": "Inglés",
+      "ar": "الإنجليزية",
+      "fr": "Anglais",
+      "id": "Inggris",
+      "ru": "Английский",
+      "th": "อังกฤษ",
+      "vi": "Tiếng Anh"
+     }
+    },
+    {
+     "label": {
+      "en": "packaging types",
+      "zh": "packaging types",
+      "es": "tipos de embalaje",
+      "ar": "أنواع التغليف",
+      "fr": "types d'emballage",
+      "id": "jenis kemasan",
+      "ru": "типы упаковки",
+      "th": "ประเภทบรรจุภัณฑ์",
+      "vi": "loại bao bì"
+     },
+     "value": {
+      "en": "Corrugated Box",
+      "es": "Caja de cartón ondulado",
+      "ar": "كرتون مموج",
+      "fr": "Carton ondulé",
+      "id": "Kotak Karton Bergelombang",
+      "ru": "Гофрокоробка",
+      "th": "กล่องกระดาษลูกฟูก",
+      "vi": "Thùng carton sóng"
+     }
+    },
+    {
+     "label": {
+      "en": "packaging types",
+      "zh": "packaging types",
+      "es": "tipos de embalaje",
+      "ar": "أنواع التغليف",
+      "fr": "types d'emballage",
+      "id": "jenis kemasan",
+      "ru": "типы упаковки",
+      "th": "ประเภทบรรจุภัณฑ์",
+      "vi": "loại bao bì"
+     },
+     "value": {
+      "en": "Color Box",
+      "es": "Caja a color",
+      "ar": "علبة ملونة",
+      "fr": "Boîte couleur",
+      "id": "Kotak Warna",
+      "ru": "Цветная коробка",
+      "th": "กล่องสี",
+      "vi": "Hộp màu"
+     }
+    },
+    {
+     "label": {
+      "en": "private mold",
+      "zh": "private mold",
+      "es": "molde propio",
+      "ar": "قالب خاص",
+      "fr": "moule exclusif",
+      "id": "cetakan sendiri",
+      "ru": "собственная пресс-форма",
+      "th": "แม่พิมพ์เฉพาะ",
+      "vi": "khuôn riêng"
+     },
+     "value": {
+      "en": "Yes",
+      "es": "Sí",
+      "ar": "نعم",
+      "fr": "Oui",
+      "id": "Ya",
+      "ru": "Да",
+      "th": "ใช่",
+      "vi": "Có"
+     }
+    },
+    {
+     "label": {
+      "en": "product net weight",
+      "zh": "product net weight",
+      "es": "peso neto",
+      "ar": "الوزن الصافي",
+      "fr": "poids net",
+      "id": "berat bersih",
+      "ru": "вес нетто",
+      "th": "น้ำหนักสุทธิ",
+      "vi": "trọng lượng tịnh"
+     },
+     "value": {
+      "en": "0.5–1 kg",
+      "es": "0.5–1 kg",
+      "ar": "0.5–1 kg",
+      "fr": "0.5–1 kg",
+      "id": "0.5–1 kg",
+      "ru": "0.5–1 kg",
+      "th": "0.5–1 kg",
+      "vi": "0.5–1 kg"
+     }
+    },
+    {
+     "label": {
+      "en": "warranty",
+      "zh": "warranty",
+      "es": "garantía",
+      "ar": "الضمان",
+      "fr": "garantie",
+      "id": "garansi",
+      "ru": "гарантия",
+      "th": "การรับประกัน",
+      "vi": "bảo hành"
+     },
+     "value": {
+      "en": "1 Year",
+      "es": "1 año",
+      "ar": "سنة واحدة",
+      "fr": "1 an",
+      "id": "1 tahun",
+      "ru": "1 год",
+      "th": "1 ปี",
+      "vi": "1 năm"
+     }
+    },
+    {
+     "label": {
+      "en": "place of origin",
+      "zh": "place of origin",
+      "es": "país de origen",
+      "ar": "بلد المنشأ",
+      "fr": "lieu d'origine",
+      "id": "negara asal",
+      "ru": "страна происхождения",
+      "th": "แหล่งที่มา",
+      "vi": "xuất xứ"
+     },
+     "value": {
+      "en": "CN;GUA",
+      "es": "CN;GUA",
+      "ar": "CN;GUA",
+      "fr": "CN;GUA",
+      "id": "CN;GUA",
+      "ru": "CN;GUA",
+      "th": "CN;GUA",
+      "vi": "CN;GUA"
+     }
+    },
+    {
+     "label": {
+      "en": "Function",
+      "zh": "功能",
+      "es": "Función",
+      "ar": "الوظيفة",
+      "fr": "Fonction",
+      "id": "Fungsi",
+      "ru": "Функция",
+      "th": "ฟังก์ชัน",
+      "vi": "Chức năng"
+     },
+     "value": {
+      "en": "Wet And Dry",
+      "es": "Seco y húmedo",
+      "ar": "جاف ورطب",
+      "fr": "Sec et humide",
+      "id": "Kering dan Basah",
+      "ru": "Сухая и влажная уборка",
+      "th": "เปียกและแห้ง",
+      "vi": "Khô và ướt"
+     }
+    },
+    {
+     "label": {
+      "en": "Function",
+      "zh": "功能",
+      "es": "Función",
+      "ar": "الوظيفة",
+      "fr": "Fonction",
+      "id": "Fungsi",
+      "ru": "Функция",
+      "th": "ฟังก์ชัน",
+      "vi": "Chức năng"
+     },
+     "value": {
+      "en": "vacuuming",
+      "es": "aspiración",
+      "ar": "شفط",
+      "fr": "aspiration",
+      "id": "vakum",
+      "ru": "уборка пылесосом",
+      "th": "การดูดฝุ่น",
+      "vi": "hút bụi"
+     }
+    },
+    {
+     "label": {
+      "en": "Dust capacity",
+      "zh": "Dust capacity",
+      "es": "Capacidad de polvo",
+      "ar": "سعة الغبار",
+      "fr": "Capacité du bac à poussière",
+      "id": "Kapasitas debu",
+      "ru": "Объём пылесборника",
+      "th": "ความจุฝุ่น",
+      "vi": "Dung tích bụi"
+     },
+     "value": {
+      "en": "0.12L",
+      "es": "0.12L",
+      "ar": "0.12L",
+      "fr": "0.12L",
+      "id": "0.12L",
+      "ru": "0.12L",
+      "th": "0.12L",
+      "vi": "0.12L"
+     }
+    },
+    {
+     "label": {
+      "en": "Feature",
+      "zh": "Feature",
+      "es": "Característica",
+      "ar": "الميزة",
+      "fr": "Caractéristique",
+      "id": "Fitur",
+      "ru": "Характеристика",
+      "th": "คุณสมบัติ",
+      "vi": "Tính năng"
+     },
+     "value": {
+      "en": "HEPA, lightweight, portable, wet/dry, rechargeable",
+      "es": "HEPA, ligera, portátil, en seco y húmedo, recargable",
+      "ar": "HEPA، خفيفة الوزن، محمولة، جاف/رطب، قابلة لإعادة الشحن",
+      "fr": "HEPA, léger, portatif, sec/humide, rechargeable",
+      "id": "HEPA, ringan, portabel, kering/basah, dapat diisi ulang",
+      "ru": "HEPA, лёгкий, портативный, сухая/влажная уборка, аккумуляторный",
+      "th": "HEPA น้ำหนักเบา พกพา เปียก/แห้ง ชาร์จไฟได้",
+      "vi": "HEPA, nhẹ, di động, khô/ướt, sạc lại"
+     }
+    },
+    {
+     "label": {
+      "en": "power (w)",
+      "zh": "power (w)",
+      "es": "potencia (W)",
+      "ar": "القدرة (W)",
+      "fr": "puissance (W)",
+      "id": "daya (W)",
+      "ru": "мощность (Вт)",
+      "th": "กำลังไฟ (W)",
+      "vi": "công suất (w)"
+     },
+     "value": {
+      "en": "65 W",
+      "es": "65 W",
+      "ar": "65 W",
+      "fr": "65 W",
+      "id": "65 W",
+      "ru": "65 W",
+      "th": "65 W",
+      "vi": "65 W"
+     }
+    },
+    {
+     "label": {
+      "en": "power source",
+      "zh": "power source",
+      "es": "fuente de alimentación",
+      "ar": "مصدر الطاقة",
+      "fr": "source d'alimentation",
+      "id": "sumber daya",
+      "ru": "источник питания",
+      "th": "แหล่งจ่ายไฟ",
+      "vi": "nguồn điện"
+     },
+     "value": {
+      "en": "Battery Powered",
+      "es": "Alimentación por batería",
+      "ar": "يعمل بالبطارية",
+      "fr": "Alimenté par batterie",
+      "id": "Berbaterai",
+      "ru": "Питание от аккумулятора",
+      "th": "ใช้พลังงานแบตเตอรี่",
+      "vi": "Chạy bằng pin"
+     }
+    },
+    {
+     "label": {
+      "en": "model number",
+      "zh": "model number",
+      "es": "número de modelo",
+      "ar": "رقم الموديل",
+      "fr": "numéro de modèle",
+      "id": "nomor model",
+      "ru": "номер модели",
+      "th": "หมายเลขรุ่น",
+      "vi": "số model"
+     },
+     "value": {
+      "en": "YZX-309",
+      "es": "YZX-309",
+      "ar": "YZX-309",
+      "fr": "YZX-309",
+      "id": "YZX-309",
+      "ru": "YZX-309",
+      "th": "YZX-309",
+      "vi": "YZX-309"
+     }
+    }
+   ],
+   "packaging": {
+    "unit": "Color Box"
+   },
+   "customization": {},
+   "applications": {
+    "en": "",
+    "zh": ""
+   },
+   "price_indicator": null,
+   "quick_specs": [
+    {
+     "label": {
+      "en": "Suction",
+      "zh": "吸力",
+      "es": "Succión",
+      "ar": "الشفط",
+      "fr": "Aspiration",
+      "id": "Daya Hisap",
+      "ru": "Всасывание",
+      "th": "แรงดูด",
+      "vi": "Lực hút"
+     },
+     "value": {
+      "en": "15kpa",
+      "es": "15kpa",
+      "ar": "15kpa",
+      "fr": "15kpa",
+      "id": "15kpa",
+      "ru": "15kpa",
+      "th": "15kpa",
+      "vi": "15kpa"
+     }
+    },
+    {
+     "label": {
+      "en": "Power (W)",
+      "zh": "功率(W)",
+      "es": "Potencia (W)",
+      "ar": "القدرة (W)",
+      "fr": "Puissance (W)",
+      "id": "Daya (W)",
+      "ru": "Мощность (Вт)",
+      "th": "กำลังไฟ (W)",
+      "vi": "Công suất (W)"
+     },
+     "value": {
+      "en": "65 W",
+      "es": "65 W",
+      "ar": "65 W",
+      "fr": "65 W",
+      "id": "65 W",
+      "ru": "65 W",
+      "th": "65 W",
+      "vi": "65 W"
+     }
+    },
+    {
+     "label": {
+      "en": "Runtime",
+      "zh": "续航时间",
+      "es": "Autonomía",
+      "ar": "مدة التشغيل",
+      "fr": "Autonomie",
+      "id": "Waktu Pakai",
+      "ru": "Время работы",
+      "th": "ระยะเวลาทำงาน",
+      "vi": "Thời gian chạy"
+     },
+     "value": {
+      "en": "16-25min",
+      "es": "16-25min",
+      "ar": "16-25min",
+      "fr": "16-25min",
+      "id": "16-25min",
+      "ru": "16-25min",
+      "th": "16-25min",
+      "vi": "16-25min"
+     }
+    },
+    {
+     "label": {
+      "en": "Maximum Runtime",
+      "zh": "最长续航",
+      "es": "Autonomía máxima",
+      "ar": "أقصى مدة تشغيل",
+      "fr": "Autonomie maximale",
+      "id": "Waktu Pakai Maksimum",
+      "ru": "Макс. время работы",
+      "th": "ระยะเวลาทำงานสูงสุด",
+      "vi": "Thời gian chạy tối đa"
+     },
+     "value": {
+      "en": "<30 min",
+      "es": "<30 min",
+      "ar": "<30 min",
+      "fr": "<30 min",
+      "id": "<30 min",
+      "ru": "<30 min",
+      "th": "<30 min",
+      "vi": "<30 min"
+     }
+    }
+   ],
+   "price_ladder": [],
+   "sku": "1601900237070",
+   "description": {
+    "en": "15kpa · 65 W · 16-25min. OEM/ODM available; specifications from the supplier listing.",
+    "zh": "15kpa · 65 W · 16-25min。支持 OEM/ODM 定制，规格取自供应商商品资料。",
+    "es": "15kpa · 65 W · 16-25min. Disponible en OEM/ODM; especificaciones tomadas del listado del proveedor.",
+    "ar": "15kpa · 65 W · 16-25min. متاح بنظام OEM/ODM؛ المواصفات مأخوذة من قائمة المورّد.",
+    "fr": "15kpa · 65 W · 16-25min. Disponible en OEM/ODM ; spécifications issues de la fiche du fournisseur.",
+    "id": "15kpa · 65 W · 16-25min. Tersedia dalam OEM/ODM; spesifikasi diambil dari daftar pemasok.",
+    "ru": "15kpa · 65 W · 16-25min. Доступно в OEM/ODM; характеристики взяты из карточки товара поставщика.",
+    "th": "15kpa · 65 W · 16-25min. มีให้บริการในรูปแบบ OEM/ODM; ข้อมูลจำเพาะนำมาจากประกาศของผู้ขาย",
+    "vi": "15kpa · 65 W · 16-25min. Có sẵn dạng OEM/ODM; thông số kỹ thuật lấy từ niêm yết của nhà cung cấp."
+   },
+   "supplier_rating": null,
+   "response_time": null,
+   "transactions": null,
+   "years": null,
+   "ship_from": null,
+   "sample": null,
+   "category_name": {
+    "en": "Car Vacuum Cleaners",
+    "zh": "车载吸尘器",
+    "es": "Aspirador de Coche",
+    "ar": "مكنسة سيارات",
+    "fr": "Aspirateur voiture",
+    "id": "Penyedot Debu Mobil",
+    "ru": "Автомобильный пылесос",
+    "th": "เครื่องดูดฝุ่นในรถ",
+    "vi": "Máy hút bụi ô tô"
+   },
+   "_source": {
+    "platform": "alibaba.com",
+    "productId": "1601900237070"
+   },
+   "_cat": "car-vacuum"
+  },
+  {
+   "id": "k15",
+   "name": {
+    "en": "Best Selling Electric Handheld Wet & Dry Stain Vacuum Cleaner with Steam for Household Car & RV Use",
+    "zh": "K15 手持干湿两用蒸汽布艺清洗机（400W / 1.5–1.9L / 汽车·RV 内饰）",
+    "es": "Aspiradora de mano eléctrica más vendida para suciedad en seco y húmedo con vapor, para uso doméstico, en coche y autocaravana",
+    "ar": "مكنسة يدوية كهربائية جافة ورطبة الأكثر مبيعًا لتنظيف البقع بالبخار، للاستخدام المنزلي وفي السيارة والمركبات الترفيهية",
+    "fr": "Aspirateur à main électrique le plus vendu, sec et humide pour taches avec vapeur, usage maison, voiture et camping-car",
+    "id": "Penyedot Debu Noda Kering dan Basah Genggam Elektrik Terlaris dengan Uap untuk Penggunaan Rumah Tangga, Mobil, dan RV",
+    "ru": "Хит продаж: электрический ручной пылесос для сухой и влажной уборки пятен с паром для дома, автомобиля и автодома",
+    "th": "เครื่องดูดคราบแบบเปียกและแห้งไฟฟ้าพร้อมไอน้ำ รุ่นขายดี สำหรับใช้ในบ้าน รถยนต์ และ RV",
+    "vi": "Máy hút bụi cầm tay bằng điện bán chạy nhất, hút khô & ướt kèm hơi nước, dùng cho gia đình, ô tô & xe RV"
+   },
+   "tagline": {
+    "en": "400 W · 1.5-1.9L · Plastic, ABS+aluminum",
+    "zh": "400 W · 1.5-1.9L · Plastic, ABS+aluminum",
+    "es": "400 W · 1,5-1,9 L · plástico, ABS + aluminio",
+    "ar": "400 W · 1.5-1.9L · بلاستيك، ABS + ألومنيوم",
+    "fr": "400 W · 1,5-1,9 L · plastique, ABS + aluminium",
+    "id": "400 W · 1.5-1.9L · Plastik, ABS + aluminium",
+    "ru": "400 W · 1,5-1,9 L · пластик, ABS + алюминий",
+    "th": "400 W · 1.5-1.9L · พลาสติก ABS+อะลูมิเนียม",
+    "vi": "400 W · 1,5-1,9 L · nhựa, ABS + nhôm"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-k15/01.webp",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-k15/02.webp",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-k15/03.webp",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-k15/04.webp",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-k15/05.webp",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-k15/06.webp"
+   ],
+   "video_url": null,
+   "moq": {
+    "value": 1,
+    "unit": "pieces"
+   },
+   "certifications": [],
+   "highlights": [
+    {
+     "icon": "check",
+     "text": {
+      "en": "Power (W): 400 W",
+      "zh": "功率(W): 400 W",
+      "es": "Potencia (W): 400 W",
+      "ar": "القدرة (W): 400 W",
+      "fr": "Puissance (W): 400 W",
+      "id": "Daya (W): 400 W",
+      "ru": "Мощность (Вт): 400 W",
+      "th": "กำลังไฟ (W): 400 W",
+      "vi": "Công suất (W): 400 W"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Capacity: 1.5-1.9L",
+      "zh": "容量: 1.5-1.9L",
+      "es": "Capacidad: 1.5-1.9L",
+      "ar": "السعة: 1.5-1.9L",
+      "fr": "Capacité: 1.5-1.9L",
+      "id": "Kapasitas: 1.5-1.9L",
+      "ru": "Ёмкость: 1.5-1.9L",
+      "th": "ความจุ: 1.5-1.9L",
+      "vi": "Dung tích: 1.5-1.9L"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Material: Plastic, ABS+aluminum",
+      "zh": "材质: Plastic, ABS+aluminum",
+      "es": "Material: Plástico, ABS + aluminio",
+      "ar": "المادة: بلاستيك، ABS + ألومنيوم",
+      "fr": "Matériau: Plastique, ABS + aluminium",
+      "id": "Material: Plastik, ABS + aluminium",
+      "ru": "Материал: Пластик, ABS + алюминий",
+      "th": "วัสดุ: พลาสติก ABS+อะลูมิเนียม",
+      "vi": "Chất liệu: Nhựa, ABS + nhôm"
+     }
+    }
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "installation",
+      "zh": "installation",
+      "es": "instalación",
+      "ar": "التركيب",
+      "fr": "installation",
+      "id": "instalasi",
+      "ru": "установка",
+      "th": "การติดตั้ง",
+      "vi": "lắp đặt"
+     },
+     "value": {
+      "en": "Hand Held",
+      "es": "De mano",
+      "ar": "محمولة باليد",
+      "fr": "À main",
+      "id": "Genggam",
+      "ru": "Ручной",
+      "th": "แบบพกพา",
+      "vi": "Cầm tay"
+     }
+    },
+    {
+     "label": {
+      "en": "type",
+      "zh": "type",
+      "es": "tipo",
+      "ar": "النوع",
+      "fr": "type",
+      "id": "tipe",
+      "ru": "тип",
+      "th": "ประเภท",
+      "vi": "loại"
+     },
+     "value": {
+      "en": "High Pressure Water Cleaning",
+      "es": "Limpieza a presión de agua",
+      "ar": "تنظيف بالماء عالي الضغط",
+      "fr": "Nettoyage à l'eau haute pression",
+      "id": "Pembersihan Air Bertekanan Tinggi",
+      "ru": "Мойка водой под давлением",
+      "th": "ทำความสะอาดด้วยน้ำแรงดันสูง",
+      "vi": "Làm sạch bằng nước áp suất cao"
+     }
+    },
+    {
+     "label": {
+      "en": "after-sales service provided",
+      "zh": "after-sales service provided",
+      "es": "servicio posventa",
+      "ar": "خدمة ما بعد البيع",
+      "fr": "service après-vente",
+      "id": "layanan purnajual",
+      "ru": "послепродажное обслуживание",
+      "th": "บริการหลังการขาย",
+      "vi": "dịch vụ sau bán hàng"
+     },
+     "value": {
+      "en": "Return and Replacement",
+      "es": "Devolución y sustitución",
+      "ar": "الإرجاع والاستبدال",
+      "fr": "Retour et remplacement",
+      "id": "Pengembalian dan Penggantian",
+      "ru": "Возврат и замена",
+      "th": "คืนสินค้าและเปลี่ยนสินค้า",
+      "vi": "Đổi trả và thay thế"
+     }
+    },
+    {
+     "label": {
+      "en": "app-controlled",
+      "zh": "app-controlled",
+      "es": "control por app",
+      "ar": "يُتحكم به عبر التطبيق",
+      "fr": "contrôlé par application",
+      "id": "dikendalikan aplikasi",
+      "ru": "управление через приложение",
+      "th": "ควบคุมผ่านแอป",
+      "vi": "điều khiển qua app"
+     },
+     "value": {
+      "en": "No",
+      "es": "No",
+      "ar": "لا",
+      "fr": "Non",
+      "id": "Tidak",
+      "ru": "Нет",
+      "th": "ไม่",
+      "vi": "Không"
+     }
+    },
+    {
+     "label": {
+      "en": "application",
+      "zh": "application",
+      "es": "aplicación",
+      "ar": "التطبيق",
+      "fr": "utilisation",
+      "id": "aplikasi",
+      "ru": "применение",
+      "th": "การใช้งาน",
+      "vi": "ứng dụng"
+     },
+     "value": {
+      "en": "Household",
+      "es": "Hogar",
+      "ar": "منزلي",
+      "fr": "Ménager",
+      "id": "Rumah tangga",
+      "ru": "Бытовой",
+      "th": "ใช้ในบ้าน",
+      "vi": "Gia dụng"
+     }
+    },
+    {
+     "label": {
+      "en": "application",
+      "zh": "application",
+      "es": "aplicación",
+      "ar": "التطبيق",
+      "fr": "utilisation",
+      "id": "aplikasi",
+      "ru": "применение",
+      "th": "การใช้งาน",
+      "vi": "ứng dụng"
+     },
+     "value": {
+      "en": "Hotel",
+      "es": "Hotel",
+      "ar": "فندق",
+      "fr": "Hôtel",
+      "id": "Hotel",
+      "ru": "Отель",
+      "th": "โรงแรม",
+      "vi": "Khách sạn"
+     }
+    },
+    {
+     "label": {
+      "en": "application",
+      "zh": "application",
+      "es": "aplicación",
+      "ar": "التطبيق",
+      "fr": "utilisation",
+      "id": "aplikasi",
+      "ru": "применение",
+      "th": "การใช้งาน",
+      "vi": "ứng dụng"
+     },
+     "value": {
+      "en": "Car",
+      "es": "Coche",
+      "ar": "سيارة",
+      "fr": "Voiture",
+      "id": "Mobil",
+      "ru": "Автомобиль",
+      "th": "รถยนต์",
+      "vi": "Ô tô"
+     }
+    },
+    {
+     "label": {
+      "en": "application",
+      "zh": "application",
+      "es": "aplicación",
+      "ar": "التطبيق",
+      "fr": "utilisation",
+      "id": "aplikasi",
+      "ru": "применение",
+      "th": "การใช้งาน",
+      "vi": "ứng dụng"
+     },
+     "value": {
+      "en": "Garage",
+      "es": "Garaje",
+      "ar": "مرآب",
+      "fr": "Garage",
+      "id": "Garasi",
+      "ru": "Гараж",
+      "th": "โรงรถ",
+      "vi": "Ga-ra"
+     }
+    },
+    {
+     "label": {
+      "en": "application",
+      "zh": "application",
+      "es": "aplicación",
+      "ar": "التطبيق",
+      "fr": "utilisation",
+      "id": "aplikasi",
+      "ru": "применение",
+      "th": "การใช้งาน",
+      "vi": "ứng dụng"
+     },
+     "value": {
+      "en": "Commercial",
+      "es": "Comercial",
+      "ar": "تجاري",
+      "fr": "Commercial",
+      "id": "Komersial",
+      "ru": "Коммерческий",
+      "th": "เชิงพาณิชย์",
+      "vi": "Thương mại"
+     }
+    },
+    {
+     "label": {
+      "en": "application",
+      "zh": "application",
+      "es": "aplicación",
+      "ar": "التطبيق",
+      "fr": "utilisation",
+      "id": "aplikasi",
+      "ru": "применение",
+      "th": "การใช้งาน",
+      "vi": "ứng dụng"
+     },
+     "value": {
+      "en": "RV",
+      "es": "RV",
+      "ar": "RV",
+      "fr": "RV",
+      "id": "RV",
+      "ru": "RV",
+      "th": "RV",
+      "vi": "RV"
+     }
+    },
+    {
+     "label": {
+      "en": "bag or bagless",
+      "zh": "bag or bagless",
+      "es": "con bolsa o sin bolsa",
+      "ar": "بكيس أو بدون كيس",
+      "fr": "avec sac ou sans sac",
+      "id": "dengan kantong atau tanpa kantong",
+      "ru": "с мешком или без мешка",
+      "th": "มีถุงหรือไม่มีถุง",
+      "vi": "có túi hoặc không túi"
+     },
+     "value": {
+      "en": "With Bag",
+      "es": "Con bolsa",
+      "ar": "بكيس",
+      "fr": "Avec sac",
+      "id": "Dengan Kantong",
+      "ru": "С мешком",
+      "th": "มีถุง",
+      "vi": "Có túi"
+     }
+    },
+    {
+     "label": {
+      "en": "Capacity",
+      "zh": "Capacity",
+      "es": "Capacidad",
+      "ar": "السعة",
+      "fr": "Capacité",
+      "id": "Kapasitas",
+      "ru": "Ёмкость",
+      "th": "ความจุ",
+      "vi": "Dung tích"
+     },
+     "value": {
+      "en": "1.5-1.9L",
+      "es": "1.5-1.9L",
+      "ar": "1.5-1.9L",
+      "fr": "1.5-1.9L",
+      "id": "1.5-1.9L",
+      "ru": "1.5-1.9L",
+      "th": "1.5-1.9L",
+      "vi": "1.5-1.9L"
+     }
+    },
+    {
+     "label": {
+      "en": "Feature",
+      "zh": "Feature",
+      "es": "Característica",
+      "ar": "الميزة",
+      "fr": "Caractéristique",
+      "id": "Fitur",
+      "ru": "Характеристика",
+      "th": "คุณสมบัติ",
+      "vi": "Tính năng"
+     },
+     "value": {
+      "en": "Easy Operation",
+      "es": "Funcionamiento sencillo",
+      "ar": "تشغيل سهل",
+      "fr": "Utilisation facile",
+      "id": "Pengoperasian Mudah",
+      "ru": "Простое управление",
+      "th": "ใช้งานง่าย",
+      "vi": "Vận hành dễ dàng"
+     }
+    },
+    {
+     "label": {
+      "en": "Feature",
+      "zh": "Feature",
+      "es": "Característica",
+      "ar": "الميزة",
+      "fr": "Caractéristique",
+      "id": "Fitur",
+      "ru": "Характеристика",
+      "th": "คุณสมบัติ",
+      "vi": "Tính năng"
+     },
+     "value": {
+      "en": "Portable",
+      "es": "Portátil",
+      "ar": "محمول",
+      "fr": "Portatif",
+      "id": "Portabel",
+      "ru": "Портативный",
+      "th": "พกพา",
+      "vi": "Di động"
+     }
+    },
+    {
+     "label": {
+      "en": "Feature",
+      "zh": "Feature",
+      "es": "Característica",
+      "ar": "الميزة",
+      "fr": "Caractéristique",
+      "id": "Fitur",
+      "ru": "Характеристика",
+      "th": "คุณสมบัติ",
+      "vi": "Tính năng"
+     },
+     "value": {
+      "en": "Scrubbing Function",
+      "es": "Función de fregado",
+      "ar": "وظيفة الدعك",
+      "fr": "Fonction de frottage",
+      "id": "Fungsi Menyikat",
+      "ru": "Функция оттирания",
+      "th": "ฟังก์ชันขัดถู",
+      "vi": "Chức năng chà rửa"
+     }
+    },
+    {
+     "label": {
+      "en": "Feature",
+      "zh": "Feature",
+      "es": "Característica",
+      "ar": "الميزة",
+      "fr": "Caractéristique",
+      "id": "Fitur",
+      "ru": "Характеристика",
+      "th": "คุณสมบัติ",
+      "vi": "Tính năng"
+     },
+     "value": {
+      "en": "Deep Cleaning",
+      "es": "Limpieza profunda",
+      "ar": "تنظيف عميق",
+      "fr": "Nettoyage en profondeur",
+      "id": "Pembersihan Mendalam",
+      "ru": "Глубокая очистка",
+      "th": "ทำความสะอาดลึก",
+      "vi": "Làm sạch sâu"
+     }
+    },
+    {
+     "label": {
+      "en": "function",
+      "zh": "function",
+      "es": "función",
+      "ar": "الوظيفة",
+      "fr": "fonction",
+      "id": "fungsi",
+      "ru": "функция",
+      "th": "ฟังก์ชัน",
+      "vi": "chức năng"
+     },
+     "value": {
+      "en": "Wet And Dry",
+      "es": "Seco y húmedo",
+      "ar": "جاف ورطب",
+      "fr": "Sec et humide",
+      "id": "Kering dan Basah",
+      "ru": "Сухая и влажная уборка",
+      "th": "เปียกและแห้ง",
+      "vi": "Khô và ướt"
+     }
+    },
+    {
+     "label": {
+      "en": "packaging types",
+      "zh": "packaging types",
+      "es": "tipos de embalaje",
+      "ar": "أنواع التغليف",
+      "fr": "types d'emballage",
+      "id": "jenis kemasan",
+      "ru": "типы упаковки",
+      "th": "ประเภทบรรจุภัณฑ์",
+      "vi": "loại bao bì"
+     },
+     "value": {
+      "en": "Corrugated Box",
+      "es": "Caja de cartón ondulado",
+      "ar": "كرتون مموج",
+      "fr": "Carton ondulé",
+      "id": "Kotak Karton Bergelombang",
+      "ru": "Гофрокоробка",
+      "th": "กล่องกระดาษลูกฟูก",
+      "vi": "Thùng carton sóng"
+     }
+    },
+    {
+     "label": {
+      "en": "power (w)",
+      "zh": "功率(W)",
+      "es": "potencia (W)",
+      "ar": "القدرة (W)",
+      "fr": "puissance (W)",
+      "id": "daya (W)",
+      "ru": "мощность (Вт)",
+      "th": "กำลังไฟ (W)",
+      "vi": "công suất (w)"
+     },
+     "value": {
+      "en": "400 W",
+      "es": "400 W",
+      "ar": "400 W",
+      "fr": "400 W",
+      "id": "400 W",
+      "ru": "400 W",
+      "th": "400 W",
+      "vi": "400 W"
+     }
+    },
+    {
+     "label": {
+      "en": "power source",
+      "zh": "power source",
+      "es": "fuente de alimentación",
+      "ar": "مصدر الطاقة",
+      "fr": "source d'alimentation",
+      "id": "sumber daya",
+      "ru": "источник питания",
+      "th": "แหล่งจ่ายไฟ",
+      "vi": "nguồn điện"
+     },
+     "value": {
+      "en": "Electric",
+      "es": "Eléctrico",
+      "ar": "كهربائي",
+      "fr": "Électrique",
+      "id": "Listrik",
+      "ru": "Электрический",
+      "th": "ไฟฟ้า",
+      "vi": "Điện"
+     }
+    },
+    {
+     "label": {
+      "en": "private mold",
+      "zh": "private mold",
+      "es": "molde propio",
+      "ar": "قالب خاص",
+      "fr": "moule exclusif",
+      "id": "cetakan sendiri",
+      "ru": "собственная пресс-форма",
+      "th": "แม่พิมพ์เฉพาะ",
+      "vi": "khuôn riêng"
+     },
+     "value": {
+      "en": "Yes",
+      "es": "Sí",
+      "ar": "نعم",
+      "fr": "Oui",
+      "id": "Ya",
+      "ru": "Да",
+      "th": "ใช่",
+      "vi": "Có"
+     }
+    },
+    {
+     "label": {
+      "en": "Surface recommendation",
+      "zh": "Surface recommendation",
+      "es": "Superficie recomendada",
+      "ar": "الأسطح الموصى بها",
+      "fr": "Surface recommandée",
+      "id": "Rekomendasi permukaan",
+      "ru": "Рекомендуемая поверхность",
+      "th": "พื้นผิวที่แนะนำ",
+      "vi": "Bề mặt khuyến nghị"
+     },
+     "value": {
+      "en": "Textile",
+      "es": "Textil",
+      "ar": "منسوجات",
+      "fr": "Textile",
+      "id": "Tekstil",
+      "ru": "Ткань",
+      "th": "สิ่งทอ",
+      "vi": "Vải"
+     }
+    },
+    {
+     "label": {
+      "en": "Surface recommendation",
+      "zh": "Surface recommendation",
+      "es": "Superficie recomendada",
+      "ar": "الأسطح الموصى بها",
+      "fr": "Surface recommandée",
+      "id": "Rekomendasi permukaan",
+      "ru": "Рекомендуемая поверхность",
+      "th": "พื้นผิวที่แนะนำ",
+      "vi": "Bề mặt khuyến nghị"
+     },
+     "value": {
+      "en": "Stone",
+      "es": "Piedra",
+      "ar": "حجر",
+      "fr": "Pierre",
+      "id": "Batu",
+      "ru": "Камень",
+      "th": "หิน",
+      "vi": "Đá"
+     }
+    },
+    {
+     "label": {
+      "en": "Surface recommendation",
+      "zh": "Surface recommendation",
+      "es": "Superficie recomendada",
+      "ar": "الأسطح الموصى بها",
+      "fr": "Surface recommandée",
+      "id": "Rekomendasi permukaan",
+      "ru": "Рекомендуемая поверхность",
+      "th": "พื้นผิวที่แนะนำ",
+      "vi": "Bề mặt khuyến nghị"
+     },
+     "value": {
+      "en": "Wood",
+      "es": "Madera",
+      "ar": "خشب",
+      "fr": "Bois",
+      "id": "Kayu",
+      "ru": "Дерево",
+      "th": "ไม้",
+      "vi": "Gỗ"
+     }
+    },
+    {
+     "label": {
+      "en": "Surface recommendation",
+      "zh": "Surface recommendation",
+      "es": "Superficie recomendada",
+      "ar": "الأسطح الموصى بها",
+      "fr": "Surface recommandée",
+      "id": "Rekomendasi permukaan",
+      "ru": "Рекомендуемая поверхность",
+      "th": "พื้นผิวที่แนะนำ",
+      "vi": "Bề mặt khuyến nghị"
+     },
+     "value": {
+      "en": "Plastic",
+      "es": "Plástico",
+      "ar": "بلاستيك",
+      "fr": "Plastique",
+      "id": "Plastik",
+      "ru": "Пластик",
+      "th": "พลาสติก",
+      "vi": "Nhựa"
+     }
+    },
+    {
+     "label": {
+      "en": "Surface recommendation",
+      "zh": "Surface recommendation",
+      "es": "Superficie recomendada",
+      "ar": "الأسطح الموصى بها",
+      "fr": "Surface recommandée",
+      "id": "Rekomendasi permukaan",
+      "ru": "Рекомендуемая поверхность",
+      "th": "พื้นผิวที่แนะนำ",
+      "vi": "Bề mặt khuyến nghị"
+     },
+     "value": {
+      "en": "Metal",
+      "es": "Metal",
+      "ar": "معدن",
+      "fr": "Métal",
+      "id": "Logam",
+      "ru": "Металл",
+      "th": "โลหะ",
+      "vi": "Kim loại"
+     }
+    },
+    {
+     "label": {
+      "en": "Surface recommendation",
+      "zh": "Surface recommendation",
+      "es": "Superficie recomendada",
+      "ar": "الأسطح الموصى بها",
+      "fr": "Surface recommandée",
+      "id": "Rekomendasi permukaan",
+      "ru": "Рекомендуемая поверхность",
+      "th": "พื้นผิวที่แนะนำ",
+      "vi": "Bề mặt khuyến nghị"
+     },
+     "value": {
+      "en": "Ceramic",
+      "es": "Cerámica",
+      "ar": "سيراميك",
+      "fr": "Céramique",
+      "id": "Keramik",
+      "ru": "Керамика",
+      "th": "เซรามิก",
+      "vi": "Gốm sứ"
+     }
+    },
+    {
+     "label": {
+      "en": "warranty",
+      "zh": "warranty",
+      "es": "garantía",
+      "ar": "الضمان",
+      "fr": "garantie",
+      "id": "garansi",
+      "ru": "гарантия",
+      "th": "การรับประกัน",
+      "vi": "bảo hành"
+     },
+     "value": {
+      "en": "1 Year",
+      "es": "1 año",
+      "ar": "سنة واحدة",
+      "fr": "1 an",
+      "id": "1 tahun",
+      "ru": "1 год",
+      "th": "1 ปี",
+      "vi": "1 năm"
+     }
+    },
+    {
+     "label": {
+      "en": "place of origin",
+      "zh": "place of origin",
+      "es": "país de origen",
+      "ar": "بلد المنشأ",
+      "fr": "lieu d'origine",
+      "id": "negara asal",
+      "ru": "страна происхождения",
+      "th": "แหล่งที่มา",
+      "vi": "xuất xứ"
+     },
+     "value": {
+      "en": "CN;GUA",
+      "es": "CN;GUA",
+      "ar": "CN;GUA",
+      "fr": "CN;GUA",
+      "id": "CN;GUA",
+      "ru": "CN;GUA",
+      "th": "CN;GUA",
+      "vi": "CN;GUA"
+     }
+    },
+    {
+     "label": {
+      "en": "brand name",
+      "zh": "brand name",
+      "es": "marca",
+      "ar": "اسم العلامة التجارية",
+      "fr": "nom de marque",
+      "id": "nama merek",
+      "ru": "бренд",
+      "th": "ชื่อแบรนด์",
+      "vi": "tên thương hiệu"
+     },
+     "value": {
+      "en": "OEM ODM",
+      "es": "OEM ODM",
+      "ar": "OEM ODM",
+      "fr": "OEM ODM",
+      "id": "OEM ODM",
+      "ru": "OEM ODM",
+      "th": "OEM ODM",
+      "vi": "OEM ODM"
+     }
+    },
+    {
+     "label": {
+      "en": "Material",
+      "zh": "材质",
+      "es": "Material",
+      "ar": "المادة",
+      "fr": "Matériau",
+      "id": "Material",
+      "ru": "Материал",
+      "th": "วัสดุ",
+      "vi": "Chất liệu"
+     },
+     "value": {
+      "en": "Plastic, ABS+aluminum",
+      "es": "Plástico, ABS + aluminio",
+      "ar": "بلاستيك، ABS + ألومنيوم",
+      "fr": "Plastique, ABS + aluminium",
+      "id": "Plastik, ABS + aluminium",
+      "ru": "Пластик, ABS + алюминий",
+      "th": "พลาสติก ABS+อะลูมิเนียม",
+      "vi": "Nhựa, ABS + nhôm"
+     }
+    },
+    {
+     "label": {
+      "en": "model number",
+      "zh": "model number",
+      "es": "número de modelo",
+      "ar": "رقم الموديل",
+      "fr": "numéro de modèle",
+      "id": "nomor model",
+      "ru": "номер модели",
+      "th": "หมายเลขรุ่น",
+      "vi": "số model"
+     },
+     "value": {
+      "en": "K15",
+      "es": "K15",
+      "ar": "K15",
+      "fr": "K15",
+      "id": "K15",
+      "ru": "K15",
+      "th": "K15",
+      "vi": "K15"
+     }
+    }
+   ],
+   "packaging": {
+    "unit": "Corrugated Box"
+   },
+   "customization": {},
+   "applications": {
+    "en": "",
+    "zh": ""
+   },
+   "price_indicator": null,
+   "quick_specs": [
+    {
+     "label": {
+      "en": "Power (W)",
+      "zh": "功率(W)",
+      "es": "Potencia (W)",
+      "ar": "القدرة (W)",
+      "fr": "Puissance (W)",
+      "id": "Daya (W)",
+      "ru": "Мощность (Вт)",
+      "th": "กำลังไฟ (W)",
+      "vi": "Công suất (W)"
+     },
+     "value": {
+      "en": "400 W",
+      "es": "400 W",
+      "ar": "400 W",
+      "fr": "400 W",
+      "id": "400 W",
+      "ru": "400 W",
+      "th": "400 W",
+      "vi": "400 W"
+     }
+    },
+    {
+     "label": {
+      "en": "Capacity",
+      "zh": "容量",
+      "es": "Capacidad",
+      "ar": "السعة",
+      "fr": "Capacité",
+      "id": "Kapasitas",
+      "ru": "Ёмкость",
+      "th": "ความจุ",
+      "vi": "Dung tích"
+     },
+     "value": {
+      "en": "1.5-1.9L",
+      "es": "1.5-1.9L",
+      "ar": "1.5-1.9L",
+      "fr": "1.5-1.9L",
+      "id": "1.5-1.9L",
+      "ru": "1.5-1.9L",
+      "th": "1.5-1.9L",
+      "vi": "1.5-1.9L"
+     }
+    },
+    {
+     "label": {
+      "en": "Material",
+      "zh": "材质",
+      "es": "Material",
+      "ar": "المادة",
+      "fr": "Matériau",
+      "id": "Material",
+      "ru": "Материал",
+      "th": "วัสดุ",
+      "vi": "Chất liệu"
+     },
+     "value": {
+      "en": "Plastic, ABS+aluminum",
+      "es": "Plástico, ABS + aluminio",
+      "ar": "بلاستيك، ABS + ألومنيوم",
+      "fr": "Plastique, ABS + aluminium",
+      "id": "Plastik, ABS + aluminium",
+      "ru": "Пластик, ABS + алюминий",
+      "th": "พลาสติก ABS+อะลูมิเนียม",
+      "vi": "Nhựa, ABS + nhôm"
+     }
+    }
+   ],
+   "price_ladder": [],
+   "sku": "1601716198186",
+   "description": {
+    "en": "400 W · 1.5-1.9L · Plastic, ABS+aluminum. OEM/ODM available; specifications from the supplier listing.",
+    "zh": "400 W · 1.5-1.9L · Plastic, ABS+aluminum。支持 OEM/ODM 定制，规格取自供应商商品资料。",
+    "es": "400 W · 1,5-1,9 L · plástico, ABS + aluminio. Disponible en OEM/ODM; especificaciones tomadas del listado del proveedor.",
+    "ar": "400 W · 1.5-1.9L · بلاستيك، ABS + ألومنيوم. متاح بنظام OEM/ODM؛ المواصفات مأخوذة من قائمة المورّد.",
+    "fr": "400 W · 1,5-1,9 L · plastique, ABS + aluminium. Disponible en OEM/ODM ; spécifications issues de la fiche du fournisseur.",
+    "id": "400 W · 1.5-1.9L · Plastik, ABS + aluminium. Tersedia dalam OEM/ODM; spesifikasi diambil dari daftar pemasok.",
+    "ru": "400 W · 1,5-1,9 L · пластик, ABS + алюминий. Доступно в OEM/ODM; характеристики взяты из карточки товара поставщика.",
+    "th": "400 W · 1.5-1.9L · พลาสติก ABS+อะลูมิเนียม. มีให้บริการในรูปแบบ OEM/ODM; ข้อมูลจำเพาะนำมาจากประกาศของผู้ขาย",
+    "vi": "400 W · 1,5-1,9 L · nhựa, ABS + nhôm. Có sẵn dạng OEM/ODM; thông số kỹ thuật lấy từ niêm yết của nhà cung cấp."
+   },
+   "supplier_rating": null,
+   "response_time": null,
+   "transactions": null,
+   "years": null,
+   "ship_from": null,
+   "sample": null,
+   "category_name": {
+    "en": "Car Vacuum Cleaners",
+    "zh": "车载吸尘器",
+    "es": "Aspirador de Coche",
+    "ar": "مكنسة سيارات",
+    "fr": "Aspirateur voiture",
+    "id": "Penyedot Debu Mobil",
+    "ru": "Автомобильный пылесос",
+    "th": "เครื่องดูดฝุ่นในรถ",
+    "vi": "Máy hút bụi ô tô"
+   },
+   "_source": {
+    "platform": "alibaba.com",
+    "productId": "1601716198186"
+   },
+   "_cat": "car-vacuum"
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Ryan Cooper",
+   "location": "Chicago, IL, USA",
+   "rating": 5,
+   "date": "2025-10-29",
+   "title": "Strongest 12V car vacuum I have tested — handles sand and gravel",
+   "body": "I tested 6 different car vacuums and this one has the highest suction at 5000Pa. It pulls sand from the carpet, crumbs from the seat crevices, and even pet hair. The washable HEPA filter is a huge plus. See the before/after photos of my truck bed.",
+   "photoUrls": [
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/01.webp",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/02.webp"
+   ]
+  },
+  {
+   "name": "Nina Johansson",
+   "location": "Stockholm, Sweden",
+   "rating": 5,
+   "date": "2025-08-11",
+   "title": "Compact enough to keep in the glove box, powerful enough for weekly cleans",
+   "body": "At just 1.2kg it fits in our glove box. The 5m car charger cable reaches every corner of our SUV. The LED light on the nozzle is perfect for cleaning under seats at night. No complaints after 8 months of weekly use.",
+   "photoUrls": [
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/01.webp",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/02.webp"
+   ]
+  },
+  {
+   "name": "Ahmed Hassan",
+   "location": "Dubai, UAE",
+   "rating": 5,
+   "date": "2025-06-18",
+   "title": "DC 12V works perfectly in our extreme summer heat",
+   "body": "Many car accessories fail in Dubai summers. This vacuum has survived temperatures above 45°C in the car. The cord management is neat and the dust cup is easy to empty. The transparent design lets you see when it needs cleaning.",
+   "photoUrls": [
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/01.webp",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/02.webp"
+   ]
+  }
+ ],
+ "_schema_reviews": [
+  {
+   "@type": "Review",
+   "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "5",
+    "bestRating": "5",
+    "worstRating": "1"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Ryan Cooper",
+    "address": {
+     "@type": "PostalAddress",
+     "addressLocality": "Chicago, IL, USA"
+    }
+   },
+   "datePublished": "2025-10-29",
+   "reviewBody": "I tested 6 different car vacuums and this one has the highest suction at 5000Pa. It pulls sand from the carpet, crumbs from the seat crevices, and even pet hair. The washable HEPA filter is a huge plus. See the before/after photos of my truck bed.",
+   "name": "Strongest 12V car vacuum I have tested — handles sand and gravel",
+   "image": [
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/01.webp",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/02.webp"
+   ]
+  },
+  {
+   "@type": "Review",
+   "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "5",
+    "bestRating": "5",
+    "worstRating": "1"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Nina Johansson",
+    "address": {
+     "@type": "PostalAddress",
+     "addressLocality": "Stockholm, Sweden"
+    }
+   },
+   "datePublished": "2025-08-11",
+   "reviewBody": "At just 1.2kg it fits in our glove box. The 5m car charger cable reaches every corner of our SUV. The LED light on the nozzle is perfect for cleaning under seats at night. No complaints after 8 months of weekly use.",
+   "name": "Compact enough to keep in the glove box, powerful enough for weekly cleans",
+   "image": [
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/01.webp",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/02.webp"
+   ]
+  },
+  {
+   "@type": "Review",
+   "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "5",
+    "bestRating": "5",
+    "worstRating": "1"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Ahmed Hassan",
+    "address": {
+     "@type": "PostalAddress",
+     "addressLocality": "Dubai, UAE"
+    }
+   },
+   "datePublished": "2025-06-18",
+   "reviewBody": "Many car accessories fail in Dubai summers. This vacuum has survived temperatures above 45°C in the car. The cord management is neat and the dust cup is easy to empty. The transparent design lets you see when it needs cleaning.",
+   "name": "DC 12V works perfectly in our extreme summer heat",
+   "image": [
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/01.webp",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/02.webp"
+   ]
+  }
+ ]
 }

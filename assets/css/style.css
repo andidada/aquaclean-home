@@ -6,17 +6,18 @@
   --primary-dark: #1D4ED8;
   --primary-light: #DBEAFE;
   --secondary: #0F172A;
+  --brand-ink: #0B1B33;
   --accent: #F59E0B;
   --bg: #FFFFFF;
-  --bg-alt: #F8FAFC;
+  --bg-alt: #F6F8FB;
   --bg-dark: #0F172A;
   --text: #1E293B;
   --text-muted: #64748B;
   --border: #E2E8F0;
   --success: #10B981;
-  --radius: 12px;
-  --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.07), 0 2px 4px -2px rgb(0 0 0 / 0.07);
-  --shadow-lg: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --radius: 14px;
+  --shadow: 0 1px 2px rgb(15 23 42 / 0.04), 0 8px 24px -8px rgb(15 23 42 / 0.08);
+  --shadow-lg: 0 24px 48px -12px rgb(15 23 42 / 0.18), 0 4px 12px -4px rgb(15 23 42 / 0.08);
   --transition: all 0.3s ease;
   --container: 1200px;
   --lang-bar-h: 44px;
@@ -116,7 +117,7 @@ body.lang-ar { direction: rtl; }
   justify-content: center;
   color: #fff;
   font-size: 18px;
-  background-image: url('../images/logo-dmj.png');
+  background-image: url('../images/logo-dmj.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -149,9 +150,14 @@ body.lang-ar { direction: rtl; }
 /* =============================================
    HERO
    ============================================= */
+/* The plain .hero is the 8 non-en locale homes; the en flagship uses the
+   .hero-carousel photo slider. Both must read as the same dark "industrial
+   blue" brand surface -- text white, highlight amber. */
 .hero {
-  background: linear-gradient(135deg, #EFF6FF 0%, #F0FDF4 100%);
-  padding: 80px 24px;
+  background:
+    radial-gradient(1100px 480px at 72% -12%, rgb(37 99 235 / 0.38), transparent 62%),
+    linear-gradient(160deg, #0B1B33 0%, #10294D 55%, #0B1B33 100%);
+  padding: 96px 24px;
   text-align: center;
 }
 .hero-inner {
@@ -169,15 +175,23 @@ body.lang-ar { direction: rtl; }
   margin-bottom: 24px;
   border: 1px solid #BFDBFE;
 }
+.hero:not(.hero-carousel) .hero-badge {
+  background: rgb(255 255 255 / 0.08);
+  color: #93C5FD;
+  border-color: rgb(255 255 255 / 0.18);
+  backdrop-filter: blur(4px);
+}
 .hero h1, .hero h2 {
   font-size: clamp(36px, 5vw, 60px);
   font-weight: 800;
   color: var(--secondary);
-  line-height: 1.15;
+  line-height: 1.12;
   margin-bottom: 20px;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.025em;
 }
 .hero h1 span, .hero h2 span { color: var(--primary); }
+.hero:not(.hero-carousel) h1, .hero:not(.hero-carousel) h2 { color: #fff; }
+.hero:not(.hero-carousel) h1 span, .hero:not(.hero-carousel) h2 span { color: var(--accent); }
 .hero-sub {
   font-size: 18px;
   color: var(--text-muted);
@@ -185,6 +199,9 @@ body.lang-ar { direction: rtl; }
   margin: 0 auto 36px;
   line-height: 1.7;
 }
+.hero:not(.hero-carousel) .hero-sub { color: rgb(255 255 255 / 0.78); }
+.hero:not(.hero-carousel) .hero-stat .num { color: #fff; }
+.hero:not(.hero-carousel) .hero-stat .label { color: rgb(255 255 255 / 0.62); }
 .hero-actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
 .btn {
   display: inline-flex;
@@ -211,9 +228,9 @@ body.lang-ar { direction: rtl; }
   box-shadow: 0 6px 20px rgb(37 99 235 / 0.4);
 }
 .btn-outline {
-  background: #fff;
+  background: transparent;
   color: var(--primary);
-  border: 2px solid var(--primary-light);
+  border: 1.5px solid var(--primary);
 }
 .btn-outline:hover { background: var(--primary-light); }
 .hero-stats {
@@ -235,7 +252,7 @@ body.lang-ar { direction: rtl; }
 /* =============================================
    SECTIONS
    ============================================= */
-.section { padding: 80px 24px; }
+.section { padding: 96px 24px; }
 .section-alt { background: var(--bg-alt); }
 .section-dark { background: var(--bg-dark); color: #fff; }
 .section-inner { max-width: var(--container); margin: 0 auto; }
@@ -252,8 +269,9 @@ body.lang-ar { direction: rtl; }
   font-size: clamp(28px, 4vw, 40px);
   font-weight: 800;
   color: var(--secondary);
-  line-height: 1.2;
+  line-height: 1.18;
   margin-bottom: 16px;
+  letter-spacing: -0.02em;
 }
 .section-dark .section-title { color: #fff; }
 .section-sub {
@@ -278,15 +296,14 @@ body.lang-ar { direction: rtl; }
   border-radius: var(--radius);
   overflow: hidden;
   box-shadow: var(--shadow);
-  border: 1px solid var(--border);
+  border: 1px solid transparent;
   transition: var(--transition);
   display: flex;
   flex-direction: column;
 }
 .product-card:hover {
   transform: translateY(-6px);
-  box-shadow: var(--shadow-lg);
-  border-color: var(--primary-light);
+  box-shadow: var(--shadow-lg), 0 0 0 1px var(--primary-light);
 }
 .product-img-wrap {
   aspect-ratio: 4/3;
@@ -335,6 +352,21 @@ body.lang-ar { direction: rtl; }
   border-radius: 6px;
   border: 1px solid var(--border);
 }
+/* Card CTAs read as a quiet secondary: the loud primary action belongs to
+   the hero and the navbar, not to every card in a grid. */
+.product-card .btn-primary {
+  background: #fff;
+  color: var(--primary);
+  box-shadow: none;
+  border: 1.5px solid var(--border);
+  margin-top: auto;
+}
+.product-card .btn-primary:hover {
+  background: var(--primary-light);
+  border-color: var(--primary-light);
+  transform: none;
+  box-shadow: none;
+}
 
 /* =============================================
    FEATURES
@@ -348,10 +380,14 @@ body.lang-ar { direction: rtl; }
   background: #fff;
   border-radius: var(--radius);
   padding: 28px;
-  border: 1px solid var(--border);
+  border: 1px solid transparent;
+  box-shadow: var(--shadow);
   transition: var(--transition);
 }
-.feature-card:hover { border-color: var(--primary-light); box-shadow: var(--shadow); }
+.feature-card:hover {
+  box-shadow: var(--shadow-lg), 0 0 0 1px var(--primary-light);
+  transform: translateY(-2px);
+}
 .feature-icon {
   width: 52px;
   height: 52px;
@@ -394,12 +430,13 @@ body.lang-ar { direction: rtl; }
    FORM SECTION
    ============================================= */
 .form-section {
-  background: var(--bg-alt);
+  background: #fff;
   border-radius: var(--radius);
   padding: 48px;
   max-width: 700px;
   margin: 0 auto;
   border: 1px solid var(--border);
+  box-shadow: var(--shadow);
 }
 .form-grid {
   display: grid;

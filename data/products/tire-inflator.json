@@ -1,1859 +1,4593 @@
 {
-  "category": "tire-inflator",
-  "products": [
+ "category": "tire-inflator",
+ "products": [
+  {
+   "id": "ymc6628",
+   "name": {
+    "en": "YMC6628 Portable Tire Inflator",
+    "zh": "YMC6628 便携数显充气泵",
+    "es": "Inflador de neumáticos portátil YMC6628",
+    "ar": "مضخة إطارات محمولة YMC6628",
+    "fr": "Gonfleur de pneus portatif YMC6628",
+    "id": "Pompa Ban Portabel YMC6628",
+    "ru": "Портативный компрессор для шин YMC6628",
+    "th": "เครื่องเติมลมยางแบบพกพา YMC6628",
+    "vi": "Bơm lốp di động YMC6628"
+   },
+   "tagline": {
+    "en": "150PSI · Digital Auto-Stop · Power Bank & LED",
+    "zh": "150PSI · 数显自动停机 · 移动电源与照明",
+    "es": "150 PSI · parada automática digital · batería externa y LED",
+    "ar": "150PSI · إيقاف تلقائي رقمي · بطارية متنقلة وإضاءة LED",
+    "fr": "150 PSI · arrêt automatique numérique · batterie externe et LED",
+    "id": "150PSI · Mati Otomatis Digital · Power Bank dan LED",
+    "ru": "150 PSI · цифровое автоотключение · пауэрбанк и LED",
+    "th": "150PSI · หยุดอัตโนมัติแบบดิจิทัล · พาวเวอร์แบงก์และ LED",
+    "vi": "150PSI · tự động ngắt kỹ thuật số · pin dự phòng & đèn LED"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/01-main.webp",
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/02.webp",
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/03.webp",
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/04.webp",
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/05.webp",
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/06.webp"
+   ],
+   "video_url": "",
+   "moq": {
+    "value": 10,
+    "unit": "pieces"
+   },
+   "certifications": [
+    "CE"
+   ],
+   "cert_note": {
+    "en": "CE marked; test documents on file — available on request.",
+    "zh": "已通过 CE 认证，检测文件已备案、可按需提供。"
+   },
+   "highlights": [
     {
-      "id": "ymc6628",
-      "name": {
-        "en": "YMC6628 Portable Tire Inflator",
-        "zh": "YMC6628 便携数显充气泵"
-      },
-      "tagline": {
-        "en": "150PSI · Digital Auto-Stop · Power Bank & LED",
-        "zh": "150PSI · 数显自动停机 · 移动电源与照明"
-      },
-      "images": [
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/01-main.webp",
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/02.webp",
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/03.webp",
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/04.webp",
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/05.webp",
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/06.webp"
-      ],
-      "video_url": "",
-      "moq": {
-        "value": 10,
-        "unit": "pieces"
-      },
-      "certifications": [
-        "CE"
-      ],
-      "cert_note": {
-        "en": "CE marked; test documents on file — available on request.",
-        "zh": "已通过 CE 认证，检测文件已备案、可按需提供。"
-      },
-      "highlights": [
-        {
-          "icon": "gauge",
-          "text": {
-            "en": "150PSI / 10.3Bar Maximum Pressure",
-            "zh": "最高压力 150PSI / 10.3Bar"
-          }
-        },
-        {
-          "icon": "display",
-          "text": {
-            "en": "Digital Pressure Gauge with Auto Stop",
-            "zh": "数显胎压表，支持自动停机"
-          }
-        },
-        {
-          "icon": "battery",
-          "text": {
-            "en": "Built-in Power Bank & Emergency LED Light",
-            "zh": "内置移动电源与应急 LED 照明"
-          }
-        },
-        {
-          "icon": "portable",
-          "text": {
-            "en": "Cordless, 0.9kg-Class Portable Body",
-            "zh": "无线便携机身"
-          }
-        }
-      ],
-      "specs": [
-        {
-          "label": {
-            "en": "Model",
-            "zh": "型号"
-          },
-          "value": "YMC6628"
-        },
-        {
-          "label": {
-            "en": "Maximum Pressure",
-            "zh": "最高压力"
-          },
-          "value": "150PSI / 10.3Bar"
-        },
-        {
-          "label": {
-            "en": "Voltage",
-            "zh": "电压"
-          },
-          "value": "11.1V"
-        },
-        {
-          "label": {
-            "en": "Power",
-            "zh": "功率"
-          },
-          "value": "≤95W"
-        },
-        {
-          "label": {
-            "en": "Battery",
-            "zh": "电池"
-          },
-          "value": "2000mAh × 3 Lithium Polymer"
-        },
-        {
-          "label": {
-            "en": "Charging Time",
-            "zh": "充电时间"
-          },
-          "value": "2–3 hours"
-        },
-        {
-          "label": {
-            "en": "Working Time",
-            "zh": "工作时长"
-          },
-          "value": "25 min"
-        },
-        {
-          "label": {
-            "en": "Display Type",
-            "zh": "显示方式"
-          },
-          "value": "Digital Pressure Gauge"
-        },
-        {
-          "label": {
-            "en": "Cylinder Type",
-            "zh": "气缸类型"
-          },
-          "value": "Single Cylinder"
-        },
-        {
-          "label": {
-            "en": "Noise Level",
-            "zh": "噪音"
-          },
-          "value": "≤85dB"
-        },
-        {
-          "label": {
-            "en": "Size",
-            "zh": "尺寸"
-          },
-          "value": "9 × 5 × 17 cm"
-        },
-        {
-          "label": {
-            "en": "Material",
-            "zh": "材质"
-          },
-          "value": "ABS"
-        },
-        {
-          "label": {
-            "en": "Suitable For",
-            "zh": "适用车型"
-          },
-          "value": "Compact Car / Motorcycle"
-        },
-        {
-          "label": {
-            "en": "Certification",
-            "zh": "认证"
-          },
-          "value": "CE"
-        },
-        {
-          "label": {
-            "en": "Warranty",
-            "zh": "质保"
-          },
-          "value": "1 Year"
-        }
-      ],
-      "quick_specs": [
-        {
-          "label": {
-            "en": "Max Pressure",
-            "zh": "最高压力"
-          },
-          "value": "150PSI"
-        },
-        {
-          "label": {
-            "en": "Battery",
-            "zh": "电池"
-          },
-          "value": "2000mAh × 3"
-        },
-        {
-          "label": {
-            "en": "Working Time",
-            "zh": "工作时长"
-          },
-          "value": "25 min"
-        },
-        {
-          "label": {
-            "en": "Certification",
-            "zh": "认证"
-          },
-          "value": "CE"
-        }
-      ],
-      "packaging": {
-        "unit": "Color Box",
-        "ctn_size": "11x10x19cm",
-        "ctn_qty": "—",
-        "gross_weight": "1.0kg"
-      },
-      "customization": {
-        "oem": true,
-        "odm": true,
-        "logo": null,
-        "color": true,
-        "package": null,
-        "sample_lead": "on request",
-        "production_lead": "on request"
-      },
-      "applications": {
-        "en": "Car, Motorcycle",
-        "zh": "汽车、摩托车"
-      },
-      "price_indicator": {
-        "min": 11,
-        "max": 14.5,
-        "currency": "USD"
-      },
-      "price_ladder": [
-        {
-          "min": 10,
-          "max": 499,
-          "price": 14.5
-        },
-        {
-          "min": 500,
-          "max": 999,
-          "price": 12.8
-        },
-        {
-          "min": 1000,
-          "max": null,
-          "price": 11
-        }
-      ],
-      "sku": [
-        {
-          "name": {
-            "en": "Pressure Range",
-            "zh": "压力范围"
-          },
-          "values": [
-            {
-              "name": "101-150Psi"
-            }
-          ]
-        },
-        {
-          "name": {
-            "en": "Power Source",
-            "zh": "供电方式"
-          },
-          "values": [
-            {
-              "name": "Battery Powered"
-            }
-          ]
-        }
-      ],
-      "description": {
-        "en": "The YMC6628 is a cordless portable tire inflator with a 150PSI / 10.3Bar maximum pressure, an 11.1V lithium-polymer battery (2000mAh × 3) and a digital pressure gauge that stops automatically at your target value. It doubles as a power bank with emergency LED light and pressure monitoring, charges in 2–3 hours and runs about 25 minutes per charge. CE certified, suitable for compact cars and motorcycles, with OEM/ODM colour customisation available.",
-        "zh": "YMC6628 是一款无线便携充气泵，最高压力 150PSI / 10.3Bar，搭载 11.1V 锂聚合物电池（2000mAh × 3）与数显胎压表，达到设定胎压自动停机；同时内置移动电源与应急 LED 照明、支持胎压监测。2–3 小时充满，单次工作约 25 分钟。已通过 CE 认证，适用于轿车与摩托车，支持 OEM/ODM 颜色定制。"
-      },
-      "supplier_rating": "4.81",
-      "response_time": "—",
-      "transactions": "—",
-      "years": "—",
-      "ship_from": {
-        "en": "China",
-        "zh": "中国"
-      },
-      "sample": {
-        "enabled": true,
-        "qty": 2,
-        "note": {
-          "en": "Sample available (max 2 pcs)",
-          "zh": "支持打样（最多 2 台）"
-        }
-      },
-      "category_name": {
-        "en": "Tire Inflators & Air Compressors",
-        "zh": "充气泵"
-      },
-      "certificates": [
-        {
-          "certId": "60007675410",
-          "name": "Declaration of Conformity",
-          "certNo": "EFW526022843-CG-02+REV 1",
-          "availableDate": "2026-07-27",
-          "expiredDate": "2031-07-24",
-          "verified": true,
-          "image": null,
-          "coversHint": "V18"
-        },
-        {
-          "certId": "60007673019",
-          "name": "Declaration of Conformity",
-          "certNo": "CTA25030700203+CTA25030700205+CQASZ20250902238E+YHJC202412100039R1",
-          "availableDate": "2026-07-27",
-          "expiredDate": "2031-07-24",
-          "verified": true,
-          "image": null,
-          "coversHint": null
-        },
-        {
-          "certId": "60008004208",
-          "name": "Declaration of Conformity",
-          "certNo": "XDX50238736101701EC",
-          "availableDate": "2026-09-02",
-          "expiredDate": "2031-09-07",
-          "verified": true,
-          "image": "/assets/images/certificates/60008004208.webp",
-          "coversHint": null
-        }
-      ],
-      "supplier": {
-        "country": "HK",
-        "province": "New Territories",
-        "established": 2024,
-        "reply_rate": 0.9987,
-        "verified": false,
-        "main_markets": [
-          "North America",
-          "South America",
-          "Eastern Europe",
-          "Southeast Asia"
-        ]
-      },
-      "store_rating": {
-        "score": 4.81,
-        "reviews": 7,
-        "scope": "store"
-      },
-      "shipping_fee_usd": 17.02,
-      "alibaba_url": "https://www.alibaba.com/product-detail/OEM-ODM-Portable-ABS-Tire-Inflator_1601910965318.html",
-      "_cat": "tire-inflator"
+     "icon": "gauge",
+     "text": {
+      "en": "150PSI / 10.3Bar Maximum Pressure",
+      "zh": "最高压力 150PSI / 10.3Bar",
+      "es": "Presión máxima de 150 PSI / 10,3 bar",
+      "ar": "أقصى ضغط 150PSI / 10.3Bar",
+      "fr": "Pression maximale de 150 PSI / 10,3 bar",
+      "id": "Tekanan maksimum 150PSI / 10.3Bar",
+      "ru": "Максимальное давление 150 PSI / 10,3 бар",
+      "th": "แรงดันสูงสุด 150PSI / 10.3Bar",
+      "vi": "Áp suất tối đa 150PSI / 10,3Bar"
+     }
     },
     {
-      "id": "ymc6667",
-      "name": {
-        "en": "1200A Jump Starter Tire Inflator Air Compressor 7 in 1 Car Battery Booster with Blower Vacuum LED Light Power Bank SOS OEM ODM",
-        "zh": "1200A 七合一应急启动电源 + 充气泵"
-      },
-      "tagline": {
-        "en": "≤120W · 150PSI / 10.3Bar · 40mins",
-        "zh": "≤120W · 150PSI / 10.3Bar · 40mins"
-      },
-      "images": [
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/01.webp",
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/02.webp",
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/03.webp",
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/04.webp",
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/05.webp",
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/06.webp"
-      ],
-      "video_url": null,
-      "moq": {
-        "value": 1,
-        "unit": "pieces"
-      },
-      "certifications": [],
-      "highlights": [
-        {
-          "icon": "check",
-          "text": {
-            "en": "Power: ≤120W",
-            "zh": "功率: ≤120W"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Maximum Pressure: 150PSI / 10.3Bar",
-            "zh": "最大气压: 150PSI / 10.3Bar"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Working Time: 40mins",
-            "zh": "工作时间: 40mins"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Battery Capacity: 2500mAh*4",
-            "zh": "电池容量: 2500mAh*4"
-          }
-        }
-      ],
-      "specs": [
-        {
-          "label": {
-            "en": "Power",
-            "zh": "功率"
-          },
-          "value": "≤120W"
-        },
-        {
-          "label": {
-            "en": "Battery Type",
-            "zh": "电池类型"
-          },
-          "value": "Lithium Polymer Battery"
-        },
-        {
-          "label": {
-            "en": "Battery Capacity",
-            "zh": "电池容量"
-          },
-          "value": "2500mAh*4"
-        },
-        {
-          "label": {
-            "en": "Charging Time",
-            "zh": "充电时间"
-          },
-          "value": "3-5H"
-        },
-        {
-          "label": {
-            "en": "Working Time",
-            "zh": "工作时间"
-          },
-          "value": "40mins"
-        },
-        {
-          "label": {
-            "en": "Maximum Pressure",
-            "zh": "Maximum Pressure"
-          },
-          "value": "150PSI / 10.3Bar"
-        },
-        {
-          "label": {
-            "en": "Warranty",
-            "zh": "质保"
-          },
-          "value": "1 Year"
-        },
-        {
-          "label": {
-            "en": "Function",
-            "zh": "功能"
-          },
-          "value": "Emergency Light"
-        },
-        {
-          "label": {
-            "en": "Function",
-            "zh": "功能"
-          },
-          "value": "Power Indicator"
-        },
-        {
-          "label": {
-            "en": "Function",
-            "zh": "功能"
-          },
-          "value": "Tire Pressure Monitor"
-        },
-        {
-          "label": {
-            "en": "Display Type",
-            "zh": "Display Type"
-          },
-          "value": "digital pressure gauge"
-        },
-        {
-          "label": {
-            "en": "Cylinder type",
-            "zh": "Cylinder type"
-          },
-          "value": "Single Cylinder Inflators"
-        },
-        {
-          "label": {
-            "en": "Material",
-            "zh": "材质"
-          },
-          "value": "ABS"
-        },
-        {
-          "label": {
-            "en": "Suitable for",
-            "zh": "Suitable for"
-          },
-          "value": "Compact Car / Motorcycle"
-        },
-        {
-          "label": {
-            "en": "certification",
-            "zh": "certification"
-          },
-          "value": "CE"
-        },
-        {
-          "label": {
-            "en": "Color",
-            "zh": "颜色"
-          },
-          "value": "Black"
-        },
-        {
-          "label": {
-            "en": "Place of Origin",
-            "zh": "产地"
-          },
-          "value": "CN"
-        },
-        {
-          "label": {
-            "en": "Voltage",
-            "zh": "电压"
-          },
-          "value": "14.8V"
-        },
-        {
-          "label": {
-            "en": "Size",
-            "zh": "尺寸"
-          },
-          "value": "23*10*11CM"
-        },
-        {
-          "label": {
-            "en": "Model Number",
-            "zh": "型号"
-          },
-          "value": "YMC6667"
-        },
-        {
-          "label": {
-            "en": "Noise Level",
-            "zh": "噪音"
-          },
-          "value": "85"
-        }
-      ],
-      "packaging": {
-        "unit": "Color Box"
-      },
-      "customization": {},
-      "applications": {
-        "en": "",
-        "zh": ""
-      },
-      "price_indicator": null,
-      "quick_specs": [
-        {
-          "label": {
-            "en": "Power",
-            "zh": "功率"
-          },
-          "value": "≤120W"
-        },
-        {
-          "label": {
-            "en": "Maximum Pressure",
-            "zh": "最大气压"
-          },
-          "value": "150PSI / 10.3Bar"
-        },
-        {
-          "label": {
-            "en": "Working Time",
-            "zh": "工作时间"
-          },
-          "value": "40mins"
-        },
-        {
-          "label": {
-            "en": "Battery Capacity",
-            "zh": "电池容量"
-          },
-          "value": "2500mAh*4"
-        }
-      ],
-      "price_ladder": [],
-      "sku": "1601909117845",
-      "description": {
-        "en": "≤120W · 150PSI / 10.3Bar · 40mins. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "≤120W · 150PSI / 10.3Bar · 40mins。支持 OEM/ODM 定制，规格取自供应商商品资料。"
-      },
-      "supplier_rating": "4.8",
-      "response_time": "≤ 2h",
-      "transactions": "US $100K+",
-      "years": "10+",
-      "ship_from": {
-        "en": "Ningbo, China",
-        "zh": "中国宁波"
-      },
-      "sample": {
-        "enabled": true,
-        "qty": 5,
-        "note": "Sample available, lead 7-14 days"
-      },
-      "category_name": {
-        "en": "Tire Inflators & Air Compressors",
-        "zh": "充气泵"
-      },
-      "_source": {
-        "platform": "alibaba.com",
-        "productId": "1601909117845"
-      },
-      "_cat": "tire-inflator"
+     "icon": "display",
+     "text": {
+      "en": "Digital Pressure Gauge with Auto Stop",
+      "zh": "数显胎压表，支持自动停机",
+      "es": "Manómetro digital con parada automática",
+      "ar": "مقياس ضغط رقمي مع إيقاف تلقائي",
+      "fr": "Manomètre numérique avec arrêt automatique",
+      "id": "Pengukur tekanan digital dengan mati otomatis",
+      "ru": "Цифровой манометр с автоотключением",
+      "th": "มาตรวัดแรงดันดิจิทัลพร้อมการหยุดอัตโนมัติ",
+      "vi": "Đồng hồ đo áp suất kỹ thuật số với tự động ngắt"
+     }
     },
     {
-      "id": "ymc6616",
-      "name": {
-        "en": "11.1V 90W Lithium Polymer Battery Cordless Tire Inflator 150 PSI 22L/Min Digital Air Compressor 19mm Cylinder ABS Material Tire",
-        "zh": "YMC6616 无线数显充气泵（90W / 150PSI / 22L·min）"
-      },
-      "tagline": {
-        "en": "≤90W · 150PSI / 10.3Bar · 25mins",
-        "zh": "≤90W · 150PSI / 10.3Bar · 25mins"
-      },
-      "images": [
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6616/01.webp",
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6616/02.webp",
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6616/03.webp",
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6616/04.webp",
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6616/05.webp",
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6616/06.webp"
-      ],
-      "video_url": null,
-      "moq": {
-        "value": 1,
-        "unit": "pieces"
-      },
-      "certifications": [],
-      "highlights": [
-        {
-          "icon": "check",
-          "text": {
-            "en": "Power: ≤90W",
-            "zh": "功率: ≤90W"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Maximum Pressure: 150PSI / 10.3Bar",
-            "zh": "最大气压: 150PSI / 10.3Bar"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Working Time: 25mins",
-            "zh": "工作时间: 25mins"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Battery Capacity: 2000mAh*3",
-            "zh": "电池容量: 2000mAh*3"
-          }
-        }
-      ],
-      "specs": [
-        {
-          "label": {
-            "en": "Power",
-            "zh": "功率"
-          },
-          "value": "≤90W"
-        },
-        {
-          "label": {
-            "en": "Battery Type",
-            "zh": "电池类型"
-          },
-          "value": "Lithium Polymer Battery"
-        },
-        {
-          "label": {
-            "en": "Battery Capacity",
-            "zh": "电池容量"
-          },
-          "value": "2000mAh*3"
-        },
-        {
-          "label": {
-            "en": "Charging Time",
-            "zh": "充电时间"
-          },
-          "value": "2-3H"
-        },
-        {
-          "label": {
-            "en": "Working Time",
-            "zh": "工作时间"
-          },
-          "value": "25mins"
-        },
-        {
-          "label": {
-            "en": "Maximum Pressure",
-            "zh": "Maximum Pressure"
-          },
-          "value": "150PSI / 10.3Bar"
-        },
-        {
-          "label": {
-            "en": "Warranty",
-            "zh": "质保"
-          },
-          "value": "1 Year"
-        },
-        {
-          "label": {
-            "en": "Function",
-            "zh": "功能"
-          },
-          "value": "Emergency Light"
-        },
-        {
-          "label": {
-            "en": "Function",
-            "zh": "功能"
-          },
-          "value": "Power Indicator"
-        },
-        {
-          "label": {
-            "en": "Function",
-            "zh": "功能"
-          },
-          "value": "Tire Pressure Monitor"
-        },
-        {
-          "label": {
-            "en": "Display Type",
-            "zh": "Display Type"
-          },
-          "value": "digital pressure gauge"
-        },
-        {
-          "label": {
-            "en": "Cylinder type",
-            "zh": "Cylinder type"
-          },
-          "value": "Single Cylinder Inflators"
-        },
-        {
-          "label": {
-            "en": "Material",
-            "zh": "材质"
-          },
-          "value": "ABS"
-        },
-        {
-          "label": {
-            "en": "Suitable for",
-            "zh": "Suitable for"
-          },
-          "value": "Compact Car / Motorcycle"
-        },
-        {
-          "label": {
-            "en": "certification",
-            "zh": "certification"
-          },
-          "value": "CE"
-        },
-        {
-          "label": {
-            "en": "Color",
-            "zh": "颜色"
-          },
-          "value": "Black"
-        },
-        {
-          "label": {
-            "en": "Place of Origin",
-            "zh": "产地"
-          },
-          "value": "CN"
-        },
-        {
-          "label": {
-            "en": "Voltage",
-            "zh": "电压"
-          },
-          "value": "11.1V"
-        },
-        {
-          "label": {
-            "en": "Size",
-            "zh": "尺寸"
-          },
-          "value": "12*6*11CM"
-        },
-        {
-          "label": {
-            "en": "Model Number",
-            "zh": "型号"
-          },
-          "value": "YMC6616"
-        },
-        {
-          "label": {
-            "en": "Noise Level",
-            "zh": "噪音"
-          },
-          "value": "85"
-        }
-      ],
-      "packaging": {
-        "unit": "Color Box"
-      },
-      "customization": {},
-      "applications": {
-        "en": "",
-        "zh": ""
-      },
-      "price_indicator": null,
-      "quick_specs": [
-        {
-          "label": {
-            "en": "Power",
-            "zh": "功率"
-          },
-          "value": "≤90W"
-        },
-        {
-          "label": {
-            "en": "Maximum Pressure",
-            "zh": "最大气压"
-          },
-          "value": "150PSI / 10.3Bar"
-        },
-        {
-          "label": {
-            "en": "Working Time",
-            "zh": "工作时间"
-          },
-          "value": "25mins"
-        },
-        {
-          "label": {
-            "en": "Battery Capacity",
-            "zh": "电池容量"
-          },
-          "value": "2000mAh*3"
-        }
-      ],
-      "price_ladder": [],
-      "sku": "1601911130124",
-      "description": {
-        "en": "≤90W · 150PSI / 10.3Bar · 25mins. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "≤90W · 150PSI / 10.3Bar · 25mins。支持 OEM/ODM 定制，规格取自供应商商品资料。"
-      },
-      "supplier_rating": "4.81",
-      "response_time": "—",
-      "transactions": "—",
-      "years": "—",
-      "ship_from": {
-        "en": "China",
-        "zh": "中国"
-      },
-      "sample": {
-        "enabled": true,
-        "qty": 2,
-        "note": {
-          "en": "Sample available (max 2 pcs)",
-          "zh": "支持打样（最多 2 台）"
-        }
-      },
-      "category_name": {
-        "en": "Tire Inflators & Air Compressors",
-        "zh": "充气泵"
-      },
-      "_source": {
-        "platform": "alibaba.com",
-        "productId": "1601911130124"
-      },
-      "_cat": "tire-inflator"
+     "icon": "battery",
+     "text": {
+      "en": "Built-in Power Bank & Emergency LED Light",
+      "zh": "内置移动电源与应急 LED 照明",
+      "es": "Batería externa integrada y luz LED de emergencia",
+      "ar": "بطارية متنقلة مدمجة وإضاءة LED للطوارئ",
+      "fr": "Batterie externe intégrée et éclairage LED d'urgence",
+      "id": "Power bank internal dan lampu LED darurat",
+      "ru": "Встроенный пауэрбанк и аварийная подсветка LED",
+      "th": "พาวเวอร์แบงก์ในตัวและไฟ LED ฉุกเฉิน",
+      "vi": "Pin dự phòng tích hợp & đèn LED khẩn cấp"
+     }
     },
     {
-      "id": "ymc6657",
-      "name": {
-        "en": "Cordless Tire Inflator 150 PSI Portable Air Compressor with Digital Pressure Gauge LED SOS Power Bank for Car Motorcycle Bicycle",
-        "zh": "YMC6657 便携无线充气泵（65W / 150PSI / 数显）"
-      },
-      "tagline": {
-        "en": "≤65W · 150PSI / 10.3Bar · 25mins",
-        "zh": "≤65W · 150PSI / 10.3Bar · 25mins"
-      },
-      "images": [
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6657/01.webp",
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6657/02.webp",
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6657/03.webp",
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6657/04.webp",
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6657/05.webp",
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6657/06.webp"
-      ],
-      "video_url": null,
-      "moq": {
-        "value": 1,
-        "unit": "pieces"
-      },
-      "certifications": [],
-      "highlights": [
-        {
-          "icon": "check",
-          "text": {
-            "en": "Power: ≤65W",
-            "zh": "功率: ≤65W"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Maximum Pressure: 150PSI / 10.3Bar",
-            "zh": "最大气压: 150PSI / 10.3Bar"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Working Time: 25mins",
-            "zh": "工作时间: 25mins"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Battery Capacity: 2000mAh*2",
-            "zh": "电池容量: 2000mAh*2"
-          }
-        }
-      ],
-      "specs": [
-        {
-          "label": {
-            "en": "Power",
-            "zh": "功率"
-          },
-          "value": "≤65W"
-        },
-        {
-          "label": {
-            "en": "Battery Type",
-            "zh": "电池类型"
-          },
-          "value": "Lithium Polymer Battery"
-        },
-        {
-          "label": {
-            "en": "Battery Capacity",
-            "zh": "电池容量"
-          },
-          "value": "2000mAh*2"
-        },
-        {
-          "label": {
-            "en": "Charging Time",
-            "zh": "充电时间"
-          },
-          "value": "2-3H"
-        },
-        {
-          "label": {
-            "en": "Working Time",
-            "zh": "工作时间"
-          },
-          "value": "25mins"
-        },
-        {
-          "label": {
-            "en": "Maximum Pressure",
-            "zh": "Maximum Pressure"
-          },
-          "value": "150PSI / 10.3Bar"
-        },
-        {
-          "label": {
-            "en": "Warranty",
-            "zh": "质保"
-          },
-          "value": "1 Year"
-        },
-        {
-          "label": {
-            "en": "Function",
-            "zh": "功能"
-          },
-          "value": "Emergency Light"
-        },
-        {
-          "label": {
-            "en": "Function",
-            "zh": "功能"
-          },
-          "value": "Power Indicator"
-        },
-        {
-          "label": {
-            "en": "Function",
-            "zh": "功能"
-          },
-          "value": "Tire Pressure Monitor"
-        },
-        {
-          "label": {
-            "en": "Display Type",
-            "zh": "Display Type"
-          },
-          "value": "digital pressure gauge"
-        },
-        {
-          "label": {
-            "en": "Cylinder type",
-            "zh": "Cylinder type"
-          },
-          "value": "Single Cylinder Inflators"
-        },
-        {
-          "label": {
-            "en": "Material",
-            "zh": "材质"
-          },
-          "value": "ABS"
-        },
-        {
-          "label": {
-            "en": "Suitable for",
-            "zh": "Suitable for"
-          },
-          "value": "Compact Car / Motorcycle"
-        },
-        {
-          "label": {
-            "en": "certification",
-            "zh": "certification"
-          },
-          "value": "CE"
-        },
-        {
-          "label": {
-            "en": "Color",
-            "zh": "颜色"
-          },
-          "value": "Grey"
-        },
-        {
-          "label": {
-            "en": "Place of Origin",
-            "zh": "产地"
-          },
-          "value": "CN"
-        },
-        {
-          "label": {
-            "en": "Voltage",
-            "zh": "电压"
-          },
-          "value": "7.4V"
-        },
-        {
-          "label": {
-            "en": "Size",
-            "zh": "尺寸"
-          },
-          "value": "8*5*14CM"
-        },
-        {
-          "label": {
-            "en": "Model Number",
-            "zh": "型号"
-          },
-          "value": "YMC6657"
-        },
-        {
-          "label": {
-            "en": "Noise Level",
-            "zh": "噪音"
-          },
-          "value": "85"
-        }
-      ],
-      "packaging": {
-        "unit": "Color Box"
-      },
-      "customization": {},
-      "applications": {
-        "en": "",
-        "zh": ""
-      },
-      "price_indicator": null,
-      "quick_specs": [
-        {
-          "label": {
-            "en": "Power",
-            "zh": "功率"
-          },
-          "value": "≤65W"
-        },
-        {
-          "label": {
-            "en": "Maximum Pressure",
-            "zh": "最大气压"
-          },
-          "value": "150PSI / 10.3Bar"
-        },
-        {
-          "label": {
-            "en": "Working Time",
-            "zh": "工作时间"
-          },
-          "value": "25mins"
-        },
-        {
-          "label": {
-            "en": "Battery Capacity",
-            "zh": "电池容量"
-          },
-          "value": "2000mAh*2"
-        }
-      ],
-      "price_ladder": [],
-      "sku": "1601912149842",
-      "description": {
-        "en": "≤65W · 150PSI / 10.3Bar · 25mins. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "≤65W · 150PSI / 10.3Bar · 25mins。支持 OEM/ODM 定制，规格取自供应商商品资料。"
-      },
-      "supplier_rating": "4.81",
-      "response_time": "—",
-      "transactions": "—",
-      "years": "—",
-      "ship_from": {
-        "en": "China",
-        "zh": "中国"
-      },
-      "sample": {
-        "enabled": true,
-        "qty": 2,
-        "note": {
-          "en": "Sample available (max 2 pcs)",
-          "zh": "支持打样（最多 2 台）"
-        }
-      },
-      "category_name": {
-        "en": "Tire Inflators & Air Compressors",
-        "zh": "充气泵"
-      },
-      "_source": {
-        "platform": "alibaba.com",
-        "productId": "1601912149842"
-      },
-      "_cat": "tire-inflator"
-    },
-    {
-      "id": "ym2",
-      "name": {
-        "en": "OEM ODM 90W Portable Cordless Tire Inflator Air Compressor Type C Rechargeable Car Tyre Pump CE RoHS FCC ABS Emergency Light",
-        "zh": "YM2 无线充气泵（90W Type-C / 19 缸 / LED 显示）"
-      },
-      "tagline": {
-        "en": "90W · 1500mAh*4 · Lithium Battery",
-        "zh": "90W · 1500mAh*4 · Lithium Battery"
-      },
-      "images": [
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ym2/01.webp",
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ym2/02.webp",
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ym2/03.webp",
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ym2/04.webp",
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ym2/05.webp",
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ym2/06.webp"
-      ],
-      "video_url": null,
-      "moq": {
-        "value": 1,
-        "unit": "pieces"
-      },
-      "certifications": [],
-      "highlights": [
-        {
-          "icon": "check",
-          "text": {
-            "en": "Power: 90W",
-            "zh": "功率: 90W"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Battery Capacity: 1500mAh*4",
-            "zh": "电池容量: 1500mAh*4"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Battery Type: Lithium Battery",
-            "zh": "电池类型: Lithium Battery"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Voltage: 14.2-16.8V",
-            "zh": "电压: 14.2-16.8V"
-          }
-        }
-      ],
-      "specs": [
-        {
-          "label": {
-            "en": "Product Type",
-            "zh": "Product Type"
-          },
-          "value": "Cordless Tire Inflator"
-        },
-        {
-          "label": {
-            "en": "Function",
-            "zh": "功能"
-          },
-          "value": "Tire Inflation"
-        },
-        {
-          "label": {
-            "en": "Application",
-            "zh": "适用场景"
-          },
-          "value": "Car Motorcycle Bicycle"
-        },
-        {
-          "label": {
-            "en": "Power",
-            "zh": "功率"
-          },
-          "value": "90W"
-        },
-        {
-          "label": {
-            "en": "Voltage",
-            "zh": "电压"
-          },
-          "value": "14.2-16.8V"
-        },
-        {
-          "label": {
-            "en": "Input Voltage",
-            "zh": "Input Voltage"
-          },
-          "value": "5V 2A"
-        },
-        {
-          "label": {
-            "en": "Battery Type",
-            "zh": "电池类型"
-          },
-          "value": "Lithium Battery"
-        },
-        {
-          "label": {
-            "en": "Battery Capacity",
-            "zh": "电池容量"
-          },
-          "value": "1500mAh*4"
-        },
-        {
-          "label": {
-            "en": "Cylinder Type",
-            "zh": "Cylinder Type"
-          },
-          "value": "19 Cylinder"
-        },
-        {
-          "label": {
-            "en": "Inflation Time",
-            "zh": "Inflation Time"
-          },
-          "value": "25 Minutes"
-        },
-        {
-          "label": {
-            "en": "Air Tube Length",
-            "zh": "Air Tube Length"
-          },
-          "value": "20CM"
-        },
-        {
-          "label": {
-            "en": "Feature",
-            "zh": "Feature"
-          },
-          "value": "Portable Cordless Fast Inflation"
-        },
-        {
-          "label": {
-            "en": "Charging Type",
-            "zh": "Charging Type"
-          },
-          "value": "USB Charging"
-        },
-        {
-          "label": {
-            "en": "Warranty",
-            "zh": "质保"
-          },
-          "value": "1 Year"
-        },
-        {
-          "label": {
-            "en": "Function",
-            "zh": "功能"
-          },
-          "value": "Emergency Light"
-        },
-        {
-          "label": {
-            "en": "Display Type",
-            "zh": "Display Type"
-          },
-          "value": "LED Display Screen"
-        },
-        {
-          "label": {
-            "en": "Material",
-            "zh": "材质"
-          },
-          "value": "ABS"
-        },
-        {
-          "label": {
-            "en": "Suitable for",
-            "zh": "Suitable for"
-          },
-          "value": "Compact Car / Motorcycle"
-        },
-        {
-          "label": {
-            "en": "certification",
-            "zh": "certification"
-          },
-          "value": "FCC"
-        },
-        {
-          "label": {
-            "en": "Color",
-            "zh": "颜色"
-          },
-          "value": "Black"
-        },
-        {
-          "label": {
-            "en": "Place of Origin",
-            "zh": "产地"
-          },
-          "value": "CN"
-        },
-        {
-          "label": {
-            "en": "Voltage",
-            "zh": "电压"
-          },
-          "value": "14.2-16.8V"
-        },
-        {
-          "label": {
-            "en": "Size",
-            "zh": "尺寸"
-          },
-          "value": "20*12*6cm"
-        },
-        {
-          "label": {
-            "en": "Model Number",
-            "zh": "型号"
-          },
-          "value": "YM2"
-        },
-        {
-          "label": {
-            "en": "Cylinder type",
-            "zh": "Cylinder type"
-          },
-          "value": "19 cylinder"
-        },
-        {
-          "label": {
-            "en": "Noise Level",
-            "zh": "噪音"
-          },
-          "value": "85dB"
-        }
-      ],
-      "packaging": {
-        "unit": "Color Box"
-      },
-      "customization": {},
-      "applications": {
-        "en": "Car Motorcycle Bicycle",
-        "zh": "Car Motorcycle Bicycle"
-      },
-      "price_indicator": null,
-      "quick_specs": [
-        {
-          "label": {
-            "en": "Power",
-            "zh": "功率"
-          },
-          "value": "90W"
-        },
-        {
-          "label": {
-            "en": "Battery Capacity",
-            "zh": "电池容量"
-          },
-          "value": "1500mAh*4"
-        },
-        {
-          "label": {
-            "en": "Battery Type",
-            "zh": "电池类型"
-          },
-          "value": "Lithium Battery"
-        },
-        {
-          "label": {
-            "en": "Voltage",
-            "zh": "电压"
-          },
-          "value": "14.2-16.8V"
-        }
-      ],
-      "price_ladder": [],
-      "sku": "1601904697003",
-      "description": {
-        "en": "90W · 1500mAh*4 · Lithium Battery. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "90W · 1500mAh*4 · Lithium Battery。支持 OEM/ODM 定制，规格取自供应商商品资料。"
-      },
-      "supplier_rating": "4.81",
-      "response_time": "—",
-      "transactions": "—",
-      "years": "—",
-      "ship_from": {
-        "en": "China",
-        "zh": "中国"
-      },
-      "sample": {
-        "enabled": true,
-        "qty": 2,
-        "note": {
-          "en": "Sample available (max 2 pcs)",
-          "zh": "支持打样（最多 2 台）"
-        }
-      },
-      "category_name": {
-        "en": "Tire Inflators & Air Compressors",
-        "zh": "充气泵"
-      },
-      "_source": {
-        "platform": "alibaba.com",
-        "productId": "1601904697003"
-      },
-      "_cat": "tire-inflator"
-    },
-    {
-      "id": "ymc6688",
-      "name": {
-        "en": "Portable ABS Jump Starter Tire Inflator 150PSI 14.8V Lithium Polymer Battery 2500mAh CE Certified Car Battery Booster LCD",
-        "zh": "YMC6688 应急启动电源+充气泵（120W / 150PSI / 2500mAh×4）"
-      },
-      "tagline": {
-        "en": "≤120W · 150PSI / 10.3Bar · 40mins",
-        "zh": "≤120W · 150PSI / 10.3Bar · 40mins"
-      },
-      "images": [
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6688/01.webp",
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6688/02.webp",
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6688/03.webp",
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6688/04.webp",
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6688/05.webp",
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6688/06.webp"
-      ],
-      "video_url": null,
-      "moq": {
-        "value": 1,
-        "unit": "pieces"
-      },
-      "certifications": [],
-      "highlights": [
-        {
-          "icon": "check",
-          "text": {
-            "en": "Power: ≤120W",
-            "zh": "功率: ≤120W"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Maximum Pressure: 150PSI / 10.3Bar",
-            "zh": "最大气压: 150PSI / 10.3Bar"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Working Time: 40mins",
-            "zh": "工作时间: 40mins"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Battery Capacity: 2500mAh*4",
-            "zh": "电池容量: 2500mAh*4"
-          }
-        }
-      ],
-      "specs": [
-        {
-          "label": {
-            "en": "Power",
-            "zh": "功率"
-          },
-          "value": "≤120W"
-        },
-        {
-          "label": {
-            "en": "Battery Type",
-            "zh": "电池类型"
-          },
-          "value": "Lithium Polymer Battery"
-        },
-        {
-          "label": {
-            "en": "Battery Capacity",
-            "zh": "电池容量"
-          },
-          "value": "2500mAh*4"
-        },
-        {
-          "label": {
-            "en": "Charging Time",
-            "zh": "充电时间"
-          },
-          "value": "3-5H"
-        },
-        {
-          "label": {
-            "en": "Working Time",
-            "zh": "工作时间"
-          },
-          "value": "40mins"
-        },
-        {
-          "label": {
-            "en": "Maximum Pressure",
-            "zh": "Maximum Pressure"
-          },
-          "value": "150PSI / 10.3Bar"
-        },
-        {
-          "label": {
-            "en": "Warranty",
-            "zh": "质保"
-          },
-          "value": "1 Year"
-        },
-        {
-          "label": {
-            "en": "Function",
-            "zh": "功能"
-          },
-          "value": "Emergency Light"
-        },
-        {
-          "label": {
-            "en": "Function",
-            "zh": "功能"
-          },
-          "value": "Power Indicator"
-        },
-        {
-          "label": {
-            "en": "Function",
-            "zh": "功能"
-          },
-          "value": "Tire Pressure Monitor"
-        },
-        {
-          "label": {
-            "en": "Display Type",
-            "zh": "Display Type"
-          },
-          "value": "digital pressure gauge"
-        },
-        {
-          "label": {
-            "en": "Cylinder type",
-            "zh": "Cylinder type"
-          },
-          "value": "Single Cylinder Inflators"
-        },
-        {
-          "label": {
-            "en": "Material",
-            "zh": "材质"
-          },
-          "value": "ABS"
-        },
-        {
-          "label": {
-            "en": "Suitable for",
-            "zh": "Suitable for"
-          },
-          "value": "Compact Car / Motorcycle"
-        },
-        {
-          "label": {
-            "en": "certification",
-            "zh": "certification"
-          },
-          "value": "CE"
-        },
-        {
-          "label": {
-            "en": "Color",
-            "zh": "颜色"
-          },
-          "value": "Black"
-        },
-        {
-          "label": {
-            "en": "Place of Origin",
-            "zh": "产地"
-          },
-          "value": "CN"
-        },
-        {
-          "label": {
-            "en": "Voltage",
-            "zh": "电压"
-          },
-          "value": "14.8V"
-        },
-        {
-          "label": {
-            "en": "Size",
-            "zh": "尺寸"
-          },
-          "value": "11*6*20CM"
-        },
-        {
-          "label": {
-            "en": "Model Number",
-            "zh": "型号"
-          },
-          "value": "YMC6688"
-        },
-        {
-          "label": {
-            "en": "Noise Level",
-            "zh": "噪音"
-          },
-          "value": "85"
-        }
-      ],
-      "packaging": {
-        "unit": "Color Box"
-      },
-      "customization": {},
-      "applications": {
-        "en": "",
-        "zh": ""
-      },
-      "price_indicator": null,
-      "quick_specs": [
-        {
-          "label": {
-            "en": "Power",
-            "zh": "功率"
-          },
-          "value": "≤120W"
-        },
-        {
-          "label": {
-            "en": "Maximum Pressure",
-            "zh": "最大气压"
-          },
-          "value": "150PSI / 10.3Bar"
-        },
-        {
-          "label": {
-            "en": "Working Time",
-            "zh": "工作时间"
-          },
-          "value": "40mins"
-        },
-        {
-          "label": {
-            "en": "Battery Capacity",
-            "zh": "电池容量"
-          },
-          "value": "2500mAh*4"
-        }
-      ],
-      "price_ladder": [],
-      "sku": "1601909142066",
-      "description": {
-        "en": "≤120W · 150PSI / 10.3Bar · 40mins. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "≤120W · 150PSI / 10.3Bar · 40mins。支持 OEM/ODM 定制，规格取自供应商商品资料。"
-      },
-      "supplier_rating": "4.81",
-      "response_time": "—",
-      "transactions": "—",
-      "years": "—",
-      "ship_from": {
-        "en": "China",
-        "zh": "中国"
-      },
-      "sample": {
-        "enabled": true,
-        "qty": 2,
-        "note": {
-          "en": "Sample available (max 2 pcs)",
-          "zh": "支持打样（最多 2 台）"
-        }
-      },
-      "category_name": {
-        "en": "Tire Inflators & Air Compressors",
-        "zh": "充气泵"
-      },
-      "_source": {
-        "platform": "alibaba.com",
-        "productId": "1601909142066"
-      },
-      "_cat": "tire-inflator"
+     "icon": "portable",
+     "text": {
+      "en": "Cordless, 0.9kg-Class Portable Body",
+      "zh": "无线便携机身",
+      "es": "Cuerpo portátil inalámbrico de la clase 0,9 kg",
+      "ar": "جسم محمول لاسلكي من فئة 0.9kg",
+      "fr": "Corps portatif sans fil de la classe 0,9 kg",
+      "id": "Bodi portabel nirkabel kelas 0.9kg",
+      "ru": "Беспроводной портативный корпус класса 0,9 кг",
+      "th": "ตัวเครื่องแบบพกพาไร้สายระดับ 0.9kg",
+      "vi": "Thân máy di động không dây, hạng 0,9 kg"
+     }
     }
-  ],
-  "reviews": [
+   ],
+   "specs": [
     {
-      "name": "Kevin Murphy",
-      "location": "Denver, CO, USA",
-      "rating": 5,
-      "date": "2025-12-01",
-      "title": "Digital gauge is accurate to ±0.1 PSI — matches my professional inflator",
-      "body": "I am a mechanic and I use this for quick top-ups between full inflations. The digital display reads in PSI, BAR, and KPA. The auto shut-off at target pressure is reliable. The built-in LED light makes it usable in dark garages or at night.",
-      "photoUrls": [
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/01-main.webp",
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/02.webp"
-      ]
+     "label": {
+      "en": "Model",
+      "zh": "型号",
+      "es": "Modelo",
+      "ar": "الموديل",
+      "fr": "Modèle",
+      "id": "Model",
+      "ru": "Модель",
+      "th": "รุ่น",
+      "vi": "Model"
+     },
+     "value": {
+      "en": "YMC6628",
+      "es": "YMC6628",
+      "ar": "YMC6628",
+      "fr": "YMC6628",
+      "id": "YMC6628",
+      "ru": "YMC6628",
+      "th": "YMC6628",
+      "vi": "YMC6628"
+     }
     },
     {
-      "name": "Yuki Tanaka",
-      "location": "Osaka, Japan",
-      "rating": 5,
-      "date": "2025-09-25",
-      "title": "Compact digital inflator replaces my garage air compressor for daily use",
-      "body": "At 1.8kg this is the lightest digital inflator I have owned. It fills a standard car tire from 0 to 32 PSI in about 4 minutes. The 3m power cord and 60cm hose give plenty of reach. It also works as a power bank via its USB-A port.",
-      "photoUrls": [
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/01-main.webp",
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/02.webp"
-      ]
+     "label": {
+      "en": "Maximum Pressure",
+      "zh": "最高压力",
+      "es": "Presión máxima",
+      "ar": "أقصى ضغط",
+      "fr": "Pression maximale",
+      "id": "Tekanan Maksimum",
+      "ru": "Максимальное давление",
+      "th": "แรงดันสูงสุด",
+      "vi": "Áp suất tối đa"
+     },
+     "value": {
+      "en": "150PSI / 10.3Bar",
+      "es": "150PSI / 10.3Bar",
+      "ar": "150PSI / 10.3Bar",
+      "fr": "150PSI / 10.3Bar",
+      "id": "150PSI / 10.3Bar",
+      "ru": "150PSI / 10.3Bar",
+      "th": "150PSI / 10.3Bar",
+      "vi": "150PSI / 10.3Bar"
+     }
     },
     {
-      "name": "Stefan Bauer",
-      "location": "Vienna, Austria",
-      "rating": 4,
-      "date": "2025-07-30",
-      "title": "Reliable for both car and bicycle tires — good value for the price",
-      "body": "I use this for our family car and two bicycles (Presta valve adapter included). The inflation speed is slower than a garage compressor but perfectly adequate for regular maintenance. The storage pouch keeps everything organized.",
-      "photoUrls": [
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/01-main.webp",
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/02.webp"
-      ]
+     "label": {
+      "en": "Voltage",
+      "zh": "电压",
+      "es": "Tensión",
+      "ar": "الجهد",
+      "fr": "Tension",
+      "id": "Tegangan",
+      "ru": "Напряжение",
+      "th": "แรงดันไฟฟ้า",
+      "vi": "Điện áp"
+     },
+     "value": {
+      "en": "11.1V",
+      "es": "11.1V",
+      "ar": "11.1V",
+      "fr": "11.1V",
+      "id": "11.1V",
+      "ru": "11.1V",
+      "th": "11.1V",
+      "vi": "11.1V"
+     }
+    },
+    {
+     "label": {
+      "en": "Power",
+      "zh": "功率",
+      "es": "Potencia",
+      "ar": "القدرة",
+      "fr": "Puissance",
+      "id": "Daya",
+      "ru": "Мощность",
+      "th": "กำลังไฟ",
+      "vi": "Công suất"
+     },
+     "value": {
+      "en": "≤95W",
+      "es": "≤95W",
+      "ar": "≤95W",
+      "fr": "≤95W",
+      "id": "≤95W",
+      "ru": "≤95W",
+      "th": "≤95W",
+      "vi": "≤95W"
+     }
+    },
+    {
+     "label": {
+      "en": "Battery",
+      "zh": "电池",
+      "es": "Batería",
+      "ar": "البطارية",
+      "fr": "Batterie",
+      "id": "Baterai",
+      "ru": "Аккумулятор",
+      "th": "แบตเตอรี่",
+      "vi": "Pin"
+     },
+     "value": {
+      "en": "2000mAh × 3 Lithium Polymer",
+      "es": "2000mAh × 3 Lithium Polymer",
+      "ar": "2000mAh × 3 Lithium Polymer",
+      "fr": "2000mAh × 3 Lithium Polymer",
+      "id": "2000mAh × 3 Lithium Polymer",
+      "ru": "2000mAh × 3 Lithium Polymer",
+      "th": "2000mAh × 3 Lithium Polymer",
+      "vi": "2000mAh × 3 Lithium Polymer"
+     }
+    },
+    {
+     "label": {
+      "en": "Charging Time",
+      "zh": "充电时间",
+      "es": "Tiempo de carga",
+      "ar": "زمن الشحن",
+      "fr": "Temps de charge",
+      "id": "Waktu Pengisian",
+      "ru": "Время зарядки",
+      "th": "เวลาในการชาร์จ",
+      "vi": "Thời gian sạc"
+     },
+     "value": {
+      "en": "2–3 hours",
+      "es": "2–3 horas",
+      "ar": "2–3 ساعات",
+      "fr": "2–3 heures",
+      "id": "2–3 jam",
+      "ru": "2–3 часа",
+      "th": "2–3 ชั่วโมง",
+      "vi": "2–3 giờ"
+     }
+    },
+    {
+     "label": {
+      "en": "Working Time",
+      "zh": "工作时长",
+      "es": "Tiempo de funcionamiento",
+      "ar": "زمن العمل",
+      "fr": "Temps de fonctionnement",
+      "id": "Waktu Kerja",
+      "ru": "Время работы",
+      "th": "เวลาทำงาน",
+      "vi": "Thời gian làm việc"
+     },
+     "value": {
+      "en": "25 min",
+      "es": "25 min",
+      "ar": "25 min",
+      "fr": "25 min",
+      "id": "25 min",
+      "ru": "25 min",
+      "th": "25 min",
+      "vi": "25 min"
+     }
+    },
+    {
+     "label": {
+      "en": "Display Type",
+      "zh": "显示方式",
+      "es": "Tipo de pantalla",
+      "ar": "نوع الشاشة",
+      "fr": "Type d'écran",
+      "id": "Jenis Layar",
+      "ru": "Тип дисплея",
+      "th": "ประเภทหน้าจอแสดงผล",
+      "vi": "Loại màn hình"
+     },
+     "value": {
+      "en": "Digital Pressure Gauge",
+      "es": "Manómetro digital",
+      "ar": "مقياس ضغط رقمي",
+      "fr": "Manomètre numérique",
+      "id": "Pengukur Tekanan Digital",
+      "ru": "Цифровой манометр",
+      "th": "มาตรวัดแรงดันดิจิทัล",
+      "vi": "Đồng hồ đo áp suất kỹ thuật số"
+     }
+    },
+    {
+     "label": {
+      "en": "Cylinder Type",
+      "zh": "气缸类型",
+      "es": "Tipo de cilindro",
+      "ar": "نوع الأسطوانة",
+      "fr": "Type de cylindre",
+      "id": "Jenis Silinder",
+      "ru": "Тип цилиндра",
+      "th": "ประเภทสูบ",
+      "vi": "Loại xi-lanh"
+     },
+     "value": {
+      "en": "Single Cylinder",
+      "es": "Cilindro único",
+      "ar": "أسطوانة واحدة",
+      "fr": "Cylindre unique",
+      "id": "Silinder Tunggal",
+      "ru": "Одноцилиндровый",
+      "th": "สูบเดียว",
+      "vi": "Một xi-lanh"
+     }
+    },
+    {
+     "label": {
+      "en": "Noise Level",
+      "zh": "噪音",
+      "es": "Nivel de ruido",
+      "ar": "مستوى الضجيج",
+      "fr": "Niveau sonore",
+      "id": "Tingkat Kebisingan",
+      "ru": "Уровень шума",
+      "th": "ระดับเสียงรบกวน",
+      "vi": "Mức ồn"
+     },
+     "value": {
+      "en": "≤85dB",
+      "es": "≤85dB",
+      "ar": "≤85dB",
+      "fr": "≤85dB",
+      "id": "≤85dB",
+      "ru": "≤85dB",
+      "th": "≤85dB",
+      "vi": "≤85dB"
+     }
+    },
+    {
+     "label": {
+      "en": "Size",
+      "zh": "尺寸",
+      "es": "Tamaño",
+      "ar": "الحجم",
+      "fr": "Taille",
+      "id": "Ukuran",
+      "ru": "Размер",
+      "th": "ขนาด",
+      "vi": "Kích thước"
+     },
+     "value": {
+      "en": "9 × 5 × 17 cm",
+      "es": "9 × 5 × 17 cm",
+      "ar": "9 × 5 × 17 cm",
+      "fr": "9 × 5 × 17 cm",
+      "id": "9 × 5 × 17 cm",
+      "ru": "9 × 5 × 17 cm",
+      "th": "9 × 5 × 17 cm",
+      "vi": "9 × 5 × 17 cm"
+     }
+    },
+    {
+     "label": {
+      "en": "Material",
+      "zh": "材质",
+      "es": "Material",
+      "ar": "المادة",
+      "fr": "Matériau",
+      "id": "Material",
+      "ru": "Материал",
+      "th": "วัสดุ",
+      "vi": "Chất liệu"
+     },
+     "value": {
+      "en": "ABS",
+      "es": "ABS",
+      "ar": "ABS",
+      "fr": "ABS",
+      "id": "ABS",
+      "ru": "ABS",
+      "th": "ABS",
+      "vi": "ABS"
+     }
+    },
+    {
+     "label": {
+      "en": "Suitable For",
+      "zh": "适用车型",
+      "es": "Apto para",
+      "ar": "مناسب لـ",
+      "fr": "Convient pour",
+      "id": "Cocok Untuk",
+      "ru": "Подходит для",
+      "th": "เหมาะสำหรับ",
+      "vi": "Phù hợp cho"
+     },
+     "value": {
+      "en": "Compact Car / Motorcycle",
+      "es": "Coche compacto / motocicleta",
+      "ar": "سيارة صغيرة / دراجة نارية",
+      "fr": "Petite voiture / moto",
+      "id": "Mobil Kompak / Motor",
+      "ru": "Малолитражный автомобиль / мотоцикл",
+      "th": "รถยนต์ขนาดเล็ก / รถจักรยานยนต์",
+      "vi": "Xe nhỏ / xe máy"
+     }
+    },
+    {
+     "label": {
+      "en": "Certification",
+      "zh": "认证",
+      "es": "Certificación",
+      "ar": "الشهادة",
+      "fr": "Certification",
+      "id": "Sertifikasi",
+      "ru": "Сертификация",
+      "th": "การรับรอง",
+      "vi": "Chứng nhận"
+     },
+     "value": {
+      "en": "CE",
+      "es": "CE",
+      "ar": "CE",
+      "fr": "CE",
+      "id": "CE",
+      "ru": "CE",
+      "th": "CE",
+      "vi": "CE"
+     }
+    },
+    {
+     "label": {
+      "en": "Warranty",
+      "zh": "质保",
+      "es": "Garantía",
+      "ar": "الضمان",
+      "fr": "Garantie",
+      "id": "Garansi",
+      "ru": "Гарантия",
+      "th": "การรับประกัน",
+      "vi": "Bảo hành"
+     },
+     "value": {
+      "en": "1 Year",
+      "es": "1 año",
+      "ar": "سنة واحدة",
+      "fr": "1 an",
+      "id": "1 tahun",
+      "ru": "1 год",
+      "th": "1 ปี",
+      "vi": "1 năm"
+     }
     }
-  ],
-  "_schema_reviews": [
+   ],
+   "quick_specs": [
     {
-      "@type": "Review",
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "5",
-        "bestRating": "5",
-        "worstRating": "1"
-      },
-      "author": {
-        "@type": "Person",
-        "name": "Kevin Murphy",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Denver, CO, USA"
-        }
-      },
-      "datePublished": "2025-12-01",
-      "reviewBody": "I am a mechanic and I use this for quick top-ups between full inflations. The digital display reads in PSI, BAR, and KPA. The auto shut-off at target pressure is reliable. The built-in LED light makes it usable in dark garages or at night.",
-      "name": "Digital gauge is accurate to ±0.1 PSI — matches my professional inflator",
-      "image": [
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/01-main.webp",
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/02.webp"
-      ]
+     "label": {
+      "en": "Max Pressure",
+      "zh": "最高压力",
+      "es": "Presión máx.",
+      "ar": "أقصى ضغط",
+      "fr": "Pression max.",
+      "id": "Tekanan Maks",
+      "ru": "Макс. давление",
+      "th": "แรงดันสูงสุด",
+      "vi": "Áp suất tối đa"
+     },
+     "value": {
+      "en": "150PSI",
+      "es": "150PSI",
+      "ar": "150PSI",
+      "fr": "150PSI",
+      "id": "150PSI",
+      "ru": "150PSI",
+      "th": "150PSI",
+      "vi": "150PSI"
+     }
     },
     {
-      "@type": "Review",
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "5",
-        "bestRating": "5",
-        "worstRating": "1"
-      },
-      "author": {
-        "@type": "Person",
-        "name": "Yuki Tanaka",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Osaka, Japan"
-        }
-      },
-      "datePublished": "2025-09-25",
-      "reviewBody": "At 1.8kg this is the lightest digital inflator I have owned. It fills a standard car tire from 0 to 32 PSI in about 4 minutes. The 3m power cord and 60cm hose give plenty of reach. It also works as a power bank via its USB-A port.",
-      "name": "Compact digital inflator replaces my garage air compressor for daily use",
-      "image": [
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/01-main.webp",
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/02.webp"
-      ]
+     "label": {
+      "en": "Battery",
+      "zh": "电池",
+      "es": "Batería",
+      "ar": "البطارية",
+      "fr": "Batterie",
+      "id": "Baterai",
+      "ru": "Аккумулятор",
+      "th": "แบตเตอรี่",
+      "vi": "Pin"
+     },
+     "value": {
+      "en": "2000mAh × 3",
+      "es": "2000mAh × 3",
+      "ar": "2000mAh × 3",
+      "fr": "2000mAh × 3",
+      "id": "2000mAh × 3",
+      "ru": "2000mAh × 3",
+      "th": "2000mAh × 3",
+      "vi": "2000mAh × 3"
+     }
     },
     {
-      "@type": "Review",
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "4",
-        "bestRating": "5",
-        "worstRating": "1"
-      },
-      "author": {
-        "@type": "Person",
-        "name": "Stefan Bauer",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Vienna, Austria"
-        }
-      },
-      "datePublished": "2025-07-30",
-      "reviewBody": "I use this for our family car and two bicycles (Presta valve adapter included). The inflation speed is slower than a garage compressor but perfectly adequate for regular maintenance. The storage pouch keeps everything organized.",
-      "name": "Reliable for both car and bicycle tires — good value for the price",
-      "image": [
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/01-main.webp",
-        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/02.webp"
-      ]
+     "label": {
+      "en": "Working Time",
+      "zh": "工作时长",
+      "es": "Tiempo de funcionamiento",
+      "ar": "زمن العمل",
+      "fr": "Temps de fonctionnement",
+      "id": "Waktu Kerja",
+      "ru": "Время работы",
+      "th": "เวลาทำงาน",
+      "vi": "Thời gian làm việc"
+     },
+     "value": {
+      "en": "25 min",
+      "es": "25 min",
+      "ar": "25 min",
+      "fr": "25 min",
+      "id": "25 min",
+      "ru": "25 min",
+      "th": "25 min",
+      "vi": "25 min"
+     }
+    },
+    {
+     "label": {
+      "en": "Certification",
+      "zh": "认证",
+      "es": "Certificación",
+      "ar": "الشهادة",
+      "fr": "Certification",
+      "id": "Sertifikasi",
+      "ru": "Сертификация",
+      "th": "การรับรอง",
+      "vi": "Chứng nhận"
+     },
+     "value": {
+      "en": "CE",
+      "es": "CE",
+      "ar": "CE",
+      "fr": "CE",
+      "id": "CE",
+      "ru": "CE",
+      "th": "CE",
+      "vi": "CE"
+     }
     }
-  ]
+   ],
+   "packaging": {
+    "unit": "Color Box",
+    "ctn_size": "11x10x19cm",
+    "ctn_qty": "—",
+    "gross_weight": "1.0kg"
+   },
+   "customization": {
+    "oem": true,
+    "odm": true,
+    "logo": null,
+    "color": true,
+    "package": null,
+    "sample_lead": "on request",
+    "production_lead": "on request"
+   },
+   "applications": {
+    "en": "Car, Motorcycle",
+    "zh": "汽车、摩托车",
+    "es": "Coche, motocicleta",
+    "ar": "سيارة، دراجة نارية",
+    "fr": "Voiture, moto",
+    "id": "Mobil, motor",
+    "ru": "Автомобиль, мотоцикл",
+    "th": "รถยนต์ รถจักรยานยนต์",
+    "vi": "Ô tô, xe máy"
+   },
+   "price_indicator": {
+    "min": 11,
+    "max": 14.5,
+    "currency": "USD"
+   },
+   "price_ladder": [
+    {
+     "min": 10,
+     "max": 499,
+     "price": 14.5
+    },
+    {
+     "min": 500,
+     "max": 999,
+     "price": 12.8
+    },
+    {
+     "min": 1000,
+     "max": null,
+     "price": 11
+    }
+   ],
+   "sku": [
+    {
+     "name": {
+      "en": "Pressure Range",
+      "zh": "压力范围"
+     },
+     "values": [
+      {
+       "name": "101-150Psi"
+      }
+     ]
+    },
+    {
+     "name": {
+      "en": "Power Source",
+      "zh": "供电方式"
+     },
+     "values": [
+      {
+       "name": "Battery Powered"
+      }
+     ]
+    }
+   ],
+   "description": {
+    "en": "The YMC6628 is a cordless portable tire inflator with a 150PSI / 10.3Bar maximum pressure, an 11.1V lithium-polymer battery (2000mAh × 3) and a digital pressure gauge that stops automatically at your target value. It doubles as a power bank with emergency LED light and pressure monitoring, charges in 2–3 hours and runs about 25 minutes per charge. CE certified, suitable for compact cars and motorcycles, with OEM/ODM colour customisation available.",
+    "zh": "YMC6628 是一款无线便携充气泵，最高压力 150PSI / 10.3Bar，搭载 11.1V 锂聚合物电池（2000mAh × 3）与数显胎压表，达到设定胎压自动停机；同时内置移动电源与应急 LED 照明、支持胎压监测。2–3 小时充满，单次工作约 25 分钟。已通过 CE 认证，适用于轿车与摩托车，支持 OEM/ODM 颜色定制。",
+    "es": "El YMC6628 es un inflador de neumáticos portátil e inalámbrico con una presión máxima de 150 PSI / 10,3 bar, una batería de polímero de litio de 11,1 V (2000 mAh × 3) y un manómetro digital que se detiene automáticamente al alcanzar el valor objetivo. También funciona como batería externa con luz LED de emergencia y monitorización de presión; se carga en 2–3 horas y ofrece unos 25 minutos de uso por carga. Certificado CE, apto para coches compactos y motocicletas, con personalización de color OEM/ODM disponible.",
+    "ar": "YMC6628 هي مضخة إطارات لاسلكية محمولة بضغط أقصى 150PSI / 10.3Bar، وبطارية ليثيوم بوليمر 11.1V (2000mAh × 3)، ومقياس ضغط رقمي يتوقف تلقائيًا عند القيمة المستهدفة. تعمل أيضًا كبطارية متنقلة مع إضاءة LED للطوارئ ومراقبة الضغط، وتُشحن خلال 2–3 ساعات وتعمل نحو 25 دقيقة لكل شحنة. معتمدة CE، مناسبة للسيارات الصغيرة والدراجات النارية، مع توفّر تخصيص اللون بنظام OEM/ODM.",
+    "fr": "Le YMC6628 est un gonfleur de pneus portatif sans fil avec une pression maximale de 150 PSI / 10,3 bar, une batterie polymère au lithium de 11,1 V (2000 mAh × 3) et un manomètre numérique qui s'arrête automatiquement à la valeur cible. Il fait aussi office de batterie externe avec éclairage LED d'urgence et surveillance de la pression ; il se charge en 2–3 heures et offre environ 25 minutes d'utilisation par charge. Certifié CE, adapté aux petites voitures et aux motos, avec personnalisation de couleur OEM/ODM disponible.",
+    "id": "YMC6628 adalah pompa ban portabel nirkabel dengan tekanan maksimum 150PSI / 10.3Bar, baterai litium-polimer 11.1V (2000mAh × 3), dan pengukur tekanan digital yang berhenti otomatis pada nilai target Anda. Perangkat ini juga berfungsi sebagai power bank dengan lampu LED darurat dan pemantauan tekanan, mengisi daya dalam 2–3 jam dan beroperasi sekitar 25 menit per pengisian. Tersertifikasi CE, cocok untuk mobil kompak dan motor, dengan kustomisasi warna OEM/ODM tersedia.",
+    "ru": "YMC6628 — это беспроводной портативный компрессор для шин с максимальным давлением 150 PSI / 10,3 бар, литий-полимерным аккумулятором 11,1 V (2000 мАч × 3) и цифровым манометром, который автоматически останавливается при достижении заданного значения. Он также служит пауэрбанком с аварийной подсветкой LED и контролем давления, заряжается за 2–3 часа и работает около 25 минут на одном заряде. Сертификат CE, подходит для малолитражных автомобилей и мотоциклов, доступна персонализация цвета OEM/ODM.",
+    "th": "YMC6628 เป็นเครื่องเติมลมยางแบบพกพาไร้สาย แรงดันสูงสุด 150PSI / 10.3Bar ใช้แบตเตอรี่ลิเธียมโพลิเมอร์ 11.1V (2000mAh × 3) และมาตรวัดแรงดันดิจิทัลที่หยุดอัตโนมัติเมื่อถึงค่าที่ตั้งไว้ ยังใช้เป็นพาวเวอร์แบงก์ได้พร้อมไฟ LED ฉุกเฉินและการตรวจวัดแรงดัน ชาร์จใน 2–3 ชั่วโมง และใช้งานได้ประมาณ 25 นาทีต่อการชาร์จหนึ่งครั้ง ผ่านการรับรอง CE เหมาะสำหรับรถยนต์ขนาดเล็กและรถจักรยานยนต์ พร้อมบริการปรับแต่งสีแบบ OEM/ODM",
+    "vi": "YMC6628 là bơm lốp di động không dây với áp suất tối đa 150PSI / 10,3Bar, pin lithium polymer 11,1V (2000mAh × 3) và đồng hồ đo áp suất kỹ thuật số tự động dừng khi đạt giá trị mục tiêu. Máy còn dùng làm pin dự phòng với đèn LED khẩn cấp và theo dõi áp suất, sạc trong 2–3 giờ và chạy khoảng 25 phút mỗi lần sạc. Đạt chứng nhận CE, phù hợp cho xe nhỏ và xe máy, có tùy chỉnh màu theo OEM/ODM."
+   },
+   "supplier_rating": "4.81",
+   "response_time": "—",
+   "transactions": "—",
+   "years": "—",
+   "ship_from": {
+    "en": "China",
+    "zh": "中国"
+   },
+   "sample": {
+    "enabled": true,
+    "qty": 2,
+    "note": {
+     "en": "Sample available (max 2 pcs)",
+     "zh": "支持打样（最多 2 台）"
+    }
+   },
+   "category_name": {
+    "en": "Tire Inflators & Air Compressors",
+    "zh": "充气泵",
+    "es": "Inflador de Neumaticos Digital",
+    "ar": "مضخة إطارات رقمية",
+    "fr": "Gonfleur de pneus numérique",
+    "id": "Pompa Ban Digital",
+    "ru": "Цифровой компрессор для шин",
+    "th": "ปั๊มลมยางดิจิทัล",
+    "vi": "Bơm lốp xe kỹ thuật số"
+   },
+   "certificates": [
+    {
+     "certId": "60007675410",
+     "name": "Declaration of Conformity",
+     "certNo": "EFW526022843-CG-02+REV 1",
+     "availableDate": "2026-07-27",
+     "expiredDate": "2031-07-24",
+     "verified": true,
+     "image": null,
+     "coversHint": "V18"
+    },
+    {
+     "certId": "60007673019",
+     "name": "Declaration of Conformity",
+     "certNo": "CTA25030700203+CTA25030700205+CQASZ20250902238E+YHJC202412100039R1",
+     "availableDate": "2026-07-27",
+     "expiredDate": "2031-07-24",
+     "verified": true,
+     "image": null,
+     "coversHint": null
+    },
+    {
+     "certId": "60008004208",
+     "name": "Declaration of Conformity",
+     "certNo": "XDX50238736101701EC",
+     "availableDate": "2026-09-02",
+     "expiredDate": "2031-09-07",
+     "verified": true,
+     "image": "/assets/images/certificates/60008004208.webp",
+     "coversHint": null
+    }
+   ],
+   "supplier": {
+    "country": "HK",
+    "province": "New Territories",
+    "established": 2024,
+    "reply_rate": 0.9987,
+    "verified": false,
+    "main_markets": [
+     "North America",
+     "South America",
+     "Eastern Europe",
+     "Southeast Asia"
+    ]
+   },
+   "store_rating": {
+    "score": 4.81,
+    "reviews": 7,
+    "scope": "store"
+   },
+   "shipping_fee_usd": 17.02,
+   "alibaba_url": "https://www.alibaba.com/product-detail/OEM-ODM-Portable-ABS-Tire-Inflator_1601910965318.html",
+   "_cat": "tire-inflator"
+  },
+  {
+   "id": "ymc6667",
+   "name": {
+    "en": "1200A Jump Starter Tire Inflator Air Compressor 7 in 1 Car Battery Booster with Blower Vacuum LED Light Power Bank SOS OEM ODM",
+    "zh": "1200A 七合一应急启动电源 + 充气泵",
+    "es": "Arrancador de batería 1200A con inflador de neumáticos y compresor de aire 7 en 1, potenciador de batería de coche con soplador, aspiradora, luz LED, batería externa y SOS, OEM ODM",
+    "ar": "مشغّل بطارية 1200A مع مضخة إطارات وضاغط هواء 7 في 1، معزّز بطارية سيارة بمنفاخ ومكنسة وإضاءة LED وبطارية متنقلة وSOS، OEM ODM",
+    "fr": "Démarreur 1200A avec gonfleur de pneus et compresseur d'air 7 en 1, booster de batterie de voiture avec souffleur, aspirateur, éclairage LED, batterie externe et SOS, OEM ODM",
+    "id": "Jump Starter 1200A, Pompa Ban, Kompresor Udara 7 in 1, Booster Baterai Mobil dengan Peniup, Penyedot Debu, Lampu LED, Power Bank, SOS, OEM ODM",
+    "ru": "Пусковое устройство 1200 A с компрессором для шин и воздушным компрессором 7 в 1, автомобильный бустер аккумулятора с воздуходувкой, пылесосом, подсветкой LED, пауэрбанком и SOS, OEM ODM",
+    "th": "เครื่องจั๊มสตาร์ทแบตเตอรี่ 1200A พร้อมเครื่องเติมลมยางและปั๊มลม 7 in 1 บูสเตอร์แบตเตอรี่รถยนต์ พร้อมเป่าลม ดูดฝุ่น ไฟ LED พาวเวอร์แบงก์ และ SOS OEM ODM",
+    "vi": "Bộ kích bình 1200A kèm bơm lốp và máy nén khí 7 trong 1, bộ kích ắc quy ô tô với thổi khí, hút bụi, đèn LED, pin dự phòng và SOS, OEM ODM"
+   },
+   "tagline": {
+    "en": "≤120W · 150PSI / 10.3Bar · 40mins",
+    "zh": "≤120W · 150PSI / 10.3Bar · 40mins",
+    "es": "≤120W · 150PSI / 10.3Bar · 40mins",
+    "ar": "≤120W · 150PSI / 10.3Bar · 40mins",
+    "fr": "≤120W · 150PSI / 10.3Bar · 40mins",
+    "id": "≤120W · 150PSI / 10.3Bar · 40mins",
+    "ru": "≤120W · 150PSI / 10.3Bar · 40mins",
+    "th": "≤120W · 150PSI / 10.3Bar · 40mins",
+    "vi": "≤120W · 150PSI / 10.3Bar · 40mins"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/01.webp",
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/02.webp",
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/03.webp",
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/04.webp",
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/05.webp",
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/06.webp"
+   ],
+   "video_url": null,
+   "moq": {
+    "value": 1,
+    "unit": "pieces"
+   },
+   "certifications": [],
+   "highlights": [
+    {
+     "icon": "check",
+     "text": {
+      "en": "Power: ≤120W",
+      "zh": "功率: ≤120W",
+      "es": "Potencia: ≤120W",
+      "ar": "القدرة: ≤120W",
+      "fr": "Puissance: ≤120W",
+      "id": "Daya: ≤120W",
+      "ru": "Мощность: ≤120W",
+      "th": "กำลังไฟ: ≤120W",
+      "vi": "Công suất: ≤120W"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Maximum Pressure: 150PSI / 10.3Bar",
+      "zh": "最大气压: 150PSI / 10.3Bar",
+      "es": "Presión máxima: 150PSI / 10.3Bar",
+      "ar": "أقصى ضغط: 150PSI / 10.3Bar",
+      "fr": "Pression maximale: 150PSI / 10.3Bar",
+      "id": "Tekanan Maksimum: 150PSI / 10.3Bar",
+      "ru": "Максимальное давление: 150PSI / 10.3Bar",
+      "th": "แรงดันสูงสุด: 150PSI / 10.3Bar",
+      "vi": "Áp suất tối đa: 150PSI / 10.3Bar"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Working Time: 40mins",
+      "zh": "工作时间: 40mins",
+      "es": "Tiempo de funcionamiento: 40mins",
+      "ar": "زمن العمل: 40mins",
+      "fr": "Temps de fonctionnement: 40mins",
+      "id": "Waktu Kerja: 40mins",
+      "ru": "Время работы: 40mins",
+      "th": "เวลาทำงาน: 40mins",
+      "vi": "Thời gian làm việc: 40mins"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Battery Capacity: 2500mAh*4",
+      "zh": "电池容量: 2500mAh*4",
+      "es": "Capacidad de batería: 2500mAh*4",
+      "ar": "سعة البطارية: 2500mAh*4",
+      "fr": "Capacité de la batterie: 2500mAh*4",
+      "id": "Kapasitas Baterai: 2500mAh*4",
+      "ru": "Ёмкость аккумулятора: 2500mAh*4",
+      "th": "ความจุแบตเตอรี่: 2500mAh*4",
+      "vi": "Dung lượng pin: 2500mAh*4"
+     }
+    }
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "Power",
+      "zh": "功率",
+      "es": "Potencia",
+      "ar": "القدرة",
+      "fr": "Puissance",
+      "id": "Daya",
+      "ru": "Мощность",
+      "th": "กำลังไฟ",
+      "vi": "Công suất"
+     },
+     "value": {
+      "en": "≤120W",
+      "es": "≤120W",
+      "ar": "≤120W",
+      "fr": "≤120W",
+      "id": "≤120W",
+      "ru": "≤120W",
+      "th": "≤120W",
+      "vi": "≤120W"
+     }
+    },
+    {
+     "label": {
+      "en": "Battery Type",
+      "zh": "电池类型",
+      "es": "Tipo de batería",
+      "ar": "نوع البطارية",
+      "fr": "Type de batterie",
+      "id": "Jenis Baterai",
+      "ru": "Тип аккумулятора",
+      "th": "ประเภทแบตเตอรี่",
+      "vi": "Loại pin"
+     },
+     "value": {
+      "en": "Lithium Polymer Battery",
+      "es": "Batería de polímero de litio",
+      "ar": "بطارية ليثيوم بوليمر",
+      "fr": "Batterie polymère au lithium",
+      "id": "Baterai Litium Polimer",
+      "ru": "Литий-полимерный аккумулятор",
+      "th": "แบตเตอรี่ลิเธียมโพลิเมอร์",
+      "vi": "Pin lithium polymer"
+     }
+    },
+    {
+     "label": {
+      "en": "Battery Capacity",
+      "zh": "电池容量",
+      "es": "Capacidad de batería",
+      "ar": "سعة البطارية",
+      "fr": "Capacité de la batterie",
+      "id": "Kapasitas Baterai",
+      "ru": "Ёмкость аккумулятора",
+      "th": "ความจุแบตเตอรี่",
+      "vi": "Dung lượng pin"
+     },
+     "value": {
+      "en": "2500mAh*4",
+      "es": "2500mAh*4",
+      "ar": "2500mAh*4",
+      "fr": "2500mAh*4",
+      "id": "2500mAh*4",
+      "ru": "2500mAh*4",
+      "th": "2500mAh*4",
+      "vi": "2500mAh*4"
+     }
+    },
+    {
+     "label": {
+      "en": "Charging Time",
+      "zh": "充电时间",
+      "es": "Tiempo de carga",
+      "ar": "زمن الشحن",
+      "fr": "Temps de charge",
+      "id": "Waktu Pengisian",
+      "ru": "Время зарядки",
+      "th": "เวลาในการชาร์จ",
+      "vi": "Thời gian sạc"
+     },
+     "value": {
+      "en": "3-5H",
+      "es": "3-5H",
+      "ar": "3-5H",
+      "fr": "3-5H",
+      "id": "3-5H",
+      "ru": "3-5H",
+      "th": "3-5H",
+      "vi": "3-5H"
+     }
+    },
+    {
+     "label": {
+      "en": "Working Time",
+      "zh": "工作时间",
+      "es": "Tiempo de funcionamiento",
+      "ar": "زمن العمل",
+      "fr": "Temps de fonctionnement",
+      "id": "Waktu Kerja",
+      "ru": "Время работы",
+      "th": "เวลาทำงาน",
+      "vi": "Thời gian làm việc"
+     },
+     "value": {
+      "en": "40mins",
+      "es": "40mins",
+      "ar": "40mins",
+      "fr": "40mins",
+      "id": "40mins",
+      "ru": "40mins",
+      "th": "40mins",
+      "vi": "40mins"
+     }
+    },
+    {
+     "label": {
+      "en": "Maximum Pressure",
+      "zh": "Maximum Pressure",
+      "es": "Presión máxima",
+      "ar": "أقصى ضغط",
+      "fr": "Pression maximale",
+      "id": "Tekanan Maksimum",
+      "ru": "Максимальное давление",
+      "th": "แรงดันสูงสุด",
+      "vi": "Áp suất tối đa"
+     },
+     "value": {
+      "en": "150PSI / 10.3Bar",
+      "es": "150PSI / 10.3Bar",
+      "ar": "150PSI / 10.3Bar",
+      "fr": "150PSI / 10.3Bar",
+      "id": "150PSI / 10.3Bar",
+      "ru": "150PSI / 10.3Bar",
+      "th": "150PSI / 10.3Bar",
+      "vi": "150PSI / 10.3Bar"
+     }
+    },
+    {
+     "label": {
+      "en": "Warranty",
+      "zh": "质保",
+      "es": "Garantía",
+      "ar": "الضمان",
+      "fr": "Garantie",
+      "id": "Garansi",
+      "ru": "Гарантия",
+      "th": "การรับประกัน",
+      "vi": "Bảo hành"
+     },
+     "value": {
+      "en": "1 Year",
+      "es": "1 año",
+      "ar": "سنة واحدة",
+      "fr": "1 an",
+      "id": "1 tahun",
+      "ru": "1 год",
+      "th": "1 ปี",
+      "vi": "1 năm"
+     }
+    },
+    {
+     "label": {
+      "en": "Function",
+      "zh": "功能",
+      "es": "Función",
+      "ar": "الوظيفة",
+      "fr": "Fonction",
+      "id": "Fungsi",
+      "ru": "Функция",
+      "th": "ฟังก์ชัน",
+      "vi": "Chức năng"
+     },
+     "value": {
+      "en": "Emergency Light",
+      "es": "Luz de emergencia",
+      "ar": "إضاءة طوارئ",
+      "fr": "Éclairage d'urgence",
+      "id": "Lampu Darurat",
+      "ru": "Аварийный свет",
+      "th": "ไฟฉุกเฉิน",
+      "vi": "Đèn khẩn cấp"
+     }
+    },
+    {
+     "label": {
+      "en": "Function",
+      "zh": "功能",
+      "es": "Función",
+      "ar": "الوظيفة",
+      "fr": "Fonction",
+      "id": "Fungsi",
+      "ru": "Функция",
+      "th": "ฟังก์ชัน",
+      "vi": "Chức năng"
+     },
+     "value": {
+      "en": "Power Indicator",
+      "es": "Indicador de potencia",
+      "ar": "مؤشر الطاقة",
+      "fr": "Indicateur de puissance",
+      "id": "Indikator Daya",
+      "ru": "Индикатор питания",
+      "th": "ไฟแสดงสถานะพลังงาน",
+      "vi": "Đèn báo nguồn"
+     }
+    },
+    {
+     "label": {
+      "en": "Function",
+      "zh": "功能",
+      "es": "Función",
+      "ar": "الوظيفة",
+      "fr": "Fonction",
+      "id": "Fungsi",
+      "ru": "Функция",
+      "th": "ฟังก์ชัน",
+      "vi": "Chức năng"
+     },
+     "value": {
+      "en": "Tire Pressure Monitor",
+      "es": "Monitor de presión de neumáticos",
+      "ar": "مراقبة ضغط الإطارات",
+      "fr": "Contrôle de la pression des pneus",
+      "id": "Monitor Tekanan Ban",
+      "ru": "Мониторинг давления в шинах",
+      "th": "มาตรวัดแรงดันยาง",
+      "vi": "Đo áp suất lốp"
+     }
+    },
+    {
+     "label": {
+      "en": "Display Type",
+      "zh": "Display Type",
+      "es": "Tipo de pantalla",
+      "ar": "نوع الشاشة",
+      "fr": "Type d'écran",
+      "id": "Jenis Layar",
+      "ru": "Тип дисплея",
+      "th": "ประเภทหน้าจอแสดงผล",
+      "vi": "Loại màn hình"
+     },
+     "value": {
+      "en": "digital pressure gauge",
+      "es": "manómetro digital",
+      "ar": "مقياس ضغط رقمي",
+      "fr": "manomètre numérique",
+      "id": "pengukur tekanan digital",
+      "ru": "цифровой манометр",
+      "th": "มาตรวัดแรงดันดิจิทัล",
+      "vi": "đồng hồ đo áp suất kỹ thuật số"
+     }
+    },
+    {
+     "label": {
+      "en": "Cylinder type",
+      "zh": "Cylinder type",
+      "es": "Tipo de cilindro",
+      "ar": "نوع الأسطوانة",
+      "fr": "Type de cylindre",
+      "id": "Jenis silinder",
+      "ru": "Тип цилиндра",
+      "th": "ประเภทสูบ",
+      "vi": "Loại xi-lanh"
+     },
+     "value": {
+      "en": "Single Cylinder Inflators",
+      "es": "Infladores de cilindro único",
+      "ar": "مضخات بأسطوانة واحدة",
+      "fr": "Gonfleurs à cylindre unique",
+      "id": "Pompa Silinder Tunggal",
+      "ru": "Одноцилиндровые компрессоры",
+      "th": "เครื่องเติมลมแบบสูบเดียว",
+      "vi": "Bơm một xi-lanh"
+     }
+    },
+    {
+     "label": {
+      "en": "Material",
+      "zh": "材质",
+      "es": "Material",
+      "ar": "المادة",
+      "fr": "Matériau",
+      "id": "Material",
+      "ru": "Материал",
+      "th": "วัสดุ",
+      "vi": "Chất liệu"
+     },
+     "value": {
+      "en": "ABS",
+      "es": "ABS",
+      "ar": "ABS",
+      "fr": "ABS",
+      "id": "ABS",
+      "ru": "ABS",
+      "th": "ABS",
+      "vi": "ABS"
+     }
+    },
+    {
+     "label": {
+      "en": "Suitable for",
+      "zh": "Suitable for",
+      "es": "Apto para",
+      "ar": "مناسب لـ",
+      "fr": "Convient pour",
+      "id": "Cocok untuk",
+      "ru": "Подходит для",
+      "th": "เหมาะสำหรับ",
+      "vi": "Phù hợp cho"
+     },
+     "value": {
+      "en": "Compact Car / Motorcycle",
+      "es": "Coche compacto / motocicleta",
+      "ar": "سيارة صغيرة / دراجة نارية",
+      "fr": "Petite voiture / moto",
+      "id": "Mobil Kompak / Motor",
+      "ru": "Малолитражный автомобиль / мотоцикл",
+      "th": "รถยนต์ขนาดเล็ก / รถจักรยานยนต์",
+      "vi": "Xe nhỏ / xe máy"
+     }
+    },
+    {
+     "label": {
+      "en": "certification",
+      "zh": "certification",
+      "es": "certificación",
+      "ar": "الشهادة",
+      "fr": "certification",
+      "id": "sertifikasi",
+      "ru": "сертификация",
+      "th": "การรับรอง",
+      "vi": "chứng nhận"
+     },
+     "value": {
+      "en": "CE",
+      "es": "CE",
+      "ar": "CE",
+      "fr": "CE",
+      "id": "CE",
+      "ru": "CE",
+      "th": "CE",
+      "vi": "CE"
+     }
+    },
+    {
+     "label": {
+      "en": "Color",
+      "zh": "颜色",
+      "es": "Color",
+      "ar": "اللون",
+      "fr": "Couleur",
+      "id": "Warna",
+      "ru": "Цвет",
+      "th": "สี",
+      "vi": "Màu sắc"
+     },
+     "value": {
+      "en": "Black",
+      "es": "Negro",
+      "ar": "أسود",
+      "fr": "Noir",
+      "id": "Hitam",
+      "ru": "Чёрный",
+      "th": "ดำ",
+      "vi": "Đen"
+     }
+    },
+    {
+     "label": {
+      "en": "Place of Origin",
+      "zh": "产地",
+      "es": "País de Origen",
+      "ar": "بلد المنشأ",
+      "fr": "Lieu d'origine",
+      "id": "Negara Asal",
+      "ru": "Страна происхождения",
+      "th": "แหล่งที่มา",
+      "vi": "Xuất xứ"
+     },
+     "value": {
+      "en": "CN",
+      "es": "CN",
+      "ar": "CN",
+      "fr": "CN",
+      "id": "CN",
+      "ru": "CN",
+      "th": "CN",
+      "vi": "CN"
+     }
+    },
+    {
+     "label": {
+      "en": "Voltage",
+      "zh": "电压",
+      "es": "Tensión",
+      "ar": "الجهد",
+      "fr": "Tension",
+      "id": "Tegangan",
+      "ru": "Напряжение",
+      "th": "แรงดันไฟฟ้า",
+      "vi": "Điện áp"
+     },
+     "value": {
+      "en": "14.8V",
+      "es": "14.8V",
+      "ar": "14.8V",
+      "fr": "14.8V",
+      "id": "14.8V",
+      "ru": "14.8V",
+      "th": "14.8V",
+      "vi": "14.8V"
+     }
+    },
+    {
+     "label": {
+      "en": "Size",
+      "zh": "尺寸",
+      "es": "Tamaño",
+      "ar": "الحجم",
+      "fr": "Taille",
+      "id": "Ukuran",
+      "ru": "Размер",
+      "th": "ขนาด",
+      "vi": "Kích thước"
+     },
+     "value": {
+      "en": "23*10*11CM",
+      "es": "23*10*11CM",
+      "ar": "23*10*11CM",
+      "fr": "23*10*11CM",
+      "id": "23*10*11CM",
+      "ru": "23*10*11CM",
+      "th": "23*10*11CM",
+      "vi": "23*10*11CM"
+     }
+    },
+    {
+     "label": {
+      "en": "Model Number",
+      "zh": "型号",
+      "es": "Número de modelo",
+      "ar": "رقم الموديل",
+      "fr": "Numéro de modèle",
+      "id": "Nomor Model",
+      "ru": "Номер модели",
+      "th": "หมายเลขรุ่น",
+      "vi": "Số model"
+     },
+     "value": {
+      "en": "YMC6667",
+      "es": "YMC6667",
+      "ar": "YMC6667",
+      "fr": "YMC6667",
+      "id": "YMC6667",
+      "ru": "YMC6667",
+      "th": "YMC6667",
+      "vi": "YMC6667"
+     }
+    },
+    {
+     "label": {
+      "en": "Noise Level",
+      "zh": "噪音",
+      "es": "Nivel de ruido",
+      "ar": "مستوى الضجيج",
+      "fr": "Niveau sonore",
+      "id": "Tingkat Kebisingan",
+      "ru": "Уровень шума",
+      "th": "ระดับเสียงรบกวน",
+      "vi": "Mức ồn"
+     },
+     "value": {
+      "en": "85",
+      "es": "85",
+      "ar": "85",
+      "fr": "85",
+      "id": "85",
+      "ru": "85",
+      "th": "85",
+      "vi": "85"
+     }
+    }
+   ],
+   "packaging": {
+    "unit": "Color Box"
+   },
+   "customization": {},
+   "applications": {
+    "en": "",
+    "zh": ""
+   },
+   "price_indicator": null,
+   "quick_specs": [
+    {
+     "label": {
+      "en": "Power",
+      "zh": "功率",
+      "es": "Potencia",
+      "ar": "القدرة",
+      "fr": "Puissance",
+      "id": "Daya",
+      "ru": "Мощность",
+      "th": "กำลังไฟ",
+      "vi": "Công suất"
+     },
+     "value": {
+      "en": "≤120W",
+      "es": "≤120W",
+      "ar": "≤120W",
+      "fr": "≤120W",
+      "id": "≤120W",
+      "ru": "≤120W",
+      "th": "≤120W",
+      "vi": "≤120W"
+     }
+    },
+    {
+     "label": {
+      "en": "Maximum Pressure",
+      "zh": "最大气压",
+      "es": "Presión máxima",
+      "ar": "أقصى ضغط",
+      "fr": "Pression maximale",
+      "id": "Tekanan Maksimum",
+      "ru": "Максимальное давление",
+      "th": "แรงดันสูงสุด",
+      "vi": "Áp suất tối đa"
+     },
+     "value": {
+      "en": "150PSI / 10.3Bar",
+      "es": "150PSI / 10.3Bar",
+      "ar": "150PSI / 10.3Bar",
+      "fr": "150PSI / 10.3Bar",
+      "id": "150PSI / 10.3Bar",
+      "ru": "150PSI / 10.3Bar",
+      "th": "150PSI / 10.3Bar",
+      "vi": "150PSI / 10.3Bar"
+     }
+    },
+    {
+     "label": {
+      "en": "Working Time",
+      "zh": "工作时间",
+      "es": "Tiempo de funcionamiento",
+      "ar": "زمن العمل",
+      "fr": "Temps de fonctionnement",
+      "id": "Waktu Kerja",
+      "ru": "Время работы",
+      "th": "เวลาทำงาน",
+      "vi": "Thời gian làm việc"
+     },
+     "value": {
+      "en": "40mins",
+      "es": "40mins",
+      "ar": "40mins",
+      "fr": "40mins",
+      "id": "40mins",
+      "ru": "40mins",
+      "th": "40mins",
+      "vi": "40mins"
+     }
+    },
+    {
+     "label": {
+      "en": "Battery Capacity",
+      "zh": "电池容量",
+      "es": "Capacidad de batería",
+      "ar": "سعة البطارية",
+      "fr": "Capacité de la batterie",
+      "id": "Kapasitas Baterai",
+      "ru": "Ёмкость аккумулятора",
+      "th": "ความจุแบตเตอรี่",
+      "vi": "Dung lượng pin"
+     },
+     "value": {
+      "en": "2500mAh*4",
+      "es": "2500mAh*4",
+      "ar": "2500mAh*4",
+      "fr": "2500mAh*4",
+      "id": "2500mAh*4",
+      "ru": "2500mAh*4",
+      "th": "2500mAh*4",
+      "vi": "2500mAh*4"
+     }
+    }
+   ],
+   "price_ladder": [],
+   "sku": "1601909117845",
+   "description": {
+    "en": "≤120W · 150PSI / 10.3Bar · 40mins. OEM/ODM available; specifications from the supplier listing.",
+    "zh": "≤120W · 150PSI / 10.3Bar · 40mins。支持 OEM/ODM 定制，规格取自供应商商品资料。",
+    "es": "≤120W · 150PSI / 10.3Bar · 40mins. Disponible en OEM/ODM; especificaciones tomadas del listado del proveedor.",
+    "ar": "≤120W · 150PSI / 10.3Bar · 40mins. متاح بنظام OEM/ODM؛ المواصفات مأخوذة من قائمة المورّد.",
+    "fr": "≤120W · 150PSI / 10.3Bar · 40mins. Disponible en OEM/ODM ; spécifications issues de la fiche du fournisseur.",
+    "id": "≤120W · 150PSI / 10.3Bar · 40mins. Tersedia dalam OEM/ODM; spesifikasi diambil dari daftar pemasok.",
+    "ru": "≤120W · 150PSI / 10.3Bar · 40mins. Доступно в OEM/ODM; характеристики взяты из карточки товара поставщика.",
+    "th": "≤120W · 150PSI / 10.3Bar · 40mins. มีให้บริการในรูปแบบ OEM/ODM; ข้อมูลจำเพาะนำมาจากประกาศของผู้ขาย",
+    "vi": "≤120W · 150PSI / 10.3Bar · 40mins. Có sẵn dạng OEM/ODM; thông số kỹ thuật lấy từ niêm yết của nhà cung cấp."
+   },
+   "supplier_rating": "4.8",
+   "response_time": "≤ 2h",
+   "transactions": "US $100K+",
+   "years": "10+",
+   "ship_from": {
+    "en": "Ningbo, China",
+    "zh": "中国宁波"
+   },
+   "sample": {
+    "enabled": true,
+    "qty": 5,
+    "note": "Sample available, lead 7-14 days"
+   },
+   "category_name": {
+    "en": "Tire Inflators & Air Compressors",
+    "zh": "充气泵",
+    "es": "Inflador de Neumaticos Digital",
+    "ar": "مضخة إطارات رقمية",
+    "fr": "Gonfleur de pneus numérique",
+    "id": "Pompa Ban Digital",
+    "ru": "Цифровой компрессор для шин",
+    "th": "ปั๊มลมยางดิจิทัล",
+    "vi": "Bơm lốp xe kỹ thuật số"
+   },
+   "_source": {
+    "platform": "alibaba.com",
+    "productId": "1601909117845"
+   },
+   "_cat": "tire-inflator"
+  },
+  {
+   "id": "ymc6616",
+   "name": {
+    "en": "11.1V 90W Lithium Polymer Battery Cordless Tire Inflator 150 PSI 22L/Min Digital Air Compressor 19mm Cylinder ABS Material Tire",
+    "zh": "YMC6616 无线数显充气泵（90W / 150PSI / 22L·min）",
+    "es": "Inflador de neumáticos inalámbrico 11,1 V 90 W con batería de polímero de litio, 150 PSI, 22 L/min, compresor de aire digital, cilindro de 19 mm, material ABS",
+    "ar": "مضخة إطارات لاسلكية 11.1V بقدرة 90W ببطارية ليثيوم بوليمر، 150 PSI، 22L/Min، ضاغط هواء رقمي، أسطوانة 19mm، مادة ABS",
+    "fr": "Gonfleur de pneus sans fil 11,1 V 90 W avec batterie polymère au lithium, 150 PSI, 22 L/min, compresseur d'air numérique, cylindre de 19 mm, matériau ABS",
+    "id": "Pompa Ban Nirkabel 11.1V 90W dengan Baterai Litium Polimer, 150 PSI, 22L/Menit, Kompresor Udara Digital, Silinder 19mm, Material ABS",
+    "ru": "Беспроводной компрессор для шин 11,1 V 90 W с литий-полимерным аккумулятором, 150 PSI, 22 л/мин, цифровой воздушный компрессор, цилиндр 19 мм, материал ABS",
+    "th": "เครื่องเติมลมยางไร้สาย 11.1V 90W แบตเตอรี่ลิเธียมโพลิเมอร์ 150 PSI 22L/Min ปั๊มลมดิจิทัล กระบอกสูบ 19mm วัสดุ ABS",
+    "vi": "Bơm lốp không dây 11,1V 90W dùng pin lithium polymer, 150 PSI, 22L/phút, máy nén khí kỹ thuật số, xi-lanh 19mm, chất liệu ABS"
+   },
+   "tagline": {
+    "en": "≤90W · 150PSI / 10.3Bar · 25mins",
+    "zh": "≤90W · 150PSI / 10.3Bar · 25mins",
+    "es": "≤90W · 150PSI / 10.3Bar · 25mins",
+    "ar": "≤90W · 150PSI / 10.3Bar · 25mins",
+    "fr": "≤90W · 150PSI / 10.3Bar · 25mins",
+    "id": "≤90W · 150PSI / 10.3Bar · 25mins",
+    "ru": "≤90W · 150PSI / 10.3Bar · 25mins",
+    "th": "≤90W · 150PSI / 10.3Bar · 25mins",
+    "vi": "≤90W · 150PSI / 10.3Bar · 25mins"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6616/01.webp",
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6616/02.webp",
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6616/03.webp",
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6616/04.webp",
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6616/05.webp",
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6616/06.webp"
+   ],
+   "video_url": null,
+   "moq": {
+    "value": 1,
+    "unit": "pieces"
+   },
+   "certifications": [],
+   "highlights": [
+    {
+     "icon": "check",
+     "text": {
+      "en": "Power: ≤90W",
+      "zh": "功率: ≤90W",
+      "es": "Potencia: ≤90W",
+      "ar": "القدرة: ≤90W",
+      "fr": "Puissance: ≤90W",
+      "id": "Daya: ≤90W",
+      "ru": "Мощность: ≤90W",
+      "th": "กำลังไฟ: ≤90W",
+      "vi": "Công suất: ≤90W"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Maximum Pressure: 150PSI / 10.3Bar",
+      "zh": "最大气压: 150PSI / 10.3Bar",
+      "es": "Presión máxima: 150PSI / 10.3Bar",
+      "ar": "أقصى ضغط: 150PSI / 10.3Bar",
+      "fr": "Pression maximale: 150PSI / 10.3Bar",
+      "id": "Tekanan Maksimum: 150PSI / 10.3Bar",
+      "ru": "Максимальное давление: 150PSI / 10.3Bar",
+      "th": "แรงดันสูงสุด: 150PSI / 10.3Bar",
+      "vi": "Áp suất tối đa: 150PSI / 10.3Bar"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Working Time: 25mins",
+      "zh": "工作时间: 25mins",
+      "es": "Tiempo de funcionamiento: 25mins",
+      "ar": "زمن العمل: 25mins",
+      "fr": "Temps de fonctionnement: 25mins",
+      "id": "Waktu Kerja: 25mins",
+      "ru": "Время работы: 25mins",
+      "th": "เวลาทำงาน: 25mins",
+      "vi": "Thời gian làm việc: 25mins"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Battery Capacity: 2000mAh*3",
+      "zh": "电池容量: 2000mAh*3",
+      "es": "Capacidad de batería: 2000mAh*3",
+      "ar": "سعة البطارية: 2000mAh*3",
+      "fr": "Capacité de la batterie: 2000mAh*3",
+      "id": "Kapasitas Baterai: 2000mAh*3",
+      "ru": "Ёмкость аккумулятора: 2000mAh*3",
+      "th": "ความจุแบตเตอรี่: 2000mAh*3",
+      "vi": "Dung lượng pin: 2000mAh*3"
+     }
+    }
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "Power",
+      "zh": "功率",
+      "es": "Potencia",
+      "ar": "القدرة",
+      "fr": "Puissance",
+      "id": "Daya",
+      "ru": "Мощность",
+      "th": "กำลังไฟ",
+      "vi": "Công suất"
+     },
+     "value": {
+      "en": "≤90W",
+      "es": "≤90W",
+      "ar": "≤90W",
+      "fr": "≤90W",
+      "id": "≤90W",
+      "ru": "≤90W",
+      "th": "≤90W",
+      "vi": "≤90W"
+     }
+    },
+    {
+     "label": {
+      "en": "Battery Type",
+      "zh": "电池类型",
+      "es": "Tipo de batería",
+      "ar": "نوع البطارية",
+      "fr": "Type de batterie",
+      "id": "Jenis Baterai",
+      "ru": "Тип аккумулятора",
+      "th": "ประเภทแบตเตอรี่",
+      "vi": "Loại pin"
+     },
+     "value": {
+      "en": "Lithium Polymer Battery",
+      "es": "Batería de polímero de litio",
+      "ar": "بطارية ليثيوم بوليمر",
+      "fr": "Batterie polymère au lithium",
+      "id": "Baterai Litium Polimer",
+      "ru": "Литий-полимерный аккумулятор",
+      "th": "แบตเตอรี่ลิเธียมโพลิเมอร์",
+      "vi": "Pin lithium polymer"
+     }
+    },
+    {
+     "label": {
+      "en": "Battery Capacity",
+      "zh": "电池容量",
+      "es": "Capacidad de batería",
+      "ar": "سعة البطارية",
+      "fr": "Capacité de la batterie",
+      "id": "Kapasitas Baterai",
+      "ru": "Ёмкость аккумулятора",
+      "th": "ความจุแบตเตอรี่",
+      "vi": "Dung lượng pin"
+     },
+     "value": {
+      "en": "2000mAh*3",
+      "es": "2000mAh*3",
+      "ar": "2000mAh*3",
+      "fr": "2000mAh*3",
+      "id": "2000mAh*3",
+      "ru": "2000mAh*3",
+      "th": "2000mAh*3",
+      "vi": "2000mAh*3"
+     }
+    },
+    {
+     "label": {
+      "en": "Charging Time",
+      "zh": "充电时间",
+      "es": "Tiempo de carga",
+      "ar": "زمن الشحن",
+      "fr": "Temps de charge",
+      "id": "Waktu Pengisian",
+      "ru": "Время зарядки",
+      "th": "เวลาในการชาร์จ",
+      "vi": "Thời gian sạc"
+     },
+     "value": {
+      "en": "2-3H",
+      "es": "2-3H",
+      "ar": "2-3H",
+      "fr": "2-3H",
+      "id": "2-3H",
+      "ru": "2-3H",
+      "th": "2-3H",
+      "vi": "2-3H"
+     }
+    },
+    {
+     "label": {
+      "en": "Working Time",
+      "zh": "工作时间",
+      "es": "Tiempo de funcionamiento",
+      "ar": "زمن العمل",
+      "fr": "Temps de fonctionnement",
+      "id": "Waktu Kerja",
+      "ru": "Время работы",
+      "th": "เวลาทำงาน",
+      "vi": "Thời gian làm việc"
+     },
+     "value": {
+      "en": "25mins",
+      "es": "25mins",
+      "ar": "25mins",
+      "fr": "25mins",
+      "id": "25mins",
+      "ru": "25mins",
+      "th": "25mins",
+      "vi": "25mins"
+     }
+    },
+    {
+     "label": {
+      "en": "Maximum Pressure",
+      "zh": "Maximum Pressure",
+      "es": "Presión máxima",
+      "ar": "أقصى ضغط",
+      "fr": "Pression maximale",
+      "id": "Tekanan Maksimum",
+      "ru": "Максимальное давление",
+      "th": "แรงดันสูงสุด",
+      "vi": "Áp suất tối đa"
+     },
+     "value": {
+      "en": "150PSI / 10.3Bar",
+      "es": "150PSI / 10.3Bar",
+      "ar": "150PSI / 10.3Bar",
+      "fr": "150PSI / 10.3Bar",
+      "id": "150PSI / 10.3Bar",
+      "ru": "150PSI / 10.3Bar",
+      "th": "150PSI / 10.3Bar",
+      "vi": "150PSI / 10.3Bar"
+     }
+    },
+    {
+     "label": {
+      "en": "Warranty",
+      "zh": "质保",
+      "es": "Garantía",
+      "ar": "الضمان",
+      "fr": "Garantie",
+      "id": "Garansi",
+      "ru": "Гарантия",
+      "th": "การรับประกัน",
+      "vi": "Bảo hành"
+     },
+     "value": {
+      "en": "1 Year",
+      "es": "1 año",
+      "ar": "سنة واحدة",
+      "fr": "1 an",
+      "id": "1 tahun",
+      "ru": "1 год",
+      "th": "1 ปี",
+      "vi": "1 năm"
+     }
+    },
+    {
+     "label": {
+      "en": "Function",
+      "zh": "功能",
+      "es": "Función",
+      "ar": "الوظيفة",
+      "fr": "Fonction",
+      "id": "Fungsi",
+      "ru": "Функция",
+      "th": "ฟังก์ชัน",
+      "vi": "Chức năng"
+     },
+     "value": {
+      "en": "Emergency Light",
+      "es": "Luz de emergencia",
+      "ar": "إضاءة طوارئ",
+      "fr": "Éclairage d'urgence",
+      "id": "Lampu Darurat",
+      "ru": "Аварийный свет",
+      "th": "ไฟฉุกเฉิน",
+      "vi": "Đèn khẩn cấp"
+     }
+    },
+    {
+     "label": {
+      "en": "Function",
+      "zh": "功能",
+      "es": "Función",
+      "ar": "الوظيفة",
+      "fr": "Fonction",
+      "id": "Fungsi",
+      "ru": "Функция",
+      "th": "ฟังก์ชัน",
+      "vi": "Chức năng"
+     },
+     "value": {
+      "en": "Power Indicator",
+      "es": "Indicador de potencia",
+      "ar": "مؤشر الطاقة",
+      "fr": "Indicateur de puissance",
+      "id": "Indikator Daya",
+      "ru": "Индикатор питания",
+      "th": "ไฟแสดงสถานะพลังงาน",
+      "vi": "Đèn báo nguồn"
+     }
+    },
+    {
+     "label": {
+      "en": "Function",
+      "zh": "功能",
+      "es": "Función",
+      "ar": "الوظيفة",
+      "fr": "Fonction",
+      "id": "Fungsi",
+      "ru": "Функция",
+      "th": "ฟังก์ชัน",
+      "vi": "Chức năng"
+     },
+     "value": {
+      "en": "Tire Pressure Monitor",
+      "es": "Monitor de presión de neumáticos",
+      "ar": "مراقبة ضغط الإطارات",
+      "fr": "Contrôle de la pression des pneus",
+      "id": "Monitor Tekanan Ban",
+      "ru": "Мониторинг давления в шинах",
+      "th": "มาตรวัดแรงดันยาง",
+      "vi": "Đo áp suất lốp"
+     }
+    },
+    {
+     "label": {
+      "en": "Display Type",
+      "zh": "Display Type",
+      "es": "Tipo de pantalla",
+      "ar": "نوع الشاشة",
+      "fr": "Type d'écran",
+      "id": "Jenis Layar",
+      "ru": "Тип дисплея",
+      "th": "ประเภทหน้าจอแสดงผล",
+      "vi": "Loại màn hình"
+     },
+     "value": {
+      "en": "digital pressure gauge",
+      "es": "manómetro digital",
+      "ar": "مقياس ضغط رقمي",
+      "fr": "manomètre numérique",
+      "id": "pengukur tekanan digital",
+      "ru": "цифровой манометр",
+      "th": "มาตรวัดแรงดันดิจิทัล",
+      "vi": "đồng hồ đo áp suất kỹ thuật số"
+     }
+    },
+    {
+     "label": {
+      "en": "Cylinder type",
+      "zh": "Cylinder type",
+      "es": "Tipo de cilindro",
+      "ar": "نوع الأسطوانة",
+      "fr": "Type de cylindre",
+      "id": "Jenis silinder",
+      "ru": "Тип цилиндра",
+      "th": "ประเภทสูบ",
+      "vi": "Loại xi-lanh"
+     },
+     "value": {
+      "en": "Single Cylinder Inflators",
+      "es": "Infladores de cilindro único",
+      "ar": "مضخات بأسطوانة واحدة",
+      "fr": "Gonfleurs à cylindre unique",
+      "id": "Pompa Silinder Tunggal",
+      "ru": "Одноцилиндровые компрессоры",
+      "th": "เครื่องเติมลมแบบสูบเดียว",
+      "vi": "Bơm một xi-lanh"
+     }
+    },
+    {
+     "label": {
+      "en": "Material",
+      "zh": "材质",
+      "es": "Material",
+      "ar": "المادة",
+      "fr": "Matériau",
+      "id": "Material",
+      "ru": "Материал",
+      "th": "วัสดุ",
+      "vi": "Chất liệu"
+     },
+     "value": {
+      "en": "ABS",
+      "es": "ABS",
+      "ar": "ABS",
+      "fr": "ABS",
+      "id": "ABS",
+      "ru": "ABS",
+      "th": "ABS",
+      "vi": "ABS"
+     }
+    },
+    {
+     "label": {
+      "en": "Suitable for",
+      "zh": "Suitable for",
+      "es": "Apto para",
+      "ar": "مناسب لـ",
+      "fr": "Convient pour",
+      "id": "Cocok untuk",
+      "ru": "Подходит для",
+      "th": "เหมาะสำหรับ",
+      "vi": "Phù hợp cho"
+     },
+     "value": {
+      "en": "Compact Car / Motorcycle",
+      "es": "Coche compacto / motocicleta",
+      "ar": "سيارة صغيرة / دراجة نارية",
+      "fr": "Petite voiture / moto",
+      "id": "Mobil Kompak / Motor",
+      "ru": "Малолитражный автомобиль / мотоцикл",
+      "th": "รถยนต์ขนาดเล็ก / รถจักรยานยนต์",
+      "vi": "Xe nhỏ / xe máy"
+     }
+    },
+    {
+     "label": {
+      "en": "certification",
+      "zh": "certification",
+      "es": "certificación",
+      "ar": "الشهادة",
+      "fr": "certification",
+      "id": "sertifikasi",
+      "ru": "сертификация",
+      "th": "การรับรอง",
+      "vi": "chứng nhận"
+     },
+     "value": {
+      "en": "CE",
+      "es": "CE",
+      "ar": "CE",
+      "fr": "CE",
+      "id": "CE",
+      "ru": "CE",
+      "th": "CE",
+      "vi": "CE"
+     }
+    },
+    {
+     "label": {
+      "en": "Color",
+      "zh": "颜色",
+      "es": "Color",
+      "ar": "اللون",
+      "fr": "Couleur",
+      "id": "Warna",
+      "ru": "Цвет",
+      "th": "สี",
+      "vi": "Màu sắc"
+     },
+     "value": {
+      "en": "Black",
+      "es": "Negro",
+      "ar": "أسود",
+      "fr": "Noir",
+      "id": "Hitam",
+      "ru": "Чёрный",
+      "th": "ดำ",
+      "vi": "Đen"
+     }
+    },
+    {
+     "label": {
+      "en": "Place of Origin",
+      "zh": "产地",
+      "es": "País de Origen",
+      "ar": "بلد المنشأ",
+      "fr": "Lieu d'origine",
+      "id": "Negara Asal",
+      "ru": "Страна происхождения",
+      "th": "แหล่งที่มา",
+      "vi": "Xuất xứ"
+     },
+     "value": {
+      "en": "CN",
+      "es": "CN",
+      "ar": "CN",
+      "fr": "CN",
+      "id": "CN",
+      "ru": "CN",
+      "th": "CN",
+      "vi": "CN"
+     }
+    },
+    {
+     "label": {
+      "en": "Voltage",
+      "zh": "电压",
+      "es": "Tensión",
+      "ar": "الجهد",
+      "fr": "Tension",
+      "id": "Tegangan",
+      "ru": "Напряжение",
+      "th": "แรงดันไฟฟ้า",
+      "vi": "Điện áp"
+     },
+     "value": {
+      "en": "11.1V",
+      "es": "11.1V",
+      "ar": "11.1V",
+      "fr": "11.1V",
+      "id": "11.1V",
+      "ru": "11.1V",
+      "th": "11.1V",
+      "vi": "11.1V"
+     }
+    },
+    {
+     "label": {
+      "en": "Size",
+      "zh": "尺寸",
+      "es": "Tamaño",
+      "ar": "الحجم",
+      "fr": "Taille",
+      "id": "Ukuran",
+      "ru": "Размер",
+      "th": "ขนาด",
+      "vi": "Kích thước"
+     },
+     "value": {
+      "en": "12*6*11CM",
+      "es": "12*6*11CM",
+      "ar": "12*6*11CM",
+      "fr": "12*6*11CM",
+      "id": "12*6*11CM",
+      "ru": "12*6*11CM",
+      "th": "12*6*11CM",
+      "vi": "12*6*11CM"
+     }
+    },
+    {
+     "label": {
+      "en": "Model Number",
+      "zh": "型号",
+      "es": "Número de modelo",
+      "ar": "رقم الموديل",
+      "fr": "Numéro de modèle",
+      "id": "Nomor Model",
+      "ru": "Номер модели",
+      "th": "หมายเลขรุ่น",
+      "vi": "Số model"
+     },
+     "value": {
+      "en": "YMC6616",
+      "es": "YMC6616",
+      "ar": "YMC6616",
+      "fr": "YMC6616",
+      "id": "YMC6616",
+      "ru": "YMC6616",
+      "th": "YMC6616",
+      "vi": "YMC6616"
+     }
+    },
+    {
+     "label": {
+      "en": "Noise Level",
+      "zh": "噪音",
+      "es": "Nivel de ruido",
+      "ar": "مستوى الضجيج",
+      "fr": "Niveau sonore",
+      "id": "Tingkat Kebisingan",
+      "ru": "Уровень шума",
+      "th": "ระดับเสียงรบกวน",
+      "vi": "Mức ồn"
+     },
+     "value": {
+      "en": "85",
+      "es": "85",
+      "ar": "85",
+      "fr": "85",
+      "id": "85",
+      "ru": "85",
+      "th": "85",
+      "vi": "85"
+     }
+    }
+   ],
+   "packaging": {
+    "unit": "Color Box"
+   },
+   "customization": {},
+   "applications": {
+    "en": "",
+    "zh": ""
+   },
+   "price_indicator": null,
+   "quick_specs": [
+    {
+     "label": {
+      "en": "Power",
+      "zh": "功率",
+      "es": "Potencia",
+      "ar": "القدرة",
+      "fr": "Puissance",
+      "id": "Daya",
+      "ru": "Мощность",
+      "th": "กำลังไฟ",
+      "vi": "Công suất"
+     },
+     "value": {
+      "en": "≤90W",
+      "es": "≤90W",
+      "ar": "≤90W",
+      "fr": "≤90W",
+      "id": "≤90W",
+      "ru": "≤90W",
+      "th": "≤90W",
+      "vi": "≤90W"
+     }
+    },
+    {
+     "label": {
+      "en": "Maximum Pressure",
+      "zh": "最大气压",
+      "es": "Presión máxima",
+      "ar": "أقصى ضغط",
+      "fr": "Pression maximale",
+      "id": "Tekanan Maksimum",
+      "ru": "Максимальное давление",
+      "th": "แรงดันสูงสุด",
+      "vi": "Áp suất tối đa"
+     },
+     "value": {
+      "en": "150PSI / 10.3Bar",
+      "es": "150PSI / 10.3Bar",
+      "ar": "150PSI / 10.3Bar",
+      "fr": "150PSI / 10.3Bar",
+      "id": "150PSI / 10.3Bar",
+      "ru": "150PSI / 10.3Bar",
+      "th": "150PSI / 10.3Bar",
+      "vi": "150PSI / 10.3Bar"
+     }
+    },
+    {
+     "label": {
+      "en": "Working Time",
+      "zh": "工作时间",
+      "es": "Tiempo de funcionamiento",
+      "ar": "زمن العمل",
+      "fr": "Temps de fonctionnement",
+      "id": "Waktu Kerja",
+      "ru": "Время работы",
+      "th": "เวลาทำงาน",
+      "vi": "Thời gian làm việc"
+     },
+     "value": {
+      "en": "25mins",
+      "es": "25mins",
+      "ar": "25mins",
+      "fr": "25mins",
+      "id": "25mins",
+      "ru": "25mins",
+      "th": "25mins",
+      "vi": "25mins"
+     }
+    },
+    {
+     "label": {
+      "en": "Battery Capacity",
+      "zh": "电池容量",
+      "es": "Capacidad de batería",
+      "ar": "سعة البطارية",
+      "fr": "Capacité de la batterie",
+      "id": "Kapasitas Baterai",
+      "ru": "Ёмкость аккумулятора",
+      "th": "ความจุแบตเตอรี่",
+      "vi": "Dung lượng pin"
+     },
+     "value": {
+      "en": "2000mAh*3",
+      "es": "2000mAh*3",
+      "ar": "2000mAh*3",
+      "fr": "2000mAh*3",
+      "id": "2000mAh*3",
+      "ru": "2000mAh*3",
+      "th": "2000mAh*3",
+      "vi": "2000mAh*3"
+     }
+    }
+   ],
+   "price_ladder": [],
+   "sku": "1601911130124",
+   "description": {
+    "en": "≤90W · 150PSI / 10.3Bar · 25mins. OEM/ODM available; specifications from the supplier listing.",
+    "zh": "≤90W · 150PSI / 10.3Bar · 25mins。支持 OEM/ODM 定制，规格取自供应商商品资料。",
+    "es": "≤90W · 150PSI / 10.3Bar · 25mins. Disponible en OEM/ODM; especificaciones tomadas del listado del proveedor.",
+    "ar": "≤90W · 150PSI / 10.3Bar · 25mins. متاح بنظام OEM/ODM؛ المواصفات مأخوذة من قائمة المورّد.",
+    "fr": "≤90W · 150PSI / 10.3Bar · 25mins. Disponible en OEM/ODM ; spécifications issues de la fiche du fournisseur.",
+    "id": "≤90W · 150PSI / 10.3Bar · 25mins. Tersedia dalam OEM/ODM; spesifikasi diambil dari daftar pemasok.",
+    "ru": "≤90W · 150PSI / 10.3Bar · 25mins. Доступно в OEM/ODM; характеристики взяты из карточки товара поставщика.",
+    "th": "≤90W · 150PSI / 10.3Bar · 25mins. มีให้บริการในรูปแบบ OEM/ODM; ข้อมูลจำเพาะนำมาจากประกาศของผู้ขาย",
+    "vi": "≤90W · 150PSI / 10.3Bar · 25mins. Có sẵn dạng OEM/ODM; thông số kỹ thuật lấy từ niêm yết của nhà cung cấp."
+   },
+   "supplier_rating": "4.81",
+   "response_time": "—",
+   "transactions": "—",
+   "years": "—",
+   "ship_from": {
+    "en": "China",
+    "zh": "中国"
+   },
+   "sample": {
+    "enabled": true,
+    "qty": 2,
+    "note": {
+     "en": "Sample available (max 2 pcs)",
+     "zh": "支持打样（最多 2 台）"
+    }
+   },
+   "category_name": {
+    "en": "Tire Inflators & Air Compressors",
+    "zh": "充气泵",
+    "es": "Inflador de Neumaticos Digital",
+    "ar": "مضخة إطارات رقمية",
+    "fr": "Gonfleur de pneus numérique",
+    "id": "Pompa Ban Digital",
+    "ru": "Цифровой компрессор для шин",
+    "th": "ปั๊มลมยางดิจิทัล",
+    "vi": "Bơm lốp xe kỹ thuật số"
+   },
+   "_source": {
+    "platform": "alibaba.com",
+    "productId": "1601911130124"
+   },
+   "_cat": "tire-inflator"
+  },
+  {
+   "id": "ymc6657",
+   "name": {
+    "en": "Cordless Tire Inflator 150 PSI Portable Air Compressor with Digital Pressure Gauge LED SOS Power Bank for Car Motorcycle Bicycle",
+    "zh": "YMC6657 便携无线充气泵（65W / 150PSI / 数显）",
+    "es": "Inflador de neumáticos inalámbrico 150 PSI, compresor de aire portátil con manómetro digital, luz LED SOS y batería externa para coche, moto y bicicleta",
+    "ar": "مضخة إطارات لاسلكية 150 PSI، ضاغط هواء محمول بمقياس ضغط رقمي، إضاءة LED SOS وبطارية متنقلة للسيارة والدراجة النارية والدراجة الهوائية",
+    "fr": "Gonfleur de pneus sans fil 150 PSI, compresseur d'air portatif avec manomètre numérique, éclairage LED SOS et batterie externe pour voiture, moto et vélo",
+    "id": "Pompa Ban Nirkabel 150 PSI, Kompresor Udara Portabel dengan Pengukur Tekanan Digital, LED SOS, Power Bank untuk Mobil, Motor, dan Sepeda",
+    "ru": "Беспроводной компрессор для шин 150 PSI, портативный воздушный компрессор с цифровым манометром, подсветкой LED SOS и пауэрбанком для автомобиля, мотоцикла и велосипеда",
+    "th": "เครื่องเติมลมยางไร้สาย 150 PSI ปั๊มลมพกพาพร้อมมาตรวัดแรงดันดิจิทัล ไฟ LED SOS และพาวเวอร์แบงก์สำหรับรถยนต์ รถจักรยานยนต์ และจักรยาน",
+    "vi": "Bơm lốp không dây 150 PSI, máy nén khí di động với đồng hồ đo áp suất kỹ thuật số, đèn LED SOS, pin dự phòng cho ô tô, xe máy, xe đạp"
+   },
+   "tagline": {
+    "en": "≤65W · 150PSI / 10.3Bar · 25mins",
+    "zh": "≤65W · 150PSI / 10.3Bar · 25mins",
+    "es": "≤65W · 150PSI / 10.3Bar · 25mins",
+    "ar": "≤65W · 150PSI / 10.3Bar · 25mins",
+    "fr": "≤65W · 150PSI / 10.3Bar · 25mins",
+    "id": "≤65W · 150PSI / 10.3Bar · 25mins",
+    "ru": "≤65W · 150PSI / 10.3Bar · 25mins",
+    "th": "≤65W · 150PSI / 10.3Bar · 25mins",
+    "vi": "≤65W · 150PSI / 10.3Bar · 25mins"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6657/01.webp",
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6657/02.webp",
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6657/03.webp",
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6657/04.webp",
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6657/05.webp",
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6657/06.webp"
+   ],
+   "video_url": null,
+   "moq": {
+    "value": 1,
+    "unit": "pieces"
+   },
+   "certifications": [],
+   "highlights": [
+    {
+     "icon": "check",
+     "text": {
+      "en": "Power: ≤65W",
+      "zh": "功率: ≤65W",
+      "es": "Potencia: ≤65W",
+      "ar": "القدرة: ≤65W",
+      "fr": "Puissance: ≤65W",
+      "id": "Daya: ≤65W",
+      "ru": "Мощность: ≤65W",
+      "th": "กำลังไฟ: ≤65W",
+      "vi": "Công suất: ≤65W"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Maximum Pressure: 150PSI / 10.3Bar",
+      "zh": "最大气压: 150PSI / 10.3Bar",
+      "es": "Presión máxima: 150PSI / 10.3Bar",
+      "ar": "أقصى ضغط: 150PSI / 10.3Bar",
+      "fr": "Pression maximale: 150PSI / 10.3Bar",
+      "id": "Tekanan Maksimum: 150PSI / 10.3Bar",
+      "ru": "Максимальное давление: 150PSI / 10.3Bar",
+      "th": "แรงดันสูงสุด: 150PSI / 10.3Bar",
+      "vi": "Áp suất tối đa: 150PSI / 10.3Bar"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Working Time: 25mins",
+      "zh": "工作时间: 25mins",
+      "es": "Tiempo de funcionamiento: 25mins",
+      "ar": "زمن العمل: 25mins",
+      "fr": "Temps de fonctionnement: 25mins",
+      "id": "Waktu Kerja: 25mins",
+      "ru": "Время работы: 25mins",
+      "th": "เวลาทำงาน: 25mins",
+      "vi": "Thời gian làm việc: 25mins"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Battery Capacity: 2000mAh*2",
+      "zh": "电池容量: 2000mAh*2",
+      "es": "Capacidad de batería: 2000mAh*2",
+      "ar": "سعة البطارية: 2000mAh*2",
+      "fr": "Capacité de la batterie: 2000mAh*2",
+      "id": "Kapasitas Baterai: 2000mAh*2",
+      "ru": "Ёмкость аккумулятора: 2000mAh*2",
+      "th": "ความจุแบตเตอรี่: 2000mAh*2",
+      "vi": "Dung lượng pin: 2000mAh*2"
+     }
+    }
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "Power",
+      "zh": "功率",
+      "es": "Potencia",
+      "ar": "القدرة",
+      "fr": "Puissance",
+      "id": "Daya",
+      "ru": "Мощность",
+      "th": "กำลังไฟ",
+      "vi": "Công suất"
+     },
+     "value": {
+      "en": "≤65W",
+      "es": "≤65W",
+      "ar": "≤65W",
+      "fr": "≤65W",
+      "id": "≤65W",
+      "ru": "≤65W",
+      "th": "≤65W",
+      "vi": "≤65W"
+     }
+    },
+    {
+     "label": {
+      "en": "Battery Type",
+      "zh": "电池类型",
+      "es": "Tipo de batería",
+      "ar": "نوع البطارية",
+      "fr": "Type de batterie",
+      "id": "Jenis Baterai",
+      "ru": "Тип аккумулятора",
+      "th": "ประเภทแบตเตอรี่",
+      "vi": "Loại pin"
+     },
+     "value": {
+      "en": "Lithium Polymer Battery",
+      "es": "Batería de polímero de litio",
+      "ar": "بطارية ليثيوم بوليمر",
+      "fr": "Batterie polymère au lithium",
+      "id": "Baterai Litium Polimer",
+      "ru": "Литий-полимерный аккумулятор",
+      "th": "แบตเตอรี่ลิเธียมโพลิเมอร์",
+      "vi": "Pin lithium polymer"
+     }
+    },
+    {
+     "label": {
+      "en": "Battery Capacity",
+      "zh": "电池容量",
+      "es": "Capacidad de batería",
+      "ar": "سعة البطارية",
+      "fr": "Capacité de la batterie",
+      "id": "Kapasitas Baterai",
+      "ru": "Ёмкость аккумулятора",
+      "th": "ความจุแบตเตอรี่",
+      "vi": "Dung lượng pin"
+     },
+     "value": {
+      "en": "2000mAh*2",
+      "es": "2000mAh*2",
+      "ar": "2000mAh*2",
+      "fr": "2000mAh*2",
+      "id": "2000mAh*2",
+      "ru": "2000mAh*2",
+      "th": "2000mAh*2",
+      "vi": "2000mAh*2"
+     }
+    },
+    {
+     "label": {
+      "en": "Charging Time",
+      "zh": "充电时间",
+      "es": "Tiempo de carga",
+      "ar": "زمن الشحن",
+      "fr": "Temps de charge",
+      "id": "Waktu Pengisian",
+      "ru": "Время зарядки",
+      "th": "เวลาในการชาร์จ",
+      "vi": "Thời gian sạc"
+     },
+     "value": {
+      "en": "2-3H",
+      "es": "2-3H",
+      "ar": "2-3H",
+      "fr": "2-3H",
+      "id": "2-3H",
+      "ru": "2-3H",
+      "th": "2-3H",
+      "vi": "2-3H"
+     }
+    },
+    {
+     "label": {
+      "en": "Working Time",
+      "zh": "工作时间",
+      "es": "Tiempo de funcionamiento",
+      "ar": "زمن العمل",
+      "fr": "Temps de fonctionnement",
+      "id": "Waktu Kerja",
+      "ru": "Время работы",
+      "th": "เวลาทำงาน",
+      "vi": "Thời gian làm việc"
+     },
+     "value": {
+      "en": "25mins",
+      "es": "25mins",
+      "ar": "25mins",
+      "fr": "25mins",
+      "id": "25mins",
+      "ru": "25mins",
+      "th": "25mins",
+      "vi": "25mins"
+     }
+    },
+    {
+     "label": {
+      "en": "Maximum Pressure",
+      "zh": "Maximum Pressure",
+      "es": "Presión máxima",
+      "ar": "أقصى ضغط",
+      "fr": "Pression maximale",
+      "id": "Tekanan Maksimum",
+      "ru": "Максимальное давление",
+      "th": "แรงดันสูงสุด",
+      "vi": "Áp suất tối đa"
+     },
+     "value": {
+      "en": "150PSI / 10.3Bar",
+      "es": "150PSI / 10.3Bar",
+      "ar": "150PSI / 10.3Bar",
+      "fr": "150PSI / 10.3Bar",
+      "id": "150PSI / 10.3Bar",
+      "ru": "150PSI / 10.3Bar",
+      "th": "150PSI / 10.3Bar",
+      "vi": "150PSI / 10.3Bar"
+     }
+    },
+    {
+     "label": {
+      "en": "Warranty",
+      "zh": "质保",
+      "es": "Garantía",
+      "ar": "الضمان",
+      "fr": "Garantie",
+      "id": "Garansi",
+      "ru": "Гарантия",
+      "th": "การรับประกัน",
+      "vi": "Bảo hành"
+     },
+     "value": {
+      "en": "1 Year",
+      "es": "1 año",
+      "ar": "سنة واحدة",
+      "fr": "1 an",
+      "id": "1 tahun",
+      "ru": "1 год",
+      "th": "1 ปี",
+      "vi": "1 năm"
+     }
+    },
+    {
+     "label": {
+      "en": "Function",
+      "zh": "功能",
+      "es": "Función",
+      "ar": "الوظيفة",
+      "fr": "Fonction",
+      "id": "Fungsi",
+      "ru": "Функция",
+      "th": "ฟังก์ชัน",
+      "vi": "Chức năng"
+     },
+     "value": {
+      "en": "Emergency Light",
+      "es": "Luz de emergencia",
+      "ar": "إضاءة طوارئ",
+      "fr": "Éclairage d'urgence",
+      "id": "Lampu Darurat",
+      "ru": "Аварийный свет",
+      "th": "ไฟฉุกเฉิน",
+      "vi": "Đèn khẩn cấp"
+     }
+    },
+    {
+     "label": {
+      "en": "Function",
+      "zh": "功能",
+      "es": "Función",
+      "ar": "الوظيفة",
+      "fr": "Fonction",
+      "id": "Fungsi",
+      "ru": "Функция",
+      "th": "ฟังก์ชัน",
+      "vi": "Chức năng"
+     },
+     "value": {
+      "en": "Power Indicator",
+      "es": "Indicador de potencia",
+      "ar": "مؤشر الطاقة",
+      "fr": "Indicateur de puissance",
+      "id": "Indikator Daya",
+      "ru": "Индикатор питания",
+      "th": "ไฟแสดงสถานะพลังงาน",
+      "vi": "Đèn báo nguồn"
+     }
+    },
+    {
+     "label": {
+      "en": "Function",
+      "zh": "功能",
+      "es": "Función",
+      "ar": "الوظيفة",
+      "fr": "Fonction",
+      "id": "Fungsi",
+      "ru": "Функция",
+      "th": "ฟังก์ชัน",
+      "vi": "Chức năng"
+     },
+     "value": {
+      "en": "Tire Pressure Monitor",
+      "es": "Monitor de presión de neumáticos",
+      "ar": "مراقبة ضغط الإطارات",
+      "fr": "Contrôle de la pression des pneus",
+      "id": "Monitor Tekanan Ban",
+      "ru": "Мониторинг давления в шинах",
+      "th": "มาตรวัดแรงดันยาง",
+      "vi": "Đo áp suất lốp"
+     }
+    },
+    {
+     "label": {
+      "en": "Display Type",
+      "zh": "Display Type",
+      "es": "Tipo de pantalla",
+      "ar": "نوع الشاشة",
+      "fr": "Type d'écran",
+      "id": "Jenis Layar",
+      "ru": "Тип дисплея",
+      "th": "ประเภทหน้าจอแสดงผล",
+      "vi": "Loại màn hình"
+     },
+     "value": {
+      "en": "digital pressure gauge",
+      "es": "manómetro digital",
+      "ar": "مقياس ضغط رقمي",
+      "fr": "manomètre numérique",
+      "id": "pengukur tekanan digital",
+      "ru": "цифровой манометр",
+      "th": "มาตรวัดแรงดันดิจิทัล",
+      "vi": "đồng hồ đo áp suất kỹ thuật số"
+     }
+    },
+    {
+     "label": {
+      "en": "Cylinder type",
+      "zh": "Cylinder type",
+      "es": "Tipo de cilindro",
+      "ar": "نوع الأسطوانة",
+      "fr": "Type de cylindre",
+      "id": "Jenis silinder",
+      "ru": "Тип цилиндра",
+      "th": "ประเภทสูบ",
+      "vi": "Loại xi-lanh"
+     },
+     "value": {
+      "en": "Single Cylinder Inflators",
+      "es": "Infladores de cilindro único",
+      "ar": "مضخات بأسطوانة واحدة",
+      "fr": "Gonfleurs à cylindre unique",
+      "id": "Pompa Silinder Tunggal",
+      "ru": "Одноцилиндровые компрессоры",
+      "th": "เครื่องเติมลมแบบสูบเดียว",
+      "vi": "Bơm một xi-lanh"
+     }
+    },
+    {
+     "label": {
+      "en": "Material",
+      "zh": "材质",
+      "es": "Material",
+      "ar": "المادة",
+      "fr": "Matériau",
+      "id": "Material",
+      "ru": "Материал",
+      "th": "วัสดุ",
+      "vi": "Chất liệu"
+     },
+     "value": {
+      "en": "ABS",
+      "es": "ABS",
+      "ar": "ABS",
+      "fr": "ABS",
+      "id": "ABS",
+      "ru": "ABS",
+      "th": "ABS",
+      "vi": "ABS"
+     }
+    },
+    {
+     "label": {
+      "en": "Suitable for",
+      "zh": "Suitable for",
+      "es": "Apto para",
+      "ar": "مناسب لـ",
+      "fr": "Convient pour",
+      "id": "Cocok untuk",
+      "ru": "Подходит для",
+      "th": "เหมาะสำหรับ",
+      "vi": "Phù hợp cho"
+     },
+     "value": {
+      "en": "Compact Car / Motorcycle",
+      "es": "Coche compacto / motocicleta",
+      "ar": "سيارة صغيرة / دراجة نارية",
+      "fr": "Petite voiture / moto",
+      "id": "Mobil Kompak / Motor",
+      "ru": "Малолитражный автомобиль / мотоцикл",
+      "th": "รถยนต์ขนาดเล็ก / รถจักรยานยนต์",
+      "vi": "Xe nhỏ / xe máy"
+     }
+    },
+    {
+     "label": {
+      "en": "certification",
+      "zh": "certification",
+      "es": "certificación",
+      "ar": "الشهادة",
+      "fr": "certification",
+      "id": "sertifikasi",
+      "ru": "сертификация",
+      "th": "การรับรอง",
+      "vi": "chứng nhận"
+     },
+     "value": {
+      "en": "CE",
+      "es": "CE",
+      "ar": "CE",
+      "fr": "CE",
+      "id": "CE",
+      "ru": "CE",
+      "th": "CE",
+      "vi": "CE"
+     }
+    },
+    {
+     "label": {
+      "en": "Color",
+      "zh": "颜色",
+      "es": "Color",
+      "ar": "اللون",
+      "fr": "Couleur",
+      "id": "Warna",
+      "ru": "Цвет",
+      "th": "สี",
+      "vi": "Màu sắc"
+     },
+     "value": {
+      "en": "Grey",
+      "es": "Gris",
+      "ar": "رمادي",
+      "fr": "Gris",
+      "id": "Abu-abu",
+      "ru": "Серый",
+      "th": "เทา",
+      "vi": "Xám"
+     }
+    },
+    {
+     "label": {
+      "en": "Place of Origin",
+      "zh": "产地",
+      "es": "País de Origen",
+      "ar": "بلد المنشأ",
+      "fr": "Lieu d'origine",
+      "id": "Negara Asal",
+      "ru": "Страна происхождения",
+      "th": "แหล่งที่มา",
+      "vi": "Xuất xứ"
+     },
+     "value": {
+      "en": "CN",
+      "es": "CN",
+      "ar": "CN",
+      "fr": "CN",
+      "id": "CN",
+      "ru": "CN",
+      "th": "CN",
+      "vi": "CN"
+     }
+    },
+    {
+     "label": {
+      "en": "Voltage",
+      "zh": "电压",
+      "es": "Tensión",
+      "ar": "الجهد",
+      "fr": "Tension",
+      "id": "Tegangan",
+      "ru": "Напряжение",
+      "th": "แรงดันไฟฟ้า",
+      "vi": "Điện áp"
+     },
+     "value": {
+      "en": "7.4V",
+      "es": "7.4V",
+      "ar": "7.4V",
+      "fr": "7.4V",
+      "id": "7.4V",
+      "ru": "7.4V",
+      "th": "7.4V",
+      "vi": "7.4V"
+     }
+    },
+    {
+     "label": {
+      "en": "Size",
+      "zh": "尺寸",
+      "es": "Tamaño",
+      "ar": "الحجم",
+      "fr": "Taille",
+      "id": "Ukuran",
+      "ru": "Размер",
+      "th": "ขนาด",
+      "vi": "Kích thước"
+     },
+     "value": {
+      "en": "8*5*14CM",
+      "es": "8*5*14CM",
+      "ar": "8*5*14CM",
+      "fr": "8*5*14CM",
+      "id": "8*5*14CM",
+      "ru": "8*5*14CM",
+      "th": "8*5*14CM",
+      "vi": "8*5*14CM"
+     }
+    },
+    {
+     "label": {
+      "en": "Model Number",
+      "zh": "型号",
+      "es": "Número de modelo",
+      "ar": "رقم الموديل",
+      "fr": "Numéro de modèle",
+      "id": "Nomor Model",
+      "ru": "Номер модели",
+      "th": "หมายเลขรุ่น",
+      "vi": "Số model"
+     },
+     "value": {
+      "en": "YMC6657",
+      "es": "YMC6657",
+      "ar": "YMC6657",
+      "fr": "YMC6657",
+      "id": "YMC6657",
+      "ru": "YMC6657",
+      "th": "YMC6657",
+      "vi": "YMC6657"
+     }
+    },
+    {
+     "label": {
+      "en": "Noise Level",
+      "zh": "噪音",
+      "es": "Nivel de ruido",
+      "ar": "مستوى الضجيج",
+      "fr": "Niveau sonore",
+      "id": "Tingkat Kebisingan",
+      "ru": "Уровень шума",
+      "th": "ระดับเสียงรบกวน",
+      "vi": "Mức ồn"
+     },
+     "value": {
+      "en": "85",
+      "es": "85",
+      "ar": "85",
+      "fr": "85",
+      "id": "85",
+      "ru": "85",
+      "th": "85",
+      "vi": "85"
+     }
+    }
+   ],
+   "packaging": {
+    "unit": "Color Box"
+   },
+   "customization": {},
+   "applications": {
+    "en": "",
+    "zh": ""
+   },
+   "price_indicator": null,
+   "quick_specs": [
+    {
+     "label": {
+      "en": "Power",
+      "zh": "功率",
+      "es": "Potencia",
+      "ar": "القدرة",
+      "fr": "Puissance",
+      "id": "Daya",
+      "ru": "Мощность",
+      "th": "กำลังไฟ",
+      "vi": "Công suất"
+     },
+     "value": {
+      "en": "≤65W",
+      "es": "≤65W",
+      "ar": "≤65W",
+      "fr": "≤65W",
+      "id": "≤65W",
+      "ru": "≤65W",
+      "th": "≤65W",
+      "vi": "≤65W"
+     }
+    },
+    {
+     "label": {
+      "en": "Maximum Pressure",
+      "zh": "最大气压",
+      "es": "Presión máxima",
+      "ar": "أقصى ضغط",
+      "fr": "Pression maximale",
+      "id": "Tekanan Maksimum",
+      "ru": "Максимальное давление",
+      "th": "แรงดันสูงสุด",
+      "vi": "Áp suất tối đa"
+     },
+     "value": {
+      "en": "150PSI / 10.3Bar",
+      "es": "150PSI / 10.3Bar",
+      "ar": "150PSI / 10.3Bar",
+      "fr": "150PSI / 10.3Bar",
+      "id": "150PSI / 10.3Bar",
+      "ru": "150PSI / 10.3Bar",
+      "th": "150PSI / 10.3Bar",
+      "vi": "150PSI / 10.3Bar"
+     }
+    },
+    {
+     "label": {
+      "en": "Working Time",
+      "zh": "工作时间",
+      "es": "Tiempo de funcionamiento",
+      "ar": "زمن العمل",
+      "fr": "Temps de fonctionnement",
+      "id": "Waktu Kerja",
+      "ru": "Время работы",
+      "th": "เวลาทำงาน",
+      "vi": "Thời gian làm việc"
+     },
+     "value": {
+      "en": "25mins",
+      "es": "25mins",
+      "ar": "25mins",
+      "fr": "25mins",
+      "id": "25mins",
+      "ru": "25mins",
+      "th": "25mins",
+      "vi": "25mins"
+     }
+    },
+    {
+     "label": {
+      "en": "Battery Capacity",
+      "zh": "电池容量",
+      "es": "Capacidad de batería",
+      "ar": "سعة البطارية",
+      "fr": "Capacité de la batterie",
+      "id": "Kapasitas Baterai",
+      "ru": "Ёмкость аккумулятора",
+      "th": "ความจุแบตเตอรี่",
+      "vi": "Dung lượng pin"
+     },
+     "value": {
+      "en": "2000mAh*2",
+      "es": "2000mAh*2",
+      "ar": "2000mAh*2",
+      "fr": "2000mAh*2",
+      "id": "2000mAh*2",
+      "ru": "2000mAh*2",
+      "th": "2000mAh*2",
+      "vi": "2000mAh*2"
+     }
+    }
+   ],
+   "price_ladder": [],
+   "sku": "1601912149842",
+   "description": {
+    "en": "≤65W · 150PSI / 10.3Bar · 25mins. OEM/ODM available; specifications from the supplier listing.",
+    "zh": "≤65W · 150PSI / 10.3Bar · 25mins。支持 OEM/ODM 定制，规格取自供应商商品资料。",
+    "es": "≤65W · 150PSI / 10.3Bar · 25mins. Disponible en OEM/ODM; especificaciones tomadas del listado del proveedor.",
+    "ar": "≤65W · 150PSI / 10.3Bar · 25mins. متاح بنظام OEM/ODM؛ المواصفات مأخوذة من قائمة المورّد.",
+    "fr": "≤65W · 150PSI / 10.3Bar · 25mins. Disponible en OEM/ODM ; spécifications issues de la fiche du fournisseur.",
+    "id": "≤65W · 150PSI / 10.3Bar · 25mins. Tersedia dalam OEM/ODM; spesifikasi diambil dari daftar pemasok.",
+    "ru": "≤65W · 150PSI / 10.3Bar · 25mins. Доступно в OEM/ODM; характеристики взяты из карточки товара поставщика.",
+    "th": "≤65W · 150PSI / 10.3Bar · 25mins. มีให้บริการในรูปแบบ OEM/ODM; ข้อมูลจำเพาะนำมาจากประกาศของผู้ขาย",
+    "vi": "≤65W · 150PSI / 10.3Bar · 25mins. Có sẵn dạng OEM/ODM; thông số kỹ thuật lấy từ niêm yết của nhà cung cấp."
+   },
+   "supplier_rating": "4.81",
+   "response_time": "—",
+   "transactions": "—",
+   "years": "—",
+   "ship_from": {
+    "en": "China",
+    "zh": "中国"
+   },
+   "sample": {
+    "enabled": true,
+    "qty": 2,
+    "note": {
+     "en": "Sample available (max 2 pcs)",
+     "zh": "支持打样（最多 2 台）"
+    }
+   },
+   "category_name": {
+    "en": "Tire Inflators & Air Compressors",
+    "zh": "充气泵",
+    "es": "Inflador de Neumaticos Digital",
+    "ar": "مضخة إطارات رقمية",
+    "fr": "Gonfleur de pneus numérique",
+    "id": "Pompa Ban Digital",
+    "ru": "Цифровой компрессор для шин",
+    "th": "ปั๊มลมยางดิจิทัล",
+    "vi": "Bơm lốp xe kỹ thuật số"
+   },
+   "_source": {
+    "platform": "alibaba.com",
+    "productId": "1601912149842"
+   },
+   "_cat": "tire-inflator"
+  },
+  {
+   "id": "ym2",
+   "name": {
+    "en": "OEM ODM 90W Portable Cordless Tire Inflator Air Compressor Type C Rechargeable Car Tyre Pump CE RoHS FCC ABS Emergency Light",
+    "zh": "YM2 无线充气泵（90W Type-C / 19 缸 / LED 显示）",
+    "es": "Inflador de neumáticos inalámbrico portátil OEM ODM 90 W, compresor de aire recargable por Type-C, bomba para neumáticos de coche CE RoHS FCC ABS con luz de emergencia",
+    "ar": "مضخة إطارات لاسلكية محمولة OEM ODM بقدرة 90W، ضاغط هواء قابل لإعادة الشحن Type-C، منفاخ إطارات سيارة CE RoHS FCC ABS مع إضاءة طوارئ",
+    "fr": "Gonfleur de pneus sans fil portatif OEM ODM 90 W, compresseur d'air rechargeable Type-C, pompe pour pneus de voiture CE RoHS FCC ABS avec éclairage d'urgence",
+    "id": "Pompa Ban Nirkabel Portabel OEM ODM 90W, Kompresor Udara, Dapat Diisi Ulang Type C, Pompa Ban Mobil, CE RoHS FCC ABS, Lampu Darurat",
+    "ru": "Портативный беспроводной компрессор для шин OEM ODM 90 W, воздушный компрессор с зарядкой Type-C, автомобильный насос для шин, CE RoHS FCC, ABS, аварийный свет",
+    "th": "เครื่องเติมลมยางไร้สายแบบพกพา OEM ODM 90W ปั๊มลมชาร์จผ่าน Type-C สูบลมยางรถยนต์ CE RoHS FCC ABS พร้อมไฟฉุกเฉิน",
+    "vi": "Bơm lốp không dây di động OEM ODM 90W, máy nén khí sạc Type C, bơm lốp ô tô CE RoHS FCC ABS, đèn khẩn cấp"
+   },
+   "tagline": {
+    "en": "90W · 1500mAh*4 · Lithium Battery",
+    "zh": "90W · 1500mAh*4 · Lithium Battery",
+    "es": "90 W · 1500 mAh*4 · batería de litio",
+    "ar": "90W · 1500mAh*4 · بطارية ليثيوم",
+    "fr": "90 W · 1500 mAh*4 · batterie au lithium",
+    "id": "90W · 1500mAh*4 · Baterai Litium",
+    "ru": "90 W · 1500 мАч*4 · литиевый аккумулятор",
+    "th": "90W · 1500mAh*4 · แบตเตอรี่ลิเธียม",
+    "vi": "90W · 1500mAh*4 · pin lithium"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ym2/01.webp",
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ym2/02.webp",
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ym2/03.webp",
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ym2/04.webp",
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ym2/05.webp",
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ym2/06.webp"
+   ],
+   "video_url": null,
+   "moq": {
+    "value": 1,
+    "unit": "pieces"
+   },
+   "certifications": [],
+   "highlights": [
+    {
+     "icon": "check",
+     "text": {
+      "en": "Power: 90W",
+      "zh": "功率: 90W",
+      "es": "Potencia: 90W",
+      "ar": "القدرة: 90W",
+      "fr": "Puissance: 90W",
+      "id": "Daya: 90W",
+      "ru": "Мощность: 90W",
+      "th": "กำลังไฟ: 90W",
+      "vi": "Công suất: 90W"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Battery Capacity: 1500mAh*4",
+      "zh": "电池容量: 1500mAh*4",
+      "es": "Capacidad de batería: 1500mAh*4",
+      "ar": "سعة البطارية: 1500mAh*4",
+      "fr": "Capacité de la batterie: 1500mAh*4",
+      "id": "Kapasitas Baterai: 1500mAh*4",
+      "ru": "Ёмкость аккумулятора: 1500mAh*4",
+      "th": "ความจุแบตเตอรี่: 1500mAh*4",
+      "vi": "Dung lượng pin: 1500mAh*4"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Battery Type: Lithium Battery",
+      "zh": "电池类型: Lithium Battery",
+      "es": "Tipo de batería: Batería de litio",
+      "ar": "نوع البطارية: بطارية ليثيوم",
+      "fr": "Type de batterie: Batterie au lithium",
+      "id": "Jenis Baterai: Baterai Litium",
+      "ru": "Тип аккумулятора: Литиевый аккумулятор",
+      "th": "ประเภทแบตเตอรี่: แบตเตอรี่ลิเธียม",
+      "vi": "Loại pin: Pin lithium"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Voltage: 14.2-16.8V",
+      "zh": "电压: 14.2-16.8V",
+      "es": "Tensión: 14.2-16.8V",
+      "ar": "الجهد: 14.2-16.8V",
+      "fr": "Tension: 14.2-16.8V",
+      "id": "Tegangan: 14.2-16.8V",
+      "ru": "Напряжение: 14.2-16.8V",
+      "th": "แรงดันไฟฟ้า: 14.2-16.8V",
+      "vi": "Điện áp: 14.2-16.8V"
+     }
+    }
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "Product Type",
+      "zh": "Product Type",
+      "es": "Tipo de producto",
+      "ar": "نوع المنتج",
+      "fr": "Type de produit",
+      "id": "Jenis Produk",
+      "ru": "Тип товара",
+      "th": "ประเภทสินค้า",
+      "vi": "Loại sản phẩm"
+     },
+     "value": {
+      "en": "Cordless Tire Inflator",
+      "es": "Inflador de neumáticos inalámbrico",
+      "ar": "مضخة إطارات لاسلكية",
+      "fr": "Gonfleur de pneus sans fil",
+      "id": "Pompa Ban Nirkabel",
+      "ru": "Беспроводной компрессор для шин",
+      "th": "เครื่องเติมลมยางไร้สาย",
+      "vi": "Bơm lốp không dây"
+     }
+    },
+    {
+     "label": {
+      "en": "Function",
+      "zh": "功能",
+      "es": "Función",
+      "ar": "الوظيفة",
+      "fr": "Fonction",
+      "id": "Fungsi",
+      "ru": "Функция",
+      "th": "ฟังก์ชัน",
+      "vi": "Chức năng"
+     },
+     "value": {
+      "en": "Tire Inflation",
+      "es": "Inflado de neumáticos",
+      "ar": "نفخ الإطارات",
+      "fr": "Gonflage de pneus",
+      "id": "Pengisian Angin Ban",
+      "ru": "Накачивание шин",
+      "th": "การเติมลมยาง",
+      "vi": "Bơm lốp"
+     }
+    },
+    {
+     "label": {
+      "en": "Application",
+      "zh": "适用场景",
+      "es": "Aplicación",
+      "ar": "التطبيق",
+      "fr": "Utilisation",
+      "id": "Aplikasi",
+      "ru": "Применение",
+      "th": "การใช้งาน",
+      "vi": "Ứng dụng"
+     },
+     "value": {
+      "en": "Car Motorcycle Bicycle",
+      "es": "Coche, moto, bicicleta",
+      "ar": "سيارة ودراجة نارية ودراجة هوائية",
+      "fr": "Voiture, moto, vélo",
+      "id": "Mobil, Motor, Sepeda",
+      "ru": "Автомобиль, мотоцикл, велосипед",
+      "th": "รถยนต์ รถจักรยานยนต์ จักรยาน",
+      "vi": "Ô tô, xe máy, xe đạp"
+     }
+    },
+    {
+     "label": {
+      "en": "Power",
+      "zh": "功率",
+      "es": "Potencia",
+      "ar": "القدرة",
+      "fr": "Puissance",
+      "id": "Daya",
+      "ru": "Мощность",
+      "th": "กำลังไฟ",
+      "vi": "Công suất"
+     },
+     "value": {
+      "en": "90W",
+      "es": "90W",
+      "ar": "90W",
+      "fr": "90W",
+      "id": "90W",
+      "ru": "90W",
+      "th": "90W",
+      "vi": "90W"
+     }
+    },
+    {
+     "label": {
+      "en": "Voltage",
+      "zh": "电压",
+      "es": "Tensión",
+      "ar": "الجهد",
+      "fr": "Tension",
+      "id": "Tegangan",
+      "ru": "Напряжение",
+      "th": "แรงดันไฟฟ้า",
+      "vi": "Điện áp"
+     },
+     "value": {
+      "en": "14.2-16.8V",
+      "es": "14.2-16.8V",
+      "ar": "14.2-16.8V",
+      "fr": "14.2-16.8V",
+      "id": "14.2-16.8V",
+      "ru": "14.2-16.8V",
+      "th": "14.2-16.8V",
+      "vi": "14.2-16.8V"
+     }
+    },
+    {
+     "label": {
+      "en": "Input Voltage",
+      "zh": "Input Voltage",
+      "es": "Tensión de entrada",
+      "ar": "جهد الدخل",
+      "fr": "Tension d'entrée",
+      "id": "Tegangan Input",
+      "ru": "Входное напряжение",
+      "th": "แรงดันไฟฟ้าขาเข้า",
+      "vi": "Điện áp đầu vào"
+     },
+     "value": {
+      "en": "5V 2A",
+      "es": "5V 2A",
+      "ar": "5V 2A",
+      "fr": "5V 2A",
+      "id": "5V 2A",
+      "ru": "5V 2A",
+      "th": "5V 2A",
+      "vi": "5V 2A"
+     }
+    },
+    {
+     "label": {
+      "en": "Battery Type",
+      "zh": "电池类型",
+      "es": "Tipo de batería",
+      "ar": "نوع البطارية",
+      "fr": "Type de batterie",
+      "id": "Jenis Baterai",
+      "ru": "Тип аккумулятора",
+      "th": "ประเภทแบตเตอรี่",
+      "vi": "Loại pin"
+     },
+     "value": {
+      "en": "Lithium Battery",
+      "es": "Batería de litio",
+      "ar": "بطارية ليثيوم",
+      "fr": "Batterie au lithium",
+      "id": "Baterai Litium",
+      "ru": "Литиевый аккумулятор",
+      "th": "แบตเตอรี่ลิเธียม",
+      "vi": "Pin lithium"
+     }
+    },
+    {
+     "label": {
+      "en": "Battery Capacity",
+      "zh": "电池容量",
+      "es": "Capacidad de batería",
+      "ar": "سعة البطارية",
+      "fr": "Capacité de la batterie",
+      "id": "Kapasitas Baterai",
+      "ru": "Ёмкость аккумулятора",
+      "th": "ความจุแบตเตอรี่",
+      "vi": "Dung lượng pin"
+     },
+     "value": {
+      "en": "1500mAh*4",
+      "es": "1500mAh*4",
+      "ar": "1500mAh*4",
+      "fr": "1500mAh*4",
+      "id": "1500mAh*4",
+      "ru": "1500mAh*4",
+      "th": "1500mAh*4",
+      "vi": "1500mAh*4"
+     }
+    },
+    {
+     "label": {
+      "en": "Cylinder Type",
+      "zh": "Cylinder Type",
+      "es": "Tipo de cilindro",
+      "ar": "نوع الأسطوانة",
+      "fr": "Type de cylindre",
+      "id": "Jenis Silinder",
+      "ru": "Тип цилиндра",
+      "th": "ประเภทสูบ",
+      "vi": "Loại xi-lanh"
+     },
+     "value": {
+      "en": "19 Cylinder",
+      "es": "Cilindro de 19 mm",
+      "ar": "أسطوانة 19",
+      "fr": "Cylindre 19",
+      "id": "Silinder 19",
+      "ru": "Цилиндр 19 мм",
+      "th": "19 สูบ",
+      "vi": "Xi-lanh 19"
+     }
+    },
+    {
+     "label": {
+      "en": "Inflation Time",
+      "zh": "Inflation Time",
+      "es": "Tiempo de inflado",
+      "ar": "زمن النفخ",
+      "fr": "Temps de gonflage",
+      "id": "Waktu Pengisian Angin",
+      "ru": "Время накачивания",
+      "th": "เวลาในการเติมลม",
+      "vi": "Thời gian bơm"
+     },
+     "value": {
+      "en": "25 Minutes",
+      "es": "25 minutos",
+      "ar": "25 دقيقة",
+      "fr": "25 minutes",
+      "id": "25 Menit",
+      "ru": "25 минут",
+      "th": "25 นาที",
+      "vi": "25 phút"
+     }
+    },
+    {
+     "label": {
+      "en": "Air Tube Length",
+      "zh": "Air Tube Length",
+      "es": "Longitud del Tubo de Aire",
+      "ar": "طول أنبوب الهواء",
+      "fr": "Longueur du tuyau d'air",
+      "id": "Panjang Selang Udara",
+      "ru": "Длина воздушной трубки",
+      "th": "ความยาวท่อลม",
+      "vi": "Chiều dài ống khí"
+     },
+     "value": {
+      "en": "20CM",
+      "es": "20CM",
+      "ar": "20CM",
+      "fr": "20CM",
+      "id": "20CM",
+      "ru": "20CM",
+      "th": "20CM",
+      "vi": "20CM"
+     }
+    },
+    {
+     "label": {
+      "en": "Feature",
+      "zh": "Feature",
+      "es": "Característica",
+      "ar": "الميزة",
+      "fr": "Caractéristique",
+      "id": "Fitur",
+      "ru": "Характеристика",
+      "th": "คุณสมบัติ",
+      "vi": "Tính năng"
+     },
+     "value": {
+      "en": "Portable Cordless Fast Inflation",
+      "es": "Inflado rápido portátil e inalámbrico",
+      "ar": "نفخ سريع لاسلكي محمول",
+      "fr": "Gonflage rapide sans fil portatif",
+      "id": "Pengisian Angin Cepat Portabel Nirkabel",
+      "ru": "Портативная беспроводная быстрая накачка",
+      "th": "เติมลมเร็วแบบพกพาไร้สาย",
+      "vi": "Bơm nhanh di động không dây"
+     }
+    },
+    {
+     "label": {
+      "en": "Charging Type",
+      "zh": "Charging Type",
+      "es": "Tipo de carga",
+      "ar": "نوع الشحن",
+      "fr": "Type de charge",
+      "id": "Jenis Pengisian",
+      "ru": "Тип зарядки",
+      "th": "ประเภทการชาร์จ",
+      "vi": "Kiểu sạc"
+     },
+     "value": {
+      "en": "USB Charging",
+      "es": "Carga USB",
+      "ar": "شحن USB",
+      "fr": "Charge USB",
+      "id": "Pengisian USB",
+      "ru": "Зарядка через USB",
+      "th": "ชาร์จผ่าน USB",
+      "vi": "Sạc USB"
+     }
+    },
+    {
+     "label": {
+      "en": "Warranty",
+      "zh": "质保",
+      "es": "Garantía",
+      "ar": "الضمان",
+      "fr": "Garantie",
+      "id": "Garansi",
+      "ru": "Гарантия",
+      "th": "การรับประกัน",
+      "vi": "Bảo hành"
+     },
+     "value": {
+      "en": "1 Year",
+      "es": "1 año",
+      "ar": "سنة واحدة",
+      "fr": "1 an",
+      "id": "1 tahun",
+      "ru": "1 год",
+      "th": "1 ปี",
+      "vi": "1 năm"
+     }
+    },
+    {
+     "label": {
+      "en": "Function",
+      "zh": "功能",
+      "es": "Función",
+      "ar": "الوظيفة",
+      "fr": "Fonction",
+      "id": "Fungsi",
+      "ru": "Функция",
+      "th": "ฟังก์ชัน",
+      "vi": "Chức năng"
+     },
+     "value": {
+      "en": "Emergency Light",
+      "es": "Luz de emergencia",
+      "ar": "إضاءة طوارئ",
+      "fr": "Éclairage d'urgence",
+      "id": "Lampu Darurat",
+      "ru": "Аварийный свет",
+      "th": "ไฟฉุกเฉิน",
+      "vi": "Đèn khẩn cấp"
+     }
+    },
+    {
+     "label": {
+      "en": "Display Type",
+      "zh": "Display Type",
+      "es": "Tipo de pantalla",
+      "ar": "نوع الشاشة",
+      "fr": "Type d'écran",
+      "id": "Jenis Layar",
+      "ru": "Тип дисплея",
+      "th": "ประเภทหน้าจอแสดงผล",
+      "vi": "Loại màn hình"
+     },
+     "value": {
+      "en": "LED Display Screen",
+      "es": "Pantalla LED",
+      "ar": "شاشة LED",
+      "fr": "Écran d'affichage LED",
+      "id": "Layar LED",
+      "ru": "LED-дисплей",
+      "th": "หน้าจอแสดงผล LED",
+      "vi": "Màn hình LED"
+     }
+    },
+    {
+     "label": {
+      "en": "Material",
+      "zh": "材质",
+      "es": "Material",
+      "ar": "المادة",
+      "fr": "Matériau",
+      "id": "Material",
+      "ru": "Материал",
+      "th": "วัสดุ",
+      "vi": "Chất liệu"
+     },
+     "value": {
+      "en": "ABS",
+      "es": "ABS",
+      "ar": "ABS",
+      "fr": "ABS",
+      "id": "ABS",
+      "ru": "ABS",
+      "th": "ABS",
+      "vi": "ABS"
+     }
+    },
+    {
+     "label": {
+      "en": "Suitable for",
+      "zh": "Suitable for",
+      "es": "Apto para",
+      "ar": "مناسب لـ",
+      "fr": "Convient pour",
+      "id": "Cocok untuk",
+      "ru": "Подходит для",
+      "th": "เหมาะสำหรับ",
+      "vi": "Phù hợp cho"
+     },
+     "value": {
+      "en": "Compact Car / Motorcycle",
+      "es": "Coche compacto / motocicleta",
+      "ar": "سيارة صغيرة / دراجة نارية",
+      "fr": "Petite voiture / moto",
+      "id": "Mobil Kompak / Motor",
+      "ru": "Малолитражный автомобиль / мотоцикл",
+      "th": "รถยนต์ขนาดเล็ก / รถจักรยานยนต์",
+      "vi": "Xe nhỏ / xe máy"
+     }
+    },
+    {
+     "label": {
+      "en": "certification",
+      "zh": "certification",
+      "es": "certificación",
+      "ar": "الشهادة",
+      "fr": "certification",
+      "id": "sertifikasi",
+      "ru": "сертификация",
+      "th": "การรับรอง",
+      "vi": "chứng nhận"
+     },
+     "value": {
+      "en": "FCC",
+      "es": "FCC",
+      "ar": "FCC",
+      "fr": "FCC",
+      "id": "FCC",
+      "ru": "FCC",
+      "th": "FCC",
+      "vi": "FCC"
+     }
+    },
+    {
+     "label": {
+      "en": "Color",
+      "zh": "颜色",
+      "es": "Color",
+      "ar": "اللون",
+      "fr": "Couleur",
+      "id": "Warna",
+      "ru": "Цвет",
+      "th": "สี",
+      "vi": "Màu sắc"
+     },
+     "value": {
+      "en": "Black",
+      "es": "Negro",
+      "ar": "أسود",
+      "fr": "Noir",
+      "id": "Hitam",
+      "ru": "Чёрный",
+      "th": "ดำ",
+      "vi": "Đen"
+     }
+    },
+    {
+     "label": {
+      "en": "Place of Origin",
+      "zh": "产地",
+      "es": "País de Origen",
+      "ar": "بلد المنشأ",
+      "fr": "Lieu d'origine",
+      "id": "Negara Asal",
+      "ru": "Страна происхождения",
+      "th": "แหล่งที่มา",
+      "vi": "Xuất xứ"
+     },
+     "value": {
+      "en": "CN",
+      "es": "CN",
+      "ar": "CN",
+      "fr": "CN",
+      "id": "CN",
+      "ru": "CN",
+      "th": "CN",
+      "vi": "CN"
+     }
+    },
+    {
+     "label": {
+      "en": "Voltage",
+      "zh": "电压",
+      "es": "Tensión",
+      "ar": "الجهد",
+      "fr": "Tension",
+      "id": "Tegangan",
+      "ru": "Напряжение",
+      "th": "แรงดันไฟฟ้า",
+      "vi": "Điện áp"
+     },
+     "value": {
+      "en": "14.2-16.8V",
+      "es": "14.2-16.8V",
+      "ar": "14.2-16.8V",
+      "fr": "14.2-16.8V",
+      "id": "14.2-16.8V",
+      "ru": "14.2-16.8V",
+      "th": "14.2-16.8V",
+      "vi": "14.2-16.8V"
+     }
+    },
+    {
+     "label": {
+      "en": "Size",
+      "zh": "尺寸",
+      "es": "Tamaño",
+      "ar": "الحجم",
+      "fr": "Taille",
+      "id": "Ukuran",
+      "ru": "Размер",
+      "th": "ขนาด",
+      "vi": "Kích thước"
+     },
+     "value": {
+      "en": "20*12*6cm",
+      "es": "20*12*6cm",
+      "ar": "20*12*6cm",
+      "fr": "20*12*6cm",
+      "id": "20*12*6cm",
+      "ru": "20*12*6cm",
+      "th": "20*12*6cm",
+      "vi": "20*12*6cm"
+     }
+    },
+    {
+     "label": {
+      "en": "Model Number",
+      "zh": "型号",
+      "es": "Número de modelo",
+      "ar": "رقم الموديل",
+      "fr": "Numéro de modèle",
+      "id": "Nomor Model",
+      "ru": "Номер модели",
+      "th": "หมายเลขรุ่น",
+      "vi": "Số model"
+     },
+     "value": {
+      "en": "YM2",
+      "es": "YM2",
+      "ar": "YM2",
+      "fr": "YM2",
+      "id": "YM2",
+      "ru": "YM2",
+      "th": "YM2",
+      "vi": "YM2"
+     }
+    },
+    {
+     "label": {
+      "en": "Cylinder type",
+      "zh": "Cylinder type",
+      "es": "Tipo de cilindro",
+      "ar": "نوع الأسطوانة",
+      "fr": "Type de cylindre",
+      "id": "Jenis silinder",
+      "ru": "Тип цилиндра",
+      "th": "ประเภทสูบ",
+      "vi": "Loại xi-lanh"
+     },
+     "value": {
+      "en": "19 cylinder",
+      "es": "cilindro de 19 mm",
+      "ar": "أسطوانة 19",
+      "fr": "cylindre 19",
+      "id": "Silinder 19",
+      "ru": "Цилиндр 19 мм",
+      "th": "19 สูบ",
+      "vi": "xi-lanh 19"
+     }
+    },
+    {
+     "label": {
+      "en": "Noise Level",
+      "zh": "噪音",
+      "es": "Nivel de ruido",
+      "ar": "مستوى الضجيج",
+      "fr": "Niveau sonore",
+      "id": "Tingkat Kebisingan",
+      "ru": "Уровень шума",
+      "th": "ระดับเสียงรบกวน",
+      "vi": "Mức ồn"
+     },
+     "value": {
+      "en": "85dB",
+      "es": "85dB",
+      "ar": "85dB",
+      "fr": "85dB",
+      "id": "85dB",
+      "ru": "85dB",
+      "th": "85dB",
+      "vi": "85dB"
+     }
+    }
+   ],
+   "packaging": {
+    "unit": "Color Box"
+   },
+   "customization": {},
+   "applications": {
+    "en": "Car Motorcycle Bicycle",
+    "zh": "Car Motorcycle Bicycle",
+    "es": "Coche, moto, bicicleta",
+    "ar": "سيارة ودراجة نارية ودراجة هوائية",
+    "fr": "Voiture, moto, vélo",
+    "id": "Mobil, motor, sepeda",
+    "ru": "Автомобиль, мотоцикл, велосипед",
+    "th": "รถยนต์ รถจักรยานยนต์ จักรยาน",
+    "vi": "Ô tô, xe máy, xe đạp"
+   },
+   "price_indicator": null,
+   "quick_specs": [
+    {
+     "label": {
+      "en": "Power",
+      "zh": "功率",
+      "es": "Potencia",
+      "ar": "القدرة",
+      "fr": "Puissance",
+      "id": "Daya",
+      "ru": "Мощность",
+      "th": "กำลังไฟ",
+      "vi": "Công suất"
+     },
+     "value": {
+      "en": "90W",
+      "es": "90W",
+      "ar": "90W",
+      "fr": "90W",
+      "id": "90W",
+      "ru": "90W",
+      "th": "90W",
+      "vi": "90W"
+     }
+    },
+    {
+     "label": {
+      "en": "Battery Capacity",
+      "zh": "电池容量",
+      "es": "Capacidad de batería",
+      "ar": "سعة البطارية",
+      "fr": "Capacité de la batterie",
+      "id": "Kapasitas Baterai",
+      "ru": "Ёмкость аккумулятора",
+      "th": "ความจุแบตเตอรี่",
+      "vi": "Dung lượng pin"
+     },
+     "value": {
+      "en": "1500mAh*4",
+      "es": "1500mAh*4",
+      "ar": "1500mAh*4",
+      "fr": "1500mAh*4",
+      "id": "1500mAh*4",
+      "ru": "1500mAh*4",
+      "th": "1500mAh*4",
+      "vi": "1500mAh*4"
+     }
+    },
+    {
+     "label": {
+      "en": "Battery Type",
+      "zh": "电池类型",
+      "es": "Tipo de batería",
+      "ar": "نوع البطارية",
+      "fr": "Type de batterie",
+      "id": "Jenis Baterai",
+      "ru": "Тип аккумулятора",
+      "th": "ประเภทแบตเตอรี่",
+      "vi": "Loại pin"
+     },
+     "value": {
+      "en": "Lithium Battery",
+      "es": "Batería de litio",
+      "ar": "بطارية ليثيوم",
+      "fr": "Batterie au lithium",
+      "id": "Baterai Litium",
+      "ru": "Литиевый аккумулятор",
+      "th": "แบตเตอรี่ลิเธียม",
+      "vi": "Pin lithium"
+     }
+    },
+    {
+     "label": {
+      "en": "Voltage",
+      "zh": "电压",
+      "es": "Tensión",
+      "ar": "الجهد",
+      "fr": "Tension",
+      "id": "Tegangan",
+      "ru": "Напряжение",
+      "th": "แรงดันไฟฟ้า",
+      "vi": "Điện áp"
+     },
+     "value": {
+      "en": "14.2-16.8V",
+      "es": "14.2-16.8V",
+      "ar": "14.2-16.8V",
+      "fr": "14.2-16.8V",
+      "id": "14.2-16.8V",
+      "ru": "14.2-16.8V",
+      "th": "14.2-16.8V",
+      "vi": "14.2-16.8V"
+     }
+    }
+   ],
+   "price_ladder": [],
+   "sku": "1601904697003",
+   "description": {
+    "en": "90W · 1500mAh*4 · Lithium Battery. OEM/ODM available; specifications from the supplier listing.",
+    "zh": "90W · 1500mAh*4 · Lithium Battery。支持 OEM/ODM 定制，规格取自供应商商品资料。",
+    "es": "90 W · 1500 mAh*4 · batería de litio. Disponible en OEM/ODM; especificaciones tomadas del listado del proveedor.",
+    "ar": "90W · 1500mAh*4 · بطارية ليثيوم. متاح بنظام OEM/ODM؛ المواصفات مأخوذة من قائمة المورّد.",
+    "fr": "90 W · 1500 mAh*4 · batterie au lithium. Disponible en OEM/ODM ; spécifications issues de la fiche du fournisseur.",
+    "id": "90W · 1500mAh*4 · Baterai Litium. Tersedia dalam OEM/ODM; spesifikasi diambil dari daftar pemasok.",
+    "ru": "90 W · 1500 мАч*4 · литиевый аккумулятор. Доступно в OEM/ODM; характеристики взяты из карточки товара поставщика.",
+    "th": "90W · 1500mAh*4 · แบตเตอรี่ลิเธียม. มีให้บริการในรูปแบบ OEM/ODM; ข้อมูลจำเพาะนำมาจากประกาศของผู้ขาย",
+    "vi": "90W · 1500mAh*4 · pin lithium. Có sẵn dạng OEM/ODM; thông số kỹ thuật lấy từ niêm yết của nhà cung cấp."
+   },
+   "supplier_rating": "4.81",
+   "response_time": "—",
+   "transactions": "—",
+   "years": "—",
+   "ship_from": {
+    "en": "China",
+    "zh": "中国"
+   },
+   "sample": {
+    "enabled": true,
+    "qty": 2,
+    "note": {
+     "en": "Sample available (max 2 pcs)",
+     "zh": "支持打样（最多 2 台）"
+    }
+   },
+   "category_name": {
+    "en": "Tire Inflators & Air Compressors",
+    "zh": "充气泵",
+    "es": "Inflador de Neumaticos Digital",
+    "ar": "مضخة إطارات رقمية",
+    "fr": "Gonfleur de pneus numérique",
+    "id": "Pompa Ban Digital",
+    "ru": "Цифровой компрессор для шин",
+    "th": "ปั๊มลมยางดิจิทัล",
+    "vi": "Bơm lốp xe kỹ thuật số"
+   },
+   "_source": {
+    "platform": "alibaba.com",
+    "productId": "1601904697003"
+   },
+   "_cat": "tire-inflator"
+  },
+  {
+   "id": "ymc6688",
+   "name": {
+    "en": "Portable ABS Jump Starter Tire Inflator 150PSI 14.8V Lithium Polymer Battery 2500mAh CE Certified Car Battery Booster LCD",
+    "zh": "YMC6688 应急启动电源+充气泵（120W / 150PSI / 2500mAh×4）",
+    "es": "Arrancador e inflador de neumáticos portátil ABS 150PSI 14,8 V con batería de polímero de litio 2500 mAh, certificado CE, potenciador de batería de coche con LCD",
+    "ar": "مشغّل ومضخة إطارات محمول ABS 150PSI 14.8V ببطارية ليثيوم بوليمر 2500mAh، معتمد CE، معزّز بطارية سيارة بشاشة LCD",
+    "fr": "Démarreur et gonfleur de pneus portatif ABS 150PSI 14,8 V avec batterie polymère au lithium 2500 mAh, certifié CE, booster de batterie de voiture avec LCD",
+    "id": "Jump Starter dan Pompa Ban Portabel ABS 150PSI 14.8V, Baterai Litium Polimer 2500mAh, Tersertifikasi CE, Booster Baterai Mobil LCD",
+    "ru": "Портативное пусковое устройство с компрессором для шин ABS 150 PSI 14,8 V с литий-полимерным аккумулятором 2500 мАч, сертификат CE, автомобильный бустер аккумулятора с LCD",
+    "th": "เครื่องจั๊มสตาร์ทและเติมลมยางแบบพกพา ABS 150PSI 14.8V แบตเตอรี่ลิเธียมโพลิเมอร์ 2500mAh ผ่านการรับรอง CE บูสเตอร์แบตเตอรี่รถยนต์พร้อมจอ LCD",
+    "vi": "Bộ kích bình kiêm bơm lốp ABS di động 150PSI 14,8V dùng pin lithium polymer 2500mAh, đạt chứng nhận CE, bộ kích ắc quy ô tô có màn hình LCD"
+   },
+   "tagline": {
+    "en": "≤120W · 150PSI / 10.3Bar · 40mins",
+    "zh": "≤120W · 150PSI / 10.3Bar · 40mins",
+    "es": "≤120W · 150PSI / 10.3Bar · 40mins",
+    "ar": "≤120W · 150PSI / 10.3Bar · 40mins",
+    "fr": "≤120W · 150PSI / 10.3Bar · 40mins",
+    "id": "≤120W · 150PSI / 10.3Bar · 40mins",
+    "ru": "≤120W · 150PSI / 10.3Bar · 40mins",
+    "th": "≤120W · 150PSI / 10.3Bar · 40mins",
+    "vi": "≤120W · 150PSI / 10.3Bar · 40mins"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6688/01.webp",
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6688/02.webp",
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6688/03.webp",
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6688/04.webp",
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6688/05.webp",
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6688/06.webp"
+   ],
+   "video_url": null,
+   "moq": {
+    "value": 1,
+    "unit": "pieces"
+   },
+   "certifications": [],
+   "highlights": [
+    {
+     "icon": "check",
+     "text": {
+      "en": "Power: ≤120W",
+      "zh": "功率: ≤120W",
+      "es": "Potencia: ≤120W",
+      "ar": "القدرة: ≤120W",
+      "fr": "Puissance: ≤120W",
+      "id": "Daya: ≤120W",
+      "ru": "Мощность: ≤120W",
+      "th": "กำลังไฟ: ≤120W",
+      "vi": "Công suất: ≤120W"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Maximum Pressure: 150PSI / 10.3Bar",
+      "zh": "最大气压: 150PSI / 10.3Bar",
+      "es": "Presión máxima: 150PSI / 10.3Bar",
+      "ar": "أقصى ضغط: 150PSI / 10.3Bar",
+      "fr": "Pression maximale: 150PSI / 10.3Bar",
+      "id": "Tekanan Maksimum: 150PSI / 10.3Bar",
+      "ru": "Максимальное давление: 150PSI / 10.3Bar",
+      "th": "แรงดันสูงสุด: 150PSI / 10.3Bar",
+      "vi": "Áp suất tối đa: 150PSI / 10.3Bar"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Working Time: 40mins",
+      "zh": "工作时间: 40mins",
+      "es": "Tiempo de funcionamiento: 40mins",
+      "ar": "زمن العمل: 40mins",
+      "fr": "Temps de fonctionnement: 40mins",
+      "id": "Waktu Kerja: 40mins",
+      "ru": "Время работы: 40mins",
+      "th": "เวลาทำงาน: 40mins",
+      "vi": "Thời gian làm việc: 40mins"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Battery Capacity: 2500mAh*4",
+      "zh": "电池容量: 2500mAh*4",
+      "es": "Capacidad de batería: 2500mAh*4",
+      "ar": "سعة البطارية: 2500mAh*4",
+      "fr": "Capacité de la batterie: 2500mAh*4",
+      "id": "Kapasitas Baterai: 2500mAh*4",
+      "ru": "Ёмкость аккумулятора: 2500mAh*4",
+      "th": "ความจุแบตเตอรี่: 2500mAh*4",
+      "vi": "Dung lượng pin: 2500mAh*4"
+     }
+    }
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "Power",
+      "zh": "功率",
+      "es": "Potencia",
+      "ar": "القدرة",
+      "fr": "Puissance",
+      "id": "Daya",
+      "ru": "Мощность",
+      "th": "กำลังไฟ",
+      "vi": "Công suất"
+     },
+     "value": {
+      "en": "≤120W",
+      "es": "≤120W",
+      "ar": "≤120W",
+      "fr": "≤120W",
+      "id": "≤120W",
+      "ru": "≤120W",
+      "th": "≤120W",
+      "vi": "≤120W"
+     }
+    },
+    {
+     "label": {
+      "en": "Battery Type",
+      "zh": "电池类型",
+      "es": "Tipo de batería",
+      "ar": "نوع البطارية",
+      "fr": "Type de batterie",
+      "id": "Jenis Baterai",
+      "ru": "Тип аккумулятора",
+      "th": "ประเภทแบตเตอรี่",
+      "vi": "Loại pin"
+     },
+     "value": {
+      "en": "Lithium Polymer Battery",
+      "es": "Batería de polímero de litio",
+      "ar": "بطارية ليثيوم بوليمر",
+      "fr": "Batterie polymère au lithium",
+      "id": "Baterai Litium Polimer",
+      "ru": "Литий-полимерный аккумулятор",
+      "th": "แบตเตอรี่ลิเธียมโพลิเมอร์",
+      "vi": "Pin lithium polymer"
+     }
+    },
+    {
+     "label": {
+      "en": "Battery Capacity",
+      "zh": "电池容量",
+      "es": "Capacidad de batería",
+      "ar": "سعة البطارية",
+      "fr": "Capacité de la batterie",
+      "id": "Kapasitas Baterai",
+      "ru": "Ёмкость аккумулятора",
+      "th": "ความจุแบตเตอรี่",
+      "vi": "Dung lượng pin"
+     },
+     "value": {
+      "en": "2500mAh*4",
+      "es": "2500mAh*4",
+      "ar": "2500mAh*4",
+      "fr": "2500mAh*4",
+      "id": "2500mAh*4",
+      "ru": "2500mAh*4",
+      "th": "2500mAh*4",
+      "vi": "2500mAh*4"
+     }
+    },
+    {
+     "label": {
+      "en": "Charging Time",
+      "zh": "充电时间",
+      "es": "Tiempo de carga",
+      "ar": "زمن الشحن",
+      "fr": "Temps de charge",
+      "id": "Waktu Pengisian",
+      "ru": "Время зарядки",
+      "th": "เวลาในการชาร์จ",
+      "vi": "Thời gian sạc"
+     },
+     "value": {
+      "en": "3-5H",
+      "es": "3-5H",
+      "ar": "3-5H",
+      "fr": "3-5H",
+      "id": "3-5H",
+      "ru": "3-5H",
+      "th": "3-5H",
+      "vi": "3-5H"
+     }
+    },
+    {
+     "label": {
+      "en": "Working Time",
+      "zh": "工作时间",
+      "es": "Tiempo de funcionamiento",
+      "ar": "زمن العمل",
+      "fr": "Temps de fonctionnement",
+      "id": "Waktu Kerja",
+      "ru": "Время работы",
+      "th": "เวลาทำงาน",
+      "vi": "Thời gian làm việc"
+     },
+     "value": {
+      "en": "40mins",
+      "es": "40mins",
+      "ar": "40mins",
+      "fr": "40mins",
+      "id": "40mins",
+      "ru": "40mins",
+      "th": "40mins",
+      "vi": "40mins"
+     }
+    },
+    {
+     "label": {
+      "en": "Maximum Pressure",
+      "zh": "Maximum Pressure",
+      "es": "Presión máxima",
+      "ar": "أقصى ضغط",
+      "fr": "Pression maximale",
+      "id": "Tekanan Maksimum",
+      "ru": "Максимальное давление",
+      "th": "แรงดันสูงสุด",
+      "vi": "Áp suất tối đa"
+     },
+     "value": {
+      "en": "150PSI / 10.3Bar",
+      "es": "150PSI / 10.3Bar",
+      "ar": "150PSI / 10.3Bar",
+      "fr": "150PSI / 10.3Bar",
+      "id": "150PSI / 10.3Bar",
+      "ru": "150PSI / 10.3Bar",
+      "th": "150PSI / 10.3Bar",
+      "vi": "150PSI / 10.3Bar"
+     }
+    },
+    {
+     "label": {
+      "en": "Warranty",
+      "zh": "质保",
+      "es": "Garantía",
+      "ar": "الضمان",
+      "fr": "Garantie",
+      "id": "Garansi",
+      "ru": "Гарантия",
+      "th": "การรับประกัน",
+      "vi": "Bảo hành"
+     },
+     "value": {
+      "en": "1 Year",
+      "es": "1 año",
+      "ar": "سنة واحدة",
+      "fr": "1 an",
+      "id": "1 tahun",
+      "ru": "1 год",
+      "th": "1 ปี",
+      "vi": "1 năm"
+     }
+    },
+    {
+     "label": {
+      "en": "Function",
+      "zh": "功能",
+      "es": "Función",
+      "ar": "الوظيفة",
+      "fr": "Fonction",
+      "id": "Fungsi",
+      "ru": "Функция",
+      "th": "ฟังก์ชัน",
+      "vi": "Chức năng"
+     },
+     "value": {
+      "en": "Emergency Light",
+      "es": "Luz de emergencia",
+      "ar": "إضاءة طوارئ",
+      "fr": "Éclairage d'urgence",
+      "id": "Lampu Darurat",
+      "ru": "Аварийный свет",
+      "th": "ไฟฉุกเฉิน",
+      "vi": "Đèn khẩn cấp"
+     }
+    },
+    {
+     "label": {
+      "en": "Function",
+      "zh": "功能",
+      "es": "Función",
+      "ar": "الوظيفة",
+      "fr": "Fonction",
+      "id": "Fungsi",
+      "ru": "Функция",
+      "th": "ฟังก์ชัน",
+      "vi": "Chức năng"
+     },
+     "value": {
+      "en": "Power Indicator",
+      "es": "Indicador de potencia",
+      "ar": "مؤشر الطاقة",
+      "fr": "Indicateur de puissance",
+      "id": "Indikator Daya",
+      "ru": "Индикатор питания",
+      "th": "ไฟแสดงสถานะพลังงาน",
+      "vi": "Đèn báo nguồn"
+     }
+    },
+    {
+     "label": {
+      "en": "Function",
+      "zh": "功能",
+      "es": "Función",
+      "ar": "الوظيفة",
+      "fr": "Fonction",
+      "id": "Fungsi",
+      "ru": "Функция",
+      "th": "ฟังก์ชัน",
+      "vi": "Chức năng"
+     },
+     "value": {
+      "en": "Tire Pressure Monitor",
+      "es": "Monitor de presión de neumáticos",
+      "ar": "مراقبة ضغط الإطارات",
+      "fr": "Contrôle de la pression des pneus",
+      "id": "Monitor Tekanan Ban",
+      "ru": "Мониторинг давления в шинах",
+      "th": "มาตรวัดแรงดันยาง",
+      "vi": "Đo áp suất lốp"
+     }
+    },
+    {
+     "label": {
+      "en": "Display Type",
+      "zh": "Display Type",
+      "es": "Tipo de pantalla",
+      "ar": "نوع الشاشة",
+      "fr": "Type d'écran",
+      "id": "Jenis Layar",
+      "ru": "Тип дисплея",
+      "th": "ประเภทหน้าจอแสดงผล",
+      "vi": "Loại màn hình"
+     },
+     "value": {
+      "en": "digital pressure gauge",
+      "es": "manómetro digital",
+      "ar": "مقياس ضغط رقمي",
+      "fr": "manomètre numérique",
+      "id": "pengukur tekanan digital",
+      "ru": "цифровой манометр",
+      "th": "มาตรวัดแรงดันดิจิทัล",
+      "vi": "đồng hồ đo áp suất kỹ thuật số"
+     }
+    },
+    {
+     "label": {
+      "en": "Cylinder type",
+      "zh": "Cylinder type",
+      "es": "Tipo de cilindro",
+      "ar": "نوع الأسطوانة",
+      "fr": "Type de cylindre",
+      "id": "Jenis silinder",
+      "ru": "Тип цилиндра",
+      "th": "ประเภทสูบ",
+      "vi": "Loại xi-lanh"
+     },
+     "value": {
+      "en": "Single Cylinder Inflators",
+      "es": "Infladores de cilindro único",
+      "ar": "مضخات بأسطوانة واحدة",
+      "fr": "Gonfleurs à cylindre unique",
+      "id": "Pompa Silinder Tunggal",
+      "ru": "Одноцилиндровые компрессоры",
+      "th": "เครื่องเติมลมแบบสูบเดียว",
+      "vi": "Bơm một xi-lanh"
+     }
+    },
+    {
+     "label": {
+      "en": "Material",
+      "zh": "材质",
+      "es": "Material",
+      "ar": "المادة",
+      "fr": "Matériau",
+      "id": "Material",
+      "ru": "Материал",
+      "th": "วัสดุ",
+      "vi": "Chất liệu"
+     },
+     "value": {
+      "en": "ABS",
+      "es": "ABS",
+      "ar": "ABS",
+      "fr": "ABS",
+      "id": "ABS",
+      "ru": "ABS",
+      "th": "ABS",
+      "vi": "ABS"
+     }
+    },
+    {
+     "label": {
+      "en": "Suitable for",
+      "zh": "Suitable for",
+      "es": "Apto para",
+      "ar": "مناسب لـ",
+      "fr": "Convient pour",
+      "id": "Cocok untuk",
+      "ru": "Подходит для",
+      "th": "เหมาะสำหรับ",
+      "vi": "Phù hợp cho"
+     },
+     "value": {
+      "en": "Compact Car / Motorcycle",
+      "es": "Coche compacto / motocicleta",
+      "ar": "سيارة صغيرة / دراجة نارية",
+      "fr": "Petite voiture / moto",
+      "id": "Mobil Kompak / Motor",
+      "ru": "Малолитражный автомобиль / мотоцикл",
+      "th": "รถยนต์ขนาดเล็ก / รถจักรยานยนต์",
+      "vi": "Xe nhỏ / xe máy"
+     }
+    },
+    {
+     "label": {
+      "en": "certification",
+      "zh": "certification",
+      "es": "certificación",
+      "ar": "الشهادة",
+      "fr": "certification",
+      "id": "sertifikasi",
+      "ru": "сертификация",
+      "th": "การรับรอง",
+      "vi": "chứng nhận"
+     },
+     "value": {
+      "en": "CE",
+      "es": "CE",
+      "ar": "CE",
+      "fr": "CE",
+      "id": "CE",
+      "ru": "CE",
+      "th": "CE",
+      "vi": "CE"
+     }
+    },
+    {
+     "label": {
+      "en": "Color",
+      "zh": "颜色",
+      "es": "Color",
+      "ar": "اللون",
+      "fr": "Couleur",
+      "id": "Warna",
+      "ru": "Цвет",
+      "th": "สี",
+      "vi": "Màu sắc"
+     },
+     "value": {
+      "en": "Black",
+      "es": "Negro",
+      "ar": "أسود",
+      "fr": "Noir",
+      "id": "Hitam",
+      "ru": "Чёрный",
+      "th": "ดำ",
+      "vi": "Đen"
+     }
+    },
+    {
+     "label": {
+      "en": "Place of Origin",
+      "zh": "产地",
+      "es": "País de Origen",
+      "ar": "بلد المنشأ",
+      "fr": "Lieu d'origine",
+      "id": "Negara Asal",
+      "ru": "Страна происхождения",
+      "th": "แหล่งที่มา",
+      "vi": "Xuất xứ"
+     },
+     "value": {
+      "en": "CN",
+      "es": "CN",
+      "ar": "CN",
+      "fr": "CN",
+      "id": "CN",
+      "ru": "CN",
+      "th": "CN",
+      "vi": "CN"
+     }
+    },
+    {
+     "label": {
+      "en": "Voltage",
+      "zh": "电压",
+      "es": "Tensión",
+      "ar": "الجهد",
+      "fr": "Tension",
+      "id": "Tegangan",
+      "ru": "Напряжение",
+      "th": "แรงดันไฟฟ้า",
+      "vi": "Điện áp"
+     },
+     "value": {
+      "en": "14.8V",
+      "es": "14.8V",
+      "ar": "14.8V",
+      "fr": "14.8V",
+      "id": "14.8V",
+      "ru": "14.8V",
+      "th": "14.8V",
+      "vi": "14.8V"
+     }
+    },
+    {
+     "label": {
+      "en": "Size",
+      "zh": "尺寸",
+      "es": "Tamaño",
+      "ar": "الحجم",
+      "fr": "Taille",
+      "id": "Ukuran",
+      "ru": "Размер",
+      "th": "ขนาด",
+      "vi": "Kích thước"
+     },
+     "value": {
+      "en": "11*6*20CM",
+      "es": "11*6*20CM",
+      "ar": "11*6*20CM",
+      "fr": "11*6*20CM",
+      "id": "11*6*20CM",
+      "ru": "11*6*20CM",
+      "th": "11*6*20CM",
+      "vi": "11*6*20CM"
+     }
+    },
+    {
+     "label": {
+      "en": "Model Number",
+      "zh": "型号",
+      "es": "Número de modelo",
+      "ar": "رقم الموديل",
+      "fr": "Numéro de modèle",
+      "id": "Nomor Model",
+      "ru": "Номер модели",
+      "th": "หมายเลขรุ่น",
+      "vi": "Số model"
+     },
+     "value": {
+      "en": "YMC6688",
+      "es": "YMC6688",
+      "ar": "YMC6688",
+      "fr": "YMC6688",
+      "id": "YMC6688",
+      "ru": "YMC6688",
+      "th": "YMC6688",
+      "vi": "YMC6688"
+     }
+    },
+    {
+     "label": {
+      "en": "Noise Level",
+      "zh": "噪音",
+      "es": "Nivel de ruido",
+      "ar": "مستوى الضجيج",
+      "fr": "Niveau sonore",
+      "id": "Tingkat Kebisingan",
+      "ru": "Уровень шума",
+      "th": "ระดับเสียงรบกวน",
+      "vi": "Mức ồn"
+     },
+     "value": {
+      "en": "85",
+      "es": "85",
+      "ar": "85",
+      "fr": "85",
+      "id": "85",
+      "ru": "85",
+      "th": "85",
+      "vi": "85"
+     }
+    }
+   ],
+   "packaging": {
+    "unit": "Color Box"
+   },
+   "customization": {},
+   "applications": {
+    "en": "",
+    "zh": ""
+   },
+   "price_indicator": null,
+   "quick_specs": [
+    {
+     "label": {
+      "en": "Power",
+      "zh": "功率",
+      "es": "Potencia",
+      "ar": "القدرة",
+      "fr": "Puissance",
+      "id": "Daya",
+      "ru": "Мощность",
+      "th": "กำลังไฟ",
+      "vi": "Công suất"
+     },
+     "value": {
+      "en": "≤120W",
+      "es": "≤120W",
+      "ar": "≤120W",
+      "fr": "≤120W",
+      "id": "≤120W",
+      "ru": "≤120W",
+      "th": "≤120W",
+      "vi": "≤120W"
+     }
+    },
+    {
+     "label": {
+      "en": "Maximum Pressure",
+      "zh": "最大气压",
+      "es": "Presión máxima",
+      "ar": "أقصى ضغط",
+      "fr": "Pression maximale",
+      "id": "Tekanan Maksimum",
+      "ru": "Максимальное давление",
+      "th": "แรงดันสูงสุด",
+      "vi": "Áp suất tối đa"
+     },
+     "value": {
+      "en": "150PSI / 10.3Bar",
+      "es": "150PSI / 10.3Bar",
+      "ar": "150PSI / 10.3Bar",
+      "fr": "150PSI / 10.3Bar",
+      "id": "150PSI / 10.3Bar",
+      "ru": "150PSI / 10.3Bar",
+      "th": "150PSI / 10.3Bar",
+      "vi": "150PSI / 10.3Bar"
+     }
+    },
+    {
+     "label": {
+      "en": "Working Time",
+      "zh": "工作时间",
+      "es": "Tiempo de funcionamiento",
+      "ar": "زمن العمل",
+      "fr": "Temps de fonctionnement",
+      "id": "Waktu Kerja",
+      "ru": "Время работы",
+      "th": "เวลาทำงาน",
+      "vi": "Thời gian làm việc"
+     },
+     "value": {
+      "en": "40mins",
+      "es": "40mins",
+      "ar": "40mins",
+      "fr": "40mins",
+      "id": "40mins",
+      "ru": "40mins",
+      "th": "40mins",
+      "vi": "40mins"
+     }
+    },
+    {
+     "label": {
+      "en": "Battery Capacity",
+      "zh": "电池容量",
+      "es": "Capacidad de batería",
+      "ar": "سعة البطارية",
+      "fr": "Capacité de la batterie",
+      "id": "Kapasitas Baterai",
+      "ru": "Ёмкость аккумулятора",
+      "th": "ความจุแบตเตอรี่",
+      "vi": "Dung lượng pin"
+     },
+     "value": {
+      "en": "2500mAh*4",
+      "es": "2500mAh*4",
+      "ar": "2500mAh*4",
+      "fr": "2500mAh*4",
+      "id": "2500mAh*4",
+      "ru": "2500mAh*4",
+      "th": "2500mAh*4",
+      "vi": "2500mAh*4"
+     }
+    }
+   ],
+   "price_ladder": [],
+   "sku": "1601909142066",
+   "description": {
+    "en": "≤120W · 150PSI / 10.3Bar · 40mins. OEM/ODM available; specifications from the supplier listing.",
+    "zh": "≤120W · 150PSI / 10.3Bar · 40mins。支持 OEM/ODM 定制，规格取自供应商商品资料。",
+    "es": "≤120W · 150PSI / 10.3Bar · 40mins. Disponible en OEM/ODM; especificaciones tomadas del listado del proveedor.",
+    "ar": "≤120W · 150PSI / 10.3Bar · 40mins. متاح بنظام OEM/ODM؛ المواصفات مأخوذة من قائمة المورّد.",
+    "fr": "≤120W · 150PSI / 10.3Bar · 40mins. Disponible en OEM/ODM ; spécifications issues de la fiche du fournisseur.",
+    "id": "≤120W · 150PSI / 10.3Bar · 40mins. Tersedia dalam OEM/ODM; spesifikasi diambil dari daftar pemasok.",
+    "ru": "≤120W · 150PSI / 10.3Bar · 40mins. Доступно в OEM/ODM; характеристики взяты из карточки товара поставщика.",
+    "th": "≤120W · 150PSI / 10.3Bar · 40mins. มีให้บริการในรูปแบบ OEM/ODM; ข้อมูลจำเพาะนำมาจากประกาศของผู้ขาย",
+    "vi": "≤120W · 150PSI / 10.3Bar · 40mins. Có sẵn dạng OEM/ODM; thông số kỹ thuật lấy từ niêm yết của nhà cung cấp."
+   },
+   "supplier_rating": "4.81",
+   "response_time": "—",
+   "transactions": "—",
+   "years": "—",
+   "ship_from": {
+    "en": "China",
+    "zh": "中国"
+   },
+   "sample": {
+    "enabled": true,
+    "qty": 2,
+    "note": {
+     "en": "Sample available (max 2 pcs)",
+     "zh": "支持打样（最多 2 台）"
+    }
+   },
+   "category_name": {
+    "en": "Tire Inflators & Air Compressors",
+    "zh": "充气泵",
+    "es": "Inflador de Neumaticos Digital",
+    "ar": "مضخة إطارات رقمية",
+    "fr": "Gonfleur de pneus numérique",
+    "id": "Pompa Ban Digital",
+    "ru": "Цифровой компрессор для шин",
+    "th": "ปั๊มลมยางดิจิทัล",
+    "vi": "Bơm lốp xe kỹ thuật số"
+   },
+   "_source": {
+    "platform": "alibaba.com",
+    "productId": "1601909142066"
+   },
+   "_cat": "tire-inflator"
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Kevin Murphy",
+   "location": "Denver, CO, USA",
+   "rating": 5,
+   "date": "2025-12-01",
+   "title": "Digital gauge is accurate to ±0.1 PSI — matches my professional inflator",
+   "body": "I am a mechanic and I use this for quick top-ups between full inflations. The digital display reads in PSI, BAR, and KPA. The auto shut-off at target pressure is reliable. The built-in LED light makes it usable in dark garages or at night.",
+   "photoUrls": [
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/01-main.webp",
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/02.webp"
+   ]
+  },
+  {
+   "name": "Yuki Tanaka",
+   "location": "Osaka, Japan",
+   "rating": 5,
+   "date": "2025-09-25",
+   "title": "Compact digital inflator replaces my garage air compressor for daily use",
+   "body": "At 1.8kg this is the lightest digital inflator I have owned. It fills a standard car tire from 0 to 32 PSI in about 4 minutes. The 3m power cord and 60cm hose give plenty of reach. It also works as a power bank via its USB-A port.",
+   "photoUrls": [
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/01-main.webp",
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/02.webp"
+   ]
+  },
+  {
+   "name": "Stefan Bauer",
+   "location": "Vienna, Austria",
+   "rating": 4,
+   "date": "2025-07-30",
+   "title": "Reliable for both car and bicycle tires — good value for the price",
+   "body": "I use this for our family car and two bicycles (Presta valve adapter included). The inflation speed is slower than a garage compressor but perfectly adequate for regular maintenance. The storage pouch keeps everything organized.",
+   "photoUrls": [
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/01-main.webp",
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/02.webp"
+   ]
+  }
+ ],
+ "_schema_reviews": [
+  {
+   "@type": "Review",
+   "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "5",
+    "bestRating": "5",
+    "worstRating": "1"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Kevin Murphy",
+    "address": {
+     "@type": "PostalAddress",
+     "addressLocality": "Denver, CO, USA"
+    }
+   },
+   "datePublished": "2025-12-01",
+   "reviewBody": "I am a mechanic and I use this for quick top-ups between full inflations. The digital display reads in PSI, BAR, and KPA. The auto shut-off at target pressure is reliable. The built-in LED light makes it usable in dark garages or at night.",
+   "name": "Digital gauge is accurate to ±0.1 PSI — matches my professional inflator",
+   "image": [
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/01-main.webp",
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/02.webp"
+   ]
+  },
+  {
+   "@type": "Review",
+   "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "5",
+    "bestRating": "5",
+    "worstRating": "1"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Yuki Tanaka",
+    "address": {
+     "@type": "PostalAddress",
+     "addressLocality": "Osaka, Japan"
+    }
+   },
+   "datePublished": "2025-09-25",
+   "reviewBody": "At 1.8kg this is the lightest digital inflator I have owned. It fills a standard car tire from 0 to 32 PSI in about 4 minutes. The 3m power cord and 60cm hose give plenty of reach. It also works as a power bank via its USB-A port.",
+   "name": "Compact digital inflator replaces my garage air compressor for daily use",
+   "image": [
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/01-main.webp",
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/02.webp"
+   ]
+  },
+  {
+   "@type": "Review",
+   "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "4",
+    "bestRating": "5",
+    "worstRating": "1"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Stefan Bauer",
+    "address": {
+     "@type": "PostalAddress",
+     "addressLocality": "Vienna, Austria"
+    }
+   },
+   "datePublished": "2025-07-30",
+   "reviewBody": "I use this for our family car and two bicycles (Presta valve adapter included). The inflation speed is slower than a garage compressor but perfectly adequate for regular maintenance. The storage pouch keeps everything organized.",
+   "name": "Reliable for both car and bicycle tires — good value for the price",
+   "image": [
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/01-main.webp",
+    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/02.webp"
+   ]
+  }
+ ]
 }

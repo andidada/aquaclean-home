@@ -1,666 +1,1653 @@
 {
-  "category": "coffee-machine",
-  "products": [
+ "category": "coffee-machine",
+ "products": [
+  {
+   "id": "2604",
+   "name": {
+    "en": "Portable USB Rechargeable Capsule Coffee Maker with Aluminum Housing Car-Mountable Design Programmable Functions 4 Cups Capacity",
+    "zh": "2604 便携胶囊咖啡机（USB 充电 / 车载户外两用）",
+    "es": "Cafetera de cápsulas portátil recargable por USB con carcasa de aluminio, diseño montable en coche, funciones programables, capacidad para 4 tazas",
+    "ar": "ماكينة قهوة كبسولات محمولة قابلة لإعادة الشحن USB بهيكل ألومنيوم، تصميم قابل للتثبيت في السيارة، وظائف قابلة للبرمجة، سعة 4 أكواب",
+    "fr": "Cafetière à capsules portative rechargeable USB avec corps en aluminium, design montable en voiture, fonctions programmables, capacité de 4 tasses",
+    "id": "Mesin Kopi Kapsul Portabel Dapat Diisi Ulang USB dengan Casing Aluminium, Desain Dapat Dipasang di Mobil, Fungsi Dapat Diprogram, Kapasitas 4 Cangkir",
+    "ru": "Портативная капсульная кофеварка с зарядкой USB и алюминиевым корпусом, крепление в автомобиле, программируемые функции, вместимость 4 чашки",
+    "th": "เครื่องชงกาแฟแคปซูลแบบพกพาชาร์จผ่าน USB ตัวเครื่องอะลูมิเนียม ติดตั้งในรถได้ ฟังก์ชันตั้งโปรแกรมได้ ความจุ 4 ถ้วย",
+    "vi": "Máy pha cà phê capsule di động sạc USB với vỏ nhôm, thiết kế gắn được trên ô tô, chức năng lập trình, dung tích 4 tách"
+   },
+   "tagline": {
+    "en": "100 W · Up to 4 cups · 8 - 10 bar",
+    "zh": "100 W · Up to 4 cups · 8 - 10 bar",
+    "es": "100 W · hasta 4 tazas · 8 - 10 bar",
+    "ar": "100 W · حتى 4 أكواب · 8 - 10 بار",
+    "fr": "100 W · jusqu'à 4 tasses · 8 - 10 bar",
+    "id": "100 W · Hingga 4 cangkir · 8 - 10 bar",
+    "ru": "100 W · до 4 чашек · 8 - 10 бар",
+    "th": "100 W · สูงสุด 4 ถ้วย · 8 - 10 บาร์",
+    "vi": "100 W · tối đa 4 tách · 8 - 10 bar"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/01.webp",
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/02.webp",
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/03.webp",
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/04.webp",
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/05.webp",
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/06.webp"
+   ],
+   "video_url": null,
+   "moq": {
+    "value": 1,
+    "unit": "pieces"
+   },
+   "certifications": [],
+   "highlights": [
     {
+     "icon": "check",
+     "text": {
+      "en": "Power (W): 100 W",
+      "zh": "功率(W): 100 W",
+      "es": "Potencia (W): 100 W",
+      "ar": "القدرة (W): 100 W",
+      "fr": "Puissance (W): 100 W",
+      "id": "Daya (W): 100 W",
+      "ru": "Мощность (Вт): 100 W",
+      "th": "กำลังไฟ (W): 100 W",
+      "vi": "Công suất (W): 100 W"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Coffee Maker Capacity: Up to 4 cups",
+      "zh": "咖啡容量: Up to 4 cups",
+      "es": "Capacidad de la cafetera: Hasta 4 tazas",
+      "ar": "سعة ماكينة القهوة: حتى 4 أكواب",
+      "fr": "Capacité de la cafetière: Jusqu'à 4 tasses",
+      "id": "Kapasitas Mesin Kopi: Hingga 4 cangkir",
+      "ru": "Ёмкость кофемашины: До 4 чашек",
+      "th": "ความจุเครื่องชงกาแฟ: สูงสุด 4 ถ้วย",
+      "vi": "Dung tích máy pha cà phê: Tối đa 4 tách"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Pump Pressure Bars: 8 - 10 bar",
+      "zh": "泵压(bar): 8 - 10 bar",
+      "es": "Presión de la bomba (bar): 8 - 10 bar",
+      "ar": "ضغط المضخة (بار): 8 - 10 bar",
+      "fr": "Pression de la pompe (bar): 8 - 10 bar",
+      "id": "Tekanan Pompa (bar): 8 - 10 bar",
+      "ru": "Давление помпы (бар): 8 - 10 bar",
+      "th": "แรงดันปั๊ม (บาร์): 8 - 10 bar",
+      "vi": "Áp suất bơm (bar): 8 - 10 bar"
+     }
+    }
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "function",
+      "zh": "function",
+      "es": "función",
+      "ar": "الوظيفة",
+      "fr": "fonction",
+      "id": "fungsi",
+      "ru": "функция",
+      "th": "ฟังก์ชัน",
+      "vi": "chức năng"
+     },
+     "value": {
+      "en": "Hot Water System",
+      "es": "Sistema de agua caliente",
+      "ar": "نظام الماء الساخن",
+      "fr": "Système à eau chaude",
+      "id": "Sistem Air Panas",
+      "ru": "Система горячей воды",
+      "th": "ระบบน้ำร้อน",
+      "vi": "Hệ thống nước nóng"
+     }
+    },
+    {
+     "label": {
+      "en": "function",
+      "zh": "function",
+      "es": "función",
+      "ar": "الوظيفة",
+      "fr": "fonction",
+      "id": "fungsi",
+      "ru": "функция",
+      "th": "ฟังก์ชัน",
+      "vi": "chức năng"
+     },
+     "value": {
+      "en": "Programmable",
+      "es": "Programable",
+      "ar": "قابل للبرمجة",
+      "fr": "Programmable",
+      "id": "Dapat Diprogram",
+      "ru": "Программируемый",
+      "th": "ตั้งโปรแกรมได้",
+      "vi": "Lập trình được"
+     }
+    },
+    {
+     "label": {
+      "en": "function",
+      "zh": "function",
+      "es": "función",
+      "ar": "الوظيفة",
+      "fr": "fonction",
+      "id": "fungsi",
+      "ru": "функция",
+      "th": "ฟังก์ชัน",
+      "vi": "chức năng"
+     },
+     "value": {
+      "en": "Self-Cleaning",
+      "es": "Autolimpieza",
+      "ar": "تنظيف ذاتي",
+      "fr": "Autonettoyant",
+      "id": "Pembersihan Mandiri",
+      "ru": "Самоочистка",
+      "th": "ทำความสะอาดตัวเอง",
+      "vi": "Tự làm sạch"
+     }
+    },
+    {
+     "label": {
+      "en": "function",
+      "zh": "function",
+      "es": "función",
+      "ar": "الوظيفة",
+      "fr": "fonction",
+      "id": "fungsi",
+      "ru": "функция",
+      "th": "ฟังก์ชัน",
+      "vi": "chức năng"
+     },
+     "value": {
+      "en": "Single Service",
+      "es": "Servicio único",
+      "ar": "خدمة واحدة",
+      "fr": "Service unique",
+      "id": "Layanan Tunggal",
+      "ru": "Однопорционный",
+      "th": "บริการเดี่ยว",
+      "vi": "Pha từng ly"
+     }
+    },
+    {
+     "label": {
+      "en": "function",
+      "zh": "function",
+      "es": "función",
+      "ar": "الوظيفة",
+      "fr": "fonction",
+      "id": "fungsi",
+      "ru": "функция",
+      "th": "ฟังก์ชัน",
+      "vi": "chức năng"
+     },
+     "value": {
+      "en": "Temprature Control",
+      "es": "Control de temperatura",
+      "ar": "التحكم في الحرارة",
+      "fr": "Contrôle de la température",
+      "id": "Kontrol Suhu",
+      "ru": "Контроль температуры",
+      "th": "ควบคุมอุณหภูมิ",
+      "vi": "Điều khiển nhiệt độ"
+     }
+    },
+    {
+     "label": {
+      "en": "Housing Material",
+      "zh": "Housing Material",
+      "es": "Material de la carcasa",
+      "ar": "مادة الهيكل",
+      "fr": "Matériau du boîtier",
+      "id": "Material Casing",
+      "ru": "Материал корпуса",
+      "th": "วัสดุตัวเครื่อง",
+      "vi": "Chất liệu vỏ"
+     },
+     "value": {
+      "en": "Aluminum",
+      "es": "Aluminio",
+      "ar": "ألومنيوم",
+      "fr": "Aluminium",
+      "id": "Aluminium",
+      "ru": "Алюминий",
+      "th": "อะลูมิเนียม",
+      "vi": "Nhôm"
+     }
+    },
+    {
+     "label": {
+      "en": "type",
+      "zh": "type",
+      "es": "tipo",
+      "ar": "النوع",
+      "fr": "type",
+      "id": "tipe",
+      "ru": "тип",
+      "th": "ประเภท",
+      "vi": "loại"
+     },
+     "value": {
+      "en": "Capsule Coffee Maker",
+      "es": "Cafetera de cápsulas",
+      "ar": "ماكينة قهوة بالكبسولات",
+      "fr": "Cafetière à capsules",
+      "id": "Mesin Kopi Kapsul",
+      "ru": "Капсульная кофемашина",
+      "th": "เครื่องชงกาแฟแบบแคปซูล",
+      "vi": "Máy pha cà phê capsule"
+     }
+    },
+    {
+     "label": {
+      "en": "after-sales service provided",
+      "zh": "after-sales service provided",
+      "es": "servicio posventa",
+      "ar": "خدمة ما بعد البيع",
+      "fr": "service après-vente",
+      "id": "layanan purnajual",
+      "ru": "послепродажное обслуживание",
+      "th": "บริการหลังการขาย",
+      "vi": "dịch vụ sau bán hàng"
+     },
+     "value": {
+      "en": "Overseas Call Centers",
+      "es": "Centros de llamadas en el extranjero",
+      "ar": "مراكز اتصال خارجية",
+      "fr": "Centres d'appel à l'étranger",
+      "id": "Pusat Panggilan Luar Negeri",
+      "ru": "Зарубежные колл-центры",
+      "th": "ศูนย์บริการโทรศัพท์ต่างประเทศ",
+      "vi": "Trung tâm cuộc gọi ở nước ngoài"
+     }
+    },
+    {
+     "label": {
+      "en": "app-controlled",
+      "zh": "app-controlled",
+      "es": "control por app",
+      "ar": "يُتحكم به عبر التطبيق",
+      "fr": "contrôlé par application",
+      "id": "dikendalikan aplikasi",
+      "ru": "управление через приложение",
+      "th": "ควบคุมผ่านแอป",
+      "vi": "điều khiển qua app"
+     },
+     "value": {
+      "en": "No",
+      "es": "No",
+      "ar": "لا",
+      "fr": "Non",
+      "id": "Tidak",
+      "ru": "Нет",
+      "th": "ไม่",
+      "vi": "Không"
+     }
+    },
+    {
+     "label": {
+      "en": "application",
+      "zh": "application",
+      "es": "aplicación",
+      "ar": "التطبيق",
+      "fr": "utilisation",
+      "id": "aplikasi",
+      "ru": "применение",
+      "th": "การใช้งาน",
+      "vi": "ứng dụng"
+     },
+     "value": {
+      "en": "Coffee Shop",
+      "es": "Cafetería",
+      "ar": "مقهى",
+      "fr": "Café",
+      "id": "Kafe",
+      "ru": "Кофейня",
+      "th": "ร้านกาแฟ",
+      "vi": "Quán cà phê"
+     }
+    },
+    {
+     "label": {
+      "en": "application",
+      "zh": "application",
+      "es": "aplicación",
+      "ar": "التطبيق",
+      "fr": "utilisation",
+      "id": "aplikasi",
+      "ru": "применение",
+      "th": "การใช้งาน",
+      "vi": "ứng dụng"
+     },
+     "value": {
+      "en": "Commercial",
+      "es": "Comercial",
+      "ar": "تجاري",
+      "fr": "Commercial",
+      "id": "Komersial",
+      "ru": "Коммерческий",
+      "th": "เชิงพาณิชย์",
+      "vi": "Thương mại"
+     }
+    },
+    {
+     "label": {
+      "en": "application",
+      "zh": "application",
+      "es": "aplicación",
+      "ar": "التطبيق",
+      "fr": "utilisation",
+      "id": "aplikasi",
+      "ru": "применение",
+      "th": "การใช้งาน",
+      "vi": "ứng dụng"
+     },
+     "value": {
+      "en": "Garage",
+      "es": "Garaje",
+      "ar": "مرآب",
+      "fr": "Garage",
+      "id": "Garasi",
+      "ru": "Гараж",
+      "th": "โรงรถ",
+      "vi": "Ga-ra"
+     }
+    },
+    {
+     "label": {
+      "en": "application",
+      "zh": "application",
+      "es": "aplicación",
+      "ar": "التطبيق",
+      "fr": "utilisation",
+      "id": "aplikasi",
+      "ru": "применение",
+      "th": "การใช้งาน",
+      "vi": "ứng dụng"
+     },
+     "value": {
+      "en": "Hotel",
+      "es": "Hotel",
+      "ar": "فندق",
+      "fr": "Hôtel",
+      "id": "Hotel",
+      "ru": "Отель",
+      "th": "โรงแรม",
+      "vi": "Khách sạn"
+     }
+    },
+    {
+     "label": {
+      "en": "application",
+      "zh": "application",
+      "es": "aplicación",
+      "ar": "التطبيق",
+      "fr": "utilisation",
+      "id": "aplikasi",
+      "ru": "применение",
+      "th": "การใช้งาน",
+      "vi": "ứng dụng"
+     },
+     "value": {
+      "en": "Household",
+      "es": "Hogar",
+      "ar": "منزلي",
+      "fr": "Ménager",
+      "id": "Rumah tangga",
+      "ru": "Бытовой",
+      "th": "ใช้ในบ้าน",
+      "vi": "Gia dụng"
+     }
+    },
+    {
+     "label": {
+      "en": "Coffee Maker Capacity",
+      "zh": "Coffee Maker Capacity",
+      "es": "Capacidad de la cafetera",
+      "ar": "سعة ماكينة القهوة",
+      "fr": "Capacité de la cafetière",
+      "id": "Kapasitas Mesin Kopi",
+      "ru": "Ёмкость кофемашины",
+      "th": "ความจุเครื่องชงกาแฟ",
+      "vi": "Dung tích máy pha cà phê"
+     },
+     "value": {
+      "en": "Up to 4 cups",
+      "es": "Hasta 4 tazas",
+      "ar": "حتى 4 أكواب",
+      "fr": "Jusqu'à 4 tasses",
+      "id": "Hingga 4 cangkir",
+      "ru": "До 4 чашек",
+      "th": "สูงสุด 4 ถ้วย",
+      "vi": "Tối đa 4 tách"
+     }
+    },
+    {
+     "label": {
+      "en": "Feature",
+      "zh": "Feature",
+      "es": "Característica",
+      "ar": "الميزة",
+      "fr": "Caractéristique",
+      "id": "Fitur",
+      "ru": "Характеристика",
+      "th": "คุณสมบัติ",
+      "vi": "Tính năng"
+     },
+     "value": {
+      "en": "Easy Cleaning",
+      "es": "Limpieza fácil",
+      "ar": "تنظيف سهل",
+      "fr": "Nettoyage facile",
+      "id": "Pembersihan Mudah",
+      "ru": "Простая очистка",
+      "th": "ทำความสะอาดง่าย",
+      "vi": "Dễ vệ sinh"
+     }
+    },
+    {
+     "label": {
+      "en": "Feature",
+      "zh": "Feature",
+      "es": "Característica",
+      "ar": "الميزة",
+      "fr": "Caractéristique",
+      "id": "Fitur",
+      "ru": "Характеристика",
+      "th": "คุณสมบัติ",
+      "vi": "Tính năng"
+     },
+     "value": {
+      "en": "Easy to Operate",
+      "es": "Fácil de usar",
+      "ar": "سهل التشغيل",
+      "fr": "Facile à utiliser",
+      "id": "Mudah Dioperasikan",
+      "ru": "Простое в использовании",
+      "th": "ใช้งานง่าย",
+      "vi": "Dễ vận hành"
+     }
+    },
+    {
+     "label": {
+      "en": "Feature",
+      "zh": "Feature",
+      "es": "Característica",
+      "ar": "الميزة",
+      "fr": "Caractéristique",
+      "id": "Fitur",
+      "ru": "Характеристика",
+      "th": "คุณสมบัติ",
+      "vi": "Tính năng"
+     },
+     "value": {
+      "en": "Eco-Friendly",
+      "es": "Ecológico",
+      "ar": "صديق للبيئة",
+      "fr": "Écologique",
+      "id": "Ramah Lingkungan",
+      "ru": "Экологичный",
+      "th": "เป็นมิตรต่อสิ่งแวดล้อม",
+      "vi": "Thân thiện môi trường"
+     }
+    },
+    {
+     "label": {
+      "en": "operating language",
+      "zh": "operating language",
+      "es": "idioma de funcionamiento",
+      "ar": "لغة التشغيل",
+      "fr": "langue d'utilisation",
+      "id": "bahasa pengoperasian",
+      "ru": "язык интерфейса",
+      "th": "ภาษาที่ใช้งาน",
+      "vi": "ngôn ngữ hoạt động"
+     },
+     "value": {
+      "en": "English",
+      "es": "Inglés",
+      "ar": "الإنجليزية",
+      "fr": "Anglais",
+      "id": "Inggris",
+      "ru": "Английский",
+      "th": "อังกฤษ",
+      "vi": "Tiếng Anh"
+     }
+    },
+    {
+     "label": {
+      "en": "packaging types",
+      "zh": "packaging types",
+      "es": "tipos de embalaje",
+      "ar": "أنواع التغليف",
+      "fr": "types d'emballage",
+      "id": "jenis kemasan",
+      "ru": "типы упаковки",
+      "th": "ประเภทบรรจุภัณฑ์",
+      "vi": "loại bao bì"
+     },
+     "value": {
+      "en": "Corrugated Box",
+      "es": "Caja de cartón ondulado",
+      "ar": "كرتون مموج",
+      "fr": "Carton ondulé",
+      "id": "Kotak Karton Bergelombang",
+      "ru": "Гофрокоробка",
+      "th": "กล่องกระดาษลูกฟูก",
+      "vi": "Thùng carton sóng"
+     }
+    },
+    {
+     "label": {
+      "en": "packaging types",
+      "zh": "packaging types",
+      "es": "tipos de embalaje",
+      "ar": "أنواع التغليف",
+      "fr": "types d'emballage",
+      "id": "jenis kemasan",
+      "ru": "типы упаковки",
+      "th": "ประเภทบรรจุภัณฑ์",
+      "vi": "loại bao bì"
+     },
+     "value": {
+      "en": "Color Box",
+      "es": "Caja a color",
+      "ar": "علبة ملونة",
+      "fr": "Boîte couleur",
+      "id": "Kotak Warna",
+      "ru": "Цветная коробка",
+      "th": "กล่องสี",
+      "vi": "Hộp màu"
+     }
+    },
+    {
+     "label": {
+      "en": "packaging types",
+      "zh": "packaging types",
+      "es": "tipos de embalaje",
+      "ar": "أنواع التغليف",
+      "fr": "types d'emballage",
+      "id": "jenis kemasan",
+      "ru": "типы упаковки",
+      "th": "ประเภทบรรจุภัณฑ์",
+      "vi": "loại bao bì"
+     },
+     "value": {
+      "en": "Gift Box",
+      "es": "Caja de regalo",
+      "ar": "علبة هدايا",
+      "fr": "Boîte cadeau",
+      "id": "Kotak Hadiah",
+      "ru": "Подарочная коробка",
+      "th": "กล่องของขวัญ",
+      "vi": "Hộp quà"
+     }
+    },
+    {
+     "label": {
+      "en": "power (w)",
+      "zh": "power (w)",
+      "es": "potencia (W)",
+      "ar": "القدرة (W)",
+      "fr": "puissance (W)",
+      "id": "daya (W)",
+      "ru": "мощность (Вт)",
+      "th": "กำลังไฟ (W)",
+      "vi": "công suất (w)"
+     },
+     "value": {
+      "en": "100 W",
+      "es": "100 W",
+      "ar": "100 W",
+      "fr": "100 W",
+      "id": "100 W",
+      "ru": "100 W",
+      "th": "100 W",
+      "vi": "100 W"
+     }
+    },
+    {
+     "label": {
+      "en": "power source",
+      "zh": "power source",
+      "es": "fuente de alimentación",
+      "ar": "مصدر الطاقة",
+      "fr": "source d'alimentation",
+      "id": "sumber daya",
+      "ru": "источник питания",
+      "th": "แหล่งจ่ายไฟ",
+      "vi": "nguồn điện"
+     },
+     "value": {
+      "en": "Battery",
+      "es": "Batería",
+      "ar": "البطارية",
+      "fr": "Batterie",
+      "id": "Baterai",
+      "ru": "Аккумулятор",
+      "th": "แบตเตอรี่",
+      "vi": "Pin"
+     }
+    },
+    {
+     "label": {
+      "en": "power source",
+      "zh": "power source",
+      "es": "fuente de alimentación",
+      "ar": "مصدر الطاقة",
+      "fr": "source d'alimentation",
+      "id": "sumber daya",
+      "ru": "источник питания",
+      "th": "แหล่งจ่ายไฟ",
+      "vi": "nguồn điện"
+     },
+     "value": {
+      "en": "Electric",
+      "es": "Eléctrico",
+      "ar": "كهربائي",
+      "fr": "Électrique",
+      "id": "Listrik",
+      "ru": "Электрический",
+      "th": "ไฟฟ้า",
+      "vi": "Điện"
+     }
+    },
+    {
+     "label": {
+      "en": "pump pressure bars",
+      "zh": "pump pressure bars",
+      "es": "presión de la bomba (bar)",
+      "ar": "ضغط المضخة (بار)",
+      "fr": "pression de la pompe (bar)",
+      "id": "tekanan pompa (bar)",
+      "ru": "давление помпы (бар)",
+      "th": "แรงดันปั๊ม (บาร์)",
+      "vi": "áp suất bơm (bar)"
+     },
+     "value": {
+      "en": "8 - 10 bar",
+      "es": "8 - 10 bar",
+      "ar": "8 - 10 bar",
+      "fr": "8 - 10 bar",
+      "id": "8 - 10 bar",
+      "ru": "8 - 10 bar",
+      "th": "8 - 10 bar",
+      "vi": "8 - 10 bar"
+     }
+    },
+    {
+     "label": {
+      "en": "warranty",
+      "zh": "warranty",
+      "es": "garantía",
+      "ar": "الضمان",
+      "fr": "garantie",
+      "id": "garansi",
+      "ru": "гарантия",
+      "th": "การรับประกัน",
+      "vi": "bảo hành"
+     },
+     "value": {
+      "en": "1 Year",
+      "es": "1 año",
+      "ar": "سنة واحدة",
+      "fr": "1 an",
+      "id": "1 tahun",
+      "ru": "1 год",
+      "th": "1 ปี",
+      "vi": "1 năm"
+     }
+    },
+    {
+     "label": {
+      "en": "place of origin",
+      "zh": "place of origin",
+      "es": "país de origen",
+      "ar": "بلد المنشأ",
+      "fr": "lieu d'origine",
+      "id": "negara asal",
+      "ru": "страна происхождения",
+      "th": "แหล่งที่มา",
+      "vi": "xuất xứ"
+     },
+     "value": {
+      "en": "CN;GUA",
+      "es": "CN;GUA",
+      "ar": "CN;GUA",
+      "fr": "CN;GUA",
+      "id": "CN;GUA",
+      "ru": "CN;GUA",
+      "th": "CN;GUA",
+      "vi": "CN;GUA"
+     }
+    },
+    {
+     "label": {
+      "en": "dimensions (l x w x h (inches)",
+      "zh": "dimensions (l x w x h (inches)",
+      "es": "dimensiones (l x an x al (pulgadas)",
+      "ar": "الأبعاد (الطول × العرض × الارتفاع بالبوصة)",
+      "fr": "dimensions (l x l x h (pouces)",
+      "id": "dimensi (p x l x t (inci)",
+      "ru": "размеры (д x ш x в (дюймы)",
+      "th": "ขนาด (ยาว x กว้าง x สูง (นิ้ว)",
+      "vi": "kích thước (d x r x c (inch)"
+     },
+     "value": {
+      "en": "7.5*7.5*24.8",
+      "es": "7.5*7.5*24.8",
+      "ar": "7.5*7.5*24.8",
+      "fr": "7.5*7.5*24.8",
+      "id": "7.5*7.5*24.8",
+      "ru": "7.5*7.5*24.8",
+      "th": "7.5*7.5*24.8",
+      "vi": "7.5*7.5*24.8"
+     }
+    },
+    {
+     "label": {
+      "en": "model number",
+      "zh": "model number",
+      "es": "número de modelo",
+      "ar": "رقم الموديل",
+      "fr": "numéro de modèle",
+      "id": "nomor model",
+      "ru": "номер модели",
+      "th": "หมายเลขรุ่น",
+      "vi": "số model"
+     },
+     "value": {
+      "en": "2604",
+      "es": "2604",
+      "ar": "2604",
+      "fr": "2604",
       "id": "2604",
-      "name": {
-        "en": "Portable USB Rechargeable Capsule Coffee Maker with Aluminum Housing Car-Mountable Design Programmable Functions 4 Cups Capacity",
-        "zh": "2604 便携胶囊咖啡机（USB 充电 / 车载户外两用）"
-      },
-      "tagline": {
-        "en": "100 W · Up to 4 cups · 8 - 10 bar",
-        "zh": "100 W · Up to 4 cups · 8 - 10 bar"
-      },
-      "images": [
-        "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/01.webp",
-        "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/02.webp",
-        "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/03.webp",
-        "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/04.webp",
-        "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/05.webp",
-        "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/06.webp"
-      ],
-      "video_url": null,
-      "moq": {
-        "value": 1,
-        "unit": "pieces"
-      },
-      "certifications": [],
-      "highlights": [
-        {
-          "icon": "check",
-          "text": {
-            "en": "Power (W): 100 W",
-            "zh": "功率(W): 100 W"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Coffee Maker Capacity: Up to 4 cups",
-            "zh": "咖啡容量: Up to 4 cups"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Pump Pressure Bars: 8 - 10 bar",
-            "zh": "泵压(bar): 8 - 10 bar"
-          }
-        }
-      ],
-      "specs": [
-        {
-          "label": {
-            "en": "function",
-            "zh": "function"
-          },
-          "value": "Hot Water System"
-        },
-        {
-          "label": {
-            "en": "function",
-            "zh": "function"
-          },
-          "value": "Programmable"
-        },
-        {
-          "label": {
-            "en": "function",
-            "zh": "function"
-          },
-          "value": "Self-Cleaning"
-        },
-        {
-          "label": {
-            "en": "function",
-            "zh": "function"
-          },
-          "value": "Single Service"
-        },
-        {
-          "label": {
-            "en": "function",
-            "zh": "function"
-          },
-          "value": "Temprature Control"
-        },
-        {
-          "label": {
-            "en": "Housing Material",
-            "zh": "Housing Material"
-          },
-          "value": "Aluminum"
-        },
-        {
-          "label": {
-            "en": "type",
-            "zh": "type"
-          },
-          "value": "Capsule Coffee Maker"
-        },
-        {
-          "label": {
-            "en": "after-sales service provided",
-            "zh": "after-sales service provided"
-          },
-          "value": "Overseas Call Centers"
-        },
-        {
-          "label": {
-            "en": "app-controlled",
-            "zh": "app-controlled"
-          },
-          "value": "No"
-        },
-        {
-          "label": {
-            "en": "application",
-            "zh": "application"
-          },
-          "value": "Coffee Shop"
-        },
-        {
-          "label": {
-            "en": "application",
-            "zh": "application"
-          },
-          "value": "Commercial"
-        },
-        {
-          "label": {
-            "en": "application",
-            "zh": "application"
-          },
-          "value": "Garage"
-        },
-        {
-          "label": {
-            "en": "application",
-            "zh": "application"
-          },
-          "value": "Hotel"
-        },
-        {
-          "label": {
-            "en": "application",
-            "zh": "application"
-          },
-          "value": "Household"
-        },
-        {
-          "label": {
-            "en": "Coffee Maker Capacity",
-            "zh": "Coffee Maker Capacity"
-          },
-          "value": "Up to 4 cups"
-        },
-        {
-          "label": {
-            "en": "Feature",
-            "zh": "Feature"
-          },
-          "value": "Easy Cleaning"
-        },
-        {
-          "label": {
-            "en": "Feature",
-            "zh": "Feature"
-          },
-          "value": "Easy to Operate"
-        },
-        {
-          "label": {
-            "en": "Feature",
-            "zh": "Feature"
-          },
-          "value": "Eco-Friendly"
-        },
-        {
-          "label": {
-            "en": "operating language",
-            "zh": "operating language"
-          },
-          "value": "English"
-        },
-        {
-          "label": {
-            "en": "packaging types",
-            "zh": "packaging types"
-          },
-          "value": "Corrugated Box"
-        },
-        {
-          "label": {
-            "en": "packaging types",
-            "zh": "packaging types"
-          },
-          "value": "Color Box"
-        },
-        {
-          "label": {
-            "en": "packaging types",
-            "zh": "packaging types"
-          },
-          "value": "Gift Box"
-        },
-        {
-          "label": {
-            "en": "power (w)",
-            "zh": "power (w)"
-          },
-          "value": "100 W"
-        },
-        {
-          "label": {
-            "en": "power source",
-            "zh": "power source"
-          },
-          "value": "Battery"
-        },
-        {
-          "label": {
-            "en": "power source",
-            "zh": "power source"
-          },
-          "value": "Electric"
-        },
-        {
-          "label": {
-            "en": "pump pressure bars",
-            "zh": "pump pressure bars"
-          },
-          "value": "8 - 10 bar"
-        },
-        {
-          "label": {
-            "en": "warranty",
-            "zh": "warranty"
-          },
-          "value": "1 Year"
-        },
-        {
-          "label": {
-            "en": "place of origin",
-            "zh": "place of origin"
-          },
-          "value": "CN;GUA"
-        },
-        {
-          "label": {
-            "en": "dimensions (l x w x h (inches)",
-            "zh": "dimensions (l x w x h (inches)"
-          },
-          "value": "7.5*7.5*24.8"
-        },
-        {
-          "label": {
-            "en": "model number",
-            "zh": "model number"
-          },
-          "value": "2604"
-        }
-      ],
-      "packaging": {
-        "unit": "Gift Box"
-      },
-      "customization": {},
-      "applications": {
-        "en": "",
-        "zh": ""
-      },
-      "price_indicator": null,
-      "quick_specs": [
-        {
-          "label": {
-            "en": "Power (W)",
-            "zh": "功率(W)"
-          },
-          "value": "100 W"
-        },
-        {
-          "label": {
-            "en": "Coffee Maker Capacity",
-            "zh": "咖啡容量"
-          },
-          "value": "Up to 4 cups"
-        },
-        {
-          "label": {
-            "en": "Pump Pressure Bars",
-            "zh": "泵压(bar)"
-          },
-          "value": "8 - 10 bar"
-        }
-      ],
-      "price_ladder": [],
-      "sku": "1601724407427",
-      "description": {
-        "en": "100 W · Up to 4 cups · 8 - 10 bar. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "100 W · Up to 4 cups · 8 - 10 bar。支持 OEM/ODM 定制，规格取自供应商商品资料。"
-      },
-      "supplier_rating": null,
-      "response_time": null,
-      "transactions": null,
-      "years": null,
-      "ship_from": null,
-      "sample": null,
-      "category_name": {
-        "en": "Espresso Coffee Machines",
-        "zh": "意式咖啡机"
-      },
-      "_source": {
-        "platform": "alibaba.com",
-        "productId": "1601724407427"
-      },
-      "_cat": "coffee-machine"
-    },
-    {
-      "id": "sk-kf-6871",
-      "name": {
-        "en": "Electric Automatic Aluminum Coffee Maker Espresso Machine for Commercial Use",
-        "zh": "SK-KF-6871 全自动意式咖啡机（铝制机身 / 商用）"
-      },
-      "tagline": {
-        "en": "700 W · Up to 4 cups",
-        "zh": "700 W · Up to 4 cups"
-      },
-      "images": [
-        "https://www.hkdmj.net/assets/images/products/coffee-machine-sk-kf-6871/01.webp",
-        "https://www.hkdmj.net/assets/images/products/coffee-machine-sk-kf-6871/02.webp",
-        "https://www.hkdmj.net/assets/images/products/coffee-machine-sk-kf-6871/03.webp",
-        "https://www.hkdmj.net/assets/images/products/coffee-machine-sk-kf-6871/04.webp",
-        "https://www.hkdmj.net/assets/images/products/coffee-machine-sk-kf-6871/05.webp",
-        "https://www.hkdmj.net/assets/images/products/coffee-machine-sk-kf-6871/06.webp"
-      ],
-      "video_url": null,
-      "moq": {
-        "value": 1,
-        "unit": "pieces"
-      },
-      "certifications": [],
-      "highlights": [
-        {
-          "icon": "check",
-          "text": {
-            "en": "Power (W): 700 W",
-            "zh": "功率(W): 700 W"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Coffee Maker Capacity: Up to 4 cups",
-            "zh": "咖啡容量: Up to 4 cups"
-          }
-        }
-      ],
-      "specs": [
-        {
-          "label": {
-            "en": "function",
-            "zh": "function"
-          },
-          "value": "Hot Water System"
-        },
-        {
-          "label": {
-            "en": "Housing Material",
-            "zh": "Housing Material"
-          },
-          "value": "Aluminum"
-        },
-        {
-          "label": {
-            "en": "type",
-            "zh": "type"
-          },
-          "value": "Automatic Coffee Machine"
-        },
-        {
-          "label": {
-            "en": "after-sales service provided",
-            "zh": "after-sales service provided"
-          },
-          "value": "Overseas Call Centers"
-        },
-        {
-          "label": {
-            "en": "app-controlled",
-            "zh": "app-controlled"
-          },
-          "value": "No"
-        },
-        {
-          "label": {
-            "en": "application",
-            "zh": "application"
-          },
-          "value": "Commercial"
-        },
-        {
-          "label": {
-            "en": "application",
-            "zh": "application"
-          },
-          "value": "Garage"
-        },
-        {
-          "label": {
-            "en": "application",
-            "zh": "application"
-          },
-          "value": "Coffee Shop"
-        },
-        {
-          "label": {
-            "en": "Coffee Maker Capacity",
-            "zh": "Coffee Maker Capacity"
-          },
-          "value": "Up to 4 cups"
-        },
-        {
-          "label": {
-            "en": "Feature",
-            "zh": "Feature"
-          },
-          "value": "Automatic"
-        },
-        {
-          "label": {
-            "en": "operating language",
-            "zh": "operating language"
-          },
-          "value": "English"
-        },
-        {
-          "label": {
-            "en": "packaging types",
-            "zh": "packaging types"
-          },
-          "value": "Corrugated Box"
-        },
-        {
-          "label": {
-            "en": "packaging types",
-            "zh": "packaging types"
-          },
-          "value": "Color Box"
-        },
-        {
-          "label": {
-            "en": "packaging types",
-            "zh": "packaging types"
-          },
-          "value": "Gift Box"
-        },
-        {
-          "label": {
-            "en": "power (w)",
-            "zh": "power (w)"
-          },
-          "value": "700 W"
-        },
-        {
-          "label": {
-            "en": "power source",
-            "zh": "power source"
-          },
-          "value": "Battery"
-        },
-        {
-          "label": {
-            "en": "power source",
-            "zh": "power source"
-          },
-          "value": "Electric"
-        },
-        {
-          "label": {
-            "en": "warranty",
-            "zh": "warranty"
-          },
-          "value": "1 Year"
-        },
-        {
-          "label": {
-            "en": "place of origin",
-            "zh": "place of origin"
-          },
-          "value": "CN;GUA"
-        },
-        {
-          "label": {
-            "en": "dimensions (l x w x h (inches)",
-            "zh": "dimensions (l x w x h (inches)"
-          },
-          "value": "49.3*49.3*39.4"
-        },
-        {
-          "label": {
-            "en": "model number",
-            "zh": "model number"
-          },
-          "value": "SK-KF-6871"
-        }
-      ],
-      "packaging": {
-        "unit": "Gift Box"
-      },
-      "customization": {},
-      "applications": {
-        "en": "",
-        "zh": ""
-      },
-      "price_indicator": null,
-      "quick_specs": [
-        {
-          "label": {
-            "en": "Power (W)",
-            "zh": "功率(W)"
-          },
-          "value": "700 W"
-        },
-        {
-          "label": {
-            "en": "Coffee Maker Capacity",
-            "zh": "咖啡容量"
-          },
-          "value": "Up to 4 cups"
-        }
-      ],
-      "price_ladder": [],
-      "sku": "1601723739803",
-      "description": {
-        "en": "700 W · Up to 4 cups. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "700 W · Up to 4 cups。支持 OEM/ODM 定制，规格取自供应商商品资料。"
-      },
-      "supplier_rating": null,
-      "response_time": null,
-      "transactions": null,
-      "years": null,
-      "ship_from": null,
-      "sample": null,
-      "category_name": {
-        "en": "Espresso Coffee Machines",
-        "zh": "意式咖啡机"
-      },
-      "_source": {
-        "platform": "alibaba.com",
-        "productId": "1601723739803"
-      },
-      "_cat": "coffee-machine"
+      "ru": "2604",
+      "th": "2604",
+      "vi": "2604"
+     }
     }
-  ],
-  "reviews": [
+   ],
+   "packaging": {
+    "unit": "Gift Box"
+   },
+   "customization": {},
+   "applications": {
+    "en": "",
+    "zh": ""
+   },
+   "price_indicator": null,
+   "quick_specs": [
     {
-      "name": "Lucas Schmidt",
-      "location": "Berlin, Germany",
-      "rating": 5,
-      "date": "2025-11-05",
-      "title": "Professional 20-bar pressure and PID temperature control at an unbeatable price",
-      "body": "I have been roasting coffee for 10 years and this machine produces cafe-quality espresso at home. The PID-controlled boiler maintains 93°C ±1°C. The steam wand produces microfoam for latte art. The attached photos show the extraction and the milk texturing.",
-      "photoUrls": [
-        "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/01.webp",
-        "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/02.webp"
-      ]
+     "label": {
+      "en": "Power (W)",
+      "zh": "功率(W)",
+      "es": "Potencia (W)",
+      "ar": "القدرة (W)",
+      "fr": "Puissance (W)",
+      "id": "Daya (W)",
+      "ru": "Мощность (Вт)",
+      "th": "กำลังไฟ (W)",
+      "vi": "Công suất (W)"
+     },
+     "value": {
+      "en": "100 W",
+      "es": "100 W",
+      "ar": "100 W",
+      "fr": "100 W",
+      "id": "100 W",
+      "ru": "100 W",
+      "th": "100 W",
+      "vi": "100 W"
+     }
     },
     {
-      "name": "Isabella Romano",
-      "location": "Rome, Italy",
-      "rating": 5,
-      "date": "2025-09-18",
-      "title": "OEM quality that rivals DeLonghi and Gaggia at half the price",
-      "body": "As an Italian I am picky about espresso. This machine pulls a rich crema with our medium roast blend. The dual-boiler system lets us steam milk and pull shots simultaneously. The LED display and touch controls are intuitive and responsive.",
-      "photoUrls": [
-        "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/01.webp",
-        "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/02.webp"
-      ]
+     "label": {
+      "en": "Coffee Maker Capacity",
+      "zh": "咖啡容量",
+      "es": "Capacidad de la cafetera",
+      "ar": "سعة ماكينة القهوة",
+      "fr": "Capacité de la cafetière",
+      "id": "Kapasitas Mesin Kopi",
+      "ru": "Ёмкость кофемашины",
+      "th": "ความจุเครื่องชงกาแฟ",
+      "vi": "Dung tích máy pha cà phê"
+     },
+     "value": {
+      "en": "Up to 4 cups",
+      "es": "Hasta 4 tazas",
+      "ar": "حتى 4 أكواب",
+      "fr": "Jusqu'à 4 tasses",
+      "id": "Hingga 4 cangkir",
+      "ru": "До 4 чашек",
+      "th": "สูงสุด 4 ถ้วย",
+      "vi": "Tối đa 4 tách"
+     }
     },
     {
-      "name": "Jessica Chen",
-      "location": "Vancouver, Canada",
-      "rating": 4,
-      "date": "2025-08-04",
-      "title": "Great for our boutique cafe — 200 unit order arrived perfectly packed",
-      "body": "We opened a 12-seat cafe and needed a reliable semi-automatic espresso machine within budget. This one delivers consistent shots across a 6-hour shift. We did a test run of 200 espressos in one day and the machine performed without any issues.",
-      "photoUrls": [
-        "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/01.webp",
-        "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/02.webp"
-      ]
+     "label": {
+      "en": "Pump Pressure Bars",
+      "zh": "泵压(bar)",
+      "es": "Presión de la bomba (bar)",
+      "ar": "ضغط المضخة (بار)",
+      "fr": "Pression de la pompe (bar)",
+      "id": "Tekanan Pompa (bar)",
+      "ru": "Давление помпы (бар)",
+      "th": "แรงดันปั๊ม (บาร์)",
+      "vi": "Áp suất bơm (bar)"
+     },
+     "value": {
+      "en": "8 - 10 bar",
+      "es": "8 - 10 bar",
+      "ar": "8 - 10 bar",
+      "fr": "8 - 10 bar",
+      "id": "8 - 10 bar",
+      "ru": "8 - 10 bar",
+      "th": "8 - 10 bar",
+      "vi": "8 - 10 bar"
+     }
     }
-  ],
-  "_schema_reviews": [
+   ],
+   "price_ladder": [],
+   "sku": "1601724407427",
+   "description": {
+    "en": "100 W · Up to 4 cups · 8 - 10 bar. OEM/ODM available; specifications from the supplier listing.",
+    "zh": "100 W · Up to 4 cups · 8 - 10 bar。支持 OEM/ODM 定制，规格取自供应商商品资料。",
+    "es": "100 W · hasta 4 tazas · 8 - 10 bar. Disponible en OEM/ODM; especificaciones tomadas del listado del proveedor.",
+    "ar": "100 W · حتى 4 أكواب · 8 - 10 بار. متاح بنظام OEM/ODM؛ المواصفات مأخوذة من قائمة المورّد.",
+    "fr": "100 W · jusqu'à 4 tasses · 8 - 10 bar. Disponible en OEM/ODM ; spécifications issues de la fiche du fournisseur.",
+    "id": "100 W · Hingga 4 cangkir · 8 - 10 bar. Tersedia dalam OEM/ODM; spesifikasi diambil dari daftar pemasok.",
+    "ru": "100 W · до 4 чашек · 8 - 10 бар. Доступно в OEM/ODM; характеристики взяты из карточки товара поставщика.",
+    "th": "100 W · สูงสุด 4 ถ้วย · 8 - 10 บาร์. มีให้บริการในรูปแบบ OEM/ODM; ข้อมูลจำเพาะนำมาจากประกาศของผู้ขาย",
+    "vi": "100 W · tối đa 4 tách · 8 - 10 bar. Có sẵn dạng OEM/ODM; thông số kỹ thuật lấy từ niêm yết của nhà cung cấp."
+   },
+   "supplier_rating": null,
+   "response_time": null,
+   "transactions": null,
+   "years": null,
+   "ship_from": null,
+   "sample": null,
+   "category_name": {
+    "en": "Espresso Coffee Machines",
+    "zh": "意式咖啡机",
+    "es": "Maquina de Cafe Espresso",
+    "ar": "ماكينة قهوة إسبريسو",
+    "fr": "Machine à café expresso",
+    "id": "Mesin Kopi Espresso",
+    "ru": "Кофемашина эспрессо",
+    "th": "เครื่องชงกาแฟเอสเปรสโซ",
+    "vi": "Máy pha cà phê espresso"
+   },
+   "_source": {
+    "platform": "alibaba.com",
+    "productId": "1601724407427"
+   },
+   "_cat": "coffee-machine"
+  },
+  {
+   "id": "sk-kf-6871",
+   "name": {
+    "en": "Electric Automatic Aluminum Coffee Maker Espresso Machine for Commercial Use",
+    "zh": "SK-KF-6871 全自动意式咖啡机（铝制机身 / 商用）",
+    "es": "Cafetera espresso eléctrica automática de aluminio para uso comercial",
+    "ar": "ماكينة قهوة إسبريسو كهربائية تلقائية من الألومنيوم للاستخدام التجاري",
+    "fr": "Machine à café espresso électrique automatique en aluminium pour usage commercial",
+    "id": "Mesin Kopi Espresso Aluminium Otomatis Elektrik untuk Penggunaan Komersial",
+    "ru": "Электрическая автоматическая кофемашина эспрессо с алюминиевым корпусом для коммерческого использования",
+    "th": "เครื่องชงกาแฟเอสเปรสโซไฟฟ้าอัตโนมัติตัวเครื่องอะลูมิเนียมสำหรับใช้เชิงพาณิชย์",
+    "vi": "Máy pha cà phê Espresso tự động bằng điện, vỏ nhôm, dùng cho mục đích thương mại"
+   },
+   "tagline": {
+    "en": "700 W · Up to 4 cups",
+    "zh": "700 W · Up to 4 cups",
+    "es": "700 W · hasta 4 tazas",
+    "ar": "700 W · حتى 4 أكواب",
+    "fr": "700 W · jusqu'à 4 tasses",
+    "id": "700 W · Hingga 4 cangkir",
+    "ru": "700 W · до 4 чашек",
+    "th": "700 W · สูงสุด 4 ถ้วย",
+    "vi": "700 W · tối đa 4 tách"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-sk-kf-6871/01.webp",
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-sk-kf-6871/02.webp",
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-sk-kf-6871/03.webp",
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-sk-kf-6871/04.webp",
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-sk-kf-6871/05.webp",
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-sk-kf-6871/06.webp"
+   ],
+   "video_url": null,
+   "moq": {
+    "value": 1,
+    "unit": "pieces"
+   },
+   "certifications": [],
+   "highlights": [
     {
-      "@type": "Review",
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "5",
-        "bestRating": "5",
-        "worstRating": "1"
-      },
-      "author": {
-        "@type": "Person",
-        "name": "Lucas Schmidt",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Berlin, Germany"
-        }
-      },
-      "datePublished": "2025-11-05",
-      "reviewBody": "I have been roasting coffee for 10 years and this machine produces cafe-quality espresso at home. The PID-controlled boiler maintains 93°C ±1°C. The steam wand produces microfoam for latte art. The attached photos show the extraction and the milk texturing.",
-      "name": "Professional 20-bar pressure and PID temperature control at an unbeatable price",
-      "image": [
-        "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/01.webp",
-        "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/02.webp"
-      ]
+     "icon": "check",
+     "text": {
+      "en": "Power (W): 700 W",
+      "zh": "功率(W): 700 W",
+      "es": "Potencia (W): 700 W",
+      "ar": "القدرة (W): 700 W",
+      "fr": "Puissance (W): 700 W",
+      "id": "Daya (W): 700 W",
+      "ru": "Мощность (Вт): 700 W",
+      "th": "กำลังไฟ (W): 700 W",
+      "vi": "Công suất (W): 700 W"
+     }
     },
     {
-      "@type": "Review",
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "5",
-        "bestRating": "5",
-        "worstRating": "1"
-      },
-      "author": {
-        "@type": "Person",
-        "name": "Isabella Romano",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Rome, Italy"
-        }
-      },
-      "datePublished": "2025-09-18",
-      "reviewBody": "As an Italian I am picky about espresso. This machine pulls a rich crema with our medium roast blend. The dual-boiler system lets us steam milk and pull shots simultaneously. The LED display and touch controls are intuitive and responsive.",
-      "name": "OEM quality that rivals DeLonghi and Gaggia at half the price",
-      "image": [
-        "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/01.webp",
-        "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/02.webp"
-      ]
-    },
-    {
-      "@type": "Review",
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "4",
-        "bestRating": "5",
-        "worstRating": "1"
-      },
-      "author": {
-        "@type": "Person",
-        "name": "Jessica Chen",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Vancouver, Canada"
-        }
-      },
-      "datePublished": "2025-08-04",
-      "reviewBody": "We opened a 12-seat cafe and needed a reliable semi-automatic espresso machine within budget. This one delivers consistent shots across a 6-hour shift. We did a test run of 200 espressos in one day and the machine performed without any issues.",
-      "name": "Great for our boutique cafe — 200 unit order arrived perfectly packed",
-      "image": [
-        "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/01.webp",
-        "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/02.webp"
-      ]
+     "icon": "check",
+     "text": {
+      "en": "Coffee Maker Capacity: Up to 4 cups",
+      "zh": "咖啡容量: Up to 4 cups",
+      "es": "Capacidad de la cafetera: Hasta 4 tazas",
+      "ar": "سعة ماكينة القهوة: حتى 4 أكواب",
+      "fr": "Capacité de la cafetière: Jusqu'à 4 tasses",
+      "id": "Kapasitas Mesin Kopi: Hingga 4 cangkir",
+      "ru": "Ёмкость кофемашины: До 4 чашек",
+      "th": "ความจุเครื่องชงกาแฟ: สูงสุด 4 ถ้วย",
+      "vi": "Dung tích máy pha cà phê: Tối đa 4 tách"
+     }
     }
-  ]
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "function",
+      "zh": "function",
+      "es": "función",
+      "ar": "الوظيفة",
+      "fr": "fonction",
+      "id": "fungsi",
+      "ru": "функция",
+      "th": "ฟังก์ชัน",
+      "vi": "chức năng"
+     },
+     "value": {
+      "en": "Hot Water System",
+      "es": "Sistema de agua caliente",
+      "ar": "نظام الماء الساخن",
+      "fr": "Système à eau chaude",
+      "id": "Sistem Air Panas",
+      "ru": "Система горячей воды",
+      "th": "ระบบน้ำร้อน",
+      "vi": "Hệ thống nước nóng"
+     }
+    },
+    {
+     "label": {
+      "en": "Housing Material",
+      "zh": "Housing Material",
+      "es": "Material de la carcasa",
+      "ar": "مادة الهيكل",
+      "fr": "Matériau du boîtier",
+      "id": "Material Casing",
+      "ru": "Материал корпуса",
+      "th": "วัสดุตัวเครื่อง",
+      "vi": "Chất liệu vỏ"
+     },
+     "value": {
+      "en": "Aluminum",
+      "es": "Aluminio",
+      "ar": "ألومنيوم",
+      "fr": "Aluminium",
+      "id": "Aluminium",
+      "ru": "Алюминий",
+      "th": "อะลูมิเนียม",
+      "vi": "Nhôm"
+     }
+    },
+    {
+     "label": {
+      "en": "type",
+      "zh": "type",
+      "es": "tipo",
+      "ar": "النوع",
+      "fr": "type",
+      "id": "tipe",
+      "ru": "тип",
+      "th": "ประเภท",
+      "vi": "loại"
+     },
+     "value": {
+      "en": "Automatic Coffee Machine",
+      "es": "Cafetera automática",
+      "ar": "ماكينة قهوة تلقائية",
+      "fr": "Machine à café automatique",
+      "id": "Mesin Kopi Otomatis",
+      "ru": "Автоматическая кофемашина",
+      "th": "เครื่องชงกาแฟอัตโนมัติ",
+      "vi": "Máy pha cà phê tự động"
+     }
+    },
+    {
+     "label": {
+      "en": "after-sales service provided",
+      "zh": "after-sales service provided",
+      "es": "servicio posventa",
+      "ar": "خدمة ما بعد البيع",
+      "fr": "service après-vente",
+      "id": "layanan purnajual",
+      "ru": "послепродажное обслуживание",
+      "th": "บริการหลังการขาย",
+      "vi": "dịch vụ sau bán hàng"
+     },
+     "value": {
+      "en": "Overseas Call Centers",
+      "es": "Centros de llamadas en el extranjero",
+      "ar": "مراكز اتصال خارجية",
+      "fr": "Centres d'appel à l'étranger",
+      "id": "Pusat Panggilan Luar Negeri",
+      "ru": "Зарубежные колл-центры",
+      "th": "ศูนย์บริการโทรศัพท์ต่างประเทศ",
+      "vi": "Trung tâm cuộc gọi ở nước ngoài"
+     }
+    },
+    {
+     "label": {
+      "en": "app-controlled",
+      "zh": "app-controlled",
+      "es": "control por app",
+      "ar": "يُتحكم به عبر التطبيق",
+      "fr": "contrôlé par application",
+      "id": "dikendalikan aplikasi",
+      "ru": "управление через приложение",
+      "th": "ควบคุมผ่านแอป",
+      "vi": "điều khiển qua app"
+     },
+     "value": {
+      "en": "No",
+      "es": "No",
+      "ar": "لا",
+      "fr": "Non",
+      "id": "Tidak",
+      "ru": "Нет",
+      "th": "ไม่",
+      "vi": "Không"
+     }
+    },
+    {
+     "label": {
+      "en": "application",
+      "zh": "application",
+      "es": "aplicación",
+      "ar": "التطبيق",
+      "fr": "utilisation",
+      "id": "aplikasi",
+      "ru": "применение",
+      "th": "การใช้งาน",
+      "vi": "ứng dụng"
+     },
+     "value": {
+      "en": "Commercial",
+      "es": "Comercial",
+      "ar": "تجاري",
+      "fr": "Commercial",
+      "id": "Komersial",
+      "ru": "Коммерческий",
+      "th": "เชิงพาณิชย์",
+      "vi": "Thương mại"
+     }
+    },
+    {
+     "label": {
+      "en": "application",
+      "zh": "application",
+      "es": "aplicación",
+      "ar": "التطبيق",
+      "fr": "utilisation",
+      "id": "aplikasi",
+      "ru": "применение",
+      "th": "การใช้งาน",
+      "vi": "ứng dụng"
+     },
+     "value": {
+      "en": "Garage",
+      "es": "Garaje",
+      "ar": "مرآب",
+      "fr": "Garage",
+      "id": "Garasi",
+      "ru": "Гараж",
+      "th": "โรงรถ",
+      "vi": "Ga-ra"
+     }
+    },
+    {
+     "label": {
+      "en": "application",
+      "zh": "application",
+      "es": "aplicación",
+      "ar": "التطبيق",
+      "fr": "utilisation",
+      "id": "aplikasi",
+      "ru": "применение",
+      "th": "การใช้งาน",
+      "vi": "ứng dụng"
+     },
+     "value": {
+      "en": "Coffee Shop",
+      "es": "Cafetería",
+      "ar": "مقهى",
+      "fr": "Café",
+      "id": "Kafe",
+      "ru": "Кофейня",
+      "th": "ร้านกาแฟ",
+      "vi": "Quán cà phê"
+     }
+    },
+    {
+     "label": {
+      "en": "Coffee Maker Capacity",
+      "zh": "Coffee Maker Capacity",
+      "es": "Capacidad de la cafetera",
+      "ar": "سعة ماكينة القهوة",
+      "fr": "Capacité de la cafetière",
+      "id": "Kapasitas Mesin Kopi",
+      "ru": "Ёмкость кофемашины",
+      "th": "ความจุเครื่องชงกาแฟ",
+      "vi": "Dung tích máy pha cà phê"
+     },
+     "value": {
+      "en": "Up to 4 cups",
+      "es": "Hasta 4 tazas",
+      "ar": "حتى 4 أكواب",
+      "fr": "Jusqu'à 4 tasses",
+      "id": "Hingga 4 cangkir",
+      "ru": "До 4 чашек",
+      "th": "สูงสุด 4 ถ้วย",
+      "vi": "Tối đa 4 tách"
+     }
+    },
+    {
+     "label": {
+      "en": "Feature",
+      "zh": "Feature",
+      "es": "Característica",
+      "ar": "الميزة",
+      "fr": "Caractéristique",
+      "id": "Fitur",
+      "ru": "Характеристика",
+      "th": "คุณสมบัติ",
+      "vi": "Tính năng"
+     },
+     "value": {
+      "en": "Automatic",
+      "es": "Automático",
+      "ar": "تلقائي",
+      "fr": "Automatique",
+      "id": "Otomatis",
+      "ru": "Автоматический",
+      "th": "อัตโนมัติ",
+      "vi": "Tự động"
+     }
+    },
+    {
+     "label": {
+      "en": "operating language",
+      "zh": "operating language",
+      "es": "idioma de funcionamiento",
+      "ar": "لغة التشغيل",
+      "fr": "langue d'utilisation",
+      "id": "bahasa pengoperasian",
+      "ru": "язык интерфейса",
+      "th": "ภาษาที่ใช้งาน",
+      "vi": "ngôn ngữ hoạt động"
+     },
+     "value": {
+      "en": "English",
+      "es": "Inglés",
+      "ar": "الإنجليزية",
+      "fr": "Anglais",
+      "id": "Inggris",
+      "ru": "Английский",
+      "th": "อังกฤษ",
+      "vi": "Tiếng Anh"
+     }
+    },
+    {
+     "label": {
+      "en": "packaging types",
+      "zh": "packaging types",
+      "es": "tipos de embalaje",
+      "ar": "أنواع التغليف",
+      "fr": "types d'emballage",
+      "id": "jenis kemasan",
+      "ru": "типы упаковки",
+      "th": "ประเภทบรรจุภัณฑ์",
+      "vi": "loại bao bì"
+     },
+     "value": {
+      "en": "Corrugated Box",
+      "es": "Caja de cartón ondulado",
+      "ar": "كرتون مموج",
+      "fr": "Carton ondulé",
+      "id": "Kotak Karton Bergelombang",
+      "ru": "Гофрокоробка",
+      "th": "กล่องกระดาษลูกฟูก",
+      "vi": "Thùng carton sóng"
+     }
+    },
+    {
+     "label": {
+      "en": "packaging types",
+      "zh": "packaging types",
+      "es": "tipos de embalaje",
+      "ar": "أنواع التغليف",
+      "fr": "types d'emballage",
+      "id": "jenis kemasan",
+      "ru": "типы упаковки",
+      "th": "ประเภทบรรจุภัณฑ์",
+      "vi": "loại bao bì"
+     },
+     "value": {
+      "en": "Color Box",
+      "es": "Caja a color",
+      "ar": "علبة ملونة",
+      "fr": "Boîte couleur",
+      "id": "Kotak Warna",
+      "ru": "Цветная коробка",
+      "th": "กล่องสี",
+      "vi": "Hộp màu"
+     }
+    },
+    {
+     "label": {
+      "en": "packaging types",
+      "zh": "packaging types",
+      "es": "tipos de embalaje",
+      "ar": "أنواع التغليف",
+      "fr": "types d'emballage",
+      "id": "jenis kemasan",
+      "ru": "типы упаковки",
+      "th": "ประเภทบรรจุภัณฑ์",
+      "vi": "loại bao bì"
+     },
+     "value": {
+      "en": "Gift Box",
+      "es": "Caja de regalo",
+      "ar": "علبة هدايا",
+      "fr": "Boîte cadeau",
+      "id": "Kotak Hadiah",
+      "ru": "Подарочная коробка",
+      "th": "กล่องของขวัญ",
+      "vi": "Hộp quà"
+     }
+    },
+    {
+     "label": {
+      "en": "power (w)",
+      "zh": "power (w)",
+      "es": "potencia (W)",
+      "ar": "القدرة (W)",
+      "fr": "puissance (W)",
+      "id": "daya (W)",
+      "ru": "мощность (Вт)",
+      "th": "กำลังไฟ (W)",
+      "vi": "công suất (w)"
+     },
+     "value": {
+      "en": "700 W",
+      "es": "700 W",
+      "ar": "700 W",
+      "fr": "700 W",
+      "id": "700 W",
+      "ru": "700 W",
+      "th": "700 W",
+      "vi": "700 W"
+     }
+    },
+    {
+     "label": {
+      "en": "power source",
+      "zh": "power source",
+      "es": "fuente de alimentación",
+      "ar": "مصدر الطاقة",
+      "fr": "source d'alimentation",
+      "id": "sumber daya",
+      "ru": "источник питания",
+      "th": "แหล่งจ่ายไฟ",
+      "vi": "nguồn điện"
+     },
+     "value": {
+      "en": "Battery",
+      "es": "Batería",
+      "ar": "البطارية",
+      "fr": "Batterie",
+      "id": "Baterai",
+      "ru": "Аккумулятор",
+      "th": "แบตเตอรี่",
+      "vi": "Pin"
+     }
+    },
+    {
+     "label": {
+      "en": "power source",
+      "zh": "power source",
+      "es": "fuente de alimentación",
+      "ar": "مصدر الطاقة",
+      "fr": "source d'alimentation",
+      "id": "sumber daya",
+      "ru": "источник питания",
+      "th": "แหล่งจ่ายไฟ",
+      "vi": "nguồn điện"
+     },
+     "value": {
+      "en": "Electric",
+      "es": "Eléctrico",
+      "ar": "كهربائي",
+      "fr": "Électrique",
+      "id": "Listrik",
+      "ru": "Электрический",
+      "th": "ไฟฟ้า",
+      "vi": "Điện"
+     }
+    },
+    {
+     "label": {
+      "en": "warranty",
+      "zh": "warranty",
+      "es": "garantía",
+      "ar": "الضمان",
+      "fr": "garantie",
+      "id": "garansi",
+      "ru": "гарантия",
+      "th": "การรับประกัน",
+      "vi": "bảo hành"
+     },
+     "value": {
+      "en": "1 Year",
+      "es": "1 año",
+      "ar": "سنة واحدة",
+      "fr": "1 an",
+      "id": "1 tahun",
+      "ru": "1 год",
+      "th": "1 ปี",
+      "vi": "1 năm"
+     }
+    },
+    {
+     "label": {
+      "en": "place of origin",
+      "zh": "place of origin",
+      "es": "país de origen",
+      "ar": "بلد المنشأ",
+      "fr": "lieu d'origine",
+      "id": "negara asal",
+      "ru": "страна происхождения",
+      "th": "แหล่งที่มา",
+      "vi": "xuất xứ"
+     },
+     "value": {
+      "en": "CN;GUA",
+      "es": "CN;GUA",
+      "ar": "CN;GUA",
+      "fr": "CN;GUA",
+      "id": "CN;GUA",
+      "ru": "CN;GUA",
+      "th": "CN;GUA",
+      "vi": "CN;GUA"
+     }
+    },
+    {
+     "label": {
+      "en": "dimensions (l x w x h (inches)",
+      "zh": "dimensions (l x w x h (inches)",
+      "es": "dimensiones (l x an x al (pulgadas)",
+      "ar": "الأبعاد (الطول × العرض × الارتفاع بالبوصة)",
+      "fr": "dimensions (l x l x h (pouces)",
+      "id": "dimensi (p x l x t (inci)",
+      "ru": "размеры (д x ш x в (дюймы)",
+      "th": "ขนาด (ยาว x กว้าง x สูง (นิ้ว)",
+      "vi": "kích thước (d x r x c (inch)"
+     },
+     "value": {
+      "en": "49.3*49.3*39.4",
+      "es": "49.3*49.3*39.4",
+      "ar": "49.3*49.3*39.4",
+      "fr": "49.3*49.3*39.4",
+      "id": "49.3*49.3*39.4",
+      "ru": "49.3*49.3*39.4",
+      "th": "49.3*49.3*39.4",
+      "vi": "49.3*49.3*39.4"
+     }
+    },
+    {
+     "label": {
+      "en": "model number",
+      "zh": "model number",
+      "es": "número de modelo",
+      "ar": "رقم الموديل",
+      "fr": "numéro de modèle",
+      "id": "nomor model",
+      "ru": "номер модели",
+      "th": "หมายเลขรุ่น",
+      "vi": "số model"
+     },
+     "value": {
+      "en": "SK-KF-6871",
+      "es": "SK-KF-6871",
+      "ar": "SK-KF-6871",
+      "fr": "SK-KF-6871",
+      "id": "SK-KF-6871",
+      "ru": "SK-KF-6871",
+      "th": "SK-KF-6871",
+      "vi": "SK-KF-6871"
+     }
+    }
+   ],
+   "packaging": {
+    "unit": "Gift Box"
+   },
+   "customization": {},
+   "applications": {
+    "en": "",
+    "zh": ""
+   },
+   "price_indicator": null,
+   "quick_specs": [
+    {
+     "label": {
+      "en": "Power (W)",
+      "zh": "功率(W)",
+      "es": "Potencia (W)",
+      "ar": "القدرة (W)",
+      "fr": "Puissance (W)",
+      "id": "Daya (W)",
+      "ru": "Мощность (Вт)",
+      "th": "กำลังไฟ (W)",
+      "vi": "Công suất (W)"
+     },
+     "value": {
+      "en": "700 W",
+      "es": "700 W",
+      "ar": "700 W",
+      "fr": "700 W",
+      "id": "700 W",
+      "ru": "700 W",
+      "th": "700 W",
+      "vi": "700 W"
+     }
+    },
+    {
+     "label": {
+      "en": "Coffee Maker Capacity",
+      "zh": "咖啡容量",
+      "es": "Capacidad de la cafetera",
+      "ar": "سعة ماكينة القهوة",
+      "fr": "Capacité de la cafetière",
+      "id": "Kapasitas Mesin Kopi",
+      "ru": "Ёмкость кофемашины",
+      "th": "ความจุเครื่องชงกาแฟ",
+      "vi": "Dung tích máy pha cà phê"
+     },
+     "value": {
+      "en": "Up to 4 cups",
+      "es": "Hasta 4 tazas",
+      "ar": "حتى 4 أكواب",
+      "fr": "Jusqu'à 4 tasses",
+      "id": "Hingga 4 cangkir",
+      "ru": "До 4 чашек",
+      "th": "สูงสุด 4 ถ้วย",
+      "vi": "Tối đa 4 tách"
+     }
+    }
+   ],
+   "price_ladder": [],
+   "sku": "1601723739803",
+   "description": {
+    "en": "700 W · Up to 4 cups. OEM/ODM available; specifications from the supplier listing.",
+    "zh": "700 W · Up to 4 cups。支持 OEM/ODM 定制，规格取自供应商商品资料。",
+    "es": "700 W · hasta 4 tazas. Disponible en OEM/ODM; especificaciones tomadas del listado del proveedor.",
+    "ar": "700 W · حتى 4 أكواب. متاح بنظام OEM/ODM؛ المواصفات مأخوذة من قائمة المورّد.",
+    "fr": "700 W · jusqu'à 4 tasses. Disponible en OEM/ODM ; spécifications issues de la fiche du fournisseur.",
+    "id": "700 W · Hingga 4 cangkir. Tersedia dalam OEM/ODM; spesifikasi diambil dari daftar pemasok.",
+    "ru": "700 W · до 4 чашек. Доступно в OEM/ODM; характеристики взяты из карточки товара поставщика.",
+    "th": "700 W · สูงสุด 4 ถ้วย. มีให้บริการในรูปแบบ OEM/ODM; ข้อมูลจำเพาะนำมาจากประกาศของผู้ขาย",
+    "vi": "700 W · tối đa 4 tách. Có sẵn dạng OEM/ODM; thông số kỹ thuật lấy từ niêm yết của nhà cung cấp."
+   },
+   "supplier_rating": null,
+   "response_time": null,
+   "transactions": null,
+   "years": null,
+   "ship_from": null,
+   "sample": null,
+   "category_name": {
+    "en": "Espresso Coffee Machines",
+    "zh": "意式咖啡机",
+    "es": "Maquina de Cafe Espresso",
+    "ar": "ماكينة قهوة إسبريسو",
+    "fr": "Machine à café expresso",
+    "id": "Mesin Kopi Espresso",
+    "ru": "Кофемашина эспрессо",
+    "th": "เครื่องชงกาแฟเอสเปรสโซ",
+    "vi": "Máy pha cà phê espresso"
+   },
+   "_source": {
+    "platform": "alibaba.com",
+    "productId": "1601723739803"
+   },
+   "_cat": "coffee-machine"
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Lucas Schmidt",
+   "location": "Berlin, Germany",
+   "rating": 5,
+   "date": "2025-11-05",
+   "title": "Professional 20-bar pressure and PID temperature control at an unbeatable price",
+   "body": "I have been roasting coffee for 10 years and this machine produces cafe-quality espresso at home. The PID-controlled boiler maintains 93°C ±1°C. The steam wand produces microfoam for latte art. The attached photos show the extraction and the milk texturing.",
+   "photoUrls": [
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/01.webp",
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/02.webp"
+   ]
+  },
+  {
+   "name": "Isabella Romano",
+   "location": "Rome, Italy",
+   "rating": 5,
+   "date": "2025-09-18",
+   "title": "OEM quality that rivals DeLonghi and Gaggia at half the price",
+   "body": "As an Italian I am picky about espresso. This machine pulls a rich crema with our medium roast blend. The dual-boiler system lets us steam milk and pull shots simultaneously. The LED display and touch controls are intuitive and responsive.",
+   "photoUrls": [
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/01.webp",
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/02.webp"
+   ]
+  },
+  {
+   "name": "Jessica Chen",
+   "location": "Vancouver, Canada",
+   "rating": 4,
+   "date": "2025-08-04",
+   "title": "Great for our boutique cafe — 200 unit order arrived perfectly packed",
+   "body": "We opened a 12-seat cafe and needed a reliable semi-automatic espresso machine within budget. This one delivers consistent shots across a 6-hour shift. We did a test run of 200 espressos in one day and the machine performed without any issues.",
+   "photoUrls": [
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/01.webp",
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/02.webp"
+   ]
+  }
+ ],
+ "_schema_reviews": [
+  {
+   "@type": "Review",
+   "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "5",
+    "bestRating": "5",
+    "worstRating": "1"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Lucas Schmidt",
+    "address": {
+     "@type": "PostalAddress",
+     "addressLocality": "Berlin, Germany"
+    }
+   },
+   "datePublished": "2025-11-05",
+   "reviewBody": "I have been roasting coffee for 10 years and this machine produces cafe-quality espresso at home. The PID-controlled boiler maintains 93°C ±1°C. The steam wand produces microfoam for latte art. The attached photos show the extraction and the milk texturing.",
+   "name": "Professional 20-bar pressure and PID temperature control at an unbeatable price",
+   "image": [
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/01.webp",
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/02.webp"
+   ]
+  },
+  {
+   "@type": "Review",
+   "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "5",
+    "bestRating": "5",
+    "worstRating": "1"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Isabella Romano",
+    "address": {
+     "@type": "PostalAddress",
+     "addressLocality": "Rome, Italy"
+    }
+   },
+   "datePublished": "2025-09-18",
+   "reviewBody": "As an Italian I am picky about espresso. This machine pulls a rich crema with our medium roast blend. The dual-boiler system lets us steam milk and pull shots simultaneously. The LED display and touch controls are intuitive and responsive.",
+   "name": "OEM quality that rivals DeLonghi and Gaggia at half the price",
+   "image": [
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/01.webp",
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/02.webp"
+   ]
+  },
+  {
+   "@type": "Review",
+   "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "4",
+    "bestRating": "5",
+    "worstRating": "1"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Jessica Chen",
+    "address": {
+     "@type": "PostalAddress",
+     "addressLocality": "Vancouver, Canada"
+    }
+   },
+   "datePublished": "2025-08-04",
+   "reviewBody": "We opened a 12-seat cafe and needed a reliable semi-automatic espresso machine within budget. This one delivers consistent shots across a 6-hour shift. We did a test run of 200 espressos in one day and the machine performed without any issues.",
+   "name": "Great for our boutique cafe — 200 unit order arrived perfectly packed",
+   "image": [
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/01.webp",
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-2604/02.webp"
+   ]
+  }
+ ]
 }

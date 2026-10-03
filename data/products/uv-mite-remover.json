@@ -1,444 +1,1044 @@
 {
-  "category": "uv-mite-remover",
-  "products": [
+ "category": "uv-mite-remover",
+ "products": [
+  {
+   "id": "pc708",
+   "name": {
+    "en": "PC708 Cordless Stick Vacuum Cleaner Brushless 22kPa Suction 45Min Runtime Lightweight for Pet Hair Carpet Mite Removal Hotel Car",
+    "zh": "PC708 床褥除螨吸尘器（22kPa 无刷 / 45 分钟续航）",
+    "es": "Aspiradora escoba inalámbrica PC708 con motor sin escobillas, succión de 22 kPa, autonomía de 45 min, ligera para pelo de mascotas, alfombras, eliminación de ácaros, hotel y coche",
+    "ar": "مكنسة عصوية لاسلكية PC708 بمحرك بدون فرشاة، شفط 22kPa، تشغيل 45 دقيقة، خفيفة لشعر الحيوانات الأليفة والسجاد وإزالة العث والفنادق والسيارات",
+    "fr": "Aspirateur balai sans fil PC708 sans balais, aspiration 22 kPa, autonomie de 45 min, léger pour poils d'animaux, moquettes, élimination des acariens, hôtel et voiture",
+    "id": "Penyedot Debu Tongkat Nirkabel PC708, Tanpa Sikat, Daya Hisap 22kPa, Waktu Pakai 45 Menit, Ringan untuk Bulu Hewan Peliharaan, Karpet, Penghilang Tungau, Hotel, dan Mobil",
+    "ru": "Беспроводной вертикальный пылесос PC708 с бесщёточным двигателем, всасывание 22 кПа, время работы 45 мин, лёгкий, для шерсти животных, ковров, удаления клещей, отелей и автомобилей",
+    "th": "เครื่องดูดฝุ่นแบบแท่งไร้สาย PC708 มอเตอร์แบบไม่มีแปรงถ่าน แรงดูด 22kPa ใช้งาน 45 นาที น้ำหนักเบา สำหรับขนสัตว์เลี้ยง พรม กำจัดไร โรงแรม และรถยนต์",
+    "vi": "Máy hút bụi dạng gậy không dây PC708, không chổi than, lực hút 22kPa, thời gian chạy 45 phút, nhẹ, cho lông thú cưng, thảm, diệt ve bụi, khách sạn và ô tô"
+   },
+   "tagline": {
+    "en": "200 W · 30-60 min · 0.5L",
+    "zh": "200 W · 30-60 min · 0.5L",
+    "es": "200 W · 30-60 min · 0.5L",
+    "ar": "200 W · 30-60 min · 0.5L",
+    "fr": "200 W · 30-60 min · 0.5L",
+    "id": "200 W · 30-60 min · 0.5L",
+    "ru": "200 W · 30-60 min · 0.5L",
+    "th": "200 W · 30-60 min · 0.5L",
+    "vi": "200 W · 30-60 min · 0.5L"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/01.webp",
+    "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/02.webp",
+    "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/03.webp",
+    "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/04.webp",
+    "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/05.webp",
+    "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/06.webp"
+   ],
+   "video_url": null,
+   "moq": {
+    "value": 1,
+    "unit": "pieces"
+   },
+   "certifications": [],
+   "highlights": [
     {
-      "id": "pc708",
-      "name": {
-        "en": "PC708 Cordless Stick Vacuum Cleaner Brushless 22kPa Suction 45Min Runtime Lightweight for Pet Hair Carpet Mite Removal Hotel Car",
-        "zh": "PC708 床褥除螨吸尘器（22kPa 无刷 / 45 分钟续航）"
-      },
-      "tagline": {
-        "en": "200 W · 30-60 min · 0.5L",
-        "zh": "200 W · 30-60 min · 0.5L"
-      },
-      "images": [
-        "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/01.webp",
-        "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/02.webp",
-        "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/03.webp",
-        "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/04.webp",
-        "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/05.webp",
-        "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/06.webp"
-      ],
-      "video_url": null,
-      "moq": {
-        "value": 1,
-        "unit": "pieces"
-      },
-      "certifications": [],
-      "highlights": [
-        {
-          "icon": "check",
-          "text": {
-            "en": "Power (W): 200 W",
-            "zh": "功率(W): 200 W"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Maximum Runtime: 30-60 min",
-            "zh": "最长续航: 30-60 min"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Dust capacity: 0.5L",
-            "zh": "尘杯容量: 0.5L"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Motor Type: Brushless Motor",
-            "zh": "电机类型: Brushless Motor"
-          }
-        }
-      ],
-      "specs": [
-        {
-          "label": {
-            "en": "Power Source",
-            "zh": "Power Source"
-          },
-          "value": "Battery"
-        },
-        {
-          "label": {
-            "en": "Function",
-            "zh": "功能"
-          },
-          "value": "Dry"
-        },
-        {
-          "label": {
-            "en": "Function",
-            "zh": "功能"
-          },
-          "value": "With LED Lights"
-        },
-        {
-          "label": {
-            "en": "Function",
-            "zh": "功能"
-          },
-          "value": "Laser Dust Illumination"
-        },
-        {
-          "label": {
-            "en": "Function",
-            "zh": "功能"
-          },
-          "value": "Wet And Dry"
-        },
-        {
-          "label": {
-            "en": "Function",
-            "zh": "功能"
-          },
-          "value": "Wet"
-        },
-        {
-          "label": {
-            "en": "maximum runtime",
-            "zh": "maximum runtime"
-          },
-          "value": "30-60 min"
-        },
-        {
-          "label": {
-            "en": "after-sales service provided",
-            "zh": "after-sales service provided"
-          },
-          "value": "Return and Replacement"
-        },
-        {
-          "label": {
-            "en": "app-controlled",
-            "zh": "app-controlled"
-          },
-          "value": "No"
-        },
-        {
-          "label": {
-            "en": "application",
-            "zh": "application"
-          },
-          "value": "Household"
-        },
-        {
-          "label": {
-            "en": "application",
-            "zh": "application"
-          },
-          "value": "Car"
-        },
-        {
-          "label": {
-            "en": "application",
-            "zh": "application"
-          },
-          "value": "Hotel"
-        },
-        {
-          "label": {
-            "en": "bag or bagless",
-            "zh": "bag or bagless"
-          },
-          "value": "Bagless"
-        },
-        {
-          "label": {
-            "en": "Feature",
-            "zh": "Feature"
-          },
-          "value": "Easy Cleaning"
-        },
-        {
-          "label": {
-            "en": "Feature",
-            "zh": "Feature"
-          },
-          "value": "Portable"
-        },
-        {
-          "label": {
-            "en": "filter",
-            "zh": "filter"
-          },
-          "value": "HEPA Filter"
-        },
-        {
-          "label": {
-            "en": "installation",
-            "zh": "installation"
-          },
-          "value": "Hand Held"
-        },
-        {
-          "label": {
-            "en": "motor type",
-            "zh": "motor type"
-          },
-          "value": "Brushless Motor"
-        },
-        {
-          "label": {
-            "en": "nozzle number",
-            "zh": "nozzle number"
-          },
-          "value": "≤ 3"
-        },
-        {
-          "label": {
-            "en": "packaging types",
-            "zh": "packaging types"
-          },
-          "value": "Color Box"
-        },
-        {
-          "label": {
-            "en": "power (w)",
-            "zh": "power (w)"
-          },
-          "value": "200 W"
-        },
-        {
-          "label": {
-            "en": "power source",
-            "zh": "power source"
-          },
-          "value": "Battery"
-        },
-        {
-          "label": {
-            "en": "private mold",
-            "zh": "private mold"
-          },
-          "value": "No"
-        },
-        {
-          "label": {
-            "en": "product net weight",
-            "zh": "product net weight"
-          },
-          "value": "2–3 kg"
-        },
-        {
-          "label": {
-            "en": "place of origin",
-            "zh": "place of origin"
-          },
-          "value": "CN"
-        },
-        {
-          "label": {
-            "en": "suction power (airwatts)",
-            "zh": "suction power (airwatts)"
-          },
-          "value": "110 AW"
-        },
-        {
-          "label": {
-            "en": "Charging Time",
-            "zh": "充电时间"
-          },
-          "value": "4-5H"
-        },
-        {
-          "label": {
-            "en": "Dust capacity",
-            "zh": "Dust capacity"
-          },
-          "value": "0.5L"
-        },
-        {
-          "label": {
-            "en": "warranty",
-            "zh": "warranty"
-          },
-          "value": "1 YEAR"
-        },
-        {
-          "label": {
-            "en": "model number",
-            "zh": "model number"
-          },
-          "value": "PC708"
-        }
-      ],
-      "packaging": {
-        "unit": "Color Box"
-      },
-      "customization": {},
-      "applications": {
-        "en": "",
-        "zh": ""
-      },
-      "price_indicator": null,
-      "quick_specs": [
-        {
-          "label": {
-            "en": "Power (W)",
-            "zh": "功率(W)"
-          },
-          "value": "200 W"
-        },
-        {
-          "label": {
-            "en": "Maximum Runtime",
-            "zh": "最长续航"
-          },
-          "value": "30-60 min"
-        },
-        {
-          "label": {
-            "en": "Dust capacity",
-            "zh": "尘杯容量"
-          },
-          "value": "0.5L"
-        },
-        {
-          "label": {
-            "en": "Motor Type",
-            "zh": "电机类型"
-          },
-          "value": "Brushless Motor"
-        }
-      ],
-      "price_ladder": [],
-      "sku": "1601848192870",
-      "description": {
-        "en": "200 W · 30-60 min · 0.5L. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "200 W · 30-60 min · 0.5L。支持 OEM/ODM 定制，规格取自供应商商品资料。"
-      },
-      "supplier_rating": null,
-      "response_time": null,
-      "transactions": null,
-      "years": null,
-      "ship_from": null,
-      "sample": null,
-      "category_name": {
-        "en": "Mattress & Mite Vacuums",
-        "zh": "床褥除螨吸尘器"
-      },
-      "_source": {
-        "platform": "alibaba.com",
-        "productId": "1601848192870"
-      },
-      "_cat": "uv-mite-remover"
+     "icon": "check",
+     "text": {
+      "en": "Power (W): 200 W",
+      "zh": "功率(W): 200 W",
+      "es": "Potencia (W): 200 W",
+      "ar": "القدرة (W): 200 W",
+      "fr": "Puissance (W): 200 W",
+      "id": "Daya (W): 200 W",
+      "ru": "Мощность (Вт): 200 W",
+      "th": "กำลังไฟ (W): 200 W",
+      "vi": "Công suất (W): 200 W"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Maximum Runtime: 30-60 min",
+      "zh": "最长续航: 30-60 min",
+      "es": "Autonomía máxima: 30-60 min",
+      "ar": "أقصى مدة تشغيل: 30-60 min",
+      "fr": "Autonomie maximale: 30-60 min",
+      "id": "Waktu Pakai Maksimum: 30-60 min",
+      "ru": "Макс. время работы: 30-60 min",
+      "th": "ระยะเวลาทำงานสูงสุด: 30-60 min",
+      "vi": "Thời gian chạy tối đa: 30-60 min"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Dust capacity: 0.5L",
+      "zh": "尘杯容量: 0.5L",
+      "es": "Capacidad de polvo: 0.5L",
+      "ar": "سعة الغبار: 0.5L",
+      "fr": "Capacité du bac à poussière: 0.5L",
+      "id": "Kapasitas debu: 0.5L",
+      "ru": "Объём пылесборника: 0.5L",
+      "th": "ความจุฝุ่น: 0.5L",
+      "vi": "Dung tích bụi: 0.5L"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Motor Type: Brushless Motor",
+      "zh": "电机类型: Brushless Motor",
+      "es": "Tipo de motor: Motor sin escobillas",
+      "ar": "نوع المحرك: محرك بدون فرشاة",
+      "fr": "Type de moteur: Moteur sans balais",
+      "id": "Jenis Motor: Motor Tanpa Sikat",
+      "ru": "Тип двигателя: Бесщёточный двигатель",
+      "th": "ประเภทมอเตอร์: มอเตอร์แบบไม่มีแปรงถ่าน",
+      "vi": "Loại động cơ: Động cơ không chổi than"
+     }
     }
-  ],
-  "reviews": [
+   ],
+   "specs": [
     {
-      "name": "Emily Watson",
-      "location": "Melbourne, Australia",
-      "rating": 5,
-      "date": "2025-12-10",
-      "title": "UV-C light actually kills dust mites — lab test proved it",
-      "body": "We had our mattress and sofa tested before and after using this mite remover. The UV-C exposure at the certified 253.7nm wavelength reduced mite count by 97%. The photos show our mattress before and after treatment. Highly recommended for allergy sufferers.",
-      "photoUrls": [
-        "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/01.webp",
-        "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/02.webp"
-      ]
+     "label": {
+      "en": "Power Source",
+      "zh": "Power Source",
+      "es": "Fuente de alimentación",
+      "ar": "مصدر الطاقة",
+      "fr": "Source d'alimentation",
+      "id": "Sumber Daya",
+      "ru": "Источник питания",
+      "th": "แหล่งจ่ายไฟ",
+      "vi": "Nguồn điện"
+     },
+     "value": {
+      "en": "Battery",
+      "es": "Batería",
+      "ar": "البطارية",
+      "fr": "Batterie",
+      "id": "Baterai",
+      "ru": "Аккумулятор",
+      "th": "แบตเตอรี่",
+      "vi": "Pin"
+     }
     },
     {
-      "name": "David Kim",
-      "location": "Houston, TX, USA",
-      "rating": 4,
-      "date": "2025-10-02",
-      "title": "Great for mattresses and curtains — very effective against allergens",
-      "body": "I have allergic rhinitis and have been looking for a non-chemical solution. This UV-C mite remover has significantly reduced my symptoms. The vibrating pad loosens dust and the suction pulls it away. One caveat: hold it in each spot for at least 30 seconds for maximum effect.",
-      "photoUrls": [
-        "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/01.webp",
-        "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/02.webp"
-      ]
+     "label": {
+      "en": "Function",
+      "zh": "功能",
+      "es": "Función",
+      "ar": "الوظيفة",
+      "fr": "Fonction",
+      "id": "Fungsi",
+      "ru": "Функция",
+      "th": "ฟังก์ชัน",
+      "vi": "Chức năng"
+     },
+     "value": {
+      "en": "Dry",
+      "es": "Seco",
+      "ar": "جاف",
+      "fr": "Sec",
+      "id": "Kering",
+      "ru": "Сухая уборка",
+      "th": "แห้ง",
+      "vi": "Khô"
+     }
     },
     {
-      "name": "Patricia Souza",
-      "location": "Lisbon, Portugal",
-      "rating": 5,
-      "date": "2025-08-15",
-      "title": "The HEPA filter inside captures everything — no more morning sneezing",
-      "body": "Our bedroom smelled fresh after just 3 treatments. The HEPA filter is easy to remove and wash. The UV-C lamp replacement indicator is a useful feature. Ordered 200 units for our local store and they sold out in 6 weeks.",
-      "photoUrls": [
-        "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/01.webp",
-        "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/02.webp"
-      ]
+     "label": {
+      "en": "Function",
+      "zh": "功能",
+      "es": "Función",
+      "ar": "الوظيفة",
+      "fr": "Fonction",
+      "id": "Fungsi",
+      "ru": "Функция",
+      "th": "ฟังก์ชัน",
+      "vi": "Chức năng"
+     },
+     "value": {
+      "en": "With LED Lights",
+      "es": "Con luces LED",
+      "ar": "مع أضواء LED",
+      "fr": "Avec éclairage LED",
+      "id": "Dengan Lampu LED",
+      "ru": "Со светодиодной подсветкой",
+      "th": "มีไฟ LED",
+      "vi": "Có đèn LED"
+     }
+    },
+    {
+     "label": {
+      "en": "Function",
+      "zh": "功能",
+      "es": "Función",
+      "ar": "الوظيفة",
+      "fr": "Fonction",
+      "id": "Fungsi",
+      "ru": "Функция",
+      "th": "ฟังก์ชัน",
+      "vi": "Chức năng"
+     },
+     "value": {
+      "en": "Laser Dust Illumination",
+      "es": "Iluminación láser del polvo",
+      "ar": "إضاءة ليزر للغبار",
+      "fr": "Éclairage laser de la poussière",
+      "id": "Iluminasi Laser Debu",
+      "ru": "Лазерная подсветка пыли",
+      "th": "ไฟส่องฝุ่นด้วยเลเซอร์",
+      "vi": "Đèn laser hiển thị bụi"
+     }
+    },
+    {
+     "label": {
+      "en": "Function",
+      "zh": "功能",
+      "es": "Función",
+      "ar": "الوظيفة",
+      "fr": "Fonction",
+      "id": "Fungsi",
+      "ru": "Функция",
+      "th": "ฟังก์ชัน",
+      "vi": "Chức năng"
+     },
+     "value": {
+      "en": "Wet And Dry",
+      "es": "Seco y húmedo",
+      "ar": "جاف ورطب",
+      "fr": "Sec et humide",
+      "id": "Kering dan Basah",
+      "ru": "Сухая и влажная уборка",
+      "th": "เปียกและแห้ง",
+      "vi": "Khô và ướt"
+     }
+    },
+    {
+     "label": {
+      "en": "Function",
+      "zh": "功能",
+      "es": "Función",
+      "ar": "الوظيفة",
+      "fr": "Fonction",
+      "id": "Fungsi",
+      "ru": "Функция",
+      "th": "ฟังก์ชัน",
+      "vi": "Chức năng"
+     },
+     "value": {
+      "en": "Wet",
+      "es": "Húmedo",
+      "ar": "رطب",
+      "fr": "Humide",
+      "id": "Basah",
+      "ru": "Влажная уборка",
+      "th": "เปียก",
+      "vi": "Ướt"
+     }
+    },
+    {
+     "label": {
+      "en": "maximum runtime",
+      "zh": "maximum runtime",
+      "es": "autonomía máxima",
+      "ar": "أقصى مدة تشغيل",
+      "fr": "autonomie maximale",
+      "id": "waktu pakai maksimum",
+      "ru": "макс. время работы",
+      "th": "ระยะเวลาทำงานสูงสุด",
+      "vi": "thời gian chạy tối đa"
+     },
+     "value": {
+      "en": "30-60 min",
+      "es": "30-60 min",
+      "ar": "30-60 min",
+      "fr": "30-60 min",
+      "id": "30-60 min",
+      "ru": "30-60 min",
+      "th": "30-60 min",
+      "vi": "30-60 min"
+     }
+    },
+    {
+     "label": {
+      "en": "after-sales service provided",
+      "zh": "after-sales service provided",
+      "es": "servicio posventa",
+      "ar": "خدمة ما بعد البيع",
+      "fr": "service après-vente",
+      "id": "layanan purnajual",
+      "ru": "послепродажное обслуживание",
+      "th": "บริการหลังการขาย",
+      "vi": "dịch vụ sau bán hàng"
+     },
+     "value": {
+      "en": "Return and Replacement",
+      "es": "Devolución y sustitución",
+      "ar": "الإرجاع والاستبدال",
+      "fr": "Retour et remplacement",
+      "id": "Pengembalian dan Penggantian",
+      "ru": "Возврат и замена",
+      "th": "คืนสินค้าและเปลี่ยนสินค้า",
+      "vi": "Đổi trả và thay thế"
+     }
+    },
+    {
+     "label": {
+      "en": "app-controlled",
+      "zh": "app-controlled",
+      "es": "control por app",
+      "ar": "يُتحكم به عبر التطبيق",
+      "fr": "contrôlé par application",
+      "id": "dikendalikan aplikasi",
+      "ru": "управление через приложение",
+      "th": "ควบคุมผ่านแอป",
+      "vi": "điều khiển qua app"
+     },
+     "value": {
+      "en": "No",
+      "es": "No",
+      "ar": "لا",
+      "fr": "Non",
+      "id": "Tidak",
+      "ru": "Нет",
+      "th": "ไม่",
+      "vi": "Không"
+     }
+    },
+    {
+     "label": {
+      "en": "application",
+      "zh": "application",
+      "es": "aplicación",
+      "ar": "التطبيق",
+      "fr": "utilisation",
+      "id": "aplikasi",
+      "ru": "применение",
+      "th": "การใช้งาน",
+      "vi": "ứng dụng"
+     },
+     "value": {
+      "en": "Household",
+      "es": "Hogar",
+      "ar": "منزلي",
+      "fr": "Ménager",
+      "id": "Rumah tangga",
+      "ru": "Бытовой",
+      "th": "ใช้ในบ้าน",
+      "vi": "Gia dụng"
+     }
+    },
+    {
+     "label": {
+      "en": "application",
+      "zh": "application",
+      "es": "aplicación",
+      "ar": "التطبيق",
+      "fr": "utilisation",
+      "id": "aplikasi",
+      "ru": "применение",
+      "th": "การใช้งาน",
+      "vi": "ứng dụng"
+     },
+     "value": {
+      "en": "Car",
+      "es": "Coche",
+      "ar": "سيارة",
+      "fr": "Voiture",
+      "id": "Mobil",
+      "ru": "Автомобиль",
+      "th": "รถยนต์",
+      "vi": "Ô tô"
+     }
+    },
+    {
+     "label": {
+      "en": "application",
+      "zh": "application",
+      "es": "aplicación",
+      "ar": "التطبيق",
+      "fr": "utilisation",
+      "id": "aplikasi",
+      "ru": "применение",
+      "th": "การใช้งาน",
+      "vi": "ứng dụng"
+     },
+     "value": {
+      "en": "Hotel",
+      "es": "Hotel",
+      "ar": "فندق",
+      "fr": "Hôtel",
+      "id": "Hotel",
+      "ru": "Отель",
+      "th": "โรงแรม",
+      "vi": "Khách sạn"
+     }
+    },
+    {
+     "label": {
+      "en": "bag or bagless",
+      "zh": "bag or bagless",
+      "es": "con bolsa o sin bolsa",
+      "ar": "بكيس أو بدون كيس",
+      "fr": "avec sac ou sans sac",
+      "id": "dengan kantong atau tanpa kantong",
+      "ru": "с мешком или без мешка",
+      "th": "มีถุงหรือไม่มีถุง",
+      "vi": "có túi hoặc không túi"
+     },
+     "value": {
+      "en": "Bagless",
+      "es": "Sin bolsa",
+      "ar": "بدون كيس",
+      "fr": "Sans sac",
+      "id": "Tanpa Kantong",
+      "ru": "Без мешка",
+      "th": "ไม่มีถุง",
+      "vi": "Không túi"
+     }
+    },
+    {
+     "label": {
+      "en": "Feature",
+      "zh": "Feature",
+      "es": "Característica",
+      "ar": "الميزة",
+      "fr": "Caractéristique",
+      "id": "Fitur",
+      "ru": "Характеристика",
+      "th": "คุณสมบัติ",
+      "vi": "Tính năng"
+     },
+     "value": {
+      "en": "Easy Cleaning",
+      "es": "Limpieza fácil",
+      "ar": "تنظيف سهل",
+      "fr": "Nettoyage facile",
+      "id": "Pembersihan Mudah",
+      "ru": "Простая очистка",
+      "th": "ทำความสะอาดง่าย",
+      "vi": "Dễ vệ sinh"
+     }
+    },
+    {
+     "label": {
+      "en": "Feature",
+      "zh": "Feature",
+      "es": "Característica",
+      "ar": "الميزة",
+      "fr": "Caractéristique",
+      "id": "Fitur",
+      "ru": "Характеристика",
+      "th": "คุณสมบัติ",
+      "vi": "Tính năng"
+     },
+     "value": {
+      "en": "Portable",
+      "es": "Portátil",
+      "ar": "محمول",
+      "fr": "Portatif",
+      "id": "Portabel",
+      "ru": "Портативный",
+      "th": "พกพา",
+      "vi": "Di động"
+     }
+    },
+    {
+     "label": {
+      "en": "filter",
+      "zh": "filter",
+      "es": "filtro",
+      "ar": "الفلتر",
+      "fr": "filtre",
+      "id": "filter",
+      "ru": "фильтр",
+      "th": "ตัวกรอง",
+      "vi": "bộ lọc"
+     },
+     "value": {
+      "en": "HEPA Filter",
+      "es": "Filtro HEPA",
+      "ar": "فلتر HEPA",
+      "fr": "Filtre HEPA",
+      "id": "Filter HEPA",
+      "ru": "Фильтр HEPA",
+      "th": "ตัวกรอง HEPA",
+      "vi": "Bộ lọc HEPA"
+     }
+    },
+    {
+     "label": {
+      "en": "installation",
+      "zh": "installation",
+      "es": "instalación",
+      "ar": "التركيب",
+      "fr": "installation",
+      "id": "instalasi",
+      "ru": "установка",
+      "th": "การติดตั้ง",
+      "vi": "lắp đặt"
+     },
+     "value": {
+      "en": "Hand Held",
+      "es": "De mano",
+      "ar": "محمولة باليد",
+      "fr": "À main",
+      "id": "Genggam",
+      "ru": "Ручной",
+      "th": "แบบพกพา",
+      "vi": "Cầm tay"
+     }
+    },
+    {
+     "label": {
+      "en": "motor type",
+      "zh": "motor type",
+      "es": "tipo de motor",
+      "ar": "نوع المحرك",
+      "fr": "type de moteur",
+      "id": "jenis motor",
+      "ru": "тип двигателя",
+      "th": "ประเภทมอเตอร์",
+      "vi": "loại động cơ"
+     },
+     "value": {
+      "en": "Brushless Motor",
+      "es": "Motor sin escobillas",
+      "ar": "محرك بدون فرشاة",
+      "fr": "Moteur sans balais",
+      "id": "Motor Tanpa Sikat",
+      "ru": "Бесщёточный двигатель",
+      "th": "มอเตอร์แบบไม่มีแปรงถ่าน",
+      "vi": "Động cơ không chổi than"
+     }
+    },
+    {
+     "label": {
+      "en": "nozzle number",
+      "zh": "nozzle number",
+      "es": "número de boquillas",
+      "ar": "عدد الفوهات",
+      "fr": "nombre de buses",
+      "id": "jumlah nozzle",
+      "ru": "количество насадок",
+      "th": "จำนวนหัวฉีด",
+      "vi": "số đầu vòi"
+     },
+     "value": {
+      "en": "≤ 3",
+      "es": "≤ 3",
+      "ar": "≤ 3",
+      "fr": "≤ 3",
+      "id": "≤ 3",
+      "ru": "≤ 3",
+      "th": "≤ 3",
+      "vi": "≤ 3"
+     }
+    },
+    {
+     "label": {
+      "en": "packaging types",
+      "zh": "packaging types",
+      "es": "tipos de embalaje",
+      "ar": "أنواع التغليف",
+      "fr": "types d'emballage",
+      "id": "jenis kemasan",
+      "ru": "типы упаковки",
+      "th": "ประเภทบรรจุภัณฑ์",
+      "vi": "loại bao bì"
+     },
+     "value": {
+      "en": "Color Box",
+      "es": "Caja a color",
+      "ar": "علبة ملونة",
+      "fr": "Boîte couleur",
+      "id": "Kotak Warna",
+      "ru": "Цветная коробка",
+      "th": "กล่องสี",
+      "vi": "Hộp màu"
+     }
+    },
+    {
+     "label": {
+      "en": "power (w)",
+      "zh": "power (w)",
+      "es": "potencia (W)",
+      "ar": "القدرة (W)",
+      "fr": "puissance (W)",
+      "id": "daya (W)",
+      "ru": "мощность (Вт)",
+      "th": "กำลังไฟ (W)",
+      "vi": "công suất (w)"
+     },
+     "value": {
+      "en": "200 W",
+      "es": "200 W",
+      "ar": "200 W",
+      "fr": "200 W",
+      "id": "200 W",
+      "ru": "200 W",
+      "th": "200 W",
+      "vi": "200 W"
+     }
+    },
+    {
+     "label": {
+      "en": "power source",
+      "zh": "power source",
+      "es": "fuente de alimentación",
+      "ar": "مصدر الطاقة",
+      "fr": "source d'alimentation",
+      "id": "sumber daya",
+      "ru": "источник питания",
+      "th": "แหล่งจ่ายไฟ",
+      "vi": "nguồn điện"
+     },
+     "value": {
+      "en": "Battery",
+      "es": "Batería",
+      "ar": "البطارية",
+      "fr": "Batterie",
+      "id": "Baterai",
+      "ru": "Аккумулятор",
+      "th": "แบตเตอรี่",
+      "vi": "Pin"
+     }
+    },
+    {
+     "label": {
+      "en": "private mold",
+      "zh": "private mold",
+      "es": "molde propio",
+      "ar": "قالب خاص",
+      "fr": "moule exclusif",
+      "id": "cetakan sendiri",
+      "ru": "собственная пресс-форма",
+      "th": "แม่พิมพ์เฉพาะ",
+      "vi": "khuôn riêng"
+     },
+     "value": {
+      "en": "No",
+      "es": "No",
+      "ar": "لا",
+      "fr": "Non",
+      "id": "Tidak",
+      "ru": "Нет",
+      "th": "ไม่",
+      "vi": "Không"
+     }
+    },
+    {
+     "label": {
+      "en": "product net weight",
+      "zh": "product net weight",
+      "es": "peso neto",
+      "ar": "الوزن الصافي",
+      "fr": "poids net",
+      "id": "berat bersih",
+      "ru": "вес нетто",
+      "th": "น้ำหนักสุทธิ",
+      "vi": "trọng lượng tịnh"
+     },
+     "value": {
+      "en": "2–3 kg",
+      "es": "2–3 kg",
+      "ar": "2–3 kg",
+      "fr": "2–3 kg",
+      "id": "2–3 kg",
+      "ru": "2–3 kg",
+      "th": "2–3 kg",
+      "vi": "2–3 kg"
+     }
+    },
+    {
+     "label": {
+      "en": "place of origin",
+      "zh": "place of origin",
+      "es": "país de origen",
+      "ar": "بلد المنشأ",
+      "fr": "lieu d'origine",
+      "id": "negara asal",
+      "ru": "страна происхождения",
+      "th": "แหล่งที่มา",
+      "vi": "xuất xứ"
+     },
+     "value": {
+      "en": "CN",
+      "es": "CN",
+      "ar": "CN",
+      "fr": "CN",
+      "id": "CN",
+      "ru": "CN",
+      "th": "CN",
+      "vi": "CN"
+     }
+    },
+    {
+     "label": {
+      "en": "suction power (airwatts)",
+      "zh": "suction power (airwatts)",
+      "es": "potencia de succión (vatios de aire)",
+      "ar": "قوة الشفط (AirWatts)",
+      "fr": "puissance d'aspiration (AirWatts)",
+      "id": "daya hisap (AirWatts)",
+      "ru": "мощность всасывания (AirWatts)",
+      "th": "กำลังดูด (AirWatts)",
+      "vi": "công suất hút (airwatts)"
+     },
+     "value": {
+      "en": "110 AW",
+      "es": "110 AW",
+      "ar": "110 AW",
+      "fr": "110 AW",
+      "id": "110 AW",
+      "ru": "110 AW",
+      "th": "110 AW",
+      "vi": "110 AW"
+     }
+    },
+    {
+     "label": {
+      "en": "Charging Time",
+      "zh": "充电时间",
+      "es": "Tiempo de carga",
+      "ar": "زمن الشحن",
+      "fr": "Temps de charge",
+      "id": "Waktu Pengisian",
+      "ru": "Время зарядки",
+      "th": "เวลาในการชาร์จ",
+      "vi": "Thời gian sạc"
+     },
+     "value": {
+      "en": "4-5H",
+      "es": "4-5H",
+      "ar": "4-5H",
+      "fr": "4-5H",
+      "id": "4-5H",
+      "ru": "4-5H",
+      "th": "4-5H",
+      "vi": "4-5H"
+     }
+    },
+    {
+     "label": {
+      "en": "Dust capacity",
+      "zh": "Dust capacity",
+      "es": "Capacidad de polvo",
+      "ar": "سعة الغبار",
+      "fr": "Capacité du bac à poussière",
+      "id": "Kapasitas debu",
+      "ru": "Объём пылесборника",
+      "th": "ความจุฝุ่น",
+      "vi": "Dung tích bụi"
+     },
+     "value": {
+      "en": "0.5L",
+      "es": "0.5L",
+      "ar": "0.5L",
+      "fr": "0.5L",
+      "id": "0.5L",
+      "ru": "0.5L",
+      "th": "0.5L",
+      "vi": "0.5L"
+     }
+    },
+    {
+     "label": {
+      "en": "warranty",
+      "zh": "warranty",
+      "es": "garantía",
+      "ar": "الضمان",
+      "fr": "garantie",
+      "id": "garansi",
+      "ru": "гарантия",
+      "th": "การรับประกัน",
+      "vi": "bảo hành"
+     },
+     "value": {
+      "en": "1 YEAR",
+      "es": "1 año",
+      "ar": "سنة واحدة",
+      "fr": "1 AN",
+      "id": "1 Tahun",
+      "ru": "1 год",
+      "th": "1 ปี",
+      "vi": "1 năm"
+     }
+    },
+    {
+     "label": {
+      "en": "model number",
+      "zh": "model number",
+      "es": "número de modelo",
+      "ar": "رقم الموديل",
+      "fr": "numéro de modèle",
+      "id": "nomor model",
+      "ru": "номер модели",
+      "th": "หมายเลขรุ่น",
+      "vi": "số model"
+     },
+     "value": {
+      "en": "PC708",
+      "es": "PC708",
+      "ar": "PC708",
+      "fr": "PC708",
+      "id": "PC708",
+      "ru": "PC708",
+      "th": "PC708",
+      "vi": "PC708"
+     }
     }
-  ],
-  "_schema_reviews": [
+   ],
+   "packaging": {
+    "unit": "Color Box"
+   },
+   "customization": {},
+   "applications": {
+    "en": "",
+    "zh": ""
+   },
+   "price_indicator": null,
+   "quick_specs": [
     {
-      "@type": "Review",
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "5",
-        "bestRating": "5",
-        "worstRating": "1"
-      },
-      "author": {
-        "@type": "Person",
-        "name": "Emily Watson",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Melbourne, Australia"
-        }
-      },
-      "datePublished": "2025-12-10",
-      "reviewBody": "We had our mattress and sofa tested before and after using this mite remover. The UV-C exposure at the certified 253.7nm wavelength reduced mite count by 97%. The photos show our mattress before and after treatment. Highly recommended for allergy sufferers.",
-      "name": "UV-C light actually kills dust mites — lab test proved it",
-      "image": [
-        "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/01.webp",
-        "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/02.webp"
-      ]
+     "label": {
+      "en": "Power (W)",
+      "zh": "功率(W)",
+      "es": "Potencia (W)",
+      "ar": "القدرة (W)",
+      "fr": "Puissance (W)",
+      "id": "Daya (W)",
+      "ru": "Мощность (Вт)",
+      "th": "กำลังไฟ (W)",
+      "vi": "Công suất (W)"
+     },
+     "value": {
+      "en": "200 W",
+      "es": "200 W",
+      "ar": "200 W",
+      "fr": "200 W",
+      "id": "200 W",
+      "ru": "200 W",
+      "th": "200 W",
+      "vi": "200 W"
+     }
     },
     {
-      "@type": "Review",
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "4",
-        "bestRating": "5",
-        "worstRating": "1"
-      },
-      "author": {
-        "@type": "Person",
-        "name": "David Kim",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Houston, TX, USA"
-        }
-      },
-      "datePublished": "2025-10-02",
-      "reviewBody": "I have allergic rhinitis and have been looking for a non-chemical solution. This UV-C mite remover has significantly reduced my symptoms. The vibrating pad loosens dust and the suction pulls it away. One caveat: hold it in each spot for at least 30 seconds for maximum effect.",
-      "name": "Great for mattresses and curtains — very effective against allergens",
-      "image": [
-        "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/01.webp",
-        "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/02.webp"
-      ]
+     "label": {
+      "en": "Maximum Runtime",
+      "zh": "最长续航",
+      "es": "Autonomía máxima",
+      "ar": "أقصى مدة تشغيل",
+      "fr": "Autonomie maximale",
+      "id": "Waktu Pakai Maksimum",
+      "ru": "Макс. время работы",
+      "th": "ระยะเวลาทำงานสูงสุด",
+      "vi": "Thời gian chạy tối đa"
+     },
+     "value": {
+      "en": "30-60 min",
+      "es": "30-60 min",
+      "ar": "30-60 min",
+      "fr": "30-60 min",
+      "id": "30-60 min",
+      "ru": "30-60 min",
+      "th": "30-60 min",
+      "vi": "30-60 min"
+     }
     },
     {
-      "@type": "Review",
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "5",
-        "bestRating": "5",
-        "worstRating": "1"
-      },
-      "author": {
-        "@type": "Person",
-        "name": "Patricia Souza",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Lisbon, Portugal"
-        }
-      },
-      "datePublished": "2025-08-15",
-      "reviewBody": "Our bedroom smelled fresh after just 3 treatments. The HEPA filter is easy to remove and wash. The UV-C lamp replacement indicator is a useful feature. Ordered 200 units for our local store and they sold out in 6 weeks.",
-      "name": "The HEPA filter inside captures everything — no more morning sneezing",
-      "image": [
-        "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/01.webp",
-        "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/02.webp"
-      ]
+     "label": {
+      "en": "Dust capacity",
+      "zh": "尘杯容量",
+      "es": "Capacidad de polvo",
+      "ar": "سعة الغبار",
+      "fr": "Capacité du bac à poussière",
+      "id": "Kapasitas debu",
+      "ru": "Объём пылесборника",
+      "th": "ความจุฝุ่น",
+      "vi": "Dung tích bụi"
+     },
+     "value": {
+      "en": "0.5L",
+      "es": "0.5L",
+      "ar": "0.5L",
+      "fr": "0.5L",
+      "id": "0.5L",
+      "ru": "0.5L",
+      "th": "0.5L",
+      "vi": "0.5L"
+     }
+    },
+    {
+     "label": {
+      "en": "Motor Type",
+      "zh": "电机类型",
+      "es": "Tipo de motor",
+      "ar": "نوع المحرك",
+      "fr": "Type de moteur",
+      "id": "Jenis Motor",
+      "ru": "Тип двигателя",
+      "th": "ประเภทมอเตอร์",
+      "vi": "Loại động cơ"
+     },
+     "value": {
+      "en": "Brushless Motor",
+      "es": "Motor sin escobillas",
+      "ar": "محرك بدون فرشاة",
+      "fr": "Moteur sans balais",
+      "id": "Motor Tanpa Sikat",
+      "ru": "Бесщёточный двигатель",
+      "th": "มอเตอร์แบบไม่มีแปรงถ่าน",
+      "vi": "Động cơ không chổi than"
+     }
     }
-  ]
+   ],
+   "price_ladder": [],
+   "sku": "1601848192870",
+   "description": {
+    "en": "200 W · 30-60 min · 0.5L. OEM/ODM available; specifications from the supplier listing.",
+    "zh": "200 W · 30-60 min · 0.5L。支持 OEM/ODM 定制，规格取自供应商商品资料。",
+    "es": "200 W · 30-60 min · 0.5L. Disponible en OEM/ODM; especificaciones tomadas del listado del proveedor.",
+    "ar": "200 W · 30-60 min · 0.5L. متاح بنظام OEM/ODM؛ المواصفات مأخوذة من قائمة المورّد.",
+    "fr": "200 W · 30-60 min · 0.5L. Disponible en OEM/ODM ; spécifications issues de la fiche du fournisseur.",
+    "id": "200 W · 30-60 min · 0.5L. Tersedia dalam OEM/ODM; spesifikasi diambil dari daftar pemasok.",
+    "ru": "200 W · 30-60 min · 0.5L. Доступно в OEM/ODM; характеристики взяты из карточки товара поставщика.",
+    "th": "200 W · 30-60 min · 0.5L. มีให้บริการในรูปแบบ OEM/ODM; ข้อมูลจำเพาะนำมาจากประกาศของผู้ขาย",
+    "vi": "200 W · 30-60 min · 0.5L. Có sẵn dạng OEM/ODM; thông số kỹ thuật lấy từ niêm yết của nhà cung cấp."
+   },
+   "supplier_rating": null,
+   "response_time": null,
+   "transactions": null,
+   "years": null,
+   "ship_from": null,
+   "sample": null,
+   "category_name": {
+    "en": "Mattress & Mite Vacuums",
+    "zh": "床褥除螨吸尘器",
+    "es": "Eliminador de Acaros UV",
+    "ar": "مزيل عث بالأشعة فوق البنفسجية",
+    "fr": "Éliminateur d'acariens UV",
+    "id": "Pembasmi Tungau UV",
+    "ru": "УФ-удалитель пылевых клещей",
+    "th": "เครื่องกำจัดไรด้วยรังสียูวี",
+    "vi": "Máy diệt ve bụi UV"
+   },
+   "_source": {
+    "platform": "alibaba.com",
+    "productId": "1601848192870"
+   },
+   "_cat": "uv-mite-remover"
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Emily Watson",
+   "location": "Melbourne, Australia",
+   "rating": 5,
+   "date": "2025-12-10",
+   "title": "UV-C light actually kills dust mites — lab test proved it",
+   "body": "We had our mattress and sofa tested before and after using this mite remover. The UV-C exposure at the certified 253.7nm wavelength reduced mite count by 97%. The photos show our mattress before and after treatment. Highly recommended for allergy sufferers.",
+   "photoUrls": [
+    "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/01.webp",
+    "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/02.webp"
+   ]
+  },
+  {
+   "name": "David Kim",
+   "location": "Houston, TX, USA",
+   "rating": 4,
+   "date": "2025-10-02",
+   "title": "Great for mattresses and curtains — very effective against allergens",
+   "body": "I have allergic rhinitis and have been looking for a non-chemical solution. This UV-C mite remover has significantly reduced my symptoms. The vibrating pad loosens dust and the suction pulls it away. One caveat: hold it in each spot for at least 30 seconds for maximum effect.",
+   "photoUrls": [
+    "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/01.webp",
+    "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/02.webp"
+   ]
+  },
+  {
+   "name": "Patricia Souza",
+   "location": "Lisbon, Portugal",
+   "rating": 5,
+   "date": "2025-08-15",
+   "title": "The HEPA filter inside captures everything — no more morning sneezing",
+   "body": "Our bedroom smelled fresh after just 3 treatments. The HEPA filter is easy to remove and wash. The UV-C lamp replacement indicator is a useful feature. Ordered 200 units for our local store and they sold out in 6 weeks.",
+   "photoUrls": [
+    "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/01.webp",
+    "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/02.webp"
+   ]
+  }
+ ],
+ "_schema_reviews": [
+  {
+   "@type": "Review",
+   "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "5",
+    "bestRating": "5",
+    "worstRating": "1"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Emily Watson",
+    "address": {
+     "@type": "PostalAddress",
+     "addressLocality": "Melbourne, Australia"
+    }
+   },
+   "datePublished": "2025-12-10",
+   "reviewBody": "We had our mattress and sofa tested before and after using this mite remover. The UV-C exposure at the certified 253.7nm wavelength reduced mite count by 97%. The photos show our mattress before and after treatment. Highly recommended for allergy sufferers.",
+   "name": "UV-C light actually kills dust mites — lab test proved it",
+   "image": [
+    "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/01.webp",
+    "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/02.webp"
+   ]
+  },
+  {
+   "@type": "Review",
+   "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "4",
+    "bestRating": "5",
+    "worstRating": "1"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "David Kim",
+    "address": {
+     "@type": "PostalAddress",
+     "addressLocality": "Houston, TX, USA"
+    }
+   },
+   "datePublished": "2025-10-02",
+   "reviewBody": "I have allergic rhinitis and have been looking for a non-chemical solution. This UV-C mite remover has significantly reduced my symptoms. The vibrating pad loosens dust and the suction pulls it away. One caveat: hold it in each spot for at least 30 seconds for maximum effect.",
+   "name": "Great for mattresses and curtains — very effective against allergens",
+   "image": [
+    "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/01.webp",
+    "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/02.webp"
+   ]
+  },
+  {
+   "@type": "Review",
+   "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "5",
+    "bestRating": "5",
+    "worstRating": "1"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Patricia Souza",
+    "address": {
+     "@type": "PostalAddress",
+     "addressLocality": "Lisbon, Portugal"
+    }
+   },
+   "datePublished": "2025-08-15",
+   "reviewBody": "Our bedroom smelled fresh after just 3 treatments. The HEPA filter is easy to remove and wash. The UV-C lamp replacement indicator is a useful feature. Ordered 200 units for our local store and they sold out in 6 weeks.",
+   "name": "The HEPA filter inside captures everything — no more morning sneezing",
+   "image": [
+    "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/01.webp",
+    "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/02.webp"
+   ]
+  }
+ ]
 }

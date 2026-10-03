@@ -1,574 +1,1344 @@
 {
-  "category": "upright-steam-mop",
-  "products": [
+ "category": "upright-steam-mop",
+ "products": [
+  {
+   "id": "qst063",
+   "name": {
+    "en": "QST063 Electric High TemperatureSteam Mop Hotel Floor Steam Mop 800W Steam Cleaner",
+    "zh": "QST063 高温蒸汽拖把（800W / 酒店地板）",
+    "es": "Fregona de vapor eléctrica de alta temperatura QST063 para suelos de hotel, limpiador a vapor 800 W",
+    "ar": "ممسحة بخار كهربائية عالية الحرارة QST063 لأرضيات الفنادق، منظف بالبخار 800W",
+    "fr": "Vadrouille vapeur électrique haute température QST063 pour sols d'hôtel, nettoyeur vapeur 800 W",
+    "id": "Pel Uap Suhu Tinggi Elektrik QST063 untuk Lantai Hotel, Pel Uap 800W, Pembersih Uap",
+    "ru": "QST063 электрическая высокотемпературная паровая швабра для полов в отелях, пароочиститель 800 W",
+    "th": "ไม้ถูพื้นไอน้ำไฟฟ้าอุณหภูมิสูง QST063 สำหรับพื้นโรงแรม เครื่องทำความสะอาดไอน้ำ 800W",
+    "vi": "Cây lau hơi nước nhiệt độ cao bằng điện QST063 cho sàn khách sạn, máy hơi nước 800W"
+   },
+   "tagline": {
+    "en": "800 W · 400ml · 2min",
+    "zh": "800 W · 400ml · 2min",
+    "es": "800 W · 400ml · 2min",
+    "ar": "800 W · 400ml · 2min",
+    "fr": "800 W · 400ml · 2min",
+    "id": "800 W · 400ml · 2min",
+    "ru": "800 W · 400ml · 2min",
+    "th": "800 W · 400ml · 2min",
+    "vi": "800 W · 400ml · 2min"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/01.webp",
+    "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/02.webp",
+    "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/03.webp",
+    "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/04.webp",
+    "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/05.webp"
+   ],
+   "video_url": null,
+   "moq": {
+    "value": 1,
+    "unit": "pieces"
+   },
+   "certifications": [],
+   "highlights": [
     {
-      "id": "qst063",
-      "name": {
-        "en": "QST063 Electric High TemperatureSteam Mop Hotel Floor Steam Mop 800W Steam Cleaner",
-        "zh": "QST063 高温蒸汽拖把（800W / 酒店地板）"
-      },
-      "tagline": {
-        "en": "800 W · 400ml · 2min",
-        "zh": "800 W · 400ml · 2min"
-      },
-      "images": [
-        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/01.webp",
-        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/02.webp",
-        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/03.webp",
-        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/04.webp",
-        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/05.webp"
-      ],
-      "video_url": null,
-      "moq": {
-        "value": 1,
-        "unit": "pieces"
-      },
-      "certifications": [],
-      "highlights": [
-        {
-          "icon": "check",
-          "text": {
-            "en": "Power (W): 800 W",
-            "zh": "功率(W): 800 W"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Water Tank Capacity: 400ml",
-            "zh": "水箱容量: 400ml"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Heating Time: 2min",
-            "zh": "加热时间: 2min"
-          }
-        }
-      ],
-      "specs": [
-        {
-          "label": {
-            "en": "Power Source",
-            "zh": "Power Source"
-          },
-          "value": "Electric"
-        },
-        {
-          "label": {
-            "en": "type",
-            "zh": "type"
-          },
-          "value": "Steam Mop"
-        },
-        {
-          "label": {
-            "en": "app-controlled",
-            "zh": "app-controlled"
-          },
-          "value": "No"
-        },
-        {
-          "label": {
-            "en": "application",
-            "zh": "application"
-          },
-          "value": "Hotel"
-        },
-        {
-          "label": {
-            "en": "Feature",
-            "zh": "Feature"
-          },
-          "value": "High Efficiency"
-        },
-        {
-          "label": {
-            "en": "Material",
-            "zh": "材质"
-          },
-          "value": "Plastic"
-        },
-        {
-          "label": {
-            "en": "operating language",
-            "zh": "operating language"
-          },
-          "value": "English"
-        },
-        {
-          "label": {
-            "en": "packaging types",
-            "zh": "packaging types"
-          },
-          "value": "Color Box"
-        },
-        {
-          "label": {
-            "en": "power (w)",
-            "zh": "power (w)"
-          },
-          "value": "800 W"
-        },
-        {
-          "label": {
-            "en": "power source",
-            "zh": "power source"
-          },
-          "value": "Electric"
-        },
-        {
-          "label": {
-            "en": "private mold",
-            "zh": "private mold"
-          },
-          "value": "No"
-        },
-        {
-          "label": {
-            "en": "place of origin",
-            "zh": "place of origin"
-          },
-          "value": "CN;GUA"
-        },
-        {
-          "label": {
-            "en": "brand name",
-            "zh": "brand name"
-          },
-          "value": "OEM"
-        },
-        {
-          "label": {
-            "en": "Heating Time",
-            "zh": "Heating Time"
-          },
-          "value": "2min"
-        },
-        {
-          "label": {
-            "en": "Water Tank Capacity",
-            "zh": "水箱容量"
-          },
-          "value": "400ml"
-        },
-        {
-          "label": {
-            "en": "model number",
-            "zh": "model number"
-          },
-          "value": "QST063"
-        }
-      ],
-      "packaging": {
-        "unit": "Color Box"
-      },
-      "customization": {},
-      "applications": {
-        "en": "",
-        "zh": ""
-      },
-      "price_indicator": null,
-      "quick_specs": [
-        {
-          "label": {
-            "en": "Power (W)",
-            "zh": "功率(W)"
-          },
-          "value": "800 W"
-        },
-        {
-          "label": {
-            "en": "Water Tank Capacity",
-            "zh": "水箱容量"
-          },
-          "value": "400ml"
-        },
-        {
-          "label": {
-            "en": "Heating Time",
-            "zh": "加热时间"
-          },
-          "value": "2min"
-        }
-      ],
-      "price_ladder": [],
-      "sku": "1601842693924",
-      "description": {
-        "en": "800 W · 400ml · 2min. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "800 W · 400ml · 2min。支持 OEM/ODM 定制，规格取自供应商商品资料。"
-      },
-      "supplier_rating": null,
-      "response_time": null,
-      "transactions": null,
-      "years": null,
-      "ship_from": null,
-      "sample": null,
-      "category_name": {
-        "en": "Upright Steam Mops",
-        "zh": "立式蒸汽拖把"
-      },
-      "_source": {
-        "platform": "alibaba.com",
-        "productId": "1601842693924"
-      },
-      "_cat": "upright-steam-mop"
+     "icon": "check",
+     "text": {
+      "en": "Power (W): 800 W",
+      "zh": "功率(W): 800 W",
+      "es": "Potencia (W): 800 W",
+      "ar": "القدرة (W): 800 W",
+      "fr": "Puissance (W): 800 W",
+      "id": "Daya (W): 800 W",
+      "ru": "Мощность (Вт): 800 W",
+      "th": "กำลังไฟ (W): 800 W",
+      "vi": "Công suất (W): 800 W"
+     }
     },
     {
-      "id": "qjj071",
-      "name": {
-        "en": "1500W Handheld High Pressure Steam Mop 1.5-2.6Bar 20s Fast Heat 380ml Dual Tank 4M Cord 2.4KG Compact Design Household Use",
-        "zh": "QJJ071 高压蒸汽拖把（1500W / 1.5–2.6Bar / 380ml 双水箱）"
-      },
-      "tagline": {
-        "en": "1500W · 380ML · 20S",
-        "zh": "1500W · 380ML · 20S"
-      },
-      "images": [
-        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qjj071/01.webp",
-        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qjj071/02.webp",
-        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qjj071/03.webp",
-        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qjj071/04.webp",
-        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qjj071/05.webp",
-        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qjj071/06.webp"
-      ],
-      "video_url": null,
-      "moq": {
-        "value": 1,
-        "unit": "pieces"
-      },
-      "certifications": [],
-      "highlights": [
-        {
-          "icon": "check",
-          "text": {
-            "en": "Power (W): 1500W",
-            "zh": "功率(W): 1500W"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Water Tank Capacity: 380ML",
-            "zh": "水箱容量: 380ML"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Heating Time: 20S",
-            "zh": "加热时间: 20S"
-          }
-        }
-      ],
-      "specs": [
-        {
-          "label": {
-            "en": "type",
-            "zh": "type"
-          },
-          "value": "Handheld"
-        },
-        {
-          "label": {
-            "en": "after-sales service provided",
-            "zh": "after-sales service provided"
-          },
-          "value": "Overseas Call Centers"
-        },
-        {
-          "label": {
-            "en": "app-controlled",
-            "zh": "app-controlled"
-          },
-          "value": "No"
-        },
-        {
-          "label": {
-            "en": "application",
-            "zh": "application"
-          },
-          "value": "Hotel"
-        },
-        {
-          "label": {
-            "en": "application",
-            "zh": "application"
-          },
-          "value": "Household"
-        },
-        {
-          "label": {
-            "en": "Feature",
-            "zh": "Feature"
-          },
-          "value": "Dual Tank"
-        },
-        {
-          "label": {
-            "en": "Feature",
-            "zh": "Feature"
-          },
-          "value": "Compact Design"
-        },
-        {
-          "label": {
-            "en": "operating language",
-            "zh": "operating language"
-          },
-          "value": "English"
-        },
-        {
-          "label": {
-            "en": "packaging types",
-            "zh": "packaging types"
-          },
-          "value": "Corrugated Box"
-        },
-        {
-          "label": {
-            "en": "packaging types",
-            "zh": "packaging types"
-          },
-          "value": "Color Box"
-        },
-        {
-          "label": {
-            "en": "power source",
-            "zh": "power source"
-          },
-          "value": "Electric"
-        },
-        {
-          "label": {
-            "en": "private mold",
-            "zh": "private mold"
-          },
-          "value": "No"
-        },
-        {
-          "label": {
-            "en": "warranty",
-            "zh": "warranty"
-          },
-          "value": "1 Year"
-        },
-        {
-          "label": {
-            "en": "place of origin",
-            "zh": "place of origin"
-          },
-          "value": "CN"
-        },
-        {
-          "label": {
-            "en": "brand name",
-            "zh": "brand name"
-          },
-          "value": "OEM"
-        },
-        {
-          "label": {
-            "en": "Heating Time",
-            "zh": "Heating Time"
-          },
-          "value": "20S"
-        },
-        {
-          "label": {
-            "en": "Material",
-            "zh": "材质"
-          },
-          "value": "ABS"
-        },
-        {
-          "label": {
-            "en": "power (w)",
-            "zh": "power (w)"
-          },
-          "value": "1500W"
-        },
-        {
-          "label": {
-            "en": "Water Tank Capacity",
-            "zh": "水箱容量"
-          },
-          "value": "380ML"
-        },
-        {
-          "label": {
-            "en": "model number",
-            "zh": "model number"
-          },
-          "value": "QJJ071"
-        }
-      ],
-      "packaging": {
-        "unit": "Color Box"
-      },
-      "customization": {},
-      "applications": {
-        "en": "",
-        "zh": ""
-      },
-      "price_indicator": null,
-      "quick_specs": [
-        {
-          "label": {
-            "en": "Power (W)",
-            "zh": "功率(W)"
-          },
-          "value": "1500W"
-        },
-        {
-          "label": {
-            "en": "Water Tank Capacity",
-            "zh": "水箱容量"
-          },
-          "value": "380ML"
-        },
-        {
-          "label": {
-            "en": "Heating Time",
-            "zh": "加热时间"
-          },
-          "value": "20S"
-        }
-      ],
-      "price_ladder": [],
-      "sku": "1601857978782",
-      "description": {
-        "en": "1500W · 380ML · 20S. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "1500W · 380ML · 20S。支持 OEM/ODM 定制，规格取自供应商商品资料。"
-      },
-      "supplier_rating": null,
-      "response_time": null,
-      "transactions": null,
-      "years": null,
-      "ship_from": null,
-      "sample": null,
-      "category_name": {
-        "en": "Upright Steam Mops",
-        "zh": "立式蒸汽拖把"
-      },
-      "_source": {
-        "platform": "alibaba.com",
-        "productId": "1601857978782"
-      },
-      "_cat": "upright-steam-mop"
+     "icon": "check",
+     "text": {
+      "en": "Water Tank Capacity: 400ml",
+      "zh": "水箱容量: 400ml",
+      "es": "Capacidad del depósito de agua: 400ml",
+      "ar": "سعة خزان الماء: 400ml",
+      "fr": "Capacité du réservoir d'eau: 400ml",
+      "id": "Kapasitas Tangki Air: 400ml",
+      "ru": "Объём бака для воды: 400ml",
+      "th": "ความจุถังน้ำ: 400ml",
+      "vi": "Dung tích bình nước: 400ml"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Heating Time: 2min",
+      "zh": "加热时间: 2min",
+      "es": "Tiempo de calentamiento: 2min",
+      "ar": "زمن التسخين: 2min",
+      "fr": "Temps de chauffe: 2min",
+      "id": "Waktu Pemanasan: 2min",
+      "ru": "Время нагрева: 2min",
+      "th": "เวลาในการทำความร้อน: 2min",
+      "vi": "Thời gian gia nhiệt: 2min"
+     }
     }
-  ],
-  "reviews": [
+   ],
+   "specs": [
     {
-      "name": "Sandra Kim",
-      "location": "Seoul, South Korea",
-      "rating": 5,
-      "date": "2025-11-12",
-      "title": "Cleans and sanitizes all hard floors in one pass — no chemicals needed",
-      "body": "With two toddlers on the floor all day, chemical residues were a big concern. This steam mop uses only water and heats to 145°C, killing 99.9% of bacteria. The washable microfiber pad lasts through dozens of washes. See the steam action photos.",
-      "photoUrls": [
-        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/01.webp",
-        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/02.webp"
-      ]
+     "label": {
+      "en": "Power Source",
+      "zh": "Power Source",
+      "es": "Fuente de alimentación",
+      "ar": "مصدر الطاقة",
+      "fr": "Source d'alimentation",
+      "id": "Sumber Daya",
+      "ru": "Источник питания",
+      "th": "แหล่งจ่ายไฟ",
+      "vi": "Nguồn điện"
+     },
+     "value": {
+      "en": "Electric",
+      "es": "Eléctrico",
+      "ar": "كهربائي",
+      "fr": "Électrique",
+      "id": "Listrik",
+      "ru": "Электрический",
+      "th": "ไฟฟ้า",
+      "vi": "Điện"
+     }
     },
     {
-      "name": "Robert Green",
-      "location": "London, UK",
-      "rating": 5,
-      "date": "2025-10-08",
-      "title": "Heavier commercial model is worth it — cleans our entire hotel in 40 minutes",
-      "body": "We run a 20-room boutique hotel and needed something more robust than consumer steam mops. This commercial unit has a 1.6L tank and 2500W heating element. The steam is ready in 30 seconds and it continuously for 30 minutes. The carpet glider attachment is included.",
-      "photoUrls": [
-        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/01.webp",
-        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/02.webp"
-      ]
+     "label": {
+      "en": "type",
+      "zh": "type",
+      "es": "tipo",
+      "ar": "النوع",
+      "fr": "type",
+      "id": "tipe",
+      "ru": "тип",
+      "th": "ประเภท",
+      "vi": "loại"
+     },
+     "value": {
+      "en": "Steam Mop",
+      "es": "Fregona de vapor",
+      "ar": "ممسحة بخار",
+      "fr": "Vadrouille vapeur",
+      "id": "Pel Uap",
+      "ru": "Паровая швабра",
+      "th": "ไม้ถูพื้นไอน้ำ",
+      "vi": "Cây lau hơi nước"
+     }
     },
     {
-      "name": "Marie Dubois",
-      "location": "Paris, France",
-      "rating": 4,
-      "date": "2025-07-27",
-      "title": "Lightweight and maneuverable — cleans under furniture with the low-profile head",
-      "body": "The triangular head reaches corners and the low profile (6cm) slides under our beds and sofas. The 360° swivel head makes it easy to navigate around chair legs. Steam power is adjustable between 2 levels. The 280ml water tank lasts about 20 minutes.",
-      "photoUrls": [
-        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/01.webp",
-        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/02.webp"
-      ]
+     "label": {
+      "en": "app-controlled",
+      "zh": "app-controlled",
+      "es": "control por app",
+      "ar": "يُتحكم به عبر التطبيق",
+      "fr": "contrôlé par application",
+      "id": "dikendalikan aplikasi",
+      "ru": "управление через приложение",
+      "th": "ควบคุมผ่านแอป",
+      "vi": "điều khiển qua app"
+     },
+     "value": {
+      "en": "No",
+      "es": "No",
+      "ar": "لا",
+      "fr": "Non",
+      "id": "Tidak",
+      "ru": "Нет",
+      "th": "ไม่",
+      "vi": "Không"
+     }
+    },
+    {
+     "label": {
+      "en": "application",
+      "zh": "application",
+      "es": "aplicación",
+      "ar": "التطبيق",
+      "fr": "utilisation",
+      "id": "aplikasi",
+      "ru": "применение",
+      "th": "การใช้งาน",
+      "vi": "ứng dụng"
+     },
+     "value": {
+      "en": "Hotel",
+      "es": "Hotel",
+      "ar": "فندق",
+      "fr": "Hôtel",
+      "id": "Hotel",
+      "ru": "Отель",
+      "th": "โรงแรม",
+      "vi": "Khách sạn"
+     }
+    },
+    {
+     "label": {
+      "en": "Feature",
+      "zh": "Feature",
+      "es": "Característica",
+      "ar": "الميزة",
+      "fr": "Caractéristique",
+      "id": "Fitur",
+      "ru": "Характеристика",
+      "th": "คุณสมบัติ",
+      "vi": "Tính năng"
+     },
+     "value": {
+      "en": "High Efficiency",
+      "es": "Alta eficiencia",
+      "ar": "كفاءة عالية",
+      "fr": "Haute efficacité",
+      "id": "Efisiensi Tinggi",
+      "ru": "Высокая эффективность",
+      "th": "ประสิทธิภาพสูง",
+      "vi": "Hiệu suất cao"
+     }
+    },
+    {
+     "label": {
+      "en": "Material",
+      "zh": "材质",
+      "es": "Material",
+      "ar": "المادة",
+      "fr": "Matériau",
+      "id": "Material",
+      "ru": "Материал",
+      "th": "วัสดุ",
+      "vi": "Chất liệu"
+     },
+     "value": {
+      "en": "Plastic",
+      "es": "Plástico",
+      "ar": "بلاستيك",
+      "fr": "Plastique",
+      "id": "Plastik",
+      "ru": "Пластик",
+      "th": "พลาสติก",
+      "vi": "Nhựa"
+     }
+    },
+    {
+     "label": {
+      "en": "operating language",
+      "zh": "operating language",
+      "es": "idioma de funcionamiento",
+      "ar": "لغة التشغيل",
+      "fr": "langue d'utilisation",
+      "id": "bahasa pengoperasian",
+      "ru": "язык интерфейса",
+      "th": "ภาษาที่ใช้งาน",
+      "vi": "ngôn ngữ hoạt động"
+     },
+     "value": {
+      "en": "English",
+      "es": "Inglés",
+      "ar": "الإنجليزية",
+      "fr": "Anglais",
+      "id": "Inggris",
+      "ru": "Английский",
+      "th": "อังกฤษ",
+      "vi": "Tiếng Anh"
+     }
+    },
+    {
+     "label": {
+      "en": "packaging types",
+      "zh": "packaging types",
+      "es": "tipos de embalaje",
+      "ar": "أنواع التغليف",
+      "fr": "types d'emballage",
+      "id": "jenis kemasan",
+      "ru": "типы упаковки",
+      "th": "ประเภทบรรจุภัณฑ์",
+      "vi": "loại bao bì"
+     },
+     "value": {
+      "en": "Color Box",
+      "es": "Caja a color",
+      "ar": "علبة ملونة",
+      "fr": "Boîte couleur",
+      "id": "Kotak Warna",
+      "ru": "Цветная коробка",
+      "th": "กล่องสี",
+      "vi": "Hộp màu"
+     }
+    },
+    {
+     "label": {
+      "en": "power (w)",
+      "zh": "power (w)",
+      "es": "potencia (W)",
+      "ar": "القدرة (W)",
+      "fr": "puissance (W)",
+      "id": "daya (W)",
+      "ru": "мощность (Вт)",
+      "th": "กำลังไฟ (W)",
+      "vi": "công suất (w)"
+     },
+     "value": {
+      "en": "800 W",
+      "es": "800 W",
+      "ar": "800 W",
+      "fr": "800 W",
+      "id": "800 W",
+      "ru": "800 W",
+      "th": "800 W",
+      "vi": "800 W"
+     }
+    },
+    {
+     "label": {
+      "en": "power source",
+      "zh": "power source",
+      "es": "fuente de alimentación",
+      "ar": "مصدر الطاقة",
+      "fr": "source d'alimentation",
+      "id": "sumber daya",
+      "ru": "источник питания",
+      "th": "แหล่งจ่ายไฟ",
+      "vi": "nguồn điện"
+     },
+     "value": {
+      "en": "Electric",
+      "es": "Eléctrico",
+      "ar": "كهربائي",
+      "fr": "Électrique",
+      "id": "Listrik",
+      "ru": "Электрический",
+      "th": "ไฟฟ้า",
+      "vi": "Điện"
+     }
+    },
+    {
+     "label": {
+      "en": "private mold",
+      "zh": "private mold",
+      "es": "molde propio",
+      "ar": "قالب خاص",
+      "fr": "moule exclusif",
+      "id": "cetakan sendiri",
+      "ru": "собственная пресс-форма",
+      "th": "แม่พิมพ์เฉพาะ",
+      "vi": "khuôn riêng"
+     },
+     "value": {
+      "en": "No",
+      "es": "No",
+      "ar": "لا",
+      "fr": "Non",
+      "id": "Tidak",
+      "ru": "Нет",
+      "th": "ไม่",
+      "vi": "Không"
+     }
+    },
+    {
+     "label": {
+      "en": "place of origin",
+      "zh": "place of origin",
+      "es": "país de origen",
+      "ar": "بلد المنشأ",
+      "fr": "lieu d'origine",
+      "id": "negara asal",
+      "ru": "страна происхождения",
+      "th": "แหล่งที่มา",
+      "vi": "xuất xứ"
+     },
+     "value": {
+      "en": "CN;GUA",
+      "es": "CN;GUA",
+      "ar": "CN;GUA",
+      "fr": "CN;GUA",
+      "id": "CN;GUA",
+      "ru": "CN;GUA",
+      "th": "CN;GUA",
+      "vi": "CN;GUA"
+     }
+    },
+    {
+     "label": {
+      "en": "brand name",
+      "zh": "brand name",
+      "es": "marca",
+      "ar": "اسم العلامة التجارية",
+      "fr": "nom de marque",
+      "id": "nama merek",
+      "ru": "бренд",
+      "th": "ชื่อแบรนด์",
+      "vi": "tên thương hiệu"
+     },
+     "value": {
+      "en": "OEM",
+      "es": "OEM",
+      "ar": "OEM",
+      "fr": "OEM",
+      "id": "OEM",
+      "ru": "OEM",
+      "th": "OEM",
+      "vi": "OEM"
+     }
+    },
+    {
+     "label": {
+      "en": "Heating Time",
+      "zh": "Heating Time",
+      "es": "Tiempo de calentamiento",
+      "ar": "زمن التسخين",
+      "fr": "Temps de chauffe",
+      "id": "Waktu Pemanasan",
+      "ru": "Время нагрева",
+      "th": "เวลาในการทำความร้อน",
+      "vi": "Thời gian gia nhiệt"
+     },
+     "value": {
+      "en": "2min",
+      "es": "2min",
+      "ar": "2min",
+      "fr": "2min",
+      "id": "2min",
+      "ru": "2min",
+      "th": "2min",
+      "vi": "2min"
+     }
+    },
+    {
+     "label": {
+      "en": "Water Tank Capacity",
+      "zh": "水箱容量",
+      "es": "Capacidad del depósito de agua",
+      "ar": "سعة خزان الماء",
+      "fr": "Capacité du réservoir d'eau",
+      "id": "Kapasitas Tangki Air",
+      "ru": "Объём бака для воды",
+      "th": "ความจุถังน้ำ",
+      "vi": "Dung tích bình nước"
+     },
+     "value": {
+      "en": "400ml",
+      "es": "400ml",
+      "ar": "400ml",
+      "fr": "400ml",
+      "id": "400ml",
+      "ru": "400ml",
+      "th": "400ml",
+      "vi": "400ml"
+     }
+    },
+    {
+     "label": {
+      "en": "model number",
+      "zh": "model number",
+      "es": "número de modelo",
+      "ar": "رقم الموديل",
+      "fr": "numéro de modèle",
+      "id": "nomor model",
+      "ru": "номер модели",
+      "th": "หมายเลขรุ่น",
+      "vi": "số model"
+     },
+     "value": {
+      "en": "QST063",
+      "es": "QST063",
+      "ar": "QST063",
+      "fr": "QST063",
+      "id": "QST063",
+      "ru": "QST063",
+      "th": "QST063",
+      "vi": "QST063"
+     }
     }
-  ],
-  "_schema_reviews": [
+   ],
+   "packaging": {
+    "unit": "Color Box"
+   },
+   "customization": {},
+   "applications": {
+    "en": "",
+    "zh": ""
+   },
+   "price_indicator": null,
+   "quick_specs": [
     {
-      "@type": "Review",
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "5",
-        "bestRating": "5",
-        "worstRating": "1"
-      },
-      "author": {
-        "@type": "Person",
-        "name": "Sandra Kim",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Seoul, South Korea"
-        }
-      },
-      "datePublished": "2025-11-12",
-      "reviewBody": "With two toddlers on the floor all day, chemical residues were a big concern. This steam mop uses only water and heats to 145°C, killing 99.9% of bacteria. The washable microfiber pad lasts through dozens of washes. See the steam action photos.",
-      "name": "Cleans and sanitizes all hard floors in one pass — no chemicals needed",
-      "image": [
-        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/01.webp",
-        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/02.webp"
-      ]
+     "label": {
+      "en": "Power (W)",
+      "zh": "功率(W)",
+      "es": "Potencia (W)",
+      "ar": "القدرة (W)",
+      "fr": "Puissance (W)",
+      "id": "Daya (W)",
+      "ru": "Мощность (Вт)",
+      "th": "กำลังไฟ (W)",
+      "vi": "Công suất (W)"
+     },
+     "value": {
+      "en": "800 W",
+      "es": "800 W",
+      "ar": "800 W",
+      "fr": "800 W",
+      "id": "800 W",
+      "ru": "800 W",
+      "th": "800 W",
+      "vi": "800 W"
+     }
     },
     {
-      "@type": "Review",
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "5",
-        "bestRating": "5",
-        "worstRating": "1"
-      },
-      "author": {
-        "@type": "Person",
-        "name": "Robert Green",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "London, UK"
-        }
-      },
-      "datePublished": "2025-10-08",
-      "reviewBody": "We run a 20-room boutique hotel and needed something more robust than consumer steam mops. This commercial unit has a 1.6L tank and 2500W heating element. The steam is ready in 30 seconds and it continuously for 30 minutes. The carpet glider attachment is included.",
-      "name": "Heavier commercial model is worth it — cleans our entire hotel in 40 minutes",
-      "image": [
-        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/01.webp",
-        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/02.webp"
-      ]
+     "label": {
+      "en": "Water Tank Capacity",
+      "zh": "水箱容量",
+      "es": "Capacidad del depósito de agua",
+      "ar": "سعة خزان الماء",
+      "fr": "Capacité du réservoir d'eau",
+      "id": "Kapasitas Tangki Air",
+      "ru": "Объём бака для воды",
+      "th": "ความจุถังน้ำ",
+      "vi": "Dung tích bình nước"
+     },
+     "value": {
+      "en": "400ml",
+      "es": "400ml",
+      "ar": "400ml",
+      "fr": "400ml",
+      "id": "400ml",
+      "ru": "400ml",
+      "th": "400ml",
+      "vi": "400ml"
+     }
     },
     {
-      "@type": "Review",
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "4",
-        "bestRating": "5",
-        "worstRating": "1"
-      },
-      "author": {
-        "@type": "Person",
-        "name": "Marie Dubois",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Paris, France"
-        }
-      },
-      "datePublished": "2025-07-27",
-      "reviewBody": "The triangular head reaches corners and the low profile (6cm) slides under our beds and sofas. The 360° swivel head makes it easy to navigate around chair legs. Steam power is adjustable between 2 levels. The 280ml water tank lasts about 20 minutes.",
-      "name": "Lightweight and maneuverable — cleans under furniture with the low-profile head",
-      "image": [
-        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/01.webp",
-        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/02.webp"
-      ]
+     "label": {
+      "en": "Heating Time",
+      "zh": "加热时间",
+      "es": "Tiempo de calentamiento",
+      "ar": "زمن التسخين",
+      "fr": "Temps de chauffe",
+      "id": "Waktu Pemanasan",
+      "ru": "Время нагрева",
+      "th": "เวลาในการทำความร้อน",
+      "vi": "Thời gian gia nhiệt"
+     },
+     "value": {
+      "en": "2min",
+      "es": "2min",
+      "ar": "2min",
+      "fr": "2min",
+      "id": "2min",
+      "ru": "2min",
+      "th": "2min",
+      "vi": "2min"
+     }
     }
-  ]
+   ],
+   "price_ladder": [],
+   "sku": "1601842693924",
+   "description": {
+    "en": "800 W · 400ml · 2min. OEM/ODM available; specifications from the supplier listing.",
+    "zh": "800 W · 400ml · 2min。支持 OEM/ODM 定制，规格取自供应商商品资料。",
+    "es": "800 W · 400ml · 2min. Disponible en OEM/ODM; especificaciones tomadas del listado del proveedor.",
+    "ar": "800 W · 400ml · 2min. متاح بنظام OEM/ODM؛ المواصفات مأخوذة من قائمة المورّد.",
+    "fr": "800 W · 400ml · 2min. Disponible en OEM/ODM ; spécifications issues de la fiche du fournisseur.",
+    "id": "800 W · 400ml · 2min. Tersedia dalam OEM/ODM; spesifikasi diambil dari daftar pemasok.",
+    "ru": "800 W · 400ml · 2min. Доступно в OEM/ODM; характеристики взяты из карточки товара поставщика.",
+    "th": "800 W · 400ml · 2min. มีให้บริการในรูปแบบ OEM/ODM; ข้อมูลจำเพาะนำมาจากประกาศของผู้ขาย",
+    "vi": "800 W · 400ml · 2min. Có sẵn dạng OEM/ODM; thông số kỹ thuật lấy từ niêm yết của nhà cung cấp."
+   },
+   "supplier_rating": null,
+   "response_time": null,
+   "transactions": null,
+   "years": null,
+   "ship_from": null,
+   "sample": null,
+   "category_name": {
+    "en": "Upright Steam Mops",
+    "zh": "立式蒸汽拖把",
+    "es": "Mopa de Vapor Vertical",
+    "ar": "ممسحة بخار عمودية",
+    "fr": "Vadrouille vapeur verticale",
+    "id": "Pel Uap Tegak",
+    "ru": "Вертикальная паровая швабра",
+    "th": "ไม้ถูพื้นไอน้ำแบบตั้ง",
+    "vi": "Cây lau hơi nước đứng"
+   },
+   "_source": {
+    "platform": "alibaba.com",
+    "productId": "1601842693924"
+   },
+   "_cat": "upright-steam-mop"
+  },
+  {
+   "id": "qjj071",
+   "name": {
+    "en": "1500W Handheld High Pressure Steam Mop 1.5-2.6Bar 20s Fast Heat 380ml Dual Tank 4M Cord 2.4KG Compact Design Household Use",
+    "zh": "QJJ071 高压蒸汽拖把（1500W / 1.5–2.6Bar / 380ml 双水箱）",
+    "es": "Fregona de vapor de mano de alta presión 1500 W, 1,5-2,6 bar, calentamiento rápido en 20 s, depósito doble de 380 ml, cable de 4 m, 2,4 kg, diseño compacto para uso doméstico",
+    "ar": "ممسحة بخار يدوية عالية الضغط 1500W، 1.5-2.6Bar، تسخين سريع في 20 ثانية، خزان مزدوج 380ml، سلك 4M، 2.4KG، تصميم مدمج للاستخدام المنزلي",
+    "fr": "Vadrouille vapeur à main haute pression 1500 W, 1,5-2,6 bar, chauffe rapide en 20 s, double réservoir de 380 ml, cordon de 4 m, 2,4 kg, design compact pour usage domestique",
+    "id": "Pel Uap Genggam Bertekanan Tinggi 1500W, 1.5-2.6Bar, Pemanasan Cepat 20s, Tangki Ganda 380ml, Kabel 4M, 2.4KG, Desain Ringkas untuk Penggunaan Rumah Tangga",
+    "ru": "Ручная паровая швабра высокого давления 1500 W, 1,5-2,6 бар, быстрый нагрев за 20 с, двойной бак 380 мл, кабель 4 м, 2,4 кг, компактный дизайн для дома",
+    "th": "ไม้ถูพื้นไอน้ำแบบพกพาแรงดันสูง 1500W 1.5-2.6Bar ทำความร้อนเร็ว 20S ถังคู่ 380ml สายไฟ 4M 2.4KG ดีไซน์กะทัดรัดสำหรับใช้ในบ้าน",
+    "vi": "Cây lau hơi nước cầm tay áp suất cao 1500W, 1,5-2,6Bar, gia nhiệt nhanh 20 giây, hai bình 380ml, dây 4M, 2,4KG, thiết kế nhỏ gọn dùng cho gia đình"
+   },
+   "tagline": {
+    "en": "1500W · 380ML · 20S",
+    "zh": "1500W · 380ML · 20S",
+    "es": "1500W · 380ML · 20S",
+    "ar": "1500W · 380ML · 20S",
+    "fr": "1500W · 380ML · 20S",
+    "id": "1500W · 380ML · 20S",
+    "ru": "1500W · 380ML · 20S",
+    "th": "1500W · 380ML · 20S",
+    "vi": "1500W · 380ML · 20S"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qjj071/01.webp",
+    "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qjj071/02.webp",
+    "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qjj071/03.webp",
+    "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qjj071/04.webp",
+    "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qjj071/05.webp",
+    "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qjj071/06.webp"
+   ],
+   "video_url": null,
+   "moq": {
+    "value": 1,
+    "unit": "pieces"
+   },
+   "certifications": [],
+   "highlights": [
+    {
+     "icon": "check",
+     "text": {
+      "en": "Power (W): 1500W",
+      "zh": "功率(W): 1500W",
+      "es": "Potencia (W): 1500W",
+      "ar": "القدرة (W): 1500W",
+      "fr": "Puissance (W): 1500W",
+      "id": "Daya (W): 1500W",
+      "ru": "Мощность (Вт): 1500W",
+      "th": "กำลังไฟ (W): 1500W",
+      "vi": "Công suất (W): 1500W"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Water Tank Capacity: 380ML",
+      "zh": "水箱容量: 380ML",
+      "es": "Capacidad del depósito de agua: 380ML",
+      "ar": "سعة خزان الماء: 380ML",
+      "fr": "Capacité du réservoir d'eau: 380ML",
+      "id": "Kapasitas Tangki Air: 380ML",
+      "ru": "Объём бака для воды: 380ML",
+      "th": "ความจุถังน้ำ: 380ML",
+      "vi": "Dung tích bình nước: 380ML"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Heating Time: 20S",
+      "zh": "加热时间: 20S",
+      "es": "Tiempo de calentamiento: 20S",
+      "ar": "زمن التسخين: 20S",
+      "fr": "Temps de chauffe: 20S",
+      "id": "Waktu Pemanasan: 20S",
+      "ru": "Время нагрева: 20S",
+      "th": "เวลาในการทำความร้อน: 20S",
+      "vi": "Thời gian gia nhiệt: 20S"
+     }
+    }
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "type",
+      "zh": "type",
+      "es": "tipo",
+      "ar": "النوع",
+      "fr": "type",
+      "id": "tipe",
+      "ru": "тип",
+      "th": "ประเภท",
+      "vi": "loại"
+     },
+     "value": {
+      "en": "Handheld",
+      "es": "De mano",
+      "ar": "يدوية",
+      "fr": "À main",
+      "id": "Genggam",
+      "ru": "Ручной",
+      "th": "แบบพกพา",
+      "vi": "Cầm tay"
+     }
+    },
+    {
+     "label": {
+      "en": "after-sales service provided",
+      "zh": "after-sales service provided",
+      "es": "servicio posventa",
+      "ar": "خدمة ما بعد البيع",
+      "fr": "service après-vente",
+      "id": "layanan purnajual",
+      "ru": "послепродажное обслуживание",
+      "th": "บริการหลังการขาย",
+      "vi": "dịch vụ sau bán hàng"
+     },
+     "value": {
+      "en": "Overseas Call Centers",
+      "es": "Centros de llamadas en el extranjero",
+      "ar": "مراكز اتصال خارجية",
+      "fr": "Centres d'appel à l'étranger",
+      "id": "Pusat Panggilan Luar Negeri",
+      "ru": "Зарубежные колл-центры",
+      "th": "ศูนย์บริการโทรศัพท์ต่างประเทศ",
+      "vi": "Trung tâm cuộc gọi ở nước ngoài"
+     }
+    },
+    {
+     "label": {
+      "en": "app-controlled",
+      "zh": "app-controlled",
+      "es": "control por app",
+      "ar": "يُتحكم به عبر التطبيق",
+      "fr": "contrôlé par application",
+      "id": "dikendalikan aplikasi",
+      "ru": "управление через приложение",
+      "th": "ควบคุมผ่านแอป",
+      "vi": "điều khiển qua app"
+     },
+     "value": {
+      "en": "No",
+      "es": "No",
+      "ar": "لا",
+      "fr": "Non",
+      "id": "Tidak",
+      "ru": "Нет",
+      "th": "ไม่",
+      "vi": "Không"
+     }
+    },
+    {
+     "label": {
+      "en": "application",
+      "zh": "application",
+      "es": "aplicación",
+      "ar": "التطبيق",
+      "fr": "utilisation",
+      "id": "aplikasi",
+      "ru": "применение",
+      "th": "การใช้งาน",
+      "vi": "ứng dụng"
+     },
+     "value": {
+      "en": "Hotel",
+      "es": "Hotel",
+      "ar": "فندق",
+      "fr": "Hôtel",
+      "id": "Hotel",
+      "ru": "Отель",
+      "th": "โรงแรม",
+      "vi": "Khách sạn"
+     }
+    },
+    {
+     "label": {
+      "en": "application",
+      "zh": "application",
+      "es": "aplicación",
+      "ar": "التطبيق",
+      "fr": "utilisation",
+      "id": "aplikasi",
+      "ru": "применение",
+      "th": "การใช้งาน",
+      "vi": "ứng dụng"
+     },
+     "value": {
+      "en": "Household",
+      "es": "Hogar",
+      "ar": "منزلي",
+      "fr": "Ménager",
+      "id": "Rumah tangga",
+      "ru": "Бытовой",
+      "th": "ใช้ในบ้าน",
+      "vi": "Gia dụng"
+     }
+    },
+    {
+     "label": {
+      "en": "Feature",
+      "zh": "Feature",
+      "es": "Característica",
+      "ar": "الميزة",
+      "fr": "Caractéristique",
+      "id": "Fitur",
+      "ru": "Характеристика",
+      "th": "คุณสมบัติ",
+      "vi": "Tính năng"
+     },
+     "value": {
+      "en": "Dual Tank",
+      "es": "Depósito doble",
+      "ar": "خزان مزدوج",
+      "fr": "Double réservoir",
+      "id": "Tangki Ganda",
+      "ru": "Двойной бак",
+      "th": "ถังคู่",
+      "vi": "Hai bình"
+     }
+    },
+    {
+     "label": {
+      "en": "Feature",
+      "zh": "Feature",
+      "es": "Característica",
+      "ar": "الميزة",
+      "fr": "Caractéristique",
+      "id": "Fitur",
+      "ru": "Характеристика",
+      "th": "คุณสมบัติ",
+      "vi": "Tính năng"
+     },
+     "value": {
+      "en": "Compact Design",
+      "es": "Diseño compacto",
+      "ar": "تصميم مدمج",
+      "fr": "Design compact",
+      "id": "Desain Ringkas",
+      "ru": "Компактный дизайн",
+      "th": "ดีไซน์กะทัดรัด",
+      "vi": "Thiết kế nhỏ gọn"
+     }
+    },
+    {
+     "label": {
+      "en": "operating language",
+      "zh": "operating language",
+      "es": "idioma de funcionamiento",
+      "ar": "لغة التشغيل",
+      "fr": "langue d'utilisation",
+      "id": "bahasa pengoperasian",
+      "ru": "язык интерфейса",
+      "th": "ภาษาที่ใช้งาน",
+      "vi": "ngôn ngữ hoạt động"
+     },
+     "value": {
+      "en": "English",
+      "es": "Inglés",
+      "ar": "الإنجليزية",
+      "fr": "Anglais",
+      "id": "Inggris",
+      "ru": "Английский",
+      "th": "อังกฤษ",
+      "vi": "Tiếng Anh"
+     }
+    },
+    {
+     "label": {
+      "en": "packaging types",
+      "zh": "packaging types",
+      "es": "tipos de embalaje",
+      "ar": "أنواع التغليف",
+      "fr": "types d'emballage",
+      "id": "jenis kemasan",
+      "ru": "типы упаковки",
+      "th": "ประเภทบรรจุภัณฑ์",
+      "vi": "loại bao bì"
+     },
+     "value": {
+      "en": "Corrugated Box",
+      "es": "Caja de cartón ondulado",
+      "ar": "كرتون مموج",
+      "fr": "Carton ondulé",
+      "id": "Kotak Karton Bergelombang",
+      "ru": "Гофрокоробка",
+      "th": "กล่องกระดาษลูกฟูก",
+      "vi": "Thùng carton sóng"
+     }
+    },
+    {
+     "label": {
+      "en": "packaging types",
+      "zh": "packaging types",
+      "es": "tipos de embalaje",
+      "ar": "أنواع التغليف",
+      "fr": "types d'emballage",
+      "id": "jenis kemasan",
+      "ru": "типы упаковки",
+      "th": "ประเภทบรรจุภัณฑ์",
+      "vi": "loại bao bì"
+     },
+     "value": {
+      "en": "Color Box",
+      "es": "Caja a color",
+      "ar": "علبة ملونة",
+      "fr": "Boîte couleur",
+      "id": "Kotak Warna",
+      "ru": "Цветная коробка",
+      "th": "กล่องสี",
+      "vi": "Hộp màu"
+     }
+    },
+    {
+     "label": {
+      "en": "power source",
+      "zh": "power source",
+      "es": "fuente de alimentación",
+      "ar": "مصدر الطاقة",
+      "fr": "source d'alimentation",
+      "id": "sumber daya",
+      "ru": "источник питания",
+      "th": "แหล่งจ่ายไฟ",
+      "vi": "nguồn điện"
+     },
+     "value": {
+      "en": "Electric",
+      "es": "Eléctrico",
+      "ar": "كهربائي",
+      "fr": "Électrique",
+      "id": "Listrik",
+      "ru": "Электрический",
+      "th": "ไฟฟ้า",
+      "vi": "Điện"
+     }
+    },
+    {
+     "label": {
+      "en": "private mold",
+      "zh": "private mold",
+      "es": "molde propio",
+      "ar": "قالب خاص",
+      "fr": "moule exclusif",
+      "id": "cetakan sendiri",
+      "ru": "собственная пресс-форма",
+      "th": "แม่พิมพ์เฉพาะ",
+      "vi": "khuôn riêng"
+     },
+     "value": {
+      "en": "No",
+      "es": "No",
+      "ar": "لا",
+      "fr": "Non",
+      "id": "Tidak",
+      "ru": "Нет",
+      "th": "ไม่",
+      "vi": "Không"
+     }
+    },
+    {
+     "label": {
+      "en": "warranty",
+      "zh": "warranty",
+      "es": "garantía",
+      "ar": "الضمان",
+      "fr": "garantie",
+      "id": "garansi",
+      "ru": "гарантия",
+      "th": "การรับประกัน",
+      "vi": "bảo hành"
+     },
+     "value": {
+      "en": "1 Year",
+      "es": "1 año",
+      "ar": "سنة واحدة",
+      "fr": "1 an",
+      "id": "1 tahun",
+      "ru": "1 год",
+      "th": "1 ปี",
+      "vi": "1 năm"
+     }
+    },
+    {
+     "label": {
+      "en": "place of origin",
+      "zh": "place of origin",
+      "es": "país de origen",
+      "ar": "بلد المنشأ",
+      "fr": "lieu d'origine",
+      "id": "negara asal",
+      "ru": "страна происхождения",
+      "th": "แหล่งที่มา",
+      "vi": "xuất xứ"
+     },
+     "value": {
+      "en": "CN",
+      "es": "CN",
+      "ar": "CN",
+      "fr": "CN",
+      "id": "CN",
+      "ru": "CN",
+      "th": "CN",
+      "vi": "CN"
+     }
+    },
+    {
+     "label": {
+      "en": "brand name",
+      "zh": "brand name",
+      "es": "marca",
+      "ar": "اسم العلامة التجارية",
+      "fr": "nom de marque",
+      "id": "nama merek",
+      "ru": "бренд",
+      "th": "ชื่อแบรนด์",
+      "vi": "tên thương hiệu"
+     },
+     "value": {
+      "en": "OEM",
+      "es": "OEM",
+      "ar": "OEM",
+      "fr": "OEM",
+      "id": "OEM",
+      "ru": "OEM",
+      "th": "OEM",
+      "vi": "OEM"
+     }
+    },
+    {
+     "label": {
+      "en": "Heating Time",
+      "zh": "Heating Time",
+      "es": "Tiempo de calentamiento",
+      "ar": "زمن التسخين",
+      "fr": "Temps de chauffe",
+      "id": "Waktu Pemanasan",
+      "ru": "Время нагрева",
+      "th": "เวลาในการทำความร้อน",
+      "vi": "Thời gian gia nhiệt"
+     },
+     "value": {
+      "en": "20S",
+      "es": "20S",
+      "ar": "20S",
+      "fr": "20S",
+      "id": "20S",
+      "ru": "20S",
+      "th": "20S",
+      "vi": "20S"
+     }
+    },
+    {
+     "label": {
+      "en": "Material",
+      "zh": "材质",
+      "es": "Material",
+      "ar": "المادة",
+      "fr": "Matériau",
+      "id": "Material",
+      "ru": "Материал",
+      "th": "วัสดุ",
+      "vi": "Chất liệu"
+     },
+     "value": {
+      "en": "ABS",
+      "es": "ABS",
+      "ar": "ABS",
+      "fr": "ABS",
+      "id": "ABS",
+      "ru": "ABS",
+      "th": "ABS",
+      "vi": "ABS"
+     }
+    },
+    {
+     "label": {
+      "en": "power (w)",
+      "zh": "power (w)",
+      "es": "potencia (W)",
+      "ar": "القدرة (W)",
+      "fr": "puissance (W)",
+      "id": "daya (W)",
+      "ru": "мощность (Вт)",
+      "th": "กำลังไฟ (W)",
+      "vi": "công suất (w)"
+     },
+     "value": {
+      "en": "1500W",
+      "es": "1500W",
+      "ar": "1500W",
+      "fr": "1500W",
+      "id": "1500W",
+      "ru": "1500W",
+      "th": "1500W",
+      "vi": "1500W"
+     }
+    },
+    {
+     "label": {
+      "en": "Water Tank Capacity",
+      "zh": "水箱容量",
+      "es": "Capacidad del depósito de agua",
+      "ar": "سعة خزان الماء",
+      "fr": "Capacité du réservoir d'eau",
+      "id": "Kapasitas Tangki Air",
+      "ru": "Объём бака для воды",
+      "th": "ความจุถังน้ำ",
+      "vi": "Dung tích bình nước"
+     },
+     "value": {
+      "en": "380ML",
+      "es": "380ML",
+      "ar": "380ML",
+      "fr": "380ML",
+      "id": "380ML",
+      "ru": "380ML",
+      "th": "380ML",
+      "vi": "380ML"
+     }
+    },
+    {
+     "label": {
+      "en": "model number",
+      "zh": "model number",
+      "es": "número de modelo",
+      "ar": "رقم الموديل",
+      "fr": "numéro de modèle",
+      "id": "nomor model",
+      "ru": "номер модели",
+      "th": "หมายเลขรุ่น",
+      "vi": "số model"
+     },
+     "value": {
+      "en": "QJJ071",
+      "es": "QJJ071",
+      "ar": "QJJ071",
+      "fr": "QJJ071",
+      "id": "QJJ071",
+      "ru": "QJJ071",
+      "th": "QJJ071",
+      "vi": "QJJ071"
+     }
+    }
+   ],
+   "packaging": {
+    "unit": "Color Box"
+   },
+   "customization": {},
+   "applications": {
+    "en": "",
+    "zh": ""
+   },
+   "price_indicator": null,
+   "quick_specs": [
+    {
+     "label": {
+      "en": "Power (W)",
+      "zh": "功率(W)",
+      "es": "Potencia (W)",
+      "ar": "القدرة (W)",
+      "fr": "Puissance (W)",
+      "id": "Daya (W)",
+      "ru": "Мощность (Вт)",
+      "th": "กำลังไฟ (W)",
+      "vi": "Công suất (W)"
+     },
+     "value": {
+      "en": "1500W",
+      "es": "1500W",
+      "ar": "1500W",
+      "fr": "1500W",
+      "id": "1500W",
+      "ru": "1500W",
+      "th": "1500W",
+      "vi": "1500W"
+     }
+    },
+    {
+     "label": {
+      "en": "Water Tank Capacity",
+      "zh": "水箱容量",
+      "es": "Capacidad del depósito de agua",
+      "ar": "سعة خزان الماء",
+      "fr": "Capacité du réservoir d'eau",
+      "id": "Kapasitas Tangki Air",
+      "ru": "Объём бака для воды",
+      "th": "ความจุถังน้ำ",
+      "vi": "Dung tích bình nước"
+     },
+     "value": {
+      "en": "380ML",
+      "es": "380ML",
+      "ar": "380ML",
+      "fr": "380ML",
+      "id": "380ML",
+      "ru": "380ML",
+      "th": "380ML",
+      "vi": "380ML"
+     }
+    },
+    {
+     "label": {
+      "en": "Heating Time",
+      "zh": "加热时间",
+      "es": "Tiempo de calentamiento",
+      "ar": "زمن التسخين",
+      "fr": "Temps de chauffe",
+      "id": "Waktu Pemanasan",
+      "ru": "Время нагрева",
+      "th": "เวลาในการทำความร้อน",
+      "vi": "Thời gian gia nhiệt"
+     },
+     "value": {
+      "en": "20S",
+      "es": "20S",
+      "ar": "20S",
+      "fr": "20S",
+      "id": "20S",
+      "ru": "20S",
+      "th": "20S",
+      "vi": "20S"
+     }
+    }
+   ],
+   "price_ladder": [],
+   "sku": "1601857978782",
+   "description": {
+    "en": "1500W · 380ML · 20S. OEM/ODM available; specifications from the supplier listing.",
+    "zh": "1500W · 380ML · 20S。支持 OEM/ODM 定制，规格取自供应商商品资料。",
+    "es": "1500W · 380ML · 20S. Disponible en OEM/ODM; especificaciones tomadas del listado del proveedor.",
+    "ar": "1500W · 380ML · 20S. متاح بنظام OEM/ODM؛ المواصفات مأخوذة من قائمة المورّد.",
+    "fr": "1500W · 380ML · 20S. Disponible en OEM/ODM ; spécifications issues de la fiche du fournisseur.",
+    "id": "1500W · 380ML · 20S. Tersedia dalam OEM/ODM; spesifikasi diambil dari daftar pemasok.",
+    "ru": "1500W · 380ML · 20S. Доступно в OEM/ODM; характеристики взяты из карточки товара поставщика.",
+    "th": "1500W · 380ML · 20S. มีให้บริการในรูปแบบ OEM/ODM; ข้อมูลจำเพาะนำมาจากประกาศของผู้ขาย",
+    "vi": "1500W · 380ML · 20S. Có sẵn dạng OEM/ODM; thông số kỹ thuật lấy từ niêm yết của nhà cung cấp."
+   },
+   "supplier_rating": null,
+   "response_time": null,
+   "transactions": null,
+   "years": null,
+   "ship_from": null,
+   "sample": null,
+   "category_name": {
+    "en": "Upright Steam Mops",
+    "zh": "立式蒸汽拖把",
+    "es": "Mopa de Vapor Vertical",
+    "ar": "ممسحة بخار عمودية",
+    "fr": "Vadrouille vapeur verticale",
+    "id": "Pel Uap Tegak",
+    "ru": "Вертикальная паровая швабра",
+    "th": "ไม้ถูพื้นไอน้ำแบบตั้ง",
+    "vi": "Cây lau hơi nước đứng"
+   },
+   "_source": {
+    "platform": "alibaba.com",
+    "productId": "1601857978782"
+   },
+   "_cat": "upright-steam-mop"
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Sandra Kim",
+   "location": "Seoul, South Korea",
+   "rating": 5,
+   "date": "2025-11-12",
+   "title": "Cleans and sanitizes all hard floors in one pass — no chemicals needed",
+   "body": "With two toddlers on the floor all day, chemical residues were a big concern. This steam mop uses only water and heats to 145°C, killing 99.9% of bacteria. The washable microfiber pad lasts through dozens of washes. See the steam action photos.",
+   "photoUrls": [
+    "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/01.webp",
+    "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/02.webp"
+   ]
+  },
+  {
+   "name": "Robert Green",
+   "location": "London, UK",
+   "rating": 5,
+   "date": "2025-10-08",
+   "title": "Heavier commercial model is worth it — cleans our entire hotel in 40 minutes",
+   "body": "We run a 20-room boutique hotel and needed something more robust than consumer steam mops. This commercial unit has a 1.6L tank and 2500W heating element. The steam is ready in 30 seconds and it continuously for 30 minutes. The carpet glider attachment is included.",
+   "photoUrls": [
+    "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/01.webp",
+    "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/02.webp"
+   ]
+  },
+  {
+   "name": "Marie Dubois",
+   "location": "Paris, France",
+   "rating": 4,
+   "date": "2025-07-27",
+   "title": "Lightweight and maneuverable — cleans under furniture with the low-profile head",
+   "body": "The triangular head reaches corners and the low profile (6cm) slides under our beds and sofas. The 360° swivel head makes it easy to navigate around chair legs. Steam power is adjustable between 2 levels. The 280ml water tank lasts about 20 minutes.",
+   "photoUrls": [
+    "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/01.webp",
+    "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/02.webp"
+   ]
+  }
+ ],
+ "_schema_reviews": [
+  {
+   "@type": "Review",
+   "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "5",
+    "bestRating": "5",
+    "worstRating": "1"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Sandra Kim",
+    "address": {
+     "@type": "PostalAddress",
+     "addressLocality": "Seoul, South Korea"
+    }
+   },
+   "datePublished": "2025-11-12",
+   "reviewBody": "With two toddlers on the floor all day, chemical residues were a big concern. This steam mop uses only water and heats to 145°C, killing 99.9% of bacteria. The washable microfiber pad lasts through dozens of washes. See the steam action photos.",
+   "name": "Cleans and sanitizes all hard floors in one pass — no chemicals needed",
+   "image": [
+    "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/01.webp",
+    "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/02.webp"
+   ]
+  },
+  {
+   "@type": "Review",
+   "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "5",
+    "bestRating": "5",
+    "worstRating": "1"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Robert Green",
+    "address": {
+     "@type": "PostalAddress",
+     "addressLocality": "London, UK"
+    }
+   },
+   "datePublished": "2025-10-08",
+   "reviewBody": "We run a 20-room boutique hotel and needed something more robust than consumer steam mops. This commercial unit has a 1.6L tank and 2500W heating element. The steam is ready in 30 seconds and it continuously for 30 minutes. The carpet glider attachment is included.",
+   "name": "Heavier commercial model is worth it — cleans our entire hotel in 40 minutes",
+   "image": [
+    "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/01.webp",
+    "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/02.webp"
+   ]
+  },
+  {
+   "@type": "Review",
+   "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "4",
+    "bestRating": "5",
+    "worstRating": "1"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Marie Dubois",
+    "address": {
+     "@type": "PostalAddress",
+     "addressLocality": "Paris, France"
+    }
+   },
+   "datePublished": "2025-07-27",
+   "reviewBody": "The triangular head reaches corners and the low profile (6cm) slides under our beds and sofas. The 360° swivel head makes it easy to navigate around chair legs. Steam power is adjustable between 2 levels. The 280ml water tank lasts about 20 minutes.",
+   "name": "Lightweight and maneuverable — cleans under furniture with the low-profile head",
+   "image": [
+    "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/01.webp",
+    "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/02.webp"
+   ]
+  }
+ ]
 }

@@ -1,0 +1,240 @@
+{
+ "car-vacuum": [
+  {
+   "title": "suction power (airwatts)",
+   "values": "≤ 50 AW · 81-100 AW",
+   "explain": "Air watts (AW) show usable suction after losses — read it next to the maximum Pa figure."
+  },
+  {
+   "title": "power (w)",
+   "values": "50 W · 100 W · 65 W · 400 W",
+   "explain": "Wattage is input power, not lifting force — read it together with the suction figure."
+  },
+  {
+   "title": "Dust capacity",
+   "values": "0.12L",
+   "explain": "Compare this figure across the models listed below before choosing."
+  },
+  {
+   "title": "Battery Capacity",
+   "values": "1500mAh*2 · 2000mAh*3 · 2000mAh*2",
+   "explain": "Battery capacity in mAh is the main driver of runtime; removable packs extend service life."
+  },
+  {
+   "title": "Charging Time",
+   "values": "1-3H",
+   "explain": "USB-C charging removes proprietary docks; check charge time against use per cycle."
+  }
+ ],
+ "coffee-machine": [
+  {
+   "title": "pump pressure bars",
+   "values": "8 - 10 bar",
+   "explain": "For home espresso, pressure stability during extraction matters more than the peak bar rating."
+  },
+  {
+   "title": "power (w)",
+   "values": "100 W · 700 W",
+   "explain": "Wattage is input power, not lifting force — read it together with the suction figure."
+  },
+  {
+   "title": "Coffee Maker Capacity",
+   "values": "Up to 4 cups",
+   "explain": "Compare this figure across the models listed below before choosing."
+  },
+  {
+   "title": "Housing Material",
+   "values": "Aluminum",
+   "explain": "Food-contact and boiler materials should be stainless steel with the relevant certification."
+  },
+  {
+   "title": "function",
+   "values": "Hot Water System · Programmable · Self-Cleaning · Single Service",
+   "explain": "Multi-in-1 functions widen the use case; check what is included in the box."
+  }
+ ],
+ "handheld-vacuum": [
+  {
+   "title": "Suction Power",
+   "values": "30kPa · 37000Pa · 40000Pa",
+   "explain": "Higher Pa lifts more debris; compare Pa together with motor type (brushed vs brushless)."
+  },
+  {
+   "title": "Runtime",
+   "values": "20–65 min · 20-65mins",
+   "explain": "Runtime decides how much floor one charge covers — check whether the battery is removable."
+  },
+  {
+   "title": "Battery capacity",
+   "values": "2200mAh",
+   "explain": "Battery capacity in mAh is the main driver of runtime; removable packs extend service life."
+  },
+  {
+   "title": "Dust Cup Capacity",
+   "values": "1.2L",
+   "explain": "A larger cup means fewer empties; a compact body reaches tighter spaces."
+  },
+  {
+   "title": "ChargingTime",
+   "values": "4-5hours",
+   "explain": "USB-C charging removes proprietary docks; check charge time against use per cycle."
+  }
+ ],
+ "robot-vacuum": [
+  {
+   "title": "Suction Power",
+   "values": "5000Pa · 3500PA · 1000–1499 Pa · 20000Pa",
+   "explain": "Higher Pa lifts more debris; compare Pa together with motor type (brushed vs brushless)."
+  },
+  {
+   "title": "Navigation",
+   "values": "LDS SLAM · LDS+SLAM · LDS Navigation",
+   "explain": "Laser/SLAM mapping builds a real floor plan; gyroscope units wander."
+  },
+  {
+   "title": "Runtime",
+   "values": "120–150 min · 150-180mins · 120 mins",
+   "explain": "Runtime decides how much floor one charge covers — check whether the battery is removable."
+  },
+  {
+   "title": "Battery capacity",
+   "values": "5200mAh",
+   "explain": "Battery capacity in mAh is the main driver of runtime; removable packs extend service life."
+  },
+  {
+   "title": "dust box capacity (l)",
+   "values": "&gt; 2 L · &lt; 0.5 L · 0.6-1 L · 2 L",
+   "explain": "Dust box and water tank size decide mopping area per cycle."
+  }
+ ],
+ "steam-cleaner": [
+  {
+   "title": "Steam pressure",
+   "values": "3 bar",
+   "explain": "Pressure tells you how deeply steam penetrates grout, seals and seams."
+  },
+  {
+   "title": "power (w)",
+   "values": "1500 W",
+   "explain": "Wattage is input power, not lifting force — read it together with the suction figure."
+  },
+  {
+   "title": "Water Tank Capacity",
+   "values": "1600ml · 1.6L · 1200ml · 1.2L",
+   "explain": "Tank capacity sets how long a session runs before a refill."
+  },
+  {
+   "title": "Heating Time",
+   "values": "15 s · 15s · 0–60 s",
+   "explain": "Compare this figure across the models listed below before choosing."
+  },
+  {
+   "title": "Weight (KG)",
+   "values": "2kg",
+   "explain": "Weight decides whether the tool is actually used for a full room or mattress."
+  }
+ ],
+ "tire-inflator": [
+  {
+   "title": "Maximum Pressure",
+   "values": "150PSI / 10.3Bar",
+   "explain": "Pressure tells you how deeply steam penetrates grout, seals and seams."
+  },
+  {
+   "title": "Power",
+   "values": "≤95W · ≤120W · ≤90W · ≤65W",
+   "explain": "Wattage is input power, not lifting force — read it together with the suction figure."
+  },
+  {
+   "title": "Battery Capacity",
+   "values": "2500mAh*4 · 2000mAh*3 · 2000mAh*2 · 1500mAh*4",
+   "explain": "Battery capacity in mAh is the main driver of runtime; removable packs extend service life."
+  },
+  {
+   "title": "Function",
+   "values": "Emergency Light · Power Indicator · Tire Pressure Monitor · Tire Inflation",
+   "explain": "Multi-in-1 functions widen the use case; check what is included in the box."
+  },
+  {
+   "title": "Voltage",
+   "values": "11.1V · 14.8V · 7.4V · 14.2-16.8V",
+   "explain": "Compare this figure across the models listed below before choosing."
+  }
+ ],
+ "upright-steam-mop": [
+  {
+   "title": "power (w)",
+   "values": "800 W · 1500W",
+   "explain": "Wattage is input power, not lifting force — read it together with the suction figure."
+  },
+  {
+   "title": "Water Tank Capacity",
+   "values": "400ml · 380ML",
+   "explain": "Tank capacity sets how long a session runs before a refill."
+  },
+  {
+   "title": "private mold",
+   "values": "No",
+   "explain": "Compare this figure across the models listed below before choosing."
+  },
+  {
+   "title": "Heating Time",
+   "values": "2min · 20S",
+   "explain": "Compare this figure across the models listed below before choosing."
+  }
+ ],
+ "uv-mite-remover": [
+  {
+   "title": "suction power (airwatts)",
+   "values": "110 AW",
+   "explain": "Air watts (AW) show usable suction after losses — read it next to the maximum Pa figure."
+  },
+  {
+   "title": "maximum runtime",
+   "values": "30-60 min",
+   "explain": "Runtime decides how much floor one charge covers — check whether the battery is removable."
+  },
+  {
+   "title": "Dust capacity",
+   "values": "0.5L",
+   "explain": "Compare this figure across the models listed below before choosing."
+  },
+  {
+   "title": "filter",
+   "values": "HEPA Filter",
+   "explain": "HEPA filtration traps the allergen the machine has just released."
+  },
+  {
+   "title": "product net weight",
+   "values": "2–3 kg",
+   "explain": "Weight decides whether the tool is actually used for a full room or mattress."
+  }
+ ],
+ "window-cleaner-robot": [
+  {
+   "title": "power (w)",
+   "values": "72W",
+   "explain": "Wattage is input power, not lifting force — read it together with the suction figure."
+  },
+  {
+   "title": "Battery capacity",
+   "values": "500mAh · 500 mAh",
+   "explain": "Battery capacity in mAh is the main driver of runtime; removable packs extend service life."
+  },
+  {
+   "title": "Suction Power",
+   "values": "8000Pa",
+   "explain": "Higher Pa lifts more debris; compare Pa together with motor type (brushed vs brushless)."
+  },
+  {
+   "title": "Runtime",
+   "values": "20-35mins",
+   "explain": "Runtime decides how much floor one charge covers — check whether the battery is removable."
+  },
+  {
+   "title": "Water tank capacity",
+   "values": "100ml",
+   "explain": "Tank capacity sets how long a session runs before a refill."
+  }
+ ]
+}

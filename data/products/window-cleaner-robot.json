@@ -1,442 +1,1042 @@
 {
-  "category": "window-cleaner-robot",
-  "products": [
+ "category": "window-cleaner-robot",
+ "products": [
+  {
+   "id": "gm1-c",
+   "name": {
+    "en": "OEM ODM Smart Window Cleaning Robot Remote Control Brushless Motor Household Use Automatic Glass Cleaner Anti-Fall Protection",
+    "zh": "GM1-C 智能擦窗机器人（遥控 / 自动玻璃清洁）",
+    "es": "Robot limpiacristales inteligente OEM ODM con mando a distancia y motor sin escobillas para uso doméstico, limpiador automático de vidrios con protección anticaídas",
+    "ar": "روبوت تنظيف نوافذ ذكي OEM ODM بتحكم عن بعد ومحرك بدون فرشاة للاستخدام المنزلي، منظف زجاج تلقائي بحماية ضد السقوط",
+    "fr": "Robot nettoyeur de vitres intelligent OEM ODM avec télécommande et moteur sans balais pour usage domestique, nettoyeur automatique de vitres avec protection anti-chute",
+    "id": "Robot Pembersih Jendela Cerdas OEM ODM, Kontrol Remote, Motor Tanpa Sikat, Penggunaan Rumah Tangga, Pembersih Kaca Otomatis dengan Perlindungan Anti-Jatuh",
+    "ru": "Умный робот для мойки окон OEM ODM с пультом управления и бесщёточным двигателем для дома, автоматический очиститель стекла с защитой от падения",
+    "th": "หุ่นยนต์ทำความสะอาดกระจกอัจฉริยะ OEM ODM ควบคุมด้วยรีโมท มอเตอร์แบบไม่มีแปรงถ่าน สำหรับใช้ในบ้าน เครื่องทำความสะอาดกระจกอัตโนมัติพร้อมระบบป้องกันการร่วงหล่น",
+    "vi": "Robot lau kính thông minh OEM ODM điều khiển từ xa, động cơ không chổi than, dùng cho gia đình, máy lau kính tự động có chống rơi"
+   },
+   "tagline": {
+    "en": "8000Pa · 72W · 100ml",
+    "zh": "8000Pa · 72W · 100ml",
+    "es": "8000Pa · 72W · 100ml",
+    "ar": "8000Pa · 72W · 100ml",
+    "fr": "8000Pa · 72W · 100ml",
+    "id": "8000Pa · 72W · 100ml",
+    "ru": "8000Pa · 72W · 100ml",
+    "th": "8000Pa · 72W · 100ml",
+    "vi": "8000Pa · 72W · 100ml"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/01.webp",
+    "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/02.webp",
+    "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/03.webp",
+    "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/04.webp"
+   ],
+   "video_url": null,
+   "moq": {
+    "value": 1,
+    "unit": "pieces"
+   },
+   "certifications": [],
+   "highlights": [
     {
-      "id": "gm1-c",
-      "name": {
-        "en": "OEM ODM Smart Window Cleaning Robot Remote Control Brushless Motor Household Use Automatic Glass Cleaner Anti-Fall Protection",
-        "zh": "GM1-C 智能擦窗机器人（遥控 / 自动玻璃清洁）"
-      },
-      "tagline": {
-        "en": "8000Pa · 72W · 100ml",
-        "zh": "8000Pa · 72W · 100ml"
-      },
-      "images": [
-        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/01.webp",
-        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/02.webp",
-        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/03.webp",
-        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/04.webp"
-      ],
-      "video_url": null,
-      "moq": {
-        "value": 1,
-        "unit": "pieces"
-      },
-      "certifications": [],
-      "highlights": [
-        {
-          "icon": "check",
-          "text": {
-            "en": "Suction Power: 8000Pa",
-            "zh": "吸力: 8000Pa"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Power (W): 72W",
-            "zh": "功率(W): 72W"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Water tank capacity: 100ml",
-            "zh": "水箱容量: 100ml"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "Runtime: 20-35mins",
-            "zh": "续航时间: 20-35mins"
-          }
-        }
-      ],
-      "specs": [
-        {
-          "label": {
-            "en": "Suction Power",
-            "zh": "吸力"
-          },
-          "value": "8000Pa"
-        },
-        {
-          "label": {
-            "en": "Battery capacity",
-            "zh": "Battery capacity"
-          },
-          "value": "500mAh"
-        },
-        {
-          "label": {
-            "en": "Runtime",
-            "zh": "续航时间"
-          },
-          "value": "20-35mins"
-        },
-        {
-          "label": {
-            "en": "Water tank capacity",
-            "zh": "Water tank capacity"
-          },
-          "value": "100ml"
-        },
-        {
-          "label": {
-            "en": "Motor Power",
-            "zh": "Motor Power"
-          },
-          "value": "72W"
-        },
-        {
-          "label": {
-            "en": "Motor Type",
-            "zh": "电机类型"
-          },
-          "value": "Brushless Motor"
-        },
-        {
-          "label": {
-            "en": "Feature 1",
-            "zh": "Feature 1"
-          },
-          "value": "Safety Rope Protection"
-        },
-        {
-          "label": {
-            "en": "Feature 2",
-            "zh": "Feature 2"
-          },
-          "value": "UPS Power Backup Protection"
-        },
-        {
-          "label": {
-            "en": "Battery Capacity",
-            "zh": "电池容量"
-          },
-          "value": "500 mAh"
-        },
-        {
-          "label": {
-            "en": "Maximum Runtime",
-            "zh": "Maximum Runtime"
-          },
-          "value": "30-60 min"
-        },
-        {
-          "label": {
-            "en": "app-controlled",
-            "zh": "app-controlled"
-          },
-          "value": "No"
-        },
-        {
-          "label": {
-            "en": "application",
-            "zh": "application"
-          },
-          "value": "Hotel"
-        },
-        {
-          "label": {
-            "en": "application",
-            "zh": "application"
-          },
-          "value": "Household"
-        },
-        {
-          "label": {
-            "en": "application",
-            "zh": "application"
-          },
-          "value": "Commercial"
-        },
-        {
-          "label": {
-            "en": "cleaning mode",
-            "zh": "cleaning mode"
-          },
-          "value": "multiple modes"
-        },
-        {
-          "label": {
-            "en": "dust box capacity l",
-            "zh": "dust box capacity l"
-          },
-          "value": "0.5 L"
-        },
-        {
-          "label": {
-            "en": "Feature",
-            "zh": "Feature"
-          },
-          "value": "Safety"
-        },
-        {
-          "label": {
-            "en": "Material",
-            "zh": "材质"
-          },
-          "value": "Plastic"
-        },
-        {
-          "label": {
-            "en": "Motor Type",
-            "zh": "电机类型"
-          },
-          "value": "Brushless Motor"
-        },
-        {
-          "label": {
-            "en": "Navigation Mode",
-            "zh": "Navigation Mode"
-          },
-          "value": "Infrared"
-        },
-        {
-          "label": {
-            "en": "operating language",
-            "zh": "operating language"
-          },
-          "value": "English"
-        },
-        {
-          "label": {
-            "en": "packaging types",
-            "zh": "packaging types"
-          },
-          "value": "Color Box"
-        },
-        {
-          "label": {
-            "en": "Power Source",
-            "zh": "Power Source"
-          },
-          "value": "Battery"
-        },
-        {
-          "label": {
-            "en": "private mold",
-            "zh": "private mold"
-          },
-          "value": "No"
-        },
-        {
-          "label": {
-            "en": "Type",
-            "zh": "类型"
-          },
-          "value": "Fully Automatic"
-        },
-        {
-          "label": {
-            "en": "warranty",
-            "zh": "warranty"
-          },
-          "value": "1 Year"
-        },
-        {
-          "label": {
-            "en": "place of origin",
-            "zh": "place of origin"
-          },
-          "value": "CN;GUA"
-        },
-        {
-          "label": {
-            "en": "brand name",
-            "zh": "brand name"
-          },
-          "value": "OEM ODM"
-        },
-        {
-          "label": {
-            "en": "power (w)",
-            "zh": "power (w)"
-          },
-          "value": "72W"
-        },
-        {
-          "label": {
-            "en": "model number",
-            "zh": "model number"
-          },
-          "value": "GM1-C"
-        }
-      ],
-      "packaging": {
-        "unit": "Color Box"
-      },
-      "customization": {},
-      "applications": {
-        "en": "",
-        "zh": ""
-      },
-      "price_indicator": null,
-      "quick_specs": [
-        {
-          "label": {
-            "en": "Suction Power",
-            "zh": "吸力"
-          },
-          "value": "8000Pa"
-        },
-        {
-          "label": {
-            "en": "Power (W)",
-            "zh": "功率(W)"
-          },
-          "value": "72W"
-        },
-        {
-          "label": {
-            "en": "Water tank capacity",
-            "zh": "水箱容量"
-          },
-          "value": "100ml"
-        },
-        {
-          "label": {
-            "en": "Runtime",
-            "zh": "续航时间"
-          },
-          "value": "20-35mins"
-        }
-      ],
-      "price_ladder": [],
-      "sku": "1601905990885",
-      "description": {
-        "en": "8000Pa · 72W · 100ml. OEM/ODM available; specifications from the supplier listing.",
-        "zh": "8000Pa · 72W · 100ml。支持 OEM/ODM 定制，规格取自供应商商品资料。"
-      },
-      "supplier_rating": null,
-      "response_time": null,
-      "transactions": null,
-      "years": null,
-      "ship_from": null,
-      "sample": null,
-      "category_name": {
-        "en": "Smart Window Cleaning Robots",
-        "zh": "智能擦窗机器人"
-      },
-      "_source": {
-        "platform": "alibaba.com",
-        "productId": "1601905990885"
-      },
-      "_cat": "window-cleaner-robot"
+     "icon": "check",
+     "text": {
+      "en": "Suction Power: 8000Pa",
+      "zh": "吸力: 8000Pa",
+      "es": "Potencia de succión: 8000Pa",
+      "ar": "قوة الشفط: 8000Pa",
+      "fr": "Puissance d'aspiration: 8000Pa",
+      "id": "Daya Hisap: 8000Pa",
+      "ru": "Мощность всасывания: 8000Pa",
+      "th": "กำลังดูด: 8000Pa",
+      "vi": "Công suất hút: 8000Pa"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Power (W): 72W",
+      "zh": "功率(W): 72W",
+      "es": "Potencia (W): 72W",
+      "ar": "القدرة (W): 72W",
+      "fr": "Puissance (W): 72W",
+      "id": "Daya (W): 72W",
+      "ru": "Мощность (Вт): 72W",
+      "th": "กำลังไฟ (W): 72W",
+      "vi": "Công suất (W): 72W"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Water tank capacity: 100ml",
+      "zh": "水箱容量: 100ml",
+      "es": "Capacidad del depósito de agua: 100ml",
+      "ar": "سعة خزان الماء: 100ml",
+      "fr": "Capacité du réservoir d'eau: 100ml",
+      "id": "Kapasitas tangki air: 100ml",
+      "ru": "Объём бака для воды: 100ml",
+      "th": "ความจุถังน้ำ: 100ml",
+      "vi": "Dung tích bình nước: 100ml"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "Runtime: 20-35mins",
+      "zh": "续航时间: 20-35mins",
+      "es": "Autonomía: 20-35mins",
+      "ar": "مدة التشغيل: 20-35mins",
+      "fr": "Autonomie: 20-35mins",
+      "id": "Waktu Pakai: 20-35mins",
+      "ru": "Время работы: 20-35mins",
+      "th": "ระยะเวลาทำงาน: 20-35mins",
+      "vi": "Thời gian chạy: 20-35mins"
+     }
     }
-  ],
-  "reviews": [
+   ],
+   "specs": [
     {
-      "name": "Wei Zhang",
-      "location": "Singapore",
-      "rating": 5,
-      "date": "2025-11-20",
-      "title": "Finally safe window cleaning on our 30th floor apartment",
-      "body": "Living on the 30th floor, window cleaning has always been dangerous. This robot handles both exterior and interior glass with its AI-powered path planning. The safety rope holds 150kg. Our windows have never been this clean.",
-      "photoUrls": [
-        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/01.webp",
-        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/02.webp"
-      ]
+     "label": {
+      "en": "Suction Power",
+      "zh": "吸力",
+      "es": "Potencia de succión",
+      "ar": "قوة الشفط",
+      "fr": "Puissance d'aspiration",
+      "id": "Daya Hisap",
+      "ru": "Мощность всасывания",
+      "th": "กำลังดูด",
+      "vi": "Công suất hút"
+     },
+     "value": {
+      "en": "8000Pa",
+      "es": "8000Pa",
+      "ar": "8000Pa",
+      "fr": "8000Pa",
+      "id": "8000Pa",
+      "ru": "8000Pa",
+      "th": "8000Pa",
+      "vi": "8000Pa"
+     }
     },
     {
-      "name": "Olivia Brown",
-      "location": "San Francisco, CA, USA",
-      "rating": 5,
-      "date": "2025-09-08",
-      "title": "Perfect for floor-to-ceiling glass offices",
-      "body": "We manage a small office building and this robot has replaced our quarterly window cleaning service. It works on any glass thickness from 3mm to 35mm and the edge detection prevents it from falling off. The 3.5m extension cord covers most spaces.",
-      "photoUrls": [
-        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/01.webp",
-        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/02.webp"
-      ]
+     "label": {
+      "en": "Battery capacity",
+      "zh": "Battery capacity",
+      "es": "Capacidad de batería",
+      "ar": "سعة البطارية",
+      "fr": "Capacité de la batterie",
+      "id": "Kapasitas baterai",
+      "ru": "Ёмкость аккумулятора",
+      "th": "ความจุแบตเตอรี่",
+      "vi": "Dung lượng pin"
+     },
+     "value": {
+      "en": "500mAh",
+      "es": "500mAh",
+      "ar": "500mAh",
+      "fr": "500mAh",
+      "id": "500mAh",
+      "ru": "500mAh",
+      "th": "500mAh",
+      "vi": "500mAh"
+     }
     },
     {
-      "name": "Marco Rossi",
-      "location": "Milan, Italy",
-      "rating": 4,
-      "date": "2025-07-22",
-      "title": "Works well on large glass panels — minor learning curve",
-      "body": "It takes about 5 minutes to learn the remote control and the app. Once you know how to set the cleaning path, it does an excellent job. Best results are on smooth, frameless glass. Ours are framed windows so it leaves a small 2cm gap at the edges.",
-      "photoUrls": [
-        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/01.webp",
-        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/02.webp"
-      ]
+     "label": {
+      "en": "Runtime",
+      "zh": "续航时间",
+      "es": "Autonomía",
+      "ar": "مدة التشغيل",
+      "fr": "Autonomie",
+      "id": "Waktu Pakai",
+      "ru": "Время работы",
+      "th": "ระยะเวลาทำงาน",
+      "vi": "Thời gian chạy"
+     },
+     "value": {
+      "en": "20-35mins",
+      "es": "20-35mins",
+      "ar": "20-35mins",
+      "fr": "20-35mins",
+      "id": "20-35mins",
+      "ru": "20-35mins",
+      "th": "20-35mins",
+      "vi": "20-35mins"
+     }
+    },
+    {
+     "label": {
+      "en": "Water tank capacity",
+      "zh": "Water tank capacity",
+      "es": "Capacidad del depósito de agua",
+      "ar": "سعة خزان الماء",
+      "fr": "Capacité du réservoir d'eau",
+      "id": "Kapasitas tangki air",
+      "ru": "Объём бака для воды",
+      "th": "ความจุถังน้ำ",
+      "vi": "Dung tích bình nước"
+     },
+     "value": {
+      "en": "100ml",
+      "es": "100ml",
+      "ar": "100ml",
+      "fr": "100ml",
+      "id": "100ml",
+      "ru": "100ml",
+      "th": "100ml",
+      "vi": "100ml"
+     }
+    },
+    {
+     "label": {
+      "en": "Motor Power",
+      "zh": "Motor Power",
+      "es": "Potencia del motor",
+      "ar": "قدرة المحرك",
+      "fr": "Puissance du moteur",
+      "id": "Daya Motor",
+      "ru": "Мощность двигателя",
+      "th": "กำลังมอเตอร์",
+      "vi": "Công suất động cơ"
+     },
+     "value": {
+      "en": "72W",
+      "es": "72W",
+      "ar": "72W",
+      "fr": "72W",
+      "id": "72W",
+      "ru": "72W",
+      "th": "72W",
+      "vi": "72W"
+     }
+    },
+    {
+     "label": {
+      "en": "Motor Type",
+      "zh": "电机类型",
+      "es": "Tipo de motor",
+      "ar": "نوع المحرك",
+      "fr": "Type de moteur",
+      "id": "Jenis Motor",
+      "ru": "Тип двигателя",
+      "th": "ประเภทมอเตอร์",
+      "vi": "Loại động cơ"
+     },
+     "value": {
+      "en": "Brushless Motor",
+      "es": "Motor sin escobillas",
+      "ar": "محرك بدون فرشاة",
+      "fr": "Moteur sans balais",
+      "id": "Motor Tanpa Sikat",
+      "ru": "Бесщёточный двигатель",
+      "th": "มอเตอร์แบบไม่มีแปรงถ่าน",
+      "vi": "Động cơ không chổi than"
+     }
+    },
+    {
+     "label": {
+      "en": "Feature 1",
+      "zh": "Feature 1",
+      "es": "Característica 1",
+      "ar": "الميزة 1",
+      "fr": "Caractéristique 1",
+      "id": "Fitur 1",
+      "ru": "Характеристика 1",
+      "th": "คุณสมบัติ 1",
+      "vi": "Tính năng 1"
+     },
+     "value": {
+      "en": "Safety Rope Protection",
+      "es": "Protección con cable de seguridad",
+      "ar": "حبل أمان للحماية",
+      "fr": "Protection par cordon de sécurité",
+      "id": "Perlindungan Tali Pengaman",
+      "ru": "Защита страховочным тросом",
+      "th": "การป้องกันด้วยเชือกนิรภัย",
+      "vi": "Bảo vệ bằng dây an toàn"
+     }
+    },
+    {
+     "label": {
+      "en": "Feature 2",
+      "zh": "Feature 2",
+      "es": "Característica 2",
+      "ar": "الميزة 2",
+      "fr": "Caractéristique 2",
+      "id": "Fitur 2",
+      "ru": "Характеристика 2",
+      "th": "คุณสมบัติ 2",
+      "vi": "Tính năng 2"
+     },
+     "value": {
+      "en": "UPS Power Backup Protection",
+      "es": "Protección de respaldo UPS",
+      "ar": "حماية بالطاقة الاحتياطية UPS",
+      "fr": "Protection par batterie de secours UPS",
+      "id": "Perlindungan Cadangan Daya UPS",
+      "ru": "Защита с резервным питанием UPS",
+      "th": "การป้องกันด้วยสำรองไฟ UPS",
+      "vi": "Bảo vệ bằng nguồn dự phòng UPS"
+     }
+    },
+    {
+     "label": {
+      "en": "Battery Capacity",
+      "zh": "电池容量",
+      "es": "Capacidad de batería",
+      "ar": "سعة البطارية",
+      "fr": "Capacité de la batterie",
+      "id": "Kapasitas Baterai",
+      "ru": "Ёмкость аккумулятора",
+      "th": "ความจุแบตเตอรี่",
+      "vi": "Dung lượng pin"
+     },
+     "value": {
+      "en": "500 mAh",
+      "es": "500 mAh",
+      "ar": "500 mAh",
+      "fr": "500 mAh",
+      "id": "500 mAh",
+      "ru": "500 mAh",
+      "th": "500 mAh",
+      "vi": "500 mAh"
+     }
+    },
+    {
+     "label": {
+      "en": "Maximum Runtime",
+      "zh": "Maximum Runtime",
+      "es": "Autonomía máxima",
+      "ar": "أقصى مدة تشغيل",
+      "fr": "Autonomie maximale",
+      "id": "Waktu Pakai Maksimum",
+      "ru": "Макс. время работы",
+      "th": "ระยะเวลาทำงานสูงสุด",
+      "vi": "Thời gian chạy tối đa"
+     },
+     "value": {
+      "en": "30-60 min",
+      "es": "30-60 min",
+      "ar": "30-60 min",
+      "fr": "30-60 min",
+      "id": "30-60 min",
+      "ru": "30-60 min",
+      "th": "30-60 min",
+      "vi": "30-60 min"
+     }
+    },
+    {
+     "label": {
+      "en": "app-controlled",
+      "zh": "app-controlled",
+      "es": "control por app",
+      "ar": "يُتحكم به عبر التطبيق",
+      "fr": "contrôlé par application",
+      "id": "dikendalikan aplikasi",
+      "ru": "управление через приложение",
+      "th": "ควบคุมผ่านแอป",
+      "vi": "điều khiển qua app"
+     },
+     "value": {
+      "en": "No",
+      "es": "No",
+      "ar": "لا",
+      "fr": "Non",
+      "id": "Tidak",
+      "ru": "Нет",
+      "th": "ไม่",
+      "vi": "Không"
+     }
+    },
+    {
+     "label": {
+      "en": "application",
+      "zh": "application",
+      "es": "aplicación",
+      "ar": "التطبيق",
+      "fr": "utilisation",
+      "id": "aplikasi",
+      "ru": "применение",
+      "th": "การใช้งาน",
+      "vi": "ứng dụng"
+     },
+     "value": {
+      "en": "Hotel",
+      "es": "Hotel",
+      "ar": "فندق",
+      "fr": "Hôtel",
+      "id": "Hotel",
+      "ru": "Отель",
+      "th": "โรงแรม",
+      "vi": "Khách sạn"
+     }
+    },
+    {
+     "label": {
+      "en": "application",
+      "zh": "application",
+      "es": "aplicación",
+      "ar": "التطبيق",
+      "fr": "utilisation",
+      "id": "aplikasi",
+      "ru": "применение",
+      "th": "การใช้งาน",
+      "vi": "ứng dụng"
+     },
+     "value": {
+      "en": "Household",
+      "es": "Hogar",
+      "ar": "منزلي",
+      "fr": "Ménager",
+      "id": "Rumah tangga",
+      "ru": "Бытовой",
+      "th": "ใช้ในบ้าน",
+      "vi": "Gia dụng"
+     }
+    },
+    {
+     "label": {
+      "en": "application",
+      "zh": "application",
+      "es": "aplicación",
+      "ar": "التطبيق",
+      "fr": "utilisation",
+      "id": "aplikasi",
+      "ru": "применение",
+      "th": "การใช้งาน",
+      "vi": "ứng dụng"
+     },
+     "value": {
+      "en": "Commercial",
+      "es": "Comercial",
+      "ar": "تجاري",
+      "fr": "Commercial",
+      "id": "Komersial",
+      "ru": "Коммерческий",
+      "th": "เชิงพาณิชย์",
+      "vi": "Thương mại"
+     }
+    },
+    {
+     "label": {
+      "en": "cleaning mode",
+      "zh": "cleaning mode",
+      "es": "modo de limpieza",
+      "ar": "وضع التنظيف",
+      "fr": "mode de nettoyage",
+      "id": "mode pembersihan",
+      "ru": "режим уборки",
+      "th": "โหมดทำความสะอาด",
+      "vi": "chế độ làm sạch"
+     },
+     "value": {
+      "en": "multiple modes",
+      "es": "múltiples modos",
+      "ar": "أوضاع متعددة",
+      "fr": "modes multiples",
+      "id": "berbagai mode",
+      "ru": "несколько режимов",
+      "th": "หลายโหมด",
+      "vi": "nhiều chế độ"
+     }
+    },
+    {
+     "label": {
+      "en": "dust box capacity l",
+      "zh": "dust box capacity l",
+      "es": "capacidad del depósito de polvo l",
+      "ar": "سعة صندوق الغبار باللتر",
+      "fr": "capacité du bac à poussière (l)",
+      "id": "kapasitas wadah debu l",
+      "ru": "объём пылесборника (л)",
+      "th": "ความจุถังฝุ่น L",
+      "vi": "dung tích hộp bụi l"
+     },
+     "value": {
+      "en": "0.5 L",
+      "es": "0.5 L",
+      "ar": "0.5 L",
+      "fr": "0.5 L",
+      "id": "0.5 L",
+      "ru": "0.5 L",
+      "th": "0.5 L",
+      "vi": "0.5 L"
+     }
+    },
+    {
+     "label": {
+      "en": "Feature",
+      "zh": "Feature",
+      "es": "Característica",
+      "ar": "الميزة",
+      "fr": "Caractéristique",
+      "id": "Fitur",
+      "ru": "Характеристика",
+      "th": "คุณสมบัติ",
+      "vi": "Tính năng"
+     },
+     "value": {
+      "en": "Safety",
+      "es": "Seguridad",
+      "ar": "الأمان",
+      "fr": "Sécurité",
+      "id": "Keamanan",
+      "ru": "Безопасность",
+      "th": "ความปลอดภัย",
+      "vi": "An toàn"
+     }
+    },
+    {
+     "label": {
+      "en": "Material",
+      "zh": "材质",
+      "es": "Material",
+      "ar": "المادة",
+      "fr": "Matériau",
+      "id": "Material",
+      "ru": "Материал",
+      "th": "วัสดุ",
+      "vi": "Chất liệu"
+     },
+     "value": {
+      "en": "Plastic",
+      "es": "Plástico",
+      "ar": "بلاستيك",
+      "fr": "Plastique",
+      "id": "Plastik",
+      "ru": "Пластик",
+      "th": "พลาสติก",
+      "vi": "Nhựa"
+     }
+    },
+    {
+     "label": {
+      "en": "Motor Type",
+      "zh": "电机类型",
+      "es": "Tipo de motor",
+      "ar": "نوع المحرك",
+      "fr": "Type de moteur",
+      "id": "Jenis Motor",
+      "ru": "Тип двигателя",
+      "th": "ประเภทมอเตอร์",
+      "vi": "Loại động cơ"
+     },
+     "value": {
+      "en": "Brushless Motor",
+      "es": "Motor sin escobillas",
+      "ar": "محرك بدون فرشاة",
+      "fr": "Moteur sans balais",
+      "id": "Motor Tanpa Sikat",
+      "ru": "Бесщёточный двигатель",
+      "th": "มอเตอร์แบบไม่มีแปรงถ่าน",
+      "vi": "Động cơ không chổi than"
+     }
+    },
+    {
+     "label": {
+      "en": "Navigation Mode",
+      "zh": "Navigation Mode",
+      "es": "Modo de navegación",
+      "ar": "وضع الملاحة",
+      "fr": "Mode de navigation",
+      "id": "Mode Navigasi",
+      "ru": "Режим навигации",
+      "th": "โหมดการนำทาง",
+      "vi": "Chế độ điều hướng"
+     },
+     "value": {
+      "en": "Infrared",
+      "es": "Infrarrojos",
+      "ar": "أشعة تحت الحمراء",
+      "fr": "Infrarouge",
+      "id": "Inframerah",
+      "ru": "Инфракрасный",
+      "th": "อินฟราเรด",
+      "vi": "Hồng ngoại"
+     }
+    },
+    {
+     "label": {
+      "en": "operating language",
+      "zh": "operating language",
+      "es": "idioma de funcionamiento",
+      "ar": "لغة التشغيل",
+      "fr": "langue d'utilisation",
+      "id": "bahasa pengoperasian",
+      "ru": "язык интерфейса",
+      "th": "ภาษาที่ใช้งาน",
+      "vi": "ngôn ngữ hoạt động"
+     },
+     "value": {
+      "en": "English",
+      "es": "Inglés",
+      "ar": "الإنجليزية",
+      "fr": "Anglais",
+      "id": "Inggris",
+      "ru": "Английский",
+      "th": "อังกฤษ",
+      "vi": "Tiếng Anh"
+     }
+    },
+    {
+     "label": {
+      "en": "packaging types",
+      "zh": "packaging types",
+      "es": "tipos de embalaje",
+      "ar": "أنواع التغليف",
+      "fr": "types d'emballage",
+      "id": "jenis kemasan",
+      "ru": "типы упаковки",
+      "th": "ประเภทบรรจุภัณฑ์",
+      "vi": "loại bao bì"
+     },
+     "value": {
+      "en": "Color Box",
+      "es": "Caja a color",
+      "ar": "علبة ملونة",
+      "fr": "Boîte couleur",
+      "id": "Kotak Warna",
+      "ru": "Цветная коробка",
+      "th": "กล่องสี",
+      "vi": "Hộp màu"
+     }
+    },
+    {
+     "label": {
+      "en": "Power Source",
+      "zh": "Power Source",
+      "es": "Fuente de alimentación",
+      "ar": "مصدر الطاقة",
+      "fr": "Source d'alimentation",
+      "id": "Sumber Daya",
+      "ru": "Источник питания",
+      "th": "แหล่งจ่ายไฟ",
+      "vi": "Nguồn điện"
+     },
+     "value": {
+      "en": "Battery",
+      "es": "Batería",
+      "ar": "البطارية",
+      "fr": "Batterie",
+      "id": "Baterai",
+      "ru": "Аккумулятор",
+      "th": "แบตเตอรี่",
+      "vi": "Pin"
+     }
+    },
+    {
+     "label": {
+      "en": "private mold",
+      "zh": "private mold",
+      "es": "molde propio",
+      "ar": "قالب خاص",
+      "fr": "moule exclusif",
+      "id": "cetakan sendiri",
+      "ru": "собственная пресс-форма",
+      "th": "แม่พิมพ์เฉพาะ",
+      "vi": "khuôn riêng"
+     },
+     "value": {
+      "en": "No",
+      "es": "No",
+      "ar": "لا",
+      "fr": "Non",
+      "id": "Tidak",
+      "ru": "Нет",
+      "th": "ไม่",
+      "vi": "Không"
+     }
+    },
+    {
+     "label": {
+      "en": "Type",
+      "zh": "类型",
+      "es": "Tipo",
+      "ar": "النوع",
+      "fr": "Type",
+      "id": "Tipe",
+      "ru": "Тип",
+      "th": "ประเภท",
+      "vi": "Loại"
+     },
+     "value": {
+      "en": "Fully Automatic",
+      "es": "Totalmente automático",
+      "ar": "تلقائي بالكامل",
+      "fr": "Entièrement automatique",
+      "id": "Sepenuhnya Otomatis",
+      "ru": "Полностью автоматический",
+      "th": "อัตโนมัติเต็มรูปแบบ",
+      "vi": "Hoàn toàn tự động"
+     }
+    },
+    {
+     "label": {
+      "en": "warranty",
+      "zh": "warranty",
+      "es": "garantía",
+      "ar": "الضمان",
+      "fr": "garantie",
+      "id": "garansi",
+      "ru": "гарантия",
+      "th": "การรับประกัน",
+      "vi": "bảo hành"
+     },
+     "value": {
+      "en": "1 Year",
+      "es": "1 año",
+      "ar": "سنة واحدة",
+      "fr": "1 an",
+      "id": "1 tahun",
+      "ru": "1 год",
+      "th": "1 ปี",
+      "vi": "1 năm"
+     }
+    },
+    {
+     "label": {
+      "en": "place of origin",
+      "zh": "place of origin",
+      "es": "país de origen",
+      "ar": "بلد المنشأ",
+      "fr": "lieu d'origine",
+      "id": "negara asal",
+      "ru": "страна происхождения",
+      "th": "แหล่งที่มา",
+      "vi": "xuất xứ"
+     },
+     "value": {
+      "en": "CN;GUA",
+      "es": "CN;GUA",
+      "ar": "CN;GUA",
+      "fr": "CN;GUA",
+      "id": "CN;GUA",
+      "ru": "CN;GUA",
+      "th": "CN;GUA",
+      "vi": "CN;GUA"
+     }
+    },
+    {
+     "label": {
+      "en": "brand name",
+      "zh": "brand name",
+      "es": "marca",
+      "ar": "اسم العلامة التجارية",
+      "fr": "nom de marque",
+      "id": "nama merek",
+      "ru": "бренд",
+      "th": "ชื่อแบรนด์",
+      "vi": "tên thương hiệu"
+     },
+     "value": {
+      "en": "OEM ODM",
+      "es": "OEM ODM",
+      "ar": "OEM ODM",
+      "fr": "OEM ODM",
+      "id": "OEM ODM",
+      "ru": "OEM ODM",
+      "th": "OEM ODM",
+      "vi": "OEM ODM"
+     }
+    },
+    {
+     "label": {
+      "en": "power (w)",
+      "zh": "power (w)",
+      "es": "potencia (W)",
+      "ar": "القدرة (W)",
+      "fr": "puissance (W)",
+      "id": "daya (W)",
+      "ru": "мощность (Вт)",
+      "th": "กำลังไฟ (W)",
+      "vi": "công suất (w)"
+     },
+     "value": {
+      "en": "72W",
+      "es": "72W",
+      "ar": "72W",
+      "fr": "72W",
+      "id": "72W",
+      "ru": "72W",
+      "th": "72W",
+      "vi": "72W"
+     }
+    },
+    {
+     "label": {
+      "en": "model number",
+      "zh": "model number",
+      "es": "número de modelo",
+      "ar": "رقم الموديل",
+      "fr": "numéro de modèle",
+      "id": "nomor model",
+      "ru": "номер модели",
+      "th": "หมายเลขรุ่น",
+      "vi": "số model"
+     },
+     "value": {
+      "en": "GM1-C",
+      "es": "GM1-C",
+      "ar": "GM1-C",
+      "fr": "GM1-C",
+      "id": "GM1-C",
+      "ru": "GM1-C",
+      "th": "GM1-C",
+      "vi": "GM1-C"
+     }
     }
-  ],
-  "_schema_reviews": [
+   ],
+   "packaging": {
+    "unit": "Color Box"
+   },
+   "customization": {},
+   "applications": {
+    "en": "",
+    "zh": ""
+   },
+   "price_indicator": null,
+   "quick_specs": [
     {
-      "@type": "Review",
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "5",
-        "bestRating": "5",
-        "worstRating": "1"
-      },
-      "author": {
-        "@type": "Person",
-        "name": "Wei Zhang",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Singapore"
-        }
-      },
-      "datePublished": "2025-11-20",
-      "reviewBody": "Living on the 30th floor, window cleaning has always been dangerous. This robot handles both exterior and interior glass with its AI-powered path planning. The safety rope holds 150kg. Our windows have never been this clean.",
-      "name": "Finally safe window cleaning on our 30th floor apartment",
-      "image": [
-        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/01.webp",
-        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/02.webp"
-      ]
+     "label": {
+      "en": "Suction Power",
+      "zh": "吸力",
+      "es": "Potencia de succión",
+      "ar": "قوة الشفط",
+      "fr": "Puissance d'aspiration",
+      "id": "Daya Hisap",
+      "ru": "Мощность всасывания",
+      "th": "กำลังดูด",
+      "vi": "Công suất hút"
+     },
+     "value": {
+      "en": "8000Pa",
+      "es": "8000Pa",
+      "ar": "8000Pa",
+      "fr": "8000Pa",
+      "id": "8000Pa",
+      "ru": "8000Pa",
+      "th": "8000Pa",
+      "vi": "8000Pa"
+     }
     },
     {
-      "@type": "Review",
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "5",
-        "bestRating": "5",
-        "worstRating": "1"
-      },
-      "author": {
-        "@type": "Person",
-        "name": "Olivia Brown",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "San Francisco, CA, USA"
-        }
-      },
-      "datePublished": "2025-09-08",
-      "reviewBody": "We manage a small office building and this robot has replaced our quarterly window cleaning service. It works on any glass thickness from 3mm to 35mm and the edge detection prevents it from falling off. The 3.5m extension cord covers most spaces.",
-      "name": "Perfect for floor-to-ceiling glass offices",
-      "image": [
-        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/01.webp",
-        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/02.webp"
-      ]
+     "label": {
+      "en": "Power (W)",
+      "zh": "功率(W)",
+      "es": "Potencia (W)",
+      "ar": "القدرة (W)",
+      "fr": "Puissance (W)",
+      "id": "Daya (W)",
+      "ru": "Мощность (Вт)",
+      "th": "กำลังไฟ (W)",
+      "vi": "Công suất (W)"
+     },
+     "value": {
+      "en": "72W",
+      "es": "72W",
+      "ar": "72W",
+      "fr": "72W",
+      "id": "72W",
+      "ru": "72W",
+      "th": "72W",
+      "vi": "72W"
+     }
     },
     {
-      "@type": "Review",
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "4",
-        "bestRating": "5",
-        "worstRating": "1"
-      },
-      "author": {
-        "@type": "Person",
-        "name": "Marco Rossi",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Milan, Italy"
-        }
-      },
-      "datePublished": "2025-07-22",
-      "reviewBody": "It takes about 5 minutes to learn the remote control and the app. Once you know how to set the cleaning path, it does an excellent job. Best results are on smooth, frameless glass. Ours are framed windows so it leaves a small 2cm gap at the edges.",
-      "name": "Works well on large glass panels — minor learning curve",
-      "image": [
-        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/01.webp",
-        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/02.webp"
-      ]
+     "label": {
+      "en": "Water tank capacity",
+      "zh": "水箱容量",
+      "es": "Capacidad del depósito de agua",
+      "ar": "سعة خزان الماء",
+      "fr": "Capacité du réservoir d'eau",
+      "id": "Kapasitas tangki air",
+      "ru": "Объём бака для воды",
+      "th": "ความจุถังน้ำ",
+      "vi": "Dung tích bình nước"
+     },
+     "value": {
+      "en": "100ml",
+      "es": "100ml",
+      "ar": "100ml",
+      "fr": "100ml",
+      "id": "100ml",
+      "ru": "100ml",
+      "th": "100ml",
+      "vi": "100ml"
+     }
+    },
+    {
+     "label": {
+      "en": "Runtime",
+      "zh": "续航时间",
+      "es": "Autonomía",
+      "ar": "مدة التشغيل",
+      "fr": "Autonomie",
+      "id": "Waktu Pakai",
+      "ru": "Время работы",
+      "th": "ระยะเวลาทำงาน",
+      "vi": "Thời gian chạy"
+     },
+     "value": {
+      "en": "20-35mins",
+      "es": "20-35mins",
+      "ar": "20-35mins",
+      "fr": "20-35mins",
+      "id": "20-35mins",
+      "ru": "20-35mins",
+      "th": "20-35mins",
+      "vi": "20-35mins"
+     }
     }
-  ]
+   ],
+   "price_ladder": [],
+   "sku": "1601905990885",
+   "description": {
+    "en": "8000Pa · 72W · 100ml. OEM/ODM available; specifications from the supplier listing.",
+    "zh": "8000Pa · 72W · 100ml。支持 OEM/ODM 定制，规格取自供应商商品资料。",
+    "es": "8000Pa · 72W · 100ml. Disponible en OEM/ODM; especificaciones tomadas del listado del proveedor.",
+    "ar": "8000Pa · 72W · 100ml. متاح بنظام OEM/ODM؛ المواصفات مأخوذة من قائمة المورّد.",
+    "fr": "8000Pa · 72W · 100ml. Disponible en OEM/ODM ; spécifications issues de la fiche du fournisseur.",
+    "id": "8000Pa · 72W · 100ml. Tersedia dalam OEM/ODM; spesifikasi diambil dari daftar pemasok.",
+    "ru": "8000Pa · 72W · 100ml. Доступно в OEM/ODM; характеристики взяты из карточки товара поставщика.",
+    "th": "8000Pa · 72W · 100ml. มีให้บริการในรูปแบบ OEM/ODM; ข้อมูลจำเพาะนำมาจากประกาศของผู้ขาย",
+    "vi": "8000Pa · 72W · 100ml. Có sẵn dạng OEM/ODM; thông số kỹ thuật lấy từ niêm yết của nhà cung cấp."
+   },
+   "supplier_rating": null,
+   "response_time": null,
+   "transactions": null,
+   "years": null,
+   "ship_from": null,
+   "sample": null,
+   "category_name": {
+    "en": "Smart Window Cleaning Robots",
+    "zh": "智能擦窗机器人",
+    "es": "Robot Limpiacristales Inteligente",
+    "ar": "روبوت تنظيف النوافذ الذكي",
+    "fr": "Robot nettoyeur de vitres intelligent",
+    "id": "Robot Pembersih Jendela Cerdas",
+    "ru": "Умный робот для мойки окон",
+    "th": "หุ่นยนต์ทำความสะอาดกระจกอัจฉริยะ",
+    "vi": "Robot lau kính thông minh"
+   },
+   "_source": {
+    "platform": "alibaba.com",
+    "productId": "1601905990885"
+   },
+   "_cat": "window-cleaner-robot"
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Wei Zhang",
+   "location": "Singapore",
+   "rating": 5,
+   "date": "2025-11-20",
+   "title": "Finally safe window cleaning on our 30th floor apartment",
+   "body": "Living on the 30th floor, window cleaning has always been dangerous. This robot handles both exterior and interior glass with its AI-powered path planning. The safety rope holds 150kg. Our windows have never been this clean.",
+   "photoUrls": [
+    "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/01.webp",
+    "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/02.webp"
+   ]
+  },
+  {
+   "name": "Olivia Brown",
+   "location": "San Francisco, CA, USA",
+   "rating": 5,
+   "date": "2025-09-08",
+   "title": "Perfect for floor-to-ceiling glass offices",
+   "body": "We manage a small office building and this robot has replaced our quarterly window cleaning service. It works on any glass thickness from 3mm to 35mm and the edge detection prevents it from falling off. The 3.5m extension cord covers most spaces.",
+   "photoUrls": [
+    "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/01.webp",
+    "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/02.webp"
+   ]
+  },
+  {
+   "name": "Marco Rossi",
+   "location": "Milan, Italy",
+   "rating": 4,
+   "date": "2025-07-22",
+   "title": "Works well on large glass panels — minor learning curve",
+   "body": "It takes about 5 minutes to learn the remote control and the app. Once you know how to set the cleaning path, it does an excellent job. Best results are on smooth, frameless glass. Ours are framed windows so it leaves a small 2cm gap at the edges.",
+   "photoUrls": [
+    "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/01.webp",
+    "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/02.webp"
+   ]
+  }
+ ],
+ "_schema_reviews": [
+  {
+   "@type": "Review",
+   "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "5",
+    "bestRating": "5",
+    "worstRating": "1"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Wei Zhang",
+    "address": {
+     "@type": "PostalAddress",
+     "addressLocality": "Singapore"
+    }
+   },
+   "datePublished": "2025-11-20",
+   "reviewBody": "Living on the 30th floor, window cleaning has always been dangerous. This robot handles both exterior and interior glass with its AI-powered path planning. The safety rope holds 150kg. Our windows have never been this clean.",
+   "name": "Finally safe window cleaning on our 30th floor apartment",
+   "image": [
+    "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/01.webp",
+    "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/02.webp"
+   ]
+  },
+  {
+   "@type": "Review",
+   "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "5",
+    "bestRating": "5",
+    "worstRating": "1"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Olivia Brown",
+    "address": {
+     "@type": "PostalAddress",
+     "addressLocality": "San Francisco, CA, USA"
+    }
+   },
+   "datePublished": "2025-09-08",
+   "reviewBody": "We manage a small office building and this robot has replaced our quarterly window cleaning service. It works on any glass thickness from 3mm to 35mm and the edge detection prevents it from falling off. The 3.5m extension cord covers most spaces.",
+   "name": "Perfect for floor-to-ceiling glass offices",
+   "image": [
+    "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/01.webp",
+    "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/02.webp"
+   ]
+  },
+  {
+   "@type": "Review",
+   "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "4",
+    "bestRating": "5",
+    "worstRating": "1"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Marco Rossi",
+    "address": {
+     "@type": "PostalAddress",
+     "addressLocality": "Milan, Italy"
+    }
+   },
+   "datePublished": "2025-07-22",
+   "reviewBody": "It takes about 5 minutes to learn the remote control and the app. Once you know how to set the cleaning path, it does an excellent job. Best results are on smooth, frameless glass. Ours are framed windows so it leaves a small 2cm gap at the edges.",
+   "name": "Works well on large glass panels — minor learning curve",
+   "image": [
+    "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/01.webp",
+    "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/02.webp"
+   ]
+  }
+ ]
 }
