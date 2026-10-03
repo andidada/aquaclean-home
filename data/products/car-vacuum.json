@@ -41,60 +41,1305 @@
    "certifications": [],
    "highlights": [
     {
-     "icon": "check",
-     "text": {
-      "en": "Suction: 4000Pa",
-      "zh": "吸力: 4000Pa",
-      "es": "Succión: 4000Pa",
-      "ar": "الشفط: 4000Pa",
-      "fr": "Aspiration: 4000Pa",
-      "id": "Daya Hisap: 4000Pa",
-      "ru": "Всасывание: 4000Pa",
-      "th": "แรงดูด: 4000Pa",
-      "vi": "Lực hút: 4000Pa"
-     }
+      "id": "yzx-305",
+      "name": {
+        "en": "OEM ODM 4000Pa Cordless Handheld Car Vacuum Cleaner Air Blower Inflator 3-in-1 Portable Type-C Rechargeable HEPA Filter",
+        "zh": "YZX-305 无线手持车载吸尘器（4000Pa 三合一：吸尘/吹风/充气）"
+      },
+      "tagline": {
+        "en": "4000Pa · 50 W · <30 min",
+        "zh": "4000Pa · 50 W · <30 min"
+      },
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/01.jpg",
+        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/02.jpg",
+        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/03.jpg",
+        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/04.jpg",
+        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/05.jpg",
+        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/06.jpg"
+      ],
+      "video_url": null,
+      "moq": {
+        "value": 1,
+        "unit": "pieces"
+      },
+      "certifications": [],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": {
+            "en": "Suction: 4000Pa",
+            "zh": "吸力: 4000Pa"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Power (W): 50 W",
+            "zh": "功率(W): 50 W"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Maximum Runtime: <30 min",
+            "zh": "最长续航: <30 min"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Working Time: 15mins",
+            "zh": "工作时间: 15mins"
+          }
+        }
+      ],
+      "specs": [
+        {
+          "label": {
+            "en": "Material",
+            "zh": "材质"
+          },
+          "value": "ABS"
+        },
+        {
+          "label": {
+            "en": "Working Time",
+            "zh": "工作时间"
+          },
+          "value": "15mins"
+        },
+        {
+          "label": {
+            "en": "Suction",
+            "zh": "Suction"
+          },
+          "value": "4000Pa"
+        },
+        {
+          "label": {
+            "en": "Battery",
+            "zh": "Battery"
+          },
+          "value": "Li-ion Battery"
+        },
+        {
+          "label": {
+            "en": "Battery Capacity",
+            "zh": "电池容量"
+          },
+          "value": "1500mAh*2"
+        },
+        {
+          "label": {
+            "en": "maximum runtime",
+            "zh": "maximum runtime"
+          },
+          "value": "<30 min"
+        },
+        {
+          "label": {
+            "en": "suction power (airwatts)",
+            "zh": "suction power (airwatts)"
+          },
+          "value": "≤ 50 AW"
+        },
+        {
+          "label": {
+            "en": "app-controlled",
+            "zh": "app-controlled"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Car"
+        },
+        {
+          "label": {
+            "en": "bag or bagless",
+            "zh": "bag or bagless"
+          },
+          "value": "Bagless"
+        },
+        {
+          "label": {
+            "en": "Charging Time",
+            "zh": "充电时间"
+          },
+          "value": "1-3H"
+        },
+        {
+          "label": {
+            "en": "filter",
+            "zh": "filter"
+          },
+          "value": "HEPA Filter"
+        },
+        {
+          "label": {
+            "en": "installation",
+            "zh": "installation"
+          },
+          "value": "Hand Held"
+        },
+        {
+          "label": {
+            "en": "motor type",
+            "zh": "motor type"
+          },
+          "value": "Brush Motor"
+        },
+        {
+          "label": {
+            "en": "nozzle number",
+            "zh": "nozzle number"
+          },
+          "value": "4-6"
+        },
+        {
+          "label": {
+            "en": "operating language",
+            "zh": "operating language"
+          },
+          "value": "English"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Corrugated Box"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Color Box"
+        },
+        {
+          "label": {
+            "en": "private mold",
+            "zh": "private mold"
+          },
+          "value": "Yes"
+        },
+        {
+          "label": {
+            "en": "product net weight",
+            "zh": "product net weight"
+          },
+          "value": "0.5–1 kg"
+        },
+        {
+          "label": {
+            "en": "warranty",
+            "zh": "warranty"
+          },
+          "value": "1 Year"
+        },
+        {
+          "label": {
+            "en": "place of origin",
+            "zh": "place of origin"
+          },
+          "value": "CN;GUA"
+        },
+        {
+          "label": {
+            "en": "Function",
+            "zh": "功能"
+          },
+          "value": "vacuuming"
+        },
+        {
+          "label": {
+            "en": "Dust capacity",
+            "zh": "Dust capacity"
+          },
+          "value": "0.12L"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "HEPA, lightweight, portable, wet/dry, rechargeable"
+        },
+        {
+          "label": {
+            "en": "power (w)",
+            "zh": "power (w)"
+          },
+          "value": "50 W"
+        },
+        {
+          "label": {
+            "en": "power source",
+            "zh": "power source"
+          },
+          "value": "Battery Powered"
+        },
+        {
+          "label": {
+            "en": "model number",
+            "zh": "model number"
+          },
+          "value": "YZX-305"
+        }
+      ],
+      "packaging": {
+        "unit": "Color Box"
+      },
+      "customization": {},
+      "applications": {
+        "en": "",
+        "zh": ""
+      },
+      "price_indicator": null,
+      "quick_specs": [
+        {
+          "label": {
+            "en": "Suction",
+            "zh": "吸力"
+          },
+          "value": "4000Pa"
+        },
+        {
+          "label": {
+            "en": "Power (W)",
+            "zh": "功率(W)"
+          },
+          "value": "50 W"
+        },
+        {
+          "label": {
+            "en": "Maximum Runtime",
+            "zh": "最长续航"
+          },
+          "value": "<30 min"
+        },
+        {
+          "label": {
+            "en": "Working Time",
+            "zh": "工作时间"
+          },
+          "value": "15mins"
+        }
+      ],
+      "price_ladder": [],
+      "sku": "1601898293964",
+      "description": {
+        "en": "4000Pa · 50 W · <30 min. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "4000Pa · 50 W · <30 min。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+      },
+      "supplier_rating": null,
+      "response_time": null,
+      "transactions": null,
+      "years": null,
+      "ship_from": null,
+      "sample": null,
+      "category_name": {
+        "en": "Car Vacuum Cleaners",
+        "zh": "车载吸尘器"
+      },
+      "_source": {
+        "platform": "alibaba.com",
+        "productId": "1601898293964"
+      },
+      "_cat": "car-vacuum"
     },
     {
-     "icon": "check",
-     "text": {
-      "en": "Power (W): 50 W",
-      "zh": "功率(W): 50 W",
-      "es": "Potencia (W): 50 W",
-      "ar": "القدرة (W): 50 W",
-      "fr": "Puissance (W): 50 W",
-      "id": "Daya (W): 50 W",
-      "ru": "Мощность (Вт): 50 W",
-      "th": "กำลังไฟ (W): 50 W",
-      "vi": "Công suất (W): 50 W"
-     }
+      "id": "px2",
+      "name": {
+        "en": "USB Rechargeable Brushless Car Vacuum Cleaner 20KPa Powerful Suction Portable Handheld Vacuum OEM Factory Supplier",
+        "zh": "PX2 无刷车载吸尘器（20KPa 强吸力 / USB 充电）"
+      },
+      "tagline": {
+        "en": "100 W · <30 min · 2000mAh*3",
+        "zh": "100 W · <30 min · 2000mAh*3"
+      },
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/car-vacuum-px2/01.jpg",
+        "https://www.hkdmj.net/assets/images/products/car-vacuum-px2/02.jpg",
+        "https://www.hkdmj.net/assets/images/products/car-vacuum-px2/03.jpg",
+        "https://www.hkdmj.net/assets/images/products/car-vacuum-px2/04.jpg",
+        "https://www.hkdmj.net/assets/images/products/car-vacuum-px2/05.jpg",
+        "https://www.hkdmj.net/assets/images/products/car-vacuum-px2/06.jpg"
+      ],
+      "video_url": null,
+      "moq": {
+        "value": 1,
+        "unit": "pieces"
+      },
+      "certifications": [],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": {
+            "en": "Power (W): 100 W",
+            "zh": "功率(W): 100 W"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Maximum Runtime: <30 min",
+            "zh": "最长续航: <30 min"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Battery Capacity: 2000mAh*3",
+            "zh": "电池容量: 2000mAh*3"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Dust capacity: 0.12L",
+            "zh": "尘杯容量: 0.12L"
+          }
+        }
+      ],
+      "specs": [
+        {
+          "label": {
+            "en": "Keywords",
+            "zh": "Keywords"
+          },
+          "value": "Car Cordless Cleaner Vacuum"
+        },
+        {
+          "label": {
+            "en": "Style",
+            "zh": "Style"
+          },
+          "value": "Handehld"
+        },
+        {
+          "label": {
+            "en": "Material",
+            "zh": "材质"
+          },
+          "value": "ABS"
+        },
+        {
+          "label": {
+            "en": "Battery Capacity",
+            "zh": "电池容量"
+          },
+          "value": "2000mAh*3"
+        },
+        {
+          "label": {
+            "en": "Battery",
+            "zh": "Battery"
+          },
+          "value": "Li-ion Battery"
+        },
+        {
+          "label": {
+            "en": "Vacuum",
+            "zh": "Vacuum"
+          },
+          "value": "20KPA"
+        },
+        {
+          "label": {
+            "en": "maximum runtime",
+            "zh": "maximum runtime"
+          },
+          "value": "<30 min"
+        },
+        {
+          "label": {
+            "en": "app-controlled",
+            "zh": "app-controlled"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Car"
+        },
+        {
+          "label": {
+            "en": "bag or bagless",
+            "zh": "bag or bagless"
+          },
+          "value": "Bagless"
+        },
+        {
+          "label": {
+            "en": "Charging Time",
+            "zh": "充电时间"
+          },
+          "value": "1-3H"
+        },
+        {
+          "label": {
+            "en": "filter",
+            "zh": "filter"
+          },
+          "value": "HEPA Filter"
+        },
+        {
+          "label": {
+            "en": "installation",
+            "zh": "installation"
+          },
+          "value": "Hand Held"
+        },
+        {
+          "label": {
+            "en": "motor type",
+            "zh": "motor type"
+          },
+          "value": "Brushless Motor"
+        },
+        {
+          "label": {
+            "en": "nozzle number",
+            "zh": "nozzle number"
+          },
+          "value": "≤ 3"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Corrugated Box"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Color Box"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Gift Box"
+        },
+        {
+          "label": {
+            "en": "power (w)",
+            "zh": "power (w)"
+          },
+          "value": "100 W"
+        },
+        {
+          "label": {
+            "en": "private mold",
+            "zh": "private mold"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "product net weight",
+            "zh": "product net weight"
+          },
+          "value": "0.5–1 kg"
+        },
+        {
+          "label": {
+            "en": "warranty",
+            "zh": "warranty"
+          },
+          "value": "1 Year"
+        },
+        {
+          "label": {
+            "en": "place of origin",
+            "zh": "place of origin"
+          },
+          "value": "CN"
+        },
+        {
+          "label": {
+            "en": "Function",
+            "zh": "功能"
+          },
+          "value": "vacuuming"
+        },
+        {
+          "label": {
+            "en": "Dust capacity",
+            "zh": "Dust capacity"
+          },
+          "value": "0.12L"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "HEPA, lightweight, portable, wet/dry, rechargeable"
+        },
+        {
+          "label": {
+            "en": "power source",
+            "zh": "power source"
+          },
+          "value": "Battery Powered"
+        },
+        {
+          "label": {
+            "en": "model number",
+            "zh": "model number"
+          },
+          "value": "PX2"
+        }
+      ],
+      "packaging": {
+        "unit": "Gift Box"
+      },
+      "customization": {},
+      "applications": {
+        "en": "",
+        "zh": ""
+      },
+      "price_indicator": null,
+      "quick_specs": [
+        {
+          "label": {
+            "en": "Power (W)",
+            "zh": "功率(W)"
+          },
+          "value": "100 W"
+        },
+        {
+          "label": {
+            "en": "Maximum Runtime",
+            "zh": "最长续航"
+          },
+          "value": "<30 min"
+        },
+        {
+          "label": {
+            "en": "Battery Capacity",
+            "zh": "电池容量"
+          },
+          "value": "2000mAh*3"
+        },
+        {
+          "label": {
+            "en": "Dust capacity",
+            "zh": "尘杯容量"
+          },
+          "value": "0.12L"
+        }
+      ],
+      "price_ladder": [],
+      "sku": "1601877244718",
+      "description": {
+        "en": "100 W · <30 min · 2000mAh*3. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "100 W · <30 min · 2000mAh*3。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+      },
+      "supplier_rating": null,
+      "response_time": null,
+      "transactions": null,
+      "years": null,
+      "ship_from": null,
+      "sample": null,
+      "category_name": {
+        "en": "Car Vacuum Cleaners",
+        "zh": "车载吸尘器"
+      },
+      "_source": {
+        "platform": "alibaba.com",
+        "productId": "1601877244718"
+      },
+      "_cat": "car-vacuum"
     },
     {
-     "icon": "check",
-     "text": {
-      "en": "Maximum Runtime: <30 min",
-      "zh": "最长续航: <30 min",
-      "es": "Autonomía máxima: <30 min",
-      "ar": "أقصى مدة تشغيل: <30 min",
-      "fr": "Autonomie maximale: <30 min",
-      "id": "Waktu Pakai Maksimum: <30 min",
-      "ru": "Макс. время работы: <30 min",
-      "th": "ระยะเวลาทำงานสูงสุด: <30 min",
-      "vi": "Thời gian chạy tối đa: <30 min"
-     }
+      "id": "yzx-309",
+      "name": {
+        "en": "15KPa Brushless Cordless Car Vacuum Cleaner Air Duster 2 in 1 Portable Handheld Vacuum Cleaner OEM ODM Factory",
+        "zh": "YZX-309 无线车载吸尘器（15KPa 二合一：吸尘/吹气）"
+      },
+      "tagline": {
+        "en": "15kpa · 65 W · 16-25min",
+        "zh": "15kpa · 65 W · 16-25min"
+      },
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/01.jpg",
+        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/02.jpg",
+        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/03.jpg",
+        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/04.jpg",
+        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/05.jpg",
+        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/06.jpg"
+      ],
+      "video_url": null,
+      "moq": {
+        "value": 1,
+        "unit": "pieces"
+      },
+      "certifications": [],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": {
+            "en": "Suction: 15kpa",
+            "zh": "吸力: 15kpa"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Power (W): 65 W",
+            "zh": "功率(W): 65 W"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Runtime: 16-25min",
+            "zh": "续航时间: 16-25min"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Maximum Runtime: <30 min",
+            "zh": "最长续航: <30 min"
+          }
+        }
+      ],
+      "specs": [
+        {
+          "label": {
+            "en": "Product name",
+            "zh": "Product name"
+          },
+          "value": "Handheld Vacuum Cleaner"
+        },
+        {
+          "label": {
+            "en": "Suction",
+            "zh": "Suction"
+          },
+          "value": "15kpa"
+        },
+        {
+          "label": {
+            "en": "Keywords",
+            "zh": "Keywords"
+          },
+          "value": "Car Cordless Cleaner Vacuum"
+        },
+        {
+          "label": {
+            "en": "Material",
+            "zh": "材质"
+          },
+          "value": "ABS"
+        },
+        {
+          "label": {
+            "en": "Battery Capacity",
+            "zh": "电池容量"
+          },
+          "value": "2000mAh*2"
+        },
+        {
+          "label": {
+            "en": "Style",
+            "zh": "Style"
+          },
+          "value": "Handehld"
+        },
+        {
+          "label": {
+            "en": "Runtime",
+            "zh": "续航时间"
+          },
+          "value": "16-25min"
+        },
+        {
+          "label": {
+            "en": "maximum runtime",
+            "zh": "maximum runtime"
+          },
+          "value": "<30 min"
+        },
+        {
+          "label": {
+            "en": "suction power (airwatts)",
+            "zh": "suction power (airwatts)"
+          },
+          "value": "81-100 AW"
+        },
+        {
+          "label": {
+            "en": "app-controlled",
+            "zh": "app-controlled"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Car"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Household"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Hotel"
+        },
+        {
+          "label": {
+            "en": "bag or bagless",
+            "zh": "bag or bagless"
+          },
+          "value": "Bagless"
+        },
+        {
+          "label": {
+            "en": "Charging Time",
+            "zh": "充电时间"
+          },
+          "value": "1-3H"
+        },
+        {
+          "label": {
+            "en": "filter",
+            "zh": "filter"
+          },
+          "value": "HEPA Filter"
+        },
+        {
+          "label": {
+            "en": "installation",
+            "zh": "installation"
+          },
+          "value": "Hand Held"
+        },
+        {
+          "label": {
+            "en": "motor type",
+            "zh": "motor type"
+          },
+          "value": "Brushless Motor"
+        },
+        {
+          "label": {
+            "en": "nozzle number",
+            "zh": "nozzle number"
+          },
+          "value": "4-6"
+        },
+        {
+          "label": {
+            "en": "operating language",
+            "zh": "operating language"
+          },
+          "value": "English"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Corrugated Box"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Color Box"
+        },
+        {
+          "label": {
+            "en": "private mold",
+            "zh": "private mold"
+          },
+          "value": "Yes"
+        },
+        {
+          "label": {
+            "en": "product net weight",
+            "zh": "product net weight"
+          },
+          "value": "0.5–1 kg"
+        },
+        {
+          "label": {
+            "en": "warranty",
+            "zh": "warranty"
+          },
+          "value": "1 Year"
+        },
+        {
+          "label": {
+            "en": "place of origin",
+            "zh": "place of origin"
+          },
+          "value": "CN;GUA"
+        },
+        {
+          "label": {
+            "en": "Function",
+            "zh": "功能"
+          },
+          "value": "Wet And Dry"
+        },
+        {
+          "label": {
+            "en": "Function",
+            "zh": "功能"
+          },
+          "value": "vacuuming"
+        },
+        {
+          "label": {
+            "en": "Dust capacity",
+            "zh": "Dust capacity"
+          },
+          "value": "0.12L"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "HEPA, lightweight, portable, wet/dry, rechargeable"
+        },
+        {
+          "label": {
+            "en": "power (w)",
+            "zh": "power (w)"
+          },
+          "value": "65 W"
+        },
+        {
+          "label": {
+            "en": "power source",
+            "zh": "power source"
+          },
+          "value": "Battery Powered"
+        },
+        {
+          "label": {
+            "en": "model number",
+            "zh": "model number"
+          },
+          "value": "YZX-309"
+        }
+      ],
+      "packaging": {
+        "unit": "Color Box"
+      },
+      "customization": {},
+      "applications": {
+        "en": "",
+        "zh": ""
+      },
+      "price_indicator": null,
+      "quick_specs": [
+        {
+          "label": {
+            "en": "Suction",
+            "zh": "吸力"
+          },
+          "value": "15kpa"
+        },
+        {
+          "label": {
+            "en": "Power (W)",
+            "zh": "功率(W)"
+          },
+          "value": "65 W"
+        },
+        {
+          "label": {
+            "en": "Runtime",
+            "zh": "续航时间"
+          },
+          "value": "16-25min"
+        },
+        {
+          "label": {
+            "en": "Maximum Runtime",
+            "zh": "最长续航"
+          },
+          "value": "<30 min"
+        }
+      ],
+      "price_ladder": [],
+      "sku": "1601900237070",
+      "description": {
+        "en": "15kpa · 65 W · 16-25min. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "15kpa · 65 W · 16-25min。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+      },
+      "supplier_rating": null,
+      "response_time": null,
+      "transactions": null,
+      "years": null,
+      "ship_from": null,
+      "sample": null,
+      "category_name": {
+        "en": "Car Vacuum Cleaners",
+        "zh": "车载吸尘器"
+      },
+      "_source": {
+        "platform": "alibaba.com",
+        "productId": "1601900237070"
+      },
+      "_cat": "car-vacuum"
     },
     {
-     "icon": "check",
-     "text": {
-      "en": "Working Time: 15mins",
-      "zh": "工作时间: 15mins",
-      "es": "Tiempo de funcionamiento: 15mins",
-      "ar": "زمن العمل: 15mins",
-      "fr": "Temps de fonctionnement: 15mins",
-      "id": "Waktu Kerja: 15mins",
-      "ru": "Время работы: 15mins",
-      "th": "เวลาทำงาน: 15mins",
-      "vi": "Thời gian làm việc: 15mins"
-     }
+      "id": "k15",
+      "name": {
+        "en": "Best Selling Electric Handheld Wet & Dry Stain Vacuum Cleaner with Steam for Household Car & RV Use",
+        "zh": "K15 手持干湿两用蒸汽布艺清洗机（400W / 1.5–1.9L / 汽车·RV 内饰）"
+      },
+      "tagline": {
+        "en": "400 W · 1.5-1.9L · Plastic, ABS+aluminum",
+        "zh": "400 W · 1.5-1.9L · Plastic, ABS+aluminum"
+      },
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/car-vacuum-k15/01.jpg",
+        "https://www.hkdmj.net/assets/images/products/car-vacuum-k15/02.jpg",
+        "https://www.hkdmj.net/assets/images/products/car-vacuum-k15/03.jpg",
+        "https://www.hkdmj.net/assets/images/products/car-vacuum-k15/04.jpg",
+        "https://www.hkdmj.net/assets/images/products/car-vacuum-k15/05.jpg",
+        "https://www.hkdmj.net/assets/images/products/car-vacuum-k15/06.jpg"
+      ],
+      "video_url": null,
+      "moq": {
+        "value": 1,
+        "unit": "pieces"
+      },
+      "certifications": [],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": {
+            "en": "Power (W): 400 W",
+            "zh": "功率(W): 400 W"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Capacity: 1.5-1.9L",
+            "zh": "容量: 1.5-1.9L"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Material: Plastic, ABS+aluminum",
+            "zh": "材质: Plastic, ABS+aluminum"
+          }
+        }
+      ],
+      "specs": [
+        {
+          "label": {
+            "en": "installation",
+            "zh": "installation"
+          },
+          "value": "Hand Held"
+        },
+        {
+          "label": {
+            "en": "type",
+            "zh": "type"
+          },
+          "value": "High Pressure Water Cleaning"
+        },
+        {
+          "label": {
+            "en": "after-sales service provided",
+            "zh": "after-sales service provided"
+          },
+          "value": "Return and Replacement"
+        },
+        {
+          "label": {
+            "en": "app-controlled",
+            "zh": "app-controlled"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Household"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Hotel"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Car"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Garage"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Commercial"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "RV"
+        },
+        {
+          "label": {
+            "en": "bag or bagless",
+            "zh": "bag or bagless"
+          },
+          "value": "With Bag"
+        },
+        {
+          "label": {
+            "en": "Capacity",
+            "zh": "Capacity"
+          },
+          "value": "1.5-1.9L"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Easy Operation"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Portable"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Scrubbing Function"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Deep Cleaning"
+        },
+        {
+          "label": {
+            "en": "function",
+            "zh": "function"
+          },
+          "value": "Wet And Dry"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Corrugated Box"
+        },
+        {
+          "label": {
+            "en": "power (w)",
+            "zh": "功率(W)"
+          },
+          "value": "400 W"
+        },
+        {
+          "label": {
+            "en": "power source",
+            "zh": "power source"
+          },
+          "value": "Electric"
+        },
+        {
+          "label": {
+            "en": "private mold",
+            "zh": "private mold"
+          },
+          "value": "Yes"
+        },
+        {
+          "label": {
+            "en": "Surface recommendation",
+            "zh": "Surface recommendation"
+          },
+          "value": "Textile"
+        },
+        {
+          "label": {
+            "en": "Surface recommendation",
+            "zh": "Surface recommendation"
+          },
+          "value": "Stone"
+        },
+        {
+          "label": {
+            "en": "Surface recommendation",
+            "zh": "Surface recommendation"
+          },
+          "value": "Wood"
+        },
+        {
+          "label": {
+            "en": "Surface recommendation",
+            "zh": "Surface recommendation"
+          },
+          "value": "Plastic"
+        },
+        {
+          "label": {
+            "en": "Surface recommendation",
+            "zh": "Surface recommendation"
+          },
+          "value": "Metal"
+        },
+        {
+          "label": {
+            "en": "Surface recommendation",
+            "zh": "Surface recommendation"
+          },
+          "value": "Ceramic"
+        },
+        {
+          "label": {
+            "en": "warranty",
+            "zh": "warranty"
+          },
+          "value": "1 Year"
+        },
+        {
+          "label": {
+            "en": "place of origin",
+            "zh": "place of origin"
+          },
+          "value": "CN;GUA"
+        },
+        {
+          "label": {
+            "en": "brand name",
+            "zh": "brand name"
+          },
+          "value": "OEM ODM"
+        },
+        {
+          "label": {
+            "en": "Material",
+            "zh": "材质"
+          },
+          "value": "Plastic, ABS+aluminum"
+        },
+        {
+          "label": {
+            "en": "model number",
+            "zh": "model number"
+          },
+          "value": "K15"
+        }
+      ],
+      "packaging": {
+        "unit": "Corrugated Box"
+      },
+      "customization": {},
+      "applications": {
+        "en": "",
+        "zh": ""
+      },
+      "price_indicator": null,
+      "quick_specs": [
+        {
+          "label": {
+            "en": "Power (W)",
+            "zh": "功率(W)"
+          },
+          "value": "400 W"
+        },
+        {
+          "label": {
+            "en": "Capacity",
+            "zh": "容量"
+          },
+          "value": "1.5-1.9L"
+        },
+        {
+          "label": {
+            "en": "Material",
+            "zh": "材质"
+          },
+          "value": "Plastic, ABS+aluminum"
+        }
+      ],
+      "price_ladder": [],
+      "sku": "1601716198186",
+      "description": {
+        "en": "400 W · 1.5-1.9L · Plastic, ABS+aluminum. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "400 W · 1.5-1.9L · Plastic, ABS+aluminum。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+      },
+      "supplier_rating": null,
+      "response_time": null,
+      "transactions": null,
+      "years": null,
+      "ship_from": null,
+      "sample": null,
+      "category_name": {
+        "en": "Car Vacuum Cleaners",
+        "zh": "车载吸尘器"
+      },
+      "_source": {
+        "platform": "alibaba.com",
+        "productId": "1601716198186"
+      },
+      "_cat": "car-vacuum"
     }
    ],
    "specs": [

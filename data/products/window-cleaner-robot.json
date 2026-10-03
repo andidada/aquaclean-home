@@ -39,60 +39,329 @@
    "certifications": [],
    "highlights": [
     {
-     "icon": "check",
-     "text": {
-      "en": "Suction Power: 8000Pa",
-      "zh": "吸力: 8000Pa",
-      "es": "Potencia de succión: 8000Pa",
-      "ar": "قوة الشفط: 8000Pa",
-      "fr": "Puissance d'aspiration: 8000Pa",
-      "id": "Daya Hisap: 8000Pa",
-      "ru": "Мощность всасывания: 8000Pa",
-      "th": "กำลังดูด: 8000Pa",
-      "vi": "Công suất hút: 8000Pa"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Power (W): 72W",
-      "zh": "功率(W): 72W",
-      "es": "Potencia (W): 72W",
-      "ar": "القدرة (W): 72W",
-      "fr": "Puissance (W): 72W",
-      "id": "Daya (W): 72W",
-      "ru": "Мощность (Вт): 72W",
-      "th": "กำลังไฟ (W): 72W",
-      "vi": "Công suất (W): 72W"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Water tank capacity: 100ml",
-      "zh": "水箱容量: 100ml",
-      "es": "Capacidad del depósito de agua: 100ml",
-      "ar": "سعة خزان الماء: 100ml",
-      "fr": "Capacité du réservoir d'eau: 100ml",
-      "id": "Kapasitas tangki air: 100ml",
-      "ru": "Объём бака для воды: 100ml",
-      "th": "ความจุถังน้ำ: 100ml",
-      "vi": "Dung tích bình nước: 100ml"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Runtime: 20-35mins",
-      "zh": "续航时间: 20-35mins",
-      "es": "Autonomía: 20-35mins",
-      "ar": "مدة التشغيل: 20-35mins",
-      "fr": "Autonomie: 20-35mins",
-      "id": "Waktu Pakai: 20-35mins",
-      "ru": "Время работы: 20-35mins",
-      "th": "ระยะเวลาทำงาน: 20-35mins",
-      "vi": "Thời gian chạy: 20-35mins"
-     }
+      "id": "gm1-c",
+      "name": {
+        "en": "OEM ODM Smart Window Cleaning Robot Remote Control Brushless Motor Household Use Automatic Glass Cleaner Anti-Fall Protection",
+        "zh": "GM1-C 智能擦窗机器人（遥控 / 自动玻璃清洁）"
+      },
+      "tagline": {
+        "en": "8000Pa · 72W · 100ml",
+        "zh": "8000Pa · 72W · 100ml"
+      },
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/01.jpg",
+        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/02.jpg",
+        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/03.jpg",
+        "https://www.hkdmj.net/assets/images/products/window-cleaner-robot-gm1-c/04.jpg"
+      ],
+      "video_url": null,
+      "moq": {
+        "value": 1,
+        "unit": "pieces"
+      },
+      "certifications": [],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": {
+            "en": "Suction Power: 8000Pa",
+            "zh": "吸力: 8000Pa"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Power (W): 72W",
+            "zh": "功率(W): 72W"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Water tank capacity: 100ml",
+            "zh": "水箱容量: 100ml"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Runtime: 20-35mins",
+            "zh": "续航时间: 20-35mins"
+          }
+        }
+      ],
+      "specs": [
+        {
+          "label": {
+            "en": "Suction Power",
+            "zh": "吸力"
+          },
+          "value": "8000Pa"
+        },
+        {
+          "label": {
+            "en": "Battery capacity",
+            "zh": "Battery capacity"
+          },
+          "value": "500mAh"
+        },
+        {
+          "label": {
+            "en": "Runtime",
+            "zh": "续航时间"
+          },
+          "value": "20-35mins"
+        },
+        {
+          "label": {
+            "en": "Water tank capacity",
+            "zh": "Water tank capacity"
+          },
+          "value": "100ml"
+        },
+        {
+          "label": {
+            "en": "Motor Power",
+            "zh": "Motor Power"
+          },
+          "value": "72W"
+        },
+        {
+          "label": {
+            "en": "Motor Type",
+            "zh": "电机类型"
+          },
+          "value": "Brushless Motor"
+        },
+        {
+          "label": {
+            "en": "Feature 1",
+            "zh": "Feature 1"
+          },
+          "value": "Safety Rope Protection"
+        },
+        {
+          "label": {
+            "en": "Feature 2",
+            "zh": "Feature 2"
+          },
+          "value": "UPS Power Backup Protection"
+        },
+        {
+          "label": {
+            "en": "Battery Capacity",
+            "zh": "电池容量"
+          },
+          "value": "500 mAh"
+        },
+        {
+          "label": {
+            "en": "Maximum Runtime",
+            "zh": "Maximum Runtime"
+          },
+          "value": "30-60 min"
+        },
+        {
+          "label": {
+            "en": "app-controlled",
+            "zh": "app-controlled"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Hotel"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Household"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Commercial"
+        },
+        {
+          "label": {
+            "en": "cleaning mode",
+            "zh": "cleaning mode"
+          },
+          "value": "multiple modes"
+        },
+        {
+          "label": {
+            "en": "dust box capacity l",
+            "zh": "dust box capacity l"
+          },
+          "value": "0.5 L"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Safety"
+        },
+        {
+          "label": {
+            "en": "Material",
+            "zh": "材质"
+          },
+          "value": "Plastic"
+        },
+        {
+          "label": {
+            "en": "Motor Type",
+            "zh": "电机类型"
+          },
+          "value": "Brushless Motor"
+        },
+        {
+          "label": {
+            "en": "Navigation Mode",
+            "zh": "Navigation Mode"
+          },
+          "value": "Infrared"
+        },
+        {
+          "label": {
+            "en": "operating language",
+            "zh": "operating language"
+          },
+          "value": "English"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Color Box"
+        },
+        {
+          "label": {
+            "en": "Power Source",
+            "zh": "Power Source"
+          },
+          "value": "Battery"
+        },
+        {
+          "label": {
+            "en": "private mold",
+            "zh": "private mold"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "Type",
+            "zh": "类型"
+          },
+          "value": "Fully Automatic"
+        },
+        {
+          "label": {
+            "en": "warranty",
+            "zh": "warranty"
+          },
+          "value": "1 Year"
+        },
+        {
+          "label": {
+            "en": "place of origin",
+            "zh": "place of origin"
+          },
+          "value": "CN;GUA"
+        },
+        {
+          "label": {
+            "en": "brand name",
+            "zh": "brand name"
+          },
+          "value": "OEM ODM"
+        },
+        {
+          "label": {
+            "en": "power (w)",
+            "zh": "power (w)"
+          },
+          "value": "72W"
+        },
+        {
+          "label": {
+            "en": "model number",
+            "zh": "model number"
+          },
+          "value": "GM1-C"
+        }
+      ],
+      "packaging": {
+        "unit": "Color Box"
+      },
+      "customization": {},
+      "applications": {
+        "en": "",
+        "zh": ""
+      },
+      "price_indicator": null,
+      "quick_specs": [
+        {
+          "label": {
+            "en": "Suction Power",
+            "zh": "吸力"
+          },
+          "value": "8000Pa"
+        },
+        {
+          "label": {
+            "en": "Power (W)",
+            "zh": "功率(W)"
+          },
+          "value": "72W"
+        },
+        {
+          "label": {
+            "en": "Water tank capacity",
+            "zh": "水箱容量"
+          },
+          "value": "100ml"
+        },
+        {
+          "label": {
+            "en": "Runtime",
+            "zh": "续航时间"
+          },
+          "value": "20-35mins"
+        }
+      ],
+      "price_ladder": [],
+      "sku": "1601905990885",
+      "description": {
+        "en": "8000Pa · 72W · 100ml. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "8000Pa · 72W · 100ml。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+      },
+      "supplier_rating": null,
+      "response_time": null,
+      "transactions": null,
+      "years": null,
+      "ship_from": null,
+      "sample": null,
+      "category_name": {
+        "en": "Smart Window Cleaning Robots",
+        "zh": "智能擦窗机器人"
+      },
+      "_source": {
+        "platform": "alibaba.com",
+        "productId": "1601905990885"
+      },
+      "_cat": "window-cleaner-robot"
     }
    ],
    "specs": [

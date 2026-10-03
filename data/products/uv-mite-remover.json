@@ -41,60 +41,331 @@
    "certifications": [],
    "highlights": [
     {
-     "icon": "check",
-     "text": {
-      "en": "Power (W): 200 W",
-      "zh": "功率(W): 200 W",
-      "es": "Potencia (W): 200 W",
-      "ar": "القدرة (W): 200 W",
-      "fr": "Puissance (W): 200 W",
-      "id": "Daya (W): 200 W",
-      "ru": "Мощность (Вт): 200 W",
-      "th": "กำลังไฟ (W): 200 W",
-      "vi": "Công suất (W): 200 W"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Maximum Runtime: 30-60 min",
-      "zh": "最长续航: 30-60 min",
-      "es": "Autonomía máxima: 30-60 min",
-      "ar": "أقصى مدة تشغيل: 30-60 min",
-      "fr": "Autonomie maximale: 30-60 min",
-      "id": "Waktu Pakai Maksimum: 30-60 min",
-      "ru": "Макс. время работы: 30-60 min",
-      "th": "ระยะเวลาทำงานสูงสุด: 30-60 min",
-      "vi": "Thời gian chạy tối đa: 30-60 min"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Dust capacity: 0.5L",
-      "zh": "尘杯容量: 0.5L",
-      "es": "Capacidad de polvo: 0.5L",
-      "ar": "سعة الغبار: 0.5L",
-      "fr": "Capacité du bac à poussière: 0.5L",
-      "id": "Kapasitas debu: 0.5L",
-      "ru": "Объём пылесборника: 0.5L",
-      "th": "ความจุฝุ่น: 0.5L",
-      "vi": "Dung tích bụi: 0.5L"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Motor Type: Brushless Motor",
-      "zh": "电机类型: Brushless Motor",
-      "es": "Tipo de motor: Motor sin escobillas",
-      "ar": "نوع المحرك: محرك بدون فرشاة",
-      "fr": "Type de moteur: Moteur sans balais",
-      "id": "Jenis Motor: Motor Tanpa Sikat",
-      "ru": "Тип двигателя: Бесщёточный двигатель",
-      "th": "ประเภทมอเตอร์: มอเตอร์แบบไม่มีแปรงถ่าน",
-      "vi": "Loại động cơ: Động cơ không chổi than"
-     }
+      "id": "pc708",
+      "name": {
+        "en": "PC708 Cordless Stick Vacuum Cleaner Brushless 22kPa Suction 45Min Runtime Lightweight for Pet Hair Carpet Mite Removal Hotel Car",
+        "zh": "PC708 床褥除螨吸尘器（22kPa 无刷 / 45 分钟续航）"
+      },
+      "tagline": {
+        "en": "200 W · 30-60 min · 0.5L",
+        "zh": "200 W · 30-60 min · 0.5L"
+      },
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/01.jpg",
+        "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/02.jpg",
+        "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/03.jpg",
+        "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/04.jpg",
+        "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/05.jpg",
+        "https://www.hkdmj.net/assets/images/products/uv-mite-remover-pc708/06.jpg"
+      ],
+      "video_url": null,
+      "moq": {
+        "value": 1,
+        "unit": "pieces"
+      },
+      "certifications": [],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": {
+            "en": "Power (W): 200 W",
+            "zh": "功率(W): 200 W"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Maximum Runtime: 30-60 min",
+            "zh": "最长续航: 30-60 min"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Dust capacity: 0.5L",
+            "zh": "尘杯容量: 0.5L"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Motor Type: Brushless Motor",
+            "zh": "电机类型: Brushless Motor"
+          }
+        }
+      ],
+      "specs": [
+        {
+          "label": {
+            "en": "Power Source",
+            "zh": "Power Source"
+          },
+          "value": "Battery"
+        },
+        {
+          "label": {
+            "en": "Function",
+            "zh": "功能"
+          },
+          "value": "Dry"
+        },
+        {
+          "label": {
+            "en": "Function",
+            "zh": "功能"
+          },
+          "value": "With LED Lights"
+        },
+        {
+          "label": {
+            "en": "Function",
+            "zh": "功能"
+          },
+          "value": "Laser Dust Illumination"
+        },
+        {
+          "label": {
+            "en": "Function",
+            "zh": "功能"
+          },
+          "value": "Wet And Dry"
+        },
+        {
+          "label": {
+            "en": "Function",
+            "zh": "功能"
+          },
+          "value": "Wet"
+        },
+        {
+          "label": {
+            "en": "maximum runtime",
+            "zh": "maximum runtime"
+          },
+          "value": "30-60 min"
+        },
+        {
+          "label": {
+            "en": "after-sales service provided",
+            "zh": "after-sales service provided"
+          },
+          "value": "Return and Replacement"
+        },
+        {
+          "label": {
+            "en": "app-controlled",
+            "zh": "app-controlled"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Household"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Car"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Hotel"
+        },
+        {
+          "label": {
+            "en": "bag or bagless",
+            "zh": "bag or bagless"
+          },
+          "value": "Bagless"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Easy Cleaning"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Portable"
+        },
+        {
+          "label": {
+            "en": "filter",
+            "zh": "filter"
+          },
+          "value": "HEPA Filter"
+        },
+        {
+          "label": {
+            "en": "installation",
+            "zh": "installation"
+          },
+          "value": "Hand Held"
+        },
+        {
+          "label": {
+            "en": "motor type",
+            "zh": "motor type"
+          },
+          "value": "Brushless Motor"
+        },
+        {
+          "label": {
+            "en": "nozzle number",
+            "zh": "nozzle number"
+          },
+          "value": "≤ 3"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Color Box"
+        },
+        {
+          "label": {
+            "en": "power (w)",
+            "zh": "power (w)"
+          },
+          "value": "200 W"
+        },
+        {
+          "label": {
+            "en": "power source",
+            "zh": "power source"
+          },
+          "value": "Battery"
+        },
+        {
+          "label": {
+            "en": "private mold",
+            "zh": "private mold"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "product net weight",
+            "zh": "product net weight"
+          },
+          "value": "2–3 kg"
+        },
+        {
+          "label": {
+            "en": "place of origin",
+            "zh": "place of origin"
+          },
+          "value": "CN"
+        },
+        {
+          "label": {
+            "en": "suction power (airwatts)",
+            "zh": "suction power (airwatts)"
+          },
+          "value": "110 AW"
+        },
+        {
+          "label": {
+            "en": "Charging Time",
+            "zh": "充电时间"
+          },
+          "value": "4-5H"
+        },
+        {
+          "label": {
+            "en": "Dust capacity",
+            "zh": "Dust capacity"
+          },
+          "value": "0.5L"
+        },
+        {
+          "label": {
+            "en": "warranty",
+            "zh": "warranty"
+          },
+          "value": "1 YEAR"
+        },
+        {
+          "label": {
+            "en": "model number",
+            "zh": "model number"
+          },
+          "value": "PC708"
+        }
+      ],
+      "packaging": {
+        "unit": "Color Box"
+      },
+      "customization": {},
+      "applications": {
+        "en": "",
+        "zh": ""
+      },
+      "price_indicator": null,
+      "quick_specs": [
+        {
+          "label": {
+            "en": "Power (W)",
+            "zh": "功率(W)"
+          },
+          "value": "200 W"
+        },
+        {
+          "label": {
+            "en": "Maximum Runtime",
+            "zh": "最长续航"
+          },
+          "value": "30-60 min"
+        },
+        {
+          "label": {
+            "en": "Dust capacity",
+            "zh": "尘杯容量"
+          },
+          "value": "0.5L"
+        },
+        {
+          "label": {
+            "en": "Motor Type",
+            "zh": "电机类型"
+          },
+          "value": "Brushless Motor"
+        }
+      ],
+      "price_ladder": [],
+      "sku": "1601848192870",
+      "description": {
+        "en": "200 W · 30-60 min · 0.5L. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "200 W · 30-60 min · 0.5L。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+      },
+      "supplier_rating": null,
+      "response_time": null,
+      "transactions": null,
+      "years": null,
+      "ship_from": null,
+      "sample": null,
+      "category_name": {
+        "en": "Mattress & Mite Vacuums",
+        "zh": "床褥除螨吸尘器"
+      },
+      "_source": {
+        "platform": "alibaba.com",
+        "productId": "1601848192870"
+      },
+      "_cat": "uv-mite-remover"
     }
    ],
    "specs": [

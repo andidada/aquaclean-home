@@ -40,46 +40,461 @@
    "certifications": [],
    "highlights": [
     {
-     "icon": "check",
-     "text": {
-      "en": "Power (W): 800 W",
-      "zh": "功率(W): 800 W",
-      "es": "Potencia (W): 800 W",
-      "ar": "القدرة (W): 800 W",
-      "fr": "Puissance (W): 800 W",
-      "id": "Daya (W): 800 W",
-      "ru": "Мощность (Вт): 800 W",
-      "th": "กำลังไฟ (W): 800 W",
-      "vi": "Công suất (W): 800 W"
-     }
+      "id": "qst063",
+      "name": {
+        "en": "QST063 Electric High TemperatureSteam Mop Hotel Floor Steam Mop 800W Steam Cleaner",
+        "zh": "QST063 高温蒸汽拖把（800W / 酒店地板）"
+      },
+      "tagline": {
+        "en": "800 W · 400ml · 2min",
+        "zh": "800 W · 400ml · 2min"
+      },
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/01.jpg",
+        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/02.jpg",
+        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/03.jpg",
+        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/04.jpg",
+        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qst063/05.jpg"
+      ],
+      "video_url": null,
+      "moq": {
+        "value": 1,
+        "unit": "pieces"
+      },
+      "certifications": [],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": {
+            "en": "Power (W): 800 W",
+            "zh": "功率(W): 800 W"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Water Tank Capacity: 400ml",
+            "zh": "水箱容量: 400ml"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Heating Time: 2min",
+            "zh": "加热时间: 2min"
+          }
+        }
+      ],
+      "specs": [
+        {
+          "label": {
+            "en": "Power Source",
+            "zh": "Power Source"
+          },
+          "value": "Electric"
+        },
+        {
+          "label": {
+            "en": "type",
+            "zh": "type"
+          },
+          "value": "Steam Mop"
+        },
+        {
+          "label": {
+            "en": "app-controlled",
+            "zh": "app-controlled"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Hotel"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "High Efficiency"
+        },
+        {
+          "label": {
+            "en": "Material",
+            "zh": "材质"
+          },
+          "value": "Plastic"
+        },
+        {
+          "label": {
+            "en": "operating language",
+            "zh": "operating language"
+          },
+          "value": "English"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Color Box"
+        },
+        {
+          "label": {
+            "en": "power (w)",
+            "zh": "power (w)"
+          },
+          "value": "800 W"
+        },
+        {
+          "label": {
+            "en": "power source",
+            "zh": "power source"
+          },
+          "value": "Electric"
+        },
+        {
+          "label": {
+            "en": "private mold",
+            "zh": "private mold"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "place of origin",
+            "zh": "place of origin"
+          },
+          "value": "CN;GUA"
+        },
+        {
+          "label": {
+            "en": "brand name",
+            "zh": "brand name"
+          },
+          "value": "OEM"
+        },
+        {
+          "label": {
+            "en": "Heating Time",
+            "zh": "Heating Time"
+          },
+          "value": "2min"
+        },
+        {
+          "label": {
+            "en": "Water Tank Capacity",
+            "zh": "水箱容量"
+          },
+          "value": "400ml"
+        },
+        {
+          "label": {
+            "en": "model number",
+            "zh": "model number"
+          },
+          "value": "QST063"
+        }
+      ],
+      "packaging": {
+        "unit": "Color Box"
+      },
+      "customization": {},
+      "applications": {
+        "en": "",
+        "zh": ""
+      },
+      "price_indicator": null,
+      "quick_specs": [
+        {
+          "label": {
+            "en": "Power (W)",
+            "zh": "功率(W)"
+          },
+          "value": "800 W"
+        },
+        {
+          "label": {
+            "en": "Water Tank Capacity",
+            "zh": "水箱容量"
+          },
+          "value": "400ml"
+        },
+        {
+          "label": {
+            "en": "Heating Time",
+            "zh": "加热时间"
+          },
+          "value": "2min"
+        }
+      ],
+      "price_ladder": [],
+      "sku": "1601842693924",
+      "description": {
+        "en": "800 W · 400ml · 2min. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "800 W · 400ml · 2min。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+      },
+      "supplier_rating": null,
+      "response_time": null,
+      "transactions": null,
+      "years": null,
+      "ship_from": null,
+      "sample": null,
+      "category_name": {
+        "en": "Upright Steam Mops",
+        "zh": "立式蒸汽拖把"
+      },
+      "_source": {
+        "platform": "alibaba.com",
+        "productId": "1601842693924"
+      },
+      "_cat": "upright-steam-mop"
     },
     {
-     "icon": "check",
-     "text": {
-      "en": "Water Tank Capacity: 400ml",
-      "zh": "水箱容量: 400ml",
-      "es": "Capacidad del depósito de agua: 400ml",
-      "ar": "سعة خزان الماء: 400ml",
-      "fr": "Capacité du réservoir d'eau: 400ml",
-      "id": "Kapasitas Tangki Air: 400ml",
-      "ru": "Объём бака для воды: 400ml",
-      "th": "ความจุถังน้ำ: 400ml",
-      "vi": "Dung tích bình nước: 400ml"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Heating Time: 2min",
-      "zh": "加热时间: 2min",
-      "es": "Tiempo de calentamiento: 2min",
-      "ar": "زمن التسخين: 2min",
-      "fr": "Temps de chauffe: 2min",
-      "id": "Waktu Pemanasan: 2min",
-      "ru": "Время нагрева: 2min",
-      "th": "เวลาในการทำความร้อน: 2min",
-      "vi": "Thời gian gia nhiệt: 2min"
-     }
+      "id": "qjj071",
+      "name": {
+        "en": "1500W Handheld High Pressure Steam Mop 1.5-2.6Bar 20s Fast Heat 380ml Dual Tank 4M Cord 2.4KG Compact Design Household Use",
+        "zh": "QJJ071 高压蒸汽拖把（1500W / 1.5–2.6Bar / 380ml 双水箱）"
+      },
+      "tagline": {
+        "en": "1500W · 380ML · 20S",
+        "zh": "1500W · 380ML · 20S"
+      },
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qjj071/01.jpg",
+        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qjj071/02.jpg",
+        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qjj071/03.jpg",
+        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qjj071/04.jpg",
+        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qjj071/05.jpg",
+        "https://www.hkdmj.net/assets/images/products/upright-steam-mop-qjj071/06.jpg"
+      ],
+      "video_url": null,
+      "moq": {
+        "value": 1,
+        "unit": "pieces"
+      },
+      "certifications": [],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": {
+            "en": "Power (W): 1500W",
+            "zh": "功率(W): 1500W"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Water Tank Capacity: 380ML",
+            "zh": "水箱容量: 380ML"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "Heating Time: 20S",
+            "zh": "加热时间: 20S"
+          }
+        }
+      ],
+      "specs": [
+        {
+          "label": {
+            "en": "type",
+            "zh": "type"
+          },
+          "value": "Handheld"
+        },
+        {
+          "label": {
+            "en": "after-sales service provided",
+            "zh": "after-sales service provided"
+          },
+          "value": "Overseas Call Centers"
+        },
+        {
+          "label": {
+            "en": "app-controlled",
+            "zh": "app-controlled"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Hotel"
+        },
+        {
+          "label": {
+            "en": "application",
+            "zh": "application"
+          },
+          "value": "Household"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Dual Tank"
+        },
+        {
+          "label": {
+            "en": "Feature",
+            "zh": "Feature"
+          },
+          "value": "Compact Design"
+        },
+        {
+          "label": {
+            "en": "operating language",
+            "zh": "operating language"
+          },
+          "value": "English"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Corrugated Box"
+        },
+        {
+          "label": {
+            "en": "packaging types",
+            "zh": "packaging types"
+          },
+          "value": "Color Box"
+        },
+        {
+          "label": {
+            "en": "power source",
+            "zh": "power source"
+          },
+          "value": "Electric"
+        },
+        {
+          "label": {
+            "en": "private mold",
+            "zh": "private mold"
+          },
+          "value": "No"
+        },
+        {
+          "label": {
+            "en": "warranty",
+            "zh": "warranty"
+          },
+          "value": "1 Year"
+        },
+        {
+          "label": {
+            "en": "place of origin",
+            "zh": "place of origin"
+          },
+          "value": "CN"
+        },
+        {
+          "label": {
+            "en": "brand name",
+            "zh": "brand name"
+          },
+          "value": "OEM"
+        },
+        {
+          "label": {
+            "en": "Heating Time",
+            "zh": "Heating Time"
+          },
+          "value": "20S"
+        },
+        {
+          "label": {
+            "en": "Material",
+            "zh": "材质"
+          },
+          "value": "ABS"
+        },
+        {
+          "label": {
+            "en": "power (w)",
+            "zh": "power (w)"
+          },
+          "value": "1500W"
+        },
+        {
+          "label": {
+            "en": "Water Tank Capacity",
+            "zh": "水箱容量"
+          },
+          "value": "380ML"
+        },
+        {
+          "label": {
+            "en": "model number",
+            "zh": "model number"
+          },
+          "value": "QJJ071"
+        }
+      ],
+      "packaging": {
+        "unit": "Color Box"
+      },
+      "customization": {},
+      "applications": {
+        "en": "",
+        "zh": ""
+      },
+      "price_indicator": null,
+      "quick_specs": [
+        {
+          "label": {
+            "en": "Power (W)",
+            "zh": "功率(W)"
+          },
+          "value": "1500W"
+        },
+        {
+          "label": {
+            "en": "Water Tank Capacity",
+            "zh": "水箱容量"
+          },
+          "value": "380ML"
+        },
+        {
+          "label": {
+            "en": "Heating Time",
+            "zh": "加热时间"
+          },
+          "value": "20S"
+        }
+      ],
+      "price_ladder": [],
+      "sku": "1601857978782",
+      "description": {
+        "en": "1500W · 380ML · 20S. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "1500W · 380ML · 20S。支持 OEM/ODM 定制，规格取自供应商商品资料。"
+      },
+      "supplier_rating": null,
+      "response_time": null,
+      "transactions": null,
+      "years": null,
+      "ship_from": null,
+      "sample": null,
+      "category_name": {
+        "en": "Upright Steam Mops",
+        "zh": "立式蒸汽拖把"
+      },
+      "_source": {
+        "platform": "alibaba.com",
+        "productId": "1601857978782"
+      },
+      "_cat": "upright-steam-mop"
     }
    ],
    "specs": [

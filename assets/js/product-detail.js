@@ -347,8 +347,8 @@
 
     // trust strip
     html += '<div class="d-trust">';
-    html += '<div class="d-trust-item"><div class="t-ico">🚢</div><div class="t-label">' + esc(ui.trustShip) + '</div><div class="t-value">' + esc(shipFrom(product)) + '</div></div>';
-    var leadTime = (product.customization && product.customization.production_lead) || ui.defaultLeadTime;
+    html += '<div class="d-trust-item"><div class="t-ico">🚢</div><div class="t-label">' + esc(ui.trustShip) + '</div><div class="t-value">' + esc((product.ship_from || {}).en || '—') + '</div></div>';
+    var leadTime = (product.customization && product.customization.production_lead) || '25-35 days';
     html += '<div class="d-trust-item"><div class="t-ico">⏱</div><div class="t-label">' + esc(ui.trustLead) + '</div><div class="t-value">' + esc(leadTime) + '</div></div>';
     html += '<div class="d-trust-item"><div class="t-ico">📦</div><div class="t-label">' + esc(ui.trustPack) + '</div><div class="t-value">' + esc(packaging.unit || ui.defaultPackUnit || '') + '</div></div>';
     html += '</div>';
@@ -364,7 +364,7 @@
     html += '<div class="d-supplier-logo">🏠</div>';
     html += '<div>';
     html += '<h3 class="d-supplier-name">AquaClean Home Appliances Co., Ltd.</h3>';
-    html += '<p class="d-supplier-meta">' + esc(shipFrom(product)) + ' · ' + esc(ui.supplierRole) + ' · <span class="d-supplier-stars">' + (isNaN(parseFloat(rating)) ? '' : '★★★★★ ') + esc(rating) + '</span></p>';
+    html += '<p class="d-supplier-meta">' + esc((product.ship_from || {}).en || '—') + ' · OEM/ODM Manufacturer · <span class="d-supplier-stars">' + (isNaN(parseFloat(rating)) ? '' : '★★★★★ ') + esc(rating) + '</span></p>';
     html += '<div class="d-supplier-stats">';
     html += '<div class="d-supplier-stat"><div class="v">' + esc(rating) + '</div><div class="l">' + esc(ui.rating) + '</div></div>';
     html += '<div class="d-supplier-stat"><div class="v">' + esc(responseTime) + '</div><div class="l">' + esc(ui.responseTime) + '</div></div>';
@@ -395,10 +395,10 @@
     html += '<h2 class="d-sec-title">' + esc(ui.packaging) + '</h2>';
     html += '<table class="d-spec-table"><thead><tr><th>' + esc(ui.packaging) + '</th><th></th></tr></thead><tbody>';
     html += '<tr><td class="spec-label">' + esc(ui.trustPack) + '</td><td>' + esc(packaging.unit || '—') + '</td></tr>';
-    html += '<tr><td class="spec-label">' + esc(ui.cartonSize) + '</td><td>' + esc(packaging.ctn_size || '—') + '</td></tr>';
-    html += '<tr><td class="spec-label">' + esc(ui.qtyPerCarton) + '</td><td>' + esc(packaging.ctn_qty || '—') + '</td></tr>';
-    html += '<tr><td class="spec-label">' + esc(ui.grossWeight) + '</td><td>' + esc(packaging.gross_weight || '—') + '</td></tr>';
-    html += '<tr><td class="spec-label">' + esc(ui.trustShip) + '</td><td>' + esc(shipFrom(product)) + '</td></tr>';
+    html += '<tr><td class="spec-label">Carton Size</td><td>' + esc(packaging.ctn_size || '—') + '</td></tr>';
+    html += '<tr><td class="spec-label">Qty / Carton</td><td>' + esc(packaging.ctn_qty || '—') + '</td></tr>';
+    html += '<tr><td class="spec-label">Gross Weight</td><td>' + esc(packaging.gross_weight || '—') + '</td></tr>';
+    html += '<tr><td class="spec-label">' + esc(ui.trustShip) + '</td><td>' + esc((product.ship_from || {}).en || '—') + '</td></tr>';
     html += '<tr><td class="spec-label">' + esc(ui.leadTime) + '</td><td>' + esc(leadTime) + '</td></tr>';
     html += '</tbody></table>';
     html += '</div></div>';
@@ -487,7 +487,7 @@
         var rp = products[ri];
         var rImg = (rp.images && rp.images[0]) || '';
         html += '<a class="d-related-card" href="' + ('/' + state.lang + '/' + CATEGORY + '-' + rp.id + '.html') + '">';
-        html += '<div class="d-related-img">' + (rImg ? '<img src="' + esc(localImg(rImg)) + '" alt="">' : '') + '</div>';
+        html += '<div class="d-related-img">' + (rImg ? '<img src="' + esc(rImg) + '" alt="">' : '') + '</div>';
         html += '<div class="d-related-body"><h4>' + esc(pick(rp.name, state.lang)) + '</h4><p>' + esc(pick(rp.tagline, state.lang)) + '</p></div>';
         html += '</a>';
       }
