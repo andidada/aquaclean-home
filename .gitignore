@@ -24,3 +24,4 @@ github_auth_url.txt
 
 # design-review screenshots (local working artifacts, 27M)
 shots/
+__pycache__/
