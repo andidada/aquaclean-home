@@ -175,6 +175,12 @@ body.lang-ar { direction: rtl; }
   margin-bottom: 24px;
   border: 1px solid #BFDBFE;
 }
+.hero:not(.hero-carousel) .hero-badge {
+  background: rgb(255 255 255 / 0.08);
+  color: #93C5FD;
+  border-color: rgb(255 255 255 / 0.18);
+  backdrop-filter: blur(4px);
+}
 .hero h1, .hero h2 {
   font-size: clamp(36px, 5vw, 60px);
   font-weight: 800;
@@ -184,6 +190,8 @@ body.lang-ar { direction: rtl; }
   letter-spacing: -0.025em;
 }
 .hero h1 span, .hero h2 span { color: var(--primary); }
+.hero:not(.hero-carousel) h1, .hero:not(.hero-carousel) h2 { color: #fff; }
+.hero:not(.hero-carousel) h1 span, .hero:not(.hero-carousel) h2 span { color: var(--accent); }
 .hero-sub {
   font-size: 18px;
   color: var(--text-muted);
