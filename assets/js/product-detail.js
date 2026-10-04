@@ -29,6 +29,7 @@
       customization: 'Customization Options', oemTitle: 'OEM / ODM Services',
       packaging: 'Packaging & Shipping', from: 'From', leadTime: 'Lead Time',
       applications: 'Applications', description: 'Detailed Description',
+      detail: 'Product Details',
       inquiry: 'Send Inquiry', inquiryTitle: 'Get a Quote for this Product',
       name: 'Your Name *', email: 'Email *', company: 'Company', country: 'Country',
       quantity: 'Quantity (pieces)', message: 'Message *', submit: 'Submit Inquiry',
@@ -53,6 +54,7 @@
       customization: '定制选项', oemTitle: 'OEM / ODM 服务',
       packaging: '包装与物流', from: '发货地', leadTime: '交期',
       applications: '应用场景', description: '详细描述',
+      detail: '产品详情',
       inquiry: '发送询盘', inquiryTitle: '获取该产品报价',
       name: '您的姓名 *', email: '邮箱 *', company: '公司', country: '国家/地区',
       quantity: '数量（件）', message: '留言 *', submit: '提交询盘',
@@ -452,6 +454,61 @@
       html += '<h2 class="d-sec-title">' + esc(ui.description) + '</h2>';
       html += '<div class="d-desc-text">' + esc(descText).replace(/\n/g, '<br>') + '</div>';
       if (descImg) html += '<img class="d-desc-img" src="' + esc(localImg(descImg)) + '" alt="' + esc(pick(product.name, state.lang)) + '">';
+      html += '</div></div>';
+    }
+
+    // ===== DETAIL (图文混排) =====
+    // Written by the "详情页" section in the back office:
+    //   product.detail        - {lang: text}, merged per language
+    //   product.detail_images - [url]      , language independent
+    // Inside the text, [[img:N]] places the Nth detail image inline; anything
+    // the text does not reference is appended afterwards, so a plain text
+    // block still shows every uploaded image.
+    var detailText = pick(product.detail, state.lang);
+    var detailImgs = Array.isArray(product.detail_images) ? product.detail_images.filter(Boolean) : [];
+    if (detailText || detailImgs.length) {
+      html += '<div class="d-section" id="aqc-detail-block"><div class="d-section-inner">';
+      html += '<span class="d-sec-label">' + esc(ui.detail) + '</span>';
+      html += '<h2 class="d-sec-title">' + esc(ui.detail) + '</h2>';
+
+      // declared outside the text branch: with images but no body text the
+      // branch never runs, and reading an unassigned var would throw
+      var used = {};
+      if (detailText) {
+        html += '<div class="d-desc-text">';
+        detailText.split(/\n{2,}/).forEach(function (par) {
+          var t = par.trim();
+          if (!t) return;
+          t.split(/(\[\[img:\d+\]\])/).forEach(function (chunk) {
+            var m = /^\[\[img:(\d+)\]\]$/.exec(chunk);
+            if (m) {
+              var n = parseInt(m[1], 10);
+              used[n] = 1;
+              var u = detailImgs[n - 1];
+              if (u) {
+                html += '<img class="aqc-inline-img" src="' + esc(localImg(u)) + '" alt="'
+                  + esc(pick(product.name, state.lang)) + ' ' + n + '" loading="lazy" decoding="async"'
+                  + ' style="width:100%;max-width:820px;height:auto;display:block;margin:16px auto;border-radius:8px;">';
+              }
+            } else if (chunk) {
+              html += '<p>' + esc(chunk).replace(/\n/g, '<br>') + '</p>';
+            }
+          });
+        });
+        html += '</div>';
+      }
+
+      var rest = detailImgs.filter(function (u, i) { return !used[i + 1]; });
+      if (rest.length) {
+        html += '<div class="aqc-detail-imgs">';
+        rest.forEach(function (u) {
+          html += '<img src="' + esc(localImg(u)) + '" alt="' + esc(pick(product.name, state.lang))
+            + '" loading="lazy" decoding="async"'
+            + ' style="width:100%;max-width:820px;height:auto;display:block;margin:0 auto 14px;border-radius:8px;">';
+        });
+        html += '</div>';
+      }
+
       html += '</div></div>';
     }
 

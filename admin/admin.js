@@ -394,6 +394,31 @@
     }).join('\n');
     f.appendChild(makeSec('规格参数表格（每行：参数|值）', '<textarea id="p-specs" rows="8" style="width:100%;font-family:monospace;" placeholder="Power|120W&#10;Suction|16KPa">' + specsLines + '</textarea>'));
 
+    // 详情页（图文混排）
+    // 正文按语言合并（与 description 分开：description 是 Alibaba 风格的
+    // 摘要文案，detail 是详情页的完整图文），图片不分语言（同 images）。
+    var detailSec = document.createElement('div');
+    detailSec.className = 'admin-sec';
+    detailSec.innerHTML = '<h3>详情页（图文混排）</h3>' +
+      '<p style="font-size:12.5px;color:#64748B;line-height:1.7;margin:0 0 10px;">' +
+        '这段正文会显示在该产品的详情页上。留空则不显示这一节。<br>' +
+        '<b>图文混排：</b>正文里写 <code>[[img:1]]</code> 会在该位置插入第 1 张详情图，' +
+        '依次 <code>[[img:2]]</code>、<code>[[img:3]]</code>；没被引用的图片会自动排在正文后面。' +
+        '空行分段。当前编辑语言：<b class="aqc-cur-lang"></b></p>' +
+      '<div id="p-detail-drop" class="admin-drop">📁 拖放详情图到此处上传到 GitHub · 也可直接粘贴 URL（每行一个）</div>' +
+      '<textarea id="p-detail-imgs" rows="3" placeholder="https://..." style="width:100%;margin-top:8px;"></textarea>' +
+      '<div id="p-detail-preview" class="admin-imgs" style="margin-top:8px;"></div>' +
+      '<textarea id="p-detail" rows="8" placeholder="详情正文，支持多段落。空行分段。">' +
+      '</textarea>';
+    f.appendChild(detailSec);
+    $('p-detail').value = langText(data.detail);
+    $('p-detail-imgs').value = (data.detail_images||[]).join('\n');
+    $('p-detail-imgs').addEventListener('input', function(){ renderImgPreviewOf('p-detail-imgs', 'p-detail-preview'); });
+    renderImgPreviewOf('p-detail-imgs', 'p-detail-preview');
+    wireDropUpload('p-detail-drop', 'p-detail-imgs', 'p-detail-preview');
+    var langBadge = detailSec.querySelector('.aqc-cur-lang');
+    if (langBadge) langBadge.textContent = currentLang || 'en';
+
     // Packaging
     f.appendChild(makeSec('包装内容（逗号分隔）', '<textarea id="p-packaging" rows="2">' + (Array.isArray(data.packaging) ? data.packaging.join(', ') : (data.packaging || '')) + '</textarea>'));
 
@@ -435,11 +460,19 @@
     qsa('#formArea input, #formArea textarea').forEach(function(el){ el.addEventListener('input', autoSaveProduct); });
   }
 
-  function renderImgPreview() {
-    var container = $('p-img-preview');
+  // 多语言字段取当前语言（表单是单语言编辑，保存时再合并回去）
+  function langText(v) {
+    if (v == null) return '';
+    if (typeof v === 'string') return v;
+    return v[currentLang] || v.en || v.zh || '';
+  }
+
+  // 通用缩略图预览：删除按钮会同步回写对应 textarea
+  function renderImgPreviewOf(taId, prevId) {
+    var container = $(prevId);
     if (!container) return;
     container.innerHTML = '';
-    var urls = ($('p-img-urls').value||'').split('\n').filter(function(u){return u.trim();});
+    var urls = ($(taId).value||'').split('\n').filter(function(u){return u.trim();});
     urls.forEach(function(url, idx) {
       var div = document.createElement('div');
       div.className = 'admin-img';
@@ -453,16 +486,56 @@
       rm.textContent = '×';
       rm.style.cssText = 'position:absolute;top:2px;right:2px;background:rgba(0,0,0,0.5);color:#fff;border:none;border-radius:50%;width:20px;height:20px;cursor:pointer;';
       rm.onclick = function() {
-        var lines = ($('p-img-urls').value||'').split('\n');
+        var lines = ($(taId).value||'').split('\n');
         lines.splice(idx, 1);
-        $('p-img-urls').value = lines.join('\n');
-        renderImgPreview();
+        $(taId).value = lines.join('\n');
+        renderImgPreviewOf(taId, prevId);
         autoSaveProduct();
       };
       div.appendChild(img);
       div.appendChild(rm);
       container.appendChild(div);
     });
+  }
+
+  // 通用拖拽上传：把图片推到 GitHub，回填 URL 到目标 textarea
+  function wireDropUpload(dropId, taId, prevId) {
+    var dropZone = $(dropId);
+    if (!dropZone) return;
+    dropZone.addEventListener('dragover', function(e) {
+      e.preventDefault(); e.stopPropagation();
+      dropZone.style.background = '#DBEAFE';
+    });
+    dropZone.addEventListener('dragleave', function(e) {
+      e.preventDefault(); e.stopPropagation();
+      dropZone.style.background = '';
+    });
+    dropZone.addEventListener('drop', async function(e) {
+      e.preventDefault(); e.stopPropagation();
+      dropZone.style.background = '';
+      var files = Array.prototype.slice.call(e.dataTransfer.files || []);
+      var images = files.filter(function(f){ return /^image\//.test(f.type); });
+      if (!images.length) { setStatus('⚠ 请拖入图片文件'); return; }
+      dropZone.classList.add('busy');
+      setStatus('📤 正在上传 ' + images.length + ' 张图片…');
+      for (var i = 0; i < images.length; i++) {
+        try {
+          var url = await ghUploadImage(images[i]);
+          var cur = $(taId).value.replace(/\s+$/, '');
+          $(taId).value = cur ? cur + '\n' + url : url;
+          renderImgPreviewOf(taId, prevId);
+          autoSaveProduct();
+          setStatus('✅ 已上传：' + url);
+        } catch (err) {
+          setStatus('❌ 上传失败：' + (err && err.message ? err.message : err));
+        }
+      }
+      dropZone.classList.remove('busy');
+    });
+  }
+
+  function renderImgPreview() {
+    renderImgPreviewOf('p-img-urls', 'p-img-preview');
   }
 
   function collectProduct() {
@@ -502,6 +575,8 @@
       logo:         val('p-logo'),
       packaging_custom: val('p-packaging_custom'),
       description:  val('p-desc'),
+      detail:       val('p-detail'),
+      detail_images: ($('p-detail-imgs').value||'').split('\n').map(function(u){return u.trim();}).filter(Boolean),
       images:       images,
       updated_at:   new Date().toISOString()
     };
@@ -587,6 +662,10 @@
     if (form.name)        p.name = mergeLangField(p.name, lang, form.name);
     if (form.tagline)     p.tagline = mergeLangField(p.tagline, lang, form.tagline);
     if (form.description) p.description = mergeLangField(p.description, lang, form.description);
+    // 详情页正文按语言合并；详情图与 images 一样是语言无关的，直接覆盖。
+    // 空值不覆盖：清空一栏不应该抹掉已有内容。
+    if (form.detail) p.detail = mergeLangField(p.detail, lang, form.detail);
+    if (form.detail_images && form.detail_images.length) p.detail_images = form.detail_images;
     if (form.moq)         p.moq = { value: form.moq, unit: (p.moq && p.moq.unit) || 'pieces' };
     if (form.images && form.images.length) p.images = form.images;
     if (form.certifications && form.certifications.length) p.certifications = form.certifications;
