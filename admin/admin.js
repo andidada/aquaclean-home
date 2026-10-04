@@ -1379,7 +1379,10 @@ function buildAboutControls(side) {
           setStatus('🌐 已加载关于页（' + lang + '）');
         } catch(e) { setStatus('❌ JSON 解析失败：' + e.message); }
       } else {
-        setStatus('❌ 找不到 about/' + lang + '.json（HTTP ' + x.status + '）');
+        setStatus('❌ 找不到 about/' + lang + '.json（HTTP ' + x.status + '）· 已禁用保存，避免用空表单覆盖该语言');
+        // 该语言还没有数据文件时，表单是空的；让用户一保存就生成残缺页面。
+        var sab = $('saveAboutBtn');
+        if (sab) sab.disabled = true;
       }
     };
     x.onerror = function() { setStatus('❌ 网络错误'); };

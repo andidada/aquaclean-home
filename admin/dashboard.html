@@ -471,26 +471,42 @@
     <!-- 公司信息 -->
     <div id="company" class="tab-content">
       <div class="card">
-        <h2>🏢 公司信息设置</h2>
+        <h2>🏢 公司信息</h2>
+        <p style="font-size:12.5px;color:#64748B;line-height:1.7;margin:0 0 16px;">
+          读取并写回 <code>data/company.json</code>，字段与该文件一一对应。
+          <span id="companyLoadNote" style="color:#92400E;"></span>
+        </p>
         <div class="grid-2">
           <div class="form-group">
-            <label>公司英文名</label>
-            <input type="text" id="companyNameEn" value="AquaClean Home Appliances">
+            <label>公司名 · name</label>
+            <input type="text" id="companyName">
           </div>
           <div class="form-group">
-            <label>公司中文名</label>
-            <input type="text" id="companyNameZh" value="AquaClean 家用电器">
+            <label>标语 · slogan</label>
+            <input type="text" id="companySlogan">
           </div>
         </div>
-        <div class="form-group">
-          <label>公司简介（英文）</label>
-          <textarea id="companyDescEn">Professional B2B manufacturer of smart home cleaning appliances since 2015. OEM/ODM services available.</textarea>
+        <div class="grid-2">
+          <div class="form-group">
+            <label>成立年份 · founded</label>
+            <input type="text" id="companyFounded">
+          </div>
+          <div class="form-group">
+            <label>员工数 · employees</label>
+            <input type="text" id="companyEmployees">
+          </div>
         </div>
-        <div class="form-group">
-          <label>公司简介（中文）</label>
-          <textarea id="companyDescZh">自2015年起专业从事智能家用清洁电器的B2B制造商。提供OEM/ODM服务。</textarea>
+        <div class="grid-2">
+          <div class="form-group">
+            <label>营收 · revenue</label>
+            <input type="text" id="companyRevenue">
+          </div>
+          <div class="form-group">
+            <label>总部 · headquarters</label>
+            <input type="text" id="companyHeadquarters">
+          </div>
         </div>
-        <button class="btn" onclick="saveCompany()">保存公司信息</button>
+        <button class="btn" id="companySaveBtn" onclick="saveCompany()">保存公司信息</button>
         <div class="status" id="companyStatus"></div>
       </div>
     </div>
@@ -498,26 +514,32 @@
     <!-- 联系方式 -->
     <div id="contact" class="tab-content">
       <div class="card">
-        <h2>📞 联系方式设置</h2>
+        <h2>📞 联系方式</h2>
+        <p style="font-size:12.5px;color:#64748B;line-height:1.7;margin:0 0 16px;">
+          读取并写回 <code>data/contact.json</code>，字段与该文件一一对应。
+          <span id="contactLoadNote" style="color:#92400E;"></span>
+        </p>
         <div class="grid-2">
           <div class="form-group">
-            <label>WhatsApp 号码</label>
-            <input type="text" id="whatsapp" value="+86 177 7919 0118">
+            <label>电话 / WhatsApp · phone</label>
+            <input type="text" id="contactPhone">
           </div>
           <div class="form-group">
-            <label>邮箱地址</label>
-            <input type="email" id="email" value="info@aquaclean-home.com">
+            <label>邮箱 · email</label>
+            <input type="email" id="contactEmail">
           </div>
         </div>
-        <div class="form-group">
-          <label>公司地址</label>
-          <input type="text" id="address" value="Hong Kong">
+        <div class="grid-2">
+          <div class="form-group">
+            <label>公司地址 · address</label>
+            <input type="text" id="contactAddress">
+          </div>
+          <div class="form-group">
+            <label>工厂位置 · factory</label>
+            <input type="text" id="contactFactory">
+          </div>
         </div>
-        <div class="form-group">
-          <label>工厂位置</label>
-          <input type="text" id="factory" value="Ningbo, China">
-        </div>
-        <button class="btn" onclick="saveContact()">保存联系方式</button>
+        <button class="btn" id="contactSaveBtn" onclick="saveContact()">保存联系方式</button>
         <div class="status" id="contactStatus"></div>
       </div>
     </div>
@@ -1112,61 +1134,74 @@
     }
     
     // 保存公司信息
-    function saveCompany() {
-      const data = {
-        company_name_en: document.getElementById('companyNameEn').value,
-        company_name_zh: document.getElementById('companyNameZh').value,
-        description_en: document.getElementById('companyDescEn').value,
-        description_zh: document.getElementById('companyDescZh').value
-      };
-      fetch('http://127.0.0.1:18765/commit', {
-        method: 'POST',
-        headers: {'Content-Type': 'application/json'},
-        body: JSON.stringify({
-          message: 'feat(admin): update company info',
-          files: {'data/company.json': JSON.stringify(data, null, 2)}
+    // 读取 data/*.json 并填表。字段名与文件保持一致。
+    function fillJsonForm(path, map, noteId) {
+      const note = document.getElementById(noteId);
+      return fetch('../' + path + '?v=' + Date.now())
+        .then(function (r) {
+          if (!r.ok) throw new Error('HTTP ' + r.status);
+          return r.json();
         })
-      })
-      .then(r => r.json())
-      .then(result => {
-        if (result.ok) {
-          showStatus('companyStatus', '公司信息已保存并推送到 GitHub', true);
-        } else {
-          showStatus('companyStatus', '推送失败: ' + result.error, false);
-        }
-      })
-      .catch(err => {
-        showStatus('companyStatus', '桥接服务连接失败: ' + err.message, false);
-      });
+        .then(function (d) {
+          Object.keys(map).forEach(function (key) {
+            const el = document.getElementById(map[key]);
+            if (el) el.value = (d && d[key] != null) ? d[key] : '';
+          });
+          if (note) note.textContent = '';
+        })
+        .catch(function (e) {
+          if (note) note.textContent = '⚠ 读取 ' + path + ' 失败（' + e.message + '），保存按钮已禁用以免覆盖数据。';
+          return false;
+        });
     }
-    
+
+    const COMPANY_FIELDS = {
+      name: 'companyName', slogan: 'companySlogan', founded: 'companyFounded',
+      employees: 'companyEmployees', revenue: 'companyRevenue', headquarters: 'companyHeadquarters'
+    };
+    const CONTACT_FIELDS = {
+      phone: 'contactPhone', email: 'contactEmail',
+      address: 'contactAddress', factory: 'contactFactory'
+    };
+
+    // 读-改-写：先取回现有 JSON 再逐字段覆盖。
+    // 直接提交表单对象会抹掉表单没有的字段（之前就是这样把
+    // name/slogan/founded/employees/revenue/headquarters 全写没的）。
+    function saveJsonViaBridge(path, fields, message, statusId) {
+      return fetch('../' + path + '?v=' + Date.now())
+        .then(function (r) { return r.ok ? r.json() : {}; })
+        .catch(function () { return {}; })
+        .then(function (existing) {
+          const out = (existing && typeof existing === 'object') ? existing : {};
+          Object.keys(fields).forEach(function (key) {
+            const el = document.getElementById(fields[key]);
+            if (el) out[key] = el.value.trim();
+          });
+          return fetch('http://127.0.0.1:18765/commit', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({ message: message, files: { [path]: JSON.stringify(out, null, 2) } })
+          }).then(function (r) { return r.json(); });
+        })
+        .then(function (result) {
+          if (result.ok) showStatus(statusId, '已保存并推送到 GitHub（commit ' + String(result.commit_sha || '').substring(0, 8) + '）', true);
+          else showStatus(statusId, '推送失败: ' + (result.error || '未知错误'), false);
+        })
+        .catch(function (e) { showStatus(statusId, '保存失败: ' + e.message, false); });
+    }
+
+    function loadCompany() { return fillJsonForm('data/company.json', COMPANY_FIELDS, 'companyLoadNote'); }
+    function loadContact() { return fillJsonForm('data/contact.json', CONTACT_FIELDS, 'contactLoadNote'); }
+
+    function saveCompany() {
+      saveJsonViaBridge('data/company.json', COMPANY_FIELDS,
+        'feat(admin): update company info', 'companyStatus');
+    }
+
     // 保存联系方式
     function saveContact() {
-      const data = {
-        whatsapp: document.getElementById('whatsapp').value,
-        email: document.getElementById('email').value,
-        address: document.getElementById('address').value,
-        factory: document.getElementById('factory').value
-      };
-      fetch('http://127.0.0.1:18765/commit', {
-        method: 'POST',
-        headers: {'Content-Type': 'application/json'},
-        body: JSON.stringify({
-          message: 'feat(admin): update contact info',
-          files: {'data/contact.json': JSON.stringify(data, null, 2)}
-        })
-      })
-      .then(r => r.json())
-      .then(result => {
-        if (result.ok) {
-          showStatus('contactStatus', '联系方式已保存并推送到 GitHub', true);
-        } else {
-          showStatus('contactStatus', '推送失败: ' + result.error, false);
-        }
-      })
-      .catch(err => {
-        showStatus('contactStatus', '桥接服务连接失败: ' + err.message, false);
-      });
+      saveJsonViaBridge('data/contact.json', CONTACT_FIELDS,
+        'feat(admin): update contact info', 'contactStatus');
     }
     
     // 显示状态消息
@@ -1267,6 +1302,9 @@
 
     // Auto-load on page init
     loadProductsData();
+    // 公司信息 / 联系方式 从各自的 JSON 读取，不再显示 HTML 里的硬编码快照
+    loadCompany();
+    loadContact();
 </script>
 </body>
 </html>
