@@ -119,15 +119,28 @@ def find_site(token):
 
 
 def set_env(token, site_id, key, value):
+    # Site-level env vars are read-only over the API now
+    # (POST /sites/{id}/env is gone; only the account-level endpoint exists and
+    # it is gated behind a paid plan). Kept for when the plan allows it.
+    site_id = site_id
     status, out = api("POST", "/sites/%s/env" % site_id, token,
                       [{"key": key, "values": [{"value": value, "context": "all"}]}])
     if status in (200, 201):
         return True
-    status2, out2 = api("POST", "/sites/%s/env" % site_id, token, {"key": key, "value": value})
-    if status2 in (200, 201):
-        return True
-    print("   设置 %s 失败: HTTP %s %s | %s" % (key, status, out, out2))
+    print("   ! %s 无法通过 API 设置 (HTTP %s)" % (key, status))
+    print("     请在 Netlify 面板手动设置：%s" % key)
     return False
+
+
+def env_block(env, secret):
+    """Print a copy-paste block for setting the variables in the Netlify UI."""
+    print("\n" + "=" * 62)
+    print("需要在 Netlify 面板手动设置（Site settings → Environment variables）")
+    print("=" * 62)
+    for k, v in env.items():
+        shown = v if k != "GITHUB_TOKEN" else "<你的 GitHub PAT>"
+        print("   %s = %s" % (k, shown))
+    print("=" * 62)
 
 
 def collect(full):
@@ -252,6 +265,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--full", action="store_true", help="上传全部文件（含 86MB 图片）")
     ap.add_argument("--no-github-token", action="store_true")
+    ap.add_argument("--skip-env", action="store_true",
+                    help="跳过环境变量设置（当前套餐 API 不支持，改为打印手动步骤）")
     args = ap.parse_args()
 
     token = os.environ.get("NETLIFY_TOKEN", "").strip()
@@ -275,13 +290,17 @@ def main():
         else:
             print("   ! 未读到本机 GitHub PAT，跳过 GITHUB_TOKEN")
 
-    print("\n[2/4] 设置环境变量")
-    for k, v in env.items():
-        shown = v if k == "ADMIN_PASSWORD_HASH" else "%s…(%d 字符)" % (v[:6], len(v))
-        print("   - %s = %s" % (k, shown))
-        if not set_env(token, site_id, k, v):
-            return 1
-    print("\n   ADMIN_SESSION_SECRET（请自行保存，之后不再显示）：\n   " + secret)
+    print("\n[2/4] 环境变量")
+    if args.skip_env:
+        print("   跳过（--skip-env）")
+    else:
+        for k, v in env.items():
+            shown = v if k == "ADMIN_PASSWORD_HASH" else "%s…(%d 字符)" % (v[:6], len(v))
+            print("   - %s = %s" % (k, shown))
+            if not set_env(token, site_id, k, v):
+                args.skip_env = True
+                break
+    env_block(env, secret)
 
     print("\n[3/4] 上传部署")
     files = collect(args.full)
