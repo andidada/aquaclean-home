@@ -21,6 +21,23 @@
       align-items: center;
     }
     .header h1 { font-size: 20px; }
+    /* Sits on the blue gradient header, so it needs a light treatment -
+       an unstyled link here is invisible against the background. */
+    .header .btn-link {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 13.5px;
+      padding: 8px 14px;
+      border: 1px solid rgba(255, 255, 255, .75);
+      border-radius: var(--a-radius-sm, 8px);
+      transition: background .18s ease;
+    }
+    .header .btn-link:hover { background: rgba(255, 255, 255, .16); }
+    .header .btn-link:focus-visible {
+      outline: 2px solid #fff;
+      outline-offset: 2px;
+    }
     .header .user {
       display: flex;
       align-items: center;
