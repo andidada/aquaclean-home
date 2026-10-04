@@ -430,59 +430,21 @@
       <div class="tab" onclick="switchTab('about', this)">公司简介页</div>
     </div>
 
-    <!-- 产品分类管理 -->
+    <!-- 产品分类（只读概览） -->
     <div id="categories" class="tab-content active">
       <!-- 分类列表视图 -->
       <div id="categoryListView">
         <div class="card">
-          <div style="display: flex; justify-content: space-between; align-items: center;">
-            <h2>📁 产品分类</h2>
-            <button class="btn btn-success" onclick="addCategory()">+ 添加分类</button>
-          </div>
-          <p style="color: #666; margin-bottom: 20px;">点击分类查看该分类下的所有产品</p>
-          
+          <h2>📁 产品分类</h2>
+          <p style="color: #666; margin-bottom: 6px;">共 <span id="categoryTotal">—</span> 个分类 · <span id="productTotal">—</span> 款产品</p>
+          <p style="color:#64748B;font-size:13.5px;line-height:1.7;margin-bottom:20px;">
+            这里是从线上数据实时统计的只读概览。修改产品内容请到
+            <a href="index.html" style="color:#2563EB;font-weight:700;">📝 内容管理器</a>，
+            那里直接编辑各分类的真实数据文件，改完即可发布。
+          </p>
+
           <div class="category-list" id="categoryList">
-            <!-- 分类卡片 -->
-            <div class="category-card" onclick="showCategoryProducts('vacuum')">
-              <div class="category-icon">🧹</div>
-              <div class="category-name">吸尘器系列</div>
-              <div class="category-count">3 款产品</div>
-            </div>
-            <div class="category-card" onclick="showCategoryProducts('cleaner')">
-              <div class="category-icon">💨</div>
-              <div class="category-name">清洗机系列</div>
-              <div class="category-count">2 款产品</div>
-            </div>
-            <div class="category-card" onclick="showCategoryProducts('robot')">
-              <div class="category-icon">🤖</div>
-              <div class="category-name">智能机器人</div>
-              <div class="category-count">2 款产品</div>
-            </div>
-            <div class="category-card" onclick="showCategoryProducts('car')">
-              <div class="category-icon">🚗</div>
-              <div class="category-name">车载电器</div>
-              <div class="category-count">2 款产品</div>
-            </div>
-            <div class="category-card" onclick="showCategoryProducts('coffee')">
-              <div class="category-icon">☕</div>
-              <div class="category-name">咖啡电器</div>
-              <div class="category-count">1 款产品</div>
-            </div>
-            <div class="category-card" onclick="showCategoryProducts('steammop')">
-              <div class="category-icon">🧹</div>
-              <div class="category-name">蒸汽拖把</div>
-              <div class="category-count">1 款产品</div>
-            </div>
-            <div class="category-card" onclick="showCategoryProducts('carpro')">
-              <div class="category-icon">🚗</div>
-              <div class="category-name">车载电器 Pro</div>
-              <div class="category-count">1 款产品</div>
-            </div>
-            <div class="category-card" onclick="showCategoryProducts('garment')">
-              <div class="category-icon">👔</div>
-              <div class="category-name">衣物护理</div>
-              <div class="category-count">1 款产品</div>
-            </div>
+            <p style="color:#64748B;">正在从线上读取分类…</p>
           </div>
         </div>
       </div>
@@ -492,45 +454,16 @@
         <div class="card">
           <div class="breadcrumb">
             <a onclick="backToCategories()">📁 产品分类</a>
-            <span>></span>
-            <span class="current" id="currentCategoryName">吸尘器系列</span>
+            <span>&gt;</span>
+            <span class="current" id="currentCategoryName">分类</span>
           </div>
-          
-          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
-            <h2>📦 产品列表</h2>
-            <button class="btn btn-success" onclick="addProduct()">+ 添加产品</button>
-          </div>
-          
-          <div class="product-list" id="productList">
-            <!-- 产品项 -->
-            <div class="product-item" onclick="editProduct('hv-001')">
-              <img src="../assets/images/products/01-handheld-vacuum.webp" class="product-image" alt="手持吸尘器" decoding="async">
-              <div class="product-info">
-                <div class="product-name">手持无线吸尘器</div>
-                <div class="product-sku">SKU: AC-HV-001</div>
-                <div class="product-styles">3 个款式：白色 / 黑色 / 红色</div>
-              </div>
-              <button class="btn btn-sm">编辑</button>
-            </div>
-            <div class="product-item" onclick="editProduct('rv-001')">
-              <img src="../assets/images/products/02-robot-vacuum.webp" class="product-image" alt="扫地机器人" decoding="async">
-              <div class="product-info">
-                <div class="product-name">智能扫地机器人</div>
-                <div class="product-sku">SKU: AC-RV-001</div>
-                <div class="product-styles">2 个款式：标准版 / 高配版</div>
-              </div>
-              <button class="btn btn-sm">编辑</button>
-            </div>
-            <div class="product-item" onclick="editProduct('cv-001')">
-              <img src="../assets/images/products/06-car-vacuum.webp" class="product-image" alt="车载吸尘器" decoding="async">
-              <div class="product-info">
-                <div class="product-name">车载便携吸尘器</div>
-                <div class="product-sku">SKU: AC-CV-001</div>
-                <div class="product-styles">2 个款式：有线款 / 无线款</div>
-              </div>
-              <button class="btn btn-sm">编辑</button>
-            </div>
-          </div>
+
+          <h2>📦 产品列表</h2>
+          <p style="color:#64748B;font-size:13.5px;line-height:1.7;margin-bottom:20px;">
+            只读列表。编辑请到 <a href="index.html" style="color:#2563EB;font-weight:700;">📝 内容管理器</a>。
+          </p>
+
+          <div class="product-list" id="productList"></div>
         </div>
       </div>
     </div>
@@ -708,16 +641,21 @@
   </div>
 
   <script>
-    // 检查登录状态
-    if (!sessionStorage.getItem('admin_logged_in')) {
-      window.location.href = 'login.html';
-    }
-    
-    // 显示当前用户
-    const user = sessionStorage.getItem('admin_user');
-    if (user) {
-      document.getElementById('currentUser').textContent = user;
-    }
+    // 登录态由 auth-guard.js 向服务端校验，这里不再自己判断。
+    // 旧代码在这里检查 sessionStorage 的 admin_logged_in 并强制跳转，那是
+    // 改成云端鉴权之前的做法；新登录流程不再写这个标记，于是每次打开
+    // 仪表盘都会被弹回登录页（表现为"一点就闪退"）。这个判断交给守卫。
+    // 显示当前用户：同样改从云端会话读，取不到就回落到默认称呼。
+    window.aqcCloudReady
+      .then(function (cloud) { return cloud.auth.getSession(); })
+      .then(function (res) {
+        var u = res && (res.user
+          || (res.data && res.data.user)
+          || (res.data && res.data.session && res.data.session.user));
+        var el = document.getElementById('currentUser');
+        if (el) el.textContent = (u && (u.email || u.name || u.id)) || '管理员';
+      })
+      .catch(function () { /* 未登录由守卫处理，这里不打扰 */ });
     
     // ===== 公司简介页 图文区块管理 =====
     const ABOUT_KEY = 'aquaclean_about_blocks';
@@ -877,7 +815,7 @@
       }
     }
     
-    // ── 数据驱动渲染：分类与产品来自 data/products.json ──
+    // ── 分类概览（只读，数据来自真实分类文件） ──
     let currentCategoryId = null;
 
     function getAllProducts() {
@@ -885,23 +823,35 @@
       return Object.keys(obj).map(function(k){ return obj[k]; });
     }
 
-    // 数据加载后覆盖 HTML 里的硬编码回退卡片（计数实时计算）
+    // 分类卡片：计数直接取已加载的真实数据
     function renderCategoryList() {
       const wrap = document.getElementById('categoryList');
       if (!wrap || !productsData) return;
       const cats = productsData.categories || [];
       const prods = getAllProducts();
+
+      const ct = document.getElementById('categoryTotal');
+      if (ct) ct.textContent = String(cats.length);
+      const pt = document.getElementById('productTotal');
+      if (pt) pt.textContent = String(prods.length);
+
+      if (!cats.length) {
+        wrap.innerHTML = '<p style="color:#64748B;">没有读到分类数据。</p>';
+        return;
+      }
+
       wrap.innerHTML = cats.map(function(c) {
         const n = prods.filter(function(p){ return (p.category || '') === c.id; }).length;
         return '<div class="category-card" onclick="showCategoryProducts(\'' + c.id + '\')">'
-          + '<div class="category-icon">' + (c.icon || '📦') + '</div>'
+          + '<div class="category-icon">📦</div>'
           + '<div class="category-name">' + escHtml(c.name || c.id) + '</div>'
           + '<div class="category-count">' + n + ' 款产品</div>'
           + '</div>';
       }).join('');
     }
 
-    // 显示分类下的产品
+    // 产品列表：只读。真实数据是多语言嵌套结构且由内容管理器维护，
+    // 这里不提供编辑入口，避免用扁平模型回写而破坏源数据。
     function showCategoryProducts(categoryId) {
       currentCategoryId = categoryId;
       document.getElementById('categoryListView').style.display = 'none';
@@ -913,15 +863,22 @@
 
       const prods = getAllProducts().filter(function(p){ return (p.category || '') === categoryId; });
       const list = document.getElementById('productList');
+      if (!prods.length) {
+        list.innerHTML = '<p style="color:#64748B;">该分类下暂无产品。</p>';
+        return;
+      }
       list.innerHTML = prods.map(function(p) {
-        return '<div class="product-item" onclick="editProduct(\'' + p.id + '\')">'
-          + '<img src="../assets/images/products/' + (p.img || '') + '" class="product-image" alt="' + escAttr(p.name || '') + '" decoding="async" onerror="this.style.visibility=\'hidden\'">'
+        const img = p.img
+          ? '<img src="../assets/images/products/' + escAttr(p.img) + '" class="product-image" alt="' + escAttr(p.name || '') + '" decoding="async" onerror="this.style.visibility=\'hidden\'">'
+          : '<div class="product-image" style="background:#F1F5F9"></div>';
+        return '<div class="product-item">'
+          + img
           + '<div class="product-info">'
           + '<div class="product-name">' + escHtml(p.name || '') + '</div>'
-          + '<div class="product-sku">SKU: ' + escHtml(p.sku || '') + '</div>'
-          + '<div class="product-styles">' + escHtml(p.desc || '') + '</div>'
+          + '<div class="product-sku">ID: ' + escHtml(p.id || '') + '</div>'
+          + '<div class="product-styles">' + escHtml(p.tagline || '') + '</div>'
           + '</div>'
-          + '<button class="btn btn-sm">编辑</button>'
+          + '<a class="btn btn-sm" href="index.html">编辑</a>'
           + '</div>';
       }).join('');
     }
@@ -1227,16 +1184,87 @@
   
     // Load products data from JSON (drives category/product lists)
     let productsData = null;
+
+    // 概览数据来自真实数据源：data/products/categories.json + 每个分类的
+    // {slug}.json。原先读的是 data/products.json —— 那份文件里 8 个分类的
+    // 产品数全是 0，是个空壳，所以概览永远是空的；而且它与前台生成器
+    // (gen_pages.py) 消费的数据完全脱节，改它不会影响任何线上页面。
     async function loadProductsData() {
+      const catWrap = document.getElementById('categoryList');
       try {
-        const r = await fetch('../data/products.json');
-        productsData = await r.json();
-        console.log('Products data loaded:', Object.keys(productsData.products || {}).length, 'products');
+        const catRes = await fetch('../data/products/categories.json');
+        if (!catRes.ok) throw new Error('categories.json HTTP ' + catRes.status);
+        const catDoc = await catRes.json();
+        const cats = catDoc.categories || [];
+
+        // 并发抓取各分类产品，只取列表展示需要的字段
+        const lists = await Promise.all(cats.map(async function (c) {
+          try {
+            const r = await fetch('../data/products/' + encodeURIComponent(c.slug) + '.json');
+            if (!r.ok) return { slug: c.slug, items: [] };
+            const doc = await r.json();
+            const items = Array.isArray(doc) ? doc : (doc.products || []);
+            return { slug: c.slug, items: items };
+          } catch (e) {
+            return { slug: c.slug, items: [] };
+          }
+        }));
+
+        const bySlug = {};
+        lists.forEach(function (x) { bySlug[x.slug] = x.items; });
+
+        // 扁平化成概览用的摘要：真实数据是多语言嵌套结构，这里只取当前语言
+        // 的名称/卖点用于列表显示，不回写，因此不会破坏源数据。
+        const flat = {};
+        let total = 0;
+        lists.forEach(function (x) {
+          flat[x.slug] = x.items.map(function (p) {
+            total++;
+            return {
+              id: p.id,
+              category: x.slug,
+              name: pickLang(p.name) || p.id,
+              tagline: pickLang(p.tagline) || '',
+              img: firstImageName(p)
+            };
+          });
+        });
+
+        productsData = {
+          categories: cats.map(function (c) {
+            return { id: c.slug, name: pickLang(c.name) || c.slug, icon: '' };
+          }),
+          products: flat,
+          total: total
+        };
+        console.log('Category overview loaded:', productsData.categories.length, 'categories,', total, 'products');
         renderCategoryList();
       } catch (e) {
-        console.warn('Could not load products.json:', e);
+        console.warn('Could not load product overview:', e);
+        if (catWrap) {
+          catWrap.innerHTML = '<p style="color:#DC2626;">分类数据读取失败：' + escHtml(String(e.message || e))
+            + '<br>请确认网络可访问主站 data 目录。</p>';
+        }
       }
     }
+
+    // 多语言字段取当前语言，退回中文/英文
+    function pickLang(v) {
+      if (v == null) return '';
+      if (typeof v === 'string') return v;
+      var lang = (typeof currentLang === 'string' && currentLang) || 'zh';
+      return v[lang] || v.zh || v.en || '';
+    }
+
+    // 真实数据里 images 是绝对 URL 数组；列表缩略图只取文件名部分，
+    // 显示时再拼回主站地址（构建脚本会把前缀改成主站域名）。
+    function firstImageName(p) {
+      var arr = p.images || p.image;
+      if (Array.isArray(arr) && arr.length) return String(arr[0]).split('/').pop();
+      if (typeof arr === 'string' && arr) return arr.split('/').pop();
+      return '';
+    }
+
     // Auto-load on page init
     loadProductsData();
 </script>
