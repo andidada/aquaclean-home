@@ -1,4 +1,20 @@
-# Trigger test 2026-08-10T13:55:08Z
+# DISABLED 2026-10-04 — kept for reference only (renamed to .disabled so
+# GitHub stops parsing it).
+#
+# Why: every run of this workflow failed at startup - 216 runs, 0 jobs, no
+# logs - while GitHub Pages runs on the same commits succeeded, so the
+# failure is specific to this file, not to Actions availability. GitHub also
+# rejects manual dispatch with "Workflow does not have 'workflow_dispatch'
+# trigger" even though the trigger is declared, i.e. GitHub cannot process
+# this file at all.
+#
+# It is also redundant: the Netlify GitHub App is connected to this repo and
+# deploys every push (its deploy / build / report-build-status checks come
+# back success, and the published files match the pushed tree). Running both
+# would only race two deploys of the same site.
+#
+# To restore: rename back to deploy.yml, or rewrite it from scratch.
+
 name: Deploy to Netlify
 on:
   push:
