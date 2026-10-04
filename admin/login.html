@@ -284,6 +284,21 @@
       }
     }
 
+    // Navigate only after the service confirms a live session. The SDK's
+    // return shape varies between builds, so the sign-in response alone is not
+    // something to navigate on.
+    function enterIfSession(cloud, panel) {
+      return cloud.auth.getSession().then(function (s) {
+        if (window.aqcHasSession(s)) {
+          window.location.href = 'index.html';
+          return true;
+        }
+        busy(panel, false);
+        showError(panel, '登录未能建立会话，请重试');
+        return false;
+      });
+    }
+
     function fail(panel, err) {
       var kind = err && err.kind;
       var msg = (err && err.message) || '操作失败，请重试';
@@ -293,6 +308,17 @@
       showError(panel, msg);
       busy(panel, false);
     }
+
+    // Never fail silently again: an uncaught error used to leave the form
+    // looking inert, with no clue why nothing happened.
+    window.addEventListener('unhandledrejection', function (e) {
+      var panel = document.querySelector('.panel.active') || $('panel-signin');
+      if (panel) showError(panel, '操作异常：' + ((e.reason && e.reason.message) || '请刷新后重试'));
+    });
+    window.addEventListener('error', function (e) {
+      var panel = document.querySelector('.panel.active') || $('panel-signin');
+      if (panel) showError(panel, '页面异常：' + (e.message || '请刷新后重试'));
+    });
 
     // ── tabs ────────────────────────────────────────────────────
     Array.prototype.forEach.call(document.querySelectorAll('.tab'), function (t) {
@@ -365,17 +391,21 @@
       showError(panel, '');
       busy(panel, true, '登录中…');
       window.aqcCloudReady.then(function (cloud) {
-        return cloud.auth.signInWithPassword({ email: email, password: password });
-      }).then(function (res) {
-        if (res && res.error) {
-          var msg = (res.error.kind === 'invalid_grant')
-            ? '邮箱或密码不正确'
-            : ((res.error && res.error.message) || '登录失败，请重试');
-          showError(panel, msg);
-          busy(panel, false);
-          return;
-        }
-        window.location.href = 'index.html';
+        return cloud.auth.signInWithPassword({ email: email, password: password })
+          .then(function (res) {
+            if (res && res.error) {
+              var msg = (res.error.kind === 'invalid_grant')
+                ? '邮箱或密码不正确'
+                : ((res.error && res.error.message) || '登录失败，请重试');
+              showError(panel, msg);
+              busy(panel, false);
+              return;
+            }
+            // Ask the service whether a session really exists before moving
+            // on. Trusting the return value alone is how you end up bounced
+            // back by the guard with no explanation.
+            return enterIfSession(cloud, panel);
+          });
       }).catch(function (err) { fail(panel, err); });
     });
 
@@ -396,15 +426,15 @@
           verificationId: pending.otp.verificationId,
           isExistingUser: pending.otp.isExistingUser,
           token: code
+        }).then(function (res) {
+          if (res && res.error) {
+            showError(panel, '验证码无效或已过期');
+            busy(panel, false);
+            return;
+          }
+          pending.otp = null;
+          return enterIfSession(cloud, panel);
         });
-      }).then(function (res) {
-        if (res && res.error) {
-          showError(panel, '验证码无效或已过期');
-          busy(panel, false);
-          return;
-        }
-        pending.otp = null;
-        window.location.href = 'index.html';
       }).catch(function (err) { fail(panel, err); });
     });
 
@@ -429,20 +459,20 @@
           isExistingUser: false,
           token: code,
           password: password
+        }).then(function (res) {
+          if (res && res.error) {
+            showError(panel, '注册失败：验证码无效或已过期');
+            busy(panel, false);
+            return;
+          }
+          pending.signup = null;
+          return enterIfSession(cloud, panel);
         });
-      }).then(function (res) {
-        if (res && res.already) {
+      }).then(function (r) {
+        if (r && r.already) {
           showError(panel, '该邮箱已注册，请直接登录');
           busy(panel, false);
-          return;
         }
-        if (res && res.error) {
-          showError(panel, '注册失败：验证码无效或已过期');
-          busy(panel, false);
-          return;
-        }
-        pending.signup = null;
-        window.location.href = 'index.html';
       }).catch(function (err) { fail(panel, err); });
     });
 
@@ -477,7 +507,7 @@
     window.aqcCloudReady.then(function (cloud) {
       return cloud.auth.getSession();
     }).then(function (res) {
-      if (res && res.data && res.data.session) window.location.replace('index.html');
+      if (window.aqcHasSession(res)) window.location.replace('index.html');
     }).catch(function () { /* stay on the login form */ });
   })();
   </script>

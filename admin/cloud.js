@@ -42,4 +42,28 @@
   window.aqcCloudReady.catch(function (err) {
     console.error('[AQC] cloud init failed:', err && err.message);
   });
+
+  /**
+   * Does this getSession() result represent a live session?
+   *
+   * The SDK's minified implementation resolves with the session payload
+   * itself, while its own docs describe a { data, error } envelope — and the
+   * shape has already differed across builds. Checking a single shape is a
+   * silent trap: the guard reads `res.data.session`, finds undefined, and
+   * bounces a freshly signed-in user straight back to the login page with no
+   * message. So accept every shape we have seen.
+   */
+  window.aqcHasSession = function (res) {
+    if (!res || typeof res !== 'object') return false;
+    if (res.error) return false;                 // explicit failure wins
+    if (res.session) return true;
+    var d = res.data;
+    if (d) {
+      if (d.session) return true;
+      if (d.access_token || d.accessToken || d.user || d.user_id) return true;
+    }
+    // resolved with the session payload directly
+    if (res.access_token || res.accessToken || res.user || res.user_id) return true;
+    return false;
+  };
 })();

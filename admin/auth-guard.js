@@ -19,7 +19,7 @@
     window.location.replace('login.html');
   }
 
-  if (!window.aqcCloudReady) {
+  if (!window.aqcCloudReady || !window.aqcHasSession) {
     // cloud.js missing or failed to load — fail closed rather than let the
     // page render with no session check at all.
     bounce();
@@ -29,7 +29,7 @@
   window.aqcCloudReady
     .then(function (cloud) { return cloud.auth.getSession(); })
     .then(function (res) {
-      if (res && res.data && res.data.session) return;
+      if (window.aqcHasSession(res)) return;
       bounce();
     })
     .catch(bounce);
