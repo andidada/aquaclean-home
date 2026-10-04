@@ -21,6 +21,62 @@
   var AQC_BRANCH = 'main';
   var AQC_UPLOAD_DIR = 'assets/images/uploads/';
 
+  // ── Optional server-side GitHub proxy ────────────────────────────
+  // When netlify/functions/github-proxy is configured, the PAT no longer has
+  // to live in localStorage: we send the short-lived admin session token and
+  // the function signs the upstream call with its own GITHUB_TOKEN.
+  // When it is not configured (e.g. the page is served from GitHub Pages)
+  // every call below is untouched and the browser keeps using stored PAT.
+  var AQC_PROXY = '/.netlify/functions/github-proxy';
+  var aqcProxyOn = null; // null = not probed yet, then true / false
+
+  function aqcSession() {
+    try { return sessionStorage.getItem('admin_session_token') || ''; } catch (e) { return ''; }
+  }
+
+  async function proxyAvailable() {
+    if (aqcProxyOn !== null) return aqcProxyOn;
+    try {
+      var r = await fetch(AQC_PROXY, { headers: { Authorization: 'Bearer ' + aqcSession() } });
+      // A catch-all rewrite can answer this with 200 + HTML (GitHub Pages
+      // does), so only trust a JSON body.
+      var ct = r.headers.get('content-type') || '';
+      var d = (r.ok && ct.indexOf('application/json') !== -1)
+        ? await r.json().catch(function () { return null; })
+        : null;
+      aqcProxyOn = !!(d && d.configured);
+    } catch (e) { aqcProxyOn = false; }
+    return aqcProxyOn;
+  }
+
+  function proxyUrl(path, method) {
+    return AQC_PROXY + '?path=' + encodeURIComponent(path) + '&method=' + method;
+  }
+
+  async function proxyGetSha(path) {
+    var r = await fetch(proxyUrl(path, 'GET'), {
+      headers: { Authorization: 'Bearer ' + aqcSession() }
+    });
+    if (r.status === 404) return null;
+    if (!r.ok) throw new Error('GET ' + path + ' failed: HTTP ' + r.status);
+    var d = await r.json();
+    return d.sha;
+  }
+
+  async function proxyPut(path, body, what) {
+    var r = await fetch(proxyUrl(path, 'PUT'), {
+      method: 'POST',
+      headers: { Authorization: 'Bearer ' + aqcSession(), 'Content-Type': 'application/json' },
+      body: JSON.stringify(body)
+    });
+    if (!r.ok) {
+      var err = await r.json().catch(function () { return {}; });
+      throw new Error(what + ' ' + r.status + ': ' + (err.message || err.error || ''));
+    }
+    var result = await r.json();
+    return (result.content && result.content.sha) || '';
+  }
+
 
 
 
@@ -36,6 +92,7 @@
   function b64Utf8(str) { return btoa(unescape(encodeURIComponent(str))); }
 
   async function ghGetSha(path) {
+    if (await proxyAvailable()) return proxyGetSha(path);
     var token = getToken();
     if (!token) return null;
     var url = 'https://api.github.com/repos/' + AQC_REPO + '/contents/' + encodeURI(path) + '?ref=' + AQC_BRANCH + '&t=' + Date.now();
@@ -49,11 +106,13 @@
   }
 
   async function ghCommit(path, content, message) {
-    var token = getToken();
-    if (!token) throw new Error('未配置 GitHub Token：请先点击右上角"⚠ 设置 GitHub Token"');
     var sha = await ghGetSha(path);
     var body = { message: message, content: b64Utf8(content), branch: AQC_BRANCH };
     if (sha) body.sha = sha;
+    if (await proxyAvailable()) return proxyPut(path, body, 'GitHub PUT');
+
+    var token = getToken();
+    if (!token) throw new Error('未配置 GitHub Token：请先点击右上角"⚠ 设置 GitHub Token"');
     var r = await fetch('https://api.github.com/repos/' + AQC_REPO + '/contents/' + encodeURI(path), {
       method: 'PUT',
       headers: { 'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json' },
@@ -69,7 +128,9 @@
 
   async function ghUploadImage(file) {
     var token = getToken();
-    if (!token) throw new Error('未配置 GitHub Token');
+    var viaProxy = await proxyAvailable();
+    // With the proxy the PAT lives on the server, so none is needed here.
+    if (!viaProxy && !token) throw new Error('未配置 GitHub Token');
     var safeName = (file.name || 'image').replace(/[^a-zA-Z0-9._-]/g, '_').slice(0, 80);
     var stamp = Date.now();
     var path = AQC_UPLOAD_DIR + stamp + '-' + safeName;
@@ -83,6 +144,10 @@
     var sha = await ghGetSha(path);
     var body = { message: 'admin upload: ' + safeName, content: b64, branch: AQC_BRANCH };
     if (sha) body.sha = sha;
+    if (await proxyAvailable()) {
+      await proxyPut(path, body, '上传失败');
+      return '/assets/images/uploads/' + stamp + '-' + safeName;
+    }
     var r = await fetch('https://api.github.com/repos/' + AQC_REPO + '/contents/' + encodeURI(path), {
       method: 'PUT',
       headers: { 'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json' },

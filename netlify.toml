@@ -5,6 +5,12 @@
 [build.environment]
   NODE_VERSION = "18"
 
+# Server-side admin auth + GitHub write proxy. Both degrade gracefully:
+# with no environment variables set they answer 501 and the admin UI falls
+# back to its client-side check / its own stored PAT.
+[functions]
+  directory = "netlify/functions"
+
 [[headers]]
   for = "/*"
   [headers.values]

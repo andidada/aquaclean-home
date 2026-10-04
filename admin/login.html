@@ -125,26 +125,147 @@
   </div>
 
   <script>
-    // 简单的登录验证
-    const VALID_USERNAME = 'admin';
-    const VALID_PASSWORD = 'aquaclean2024';
+  (function () {
+    // ── 登录校验 ────────────────────────────────────────────────
+    // The password itself is NOT in this file - only a salted SHA-256
+    // digest. Regenerate with scripts/hash_admin_password.py whenever the
+    // password changes, and keep AQC_ADMIN_SALT in sync with that script.
+    //
+    // Two modes, picked automatically:
+    //
+    //   server - /.netlify/functions/admin-auth is configured, so the
+    //            password is checked server-side and we get back a signed,
+    //            expiring session token. This is real authentication.
+    //   local  - no function available (e.g. served from GitHub Pages),
+    //            so we compare against the digest below. That only keeps
+    //            the password out of the repo; it is still client-side and
+    //            can be bypassed.
+    var AUTH_ENDPOINT = '/.netlify/functions/admin-auth';
 
-    document.getElementById('loginForm').addEventListener('submit', function(e) {
-      e.preventDefault();
+    // Client-side fallback only. Regenerate with scripts/hash_admin_password.py
+    // and keep AQC_ADMIN_SALT in sync with that script.
+    var AQC_USERNAME = 'admin';
+    var AQC_ADMIN_SALT = 'AQC-Admin-Login-v1';
+    var AQC_PASSWORD_HASH =
+      'c55d159448b8df02f5242ae3e561b00ae99e6a1befccd0aec7577a775d943f44';
 
-      const username = document.getElementById('username').value;
-      const password = document.getElementById('password').value;
+    var form = document.getElementById('loginForm');
+    var errorBox = document.getElementById('error');
+    var submitBtn = form.querySelector('button[type="submit"]');
 
-      if (username === VALID_USERNAME && password === VALID_PASSWORD) {
-        // 登录成功，存储会话
-        sessionStorage.setItem('admin_logged_in', 'true');
-        sessionStorage.setItem('admin_user', username);
-        // 跳转到管理面板
-        window.location.href = 'dashboard.html';
-      } else {
-        document.getElementById('error').style.display = 'block';
+    // Resolved once on load; submit() waits for it.
+    //
+    // The content-type guard matters: GitHub Pages answers unknown paths with
+    // the catch-all rewrite (200 + HTML), which would parse as garbage and
+    // look like "server mode". Only a JSON body counts as configured.
+    var modePromise = fetch(AUTH_ENDPOINT, { credentials: 'same-origin' })
+      .then(function (r) {
+        var ct = r.headers.get('content-type') || '';
+        if (r.status !== 200 || ct.indexOf('application/json') === -1) return null;
+        return r.json().catch(function () { return null; });
+      })
+      .then(function (d) { return d && d.configured ? 'server' : 'local'; })
+      .catch(function () { return 'local'; });
+
+    function showError(msg) {
+      errorBox.textContent = msg || '用户名或密码错误';
+      errorBox.style.display = 'block';
+    }
+
+    function hex(buf) {
+      var out = '';
+      for (var i = 0; i < buf.length; i++) {
+        out += ('0' + buf[i].toString(16)).slice(-2);
       }
+      return out;
+    }
+
+    function sha256Hex(text) {
+      var data = new TextEncoder().encode(AQC_ADMIN_SALT + ':' + text);
+      return crypto.subtle.digest('SHA-256', data).then(function (buf) {
+        return hex(new Uint8Array(buf));
+      });
+    }
+
+    // Constant-time-ish string compare so the digest comparison does not
+    // leak the matching prefix length through timing.
+    function safeEqual(a, b) {
+      if (a.length !== b.length) return false;
+      var diff = 0;
+      for (var i = 0; i < a.length; i++) diff |= a.charCodeAt(i) ^ b.charCodeAt(i);
+      return diff === 0;
+    }
+
+    function succeed(user) {
+      sessionStorage.setItem('admin_logged_in', 'true');
+      sessionStorage.setItem('admin_user', user);
+      window.location.href = 'dashboard.html';
+    }
+
+    function fail(msg) {
+      submitBtn.disabled = false;
+      submitBtn.textContent = '登录';
+      var pw = document.getElementById('password');
+      pw.value = '';
+      pw.focus();
+      showError(msg);
+    }
+
+    function loginOnServer(username, password) {
+      return fetch(AUTH_ENDPOINT, {
+        method: 'POST',
+        credentials: 'same-origin',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: 'login', username: username, password: password }),
+      })
+        .then(function (r) { return r.json().catch(function () { return { ok: false }; }); })
+        .then(function (d) {
+          if (!d.ok) {
+            var msg = d.error === 'too_many_attempts'
+              ? '尝试次数过多，请稍后再试'
+              : (d.error === 'bad_credentials' ? undefined : '服务端校验失败，请重试');
+            fail(msg);
+            return;
+          }
+          sessionStorage.setItem('admin_session_token', d.token);
+          succeed(d.user || username);
+        });
+    }
+
+    function loginLocally(username, password) {
+      // crypto.subtle only exists in a secure context (https / localhost).
+      if (!window.crypto || !crypto.subtle) {
+        fail('当前环境不支持 Web Crypto，请通过 HTTPS 或 localhost 访问登录页');
+        return Promise.resolve();
+      }
+      return sha256Hex(password).then(function (hash) {
+        if (username === AQC_USERNAME && safeEqual(hash, AQC_PASSWORD_HASH)) {
+          succeed(username);
+          return;
+        }
+        fail();
+      });
+    }
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      errorBox.style.display = 'none';
+
+      var username = document.getElementById('username').value;
+      var password = document.getElementById('password').value;
+
+      submitBtn.disabled = true;
+      submitBtn.textContent = '验证中…';
+
+      modePromise
+        .then(function (mode) {
+          return mode === 'server'
+            ? loginOnServer(username, password)
+            : loginLocally(username, password);
+        })
+        .catch(function () { fail('校验失败，请重试'); });
     });
+  })();
   </script>
 </body>
 </html>
