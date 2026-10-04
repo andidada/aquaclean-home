@@ -1,0 +1,20 @@
+# Files that must not be uploaded to Netlify.
+#
+# The public site is served by GitHub Pages; this Netlify deploy exists to
+# host the admin Functions (Pages cannot run server-side code). Uploading
+# needless megabytes slows every deploy and risks hitting limits.
+
+.git/
+.github/
+**/__pycache__/
+**/*.pyc
+**/.DS_Store
+
+# local scratch / debug output
+shots/
+admin/.tmp_bridge.log
+admin/.tmp_*
+*.log
+
+# build + maintenance scripts are not needed by the live site
+scripts/
