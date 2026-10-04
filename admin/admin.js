@@ -1517,4 +1517,124 @@ function buildProductControls(side) {
     init();
   }
 
+
+  // ── Drag-and-drop image upload on every image URL field ────────────
+  // Product images already shipped with a drop zone; the other image
+  // fields (homepage product image, category banner, about-page gallery,
+  // story image) were plain URL text boxes, so every image had to be
+  // uploaded somewhere else first and pasted in by hand.
+  //
+  // This is purely additive: it decorates existing inputs after render and
+  // dispatches an `input` event so the normal draft/save flow still fires.
+  var AQC_IMG_RE = /(^|[-_])(img|image|images|banner|photo|cover|thumb|picture)($|[-_])/i;
+  var AQC_ALT_RE = /(^|[-_])alt($|[-_])/i;
+
+  function aqcIsImageUrlField(el) {
+    return !!el && el.type === 'text' && !!el.id &&
+           !AQC_ALT_RE.test(el.id) && AQC_IMG_RE.test(el.id);
+  }
+
+  function aqcMakeDropZone(input) {
+    if (!input || input.__aqcDrop) return;
+    input.__aqcDrop = 1;
+
+    var LABEL = '\U0001F5BC\uFE0F 拖放图片到此处上传 · 或点击选择文件（也可直接粘贴 URL）';
+
+    var dz = document.createElement('div');
+    dz.className = 'aqc-dropzone';
+
+    var text = document.createElement('span');
+    text.textContent = LABEL;
+
+    var preview = document.createElement('img');
+    preview.className = 'aqc-drop-preview';
+    preview.style.display = 'none';
+
+    var picker = document.createElement('input');
+    picker.type = 'file';
+    picker.accept = 'image/*';
+    picker.style.display = 'none';
+
+    dz.appendChild(text);
+    dz.appendChild(picker);
+    dz.appendChild(preview);
+
+    function setPreview(url) {
+      preview.src = url || '';
+      preview.style.display = url ? 'block' : 'none';
+    }
+    if (input.value && /^[\/.]/.test(input.value)) setPreview(input.value);
+
+    async function handle(files) {
+      if (!files || !files.length) return;
+      if (!getToken()) {
+        setStatus('\u26A0 请先点击右上角「设置 GitHub Token」后再上传图片');
+        return;
+      }
+      dz.classList.add('busy');
+      text.textContent = '正在上传…';
+      try {
+        var url = await ghUploadImage(files[0]);
+        input.value = url;
+        try { input.dispatchEvent(new Event('input', { bubbles: true })); } catch (e) {}
+        setPreview(url);
+        setStatus('\u2705 图片已上传：' + url + ' · 记得点「保存草稿」或发布');
+      } catch (err) {
+        setStatus('\u274C 图片上传失败：' + ((err && err.message) || err));
+      } finally {
+        dz.classList.remove('busy');
+        text.textContent = LABEL;
+      }
+    }
+
+    dz.addEventListener('click', function () { picker.click(); });
+    picker.addEventListener('change', function () {
+      handle(picker.files);
+      picker.value = '';
+    });
+    ['dragenter', 'dragover'].forEach(function (ev) {
+      dz.addEventListener(ev, function (e) {
+        e.preventDefault();
+        dz.classList.add('drag-over');
+      });
+    });
+    ['dragleave', 'dragend'].forEach(function (ev) {
+      dz.addEventListener(ev, function () { dz.classList.remove('drag-over'); });
+    });
+    dz.addEventListener('drop', function (e) {
+      e.preventDefault();
+      dz.classList.remove('drag-over');
+      handle(e.dataTransfer && e.dataTransfer.files);
+    });
+
+    if (input.parentNode) input.parentNode.insertBefore(dz, input.nextSibling);
+  }
+
+  function aqcScanImageFields(root) {
+    [].slice.call((root || document).querySelectorAll('input[type=text]'))
+      .forEach(function (el) {
+        if (aqcIsImageUrlField(el)) aqcMakeDropZone(el);
+      });
+  }
+
+  // Forms are re-rendered on every tab/section switch, so watch the form
+  // area and decorate whatever appears.
+  function initImageDropZones() {
+    var area = $('formArea');
+    if (!area) return;
+    aqcScanImageFields(area);
+    if (typeof MutationObserver === 'function') {
+      var mo = new MutationObserver(function () { aqcScanImageFields(area); });
+      mo.observe(area, { childList: true, subtree: true });
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', function () {
+      setTimeout(initImageDropZones, 700);
+    });
+  } else {
+    setTimeout(initImageDropZones, 700);
+  }
+
 })();

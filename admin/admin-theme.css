@@ -1,0 +1,169 @@
+/* AquaClean Admin — shared theme
+ * ------------------------------------------------------------------
+ * Three admin surfaces (content manager / dashboard / login) each carried
+ * their own styling, and the dashboard still used the pre-redesign purple.
+ * This file is the single source of truth for admin design tokens, aligned
+ * with the site's industrial-blue palette in assets/css/style.css.
+ *
+ * It is linked AFTER each page's own <style> so these rules win the cascade —
+ * that keeps the change conservative: no structure is touched, only colour,
+ * spacing, focus states and small-screen behaviour are refined.
+ * ------------------------------------------------------------------ */
+
+:root {
+  /* brand — mirrors assets/css/style.css */
+  --a-primary: #2563EB;
+  --a-primary-dark: #1D4ED8;
+  --a-primary-light: #DBEAFE;
+  --a-ink: #0F172A;
+  --a-brand-ink: #0B1B33;
+  --a-accent: #F59E0B;
+
+  /* surfaces & text */
+  --a-bg: #F6F8FB;
+  --a-surface: #FFFFFF;
+  --a-surface-alt: #F8FAFC;
+  --a-text: #1E293B;
+  --a-muted: #64748B;
+  --a-border: #E2E8F0;
+
+  /* semantic */
+  --a-success: #10B981;
+  --a-danger: #DC2626;
+  --a-warn-bg: #FFFBEB;
+  --a-warn-border: #FDE68A;
+
+  /* shape */
+  --a-radius: 14px;
+  --a-radius-sm: 8px;
+  --a-shadow: 0 1px 2px rgb(15 23 42 / .04), 0 8px 24px -8px rgb(15 23 42 / .08);
+  --a-shadow-lift: 0 8px 20px -6px rgb(15 23 42 / .12);
+  --a-gap: 16px;
+}
+
+/* ── Readability ───────────────────────────────────────────────── */
+body {
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* One consistent focus state everywhere — keyboard users can see where
+ * they are, and it is the brand blue rather than the browser default. */
+:where(input, select, textarea, button, a, [tabindex]):focus-visible {
+  outline: 2px solid var(--a-primary);
+  outline-offset: 2px;
+}
+
+input, select, textarea {
+  font-family: inherit;
+}
+
+/* 16px stops iOS Safari from zooming on focus */
+@media (max-width: 768px) {
+  input, select, textarea { font-size: 16px; }
+}
+
+label, .form-group label {
+  color: var(--a-muted);
+  font-weight: 600;
+}
+
+/* ── Cards & sections ──────────────────────────────────────────── */
+.card {
+  padding: 22px 24px;
+  border-radius: var(--a-radius);
+  border-color: var(--a-border);
+  box-shadow: var(--a-shadow);
+}
+
+.card + .card { margin-top: var(--a-gap); }
+
+.form-group { margin-bottom: 16px; }
+.form-group input,
+.form-group select,
+.form-group textarea {
+  border-radius: var(--a-radius-sm);
+  border-color: var(--a-border);
+  padding: 10px 12px;
+}
+
+/* ── Buttons ───────────────────────────────────────────────────── */
+.btn, .btn-sm, .btn-publish, .btn-success {
+  border-radius: var(--a-radius-sm);
+  font-weight: 600;
+  transition: filter .18s ease, box-shadow .18s ease;
+}
+.btn:hover, .btn-sm:hover, .btn-publish:hover, .btn-success:hover { filter: brightness(.94); }
+.btn:active { transform: translateY(1px); }
+
+/* ── Status / log areas ────────────────────────────────────────── */
+.status, .publish-log {
+  border-radius: var(--a-radius-sm);
+  line-height: 1.6;
+}
+
+/* ── Image upload surfaces ─────────────────────────────────────── */
+.image-upload, .admin-drop, .aqc-dropzone {
+  border: 2px dashed #CBD5E1;
+  border-radius: var(--a-radius-sm);
+  background: var(--a-surface-alt);
+  color: var(--a-muted);
+  padding: 16px;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color .18s ease, background .18s ease, color .18s ease;
+}
+.image-upload:hover, .admin-drop:hover, .aqc-dropzone:hover,
+.aqc-dropzone.drag-over {
+  border-color: var(--a-primary);
+  color: var(--a-primary);
+  background: var(--a-primary-light);
+}
+.aqc-dropzone.busy {
+  opacity: .65;
+  cursor: progress;
+}
+.aqc-drop-preview {
+  display: block;
+  max-width: 160px;
+  max-height: 110px;
+  margin: 10px auto 0;
+  border-radius: var(--a-radius-sm);
+  border: 1px solid var(--a-border);
+  background: #fff;
+}
+
+/* ── Small screens ─────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .container { padding: 14px 12px; }
+
+  /* sidebar + form stack, no horizontal scroll */
+  .admin-main { grid-template-columns: 1fr; padding: 14px; gap: 14px; }
+  .admin-side { position: static; padding: 16px; }
+  .admin-form { padding: 18px 16px; }
+  .admin-grid, .grid-2 { grid-template-columns: 1fr; }
+
+  .card { padding: 16px 14px; }
+
+  /* tabs scroll instead of wrapping into a tall block */
+  .tabs {
+    display: flex;
+    overflow-x: auto;
+    gap: 6px;
+    -webkit-overflow-scrolling: touch;
+  }
+  .tab { flex: 0 0 auto; white-space: nowrap; padding: 10px 14px; }
+
+  /* header collapses, publish button stays reachable */
+  .header { padding: 14px 12px; }
+  .header .user { margin-top: 8px; }
+  .btn-publish { width: 100%; }
+
+  table { display: block; overflow-x: auto; white-space: nowrap; }
+  .product-item, .category-card { flex-direction: column; align-items: flex-start; }
+  .product-image { width: 100%; max-width: 220px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
