@@ -134,6 +134,10 @@ def trigger_actions():
 ALLOWED_ORIGINS = {
     "https://www.hkdmj.net",
     "https://hkdmj.net",
+    # The back office is published as its own app so the cloud auth service can
+    # verify the caller (it enforces an exact Origin match). Pinned, not a
+    # wildcard - see origin_ok() for why this list exists.
+    "https://aquaclean-admin.app.workbuddy.host",
 }
 
 def origin_ok(handler):

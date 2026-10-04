@@ -13,11 +13,14 @@
 <link rel="stylesheet" href="admin-theme.css">
 </head>
 <body>
+<script src="https://cdn.jsdelivr.net/npm/@tencent-ai/workbuddy-cloud-sdk@dev/lib/index.global.js"></script>
+<script src="cloud.js"></script>
 <script src="auth-guard.js"></script>
 <header class="admin-bar">
   <div class="admin-bar-inner">
     <span class="admin-logo">🏠 AquaClean <b>后台</b></span>
     <span class="admin-hint">本地草稿自动保存 · 一键部署到 GitHub Pages</span>
+    <a href="dashboard.html" style="font-size:12.5px;color:#0F172A;text-decoration:none;font-weight:700;padding:6px 12px;border:1px solid #0F172A;border-radius:6px;">📊 仪表盘</a>
     <a href="#" id="setTokenLink" style="font-size:12.5px;color:#fbbf24;text-decoration:none;font-weight:700;padding:6px 12px;border:1px solid #fbbf24;border-radius:6px;">⚠ 设置 GitHub Token</a>
   </div>
 </header>

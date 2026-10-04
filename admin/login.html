@@ -18,11 +18,11 @@
     }
     .login-box {
       background: var(--a-surface, #FFFFFF);
-      padding: 40px;
+      padding: 36px 40px;
       border-radius: var(--a-radius, 14px);
       box-shadow: 0 20px 60px rgb(15 23 42 / .28);
       width: 100%;
-      max-width: 420px;
+      max-width: 440px;
     }
     h1 {
       text-align: center;
@@ -35,21 +35,47 @@
       text-align: center;
       color: var(--a-muted, #64748B);
       font-size: 14px;
-      margin-bottom: 30px;
+      margin-bottom: 24px;
     }
-    .form-group {
-      margin-bottom: 20px;
+    .tabs {
+      display: flex;
+      gap: 4px;
+      background: var(--a-surface-alt, #F8FAFC);
+      border: 1px solid var(--a-border, #E2E8F0);
+      border-radius: var(--a-radius-sm, 8px);
+      padding: 4px;
+      margin-bottom: 24px;
     }
+    .tab {
+      flex: 1 1 0;
+      border: none;
+      background: transparent;
+      padding: 8px 4px;
+      border-radius: 6px;
+      font-size: 13.5px;
+      font-family: inherit;
+      font-weight: 600;
+      color: var(--a-muted, #64748B);
+      cursor: pointer;
+      transition: background .18s ease, color .18s ease;
+    }
+    .tab:hover { color: var(--a-primary, #2563EB); }
+    .tab.active {
+      background: var(--a-surface, #FFFFFF);
+      color: var(--a-primary, #2563EB);
+      box-shadow: 0 1px 2px rgb(15 23 42 / .08);
+    }
+    .form-group { margin-bottom: 16px; }
     label {
       display: block;
-      margin-bottom: 8px;
+      margin-bottom: 7px;
       color: var(--a-muted, #64748B);
       font-size: 14px;
       font-weight: 600;
     }
     input {
       width: 100%;
-      padding: 12px 16px;
+      padding: 11px 14px;
       border: 2px solid var(--a-border, #E2E8F0);
       border-radius: var(--a-radius-sm, 8px);
       font-size: 16px;
@@ -57,13 +83,28 @@
       color: var(--a-text, #1E293B);
       transition: border-color .18s ease;
     }
-    input:focus {
-      outline: none;
-      border-color: var(--a-primary, #2563EB);
+    input:focus { outline: none; border-color: var(--a-primary, #2563EB); }
+    .code-row { display: flex; gap: 10px; }
+    .code-row input { flex: 1 1 0; }
+    .btn-ghost {
+      flex: 0 0 auto;
+      padding: 0 16px;
+      background: var(--a-primary-light, #DBEAFE);
+      color: var(--a-primary, #2563EB);
+      border: none;
+      border-radius: var(--a-radius-sm, 8px);
+      font-size: 14px;
+      font-weight: 600;
+      font-family: inherit;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: filter .18s ease;
     }
-    button {
+    .btn-ghost:hover { filter: brightness(.95); }
+    .btn-ghost:disabled { opacity: .6; cursor: progress; }
+    button[type="submit"] {
       width: 100%;
-      padding: 14px;
+      padding: 13px;
       background: linear-gradient(135deg, var(--a-primary, #2563EB) 0%, var(--a-primary-dark, #1D4ED8) 100%);
       color: #fff;
       border: none;
@@ -74,31 +115,43 @@
       cursor: pointer;
       transition: filter .18s ease, box-shadow .18s ease;
     }
-    button:hover {
-      filter: brightness(.94);
-      box-shadow: 0 8px 20px -6px rgb(37 99 235 / .45);
+    button[type="submit"]:hover { filter: brightness(.94); }
+    button[type="submit"]:disabled { opacity: .65; cursor: progress; }
+    .error, .notice {
+      margin-top: 14px;
+      font-size: 14px;
+      display: none;
+      padding: 10px 12px;
+      border-radius: var(--a-radius-sm, 8px);
+      line-height: 1.5;
     }
     .error {
       color: var(--a-danger, #DC2626);
-      text-align: center;
-      margin-top: 15px;
-      font-size: 14px;
-      display: none;
+      background: #FEF2F2;
+      border: 1px solid #FECACA;
+    }
+    .notice {
+      color: #92400E;
+      background: var(--a-warn-bg, #FFFBEB);
+      border: 1px solid var(--a-warn-border, #FDE68A);
     }
     .hint {
       text-align: center;
-      margin-top: 20px;
+      margin-top: 22px;
       color: var(--a-muted, #64748B);
       font-size: 12px;
+      line-height: 1.6;
     }
+    .panel { display: none; }
+    .panel.active { display: block; }
 
     @media (max-width: 768px) {
       body { padding: 16px 12px; align-items: flex-start; }
-      .login-box { padding: 28px 20px; max-width: 100%; }
+      .login-box { padding: 26px 18px; }
       h1 { font-size: 21px; }
-      input { font-size: 16px; } /* 16px stops iOS Safari zooming on focus */
+      .tabs { flex-wrap: wrap; }
+      .tab { flex: 1 1 45%; }
     }
-
     @media (prefers-reduced-motion: reduce) {
       * { transition: none !important; animation: none !important; }
     }
@@ -108,163 +161,324 @@
 <body>
   <div class="login-box">
     <h1>🔐 AquaClean 管理后台</h1>
-    <p class="subtitle">登录后可管理产品内容与分类</p>
-    <form id="loginForm">
+    <p class="subtitle">使用管理员邮箱登录</p>
+
+    <div class="tabs" role="tablist">
+      <button type="button" class="tab active" data-panel="signin" role="tab">密码登录</button>
+      <button type="button" class="tab" data-panel="otp" role="tab">验证码登录</button>
+      <button type="button" class="tab" data-panel="signup" role="tab">注册</button>
+      <button type="button" class="tab" data-panel="reset" role="tab">忘记密码</button>
+    </div>
+
+    <!-- 密码登录 -->
+    <form class="panel active" id="panel-signin" novalidate>
       <div class="form-group">
-        <label for="username">用户名</label>
-        <input type="text" id="username" name="username" placeholder="请输入用户名" autocomplete="username" required>
+        <label for="signin-email">邮箱</label>
+        <input type="email" id="signin-email" name="email" autocomplete="email" placeholder="you@example.com" required>
       </div>
       <div class="form-group">
-        <label for="password">密码</label>
-        <input type="password" id="password" name="password" placeholder="请输入密码" autocomplete="current-password" required>
+        <label for="signin-password">密码</label>
+        <input type="password" id="signin-password" name="password" autocomplete="current-password" placeholder="请输入密码" required>
       </div>
       <button type="submit">登录</button>
-      <div class="error" id="error">用户名或密码错误</div>
+      <div class="error" data-role="error"></div>
     </form>
-    <div class="hint">AquaClean Home · 内容管理后台</div>
+
+    <!-- 验证码登录（已注册邮箱） -->
+    <form class="panel" id="panel-otp" novalidate>
+      <div class="form-group">
+        <label for="otp-email">邮箱</label>
+        <input type="email" id="otp-email" name="email" autocomplete="email" placeholder="you@example.com" required>
+      </div>
+      <div class="form-group">
+        <label for="otp-code">验证码</label>
+        <div class="code-row">
+          <input type="text" id="otp-code" name="code" inputmode="numeric" autocomplete="one-time-code" placeholder="6 位验证码" required>
+          <button type="button" class="btn-ghost" data-role="send-otp">获取验证码</button>
+        </div>
+      </div>
+      <button type="submit">登录</button>
+      <div class="error" data-role="error"></div>
+      <div class="notice" data-role="notice"></div>
+    </form>
+
+    <!-- 注册（需邮箱验证码 + 密码） -->
+    <form class="panel" id="panel-signup" novalidate>
+      <div class="form-group">
+        <label for="signup-email">邮箱</label>
+        <input type="email" id="signup-email" name="email" autocomplete="email" placeholder="you@example.com" required>
+      </div>
+      <div class="form-group">
+        <label for="signup-code">验证码</label>
+        <div class="code-row">
+          <input type="text" id="signup-code" name="code" inputmode="numeric" autocomplete="one-time-code" placeholder="6 位验证码" required>
+          <button type="button" class="btn-ghost" data-role="send-otp">获取验证码</button>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="signup-password">设置密码</label>
+        <input type="password" id="signup-password" name="password" autocomplete="new-password" placeholder="至少 8 位" required>
+      </div>
+      <button type="submit">注册并登录</button>
+      <div class="error" data-role="error"></div>
+      <div class="notice" data-role="notice"></div>
+    </form>
+
+    <!-- 忘记密码 -->
+    <form class="panel" id="panel-reset" novalidate>
+      <div class="form-group">
+        <label for="reset-email">邮箱</label>
+        <input type="email" id="reset-email" name="email" autocomplete="email" placeholder="you@example.com" required>
+      </div>
+      <div class="form-group">
+        <label for="reset-code">验证码</label>
+        <input type="text" id="reset-code" name="code" inputmode="numeric" autocomplete="one-time-code" placeholder="收到邮件后填写" required>
+      </div>
+      <div class="form-group">
+        <label for="reset-password">新密码</label>
+        <input type="password" id="reset-password" name="password" autocomplete="new-password" placeholder="至少 8 位" required>
+      </div>
+      <button type="submit">重置密码</button>
+      <div class="error" data-role="error"></div>
+      <div class="notice" data-role="notice"></div>
+    </form>
+
+    <div class="hint">AquaClean Home · 内容管理后台<br>登录即表示你已获授权管理本站内容</div>
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/@tencent-ai/workbuddy-cloud-sdk@dev/lib/index.global.js"></script>
+  <script src="cloud.js"></script>
   <script>
   (function () {
-    // ── 登录校验 ────────────────────────────────────────────────
-    // The password itself is NOT in this file - only a salted SHA-256
-    // digest. Regenerate with scripts/hash_admin_password.py whenever the
-    // password changes, and keep AQC_ADMIN_SALT in sync with that script.
-    //
-    // Two modes, picked automatically:
-    //
-    //   server - /.netlify/functions/admin-auth is configured, so the
-    //            password is checked server-side and we get back a signed,
-    //            expiring session token. This is real authentication.
-    //   local  - no function available (e.g. served from GitHub Pages),
-    //            so we compare against the digest below. That only keeps
-    //            the password out of the repo; it is still client-side and
-    //            can be bypassed.
-    var AUTH_ENDPOINT = '/.netlify/functions/admin-auth';
+    'use strict';
 
-    // Client-side fallback only. Regenerate with scripts/hash_admin_password.py
-    // and keep AQC_ADMIN_SALT in sync with that script.
-    var AQC_USERNAME = 'admin';
-    var AQC_ADMIN_SALT = 'AQC-Admin-Login-v1';
-    var AQC_PASSWORD_HASH =
-      'c55d159448b8df02f5242ae3e561b00ae99e6a1befccd0aec7577a775d943f44';
+    // Per-panel OTP state, deliberately kept outside the event handlers:
+    // submitting a code must never send a new one.
+    var pending = { otp: null, signup: null, reset: null };
 
-    var form = document.getElementById('loginForm');
-    var errorBox = document.getElementById('error');
-    var submitBtn = form.querySelector('button[type="submit"]');
+    function $(id) { return document.getElementById(id); }
 
-    // Resolved once on load; submit() waits for it.
-    //
-    // The content-type guard matters: GitHub Pages answers unknown paths with
-    // the catch-all rewrite (200 + HTML), which would parse as garbage and
-    // look like "server mode". Only a JSON body counts as configured.
-    var modePromise = fetch(AUTH_ENDPOINT, { credentials: 'same-origin' })
-      .then(function (r) {
-        var ct = r.headers.get('content-type') || '';
-        if (r.status !== 200 || ct.indexOf('application/json') === -1) return null;
-        return r.json().catch(function () { return null; });
-      })
-      .then(function (d) { return d && d.configured ? 'server' : 'local'; })
-      .catch(function () { return 'local'; });
-
-    function showError(msg) {
-      errorBox.textContent = msg || '用户名或密码错误';
-      errorBox.style.display = 'block';
+    function showError(panel, msg) {
+      var box = panel.querySelector('[data-role="error"]');
+      box.textContent = msg;
+      box.style.display = msg ? 'block' : 'none';
+      var notice = panel.querySelector('[data-role="notice"]');
+      if (notice) notice.style.display = 'none';
     }
 
-    function hex(buf) {
-      var out = '';
-      for (var i = 0; i < buf.length; i++) {
-        out += ('0' + buf[i].toString(16)).slice(-2);
+    function showNotice(panel, msg) {
+      var box = panel.querySelector('[data-role="notice"]');
+      if (!box) return;
+      box.textContent = msg;
+      box.style.display = msg ? 'block' : 'none';
+    }
+
+    function busy(panel, on, label) {
+      var btn = panel.querySelector('button[type="submit"]');
+      btn.disabled = on;
+      if (on) {
+        btn.dataset.label = btn.textContent;
+        btn.textContent = label || '处理中…';
+      } else if (btn.dataset.label) {
+        btn.textContent = btn.dataset.label;
       }
-      return out;
     }
 
-    function sha256Hex(text) {
-      var data = new TextEncoder().encode(AQC_ADMIN_SALT + ':' + text);
-      return crypto.subtle.digest('SHA-256', data).then(function (buf) {
-        return hex(new Uint8Array(buf));
+    function fail(panel, err) {
+      var kind = err && err.kind;
+      var msg = (err && err.message) || '操作失败，请重试';
+      if (kind === 'network' || kind === 'backend-unavailable') {
+        msg = '网络或服务暂时不可用，请稍后重试';
+      }
+      showError(panel, msg);
+      busy(panel, false);
+    }
+
+    // ── tabs ────────────────────────────────────────────────────
+    Array.prototype.forEach.call(document.querySelectorAll('.tab'), function (t) {
+      t.addEventListener('click', function () {
+        Array.prototype.forEach.call(document.querySelectorAll('.tab'), function (x) {
+          x.classList.toggle('active', x === t);
+        });
+        Array.prototype.forEach.call(document.querySelectorAll('.panel'), function (p) {
+          p.classList.toggle('active', p.id === 'panel-' + t.dataset.panel);
+        });
+      });
+    });
+
+    // ── shared: send an email code ──────────────────────────────
+    function wireSend(panelId, key) {
+      var panel = $(panelId);
+      var btn = panel.querySelector('[data-role="send-otp"]');
+      var emailInput = panel.querySelector('input[type="email"]');
+      var seconds = 0;
+
+      btn.addEventListener('click', function () {
+        var email = emailInput.value.trim();
+        if (!email) { showError(panel, '请先填写邮箱'); return; }
+        if (seconds > 0) return;
+
+        btn.disabled = true;
+        showError(panel, '');
+        window.aqcCloudReady.then(function (cloud) {
+          return cloud.auth.sendOtp({ email: email });
+        }).then(function (res) {
+          if (res && res.error) { btn.disabled = false; fail(panel, res.error); return; }
+          pending[key] = {
+            email: email,
+            verificationId: res.data.verificationId,
+            isExistingUser: res.data.isExistingUser
+          };
+          showNotice(panel, '验证码已发送到 ' + email);
+          // countdown guards the send action only
+          seconds = 60;
+          var tick = setInterval(function () {
+            btn.textContent = seconds + ' 秒后重发';
+            if (--seconds <= 0) {
+              clearInterval(tick);
+              btn.disabled = false;
+              btn.textContent = '获取验证码';
+            }
+          }, 1000);
+          btn.textContent = seconds + ' 秒后重发';
+        }).catch(function (e) { btn.disabled = false; fail(panel, e); });
       });
     }
 
-    // Constant-time-ish string compare so the digest comparison does not
-    // leak the matching prefix length through timing.
-    function safeEqual(a, b) {
-      if (a.length !== b.length) return false;
-      var diff = 0;
-      for (var i = 0; i < a.length; i++) diff |= a.charCodeAt(i) ^ b.charCodeAt(i);
-      return diff === 0;
+    wireSend('panel-otp', 'otp');
+    wireSend('panel-signup', 'signup');
+
+    function codeOf(panel) {
+      return (panel.querySelector('input[name="code"]').value || '').trim();
+    }
+    function passwordOf(panel) {
+      return panel.querySelector('input[name="password"]').value || '';
     }
 
-    function succeed(user) {
-      sessionStorage.setItem('admin_logged_in', 'true');
-      sessionStorage.setItem('admin_user', user);
-      window.location.href = 'dashboard.html';
-    }
-
-    function fail(msg) {
-      submitBtn.disabled = false;
-      submitBtn.textContent = '登录';
-      var pw = document.getElementById('password');
-      pw.value = '';
-      pw.focus();
-      showError(msg);
-    }
-
-    function loginOnServer(username, password) {
-      return fetch(AUTH_ENDPOINT, {
-        method: 'POST',
-        credentials: 'same-origin',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ action: 'login', username: username, password: password }),
-      })
-        .then(function (r) { return r.json().catch(function () { return { ok: false }; }); })
-        .then(function (d) {
-          if (!d.ok) {
-            var msg = d.error === 'too_many_attempts'
-              ? '尝试次数过多，请稍后再试'
-              : (d.error === 'bad_credentials' ? undefined : '服务端校验失败，请重试');
-            fail(msg);
-            return;
-          }
-          sessionStorage.setItem('admin_session_token', d.token);
-          succeed(d.user || username);
-        });
-    }
-
-    function loginLocally(username, password) {
-      // crypto.subtle only exists in a secure context (https / localhost).
-      if (!window.crypto || !crypto.subtle) {
-        fail('当前环境不支持 Web Crypto，请通过 HTTPS 或 localhost 访问登录页');
-        return Promise.resolve();
-      }
-      return sha256Hex(password).then(function (hash) {
-        if (username === AQC_USERNAME && safeEqual(hash, AQC_PASSWORD_HASH)) {
-          succeed(username);
+    // ── password sign-in ────────────────────────────────────────
+    $('panel-signin').addEventListener('submit', function (e) {
+      e.preventDefault();
+      var panel = this;
+      var email = $('signin-email').value.trim();
+      var password = $('signin-password').value;
+      if (!email || !password) { showError(panel, '请填写邮箱和密码'); return; }
+      showError(panel, '');
+      busy(panel, true, '登录中…');
+      window.aqcCloudReady.then(function (cloud) {
+        return cloud.auth.signInWithPassword({ email: email, password: password });
+      }).then(function (res) {
+        if (res && res.error) {
+          var msg = (res.error.kind === 'invalid_grant')
+            ? '邮箱或密码不正确'
+            : ((res.error && res.error.message) || '登录失败，请重试');
+          showError(panel, msg);
+          busy(panel, false);
           return;
         }
-        fail();
-      });
-    }
-
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-      errorBox.style.display = 'none';
-
-      var username = document.getElementById('username').value;
-      var password = document.getElementById('password').value;
-
-      submitBtn.disabled = true;
-      submitBtn.textContent = '验证中…';
-
-      modePromise
-        .then(function (mode) {
-          return mode === 'server'
-            ? loginOnServer(username, password)
-            : loginLocally(username, password);
-        })
-        .catch(function () { fail('校验失败，请重试'); });
+        window.location.href = 'index.html';
+      }).catch(function (err) { fail(panel, err); });
     });
+
+    // ── OTP sign-in (existing account) ──────────────────────────
+    $('panel-otp').addEventListener('submit', function (e) {
+      e.preventDefault();
+      var panel = this;
+      var email = $('otp-email').value.trim();
+      var code = codeOf(panel);
+      if (!pending.otp) { showError(panel, '请先获取验证码'); return; }
+      if (pending.otp.email !== email) { showError(panel, '请为当前邮箱重新获取验证码'); return; }
+      if (!code) { showError(panel, '请填写验证码'); return; }
+      showError(panel, '');
+      busy(panel, true, '登录中…');
+      window.aqcCloudReady.then(function (cloud) {
+        return cloud.auth.verifyOtp({
+          email: pending.otp.email,
+          verificationId: pending.otp.verificationId,
+          isExistingUser: pending.otp.isExistingUser,
+          token: code
+        });
+      }).then(function (res) {
+        if (res && res.error) {
+          showError(panel, '验证码无效或已过期');
+          busy(panel, false);
+          return;
+        }
+        pending.otp = null;
+        window.location.href = 'index.html';
+      }).catch(function (err) { fail(panel, err); });
+    });
+
+    // ── verified signup (email OTP + password) ──────────────────
+    $('panel-signup').addEventListener('submit', function (e) {
+      e.preventDefault();
+      var panel = this;
+      var email = $('signup-email').value.trim();
+      var code = codeOf(panel);
+      var password = passwordOf(panel);
+      if (!pending.signup) { showError(panel, '请先获取验证码'); return; }
+      if (pending.signup.email !== email) { showError(panel, '请为当前邮箱重新获取验证码'); return; }
+      if (!code) { showError(panel, '请填写验证码'); return; }
+      if (password.length < 8) { showError(panel, '密码至少 8 位'); return; }
+      showError(panel, '');
+      busy(panel, true, '注册中…');
+      window.aqcCloudReady.then(function (cloud) {
+        if (pending.signup.isExistingUser) return { already: true };
+        return cloud.auth.verifyOtp({
+          email: pending.signup.email,
+          verificationId: pending.signup.verificationId,
+          isExistingUser: false,
+          token: code,
+          password: password
+        });
+      }).then(function (res) {
+        if (res && res.already) {
+          showError(panel, '该邮箱已注册，请直接登录');
+          busy(panel, false);
+          return;
+        }
+        if (res && res.error) {
+          showError(panel, '注册失败：验证码无效或已过期');
+          busy(panel, false);
+          return;
+        }
+        pending.signup = null;
+        window.location.href = 'index.html';
+      }).catch(function (err) { fail(panel, err); });
+    });
+
+    // ── forgot password ─────────────────────────────────────────
+    $('panel-reset').addEventListener('submit', function (e) {
+      e.preventDefault();
+      var panel = this;
+      var email = $('reset-email').value.trim();
+      var code = codeOf(panel);
+      var password = passwordOf(panel);
+      if (!email) { showError(panel, '请填写邮箱'); return; }
+      if (!code) { showError(panel, '请填写邮件中的验证码'); return; }
+      if (password.length < 8) { showError(panel, '新密码至少 8 位'); return; }
+      showError(panel, '');
+      busy(panel, true, '重置中…');
+      window.aqcCloudReady.then(function (cloud) {
+        return cloud.auth.resetPasswordForEmail(email);
+      }).then(function (started) {
+        if (started && started.error) { fail(panel, started.error); return null; }
+        return started.data.updateUser({ nonce: code, password: password });
+      }).then(function (done) {
+        if (!done) return;
+        if (done.error) { showError(panel, '重置失败：验证码无效或已过期'); busy(panel, false); return; }
+        showError(panel, '');
+        showNotice(panel, '密码已重置，请用新密码登录');
+        busy(panel, false);
+        document.querySelector('.tab[data-panel="signin"]').click();
+      }).catch(function (err) { fail(panel, err); });
+    });
+
+    // Already signed in? Skip the form.
+    window.aqcCloudReady.then(function (cloud) {
+      return cloud.auth.getSession();
+    }).then(function (res) {
+      if (res && res.data && res.data.session) window.location.replace('index.html');
+    }).catch(function () { /* stay on the login form */ });
   })();
   </script>
 </body>

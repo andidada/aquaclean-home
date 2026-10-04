@@ -390,11 +390,14 @@
 <link rel="stylesheet" href="admin-theme.css">
 </head>
 <body>
+  <script src="https://cdn.jsdelivr.net/npm/@tencent-ai/workbuddy-cloud-sdk@dev/lib/index.global.js"></script>
+  <script src="cloud.js"></script>
   <script src="auth-guard.js"></script>
   <div class="header">
     <h1>🌐 AquaClean 管理后台</h1>
     <div class="user">
       <button class="btn-publish" id="publishBtn" onclick="publishToSite()">🚀 发布到网站</button>
+      <a href="index.html" class="btn-link">📝 内容管理器</a>
       <span id="currentUser">管理员</span>
       <button onclick="logout()">退出登录</button>
     </div>
@@ -839,9 +842,22 @@
 
     // 退出登录
     function logout() {
-      sessionStorage.removeItem('admin_logged_in');
-      sessionStorage.removeItem('admin_user');
-      window.location.href = 'login.html';
+      // Clear the cloud session server-side too — dropping local flags alone
+      // would leave a valid session in the SDK that silently re-signs in.
+      try {
+        sessionStorage.removeItem('admin_logged_in');
+        sessionStorage.removeItem('admin_user');
+        sessionStorage.removeItem('admin_session_token');
+      } catch (e) { /* ignore */ }
+      var go = function () { window.location.href = 'login.html'; };
+      if (window.aqcCloudReady) {
+        window.aqcCloudReady
+          .then(function (cloud) { return cloud.auth.signOut(); })
+          .then(go)
+          .catch(go);
+      } else {
+        go();
+      }
     }
     
     // ── 数据驱动渲染：分类与产品来自 data/products.json ──
