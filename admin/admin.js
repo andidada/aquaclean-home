@@ -14,6 +14,36 @@
     if (el) el.textContent = msg;
   }
 
+  // ── 统一的"发布到线上"入口 ────────────────────────────────────
+  // 以前"部署"藏在「💾 保存草稿」的 confirm 弹窗里：运营点保存只是一个弹窗
+  // 问要不要部署，界面上根本看不到发布按钮，常以为压根没有发布能力。
+  // 现在草稿和发布是两个动作：保存只写 localStorage，发布才推 GitHub。
+
+  // 没有 Token 时引导配置；返回 false 表示用户放弃。
+  async function ensureToken() {
+    if (getToken()) return true;
+    var go = confirm('发布需要 GitHub Token（Contents: Read & Write，仅作用于 '
+      + AQC_REPO + '）。\n\n现在设置？');
+    if (!go) { setStatus('⚠ 未配置 Token，已取消发布'); return false; }
+    var ok = await promptForToken();
+    if (!ok) setStatus('⚠ 未配置 Token，已取消发布');
+    return ok;
+  }
+
+  function publishJson(path, content, commitMsg) {
+    setStatus('🚀 正在发布到 GitHub... (' + path + ')');
+    return ghCommit(path, content, commitMsg)
+      .then(function (sha) {
+        setStatus('✅ 已发布！commit ' + sha.substring(0, 8)
+          + ' · GitHub Pages 1-2 分钟后生效（硬刷新 Ctrl+Shift+R 穿透缓存）');
+        return sha;
+      })
+      .catch(function (err) {
+        setStatus('❌ 发布失败：' + err.message);
+        throw err;
+      });
+  }
+
   // ── GitHub Deploy Helpers (added 2026-09-04) ────────────────────
   // One-click save: writes JSON / images straight to GitHub via Contents API.
   // Requires a Fine-grained PAT (Contents: Read & Write on andidada/aquaclean-home).
@@ -506,13 +536,20 @@
     actions.style.marginTop = '24px';
     actions.className = 'admin-actions';
     actions.innerHTML =
-      '<button class="btn btn-primary" id="p-save">💾 保存草稿</button>' +
+      '<button class="btn btn-outline" id="p-save">💾 保存草稿（仅本机）</button>' +
+      '<button class="btn btn-primary" id="p-publish">🚀 发布到线上</button>' +
       '<button class="btn btn-outline" id="p-export">📤 导出 JSON</button>' +
       '<button class="btn btn-outline" id="p-import">📥 导入 JSON</button>' +
       '<button class="btn btn-outline" id="p-reset">🗑 清空</button>';
+    var tipP = document.createElement('div');
+    tipP.style.cssText = 'margin-top:10px;font-size:12px;color:#64748B;line-height:1.6;';
+    tipP.textContent = '保存草稿只写进本浏览器；「🚀 发布到线上」会把内容提交到 GitHub 仓库，'
+      + 'GitHub Pages 约 1-2 分钟后重建站点。';
+    actions.appendChild(tipP);
     f.appendChild(actions);
 
     $('p-save').onclick   = saveProduct;
+    $('p-publish').onclick = publishProduct;
     $('p-export').onclick = exportProduct;
     $('p-import').onclick = function() { $('importFile').click(); };
     $('p-reset').onclick  = function() { if(confirm('确认清空？')) renderProductForm({}); };
@@ -643,38 +680,38 @@
     };
   }
 
-  async function saveProduct() {
+  // ① 只存本机草稿
+  function saveProduct() {
     var data = collectProduct();
     localStorage.setItem(sk('product', data.lang, currentCat), JSON.stringify(data));
-    setStatus('💾 产品草稿已保存到 localStorage');
-    // Auto-deploy to GitHub
-    if (!getToken()) {
-      setStatus('💾 已存草稿 · ⚠ 未配置 Token');
-      if (!confirm('需要部署到 GitHub Pages 吗？\n确定 = 现在设置 Token 并部署\n取消 = 仅保存草稿（不部署）')) return;
-      if (!(await promptForToken())) return;
-    } else {
-      if (!confirm('💾 草稿已保存。\n\n是否立即部署到 GitHub Pages？\n确定 = 部署（1-2 分钟生效）\n取消 = 仅保存草稿（不部署）')) return;
-    }
+    var noSlot = noSlotFilled(data);
+    setStatus('💾 草稿已保存（只在本机）· 要让网站生效请点「🚀 发布到线上」'
+      + (noSlot.length ? ' · 注意：' + noSlot.join(' / ') + ' 站点暂无展示位' : ''));
+  }
+
+  // ② 推到 GitHub → GitHub Pages 自动重建
+  async function publishProduct() {
+    if (!currentCat) { setStatus('❌ 请先在左侧选择一个产品类目'); return; }
+    if (!(await ensureToken())) return;
+    var data = collectProduct();
+    localStorage.setItem(sk('product', data.lang, currentCat), JSON.stringify(data));
     var cat = currentCat;
     var lang = data.lang;
     var path = 'data/products/' + cat + '.json';
     var noSlot = noSlotFilled(data);
-    setStatus('🚀 正在部署产品 JSON 到 GitHub...' +
-      (noSlot.length ? '（已保存但站点暂无展示位：' + noSlot.join(' / ') + '）' : ''));
-    // Read the current file from repo main (source of truth) so the merge
-    // below preserves languages and fields this form does not manage.
-    fetch('https://raw.githubusercontent.com/' + AQC_REPO + '/' + AQC_BRANCH + '/' + path + '?t=' + Date.now()).then(function(r) {
-      if (r.ok) return r.json();
-      return null;
-    }).then(function(existing) {
+    var note = noSlot.length ? '（站点暂无展示位：' + noSlot.join(' / ') + '）' : '';
+    try {
+      // Read the current file from repo main (source of truth) so the merge
+      // below preserves languages and fields this form does not manage.
+      setStatus('🔄 正在读取仓库里的 ' + path + ' ...');
+      var res = await fetch('https://raw.githubusercontent.com/' + AQC_REPO + '/' + AQC_BRANCH + '/' + path + '?t=' + Date.now());
+      var existing = res.ok ? await res.json() : null;
       var merged = mergeProductIntoSchema(existing, lang, data);
-      var msg = 'admin: update ' + cat + ' (' + lang + ')';
-      return ghCommit(path, JSON.stringify(merged, null, 2), msg);
-    }).then(function(sha) {
-      setStatus('✅ 已部署！SHA: ' + sha.substring(0, 8) + ' · 1-2 分钟后生效（硬刷新 Ctrl+Shift+R）');
-    }).catch(function(err) {
-      setStatus('❌ 部署失败：' + err.message);
-    });
+      await publishJson(path, JSON.stringify(merged, null, 2), 'admin: update ' + cat + ' (' + lang + ')');
+      if (note) setStatus('✅ 已发布 ' + note);
+    } catch (err) {
+      setStatus('❌ 发布失败：' + err.message);
+    }
   }
 
   // ── Schema-safe merge helpers ──────────────────────────────────
@@ -964,7 +1001,7 @@
           if (d.slug) { currentCat = d.slug; }
           renderProductForm(d);
           saveProduct();
-          setStatus('📥 已导入产品 JSON');
+          setStatus('📥 已导入产品 JSON · 检查无误后点「🚀 发布到线上」');
         }
       } catch(err) {
         setStatus('❌ 解析失败：' + err.message);
@@ -1023,7 +1060,8 @@
     prodHTML += '</div>';
 
     var actionBar = '<div style="margin-top:20px;">' +
-      '<button class="btn btn-primary" id="h-save">💾 保存草稿</button> ' +
+      '<button class="btn btn-outline" id="h-save">💾 保存草稿（仅本机）</button> ' +
+      '<button class="btn btn-primary" id="h-publish">🚀 发布到线上</button> ' +
       '<button class="btn btn-outline" id="h-export">📤 导出 JSON</button> ' +
       '<button class="btn btn-outline" id="h-import-home">📥 导入 JSON</button> ' +
       // 后台部署在 *.workbuddy.host，根路径 '/' 不是站点首页 —— 必须写全域名
@@ -1031,10 +1069,10 @@
       '</div>' +
       '<div style="margin-top:20px;padding:14px;background:#EFF6FF;border-radius:8px;font-size:12px;color:#1E40AF;line-height:1.7;">' +
       '<b>📝 使用流程：</b><br>' +
-      '1. 编辑内容 → 点「💾 保存草稿」<br>' +
-      '2. 点「📤 导出 JSON」下载文件<br>' +
-      '3. 将 JSON 内容更新到 GitHub 仓库的 <code>/data/pages/home/' + lang + '.json</code><br>' +
-      '4. Push 到 GitHub → 等待约 2 分钟 → 访问预览链接验证' +
+      '1. 选语言 → 编辑内容<br>' +
+      '2. 「💾 保存草稿」= 只存到本机浏览器<br>' +
+      '3. 「🚀 发布到线上」= 提交到 GitHub 仓库的 <code>/data/pages/home/' + lang + '.json</code>，GitHub Pages 约 1-2 分钟生效<br>' +
+      '4. 用「🔍 预览首页」验证（带时间戳参数，穿透缓存）' +
       '</div>';
     f.appendChild(makeSec('📦 产品卡片（' + homeSlots + ' 个）', prodHTML + actionBar));
 
@@ -1065,6 +1103,7 @@
 
     // Wire buttons
     $('h-save').onclick = saveHome;
+    $('h-publish').onclick = publishHome;
     $('h-export').onclick = exportHome;
     $('h-import-home').onclick = function() { $('importFile').click(); };
   }
@@ -1116,29 +1155,24 @@
     };
   }
 
-  async function saveHome() {
+  // ① 只存本机草稿
+  function saveHome() {
     var data = collectHome();
     var lang = $('langSel') ? $('langSel').value : 'en';
     localStorage.setItem(sk('home', lang), JSON.stringify(data));
-    setStatus('💾 首页草稿已保存到 localStorage');
-    // Auto-deploy to GitHub
-    if (!getToken()) {
-      setStatus('💾 已存草稿 · ⚠ 未配置 Token');
-      if (!confirm('需要部署到 GitHub Pages 吗？\n确定 = 现在设置 Token 并部署\n取消 = 仅保存草稿（不部署）')) return;
-      if (!(await promptForToken())) return;
-    } else {
-      if (!confirm('💾 草稿已保存。\n\n是否立即部署到 GitHub Pages？\n确定 = 部署（1-2 分钟生效）\n取消 = 仅保存草稿（不部署）')) return;
-    }
+    setStatus('💾 首页草稿已保存（只在本机）· 要让网站生效请点「🚀 发布到线上」');
+  }
+
+  // ② 推到 GitHub
+  async function publishHome() {
+    if (!(await ensureToken())) return;
+    var data = collectHome();
     var lang = $('langSel') ? $('langSel').value : 'en';
-    var path = 'data/pages/home/' + lang + '.json';
-    var payload = JSON.stringify(data, null, 2);
-    var msg = 'admin: update home-' + lang;
-    setStatus('🚀 正在部署到 GitHub... (' + path + ')');
-    ghCommit(path, payload, msg).then(function(sha) {
-      setStatus('✅ 已部署！SHA: ' + sha.substring(0, 8) + ' · 1-2 分钟后访问 ?v=' + Date.now() + ' 查看（硬刷新 Ctrl+Shift+R 穿透缓存）');
-    }).catch(function(err) {
-      setStatus('❌ 部署失败：' + err.message);
-    });
+    localStorage.setItem(sk('home', lang), JSON.stringify(data));
+    try {
+      await publishJson('data/pages/home/' + lang + '.json',
+        JSON.stringify(data, null, 2), 'admin: update home-' + lang);
+    } catch (err) { /* publishJson 已经提示过了 */ }
   }
 
   function autoSaveHome() {
@@ -1474,17 +1508,25 @@
     loadBtn.textContent = '📂 加载类目数据';
     loadBtn.onclick = function() { loadCategoryPage(); };
     side.appendChild(loadBtn);
-    // Save button
+    // 保存按钮：草稿（本机）与发布（GitHub）分开。以前只有一个按钮，点下去弹
+    // 一个 confirm 问要不要部署，运营根本看不出这里有发布能力。
     var saveBtn = document.createElement('button');
-    saveBtn.className = 'btn btn-primary';
+    saveBtn.className = 'btn btn-outline';
     saveBtn.style.cssText = 'width:100%;margin-bottom:8px;';
-    saveBtn.textContent = '💾 保存并部署';
+    saveBtn.textContent = '💾 保存草稿（仅本机）';
     saveBtn.onclick = function() { saveCategoryPage(); };
     side.appendChild(saveBtn);
+    var pubBtn = document.createElement('button');
+    pubBtn.className = 'btn btn-primary';
+    pubBtn.style.cssText = 'width:100%;margin-bottom:8px;';
+    pubBtn.textContent = '🚀 发布到线上';
+    pubBtn.onclick = function() { publishCategoryPage(); };
+    side.appendChild(pubBtn);
     // Hint
     var hint = document.createElement('div');
     hint.style.cssText = 'font-size:12px;color:#64748B;margin-top:8px;line-height:1.5;';
-    hint.innerHTML = '编辑类目页标题、描述、Banner图。保存即部署到 GitHub Pages（1-2 分钟生效）。';
+    hint.innerHTML = '编辑类目页标题、描述、Banner 图。'
+      + '「保存草稿」只写本机；「🚀 发布到线上」提交到 GitHub，Pages 约 1-2 分钟生效。';
     side.appendChild(hint);
     // Populate category select
     var catSel = $('catPageSel');
@@ -1565,19 +1607,19 @@
     window._catLang = lang;
   }
 
-  async function saveCategoryPage() {
+  // 把表单改动合并回 fullData，并写一份本机草稿
+  function buildCategoryJson() {
     var cat = window._catCurrent;
     var lang = window._catLang;
     var fullData = window._catFullData;
-    if (!cat || !lang || !fullData) { setStatus('❌ 没有加载的数据'); return; }
-    // Read form
+    if (!cat || !lang || !fullData) { setStatus('❌ 没有加载的数据'); return null; }
     var nameEl = $('c-name');
     var descEl = $('c-desc');
     var bannerEl = $('c-banner');
     var orderEl = $('c-order');
-    if (!nameEl) { setStatus('❌ 表单未准备好'); return; }
+    if (!nameEl) { setStatus('❌ 表单未准备好'); return null; }
     var newName = nameEl.value.trim();
-    if (!newName) { alert('类目名称不能为空'); return; }
+    if (!newName) { alert('类目名称不能为空'); return null; }
     // Update cat in fullData
     if (!cat.name) cat.name = {};
     if (!cat.description) cat.description = {};
@@ -1587,25 +1629,34 @@
     if (orderEl) cat.order = parseInt(orderEl.value, 10) || 0;
     // Find and replace in fullData.categories
     var cats = fullData.categories || [];
+    var found = false;
     for (var i = 0; i < cats.length; i++) {
-      if (cats[i].slug === cat.slug) { cats[i] = cat; break; }
+      if (cats[i].slug === cat.slug) { cats[i] = cat; found = true; break; }
     }
+    if (!found) cats.push(cat);
+    fullData.categories = cats;
     var jsonStr = JSON.stringify(fullData, null, 2);
     // Save draft to localStorage
     localStorage.setItem('aqc_cat_draft', jsonStr);
-    // Deploy
-    if (!getToken()) {
-      if (!confirm('需要部署到 GitHub Pages 吗？\n确定 = 设置 Token 并部署\n取消 = 仅存草稿')) return;
-      if (!(await promptForToken())) return;
-    } else {
-      if (!confirm('💾 类目数据已更新。\n\n是否立即部署到 GitHub Pages？\n确定 = 部署（1-2 分钟生效）\n取消 = 仅保存草稿')) return;
-    }
-    setStatus('🚀 部署中...');
-    ghCommit('data/products/categories.json', jsonStr, 'admin: update category page ' + cat.slug + ' (' + lang + ')')
-      .then(function(sha) {
-        setStatus('✅ 已部署! commit ' + sha.substring(0,8));
-      })
-      .catch(function(err) { setStatus('❌ 部署失败: ' + err.message); });
+    return { json: jsonStr, cat: cat, lang: lang };
+  }
+
+  // ① 只存本机草稿
+  function saveCategoryPage() {
+    var r = buildCategoryJson();
+    if (!r) return;
+    setStatus('💾 类目草稿已保存（只在本机）· 要让网站生效请点「🚀 发布到线上」');
+  }
+
+  // ② 推到 GitHub
+  async function publishCategoryPage() {
+    var r = buildCategoryJson();
+    if (!r) return;
+    if (!(await ensureToken())) return;
+    try {
+      await publishJson('data/products/categories.json', r.json,
+        'admin: update category page ' + r.cat.slug + ' (' + r.lang + ')');
+    } catch (err) { /* publishJson 已经提示过了 */ }
   }
 
 function buildAboutControls(side) {
@@ -1649,8 +1700,10 @@ function buildAboutControls(side) {
       } else {
         setStatus('❌ 找不到 about/' + lang + '.json（HTTP ' + x.status + '）· 已禁用保存，避免用空表单覆盖该语言');
         // 该语言还没有数据文件时，表单是空的；让用户一保存就生成残缺页面。
-        var sab = $('saveAboutBtn');
-        if (sab) sab.disabled = true;
+        ['saveAboutBtn', 'publishAboutBtn'].forEach(function (id) {
+          var el = $(id);
+          if (el) { el.disabled = true; el.title = '该语言尚无数据文件，无法保存/发布'; }
+        });
       }
     };
     x.onerror = function() { setStatus('❌ 网络错误'); };
@@ -1747,12 +1800,18 @@ function buildAboutControls(side) {
 
     var saveWrap = document.createElement('div');
     saveWrap.style.cssText = 'margin-bottom:16px;';
-    saveWrap.innerHTML = '<button class="btn btn-primary" id="saveAboutBtn" style="width:100%;">💾 保存并部署</button>';
+    saveWrap.innerHTML =
+      '<div style="display:flex;gap:10px;flex-wrap:wrap;">' +
+      '<button class="btn btn-outline" id="saveAboutBtn" style="flex:1 1 180px;">💾 保存草稿（仅本机）</button>' +
+      '<button class="btn btn-primary" id="publishAboutBtn" style="flex:1 1 180px;">🚀 发布到线上</button>' +
+      '</div>';
     f.insertBefore(saveWrap, f.firstChild);
     $('saveAboutBtn').onclick = function() { saveAboutPage(); };
+    $('publishAboutBtn').onclick = function() { publishAboutPage(); };
   }
 
-  async function saveAboutPage() {
+  // 把表单收集成目标 JSON，并写一份本机草稿
+  function buildAboutJson() {
     var lang = window._aboutLang || ($('aboutLangSel') ? $('aboutLangSel').value : 'en');
     var d = window._aboutData || {};
     d.hero = {
@@ -1782,16 +1841,26 @@ function buildAboutControls(side) {
     d.cta = { h2: val('a-cta-h2'), p: val('a-cta-p'), btn_text: val('a-cta-btn-text'), btn_href: val('a-cta-btn-href') };
     var jsonStr = JSON.stringify(d, null, 2);
     localStorage.setItem('aqc_about_draft_' + lang, jsonStr);
-    if (!getToken()) {
-      if (!confirm('需要部署到 GitHub Pages 吗？\n确定 = 设置 Token 并部署\n取消 = 仅存草稿')) return;
-      if (!(await promptForToken())) return;
-    } else {
-      if (!confirm('💾 关于页数据已更新。\n\n是否立即部署到 GitHub Pages？\n确定 = 部署（1-2 分钟生效）\n取消 = 仅保存草稿')) return;
-    }
-    setStatus('🚀 部署中...');
-    ghCommit('data/pages/about/' + lang + '.json', jsonStr, 'admin: update about page (' + lang + ')')
-      .then(function(sha) { setStatus('✅ 已部署! commit ' + sha.substring(0,8)); })
-      .catch(function(err) { setStatus('❌ 部署失败: ' + err.message); });
+    window._aboutData = d;
+    return { json: jsonStr, lang: lang };
+  }
+
+  // ① 只存本机草稿
+  function saveAboutPage() {
+    var r = buildAboutJson();
+    if (!r) return;
+    setStatus('💾 关于页草稿已保存（只在本机）· 要让网站生效请点「🚀 发布到线上」');
+  }
+
+  // ② 推到 GitHub
+  async function publishAboutPage() {
+    var r = buildAboutJson();
+    if (!r) return;
+    if (!(await ensureToken())) return;
+    try {
+      await publishJson('data/pages/about/' + r.lang + '.json', r.json,
+        'admin: update about page (' + r.lang + ')');
+    } catch (err) { /* publishJson 已经提示过了 */ }
   }
 
 function buildProductControls(side) {
@@ -1900,10 +1969,14 @@ function buildProductControls(side) {
     collectHome:       collectHome,
     renderHomeEditor:   renderHomeEditor,
     saveProduct:       saveProduct,
+    publishProduct:    publishProduct,
     exportProduct:     exportProduct,
     collectProduct:    collectProduct,
     loadAboutPage:     loadAboutPage,
     saveAboutPage:     saveAboutPage,
+    publishAboutPage:  publishAboutPage,
+    publishHome:       publishHome,
+    publishCategoryPage: publishCategoryPage,
     renderAboutForm:   renderAboutForm
   };
 
@@ -1922,7 +1995,7 @@ function buildProductControls(side) {
     // First-visit nudge for token
     setTimeout(function() {
       if (!getToken()) {
-        setStatus('💡 首次使用：推荐点击右上角"⚠ 设置 GitHub Token"启用一键部署');
+        setStatus('💡 首次使用：先点右上角「⚠ 设置 GitHub Token」，之后用页面底部的「🚀 发布到线上」即可一键提交到 GitHub');
       }
     }, 2000);
   }
