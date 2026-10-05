@@ -78,10 +78,11 @@
     setStatus('🚀 正在发布到 GitHub... (' + path + ')');
     return ghCommit(path, content, commitMsg)
       .then(function (sha) {
-        // 产品 / 首页 / 关于页都是运行时读 JSON，发布后即时生效；
-        // 只有类目页的卡片是构建时固化进 HTML 的，得重新生成才会变。
+        // 产品资料是"运行时读取"的：详情页由 product-detail.js、类目页由页内
+        // 脚本、首页由 home-loader.js 各自去读 JSON，所以推上去就生效，不用
+        // 重新生成 HTML。（类目页拉不到数据时会保留静态卡片，不会白屏。）
         var extra = /data\/products\/.+\.json$/.test(path)
-          ? ' · 注意：详情页即时生效；类目页卡片是构建时固化的，需要重跑 scripts/gen_pages.py 重新生成'
+          ? ' · 详情页 / 类目页 / 首页都是运行时读取这份 JSON，Pages 重建后自动更新'
           : '';
         setStatus('✅ 已发布！commit ' + sha.substring(0, 8)
           + ' · GitHub Pages 1-2 分钟后生效（硬刷新 Ctrl+Shift+R 穿透缓存）' + extra);

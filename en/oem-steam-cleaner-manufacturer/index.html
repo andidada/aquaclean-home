@@ -780,14 +780,14 @@
     fetch(DATA_URL)
       .then(function(res) { return res.json(); })
       .then(function(data) {
-        var products = data.products || [];
-        renderProducts(products);
+        // 形状不对（网关错误页、空响应、被拦截）就当失败处理：宁可保留
+        // 静态卡片，也不要把整页产品信息换成"暂无产品"。
+        if (!data || !Array.isArray(data.products)) throw new Error('unexpected payload shape');
+        renderProducts(data.products);
       })
       .catch(function(err) {
+        // 同上：拉不到数据时保留静态卡片，别把 SEO 内容换成错误占位
         console.error('Failed to load products:', err);
-        document.getElementById('productsGrid').innerHTML =
-          '<div class="empty-state"><div class="empty-state-icon">!</div><h3>Failed to load products</h3><p>Please try again later.</p></div>';
-        document.getElementById('productCount').textContent = 'Error';
       });
   }
 
