@@ -12,24 +12,39 @@
   var pathLang = location.pathname.match(/^\/([a-z]{2}(?:-[a-z]{2})?)\//);
   var LANG = (pathLang && pathLang[1]) || htmlLang;
 
-  // Normalize lang (ar=rtl handled by CSS)
-  var RTL_LANGS = ['ar'];
+  // 只保留排版用的白名单标签，其余标签和所有事件属性一律剔除。
+  // Hero 文案来自 data/pages/home/*.json（后台可编辑），不能无条件 innerHTML。
+  function sanitizeHtml(html) {
+    return String(html == null ? '' : html)
+      .replace(/<(?!\/?(br|span|b|strong|em|i)\b)[^>]*>/gi, '')
+      .replace(/\son\w+\s*=/gi, ' data-blocked=')
+      .replace(/(href|src)\s*=\s*["']?\s*javascript:[^"'\s>]*/gi, '$1="#"');
+  }
 
   // Render hero section
   function renderHero(d) {
-    var sec = document.getElementById('hero-section') || document.querySelector('.hero-slides');
-    if (!sec) return;
+    // 容器优先级：显式 id → 任意 hero 区块（英文站的 .hero.hero-carousel
+    // 与其他语种的 <section class="hero"> 都能命中）→ 老结构的 .hero-slides。
+    var sec = document.getElementById('hero-section')
+           || document.querySelector('section.hero, .hero')
+           || document.querySelector('.hero-slides');
+    if (!sec) { console.warn('[home-loader] hero container not found'); return; }
+
+    // 英文站是多帧轮播，CMS 只驱动第 1 帧；其余帧保留站点自带文案。
+    var slides = sec.querySelectorAll('.hero-slide');
+    var scope = slides.length ? slides[0] : sec;
+
     // Badge
-    var badge = sec.querySelector('.hero-badge');
-    if (badge && d.badge) badge.innerHTML = d.badge;
-    // H1 - replace entire h1 content
-    var h1 = sec.querySelector('h1');
-    if (h1 && d.h1) h1.innerHTML = d.h1;
+    var badge = scope.querySelector('.hero-badge');
+    if (badge && d.badge) badge.innerHTML = sanitizeHtml(d.badge);
+    // H1 - replace entire h1 content (第 2~7 帧是 h2，这里只处理第 1 帧)
+    var h1 = scope.querySelector('h1');
+    if (h1 && d.h1) h1.innerHTML = sanitizeHtml(d.h1);
     // Sub
-    var sub = sec.querySelector('.hero-sub');
+    var sub = scope.querySelector('.hero-sub');
     if (sub && d.sub) sub.textContent = d.sub;
     // Buttons
-    var actions = sec.querySelector('.hero-actions');
+    var actions = scope.querySelector('.hero-actions');
     if (actions) {
       var btns = actions.querySelectorAll('a.btn');
       if (btns[0] && d.btn_primary_text) {
@@ -130,10 +145,10 @@
       }
       if (lines[1]) {
         var parts = [];
-        if (fAddress) parts.push('📍 ' + fAddress);
-        if (fEmail) parts.push('✉ <a href="mailto:' + fEmail + '" style="color:inherit;">' + fEmail + '</a>');
-        if (fPhone) parts.push('📞 <a href="tel:' + fPhone.replace(/[^\d+]/g, '') + '" style="color:inherit;">' + fPhone + '</a>');
-        if (fWhatsapp) parts.push('💬 WhatsApp: ' + fWhatsapp);
+        if (fAddress) parts.push('📍 ' + escHtml(fAddress));
+        if (fEmail) parts.push('✉ <a href="mailto:' + escAttr(fEmail) + '" style="color:inherit;">' + escHtml(fEmail) + '</a>');
+        if (fPhone) parts.push('📞 <a href="tel:' + escAttr(fPhone.replace(/[^\d+]/g, '')) + '" style="color:inherit;">' + escHtml(fPhone) + '</a>');
+        if (fWhatsapp) parts.push('💬 WhatsApp: ' + escHtml(fWhatsapp));
         if (parts.length) lines[1].innerHTML = parts.join('  |  ');
       }
     }
@@ -156,6 +171,11 @@
       .replace(/</g, '&lt;')
       .replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;');
+  }
+
+  // 属性值转义：额外处理单引号，用于 href="…" 之类的拼接
+  function escAttr(s) {
+    return escHtml(s).replace(/'/g, '&#39;');
   }
 
   // Load JSON and render

@@ -166,7 +166,6 @@
     <div class="tabs" role="tablist">
       <button type="button" class="tab active" data-panel="signin" role="tab">密码登录</button>
       <button type="button" class="tab" data-panel="otp" role="tab">验证码登录</button>
-      <button type="button" class="tab" data-panel="signup" role="tab">注册</button>
       <button type="button" class="tab" data-panel="reset" role="tab">忘记密码</button>
     </div>
 
@@ -202,27 +201,11 @@
       <div class="notice" data-role="notice"></div>
     </form>
 
-    <!-- 注册（需邮箱验证码 + 密码） -->
-    <form class="panel" id="panel-signup" novalidate>
-      <div class="form-group">
-        <label for="signup-email">邮箱</label>
-        <input type="email" id="signup-email" name="email" autocomplete="email" placeholder="you@example.com" required>
-      </div>
-      <div class="form-group">
-        <label for="signup-code">验证码</label>
-        <div class="code-row">
-          <input type="text" id="signup-code" name="code" inputmode="numeric" autocomplete="one-time-code" placeholder="6 位验证码" required>
-          <button type="button" class="btn-ghost" data-role="send-otp">获取验证码</button>
-        </div>
-      </div>
-      <div class="form-group">
-        <label for="signup-password">设置密码</label>
-        <input type="password" id="signup-password" name="password" autocomplete="new-password" placeholder="至少 8 位" required>
-      </div>
-      <button type="submit">注册并登录</button>
-      <div class="error" data-role="error"></div>
-      <div class="notice" data-role="notice"></div>
-    </form>
+    <!--
+      自助注册入口已移除。后台 URL 是公开的，任何拿到链接的人都能给自己
+      开一个管理员账号，进而改写全站内容并往仓库提交。账号现在只能在
+      WorkBuddy 云服务端手工创建。
+    -->
 
     <!-- 忘记密码 -->
     <form class="panel" id="panel-reset" novalidate>
@@ -254,7 +237,7 @@
 
     // Per-panel OTP state, deliberately kept outside the event handlers:
     // submitting a code must never send a new one.
-    var pending = { otp: null, signup: null, reset: null };
+    var pending = { otp: null, reset: null };
 
     function $(id) { return document.getElementById(id); }
 
@@ -372,7 +355,6 @@
     }
 
     wireSend('panel-otp', 'otp');
-    wireSend('panel-signup', 'signup');
 
     function codeOf(panel) {
       return (panel.querySelector('input[name="code"]').value || '').trim();
@@ -438,43 +420,7 @@
       }).catch(function (err) { fail(panel, err); });
     });
 
-    // ── verified signup (email OTP + password) ──────────────────
-    $('panel-signup').addEventListener('submit', function (e) {
-      e.preventDefault();
-      var panel = this;
-      var email = $('signup-email').value.trim();
-      var code = codeOf(panel);
-      var password = passwordOf(panel);
-      if (!pending.signup) { showError(panel, '请先获取验证码'); return; }
-      if (pending.signup.email !== email) { showError(panel, '请为当前邮箱重新获取验证码'); return; }
-      if (!code) { showError(panel, '请填写验证码'); return; }
-      if (password.length < 8) { showError(panel, '密码至少 8 位'); return; }
-      showError(panel, '');
-      busy(panel, true, '注册中…');
-      window.aqcCloudReady.then(function (cloud) {
-        if (pending.signup.isExistingUser) return { already: true };
-        return cloud.auth.verifyOtp({
-          email: pending.signup.email,
-          verificationId: pending.signup.verificationId,
-          isExistingUser: false,
-          token: code,
-          password: password
-        }).then(function (res) {
-          if (res && res.error) {
-            showError(panel, '注册失败：验证码无效或已过期');
-            busy(panel, false);
-            return;
-          }
-          pending.signup = null;
-          return enterIfSession(cloud, panel);
-        });
-      }).then(function (r) {
-        if (r && r.already) {
-          showError(panel, '该邮箱已注册，请直接登录');
-          busy(panel, false);
-        }
-      }).catch(function (err) { fail(panel, err); });
-    });
+    // 自助注册已移除（见上方注释）。
 
     // ── forgot password ─────────────────────────────────────────
     $('panel-reset').addEventListener('submit', function (e) {

@@ -20,6 +20,12 @@
   var AQC_REPO = 'andidada/aquaclean-home';
   var AQC_BRANCH = 'main';
   var AQC_UPLOAD_DIR = 'assets/images/uploads/';
+  // 上传后的 URL 必须写全域名：后台跑在 *.workbuddy.host，相对路径
+  // '/assets/...' 在后台域是 404，预览图会永远灰着。前台和后台都能用绝对地址。
+  var AQC_PUBLIC_BASE = 'https://www.hkdmj.net';
+  function publicUrl(path) {
+    return AQC_PUBLIC_BASE + '/' + String(path).replace(/^\/+/, '');
+  }
 
   // ── Optional server-side GitHub proxy ────────────────────────────
   // When netlify/functions/github-proxy is configured, the PAT no longer has
@@ -80,13 +86,33 @@
 
 
 
+  // PAT 只存在 sessionStorage：关掉标签页即失效，不会长期躺在浏览器里。
+  // 旧版本存在 localStorage 里，这里读到就迁移过来并立刻删掉。
+  var AQC_TOKEN_KEY = 'admin_gh_token';
+
   function getToken() {
-    try { return localStorage.getItem('admin_gh_token') || ''; } catch(e) { return ''; }
+    try {
+      var s = sessionStorage.getItem(AQC_TOKEN_KEY) || '';
+      if (!s) {
+        var legacy = localStorage.getItem(AQC_TOKEN_KEY) || '';
+        if (legacy) {
+          sessionStorage.setItem(AQC_TOKEN_KEY, legacy);
+          localStorage.removeItem(AQC_TOKEN_KEY);
+          s = legacy;
+        }
+      }
+      return s;
+    } catch(e) { return ''; }
   }
   function setToken(t) {
     try {
-      if (t) localStorage.setItem('admin_gh_token', t.trim());
-      else localStorage.removeItem('admin_gh_token');
+      if (t) {
+        sessionStorage.setItem(AQC_TOKEN_KEY, t.trim());
+        localStorage.removeItem(AQC_TOKEN_KEY);
+      } else {
+        sessionStorage.removeItem(AQC_TOKEN_KEY);
+        localStorage.removeItem(AQC_TOKEN_KEY);
+      }
     } catch(e) {}
   }
   function b64Utf8(str) { return btoa(unescape(encodeURIComponent(str))); }
@@ -146,7 +172,7 @@
     if (sha) body.sha = sha;
     if (await proxyAvailable()) {
       await proxyPut(path, body, '上传失败');
-      return '/assets/images/uploads/' + stamp + '-' + safeName;
+      return publicUrl(path);
     }
     var r = await fetch('https://api.github.com/repos/' + AQC_REPO + '/contents/' + encodeURI(path), {
       method: 'PUT',
@@ -157,20 +183,49 @@
       var err = await r.json().catch(function(){ return {}; });
       throw new Error('上传失败 ' + r.status + ': ' + (err.message || err.error || ''));
     }
-    return '/assets/images/uploads/' + stamp + '-' + safeName;
+    return publicUrl(path);
   }
 
+  // 用遮罩弹窗代替 window.prompt：输入框是 password 类型，PAT 不会明文糊在
+  // 屏幕上，也不会被浏览器记住。返回 Promise<boolean>。
   function promptForToken() {
-    var cur = getToken();
-    var msg = cur
-      ? '当前 Token 已配置（长度 ' + cur.length + '）。\n输入新 Token 替换；留空 = 清除。'
-      : '请粘贴你的 GitHub Personal Access Token：\n\n需 Contents: Read & Write 权限\n仅作用于 ' + AQC_REPO + '\n（PAT 存于浏览器 localStorage，重开浏览器仍记住，清浏览器数据才会丢失）';
-    var t = prompt(msg, '');
-    if (t === null) return false;
-    if (t.trim()) setToken(t);
-    else setToken('');
-    refreshTokenUI();
-    return !!getToken();
+    return new Promise(function (resolve) {
+      var cur = getToken();
+      var wrap = document.createElement('div');
+      wrap.style.cssText = 'position:fixed;inset:0;background:rgba(15,23,42,.55);display:flex;align-items:center;justify-content:center;z-index:99999;';
+      wrap.innerHTML =
+        '<div style="background:#fff;border-radius:12px;padding:24px;width:min(440px,92vw);box-shadow:0 20px 50px rgba(15,23,42,.3);">' +
+        '<h3 style="margin:0 0 8px;font-size:16px;color:#0F172A;">GitHub Personal Access Token</h3>' +
+        '<p style="margin:0 0 14px;font-size:13px;line-height:1.7;color:#475569;">' +
+          '需 Contents: Read &amp; Write 权限，仅作用于 <b>' + AQC_REPO + '</b>。<br>' +
+          '只保存在当前标签页（sessionStorage），关闭标签页即失效。</p>' +
+        '<input id="aqcTokenInput" type="password" autocomplete="off" spellcheck="false" placeholder="github_pat_…" ' +
+          'style="width:100%;box-sizing:border-box;padding:10px 12px;border:1px solid #CBD5E1;border-radius:8px;font-family:monospace;font-size:13px;">' +
+        (cur ? '<p style="margin:8px 0 0;font-size:12px;color:#64748B;">已配置（长度 ' + cur.length + '）。留空提交 = 保持原样</p>' : '') +
+        '<div style="display:flex;gap:10px;justify-content:flex-end;margin-top:18px;">' +
+        '<button id="aqcTokenClear" style="padding:8px 14px;border:1px solid #E2E8F0;background:#fff;border-radius:8px;cursor:pointer;">清除</button>' +
+        '<button id="aqcTokenCancel" style="padding:8px 14px;border:1px solid #E2E8F0;background:#fff;border-radius:8px;cursor:pointer;">取消</button>' +
+        '<button id="aqcTokenOk" style="padding:8px 16px;border:0;background:#2563EB;color:#fff;border-radius:8px;cursor:pointer;font-weight:600;">保存</button>' +
+        '</div></div>';
+      document.body.appendChild(wrap);
+      var input = wrap.querySelector('#aqcTokenInput');
+      var okBtn = wrap.querySelector('#aqcTokenOk');
+      input.focus();
+      function close() { if (wrap.parentNode) wrap.parentNode.removeChild(wrap); }
+      wrap.addEventListener('click', function (e) { if (e.target === wrap) { close(); resolve(false); } });
+      wrap.querySelector('#aqcTokenCancel').onclick = function () { close(); resolve(false); };
+      wrap.querySelector('#aqcTokenClear').onclick = function () { setToken(''); refreshTokenUI(); close(); resolve(false); };
+      okBtn.onclick = function () {
+        var v = input.value.trim();
+        if (v) { setToken(v); refreshTokenUI(); close(); resolve(true); return; }
+        if (getToken()) { refreshTokenUI(); close(); resolve(true); return; }
+        input.focus();
+      };
+      input.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter') { e.preventDefault(); okBtn.click(); }
+        if (e.key === 'Escape') { e.preventDefault(); close(); resolve(false); }
+      });
+    });
   }
 
   function refreshTokenUI() {
@@ -220,11 +275,16 @@
 
   var CERT_OPTS = ['CE','CB','ETL','FCC','RoHS','REACH','PSE','CCC','KC','BIS'];
 
+  // 首页产品卡片数量。线上 9 个语种首页都只有 9 张卡片（旧文案写的 11 是错的），
+  // 多渲染出来的空表单永远填不满，只会让人以为漏填。
+  var HOME_CARD_SLOTS = 9;
+
   // ── State ──────────────────────────────────────────────────────
   var activeTab  = 'product';
   var currentCat  = null;
   var currentLang = null;
   var currentPid  = null;
+  var homeSlots   = HOME_CARD_SLOTS;
 
   // ── HTML builders ──────────────────────────────────────────────
   // Escape for safe embedding into value="..." / textarea bodies.
@@ -234,7 +294,8 @@
       .replace(/&/g, '&amp;')
       .replace(/</g, '&lt;')
       .replace(/>/g, '&gt;')
-      .replace(/"/g, '&quot;');
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
   }
 
   function fieldHTML(label, id, type, value) {
@@ -360,7 +421,7 @@
         if (!getToken()) {
           setStatus('⚠ 上传需先设置 GitHub Token');
           if (confirm('上传需配置 GitHub Token。现在设置？')) {
-            if (!promptForToken()) return;
+            if (!(await promptForToken())) return;
           } else { return; }
         }
         setStatus('🚀 正在上传 ' + files.length + ' 张图片到 GitHub...');
@@ -384,7 +445,7 @@
     }
 
     // Tags
-    f.appendChild(makeSec('产品卖点（逗号分隔）', '<textarea id="p-tags" rows="2">' + ((data.tags||[]).join(', ')) + '</textarea>'));
+    f.appendChild(makeSec('产品卖点（逗号分隔）', '<textarea id="p-tags" rows="2">' + escVal((data.tags||[]).join(', ')) + '</textarea>'));
 
     // Specs table
     var specsLines = (data.specs||[]).map(function(s){
@@ -392,7 +453,7 @@
       var v = (typeof s.value === 'object' ? (s.value.en || s.value.zh || '') : s.value) || '';
       return k + '|' + v;
     }).join('\n');
-    f.appendChild(makeSec('规格参数表格（每行：参数|值）', '<textarea id="p-specs" rows="8" style="width:100%;font-family:monospace;" placeholder="Power|120W&#10;Suction|16KPa">' + specsLines + '</textarea>'));
+    f.appendChild(makeSec('规格参数表格（每行：参数|值）', '<textarea id="p-specs" rows="8" style="width:100%;font-family:monospace;" placeholder="Power|120W&#10;Suction|16KPa">' + escVal(specsLines) + '</textarea>'));
 
     // 详情页（图文混排）
     // 正文按语言合并（与 description 分开：description 是 Alibaba 风格的
@@ -420,10 +481,10 @@
     if (langBadge) langBadge.textContent = currentLang || 'en';
 
     // Packaging
-    f.appendChild(makeSec('包装内容（逗号分隔）', '<textarea id="p-packaging" rows="2">' + (Array.isArray(data.packaging) ? data.packaging.join(', ') : (data.packaging || '')) + '</textarea>'));
+    f.appendChild(makeSec('包装内容（逗号分隔）', '<textarea id="p-packaging" rows="2">' + escVal(Array.isArray(data.packaging) ? data.packaging.join(', ') : (data.packaging || '')) + '</textarea>'));
 
     // Applications
-    f.appendChild(makeSec('适用场景（逗号分隔）', '<textarea id="p-applications" rows="2">' + (Array.isArray(data.applications) ? data.applications.join(', ') : (data.applications || '')) + '</textarea>'));;
+    f.appendChild(makeSec('适用场景（逗号分隔）', '<textarea id="p-applications" rows="2">' + escVal(Array.isArray(data.applications) ? data.applications.join(', ') : (data.applications || '')) + '</textarea>'));
 
     // Supplier
     f.appendChild(makeSec('供应商信息', makeGrid(
@@ -438,7 +499,7 @@
     )));
 
     // Description
-    f.appendChild(makeSec('产品描述（Alibaba 风格英文）', '<textarea id="p-desc" rows="5">' + (data.description||'') + '</textarea>'));
+    f.appendChild(makeSec('产品描述（Alibaba 风格英文）', '<textarea id="p-desc" rows="5">' + escVal(data.description) + '</textarea>'));
 
     // Actions
     var actions = document.createElement('div');
@@ -582,7 +643,7 @@
     };
   }
 
-  function saveProduct() {
+  async function saveProduct() {
     var data = collectProduct();
     localStorage.setItem(sk('product', data.lang, currentCat), JSON.stringify(data));
     setStatus('💾 产品草稿已保存到 localStorage');
@@ -590,14 +651,16 @@
     if (!getToken()) {
       setStatus('💾 已存草稿 · ⚠ 未配置 Token');
       if (!confirm('需要部署到 GitHub Pages 吗？\n确定 = 现在设置 Token 并部署\n取消 = 仅保存草稿（不部署）')) return;
-      if (!promptForToken()) return;
+      if (!(await promptForToken())) return;
     } else {
       if (!confirm('💾 草稿已保存。\n\n是否立即部署到 GitHub Pages？\n确定 = 部署（1-2 分钟生效）\n取消 = 仅保存草稿（不部署）')) return;
     }
     var cat = currentCat;
     var lang = data.lang;
     var path = 'data/products/' + cat + '.json';
-    setStatus('🚀 正在部署产品 JSON 到 GitHub...');
+    var noSlot = noSlotFilled(data);
+    setStatus('🚀 正在部署产品 JSON 到 GitHub...' +
+      (noSlot.length ? '（已保存但站点暂无展示位：' + noSlot.join(' / ') + '）' : ''));
     // Read the current file from repo main (source of truth) so the merge
     // below preserves languages and fields this form does not manage.
     fetch('https://raw.githubusercontent.com/' + AQC_REPO + '/' + AQC_BRANCH + '/' + path + '?t=' + Date.now()).then(function(r) {
@@ -622,14 +685,23 @@
 
   // Update one language of an {en,zh} field, preserving the others.
   function mergeLangField(existing, lang, value) {
-    if (existing && typeof existing === 'object') {
+    if (existing && typeof existing === 'object' && !Array.isArray(existing)) {
       var out = {};
       for (var k in existing) out[k] = existing[k];
       if (value) out[lang] = value;
       return out;
     }
+    // 旧值是个扁平字符串：多半是先在英文站建档留下的。把它当作 en 保留下来，
+    // 否则这一次编辑会把英文原文换成当前语言的文字。
+    if (typeof existing === 'string' && existing) {
+      var keep = { en: existing };
+      keep[lang] = value;
+      return keep;
+    }
+    // 完全没有旧值：英文仍存扁平串（前端 pick() 两种形状都认）；
+    // 其它语言只写自己，绝不把外文塞进 en 里。
     if (lang === 'en') return value;
-    var o = { en: value };
+    var o = {};
     o[lang] = value;
     return o;
   }
@@ -655,10 +727,108 @@
     return out;
   }
 
+  // ── 仓库真实 schema 的写入助手 ────────────────────────────────
+  // 产品 JSON 里没有 power/suction/battery/weight 这类扁平字段，它们都活在
+  // specs / quick_specs 的某一行里（label 是多语言对象）。所以表单的"核心
+  // 参数"不能另起炉灶写顶层键，必须回写进对应的那一行，否则永远不会显示。
+
+  function labelText(lab) {
+    if (lab && typeof lab === 'object') return String(lab.en || lab.zh || '');
+    return String(lab == null ? '' : lab);
+  }
+
+  // 按英文标签定位一行并写入当前语言；找不到就追加。
+  // onlyIfExists=true 时只更新已有行（用于 quick_specs，避免把整份 specs 灌进首页摘要）。
+  function upsertSpecRow(list, lang, labelEn, matcher, value, onlyIfExists) {
+    var arr = Array.isArray(list) ? list.slice() : [];
+    var hit = null;
+    for (var i = 0; i < arr.length; i++) {
+      if (matcher.test(labelText(arr[i] && arr[i].label).trim())) { hit = arr[i]; break; }
+    }
+    if (!hit) {
+      if (onlyIfExists) return arr;
+      var lab = { en: labelEn };
+      lab[lang] = labelEn;
+      var nv = {}; nv[lang] = value;
+      arr.push({ label: lab, value: nv });
+      return arr;
+    }
+    var ex = hit.label, lab2 = {}, k;
+    if (ex && typeof ex === 'object') { for (k in ex) lab2[k] = ex[k]; }
+    else if (typeof ex === 'string' && ex) { lab2.en = ex; }
+    lab2[lang] = labelEn;
+    var ev = hit.value, val2 = {};
+    if (ev && typeof ev === 'object' && !Array.isArray(ev)) { for (k in ev) val2[k] = ev[k]; }
+    else if (typeof ev === 'string' && ev) { val2.en = ev; }
+    val2[lang] = value;
+    hit.label = lab2; hit.value = val2;
+    return arr;
+  }
+
+  // 核心参数：specs 一定写；quick_specs 只在已有同名行时同步。
+  function setCoreSpec(p, lang, labelEn, matcher, value) {
+    if (!value) return;
+    p.specs = upsertSpecRow(p.specs, lang, labelEn, matcher, value, false);
+    if (Array.isArray(p.quick_specs)) {
+      p.quick_specs = upsertSpecRow(p.quick_specs, lang, labelEn, matcher, value, true);
+    }
+  }
+
+  // 价格区间文字（"$54.00 - 64.00" / "54-64"）→ price_indicator {min,max}
+  function parsePriceRange(s) {
+    var nums = String(s).match(/\d+(?:\.\d+)?/g);
+    if (!nums) return null;
+    var vals = nums.map(Number).filter(function (n) { return n > 0; });
+    if (!vals.length) return null;
+    return { min: Math.min.apply(null, vals), max: Math.max.apply(null, vals) };
+  }
+
+  function truthy(v) {
+    return /^(yes|true|1|支持|可|可以|on)$/i.test(String(v || '').trim());
+  }
+
+  // SKU 规格组（颜色/电压…）：按组名定位，整组替换 values
+  function upsertSkuGroup(p, lang, groupEn, matcher, values) {
+    var arr = Array.isArray(p.sku) ? p.sku.slice() : [];
+    var hit = null;
+    for (var i = 0; i < arr.length; i++) {
+      if (matcher.test(labelText(arr[i] && arr[i].name).trim())) { hit = arr[i]; break; }
+    }
+    if (!hit) {
+      var nm = { en: groupEn }; nm[lang] = groupEn;
+      arr.push({ name: nm, values: values });
+      return arr;
+    }
+    var ex = hit.name, nm2 = {}, k;
+    if (ex && typeof ex === 'object') { for (k in ex) nm2[k] = ex[k]; }
+    else if (typeof ex === 'string' && ex) { nm2.en = ex; }
+    nm2[lang] = groupEn;
+    hit.name = nm2;
+    hit.values = values;
+    return arr;
+  }
+
+  // 表单字段 → 落库位置。用于"未落库字段"告警：任何出现在这里的键都算已处理。
+  var PRODUCT_FIELD_TARGETS = [
+    'id', 'slug', 'lang', 'updated_at',
+    'name', 'tagline', 'description', 'detail', 'detail_images',
+    'model', 'power', 'suction', 'battery', 'weight',
+    'price_display', 'fob_price', 'currency', 'moq',
+    'colors', 'package', 'dims', 'tags',
+    'specs', 'certifications', 'images',
+    'packaging', 'applications', 'company', 'address',
+    'logo', 'packaging_custom'
+  ];
+
+  // 站点上还没有展示位的字段：仍会存进 JSON（不丢数据），但要明确告诉运营。
+  var PRODUCT_FIELDS_NO_SLOT = ['tags', 'company', 'address', 'packaging'];
+
   function mergeProductIntoSchema(existing, lang, form) {
     var container = (existing && typeof existing === 'object' && !Array.isArray(existing)) ? existing : {};
     var list = Array.isArray(container.products) ? container.products : [];
     var p = list.length ? list[0] : {};
+
+    // —— 多语言字段 ——
     if (form.name)        p.name = mergeLangField(p.name, lang, form.name);
     if (form.tagline)     p.tagline = mergeLangField(p.tagline, lang, form.tagline);
     if (form.description) p.description = mergeLangField(p.description, lang, form.description);
@@ -666,12 +836,104 @@
     // 空值不覆盖：清空一栏不应该抹掉已有内容。
     if (form.detail) p.detail = mergeLangField(p.detail, lang, form.detail);
     if (form.detail_images && form.detail_images.length) p.detail_images = form.detail_images;
-    if (form.moq)         p.moq = { value: form.moq, unit: (p.moq && p.moq.unit) || 'pieces' };
+
+    // —— 规格参数表格（按行索引合并，保留表单里没有的行） ——
+    if (form.specs && form.specs.length) p.specs = mergeSpecs(p.specs, lang, form.specs);
+
+    // —— 核心参数：回写进 specs / quick_specs 对应那一行 ——
+    setCoreSpec(p, lang, 'Model', /^model$/i, form.model);
+    setCoreSpec(p, lang, 'Motor Power', /(motor\s*)?power|^w$/i, form.power);
+    setCoreSpec(p, lang, 'Suction Power', /suction/i, form.suction);
+    setCoreSpec(p, lang, 'Battery', /^battery$/i, form.battery);
+    setCoreSpec(p, lang, 'Net Weight', /weight/i, form.weight);
+
+    // —— 价格 ——
+    if (form.moq) p.moq = { value: form.moq, unit: (p.moq && p.moq.unit) || 'pieces' };
+    if (form.price_display) {
+      var range = parsePriceRange(form.price_display);
+      if (range) {
+        p.price_indicator = p.price_indicator || {};
+        p.price_indicator.min = range.min;
+        p.price_indicator.max = range.max;
+      }
+    }
+    if (form.fob_price) {
+      var tiers = Array.isArray(p.price_ladder) ? p.price_ladder.slice() : [];
+      var price = parseFloat(String(form.fob_price).replace(/[^0-9.]/g, ''));
+      if (!isNaN(price)) {
+        var moq = form.moq || (p.moq && p.moq.value) || 1;
+        var idx = -1;
+        for (var ti = 0; ti < tiers.length; ti++) {
+          var t = tiers[ti] || {};
+          var lo = t.min == null ? 1 : t.min;
+          var hi = (t.max == null) ? Infinity : t.max;
+          if (moq >= lo && moq <= hi) { idx = ti; break; }
+        }
+        if (idx === -1 && tiers.length) idx = tiers.length - 1;
+        if (idx === -1) tiers.push({ min: moq, max: null, price: price });
+        else tiers[idx].price = price;
+        p.price_ladder = tiers;
+      }
+    }
+    if (form.currency) {
+      p.price_indicator = p.price_indicator || {};
+      p.price_indicator.currency = String(form.currency).toUpperCase();
+    }
+
+    // —— SKU 规格：颜色 ——
+    if (form.colors && form.colors.length) {
+      p.sku = upsertSkuGroup(p.sku, lang, 'Colour', /^(colour|color)$/i,
+        form.colors.map(function (c) { return { name: c }; }));
+    }
+
+    // —— 包装 / 定制 ——
+    // packaging 在仓库里是对象 {unit, ctn_size, ...}，详情页按对象读取；
+    // 表单给的是字符串，所以写子键，绝不能整块替换成字符串。
+    if (form.package || form.dims) {
+      p.packaging = (p.packaging && typeof p.packaging === 'object') ? p.packaging : {};
+      if (form.package) p.packaging.unit = form.package;
+      if (form.dims)    p.packaging.ctn_size = form.dims;
+    }
+    if (form.packaging && form.packaging.length) {
+      p.packaging = (p.packaging && typeof p.packaging === 'object') ? p.packaging : {};
+      p.packaging.includes = form.packaging;
+    }
+    if (form.logo || form.packaging_custom) {
+      p.customization = (p.customization && typeof p.customization === 'object') ? p.customization : {};
+      // 详情页判断的是 customization.logo/package 是否 === false
+      if (form.logo)             p.customization.logo = truthy(form.logo);
+      if (form.packaging_custom) p.customization.package = truthy(form.packaging_custom);
+    }
+
+    // —— 适用场景（详情页按逗号切分渲染） ——
+    if (form.applications && form.applications.length) {
+      p.applications = mergeLangField(p.applications, lang, form.applications.join(', '));
+    }
+
+    // —— 尚无展示位的字段：照样存，避免"填了白填" ——
+    if (form.tags && form.tags.length)     p.tags = form.tags;
+    if (form.company)                      p.company = form.company;
+    if (form.address)                      p.address = form.address;
+
+    // —— 语言无关数组 ——
     if (form.images && form.images.length) p.images = form.images;
     if (form.certifications && form.certifications.length) p.certifications = form.certifications;
-    if (form.specs && form.specs.length) p.specs = mergeSpecs(p.specs, lang, form.specs);
+
+    // —— 漏字段告警：以后再加表单字段却忘了映射，控制台会立刻报出来 ——
+    var known = Object.keys(form || {});
+    var dropped = known.filter(function (k) { return PRODUCT_FIELD_TARGETS.indexOf(k) === -1; });
+    if (dropped.length) console.warn('[AQC] 未落库的产品字段:', dropped);
+
     if (!list.length) container.products = [p];
     return container;
+  }
+
+  // 站点目前没有展示位、但已经存进 JSON 的字段（填了不会立刻显示出来）
+  function noSlotFilled(form) {
+    return PRODUCT_FIELDS_NO_SLOT.filter(function (k) {
+      var v = form && form[k];
+      return Array.isArray(v) ? v.length > 0 : !!v;
+    });
   }
 
   function autoSaveProduct() {
@@ -739,12 +1001,14 @@
     f.appendChild(makeSec('🏠 Hero 区域', heroDiv.innerHTML));
 
     // Products
+    // 按线上真实的卡片数渲染（旧版本硬编码 11，而首页只有 9 张卡片）
+    homeSlots = Math.max(products.length, HOME_CARD_SLOTS);
     var prodHTML = '<div id="h-prod-list">';
-    for (var pi = 0; pi < 11; pi++) {
+    for (var pi = 0; pi < homeSlots; pi++) {
       var prod = products[pi] || {};
       var pid = prod.id || ('p'+(pi+1));
       prodHTML += '<div style="border:1px solid #E2E8F0;border-radius:8px;padding:14px;margin-bottom:14px;background:#F8FAFC;">' +
-        '<div style="font-weight:700;margin-bottom:10px;color:#2563EB;">产品 ' + (pi+1) + ': ' + (prod.name||'?') + '</div>' +
+        '<div style="font-weight:700;margin-bottom:10px;color:#2563EB;">产品 ' + (pi+1) + ': ' + escVal(prod.name || '?') + '</div>' +
         '<input type="hidden" id="hp-id-' + pi + '" value="' + pid + '">' +
         '<div class="admin-grid">' +
         fieldHTML('名称', 'hp-name-'+pi, 'text', prod.name||'') +
@@ -762,7 +1026,8 @@
       '<button class="btn btn-primary" id="h-save">💾 保存草稿</button> ' +
       '<button class="btn btn-outline" id="h-export">📤 导出 JSON</button> ' +
       '<button class="btn btn-outline" id="h-import-home">📥 导入 JSON</button> ' +
-      '<a class="btn btn-outline" id="h-preview" href="/' + lang + '/?v=' + Date.now() + '" target="_blank" style="display:inline-block;text-decoration:none;">🔍 预览首页</a>' +
+      // 后台部署在 *.workbuddy.host，根路径 '/' 不是站点首页 —— 必须写全域名
+      '<a class="btn btn-outline" id="h-preview" href="https://www.hkdmj.net/' + lang + '/?v=' + Date.now() + '" target="_blank" style="display:inline-block;text-decoration:none;">🔍 预览首页</a>' +
       '</div>' +
       '<div style="margin-top:20px;padding:14px;background:#EFF6FF;border-radius:8px;font-size:12px;color:#1E40AF;line-height:1.7;">' +
       '<b>📝 使用流程：</b><br>' +
@@ -771,7 +1036,7 @@
       '3. 将 JSON 内容更新到 GitHub 仓库的 <code>/data/pages/home/' + lang + '.json</code><br>' +
       '4. Push 到 GitHub → 等待约 2 分钟 → 访问预览链接验证' +
       '</div>';
-    f.appendChild(makeSec('📦 产品卡片（11 个）', prodHTML + actionBar));
+    f.appendChild(makeSec('📦 产品卡片（' + homeSlots + ' 个）', prodHTML + actionBar));
 
     // Contact
     var contactDiv = document.createElement('div');
@@ -806,9 +1071,9 @@
 
   function collectHome() {
     var products = [];
-    for (var pi = 0; pi < 11; pi++) {
+    for (var pi = 0; pi < homeSlots; pi++) {
       var tagsVal = $('hp-tags-'+pi) ? $('hp-tags-'+pi).value : '';
-      products.push({
+      var row = {
         id:       ($('hp-id-'+pi) ? $('hp-id-'+pi).value : '') || ('p'+(pi+1)),
         name:     ($('hp-name-'+pi) ? $('hp-name-'+pi).value : '').trim(),
         slug:     ($('hp-slug-'+pi) ? $('hp-slug-'+pi).value : '').trim(),
@@ -817,7 +1082,10 @@
         btn_text: ($('hp-btn-'+pi) ? $('hp-btn-'+pi).value : '').trim(),
         btn_href: ($('hp-href-'+pi) ? $('hp-href-'+pi).value : '').trim(),
         tags:     tagsVal.split(',').map(function(s){return s.trim();}).filter(Boolean)
-      });
+      };
+      // 整行留空 = 这张卡片不要了，别把空壳写进 JSON
+      if (!row.name && !row.desc && !row.img && !row.btn_text) continue;
+      products.push(row);
     }
     function hval(id) { var e = $(id); return e ? e.value.trim() : ''; }
     return {
@@ -848,7 +1116,7 @@
     };
   }
 
-  function saveHome() {
+  async function saveHome() {
     var data = collectHome();
     var lang = $('langSel') ? $('langSel').value : 'en';
     localStorage.setItem(sk('home', lang), JSON.stringify(data));
@@ -857,7 +1125,7 @@
     if (!getToken()) {
       setStatus('💾 已存草稿 · ⚠ 未配置 Token');
       if (!confirm('需要部署到 GitHub Pages 吗？\n确定 = 现在设置 Token 并部署\n取消 = 仅保存草稿（不部署）')) return;
-      if (!promptForToken()) return;
+      if (!(await promptForToken())) return;
     } else {
       if (!confirm('💾 草稿已保存。\n\n是否立即部署到 GitHub Pages？\n确定 = 部署（1-2 分钟生效）\n取消 = 仅保存草稿（不部署）')) return;
     }
@@ -1297,7 +1565,7 @@
     window._catLang = lang;
   }
 
-  function saveCategoryPage() {
+  async function saveCategoryPage() {
     var cat = window._catCurrent;
     var lang = window._catLang;
     var fullData = window._catFullData;
@@ -1328,7 +1596,7 @@
     // Deploy
     if (!getToken()) {
       if (!confirm('需要部署到 GitHub Pages 吗？\n确定 = 设置 Token 并部署\n取消 = 仅存草稿')) return;
-      if (!promptForToken()) return;
+      if (!(await promptForToken())) return;
     } else {
       if (!confirm('💾 类目数据已更新。\n\n是否立即部署到 GitHub Pages？\n确定 = 部署（1-2 分钟生效）\n取消 = 仅保存草稿')) return;
     }
@@ -1484,7 +1752,7 @@ function buildAboutControls(side) {
     $('saveAboutBtn').onclick = function() { saveAboutPage(); };
   }
 
-  function saveAboutPage() {
+  async function saveAboutPage() {
     var lang = window._aboutLang || ($('aboutLangSel') ? $('aboutLangSel').value : 'en');
     var d = window._aboutData || {};
     d.hero = {
@@ -1516,7 +1784,7 @@ function buildAboutControls(side) {
     localStorage.setItem('aqc_about_draft_' + lang, jsonStr);
     if (!getToken()) {
       if (!confirm('需要部署到 GitHub Pages 吗？\n确定 = 设置 Token 并部署\n取消 = 仅存草稿')) return;
-      if (!promptForToken()) return;
+      if (!(await promptForToken())) return;
     } else {
       if (!confirm('💾 关于页数据已更新。\n\n是否立即部署到 GitHub Pages？\n确定 = 部署（1-2 分钟生效）\n取消 = 仅保存草稿')) return;
     }

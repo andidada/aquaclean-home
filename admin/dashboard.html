@@ -663,6 +663,15 @@
   </div>
 
   <script>
+    // 本机 GitHub Bridge（gh_token_server.py）只在你自己电脑上跑。线上访问
+    // 仪表盘时请求 127.0.0.1 必然失败，还会触发浏览器的混合内容 / 隐私拦截，
+    // 而且"请双击运行 gh_token_server.py"对线上用户毫无意义。这里显式判断
+    // 环境，线上直接给出可用的替代路径。
+    var BRIDGE = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+      ? 'http://127.0.0.1:18765' : null;
+    var BRIDGE_HINT = '线上环境用不了本机 Bridge。请改用「内容管理器」标签页里的部署（那里直接调 GitHub API），'
+      + '或在本机打开 http://127.0.0.1:18765/ 的仪表盘。';
+
     // 登录态由 auth-guard.js 向服务端校验，这里不再自己判断。
     // 旧代码在这里检查 sessionStorage 的 admin_logged_in 并强制跳转，那是
     // 改成云端鉴权之前的做法；新登录流程不再写这个标记，于是每次打开
@@ -749,16 +758,22 @@
       btn.textContent = '发布中...';
       try {
         // 1. 检查本地 GitHub Bridge 服务是否在运行
+        if (!BRIDGE) {
+          log('线上环境没有 GitHub Bridge', 'err');
+          log(BRIDGE_HINT, 'info');
+          btn.disabled = false; btn.textContent = '🚀 发布到网站';
+          return;
+        }
         log('检查 GitHub Bridge 服务...', 'info');
         let bridgeOk = false;
         try {
-          const sr = await fetch('http://127.0.0.1:18765/status');
+          const sr = await fetch(BRIDGE + '/status');
           const sd = await sr.json();
           bridgeOk = sd.status === 'ok';
         } catch(e) {}
         if (!bridgeOk) {
           log('错误：未找到 GitHub Bridge 服务', 'err');
-          log('请双击运行 gh_token_server.py 后重试', 'info');
+          log('请在本机双击运行 gh_token_server.py 后重试', 'info');
           btn.disabled = false; btn.textContent = '🚀 发布到网站';
           return;
         }
@@ -788,7 +803,7 @@
         // 3. 提交到 GitHub
         log('正在提交到 GitHub...', 'info');
         const commitMsg = 'Update content via dashboard at ' + new Date().toLocaleString('zh-CN');
-        const cr = await fetch('http://127.0.0.1:18765/commit', {
+        const cr = await fetch(BRIDGE + '/commit', {
           method: 'POST',
           headers: {'Content-Type': 'application/json'},
           body: JSON.stringify({files, message: commitMsg, bump_version: true})
@@ -908,7 +923,8 @@
     // data/products.json 统一提交通道
     // onSuccess / onFailure：推送成功或失败后的视图处理（失败用于回滚内存态）
     function commitProductsJson(message, onSuccess, okMsg, onFailure) {
-      fetch('http://127.0.0.1:18765/commit', {
+      if (!BRIDGE) { showStatus('contactStatus', BRIDGE_HINT, false); if (onFailure) onFailure(); return; }
+      fetch(BRIDGE + '/commit', {
         method: 'POST',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({
@@ -1168,6 +1184,7 @@
     // 直接提交表单对象会抹掉表单没有的字段（之前就是这样把
     // name/slogan/founded/employees/revenue/headquarters 全写没的）。
     function saveJsonViaBridge(path, fields, message, statusId) {
+      if (!BRIDGE) { showStatus(statusId, BRIDGE_HINT, false); return Promise.resolve(); }
       return fetch('../' + path + '?v=' + Date.now())
         .then(function (r) { return r.ok ? r.json() : {}; })
         .catch(function () { return {}; })
@@ -1177,7 +1194,7 @@
             const el = document.getElementById(fields[key]);
             if (el) out[key] = el.value.trim();
           });
-          return fetch('http://127.0.0.1:18765/commit', {
+          return fetch(BRIDGE + '/commit', {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({ message: message, files: { [path]: JSON.stringify(out, null, 2) } })

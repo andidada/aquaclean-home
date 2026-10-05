@@ -42,7 +42,7 @@
   <meta name="description" content="Professional-grade cleaning appliances: handheld vacuums, robot vacuums, steam cleaners, UV mite removers, window robots, car vacuums and tire inflators. B2B OEM/ODM available.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../assets/css/style.css?v=20261003">
+  <link rel="stylesheet" href="../assets/css/style.css?v=20261005">
 
 <script type="application/ld+json">
 {
@@ -176,7 +176,7 @@
       </div>
     </div>
     <!-- Slide 2 -->
-    <div class="hero-slide" style="background-image:url('../assets/images/banners/banner-2.webp')">
+    <div class="hero-slide" data-bg="../assets/images/banners/banner-2.webp">
       <div class="hero-slide-overlay"></div>
       <div class="hero-inner">
         <div class="hero-badge">🔋 Cordless &amp; Lightweight</div>
@@ -195,7 +195,7 @@
       </div>
     </div>
     <!-- Slide 3 -->
-    <div class="hero-slide" style="background-image:url('../assets/images/banners/banner-3.webp')">
+    <div class="hero-slide" data-bg="../assets/images/banners/banner-3.webp">
       <div class="hero-slide-overlay"></div>
       <div class="hero-inner">
         <div class="hero-badge">✨ Sparkling Clean Homes</div>
@@ -213,9 +213,8 @@
         </div>
       </div>
     </div>
-  </div>
     <!-- Slide 4 -->
-    <div class="hero-slide" style="background-image:url('../assets/images/banners/banner-4.webp')">
+    <div class="hero-slide" data-bg="../assets/images/banners/banner-4.webp">
       <div class="hero-slide-overlay"></div>
       <div class="hero-inner">
         <div class="hero-badge">💨 Deep Cleaning Power</div>
@@ -234,7 +233,7 @@
       </div>
     </div>
     <!-- Slide 5 -->
-    <div class="hero-slide" style="background-image:url('../assets/images/banners/banner-5.webp')">
+    <div class="hero-slide" data-bg="../assets/images/banners/banner-5.webp">
       <div class="hero-slide-overlay"></div>
       <div class="hero-inner">
         <div class="hero-badge">🛏️ Hygienic &amp; Fresh</div>
@@ -253,7 +252,7 @@
       </div>
     </div>
     <!-- Slide 6 -->
-    <div class="hero-slide" style="background-image:url('../assets/images/banners/banner-6.webp')">
+    <div class="hero-slide" data-bg="../assets/images/banners/banner-6.webp">
       <div class="hero-slide-overlay"></div>
       <div class="hero-inner">
         <div class="hero-badge">🚗 Clean on the Go</div>
@@ -272,7 +271,7 @@
       </div>
     </div>
     <!-- Slide 7 -->
-    <div class="hero-slide" style="background-image:url('../assets/images/banners/banner-7.webp')">
+    <div class="hero-slide" data-bg="../assets/images/banners/banner-7.webp">
       <div class="hero-slide-overlay"></div>
       <div class="hero-inner">
         <div class="hero-badge">🔧 Road-Ready Always</div>
@@ -290,6 +289,7 @@
         </div>
       </div>
     </div>
+  </div>
   <button class="hero-arrow hero-prev" aria-label="Previous slide">&#8249;</button>
   <button class="hero-arrow hero-next" aria-label="Next slide">&#8250;</button>
   <div class="hero-dots">
@@ -309,8 +309,23 @@
   var slides = root.querySelectorAll('.hero-slide');
   var dots = root.querySelectorAll('.hero-dot');
   var idx = 0, timer;
+  // 7 张 banner 全以内联背景写在元素上时，首屏只显示第 1 张却会下载全部
+  // ~412KB。第 1 帧保持内联（LCP），其余帧改成 data-bg，按需 hydrate。
+  function hydrate(i){
+    var s = slides[i];
+    if(!s || s.dataset.loaded) return;
+    var u = s.dataset.bg;
+    if(!u) return;
+    s.style.backgroundImage = 'url(' + u + ')';
+    s.dataset.loaded = '1';
+  }
+  function hydrateAround(i){
+    hydrate(i);
+    hydrate((i + 1) % slides.length);
+  }
   function go(n){
     idx = (n + slides.length) % slides.length;
+    hydrateAround(idx);
     slides.forEach(function(s,i){ s.classList.toggle('active', i===idx); });
     dots.forEach(function(d,i){ d.classList.toggle('active', i===idx); });
   }
@@ -323,7 +338,11 @@
   dots.forEach(function(d,i){ d.addEventListener('click', function(){ go(i); restart(); }); });
   root.addEventListener('mouseenter', stop);
   root.addEventListener('mouseleave', start);
+  hydrate(0);
   start();
+  // 剩下的帧等浏览器空闲再补，避免和首屏抢带宽
+  var idle = window.requestIdleCallback || function(fn){ return setTimeout(fn, 1200); };
+  idle(function(){ for(var i = 0; i < slides.length; i++) hydrate(i); });
 })();
 </script>
 
@@ -343,8 +362,8 @@
   <div class="section-inner">
     <div class="text-center">
       <div class="section-label">Product Catalog</div>
-      <h2 class="section-title">11 Bestselling Categories</h2>
-      <p class="section-sub">Engineered for performance, designed for international brands. Click any product to see full specs and request a sample.</p>
+      <h2 class="section-title">9 Bestselling Categories</h2>
+      <p class="section-sub">Engineered for performance, designed for international brands. Open any category to see full specs and request a sample.</p>
     </div>
     <div class="products-grid">
       <!-- P1 -->
@@ -686,7 +705,8 @@
     </div>
   </div>
 </div>
-                  <script src="../assets/js/langpicker.v1.js?v=20260826c"></script>
-<script src="../assets/js/home-loader.js"></script>
+                  <script src="../assets/js/langpicker.v1.js?v=20261005"></script>
+<script src="../assets/js/home-loader.js?v=20261005"></script>
+<script src="/assets/js/nav.js"></script>
 </body>
 </html>
