@@ -78,8 +78,13 @@
     setStatus('🚀 正在发布到 GitHub... (' + path + ')');
     return ghCommit(path, content, commitMsg)
       .then(function (sha) {
+        // 产品 / 首页 / 关于页都是运行时读 JSON，发布后即时生效；
+        // 只有类目页的卡片是构建时固化进 HTML 的，得重新生成才会变。
+        var extra = /data\/products\/.+\.json$/.test(path)
+          ? ' · 注意：详情页即时生效；类目页卡片是构建时固化的，需要重跑 scripts/gen_pages.py 重新生成'
+          : '';
         setStatus('✅ 已发布！commit ' + sha.substring(0, 8)
-          + ' · GitHub Pages 1-2 分钟后生效（硬刷新 Ctrl+Shift+R 穿透缓存）');
+          + ' · GitHub Pages 1-2 分钟后生效（硬刷新 Ctrl+Shift+R 穿透缓存）' + extra);
         return sha;
       })
       .catch(function (err) {
