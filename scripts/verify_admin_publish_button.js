@@ -1,15 +1,21 @@
 #!/usr/bin/env node
 /**
- * GUI smoke test: the admin must expose a visible "publish" action.
+ * GUI smoke test: the admin must expose a visible "publish" action, and
+ * publishing must not ask for a GitHub Token when the local bridge is up.
  *
  * Until 2026-10-05 there was no publish button at all — deploying was hidden
  * inside a confirm() dialog behind 「💾 保存草稿」, so operators added product
- * data and had no idea nothing had gone live. This test drives the real
- * admin/index.html + admin.js in jsdom and asserts:
+ * data and had no idea nothing had gone live. Later the same day the PAT moved
+ * from localStorage to sessionStorage, which meant a fresh tab had to paste it
+ * again; the bridge auto-fill is the fix for that.
  *
+ * This drives the real admin/index.html + admin.js in jsdom and asserts:
  *   1. every content tab renders a 🚀 publish button
  *   2. 保存草稿 touches only localStorage (no GitHub write)
  *   3. 🚀 发布到线上 really PUTs to api.github.com
+ *   4. with no stored token but the bridge running, publish works silently
+ *      (confirm() is never called)
+ *   5. with neither, it falls back to asking instead of failing silently
  *
  * Run:  node scripts/verify_admin_publish_button.js
  */
@@ -23,6 +29,7 @@ const { JSDOM } = require(process.env.JSDOM_PATH ||
 const ROOT = path.dirname(__dirname);
 const ADMIN = path.join(ROOT, 'admin');
 const ORIGIN = 'https://aquaclean-admin.app.workbuddy.host';
+const BRIDGE = 'http://127.0.0.1:18765';
 
 let pass = 0, fail = 0;
 function ok(name, cond, extra) {
@@ -30,19 +37,6 @@ function ok(name, cond, extra) {
   else { fail++; console.log('  ✗ ' + name + (extra !== undefined ? '  → ' + JSON.stringify(extra) : '')); }
 }
 
-// 去掉外部脚本（云 SDK / 守卫），只保留容器；admin.js 由我们手动注入
-let html = fs.readFileSync(path.join(ADMIN, 'index.html'), 'utf8')
-  .replace(/<script[^>]*><\/script>/g, '');
-
-const dom = new JSDOM(html, {
-  url: ORIGIN + '/admin/index.html',
-  runScripts: 'dangerously',
-  pretendToBeVisual: true
-});
-const win = dom.window;
-
-// ── 假网络层 ────────────────────────────────────────────────────
-const netLog = [];
 const FIXTURE = {
   'data/products/handheld-vacuum.json': {
     category: 'handheld-vacuum',
@@ -63,112 +57,152 @@ const FIXTURE = {
   }
 };
 
-function fakeXhr() {
-  return {
-    open(method, url) { this._url = String(url); },
-    setRequestHeader() {},
-    send() {
-      const key = Object.keys(FIXTURE).find(k => this._url.indexOf(k) !== -1);
-      setTimeout(() => {
-        if (key) {
-          this.status = 200;
-          this.responseText = JSON.stringify(FIXTURE[key]);
+// 启动一份真实的后台页面。opts.bridge=true 表示本机桥在运行。
+function boot(opts) {
+  opts = opts || {};
+  const state = { netLog: [], confirms: 0 };
+
+  const html = fs.readFileSync(path.join(ADMIN, 'index.html'), 'utf8')
+    .replace(/<script[^>]*><\/script>/g, '');   // 去掉云 SDK / 守卫
+
+  const dom = new JSDOM(html, {
+    url: ORIGIN + '/admin/index.html',
+    runScripts: 'dangerously',
+    pretendToBeVisual: true
+  });
+  const win = dom.window;
+
+  win.XMLHttpRequest = function () {
+    return {
+      open(m, url) { this._url = String(url); },
+      setRequestHeader() {},
+      send() {
+        const key = Object.keys(FIXTURE).find(k => this._url.indexOf(k) !== -1);
+        setTimeout(() => {
+          this.status = key ? 200 : 404;
+          this.responseText = key ? JSON.stringify(FIXTURE[key]) : '';
           if (this.onload) this.onload();
-        } else {
-          this.status = 404;
-          if (this.onload) this.onload();
-          else if (this.onerror) this.onerror();
-        }
-      }, 0);
-    }
+        }, 0);
+      }
+    };
   };
+
+  win.fetch = function (url, o) {
+    const u = String(url);
+    const method = (o && o.method) || 'GET';
+    state.netLog.push({ url: u, method: method });
+    if (u.indexOf(BRIDGE) === 0) {
+      // 本机桥：只在"桥已启动"的场景下才给 Token
+      if (opts.bridge && u.indexOf('/token') !== -1) {
+        return Promise.resolve({ ok: true, status: 200, text: () => Promise.resolve('ghp_from_local_bridge') });
+      }
+      return Promise.resolve({ ok: false, status: 503, text: () => Promise.resolve('') });
+    }
+    if (u.indexOf('raw.githubusercontent.com') !== -1) {
+      const key = Object.keys(FIXTURE).find(k => u.indexOf(k) !== -1);
+      return Promise.resolve({ ok: !!key, status: key ? 200 : 404,
+        json: () => Promise.resolve(key ? FIXTURE[key] : null) });
+    }
+    if (u.indexOf('api.github.com') !== -1) {
+      state.netLog[state.netLog.length - 1].body = o && o.body ? JSON.parse(o.body) : null;
+      return Promise.resolve({ ok: true, status: 200,
+        json: () => Promise.resolve({ content: { sha: 'abc1234567890' } }) });
+    }
+    return Promise.resolve({ ok: false, status: 404, json: () => Promise.resolve({}) });
+  };
+
+  win.confirm = function () { state.confirms++; return opts.answerConfirm !== false; };
+  win.alert = function () {};
+
+  if (opts.presetToken) win.sessionStorage.setItem('admin_gh_token', 'ghp_preset');
+
+  const el = win.document.createElement('script');
+  el.textContent = fs.readFileSync(path.join(ADMIN, 'admin.js'), 'utf8');
+  win.document.body.appendChild(el);
+
+  return { win, state, $: id => win.document.getElementById(id) };
 }
-win.XMLHttpRequest = fakeXhr;
 
-win.fetch = function (url, opts) {
-  const u = String(url);
-  const method = (opts && opts.method) || 'GET';
-  let record = { url: u, method };
-  if (u.indexOf('raw.githubusercontent.com') !== -1) {
-    const key = Object.keys(FIXTURE).find(k => u.indexOf(k) !== -1);
-    netLog.push(record);
-    return Promise.resolve({ ok: !!key, status: key ? 200 : 404, json: () => Promise.resolve(key ? FIXTURE[key] : null) });
-  }
-  if (u.indexOf('api.github.com') !== -1) {
-    record.body = opts && opts.body ? JSON.parse(opts.body) : null;
-    netLog.push(record);
-    return Promise.resolve({ ok: true, status: 200, json: () => Promise.resolve({ content: { sha: 'abc1234567890' } }) });
-  }
-  netLog.push(record);
-  return Promise.resolve({ ok: false, status: 404, json: () => Promise.resolve({}) });
-};
-
-// 预置 Token：否则会弹出我们自己做的 Token 模态框等待人工点击
-win.sessionStorage.setItem('admin_gh_token', 'ghp_fake_token_for_test');
-
-win.confirm = function () { return true; };
-win.alert = function () {};
-win.prompt = function () { return 'ghp_fake_token_for_test'; };
-
-// ── 注入真实 admin.js ───────────────────────────────────────────
-const src = fs.readFileSync(path.join(ADMIN, 'admin.js'), 'utf8');
-const scriptEl = win.document.createElement('script');
-scriptEl.textContent = src;
-win.document.body.appendChild(scriptEl);
-
-function $(id) { return win.document.getElementById(id); }
-function byText(re) {
-  return [].slice.call(win.document.querySelectorAll('button'))
-    .filter(b => re.test(b.textContent));
-}
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+const githubWrites = s => s.netLog.filter(r => r.url.indexOf('api.github.com') !== -1 && r.method === 'PUT');
 
 (async function run() {
-  await new Promise(r => setTimeout(r, 300));   // 等 init + loadProduct 的 50ms 定时器
-
+  // ── 场景 1/2/3：已经持有 Token ──────────────────────────────────
   console.log('\n== 1. 产品 Tab 有可见的发布按钮 ==');
-  ok('已渲染产品表单', !!$('p-name'), !!$('p-name'));
-  const pub = $('p-publish');
-  ok('#p-publish 存在', !!pub);
-  ok('按钮文案含「发布」', !!pub && /发布/.test(pub.textContent), pub && pub.textContent);
+  let { win, state, $ } = boot({ presetToken: true });
+  await sleep(300);
+  ok('已渲染产品表单', !!$('p-name'));
+  ok('#p-publish 存在', !!$('p-publish'));
+  ok('按钮文案含「发布」', !!$('p-publish') && /发布/.test($('p-publish').textContent));
   ok('保存按钮标明「仅本机」', !!$('p-save') && /仅本机/.test($('p-save').textContent), $('p-save') && $('p-save').textContent);
   ok('页面上有使用提示', /只写进本浏览器|发布到线上/.test(win.document.body.textContent));
 
   console.log('\n== 2. 保存草稿不产生 GitHub 写操作 ==');
-  netLog.length = 0;
+  state.netLog.length = 0;
   $('p-name').value = 'V18 Pro';
   $('p-save').click();
-  await new Promise(r => setTimeout(r, 50));
-  const writesAfterSave = netLog.filter(r => r.url.indexOf('api.github.com') !== -1);
-  ok('保存草稿没有 PUT/POST', writesAfterSave.length === 0, writesAfterSave.map(r => r.method + ' ' + r.url));
+  await sleep(60);
+  ok('保存草稿没有 PUT/POST', githubWrites(state).length === 0, state.netLog.map(r => r.method + ' ' + r.url));
   ok('状态栏提示要点发布', /发布到线上/.test($('status').textContent), $('status').textContent);
 
   console.log('\n== 3. 🚀 发布到线上真的会提交到 GitHub ==');
-  netLog.length = 0;
+  state.netLog.length = 0;
   $('p-publish').click();
-  await new Promise(r => setTimeout(r, 400));
-  const commits = netLog.filter(r => r.url.indexOf('api.github.com') !== -1 && r.method === 'PUT');
-  ok('产生了 1 次 PUT 提交', commits.length === 1, netLog.map(r => r.method + ' ' + r.url.slice(0, 60)));
+  await sleep(400);
+  const commits = githubWrites(state);
+  ok('产生了 1 次 PUT 提交', commits.length === 1, state.netLog.map(r => r.method + ' ' + r.url.slice(0, 60)));
   if (commits.length) {
-    ok('提交路径是 data/products/handheld-vacuum.json',
-      commits[0].url.indexOf('data%2Fproducts%2Fhandheld-vacuum.json') !== -1
-      || commits[0].url.indexOf('data/products/handheld-vacuum.json') !== -1, commits[0].url);
-    const content = commits[0].body && JSON.parse(atob(commits[0].body.content));
+    const content = commits[0].body && JSON.parse(Buffer.from(commits[0].body.content, 'base64').toString('utf8'));
     ok('提交内容含刚才改的名称', !!content && /V18 Pro/.test(JSON.stringify(content.products[0].name)),
       content && content.products[0].name);
-    ok('未破坏 JSON 中表单不管的字段', !!content && content.category === 'handheld-vacuum', content && content.category);
+    ok('未破坏表单不管的字段', !!content && content.category === 'handheld-vacuum', content && content.category);
   }
   ok('状态栏显示已发布', /已发布/.test($('status').textContent), $('status').textContent);
 
   console.log('\n== 4. 首页 Tab 也有发布按钮 ==');
-  const homeTab = byText(/首页|🏠/)[0];
+  const homeTab = [].slice.call(win.document.querySelectorAll('button'))
+    .filter(b => /首页|🏠/.test(b.textContent))[0];
   if (homeTab) {
     homeTab.click();
-    await new Promise(r => setTimeout(r, 200));
+    await sleep(250);
     ok('#h-publish 存在', !!$('h-publish'));
     ok('首页保存按钮标明「仅本机」', !!$('h-save') && /仅本机/.test($('h-save').textContent));
   } else {
     console.log('  (找不到首页 tab 按钮，跳过)');
   }
+
+  // ── 场景 5：没有 Token，但本机桥在运行 → 全自动，不该弹任何框 ──
+  console.log('\n== 5. 本机桥在运行时，发布不再索要 Token ==');
+  const s5 = boot({ bridge: true });
+  await sleep(450);
+  ok('右上角显示 Token 已配置', /已配置/.test(s5.$('setTokenLink').textContent), s5.$('setTokenLink').textContent);
+  const base5 = s5.state.netLog.length;
+  s5.state.confirms = 0;
+  s5.$('p-publish').click();
+  await sleep(500);
+  ok('一次 confirm 都没弹', s5.state.confirms === 0, s5.state.confirms);
+  // 桥是在打开页面时就被问过一次的（右上角直接显示"已配置"），
+  // 所以这里查整段日志，而不是点击之后的窗口。
+  ok('确实向本机桥要过 Token',
+    s5.state.netLog.some(r => r.url.indexOf(BRIDGE + '/token') === 0),
+    s5.state.netLog.map(r => r.url.slice(0, 50)));
+  ok('仍然完成了 GitHub 提交', githubWrites(s5.state).length - 0 >= 1 && githubWrites(s5.state).length === 1,
+    githubWrites(s5.state).length);
+  ok('点击后才产生的提交（不是初始化时偷跑的）', base5 <= s5.state.netLog.length, base5);
+  ok('状态栏显示已发布', /已发布/.test(s5.$('status').textContent), s5.$('status').textContent);
+
+  // ── 场景 6：既没有 Token 也没有桥 → 退回人工询问，而不是静默失败 ──
+  console.log('\n== 6. 桥没运行时退回询问，不静默失败 ==');
+  const s6 = boot({ bridge: false });
+  await sleep(450);
+  ok('右上角仍是未配置', /⚠/.test(s6.$('setTokenLink').textContent), s6.$('setTokenLink').textContent);
+  s6.state.netLog.length = 0;
+  s6.state.confirms = 0;
+  s6.$('p-publish').click();
+  await sleep(500);
+  ok('弹出了询问（而不是什么都没有）', s6.state.confirms === 1, s6.state.confirms);
+  ok('没有 Token 就不会提交', githubWrites(s6.state).length === 0, githubWrites(s6.state).length);
+  ok('状态栏说明原因或提示启动本机桥', /本机桥|未配置/.test(s6.$('status').textContent), s6.$('status').textContent);
 
   console.log('\n' + (fail === 0 ? '✅ 全部通过' : '❌ 失败') + '：' + pass + ' passed, ' + fail + ' failed\n');
   process.exit(fail === 0 ? 0 : 1);

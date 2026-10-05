@@ -19,15 +19,59 @@
   // 问要不要部署，界面上根本看不到发布按钮，常以为压根没有发布能力。
   // 现在草稿和发布是两个动作：保存只写 localStorage，发布才推 GitHub。
 
-  // 没有 Token 时引导配置；返回 false 表示用户放弃。
+  // 本机桥（admin/gh_token_server.py，双击运行即可）。它手上握着 Windows
+  // 凭据管理器里的 PAT，所以只要桥在跑，后台就能自己拿到 Token —— 不用每次
+  // 打开后台都手工粘贴一遍。
+  var AQC_BRIDGE = 'http://127.0.0.1:18765';
+
+  // 向本机桥要 Token；桥没运行 / 被浏览器拦截时静默返回空串。
+  async function bridgeToken() {
+    try {
+      var ctrl = (typeof AbortController === 'function') ? new AbortController() : null;
+      var timer = null;
+      if (ctrl) timer = setTimeout(function () { ctrl.abort(); }, 1500);
+      var r = await fetch(AQC_BRIDGE + '/token', ctrl
+        ? { signal: ctrl.signal, cache: 'no-store' }
+        : { cache: 'no-store' });
+      if (timer) clearTimeout(timer);
+      if (!r.ok) return '';
+      return String(await r.text() || '').trim();
+    } catch (e) {
+      return '';   // 桥没运行，或 https 页面请求 http://127.0.0.1 被浏览器拦了
+    }
+  }
+
+  // 没有 Token 时先问本机桥，桥没有才让人手工填；返回 false 表示放弃。
   async function ensureToken() {
     if (getToken()) return true;
+    setStatus('🔑 正在从本机桥获取 Token...');
+    var t = await bridgeToken();
+    if (t) {
+      setToken(t);
+      refreshTokenUI();
+      setStatus('🔑 已从本机桥自动获取 Token');
+      return true;
+    }
     var go = confirm('发布需要 GitHub Token（Contents: Read & Write，仅作用于 '
-      + AQC_REPO + '）。\n\n现在设置？');
-    if (!go) { setStatus('⚠ 未配置 Token，已取消发布'); return false; }
+      + AQC_REPO + '）。\n\n本机桥（gh_token_server.py）没有运行，可以手工粘贴 Token。'
+      + '\n现在粘贴？');
+    if (!go) { setStatus('⚠ 未配置 Token，已取消发布（也可启动本机桥后重试）'); return false; }
     var ok = await promptForToken();
     if (!ok) setStatus('⚠ 未配置 Token，已取消发布');
     return ok;
+  }
+
+  // 打开后台就静默试一次本机桥：桥在跑的话，右上角直接显示"已配置"。
+  async function autoTokenFromBridge() {
+    if (getToken()) { refreshTokenUI(); return; }
+    var t = await bridgeToken();
+    if (t) {
+      setToken(t);
+      refreshTokenUI();
+      setStatus('🔑 已从本机桥自动获取 GitHub Token · 可直接点「🚀 发布到线上」');
+    } else {
+      refreshTokenUI();
+    }
   }
 
   function publishJson(path, content, commitMsg) {
@@ -265,6 +309,9 @@
     link.textContent = has ? '✓ GitHub Token 已配置' : '⚠ 设置 GitHub Token';
     link.style.color = has ? '#22c55e' : '#fbbf24';
     link.style.borderColor = has ? '#22c55e' : '#fbbf24';
+    link.title = has
+      ? '当前标签页已持有 Token（来自本机桥或手工粘贴）'
+      : '双击运行 admin/gh_token_server.py 可自动获取，或点此手工粘贴';
   }
 
   function slugify(s) {
@@ -1992,12 +2039,15 @@ function buildProductControls(side) {
       promptForToken();
     });
     refreshTokenUI();
+    // 先静默问一次本机桥；桥在跑就再也不用手工粘 Token 了
+    autoTokenFromBridge();
     // First-visit nudge for token
     setTimeout(function() {
       if (!getToken()) {
-        setStatus('💡 首次使用：先点右上角「⚠ 设置 GitHub Token」，之后用页面底部的「🚀 发布到线上」即可一键提交到 GitHub');
+        setStatus('💡 提示：双击运行 admin/gh_token_server.py 后，「🚀 发布到线上」会自动取用 Token；'
+          + '否则点右上角「⚠ 设置 GitHub Token」手工粘贴（仅当前标签页有效）');
       }
-    }, 2000);
+    }, 2500);
   }
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);
