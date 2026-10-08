@@ -9,6 +9,7 @@ admin/front-end code and asserts one link of the chain:
     verify_admin_publish_button.js 发布按钮 / 草稿≠发布 / Token 来源
     verify_admin_roundtrip.js      上传图文 → 改内容 → 发布 → 前台真实渲染
     verify_category_pages.js       类目页运行时渲染 + 失败时不抹掉静态卡片
+    verify_inquiry_relay.js        询盘中继：跨域写入、防 spam、字段裁剪
 
 Usage:
     python scripts/verify_admin_all.py
@@ -34,6 +35,7 @@ SUITES = [
     ('verify_admin_publish_button.js', '发布按钮 / Token 来源'),
     ('verify_admin_roundtrip.js',      '上传图文 → 发布 → 前台渲染'),
     ('verify_category_pages.js',       '类目页渲染与失败回退'),
+    ('verify_inquiry_relay.js',        '询盘中继：跨域写入 / 防 spam / 字段裁剪'),
 ]
 
 # 这些套件会故意触发 console.error（模拟加载失败），过滤掉免得看起来像报错
