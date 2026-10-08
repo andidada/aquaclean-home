@@ -1,12 +1,10 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8"><title>relay diag 2</title></head>
+<html lang="en"><head><meta charset="utf-8"><title>relay diag 3</title></head>
 <body>
 <pre id="out">running...</pre>
-<iframe id="fSame" src="/favicon.ico" style="width:0;height:0;border:0;"
-        onload="log('SAME-ORIGIN iframe loaded')"></iframe>
 <iframe id="fAdmin" src="https://aquaclean-admin.app.workbuddy.host/inquiry-proxy.html"
         style="width:0;height:0;border:0;"
-        onload="log('ADMIN iframe loaded'); sendToAdmin();"></iframe>
+        onload="log('ADMIN iframe loaded'); start();"></iframe>
 <script>
 var out = document.getElementById('out');
 function log(s) { out.textContent += '\n' + s; }
@@ -16,22 +14,37 @@ window.addEventListener('message', function (ev) {
   log('MSG from=' + ev.origin + ' data=' + JSON.stringify(ev.data));
 });
 
-function sendToAdmin() {
+function frame() { return document.getElementById('fAdmin').contentWindow; }
+
+function post(id, payload) {
+  try {
+    frame().postMessage({ type: 'aqc-inquiry', id: id, payload: payload }, '*');
+    log('sent ' + id);
+  } catch (e) { log('SEND THROW ' + e); }
+}
+
+function start() {
   setTimeout(function () {
-    try {
-      document.getElementById('fAdmin').contentWindow.postMessage({
-        type: 'aqc-inquiry', id: 'd1',
-        payload: {
-          name: 'E2E Tester', email: 'e2e@example.com', company: 'Verification Co',
-          country: 'DE', products_interested: 'robot-vacuum', quantity: '250 units',
-          message: 'End-to-end relay check from the public site.', hp: '',
-          lang: 'en', page_path: location.pathname, referrer: '',
-          renderedAt: Date.now() - 30000
-        }
-      }, '*');
-      log('sent');
-    } catch (e) { log('SEND THROW ' + e); }
-  }, 2500);
+    // A: guaranteed to fail validation -> proves the handler runs and replies
+    post('bad', {
+      name: 'X', email: 'not-an-email', hp: '',
+      lang: 'en', page_path: location.pathname, renderedAt: Date.now() - 30000
+    });
+  }, 500);
+  setTimeout(function () {
+    // B: foreign origin is ignored entirely -> no reply at all
+    log('(no message is sent from a disallowed origin)');
+  }, 1000);
+  setTimeout(function () {
+    // C: valid payload -> exercises the real INSERT
+    post('good', {
+      name: 'E2E Tester', email: 'e2e@example.com', company: 'Verification Co',
+      country: 'DE', products_interested: 'robot-vacuum', quantity: '250 units',
+      message: 'End-to-end relay check from the public site.', hp: '',
+      lang: 'en', page_path: location.pathname, referrer: '',
+      renderedAt: Date.now() - 30000
+    });
+  }, 1500);
 }
 </script>
 </body></html>
