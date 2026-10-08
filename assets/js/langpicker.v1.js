@@ -146,6 +146,17 @@ document.addEventListener('DOMContentLoaded', function() {
 // 三个询盘入口共用一个 endpoint，避免哪天又漏绑一个。
 var FORMSPREE_ENDPOINT = 'https://formspree.io/f/xkjwgkjl';
 
+// 第二个投递目标：后台自己的云数据库（assets/js/inquiry-sink.js 里的隐藏
+// iframe 中继）。尽力而为 —— 它挂了不影响客户看到的成功提示，因为 Formspree
+// 已经收下了。失败只写控制台，不弹窗吓人。
+function aqcRelay(form) {
+  if (!window.AQCInquiry || !form) return;
+  try {
+    var p = window.AQCInquiry.submit(window.AQCInquiry.fromForm(form));
+    if (p && p.catch) p.catch(function () {});
+  } catch (e) { /* never block the visitor */ }
+}
+
 document.addEventListener('DOMContentLoaded', function() {
   var mainForm = document.getElementById('mainInquiryForm');
   if (mainForm) {
@@ -157,10 +168,15 @@ document.addEventListener('DOMContentLoaded', function() {
       if (btn && !btn.dataset.label) btn.dataset.label = btn.textContent;
       btn.disabled = true;
       btn.textContent = 'Sending...';
+      var fd = new FormData(mainForm);
+      // 让邮件里带上来源语言和页面，回邮件时不用猜客户从哪个语种进来
+      fd.append('_lang', document.documentElement.lang || '');
+      fd.append('_page', location.pathname);
+      aqcRelay(mainForm);
       try {
         var res = await fetch(FORMSPREE_ENDPOINT, {
           method: 'POST',
-          body: new FormData(mainForm),
+          body: fd,
           headers: { Accept: 'application/json' }
         });
         if (res.ok) {
@@ -203,6 +219,7 @@ document.addEventListener('DOMContentLoaded', function() {
         btn.disabled = true;
         btn.textContent = 'Sending...';
       }
+      aqcRelay(form);
       try {
         var res = await fetch(FORMSPREE_ENDPOINT, {
           method: 'POST',
