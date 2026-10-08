@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8"><title>form e2e</title></head>
+<html lang="en"><head><meta charset="utf-8"><title>form e2e diag</title></head>
 <body>
 <pre id="out">running...</pre>
 <iframe id="host" src="/en/index.html" style="width:1200px;height:900px;border:1px solid #ccc;"></iframe>
@@ -12,13 +12,20 @@ var f = document.getElementById('host');
 f.onload = function () {
   log('home iframe loaded');
   var w = f.contentWindow, d = f.contentDocument;
+
+  // 同域：能直接看这个 window 收到了什么
+  w.addEventListener('message', function (ev) {
+    log('IFRAME-MSG from=' + ev.origin + ' ' + JSON.stringify(ev.data));
+  });
+
   try {
-    // 同域，所以能直接改这个 window 的 fetch：把 Formspree 挡掉，
-    // 只验证我们自己这条中继链路（否则会真的发一封邮件出去）
-    w.fetch = function () { return Promise.resolve({ ok: true, status: 200 }); };
+    w.fetch = function () { log('home fetch called (stubbed)'); return Promise.resolve({ ok: true, status: 200 }); };
     log('home fetch stubbed');
   } catch (e) { log('stub failed ' + e); }
+
   setTimeout(function () {
+    log('typeof AQCInquiry=' + (typeof w.AQCInquiry));
+    log('form present=' + !!d.getElementById('mainInquiryForm'));
     try {
       d.getElementById('name').value = 'Real Form Tester';
       d.getElementById('email').value = 'realform@example.com';
@@ -32,6 +39,11 @@ f.onload = function () {
         new w.Event('submit', { bubbles: true, cancelable: true }));
       log('submit dispatched');
     } catch (e) { log('FILL THROW ' + e); }
+
+    setTimeout(function () {
+      log('relay iframes in home doc=' + d.querySelectorAll('iframe[src*="inquiry-proxy"]').length);
+      log('form hidden=' + (d.getElementById('mainInquiryForm').style.display === 'none'));
+    }, 2000);
   }, 3000);
 };
 </script>
