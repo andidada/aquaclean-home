@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>probe</title></head>
+<body>
+<pre id="out">running...</pre>
+<script src="https://cdn.jsdelivr.net/npm/@tencent-ai/workbuddy-cloud-sdk@dev/lib/index.global.js"></script>
+<script>
+var out = document.getElementById('out');
+function log(s) { out.textContent += '\n' + s; }
+log('origin=' + location.origin);
+window.addEventListener('load', function () {
+  setTimeout(function () {
+    try {
+      var cloud = WorkBuddyCloud.createWorkBuddyCloud({
+        endpoint: 'https://aquaclean-admin.app.workbuddy.host',
+        publishableKey: 'wbpk_SFEhiWzbGbldZNA2qWs4ZT_Du85EsWOIrGxQbJLDhenYY3fF2xLYy52'
+      });
+      log('SDK created');
+      cloud.database.from('inquiries')
+        .insert({ name: 'PROBE', email: 'probe@example.com', lang: 'probe', page_path: '/aqc-probe.html', message: 'cross origin write test' })
+        .select()
+        .then(function (r) { log('RESULT ' + JSON.stringify(r)); })
+        .catch(function (e) { log('THROW ' + e + ' | ' + (e && e.message)); });
+    } catch (e) { log('INIT ERR ' + e + ' | ' + (e && e.message)); }
+  }, 500);
+});
+</script>
+</body></html>
