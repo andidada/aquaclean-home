@@ -6,21 +6,39 @@
 <script>
 var out = document.getElementById('out');
 function log(s) { out.textContent += '\n' + s; }
+var EP = 'https://aquaclean-admin.app.workbuddy.host';
+var KEY = 'wbpk_SFEhiWzbGbldZNA2qWs4ZT_Du85EsWOIrGxQbJLDhenYY3fF2xLYy52';
 log('origin=' + location.origin);
+
 window.addEventListener('load', function () {
   setTimeout(function () {
-    try {
-      var cloud = WorkBuddyCloud.createWorkBuddyCloud({
-        endpoint: 'https://aquaclean-admin.app.workbuddy.host',
-        publishableKey: 'wbpk_SFEhiWzbGbldZNA2qWs4ZT_Du85EsWOIrGxQbJLDhenYY3fF2xLYy52'
-      });
-      log('SDK created');
-      cloud.database.from('inquiries')
-        .insert({ name: 'PROBE', email: 'probe@example.com', lang: 'probe', page_path: '/aqc-probe.html', message: 'cross origin write test' })
-        .select()
-        .then(function (r) { log('RESULT ' + JSON.stringify(r)); })
-        .catch(function (e) { log('THROW ' + e + ' | ' + (e && e.message)); });
-    } catch (e) { log('INIT ERR ' + e + ' | ' + (e && e.message)); }
+    // 1) no-cors: proves pure network reachability (opaque response = reachable)
+    fetch(EP + '/.cloud/database/rest/inquiries?select=id&limit=1', {
+      method: 'GET', mode: 'no-cors', headers: { apikey: KEY }
+    }).then(function (r) { log('A no-cors status=' + r.status + ' type=' + r.type); })
+      .catch(function (e) { log('A no-cors FAILED ' + e); })
+
+    // 2) cors GET with apikey: reads CORS headers if allowed
+      .then(function () {
+        return fetch(EP + '/.cloud/database/rest/inquiries?select=id&limit=1', {
+          method: 'GET', mode: 'cors', headers: { apikey: KEY, Accept: 'application/json' }
+        }).then(function (r) { log('B cors GET status=' + r.status); return r.text(); })
+          .then(function (t) { log('B body=' + t.slice(0, 200)); })
+          .catch(function (e) { log('B cors GET FAILED ' + e); });
+      })
+
+    // 3) SDK insert, the real thing
+      .then(function () {
+        var cloud = WorkBuddyCloud.createWorkBuddyCloud({
+          endpoint: EP, publishableKey: KEY
+        });
+        return cloud.database.from('inquiries')
+          .insert({ name: 'PROBE', email: 'probe@example.com', lang: 'probe', page_path: '/aqc-probe.html', message: 'cross origin write test' })
+          .select()
+          .then(function (r) { log('C SDK insert ' + JSON.stringify(r)); })
+          .catch(function (e) { log('C SDK insert THROW ' + (e && e.message)); });
+      })
+      .then(function () { log('DONE'); });
   }, 500);
 });
 </script>
