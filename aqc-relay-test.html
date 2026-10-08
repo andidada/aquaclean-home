@@ -1,30 +1,25 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8"><title>relay diag</title></head>
+<html lang="en"><head><meta charset="utf-8"><title>relay diag 2</title></head>
 <body>
 <pre id="out">running...</pre>
+<iframe id="fSame" src="/favicon.ico" style="width:0;height:0;border:0;"
+        onload="log('SAME-ORIGIN iframe loaded')"></iframe>
+<iframe id="fAdmin" src="https://aquaclean-admin.app.workbuddy.host/inquiry-proxy.html"
+        style="width:0;height:0;border:0;"
+        onload="log('ADMIN iframe loaded'); sendToAdmin();"></iframe>
 <script>
 var out = document.getElementById('out');
 function log(s) { out.textContent += '\n' + s; }
 log('origin=' + location.origin);
 
 window.addEventListener('message', function (ev) {
-  log('MSG from=' + ev.origin + ' data=' + JSON.stringify(ev.data)
-    + ' isFrame=' + (ev.source === (window.__f && window.__f.contentWindow)));
+  log('MSG from=' + ev.origin + ' data=' + JSON.stringify(ev.data));
 });
 
-window.addEventListener('load', function () {
-  var f = document.createElement('iframe');
-  f.src = 'https://aquaclean-admin.app.workbuddy.host/inquiry-proxy.html';
-  f.style.cssText = 'position:absolute;width:0;height:0;border:0;';
-  f.onload = function () { log('IFRAME loaded'); };
-  f.onerror = function () { log('IFRAME error'); };
-  document.body.appendChild(f);
-  window.__f = f;
-
+function sendToAdmin() {
   setTimeout(function () {
-    log('sending...');
     try {
-      f.contentWindow.postMessage({
+      document.getElementById('fAdmin').contentWindow.postMessage({
         type: 'aqc-inquiry', id: 'd1',
         payload: {
           name: 'E2E Tester', email: 'e2e@example.com', company: 'Verification Co',
@@ -36,7 +31,7 @@ window.addEventListener('load', function () {
       }, '*');
       log('sent');
     } catch (e) { log('SEND THROW ' + e); }
-  }, 3000);
-});
+  }, 2500);
+}
 </script>
 </body></html>
