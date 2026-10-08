@@ -1,50 +1,38 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8"><title>relay diag 3</title></head>
+<html lang="en"><head><meta charset="utf-8"><title>form e2e</title></head>
 <body>
 <pre id="out">running...</pre>
-<iframe id="fAdmin" src="https://aquaclean-admin.app.workbuddy.host/inquiry-proxy.html"
-        style="width:0;height:0;border:0;"
-        onload="log('ADMIN iframe loaded'); start();"></iframe>
+<iframe id="host" src="/en/index.html" style="width:1200px;height:900px;border:1px solid #ccc;"></iframe>
 <script>
 var out = document.getElementById('out');
 function log(s) { out.textContent += '\n' + s; }
 log('origin=' + location.origin);
 
-window.addEventListener('message', function (ev) {
-  log('MSG from=' + ev.origin + ' data=' + JSON.stringify(ev.data));
-});
-
-function frame() { return document.getElementById('fAdmin').contentWindow; }
-
-function post(id, payload) {
+var f = document.getElementById('host');
+f.onload = function () {
+  log('home iframe loaded');
+  var w = f.contentWindow, d = f.contentDocument;
   try {
-    frame().postMessage({ type: 'aqc-inquiry', id: id, payload: payload }, '*');
-    log('sent ' + id);
-  } catch (e) { log('SEND THROW ' + e); }
-}
-
-function start() {
+    // 同域，所以能直接改这个 window 的 fetch：把 Formspree 挡掉，
+    // 只验证我们自己这条中继链路（否则会真的发一封邮件出去）
+    w.fetch = function () { return Promise.resolve({ ok: true, status: 200 }); };
+    log('home fetch stubbed');
+  } catch (e) { log('stub failed ' + e); }
   setTimeout(function () {
-    // A: guaranteed to fail validation -> proves the handler runs and replies
-    post('bad', {
-      name: 'X', email: 'not-an-email', hp: '',
-      lang: 'en', page_path: location.pathname, renderedAt: Date.now() - 30000
-    });
-  }, 500);
-  setTimeout(function () {
-    // B: foreign origin is ignored entirely -> no reply at all
-    log('(no message is sent from a disallowed origin)');
-  }, 1000);
-  setTimeout(function () {
-    // C: valid payload -> exercises the real INSERT
-    post('good', {
-      name: 'E2E Tester', email: 'e2e@example.com', company: 'Verification Co',
-      country: 'DE', products_interested: 'robot-vacuum', quantity: '250 units',
-      message: 'End-to-end relay check from the public site.', hp: '',
-      lang: 'en', page_path: location.pathname, referrer: '',
-      renderedAt: Date.now() - 30000
-    });
-  }, 1500);
-}
+    try {
+      d.getElementById('name').value = 'Real Form Tester';
+      d.getElementById('email').value = 'realform@example.com';
+      d.getElementById('company').value = 'Realform Ltd';
+      d.getElementById('country').value = 'FR';
+      d.getElementById('products_interested').value = 'steam-cleaner';
+      d.getElementById('quantity').value = '1000 units';
+      d.getElementById('message').value = 'Submitted through the actual homepage form.';
+      log('form filled');
+      d.getElementById('mainInquiryForm').dispatchEvent(
+        new w.Event('submit', { bubbles: true, cancelable: true }));
+      log('submit dispatched');
+    } catch (e) { log('FILL THROW ' + e); }
+  }, 3000);
+};
 </script>
 </body></html>
