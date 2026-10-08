@@ -489,7 +489,7 @@
   "How is shipping arranged?": "How is shipping arranged?",
   "We ship FOB, CIF or DDP depending on your preference. Sea, air and express are all available; transit time and cost are confirmed per order and destination.": "We ship FOB, CIF or DDP depending on your preference. Sea, air and express are all available; transit time and cost are confirmed per order and destination.",
   "Source: Alibaba.com seller profile (authoritative company data for this site)": "Source: Alibaba.com seller profile (authoritative company data for this site)",
-  "AquaClean Home Appliances Co., Ltd.": "AquaClean Home Appliances Co., Ltd.",
+  "Hong Kong Damaijia Technology Co., Limited": "Hong Kong Damaijia Technology Co., Limited",
   "OEM/ODM Manufacturer": "OEM/ODM Manufacturer",
   "Hong Kong": "Hong Kong",
   "HK / New Territories": "HK / New Territories",
@@ -660,9 +660,9 @@
   "aboutUs": "About Us",
   "privacy": "Privacy Policy",
   "terms": "Terms of Trade",
-  "rights": "© 2026 AquaClean Home Appliances Co., Ltd. All rights reserved.",
-  "contactLine": "📍 Hong Kong | 📧 info@aquaclean-home.com | 📱 WhatsApp: +86 177 7919 0118",
-  "contactLinePlain": "Hong Kong | info@aquaclean-home.com | WhatsApp: +86 177 7919 0118"
+  "rights": "© 2026 Hong Kong Damaijia Technology Co., Limited All rights reserved.",
+  "contactLine": "📍 Hong Kong | 📧 postmaster@hkdmj.net | 📱 WhatsApp: +86 16599999117",
+  "contactLinePlain": "Hong Kong | postmaster@hkdmj.net | WhatsApp: +86 16599999117"
  },
  "category": {
   "home": "Home",
@@ -759,7 +759,7 @@
   "qtyPerCarton": "Qty / Carton",
   "grossWeight": "Gross Weight",
   "noImage": "No image",
-  "supplierName": "AquaClean Home Appliances Co., Ltd.",
+  "supplierName": "Hong Kong Damaijia Technology Co., Limited",
   "supplierRole": "OEM/ODM Manufacturer",
   "productNotFound": "Product not found",
   "dataError": "Failed to load product data",

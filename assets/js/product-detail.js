@@ -336,7 +336,7 @@
 
     // CTA
     var productName = pick(product.name, state.lang);
-    var waNumber = '8617779190118';
+    var waNumber = '8616599999117';
     var waMsg = encodeURIComponent(ui.whatsappText + ': ' + productName + ' (' + product.id.toUpperCase() + ')');
     var subject = encodeURIComponent('[Inquiry] ' + productName);
     html += '<div class="d-cta">';
@@ -365,7 +365,7 @@
     html += '<div class="d-supplier">';
     html += '<div class="d-supplier-logo">🏠</div>';
     html += '<div>';
-    html += '<h3 class="d-supplier-name">AquaClean Home Appliances Co., Ltd.</h3>';
+    html += '<h3 class="d-supplier-name">Hong Kong Damaijia Technology Co., Limited</h3>';
     html += '<p class="d-supplier-meta">' + esc(shipFrom(product)) + ' · ' + esc(ui.supplierRole) + ' · <span class="d-supplier-stars">' + (isNaN(parseFloat(rating)) ? '' : '★★★★★ ') + esc(rating) + '</span></p>';
     html += '<div class="d-supplier-stats">';
     html += '<div class="d-supplier-stat"><div class="v">' + esc(rating) + '</div><div class="l">' + esc(ui.rating) + '</div></div>';
@@ -618,7 +618,7 @@
                    'Country: ' + country + '\n' +
                    'Email: ' + email + '\n\n' +
                    'Message: ' + msg;
-        var mailto = 'mailto:info@aquaclean-home.com?subject=' + subject + '&body=' + encodeURIComponent(body);
+        var mailto = 'mailto:postmaster@hkdmj.net?subject=' + subject + '&body=' + encodeURIComponent(body);
         window.location.href = mailto;
         var success = $('#aqc-form-success', mount);
         var card = $('.d-form-card', mount);

@@ -60,11 +60,17 @@ function bootProxy() {
               from(table) {
                 return {
                   insert(row) {
+                    // The real PostgREST builder is thenable on its own, and
+                    // .select() is optional — the proxy deliberately does NOT
+                    // chain it (the read-back would be blocked by RLS). So the
+                    // stub has to satisfy both call shapes.
+                    inserts.push({ table, row });
+                    var p = Promise.resolve({ data: [{ id: inserts.length }], error: null });
                     return {
-                      select() {
-                        inserts.push({ table, row });
-                        return Promise.resolve({ data: [{ id: inserts.length }], error: null });
-                      }
+                      select: function () { return p; },
+                      then: function (a, b) { return p.then(a, b); },
+                      catch: function (a) { return p.catch(a); },
+                      finally: function (a) { return p.finally(a); }
                     };
                   }
                 };
