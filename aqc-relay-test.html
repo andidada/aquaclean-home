@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>relay e2e</title></head>
+<body>
+<pre id="out">running...</pre>
+<script src="/assets/js/inquiry-sink.js"></script>
+<script>
+var out = document.getElementById('out');
+function log(s) { out.textContent += '\n' + s; }
+log('origin=' + location.origin);
+window.addEventListener('load', function () {
+  setTimeout(function () {
+    window.AQCInquiry.submit({
+      name: 'E2E Tester',
+      email: 'e2e@example.com',
+      company: 'Verification Co',
+      country: 'DE',
+      products_interested: 'robot-vacuum',
+      quantity: '250 units',
+      message: 'End-to-end relay check from the public site.',
+      hp: ''
+    }).then(function (r) { log('RESULT ' + JSON.stringify(r)); })
+      .catch(function (e) { log('THROW ' + e); });
+  }, 800);
+});
+</script>
+</body></html>
