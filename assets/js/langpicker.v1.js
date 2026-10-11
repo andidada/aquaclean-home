@@ -144,17 +144,63 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // ─── FORM HANDLING ────────────────────────────────
 // 三个询盘入口共用一个 endpoint，避免哪天又漏绑一个。
+// ⚠️ Formspree 在部分网络（含中国大陆）不可达，所以**绝不能**拿它的成败
+// 来决定客户看到什么 —— 判定逻辑在 deliver() 里。
 var FORMSPREE_ENDPOINT = 'https://formspree.io/f/xkjwgkjl';
 
-// 第二个投递目标：后台自己的云数据库（assets/js/inquiry-sink.js 里的隐藏
-// iframe 中继）。尽力而为 —— 它挂了不影响客户看到的成功提示，因为 Formspree
-// 已经收下了。失败只写控制台，不弹窗吓人。
-function aqcRelay(form) {
-  if (!window.AQCInquiry || !form) return;
+/** 带上来源语言与页面的 FormData，Formspree 的两条路径共用。 */
+function formDataFor(form) {
+  var fd = new FormData(form);
+  // 让邮件里带上来源语言和页面，回邮件时不用猜客户从哪个语种进来
+  fd.append('_lang', document.documentElement.lang || '');
+  fd.append('_page', location.pathname);
+  return fd;
+}
+
+/** 给 Formspree 发一份，仅用于邮件通知。失败不影响客户看到的结果。 */
+function notifyFormspree(form) {
   try {
-    var p = window.AQCInquiry.submit(window.AQCInquiry.fromForm(form));
-    if (p && p.catch) p.catch(function () {});
-  } catch (e) { /* never block the visitor */ }
+    fetch(FORMSPREE_ENDPOINT, {
+      method: 'POST',
+      body: formDataFor(form),
+      headers: { Accept: 'application/json' }
+    }).catch(function () {});
+  } catch (e) { /* 通知失败不能打断主流程 */ }
+}
+
+/**
+ * 投递询盘。返回 true 表示成功。
+ *
+ * 顺序在 2026-10-11 反过了一次。原来是「先尽力发给自家数据库，成败由
+ * Formspree 说了算」—— 而 formspree.io 在大陆不可达，后果是：客户的询盘
+ * 其实已经写进后台数据库了，眼前却弹出 "Network error. Please try again."，
+ * 客户以为没提交成功，会反复重试甚至放弃。
+ *
+ * 现在以**后台自己的云数据库**为唯一权威来源（走 aquaclean-admin.app
+ * .workbuddy.host 上的 inquiry-proxy.html 中继 —— 该域名国内外都可达，
+ * 后台「询盘」列表读的就是它）。Formspree 降级成尽力而为的邮件通知，
+ * 只有当隐藏中继彻底不可用（iframe 被拦、后台下线）时才退回它兜底。
+ */
+async function deliver(form) {
+  if (window.AQCInquiry) {
+    try {
+      var r = await window.AQCInquiry.submit(window.AQCInquiry.fromForm(form));
+      if (r && r.ok) {
+        notifyFormspree(form);   // 邮件通知，成败无所谓
+        return true;
+      }
+    } catch (e) { /* 中继出错，掉到下面的 Formspree 兜底 */ }
+  }
+  try {
+    var res = await fetch(FORMSPREE_ENDPOINT, {
+      method: 'POST',
+      body: formDataFor(form),
+      headers: { Accept: 'application/json' }
+    });
+    return !!res.ok;
+  } catch (e) {
+    return false;
+  }
 }
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -168,30 +214,15 @@ document.addEventListener('DOMContentLoaded', function() {
       if (btn && !btn.dataset.label) btn.dataset.label = btn.textContent;
       btn.disabled = true;
       btn.textContent = 'Sending...';
-      var fd = new FormData(mainForm);
-      // 让邮件里带上来源语言和页面，回邮件时不用猜客户从哪个语种进来
-      fd.append('_lang', document.documentElement.lang || '');
-      fd.append('_page', location.pathname);
-      aqcRelay(mainForm);
-      try {
-        var res = await fetch(FORMSPREE_ENDPOINT, {
-          method: 'POST',
-          body: fd,
-          headers: { Accept: 'application/json' }
-        });
-        if (res.ok) {
-          mainForm.style.display = 'none';
-          var success = document.getElementById('mainFormSuccess');
-          if (success) success.classList.add('show');
-        } else {
-          btn.disabled = false;
-          btn.textContent = btn.dataset.label || 'Send Message';
-          alert('Something went wrong. Please try again.');
-        }
-      } catch (err) {
+      var ok = await deliver(mainForm);
+      if (ok) {
+        mainForm.style.display = 'none';
+        var success = document.getElementById('mainFormSuccess');
+        if (success) success.classList.add('show');
+      } else {
         btn.disabled = false;
         btn.textContent = btn.dataset.label || 'Send Message';
-        alert('Network error. Please try again.');
+        alert('Something went wrong. Please try again.');
       }
     });
   }
@@ -219,23 +250,13 @@ document.addEventListener('DOMContentLoaded', function() {
         btn.disabled = true;
         btn.textContent = 'Sending...';
       }
-      aqcRelay(form);
-      try {
-        var res = await fetch(FORMSPREE_ENDPOINT, {
-          method: 'POST',
-          body: new FormData(form),
-          headers: { Accept: 'application/json' }
-        });
-        if (res.ok) {
-          if (doneMsg) { form.innerHTML = '<p style="text-align:center;padding:18px 0;margin:0;">' + doneMsg + '</p>'; }
-          if (after) after();
-        } else {
-          if (btn) { btn.disabled = false; btn.textContent = btn.dataset.label || 'Send'; }
-          alert('Something went wrong. Please try again.');
-        }
-      } catch (err) {
+      var ok = await deliver(form);
+      if (ok) {
+        if (doneMsg) { form.innerHTML = '<p style="text-align:center;padding:18px 0;margin:0;">' + doneMsg + '</p>'; }
+        if (after) after();
+      } else {
         if (btn) { btn.disabled = false; btn.textContent = btn.dataset.label || 'Send'; }
-        alert('Network error. Please try again.');
+        alert('Something went wrong. Please try again.');
       }
     });
   }

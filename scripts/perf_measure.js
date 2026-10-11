@@ -20,7 +20,9 @@ const URL = process.argv[2] || 'https://www.hkdmj.net/en/index.html';
 const RUNS = parseInt(process.argv[3] || '3', 10);
 // 限速档位：模拟用户真实网络。默认 4g（150ms RTT）贴近移动端/跨境访问。
 const THROTTLE = {
-  none: null,
+  // 注意：这里不能写 null —— 下面 `THROTTLE[PROFILE] || 4g` 会把 null 当 falsy
+  // 兜底成 4g，导致 "none" 实际仍在限速。用不限速的显式配置。
+  none: { offline: false, latency: 0, downloadThroughput: -1, uploadThroughput: -1 },
   // 每条链路固定加 latency ms 的往返延迟 —— 决定"请求串行"有多痛
   '4g': { offline: false, latency: 150, downloadThroughput: 9 * 1024 * 1024 / 8, uploadThroughput: 3 * 1024 * 1024 / 8 },
   '3g': { offline: false, latency: 300, downloadThroughput: 1.6 * 1024 * 1024 / 8, uploadThroughput: 750 * 1024 / 8 },
@@ -93,7 +95,8 @@ async function main() {
   const prof = THROTTLE[PROFILE] || THROTTLE['4g'];
   if (prof) {
     await send('Network.emulateNetworkConditions', prof);
-    console.log('网络限速档位: ' + PROFILE + ' (RTT +' + prof.latency + 'ms)');
+    console.log('网络限速档位: ' + PROFILE +
+      (prof.latency ? ' (RTT +' + prof.latency + 'ms)' : ' (不限速)'));
   }
   // 模拟 Google Fonts 不可达：直接把该域名请求掐掉，观察是否阻塞首屏
   if (PROFILE === 'blocked-fonts') {

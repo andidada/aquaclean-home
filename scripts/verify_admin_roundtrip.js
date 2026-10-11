@@ -28,7 +28,12 @@ const { JSDOM } = require(process.env.JSDOM_PATH ||
   'C:/Users/Administrator/.workbuddy/binaries/node/workspace/node_modules/jsdom');
 
 const ROOT = path.dirname(__dirname);
-const ADMIN = path.join(ROOT, 'admin');
+// 后台已经迁到独立应用仓库 aquaclean-admin-app（公开站仓库里的 admin/ 现在
+// 只剩一个跳转页，不再是本套件要测的对象）。优先指向真身，找不到再回退。
+const ADMIN_APP = path.join(path.dirname(ROOT), 'aquaclean-admin-app', 'admin');
+const ADMIN = fs.existsSync(path.join(ADMIN_APP, 'admin.js'))
+  ? ADMIN_APP
+  : path.join(ROOT, 'admin');
 const ORIGIN = 'https://aquaclean-admin.app.workbuddy.host';
 const PUBLIC = 'https://www.hkdmj.net';
 

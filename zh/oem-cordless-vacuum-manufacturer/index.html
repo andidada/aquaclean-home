@@ -476,7 +476,7 @@
       var priceMin = p.price_indicator ? p.price_indicator.min : '';
       var priceMax = p.price_indicator ? p.price_indicator.max : '';
       var moq = p.moq ? p.moq.value + ' ' + p.moq.unit : '';
-      var img = p.images && p.images[0] ? p.images[0] : 'https://via.placeholder.com/600x450?text=Product';
+      var img = p.images && p.images[0] ? p.images[0] : '/assets/images/placeholder-product.svg';
       var detailUrl = getProductDetailUrl(p.id);
       var certs = p.certifications || [];
       html += '<div class="product-card">';
