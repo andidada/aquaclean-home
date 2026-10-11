@@ -178,37 +178,46 @@
     return escHtml(s).replace(/'/g, '&#39;');
   }
 
-  // Load JSON and render
-  function load() {
+  // 渲染。需要 DOM 就绪才能调用。
+  function render(d) {
+    renderHero(d.hero || {});
+    renderProducts(d.products || []);
+    renderContact(d.contact || {});
+    renderFooter(d.footer || {}, d.contact || {});
+    // Remove data-product-id from all product-card buttons after render
+    // (prevents langpicker modal intercepting the link navigation)
+    var btns = document.querySelectorAll('.product-card a.btn');
+    btns.forEach(function (b) { b.removeAttribute('data-product-id'); });
+  }
+
+  function fetchJson(cb) {
     var url = '/data/pages/home/' + LANG + '.json';
     var x = new XMLHttpRequest();
     x.open('GET', url, true);
     x.onload = function () {
       if (x.status === 200) {
         try {
-          var d = JSON.parse(x.responseText);
-          renderHero(d.hero || {});
-          renderProducts(d.products || []);
-          renderContact(d.contact || {});
-          renderFooter(d.footer || {}, d.contact || {});
-          // Remove data-product-id from all product-card buttons after render
-          // (prevents langpicker modal intercepting the link navigation)
-          var btns = document.querySelectorAll('.product-card a.btn');
-          btns.forEach(function (b) { b.removeAttribute('data-product-id'); });
+          cb(JSON.parse(x.responseText));
         } catch (e) {
           console.warn('[home-loader] JSON parse error:', e);
         }
       }
     };
     x.onerror = function () {
-      console.warn('[home-loader] Could not load /data/pages/home/' + LANG + '.json');
+      console.warn('[home-loader] Could not load ' + url);
     };
     x.send();
   }
 
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', load);
-  } else {
-    load();
-  }
+  // 立刻发请求，不等 DOMContentLoaded。
+  // 原来的链路是 HTML → CSS → JS → DOMContentLoaded → JSON，四级串行，
+  // 每次往返在跨境链路上都要几百毫秒。现在 JSON 与 HTML 解析并行，
+  // 数据回来早的话就直接等 DOM，回来晚的话 DOM 已经就绪立即渲染。
+  fetchJson(function (d) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', function () { render(d); });
+    } else {
+      render(d);
+    }
+  });
 })();

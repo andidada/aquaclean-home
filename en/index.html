@@ -40,9 +40,11 @@
 
 
   <meta name="description" content="Professional-grade cleaning appliances: handheld vacuums, robot vacuums, steam cleaners, UV mite removers, window robots, car vacuums and tire inflators. B2B OEM/ODM available.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../assets/css/style.css?v=20261005">
+  <!-- 首屏 hero 是 CSS background-image，浏览器要等 CSS 下载并解析完才能发现它，
+       形成 HTML → CSS → 大图 的三级串行。preload 让大图与 CSS 并行开始下载，
+       在跨境链路上这一个往返就是几百毫秒。 -->
+  <link rel="preload" as="image" href="../assets/images/banners/banner-1.webp" fetchpriority="high">
+  <link rel="stylesheet" href="../assets/css/style.css?v=20261009">
 
 <script type="application/ld+json">
 {
@@ -340,9 +342,10 @@
   root.addEventListener('mouseleave', start);
   hydrate(0);
   start();
-  // 剩下的帧等浏览器空闲再补，避免和首屏抢带宽
-  var idle = window.requestIdleCallback || function(fn){ return setTimeout(fn, 1200); };
-  idle(function(){ for(var i = 0; i < slides.length; i++) hydrate(i); });
+  // 只补第 2 帧，而且要等 load 之后再补。原来这里在 idle 时一次性 hydrate
+  // 全部 7 帧，等于首屏就吃掉 412KB 里的 369KB，跟真正要紧的资源抢带宽。
+  // 第 3 帧起由切换时的 hydrateAround 按需加载（它会补当前帧和下一帧）。
+  window.addEventListener('load', function () { hydrate(1); });
 })();
 </script>
 
@@ -705,9 +708,9 @@
     </div>
   </div>
 </div>
-                  <script src="../assets/js/langpicker.v1.js?v=20261005"></script>
-<script src="../assets/js/inquiry-sink.js?v=20261008"></script>
-<script src="../assets/js/home-loader.js?v=20261005"></script>
-<script src="/assets/js/nav.js"></script>
+                  <script src="../assets/js/langpicker.v1.js?v=20261005" defer></script>
+<script src="../assets/js/inquiry-sink.js?v=20261008" defer></script>
+<script src="../assets/js/home-loader.js?v=20261009" defer></script>
+<script src="/assets/js/nav.js" defer></script>
 </body>
 </html>

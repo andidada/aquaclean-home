@@ -37,9 +37,10 @@
 
 
   <meta name="description" content="شركة تصنيع أجهزة تنظيف منزلية احترافية: مكنسات يدوية، روبوتات تنظيف، أجهزة بخار، مزيلات عث بالأشعة فوق البنفسجية، روبوتات نوافذ، مكنسات سيارات، ومضخات إطارات. خدمة OEM/ODM متاحة.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../assets/css/style.css?v=20261005">
+  <!-- 非阻塞加载：media="print" 的样式表不阻塞渲染，onload 后切回 all。
+       这样该域名不可达时首屏照常绘制，可达时仍能拿到正确字体。 -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;600;700;800;900&display=swap" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="../assets/css/style.css?v=20261009">
   <style>body { font-family: 'Noto Sans Arabic', 'Inter', sans-serif; }</style>
 
 <script type="application/ld+json">
@@ -668,9 +669,9 @@
   </div>
 </div>
 
-<script src="../assets/js/langpicker.v1.js?v=20261005"></script>
-<script src="../assets/js/inquiry-sink.js?v=20261008"></script>
-<script src="../assets/js/home-loader.js?v=20261005"></script>
-<script src="/assets/js/nav.js"></script>
+<script src="../assets/js/langpicker.v1.js?v=20261005" defer></script>
+<script src="../assets/js/inquiry-sink.js?v=20261008" defer></script>
+<script src="../assets/js/home-loader.js?v=20261009" defer></script>
+<script src="/assets/js/nav.js" defer></script>
 </body>
 </html>
