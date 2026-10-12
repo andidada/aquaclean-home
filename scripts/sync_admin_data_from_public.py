@@ -109,6 +109,20 @@ KNOWN_FIELD_DRIFT = {
 # 公开站已在 1d54ccd 修好，后台还是坏的。
 KNOWN_CORRUPT_SPECS = {("gt20", "specs"), ("gt20", "quick_specs")}
 
+# 2026-10-13 文案改写：把全站「2015 年公司创立」改成「2015 年工厂投产」
+# （宁波工厂 2015 起生产 + 香港公司 2024 注册），并移除 company.json 的 revenue。
+# 这两件事都是公开站先改、后台跟进，所以差异以**公开站**为准 —— 放进白名单，
+# 别让 G2 把它们当成"不知道的第三种变化"而整份跳过。
+KNOWN_COPY_REWRITE = {
+    "pages/home/": {"/hero/badge", "/footer/description"},
+    "pages/about/": {"/hero/badge", "/story/paragraphs[0]",
+                     "/milestones/items[0]/h4"},
+}
+# data/i18n/<lang>.json（一层，不含 _src/ 那批翻译源）
+KNOWN_COPY_REWRITE_I18N = {"/footer/brandDesc"}
+# 字段被整个删掉：公开站没有、后台还有
+KNOWN_REMOVED_FIELDS = {("company.json", "/revenue")}
+
 CORRUPT_HIGHLIGHTS_MARK = "/highlights"
 
 
@@ -181,9 +195,18 @@ def ident_related(s: str) -> bool:
 
 def classify(rel: str, path: str, pub_v, adm_v) -> str:
     """给一处差异归类。返回 'identity' / 'field-drift' / 'corrupt' /
-    'corrupt-specs' / 'unknown'。"""
+    'corrupt-specs' / 'copy-rewrite' / 'unknown'。"""
     if rel in KNOWN_FIELD_DRIFT and path in KNOWN_FIELD_DRIFT[rel]:
         return "field-drift"
+    # 文案改写：公开站是权威，后台跟进
+    for prefix, paths in KNOWN_COPY_REWRITE.items():
+        if rel.startswith(prefix) and path in paths:
+            return "copy-rewrite"
+    if (rel.count("/") == 1 and rel.startswith("i18n/")
+            and path in KNOWN_COPY_REWRITE_I18N):
+        return "copy-rewrite"
+    if (rel, path) in KNOWN_REMOVED_FIELDS and pub_v is None:
+        return "copy-rewrite"
     if ident_related(path) or ident_related(str(pub_v)) or ident_related(str(adm_v)):
         return "identity"
     if rel.startswith("products/"):
