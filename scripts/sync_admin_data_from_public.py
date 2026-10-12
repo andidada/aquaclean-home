@@ -322,8 +322,11 @@ def main() -> int:
     print("G2 ✅ 全部差异可归入已知漂移")
 
     # ── 亮点健康检查（不管有没有文件要写，都查一遍） ──────────────────
+    # 2026-10-12 之后，highlights 为空是**既定状态**而不是故障：
+    # 36 个产品的亮点原本只是规格复读，已按"留药丸、删亮点"去重（c73fc99）。
+    # 所以这里要把三种情况分开报，别再把空数组当成 7f09acc 那种损坏。
     print("\n附：确认曾被 7f09acc 损坏的产品亮点已恢复正常结构 ...")
-    n_ok, n_bad = 0, []
+    n_ok, n_empty, n_bad = 0, 0, []
     for rel in sorted(os.listdir(os.path.join(adm_root, "products"))):
         if not rel.endswith(".json") or rel == "categories.json":
             continue
@@ -335,7 +338,11 @@ def main() -> int:
             continue
         for p in j.get("products", []):
             hl = p.get("highlights")
-            # 健康的亮点长这样：{"icon": "...", "text": {"en": ..., "zh": ...}}
+            # 去重后故意留空：规格复读已删，只靠 quick_specs 药丸展示
+            if isinstance(hl, list) and len(hl) == 0:
+                n_empty += 1
+                continue
+            # 有内容的亮点必须长这样：{"icon": "...", "text": {"en": ..., "zh": ...}}
             # 损坏时长这样：整个 products 数组被塞进来，第一项是另一个产品对象
             ok = (isinstance(hl, list) and len(hl) > 0
                   and isinstance(hl[0], dict)
@@ -346,9 +353,10 @@ def main() -> int:
                 n_ok += 1
             else:
                 n_bad.append("%s / %s" % (rel, p.get("id")))
-    print("   highlights 结构正常：%d 个产品" % n_ok)
+    print("   highlights 有真内容且结构正常：%d 个产品" % n_ok)
+    print("   highlights 故意为空（去重后既定状态）：%d 个产品" % n_empty)
     for b in n_bad:
-        print("   ⚠ 仍不正常：%s" % b)
+        print("   ❗ 结构异常：%s" % b)
 
     if not plans:
         print("\n无事可做，两边 data/ 已经一致。")
