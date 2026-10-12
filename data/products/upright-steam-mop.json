@@ -38,50 +38,7 @@
     "unit": "pieces"
    },
    "certifications": [],
-   "highlights": [
-    {
-     "icon": "check",
-     "text": {
-      "en": "Power (W): 800 W",
-      "zh": "功率(W): 800 W",
-      "es": "Potencia (W): 800 W",
-      "ar": "القدرة (W): 800 W",
-      "fr": "Puissance (W): 800 W",
-      "id": "Daya (W): 800 W",
-      "ru": "Мощность (Вт): 800 W",
-      "th": "กำลังไฟ (W): 800 W",
-      "vi": "Công suất (W): 800 W"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Water Tank Capacity: 400ml",
-      "zh": "水箱容量: 400ml",
-      "es": "Capacidad del depósito de agua: 400ml",
-      "ar": "سعة خزان الماء: 400ml",
-      "fr": "Capacité du réservoir d'eau: 400ml",
-      "id": "Kapasitas Tangki Air: 400ml",
-      "ru": "Объём бака для воды: 400ml",
-      "th": "ความจุถังน้ำ: 400ml",
-      "vi": "Dung tích bình nước: 400ml"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Heating Time: 2min",
-      "zh": "加热时间: 2min",
-      "es": "Tiempo de calentamiento: 2min",
-      "ar": "زمن التسخين: 2min",
-      "fr": "Temps de chauffe: 2min",
-      "id": "Waktu Pemanasan: 2min",
-      "ru": "Время нагрева: 2min",
-      "th": "เวลาในการทำความร้อน: 2min",
-      "vi": "Thời gian gia nhiệt: 2min"
-     }
-    }
-   ],
+   "highlights": [],
    "specs": [
     {
      "label": {
@@ -606,50 +563,7 @@
     "unit": "pieces"
    },
    "certifications": [],
-   "highlights": [
-    {
-     "icon": "check",
-     "text": {
-      "en": "Power (W): 1500W",
-      "zh": "功率(W): 1500W",
-      "es": "Potencia (W): 1500W",
-      "ar": "القدرة (W): 1500W",
-      "fr": "Puissance (W): 1500W",
-      "id": "Daya (W): 1500W",
-      "ru": "Мощность (Вт): 1500W",
-      "th": "กำลังไฟ (W): 1500W",
-      "vi": "Công suất (W): 1500W"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Water Tank Capacity: 380ML",
-      "zh": "水箱容量: 380ML",
-      "es": "Capacidad del depósito de agua: 380ML",
-      "ar": "سعة خزان الماء: 380ML",
-      "fr": "Capacité du réservoir d'eau: 380ML",
-      "id": "Kapasitas Tangki Air: 380ML",
-      "ru": "Объём бака для воды: 380ML",
-      "th": "ความจุถังน้ำ: 380ML",
-      "vi": "Dung tích bình nước: 380ML"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Heating Time: 20S",
-      "zh": "加热时间: 20S",
-      "es": "Tiempo de calentamiento: 20S",
-      "ar": "زمن التسخين: 20S",
-      "fr": "Temps de chauffe: 20S",
-      "id": "Waktu Pemanasan: 20S",
-      "ru": "Время нагрева: 20S",
-      "th": "เวลาในการทำความร้อน: 20S",
-      "vi": "Thời gian gia nhiệt: 20S"
-     }
-    }
-   ],
+   "highlights": [],
    "specs": [
     {
      "label": {

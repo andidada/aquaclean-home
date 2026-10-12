@@ -39,50 +39,7 @@
     "unit": "pieces"
    },
    "certifications": [],
-   "highlights": [
-    {
-     "icon": "check",
-     "text": {
-      "en": "Power (W): 100 W",
-      "zh": "功率(W): 100 W",
-      "es": "Potencia (W): 100 W",
-      "ar": "القدرة (W): 100 W",
-      "fr": "Puissance (W): 100 W",
-      "id": "Daya (W): 100 W",
-      "ru": "Мощность (Вт): 100 W",
-      "th": "กำลังไฟ (W): 100 W",
-      "vi": "Công suất (W): 100 W"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Coffee Maker Capacity: Up to 4 cups",
-      "zh": "咖啡容量: Up to 4 cups",
-      "es": "Capacidad de la cafetera: Hasta 4 tazas",
-      "ar": "سعة ماكينة القهوة: حتى 4 أكواب",
-      "fr": "Capacité de la cafetière: Jusqu'à 4 tasses",
-      "id": "Kapasitas Mesin Kopi: Hingga 4 cangkir",
-      "ru": "Ёмкость кофемашины: До 4 чашек",
-      "th": "ความจุเครื่องชงกาแฟ: สูงสุด 4 ถ้วย",
-      "vi": "Dung tích máy pha cà phê: Tối đa 4 tách"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Pump Pressure Bars: 8 - 10 bar",
-      "zh": "泵压(bar): 8 - 10 bar",
-      "es": "Presión de la bomba (bar): 8 - 10 bar",
-      "ar": "ضغط المضخة (بار): 8 - 10 bar",
-      "fr": "Pression de la pompe (bar): 8 - 10 bar",
-      "id": "Tekanan Pompa (bar): 8 - 10 bar",
-      "ru": "Давление помпы (бар): 8 - 10 bar",
-      "th": "แรงดันปั๊ม (บาร์): 8 - 10 bar",
-      "vi": "Áp suất bơm (bar): 8 - 10 bar"
-     }
-    }
-   ],
+   "highlights": [],
    "specs": [
     {
      "label": {
@@ -929,36 +886,7 @@
     "unit": "pieces"
    },
    "certifications": [],
-   "highlights": [
-    {
-     "icon": "check",
-     "text": {
-      "en": "Power (W): 700 W",
-      "zh": "功率(W): 700 W",
-      "es": "Potencia (W): 700 W",
-      "ar": "القدرة (W): 700 W",
-      "fr": "Puissance (W): 700 W",
-      "id": "Daya (W): 700 W",
-      "ru": "Мощность (Вт): 700 W",
-      "th": "กำลังไฟ (W): 700 W",
-      "vi": "Công suất (W): 700 W"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Coffee Maker Capacity: Up to 4 cups",
-      "zh": "咖啡容量: Up to 4 cups",
-      "es": "Capacidad de la cafetera: Hasta 4 tazas",
-      "ar": "سعة ماكينة القهوة: حتى 4 أكواب",
-      "fr": "Capacité de la cafetière: Jusqu'à 4 tasses",
-      "id": "Kapasitas Mesin Kopi: Hingga 4 cangkir",
-      "ru": "Ёмкость кофемашины: До 4 чашек",
-      "th": "ความจุเครื่องชงกาแฟ: สูงสุด 4 ถ้วย",
-      "vi": "Dung tích máy pha cà phê: Tối đa 4 tách"
-     }
-    }
-   ],
+   "highlights": [],
    "specs": [
     {
      "label": {

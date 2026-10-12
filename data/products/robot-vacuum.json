@@ -749,64 +749,7 @@
     "unit": "pieces"
    },
    "certifications": [],
-   "highlights": [
-    {
-     "icon": "check",
-     "text": {
-      "en": "Suction Power: 3500PA",
-      "zh": "吸力: 3500PA",
-      "es": "Potencia de succión: 3500PA",
-      "ar": "قوة الشفط: 3500PA",
-      "fr": "Puissance d'aspiration: 3500PA",
-      "id": "Daya Hisap: 3500PA",
-      "ru": "Мощность всасывания: 3500PA",
-      "th": "กำลังดูด: 3500PA",
-      "vi": "Công suất hút: 3500PA"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Maximum Runtime: 91-120 min",
-      "zh": "最长续航: 91-120 min",
-      "es": "Autonomía máxima: 91-120 min",
-      "ar": "أقصى مدة تشغيل: 91-120 min",
-      "fr": "Autonomie maximale: 91-120 min",
-      "id": "Waktu Pakai Maksimum: 91-120 min",
-      "ru": "Макс. время работы: 91-120 min",
-      "th": "ระยะเวลาทำงานสูงสุด: 91-120 min",
-      "vi": "Thời gian chạy tối đa: 91-120 min"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Motor Type: Brushless Motor",
-      "zh": "电机类型: Brushless Motor",
-      "es": "Tipo de motor: Motor sin escobillas",
-      "ar": "نوع المحرك: محرك بدون فرشاة",
-      "fr": "Type de moteur: Moteur sans balais",
-      "id": "Jenis Motor: Motor Tanpa Sikat",
-      "ru": "Тип двигателя: Бесщёточный двигатель",
-      "th": "ประเภทมอเตอร์: มอเตอร์แบบไม่มีแปรงถ่าน",
-      "vi": "Loại động cơ: Động cơ không chổi than"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Battery Type: Li-Ion Battery",
-      "zh": "电池类型: Li-Ion Battery",
-      "es": "Tipo de batería: Batería de iones de litio",
-      "ar": "نوع البطارية: بطارية ليثيوم أيون",
-      "fr": "Type de batterie: Batterie Li-Ion",
-      "id": "Jenis Baterai: Baterai Li-Ion",
-      "ru": "Тип аккумулятора: Литий-ионный аккумулятор",
-      "th": "ประเภทแบตเตอรี่: แบตเตอรี่ Li-Ion",
-      "vi": "Loại pin: Pin Li-Ion"
-     }
-    }
-   ],
+   "highlights": [],
    "specs": [
     {
      "label": {
@@ -1913,64 +1856,7 @@
     "unit": "pieces"
    },
    "certifications": [],
-   "highlights": [
-    {
-     "icon": "check",
-     "text": {
-      "en": "Suction Power: 1000–1499 Pa",
-      "zh": "吸力: 1000–1499 Pa",
-      "es": "Potencia de succión: 1000–1499 Pa",
-      "ar": "قوة الشفط: 1000–1499 Pa",
-      "fr": "Puissance d'aspiration: 1000–1499 Pa",
-      "id": "Daya Hisap: 1000–1499 Pa",
-      "ru": "Мощность всасывания: 1000–1499 Pa",
-      "th": "กำลังดูด: 1000–1499 Pa",
-      "vi": "Công suất hút: 1000–1499 Pa"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Power (W): 15W",
-      "zh": "功率(W): 15W",
-      "es": "Potencia (W): 15W",
-      "ar": "القدرة (W): 15W",
-      "fr": "Puissance (W): 15W",
-      "id": "Daya (W): 15W",
-      "ru": "Мощность (Вт): 15W",
-      "th": "กำลังไฟ (W): 15W",
-      "vi": "Công suất (W): 15W"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Maximum Runtime: 91-120 min",
-      "zh": "最长续航: 91-120 min",
-      "es": "Autonomía máxima: 91-120 min",
-      "ar": "أقصى مدة تشغيل: 91-120 min",
-      "fr": "Autonomie maximale: 91-120 min",
-      "id": "Waktu Pakai Maksimum: 91-120 min",
-      "ru": "Макс. время работы: 91-120 min",
-      "th": "ระยะเวลาทำงานสูงสุด: 91-120 min",
-      "vi": "Thời gian chạy tối đa: 91-120 min"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Motor Type: Brushless Motor",
-      "zh": "电机类型: Brushless Motor",
-      "es": "Tipo de motor: Motor sin escobillas",
-      "ar": "نوع المحرك: محرك بدون فرشاة",
-      "fr": "Type de moteur: Moteur sans balais",
-      "id": "Jenis Motor: Motor Tanpa Sikat",
-      "ru": "Тип двигателя: Бесщёточный двигатель",
-      "th": "ประเภทมอเตอร์: มอเตอร์แบบไม่มีแปรงถ่าน",
-      "vi": "Loại động cơ: Động cơ không chổi than"
-     }
-    }
-   ],
+   "highlights": [],
    "specs": [
     {
      "label": {
@@ -3077,64 +2963,7 @@
     "unit": "pieces"
    },
    "certifications": [],
-   "highlights": [
-    {
-     "icon": "check",
-     "text": {
-      "en": "Suction Power: 20000Pa",
-      "zh": "吸力: 20000Pa",
-      "es": "Potencia de succión: 20000Pa",
-      "ar": "قوة الشفط: 20000Pa",
-      "fr": "Puissance d'aspiration: 20000Pa",
-      "id": "Daya Hisap: 20000Pa",
-      "ru": "Мощность всасывания: 20000Pa",
-      "th": "กำลังดูด: 20000Pa",
-      "vi": "Công suất hút: 20000Pa"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Power (W): 60 W",
-      "zh": "功率(W): 60 W",
-      "es": "Potencia (W): 60 W",
-      "ar": "القدرة (W): 60 W",
-      "fr": "Puissance (W): 60 W",
-      "id": "Daya (W): 60 W",
-      "ru": "Мощность (Вт): 60 W",
-      "th": "กำลังไฟ (W): 60 W",
-      "vi": "Công suất (W): 60 W"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Runtime: 150-180mins",
-      "zh": "续航时间: 150-180mins",
-      "es": "Autonomía: 150-180mins",
-      "ar": "مدة التشغيل: 150-180mins",
-      "fr": "Autonomie: 150-180mins",
-      "id": "Waktu Pakai: 150-180mins",
-      "ru": "Время работы: 150-180mins",
-      "th": "ระยะเวลาทำงาน: 150-180mins",
-      "vi": "Thời gian chạy: 150-180mins"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Maximum Runtime: 150-180 min",
-      "zh": "最长续航: 150-180 min",
-      "es": "Autonomía máxima: 150-180 min",
-      "ar": "أقصى مدة تشغيل: 150-180 min",
-      "fr": "Autonomie maximale: 150-180 min",
-      "id": "Waktu Pakai Maksimum: 150-180 min",
-      "ru": "Макс. время работы: 150-180 min",
-      "th": "ระยะเวลาทำงานสูงสุด: 150-180 min",
-      "vi": "Thời gian chạy tối đa: 150-180 min"
-     }
-    }
-   ],
+   "highlights": [],
    "specs": [
     {
      "label": {
@@ -4241,64 +4070,7 @@
     "unit": "pieces"
    },
    "certifications": [],
-   "highlights": [
-    {
-     "icon": "check",
-     "text": {
-      "en": "Suction Power: 18000Pa",
-      "zh": "吸力: 18000Pa",
-      "es": "Potencia de succión: 18000Pa",
-      "ar": "قوة الشفط: 18000Pa",
-      "fr": "Puissance d'aspiration: 18000Pa",
-      "id": "Daya Hisap: 18000Pa",
-      "ru": "Мощность всасывания: 18000Pa",
-      "th": "กำลังดูด: 18000Pa",
-      "vi": "Công suất hút: 18000Pa"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Power (W): 40W",
-      "zh": "功率(W): 40W",
-      "es": "Potencia (W): 40W",
-      "ar": "القدرة (W): 40W",
-      "fr": "Puissance (W): 40W",
-      "id": "Daya (W): 40W",
-      "ru": "Мощность (Вт): 40W",
-      "th": "กำลังไฟ (W): 40W",
-      "vi": "Công suất (W): 40W"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Maximum Runtime: 91-120 min",
-      "zh": "最长续航: 91-120 min",
-      "es": "Autonomía máxima: 91-120 min",
-      "ar": "أقصى مدة تشغيل: 91-120 min",
-      "fr": "Autonomie maximale: 91-120 min",
-      "id": "Waktu Pakai Maksimum: 91-120 min",
-      "ru": "Макс. время работы: 91-120 min",
-      "th": "ระยะเวลาทำงานสูงสุด: 91-120 min",
-      "vi": "Thời gian chạy tối đa: 91-120 min"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Motor Type: Brushless Motor",
-      "zh": "电机类型: Brushless Motor",
-      "es": "Tipo de motor: Motor sin escobillas",
-      "ar": "نوع المحرك: محرك بدون فرشاة",
-      "fr": "Type de moteur: Moteur sans balais",
-      "id": "Jenis Motor: Motor Tanpa Sikat",
-      "ru": "Тип двигателя: Бесщёточный двигатель",
-      "th": "ประเภทมอเตอร์: มอเตอร์แบบไม่มีแปรงถ่าน",
-      "vi": "Loại động cơ: Động cơ không chổi than"
-     }
-    }
-   ],
+   "highlights": [],
    "specs": [
     {
      "label": {
@@ -5382,64 +5154,7 @@
     "unit": "pieces"
    },
    "certifications": [],
-   "highlights": [
-    {
-     "icon": "check",
-     "text": {
-      "en": "Suction Power: 18000pa",
-      "zh": "吸力: 18000pa",
-      "es": "Potencia de succión: 18000pa",
-      "ar": "قوة الشفط: 18000pa",
-      "fr": "Puissance d'aspiration: 18000pa",
-      "id": "Daya Hisap: 18000pa",
-      "ru": "Мощность всасывания: 18000pa",
-      "th": "กำลังดูด: 18000pa",
-      "vi": "Công suất hút: 18000pa"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Power (W): 40W",
-      "zh": "功率(W): 40W",
-      "es": "Potencia (W): 40W",
-      "ar": "القدرة (W): 40W",
-      "fr": "Puissance (W): 40W",
-      "id": "Daya (W): 40W",
-      "ru": "Мощность (Вт): 40W",
-      "th": "กำลังไฟ (W): 40W",
-      "vi": "Công suất (W): 40W"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Maximum Runtime: 91-120 min",
-      "zh": "最长续航: 91-120 min",
-      "es": "Autonomía máxima: 91-120 min",
-      "ar": "أقصى مدة تشغيل: 91-120 min",
-      "fr": "Autonomie maximale: 91-120 min",
-      "id": "Waktu Pakai Maksimum: 91-120 min",
-      "ru": "Макс. время работы: 91-120 min",
-      "th": "ระยะเวลาทำงานสูงสุด: 91-120 min",
-      "vi": "Thời gian chạy tối đa: 91-120 min"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Motor Type: Brushless Motor",
-      "zh": "电机类型: Brushless Motor",
-      "es": "Tipo de motor: Motor sin escobillas",
-      "ar": "نوع المحرك: محرك بدون فرشاة",
-      "fr": "Type de moteur: Moteur sans balais",
-      "id": "Jenis Motor: Motor Tanpa Sikat",
-      "ru": "Тип двигателя: Бесщёточный двигатель",
-      "th": "ประเภทมอเตอร์: มอเตอร์แบบไม่มีแปรงถ่าน",
-      "vi": "Loại động cơ: Động cơ không chổi than"
-     }
-    }
-   ],
+   "highlights": [],
    "specs": [
     {
      "label": {
@@ -6500,64 +6215,7 @@
     "unit": "pieces"
    },
    "certifications": [],
-   "highlights": [
-    {
-     "icon": "check",
-     "text": {
-      "en": "Suction Power: 18000 Pa",
-      "zh": "吸力: 18000 Pa",
-      "es": "Potencia de succión: 18000 Pa",
-      "ar": "قوة الشفط: 18000 Pa",
-      "fr": "Puissance d'aspiration: 18000 Pa",
-      "id": "Daya Hisap: 18000 Pa",
-      "ru": "Мощность всасывания: 18000 Pa",
-      "th": "กำลังดูด: 18000 Pa",
-      "vi": "Công suất hút: 18000 Pa"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Power (W): 80 W",
-      "zh": "功率(W): 80 W",
-      "es": "Potencia (W): 80 W",
-      "ar": "القدرة (W): 80 W",
-      "fr": "Puissance (W): 80 W",
-      "id": "Daya (W): 80 W",
-      "ru": "Мощность (Вт): 80 W",
-      "th": "กำลังไฟ (W): 80 W",
-      "vi": "Công suất (W): 80 W"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Maximum Runtime: 121-150 min",
-      "zh": "最长续航: 121-150 min",
-      "es": "Autonomía máxima: 121-150 min",
-      "ar": "أقصى مدة تشغيل: 121-150 min",
-      "fr": "Autonomie maximale: 121-150 min",
-      "id": "Waktu Pakai Maksimum: 121-150 min",
-      "ru": "Макс. время работы: 121-150 min",
-      "th": "ระยะเวลาทำงานสูงสุด: 121-150 min",
-      "vi": "Thời gian chạy tối đa: 121-150 min"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Motor Type: Brushless Motor",
-      "zh": "电机类型: Brushless Motor",
-      "es": "Tipo de motor: Motor sin escobillas",
-      "ar": "نوع المحرك: محرك بدون فرشاة",
-      "fr": "Type de moteur: Moteur sans balais",
-      "id": "Jenis Motor: Motor Tanpa Sikat",
-      "ru": "Тип двигателя: Бесщёточный двигатель",
-      "th": "ประเภทมอเตอร์: มอเตอร์แบบไม่มีแปรงถ่าน",
-      "vi": "Loại động cơ: Động cơ không chổi than"
-     }
-    }
-   ],
+   "highlights": [],
    "specs": [
     {
      "label": {
@@ -7664,64 +7322,7 @@
     "unit": "pieces"
    },
    "certifications": [],
-   "highlights": [
-    {
-     "icon": "check",
-     "text": {
-      "en": "Suction Power: 18000pa",
-      "zh": "吸力: 18000pa",
-      "es": "Potencia de succión: 18000pa",
-      "ar": "قوة الشفط: 18000pa",
-      "fr": "Puissance d'aspiration: 18000pa",
-      "id": "Daya Hisap: 18000pa",
-      "ru": "Мощность всасывания: 18000pa",
-      "th": "กำลังดูด: 18000pa",
-      "vi": "Công suất hút: 18000pa"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Power (W): 650W",
-      "zh": "功率(W): 650W",
-      "es": "Potencia (W): 650W",
-      "ar": "القدرة (W): 650W",
-      "fr": "Puissance (W): 650W",
-      "id": "Daya (W): 650W",
-      "ru": "Мощность (Вт): 650W",
-      "th": "กำลังไฟ (W): 650W",
-      "vi": "Công suất (W): 650W"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Runtime: 120 mins",
-      "zh": "续航时间: 120 mins",
-      "es": "Autonomía: 120 mins",
-      "ar": "مدة التشغيل: 120 mins",
-      "fr": "Autonomie: 120 mins",
-      "id": "Waktu Pakai: 120 mins",
-      "ru": "Время работы: 120 mins",
-      "th": "ระยะเวลาทำงาน: 120 mins",
-      "vi": "Thời gian chạy: 120 mins"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Maximum Runtime: 121-150 min",
-      "zh": "最长续航: 121-150 min",
-      "es": "Autonomía máxima: 121-150 min",
-      "ar": "أقصى مدة تشغيل: 121-150 min",
-      "fr": "Autonomie maximale: 121-150 min",
-      "id": "Waktu Pakai Maksimum: 121-150 min",
-      "ru": "Макс. время работы: 121-150 min",
-      "th": "ระยะเวลาทำงานสูงสุด: 121-150 min",
-      "vi": "Thời gian chạy tối đa: 121-150 min"
-     }
-    }
-   ],
+   "highlights": [],
    "specs": [
     {
      "label": {

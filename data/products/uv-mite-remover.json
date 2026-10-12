@@ -39,64 +39,7 @@
     "unit": "pieces"
    },
    "certifications": [],
-   "highlights": [
-    {
-     "icon": "check",
-     "text": {
-      "en": "Power (W): 200 W",
-      "zh": "功率(W): 200 W",
-      "es": "Potencia (W): 200 W",
-      "ar": "القدرة (W): 200 W",
-      "fr": "Puissance (W): 200 W",
-      "id": "Daya (W): 200 W",
-      "ru": "Мощность (Вт): 200 W",
-      "th": "กำลังไฟ (W): 200 W",
-      "vi": "Công suất (W): 200 W"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Maximum Runtime: 30-60 min",
-      "zh": "最长续航: 30-60 min",
-      "es": "Autonomía máxima: 30-60 min",
-      "ar": "أقصى مدة تشغيل: 30-60 min",
-      "fr": "Autonomie maximale: 30-60 min",
-      "id": "Waktu Pakai Maksimum: 30-60 min",
-      "ru": "Макс. время работы: 30-60 min",
-      "th": "ระยะเวลาทำงานสูงสุด: 30-60 min",
-      "vi": "Thời gian chạy tối đa: 30-60 min"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Dust capacity: 0.5L",
-      "zh": "尘杯容量: 0.5L",
-      "es": "Capacidad de polvo: 0.5L",
-      "ar": "سعة الغبار: 0.5L",
-      "fr": "Capacité du bac à poussière: 0.5L",
-      "id": "Kapasitas debu: 0.5L",
-      "ru": "Объём пылесборника: 0.5L",
-      "th": "ความจุฝุ่น: 0.5L",
-      "vi": "Dung tích bụi: 0.5L"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Motor Type: Brushless Motor",
-      "zh": "电机类型: Brushless Motor",
-      "es": "Tipo de motor: Motor sin escobillas",
-      "ar": "نوع المحرك: محرك بدون فرشاة",
-      "fr": "Type de moteur: Moteur sans balais",
-      "id": "Jenis Motor: Motor Tanpa Sikat",
-      "ru": "Тип двигателя: Бесщёточный двигатель",
-      "th": "ประเภทมอเตอร์: มอเตอร์แบบไม่มีแปรงถ่าน",
-      "vi": "Loại động cơ: Động cơ không chổi than"
-     }
-    }
-   ],
+   "highlights": [],
    "specs": [
     {
      "label": {

@@ -39,64 +39,7 @@
     "unit": "pieces"
    },
    "certifications": [],
-   "highlights": [
-    {
-     "icon": "check",
-     "text": {
-      "en": "Suction: 4000Pa",
-      "zh": "吸力: 4000Pa",
-      "es": "Succión: 4000Pa",
-      "ar": "الشفط: 4000Pa",
-      "fr": "Aspiration: 4000Pa",
-      "id": "Daya Hisap: 4000Pa",
-      "ru": "Всасывание: 4000Pa",
-      "th": "แรงดูด: 4000Pa",
-      "vi": "Lực hút: 4000Pa"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Power (W): 50 W",
-      "zh": "功率(W): 50 W",
-      "es": "Potencia (W): 50 W",
-      "ar": "القدرة (W): 50 W",
-      "fr": "Puissance (W): 50 W",
-      "id": "Daya (W): 50 W",
-      "ru": "Мощность (Вт): 50 W",
-      "th": "กำลังไฟ (W): 50 W",
-      "vi": "Công suất (W): 50 W"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Maximum Runtime: <30 min",
-      "zh": "最长续航: <30 min",
-      "es": "Autonomía máxima: <30 min",
-      "ar": "أقصى مدة تشغيل: <30 min",
-      "fr": "Autonomie maximale: <30 min",
-      "id": "Waktu Pakai Maksimum: <30 min",
-      "ru": "Макс. время работы: <30 min",
-      "th": "ระยะเวลาทำงานสูงสุด: <30 min",
-      "vi": "Thời gian chạy tối đa: <30 min"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Working Time: 15mins",
-      "zh": "工作时间: 15mins",
-      "es": "Tiempo de funcionamiento: 15mins",
-      "ar": "زمن العمل: 15mins",
-      "fr": "Temps de fonctionnement: 15mins",
-      "id": "Waktu Kerja: 15mins",
-      "ru": "Время работы: 15mins",
-      "th": "เวลาทำงาน: 15mins",
-      "vi": "Thời gian làm việc: 15mins"
-     }
-    }
-   ],
+   "highlights": [],
    "specs": [
     {
      "label": {
@@ -920,64 +863,7 @@
     "unit": "pieces"
    },
    "certifications": [],
-   "highlights": [
-    {
-     "icon": "check",
-     "text": {
-      "en": "Power (W): 100 W",
-      "zh": "功率(W): 100 W",
-      "es": "Potencia (W): 100 W",
-      "ar": "القدرة (W): 100 W",
-      "fr": "Puissance (W): 100 W",
-      "id": "Daya (W): 100 W",
-      "ru": "Мощность (Вт): 100 W",
-      "th": "กำลังไฟ (W): 100 W",
-      "vi": "Công suất (W): 100 W"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Maximum Runtime: <30 min",
-      "zh": "最长续航: <30 min",
-      "es": "Autonomía máxima: <30 min",
-      "ar": "أقصى مدة تشغيل: <30 min",
-      "fr": "Autonomie maximale: <30 min",
-      "id": "Waktu Pakai Maksimum: <30 min",
-      "ru": "Макс. время работы: <30 min",
-      "th": "ระยะเวลาทำงานสูงสุด: <30 min",
-      "vi": "Thời gian chạy tối đa: <30 min"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Battery Capacity: 2000mAh*3",
-      "zh": "电池容量: 2000mAh*3",
-      "es": "Capacidad de batería: 2000mAh*3",
-      "ar": "سعة البطارية: 2000mAh*3",
-      "fr": "Capacité de la batterie: 2000mAh*3",
-      "id": "Kapasitas Baterai: 2000mAh*3",
-      "ru": "Ёмкость аккумулятора: 2000mAh*3",
-      "th": "ความจุแบตเตอรี่: 2000mAh*3",
-      "vi": "Dung lượng pin: 2000mAh*3"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Dust capacity: 0.12L",
-      "zh": "尘杯容量: 0.12L",
-      "es": "Capacidad de polvo: 0.12L",
-      "ar": "سعة الغبار: 0.12L",
-      "fr": "Capacité du bac à poussière: 0.12L",
-      "id": "Kapasitas debu: 0.12L",
-      "ru": "Объём пылесборника: 0.12L",
-      "th": "ความจุฝุ่น: 0.12L",
-      "vi": "Dung tích bụi: 0.12L"
-     }
-    }
-   ],
+   "highlights": [],
    "specs": [
     {
      "label": {
@@ -1801,64 +1687,7 @@
     "unit": "pieces"
    },
    "certifications": [],
-   "highlights": [
-    {
-     "icon": "check",
-     "text": {
-      "en": "Suction: 15kpa",
-      "zh": "吸力: 15kpa",
-      "es": "Succión: 15kpa",
-      "ar": "الشفط: 15kpa",
-      "fr": "Aspiration: 15kpa",
-      "id": "Daya Hisap: 15kpa",
-      "ru": "Всасывание: 15kpa",
-      "th": "แรงดูด: 15kpa",
-      "vi": "Lực hút: 15kpa"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Power (W): 65 W",
-      "zh": "功率(W): 65 W",
-      "es": "Potencia (W): 65 W",
-      "ar": "القدرة (W): 65 W",
-      "fr": "Puissance (W): 65 W",
-      "id": "Daya (W): 65 W",
-      "ru": "Мощность (Вт): 65 W",
-      "th": "กำลังไฟ (W): 65 W",
-      "vi": "Công suất (W): 65 W"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Runtime: 16-25min",
-      "zh": "续航时间: 16-25min",
-      "es": "Autonomía: 16-25min",
-      "ar": "مدة التشغيل: 16-25min",
-      "fr": "Autonomie: 16-25min",
-      "id": "Waktu Pakai: 16-25min",
-      "ru": "Время работы: 16-25min",
-      "th": "ระยะเวลาทำงาน: 16-25min",
-      "vi": "Thời gian chạy: 16-25min"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Maximum Runtime: <30 min",
-      "zh": "最长续航: <30 min",
-      "es": "Autonomía máxima: <30 min",
-      "ar": "أقصى مدة تشغيل: <30 min",
-      "fr": "Autonomie maximale: <30 min",
-      "id": "Waktu Pakai Maksimum: <30 min",
-      "ru": "Макс. время работы: <30 min",
-      "th": "ระยะเวลาทำงานสูงสุด: <30 min",
-      "vi": "Thời gian chạy tối đa: <30 min"
-     }
-    }
-   ],
+   "highlights": [],
    "specs": [
     {
      "label": {
@@ -2797,50 +2626,7 @@
     "unit": "pieces"
    },
    "certifications": [],
-   "highlights": [
-    {
-     "icon": "check",
-     "text": {
-      "en": "Power (W): 400 W",
-      "zh": "功率(W): 400 W",
-      "es": "Potencia (W): 400 W",
-      "ar": "القدرة (W): 400 W",
-      "fr": "Puissance (W): 400 W",
-      "id": "Daya (W): 400 W",
-      "ru": "Мощность (Вт): 400 W",
-      "th": "กำลังไฟ (W): 400 W",
-      "vi": "Công suất (W): 400 W"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Capacity: 1.5-1.9L",
-      "zh": "容量: 1.5-1.9L",
-      "es": "Capacidad: 1.5-1.9L",
-      "ar": "السعة: 1.5-1.9L",
-      "fr": "Capacité: 1.5-1.9L",
-      "id": "Kapasitas: 1.5-1.9L",
-      "ru": "Ёмкость: 1.5-1.9L",
-      "th": "ความจุ: 1.5-1.9L",
-      "vi": "Dung tích: 1.5-1.9L"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Material: Plastic, ABS+aluminum",
-      "zh": "材质: Plastic, ABS+aluminum",
-      "es": "Material: Plástico, ABS + aluminio",
-      "ar": "المادة: بلاستيك، ABS + ألومنيوم",
-      "fr": "Matériau: Plastique, ABS + aluminium",
-      "id": "Material: Plastik, ABS + aluminium",
-      "ru": "Материал: Пластик, ABS + алюминий",
-      "th": "วัสดุ: พลาสติก ABS+อะลูมิเนียม",
-      "vi": "Chất liệu: Nhựa, ABS + nhôm"
-     }
-    }
-   ],
+   "highlights": [],
    "specs": [
     {
      "label": {

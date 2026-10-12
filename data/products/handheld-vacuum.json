@@ -792,64 +792,7 @@
     "unit": "pieces"
    },
    "certifications": [],
-   "highlights": [
-    {
-     "icon": "check",
-     "text": {
-      "en": "Suction Power: 37000Pa",
-      "zh": "吸力: 37000Pa",
-      "es": "Potencia de succión: 37000Pa",
-      "ar": "قوة الشفط: 37000Pa",
-      "fr": "Puissance d'aspiration: 37000Pa",
-      "id": "Daya Hisap: 37000Pa",
-      "ru": "Мощность всасывания: 37000Pa",
-      "th": "กำลังดูด: 37000Pa",
-      "vi": "Công suất hút: 37000Pa"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Power (W): 550W",
-      "zh": "功率(W): 550W",
-      "es": "Potencia (W): 550W",
-      "ar": "القدرة (W): 550W",
-      "fr": "Puissance (W): 550W",
-      "id": "Daya (W): 550W",
-      "ru": "Мощность (Вт): 550W",
-      "th": "กำลังไฟ (W): 550W",
-      "vi": "Công suất (W): 550W"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Runtime: 20-65mins",
-      "zh": "续航时间: 20-65mins",
-      "es": "Autonomía: 20-65mins",
-      "ar": "مدة التشغيل: 20-65mins",
-      "fr": "Autonomie: 20-65mins",
-      "id": "Waktu Pakai: 20-65mins",
-      "ru": "Время работы: 20-65mins",
-      "th": "ระยะเวลาทำงาน: 20-65mins",
-      "vi": "Thời gian chạy: 20-65mins"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Maximum Runtime: 30-60 min",
-      "zh": "最长续航: 30-60 min",
-      "es": "Autonomía máxima: 30-60 min",
-      "ar": "أقصى مدة تشغيل: 30-60 min",
-      "fr": "Autonomie maximale: 30-60 min",
-      "id": "Waktu Pakai Maksimum: 30-60 min",
-      "ru": "Макс. время работы: 30-60 min",
-      "th": "ระยะเวลาทำงานสูงสุด: 30-60 min",
-      "vi": "Thời gian chạy tối đa: 30-60 min"
-     }
-    }
-   ],
+   "highlights": [],
    "specs": [
     {
      "label": {
@@ -1956,64 +1899,7 @@
     "unit": "pieces"
    },
    "certifications": [],
-   "highlights": [
-    {
-     "icon": "check",
-     "text": {
-      "en": "Suction Power: 40000Pa",
-      "zh": "吸力: 40000Pa",
-      "es": "Potencia de succión: 40000Pa",
-      "ar": "قوة الشفط: 40000Pa",
-      "fr": "Puissance d'aspiration: 40000Pa",
-      "id": "Daya Hisap: 40000Pa",
-      "ru": "Мощность всасывания: 40000Pa",
-      "th": "กำลังดูด: 40000Pa",
-      "vi": "Công suất hút: 40000Pa"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Power (W): 35W",
-      "zh": "功率(W): 35W",
-      "es": "Potencia (W): 35W",
-      "ar": "القدرة (W): 35W",
-      "fr": "Puissance (W): 35W",
-      "id": "Daya (W): 35W",
-      "ru": "Мощность (Вт): 35W",
-      "th": "กำลังไฟ (W): 35W",
-      "vi": "Công suất (W): 35W"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Capacity: 1.2 L",
-      "zh": "容量: 1.2 L",
-      "es": "Capacidad: 1.2 L",
-      "ar": "السعة: 1.2 L",
-      "fr": "Capacité: 1.2 L",
-      "id": "Kapasitas: 1.2 L",
-      "ru": "Ёмкость: 1.2 L",
-      "th": "ความจุ: 1.2 L",
-      "vi": "Dung tích: 1.2 L"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Runtime: 20-65mins",
-      "zh": "续航时间: 20-65mins",
-      "es": "Autonomía: 20-65mins",
-      "ar": "مدة التشغيل: 20-65mins",
-      "fr": "Autonomie: 20-65mins",
-      "id": "Waktu Pakai: 20-65mins",
-      "ru": "Время работы: 20-65mins",
-      "th": "ระยะเวลาทำงาน: 20-65mins",
-      "vi": "Thời gian chạy: 20-65mins"
-     }
-    }
-   ],
+   "highlights": [],
    "specs": [
     {
      "label": {
@@ -3120,64 +3006,7 @@
     "unit": "pieces"
    },
    "certifications": [],
-   "highlights": [
-    {
-     "icon": "check",
-     "text": {
-      "en": "Power (W): 550W",
-      "zh": "功率(W): 550W",
-      "es": "Potencia (W): 550W",
-      "ar": "القدرة (W): 550W",
-      "fr": "Puissance (W): 550W",
-      "id": "Daya (W): 550W",
-      "ru": "Мощность (Вт): 550W",
-      "th": "กำลังไฟ (W): 550W",
-      "vi": "Công suất (W): 550W"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Capacity: 1.0 L",
-      "zh": "容量: 1.0 L",
-      "es": "Capacidad: 1.0 L",
-      "ar": "السعة: 1.0 L",
-      "fr": "Capacité: 1.0 L",
-      "id": "Kapasitas: 1.0 L",
-      "ru": "Ёмкость: 1.0 L",
-      "th": "ความจุ: 1.0 L",
-      "vi": "Dung tích: 1.0 L"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Maximum Runtime: 30-60 min",
-      "zh": "最长续航: 30-60 min",
-      "es": "Autonomía máxima: 30-60 min",
-      "ar": "أقصى مدة تشغيل: 30-60 min",
-      "fr": "Autonomie maximale: 30-60 min",
-      "id": "Waktu Pakai Maksimum: 30-60 min",
-      "ru": "Макс. время работы: 30-60 min",
-      "th": "ระยะเวลาทำงานสูงสุด: 30-60 min",
-      "vi": "Thời gian chạy tối đa: 30-60 min"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Motor Type: Brushless Motor",
-      "zh": "电机类型: Brushless Motor",
-      "es": "Tipo de motor: Motor sin escobillas",
-      "ar": "نوع المحرك: محرك بدون فرشاة",
-      "fr": "Type de moteur: Moteur sans balais",
-      "id": "Jenis Motor: Motor Tanpa Sikat",
-      "ru": "Тип двигателя: Бесщёточный двигатель",
-      "th": "ประเภทมอเตอร์: มอเตอร์แบบไม่มีแปรงถ่าน",
-      "vi": "Loại động cơ: Động cơ không chổi than"
-     }
-    }
-   ],
+   "highlights": [],
    "specs": [
     {
      "label": {
@@ -4035,64 +3864,7 @@
     "unit": "pieces"
    },
    "certifications": [],
-   "highlights": [
-    {
-     "icon": "check",
-     "text": {
-      "en": "Power (W): 800W",
-      "zh": "功率(W): 800W",
-      "es": "Potencia (W): 800W",
-      "ar": "القدرة (W): 800W",
-      "fr": "Puissance (W): 800W",
-      "id": "Daya (W): 800W",
-      "ru": "Мощность (Вт): 800W",
-      "th": "กำลังไฟ (W): 800W",
-      "vi": "Công suất (W): 800W"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Capacity: 1.2L",
-      "zh": "容量: 1.2L",
-      "es": "Capacidad: 1.2L",
-      "ar": "السعة: 1.2L",
-      "fr": "Capacité: 1.2L",
-      "id": "Kapasitas: 1.2L",
-      "ru": "Ёмкость: 1.2L",
-      "th": "ความจุ: 1.2L",
-      "vi": "Dung tích: 1.2L"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Maximum Runtime: 30-60 min",
-      "zh": "最长续航: 30-60 min",
-      "es": "Autonomía máxima: 30-60 min",
-      "ar": "أقصى مدة تشغيل: 30-60 min",
-      "fr": "Autonomie maximale: 30-60 min",
-      "id": "Waktu Pakai Maksimum: 30-60 min",
-      "ru": "Макс. время работы: 30-60 min",
-      "th": "ระยะเวลาทำงานสูงสุด: 30-60 min",
-      "vi": "Thời gian chạy tối đa: 30-60 min"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Battery Capacity: 2200mAh",
-      "zh": "电池容量: 2200mAh",
-      "es": "Capacidad de batería: 2200mAh",
-      "ar": "سعة البطارية: 2200mAh",
-      "fr": "Capacité de la batterie: 2200mAh",
-      "id": "Kapasitas Baterai: 2200mAh",
-      "ru": "Ёмкость аккумулятора: 2200mAh",
-      "th": "ความจุแบตเตอรี่: 2200mAh",
-      "vi": "Dung lượng pin: 2200mAh"
-     }
-    }
-   ],
+   "highlights": [],
    "specs": [
     {
      "label": {
@@ -5107,64 +4879,7 @@
     "unit": "pieces"
    },
    "certifications": [],
-   "highlights": [
-    {
-     "icon": "check",
-     "text": {
-      "en": "Power (W): 550 W",
-      "zh": "功率(W): 550 W",
-      "es": "Potencia (W): 550 W",
-      "ar": "القدرة (W): 550 W",
-      "fr": "Puissance (W): 550 W",
-      "id": "Daya (W): 550 W",
-      "ru": "Мощность (Вт): 550 W",
-      "th": "กำลังไฟ (W): 550 W",
-      "vi": "Công suất (W): 550 W"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Maximum Runtime: 30-60 min",
-      "zh": "最长续航: 30-60 min",
-      "es": "Autonomía máxima: 30-60 min",
-      "ar": "أقصى مدة تشغيل: 30-60 min",
-      "fr": "Autonomie maximale: 30-60 min",
-      "id": "Waktu Pakai Maksimum: 30-60 min",
-      "ru": "Макс. время работы: 30-60 min",
-      "th": "ระยะเวลาทำงานสูงสุด: 30-60 min",
-      "vi": "Thời gian chạy tối đa: 30-60 min"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Dust capacity: 1.2L",
-      "zh": "尘杯容量: 1.2L",
-      "es": "Capacidad de polvo: 1.2L",
-      "ar": "سعة الغبار: 1.2L",
-      "fr": "Capacité du bac à poussière: 1.2L",
-      "id": "Kapasitas debu: 1.2L",
-      "ru": "Объём пылесборника: 1.2L",
-      "th": "ความจุฝุ่น: 1.2L",
-      "vi": "Dung tích bụi: 1.2L"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Motor Type: Brushless Motor",
-      "zh": "电机类型: Brushless Motor",
-      "es": "Tipo de motor: Motor sin escobillas",
-      "ar": "نوع المحرك: محرك بدون فرشاة",
-      "fr": "Type de moteur: Moteur sans balais",
-      "id": "Jenis Motor: Motor Tanpa Sikat",
-      "ru": "Тип двигателя: Бесщёточный двигатель",
-      "th": "ประเภทมอเตอร์: มอเตอร์แบบไม่มีแปรงถ่าน",
-      "vi": "Loại động cơ: Động cơ không chổi than"
-     }
-    }
-   ],
+   "highlights": [],
    "specs": [
     {
      "label": {
@@ -5930,64 +5645,7 @@
     "unit": "pieces"
    },
    "certifications": [],
-   "highlights": [
-    {
-     "icon": "check",
-     "text": {
-      "en": "Power (W): 450 W",
-      "zh": "功率(W): 450 W",
-      "es": "Potencia (W): 450 W",
-      "ar": "القدرة (W): 450 W",
-      "fr": "Puissance (W): 450 W",
-      "id": "Daya (W): 450 W",
-      "ru": "Мощность (Вт): 450 W",
-      "th": "กำลังไฟ (W): 450 W",
-      "vi": "Công suất (W): 450 W"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Capacity: 1.2L",
-      "zh": "容量: 1.2L",
-      "es": "Capacidad: 1.2L",
-      "ar": "السعة: 1.2L",
-      "fr": "Capacité: 1.2L",
-      "id": "Kapasitas: 1.2L",
-      "ru": "Ёмкость: 1.2L",
-      "th": "ความจุ: 1.2L",
-      "vi": "Dung tích: 1.2L"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Maximum Runtime: 30-60 min",
-      "zh": "最长续航: 30-60 min",
-      "es": "Autonomía máxima: 30-60 min",
-      "ar": "أقصى مدة تشغيل: 30-60 min",
-      "fr": "Autonomie maximale: 30-60 min",
-      "id": "Waktu Pakai Maksimum: 30-60 min",
-      "ru": "Макс. время работы: 30-60 min",
-      "th": "ระยะเวลาทำงานสูงสุด: 30-60 min",
-      "vi": "Thời gian chạy tối đa: 30-60 min"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Motor Type: High Power Motor",
-      "zh": "电机类型: High Power Motor",
-      "es": "Tipo de motor: Motor de alta potencia",
-      "ar": "نوع المحرك: محرك عالي القدرة",
-      "fr": "Type de moteur: Moteur haute puissance",
-      "id": "Jenis Motor: Motor Berdaya Tinggi",
-      "ru": "Тип двигателя: Мощный двигатель",
-      "th": "ประเภทมอเตอร์: มอเตอร์กำลังสูง",
-      "vi": "Loại động cơ: Động cơ công suất cao"
-     }
-    }
-   ],
+   "highlights": [],
    "specs": [
     {
      "label": {
@@ -7055,64 +6713,7 @@
     "unit": "pieces"
    },
    "certifications": [],
-   "highlights": [
-    {
-     "icon": "check",
-     "text": {
-      "en": "Power (W): 600 W",
-      "zh": "功率(W): 600 W",
-      "es": "Potencia (W): 600 W",
-      "ar": "القدرة (W): 600 W",
-      "fr": "Puissance (W): 600 W",
-      "id": "Daya (W): 600 W",
-      "ru": "Мощность (Вт): 600 W",
-      "th": "กำลังไฟ (W): 600 W",
-      "vi": "Công suất (W): 600 W"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Capacity: 0.5 L",
-      "zh": "容量: 0.5 L",
-      "es": "Capacidad: 0.5 L",
-      "ar": "السعة: 0.5 L",
-      "fr": "Capacité: 0.5 L",
-      "id": "Kapasitas: 0.5 L",
-      "ru": "Ёмкость: 0.5 L",
-      "th": "ความจุ: 0.5 L",
-      "vi": "Dung tích: 0.5 L"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Maximum Runtime: 30-60 min",
-      "zh": "最长续航: 30-60 min",
-      "es": "Autonomía máxima: 30-60 min",
-      "ar": "أقصى مدة تشغيل: 30-60 min",
-      "fr": "Autonomie maximale: 30-60 min",
-      "id": "Waktu Pakai Maksimum: 30-60 min",
-      "ru": "Макс. время работы: 30-60 min",
-      "th": "ระยะเวลาทำงานสูงสุด: 30-60 min",
-      "vi": "Thời gian chạy tối đa: 30-60 min"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Motor Type: Brush Motor",
-      "zh": "电机类型: Brush Motor",
-      "es": "Tipo de motor: Motor con escobillas",
-      "ar": "نوع المحرك: محرك بفرشاة",
-      "fr": "Type de moteur: Moteur à balais",
-      "id": "Jenis Motor: Motor Sikat",
-      "ru": "Тип двигателя: Щёточный двигатель",
-      "th": "ประเภทมอเตอร์: มอเตอร์แบบมีแปรงถ่าน",
-      "vi": "Loại động cơ: Động cơ chổi than"
-     }
-    }
-   ],
+   "highlights": [],
    "specs": [
     {
      "label": {
@@ -8219,64 +7820,7 @@
     "unit": "pieces"
    },
    "certifications": [],
-   "highlights": [
-    {
-     "icon": "check",
-     "text": {
-      "en": "Power (W): 350 W",
-      "zh": "功率(W): 350 W",
-      "es": "Potencia (W): 350 W",
-      "ar": "القدرة (W): 350 W",
-      "fr": "Puissance (W): 350 W",
-      "id": "Daya (W): 350 W",
-      "ru": "Мощность (Вт): 350 W",
-      "th": "กำลังไฟ (W): 350 W",
-      "vi": "Công suất (W): 350 W"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Maximum Runtime: 30-60 min",
-      "zh": "最长续航: 30-60 min",
-      "es": "Autonomía máxima: 30-60 min",
-      "ar": "أقصى مدة تشغيل: 30-60 min",
-      "fr": "Autonomie maximale: 30-60 min",
-      "id": "Waktu Pakai Maksimum: 30-60 min",
-      "ru": "Макс. время работы: 30-60 min",
-      "th": "ระยะเวลาทำงานสูงสุด: 30-60 min",
-      "vi": "Thời gian chạy tối đa: 30-60 min"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Dust capacity: 0.8 L",
-      "zh": "尘杯容量: 0.8 L",
-      "es": "Capacidad de polvo: 0.8 L",
-      "ar": "سعة الغبار: 0.8 L",
-      "fr": "Capacité du bac à poussière: 0.8 L",
-      "id": "Kapasitas debu: 0.8 L",
-      "ru": "Объём пылесборника: 0.8 L",
-      "th": "ความจุฝุ่น: 0.8 L",
-      "vi": "Dung tích bụi: 0.8 L"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Motor Type: Brushless Motor",
-      "zh": "电机类型: Brushless Motor",
-      "es": "Tipo de motor: Motor sin escobillas",
-      "ar": "نوع المحرك: محرك بدون فرشاة",
-      "fr": "Type de moteur: Moteur sans balais",
-      "id": "Jenis Motor: Motor Tanpa Sikat",
-      "ru": "Тип двигателя: Бесщёточный двигатель",
-      "th": "ประเภทมอเตอร์: มอเตอร์แบบไม่มีแปรงถ่าน",
-      "vi": "Loại động cơ: Động cơ không chổi than"
-     }
-    }
-   ],
+   "highlights": [],
    "specs": [
     {
      "label": {
@@ -9153,64 +8697,7 @@
     "unit": "pieces"
    },
    "certifications": [],
-   "highlights": [
-    {
-     "icon": "check",
-     "text": {
-      "en": "Capacity: 0.8 L",
-      "zh": "容量: 0.8 L",
-      "es": "Capacidad: 0.8 L",
-      "ar": "السعة: 0.8 L",
-      "fr": "Capacité: 0.8 L",
-      "id": "Kapasitas: 0.8 L",
-      "ru": "Ёмкость: 0.8 L",
-      "th": "ความจุ: 0.8 L",
-      "vi": "Dung tích: 0.8 L"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Maximum Runtime: 30-60 min",
-      "zh": "最长续航: 30-60 min",
-      "es": "Autonomía máxima: 30-60 min",
-      "ar": "أقصى مدة تشغيل: 30-60 min",
-      "fr": "Autonomie maximale: 30-60 min",
-      "id": "Waktu Pakai Maksimum: 30-60 min",
-      "ru": "Макс. время работы: 30-60 min",
-      "th": "ระยะเวลาทำงานสูงสุด: 30-60 min",
-      "vi": "Thời gian chạy tối đa: 30-60 min"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Motor Type: Brushless Motor",
-      "zh": "电机类型: Brushless Motor",
-      "es": "Tipo de motor: Motor sin escobillas",
-      "ar": "نوع المحرك: محرك بدون فرشاة",
-      "fr": "Type de moteur: Moteur sans balais",
-      "id": "Jenis Motor: Motor Tanpa Sikat",
-      "ru": "Тип двигателя: Бесщёточный двигатель",
-      "th": "ประเภทมอเตอร์: มอเตอร์แบบไม่มีแปรงถ่าน",
-      "vi": "Loại động cơ: Động cơ không chổi than"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Battery Type: Lithium-Ion Battery",
-      "zh": "电池类型: Lithium-Ion Battery",
-      "es": "Tipo de batería: Batería de iones de litio",
-      "ar": "نوع البطارية: بطارية ليثيوم أيون",
-      "fr": "Type de batterie: Batterie lithium-ion",
-      "id": "Jenis Baterai: Baterai Litium-Ion",
-      "ru": "Тип аккумулятора: Литий-ионный аккумулятор",
-      "th": "ประเภทแบตเตอรี่: แบตเตอรี่ลิเธียมไอออน",
-      "vi": "Loại pin: Pin lithium-ion"
-     }
-    }
-   ],
+   "highlights": [],
    "specs": [
     {
      "label": {

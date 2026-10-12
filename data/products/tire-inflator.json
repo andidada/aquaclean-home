@@ -746,64 +746,7 @@
     "unit": "pieces"
    },
    "certifications": [],
-   "highlights": [
-    {
-     "icon": "check",
-     "text": {
-      "en": "Power: ≤120W",
-      "zh": "功率: ≤120W",
-      "es": "Potencia: ≤120W",
-      "ar": "القدرة: ≤120W",
-      "fr": "Puissance: ≤120W",
-      "id": "Daya: ≤120W",
-      "ru": "Мощность: ≤120W",
-      "th": "กำลังไฟ: ≤120W",
-      "vi": "Công suất: ≤120W"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Maximum Pressure: 150PSI / 10.3Bar",
-      "zh": "最大气压: 150PSI / 10.3Bar",
-      "es": "Presión máxima: 150PSI / 10.3Bar",
-      "ar": "أقصى ضغط: 150PSI / 10.3Bar",
-      "fr": "Pression maximale: 150PSI / 10.3Bar",
-      "id": "Tekanan Maksimum: 150PSI / 10.3Bar",
-      "ru": "Максимальное давление: 150PSI / 10.3Bar",
-      "th": "แรงดันสูงสุด: 150PSI / 10.3Bar",
-      "vi": "Áp suất tối đa: 150PSI / 10.3Bar"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Working Time: 40mins",
-      "zh": "工作时间: 40mins",
-      "es": "Tiempo de funcionamiento: 40mins",
-      "ar": "زمن العمل: 40mins",
-      "fr": "Temps de fonctionnement: 40mins",
-      "id": "Waktu Kerja: 40mins",
-      "ru": "Время работы: 40mins",
-      "th": "เวลาทำงาน: 40mins",
-      "vi": "Thời gian làm việc: 40mins"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Battery Capacity: 2500mAh*4",
-      "zh": "电池容量: 2500mAh*4",
-      "es": "Capacidad de batería: 2500mAh*4",
-      "ar": "سعة البطارية: 2500mAh*4",
-      "fr": "Capacité de la batterie: 2500mAh*4",
-      "id": "Kapasitas Baterai: 2500mAh*4",
-      "ru": "Ёмкость аккумулятора: 2500mAh*4",
-      "th": "ความจุแบตเตอรี่: 2500mAh*4",
-      "vi": "Dung lượng pin: 2500mAh*4"
-     }
-    }
-   ],
+   "highlights": [],
    "specs": [
     {
      "label": {
@@ -1473,64 +1416,7 @@
     "unit": "pieces"
    },
    "certifications": [],
-   "highlights": [
-    {
-     "icon": "check",
-     "text": {
-      "en": "Power: ≤90W",
-      "zh": "功率: ≤90W",
-      "es": "Potencia: ≤90W",
-      "ar": "القدرة: ≤90W",
-      "fr": "Puissance: ≤90W",
-      "id": "Daya: ≤90W",
-      "ru": "Мощность: ≤90W",
-      "th": "กำลังไฟ: ≤90W",
-      "vi": "Công suất: ≤90W"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Maximum Pressure: 150PSI / 10.3Bar",
-      "zh": "最大气压: 150PSI / 10.3Bar",
-      "es": "Presión máxima: 150PSI / 10.3Bar",
-      "ar": "أقصى ضغط: 150PSI / 10.3Bar",
-      "fr": "Pression maximale: 150PSI / 10.3Bar",
-      "id": "Tekanan Maksimum: 150PSI / 10.3Bar",
-      "ru": "Максимальное давление: 150PSI / 10.3Bar",
-      "th": "แรงดันสูงสุด: 150PSI / 10.3Bar",
-      "vi": "Áp suất tối đa: 150PSI / 10.3Bar"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Working Time: 25mins",
-      "zh": "工作时间: 25mins",
-      "es": "Tiempo de funcionamiento: 25mins",
-      "ar": "زمن العمل: 25mins",
-      "fr": "Temps de fonctionnement: 25mins",
-      "id": "Waktu Kerja: 25mins",
-      "ru": "Время работы: 25mins",
-      "th": "เวลาทำงาน: 25mins",
-      "vi": "Thời gian làm việc: 25mins"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Battery Capacity: 2000mAh*3",
-      "zh": "电池容量: 2000mAh*3",
-      "es": "Capacidad de batería: 2000mAh*3",
-      "ar": "سعة البطارية: 2000mAh*3",
-      "fr": "Capacité de la batterie: 2000mAh*3",
-      "id": "Kapasitas Baterai: 2000mAh*3",
-      "ru": "Ёмкость аккумулятора: 2000mAh*3",
-      "th": "ความจุแบตเตอรี่: 2000mAh*3",
-      "vi": "Dung lượng pin: 2000mAh*3"
-     }
-    }
-   ],
+   "highlights": [],
    "specs": [
     {
      "label": {
@@ -2203,64 +2089,7 @@
     "unit": "pieces"
    },
    "certifications": [],
-   "highlights": [
-    {
-     "icon": "check",
-     "text": {
-      "en": "Power: ≤65W",
-      "zh": "功率: ≤65W",
-      "es": "Potencia: ≤65W",
-      "ar": "القدرة: ≤65W",
-      "fr": "Puissance: ≤65W",
-      "id": "Daya: ≤65W",
-      "ru": "Мощность: ≤65W",
-      "th": "กำลังไฟ: ≤65W",
-      "vi": "Công suất: ≤65W"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Maximum Pressure: 150PSI / 10.3Bar",
-      "zh": "最大气压: 150PSI / 10.3Bar",
-      "es": "Presión máxima: 150PSI / 10.3Bar",
-      "ar": "أقصى ضغط: 150PSI / 10.3Bar",
-      "fr": "Pression maximale: 150PSI / 10.3Bar",
-      "id": "Tekanan Maksimum: 150PSI / 10.3Bar",
-      "ru": "Максимальное давление: 150PSI / 10.3Bar",
-      "th": "แรงดันสูงสุด: 150PSI / 10.3Bar",
-      "vi": "Áp suất tối đa: 150PSI / 10.3Bar"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Working Time: 25mins",
-      "zh": "工作时间: 25mins",
-      "es": "Tiempo de funcionamiento: 25mins",
-      "ar": "زمن العمل: 25mins",
-      "fr": "Temps de fonctionnement: 25mins",
-      "id": "Waktu Kerja: 25mins",
-      "ru": "Время работы: 25mins",
-      "th": "เวลาทำงาน: 25mins",
-      "vi": "Thời gian làm việc: 25mins"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Battery Capacity: 2000mAh*2",
-      "zh": "电池容量: 2000mAh*2",
-      "es": "Capacidad de batería: 2000mAh*2",
-      "ar": "سعة البطارية: 2000mAh*2",
-      "fr": "Capacité de la batterie: 2000mAh*2",
-      "id": "Kapasitas Baterai: 2000mAh*2",
-      "ru": "Ёмкость аккумулятора: 2000mAh*2",
-      "th": "ความจุแบตเตอรี่: 2000mAh*2",
-      "vi": "Dung lượng pin: 2000mAh*2"
-     }
-    }
-   ],
+   "highlights": [],
    "specs": [
     {
      "label": {
@@ -2933,64 +2762,7 @@
     "unit": "pieces"
    },
    "certifications": [],
-   "highlights": [
-    {
-     "icon": "check",
-     "text": {
-      "en": "Power: 90W",
-      "zh": "功率: 90W",
-      "es": "Potencia: 90W",
-      "ar": "القدرة: 90W",
-      "fr": "Puissance: 90W",
-      "id": "Daya: 90W",
-      "ru": "Мощность: 90W",
-      "th": "กำลังไฟ: 90W",
-      "vi": "Công suất: 90W"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Battery Capacity: 1500mAh*4",
-      "zh": "电池容量: 1500mAh*4",
-      "es": "Capacidad de batería: 1500mAh*4",
-      "ar": "سعة البطارية: 1500mAh*4",
-      "fr": "Capacité de la batterie: 1500mAh*4",
-      "id": "Kapasitas Baterai: 1500mAh*4",
-      "ru": "Ёмкость аккумулятора: 1500mAh*4",
-      "th": "ความจุแบตเตอรี่: 1500mAh*4",
-      "vi": "Dung lượng pin: 1500mAh*4"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Battery Type: Lithium Battery",
-      "zh": "电池类型: Lithium Battery",
-      "es": "Tipo de batería: Batería de litio",
-      "ar": "نوع البطارية: بطارية ليثيوم",
-      "fr": "Type de batterie: Batterie au lithium",
-      "id": "Jenis Baterai: Baterai Litium",
-      "ru": "Тип аккумулятора: Литиевый аккумулятор",
-      "th": "ประเภทแบตเตอรี่: แบตเตอรี่ลิเธียม",
-      "vi": "Loại pin: Pin lithium"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Voltage: 14.2-16.8V",
-      "zh": "电压: 14.2-16.8V",
-      "es": "Tensión: 14.2-16.8V",
-      "ar": "الجهد: 14.2-16.8V",
-      "fr": "Tension: 14.2-16.8V",
-      "id": "Tegangan: 14.2-16.8V",
-      "ru": "Напряжение: 14.2-16.8V",
-      "th": "แรงดันไฟฟ้า: 14.2-16.8V",
-      "vi": "Điện áp: 14.2-16.8V"
-     }
-    }
-   ],
+   "highlights": [],
    "specs": [
     {
      "label": {
@@ -3785,64 +3557,7 @@
     "unit": "pieces"
    },
    "certifications": [],
-   "highlights": [
-    {
-     "icon": "check",
-     "text": {
-      "en": "Power: ≤120W",
-      "zh": "功率: ≤120W",
-      "es": "Potencia: ≤120W",
-      "ar": "القدرة: ≤120W",
-      "fr": "Puissance: ≤120W",
-      "id": "Daya: ≤120W",
-      "ru": "Мощность: ≤120W",
-      "th": "กำลังไฟ: ≤120W",
-      "vi": "Công suất: ≤120W"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Maximum Pressure: 150PSI / 10.3Bar",
-      "zh": "最大气压: 150PSI / 10.3Bar",
-      "es": "Presión máxima: 150PSI / 10.3Bar",
-      "ar": "أقصى ضغط: 150PSI / 10.3Bar",
-      "fr": "Pression maximale: 150PSI / 10.3Bar",
-      "id": "Tekanan Maksimum: 150PSI / 10.3Bar",
-      "ru": "Максимальное давление: 150PSI / 10.3Bar",
-      "th": "แรงดันสูงสุด: 150PSI / 10.3Bar",
-      "vi": "Áp suất tối đa: 150PSI / 10.3Bar"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Working Time: 40mins",
-      "zh": "工作时间: 40mins",
-      "es": "Tiempo de funcionamiento: 40mins",
-      "ar": "زمن العمل: 40mins",
-      "fr": "Temps de fonctionnement: 40mins",
-      "id": "Waktu Kerja: 40mins",
-      "ru": "Время работы: 40mins",
-      "th": "เวลาทำงาน: 40mins",
-      "vi": "Thời gian làm việc: 40mins"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Battery Capacity: 2500mAh*4",
-      "zh": "电池容量: 2500mAh*4",
-      "es": "Capacidad de batería: 2500mAh*4",
-      "ar": "سعة البطارية: 2500mAh*4",
-      "fr": "Capacité de la batterie: 2500mAh*4",
-      "id": "Kapasitas Baterai: 2500mAh*4",
-      "ru": "Ёмкость аккумулятора: 2500mAh*4",
-      "th": "ความจุแบตเตอรี่: 2500mAh*4",
-      "vi": "Dung lượng pin: 2500mAh*4"
-     }
-    }
-   ],
+   "highlights": [],
    "specs": [
     {
      "label": {

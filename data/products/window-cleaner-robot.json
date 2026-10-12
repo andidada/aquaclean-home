@@ -37,64 +37,7 @@
     "unit": "pieces"
    },
    "certifications": [],
-   "highlights": [
-    {
-     "icon": "check",
-     "text": {
-      "en": "Suction Power: 8000Pa",
-      "zh": "吸力: 8000Pa",
-      "es": "Potencia de succión: 8000Pa",
-      "ar": "قوة الشفط: 8000Pa",
-      "fr": "Puissance d'aspiration: 8000Pa",
-      "id": "Daya Hisap: 8000Pa",
-      "ru": "Мощность всасывания: 8000Pa",
-      "th": "กำลังดูด: 8000Pa",
-      "vi": "Công suất hút: 8000Pa"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Power (W): 72W",
-      "zh": "功率(W): 72W",
-      "es": "Potencia (W): 72W",
-      "ar": "القدرة (W): 72W",
-      "fr": "Puissance (W): 72W",
-      "id": "Daya (W): 72W",
-      "ru": "Мощность (Вт): 72W",
-      "th": "กำลังไฟ (W): 72W",
-      "vi": "Công suất (W): 72W"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Water tank capacity: 100ml",
-      "zh": "水箱容量: 100ml",
-      "es": "Capacidad del depósito de agua: 100ml",
-      "ar": "سعة خزان الماء: 100ml",
-      "fr": "Capacité du réservoir d'eau: 100ml",
-      "id": "Kapasitas tangki air: 100ml",
-      "ru": "Объём бака для воды: 100ml",
-      "th": "ความจุถังน้ำ: 100ml",
-      "vi": "Dung tích bình nước: 100ml"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Runtime: 20-35mins",
-      "zh": "续航时间: 20-35mins",
-      "es": "Autonomía: 20-35mins",
-      "ar": "مدة التشغيل: 20-35mins",
-      "fr": "Autonomie: 20-35mins",
-      "id": "Waktu Pakai: 20-35mins",
-      "ru": "Время работы: 20-35mins",
-      "th": "ระยะเวลาทำงาน: 20-35mins",
-      "vi": "Thời gian chạy: 20-35mins"
-     }
-    }
-   ],
+   "highlights": [],
    "specs": [
     {
      "label": {

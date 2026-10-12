@@ -39,64 +39,7 @@
     "unit": "pieces"
    },
    "certifications": [],
-   "highlights": [
-    {
-     "icon": "check",
-     "text": {
-      "en": "Power (W): 1500 W",
-      "zh": "功率(W): 1500 W",
-      "es": "Potencia (W): 1500 W",
-      "ar": "القدرة (W): 1500 W",
-      "fr": "Puissance (W): 1500 W",
-      "id": "Daya (W): 1500 W",
-      "ru": "Мощность (Вт): 1500 W",
-      "th": "กำลังไฟ (W): 1500 W",
-      "vi": "Công suất (W): 1500 W"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Steam pressure: 3 bar",
-      "zh": "蒸汽压力: 3 bar",
-      "es": "Presión de vapor: 3 bar",
-      "ar": "ضغط البخار: 3 bar",
-      "fr": "Pression de vapeur: 3 bar",
-      "id": "Tekanan uap: 3 bar",
-      "ru": "Давление пара: 3 bar",
-      "th": "แรงดันไอน้ำ: 3 bar",
-      "vi": "Áp suất hơi: 3 bar"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Water Tank Capacity: 1600ml",
-      "zh": "水箱容量: 1600ml",
-      "es": "Capacidad del depósito de agua: 1600ml",
-      "ar": "سعة خزان الماء: 1600ml",
-      "fr": "Capacité du réservoir d'eau: 1600ml",
-      "id": "Kapasitas Tangki Air: 1600ml",
-      "ru": "Объём бака для воды: 1600ml",
-      "th": "ความจุถังน้ำ: 1600ml",
-      "vi": "Dung tích bình nước: 1600ml"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Heating Time: 15 s",
-      "zh": "加热时间: 15 s",
-      "es": "Tiempo de calentamiento: 15 s",
-      "ar": "زمن التسخين: 15 s",
-      "fr": "Temps de chauffe: 15 s",
-      "id": "Waktu Pemanasan: 15 s",
-      "ru": "Время нагрева: 15 s",
-      "th": "เวลาในการทำความร้อน: 15 s",
-      "vi": "Thời gian gia nhiệt: 15 s"
-     }
-    }
-   ],
+   "highlights": [],
    "specs": [
     {
      "label": {
@@ -996,64 +939,7 @@
     "unit": "pieces"
    },
    "certifications": [],
-   "highlights": [
-    {
-     "icon": "check",
-     "text": {
-      "en": "Power (W): 1500 W",
-      "zh": "功率(W): 1500 W",
-      "es": "Potencia (W): 1500 W",
-      "ar": "القدرة (W): 1500 W",
-      "fr": "Puissance (W): 1500 W",
-      "id": "Daya (W): 1500 W",
-      "ru": "Мощность (Вт): 1500 W",
-      "th": "กำลังไฟ (W): 1500 W",
-      "vi": "Công suất (W): 1500 W"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Steam pressure: 3 bar",
-      "zh": "蒸汽压力: 3 bar",
-      "es": "Presión de vapor: 3 bar",
-      "ar": "ضغط البخار: 3 bar",
-      "fr": "Pression de vapeur: 3 bar",
-      "id": "Tekanan uap: 3 bar",
-      "ru": "Давление пара: 3 bar",
-      "th": "แรงดันไอน้ำ: 3 bar",
-      "vi": "Áp suất hơi: 3 bar"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Water Tank Capacity: 1200ml",
-      "zh": "水箱容量: 1200ml",
-      "es": "Capacidad del depósito de agua: 1200ml",
-      "ar": "سعة خزان الماء: 1200ml",
-      "fr": "Capacité du réservoir d'eau: 1200ml",
-      "id": "Kapasitas Tangki Air: 1200ml",
-      "ru": "Объём бака для воды: 1200ml",
-      "th": "ความจุถังน้ำ: 1200ml",
-      "vi": "Dung tích bình nước: 1200ml"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Capacity: 1000ml",
-      "zh": "容量: 1000ml",
-      "es": "Capacidad: 1000ml",
-      "ar": "السعة: 1000ml",
-      "fr": "Capacité: 1000ml",
-      "id": "Kapasitas: 1000ml",
-      "ru": "Ёмкость: 1000ml",
-      "th": "ความจุ: 1000ml",
-      "vi": "Dung tích: 1000ml"
-     }
-    }
-   ],
+   "highlights": [],
    "specs": [
     {
      "label": {
@@ -1930,64 +1816,7 @@
     "unit": "pieces"
    },
    "certifications": [],
-   "highlights": [
-    {
-     "icon": "check",
-     "text": {
-      "en": "Rated Power: 1500W",
-      "zh": "额定功率: 1500W",
-      "es": "Potencia nominal: 1500W",
-      "ar": "القدرة المقدرة: 1500W",
-      "fr": "Puissance nominale: 1500W",
-      "id": "Daya Terukur: 1500W",
-      "ru": "Номинальная мощность: 1500W",
-      "th": "กำลังไฟพิกัด: 1500W",
-      "vi": "Công suất định mức: 1500W"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Steam pressure: 3 bar",
-      "zh": "蒸汽压力: 3 bar",
-      "es": "Presión de vapor: 3 bar",
-      "ar": "ضغط البخار: 3 bar",
-      "fr": "Pression de vapeur: 3 bar",
-      "id": "Tekanan uap: 3 bar",
-      "ru": "Давление пара: 3 bar",
-      "th": "แรงดันไอน้ำ: 3 bar",
-      "vi": "Áp suất hơi: 3 bar"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Water Tank Capacity: 1400 mL",
-      "zh": "水箱容量: 1400 mL",
-      "es": "Capacidad del depósito de agua: 1400 mL",
-      "ar": "سعة خزان الماء: 1400 mL",
-      "fr": "Capacité du réservoir d'eau: 1400 mL",
-      "id": "Kapasitas Tangki Air: 1400 mL",
-      "ru": "Объём бака для воды: 1400 mL",
-      "th": "ความจุถังน้ำ: 1400 mL",
-      "vi": "Dung tích bình nước: 1400 mL"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Heating Time: 15s",
-      "zh": "加热时间: 15s",
-      "es": "Tiempo de calentamiento: 15s",
-      "ar": "زمن التسخين: 15s",
-      "fr": "Temps de chauffe: 15s",
-      "id": "Waktu Pemanasan: 15s",
-      "ru": "Время нагрева: 15s",
-      "th": "เวลาในการทำความร้อน: 15s",
-      "vi": "Thời gian gia nhiệt: 15s"
-     }
-    }
-   ],
+   "highlights": [],
    "specs": [
     {
      "label": {
@@ -2680,64 +2509,7 @@
     "unit": "pieces"
    },
    "certifications": [],
-   "highlights": [
-    {
-     "icon": "check",
-     "text": {
-      "en": "Rated Power: 1500W",
-      "zh": "额定功率: 1500W",
-      "es": "Potencia nominal: 1500W",
-      "ar": "القدرة المقدرة: 1500W",
-      "fr": "Puissance nominale: 1500W",
-      "id": "Daya Terukur: 1500W",
-      "ru": "Номинальная мощность: 1500W",
-      "th": "กำลังไฟพิกัด: 1500W",
-      "vi": "Công suất định mức: 1500W"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Steam pressure: 3 bar",
-      "zh": "蒸汽压力: 3 bar",
-      "es": "Presión de vapor: 3 bar",
-      "ar": "ضغط البخار: 3 bar",
-      "fr": "Pression de vapeur: 3 bar",
-      "id": "Tekanan uap: 3 bar",
-      "ru": "Давление пара: 3 bar",
-      "th": "แรงดันไอน้ำ: 3 bar",
-      "vi": "Áp suất hơi: 3 bar"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Water Tank Capacity: 1200 mL",
-      "zh": "水箱容量: 1200 mL",
-      "es": "Capacidad del depósito de agua: 1200 mL",
-      "ar": "سعة خزان الماء: 1200 mL",
-      "fr": "Capacité du réservoir d'eau: 1200 mL",
-      "id": "Kapasitas Tangki Air: 1200 mL",
-      "ru": "Объём бака для воды: 1200 mL",
-      "th": "ความจุถังน้ำ: 1200 mL",
-      "vi": "Dung tích bình nước: 1200 mL"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Heating Time: 15s",
-      "zh": "加热时间: 15s",
-      "es": "Tiempo de calentamiento: 15s",
-      "ar": "زمن التسخين: 15s",
-      "fr": "Temps de chauffe: 15s",
-      "id": "Waktu Pemanasan: 15s",
-      "ru": "Время нагрева: 15s",
-      "th": "เวลาในการทำความร้อน: 15s",
-      "vi": "Thời gian gia nhiệt: 15s"
-     }
-    }
-   ],
+   "highlights": [],
    "specs": [
     {
      "label": {
@@ -3430,64 +3202,7 @@
     "unit": "pieces"
    },
    "certifications": [],
-   "highlights": [
-    {
-     "icon": "check",
-     "text": {
-      "en": "Power (W): 1500 W",
-      "zh": "功率(W): 1500 W",
-      "es": "Potencia (W): 1500 W",
-      "ar": "القدرة (W): 1500 W",
-      "fr": "Puissance (W): 1500 W",
-      "id": "Daya (W): 1500 W",
-      "ru": "Мощность (Вт): 1500 W",
-      "th": "กำลังไฟ (W): 1500 W",
-      "vi": "Công suất (W): 1500 W"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Steam pressure: 3 bar",
-      "zh": "蒸汽压力: 3 bar",
-      "es": "Presión de vapor: 3 bar",
-      "ar": "ضغط البخار: 3 bar",
-      "fr": "Pression de vapeur: 3 bar",
-      "id": "Tekanan uap: 3 bar",
-      "ru": "Давление пара: 3 bar",
-      "th": "แรงดันไอน้ำ: 3 bar",
-      "vi": "Áp suất hơi: 3 bar"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Water Tank Capacity: 1000ml",
-      "zh": "水箱容量: 1000ml",
-      "es": "Capacidad del depósito de agua: 1000ml",
-      "ar": "سعة خزان الماء: 1000ml",
-      "fr": "Capacité du réservoir d'eau: 1000ml",
-      "id": "Kapasitas Tangki Air: 1000ml",
-      "ru": "Объём бака для воды: 1000ml",
-      "th": "ความจุถังน้ำ: 1000ml",
-      "vi": "Dung tích bình nước: 1000ml"
-     }
-    },
-    {
-     "icon": "check",
-     "text": {
-      "en": "Heating Time: 0–60 s",
-      "zh": "加热时间: 0–60 s",
-      "es": "Tiempo de calentamiento: 0–60 s",
-      "ar": "زمن التسخين: 0–60 s",
-      "fr": "Temps de chauffe: 0–60 s",
-      "id": "Waktu Pemanasan: 0–60 s",
-      "ru": "Время нагрева: 0–60 s",
-      "th": "เวลาในการทำความร้อน: 0–60 s",
-      "vi": "Thời gian gia nhiệt: 0–60 s"
-     }
-    }
-   ],
+   "highlights": [],
    "specs": [
     {
      "label": {
