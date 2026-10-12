@@ -109,7 +109,13 @@
       laser: '◎', mop: '💧', map: '🗺', battery: '🔋', power: '⚡', quiet: '🔇',
       filter: '🌀', app: '📱', auto: '🤖', edge: '🧹', pet: '🐾', eco: '🌿',
       smart: '🧠', dust: '🧺', sweep: '🔄', wet: '💦', climb: '⛰', wifi: '📶',
-      clean: '✨', charge: '🔌', voice: '🎙', zone: '▦', spot: '🎯', timer: '⏱'
+      clean: '✨', charge: '🔌', voice: '🎙', zone: '▦', spot: '🎯', timer: '⏱',
+      // 数据里实际在用、但以前没进这张表的几个名字。它们会掉到下面的 ✓ 兜底，
+      // 结果一排亮点里混着几个没有区分度的对勾。2026-10-12 补齐。
+      suction: '💨', navigation: '🧭', gauge: '📊', display: '🔢', portable: '🎒',
+      // 'check' 是数据里用得最多的值（138 处），本来就该显示 ✓。
+      // 显式写进表里，免得以后有人改了兜底值而把它带偏。
+      check: '✓'
     };
     return icons[name] || '✓';
   }
