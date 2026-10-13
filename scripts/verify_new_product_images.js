@@ -42,6 +42,7 @@ const PRODUCTS = [
   ['handheld-vacuum', 'gv22'], ['handheld-vacuum', 'v26'], ['handheld-vacuum', 'gv18'],
   ['robot-vacuum', 'v2g-sj'], ['robot-vacuum', 't20-c800'], ['robot-vacuum', 'v9'],
   ['car-vacuum', 'yzx-309'],
+  ['handheld-vacuum', 'eg16pro'],   // 新建产品：EG16Pro洗地机
 ];
 const LANGS = ['en', 'zh', 'ar', 'es', 'fr', 'id', 'ru', 'th', 'vi'];
 const runStamp = Date.now().toString(36);

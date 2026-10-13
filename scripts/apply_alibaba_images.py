@@ -65,7 +65,17 @@ MAP = [
     ('1601781055404', 'robot-vacuum',    't20-c800'),  # Model GT20-C800, 18000Pa, 120-150min
     ('1601957733461', 'robot-vacuum',    'v9'),        # 60W, 150-180min
     ('1601716189230', 'car-vacuum',      'yzx-309'),   # 15kPa/65W/16-25min 三项全对
+    # EG16Pro：站内原先没有这个型号，作为新品加进手持吸尘器品类。
+    # 它其实是双水箱滚刷洗地机（listing 标题写"手持式"不准），已按洗地机口径写文案。
+    ('1601820268825', 'handheld-vacuum', 'eg16pro'),  # Model EG16Pro, 230W/110AW/0.8L 双水箱
 ]
+
+# 详情长图里要排除的序号（1 起）—— 与站内叙事冲突的公司自述页，不上站。
+# 排除后剩下的图按 01..N 重新连续编号（detail_urls() 负责），
+# set_detail_images.py 必须用同一套规则，否则磁盘图数与 data 条数会对不上。
+EXCLUDE = {
+    '1601820268825': {9},   # "Founded in 2016 · 10+ years · 30,000 m²" 公司介绍页
+}
 
 CTX = ssl.create_default_context()
 CTX.check_hostname = False
@@ -195,6 +205,21 @@ def esc(s):
     return htmlescape(s, quote=False)
 
 
+def detail_urls(pid, rec):
+    """详情长图 URL 清单（已剔除 EXCLUDE 里的序号，剩下的重新连续编号）。
+
+    单独一个函数是为了让"用哪几张图"只有一个事实来源：apply_alibaba_images.py
+    下载时用它，set_detail_images.py 写 detail_images 字段时也用同一套规则。
+    两边各写一份、改了一边忘了另一边，就会出现"磁盘上有 13 张、data 里只写了
+    12 张"的半拉子状态 —— 页面上不报错，只是最后一张图永远不显示。
+
+    ⚠️ 本函数必须定义在 main() 之前：文件末尾是 `sys.exit(main())`，
+    排到它后面就变成先调用后定义，直接 NameError。
+    """
+    skip = EXCLUDE.get(pid, set())
+    return [u for i, u in enumerate(rec['detail'], 1) if i not in skip]
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--apply', action='store_true', help='真正写盘（默认只打印计划）')
@@ -244,7 +269,7 @@ def main():
         if os.path.isdir(detdir):
             old_det = len([f for f in os.listdir(detdir) if f.endswith('.jpg')])
         log('  %-14s/%-9s  主图 %d→%d   详情长图 %d→%d' %
-            (cat, sid, len(rec['gallery']), len(rec['gallery']), old_det, len(rec['detail'])))
+            (cat, sid, len(rec['gallery']), len(rec['gallery']), old_det, len(detail_urls(pid, rec))))
     log('')
 
     if not args.apply:
@@ -270,7 +295,7 @@ def main():
 
         if args.from_staging:
             n_main = len(rec['gallery'])
-            n_detail = len(rec['detail'])
+            n_detail = len(detail_urls(pid, rec))
             have_main = len([f for f in os.listdir(sdir) if f.endswith('.jpg')]) \
                 if os.path.isdir(sdir) else 0
             have_det = len([f for f in os.listdir(os.path.join(sdir, 'detail'))
@@ -296,7 +321,7 @@ def main():
             im = Image.open(io.BytesIO(download(u)))
             jp, wp = write_pair(im, os.path.join(sdir, '%02d' % i), MAIN_MAX_W)
             sizes['main'].append((jp, wp))
-        for i, u in enumerate(rec['detail'], 1):
+        for i, u in enumerate(detail_urls(pid, rec), 1):
             im = Image.open(io.BytesIO(download(u)))
             jp, wp = write_pair(im, os.path.join(sdir, 'detail', '%02d' % i), DETAIL_MAX_W)
             sizes['detail'].append((jp, wp))
@@ -307,7 +332,7 @@ def main():
                                 os.path.join(sdir, '01-main' + ext))
 
         staged[pid] = {'dir': d, 'sdir': sdir, 'sizes': sizes, 'extra': extra,
-                       'n_main': len(rec['gallery']), 'n_detail': len(rec['detail'])}
+                       'n_main': len(rec['gallery']), 'n_detail': len(detail_urls(pid, rec))}
         log('   主图 %d 张（合计 %.0f KB jpg / %.0f KB webp）' %
             (len(sizes['main']),
              sum(a for a, b in sizes['main']) / 1024.0,

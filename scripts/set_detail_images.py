@@ -50,7 +50,17 @@ MAP = [
     ('1601781055404', 'robot-vacuum',    't20-c800'),
     ('1601957733461', 'robot-vacuum',    'v9'),
     ('1601716189230', 'car-vacuum',      'yzx-309'),
+    ('1601820268825', 'handheld-vacuum', 'eg16pro'),   # EG16Pro 洗地机（站内新建产品）
 ]
+
+# 与 apply_alibaba_images.py 的 EXCLUDE 保持一致：
+# EG16Pro 的第 9 张详情长图是"Founded in 2016 / 10+ years"的公司自述页，
+# 与站内"宁波工厂 2015 年投产、香港公司 2024 年注册"直接冲突，不上站。
+# 排除之后图片序号会从 13 变成 12 —— 上游脚本会把剩下的图按 01..N 重排，
+# 所以这里的 urls 只需要按同样的排除规则跳过，再重新连续编号。
+EXCLUDE = {
+    '1601820268825': {9},
+}
 
 
 def dominant_eol(t):
@@ -121,7 +131,10 @@ def main():
         for pid, sid in items:
             src = os.path.join(V3, pid + '.json')
             rec = json.load(io.open(src, encoding='utf-8'))
-            n = len(rec['detail'])
+            # 排除规则必须与 apply_alibaba_images.py 的 detail_urls() 完全一致，
+            # 不然磁盘上的图数会和 data 里的条数对不上（页面上不报错，只是末图不显示）
+            skip = EXCLUDE.get(pid, set())
+            n = sum(1 for i in range(1, len(rec['detail']) + 1) if i not in skip)
             d = '%s-%s' % (cat, sid)
             urls = ['%s/assets/images/products/%s/detail/%02d.webp' % (SITE, d, i)
                     for i in range(1, n + 1)]
