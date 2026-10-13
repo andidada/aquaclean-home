@@ -1,0 +1,10 @@
+﻿表格类目,表格型号,阿里 slug,推测的站内产品,置信度,判断依据,链接
+吸尘器,V22,Hot-selling-Stick-Cordless-Vacuum-Cleaner_1601719491601,handheld-vacuum-gv22,高,slug「Hot-selling Stick Cordless」与网站 gv22 名称逐字一致,https://www.alibaba.com/product-detail/Hot-selling-Stick-Cordless-Vacuum-Cleaner_1601719491601.html
+6,-,700W-Handheld-Cordless-Vacuum-Cleaner-GV26_1601812941902,handheld-vacuum-v26,中,slug 含 GV26，网站型号 V26；但 slug 写 700W，站内写 250W/110W/70W，需采集后核对,https://www.alibaba.com/product-detail/700W-Handheld-Cordless-Vacuum-Cleaner-GV26_1601812941902.html
+8,-,V18-Cordless-Stick-Vacuum-Cleaner-400W_1601887535950,handheld-vacuum-v18,高,slug 含 V18 + 400W，网站 v18 名为「...400W Powerful」，型号 V18,https://www.alibaba.com/product-detail/V18-Cordless-Stick-Vacuum-Cleaner-400W_1601887535950.html
+11,-,OEM-EG16Pro-Hand-Held-Cordless-Wet_1601820268825,(未定 EG16Pro),低,站内无 EG16Pro 型号，采集后按页面内容定,https://www.alibaba.com/product-detail/OEM-EG16Pro-Hand-Held-Cordless-Wet_1601820268825.html
+扫地机器人,V2G-SJ,GV2G-SJ-3500Pa-Robot-Vacuum-Cleaner_1601642373371,robot-vacuum-v2g-sj,高,slug 含 GV2G-SJ，站内同型号，且同为 3500Pa + Gyroscope,https://www.alibaba.com/product-detail/GV2G-SJ-3500Pa-Robot-Vacuum-Cleaner_1601642373371.html
+16,-,3500Pa-Gyroscope-Navigation-Robot-Vacuum-Cleaner_1601673204576,(未定 与上一行撞参数),低,同为 3500Pa + Gyroscope，可能是同一产品的另一个页面，需采集后区分,https://www.alibaba.com/product-detail/3500Pa-Gyroscope-Navigation-Robot-Vacuum-Cleaner_1601673204576.html
+18,-,Robot-Vacuum-Cleaner-GT20-C800-LiDAR_1601781055404,(未定 GT20 或 T20-C800),低,slug「GT20-C800」跨了站内 gt20 与 t20-c800 两个产品，需采集后按 5000Pa/18000Pa 区分,https://www.alibaba.com/product-detail/Robot-Vacuum-Cleaner-GT20-C800-LiDAR_1601781055404.html
+20,-,Smart-Robot-Vacuum-Cleaner-20000Pa-LDS_1601957733461,robot-vacuum-v9,高,slug 20000Pa + LDS，站内 v9 正是 20000Pa / LDS+SLAM,https://www.alibaba.com/product-detail/Smart-Robot-Vacuum-Cleaner-20000Pa-LDS_1601957733461.html
+车载吸尘器,X7,Cordless-Car-Vacuum-Cleaner-15000Pa-Powerful_1601716189230,car-vacuum-yzx-309,高,slug 15000Pa，站内 yzx-309 名为「15KPa Brushless...」= 15000Pa,https://www.alibaba.com/product-detail/Cordless-Car-Vacuum-Cleaner-15000Pa-Powerful_1601716189230.html

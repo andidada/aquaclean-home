@@ -25,3 +25,11 @@ github_auth_url.txt
 # design-review screenshots (local working artifacts, 27M)
 shots/
 __pycache__/
+
+# 采集用的临时 Edge 用户目录
+.cache/
+
+# 采集过程的调试产物（可随时重跑，不进仓）
+scraped/bigscript/
+scraped/inspect/
+scraped/.staging/

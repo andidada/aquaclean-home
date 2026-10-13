@@ -1,0 +1,3 @@
+handheld-vacuum	gv18	https://www.alibaba.com/product-detail/V18-Rechargeable-Cordless-Stick-Vacuum-Cleaner_1601887639841.html
+robot-vacuum	gt20	https://www.alibaba.com/product-detail/GT20-Electric-Smart-Robot-Vacuum-Mop_1601781982522.html
+tire-inflator	ymc6628	https://www.alibaba.com/product-detail/OEM-ODM-Portable-ABS-Tire-Inflator_1601910965318.html

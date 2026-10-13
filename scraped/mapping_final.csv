@@ -1,0 +1,10 @@
+﻿productId,category,siteId,directory,alibaba_model,alibaba_h1,依据,置信度
+1601719491601,handheld-vacuum,gv22,handheld-vacuum-gv22,GV22,"热销无绳吸尘器，适用于干地板地毯，无刷便携式吸尘器",阿里属性 Model=GV22 / 550W / 30-60min，与站内 gv22 的 550W、1.0L、30-60min 吻合；页面标题与站内产品名逐字对应,高
+1601812941902,handheld-vacuum,v26,handheld-vacuum-v26,GV26,"700W 手持式无绳吸尘器 GV26",阿里属性 Model=GV26 / Dust Capacity 1.2L / 30-60min，与站内 v26 的 1.2L、30-60min、2200mAh 吻合（功率 700W vs 站内 800W，以型号为准）,高
+1601887535950,handheld-vacuum,gv18,handheld-vacuum-gv18,GV18,"V18 无线吸尘器 400W 30KPa 干湿两用",阿里属性 Model=GV18 / 400W / 30kPa / 20-65mins，与站内 gv18 的 400W、30kPa、1.2L、20-65min 四项全对,高
+1601673204576,robot-vacuum,v2g-sj,robot-vacuum-v2g-sj,GV2G-SJ,"3500Pa 陀螺仪导航机器人吸尘器 GV2G-SJ",阿里属性 Model=GV2G-SJ / 3500PA / 40W / Runtime 90-120mins，与站内 v2g-sj 的 3500PA、91-120min 吻合,高
+1601781055404,robot-vacuum,t20-c800,robot-vacuum-t20-c800,GT20-C800,"扫地机器人 GT20-C800 激光雷达导航 18000Pa",阿里属性 Model=GT20-C800 / 18000Pa / LDS / Runtime 120-150mins / Dust bag 2L，与站内 t20-c800 的 18000pa、120 mins、2L Dustbin、LDS、Self Empty Station 吻合,高
+1601957733461,robot-vacuum,v9,robot-vacuum-v9,FV501,"智能扫地机器人 20000Pa LDS 5200mAh",阿里属性 60 W / Runtime 150-180mins，与站内 v9 的 60W、150-180mins 吻合（型号 FV501 与站内 id 不同名，但参数是站内唯一 20000Pa）,高
+1601716189230,car-vacuum,yzx-309,car-vacuum-yzx-309,GX7,"无绳车载吸尘器 15000Pa 6合1",阿里属性 15kPa / 65W / Runtime 16-25min，与站内 yzx-309 的 15kpa、65W、16-25min 三项全对,高
+1601820268825,handheld-vacuum,eg16pro,handheld-vacuum-eg16pro,EG16Pro,"OEM EG16Pro 手持式无线干湿两用吸尘器 五合一",站内 39 个产品无一匹配（230W / 110AW / 0.8L / 25-35min 独此一份）。用户决定作为新产品加入 handheld-vacuum 品类,待建
+1601642373371,(跳过),-,-,GV2G-SJ,"GV2G-SJ 3500Pa 机器人吸尘器",与 1601673204576 为同型号的重复 listing：6 张主图里 5 张内容完全相同（只是上传哈希不同），属性也一致。站内只有一个 3500Pa 机器人，故本条不落地,已定
