@@ -47,6 +47,13 @@ const PRODUCTS = [
   ['tire-inflator', 'ymc6667'],
   ['steam-cleaner', 'ytc-sc-004'],
   ['robot-vacuum', 'pt40c800'],
+  // ── 第三批（2026-10-14）────────────────────────────────────────────
+  // v22-2 / ptc-sc-004 原先 detail_images 为空；gt20 是批次1纠偏后才有长图；
+  // pg16pro 是本次新建的产品。
+  ['handheld-vacuum', 'v22-2'],
+  ['steam-cleaner', 'ptc-sc-004'],
+  ['robot-vacuum', 'gt20'],
+  ['handheld-vacuum', 'pg16pro'],
 ];
 const LANGS = ['en', 'zh', 'ar', 'es', 'fr', 'id', 'ru', 'th', 'vi'];
 const runStamp = Date.now().toString(36);

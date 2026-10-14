@@ -99,6 +99,24 @@ def row_html(p, lang):
             % (lang, d, esc(name), esc(p['id']), esc(moq), esc(price), esc(specs), esc(certs)))
 
 
+def rebuild_itemlist(block, p, lang):
+    """按 _all 的产品顺序重建 itemListElement 数组，position 从 1 连续编号。
+
+    不复用页面上已有的 ListItem：它们可能已经错位（见 step 4 的注释），
+    而且名字要用各语种当前的值，整体重排更省事也更不容易错。
+    """
+    entries = []
+    for i, x in enumerate(p['_all'], 1):
+        d0 = '%s-%s' % (x.get('_cat') or p['_cat'], x['id'])
+        entries.append(
+            '    {\n      "@type": "ListItem",\n      "position": %d,\n'
+            '      "name": %s,\n      "url": "%s/%s/%s.html"\n    }'
+            % (i, json.dumps(pick(x['name'], lang), ensure_ascii=False), SITE, lang, d0))
+    return re.sub(r'("itemListElement": \[)(.*?)(\n\s*\])',
+                  lambda m0: m0.group(1) + '\n' + ',\n'.join(entries) + m0.group(3),
+                  block, count=1, flags=re.S)
+
+
 def patch(path, p, lang):
     t = read(path)
     crlf = '\r\n' in t
@@ -123,27 +141,39 @@ def patch(path, p, lang):
     s, m2 = re.subn(r'共 \d+ 个型号', '共 %d 个型号' % total, s)
     assert n == 1 or m2 == 1, '找不到"N models in this category"/"共 N 个型号"'
 
-    # 4. ItemList JSON-LD ——追加到最后，position 接着排
+    # 4. ItemList JSON-LD —— 按**品类里的产品顺序**重建，确保和 #productsGrid
+    #    的静态卡片顺序完全一致。
+    #
+    #    为什么必须一致：静态列表和结构化数据是给同一个爬虫看的。两边顺序不同，
+    #    Google 可能判为"结构化数据与页面内容不符"，稳亏不稳赚。
+    #
+    #    ⚠️ EG16Pro 那次埋下的坑：卡片追加在 grid 末尾，ListItem 却塞在数组开头，
+    #    还把 position 写成 N+1，结果文档里第一条是 position=11。所以这里不再
+    #    "插入"，而是基于 _all_ids 整体重建，编号天然就是从 1 到 N 且同序。
     il = re.search(r'(<script type="application/ld\+json">\s*\{\s*"@context": "https://schema\.org",\s*'
                    r'"@type": "ItemList".*?</script>)', s, re.S)
     assert il, '找不到 ItemList JSON-LD'
     block = il.group(1)
-    positions = [int(x) for x in re.findall(r'"position": (\d+)', block)]
-    assert positions == list(range(1, len(positions) + 1)), \
-        'ItemList 的 position 不连续（%s），先修好再插' % positions
-    item = ('    {\n      "@type": "ListItem",\n      "position": %d,\n'
-            '      "name": %s,\n      "url": "%s/%s/%s.html"\n    }'
-            % (len(positions) + 1, json.dumps(pick(p['name'], lang), ensure_ascii=False),
-               SITE, lang, d))
-    newblock = block.replace('"itemListElement": [', '"itemListElement": [\n' + item + ',', 1)
-    assert newblock != block, 'ItemList 插入失败'
+    newblock = rebuild_itemlist(block, p, lang)
+    assert newblock != block, 'ItemList 重建失败（内容没变）'
+    assert len(re.findall(r'"@type": "ListItem"', newblock)) == total, 'ItemList 条目数不对'
+    pos2 = [int(x) for x in re.findall(r'"position": (\d+)', newblock)]
+    assert pos2 == list(range(1, total + 1)), '重排后 position 不连续：%s' % pos2
+    if '"numberOfItems"' in newblock:
+        newblock = re.sub(r'"numberOfItems": \d+', '"numberOfItems": %d' % total,
+                          newblock, count=1)
     s = s[:il.start(1)] + newblock + s[il.end(1):]
 
-    # 5. 对比表格追加一行
+    # 5. 对比表格：同样按品类顺序重排现有行，再把新行放到最后。
+    #    以前是塞在 tbody 开头，和卡片顺序正好反着。
     tb = re.search(r'<tbody>\n(.*?)\n(\s*)</tbody>', s[il.end(1):], re.S)
     assert tb, '找不到对比表格 tbody'
-    at = il.end(1) + tb.start(1)
-    s = s[:at] + '\n' + row_html(p, lang) + s[at:]
+    assert len(re.findall(r'<tr>', tb.group(1))) == total - 1, \
+        '对比表现有行数 %d，期望 %d' % (len(re.findall(r'<tr>', tb.group(1))), total - 1)
+    rows = []
+    for x in p['_all']:
+        rows.append(row_html(x, lang))
+    s = s[:il.end(1) + tb.start(1)] + '\n' + '\n'.join(rows) + s[il.end(1) + tb.end(1):]
 
     # ── 断言 ─────────────────────────────────────────────────────────
     cards = len(re.findall(r'<div class="product-card">\s*<div class="product-img-wrap">'
@@ -175,6 +205,10 @@ def main():
     p = p[0]
     p['_cat'] = cat
     p['_all_ids'] = [x['id'] for x in data['products']]
+    # _all 要带上 _cat，rebuild_itemlist 和对比表重排都要按同一个顺序遍历
+    p['_all'] = data['products']
+    for x in p['_all']:
+        x.setdefault('_cat', cat)
 
     for lang in langs:
         path = os.path.join(ROOT, lang, cat, 'index.html')

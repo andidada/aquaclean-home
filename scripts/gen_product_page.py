@@ -252,9 +252,17 @@ def sec_pricing(tpl, p, lang):
                     esc({'en': 'Unit price', 'zh': '单价'}[lang])))
     else:
         pi = p.get('price_indicator') or {}
-        rng = ('US$%s / pc' % pi['min'] if pi.get('min') == pi.get('max')
-               else 'US$%s–%s / pc' % (pi.get('min'), pi.get('max')))
-        rows = '            <tr><td>%s–999 pcs</td><td>%s</td></tr>' % (moq, rng)
+        if pi.get('min') and pi.get('max'):
+            rng = ('US$%s / pc' % pi['min'] if pi.get('min') == pi.get('max')
+                   else 'US$%s–%s / pc' % (pi.get('min'), pi.get('max')))
+            rows = '            <tr><td>%s–999 pcs</td><td>%s</td></tr>' % (moq, rng)
+        else:
+            # 站内多数产品的 price_indicator 是空的。以前这里直接 pi['min'] 取，
+            # 没有报价数据的产品一生成就 KeyError。
+            # B2B 页面上的价格是商业承诺，缺数据时不能估 —— 按 FAQ 里已有的
+            # 「contact us for a quotation」口径写成待询价。
+            rows = ('            <tr><td>%s–+ pcs</td><td>%s</td></tr>'
+                    % (moq, esc({'en': 'On request', 'zh': '面议'}[lang])))
         thead = ('<thead><tr><th scope="col">%s</th><th scope="col">%s</th></tr></thead>'
                  % (esc({'en': 'Order quantity', 'zh': '订购数量'}[lang]),
                     esc({'en': 'Unit price', 'zh': '单价'}[lang])))
@@ -326,8 +334,12 @@ def faq_answers(p, lang):
     Google 会判为结构化数据与页面内容不符。"""
     moq = (p.get('moq') or {}).get('value')
     pi = p.get('price_indicator') or {}
-    pr = ('US$%s/pc' % pi['min'] if pi.get('min') == pi.get('max')
-          else 'US$%s–%s/pc' % (pi.get('min'), pi.get('max')))
+    if pi.get('min') and pi.get('max'):
+        pr = ('US$%s/pc' % pi['min'] if pi.get('min') == pi.get('max')
+              else 'US$%s–%s/pc' % (pi.get('min'), pi.get('max')))
+    else:
+        # 没有报价数据时不硬套一个数字（同样会是 KeyError），统一走待询价口径
+        pr = {'en': 'quoted per order', 'zh': '面议'}[lang]
     sample = p.get('sample') or {}
     sn = (sample.get('qty') or 1)
     opts = '; '.join('%s: %s' % (pick(s['name'], lang),

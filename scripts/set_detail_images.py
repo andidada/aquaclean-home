@@ -47,14 +47,21 @@ MAP = [
     ('1601812941902', 'handheld-vacuum', 'v26'),
     ('1601887535950', 'handheld-vacuum', 'gv18'),
     ('1601673204576', 'robot-vacuum',    'v2g-sj'),
-    ('1601781055404', 'robot-vacuum',    't20-c800'),
+    # 2026-10-14 纠偏：这条 Model 是 GT20-C800（220ml/230ml/40W），归属 gt20，
+    # 原先误贴给 t20-c800。详见 apply_alibaba_images.py 里的注释。
+    ('1601781055404', 'robot-vacuum',    'gt20'),
     ('1601957733461', 'robot-vacuum',    'v9'),
     ('1601716189230', 'car-vacuum',      'yzx-309'),
     ('1601820268825', 'handheld-vacuum', 'eg16pro'),   # EG16Pro 洗地机（站内新建产品）
     # ── 第二批（2026-10-14）：这三个产品原先detail_images 是空的 ──────────
     ('1601909117845', 'tire-inflator',   'ymc6667'),    # Model YMC6667
     ('1601905921428', 'steam-cleaner',   'ytc-sc-004'), # Model YTC-SC-004
-    ('1601784081376', 'robot-vacuum',    'pt40c800'),   # Model ZT40-C800（同 C800 系，不新建产品）
+    ('1601784081376', 'robot-vacuum',    'pt40c800'),   # Model ZT40-C800
+    # ── 第三批（2026-10-14）：一律按阿里属性表的 Model 号映射 ──────────────
+    ('1601887224510', 'robot-vacuum',    't20-c800'),   # Model T20-C800
+    ('1601799709236', 'handheld-vacuum', 'v22-2'),      # Model V22 / 40000Pa / 650W
+    ('1601898271900', 'steam-cleaner',   'ptc-sc-004'), # Model PTC-SC-004
+    ('1601780738060', 'handheld-vacuum', 'pg16pro'),    # Model PG16PRO（站内新建产品）
 ]
 
 # 与 apply_alibaba_images.py 的 EXCLUDE 保持一致：

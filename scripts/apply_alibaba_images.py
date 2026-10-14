@@ -62,7 +62,14 @@ MAP = [
     ('1601812941902', 'handheld-vacuum', 'v26'),       # Model GV26, 1.2L
     ('1601887535950', 'handheld-vacuum', 'gv18'),      # Model GV18, 400W/30kPa/1.2L/20-65min 全对
     ('1601673204576', 'robot-vacuum',    'v2g-sj'),    # Model GV2G-SJ, 3500PA, 91-120min
-    ('1601781055404', 'robot-vacuum',    't20-c800'),  # Model GT20-C800, 18000Pa, 120-150min
+    # ── 2026-10-14 纠偏 ────────────────────────────────────────────────
+    # 这条原本贴给了 t20-c800，是错的：它的属性表是尘盒 220ml / 水箱 230ml /
+    # 40W / 充电 5-6h / 120-150min，与站内 gt20（220ml / 230ml / 40W / LDS SLAM
+    # / 120-150min）逐项吻合，而站内 t20-c800 是 2L 尘盒 / 650W / 无水箱。
+    # 指纹也印证了：t20-c800 目录里那 6 张主图与这个 listing 汉明距离全为 0，
+    # 与 gt20 现有图距离 71-128（完全无关）。
+    # 真·T20-C800 换成了下面第二批的 1601887224510。
+    ('1601781055404', 'robot-vacuum',    'gt20'),      # Model GT20-C800, 220ml/230ml/40W
     ('1601957733461', 'robot-vacuum',    'v9'),        # 60W, 150-180min
     ('1601716189230', 'car-vacuum',      'yzx-309'),   # 15kPa/65W/16-25min 三项全对
     # EG16Pro：站内原先没有这个型号，作为新品加进手持吸尘器品类。
@@ -73,10 +80,20 @@ MAP = [
     # 是和 93fb040 同一个成因的遗留问题。
     ('1601909117845', 'tire-inflator',   'ymc6667'),    # Model YMC6667，Model 号精确对上
     ('1601905921428', 'steam-cleaner',   'ytc-sc-004'), # Model YTC-SC-004，Model 号精确对上
-    # ZT40-C800：用户确认 C800 系（PT40C800 / PT20C800 / T20-C800 / ZT40-C800）
-    # 是同一个产品挂了不同链接，**不新建产品**。图给型号名最接近的 pt40c800
-    # （同为 40W 无刷电机 + LDS 导航，型号名只差一个字母）。
+    # ZT40-C800：图给型号名最接近的 pt40c800（同为 40W 无刷电机 + LDS 导航，
+    # 型号名只差一个字母）。
+    # ⚠️ 用户当年说的「C800 系是同一个产品挂不同链接」**已被第三批推翻一半**：
+    # T20-C800（1601887224510）有独立 listing，属性表 Model 就是 T20-C800，
+    # 与站内 t20-c800 逐项吻合，而 PT20C800/PT40C800 是另一批实物。
+    # 现在按 Model 号精确匹配，不再按「C800 前缀」归并。
     ('1601784081376', 'robot-vacuum',    'pt40c800'),   # Model ZT40-C800, 40W/LDS/121-150min
+    # ── 第三批（2026-10-14）───────────────────────────────────────────
+    # 映射依据一律是**阿里属性表里的 Model 号**，不看标题、不看 URL slug。
+    # 1601696484785（V2G-SJ）上批已判为重复 listing，跳过。
+    ('1601887224510', 'robot-vacuum',    't20-c800'),   # Model T20-C800；标题与站内 t20-c800 一字不差
+    ('1601799709236', 'handheld-vacuum', 'v22-2'),      # Model V22；40000Pa/650W/2200mAh/1.2L/68dB 全对
+    ('1601898271900', 'steam-cleaner',   'ptc-sc-004'), # Model PTC-SC-004；1200ml/1000ml/USB/西班牙语
+    ('1601780738060', 'handheld-vacuum', 'pg16pro'),    # Model PG16PRO，站内无此型号，作为新品加入
 ]
 
 # 第二批里另外 3 条是同款产品的重复 listing，**保留站内现有图片**（已上线并逐页
@@ -227,6 +244,21 @@ def esc(s):
     return htmlescape(s, quote=False)
 
 
+def main_alias(pdata):
+    """data.images 里若引用了 NN-main.*，返回它的基名（如 '01-main'），否则 None。
+
+    历史上有几个产品的第一张主图不叫 01.* 而叫 01-main.*（gv18、gt20），
+    覆盖式写盘只写 01..06 的话，那张英雄图会继续指向没被覆盖的旧文件 ——
+    页面看着换了图，实际第一张还是旧的。这里按 data 自己引用什么来判定，
+    不写死产品 id。
+    """
+    for u in (pdata.get('images') or []):
+        m = re.search(r'/(\d\d)-main\.(?:webp|jpg)$', u or '')
+        if m:
+            return m.group(1) + '-main'
+    return None
+
+
 def detail_urls(pid, rec):
     """详情长图 URL 清单（已剔除 EXCLUDE 里的序号，剩下的重新连续编号）。
 
@@ -312,8 +344,10 @@ def main():
         d = '%s-%s' % (cat, sid)
         sdir = os.path.join(STAGING, d)
 
-        # gv18 第一张历史上叫 01-main.*，data 里就是这个名字，要多写一份
-        extra = ['01-main'] if sid == 'gv18' else []
+        # 有些产品历史第一张主图叫 NN-main.*，data 里就存的这个名字。
+        # 覆盖写盘时若不额外多写一份，英雄图会继续指向没被覆盖的旧文件。
+        # ⚠️ 别写死产品 id —— 判据是 data.images 自己引用了什么。
+        extra = main_alias(proddata[pid])
 
         if args.from_staging:
             n_main = len(rec['gallery'])
@@ -322,8 +356,9 @@ def main():
                 if os.path.isdir(sdir) else 0
             have_det = len([f for f in os.listdir(os.path.join(sdir, 'detail'))
                             if f.endswith('.jpg')]) if os.path.isdir(os.path.join(sdir, 'detail')) else 0
-            # gv18 会多写一份 01-main.*，所以期望值要加上 extra
-            want_main = n_main + len(extra)
+            # 引用了 NN-main.* 的产品会多写一份，所以期望值要加 1
+            # ⚠️ extra 现在是字符串或 None，别再对它 len()
+            want_main = n_main + (1 if extra else 0)
             if not os.path.isdir(sdir) or have_main != want_main or have_det != n_detail:
                 log('✗ 暂存区 %s 不完整（主图 %d/%d，长图 %d/%d），去掉 --from-staging 重跑'
                     % (d, have_main, want_main, have_det, n_detail))
@@ -348,10 +383,10 @@ def main():
             jp, wp = write_pair(im, os.path.join(sdir, 'detail', '%02d' % i), DETAIL_MAX_W)
             sizes['detail'].append((jp, wp))
 
-        if sid == 'gv18':
+        if extra:
             for ext in ('.jpg', '.webp'):
                 shutil.copyfile(os.path.join(sdir, '01' + ext),
-                                os.path.join(sdir, '01-main' + ext))
+                                os.path.join(sdir, extra + ext))
 
         staged[pid] = {'dir': d, 'sdir': sdir, 'sizes': sizes, 'extra': extra,
                        'n_main': len(rec['gallery']), 'n_detail': len(detail_urls(pid, rec))}
