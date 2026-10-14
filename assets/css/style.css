@@ -155,9 +155,14 @@ body.lang-ar { direction: rtl; }
   flex-shrink: 0;
 }
 .logo span {
-  font-size: 14px;
+  /* 公司全称 42 字符（原先是 9 字符的 AquaClean）：
+     必须允许折行 + 限宽，否则 nowrap 单行会把导航链接和右上角固定的
+     语言选择器一起挤出去。首页/分类页早就换成全称了，这里一并兜住。 */
+  font-size: 12px;
   font-weight: 800;
-  white-space: nowrap;
+  white-space: normal;
+  line-height: 1.2;
+  max-width: 232px;
   letter-spacing: -0.1px;
 }
 .logo-icon {
@@ -959,15 +964,31 @@ body.lang-ar .product-modal-close { right: auto; left: 16px; }
 .lang-menu li a:hover { background: var(--bg-alt); }
 .lang-menu li a.active { background: var(--primary-light); color: var(--primary-dark); font-weight: 600; }
 
-/* Keep navbar content clear of the fixed top-right picker (LTR) */
+/* Keep navbar content clear of the fixed top-right picker.
+   .lang-picker 是 position:fixed; right:16px，**两个方向都在右上**，
+   所以 RTL 也要给右边留位（原先给左边留 150px 是错的：RTL 下 logo 在
+   右侧，正好和语言选择器叠在一起）。 */
 .navbar-inner { padding-right: 150px; }
-/* RTL: logo sits at the right (start) — clear it on the left side instead */
-body.lang-ar .navbar-inner { padding-right: 0; padding-left: 150px; }
+body.lang-ar .navbar-inner { padding-right: 150px; padding-left: 0; }
 
 @media (max-width: 768px) {
   .navbar-inner { padding-right: 0; }
-  body.lang-ar .navbar-inner { padding-left: 140px; }
+  /* RTL 下 logo 落在右侧，仍要避开右上角固定的语言选择器 */
+  body.lang-ar .navbar-inner { padding-right: 132px; padding-left: 0; }
   .lang-current { padding: 7px 12px; font-size: 13px; }
+}
+
+/* 公司全称在窄屏继续收窄，保证不与导航链接 / 语言选择器相互挤压 */
+@media (max-width: 1000px) {
+  .logo span { font-size: 11px; max-width: 150px; }
+}
+/* 820px 附近：logo 已经收到最小，导航链接自身再收一档内边距，
+   否则整条 navbar 会把右上角固定的语言选择器顶穿（实测差 18px）。 */
+@media (max-width: 900px) {
+  .nav-links a { padding: 8px 10px; font-size: 13px; }
+}
+@media (max-width: 768px) {
+  .logo span { font-size: 10px; max-width: 118px; line-height: 1.15; }
 }
 
 /* Defensive: cap button width and prevent flex stretch on small screens */
