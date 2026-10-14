@@ -93,7 +93,9 @@ MAP = [
     ('1601887224510', 'robot-vacuum',    't20-c800'),   # Model T20-C800；标题与站内 t20-c800 一字不差
     ('1601799709236', 'handheld-vacuum', 'v22-2'),      # Model V22；40000Pa/650W/2200mAh/1.2L/68dB 全对
     ('1601898271900', 'steam-cleaner',   'ptc-sc-004'), # Model PTC-SC-004；1200ml/1000ml/USB/西班牙语
-    ('1601780738060', 'handheld-vacuum', 'pg16pro'),    # Model PG16PRO，站内无此型号，作为新品加入
+    # 1601780738060 (Model PG16PRO) **不映射**：用户确认它就是 EG16Pro，
+    # 只是主图不同，不作为独立产品上架（曾经短暂上架过，已用
+    # scripts/remove_product.py 摘除）。采集结果留在 scraped/alibaba_v3/ 备用。
 ]
 
 # 第二批里另外 3 条是同款产品的重复 listing，**保留站内现有图片**（已上线并逐页

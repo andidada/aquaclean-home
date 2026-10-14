@@ -61,7 +61,8 @@ MAP = [
     ('1601887224510', 'robot-vacuum',    't20-c800'),   # Model T20-C800
     ('1601799709236', 'handheld-vacuum', 'v22-2'),      # Model V22 / 40000Pa / 650W
     ('1601898271900', 'steam-cleaner',   'ptc-sc-004'), # Model PTC-SC-004
-    ('1601780738060', 'handheld-vacuum', 'pg16pro'),    # Model PG16PRO（站内新建产品）
+    # 1601780738060 (PG16PRO) 不上架：用户确认 = EG16Pro，仅主图不同。
+    # 与 apply_alibaba_images.py 保持一致，别再加回来。
 ]
 
 # 与 apply_alibaba_images.py 的 EXCLUDE 保持一致：

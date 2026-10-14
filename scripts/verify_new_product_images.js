@@ -53,7 +53,8 @@ const PRODUCTS = [
   ['handheld-vacuum', 'v22-2'],
   ['steam-cleaner', 'ptc-sc-004'],
   ['robot-vacuum', 'gt20'],
-  ['handheld-vacuum', 'pg16pro'],
+  // 注：PG16PRO 曾短暂上架过，用户确认它就是 EG16Pro（仅主图不同）后已摘除。
+  // 采集结果 scraped/alibaba_v3/1601780738060.json 仍在，需要时可恢复。
 ];
 const LANGS = ['en', 'zh', 'ar', 'es', 'fr', 'id', 'ru', 'th', 'vi'];
 const runStamp = Date.now().toString(36);

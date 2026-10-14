@@ -129,6 +129,7 @@ CORRUPT_HIGHLIGHTS_MARK = "/highlights"
 # main() 在 G1 通过后填好；classify() 用它把"公开站新增的产品"和
 # "两边真的说不清的差异"区分开。
 ADMIN_KNOWN_PRODUCT_IDS: dict = {}
+PUBLIC_PRODUCT_IDS: dict = {}
 
 
 def norm(b: bytes) -> bytes:
@@ -225,6 +226,16 @@ def classify(rel: str, path: str, pub_v, adm_v) -> str:
             # → 只可能是公开站新增的产品（后台拷贝里还没有这个 id）
             if segs0[0] not in ADMIN_KNOWN_PRODUCT_IDS.get(rel, set()):
                 return "new-product"
+        # 反过来：公开站把这个产品下架了，后台拷贝里还剩着它 → 整棵子树都是
+        # "公开站没有、后台有"。公开站是唯一权威，归为 removed-product 放行。
+        # 判据是**整个产品 id 在公开站不存在**，不是某个字段丢了 —— 后者可能是
+        # 真的字段级差异，不能一并放过。
+        segs0 = [s for s in path.split("/") if s]
+        if segs0 and pub_v is None:
+            pub_ids = PUBLIC_PRODUCT_IDS.get(rel)
+            if pub_ids is not None and segs0[0] not in pub_ids \
+                    and segs0[0] in ADMIN_KNOWN_PRODUCT_IDS.get(rel, set()):
+                return "removed-product"
         if CORRUPT_HIGHLIGHTS_MARK in path:
             return "corrupt"
         # path 形如 /<pid>/specs[13]/label/ru，第二段可能带着数组下标，
@@ -305,12 +316,31 @@ def main() -> int:
             ADMIN_KNOWN_PRODUCT_IDS[rel] = set(
                 p.get("id") for p in ids if isinstance(p, dict) and p.get("id"))
 
+    # ── 记录公开站现在有哪些产品（用于识别"公开站已下架产品"这一类差异）──────
+    # 与上面是对称的：加产品时后台缺一整棵子树，下架产品时反过来是**公开站**
+    # 缺一整棵子树。两边都得认得，否则撤产品时会被 G2 拦成几百条 UNKNOWN。
+    global PUBLIC_PRODUCT_IDS
+    PUBLIC_PRODUCT_IDS = {}
+    for rel in pub_files:
+        if not rel.startswith("products/"):
+            continue
+        p_pub = os.path.join(pub_root, rel)
+        try:
+            obj = json.loads(read_bytes(p_pub).decode("utf-8"))
+        except Exception:
+            continue
+        ids = obj.get("products") if isinstance(obj, dict) else obj
+        if isinstance(ids, list):
+            PUBLIC_PRODUCT_IDS[rel] = set(
+                p.get("id") for p in ids if isinstance(p, dict) and p.get("id"))
+
     # ── 逐文件比较 + G2 差异分类 ────────────────────────────────────
     plans = []          # (rel, 新内容 bytes, 原主导换行符, 统计)
     same = 0
     blocked = []        # (rel, [unknown 差异...])
     totals = {"identity": 0, "field-drift": 0, "corrupt": 0,
-              "corrupt-specs": 0, "new-product": 0, "unknown": 0}
+              "corrupt-specs": 0, "new-product": 0, "removed-product": 0,
+              "unknown": 0}
 
     for rel in pub_files:
         p_pub, p_adm = os.path.join(pub_root, rel), os.path.join(adm_root, rel)
@@ -366,7 +396,7 @@ def main() -> int:
           % (len(pub_files), same, len(plans), len(blocked)))
     print("差异归类合计：")
     for k in ("identity", "field-drift", "corrupt", "corrupt-specs",
-              "new-product", "unknown"):
+              "new-product", "removed-product", "unknown"):
         print("   %-14s %6d" % (k, totals.get(k, 0)))
 
     if blocked:
