@@ -111,6 +111,10 @@ async function main() {
   const argv = process.argv.slice(2);
   const all = argv.includes('--all');
   const argvIds = argv.filter(a => /^\d{8,}$/.test(a));
+  // 链接文件可覆盖：采集是分批做的，每批一个链接文件。写死alibaba_links.txt
+  // 的话，第二批开始就"跳过（无链接或无记录）"——而且它不报错，看着像采到了。
+  const linksArg = argv.filter(a => !a.startsWith('--') && !/^\d{8,}$/.test(a))[0];
+  const linksFile = linksArg ? path.resolve(process.cwd(), linksArg) : LINKS_FILE;
 
   let todo;
   if (argvIds.length) todo = argvIds.slice();
@@ -125,10 +129,18 @@ async function main() {
   }
   if (!todo.length) { console.log('没有需要补抓的页面。'); return; }
 
-  const links = fs.readFileSync(LINKS_FILE, 'utf8').split('\n')
+  if (!fs.existsSync(linksFile)) { console.error('✗ 链接文件不存在：' + linksFile); process.exit(1); }
+  const links = fs.readFileSync(linksFile, 'utf8').split('\n')
     .map(s => s.trim()).filter(s => s && s.startsWith('http'));
   const urlOf = {};
   links.forEach(u => { const m = u.match(/_(\d{10,})\.html/); if (m) urlOf[m[1]] = u; });
+  // 显式点名要抓的 id 必须都能在链接文件里找到，否则就是白跑一趟
+  const missing = todo.filter(id => !urlOf[id]);
+  if (missing.length) {
+    console.error('✗ 这些 id 在链接文件里没有对应链接：' + missing.join(', '));
+    console.error('  链接文件：' + linksFile);
+    process.exit(1);
+  }
 
   const target = await findPage();
   if (!target) { console.error('✗ 9333 上没 Edge。先跑 collect_alibaba_cdp.js'); process.exit(1); }

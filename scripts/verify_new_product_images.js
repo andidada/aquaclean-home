@@ -43,6 +43,10 @@ const PRODUCTS = [
   ['robot-vacuum', 'v2g-sj'], ['robot-vacuum', 't20-c800'], ['robot-vacuum', 'v9'],
   ['car-vacuum', 'yzx-309'],
   ['handheld-vacuum', 'eg16pro'],   // 新建产品：EG16Pro洗地机
+  // ── 第二批（2026-10-14）：这 3 个原先 detail_images 是空的 ──────────
+  ['tire-inflator', 'ymc6667'],
+  ['steam-cleaner', 'ytc-sc-004'],
+  ['robot-vacuum', 'pt40c800'],
 ];
 const LANGS = ['en', 'zh', 'ar', 'es', 'fr', 'id', 'ru', 'th', 'vi'];
 const runStamp = Date.now().toString(36);

@@ -51,6 +51,10 @@ MAP = [
     ('1601957733461', 'robot-vacuum',    'v9'),
     ('1601716189230', 'car-vacuum',      'yzx-309'),
     ('1601820268825', 'handheld-vacuum', 'eg16pro'),   # EG16Pro 洗地机（站内新建产品）
+    # ── 第二批（2026-10-14）：这三个产品原先detail_images 是空的 ──────────
+    ('1601909117845', 'tire-inflator',   'ymc6667'),    # Model YMC6667
+    ('1601905921428', 'steam-cleaner',   'ytc-sc-004'), # Model YTC-SC-004
+    ('1601784081376', 'robot-vacuum',    'pt40c800'),   # Model ZT40-C800（同 C800 系，不新建产品）
 ]
 
 # 与 apply_alibaba_images.py 的 EXCLUDE 保持一致：
