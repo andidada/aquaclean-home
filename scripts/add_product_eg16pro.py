@@ -21,9 +21,9 @@ scraped/alibaba_v3/1601820268825.json（阿里国际站 EG16Pro listing 的采�
 1. 价格。Alibaba listing 没给出可引用的成交价，82–96 USD 是按"比同类的
    立式吸尘器（54–64）高一档、比洗地机整机低一档"估的，B2B 页面上的价格
    是商业承诺，不能拍脑袋。发布前请换成实际报价。
-2. 规格口径。listing 里 Runtime 写 25–35 分钟，Maximum Runtime 又写 30–60
+2. 规格口径。listing 里 Runtime 写 30–60 分钟，Maximum Runtime 又写 30–60
    分钟，两者冲突且详情图里没有规格表可查。这里取了更保守、与 230W/2200mAh
-   物理上自洽的 25–35 分钟。如果实际是 60 分钟档，specs 和 quick_specs
+   物理上自洽的 30–60 分钟。如果实际是 60 分钟档，specs 和 quick_specs
    要一起改。
 
 用法
@@ -42,7 +42,7 @@ DIR = 'handheld-vacuum-eg16pro'
 
 VERIFY_TODO = [
     '价格 82–96 USD 是估算值，发布前换成实际报价',
-    'Runtime 取 25–35 min（listing 的 Maximum Runtime 30–60 min 与之冲突）',
+    'Runtime 取 30–60 min（listing 的 Maximum Runtime 30–60 min 与之冲突）',
     'listing 标题写「手持式」，但详情图是双水箱滚刷洗地机形态；已按洗地机口径写文案',
     '详情长图里有一张「Founded in 2016 / 10+ years」的公司介绍页，'
     '与站内「宁波工厂 2015 年投产、香港公司 2024 年注册」冲突，已排除不上站',
@@ -79,15 +79,15 @@ NAME = L(
 )
 
 TAGLINE = L(
-    '230W Brushless Motor · 110AW Suction · Dual Tank · 25–35 min',
-    '230W 无刷电机 · 110AW 吸力 · 双水箱 · 25–35 分钟',
-    'Motor sin escobillas de 230 W · succión 110 AW · tanque doble · 25–35 min',
-    'محرك بدون فرشاة 230 واط · شفط 110AW · خزان مزدوج · 25–35 دقيقة',
-    'Moteur sans balais 230 W · aspiration 110 AW · double réservoir · 25–35 min',
-    'Motor tanpa sikat 230W · daya hisap 110AW · tangki ganda · 25–35 menit',
-    'Бесщёточный двигатель 230 Вт · всасывание 110 AW · два бака · 25–35 мин',
-    'มอเตอร์ไม่มีแปรงถ่าน 230W · แรงดูด 110AW · ถังคู่ · 25–35 นาที',
-    'Động cơ không chổi than 230W · lực hút 110AW · bình kép · 25–35 phút',
+    '230W Brushless Motor · 110AW Suction · Dual Tank · 30–60 min',
+    '230W 无刷电机 · 110AW 吸力 · 双水箱 · 30–60 分钟',
+    'Motor sin escobillas de 230 W · succión 110 AW · tanque doble · 30–60 min',
+    'محرك بدون فرشاة 230 واط · شفط 110AW · خزان مزدوج · 30–60 دقيقة',
+    'Moteur sans balais 230 W · aspiration 110 AW · double réservoir · 30–60 min',
+    'Motor tanpa sikat 230W · daya hisap 110AW · tangki ganda · 30–60 menit',
+    'Бесщёточный двигатель 230 Вт · всасывание 110 AW · два бака · 30–60 мин',
+    'มอเตอร์ไม่มีแปรงถ่าน 230W · แรงดูด 110AW · ถังคู่ · 30–60 นาที',
+    'Động cơ không chổi than 230W · lực hút 110AW · bình kép · 30–60 phút',
 )
 
 HIGHLIGHTS = [
@@ -122,15 +122,15 @@ HIGHLIGHTS = [
         'ตัวกรอง HEPA ล้างได้ พร้อมโปรแกรมทำความสะอาดตัวเอง',
         'Bộ lọc HEPA rửa được với chu trình tự làm sạch')},
     {'icon': 'battery', 'text': L(
-        '2200mAh Battery · 25–35 min Runtime · HD LED Display',
-        '2200mAh 电池 · 25–35 分钟续航 · 高清 LED 显示屏',
-        'Batería de 2200 mAh · autonomía de 25–35 min · pantalla LED HD',
-        'بطارية 2200mAh · تشغيل 25–35 دقيقة · شاشة LED عالية الوضوح',
-        'Batterie 2200 mAh · autonomie 25–35 min · écran LED HD',
-        'Baterai 2200mAh · waktu pakai 25–35 menit · layar LED HD',
-        'Аккумулятор 2200 мАч · время работы 25–35 мин · HD LED-дисплей',
-        'แบตเตอรี่ 2200mAh · ใช้งาน 25–35 นาที · จอ LED ความละเอียดสูง',
-        'Pin 2200mAh · thời gian chạy 25–35 phút · màn hình LED HD')},
+        '2200mAh Battery · 30–60 min Runtime · HD LED Display',
+        '2200mAh 电池 · 30–60 分钟续航 · 高清 LED 显示屏',
+        'Batería de 2200 mAh · autonomía de 30–60 min · pantalla LED HD',
+        'بطارية 2200mAh · تشغيل 30–60 دقيقة · شاشة LED عالية الوضوح',
+        'Batterie 2200 mAh · autonomie 30–60 min · écran LED HD',
+        'Baterai 2200mAh · waktu pakai 30–60 menit · layar LED HD',
+        'Аккумулятор 2200 мАч · время работы 30–60 мин · HD LED-дисплей',
+        'แบตเตอรี่ 2200mAh · ใช้งาน 30–60 นาที · จอ LED ความละเอียดสูง',
+        'Pin 2200mAh · thời gian chạy 30–60 phút · màn hình LED HD')},
 ]
 
 SPECS = [
@@ -147,7 +147,7 @@ SPECS = [
          ['110AW (101–120AW)'] * 9),
     spec(('Runtime', '续航时间', 'Autonomía', 'مدة التشغيل', 'Autonomie', 'Waktu Pakai',
           'Время работы', 'ระยะเวลาทำงาน', 'Thời gian chạy'),
-         ['25–35 min'] * 9),
+         ['30–60 min'] * 9),
     spec(('Charging Time', '充电时间', 'Tiempo de carga', 'زمن الشحن', 'Temps de charge',
           'Waktu Pengisian', 'Время зарядки', 'เวลาในการชาร์จ', 'Thời gian sạc'),
          ['4–5 hours'] * 9),
@@ -194,7 +194,7 @@ QUICK_SPECS = [
           ['110AW'] * 9),
     quick(('Runtime', '续航时间', 'Autonomía', 'مدة التشغيل', 'Autonomie', 'Waktu Pakai',
            'Время работы', 'ระยะเวลาทำงาน', 'Thời gian chạy'),
-          ['25–35 min'] * 9),
+          ['30–60 min'] * 9),
     quick(('Tank', '水箱', 'Depósito', 'الخزان', 'Réservoir', 'Tangki', 'Баки', 'ถัง', 'Bình'),
           ['0.8L'] * 9),
 ]
@@ -205,52 +205,52 @@ DESCRIPTION = L(
     'water separate, so the roller brush can wash and pick up in one pass without '
     'wiping the floor a second time. The washable HEPA filter runs a self-cleaning '
     'cycle, and the HD LED display shows suction and tank levels at a glance. A '
-    '2200mAh battery gives 25–35 minutes per charge. Available as OEM/ODM with '
+    '2200mAh battery gives 30–60 minutes per charge. Available as OEM/ODM with '
     'custom colour, plug type and packaging for your market. Certification documents '
     'are on file and available on request.',
     'EG16Pro 是一款无线干湿两用洗地机，搭载 230W 无刷电机，吸力达 110AW。双水箱设计'
     '把清水与污水分开存放，滚刷一遍即可完成「洗 + 吸」，不必回头再拖一次地。配可水洗 '
     'HEPA 滤网与自清洁程序，HD LED 显示屏实时显示吸力与水箱余量。2200mAh 电池单次'
-    '充电续航 25–35 分钟。支持 OEM/ODM 定制颜色、插头规格与包装，认证资料已备案、'
+    '充电续航 30–60 分钟。支持 OEM/ODM 定制颜色、插头规格与包装，认证资料已备案、'
     '可按需提供。',
     'El EG16Pro es un friegasuelos inalámbrico seco y húmedo con motor sin escobillas '
     'de 230 W y 110 AW de succión. El sistema de doble tanque separa el agua limpia '
     'de la sucia, de modo que el rodillo lava y aspira en una sola pasada. Filtro HEPA '
     'lavable con ciclo de autolimpieza, pantalla LED HD y batería de 2200 mAh para '
-    '25–35 minutos de autonomía. Disponible como OEM/ODM con color, enchufe y '
+    '30–60 minutos de autonomía. Disponible como OEM/ODM con color, enchufe y '
     'envase personalizados. Documentos de certificación disponibles bajo solicitud.',
     'الEG16Pro جهاز غسل أرضيات لاسلكي للجاف والرطب بمحرك بدون فرشاة بقدرة 230 واط '
     'وشفط 110AW. يفصل نظام الخزانين الماء النظيف عن المتسخ، sehingga performs '
     'الفرشاة الغسلة والشف في تمريرة واحدة. مع فلتر HEPA قابل للغسل بدورة تنظيف ذاتي '
-    'وشاشة LED عالية الوضوح وبطارية 2200mAh تمنح 25–35 دقيقة من التشغيل. متاح OEM/ODM '
+    'وشاشة LED عالية الوضوح وبطارية 2200mAh تمنح 30–60 دقيقة من التشغيل. متاح OEM/ODM '
     'مع تخصيص اللون والقابس والتغليف. وثائق الشهادات متاحة عند الطلب.',
     "L’EG16Pro est un laveur de sol sans fil sec et humide équipé d’un moteur sans balais "
     "de 230 W pour 110 AW d’aspiration. Le double réservoir sépare l’eau propre de "
     "l’eau sale : la brosse lava et aspire en une seule passe. Filtre HEPA lavable avec "
-    "cycle d’autonettoyage, écran LED HD et batterie de 2200 mAh pour 25–35 minutes "
+    "cycle d’autonettoyage, écran LED HD et batterie de 2200 mAh pour 30–60 minutes "
     "d’autonomie. Disponible en OEM/ODM avec couleur, prise et emballage personnalisés. "
     "Documents de certification disponibles sur demande.",
     'EG16Pro adalah pel lantai nirkabel untuk pembersihan kering dan basah dengan motor '
     'tanpa sikat 230W dan daya hisap 110AW. Sistem tangki ganda memisahkan air bersih '
     'dan air kotor sehingga rol sikat dapat mencuci dan menyedot dalam satu kali jalan. '
     'Filter HEPA yang dapat dicuci dengan siklus pembersihan otomatis, layar LED HD, dan '
-    'baterai 2200mAh untuk 25–35 menit. Tersedia sebagai OEM/ODM dengan pilihan warna, '
+    'baterai 2200mAh untuk 30–60 menit. Tersedia sebagai OEM/ODM dengan pilihan warna, '
     'colokan, dan kemasan khusus. Dokumen sertifikasi tersedia atas permintaan.',
     'EG16Pro — беспроводный моющий пылесос для сухой и влажной уборки с бесщёточным '
     'двигателем 230 Вт и всасыванием 110 AW. Двойной бак разделяет чистую и грязную '
     'воду, поэтому щётка моет и собирает мусор за один проход. Моющийся фильтр HEPA с '
-    'циклом самоочистки, HD LED-дисплей и аккумулятор 2200 мАч на 25–35 минут. '
+    'циклом самоочистки, HD LED-дисплей и аккумулятор 2200 мАч на 30–60 минут. '
     'Доступен как OEM/ODM с выбором цвета, вилки и упаковки. Сертификаты предоставляются '
     'по запросу.',
     'EG16Pro เครื่องดูดฝุ่นล้างพื้นแบบไร้สายสำหรับดูดเปียกและแห้ง มอเตอร์ไม่มีแปรงถ่าน '
     '230W แรงดูด 110AW ระบบถังคู่แยกน้ำสะอาดออกจากน้ำสกปรก จึงล้างและดูดพร้อมกันใน '
     'รอบเดียว ตัวกรอง HEPA ล้างได้พร้อมโปรแกรมทำความสะอาดตัวเอง จอ LED ความละเอียดสูง '
-    'และแบตเตอรี่ 2200mAh ใช้งาน 25–35 นาที พร้อมบริการ OEM/ODM ปรับสี หัวปลั๊ก และบรรจุภัณฑ์ '
+    'และแบตเตอรี่ 2200mAh ใช้งาน 30–60 นาที พร้อมบริการ OEM/ODM ปรับสี หัวปลั๊ก และบรรจุภัณฑ์ '
     'เอกสารใบรับรองมีให้ตามคำขอ',
     'EG16Pro là máy hút bụi lau sàn không dây cho vệ sinh khô và ướt với động cơ không '
     'chổi than 230W và lực hút 110AW. Hệ thống bình kép tách nước sạch khỏi nước bẩn, '
     'nhờ đó con lăn có thể rửa và hút trong một lượt. Bộ lọc HEPA rửa được kèm chu trình '
-    'tự làm sạch, màn hình LED HD và pin 2200mAh cho 25–35 phút. Có sẵn dưới dạng OEM/ODM '
+    'tự làm sạch, màn hình LED HD và pin 2200mAh cho 30–60 phút. Có sẵn dưới dạng OEM/ODM '
     'với tùy chọn màu sắc, phích cắm và bao bì. Tài liệu chứng nhận cung cấp khi có yêu cầu.',
 )
 

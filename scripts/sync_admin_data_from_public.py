@@ -50,6 +50,8 @@ sync_admin_data_from_public.py — 把公开站的 data/ 同步到内容后台�
                         （7f09acc 把整个 products 数组塞进了第一个产品的
                         highlights，后台带着这个损坏）
        - corrupt-specs  KNOWN_CORRUPT_SPECS 里那对 (产品 id, 字段)
+       - runtime-fix    两边只差 EG16Pro 续航 25–35→30–60 这一个数值
+                        （按**值**判定，交期 25–35 days 不放行）
                         —— gt20 的 specs / quick_specs 被同一个 commit
                         分别塞成了 reviews 数组和 review schema
      出现 UNKNOWN 说明两边有讲清楚的第三种变化，必须先人工确认再放行。
@@ -77,6 +79,7 @@ import argparse
 import datetime as _dt
 import json
 import os
+import re
 import shutil
 import sys
 
@@ -124,6 +127,25 @@ KNOWN_COPY_REWRITE_I18N = {"/footer/brandDesc"}
 KNOWN_REMOVED_FIELDS = {("company.json", "/revenue")}
 
 CORRUPT_HIGHLIGHTS_MARK = "/highlights"
+
+# 2026-10-14 用户拍板的规格修正：EG16Pro 续航 25–35 min → 30–60 min
+# （25–35 是当初的估算值，与阿里页面 30-60 min 冲突）。公开站先改、后台跟进。
+# 放行条件刻意收紧到"**值的层面**"：两边必须只差这一个数值、且带续航单位，
+# 这样交期 "25–35 days / 25–35 天 / 25–35 يومًا" 不会被顺手放行。
+RUNTIME_FIX_OLD, RUNTIME_FIX_NEW = "25–35", "30–60"
+_RUNTIME_UNIT = re.compile(
+    r"min\b|minutes\b|minutos\b|минут\b|мин\b|分钟|دقيقة|menit\b|นาที|phút\b")
+
+
+def runtime_fix_only(pub_v, adm_v) -> bool:
+    """两边是否只差 EG16Pro 续航这一个数值（公开站是权威）。"""
+    if not (isinstance(pub_v, str) and isinstance(adm_v, str)):
+        return False
+    if RUNTIME_FIX_OLD not in adm_v or RUNTIME_FIX_NEW not in pub_v:
+        return False
+    if adm_v.replace(RUNTIME_FIX_OLD, RUNTIME_FIX_NEW) != pub_v:
+        return False
+    return bool(_RUNTIME_UNIT.search(pub_v))
 
 # 后台 data/products/<cat>.json 里**当前**已有的产品 id。
 # main() 在 G1 通过后填好；classify() 用它把"公开站新增的产品"和
@@ -201,7 +223,9 @@ def ident_related(s: str) -> bool:
 
 def classify(rel: str, path: str, pub_v, adm_v) -> str:
     """给一处差异归类。返回 'identity' / 'field-drift' / 'corrupt' /
-    'corrupt-specs' / 'copy-rewrite' / 'unknown'。"""
+    'corrupt-specs' / 'copy-rewrite' / 'runtime-fix' / 'unknown'。"""
+    if runtime_fix_only(pub_v, adm_v):
+        return "runtime-fix"
     if rel in KNOWN_FIELD_DRIFT and path in KNOWN_FIELD_DRIFT[rel]:
         return "field-drift"
     # 文案改写：公开站是权威，后台跟进
@@ -340,7 +364,7 @@ def main() -> int:
     blocked = []        # (rel, [unknown 差异...])
     totals = {"identity": 0, "field-drift": 0, "corrupt": 0,
               "corrupt-specs": 0, "new-product": 0, "removed-product": 0,
-              "unknown": 0}
+              "runtime-fix": 0, "unknown": 0}
 
     for rel in pub_files:
         p_pub, p_adm = os.path.join(pub_root, rel), os.path.join(adm_root, rel)
@@ -396,7 +420,7 @@ def main() -> int:
           % (len(pub_files), same, len(plans), len(blocked)))
     print("差异归类合计：")
     for k in ("identity", "field-drift", "corrupt", "corrupt-specs",
-              "new-product", "removed-product", "unknown"):
+              "new-product", "removed-product", "runtime-fix", "unknown"):
         print("   %-14s %6d" % (k, totals.get(k, 0)))
 
     if blocked:
