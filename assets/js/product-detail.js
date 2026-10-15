@@ -235,7 +235,12 @@
     html += '</div></div>';
 
     // ===== MAIN LAYOUT =====
+    // 左列 = 图集 + 详细描述。以前左列只有图集，而右列（购买框）高得多，
+    // align-items:start 让左列下方留出一大块空白（用户圈出来投诉的那块）。
+    // 现在描述搬进左列，且 .d-layout 改为 stretch —— 左列比右列矮时图集会
+    // 自动长高补齐，右列 sticky 吸顶照常工作。
     html += '<div class="d-layout">';
+    html += '<div class="d-left">';
 
     // --- Gallery (Alibaba style: vertical thumbs left, main image right) ---
     html += '<div class="d-gallery">';
@@ -260,7 +265,21 @@
       html += '<div class="d-gallery-video" id="aqc-video-box"><video id="aqc-video" controls playsinline></video></div>';
     }
     html += '</div>';
-    html += '</div>';
+    html += '</div>'; // .d-gallery
+
+    // --- Description（挪进左列：原来在下方通栏，左列图集下面是一块大空白）---
+    var descText = pick(product.description, state.lang);
+    var descImg = product.description_image || '';
+    if (descText || descImg) {
+      html += '<div class="d-desc-side">';
+      // 只保留一个标题：卡片空间小，眉标 + 大标题重复同一句话会显得啰嗦
+      html += '<h2 class="d-desc-title">' + esc(ui.description) + '</h2>';
+      html += '<div class="d-desc-text">' + esc(descText).replace(/\n/g, '<br>') + '</div>';
+      if (descImg) html += '<img class="d-desc-img" src="' + esc(localImg(descImg)) + '" alt="' + esc(pick(product.name, state.lang)) + '">';
+      html += '</div>';
+    }
+
+    html += '</div>'; // .d-left
 
     // --- Info panel ---
     html += '<div class="d-info">';
@@ -452,16 +471,7 @@
     }
 
     // ===== DESCRIPTION =====
-    var descText = pick(product.description, state.lang);
-    var descImg = product.description_image || '';
-    if (descText || descImg) {
-      html += '<div class="d-section"><div class="d-section-inner">';
-      html += '<span class="d-sec-label">' + esc(ui.description) + '</span>';
-      html += '<h2 class="d-sec-title">' + esc(ui.description) + '</h2>';
-      html += '<div class="d-desc-text">' + esc(descText).replace(/\n/g, '<br>') + '</div>';
-      if (descImg) html += '<img class="d-desc-img" src="' + esc(localImg(descImg)) + '" alt="' + esc(pick(product.name, state.lang)) + '">';
-      html += '</div></div>';
-    }
+    // 已挪到左列图集下方（.d-desc-side），见 MAIN LAYOUT 处的说明。
 
     // ===== DETAIL (图文混排) =====
     // Written by the "详情页" section in the back office:

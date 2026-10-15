@@ -13,10 +13,23 @@
 .d-breadcrumb .sep { color: #CBD5E1; }
 
 /* ---------- Main two-column layout ---------- */
-.d-layout { max-width: var(--container); margin: 0 auto; padding: 32px 24px; display: grid; grid-template-columns: 52% 1fr; gap: 40px; align-items: start; }
+/* align-items 从 start 改为 stretch：左列（图集+描述）比右列（购买框）矮时，
+   图集会自动长高补齐，不再在图集下方留一大块空白。
+   右列保持 align-self:start + sticky，吸顶行为不变。 */
+.d-layout { max-width: var(--container); margin: 0 auto; padding: 32px 24px; display: grid; grid-template-columns: 52% 1fr; gap: 40px; align-items: stretch; }
+
+/* ---------- Left column: gallery + description ---------- */
+.d-left { display: flex; flex-direction: column; gap: 20px; min-width: 0; }
+.d-desc-side { background: #fff; border: 1px solid var(--border); border-radius: 16px; padding: 20px 24px 22px; box-shadow: var(--shadow); }
+.d-desc-side .d-sec-label { margin-bottom: 4px; }
+.d-desc-title { font-size: 17px; font-weight: 800; color: var(--secondary); margin: 0 0 10px; }
+.d-desc-side .d-desc-text { max-width: none; font-size: 14.5px; line-height: 1.85; }
+.d-desc-side .d-desc-img { margin-top: 14px; }
 
 /* ---------- Image gallery (Alibaba: vertical thumbs left, main right) ---------- */
-.d-gallery { position: relative; display: flex; gap: 14px; align-items: flex-start; }
+/* flex:1 1 auto + align-items:stretch —— 左列被拉伸时图集跟着长高，
+   主图框随之上移补齐，图片本身 object-fit:contain 居中不变形。 */
+.d-gallery { position: relative; display: flex; gap: 14px; align-items: stretch; flex: 1 1 auto; }
 .d-gallery-thumbs { flex: 0 0 80px; display: flex; flex-direction: column; gap: 10px; max-height: 560px; overflow-y: auto; padding-right: 2px; }
 .d-gallery-thumb { border-radius: 10px; overflow: hidden; border: 2px solid transparent; cursor: pointer; aspect-ratio: 1; background: var(--bg-alt); transition: var(--transition); display: flex; align-items: center; justify-content: center; padding: 4px; flex-shrink: 0; }
 .d-gallery-thumb img { width: 100%; height: 100%; object-fit: contain; }
@@ -30,7 +43,9 @@
 .d-gallery-video video { width: 100%; height: 100%; object-fit: contain; }
 
 /* ---------- Product info panel ---------- */
-.d-info { position: sticky; top: 84px; }
+/* align-self:start —— 不能让购买框被 stretch 拉伸到和左列一样高，
+   否则 sticky 没有可滚动的余量，吸顶就失效了。 */
+.d-info { position: sticky; top: 84px; align-self: start; }
 .d-info h1 { font-size: 26px; font-weight: 800; color: var(--secondary); margin: 0 0 6px; line-height: 1.25; }
 .d-info .d-tagline { font-size: 15px; color: var(--text-muted); margin: 0 0 16px; line-height: 1.6; }
 .d-info .d-model { font-size: 13px; color: var(--text-muted); margin-bottom: 10px; }
@@ -178,6 +193,9 @@
   .d-layout { grid-template-columns: 1fr; gap: 28px; }
   .d-gallery { flex-direction: column-reverse; }
   .d-gallery-thumbs { flex-direction: row; flex: none; width: 100%; max-height: none; overflow-x: auto; }
+  /* 缩略图必须给定尺寸：否则 aspect-ratio:1 + flex-shrink:0 会取原图固有宽度，
+     每张被撑到 1200px+，缩略图条变成一块 1200px 高的巨块（实测）。 */
+  .d-gallery-thumb { flex: 0 0 64px; width: 64px; height: 64px; }
   .d-gallery-main { min-height: 360px; }
   .d-price-cards { grid-template-columns: 1fr; }
   .d-info { position: static; }
