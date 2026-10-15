@@ -1202,3 +1202,77 @@ body.lang-ar .navbar-inner { padding-right: 150px; padding-left: 0; }
    390px 视口下把整页顶出 618px 的横向滚动（分类页对比表同理，558px）。
    让表格在自己的容器里横向滚动，而不是撑破页面。 */
 .aqc-ss { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+
+/* =============================================
+   CUSTOMER REVIEW COLLECTION
+   ============================================= */
+.review-collect { padding: 8px 24px 72px; }
+.review-collect .section-inner { max-width: var(--container); margin: 0 auto; }
+.rc-card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  padding: 28px;
+  max-width: 880px;
+  margin: 0 auto;
+}
+.rc-title { font-size: 22px; font-weight: 800; color: var(--secondary); margin-bottom: 6px; }
+.rc-sub { font-size: 14px; color: var(--text-muted); margin-bottom: 20px; line-height: 1.6; }
+.rc-rating { display: flex; gap: 4px; margin-bottom: 18px; flex-wrap: wrap; }
+.rc-star { cursor: pointer; line-height: 1; }
+.rc-star input { position: absolute; opacity: 0; width: 0; height: 0; }
+.rc-star span { font-size: 28px; color: #CBD5E1; transition: color .15s ease; }
+.rc-star input:checked + span,
+.rc-star:hover span,
+.rc-star:hover ~ .rc-star span { color: var(--accent); }
+/* 选中第 N 颗时，N 颗及之前的都点亮（纯 CSS，不依赖 JS） */
+.rc-star input:checked ~ .rc-star span { color: #CBD5E1; }
+.rc-star:has(input:checked) span { color: var(--accent); }
+.rc-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.rc-field { display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: var(--text-muted); }
+.rc-field-full { margin-top: 14px; }
+.rc-field input, .rc-field textarea {
+  font: inherit;
+  color: var(--text);
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: #fff;
+  resize: vertical;
+}
+.rc-field input:focus, .rc-field textarea:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px var(--primary-light);
+}
+.rc-hp { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+.rc-actions { display: flex; align-items: center; gap: 14px; margin-top: 18px; flex-wrap: wrap; }
+.rc-submit {
+  font: inherit;
+  font-weight: 600;
+  padding: 12px 26px;
+  border: none;
+  border-radius: 10px;
+  background: var(--primary);
+  color: #fff;
+  cursor: pointer;
+  transition: var(--transition);
+}
+.rc-submit:hover { background: var(--primary-dark); }
+.rc-submit:disabled { opacity: .6; cursor: not-allowed; }
+.rc-msg { font-size: 13px; color: #DC2626; }
+.rc-done {
+  font-size: 15px;
+  color: var(--secondary);
+  background: var(--bg-alt);
+  border-left: 4px solid var(--primary);
+  border-radius: 10px;
+  padding: 18px 20px;
+  line-height: 1.6;
+  margin: 0;
+}
+@media (max-width: 640px) {
+  .rc-card { padding: 20px 18px; }
+  .rc-grid { grid-template-columns: 1fr; }
+}

@@ -40,7 +40,7 @@
   <!-- 非阻塞加载：media="print" 的样式表不阻塞渲染，onload 后切回 all。
        这样该域名不可达时首屏照常绘制，可达时仍能拿到正确字体。 -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;600;700;800;900&display=swap" media="print" onload="this.media='all'">
-  <link rel="stylesheet" href="../assets/css/style.css?v=20261015h">
+  <link rel="stylesheet" href="../assets/css/style.css?v=20261016a">
   <style>body { font-family: 'Noto Sans Arabic', 'Inter', sans-serif; }</style>
 
 <script type="application/ld+json">
@@ -519,6 +519,13 @@
   </div>
 </section>
 
+<!-- CUSTOMER REVIEW COLLECTION -->
+<section class="review-collect" data-review-collect>
+  <div class="section-inner">
+    <div data-review-mount></div>
+  </div>
+</section>
+
 <!-- ── CTA BAND ────────────────────────────────── -->
 <section class="cta-band">
   <h2>جاهز للحصول على أجهزة فاخرة؟</h2>
@@ -620,6 +627,8 @@
 
 <script src="../assets/js/langpicker.v1.js?v=20261011" defer></script>
 <script src="../assets/js/inquiry-sink.js?v=20261008" defer></script>
+  <script src="../assets/js/review-sink.js" defer></script>
+  <script src="../assets/js/review-form.js" defer></script>
 <script src="../assets/js/home-loader.js?v=20261009" defer></script>
 <script src="/assets/js/nav.js?v=20261005" defer></script>
 </body>
