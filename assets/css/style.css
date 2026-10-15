@@ -155,14 +155,12 @@ body.lang-ar { direction: rtl; }
   flex-shrink: 0;
 }
 .logo span {
-  /* 公司全称 42 字符（原先是 9 字符的 AquaClean）：
-     必须允许折行 + 限宽，否则 nowrap 单行会把导航链接和右上角固定的
-     语言选择器一起挤出去。首页/分类页早就换成全称了，这里一并兜住。 */
+  /* 公司全称单行显示（用户要求不分两排）。42 字符在 12px/800 下约 300px，
+     1100px+ 视口放得下；≤1000px 恢复折行，否则会挤出导航链接和语言选择器。 */
   font-size: 12px;
   font-weight: 800;
-  white-space: normal;
+  white-space: nowrap;
   line-height: 1.2;
-  max-width: 232px;
   letter-spacing: -0.1px;
 }
 .logo-icon {
@@ -979,9 +977,9 @@ body.lang-ar .navbar-inner { padding-right: 150px; padding-left: 0; }
   .lang-current { padding: 7px 12px; font-size: 13px; }
 }
 
-/* 公司全称在窄屏继续收窄，保证不与导航链接 / 语言选择器相互挤压 */
+/* 公司全称在窄屏恢复折行，保证不与导航链接 / 语言选择器相互挤压 */
 @media (max-width: 1000px) {
-  .logo span { font-size: 11px; max-width: 150px; }
+  .logo span { white-space: normal; font-size: 11px; max-width: 150px; }
 }
 /* 820px 附近：logo 已经收到最小，导航链接自身再收一档内边距，
    否则整条 navbar 会把右上角固定的语言选择器顶穿（实测差 18px）。 */
