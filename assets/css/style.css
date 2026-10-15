@@ -1223,12 +1223,10 @@ body.lang-ar .navbar-inner { padding-right: 150px; padding-left: 0; }
 .rc-star { cursor: pointer; line-height: 1; }
 .rc-star input { position: absolute; opacity: 0; width: 0; height: 0; }
 .rc-star span { font-size: 28px; color: #CBD5E1; transition: color .15s ease; }
-.rc-star input:checked + span,
-.rc-star:hover span,
-.rc-star:hover ~ .rc-star span { color: var(--accent); }
-/* 选中第 N 颗时，N 颗及之前的都点亮（纯 CSS，不依赖 JS） */
-.rc-star input:checked ~ .rc-star span { color: #CBD5E1; }
-.rc-star:has(input:checked) span { color: var(--accent); }
+/* 点亮到第 N 颗：由 review-form.js 的 paintStars() 打 .is-lit（纯 CSS 兄弟
+   选择器做不出「选中项及其之前全部点亮」，还会把 hover 方向搞反） */
+.rc-star.is-lit span { color: var(--accent); }
+.rc-star:focus-within span { outline: 2px solid var(--primary); outline-offset: 2px; border-radius: 4px; }
 .rc-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
 .rc-field { display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: var(--text-muted); }
 .rc-field-full { margin-top: 14px; }

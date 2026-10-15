@@ -97,11 +97,40 @@ function dbg() { if (AQC_DEBUG) console.log.apply(console, arguments); }
 })();
 
 // ─── POPUP MODAL (60% scroll, once per session) ──
+// ⚠️ 留评表单和询盘表单都在页面深处，弹窗滚到 60% 时正好盖住它们。
+// 客户一旦开始填写（焦点在表单里 / 已填了内容），弹窗必须让路，否则会
+// 盖住半边屏幕打断输入——很多人因此直接放弃提交。
 (function() {
   if (sessionStorage.getItem('popupShown')) return;
   var shown = false;
+  // 需要让路的两个表单：首页留评区 + 主询盘表单
+  var GUARDED = ['.review-collect', '#mainInquiryForm'];
+
+  function guardedScope() {
+    for (var i = 0; i < GUARDED.length; i++) {
+      var el = document.querySelector(GUARDED[i]);
+      if (el) return el;
+    }
+    return null;
+  }
+
+  function formEngaged() {
+    var scope = guardedScope();
+    if (!scope) return false;
+    if (scope.contains(document.activeElement)) return true;
+    var fields = scope.querySelectorAll('input[name], textarea[name], select[name]');
+    for (var i = 0; i < fields.length; i++) {
+      var f = fields[i];
+      if (f.name === 'hp') continue;              // 蜜罐不算
+      if (f.value && String(f.value).trim()) return true;
+    }
+    return false;
+  }
+
   function showPopup() {
     if (shown) return;
+    // 正在填表就先不弹；下一次滚动/超时还会再判断，不会永久吞掉这次弹出
+    if (formEngaged()) return;
     shown = true;
     var overlay = document.getElementById('popupOverlay');
     if (overlay) {
@@ -114,6 +143,15 @@ function dbg() { if (AQC_DEBUG) console.log.apply(console, arguments); }
     if (pct >= 60) showPopup();
   }, { passive: true });
   setTimeout(showPopup, 45000);
+
+  // 已经弹出来的情况下客户又去填表：直接收起，别挡路
+  document.addEventListener('focusin', function(e) {
+    var scope = guardedScope();
+    var overlay = document.getElementById('popupOverlay');
+    if (scope && overlay && scope.contains(e.target) && overlay.classList.contains('show')) {
+      overlay.classList.remove('show');
+    }
+  });
 })();
 
 document.addEventListener('DOMContentLoaded', function() {

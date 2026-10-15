@@ -16,6 +16,7 @@ site - same pictures, a fraction of the upload.
 import os
 import re
 import shutil
+import tempfile
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -70,7 +71,27 @@ def absolutise_images():
 
 def main():
     if os.path.isdir(OUT):
-        shutil.rmtree(OUT)
+        # ⚠️ inquiry-proxy.html / review-proxy.html 只存在于 OUT 里，没有任何
+        # 拷贝清单包含它们。公开站的询盘和留评都靠这两个中继写云库，一旦被
+        # rmtree 掉，前台表单会「看起来提交成功、实际什么都没入库」。
+        # 所以先抢救到临时目录，构建完再放回去。
+        rescued = []
+        tmp = tempfile.mkdtemp(prefix="aqc-proxy-")
+        for name in ("inquiry-proxy.html", "review-proxy.html"):
+            src = os.path.join(OUT, name)
+            if os.path.exists(src):
+                dst = os.path.join(tmp, name)
+                shutil.copy2(src, dst)
+                rescued.append((dst, src))
+        try:
+            shutil.rmtree(OUT)
+        finally:
+            for dst, src in rescued:
+                os.makedirs(os.path.dirname(src), exist_ok=True)
+                shutil.copy2(dst, src)
+        if rescued:
+            print("  + 已保留中继页：%s" % ", ".join(os.path.basename(s) for _, s in rescued))
+        shutil.rmtree(tmp, ignore_errors=True)
     os.makedirs(os.path.join(OUT, "admin"), exist_ok=True)
     print("构建到 %s" % OUT)
 

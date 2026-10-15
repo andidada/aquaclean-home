@@ -174,9 +174,41 @@
       '</div>';
   }
 
+  /* 星级点亮：纯 CSS 的兄弟选择器做不出「第 N 颗及之前全部点亮」，
+     hover 方向也会反（~ 选的是后面的兄弟），所以用 JS 打 .is-lit。 */
+  function paintStars(container, n) {
+    var stars = container.querySelectorAll('.rc-star');
+    for (var i = 0; i < stars.length; i++) {
+      stars[i].classList.toggle('is-lit', i < n);
+    }
+  }
+
+  function wireStars(form) {
+    var box = form.querySelector('.rc-rating');
+    if (!box) return;
+    var stars = box.querySelectorAll('.rc-star');
+    var repaint = function () {
+      var c = form.querySelector('[name="rating"]:checked');
+      paintStars(box, c ? parseInt(c.value, 10) : 0);
+    };
+    for (var i = 0; i < stars.length; i++) {
+      (function (idx) {
+        stars[idx].addEventListener('mouseenter', function () { paintStars(box, idx + 1); });
+        stars[idx].addEventListener('focusin', function () { paintStars(box, idx + 1); });
+      })(i);
+    }
+    box.addEventListener('mouseleave', repaint);
+    box.addEventListener('focusout', repaint);
+    form.addEventListener('change', function (e) {
+      if (e.target && e.target.name === 'rating') repaint();
+    });
+    repaint();
+  }
+
   function wire(form, t) {
     var msg = form.querySelector('[data-review-msg]');
     var btn = form.querySelector('.rc-submit');
+    wireStars(form);
     form.addEventListener('submit', async function (e) {
       e.preventDefault();
       var rating = form.querySelector('[name="rating"]:checked');

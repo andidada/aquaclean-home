@@ -107,6 +107,12 @@
       page_path: location.pathname,
       renderedAt: pageLoadAt
     };
+    // 中继此前加载失败（弱网/瞬时抖动）时，别让这次访问永远失去留评能力：
+    // 丢掉旧 iframe 重挂一次，给客户多一次机会。mount() 本身幂等。
+    if (frame && failed) {
+      try { frame.parentNode.removeChild(frame); } catch (e) { /* 已不在 DOM */ }
+      frame = null; ready = false; failed = false;
+    }
     mount();
     return whenReady().then(function (ok) {
       if (!ok) return { ok: false, skipped: true };
@@ -134,13 +140,38 @@
     relayUrl: RELAY_URL
   };
 
-  // 预热：页面加载就把中继挂上并等它握手。留评表单通常在页面下半部分，客户
-  // 要滚动过来、读完、填完再提交，那段时间足够中继 ready；如果等到点提交
-  // 才挂载，弱网下 iframe 首次拉后台域（cloud.js + SDK）会超时，客户第一次
-  // 提交就失败。
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', mount);
-  } else {
+  // 预热：不在页面加载时挂 iframe。首页是 HTTP/1.1、请求数即瓶颈，而绝大多数
+  // 访客根本不留评——为 1% 的提交让 100% 的访客多拉一个跨域 iframe（后台域
+  // cloud.js + SDK）不划算。改成「有留注意图才挂」：
+  //   · 焦点进入留评表单 / 输入内容 / 滚到留评区 → 挂载并等握手
+  //   · 客户从看到表单到提交通常有几十秒，足够中继 ready，弱网也不会首次超时
+  var prewarmed = false;
+  function prewarm() {
+    if (prewarmed) return;
+    prewarmed = true;
     mount();
+  }
+  function bindPrewarm() {
+    var scope = document.querySelector('.review-collect');
+    if (scope) {
+      scope.addEventListener('focusin', prewarm, true);
+      scope.addEventListener('pointerdown', prewarm, true);
+    }
+    if ('IntersectionObserver' in window) {
+      var io = new IntersectionObserver(function (entries) {
+        for (var i = 0; i < entries.length; i++) {
+          if (entries[i].isIntersecting) { prewarm(); io.disconnect(); return; }
+        }
+      }, { rootMargin: '300px' });
+      var target = scope || document.body;
+      io.observe(target);
+    } else {
+      prewarm();
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', bindPrewarm);
+  } else {
+    bindPrewarm();
   }
 })();
