@@ -85,7 +85,10 @@
       var el = form.querySelector('[name="' + KEYS[i] + '"]');
       if (el) p[KEYS[i]] = el.value || '';
     }
-    var rating = form.querySelector('[name="rating"]');
+    // 注意：必须取 :checked。querySelector('[name="rating"]') 返回的是第一个
+    // radio（值恒为 1），不是客户实际选中的那颗——那样所有人都会被记成 1 星。
+    var rating = form.querySelector('[name="rating"]:checked')
+      || form.querySelector('[name="rating"]');
     if (rating) p.rating = rating.value || '';
     return p;
   }
