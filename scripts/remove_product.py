@@ -51,13 +51,31 @@ def strip_product_from_data(path, pid):
     assert pid in ids, '%s 里没有 %s' % (path, pid)
 
     ps, pe = find_product_span(t, pid)
-    # 往前吃掉分隔符里的逗号（保留元素前的缩进空白，否则换行会塌一行）
-    i = ps
-    while i > 0 and t[i - 1] in ' \t\r\n':
-        i -= 1
-    if t[i - 1] == ',':
-        i -= 1
-    out = t[:i] + t[pe:]
+
+    # 判断是不是数组里的第一个元素：往回跳过空白，看是不是 '['
+    j = ps
+    while j > 0 and t[j - 1] in ' \t\r\n':
+        j -= 1
+    is_first = (t[j - 1] == '[')
+
+    if is_first:
+        # 第一个元素前面没有逗号可吃（前面是 '['），必须改吃它**后面**那个逗号，
+        # 否则留下 "[\n    , {...}]" 这种非法 JSON。
+        # （删 yzx-305 / 2604 / d09s / ymc6628 / qst063 时全踩这个。）
+        k = pe
+        while k < len(t) and t[k] in ' \t\r\n':
+            k += 1
+        if t[k:k + 1] == ',':
+            k += 1
+        out = t[:j] + t[k:]
+    else:
+        # 往前吃掉分隔符里的逗号（保留元素前的缩进空白，否则换行会塌一行）
+        i = ps
+        while i > 0 and t[i - 1] in ' \t\r\n':
+            i -= 1
+        if t[i - 1] == ',':
+            i -= 1
+        out = t[:i] + t[pe:]
 
     after = json.loads(out)
     assert [x['id'] for x in after['products']] == [x for x in ids if x != pid], \
@@ -119,7 +137,9 @@ def strip_from_category_page(path, cat, pid, products, lang):
     d = '%s-%s' % (cat, pid)
 
     # 1. 静态卡片：定位包含该产品链接的那张卡片整块删掉
-    card = find_block_containing(s, 'class="product-card"', '/%s/%s.html' % (lang, d))
+    # ⚠️ marker 只传类名：find_block_containing 内部会再套一层 `<div class="...">`，
+    #    传 'class="product-card"' 会拼出 <div class="class="product-card"">，永远匹配不到。
+    card = find_block_containing(s, 'product-card', '/%s/%s.html' % (lang, d))
     assert card, '%s 里找不到 %s 的卡片' % (path, d)
     a, b = card
     # 连同卡片后面的空行一起吃掉，别留下连续空行
@@ -138,7 +158,10 @@ def strip_from_category_page(path, cat, pid, products, lang):
     # 3. "N models in this category" / "该类目当前共 N 个型号"
     s, n = re.subn(r'\b\d+\s+models in this category', '%d models in this category' % total, s)
     s, m2 = re.subn(r'共 \d+ 个型号', '共 %d 个型号' % total, s)
-    assert n == 1 or m2 == 1, '找不到"N models in this category"/"共 N 个型号"'
+    # ⚠️ 只有 en / zh 有这句文案。另外 7 个语种是 gen_pages.py 从 en 模板克隆后
+    #    替换语言串生成的，这句没被翻译过去。所以"有则改、无则跳过"，不能 assert。
+    if n == 0 and m2 == 0:
+        print('     · %s 无"N models/共 N 个型号"文案，跳过' % path)
 
     # 4. ItemList：删掉这一条，然后按文档顺序把剩下的重排成 1..N
     il = re.search(r'(<script type="application/ld\+json">\s*\{\s*"@context": "https://schema\.org",\s*'
@@ -167,11 +190,15 @@ def strip_from_category_page(path, cat, pid, products, lang):
     s = s[:il.start(1)] + newblock + s[il.end(1):]
 
     # 5. 对比表：删掉这一行
-    row = re.search(r'[ \t]*<tr>[^\n]*?/%s/%s\.html.*?</tr>' % (lang, d), s, re.S)
-    assert row, '对比表里找不到 %s 的行' % d
-    r2 = row.group(0)
-    s = s.replace(r2, '', 1)
-    s = re.sub(r'(</tr>)\n\n+', r'\1\n', s, count=1)
+    # ⚠️ 对比表只存在于 ar/es/fr/id/ru/th/vi 这 7 个语种的品类页上，
+    #    en / zh 的品类页根本没有 <table>（实测 <tr> 数为 0）。有则删，无则跳过。
+    has_table = '<tr><td><a href="/%s/%s-' % (lang, cat) in s
+    if has_table:
+        row = re.search(r'[ \t]*<tr>[^\n]*?/%s/%s\.html.*?</tr>' % (lang, d), s, re.S)
+        assert row, '对比表里找不到 %s 的行' % d
+        r2 = row.group(0)
+        s = s.replace(r2, '', 1)
+        s = re.sub(r'(</tr>)\n\n+', r'\1\n', s, count=1)
 
     # ── 断言 ──────────────────────────────────────────────────────
     assert '/%s/%s.html' % (lang, d) not in s, '页面里还有 %s 的链接' % d
@@ -183,8 +210,11 @@ def strip_from_category_page(path, cat, pid, products, lang):
     pos = [int(x) for x in re.findall(r'"position": (\d+)', il3.group(0))]
     assert pos == list(range(1, total + 1)), 'ItemList position 不连续：%s' % pos
     # 只数数据行：<thead> 的 <tr> 也要算进去的话会永远多 1
-    row_n = len(re.findall(r'<tr><td><a href="/%s/%s-' % (re.escape(lang), re.escape(cat)), s))
-    assert row_n == total, '对比表数据行数 %d != 产品数 %d' % (row_n, total)
+    # 只数数据行：<thead> 的 <tr> 也要算进去的话会永远多 1
+    # （en / zh 没有对比表，只在表存在时才校验行数）
+    if has_table:
+        row_n = len(re.findall(r'<tr><td><a href="/%s/%s-' % (re.escape(lang), re.escape(cat)), s))
+        assert row_n == total, '对比表数据行数 %d != 产品数 %d' % (row_n, total)
     assert s.count('<section') == t.replace('\r\n', '\n').count('<section'), 'section 数变了'
     # JSON-LD 必须还能解析
     for mm in re.finditer(r'<script type="application/ld\+json">(.*?)</script>', s, re.S):
