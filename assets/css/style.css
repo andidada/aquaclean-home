@@ -168,8 +168,9 @@ body.lang-ar { direction: rtl; }
 .logo-icon {
   width: 36px;
   height: 36px;
-  background: var(--primary);
+  background: #fff;
   border-radius: 8px;
+  border: 1px solid var(--border);
   display: flex;
   align-items: center;
   justify-content: center;
