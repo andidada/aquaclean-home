@@ -380,7 +380,7 @@ body.lang-ar { direction: rtl; }
   box-shadow: var(--shadow-lg), 0 0 0 1px var(--primary-light);
 }
 .product-img-wrap {
-  aspect-ratio: 4/3;
+  aspect-ratio: 1/1;
   overflow: hidden;
   background: var(--bg-alt);
   position: relative;
