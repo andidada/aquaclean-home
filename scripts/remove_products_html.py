@@ -56,16 +56,17 @@ def main():
         dpath = os.path.join(ROOT, 'data', 'products', cat + '.json')
         now_ids = [p['id'] for p in json.loads(read(dpath))['products']]
         before = orig_ids(cat)
-        assert set(before) - set(now_ids) == set(pids), \
-            '%s：git 里的旧清单与当前清单之差 != 待删清单\n  旧=%s\n  今=%s\n  删=%s' \
-            % (cat, before, now_ids, pids)
         assert set(pids) <= set(before), '%s：待删的 %s 不在旧清单里' % (cat, pids)
+        gone = set(before) - set(now_ids)
+        assert gone <= set(pids), \
+            '%s：数据里少了不在待删清单里的产品 %s' % (cat, sorted(gone - set(pids)))
 
-        # 逐步推进：每一步摘除后的期望剩余顺序
+        # 逐步推进：每一步摘除后的期望剩余顺序（幂等：已不在就跳过）
         cur = list(before)
         steps = []
         for pid in pids:
-            cur.remove(pid)
+            if pid in cur:
+                cur.remove(pid)
             steps.append((pid, [{'id': i, '_cat': cat} for i in cur]))
 
         # 摘除要连续作用在同一次结果上。apply 时直接改真实文件；
@@ -86,6 +87,10 @@ def main():
         for pid, expect in steps:
             # 1) en / zh 类目页
             for lang, path in work.items():
+                # 幂等：链接已经不在页面上就跳过（Bash 工具沙箱升级会重复执行
+                # 同一条命令，第二遍再摘会"找不到卡片"）
+                if '/%s/%s-%s.html' % (lang, cat, pid) not in read(path):
+                    continue
                 try:
                     new = strip_from_category_page(path, cat, pid, expect, lang)
                 except Exception as e:

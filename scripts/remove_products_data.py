@@ -41,13 +41,18 @@ def strip_chain(dpath, pids, apply):
         work = dpath
 
     for pid in pids:
-        assert pid in ids0, '%s 里没有 %s' % (dpath, pid)
+        cur = [p['id'] for p in json.loads(text)['products']]
+        if pid not in cur:
+            # 幂等：已经摘掉了就跳过（Bash 工具在沙箱升级时会重复执行同一条命令，
+            # 第二遍再跑时产品已经不在了，不能报错）
+            print('    · %s 已不存在，跳过' % pid)
+            continue
         text = strip_product_from_data(work, pid)      # 读文件、返回新文本
         io.open(work, 'w', encoding='utf-8', newline='').write(text)
 
     ids1 = [p['id'] for p in json.loads(text)['products']]
-    assert ids1 == [i for i in ids0 if i not in pids], \
-        '删除后清单不对：%s -> %s' % (ids0, ids1)
+    want = [i for i in ids0 if i not in pids]
+    assert ids1 == want, '删除后清单不对：\n  期望=%s\n  实际=%s' % (want, ids1)
     return text, ids0, ids1
 
 
