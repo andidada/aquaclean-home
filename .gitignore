@@ -33,3 +33,6 @@ __pycache__/
 scraped/bigscript/
 scraped/inspect/
 scraped/.staging/
+
+# Alibaba detail-layout reference screenshots (local working artifacts)
+scraped/detail-layout/

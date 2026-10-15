@@ -13,12 +13,11 @@
 .d-breadcrumb .sep { color: #CBD5E1; }
 
 /* ---------- Main two-column layout ---------- */
-/* align-items 从 start 改为 stretch：左列（图集+描述）比右列（购买框）矮时，
-   图集会自动长高补齐，不再在图集下方留一大块空白。
-   右列保持 align-self:start + sticky，吸顶行为不变。 */
-.d-layout { max-width: var(--container); margin: 0 auto; padding: 32px 24px; display: grid; grid-template-columns: 52% 1fr; gap: 40px; align-items: stretch; }
+/* align-items:start + 右列 sticky ── 列高不齐由左列内容（描述/属性卡）负责补，
+   绝不能靠拉伸图集来补（那会把 1:1 的主图框拉成竖长条，照片上下留大白边）。 */
+.d-layout { max-width: var(--container); margin: 0 auto; padding: 32px 24px; display: grid; grid-template-columns: 52% 1fr; gap: 40px; align-items: start; }
 
-/* ---------- Left column: gallery + description ---------- */
+/* ---------- Left column: gallery + description + attributes ---------- */
 .d-left { display: flex; flex-direction: column; gap: 20px; min-width: 0; }
 .d-desc-side { background: #fff; border: 1px solid var(--border); border-radius: 16px; padding: 20px 24px 22px; box-shadow: var(--shadow); }
 .d-desc-side .d-sec-label { margin-bottom: 4px; }
@@ -26,17 +25,30 @@
 .d-desc-side .d-desc-text { max-width: none; font-size: 14.5px; line-height: 1.85; }
 .d-desc-side .d-desc-img { margin-top: 14px; }
 
-/* ---------- Image gallery (Alibaba: vertical thumbs left, main right) ---------- */
-/* flex:1 1 auto + align-items:stretch —— 左列被拉伸时图集跟着长高，
-   主图框随之上移补齐，图片本身 object-fit:contain 居中不变形。 */
-.d-gallery { position: relative; display: flex; gap: 14px; align-items: stretch; flex: 1 1 auto; }
-.d-gallery-thumbs { flex: 0 0 80px; display: flex; flex-direction: column; gap: 10px; max-height: 560px; overflow-y: auto; padding-right: 2px; }
+/* 关键属性卡（左列，补高度用）*/
+.d-attr-card { background: #fff; border: 1px solid var(--border); border-radius: 16px; padding: 20px 24px 16px; box-shadow: var(--shadow); }
+.d-attr-list { display: flex; flex-direction: column; }
+.d-attr-row { display: flex; justify-content: space-between; align-items: baseline; gap: 14px; padding: 8px 0; border-bottom: 1px dashed var(--border); font-size: 13.5px; }
+.d-attr-row:last-child { border-bottom: none; }
+.d-attr-row .k { color: var(--text-muted); font-weight: 500; flex-shrink: 0; }
+.d-attr-row .k::before { content: ''; display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: var(--primary); margin-right: 8px; vertical-align: middle; }
+.d-attr-row .v { color: var(--secondary); font-weight: 600; text-align: right; }
+.d-attr-more { display: inline-block; margin-top: 10px; font-size: 13px; font-weight: 700; color: var(--primary); text-decoration: none; }
+.d-attr-more:hover { text-decoration: underline; }
+
+/* ---------- Image gallery (Alibaba: vertical thumbs left, square main image) ---------- */
+/* flex:0 0 auto —— 不拉伸、不压缩。主图恒为 1:1 正方形（= 列宽 - 缩略图列），
+   照片 object-fit:contain 铺满且不变形；列高不齐由左列其它卡片负责。 */
+.d-gallery { position: relative; display: flex; gap: 14px; align-items: flex-start; flex: 0 0 auto; }
+.d-gallery-thumbs { flex: 0 0 68px; display: flex; flex-direction: column; gap: 10px; max-height: 520px; overflow-y: auto; padding-right: 2px; scrollbar-width: thin; }
 .d-gallery-thumb { border-radius: 10px; overflow: hidden; border: 2px solid transparent; cursor: pointer; aspect-ratio: 1; background: var(--bg-alt); transition: var(--transition); display: flex; align-items: center; justify-content: center; padding: 4px; flex-shrink: 0; }
 .d-gallery-thumb img { width: 100%; height: 100%; object-fit: contain; }
 .d-gallery-thumb.active, .d-gallery-thumb:hover { border-color: var(--primary); }
-.d-gallery-thumb.video-thumb { background: var(--bg-dark); color: #fff; font-size: 22px; }
-.d-gallery-main { flex: 1; position: relative; border-radius: 16px; overflow: hidden; background: #fff; border: 1px solid var(--border); min-height: 480px; aspect-ratio: 1; display: flex; align-items: center; justify-content: center; box-shadow: var(--shadow); }
-.d-gallery-main img { width: 100%; height: 100%; object-fit: contain; }
+.d-gallery-thumb.video-thumb { background: var(--bg-dark); color: #fff; font-size: 20px; }
+.d-gallery-main { flex: 1 1 auto; position: relative; border-radius: 16px; overflow: hidden; background: #fff; border: 1px solid var(--border); aspect-ratio: 1; display: flex; align-items: center; justify-content: center; box-shadow: var(--shadow); cursor: zoom-in; }
+.d-gallery-main img { width: 100%; height: 100%; object-fit: contain; transition: transform .18s ease; will-change: transform; }
+.d-gallery-main.zooming img { transition: none; }
+.d-gallery-count { position: absolute; left: 12px; bottom: 12px; background: rgba(15,23,42,.62); color: #fff; font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 100px; letter-spacing: .02em; }
 .d-gallery-zoom { position: absolute; right: 12px; bottom: 12px; width: 34px; height: 34px; border-radius: 8px; background: rgba(255,255,255,0.92); border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; font-size: 16px; color: var(--text-muted); cursor: pointer; }
 .d-gallery-video { position: absolute; inset: 0; display: none; background: #0F172A; align-items: center; justify-content: center; }
 .d-gallery-video.show { display: flex; }
@@ -191,12 +203,13 @@
 /* Responsive */
 @media (max-width: 960px) {
   .d-layout { grid-template-columns: 1fr; gap: 28px; }
+  /* 窄屏：主图在上、缩略图条在下（与阿里移动端一致），主图仍是正方形 */
   .d-gallery { flex-direction: column-reverse; }
-  .d-gallery-thumbs { flex-direction: row; flex: none; width: 100%; max-height: none; overflow-x: auto; }
+  .d-gallery-thumbs { flex-direction: row; flex: none; width: 100%; max-height: none; overflow-x: auto; overflow-y: hidden; }
   /* 缩略图必须给定尺寸：否则 aspect-ratio:1 + flex-shrink:0 会取原图固有宽度，
      每张被撑到 1200px+，缩略图条变成一块 1200px 高的巨块（实测）。 */
   .d-gallery-thumb { flex: 0 0 64px; width: 64px; height: 64px; }
-  .d-gallery-main { min-height: 360px; }
+  .d-gallery-main { cursor: default; }
   .d-price-cards { grid-template-columns: 1fr; }
   .d-info { position: static; }
   .d-supplier { grid-template-columns: 1fr; text-align: center; }

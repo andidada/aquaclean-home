@@ -235,19 +235,20 @@
     html += '</div></div>';
 
     // ===== MAIN LAYOUT =====
-    // 左列 = 图集 + 详细描述。以前左列只有图集，而右列（购买框）高得多，
-    // align-items:start 让左列下方留出一大块空白（用户圈出来投诉的那块）。
-    // 现在描述搬进左列，且 .d-layout 改为 stretch —— 左列比右列矮时图集会
-    // 自动长高补齐，右列 sticky 吸顶照常工作。
+    // 左列 = 图集 + 详细描述 + 关键属性；右列 = 购买信息（sticky）。
+    // ⚠️ 图集绝不能拉伸：.d-gallery-main 是 1:1 正方形，一旦被
+    //    flex-grow/align-items:stretch 拉高，照片（正方形）就会被
+    //    上下各留 250px 白边 —— 主图看着很小、框里一大片空（2026-10-15 修）。
+    //    左列与右列的高度差改由「关键属性卡片」补齐，而不是把主图撑长。
     html += '<div class="d-layout">';
     html += '<div class="d-left">';
 
-    // --- Gallery (Alibaba style: vertical thumbs left, main image right) ---
+    // --- Gallery (Alibaba style: vertical thumbs left, square main image) ---
     html += '<div class="d-gallery">';
     if (images.length > 1 || hasVideo) {
       html += '<div class="d-gallery-thumbs">';
       for (var gi = 0; gi < images.length; gi++) {
-        html += '<div class="d-gallery-thumb' + (gi === 0 ? ' active' : '') + '" data-idx="' + gi + '"><img src="' + esc(localImg(images[gi])) + '" alt=""></div>';
+        html += '<div class="d-gallery-thumb' + (gi === 0 ? ' active' : '') + '" data-idx="' + gi + '"><img src="' + esc(localImg(images[gi])) + '" alt="" loading="lazy"></div>';
       }
       if (hasVideo) {
         html += '<div class="d-gallery-thumb video-thumb" data-video="1">▶</div>';
@@ -260,6 +261,9 @@
     } else {
       html += '<div class="d-loading">' + esc(ui.noImage) + '</div>';
     }
+    if (images.length > 1) {
+      html += '<span class="d-gallery-count" id="aqc-gallery-count">1/' + images.length + '</span>';
+    }
     html += '<span class="d-gallery-zoom" id="aqc-zoom">⤢</span>';
     if (hasVideo) {
       html += '<div class="d-gallery-video" id="aqc-video-box"><video id="aqc-video" controls playsinline></video></div>';
@@ -267,7 +271,7 @@
     html += '</div>';
     html += '</div>'; // .d-gallery
 
-    // --- Description（挪进左列：原来在下方通栏，左列图集下面是一块大空白）---
+    // --- Description（阿里巴巴把「Detailed Description」放在主图正下方）---
     var descText = pick(product.description, state.lang);
     var descImg = product.description_image || '';
     if (descText || descImg) {
@@ -276,6 +280,22 @@
       html += '<h2 class="d-desc-title">' + esc(ui.description) + '</h2>';
       html += '<div class="d-desc-text">' + esc(descText).replace(/\n/g, '<br>') + '</div>';
       if (descImg) html += '<img class="d-desc-img" src="' + esc(localImg(descImg)) + '" alt="' + esc(pick(product.name, state.lang)) + '">';
+      html += '</div>';
+    }
+
+    // --- Key attributes（补在左列：右列（购买框）比图集高时左列不留空）---
+    // 行数先全部渲染，真正的显示行数由 balanceColumns() 按实测差值决定。
+    if (specs.length) {
+      var showAll = Math.min(specs.length, 16);
+      html += '<div class="d-attr-card">';
+      html += '<h2 class="d-desc-title">' + esc(ui.specs) + '</h2>';
+      html += '<div class="d-attr-list">';
+      for (var aci = 0; aci < showAll; aci++) {
+        html += '<div class="d-attr-row"><span class="k">' + esc(pick(specs[aci].label, state.lang)) + '</span>'
+          + '<span class="v">' + esc(pick(specs[aci].value, state.lang)) + '</span></div>';
+      }
+      html += '</div>';
+      html += '<a class="d-attr-more" href="#aqc-attributes">' + esc(ui.viewAll) + ' →</a>';
       html += '</div>';
     }
 
@@ -404,7 +424,7 @@
 
     // ===== KEY ATTRIBUTES =====
     if (specs.length) {
-      html += '<div class="d-section"><div class="d-section-inner">';
+      html += '<div class="d-section" id="aqc-attributes"><div class="d-section-inner">';
       html += '<span class="d-sec-label">' + esc(ui.specs) + '</span>';
       html += '<h2 class="d-sec-title">' + esc(ui.specs) + '</h2>';
       html += '<div class="d-attr-grid">';
@@ -571,7 +591,75 @@
     mount.innerHTML = html;
 
     // ---------- Wire events ----------
+    // 缩略图列的高度对齐主图（Alibaba 也是这么做的）：主图是 1:1 正方形，
+    // 高度随列宽变化，光靠 CSS 定不了；缩略图多于可视高度时列内滚动。
+    function syncThumbs() {
+      var box = $('#aqc-gallery-main', mount);
+      var col = $('.d-gallery-thumbs', mount);
+      if (!box || !col) return;
+      if (window.innerWidth > 960) {
+        col.style.maxHeight = box.offsetHeight + 'px';
+      } else {
+        col.style.maxHeight = '';   // 窄屏是横向缩略图条，不能限高
+      }
+    }
+    syncThumbs();
+
+    // 左右列配平：右列（购买框）随产品浮动很大（实测 588 ~ 1271px），左列
+    // （图集 + 描述）比较固定。按实测差值决定属性卡显示几行，把落差压到最小；
+    // 差得不够多就整卡不显示（宁可留一点白，也不要左列比右列长出一大截）。
+    var attrCard = $('.d-attr-card', mount);
+    var attrRows = $$('.d-attr-row', mount);
+    var attrMore = $('.d-attr-more', mount);
+    function balanceColumns() {
+      if (!attrCard || !attrRows.length) return;
+      // 窄屏是单列堆叠，不存在左右列落差；属性卡只在桌面端补高度用，
+      // 移动端隐藏它（下面本来就有完整的 Key Attributes 区块，避免重复）。
+      if (window.innerWidth <= 960) { attrCard.style.display = 'none'; return; }
+      var col = $('.d-left', mount), box = $('.d-info', mount);
+      if (!col || !box) return;
+      attrCard.style.display = '';
+      for (var a = 0; a < attrRows.length; a++) attrRows[a].style.display = '';
+      if (attrMore) attrMore.style.display = '';
+      var rowH = attrRows[0].offsetHeight || 37;
+      var fullH = attrCard.offsetHeight;
+      attrCard.style.display = 'none';
+      var base = col.offsetHeight;
+      var need = box.offsetHeight - base;
+      if (need < 240) return;                       // 右列不够高，不补
+      attrCard.style.display = '';
+      var chrome = fullH - attrRows.length * rowH;  // 标题 + 内边距 + 链接
+      var n = Math.floor((need - 20 - chrome) / rowH);
+      n = Math.max(0, Math.min(attrRows.length, n));
+      if (n < 3) { attrCard.style.display = 'none'; return; }
+      for (var b = 0; b < attrRows.length; b++) attrRows[b].style.display = (b < n) ? '' : 'none';
+      if (attrMore) attrMore.style.display = (specs.length > n) ? '' : 'none';
+    }
+    balanceColumns();
+    window.addEventListener('resize', function () { syncThumbs(); balanceColumns(); });
+
+    // 悬停放大（Alibaba 主图的标志性交互）：放大原点跟随光标
+    var mainBox = $('#aqc-gallery-main', mount);
+    var mainPic = $('#aqc-main-img', mount);
+    if (mainBox && mainPic) {
+      mainBox.addEventListener('mousemove', function (e) {
+        if (!mainPic.getAttribute('src')) return;
+        var r = mainBox.getBoundingClientRect();
+        if (!r.width || !r.height) return;
+        var px = ((e.clientX - r.left) / r.width) * 100;
+        var py = ((e.clientY - r.top) / r.height) * 100;
+        mainPic.style.transformOrigin = px + '% ' + py + '%';
+        mainPic.style.transform = 'scale(2)';
+        mainBox.classList.add('zooming');
+      });
+      mainBox.addEventListener('mouseleave', function () {
+        mainPic.style.transform = '';
+        mainBox.classList.remove('zooming');
+      });
+    }
+
     // Gallery thumbs
+    var cntEl = $('#aqc-gallery-count', mount);
     $$('.d-gallery-thumb', mount).forEach(function (th) {
       th.addEventListener('click', function () {
         $$('.d-gallery-thumb', mount).forEach(function (x) { x.classList.remove('active'); });
@@ -588,6 +676,7 @@
         } else {
           if (videoBox) { videoBox.classList.remove('show'); var vid2 = $('#aqc-video', mount); if (vid2) vid2.pause(); }
           if (mainImg) { mainImg.style.display = ''; mainImg.src = th.querySelector('img').src; }
+          if (cntEl) cntEl.textContent = (parseInt(th.dataset.idx, 10) + 1) + '/' + images.length;
         }
       });
     });
