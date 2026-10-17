@@ -659,7 +659,7 @@ def rebuild_navbar(doc, lang, i18n):
     nav = f'''<nav class="navbar">
   <div class="navbar-inner">
     <a href="{locale_link(lang)}" class="logo">
-      <div class="logo-icon">\U0001F3E0</div>
+      <div class="logo-icon">&nbsp;</div>
       <span>{esc(n['brand'])}</span>
     </a>
     <ul class="nav-links">
