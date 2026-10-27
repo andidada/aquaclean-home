@@ -613,5 +613,17 @@
  "Smart Window Cleaner Robot": "Robot Limpiacristales Inteligente",
  "Automatic window cleaning robots with AI navigation and safety sensors. Clean glass, tiles, and mirrors. UPS battery backup prevents falls. 4 min/m2 cleaning speed.": "Robots limpiacristales automáticos con navegación por IA y sensores de seguridad. Limpian cristales, azulejos y espejos. La batería de respaldo UPS evita caídas. Velocidad de limpieza de 4 min/m².",
  "pcs": "uds.",
- "/ pc": "/ ud."
+ "/ pc": "/ ud.",
+ "guideTitle": {
+  "Motor & Suction": "Motor y succión",
+  "Self-Propelled Roller Brush": "Cepillo autopropulsado",
+  "Dual-Tank System": "Sistema de doble depósito",
+  "Wet & Dry Capability": "Capacidad húmedo y seco"
+ },
+ "specNote": {
+  "Motor & Suction": "Un motor sin escobillas de 230W con 110AW de succión elimina la suciedad incrustada manteniendo un bajo nivel de ruido.",
+  "Self-Propelled Roller Brush": "El cepillo impulsa la máquina hacia delante: una pasada aspira, lava y seca.",
+  "Dual-Tank System": "Depósitos de agua limpia y sucia separados: siempre se friega con agua fresca.",
+  "Wet & Dry Capability": "Recoge residuos secos y líquidos en la misma pasada."
+ }
 }

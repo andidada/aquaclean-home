@@ -613,5 +613,17 @@
  "Smart Window Cleaner Robot": "หุ่นยนต์ทำความสะอาดกระจกอัจฉริยะ",
  "Automatic window cleaning robots with AI navigation and safety sensors. Clean glass, tiles, and mirrors. UPS battery backup prevents falls. 4 min/m2 cleaning speed.": "หุ่นยนต์ทำความสะอาดกระจกอัตโนมัติพร้อมการนำทางด้วย AI และเซ็นเซอร์ความปลอดภัย ทำความสะอาดกระจก กระเบื้อง และกระจกเงา แบตเตอรี่สำรอง UPS ป้องกันการร่วงหล่น ความเร็วในการทำความสะอาด 4 นาที/ตร.ม.",
  "pcs": "ชิ้น",
- "/ pc": "/ ชิ้น"
+ "/ pc": "/ ชิ้น",
+ "guideTitle": {
+  "Motor & Suction": "มอเตอร์และแรงดูด",
+  "Self-Propelled Roller Brush": "แปรงขับเคลื่อนอัตโนมัติ",
+  "Dual-Tank System": "ระบบถังคู่",
+  "Wet & Dry Capability": "ใช้ได้ทั้งเปียกและแห้ง"
+ },
+ "specNote": {
+  "Motor & Suction": "มอเตอร์ไร้แปรง 230W แรงดูด 110AW ขจัดคราบฝังลึกโดยเงียบ",
+  "Self-Propelled Roller Brush": "แปรงดันเครื่องเดินหน้า ผ่านรอบเดียวดูด ล้าง และเช็ด",
+  "Dual-Tank System": "ถังน้ำสะอาดและน้ำสกปรกแยกกัน เช็ดด้วยน้ำสะอาดเสมอ",
+  "Wet & Dry Capability": "รองรับขยะแห้งและของเหลวหกรั่วในรอบเดียว"
+ }
 }

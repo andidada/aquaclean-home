@@ -236,5 +236,32 @@
    "values": "100ml",
    "explain": "Tank capacity sets how long a session runs before a refill."
   }
+ ],
+ "handheld-floor-scrubber": [
+  {
+   "title": "Motor & Suction",
+   "values": "230W · 110AW",
+   "explain": "A 230W brushless motor with 110AW suction lifts embedded dirt while staying quiet."
+  },
+  {
+   "title": "Self-Propelled Roller Brush",
+   "values": "Self-propelled",
+   "explain": "The roller brush drives the machine forward — one pass vacuums, washes and dries."
+  },
+  {
+   "title": "Dual-Tank System",
+   "values": "0.8L",
+   "explain": "Separate clean and dirty water tanks keep fresh water apart from wastewater."
+  },
+  {
+   "title": "Runtime",
+   "values": "30–60 min",
+   "explain": "One charge covers a full apartment; check whether the battery is removable."
+  },
+  {
+   "title": "Wet & Dry Capability",
+   "values": "Wet & Dry",
+   "explain": "Handles dry debris and liquid spills in the same pass."
+  }
  ]
 }

@@ -613,5 +613,17 @@
  "Smart Window Cleaner Robot": "Robot lau kính thông minh",
  "Automatic window cleaning robots with AI navigation and safety sensors. Clean glass, tiles, and mirrors. UPS battery backup prevents falls. 4 min/m2 cleaning speed.": "Robot lau kính tự động với điều hướng AI và cảm biến an toàn. Làm sạch kính, gạch và gương. Pin dự phòng UPS ngăn rơi. Tốc độ làm sạch 4 phút/m².",
  "pcs": "cái",
- "/ pc": "/ cái"
+ "/ pc": "/ cái",
+ "guideTitle": {
+  "Motor & Suction": "Động cơ & lực hút",
+  "Self-Propelled Roller Brush": "Bàn chải tự dẫn động",
+  "Dual-Tank System": "Hệ thống két nước đôi",
+  "Wet & Dry Capability": "Khả năng ướt & khô"
+ },
+ "specNote": {
+  "Motor & Suction": "Động cơ không chổi than 230W, lực hút 110AW, loại bỏ bụi bám cứng vẫn êm ái.",
+  "Self-Propelled Roller Brush": "Bàn chải đẩy máy tiến về trước — một lượt hút, rửa và làm khô.",
+  "Dual-Tank System": "Két nước sạch và nước bẩn riêng biệt — luôn lau bằng nước sạch.",
+  "Wet & Dry Capability": "Xử lý rác khô và nước đổ ra trong cùng một lượt."
+ }
 }

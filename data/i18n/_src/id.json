@@ -613,5 +613,17 @@
  "Smart Window Cleaner Robot": "Robot Pembersih Jendela Cerdas",
  "Automatic window cleaning robots with AI navigation and safety sensors. Clean glass, tiles, and mirrors. UPS battery backup prevents falls. 4 min/m2 cleaning speed.": "Robot pembersih jendela otomatis dengan navigasi AI dan sensor keselamatan. Membersihkan kaca, ubin, dan cermin. Cadangan baterai UPS mencegah terjatuh. Kecepatan pembersihan 4 menit/m2.",
  "pcs": "pcs",
- "/ pc": "/ pcs"
+ "/ pc": "/ pcs",
+ "guideTitle": {
+  "Motor & Suction": "Motor & Hisapan",
+  "Self-Propelled Roller Brush": "Sikat Self-Propelled",
+  "Dual-Tank System": "Sistem Tangki Ganda",
+  "Wet & Dry Capability": "Kemampuan Basah & Kering"
+ },
+ "specNote": {
+  "Motor & Suction": "Motor brushless 230W dengan hisapan 110AW mengangkat kotoran membandel tetap senyap.",
+  "Self-Propelled Roller Brush": "Sikat mendorong mesin ke depan — sekali lintasan menyedot, mencuci, dan mengeringkan.",
+  "Dual-Tank System": "Tangki air bersih dan kotor terpisah — selalu mengepel dengan air bersih.",
+  "Wet & Dry Capability": "Menangani kotoran kering dan tumpahan cairan dalam satu lintasan."
+ }
 }

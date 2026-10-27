@@ -156,6 +156,16 @@
    "heroTitle": "Smart Window Cleaner Robot",
    "heroP": "Automatic window cleaning robots with AI navigation and safety sensors. Clean glass, tiles, and mirrors. UPS battery backup prevents falls. 4 min/m2 cleaning speed.",
    "hasRelated": true
+  },
+  "handheld-floor-scrubber": {
+   "whyTitle": "Why Choose Our Handheld Floor Scrubbers?",
+   "countSub": "1 model in this category right now — see the table below for MOQ, indicative FOB price and key specifications.",
+   "guideTitle": "How to Choose a Handheld Floor Scrubber",
+   "oemTitle": "Need OEM / ODM for Floor Scrubbers?",
+   "oemSub": "Custom logo, colour and packaging · samples 7–14 days · production 25–35 days",
+   "heroTitle": "Handheld Floor Scrubber",
+   "heroP": "Cordless wet & dry floor scrubbers with self-propelled roller brush. Vacuums, washes and dries hard floors in one pass — a 5-in-1 cleaning system for homes and commercial spaces.",
+   "hasRelated": true
   }
  },
  "detail": {
@@ -498,7 +508,11 @@
   "private mold": "Compare this figure across the models listed below before choosing.",
   "product net weight": "Weight decides whether the tool is actually used for a full room or mattress.",
   "pump pressure bars": "For home espresso, pressure stability during extraction matters more than the peak bar rating.",
-  "suction power (airwatts)": "Air watts (AW) show usable suction after losses — read it next to the maximum Pa figure."
+  "suction power (airwatts)": "Air watts (AW) show usable suction after losses — read it next to the maximum Pa figure.",
+  "Motor & Suction": "A 230W brushless motor with 110AW suction lifts embedded dirt while staying quiet.",
+  "Self-Propelled Roller Brush": "The roller brush drives the machine forward — one pass vacuums, washes and dries.",
+  "Dual-Tank System": "Separate clean and dirty water tanks keep fresh water apart from wastewater.",
+  "Wet & Dry Capability": "Handles dry debris and liquid spills in the same pass."
  },
  "moqUnit": "pcs",
  "specValue": {
@@ -946,7 +960,11 @@
   "function": "Function",
   "filter": "Filter",
   "dust box capacity (l)": "Dust Box Capacity (L)",
-  "private mold": "Private Mould"
+  "private mold": "Private Mould",
+  "Motor & Suction": "Motor & Suction",
+  "Self-Propelled Roller Brush": "Self-Propelled Roller Brush",
+  "Dual-Tank System": "Dual-Tank System",
+  "Wet & Dry Capability": "Wet & Dry Capability"
  },
  "guideValues": {
   "Up to 4 cups": "Up to 4 cups",

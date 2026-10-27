@@ -616,7 +616,11 @@
   "function": "fungsi",
   "filter": "filter",
   "dust box capacity (l)": "kapasitas wadah debu (l)",
-  "private mold": "cetakan sendiri"
+  "private mold": "cetakan sendiri",
+  "Motor & Suction": "Motor & Hisapan",
+  "Self-Propelled Roller Brush": "Sikat Self-Propelled",
+  "Dual-Tank System": "Sistem Tangki Ganda",
+  "Wet & Dry Capability": "Kemampuan Basah & Kering"
  },
  "guideValues": {
   "Up to 4 cups": "Hingga 4 cangkir",
@@ -865,7 +869,11 @@
   "private mold": "Bandingkan angka ini antar model yang tercantum di bawah sebelum memilih.",
   "product net weight": "Berat menentukan apakah alat benar-benar dipakai untuk satu ruangan penuh atau kasur.",
   "pump pressure bars": "Untuk espresso rumahan, kestabilan tekanan saat ekstraksi lebih penting daripada puncak bar.",
-  "suction power (airwatts)": "Air watts (AW) menunjukkan hisapan terpakai setelah kerugian — bacalah di samping angka Pa maksimum."
+  "suction power (airwatts)": "Air watts (AW) menunjukkan hisapan terpakai setelah kerugian — bacalah di samping angka Pa maksimum.",
+  "Motor & Suction": "Motor brushless 230W dengan hisapan 110AW mengangkat kotoran membandel tetap senyap.",
+  "Self-Propelled Roller Brush": "Sikat mendorong mesin ke depan — sekali lintasan menyedot, mencuci, dan mengeringkan.",
+  "Dual-Tank System": "Tangki air bersih dan kotor terpisah — selalu mengepel dengan air bersih.",
+  "Wet & Dry Capability": "Menangani kotoran kering dan tumpahan cairan dalam satu lintasan."
  },
  "categoryPage": {
   "car-vacuum": {
@@ -956,6 +964,16 @@
    "oemSub": "",
    "heroTitle": "Robot Pembersih Jendela Cerdas",
    "heroP": "Robot pembersih jendela otomatis dengan navigasi AI dan sensor keselamatan. Membersihkan kaca, ubin, dan cermin. Cadangan baterai UPS mencegah terjatuh. Kecepatan pembersihan 4 menit/m2.",
+   "hasRelated": true
+  },
+  "handheld-floor-scrubber": {
+   "whyTitle": "Mengapa Memilih Mesin Scrubber Lantai Genggam Kami?",
+   "countSub": "1 model dalam kategori ini saat ini — lihat tabel di bawah untuk MOQ, harga FOB indikatif, dan spesifikasi utama.",
+   "guideTitle": "Cara Memilih Mesin Scrubber Lantai Genggam",
+   "oemTitle": "Butuh OEM / ODM untuk Mesin Scrubber Lantai?",
+   "oemSub": "Logo, warna, dan kemasan kustom · sampel 7–14 hari · produksi 25–35 hari",
+   "heroTitle": "Mesin Scrubber Lantai Genggam",
+   "heroP": "Mesin scrubber lantai nirkabel basah & kering dengan sikat self-propelled. Menyedot, mencuci, dan mengeringkan lantai keras dalam sekali lintasan.",
    "hasRelated": true
   }
  },

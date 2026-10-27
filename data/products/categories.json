@@ -242,6 +242,33 @@
    },
    "banner_image": "https://www.hkdmj.net/assets/images/products/09-steam-mop.webp",
    "order": 9
+  },
+  {
+   "slug": "handheld-floor-scrubber",
+   "name": {
+    "en": "Handheld Floor Scrubber",
+    "zh": "手持洗地机",
+    "ar": "مكنسة أرضيات محمولة",
+    "es": "Fregadora de Suelos de Mano",
+    "fr": "Autolaveuse Portative",
+    "id": "Mesin Scrubber Lantai Genggam",
+    "ru": "Ручная поломоечная машина",
+    "th": "เครื่องขัดพื้นแบบมือถือ",
+    "vi": "Máy Chà Sàn Cầm Tay"
+   },
+   "description": {
+    "en": "Cordless wet & dry floor scrubbers with self-propelled roller brush. Vacuums, washes and dries hard floors in one pass — a 5-in-1 cleaning system for homes and commercial spaces.",
+    "zh": "无线洗地机，自带自驱滚刷，吸、洗、拖、擦一步到位，干湿垃圾同时处理，适合家庭与商用场景。",
+    "ar": "مكنسات أرضيات لاسلكية تعمل بشكل جاف ورطب مع فرشاة ذاتية الدفع. تمتص و تغسل و تجفف الأرضيات الصلبة في تمريرة واحدة.",
+    "es": "Fregadoras de suelo inalámbricas húmedo y seco con cepillo autopropulsado. Aspiran, fregan y secan suelos duros en una sola pasada.",
+    "fr": "Autolaveuses sans fil wet & dry à brosse autopropulsée. Aspirent, lavent et sèchent les sols durs en un seul passage.",
+    "id": "Mesin scrubber lantai nirkabel basah & kering dengan sikat self-propelled. Menyedot, mencuci, dan mengeringkan lantai keras dalam sekali lintasan.",
+    "ru": "Беспроводные поломоечные машины wet & dry с самодействующей щёткой. Пылесосят, моют и высушивают твёрдые полы за один проход.",
+    "th": "เครื่องขัดพื้นไร้สายแบบเปียกและแห้งพร้อมแปรงขับเคลื่อนอัตโนมัติ ดูด ล้าง และเช็ดพื้นแข็งได้ในรอบเดียว",
+    "vi": "Máy chà sàn không dây wet & dry với bàn chải tự dẫn động. Hút, rửa và làm khô sàn cứng chỉ trong một lượt."
+   },
+   "banner_image": "https://www.hkdmj.net/assets/images/products/17-handheld-floor-scrubber.webp",
+   "order": 10
   }
  ]
 }

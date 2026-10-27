@@ -31,7 +31,7 @@ import argparse, html as htmlmod, json, os, re, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = 'en'
 
-CATS = ['car-vacuum', 'coffee-machine', 'handheld-vacuum', 'robot-vacuum', 'steam-cleaner',
+CATS = ['car-vacuum', 'coffee-machine', 'handheld-floor-scrubber', 'handheld-vacuum', 'robot-vacuum', 'steam-cleaner',
         'tire-inflator', 'upright-steam-mop', 'uv-mite-remover', 'window-cleaner-robot']
 
 LANGMETA = {

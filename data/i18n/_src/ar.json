@@ -613,5 +613,17 @@
  "Smart Window Cleaner Robot": "روبوت تنظيف نوافذ ذكي",
  "Automatic window cleaning robots with AI navigation and safety sensors. Clean glass, tiles, and mirrors. UPS battery backup prevents falls. 4 min/m2 cleaning speed.": "روبوتات تنظيف نوافذ تلقائية بملاحة بالذكاء الاصطناعي ومستشعرات أمان. تنظّف الزجاج والبلاط والمرايا. بطارية احتياطية UPS تمنع السقوط. سرعة تنظيف 4 min/m2.",
  "pcs": "قطعة",
- "/ pc": "/ قطعة"
+ "/ pc": "/ قطعة",
+ "guideTitle": {
+  "Motor & Suction": "المحرك والشفط",
+  "Self-Propelled Roller Brush": "فرشاة ذاتية الدفع",
+  "Dual-Tank System": "نظام الخزان المزدوج",
+  "Wet & Dry Capability": "القدرة على التنظيف الجاف والرطب"
+ },
+ "specNote": {
+  "Motor & Suction": "محرك بدون فرش 230 واط بشفط 110AW يزيل الأوساخ العنيدة بصوت هادئ.",
+  "Self-Propelled Roller Brush": "الفرشاة تدفع الآلة للأمام — تمريرة واحدة تمتص و تغسل و تجفف.",
+  "Dual-Tank System": "خزانات منفصلة للماء النظيف والماء المتسخ — التنظيف دائماً بماء نظيف.",
+  "Wet & Dry Capability": "يتعامل مع الأوساخ الجافة والسوائل المنسكبة في تمريرة واحدة."
+ }
 }

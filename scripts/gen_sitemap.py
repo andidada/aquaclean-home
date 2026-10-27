@@ -31,6 +31,9 @@ BASE = 'https://www.hkdmj.net'
 LANGS = ['en', 'zh', 'ar', 'es', 'fr', 'id', 'ru', 'th', 'vi']
 X_DEFAULT = 'en'
 
+# Noindex meta-refresh stubs must never enter the sitemap.
+REDIRECT_PATHS = {'handheld-vacuum-eg16pro.html'}
+
 
 def page_paths(lang: str) -> set[str]:
     """Every HTML page of a locale, as a locale-relative site path.
@@ -49,6 +52,8 @@ def page_paths(lang: str) -> set[str]:
                 continue
             rel = os.path.relpath(os.path.join(dirpath, name), base)
             rel = rel.replace(os.sep, '/')
+            if rel in REDIRECT_PATHS:
+                continue
             if rel == 'index.html':
                 found.add('')
             elif rel.endswith('/index.html'):

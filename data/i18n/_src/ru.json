@@ -613,5 +613,17 @@
  "Smart Window Cleaner Robot": "Умный робот для мойки окон",
  "Automatic window cleaning robots with AI navigation and safety sensors. Clean glass, tiles, and mirrors. UPS battery backup prevents falls. 4 min/m2 cleaning speed.": "Автоматические роботы для мойки окон с навигацией на базе ИИ и датчиками безопасности. Моют стекло, плитку и зеркала. Резервное питание UPS предотвращает падение. Скорость уборки 4 мин/м².",
  "pcs": "шт.",
- "/ pc": "/ шт."
+ "/ pc": "/ шт.",
+ "guideTitle": {
+  "Motor & Suction": "Мотор и всасывание",
+  "Self-Propelled Roller Brush": "Самодвижущаяся щётка",
+  "Dual-Tank System": "Двухбаковая система",
+  "Wet & Dry Capability": "Влажная и сухая уборка"
+ },
+ "specNote": {
+  "Motor & Suction": "Бесщёточный мотор 230 Вт со всасыванием 110AW убирает въевшуюся грязь тихо.",
+  "Self-Propelled Roller Brush": "Щётка продвигает машину вперёд — один проход пылесосит, моет и высушивает.",
+  "Dual-Tank System": "Баки для чистой и грязной воды разделены — мойка всегда чистой водой.",
+  "Wet & Dry Capability": "Убирает сухой мусор и пролитые жидкости за один проход."
+ }
 }

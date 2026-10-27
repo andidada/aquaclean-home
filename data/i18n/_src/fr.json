@@ -613,5 +613,17 @@
  "Smart Window Cleaner Robot": "Robot nettoyeur de vitres intelligent",
  "Automatic window cleaning robots with AI navigation and safety sensors. Clean glass, tiles, and mirrors. UPS battery backup prevents falls. 4 min/m2 cleaning speed.": "Robots nettoyeurs de vitres automatiques avec navigation par IA et capteurs de sécurité. Nettoient vitres, carrelage et miroirs. Batterie de secours UPS anti-chute. Vitesse de nettoyage de 4 min/m².",
  "pcs": "pièces",
- "/ pc": "/ pièce"
+ "/ pc": "/ pièce",
+ "guideTitle": {
+  "Motor & Suction": "Moteur et aspiration",
+  "Self-Propelled Roller Brush": "Brosse autopropulsée",
+  "Dual-Tank System": "Système bi-réservoir",
+  "Wet & Dry Capability": "Capacité wet & dry"
+ },
+ "specNote": {
+  "Motor & Suction": "Un moteur sans balai de 230W avec 110AW d'aspiration élimine la saleté incrustée tout en restant silencieux.",
+  "Self-Propelled Roller Brush": "La brosse entraîne la machine vers l'avant : un seul passage aspire, lave et sèche.",
+  "Dual-Tank System": "Réservoirs d'eau propre et d'eau sale séparés : on lave toujours à l'eau propre.",
+  "Wet & Dry Capability": "Traite les débris secs et les liquides en un seul passage."
+ }
 }

@@ -616,7 +616,11 @@
   "function": "fonction",
   "filter": "filtre",
   "dust box capacity (l)": "capacité du bac à poussière (l)",
-  "private mold": "moule exclusif"
+  "private mold": "moule exclusif",
+  "Motor & Suction": "Moteur et aspiration",
+  "Self-Propelled Roller Brush": "Brosse autopropulsée",
+  "Dual-Tank System": "Système bi-réservoir",
+  "Wet & Dry Capability": "Capacité wet & dry"
  },
  "guideValues": {
   "Up to 4 cups": "Jusqu'à 4 tasses",
@@ -865,7 +869,11 @@
   "private mold": "Comparez ce chiffre entre les modèles listés ci-dessous avant de choisir.",
   "product net weight": "Le poids décide si l'appareil est réellement utilisé pour une pièce entière ou un matelas.",
   "pump pressure bars": "Pour l'espresso à domicile, la stabilité de la pression pendant l'extraction compte plus que le pic de bars.",
-  "suction power (airwatts)": "Les air watts (AW) indiquent aspiration utile après pertes — lisez-les à côté de la valeur maximale en Pa."
+  "suction power (airwatts)": "Les air watts (AW) indiquent aspiration utile après pertes — lisez-les à côté de la valeur maximale en Pa.",
+  "Motor & Suction": "Un moteur sans balai de 230W avec 110AW d'aspiration élimine la saleté incrustée tout en restant silencieux.",
+  "Self-Propelled Roller Brush": "La brosse entraîne la machine vers l'avant : un seul passage aspire, lave et sèche.",
+  "Dual-Tank System": "Réservoirs d'eau propre et d'eau sale séparés : on lave toujours à l'eau propre.",
+  "Wet & Dry Capability": "Traite les débris secs et les liquides en un seul passage."
  },
  "categoryPage": {
   "car-vacuum": {
@@ -956,6 +964,16 @@
    "oemSub": "",
    "heroTitle": "Robot nettoyeur de vitres intelligent",
    "heroP": "Robots nettoyeurs de vitres automatiques avec navigation par IA et capteurs de sécurité. Nettoient vitres, carrelage et miroirs. Batterie de secours UPS anti-chute. Vitesse de nettoyage de 4 min/m².",
+   "hasRelated": true
+  },
+  "handheld-floor-scrubber": {
+   "whyTitle": "Pourquoi Choisir Nos Autolaveuses Portatives ?",
+   "countSub": "1 modèle dans cette catégorie actuellement — voir le tableau ci-dessous pour MOQ, prix FOB indicatif et spécifications clés.",
+   "guideTitle": "Comment Choisir une Autolaveuse Portative",
+   "oemTitle": "Besoin d'OEM / ODM pour Autolaveuses ?",
+   "oemSub": "Logo, couleur et emballage personnalisés · échantillons 7–14 jours · production 25–35 jours",
+   "heroTitle": "Autolaveuse Portative",
+   "heroP": "Autolaveuses sans fil wet & dry à brosse autopropulsée. Aspirent, lavent et sèchent les sols durs en un seul passage.",
    "hasRelated": true
   }
  },

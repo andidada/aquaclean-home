@@ -616,7 +616,11 @@
   "function": "chức năng",
   "filter": "bộ lọc",
   "dust box capacity (l)": "dung tích hộp bụi (l)",
-  "private mold": "khuôn riêng"
+  "private mold": "khuôn riêng",
+  "Motor & Suction": "Động cơ & lực hút",
+  "Self-Propelled Roller Brush": "Bàn chải tự dẫn động",
+  "Dual-Tank System": "Hệ thống két nước đôi",
+  "Wet & Dry Capability": "Khả năng ướt & khô"
  },
  "guideValues": {
   "Up to 4 cups": "Tối đa 4 tách",
@@ -865,7 +869,11 @@
   "private mold": "Hãy so chỉ số này giữa các model liệt kê bên dưới trước khi chọn.",
   "product net weight": "Khối lượng quyết định thiết bị có thực sự dùng hết cả phòng hay cả đệm không.",
   "pump pressure bars": "Với espresso tại nhà, độ ổn định áp suất khi chiết quan trọng hơn mức bar đỉnh.",
-  "suction power (airwatts)": "Air watts (AW) cho biết lực hút thực dùng sau tổn thất — hãy đọc cạnh mức Pa tối đa."
+  "suction power (airwatts)": "Air watts (AW) cho biết lực hút thực dùng sau tổn thất — hãy đọc cạnh mức Pa tối đa.",
+  "Motor & Suction": "Động cơ không chổi than 230W, lực hút 110AW, loại bỏ bụi bám cứng vẫn êm ái.",
+  "Self-Propelled Roller Brush": "Bàn chải đẩy máy tiến về trước — một lượt hút, rửa và làm khô.",
+  "Dual-Tank System": "Két nước sạch và nước bẩn riêng biệt — luôn lau bằng nước sạch.",
+  "Wet & Dry Capability": "Xử lý rác khô và nước đổ ra trong cùng một lượt."
  },
  "categoryPage": {
   "car-vacuum": {
@@ -956,6 +964,16 @@
    "oemSub": "",
    "heroTitle": "Robot lau kính thông minh",
    "heroP": "Robot lau kính tự động với điều hướng AI và cảm biến an toàn. Làm sạch kính, gạch và gương. Pin dự phòng UPS ngăn rơi. Tốc độ làm sạch 4 phút/m².",
+   "hasRelated": true
+  },
+  "handheld-floor-scrubber": {
+   "whyTitle": "Tại Sao Chọn Máy Chà Sàn Cầm Tay Của Chúng Tôi?",
+   "countSub": "1 model trong danh mục này hiện nay — xem bảng dưới đây để biết MOQ, giá FOB tham khảo và thông số chính.",
+   "guideTitle": "Cách Chọn Máy Chà Sàn Cầm Tay",
+   "oemTitle": "Cần OEM / ODM cho Máy Chà Sàn?",
+   "oemSub": "Logo, màu sắc và bao bì riêng · mẫu 7–14 ngày · sản xuất 25–35 ngày",
+   "heroTitle": "Máy Chà Sàn Cầm Tay",
+   "heroP": "Máy chà sàn không dây wet & dry với bàn chải tự dẫn động. Hút, rửa và làm khô sàn cứng chỉ trong một lượt.",
    "hasRelated": true
   }
  },

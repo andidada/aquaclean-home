@@ -616,7 +616,11 @@
   "function": "función",
   "filter": "filtro",
   "dust box capacity (l)": "capacidad del depósito de polvo (l)",
-  "private mold": "molde propio"
+  "private mold": "molde propio",
+  "Motor & Suction": "Motor y succión",
+  "Self-Propelled Roller Brush": "Cepillo autopropulsado",
+  "Dual-Tank System": "Sistema de doble depósito",
+  "Wet & Dry Capability": "Capacidad húmedo y seco"
  },
  "guideValues": {
   "Up to 4 cups": "Hasta 4 tazas",
@@ -865,7 +869,11 @@
   "private mold": "Compare esta cifra entre los modelos indicados abajo antes de elegir.",
   "product net weight": "El peso decide si la herramienta se usa realmente en una habitación completa o en un colchón.",
   "pump pressure bars": "Para el espresso doméstico, la estabilidad de la presión durante la extracción importa más que el pico de bares.",
-  "suction power (airwatts)": "Los air watts (AW) indican la succión útil tras las pérdidas — léalos junto a la cifra máxima en Pa."
+  "suction power (airwatts)": "Los air watts (AW) indican la succión útil tras las pérdidas — léalos junto a la cifra máxima en Pa.",
+  "Motor & Suction": "Un motor sin escobillas de 230W con 110AW de succión elimina la suciedad incrustada manteniendo un bajo nivel de ruido.",
+  "Self-Propelled Roller Brush": "El cepillo impulsa la máquina hacia delante: una pasada aspira, lava y seca.",
+  "Dual-Tank System": "Depósitos de agua limpia y sucia separados: siempre se friega con agua fresca.",
+  "Wet & Dry Capability": "Recoge residuos secos y líquidos en la misma pasada."
  },
  "categoryPage": {
   "car-vacuum": {
@@ -956,6 +964,16 @@
    "oemSub": "",
    "heroTitle": "Robot Limpiacristales Inteligente",
    "heroP": "Robots limpiacristales automáticos con navegación por IA y sensores de seguridad. Limpian cristales, azulejos y espejos. La batería de respaldo UPS evita caídas. Velocidad de limpieza de 4 min/m².",
+   "hasRelated": true
+  },
+  "handheld-floor-scrubber": {
+   "whyTitle": "¿Por Qué Elegir Nuestras Fregadoras de Suelos de Mano?",
+   "countSub": "1 modelo en esta categoría ahora mismo — consulte la tabla a continuación para MOQ, precio FOB indicativo y especificaciones clave.",
+   "guideTitle": "Cómo Elegir una Fregadora de Suelos de Mano",
+   "oemTitle": "¿Necesita OEM / ODM para Fregadoras de Suelos?",
+   "oemSub": "Logo, color y embalaje personalizados · muestras 7–14 días · producción 25–35 días",
+   "heroTitle": "Fregadora de Suelos de Mano",
+   "heroP": "Fregadoras de suelo inalámbricas húmedo y seco con cepillo autopropulsado. Aspiran, fregan y secan suelos duros en una sola pasada.",
    "hasRelated": true
   }
  },
