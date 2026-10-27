@@ -53,14 +53,14 @@
     },
     {
       "id": "p4",
-      "name": "Eliminador de Ácaros UV",
-      "desc": "Esterilización UV-C con secado por aire caliente a 55°C. Elimina el 99,9% de ácaros del polvo y bacterias.",
+      "name": "Máquina de Limpieza Textil",
+      "desc": "Máquina de limpieza textil de doble tanque con cepillo motorizado. Rocía, frota y extrae para limpiar a fondo sofás, alfombras y colchones.",
       "tags": [
-        "UV-C 253.7nm",
-        "HEPA H13",
-        "450W"
+        "Doble Tanque",
+        "Lavado y Extracción",
+        "Cepillo Motorizado"
       ],
-      "img": "../assets/images/products/04-uv-mite-remover.webp",
+      "img": "../assets/images/products/16-fabric-cleaning-machine.webp",
       "btn_text": "Más productos",
       "btn_href": "/en/uv-mite-remover/",
       "btn_slug": "uv-mite-remover"

@@ -53,14 +53,14 @@
     },
     {
       "id": "p4",
-      "name": "Penghilang Tungau UV",
-      "desc": "Sterilisasi UV-C dengan pengeringan udara panas 55°C. Menghilangkan 99.9% tungau debu dan bakteri.",
+      "name": "Mesin Pembersih Kain",
+      "desc": "Mesin pembersih kain dua tangki dengan sikat bermotor. Semprot, gosok, dan hisap untuk membersihkan sofa, karpet, dan kasur secara mendalam.",
       "tags": [
-        "UV-C 253.7nm",
-        "HEPA H13",
-        "450W"
+        "Dua Tangki",
+        "Semprot & Hisap",
+        "Sikat Bermotor"
       ],
-      "img": "../assets/images/products/04-uv-mite-remover.webp",
+      "img": "../assets/images/products/16-fabric-cleaning-machine.webp",
       "btn_text": "Lebih banyak produk",
       "btn_href": "/en/uv-mite-remover/",
       "btn_slug": "uv-mite-remover"

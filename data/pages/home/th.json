@@ -53,14 +53,14 @@
     },
     {
       "id": "p4",
-      "name": "เครื่องกำจัดไรด้วย UV",
-      "desc": "ฆ่าเชื้อด้วย UV-C พร้อมทำให้แห้งด้วยลมร้อน 55°C กำจัดไรฝุ่นและแบคทีเรียได้ 99.9%",
+      "name": "เครื่องทำความสะอาดผ้า",
+      "desc": "เครื่องทำความสะอาดผ้าถังคู่พร้อมแปรงไฟฟ้า พ่น ขัด และดูด ทำความสะอาดโซฟา พรม และที่นอนอย่างลึกซึ้ง",
       "tags": [
-        "UV-C 253.7nm",
-        "HEPA H13",
-        "450W"
+        "ถังคู่",
+        "พ่นและดูด",
+        "แปรงไฟฟ้า"
       ],
-      "img": "../assets/images/products/04-uv-mite-remover.webp",
+      "img": "../assets/images/products/16-fabric-cleaning-machine.webp",
       "btn_text": "สินค้าเพิ่มเติม",
       "btn_href": "/en/uv-mite-remover/",
       "btn_slug": "uv-mite-remover"

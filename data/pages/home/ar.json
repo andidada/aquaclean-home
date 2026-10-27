@@ -53,14 +53,14 @@
     },
     {
       "id": "p4",
-      "name": "مزيل عث بالأشعة فوق البنفسجية",
-      "desc": "تعقيم UV-C مع تجفيف هواء ساخن 55°C. يقضي على 99.9% من عث الغبار والبكتيريا.",
+      "name": "آلة تنظيف الأقمشة",
+      "desc": "آلة تنظيف الأقمشة بخزان مزدوج وفرشاة كهربائية. ترش وتفرك وتمتص — تنظيف عميق للأريكة والسجاد والمراتب.",
       "tags": [
-        "UV-C 253.7nm",
-        "HEPA H13",
-        "450W"
+        "خزان مزدوج",
+        "رش وشفط",
+        "فرشاة كهربائية"
       ],
-      "img": "../assets/images/products/04-uv-mite-remover.webp",
+      "img": "../assets/images/products/16-fabric-cleaning-machine.webp",
       "btn_text": "المزيد من المنتجات",
       "btn_href": "/en/uv-mite-remover/",
       "btn_slug": "uv-mite-remover"

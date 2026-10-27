@@ -41,10 +41,10 @@
     },
     {
       "id": "p4",
-      "name": "紫外线除螨仪",
-      "desc": "UV-C紫外线除螨，55C热风烘干，HEPA过滤，99.97%过敏原捕获。",
+      "name": "布艺清洁机",
+      "desc": "清水污水双箱分离，电动刷头喷洗吸一体。沙发、地毯、床垫深层清洁。",
       "tags": [],
-      "img": "../assets/images/products/04-uv-mite-remover.webp",
+      "img": "../assets/images/products/16-fabric-cleaning-machine.webp",
       "btn_text": "查看产品",
       "btn_href": "/zh/uv-mite-remover/",
       "btn_slug": "uv-mite-remover"

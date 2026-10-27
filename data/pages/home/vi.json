@@ -53,14 +53,14 @@
     },
     {
       "id": "p4",
-      "name": "Máy Diệt Ve Bụi UV",
-      "desc": "Khử trùng UV-C với sấy khô bằng khí nóng 55°C. Tiêu diệt 99.9% ve bụi và vi khuẩn.",
+      "name": "Máy Làm Sạch Vải",
+      "desc": "Máy làm sạch vải hai bình với bàn chải điện. Phun, chà và hút — làm sạch sâu sofa, thảm và nệm.",
       "tags": [
-        "UV-C 253.7nm",
-        "HEPA H13",
-        "450W"
+        "Hai Bình",
+        "Phun & Hút",
+        "Bàn Chải Điện"
       ],
-      "img": "../assets/images/products/04-uv-mite-remover.webp",
+      "img": "../assets/images/products/16-fabric-cleaning-machine.webp",
       "btn_text": "Xem thêm sản phẩm",
       "btn_href": "/en/uv-mite-remover/",
       "btn_slug": "uv-mite-remover"
