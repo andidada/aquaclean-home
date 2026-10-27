@@ -14,7 +14,7 @@
       "name": "手持无线吸尘器",
       "desc": "轻便无线，120W强劲吸力。适合家庭、汽车和办公室快速清洁。",
       "tags": [],
-      "img": "../assets/images/products/13-cordless-stick-vacuum.webp",
+      "img": "../assets/images/products/13-cordless-stick-vacuum.webp?v=20261028",
       "btn_text": "查看产品",
       "btn_href": "/zh/handheld-vacuum/",
       "btn_slug": "handheld-vacuum"
@@ -24,7 +24,7 @@
       "name": "智能扫地机器人",
       "desc": "LDS激光导航，APP控制，扫拖一体。自动回充，多层地图。",
       "tags": [],
-      "img": "../assets/images/products/02-robot-vacuum.webp",
+      "img": "../assets/images/products/18-robot-vacuum.webp",
       "btn_text": "查看产品",
       "btn_href": "/zh/robot-vacuum/",
       "btn_slug": "robot-vacuum"
@@ -34,7 +34,7 @@
       "name": "手持洗地机",
       "desc": "无线手持洗地机，滚刷自驱动，吸洗拖一体。硬质地板一遍即净。",
       "tags": [],
-      "img": "../assets/images/products/17-handheld-floor-scrubber.webp",
+      "img": "../assets/images/products/17-handheld-floor-scrubber.webp?v=20261028",
       "btn_text": "查看产品",
       "btn_href": "/zh/handheld-floor-scrubber-eg16pro.html",
       "btn_slug": "coffee-machine"
@@ -44,7 +44,7 @@
       "name": "布艺清洁机",
       "desc": "清水污水双箱分离，电动刷头喷洗吸一体。沙发、地毯、床垫深层清洁。",
       "tags": [],
-      "img": "../assets/images/products/16-fabric-cleaning-machine.webp",
+      "img": "../assets/images/products/16-fabric-cleaning-machine.webp?v=20261028",
       "btn_text": "查看产品",
       "btn_href": "/zh/uv-mite-remover/",
       "btn_slug": "uv-mite-remover"
@@ -54,7 +54,7 @@
       "name": "智能擦窗机器人",
       "desc": "AI导航，安全传感器，UPS防跌落。每平方米仅需4分钟。",
       "tags": [],
-      "img": "../assets/images/products/05-window-robot.webp",
+      "img": "../assets/images/products/19-window-robot.webp",
       "btn_text": "查看产品",
       "btn_href": "/zh/window-cleaner-robot/",
       "btn_slug": "window-cleaner-robot"
@@ -64,7 +64,7 @@
       "name": "车载便携吸尘器",
       "desc": "12V/USB双电源，强劲吸力清理车内碎屑和宠物毛发。",
       "tags": [],
-      "img": "../assets/images/products/15-car-vacuum.webp",
+      "img": "../assets/images/products/15-car-vacuum.webp?v=20261028",
       "btn_text": "查看产品",
       "btn_href": "/zh/car-vacuum/",
       "btn_slug": "car-vacuum"
@@ -74,7 +74,7 @@
       "name": "数显充气泵",
       "desc": "LCD屏幕，自动停止，最高150 PSI。适用于汽车、自行车和摩托车。",
       "tags": [],
-      "img": "../assets/images/products/07-tire-inflator.webp",
+      "img": "../assets/images/products/20-tire-inflator.webp",
       "btn_text": "查看产品",
       "btn_href": "/zh/tire-inflator/",
       "btn_slug": "tire-inflator"
@@ -84,7 +84,7 @@
       "name": "手持蒸汽清洁器",
       "desc": "1500W高温蒸汽清洁，无需化学剂。105C蒸汽，9种配件。",
       "tags": [],
-      "img": "../assets/images/products/14-steam-cleaner.webp",
+      "img": "../assets/images/products/14-steam-cleaner.webp?v=20261028",
       "btn_text": "查看产品",
       "btn_href": "/zh/steam-cleaner/",
       "btn_slug": "steam-cleaner"
@@ -94,7 +94,7 @@
       "name": "便携式浓缩咖啡机",
       "desc": "72W自带加热，Type-C充电，90ml水箱。户外、旅行、办公室随时享用正宗浓缩咖啡。",
       "tags": [],
-      "img": "../assets/images/products/12-portable-espresso.webp?v=20261027",
+      "img": "../assets/images/products/12-portable-espresso.webp?v=20261028",
       "btn_text": "查看产品",
       "btn_href": "/zh/coffee-machine/",
       "btn_slug": "coffee-machine"

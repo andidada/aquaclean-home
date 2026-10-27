@@ -14,7 +14,7 @@
       "name": "Handheld Vacuum Cleaner",
       "slug": "",
       "desc": "Cordless, lightweight, 120W suction. Perfect for quick home, car, and office clean-ups.",
-      "img": "../assets/images/products/13-cordless-stick-vacuum.webp",
+      "img": "../assets/images/products/13-cordless-stick-vacuum.webp?v=20261028",
       "btn_text": "More Products",
       "btn_href": "/en/handheld-vacuum/",
       "tags": [
@@ -28,7 +28,7 @@
       "name": "Robot Vacuum Cleaner",
       "slug": "",
       "desc": "LDS laser navigation with app control, mopping function, and 2000Pa deep cleaning suction.",
-      "img": "../assets/images/products/02-robot-vacuum.webp",
+      "img": "../assets/images/products/18-robot-vacuum.webp",
       "btn_text": "More Products",
       "btn_href": "/en/robot-vacuum/",
       "tags": [
@@ -42,7 +42,7 @@
       "name": "Handheld Floor Scrubber",
       "slug": "",
       "desc": "Cordless wet-dry floor scrubber with self-propelled roller brush. Vacuums, washes and dries hard floors in one pass.",
-      "img": "../assets/images/products/17-handheld-floor-scrubber.webp",
+      "img": "../assets/images/products/17-handheld-floor-scrubber.webp?v=20261028",
       "btn_text": "More Products",
       "btn_href": "/en/handheld-floor-scrubber-eg16pro.html",
       "tags": [
@@ -56,7 +56,7 @@
       "name": "Fabric Cleaning Machine",
       "slug": "",
       "desc": "Dual-tank fabric cleaning machine with motorized brush. Sprays, scrubs and extracts for deep-cleaning sofas, carpets and mattresses.",
-      "img": "../assets/images/products/16-fabric-cleaning-machine.webp",
+      "img": "../assets/images/products/16-fabric-cleaning-machine.webp?v=20261028",
       "btn_text": "More Products",
       "btn_href": "/en/uv-mite-remover/",
       "tags": [
@@ -70,7 +70,7 @@
       "name": "Smart Window Cleaner Robot",
       "slug": "",
       "desc": "AI-powered automatic window and glass cleaner. Senses edges, avoids obstacles, cleans safely.",
-      "img": "../assets/images/products/05-window-robot.webp",
+      "img": "../assets/images/products/19-window-robot.webp",
       "btn_text": "More Products",
       "btn_href": "/en/window-cleaner-robot/",
       "tags": [
@@ -84,7 +84,7 @@
       "name": "Car Vacuum Cleaner",
       "slug": "",
       "desc": "12V compact car vacuum, dry & wet dual-use. 150W motor with multiple attachments included.",
-      "img": "../assets/images/products/15-car-vacuum.webp",
+      "img": "../assets/images/products/15-car-vacuum.webp?v=20261028",
       "btn_text": "More Products",
       "btn_href": "/en/car-vacuum/",
       "tags": [
@@ -98,7 +98,7 @@
       "name": "Digital Tire Inflator",
       "slug": "",
       "desc": "Portable auto shut-off air pump. Preset 4 units (PSI/BAR/KPA/kg/cm²) with LED night light.",
-      "img": "../assets/images/products/07-tire-inflator.webp",
+      "img": "../assets/images/products/20-tire-inflator.webp",
       "btn_text": "More Products",
       "btn_href": "/en/tire-inflator/",
       "tags": [
@@ -112,7 +112,7 @@
       "name": "Steam Cleaner",
       "slug": "",
       "desc": "1500W multi-surface steamer. 105°C super-heated steam, chemical-free deep cleaning.",
-      "img": "../assets/images/products/14-steam-cleaner.webp",
+      "img": "../assets/images/products/14-steam-cleaner.webp?v=20261028",
       "btn_text": "More Products",
       "btn_href": "/en/steam-cleaner/",
       "tags": [
@@ -126,7 +126,7 @@
       "name": "Portable Espresso Machine",
       "slug": "",
       "desc": "72W self-heating portable espresso maker. Type-C rechargeable, 90ml water tank and 120ml cup — brew authentic espresso anywhere.",
-      "img": "../assets/images/products/12-portable-espresso.webp?v=20261027",
+      "img": "../assets/images/products/12-portable-espresso.webp?v=20261028",
       "btn_text": "More Products",
       "btn_href": "/en/coffee-machine/",
       "tags": [
