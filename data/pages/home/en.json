@@ -125,14 +125,14 @@
       "id": "p9",
       "name": "Portable Espresso Machine",
       "slug": "",
-      "desc": "Compact 20-bar portable espresso maker. USB-C rechargeable with self-heating — authentic espresso anywhere, from camping to the office.",
-      "img": "../assets/images/products/12-portable-espresso.webp",
+      "desc": "72W self-heating portable espresso maker. Type-C rechargeable, 90ml water tank and 120ml cup — brew authentic espresso anywhere.",
+      "img": "../assets/images/products/12-portable-espresso.webp?v=20261027",
       "btn_text": "More Products",
       "btn_href": "/en/coffee-machine/",
       "tags": [
-        "20 Bar",
-        "USB-C",
-        "Self-Heating"
+        "72W",
+        "Type-C",
+        "90ml Tank"
       ]
     }
   ],

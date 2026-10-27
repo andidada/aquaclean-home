@@ -124,13 +124,13 @@
     {
       "id": "p9",
       "name": "آلة إسبريسو محمولة",
-      "desc": "آلة إسبريسو محمولة بضغط 20 بار. قابلة للشحن عبر USB-C مع تسخين ذاتي — إسبريسو أصيل في أي مكان.",
+      "desc": "آلة إسبريسو محمولة بتسخين ذاتي 72 واط. شحن Type-C وخزان 90 مل وكوب 120 مل.",
       "tags": [
-        "20 بار",
-        "USB-C",
-        "تسخين ذاتي"
+        "72 واط",
+        "Type-C",
+        "90 مل"
       ],
-      "img": "../assets/images/products/12-portable-espresso.webp",
+      "img": "../assets/images/products/12-portable-espresso.webp?v=20261027",
       "btn_text": "المزيد من المنتجات",
       "btn_href": "/en/coffee-machine/",
       "btn_slug": "coffee-machine"

@@ -124,13 +124,13 @@
     {
       "id": "p9",
       "name": "Cafetera Espresso Portátil",
-      "desc": "Cafetera espresso portátil de 20 bares. Recargable por USB-C y con calentamiento propio: espresso auténtico en cualquier lugar.",
+      "desc": "Cafetera espresso portátil con autocalentamiento de 72W. Recargable por Type-C, depósito de 90ml y taza de 120ml.",
       "tags": [
-        "20 Bares",
-        "USB-C",
-        "Autocalentable"
+        "72W",
+        "Type-C",
+        "90ml"
       ],
-      "img": "../assets/images/products/12-portable-espresso.webp",
+      "img": "../assets/images/products/12-portable-espresso.webp?v=20261027",
       "btn_text": "Más productos",
       "btn_href": "/en/coffee-machine/",
       "btn_slug": "coffee-machine"

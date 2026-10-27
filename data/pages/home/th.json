@@ -124,13 +124,13 @@
     {
       "id": "p9",
       "name": "เครื่องชงเอสเปรสโซ่แบบพกพา",
-      "desc": "เครื่องชงเอสเปรสโซ่แบบพกพา 20 บาร์ ชาร์จผ่าน USB-C พร้อมระบบทำร้อนเอง ได้เอสเปรสโซ่แท้ได้ทุกที่",
+      "desc": "เครื่องชงเอสเปรสโซ่แบบพกพา ทำร้อนเอง 72W ชาร์จ Type-C ถังน้ำ 90ml แก้ว 120ml",
       "tags": [
-        "20 บาร์",
-        "USB-C",
-        "ทำร้อนเอง"
+        "72W",
+        "Type-C",
+        "90ml"
       ],
-      "img": "../assets/images/products/12-portable-espresso.webp",
+      "img": "../assets/images/products/12-portable-espresso.webp?v=20261027",
       "btn_text": "สินค้าเพิ่มเติม",
       "btn_href": "/en/coffee-machine/",
       "btn_slug": "coffee-machine"

@@ -124,13 +124,13 @@
     {
       "id": "p9",
       "name": "Mesin Espresso Portabel",
-      "desc": "Mesin espresso portabel 20 bar. Isi ulang USB-C dengan pemanas sendiri — espresso autentik di mana saja.",
+      "desc": "Mesin espresso portabel pemanas sendiri 72W. Isi ulang Type-C, tangki 90ml dan cangkir 120ml.",
       "tags": [
-        "20 Bar",
-        "USB-C",
-        "Pemanas Sendiri"
+        "72W",
+        "Type-C",
+        "90ml"
       ],
-      "img": "../assets/images/products/12-portable-espresso.webp",
+      "img": "../assets/images/products/12-portable-espresso.webp?v=20261027",
       "btn_text": "Lebih banyak produk",
       "btn_href": "/en/coffee-machine/",
       "btn_slug": "coffee-machine"

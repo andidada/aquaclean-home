@@ -124,13 +124,13 @@
     {
       "id": "p9",
       "name": "Máy Pha Espresso Di Động",
-      "desc": "Máy pha espresso di động 20 bar. Sạc USB-C, tự gia nhiệt — espresso chuẩn vị mọi lúc mọi nơi.",
+      "desc": "Máy pha espresso di động tự gia nhiệt 72W. Sạc Type-C, bình 90ml và cốc 120ml.",
       "tags": [
-        "20 Bar",
-        "USB-C",
-        "Tự gia nhiệt"
+        "72W",
+        "Type-C",
+        "90ml"
       ],
-      "img": "../assets/images/products/12-portable-espresso.webp",
+      "img": "../assets/images/products/12-portable-espresso.webp?v=20261027",
       "btn_text": "Xem thêm sản phẩm",
       "btn_href": "/en/coffee-machine/",
       "btn_slug": "coffee-machine"

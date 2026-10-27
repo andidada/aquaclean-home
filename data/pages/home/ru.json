@@ -124,13 +124,13 @@
     {
       "id": "p9",
       "name": "Портативная Кофемашина",
-      "desc": "Портативная кофемашина для эспрессо, 20 бар. Перезаряжаемая по USB-C с самонагревом — настоящий эспрессо где угодно.",
+      "desc": "Портативная кофемашина с самонагревом 72Вт. Зарядка Type-C, бак 90мл и чашка 120мл.",
       "tags": [
-        "20 Бар",
-        "USB-C",
-        "Самонагрев"
+        "72Вт",
+        "Type-C",
+        "90мл"
       ],
-      "img": "../assets/images/products/12-portable-espresso.webp",
+      "img": "../assets/images/products/12-portable-espresso.webp?v=20261027",
       "btn_text": "Больше товаров",
       "btn_href": "/en/coffee-machine/",
       "btn_slug": "coffee-machine"

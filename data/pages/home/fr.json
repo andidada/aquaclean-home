@@ -124,13 +124,13 @@
     {
       "id": "p9",
       "name": "Machine à Espresso Portative",
-      "desc": "Machine à espresso portable 20 bars. Rechargeable USB-C avec chauffage intégré : un espresso authentique partout.",
+      "desc": "Machine à espresso portable à chauffage intégré 72W. Rechargeable Type-C, réservoir 90ml et tasse 120ml.",
       "tags": [
-        "20 Bars",
-        "USB-C",
-        "Auto-chauffant"
+        "72W",
+        "Type-C",
+        "90ml"
       ],
-      "img": "../assets/images/products/12-portable-espresso.webp",
+      "img": "../assets/images/products/12-portable-espresso.webp?v=20261027",
       "btn_text": "Plus de produits",
       "btn_href": "/en/coffee-machine/",
       "btn_slug": "coffee-machine"
