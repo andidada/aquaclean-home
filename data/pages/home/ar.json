@@ -39,17 +39,17 @@
     },
     {
       "id": "p3",
-      "name": "منظف بالبخار",
-      "desc": "1500 واط متعدد الأسطح. بخار فائق التسخين 105°C، تنظيف عميق بدون مواد كيميائية.",
+      "name": "ممسحة أرضيات محمولة",
+      "desc": "ممسحة أرضيات لاسلكية بفرشاة دافعة ذاتياً. تنظيف وغسيل وتجفيف الأرضيات الصلبة بمرور واحد.",
       "tags": [
-        "1500W",
-        "105°C",
-        "9 ملحقات"
+        "لاسلكية",
+        "غسيل وتجفيف",
+        "فرشاة دوارة"
       ],
-      "img": "../assets/images/products/14-steam-cleaner.webp",
+      "img": "../assets/images/products/17-handheld-floor-scrubber.webp",
       "btn_text": "المزيد من المنتجات",
-      "btn_href": "/en/steam-cleaner/",
-      "btn_slug": "steam-cleaner"
+      "btn_href": "/en/coffee-machine/",
+      "btn_slug": "coffee-machine"
     },
     {
       "id": "p4",
@@ -109,17 +109,17 @@
     },
     {
       "id": "p8",
-      "name": "ماكينة قهوة إسبريسو",
-      "desc": "ماكينة قهوة متوافقة مع كبسولات متعددة. مضخة 19 بار، بخاخ حليب، تحضير كوبين.",
+      "name": "منظف بالبخار",
+      "desc": "1500 واط متعدد الأسطح. بخار فائق التسخين 105°C، تنظيف عميق بدون مواد كيميائية.",
       "tags": [
-        "19 بار",
-        "1300 واط",
-        "بخاخ حليب"
+        "1500W",
+        "105°C",
+        "9 ملحقات"
       ],
-      "img": "../assets/images/products/08-coffee-machine.webp?v=20260826",
+      "img": "../assets/images/products/14-steam-cleaner.webp",
       "btn_text": "المزيد من المنتجات",
-      "btn_href": "/en/coffee-machine/",
-      "btn_slug": "coffee-machine"
+      "btn_href": "/en/steam-cleaner/",
+      "btn_slug": "steam-cleaner"
     },
     {
       "id": "p9",

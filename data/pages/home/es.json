@@ -39,17 +39,17 @@
     },
     {
       "id": "p3",
-      "name": "Limpiador a Vapor",
-      "desc": "Limpiador multi-superficie de 1500W. Vapor sobrecalentado a 105°C, limpieza profunda sin productos químicos.",
+      "name": "Fregadora de Suelo Inalámbrica",
+      "desc": "Fregadora inalámbrica con rodillo autopropulsado. Aspira, lava y seca los suelos duros en una sola pasada.",
       "tags": [
-        "1500W",
-        "105°C",
-        "9 Accesorios"
+        "Inalámbrica",
+        "Lava y Seca",
+        "Rodillo"
       ],
-      "img": "../assets/images/products/14-steam-cleaner.webp",
+      "img": "../assets/images/products/17-handheld-floor-scrubber.webp",
       "btn_text": "Más productos",
-      "btn_href": "/en/steam-cleaner/",
-      "btn_slug": "steam-cleaner"
+      "btn_href": "/en/coffee-machine/",
+      "btn_slug": "coffee-machine"
     },
     {
       "id": "p4",
@@ -109,17 +109,17 @@
     },
     {
       "id": "p8",
-      "name": "Cafetera Espresso",
-      "desc": "Cafetera compatible con múltiples cápsulas. Bomba 19 bar, espumador de leche, 2 tazas.",
+      "name": "Limpiador a Vapor",
+      "desc": "Limpiador multi-superficie de 1500W. Vapor sobrecalentado a 105°C, limpieza profunda sin productos químicos.",
       "tags": [
-        "19 Bar",
-        "1300W",
-        "Espumador"
+        "1500W",
+        "105°C",
+        "9 Accesorios"
       ],
-      "img": "../assets/images/products/08-coffee-machine.webp?v=20260826",
+      "img": "../assets/images/products/14-steam-cleaner.webp",
       "btn_text": "Más productos",
-      "btn_href": "/en/coffee-machine/",
-      "btn_slug": "coffee-machine"
+      "btn_href": "/en/steam-cleaner/",
+      "btn_slug": "steam-cleaner"
     },
     {
       "id": "p9",

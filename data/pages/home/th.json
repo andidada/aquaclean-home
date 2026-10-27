@@ -39,17 +39,17 @@
     },
     {
       "id": "p3",
-      "name": "เครื่องทำความสะอาดด้วยไอน้ำ",
-      "desc": "เครื่องทำความสะอาดหลายพื้นผิว 1500W ไอน้ำร้อนพิเศษ 105°C ทำความสะอาดลึกโดยไม่ใช้สารเคมี",
+      "name": "เครื่องล้างพื้นแบบพกพา",
+      "desc": "เครื่องล้างพื้นไร้สายพร้อมลูกกลิ้งเลื่อนอัตโนมัติ ดูด ล้าง และทำให้แห้งในรอบเดียว",
       "tags": [
-        "1500W",
-        "105°C",
-        "อุปกรณ์เสริม 9 ชิ้น"
+        "ไร้สาย",
+        "ล้างและแห้ง",
+        "ลูกกลิ้ง"
       ],
-      "img": "../assets/images/products/14-steam-cleaner.webp",
+      "img": "../assets/images/products/17-handheld-floor-scrubber.webp",
       "btn_text": "สินค้าเพิ่มเติม",
-      "btn_href": "/en/steam-cleaner/",
-      "btn_slug": "steam-cleaner"
+      "btn_href": "/en/coffee-machine/",
+      "btn_slug": "coffee-machine"
     },
     {
       "id": "p4",
@@ -109,17 +109,17 @@
     },
     {
       "id": "p8",
-      "name": "เครื่องชงกาแฟเอสเปรสโซ",
-      "desc": "เครื่องชงกาแฟรองรับแคปซูลหลายแบบ ปั๊ม 19 บาร์ มีหัวฟองนม ชงพร้อมกัน 2 แก้ว",
+      "name": "เครื่องทำความสะอาดด้วยไอน้ำ",
+      "desc": "เครื่องทำความสะอาดหลายพื้นผิว 1500W ไอน้ำร้อนพิเศษ 105°C ทำความสะอาดลึกโดยไม่ใช้สารเคมี",
       "tags": [
-        "19 Bar",
-        "1300W",
-        "หัวฟองนม"
+        "1500W",
+        "105°C",
+        "อุปกรณ์เสริม 9 ชิ้น"
       ],
-      "img": "../assets/images/products/08-coffee-machine.webp?v=20260826",
+      "img": "../assets/images/products/14-steam-cleaner.webp",
       "btn_text": "สินค้าเพิ่มเติม",
-      "btn_href": "/en/coffee-machine/",
-      "btn_slug": "coffee-machine"
+      "btn_href": "/en/steam-cleaner/",
+      "btn_slug": "steam-cleaner"
     },
     {
       "id": "p9",

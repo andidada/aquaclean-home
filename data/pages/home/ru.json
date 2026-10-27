@@ -39,17 +39,17 @@
     },
     {
       "id": "p3",
-      "name": "Пароочиститель",
-      "desc": "Многофункциональный пароочиститель 1500W. Сверхнагретый пар 105°C, глубокая очистка без химии.",
+      "name": "Поломоечная Машина",
+      "desc": "Беспроводная поломоечная машина с самодвижущимся роликом. Пылесосит, моет и сушит пол за один проход.",
       "tags": [
-        "1500W",
-        "105°C",
-        "9 насадок"
+        "Беспроводная",
+        "Мойка и Сушка",
+        "Ролик"
       ],
-      "img": "../assets/images/products/14-steam-cleaner.webp",
+      "img": "../assets/images/products/17-handheld-floor-scrubber.webp",
       "btn_text": "Больше товаров",
-      "btn_href": "/en/steam-cleaner/",
-      "btn_slug": "steam-cleaner"
+      "btn_href": "/en/coffee-machine/",
+      "btn_slug": "coffee-machine"
     },
     {
       "id": "p4",
@@ -109,17 +109,17 @@
     },
     {
       "id": "p8",
-      "name": "Кофемашина Эспрессо",
-      "desc": "Кофемашина с поддержкой капсул. Помпа 19 бар, капучинатор, заваривание 2 чашек.",
+      "name": "Пароочиститель",
+      "desc": "Многофункциональный пароочиститель 1500W. Сверхнагретый пар 105°C, глубокая очистка без химии.",
       "tags": [
-        "19 Bar",
-        "1300W",
-        "Капучинатор"
+        "1500W",
+        "105°C",
+        "9 насадок"
       ],
-      "img": "../assets/images/products/08-coffee-machine.webp?v=20260826",
+      "img": "../assets/images/products/14-steam-cleaner.webp",
       "btn_text": "Больше товаров",
-      "btn_href": "/en/coffee-machine/",
-      "btn_slug": "coffee-machine"
+      "btn_href": "/en/steam-cleaner/",
+      "btn_slug": "steam-cleaner"
     },
     {
       "id": "p9",

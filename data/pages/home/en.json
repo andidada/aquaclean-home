@@ -39,16 +39,16 @@
     },
     {
       "id": "p3",
-      "name": "Steam Cleaner",
+      "name": "Handheld Floor Scrubber",
       "slug": "",
-      "desc": "1500W multi-surface steamer. 105°C super-heated steam, chemical-free deep cleaning.",
-      "img": "../assets/images/products/14-steam-cleaner.webp",
+      "desc": "Cordless wet-dry floor scrubber with self-propelled roller brush. Vacuums, washes and dries hard floors in one pass.",
+      "img": "../assets/images/products/17-handheld-floor-scrubber.webp",
       "btn_text": "More Products",
-      "btn_href": "/en/steam-cleaner/",
+      "btn_href": "/en/coffee-machine/",
       "tags": [
-        "1500W",
-        "105°C",
-        "9 Attachments"
+        "Cordless",
+        "Wet & Dry",
+        "Roller Brush"
       ]
     },
     {
@@ -109,16 +109,16 @@
     },
     {
       "id": "p8",
-      "name": "Espresso Coffee Machine",
+      "name": "Steam Cleaner",
       "slug": "",
-      "desc": "Multi-capsule compatible espresso machine. 19-bar pump, milk frother, dual-cup brewing.",
-      "img": "../assets/images/products/08-coffee-machine.webp?v=20260826",
+      "desc": "1500W multi-surface steamer. 105°C super-heated steam, chemical-free deep cleaning.",
+      "img": "../assets/images/products/14-steam-cleaner.webp",
       "btn_text": "More Products",
-      "btn_href": "/en/coffee-machine/",
+      "btn_href": "/en/steam-cleaner/",
       "tags": [
-        "19 Bar",
-        "1300W",
-        "Milk Frother"
+        "1500W",
+        "105°C",
+        "9 Attachments"
       ]
     },
     {

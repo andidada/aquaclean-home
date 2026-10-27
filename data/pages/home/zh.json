@@ -31,13 +31,13 @@
     },
     {
       "id": "p3",
-      "name": "手持蒸汽清洁器",
-      "desc": "1500W高温蒸汽清洁，无需化学剂。105C蒸汽，9种配件。",
+      "name": "手持洗地机",
+      "desc": "无线手持洗地机，滚刷自驱动，吸洗拖一体。硬质地板一遍即净。",
       "tags": [],
-      "img": "../assets/images/products/14-steam-cleaner.webp",
+      "img": "../assets/images/products/17-handheld-floor-scrubber.webp",
       "btn_text": "查看产品",
-      "btn_href": "/zh/steam-cleaner/",
-      "btn_slug": "steam-cleaner"
+      "btn_href": "/zh/coffee-machine/",
+      "btn_slug": "coffee-machine"
     },
     {
       "id": "p4",
@@ -81,13 +81,13 @@
     },
     {
       "id": "p8",
-      "name": "意式咖啡机",
-      "desc": "15bar泵压，奶泡器，PID温控。在家享受咖啡师品质。",
+      "name": "手持蒸汽清洁器",
+      "desc": "1500W高温蒸汽清洁，无需化学剂。105C蒸汽，9种配件。",
       "tags": [],
-      "img": "../assets/images/products/08-coffee-machine.webp",
+      "img": "../assets/images/products/14-steam-cleaner.webp",
       "btn_text": "查看产品",
-      "btn_href": "/zh/coffee-machine/",
-      "btn_slug": "coffee-machine"
+      "btn_href": "/zh/steam-cleaner/",
+      "btn_slug": "steam-cleaner"
     },
     {
       "id": "p9",

@@ -39,17 +39,17 @@
     },
     {
       "id": "p3",
-      "name": "Nettoyeur vapeur",
-      "desc": "Nettoyeur multifonction 1500W. Vapeur surchauffée à 105°C, nettoyage profond sans produits chimiques.",
+      "name": "Autolaveuse de Sol Sans Fil",
+      "desc": "Autolaveuse sans fil à rouleau autopropulsé. Aspire, lave et sèche les sols durs en un seul passage.",
       "tags": [
-        "1500W",
-        "105°C",
-        "9 Attachments"
+        "Sans Fil",
+        "Lave & Sèche",
+        "Rouleau"
       ],
-      "img": "../assets/images/products/14-steam-cleaner.webp",
+      "img": "../assets/images/products/17-handheld-floor-scrubber.webp",
       "btn_text": "Plus de produits",
-      "btn_href": "/en/steam-cleaner/",
-      "btn_slug": "steam-cleaner"
+      "btn_href": "/en/coffee-machine/",
+      "btn_slug": "coffee-machine"
     },
     {
       "id": "p4",
@@ -109,17 +109,17 @@
     },
     {
       "id": "p8",
-      "name": "Cafetière Espresso",
-      "desc": "Cafetière compatible multi-capsules. Pompe 19 bar, buse à lait, 2 tasses simultanées.",
+      "name": "Nettoyeur vapeur",
+      "desc": "Nettoyeur multifonction 1500W. Vapeur surchauffée à 105°C, nettoyage profond sans produits chimiques.",
       "tags": [
-        "19 Bar",
-        "1300W",
-        "Buse Lait"
+        "1500W",
+        "105°C",
+        "9 Attachments"
       ],
-      "img": "../assets/images/products/08-coffee-machine.webp?v=20260826",
+      "img": "../assets/images/products/14-steam-cleaner.webp",
       "btn_text": "Plus de produits",
-      "btn_href": "/en/coffee-machine/",
-      "btn_slug": "coffee-machine"
+      "btn_href": "/en/steam-cleaner/",
+      "btn_slug": "steam-cleaner"
     },
     {
       "id": "p9",
