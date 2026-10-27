@@ -123,17 +123,17 @@
     },
     {
       "id": "p9",
-      "name": "Cây Lau Hơi Nước Đứng",
-      "desc": "Máy lau hơi nước đứng 1500W, hơi 110°C và bình nước 1.5L làm sạch sâu toàn sàn.",
+      "name": "Máy Pha Espresso Di Động",
+      "desc": "Máy pha espresso di động 20 bar. Sạc USB-C, tự gia nhiệt — espresso chuẩn vị mọi lúc mọi nơi.",
       "tags": [
-        "1500W",
-        "110°C",
-        "1.5L"
+        "20 Bar",
+        "USB-C",
+        "Tự gia nhiệt"
       ],
-      "img": "../assets/images/products/09-steam-mop.webp?v=20260826",
+      "img": "../assets/images/products/12-portable-espresso.webp",
       "btn_text": "Xem thêm sản phẩm",
-      "btn_href": "/en/upright-steam-mop/",
-      "btn_slug": "upright-steam-mop"
+      "btn_href": "/en/coffee-machine/",
+      "btn_slug": "coffee-machine"
     }
   ],
   "contact": {

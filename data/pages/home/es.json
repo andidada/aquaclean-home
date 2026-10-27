@@ -123,17 +123,17 @@
     },
     {
       "id": "p9",
-      "name": "Fregona de Vapor",
-      "desc": "Fregona de vapor vertical 1500W, vapor 110°C y depósito 1.5L para limpieza profunda.",
+      "name": "Cafetera Espresso Portátil",
+      "desc": "Cafetera espresso portátil de 20 bares. Recargable por USB-C y con calentamiento propio: espresso auténtico en cualquier lugar.",
       "tags": [
-        "1500W",
-        "110°C",
-        "1.5L"
+        "20 Bares",
+        "USB-C",
+        "Autocalentable"
       ],
-      "img": "../assets/images/products/09-steam-mop.webp?v=20260826",
+      "img": "../assets/images/products/12-portable-espresso.webp",
       "btn_text": "Más productos",
-      "btn_href": "/en/upright-steam-mop/",
-      "btn_slug": "upright-steam-mop"
+      "btn_href": "/en/coffee-machine/",
+      "btn_slug": "coffee-machine"
     }
   ],
   "contact": {

@@ -123,17 +123,17 @@
     },
     {
       "id": "p9",
-      "name": "Vadrouille Vapeur",
-      "desc": "Vadrouille vapeur verticale 1500W, vapeur 110°C et réservoir 1.5L pour nettoyage profond.",
+      "name": "Machine à Espresso Portative",
+      "desc": "Machine à espresso portable 20 bars. Rechargeable USB-C avec chauffage intégré : un espresso authentique partout.",
       "tags": [
-        "1500W",
-        "110°C",
-        "1.5L"
+        "20 Bars",
+        "USB-C",
+        "Auto-chauffant"
       ],
-      "img": "../assets/images/products/09-steam-mop.webp?v=20260826",
+      "img": "../assets/images/products/12-portable-espresso.webp",
       "btn_text": "Plus de produits",
-      "btn_href": "/en/upright-steam-mop/",
-      "btn_slug": "upright-steam-mop"
+      "btn_href": "/en/coffee-machine/",
+      "btn_slug": "coffee-machine"
     }
   ],
   "contact": {

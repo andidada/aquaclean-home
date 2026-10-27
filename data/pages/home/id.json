@@ -123,17 +123,17 @@
     },
     {
       "id": "p9",
-      "name": "Pel Lapis Uap Berdiri",
-      "desc": "Pel uap berdiri 1500W, uap 110°C dan tangki 1.5L untuk sanitasi lantai mendalam.",
+      "name": "Mesin Espresso Portabel",
+      "desc": "Mesin espresso portabel 20 bar. Isi ulang USB-C dengan pemanas sendiri — espresso autentik di mana saja.",
       "tags": [
-        "1500W",
-        "110°C",
-        "1.5L"
+        "20 Bar",
+        "USB-C",
+        "Pemanas Sendiri"
       ],
-      "img": "../assets/images/products/09-steam-mop.webp?v=20260826",
+      "img": "../assets/images/products/12-portable-espresso.webp",
       "btn_text": "Lebih banyak produk",
-      "btn_href": "/en/upright-steam-mop/",
-      "btn_slug": "upright-steam-mop"
+      "btn_href": "/en/coffee-machine/",
+      "btn_slug": "coffee-machine"
     }
   ],
   "contact": {

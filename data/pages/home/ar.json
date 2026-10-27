@@ -123,17 +123,17 @@
     },
     {
       "id": "p9",
-      "name": "ممسحة بخار عمودية",
-      "desc": "ممسحة بخار عمودية 1500 واط، بخار 110°م وخزان 1.5 لتر للتنظيف العميق.",
+      "name": "آلة إسبريسو محمولة",
+      "desc": "آلة إسبريسو محمولة بضغط 20 بار. قابلة للشحن عبر USB-C مع تسخين ذاتي — إسبريسو أصيل في أي مكان.",
       "tags": [
-        "1500 واط",
-        "110°م",
-        "1.5 لتر"
+        "20 بار",
+        "USB-C",
+        "تسخين ذاتي"
       ],
-      "img": "../assets/images/products/09-steam-mop.webp?v=20260826",
+      "img": "../assets/images/products/12-portable-espresso.webp",
       "btn_text": "المزيد من المنتجات",
-      "btn_href": "/en/upright-steam-mop/",
-      "btn_slug": "upright-steam-mop"
+      "btn_href": "/en/coffee-machine/",
+      "btn_slug": "coffee-machine"
     }
   ],
   "contact": {

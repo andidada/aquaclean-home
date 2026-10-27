@@ -91,13 +91,13 @@
     },
     {
       "id": "p9",
-      "name": "立式蒸汽拖把",
-      "desc": "1500W，100C蒸汽，500ml水箱。无需化学剂消毒硬地板。",
+      "name": "便携式浓缩咖啡机",
+      "desc": "20巴高压萃取，USB-C充电，机身自带加热。户外、旅行、办公室随时享用正宗浓缩咖啡。",
       "tags": [],
-      "img": "../assets/images/products/09-steam-mop.webp",
+      "img": "../assets/images/products/12-portable-espresso.webp",
       "btn_text": "查看产品",
-      "btn_href": "/zh/upright-steam-mop/",
-      "btn_slug": "upright-steam-mop"
+      "btn_href": "/zh/coffee-machine/",
+      "btn_slug": "coffee-machine"
     }
   ],
   "contact": {

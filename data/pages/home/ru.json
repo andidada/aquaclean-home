@@ -123,17 +123,17 @@
     },
     {
       "id": "p9",
-      "name": "Паровая Швабра",
-      "desc": "Паровая швабра 1500Вт, пар 110°C и бак 1.5Л для глубокой очистки пола.",
+      "name": "Портативная Кофемашина",
+      "desc": "Портативная кофемашина для эспрессо, 20 бар. Перезаряжаемая по USB-C с самонагревом — настоящий эспрессо где угодно.",
       "tags": [
-        "1500W",
-        "110°C",
-        "1.5L"
+        "20 Бар",
+        "USB-C",
+        "Самонагрев"
       ],
-      "img": "../assets/images/products/09-steam-mop.webp?v=20260826",
+      "img": "../assets/images/products/12-portable-espresso.webp",
       "btn_text": "Больше товаров",
-      "btn_href": "/en/upright-steam-mop/",
-      "btn_slug": "upright-steam-mop"
+      "btn_href": "/en/coffee-machine/",
+      "btn_slug": "coffee-machine"
     }
   ],
   "contact": {

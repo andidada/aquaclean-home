@@ -123,16 +123,16 @@
     },
     {
       "id": "p9",
-      "name": "Upright Steam Mop",
+      "name": "Portable Espresso Machine",
       "slug": "",
-      "desc": "1500W upright steam mop with 110°C steam and large 1.5L tank for whole-floor deep sanitizing.",
-      "img": "../assets/images/products/09-steam-mop.webp?v=20260826",
+      "desc": "Compact 20-bar portable espresso maker. USB-C rechargeable with self-heating — authentic espresso anywhere, from camping to the office.",
+      "img": "../assets/images/products/12-portable-espresso.webp",
       "btn_text": "More Products",
-      "btn_href": "/en/upright-steam-mop/",
+      "btn_href": "/en/coffee-machine/",
       "tags": [
-        "1500W",
-        "110°C",
-        "1.5L Tank"
+        "20 Bar",
+        "USB-C",
+        "Self-Heating"
       ]
     }
   ],
