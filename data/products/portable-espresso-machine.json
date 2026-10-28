@@ -1,0 +1,569 @@
+{
+ "category": "portable-espresso-machine",
+ "products": [
+  {
+   "id": "xyd003",
+   "name": {
+    "en": "XYD-003 3-in-1 Portable Espresso Machine · Self-Heating & Rechargeable",
+    "zh": "XYD-003 三合一便携浓缩咖啡机 · 自加热充电式",
+    "es": "Cafetera espresso portátil 3 en 1 XYD-003 · autocalentable y recargable",
+    "fr": "Machine à espresso portable 3 en 1 XYD-003 · auto-chauffante et rechargeable",
+    "id": "Mesin espresso portabel 3 in 1 XYD-003 · pemanas otomatis & isi ulang",
+    "ru": "Портативная эспрессо-машина 3 в 1 XYD-003 · самонагревающаяся и перезаряжаемая",
+    "th": "เครื่องเอสเปรสโซ่พกพา 3 ใน 1 XYD-003 · ให้ความร้อนเอง ชาร์จไฟได้",
+    "vi": "Máy espresso cầm tay 3 trong 1 XYD-003 · tự làm nóng và sạc lại được",
+    "ar": "آلة إسبريسو محمولة 3 في 1 XYD-003 · تسخين ذاتي وقابلة للشحن"
+   },
+   "tagline": {
+    "en": "20 Bar Pump · 90 ml Tank · Ground Coffee & Capsules · USB Rechargeable",
+    "zh": "20 巴泵压 · 90 ml 水箱 · 咖啡粉/胶囊两用 · USB 充电",
+    "es": "Bomba de 20 bares · depósito de 90 ml · café molido y cápsulas · recargable por USB",
+    "fr": "Pompe 20 bars · réservoir 90 ml · café moulu et capsules · rechargeable par USB",
+    "id": "Pompa 20 bar · tangki 90 ml · kopi bubuk & kapsul · isi ulang USB",
+    "ru": "Насос 20 бар · бак 90 мл · молотый кофе и капсулы · зарядка через USB",
+    "th": "ปั๊ม 20 บาร์ · ถัง 90 มล. · กาแฟบดและแคปซูล · ชาร์จผ่าน USB",
+    "vi": "Bơm 20 bar · bình chứa 90 ml · cà phê xay & capsule · sạc qua USB",
+    "ar": "مضخة 20 بار · خزان 90 مل · قهوة مطحونة وكبسولات · شحن عبر USB"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-xyd003/01.webp",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-xyd003/02.webp",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-xyd003/03.webp",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-xyd003/04.webp",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-xyd003/05.webp",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-xyd003/06.webp"
+   ],
+   "video_url": "",
+   "moq": {
+    "value": 100,
+    "unit": "pieces"
+   },
+   "certifications": [],
+   "cert_note": {
+    "en": "Certification documents on file — available on request.",
+    "zh": "认证资料已备案，可按需提供。"
+   },
+   "highlights": [
+    {
+     "icon": "power",
+     "text": {
+      "en": "20-bar pump extracts thick, velvety espresso crema",
+      "zh": "20 巴泵压萃取出厚实绵密的咖啡油脂",
+      "es": "Bomba de 20 bares que extrae una crema espesa y aterciopelada",
+      "fr": "Pompe 20 bars pour une crema épaisse et veloutée",
+      "id": "Pompa 20 bar mengekstrak crema espresso yang tebal dan lembut",
+      "ru": "Насос 20 бар извлекает плотную бархатистую пенку",
+      "th": "ปั๊ม 20 บาร์สกัดครีมาเอสเปรสโซ่หนานุ่ม",
+      "vi": "Bơm 20 bar chiết xuất crema espresso dày mịn",
+      "ar": "مضخة 20 بار تستخرج كريما إسبريسو كثيفة مخملية"
+     }
+    },
+    {
+     "icon": "battery",
+     "text": {
+      "en": "Self-heating system brews with cold or hot water, USB (Type-C) rechargeable",
+      "zh": "自加热系统冷水热水都能冲，USB（Type-C）充电",
+      "es": "Sistema autocalentable para agua fría o caliente, recargable por USB (Type-C)",
+      "fr": "Système auto-chauffant pour eau froide ou chaude, rechargeable USB (Type-C)",
+      "id": "Sistem pemanas otomatis untuk air dingin atau panas, isi ulang USB (Type-C)",
+      "ru": "Самонагрев: можно варить холодной или горячей водой, зарядка USB (Type-C)",
+      "th": "ระบบให้ความร้อนเอง ชงได้ทั้งน้ำเย็นและน้ำร้อน ชาร์จผ่าน USB (Type-C)",
+      "vi": "Hệ thống tự làm nóng, pha được cả nước lạnh và nóng, sạc USB (Type-C)",
+      "ar": "نظام تسخين ذاتي للتحضير بماء بارد أو ساخن، شحن عبر USB (Type-C)"
+     }
+    },
+    {
+     "icon": "filter",
+     "text": {
+      "en": "3-in-1 brewing: ground coffee, small capsules and large capsules",
+      "zh": "三合一萃取：咖啡粉、小胶囊与大胶囊",
+      "es": "Preparación 3 en 1: café molido, cápsulas pequeñas y grandes",
+      "fr": "Extraction 3 en 1 : café moulu, petites et grandes capsules",
+      "id": "Seduh 3 in 1: kopi bubuk, kapsul kecil dan besar",
+      "ru": "Варка 3 в 1: молотый кофе, малые и большие капсулы",
+      "th": "ชงได้ 3 แบบ: กาแฟบด แคปซูลเล็กและแคปซูลใหญ่",
+      "vi": "Pha 3 trong 1: cà phê xay, capsule nhỏ và capsule lớn",
+      "ar": "تحضير 3 في 1: قهوة مطحونة وكبسولات صغيرة وكبيرة"
+     }
+    }
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "Model",
+      "zh": "型号",
+      "es": "Modelo",
+      "fr": "Modèle",
+      "id": "Model",
+      "ru": "Модель",
+      "th": "รุ่น",
+      "vi": "Model",
+      "ar": "الموديل"
+     },
+     "value": {
+      "en": "XYD-003",
+      "zh": "XYD-003",
+      "es": "XYD-003",
+      "fr": "XYD-003",
+      "id": "XYD-003",
+      "ru": "XYD-003",
+      "th": "XYD-003",
+      "vi": "XYD-003",
+      "ar": "XYD-003"
+     }
+    },
+    {
+     "label": {
+      "en": "Pump Pressure Bars",
+      "zh": "泵压（巴）",
+      "es": "Presión de la bomba (bares)",
+      "fr": "Pression de la pompe (bars)",
+      "id": "Tekanan pompa (bar)",
+      "ru": "Давление помпы (бар)",
+      "th": "แรงดันปั๊ม (บาร์)",
+      "vi": "Áp suất bơm (bar)",
+      "ar": "ضغط المضخة (بار)"
+     },
+     "value": {
+      "en": "20 bar",
+      "zh": "20 巴",
+      "es": "20 bares",
+      "fr": "20 bars",
+      "id": "20 bar",
+      "ru": "20 бар",
+      "th": "20 บาร์",
+      "vi": "20 bar",
+      "ar": "20 بار"
+     }
+    },
+    {
+     "label": {
+      "en": "Water Tank Capacity",
+      "zh": "水箱容量",
+      "es": "Capacidad del depósito",
+      "fr": "Capacité du réservoir",
+      "id": "Kapasitas tangki",
+      "ru": "Ёмкость бака",
+      "th": "ความจุถังน้ำ",
+      "vi": "Dung tích bình chứa",
+      "ar": "سعة خزان الماء"
+     },
+     "value": {
+      "en": "90 ml",
+      "zh": "90 ml",
+      "es": "90 ml",
+      "fr": "90 ml",
+      "id": "90 ml",
+      "ru": "90 мл",
+      "th": "90 มล.",
+      "vi": "90 ml",
+      "ar": "90 مل"
+     }
+    },
+    {
+     "label": {
+      "en": "Material",
+      "zh": "材质",
+      "es": "Material",
+      "fr": "Matériau",
+      "id": "Bahan",
+      "ru": "Материал",
+      "th": "วัสดุ",
+      "vi": "Chất liệu",
+      "ar": "الخامة"
+     },
+     "value": {
+      "en": "Stainless Steel",
+      "zh": "不锈钢",
+      "es": "Acero inoxidable",
+      "fr": "Acier inoxydable",
+      "id": "Baja tahan karat",
+      "ru": "Нержавеющая сталь",
+      "th": "สแตนเลส",
+      "vi": "Inox",
+      "ar": "فولاذ مقاوم للصدأ"
+     }
+    },
+    {
+     "label": {
+      "en": "Power Source",
+      "zh": "供电方式",
+      "es": "Fuente de energía",
+      "fr": "Source d'alimentation",
+      "id": "Sumber daya",
+      "ru": "Источник питания",
+      "th": "แหล่งจ่ายไฟ",
+      "vi": "Nguồn điện",
+      "ar": "مصدر الطاقة"
+     },
+     "value": {
+      "en": "Battery, USB",
+      "zh": "电池、USB",
+      "es": "Batería, USB",
+      "fr": "Batterie, USB",
+      "id": "Baterai, USB",
+      "ru": "Аккумулятор, USB",
+      "th": "แบตเตอรี่, USB",
+      "vi": "Pin, USB",
+      "ar": "بطارية، USB"
+     }
+    },
+    {
+     "label": {
+      "en": "Coffee Type",
+      "zh": "咖啡类型",
+      "es": "Tipo de café",
+      "fr": "Type de café",
+      "id": "Jenis kopi",
+      "ru": "Тип кофе",
+      "th": "ประเภทกาแฟ",
+      "vi": "Loại cà phê",
+      "ar": "نوع القهوة"
+     },
+     "value": {
+      "en": "Ground coffee, small & large capsules",
+      "zh": "咖啡粉、小胶囊与大胶囊",
+      "es": "Café molido, cápsulas pequeñas y grandes",
+      "fr": "Café moulu, petites et grandes capsules",
+      "id": "Kopi bubuk, kapsul kecil & besar",
+      "ru": "Молотый кофе, малые и большие капсулы",
+      "th": "กาแฟบด แคปซูลเล็กและใหญ่",
+      "vi": "Cà phê xay, capsule nhỏ & lớn",
+      "ar": "قهوة مطحونة، كبسولات صغيرة وكبيرة"
+     }
+    },
+    {
+     "label": {
+      "en": "App-Controlled",
+      "zh": "APP 控制",
+      "es": "Control por app",
+      "fr": "Contrôle par app",
+      "id": "Kontrol aplikasi",
+      "ru": "Управление через приложение",
+      "th": "ควบคุมผ่านแอป",
+      "vi": "Điều khiển bằng app",
+      "ar": "تحكم عبر التطبيق"
+     },
+     "value": {
+      "en": "No",
+      "zh": "否",
+      "es": "No",
+      "fr": "Non",
+      "id": "Tidak",
+      "ru": "Нет",
+      "th": "ไม่",
+      "vi": "Không",
+      "ar": "لا"
+     }
+    },
+    {
+     "label": {
+      "en": "Packaging Type",
+      "zh": "包装类型",
+      "es": "Tipo de embalaje",
+      "fr": "Type d'emballage",
+      "id": "Jenis kemasan",
+      "ru": "Тип упаковки",
+      "th": "ประเภทบรรจุภัณฑ์",
+      "vi": "Loại đóng gói",
+      "ar": "نوع التغليف"
+     },
+     "value": {
+      "en": "Corrugated Box, Color Box",
+      "zh": "瓦楞纸箱、彩盒",
+      "es": "Caja corrugada, caja de color",
+      "fr": "Carton ondulé, boîte couleur",
+      "id": "Karton bergelombang, kotak warna",
+      "ru": "Гофрокороб, цветная коробка",
+      "th": "กล่องลูกฟูก กล่องสี",
+      "vi": "Thùng carton, hộp màu",
+      "ar": "كرتون مموج، علبة ملوّنة"
+     }
+    },
+    {
+     "label": {
+      "en": "Private Mould",
+      "zh": "私模",
+      "es": "Molde privado",
+      "fr": "Moule privé",
+      "id": "Mold privat",
+      "ru": "Собственная пресс-форма",
+      "th": "โมลด์ส่วนตัว",
+      "vi": "Mold riêng",
+      "ar": "قالب خاص"
+     },
+     "value": {
+      "en": "Yes",
+      "zh": "是",
+      "es": "Sí",
+      "fr": "Oui",
+      "id": "Ya",
+      "ru": "Да",
+      "th": "ใช่",
+      "vi": "Có",
+      "ar": "نعم"
+     }
+    },
+    {
+     "label": {
+      "en": "Place of Origin",
+      "zh": "产地",
+      "es": "Lugar de origen",
+      "fr": "Lieu d'origine",
+      "id": "Tempat asal",
+      "ru": "Страна производства",
+      "th": "สถานที่ผลิต",
+      "vi": "Nơi xuất xứ",
+      "ar": "بلد المنشأ"
+     },
+     "value": {
+      "en": "Guangdong, China",
+      "zh": "中国广东",
+      "es": "Guangdong, China",
+      "fr": "Guangdong, Chine",
+      "id": "Guangdong, Tiongkok",
+      "ru": "Гуандун, Китай",
+      "th": "กวางตุ้ง จีน",
+      "vi": "Quảng Đông, Trung Quốc",
+      "ar": "قوانغدونغ، الصين"
+     }
+    }
+   ],
+   "quick_specs": [
+    {
+     "label": {
+      "en": "Pump Pressure Bars",
+      "zh": "泵压（巴）",
+      "es": "Presión de la bomba",
+      "fr": "Pression de la pompe",
+      "id": "Tekanan pompa",
+      "ru": "Давление помпы",
+      "th": "แรงดันปั๊ม",
+      "vi": "Áp suất bơm",
+      "ar": "ضغط المضخة"
+     },
+     "value": {
+      "en": "20 bar",
+      "zh": "20 巴",
+      "es": "20 bares",
+      "fr": "20 bars",
+      "id": "20 bar",
+      "ru": "20 бар",
+      "th": "20 บาร์",
+      "vi": "20 bar",
+      "ar": "20 بار"
+     }
+    },
+    {
+     "label": {
+      "en": "Water Tank Capacity",
+      "zh": "水箱容量",
+      "es": "Capacidad del depósito",
+      "fr": "Capacité du réservoir",
+      "id": "Kapasitas tangki",
+      "ru": "Ёмкость бака",
+      "th": "ความจุถังน้ำ",
+      "vi": "Dung tích bình chứa",
+      "ar": "سعة خزان الماء"
+     },
+     "value": {
+      "en": "90 ml",
+      "zh": "90 ml",
+      "es": "90 ml",
+      "fr": "90 ml",
+      "id": "90 ml",
+      "ru": "90 мл",
+      "th": "90 มล.",
+      "vi": "90 ml",
+      "ar": "90 مل"
+     }
+    },
+    {
+     "label": {
+      "en": "Material",
+      "zh": "材质",
+      "es": "Material",
+      "fr": "Matériau",
+      "id": "Bahan",
+      "ru": "Материал",
+      "th": "วัสดุ",
+      "vi": "Chất liệu",
+      "ar": "الخامة"
+     },
+     "value": {
+      "en": "Stainless Steel",
+      "zh": "不锈钢",
+      "es": "Acero inoxidable",
+      "fr": "Acier inoxydable",
+      "id": "Baja tahan karat",
+      "ru": "Нержавеющая сталь",
+      "th": "สแตนเลส",
+      "vi": "Inox",
+      "ar": "فولاذ مقاوم للصدأ"
+     }
+    },
+    {
+     "label": {
+      "en": "Coffee Type",
+      "zh": "咖啡类型",
+      "es": "Tipo de café",
+      "fr": "Type de café",
+      "id": "Jenis kopi",
+      "ru": "Тип кофе",
+      "th": "ประเภทกาแฟ",
+      "vi": "Loại cà phê",
+      "ar": "نوع القهوة"
+     },
+     "value": {
+      "en": "Ground & capsules",
+      "zh": "粉/胶囊两用",
+      "es": "Molido y cápsulas",
+      "fr": "Moulu et capsules",
+      "id": "Bubuk & kapsul",
+      "ru": "Молотый и капсулы",
+      "th": "บดและแคปซูล",
+      "vi": "Xay & capsule",
+      "ar": "مطحون وكبسولات"
+     }
+    }
+   ],
+   "packaging": {
+    "unit": "Color Box",
+    "ctn_size": "—",
+    "ctn_qty": "—",
+    "gross_weight": "—"
+   },
+   "customization": {
+    "oem": true,
+    "odm": true,
+    "logo": true,
+    "color": true,
+    "package": true,
+    "sample_lead": "on request",
+    "production_lead": "on request"
+   },
+   "applications": {
+    "en": "Travel, Camping, Hotel, Car, Office & Home",
+    "zh": "旅行、露营、酒店、车载、办公与家居",
+    "es": "Viajes, camping, hotel, coche, oficina y hogar",
+    "fr": "Voyage, camping, hôtel, voiture, bureau et maison",
+    "id": "Perjalanan, berkemah, hotel, mobil, kantor & rumah",
+    "ru": "Путешествия, кемпинг, отель, автомобиль, офис и дом",
+    "th": "ท่องเที่ยว แคมป์ปิ้ง โรงแรม รถยนต์ ออฟฟิศและบ้าน",
+    "vi": "Du lịch, cắm trại, khách sạn, ô tô, văn phòng & gia đình",
+    "ar": "السفر والتخييم والفنادق والسيارة والمكتب والمنزل"
+   },
+   "price_indicator": {
+    "min": 16,
+    "max": 19,
+    "currency": "USD"
+   },
+   "sku": [
+    {
+     "name": {
+      "en": "Colour",
+      "zh": "颜色"
+     },
+     "values": [
+      {
+       "name": "Black"
+      },
+      {
+       "name": "Gold"
+      },
+      {
+       "name": "Grey"
+      },
+      {
+       "name": "Silver"
+      },
+      {
+       "name": "White"
+      },
+      {
+       "name": "Purple"
+      }
+     ]
+    }
+   ],
+   "description": {
+    "en": "The XYD-003 is a 3-in-1 portable espresso machine that brews ground coffee, small capsules and large capsules. A 20-bar pump extracts thick, velvety crema while the self-heating system warms water on board, so you can brew with cold or hot water anywhere. The 90 ml water tank and USB (Type-C) recharging make it a genuine travel companion for camping, road trips, hotels and the office. Stainless-steel construction from a private mold, with OEM/ODM customization available.",
+    "zh": "XYD-003 是一台三合一便携浓缩咖啡机，兼容咖啡粉、小胶囊与大胶囊三种萃取方式。20 巴泵压萃取出厚实绵密的油脂，自加热系统可在机内把水加热，冷水热水都能直接冲煮，随时随地出品。90 ml 水箱与 USB（Type-C）充电让它成为露营、自驾、酒店与办公场景的真正旅行伙伴。不锈钢机身、私模开模，支持 OEM/ODM 定制。",
+    "es": "La XYD-003 es una cafetera espresso portátil 3 en 1 que prepara café molido, cápsulas pequeñas y cápsulas grandes. Una bomba de 20 bares extrae una crema espesa y aterciopelada, mientras el sistema de autocalentamiento calienta el agua a bordo: puede preparar café con agua fría o caliente en cualquier lugar. El depósito de 90 ml y la carga USB (Type-C) la convierten en una compañera de viaje real para acampar, viajar en coche, hoteles y la oficina. Construcción de acero inoxidable de molde privado, con personalización OEM/ODM disponible.",
+    "fr": "La XYD-003 est une machine à espresso portable 3 en 1 qui prépare le café moulu, les petites capsules et les grandes capsules. Une pompe 20 bars extrait une crema épaisse et veloutée pendant que le système auto-chauffant réchauffe l'eau à bord : vous pouvez extraire avec de l'eau froide ou chaude, partout. Le réservoir de 90 ml et la recharge USB (Type-C) en font une véritable compagne de voyage pour le camping, les road trips, les hôtels et le bureau. Construction en acier inoxydable issue d'un moule privé, personnalisation OEM/ODM disponible.",
+    "id": "XYD-003 adalah mesin espresso portabel 3 in 1 yang dapat menyeduh kopi bubuk, kapsul kecil, dan kapsul besar. Pompa 20 bar mengekstrak crema yang tebal dan lembut sementara sistem pemanas otomatis memanaskan air di dalam mesin, sehingga Anda dapat menyeduh dengan air dingin atau panas di mana saja. Tangki air 90 ml dan pengisian USB (Type-C) menjadikannya pendamping perjalanan sesungguhnya untuk berkemah, perjalanan darat, hotel, dan kantor. Konstruksi baja tahan karat dari mold privat, tersedia kustomisasi OEM/ODM.",
+    "ru": "XYD-003 — это портативная эспрессо-машина 3 в 1, которая готовит кофе из молотого зерна, маленьких и больших капсул. Насос 20 бар извлекает плотную, бархатистую пенку, а система самонагрева греет воду внутри прибора, поэтому варить можно с холодной или горячей водой в любом месте. Бак на 90 мл и зарядка USB (Type-C) делают её настоящим спутником в походах, автопутешествиях, отелях и офисе. Корпус из нержавеющей стали из собственной пресс-формы, доступна кастомизация OEM/ODM.",
+    "th": "XYD-003 เป็นเครื่องเอสเปรสโซ่พกพา 3 ใน 1 ที่ชงได้ทั้งกาแฟบด แคปซูลขนาดเล็กและแคปซูลขนาดใหญ่ ปั๊มแรงดัน 20 บาร์สกัดครีมาที่หนานุ่ม พร้อมระบบให้ความร้อนเองภายในเครื่อง จึงชงได้ทั้งน้ำเย็นและน้ำร้อนทุกที่ ถังน้ำ 90 มล. และการชาร์จผ่าน USB (Type-C) ทำให้เป็นเพื่อนเดินทางตัวจริงสำหรับแคมป์ปิ้ง ทริปขับรถ โรงแรมและออฟฟิศ ตัวเครื่องสแตนเลสจากโมลด์ส่วนตัว รองรับ OEM/ODM",
+    "vi": "XYD-003 là máy pha espresso cầm tay 3 trong 1, pha được cà phê xay, capsule nhỏ và capsule lớn. Bơm 20 bar chiết xuất lớp crema dày mịn, hệ thống tự làm nóng đun nước ngay trong máy nên bạn có thể pha với nước lạnh hoặc nước nóng ở mọi nơi. Bình chứa 90 ml và sạc USB (Type-C) khiến nó trở thành người bạn đồng hành thực thụ cho cắm trại, các chuyến đi xa, khách sạn và văn phòng. Thân máy inox từ mold riêng, hỗ trợ tùy biến OEM/ODM.",
+    "ar": "‏XYD-003 هي آلة إسبريسو محمولة 3 في 1 لتحضير القهوة المطحونة والكبسولات الصغيرة والكبسولات الكبيرة. مضخة 20 بار تستخرج كريما كثيفة مخملية، بينما يسخّن نظام التسخين الذاتي الماء داخل الجهاز، فيمكنك التحضير بماء بارد أو ساخن في أي مكان. خزان 90 مل والشحن عبر USB (Type-C) يجعلانها رفيق سفر حقيقيًا للتخييم ورحلات الطريق والفنادق والمكتب. هيكل من الفولاذ المقاوم للصدأ من قالب خاص، مع إتاحة التخصيص OEM/ODM."
+   },
+   "supplier_rating": "4.81",
+   "response_time": "—",
+   "transactions": "—",
+   "years": "—",
+   "ship_from": {
+    "en": "China",
+    "zh": "中国"
+   },
+   "sample": {
+    "enabled": true,
+    "qty": 1,
+    "note": {
+     "en": "Sample available (max 1 pc)",
+     "zh": "支持打样（最多 1 台）"
+    }
+   },
+   "category_name": {
+    "en": "Portable Espresso Machine",
+    "zh": "便携式浓缩咖啡机",
+    "es": "Cafetera Espresso Portátil",
+    "fr": "Machine à Espresso Portable",
+    "id": "Mesin Espresso Portabel",
+    "ru": "Портативная эспрессо-машина",
+    "th": "เครื่องเอสเปรสโซ่พกพา",
+    "vi": "Máy Pha Espresso Cầm Tay",
+    "ar": "آلة إسبريسو محمولة"
+   },
+   "certificates": [],
+   "supplier": {
+    "country": "HK",
+    "province": "New Territories",
+    "established": 2024,
+    "reply_rate": 0.9987,
+    "verified": false,
+    "main_markets": [
+     "North America",
+     "South America",
+     "Eastern Europe",
+     "Southeast Asia"
+    ]
+   },
+   "store_rating": {
+    "score": 4.81,
+    "reviews": 7,
+    "scope": "store"
+   },
+   "shipping_fee_usd": 17.02,
+   "alibaba_url": "https://www.alibaba.com/product-detail/3-in-1-Portable-Espresso-Machine_1601980822673.html",
+   "_cat": "portable-espresso-machine",
+   "detail_images": [
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-xyd003/detail/01.webp",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-xyd003/detail/02.webp",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-xyd003/detail/03.webp",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-xyd003/detail/04.webp",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-xyd003/detail/05.webp",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-xyd003/detail/06.webp",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-xyd003/detail/07.webp",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-xyd003/detail/08.webp",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-xyd003/detail/09.webp",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-xyd003/detail/10.webp",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-xyd003/detail/11.webp",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-xyd003/detail/12.webp",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-xyd003/detail/13.webp",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-xyd003/detail/14.webp"
+   ]
+  }
+ ],
+ "reviews": [],
+ "_schema_reviews": []
+}

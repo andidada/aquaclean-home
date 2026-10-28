@@ -166,6 +166,16 @@
    "heroTitle": "Handheld Floor Scrubber",
    "heroP": "Cordless wet & dry floor scrubbers with self-propelled roller brush. Vacuums, washes and dries hard floors in one pass — a 5-in-1 cleaning system for homes and commercial spaces.",
    "hasRelated": true
+  },
+  "portable-espresso-machine": {
+   "heroTitle": "Portable Espresso Machine",
+   "whyTitle": "Why Choose Our Portable Espresso Machines?",
+   "guideTitle": "How to Choose a Portable Espresso Machine",
+   "oemTitle": "Need OEM / ODM for Portable Espresso Machines?",
+   "oemSub": "Custom logo, colour and packaging · samples 7–14 days · production 25–35 days",
+   "countSub": "1 model in this category right now — see the table below for MOQ, indicative FOB price and key specifications.",
+   "heroP": "",
+   "hasRelated": true
   }
  },
  "detail": {
@@ -512,7 +522,12 @@
   "Motor & Suction": "A 230W brushless motor with 110AW suction lifts embedded dirt while staying quiet.",
   "Self-Propelled Roller Brush": "The roller brush drives the machine forward — one pass vacuums, washes and dries.",
   "Dual-Tank System": "Separate clean and dirty water tanks keep fresh water apart from wastewater.",
-  "Wet & Dry Capability": "Handles dry debris and liquid spills in the same pass."
+  "Wet & Dry Capability": "Handles dry debris and liquid spills in the same pass.",
+  "Pump Pressure": "A 20-bar pump extracts thick, velvety crema — low-pressure makers produce weak, watery shots.",
+  "Self-Heating & Charging": "Self-heating brews straight from cold water; Type-C recharging shares one cable with your phone.",
+  "3-in-1 Brewing": "Ground coffee, small capsules and large capsules in one machine — no consumable lock-in.",
+  "Water Tank": "90 ml matches a true double espresso shot; bigger tanks add bulk to the body.",
+  "Portability": "Weight, dimensions and cup clearance decide whether it truly travels with you."
  },
  "moqUnit": "pcs",
  "specValue": {
@@ -964,7 +979,12 @@
   "Motor & Suction": "Motor & Suction",
   "Self-Propelled Roller Brush": "Self-Propelled Roller Brush",
   "Dual-Tank System": "Dual-Tank System",
-  "Wet & Dry Capability": "Wet & Dry Capability"
+  "Wet & Dry Capability": "Wet & Dry Capability",
+  "Pump Pressure": "Pump Pressure",
+  "Self-Heating & Charging": "Self-Heating & Charging",
+  "3-in-1 Brewing": "3-in-1 Brewing",
+  "Water Tank": "Water Tank",
+  "Portability": "Portability"
  },
  "guideValues": {
   "Up to 4 cups": "Up to 4 cups",
@@ -976,6 +996,11 @@
   "2min · 20S": "2 min · 20 s",
   "Emergency Light · Power Indicator · Tire Pressure Monitor · Tire Inflation": "Emergency Light · Power Indicator · Tire Pressure Monitor · Tire Inflation",
   "HEPA Filter": "HEPA Filter",
-  "No": "No"
+  "No": "No",
+  "20 bar": "20 bar",
+  "Type-C": "Type-C",
+  "Ground & capsules": "Ground & capsules",
+  "90 ml": "90 ml",
+  "Travel size": "Travel size"
  }
 }

@@ -263,5 +263,32 @@
    "values": "Wet & Dry",
    "explain": "Handles dry debris and liquid spills in the same pass."
   }
+ ],
+ "portable-espresso-machine": [
+  {
+   "title": "Pump Pressure",
+   "values": "20 bar",
+   "explain": "A 20-bar pump extracts thick, velvety crema — low-pressure makers produce weak, watery shots."
+  },
+  {
+   "title": "Self-Heating & Charging",
+   "values": "Type-C",
+   "explain": "Self-heating brews straight from cold water; Type-C recharging shares one cable with your phone."
+  },
+  {
+   "title": "3-in-1 Brewing",
+   "values": "Ground & capsules",
+   "explain": "Ground coffee, small capsules and large capsules in one machine — no consumable lock-in."
+  },
+  {
+   "title": "Water Tank",
+   "values": "90 ml",
+   "explain": "90 ml matches a true double espresso shot; bigger tanks add bulk to the body."
+  },
+  {
+   "title": "Portability",
+   "values": "Travel size",
+   "explain": "Weight, dimensions and cup clearance decide whether it truly travels with you."
+  }
  ]
 }

@@ -620,7 +620,12 @@
   "Motor & Suction": "Động cơ & lực hút",
   "Self-Propelled Roller Brush": "Bàn chải tự dẫn động",
   "Dual-Tank System": "Hệ thống két nước đôi",
-  "Wet & Dry Capability": "Khả năng ướt & khô"
+  "Wet & Dry Capability": "Khả năng ướt & khô",
+  "Pump Pressure": "Áp suất bơm",
+  "Self-Heating & Charging": "Làm nóng & sạc",
+  "3-in-1 Brewing": "Pha 3 trong 1",
+  "Water Tank": "Bình chứa nước",
+  "Portability": "Tính di động"
  },
  "guideValues": {
   "Up to 4 cups": "Tối đa 4 tách",
@@ -632,7 +637,12 @@
   "2min · 20S": "2min · 20S",
   "Emergency Light · Power Indicator · Tire Pressure Monitor · Tire Inflation": "Đèn khẩn cấp · Đèn báo nguồn · Đo áp suất lốp · Bơm lốp",
   "HEPA Filter": "Bộ lọc HEPA",
-  "No": "Không"
+  "No": "Không",
+  "20 bar": "20 bar",
+  "Type-C": "Type-C",
+  "Ground & capsules": "Xay & capsule",
+  "90 ml": "90 ml",
+  "Travel size": "Cỡ bỏ đi"
  },
  "nav": {
   "products": "Sản phẩm",
@@ -873,7 +883,12 @@
   "Motor & Suction": "Động cơ không chổi than 230W, lực hút 110AW, loại bỏ bụi bám cứng vẫn êm ái.",
   "Self-Propelled Roller Brush": "Bàn chải đẩy máy tiến về trước — một lượt hút, rửa và làm khô.",
   "Dual-Tank System": "Két nước sạch và nước bẩn riêng biệt — luôn lau bằng nước sạch.",
-  "Wet & Dry Capability": "Xử lý rác khô và nước đổ ra trong cùng một lượt."
+  "Wet & Dry Capability": "Xử lý rác khô và nước đổ ra trong cùng một lượt.",
+  "Pump Pressure": "Bơm 20 bar chiết xuất crema dày mịn — máy áp suất thấp cho cà phê nhạt loãng.",
+  "Self-Heating & Charging": "Tự làm nóng pha trực tiếp bằng nước lạnh; sạc Type-C dùng chung một cáp với điện thoại.",
+  "3-in-1 Brewing": "Cà phê xay, capsule nhỏ và lớn trong một máy — không bị trói vào loại phụ kiện nào.",
+  "Water Tank": "90 ml đúng bằng một shot espresso đôi; bình lớn hơn chỉ làm máy cồng kềnh.",
+  "Portability": "Trọng lượng, kích thước và khoảng cạnh cốc quyết định nó có thực sự tiện mang theo không."
  },
  "categoryPage": {
   "car-vacuum": {
@@ -974,6 +989,16 @@
    "oemSub": "Logo, màu sắc và bao bì riêng · mẫu 7–14 ngày · sản xuất 25–35 ngày",
    "heroTitle": "Máy Chà Sàn Cầm Tay",
    "heroP": "Máy chà sàn không dây wet & dry với bàn chải tự dẫn động. Hút, rửa và làm khô sàn cứng chỉ trong một lượt.",
+   "hasRelated": true
+  },
+  "portable-espresso-machine": {
+   "heroTitle": "Máy Pha Espresso Cầm Tay",
+   "whyTitle": "Vì sao chọn máy pha espresso cầm tay của chúng tôi?",
+   "guideTitle": "Cách chọn máy pha espresso cầm tay",
+   "oemTitle": "Cần OEM / ODM cho máy pha espresso cầm tay?",
+   "oemSub": "Logo, màu sắc và bao bì riêng · mẫu 7–14 ngày · sản xuất 25–35 ngày",
+   "countSub": "1 model trong danh mục này hiện nay — xem bảng dưới đây để biết MOQ, giá FOB tham khảo và thông số chính.",
+   "heroP": "",
    "hasRelated": true
   }
  },

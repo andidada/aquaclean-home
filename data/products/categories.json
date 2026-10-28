@@ -270,5 +270,33 @@
    "banner_image": "https://www.hkdmj.net/assets/images/products/17-handheld-floor-scrubber.webp?v=20261028",
    "order": 10
   }
+,
+  {
+   "slug": "portable-espresso-machine",
+   "order": 11,
+   "name": {
+    "en": "Portable Espresso Machine",
+    "zh": "便携式浓缩咖啡机",
+    "es": "Cafetera Espresso Portátil",
+    "fr": "Machine à Espresso Portable",
+    "id": "Mesin Espresso Portabel",
+    "ru": "Портативная эспрессо-машина",
+    "th": "เครื่องเอสเปรสโซ่พกพา",
+    "vi": "Máy Pha Espresso Cầm Tay",
+    "ar": "آلة إسبريسو محمولة"
+   },
+   "description": {
+    "en": "Self-heating rechargeable espresso makers that brew ground coffee and capsules anywhere. 20-bar pump extraction in a travel-size body — for camping, road trips, hotels and the office.",
+    "zh": "自加热可充电浓缩咖啡机，咖啡粉与胶囊随时随地可冲。20 巴泵压萃取，机身便携，适合露营、自驾、酒店与办公场景。",
+    "es": "Cafeteras espresso recargables con autocalentamiento que preparan café molido y cápsulas en cualquier lugar. Bomba de 20 bares en un cuerpo tamaño viaje.",
+    "fr": "Machines à espresso rechargeables auto-chauffantes qui préparent café moulu et capsules partout. Pompe 20 bars dans un corps format voyage.",
+    "id": "Mesin espresso isi ulang dengan pemanas otomatis yang menyeduh kopi bubuk dan kapsul di mana saja. Pompa 20 bar dalam bodi ukuran perjalanan.",
+    "ru": "Самонагревающиеся перезаряжаемые эспрессо-машины, которые готовят молотый кофе и капсулы где угодно. Насос 20 бар в корпусе дорожного размера.",
+    "th": "เครื่องชงกาแฟเอสเปรสโซ่แบบชาร์จไฟได้พร้อมระบบให้ความร้อนเอง ชงกาแฟบดและแคปซูลได้ทุกที่ ปั๊มแรงดัน 20 บาร์ในตัวเครื่องขนาดพกพา",
+    "vi": "Máy pha espresso tự làm nóng, sạc điện được, pha được cả cà phê xay và capsule ở mọi nơi. Bơm 20 bar trong thân máy cỡ bỏ đi.",
+    "ar": "آلات إسبريسو قابلة لإعادة الشحن مع تسخين ذاتي، لتحضير القهوة المطحونة والكبسولات في أي مكان. مضخة 20 بار بجسم بحجم السفر."
+   },
+   "banner_image": "https://www.hkdmj.net/assets/images/products/12-portable-espresso.webp"
+  }
  ]
 }

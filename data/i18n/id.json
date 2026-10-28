@@ -620,7 +620,12 @@
   "Motor & Suction": "Motor & Hisapan",
   "Self-Propelled Roller Brush": "Sikat Self-Propelled",
   "Dual-Tank System": "Sistem Tangki Ganda",
-  "Wet & Dry Capability": "Kemampuan Basah & Kering"
+  "Wet & Dry Capability": "Kemampuan Basah & Kering",
+  "Pump Pressure": "Tekanan pompa",
+  "Self-Heating & Charging": "Pemanas & pengisian",
+  "3-in-1 Brewing": "Seduh 3 in 1",
+  "Water Tank": "Tangki air",
+  "Portability": "Portabilitas"
  },
  "guideValues": {
   "Up to 4 cups": "Hingga 4 cangkir",
@@ -632,7 +637,12 @@
   "2min · 20S": "2min · 20S",
   "Emergency Light · Power Indicator · Tire Pressure Monitor · Tire Inflation": "Lampu Darurat · Indikator Daya · Monitor Tekanan Ban · Pengisian Angin Ban",
   "HEPA Filter": "Filter HEPA",
-  "No": "Tidak"
+  "No": "Tidak",
+  "20 bar": "20 bar",
+  "Type-C": "Type-C",
+  "Ground & capsules": "Bubuk & kapsul",
+  "90 ml": "90 ml",
+  "Travel size": "Ukuran perjalanan"
  },
  "nav": {
   "products": "Produk",
@@ -873,7 +883,12 @@
   "Motor & Suction": "Motor brushless 230W dengan hisapan 110AW mengangkat kotoran membandel tetap senyap.",
   "Self-Propelled Roller Brush": "Sikat mendorong mesin ke depan — sekali lintasan menyedot, mencuci, dan mengeringkan.",
   "Dual-Tank System": "Tangki air bersih dan kotor terpisah — selalu mengepel dengan air bersih.",
-  "Wet & Dry Capability": "Menangani kotoran kering dan tumpahan cairan dalam satu lintasan."
+  "Wet & Dry Capability": "Menangani kotoran kering dan tumpahan cairan dalam satu lintasan.",
+  "Pump Pressure": "Pompa 20 bar mengekstrak crema yang tebal dan lembut — mesin bertekanan rendah menghasilkan kopi yang hambar.",
+  "Self-Heating & Charging": "Pemanas otomatis menyeduh langsung dari air dingin; pengisian Type-C berbagi satu kabel dengan ponsel Anda.",
+  "3-in-1 Brewing": "Kopi bubuk, kapsul kecil, dan kapsul besar dalam satu mesin — tanpa ketergantungan konsumbel.",
+  "Water Tank": "90 ml sesuai untuk satu shot espresso ganda sesungguhnya; tangki lebih besar menambah ukuran bodi.",
+  "Portability": "Berat, dimensi, dan ruang cangkir menentukan apakah benar-benar pas bepergian dengan Anda."
  },
  "categoryPage": {
   "car-vacuum": {
@@ -974,6 +989,16 @@
    "oemSub": "Logo, warna, dan kemasan kustom · sampel 7–14 hari · produksi 25–35 hari",
    "heroTitle": "Mesin Scrubber Lantai Genggam",
    "heroP": "Mesin scrubber lantai nirkabel basah & kering dengan sikat self-propelled. Menyedot, mencuci, dan mengeringkan lantai keras dalam sekali lintasan.",
+   "hasRelated": true
+  },
+  "portable-espresso-machine": {
+   "heroTitle": "Mesin Espresso Portabel",
+   "whyTitle": "Mengapa Memilih Mesin Espresso Portabel Kami?",
+   "guideTitle": "Cara Memilih Mesin Espresso Portabel",
+   "oemTitle": "Butuh OEM / ODM untuk Mesin Espresso Portabel?",
+   "oemSub": "Logo, warna, dan kemasan kustom · sampel 7–14 hari · produksi 25–35 hari",
+   "countSub": "1 model dalam kategori ini saat ini — lihat tabel di bawah untuk MOQ, harga FOB indikatif, dan spesifikasi utama.",
+   "heroP": "",
    "hasRelated": true
   }
  },
