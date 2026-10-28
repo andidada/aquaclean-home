@@ -53,9 +53,46 @@
     });
   }
 
+  function initLangPicker() {
+    // 语言切换按钮（.lang-picker.open 类控制下拉显隐）。
+    // 此前只有首页/关于页加载的 langpicker.v1.js 会绑定，
+    // 其余所有页面（品类页/详情页/文章页）按钮是死的。与
+    // langpicker.v1.js 用 dataset.lpBound 互斥，防止双重绑定。
+    var picker = document.getElementById('langPicker');
+    if (!picker || picker.dataset.lpBound === '1') return;
+    var btn = picker.querySelector('.lang-current');
+    if (!btn) return;
+    picker.dataset.lpBound = '1';
+
+    btn.addEventListener('click', function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+      var open = picker.classList.toggle('open');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+
+    document.addEventListener('click', function (e) {
+      if (!picker.contains(e.target)) {
+        picker.classList.remove('open');
+        btn.setAttribute('aria-expanded', 'false');
+      }
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') {
+        picker.classList.remove('open');
+        btn.setAttribute('aria-expanded', 'false');
+      }
+    });
+  }
+
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
+    document.addEventListener('DOMContentLoaded', function () {
+      init();
+      initLangPicker();
+    });
   } else {
     init();
+    initLangPicker();
   }
 })();

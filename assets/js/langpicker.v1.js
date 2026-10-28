@@ -18,6 +18,12 @@ function dbg() { if (AQC_DEBUG) console.log.apply(console, arguments); }
     console.error('[langPicker] ERROR: #langPicker not found');
     return;
   }
+  // nav.js 也可能绑定（非首页无 langpicker 场景）；dataset 互斥防双重绑定
+  if (picker.dataset.lpBound === '1') {
+    dbg('[langPicker] already bound by nav.js, skip');
+    return;
+  }
+  picker.dataset.lpBound = '1';
   dbg('[langPicker] #langPicker found');
   
   var btn = picker.querySelector('.lang-current');
