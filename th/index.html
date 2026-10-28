@@ -40,6 +40,7 @@
   <!-- 非阻塞加载：media="print" 的样式表不阻塞渲染，onload 后切回 all。
        这样该域名不可达时首屏照常绘制，可达时仍能拿到正确字体。 -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700;800;900&display=swap" media="print" onload="this.media='all'">
+  <link rel="preload" as="image" href="../assets/images/banners/banner-1.webp" fetchpriority="high">
   <link rel="stylesheet" href="../assets/css/style.css?v=20261016a">
   <style>body { font-family: 'Noto Sans Thai', 'Inter', sans-serif; }</style>
 
@@ -152,7 +153,7 @@
 </nav><script>/*aqc-lang-inline*/(function(){"use strict";var p=document.getElementById("langPicker");if(!p||p.dataset.lpBound==="1")return;p.dataset.lpBound="1";var b=p.querySelector(".lang-current");if(!b)return;b.addEventListener("click",function(e){e.preventDefault();e.stopPropagation();var o=p.classList.toggle("open");b.setAttribute("aria-expanded",o?"true":"false")});document.addEventListener("click",function(e){if(!p.contains(e.target)){p.classList.remove("open");b.setAttribute("aria-expanded","false")}});document.addEventListener("keydown",function(e){if(e.key==="Escape"){p.classList.remove("open");b.setAttribute("aria-expanded","false")}})})();</script>
 
 <!-- HERO -->
-<section class="hero" id="hero-section">
+<section class="hero" id="hero-section" style="background:linear-gradient(180deg, rgba(11,27,51,0.82) 0%, rgba(16,41,77,0.62) 45%, rgba(11,27,51,0.80) 100%), url('../assets/images/banners/banner-1.webp?v=20261029') center/cover no-repeat;">
   <div class="hero-inner">
     <div class="hero-badge">🇨🇳 OEM / ODM · ผลิตตั้งแต่ปี 2015</div>
     <h1>อุปกรณ์ทำความสะอาดอัจฉริยะ<br>ออกแบบสำหรับ <span>ตลาดทั่วโลก</span></h1>
