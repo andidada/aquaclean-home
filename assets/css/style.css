@@ -998,7 +998,7 @@ body.lang-ar .navbar-inner { padding-right: 150px; padding-left: 0; }
    ============================================= */
 .hero-carousel {
   position: relative;
-  height: 620px;
+  height: 700px;
   overflow: hidden;
   background: var(--secondary);
   padding: 0;
@@ -1007,8 +1007,11 @@ body.lang-ar .navbar-inner { padding-right: 150px; padding-left: 0; }
 .hero-slide {
   position: absolute;
   inset: 0;
-  background-size: cover;
+  /* 完整展示背景图（不裁切）。contain 后两侧/上下留出的空白由 ::before
+     用同一张图放大模糊铺底填充，避免出现生硬的留白边。 */
+  background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.8s ease;
@@ -1016,15 +1019,51 @@ body.lang-ar .navbar-inner { padding-right: 150px; padding-left: 0; }
   align-items: center;
   justify-content: center;
 }
+/* 底层：同一张图放大模糊，填满 contain 留出的空白 */
+.hero-slide::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: inherit;
+  /* 与上层同一张图、同一中心，只是整体放大后重模糊，保证两侧延展的
+     明暗与主体连续，边缘不会出现"两张图"的跳变 */
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(48px) saturate(1.15);
+  transform: scale(2.2);
+  z-index: 0;
+}
+/* 上层：完整不裁切的背景图 */
+.hero-slide::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: inherit;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* 四边羽化，让完整图柔和融入模糊底，避免出现生硬直边 */
+  -webkit-mask-image:
+    linear-gradient(90deg, transparent 0, #000 18%, #000 82%, transparent 100%),
+    linear-gradient(180deg, transparent 0, #000 18%, #000 82%, transparent 100%);
+  -webkit-mask-composite: source-in;
+  mask-image:
+    linear-gradient(90deg, transparent 0, #000 18%, #000 82%, transparent 100%),
+    linear-gradient(180deg, transparent 0, #000 18%, #000 82%, transparent 100%);
+  mask-composite: intersect;
+  z-index: 1;
+}
 .hero-slide.active { opacity: 1; visibility: visible; }
 .hero-slide-overlay {
   position: absolute;
   inset: 0;
+  z-index: 2;
   background: linear-gradient(90deg, rgba(15,23,42,0.72) 0%, rgba(15,23,42,0.45) 55%, rgba(15,23,42,0.25) 100%);
 }
 .hero-carousel .hero-inner {
   position: relative;
-  z-index: 2;
+  z-index: 3;
   max-width: 800px;
   margin: 0 auto;
   padding: 0 24px;

@@ -38,7 +38,7 @@
 
   <meta name="description" content="Appareils de nettoyage professionnels : aspirateurs portables, robots aspirateurs, nettoyeurs vapeur, éliminateurs d'acariens UV, robots nettoyeurs de vitres, aspirateurs voiture et compresseurs de pneus. OEM/ODM B2B disponible.">
   <link rel="preload" as="image" href="../assets/images/banners/banner-1.webp" fetchpriority="high">
-  <link rel="stylesheet" href="../assets/css/style.css?v=20261016a">
+  <link rel="stylesheet" href="../assets/css/style.css?v=20261029a">
 
 <script type="application/ld+json">
 {
@@ -356,7 +356,7 @@ html[dir="rtl"] .hero-carousel .hero-slide.active .hero-inner { transform: none;
   // 非英语文案比英文长（西/法/俄约 678px），固定 620px 会裁掉顶部并让
   // 数据区压到圆点上。按最高的一屏撑开容器，并随窗口尺寸重算。
   function fit(){
-    var max = 620;
+    var max = 700;
     Array.prototype.forEach.call(slides, function(s){
       var inner = s.querySelector('.hero-inner');
       if (inner) max = Math.max(max, inner.offsetHeight + 130);
