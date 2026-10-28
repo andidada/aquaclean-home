@@ -149,23 +149,224 @@
 </nav><script>/*aqc-lang-inline*/(function(){"use strict";var p=document.getElementById("langPicker");if(!p||p.dataset.lpBound==="1")return;p.dataset.lpBound="1";var b=p.querySelector(".lang-current");if(!b)return;b.addEventListener("click",function(e){e.preventDefault();e.stopPropagation();var o=p.classList.toggle("open");b.setAttribute("aria-expanded",o?"true":"false")});document.addEventListener("click",function(e){if(!p.contains(e.target)){p.classList.remove("open");b.setAttribute("aria-expanded","false")}});document.addEventListener("keydown",function(e){if(e.key==="Escape"){p.classList.remove("open");b.setAttribute("aria-expanded","false")}})})();</script>
 
 <!-- HERO -->
-<section class="hero" id="hero-section" style="background:linear-gradient(180deg, rgba(11,27,51,0.82) 0%, rgba(16,41,77,0.62) 45%, rgba(11,27,51,0.80) 100%), url('../assets/images/banners/banner-1.webp?v=20261029') center/cover no-repeat;">
-  <div class="hero-inner">
-    <div class="hero-badge">🇨🇳 OEM / ODM · Berproduksi sejak 2015</div>
-    <h1>Peralatan Kebersihan Cerdas<br>Dibuat untuk <span>Pasar Global</span></h1>
-    <p class="hero-sub">Dari robot penyedot debu hingga pembersih uap — kami merancang, memproduksi, dan mengirimkan peralatan kebersihan rumah premium untuk merek di seluruh dunia. MOQ 200 unit, pengiriman global termasuk.</p>
-    <div class="hero-actions">
-      <a href="#contact" class="btn btn-primary">📩 Dapatkan Penawaran Gratis</a>
-      <a href="#products" class="btn btn-outline">Lihat Produk</a>
+<style>
+#hero-section .hero-slide-overlay {
+  background:
+    linear-gradient(90deg, rgba(15,23,42,0.80) 0%, rgba(15,23,42,0.62) 50%, rgba(15,23,42,0.48) 100%),
+    rgba(11,27,51,0.24);
+}
+#hero-section .btn-outline {
+  background: rgba(15,23,42,0.45);
+  color: #fff;
+  border-color: rgba(255,255,255,0.75);
+}
+#hero-section .hero-sub { color: rgba(255,255,255,0.95); }
+</style>
+<section class="hero hero-carousel" id="hero-section">
+  <div class="hero-slides">
+    <!-- Slide 1 -->
+    <div class="hero-slide active" style="background-image:url('../assets/images/banners/banner-1.webp?v=20261029')">
+      <div class="hero-slide-overlay"></div>
+      <div class="hero-inner">
+        <div class="hero-badge">🇨🇳 OEM / ODM · Berproduksi sejak 2015</div>
+        <h1>Peralatan Kebersihan Cerdas<br>Dibuat untuk <span>Pasar Global</span></h1>
+        <p class="hero-sub">Dari robot penyedot debu hingga pembersih uap — kami merancang, memproduksi, dan mengirimkan peralatan kebersihan rumah premium untuk merek di seluruh dunia. MOQ 200 unit, pengiriman global termasuk.</p>
+        <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">📩 Dapatkan Penawaran Gratis</a>
+            <a href="#products" class="btn btn-outline">Lihat Produk</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><span class="num">50+</span><span class="label">Negara Dilayani</span></div>
+          <div class="hero-stat"><span class="num">200+</span><span class="label">Mitra B2B Aktif</span></div>
+          <div class="hero-stat"><span class="num">15</span><span class="label">Paten Dimiliki</span></div>
+          <div class="hero-stat"><span class="num">48 jam</span><span class="label">Respons Penawaran</span></div>
+        </div>
+      </div>
     </div>
-    <div class="hero-stats">
-      <div class="hero-stat"><span class="num">50+</span><span class="label">Negara Dilayani</span></div>
-      <div class="hero-stat"><span class="num">200+</span><span class="label">Mitra B2B Aktif</span></div>
-      <div class="hero-stat"><span class="num">15</span><span class="label">Paten Dimiliki</span></div>
-      <div class="hero-stat"><span class="num">48 jam</span><span class="label">Respons Penawaran</span></div>
+    <!-- Slide 2 -->
+    <div class="hero-slide" data-bg="../assets/images/banners/banner-2.webp">
+      <div class="hero-slide-overlay"></div>
+      <div class="hero-inner">
+        <div class="hero-badge">🔋 Tanpa kabel dan ringan</div>
+        <h2>Bersihkan setiap sudut<br><span>hanya dalam hitungan menit</span></h2>
+        <p class="hero-sub">Vacuum handheld dan tanpa kabel kami memberikan hisap 120 W dan daya tahan 25 menit — dirancang untuk pembersihan harian di rumah, mobil, dan kantor.</p>
+        <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">📩 Dapatkan Penawaran Gratis</a>
+            <a href="#products" class="btn btn-outline">Lihat Produk</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><span class="num">120W</span><span class="label">Hisap kuat</span></div>
+          <div class="hero-stat"><span class="num">25min</span><span class="label">Daya tahan</span></div>
+          <div class="hero-stat"><span class="num">16KPa</span><span class="label">Pembersihan mendalam</span></div>
+          <div class="hero-stat"><span class="num">0.8kg</span><span class="label">Sangat ringan</span></div>
+        </div>
+      </div>
+    </div>
+    <!-- Slide 3 -->
+    <div class="hero-slide" data-bg="../assets/images/banners/banner-3.webp">
+      <div class="hero-slide-overlay"></div>
+      <div class="hero-inner">
+        <div class="hero-badge">✨ Rumah kinclong</div>
+        <h2>Pembersihan lebih cerdas,<br><span>tanpa repot</span></h2>
+        <p class="hero-sub">Dari steam cleaner hingga robot pembersih kaca — otomatiskan pekerjaan rumah dan biarkan pelanggan menikmati ruang yang bersih dan segar setiap hari.</p>
+        <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">📩 Dapatkan Penawaran Gratis</a>
+            <a href="#products" class="btn btn-outline">Lihat Produk</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><span class="num">8</span><span class="label">Kategori utama</span></div>
+          <div class="hero-stat"><span class="num">CE/ETL</span><span class="label">Tersertifikasi</span></div>
+          <div class="hero-stat"><span class="num">200</span><span class="label">Unit MOQ</span></div>
+          <div class="hero-stat"><span class="num">48h</span><span class="label">Respons penawaran</span></div>
+        </div>
+      </div>
+    </div>
+    <!-- Slide 4 -->
+    <div class="hero-slide" data-bg="../assets/images/banners/banner-4.webp">
+      <div class="hero-slide-overlay"></div>
+      <div class="hero-inner">
+        <div class="hero-badge">💨 Daya pembersihan mendalam</div>
+        <h2>Uap singkirkan<br><span>setiap noda</span></h2>
+        <p class="hero-sub">Steam cleaner kami melenyapkan lemak dan kotoran dengan uap bersuhu tinggi tanpa bahan kimia — aman untuk keluarga dan digemari distributor di seluruh dunia.</p>
+        <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">📩 Dapatkan Penawaran Gratis</a>
+            <a href="#products" class="btn btn-outline">Lihat Produk</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><span class="num">120&deg;C</span><span class="label">Suhu uap</span></div>
+          <div class="hero-stat"><span class="num">15min</span><span class="label">Daya tahan</span></div>
+          <div class="hero-stat"><span class="num">1.5L</span><span class="label">Tangki air</span></div>
+          <div class="hero-stat"><span class="num">8</span><span class="label">Aksesori</span></div>
+        </div>
+      </div>
+    </div>
+    <!-- Slide 5 -->
+    <div class="hero-slide" data-bg="../assets/images/banners/banner-5.webp">
+      <div class="hero-slide-overlay"></div>
+      <div class="hero-inner">
+        <div class="hero-badge">🛏️ Higienis dan segar</div>
+        <h2>Basmi tungau,<br><span>jaga rumah tetap sehat</span></h2>
+        <p class="hero-sub">Pembersih tungau UV + panas mensterilkan kasur dan sofa dalam hitungan menit — kategori yang cepat tumbuh dan pasti disukai pelanggan Anda.</p>
+        <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">📩 Dapatkan Penawaran Gratis</a>
+            <a href="#products" class="btn btn-outline">Lihat Produk</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><span class="num">UV-C</span><span class="label">Sterilisasi</span></div>
+          <div class="hero-stat"><span class="num">99.9%</span><span class="label">Pembasmian tungau</span></div>
+          <div class="hero-stat"><span class="num">12KPa</span><span class="label">Hisap</span></div>
+          <div class="hero-stat"><span class="num">0.5kg</span><span class="label">Ringan</span></div>
+        </div>
+      </div>
+    </div>
+    <!-- Slide 6 -->
+    <div class="hero-slide" data-bg="../assets/images/banners/banner-6.webp">
+      <div class="hero-slide-overlay"></div>
+      <div class="hero-inner">
+        <div class="hero-badge">🚗 Bersih di mana saja</div>
+        <h2>Mobil selalu kinclong,<br><span>ke mana pun Anda berkendara</span></h2>
+        <p class="hero-sub">Vacuum mobil tanpa kabel yang ringkas membereskan remah dan debu dalam hitungan menit — aksesori impulsif yang sempurna untuk setiap pengemudi.</p>
+        <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">📩 Dapatkan Penawaran Gratis</a>
+            <a href="#products" class="btn btn-outline">Lihat Produk</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><span class="num">12KPa</span><span class="label">Hisap</span></div>
+          <div class="hero-stat"><span class="num">USB-C</span><span class="label">Pengisian</span></div>
+          <div class="hero-stat"><span class="num">0.6kg</span><span class="label">Ringkas</span></div>
+          <div class="hero-stat"><span class="num">20min</span><span class="label">Daya tahan</span></div>
+        </div>
+      </div>
+    </div>
+    <!-- Slide 7 -->
+    <div class="hero-slide" data-bg="../assets/images/banners/banner-7.webp">
+      <div class="hero-slide-overlay"></div>
+      <div class="hero-inner">
+        <div class="hero-badge">🔧 Siap jalan kapan saja</div>
+        <h2>Pompa dan jalan,<br><span>kapan saja, di mana saja</span></h2>
+        <p class="hero-sub">Pompa ban portabel dengan pengukur digital membuat pelanggan tetap melaju — perlengkapan otomotif wajib di setiap pasar.</p>
+        <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">📩 Dapatkan Penawaran Gratis</a>
+            <a href="#products" class="btn btn-outline">Lihat Produk</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><span class="num">150PSI</span><span class="label">Tekanan maks</span></div>
+          <div class="hero-stat"><span class="num">LED</span><span class="label">Lampu bawaan</span></div>
+          <div class="hero-stat"><span class="num">Auto</span><span class="label">Stop otomatis</span></div>
+          <div class="hero-stat"><span class="num">12V/USB</span><span class="label">Sumber daya</span></div>
+        </div>
+      </div>
     </div>
   </div>
+  <button class="hero-arrow hero-prev" aria-label="Sebelumnya">&#8249;</button>
+  <button class="hero-arrow hero-next" aria-label="Berikutnya">&#8250;</button>
+  <div class="hero-dots">
+    <span class="hero-dot active" data-slide="0"></span>
+    <span class="hero-dot" data-slide="1"></span>
+    <span class="hero-dot" data-slide="2"></span>
+    <span class="hero-dot" data-slide="3"></span>
+    <span class="hero-dot" data-slide="4"></span>
+    <span class="hero-dot" data-slide="5"></span>
+    <span class="hero-dot" data-slide="6"></span>
+  </div>
 </section>
+<script>
+(function(){
+  var root = document.getElementById('hero-section');
+  if(!root) return;
+  var slides = root.querySelectorAll('.hero-slide');
+  var dots = root.querySelectorAll('.hero-dot');
+  var idx = 0, timer;
+  // 第 1 帧内联（LCP），其余帧 data-bg 按需 hydrate，避免首屏下载全部 7 张
+  function hydrate(i){
+    var s = slides[i];
+    if(!s || s.dataset.loaded) return;
+    var u = s.dataset.bg;
+    if(!u) return;
+    s.style.backgroundImage = 'url(' + u + ')';
+    s.dataset.loaded = '1';
+  }
+  function hydrateAround(i){
+    hydrate(i);
+    hydrate((i + 1) % slides.length);
+  }
+  function go(n){
+    idx = (n + slides.length) % slides.length;
+    hydrateAround(idx);
+    slides.forEach(function(s,i){ s.classList.toggle('active', i===idx); });
+    dots.forEach(function(d,i){ d.classList.toggle('active', i===idx); });
+  }
+  function next(){ go(idx+1); }
+  function start(){ timer = setInterval(next, 5000); }
+  function stop(){ clearInterval(timer); }
+  function restart(){ stop(); start(); }
+  // 非英语文案比英文长（西/法/俄约 678px），固定 620px 会裁掉顶部并让
+  // 数据区压到圆点上。按最高的一屏撑开容器，并随窗口尺寸重算。
+  function fit(){
+    var max = 620;
+    Array.prototype.forEach.call(slides, function(s){
+      var inner = s.querySelector('.hero-inner');
+      if (inner) max = Math.max(max, inner.offsetHeight + 130);
+    });
+    root.style.height = max + 'px';
+  }
+  function refit(){ fit(); }
+  root.querySelector('.hero-next').addEventListener('click', function(){ go(idx+1); restart(); });
+  root.querySelector('.hero-prev').addEventListener('click', function(){ go(idx-1); restart(); });
+  dots.forEach(function(d,i){ d.addEventListener('click', function(){ go(i); restart(); }); });
+  root.addEventListener('mouseenter', stop);
+  root.addEventListener('mouseleave', start);
+  hydrate(0);
+  fit();
+  start();
+  // 只补第 2 帧，且等 load 之后（首屏带宽留给真正要紧的资源）
+  window.addEventListener('load', function () { hydrate(1); fit(); });
+  var rt;
+  window.addEventListener('resize', function () {
+    clearTimeout(rt); rt = setTimeout(refit, 150);
+  });
+})();
+</script>
 
 <!-- TRUST BAR -->
 <div class="trust-bar">

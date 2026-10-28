@@ -147,23 +147,224 @@
 </nav><script>/*aqc-lang-inline*/(function(){"use strict";var p=document.getElementById("langPicker");if(!p||p.dataset.lpBound==="1")return;p.dataset.lpBound="1";var b=p.querySelector(".lang-current");if(!b)return;b.addEventListener("click",function(e){e.preventDefault();e.stopPropagation();var o=p.classList.toggle("open");b.setAttribute("aria-expanded",o?"true":"false")});document.addEventListener("click",function(e){if(!p.contains(e.target)){p.classList.remove("open");b.setAttribute("aria-expanded","false")}});document.addEventListener("keydown",function(e){if(e.key==="Escape"){p.classList.remove("open");b.setAttribute("aria-expanded","false")}})})();</script>
 
 <!-- HERO -->
-<section class="hero" id="hero-section" style="background:linear-gradient(180deg, rgba(11,27,51,0.82) 0%, rgba(16,41,77,0.62) 45%, rgba(11,27,51,0.80) 100%), url('../assets/images/banners/banner-1.webp?v=20261029') center/cover no-repeat;">
-  <div class="hero-inner">
-    <div class="hero-badge">🇨🇳 OEM / ODM · Производство с 2015 года</div>
-    <h1>Умная клининговая техника<br>Созданная для <span>мировых рынков</span></h1>
-    <p class="hero-sub">От роботов-пылесосов до пароочистителей — мы разрабатываем, производим и отправляем премиальную бытовую клининговую технику для брендов по всему миру. MOQ 200 единиц, международная доставка включена.</p>
-    <div class="hero-actions">
-      <a href="#contact" class="btn btn-primary">📩 Получить бесплатное КП</a>
-      <a href="#products" class="btn btn-outline">Смотреть продукцию</a>
+<style>
+#hero-section .hero-slide-overlay {
+  background:
+    linear-gradient(90deg, rgba(15,23,42,0.80) 0%, rgba(15,23,42,0.62) 50%, rgba(15,23,42,0.48) 100%),
+    rgba(11,27,51,0.24);
+}
+#hero-section .btn-outline {
+  background: rgba(15,23,42,0.45);
+  color: #fff;
+  border-color: rgba(255,255,255,0.75);
+}
+#hero-section .hero-sub { color: rgba(255,255,255,0.95); }
+</style>
+<section class="hero hero-carousel" id="hero-section">
+  <div class="hero-slides">
+    <!-- Slide 1 -->
+    <div class="hero-slide active" style="background-image:url('../assets/images/banners/banner-1.webp?v=20261029')">
+      <div class="hero-slide-overlay"></div>
+      <div class="hero-inner">
+        <div class="hero-badge">🇨🇳 OEM / ODM · Производство с 2015 года</div>
+        <h1>Умная клининговая техника<br>Созданная для <span>мировых рынков</span></h1>
+        <p class="hero-sub">От роботов-пылесосов до пароочистителей — мы разрабатываем, производим и отправляем премиальную бытовую клининговую технику для брендов по всему миру. MOQ 200 единиц, международная доставка включена.</p>
+        <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">📩 Получить бесплатное КП</a>
+            <a href="#products" class="btn btn-outline">Смотреть продукцию</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><span class="num">50+</span><span class="label">Стран обслуживается</span></div>
+          <div class="hero-stat"><span class="num">200+</span><span class="label">Активных B2B-партнёров</span></div>
+          <div class="hero-stat"><span class="num">15</span><span class="label">Патентов</span></div>
+          <div class="hero-stat"><span class="num">48ч</span><span class="label">Ответ по КП</span></div>
+        </div>
+      </div>
     </div>
-    <div class="hero-stats">
-      <div class="hero-stat"><span class="num">50+</span><span class="label">Стран обслуживается</span></div>
-      <div class="hero-stat"><span class="num">200+</span><span class="label">Активных B2B-партнёров</span></div>
-      <div class="hero-stat"><span class="num">15</span><span class="label">Патентов</span></div>
-      <div class="hero-stat"><span class="num">48ч</span><span class="label">Ответ по КП</span></div>
+    <!-- Slide 2 -->
+    <div class="hero-slide" data-bg="../assets/images/banners/banner-2.webp">
+      <div class="hero-slide-overlay"></div>
+      <div class="hero-inner">
+        <div class="hero-badge">🔋 Без проводов и лёгкий</div>
+        <h2>Чистота в каждом уголке<br><span>за минуты, а не часы</span></h2>
+        <p class="hero-sub">Наши ручные и беспроводные пылесосы дают мощность всасывания 120 Вт и 25 минут работы — созданы для ежедневной уборки дома, в автомобиле и офисе.</p>
+        <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">📩 Получить бесплатное КП</a>
+            <a href="#products" class="btn btn-outline">Смотреть продукцию</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><span class="num">120W</span><span class="label">Мощное всасывание</span></div>
+          <div class="hero-stat"><span class="num">25min</span><span class="label">Время работы</span></div>
+          <div class="hero-stat"><span class="num">16KPa</span><span class="label">Глубокая чистка</span></div>
+          <div class="hero-stat"><span class="num">0.8kg</span><span class="label">Сверхлёгкий</span></div>
+        </div>
+      </div>
+    </div>
+    <!-- Slide 3 -->
+    <div class="hero-slide" data-bg="../assets/images/banners/banner-3.webp">
+      <div class="hero-slide-overlay"></div>
+      <div class="hero-inner">
+        <div class="hero-badge">✨ Сияющая чистота дома</div>
+        <h2>Умная уборка<br><span>без всяких усилий</span></h2>
+        <p class="hero-sub">От паровых очистителей до роботов для окон — автоматизируйте домашние дела, и ваши клиенты будут каждый день наслаждаться безупречно чистым и свежим домом.</p>
+        <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">📩 Получить бесплатное КП</a>
+            <a href="#products" class="btn btn-outline">Смотреть продукцию</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><span class="num">8</span><span class="label">Ключевые категории</span></div>
+          <div class="hero-stat"><span class="num">CE/ETL</span><span class="label">Сертифицировано</span></div>
+          <div class="hero-stat"><span class="num">200</span><span class="label">Мин. заказ</span></div>
+          <div class="hero-stat"><span class="num">48h</span><span class="label">Ответ на запрос</span></div>
+        </div>
+      </div>
+    </div>
+    <!-- Slide 4 -->
+    <div class="hero-slide" data-bg="../assets/images/banners/banner-4.webp">
+      <div class="hero-slide-overlay"></div>
+      <div class="hero-inner">
+        <div class="hero-badge">💨 Мощность глубокой чистки</div>
+        <h2>Пар уносит<br><span>любое пятно</span></h2>
+        <p class="hero-sub">Наши паровые очистители удаляют жир и грязь высокотемпературным паром без химии — безопасно для семьи и любимо дистрибьюторами по всему миру.</p>
+        <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">📩 Получить бесплатное КП</a>
+            <a href="#products" class="btn btn-outline">Смотреть продукцию</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><span class="num">120&deg;C</span><span class="label">Температура пара</span></div>
+          <div class="hero-stat"><span class="num">15min</span><span class="label">Время работы</span></div>
+          <div class="hero-stat"><span class="num">1.5L</span><span class="label">Бак для воды</span></div>
+          <div class="hero-stat"><span class="num">8</span><span class="label">Насадок</span></div>
+        </div>
+      </div>
+    </div>
+    <!-- Slide 5 -->
+    <div class="hero-slide" data-bg="../assets/images/banners/banner-5.webp">
+      <div class="hero-slide-overlay"></div>
+      <div class="hero-inner">
+        <div class="hero-badge">🛏️ Гигиенично и свежо</div>
+        <h2>Уничтожьте клещей,<br><span>сохраните здоровье дома</span></h2>
+        <p class="hero-sub">Очистители от клещей с УФ и нагревом дезинфицируют матрасы и диваны за минуты — быстрорастущая категория, которая действительно понравится вашим клиентам.</p>
+        <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">📩 Получить бесплатное КП</a>
+            <a href="#products" class="btn btn-outline">Смотреть продукцию</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><span class="num">UV-C</span><span class="label">Стерилизация</span></div>
+          <div class="hero-stat"><span class="num">99.9%</span><span class="label">Удаление клещей</span></div>
+          <div class="hero-stat"><span class="num">12KPa</span><span class="label">Всасывание</span></div>
+          <div class="hero-stat"><span class="num">0.5kg</span><span class="label">Лёгкий</span></div>
+        </div>
+      </div>
+    </div>
+    <!-- Slide 6 -->
+    <div class="hero-slide" data-bg="../assets/images/banners/banner-6.webp">
+      <div class="hero-slide-overlay"></div>
+      <div class="hero-inner">
+        <div class="hero-badge">🚗 Чистота в дороге</div>
+        <h2>Безупречный автомобиль,<br><span>куда бы вы ни ехали</span></h2>
+        <p class="hero-sub">Компактные беспроводные пылесосы для авто за минуты справляются с крошками и пылью — идеальная импульсная покупка для каждого водителя.</p>
+        <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">📩 Получить бесплатное КП</a>
+            <a href="#products" class="btn btn-outline">Смотреть продукцию</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><span class="num">12KPa</span><span class="label">Всасывание</span></div>
+          <div class="hero-stat"><span class="num">USB-C</span><span class="label">Зарядка</span></div>
+          <div class="hero-stat"><span class="num">0.6kg</span><span class="label">Компактный</span></div>
+          <div class="hero-stat"><span class="num">20min</span><span class="label">Время работы</span></div>
+        </div>
+      </div>
+    </div>
+    <!-- Slide 7 -->
+    <div class="hero-slide" data-bg="../assets/images/banners/banner-7.webp">
+      <div class="hero-slide-overlay"></div>
+      <div class="hero-inner">
+        <div class="hero-badge">🔧 Всегда готов к дороге</div>
+        <h2>Накачай и поехал,<br><span>в любое время и в любом месте</span></h2>
+        <p class="hero-sub">Портативные компрессоры с цифровым манометром не дадут вашим клиентам застрять — незаменимый автомобильный аксессуар на любом рынке.</p>
+        <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">📩 Получить бесплатное КП</a>
+            <a href="#products" class="btn btn-outline">Смотреть продукцию</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><span class="num">150PSI</span><span class="label">Макс. давление</span></div>
+          <div class="hero-stat"><span class="num">LED</span><span class="label">Встроенный свет</span></div>
+          <div class="hero-stat"><span class="num">Auto</span><span class="label">Автостоп</span></div>
+          <div class="hero-stat"><span class="num">12V/USB</span><span class="label">Питание</span></div>
+        </div>
+      </div>
     </div>
   </div>
+  <button class="hero-arrow hero-prev" aria-label="Предыдущий">&#8249;</button>
+  <button class="hero-arrow hero-next" aria-label="Следующий">&#8250;</button>
+  <div class="hero-dots">
+    <span class="hero-dot active" data-slide="0"></span>
+    <span class="hero-dot" data-slide="1"></span>
+    <span class="hero-dot" data-slide="2"></span>
+    <span class="hero-dot" data-slide="3"></span>
+    <span class="hero-dot" data-slide="4"></span>
+    <span class="hero-dot" data-slide="5"></span>
+    <span class="hero-dot" data-slide="6"></span>
+  </div>
 </section>
+<script>
+(function(){
+  var root = document.getElementById('hero-section');
+  if(!root) return;
+  var slides = root.querySelectorAll('.hero-slide');
+  var dots = root.querySelectorAll('.hero-dot');
+  var idx = 0, timer;
+  // 第 1 帧内联（LCP），其余帧 data-bg 按需 hydrate，避免首屏下载全部 7 张
+  function hydrate(i){
+    var s = slides[i];
+    if(!s || s.dataset.loaded) return;
+    var u = s.dataset.bg;
+    if(!u) return;
+    s.style.backgroundImage = 'url(' + u + ')';
+    s.dataset.loaded = '1';
+  }
+  function hydrateAround(i){
+    hydrate(i);
+    hydrate((i + 1) % slides.length);
+  }
+  function go(n){
+    idx = (n + slides.length) % slides.length;
+    hydrateAround(idx);
+    slides.forEach(function(s,i){ s.classList.toggle('active', i===idx); });
+    dots.forEach(function(d,i){ d.classList.toggle('active', i===idx); });
+  }
+  function next(){ go(idx+1); }
+  function start(){ timer = setInterval(next, 5000); }
+  function stop(){ clearInterval(timer); }
+  function restart(){ stop(); start(); }
+  // 非英语文案比英文长（西/法/俄约 678px），固定 620px 会裁掉顶部并让
+  // 数据区压到圆点上。按最高的一屏撑开容器，并随窗口尺寸重算。
+  function fit(){
+    var max = 620;
+    Array.prototype.forEach.call(slides, function(s){
+      var inner = s.querySelector('.hero-inner');
+      if (inner) max = Math.max(max, inner.offsetHeight + 130);
+    });
+    root.style.height = max + 'px';
+  }
+  function refit(){ fit(); }
+  root.querySelector('.hero-next').addEventListener('click', function(){ go(idx+1); restart(); });
+  root.querySelector('.hero-prev').addEventListener('click', function(){ go(idx-1); restart(); });
+  dots.forEach(function(d,i){ d.addEventListener('click', function(){ go(i); restart(); }); });
+  root.addEventListener('mouseenter', stop);
+  root.addEventListener('mouseleave', start);
+  hydrate(0);
+  fit();
+  start();
+  // 只补第 2 帧，且等 load 之后（首屏带宽留给真正要紧的资源）
+  window.addEventListener('load', function () { hydrate(1); fit(); });
+  var rt;
+  window.addEventListener('resize', function () {
+    clearTimeout(rt); rt = setTimeout(refit, 150);
+  });
+})();
+</script>
 
 <!-- TRUST BAR -->
 <div class="trust-bar">

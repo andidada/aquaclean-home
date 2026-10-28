@@ -147,23 +147,224 @@
 </nav><script>/*aqc-lang-inline*/(function(){"use strict";var p=document.getElementById("langPicker");if(!p||p.dataset.lpBound==="1")return;p.dataset.lpBound="1";var b=p.querySelector(".lang-current");if(!b)return;b.addEventListener("click",function(e){e.preventDefault();e.stopPropagation();var o=p.classList.toggle("open");b.setAttribute("aria-expanded",o?"true":"false")});document.addEventListener("click",function(e){if(!p.contains(e.target)){p.classList.remove("open");b.setAttribute("aria-expanded","false")}});document.addEventListener("keydown",function(e){if(e.key==="Escape"){p.classList.remove("open");b.setAttribute("aria-expanded","false")}})})();</script>
 
 <!-- HERO -->
-<section class="hero" id="hero-section" style="background:linear-gradient(180deg, rgba(11,27,51,0.82) 0%, rgba(16,41,77,0.62) 45%, rgba(11,27,51,0.80) 100%), url('../assets/images/banners/banner-1.webp?v=20261029') center/cover no-repeat;">
-  <div class="hero-inner">
-    <div class="hero-badge">🇨🇳 OEM / ODM · En production depuis 2015</div>
-    <h1>Appareils de nettoyage intelligents<br>Conçus pour les <span>marchés mondiaux</span></h1>
-    <p class="hero-sub">Des robots aspirateurs aux nettoyeurs vapeur — nous concevons, fabriquons et expédions des appareils de nettoyage domestique premium pour des marques du monde entier. MOQ 200 unités, livraison mondiale incluse.</p>
-    <div class="hero-actions">
-      <a href="#contact" class="btn btn-primary">📩 Obtenir un devis gratuit</a>
-      <a href="#products" class="btn btn-outline">Parcourir les produits</a>
+<style>
+#hero-section .hero-slide-overlay {
+  background:
+    linear-gradient(90deg, rgba(15,23,42,0.80) 0%, rgba(15,23,42,0.62) 50%, rgba(15,23,42,0.48) 100%),
+    rgba(11,27,51,0.24);
+}
+#hero-section .btn-outline {
+  background: rgba(15,23,42,0.45);
+  color: #fff;
+  border-color: rgba(255,255,255,0.75);
+}
+#hero-section .hero-sub { color: rgba(255,255,255,0.95); }
+</style>
+<section class="hero hero-carousel" id="hero-section">
+  <div class="hero-slides">
+    <!-- Slide 1 -->
+    <div class="hero-slide active" style="background-image:url('../assets/images/banners/banner-1.webp?v=20261029')">
+      <div class="hero-slide-overlay"></div>
+      <div class="hero-inner">
+        <div class="hero-badge">🇨🇳 OEM / ODM · En production depuis 2015</div>
+        <h1>Appareils de nettoyage intelligents<br>Conçus pour les <span>marchés mondiaux</span></h1>
+        <p class="hero-sub">Des robots aspirateurs aux nettoyeurs vapeur — nous concevons, fabriquons et expédions des appareils de nettoyage domestique premium pour des marques du monde entier. MOQ 200 unités, livraison mondiale incluse.</p>
+        <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">📩 Obtenir un devis gratuit</a>
+            <a href="#products" class="btn btn-outline">Parcourir les produits</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><span class="num">50+</span><span class="label">Pays desservis</span></div>
+          <div class="hero-stat"><span class="num">200+</span><span class="label">Partenaires B2B actifs</span></div>
+          <div class="hero-stat"><span class="num">15</span><span class="label">Brevets détenus</span></div>
+          <div class="hero-stat"><span class="num">48h</span><span class="label">Réponse au devis</span></div>
+        </div>
+      </div>
     </div>
-    <div class="hero-stats">
-      <div class="hero-stat"><span class="num">50+</span><span class="label">Pays desservis</span></div>
-      <div class="hero-stat"><span class="num">200+</span><span class="label">Partenaires B2B actifs</span></div>
-      <div class="hero-stat"><span class="num">15</span><span class="label">Brevets détenus</span></div>
-      <div class="hero-stat"><span class="num">48h</span><span class="label">Réponse au devis</span></div>
+    <!-- Slide 2 -->
+    <div class="hero-slide" data-bg="../assets/images/banners/banner-2.webp">
+      <div class="hero-slide-overlay"></div>
+      <div class="hero-inner">
+        <div class="hero-badge">🔋 Sans fil et léger</div>
+        <h2>Nettoyez chaque recoin<br><span>en quelques minutes</span></h2>
+        <p class="hero-sub">Nos aspirateurs à main et sans fil offrent 120 W d'aspiration et 25 minutes d'autonomie — conçus pour le nettoyage quotidien de la maison, de la voiture et du bureau.</p>
+        <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">📩 Obtenir un devis gratuit</a>
+            <a href="#products" class="btn btn-outline">Parcourir les produits</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><span class="num">120W</span><span class="label">Forte aspiration</span></div>
+          <div class="hero-stat"><span class="num">25min</span><span class="label">Autonomie</span></div>
+          <div class="hero-stat"><span class="num">16KPa</span><span class="label">Nettoyage en profondeur</span></div>
+          <div class="hero-stat"><span class="num">0.8kg</span><span class="label">Ultra-léger</span></div>
+        </div>
+      </div>
+    </div>
+    <!-- Slide 3 -->
+    <div class="hero-slide" data-bg="../assets/images/banners/banner-3.webp">
+      <div class="hero-slide-overlay"></div>
+      <div class="hero-inner">
+        <div class="hero-badge">✨ Des intérieurs éclatants</div>
+        <h2>Un nettoyage plus intelligent,<br><span>sans le moindre effort</span></h2>
+        <p class="hero-sub">Des nettoyeurs vapeur aux robots lave-vitres : automatisez les corvées et offrez à vos clients des espaces impeccables et frais, chaque jour.</p>
+        <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">📩 Obtenir un devis gratuit</a>
+            <a href="#products" class="btn btn-outline">Parcourir les produits</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><span class="num">8</span><span class="label">Catégories clés</span></div>
+          <div class="hero-stat"><span class="num">CE/ETL</span><span class="label">Certifié</span></div>
+          <div class="hero-stat"><span class="num">200</span><span class="label">Unités MOQ</span></div>
+          <div class="hero-stat"><span class="num">48h</span><span class="label">Réponse au devis</span></div>
+        </div>
+      </div>
+    </div>
+    <!-- Slide 4 -->
+    <div class="hero-slide" data-bg="../assets/images/banners/banner-4.webp">
+      <div class="hero-slide-overlay"></div>
+      <div class="hero-inner">
+        <div class="hero-badge">💨 Puissance de nettoyage en profondeur</div>
+        <h2>La vapeur emporte<br><span>toutes les taches</span></h2>
+        <p class="hero-sub">Nos nettoyeurs vapeur viennent à bout des graisses et des saletés grâce à une vapeur haute température sans produits chimiques — sûrs pour les familles, plébiscités par les distributeurs.</p>
+        <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">📩 Obtenir un devis gratuit</a>
+            <a href="#products" class="btn btn-outline">Parcourir les produits</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><span class="num">120&deg;C</span><span class="label">Température vapeur</span></div>
+          <div class="hero-stat"><span class="num">15min</span><span class="label">Autonomie</span></div>
+          <div class="hero-stat"><span class="num">1.5L</span><span class="label">Réservoir d'eau</span></div>
+          <div class="hero-stat"><span class="num">8</span><span class="label">Accessoires</span></div>
+        </div>
+      </div>
+    </div>
+    <!-- Slide 5 -->
+    <div class="hero-slide" data-bg="../assets/images/banners/banner-5.webp">
+      <div class="hero-slide-overlay"></div>
+      <div class="hero-inner">
+        <div class="hero-badge">🛏️ Hygiénique et frais</div>
+        <h2>Éliminez les acariens,<br><span>gardez la maison saine</span></h2>
+        <p class="hero-sub">Les anti-acariens UV + chaleur désinfectent matelas et canapés en quelques minutes — une catégorie en forte croissance que vos clients vont adorer.</p>
+        <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">📩 Obtenir un devis gratuit</a>
+            <a href="#products" class="btn btn-outline">Parcourir les produits</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><span class="num">UV-C</span><span class="label">Stérilisation</span></div>
+          <div class="hero-stat"><span class="num">99.9%</span><span class="label">Élimination des acariens</span></div>
+          <div class="hero-stat"><span class="num">12KPa</span><span class="label">Aspiration</span></div>
+          <div class="hero-stat"><span class="num">0.5kg</span><span class="label">Léger</span></div>
+        </div>
+      </div>
+    </div>
+    <!-- Slide 6 -->
+    <div class="hero-slide" data-bg="../assets/images/banners/banner-6.webp">
+      <div class="hero-slide-overlay"></div>
+      <div class="hero-inner">
+        <div class="hero-badge">🚗 Propre où que vous alliez</div>
+        <h2>Une voiture impeccable,<br><span>où que vous rouliez</span></h2>
+        <p class="hero-sub">Les aspirateurs de voiture compacts et sans fil viennent à bout des miettes et de la poussière en quelques minutes — l'accessoire coup de cœur pour chaque conducteur.</p>
+        <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">📩 Obtenir un devis gratuit</a>
+            <a href="#products" class="btn btn-outline">Parcourir les produits</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><span class="num">12KPa</span><span class="label">Aspiration</span></div>
+          <div class="hero-stat"><span class="num">USB-C</span><span class="label">Recharge</span></div>
+          <div class="hero-stat"><span class="num">0.6kg</span><span class="label">Compact</span></div>
+          <div class="hero-stat"><span class="num">20min</span><span class="label">Autonomie</span></div>
+        </div>
+      </div>
+    </div>
+    <!-- Slide 7 -->
+    <div class="hero-slide" data-bg="../assets/images/banners/banner-7.webp">
+      <div class="hero-slide-overlay"></div>
+      <div class="hero-inner">
+        <div class="hero-badge">🔧 Toujours prêt à partir</div>
+        <h2>Gonflez et partez,<br><span>à tout moment, partout</span></h2>
+        <p class="hero-sub">Les gonfleurs de pneus portatifs avec manomètre digital gardent vos clients en mouvement — un indispensable auto dans tous les marchés.</p>
+        <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">📩 Obtenir un devis gratuit</a>
+            <a href="#products" class="btn btn-outline">Parcourir les produits</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><span class="num">150PSI</span><span class="label">Pression max</span></div>
+          <div class="hero-stat"><span class="num">LED</span><span class="label">Éclairage intégré</span></div>
+          <div class="hero-stat"><span class="num">Auto</span><span class="label">Arrêt automatique</span></div>
+          <div class="hero-stat"><span class="num">12V/USB</span><span class="label">Alimentation</span></div>
+        </div>
+      </div>
     </div>
   </div>
+  <button class="hero-arrow hero-prev" aria-label="Précédent">&#8249;</button>
+  <button class="hero-arrow hero-next" aria-label="Suivant">&#8250;</button>
+  <div class="hero-dots">
+    <span class="hero-dot active" data-slide="0"></span>
+    <span class="hero-dot" data-slide="1"></span>
+    <span class="hero-dot" data-slide="2"></span>
+    <span class="hero-dot" data-slide="3"></span>
+    <span class="hero-dot" data-slide="4"></span>
+    <span class="hero-dot" data-slide="5"></span>
+    <span class="hero-dot" data-slide="6"></span>
+  </div>
 </section>
+<script>
+(function(){
+  var root = document.getElementById('hero-section');
+  if(!root) return;
+  var slides = root.querySelectorAll('.hero-slide');
+  var dots = root.querySelectorAll('.hero-dot');
+  var idx = 0, timer;
+  // 第 1 帧内联（LCP），其余帧 data-bg 按需 hydrate，避免首屏下载全部 7 张
+  function hydrate(i){
+    var s = slides[i];
+    if(!s || s.dataset.loaded) return;
+    var u = s.dataset.bg;
+    if(!u) return;
+    s.style.backgroundImage = 'url(' + u + ')';
+    s.dataset.loaded = '1';
+  }
+  function hydrateAround(i){
+    hydrate(i);
+    hydrate((i + 1) % slides.length);
+  }
+  function go(n){
+    idx = (n + slides.length) % slides.length;
+    hydrateAround(idx);
+    slides.forEach(function(s,i){ s.classList.toggle('active', i===idx); });
+    dots.forEach(function(d,i){ d.classList.toggle('active', i===idx); });
+  }
+  function next(){ go(idx+1); }
+  function start(){ timer = setInterval(next, 5000); }
+  function stop(){ clearInterval(timer); }
+  function restart(){ stop(); start(); }
+  // 非英语文案比英文长（西/法/俄约 678px），固定 620px 会裁掉顶部并让
+  // 数据区压到圆点上。按最高的一屏撑开容器，并随窗口尺寸重算。
+  function fit(){
+    var max = 620;
+    Array.prototype.forEach.call(slides, function(s){
+      var inner = s.querySelector('.hero-inner');
+      if (inner) max = Math.max(max, inner.offsetHeight + 130);
+    });
+    root.style.height = max + 'px';
+  }
+  function refit(){ fit(); }
+  root.querySelector('.hero-next').addEventListener('click', function(){ go(idx+1); restart(); });
+  root.querySelector('.hero-prev').addEventListener('click', function(){ go(idx-1); restart(); });
+  dots.forEach(function(d,i){ d.addEventListener('click', function(){ go(i); restart(); }); });
+  root.addEventListener('mouseenter', stop);
+  root.addEventListener('mouseleave', start);
+  hydrate(0);
+  fit();
+  start();
+  // 只补第 2 帧，且等 load 之后（首屏带宽留给真正要紧的资源）
+  window.addEventListener('load', function () { hydrate(1); fit(); });
+  var rt;
+  window.addEventListener('resize', function () {
+    clearTimeout(rt); rt = setTimeout(refit, 150);
+  });
+})();
+</script>
 
 <!-- TRUST BAR -->
 <div class="trust-bar">

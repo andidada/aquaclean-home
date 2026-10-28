@@ -135,23 +135,224 @@
 </nav><script>/*aqc-lang-inline*/(function(){"use strict";var p=document.getElementById("langPicker");if(!p||p.dataset.lpBound==="1")return;p.dataset.lpBound="1";var b=p.querySelector(".lang-current");if(!b)return;b.addEventListener("click",function(e){e.preventDefault();e.stopPropagation();var o=p.classList.toggle("open");b.setAttribute("aria-expanded",o?"true":"false")});document.addEventListener("click",function(e){if(!p.contains(e.target)){p.classList.remove("open");b.setAttribute("aria-expanded","false")}});document.addEventListener("keydown",function(e){if(e.key==="Escape"){p.classList.remove("open");b.setAttribute("aria-expanded","false")}})})();</script>
 
 <!-- HERO -->
-<section class="hero" id="hero-section" style="background:linear-gradient(180deg, rgba(11,27,51,0.82) 0%, rgba(16,41,77,0.62) 45%, rgba(11,27,51,0.80) 100%), url('../assets/images/banners/banner-1.webp?v=20261029') center/cover no-repeat;">
-  <div class="hero-inner">
-    <div class="hero-badge">🇨🇳 OEM/ODM 制造商 · 2015 年起投产</div>
-    <h1>智能清洁电器<br>专为<span>全球市场</span>打造</h1>
-    <p class="hero-sub">从扫地机器人到蒸汽清洁机 —— 我们为全球品牌设计、制造和供应优质家用清洁电器。最低起订量 200 台，全球配送。</p>
-    <div class="hero-actions">
-      <a href="#contact" class="btn btn-primary">📩 获取免费报价</a>
-      <a href="#products" class="btn btn-outline">浏览产品</a>
+<style>
+#hero-section .hero-slide-overlay {
+  background:
+    linear-gradient(90deg, rgba(15,23,42,0.80) 0%, rgba(15,23,42,0.62) 50%, rgba(15,23,42,0.48) 100%),
+    rgba(11,27,51,0.24);
+}
+#hero-section .btn-outline {
+  background: rgba(15,23,42,0.45);
+  color: #fff;
+  border-color: rgba(255,255,255,0.75);
+}
+#hero-section .hero-sub { color: rgba(255,255,255,0.95); }
+</style>
+<section class="hero hero-carousel" id="hero-section">
+  <div class="hero-slides">
+    <!-- Slide 1 -->
+    <div class="hero-slide active" style="background-image:url('../assets/images/banners/banner-1.webp?v=20261029')">
+      <div class="hero-slide-overlay"></div>
+      <div class="hero-inner">
+        <div class="hero-badge">🇨🇳 OEM/ODM 制造商 · 2015 年起投产</div>
+        <h1>智能清洁电器<br>专为<span>全球市场</span>打造</h1>
+        <p class="hero-sub">从扫地机器人到蒸汽清洁机 —— 我们为全球品牌设计、制造和供应优质家用清洁电器。最低起订量 200 台，全球配送。</p>
+        <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">📩 获取免费报价</a>
+            <a href="#products" class="btn btn-outline">浏览产品</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><span class="num">50+</span><span class="label">服务国家</span></div>
+          <div class="hero-stat"><span class="num">200+</span><span class="label">活跃 B2B 合作伙伴</span></div>
+          <div class="hero-stat"><span class="num">15</span><span class="label">持有专利</span></div>
+          <div class="hero-stat"><span class="num">48h</span><span class="label">报价响应</span></div>
+        </div>
+      </div>
     </div>
-    <div class="hero-stats">
-      <div class="hero-stat"><span class="num">50+</span><span class="label">服务国家</span></div>
-      <div class="hero-stat"><span class="num">200+</span><span class="label">活跃 B2B 合作伙伴</span></div>
-      <div class="hero-stat"><span class="num">15</span><span class="label">持有专利</span></div>
-      <div class="hero-stat"><span class="num">48h</span><span class="label">报价响应</span></div>
+    <!-- Slide 2 -->
+    <div class="hero-slide" data-bg="../assets/images/banners/banner-2.webp">
+      <div class="hero-slide-overlay"></div>
+      <div class="hero-inner">
+        <div class="hero-badge">🔋 无线 · 轻巧</div>
+        <h2>每个角落都洁净<br><span>几分钟搞定，而非几小时</span></h2>
+        <p class="hero-sub">我们的手持与无线吸尘器提供 120W 吸力和 25 分钟续航，专为家庭、车内与办公室的日常清洁而生，简单好用。</p>
+        <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">📩 获取免费报价</a>
+            <a href="#products" class="btn btn-outline">浏览产品</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><span class="num">120W</span><span class="label">强劲吸力</span></div>
+          <div class="hero-stat"><span class="num">25min</span><span class="label">续航时间</span></div>
+          <div class="hero-stat"><span class="num">16KPa</span><span class="label">深度清洁</span></div>
+          <div class="hero-stat"><span class="num">0.8kg</span><span class="label">极致轻盈</span></div>
+        </div>
+      </div>
+    </div>
+    <!-- Slide 3 -->
+    <div class="hero-slide" data-bg="../assets/images/banners/banner-3.webp">
+      <div class="hero-slide-overlay"></div>
+      <div class="hero-inner">
+        <div class="hero-badge">✨ 洁净闪亮的居家</div>
+        <h2>更聪明的清洁，<br><span>毫不费力</span></h2>
+        <p class="hero-sub">从蒸汽清洁机到擦窗机器人——把家务交给机器，让您的客户每天都能享受一尘不染、清新怡人的居住空间。</p>
+        <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">📩 获取免费报价</a>
+            <a href="#products" class="btn btn-outline">浏览产品</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><span class="num">8</span><span class="label">核心品类</span></div>
+          <div class="hero-stat"><span class="num">CE/ETL</span><span class="label">权威认证</span></div>
+          <div class="hero-stat"><span class="num">200</span><span class="label">起订量</span></div>
+          <div class="hero-stat"><span class="num">48h</span><span class="label">报价响应</span></div>
+        </div>
+      </div>
+    </div>
+    <!-- Slide 4 -->
+    <div class="hero-slide" data-bg="../assets/images/banners/banner-4.webp">
+      <div class="hero-slide-overlay"></div>
+      <div class="hero-inner">
+        <div class="hero-badge">💨 深层清洁力</div>
+        <h2>蒸汽一过，<br><span>污渍全无</span></h2>
+        <p class="hero-sub">我们的蒸汽清洁机以无化学剂的高温蒸汽溶解油污与顽垢——对家庭安全无害，深受全球经销商青睐。</p>
+        <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">📩 获取免费报价</a>
+            <a href="#products" class="btn btn-outline">浏览产品</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><span class="num">120&deg;C</span><span class="label">蒸汽温度</span></div>
+          <div class="hero-stat"><span class="num">15min</span><span class="label">续航时间</span></div>
+          <div class="hero-stat"><span class="num">1.5L</span><span class="label">水箱容量</span></div>
+          <div class="hero-stat"><span class="num">8</span><span class="label">配件数量</span></div>
+        </div>
+      </div>
+    </div>
+    <!-- Slide 5 -->
+    <div class="hero-slide" data-bg="../assets/images/banners/banner-5.webp">
+      <div class="hero-slide-overlay"></div>
+      <div class="hero-inner">
+        <div class="hero-badge">🛏️ 卫生清新</div>
+        <h2>除螨杀菌，<br><span>守护居家健康</span></h2>
+        <p class="hero-sub">紫外线 + 高温除螨仪可在数分钟内为床垫与沙发消毒除螨——这个快速增长的品类，您的客户会真心喜欢。</p>
+        <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">📩 获取免费报价</a>
+            <a href="#products" class="btn btn-outline">浏览产品</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><span class="num">UV-C</span><span class="label">紫外线杀菌</span></div>
+          <div class="hero-stat"><span class="num">99.9%</span><span class="label">除螨率</span></div>
+          <div class="hero-stat"><span class="num">12KPa</span><span class="label">吸力</span></div>
+          <div class="hero-stat"><span class="num">0.5kg</span><span class="label">轻巧机身</span></div>
+        </div>
+      </div>
+    </div>
+    <!-- Slide 6 -->
+    <div class="hero-slide" data-bg="../assets/images/banners/banner-6.webp">
+      <div class="hero-slide-overlay"></div>
+      <div class="hero-inner">
+        <div class="hero-badge">🚗 随行清洁</div>
+        <h2>爱车一尘不染，<br><span>开到哪儿都干净</span></h2>
+        <p class="hero-sub">小巧的无线车载吸尘器几分钟搞定碎屑与灰尘——每位车主都会心动的随手配件。</p>
+        <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">📩 获取免费报价</a>
+            <a href="#products" class="btn btn-outline">浏览产品</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><span class="num">12KPa</span><span class="label">吸力</span></div>
+          <div class="hero-stat"><span class="num">USB-C</span><span class="label">充电方式</span></div>
+          <div class="hero-stat"><span class="num">0.6kg</span><span class="label">小巧机身</span></div>
+          <div class="hero-stat"><span class="num">20min</span><span class="label">续航时间</span></div>
+        </div>
+      </div>
+    </div>
+    <!-- Slide 7 -->
+    <div class="hero-slide" data-bg="../assets/images/banners/banner-7.webp">
+      <div class="hero-slide-overlay"></div>
+      <div class="hero-inner">
+        <div class="hero-badge">🔧 出行无忧</div>
+        <h2>随时充气，<br><span>说走就走</span></h2>
+        <p class="hero-sub">带数显胎压的便携充气泵让客户的行程不被打断——每个市场都必备的车载工具。</p>
+        <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">📩 获取免费报价</a>
+            <a href="#products" class="btn btn-outline">浏览产品</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><span class="num">150PSI</span><span class="label">最大气压</span></div>
+          <div class="hero-stat"><span class="num">LED</span><span class="label">内置照明</span></div>
+          <div class="hero-stat"><span class="num">Auto</span><span class="label">自动停机</span></div>
+          <div class="hero-stat"><span class="num">12V/USB</span><span class="label">供电方式</span></div>
+        </div>
+      </div>
     </div>
   </div>
+  <button class="hero-arrow hero-prev" aria-label="上一张">&#8249;</button>
+  <button class="hero-arrow hero-next" aria-label="下一张">&#8250;</button>
+  <div class="hero-dots">
+    <span class="hero-dot active" data-slide="0"></span>
+    <span class="hero-dot" data-slide="1"></span>
+    <span class="hero-dot" data-slide="2"></span>
+    <span class="hero-dot" data-slide="3"></span>
+    <span class="hero-dot" data-slide="4"></span>
+    <span class="hero-dot" data-slide="5"></span>
+    <span class="hero-dot" data-slide="6"></span>
+  </div>
 </section>
+<script>
+(function(){
+  var root = document.getElementById('hero-section');
+  if(!root) return;
+  var slides = root.querySelectorAll('.hero-slide');
+  var dots = root.querySelectorAll('.hero-dot');
+  var idx = 0, timer;
+  // 第 1 帧内联（LCP），其余帧 data-bg 按需 hydrate，避免首屏下载全部 7 张
+  function hydrate(i){
+    var s = slides[i];
+    if(!s || s.dataset.loaded) return;
+    var u = s.dataset.bg;
+    if(!u) return;
+    s.style.backgroundImage = 'url(' + u + ')';
+    s.dataset.loaded = '1';
+  }
+  function hydrateAround(i){
+    hydrate(i);
+    hydrate((i + 1) % slides.length);
+  }
+  function go(n){
+    idx = (n + slides.length) % slides.length;
+    hydrateAround(idx);
+    slides.forEach(function(s,i){ s.classList.toggle('active', i===idx); });
+    dots.forEach(function(d,i){ d.classList.toggle('active', i===idx); });
+  }
+  function next(){ go(idx+1); }
+  function start(){ timer = setInterval(next, 5000); }
+  function stop(){ clearInterval(timer); }
+  function restart(){ stop(); start(); }
+  // 非英语文案比英文长（西/法/俄约 678px），固定 620px 会裁掉顶部并让
+  // 数据区压到圆点上。按最高的一屏撑开容器，并随窗口尺寸重算。
+  function fit(){
+    var max = 620;
+    Array.prototype.forEach.call(slides, function(s){
+      var inner = s.querySelector('.hero-inner');
+      if (inner) max = Math.max(max, inner.offsetHeight + 130);
+    });
+    root.style.height = max + 'px';
+  }
+  function refit(){ fit(); }
+  root.querySelector('.hero-next').addEventListener('click', function(){ go(idx+1); restart(); });
+  root.querySelector('.hero-prev').addEventListener('click', function(){ go(idx-1); restart(); });
+  dots.forEach(function(d,i){ d.addEventListener('click', function(){ go(i); restart(); }); });
+  root.addEventListener('mouseenter', stop);
+  root.addEventListener('mouseleave', start);
+  hydrate(0);
+  fit();
+  start();
+  // 只补第 2 帧，且等 load 之后（首屏带宽留给真正要紧的资源）
+  window.addEventListener('load', function () { hydrate(1); fit(); });
+  var rt;
+  window.addEventListener('resize', function () {
+    clearTimeout(rt); rt = setTimeout(refit, 150);
+  });
+})();
+</script>
 
 <!-- TRUST BAR -->
 <div class="trust-bar">
