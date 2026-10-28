@@ -160,6 +160,22 @@
 }
 #hero-section .hero-sub { color: rgba(255,255,255,0.95); }
 </style>
+<style id="aqc-hero-motion">
+/* hero 轮播：切屏轻微横向滑入，增强滚动观感 */
+.hero-carousel { overflow: hidden; }
+.hero-carousel .hero-slide .hero-inner {
+  transform: translateX(36px);
+  transition: transform .9s cubic-bezier(.22,.61,.36,1), opacity .8s ease;
+}
+.hero-carousel .hero-slide.active .hero-inner { transform: none; }
+[dir="rtl"] .hero-carousel .hero-slide .hero-inner,
+html[dir="rtl"] .hero-carousel .hero-slide .hero-inner { transform: translateX(-36px); }
+[dir="rtl"] .hero-carousel .hero-slide.active .hero-inner,
+html[dir="rtl"] .hero-carousel .hero-slide.active .hero-inner { transform: none; }
+@media (prefers-reduced-motion: reduce) {
+  .hero-carousel .hero-slide .hero-inner { transform: none; transition: none; }
+}
+</style>
 <section class="hero hero-carousel" id="hero-section">
   <div class="hero-slides">
     <!-- Slide 1 -->
@@ -352,8 +368,14 @@
   root.querySelector('.hero-next').addEventListener('click', function(){ go(idx+1); restart(); });
   root.querySelector('.hero-prev').addEventListener('click', function(){ go(idx-1); restart(); });
   dots.forEach(function(d,i){ d.addEventListener('click', function(){ go(i); restart(); }); });
-  root.addEventListener('mouseenter', stop);
-  root.addEventListener('mouseleave', start);
+  // 鼠标停在 hero 上不再暂停整屏自动播放（会让用户以为轮播坏了）；
+  // 只在指针悬停到箭头/圆点等控件上时暂停，方便点选
+  ['.hero-next', '.hero-prev', '.hero-dots'].forEach(function (sel) {
+    var el = root.querySelector(sel);
+    if (!el) return;
+    el.addEventListener('mouseenter', stop);
+    el.addEventListener('mouseleave', start);
+  });
   hydrate(0);
   fit();
   start();
