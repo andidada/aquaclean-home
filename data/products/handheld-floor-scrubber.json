@@ -734,6 +734,893 @@
     "https://www.hkdmj.net/assets/images/products/handheld-vacuum-eg16pro/detail/11.webp",
     "https://www.hkdmj.net/assets/images/products/handheld-vacuum-eg16pro/detail/12.webp"
    ]
+  },
+  {
+   "id": "qs7",
+   "name": {
+    "en": "RedKey QS7 Wireless Wet & Dry Vacuum · Multi-Surface Self-Cleaning Floor Washer",
+    "zh": "RedKey QS7 无线干湿两用洗地机 · 多表面自清洁地板清洁机",
+    "es": "RedKey QS7 Aspiradora inalámbrica en seco y húmedo · Friegasuelos autolimpiante multisuperficie",
+    "ar": "RedKey QS7 مكنسة لاسلكية جافة ورطبة · ممسحة أرضيات ذاتية التنظيف متعددة الأسطح",
+    "fr": "RedKey QS7 Aspirateur laveur sans fil sec et humide · Laveur de sol auto-nettoyant multi-surfaces",
+    "id": "RedKey QS7 Penyedot basah & kering nirkabel · Pel lantai pembersih otomatis multi-permukaan",
+    "ru": "RedKey QS7 Беспроводной пылесос для сухой и влажной уборки · Самоочищающийся поломойщик",
+    "th": "RedKey QS7 เครื่องดูดฝุ่นเปียกและแห้งไร้สาย · เครื่องล้างพื้นทำความสะอาดตัวเองหลายพื้นผิว",
+    "vi": "RedKey QS7 Máy hút bụi khô & ướt không dây · Máy lau sàn tự làm sạch đa bề mặt"
+   },
+   "tagline": {
+    "en": "250W Brushless · 121–150AW Suction · 550/850ml Dual Tank · 30–60 min",
+    "zh": "250W 无刷电机 · 121–150AW 吸力 · 550/850ml 双水箱 · 30–60 分钟",
+    "es": "Sin escobillas 250 W · succión 121–150 AW · doble depósito 550/850 ml · 30–60 min",
+    "ar": "بدون فرشاة 250 واط · شفط 121–150AW · خزان مزدوج 550/850 مل · 30–60 دقيقة",
+    "fr": "Sans balais 250 W · aspiration 121–150 AW · double réservoir 550/850 ml · 30–60 min",
+    "id": "Tanpa sikat 250W · hisapan 121–150AW · tangki ganda 550/850 ml · 30–60 menit",
+    "ru": "Бесщёточный 250 Вт · всасывание 121–150 AW · два бака 550/850 мл · 30–60 мин",
+    "th": "250W ไม่มีแปรงถ่าน · แรงดูด 121–150AW · ถังคู่ 550/850 มล. · 30–60 นาที",
+    "vi": "Không chổi than 250W · lực hút 121–150AW · bình kép 550/850 ml · 30–60 phút"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/handheld-floor-scrubber-qs7/01.webp",
+    "https://www.hkdmj.net/assets/images/products/handheld-floor-scrubber-qs7/02.webp",
+    "https://www.hkdmj.net/assets/images/products/handheld-floor-scrubber-qs7/03.webp",
+    "https://www.hkdmj.net/assets/images/products/handheld-floor-scrubber-qs7/04.webp",
+    "https://www.hkdmj.net/assets/images/products/handheld-floor-scrubber-qs7/05.webp"
+   ],
+   "video_url": "",
+   "moq": {
+    "value": 10,
+    "unit": "pieces"
+   },
+   "certifications": [],
+   "cert_note": {
+    "en": "Certification documents on file — available on request.",
+    "zh": "认证资料已备案，可按需提供。",
+    "es": "Documentación de certificación disponible a petición.",
+    "ar": "وثائق الاعتماد متوفرة عند الطلب.",
+    "fr": "Documents de certification disponibles sur demande.",
+    "id": "Dokumen sertifikasi tersedia atas permintaan.",
+    "ru": "Сертификационные документы предоставляются по запросу.",
+    "th": "เอกสารรับรองพร้อมให้ตามคำขอ",
+    "vi": "Hồ sơ chứng nhận có sẵn theo yêu cầu."
+   },
+   "highlights": [
+    {
+     "icon": "power",
+     "text": {
+      "en": "250W brushless motor delivering 121–150AW suction",
+      "zh": "250W 无刷电机，提供 121–150AW 强吸力",
+      "es": "Motor sin escobillas de 250 W con 121–150 AW de succión",
+      "ar": "محرك بدون فرشاة 250 واط بقوة شفط 121–150AW",
+      "fr": "Moteur sans balais 250 W délivrant 121–150 AW d’aspiration",
+      "id": "Motor tanpa sikat 250W dengan hisapan 121–150AW",
+      "ru": "Бесщёточный двигатель 250 Вт со всасыванием 121–150 AW",
+      "th": "มอเตอร์ไม่มีแปรงถ่าน 250W แรงดูด 121–150AW",
+      "vi": "Động cơ không chổi than 250W cho lực hút 121–150AW"
+     }
+    },
+    {
+     "icon": "wet",
+     "text": {
+      "en": "Separate 550ml clean and 850ml dirty water tanks",
+      "zh": "550ml 净水箱与 850ml 污水箱完全分离",
+      "es": "Depósitos separados: 550 ml de agua limpia y 850 ml de agua sucia",
+      "ar": "خزانان منفصلان: 550 مل ماء نظيف و850 مل ماء متسخ",
+      "fr": "Réservoirs séparés : 550 ml d’eau propre et 850 ml d’eau sale",
+      "id": "Tangki terpisah 550 ml air bersih dan 850 ml air kotor",
+      "ru": "Раздельные баки: 550 мл чистой и 850 мл грязной воды",
+      "th": "ถังแยก 550 มล. น้ำสะอาด และ 850 มล. น้ำสกปรก",
+      "vi": "Bình riêng 550 ml nước sạch và 850 ml nước bẩn"
+     }
+    },
+    {
+     "icon": "clean",
+     "text": {
+      "en": "Self-cleaning roller brush scrubs and dries in one pass",
+      "zh": "自清洁滚刷，一次完成刷洗与吸干",
+      "es": "Cepillo autolimpiante que friega y seca en una sola pasada",
+      "ar": "فرشاة أسطوانية ذاتية التنظيف تفرك وتجفف في تمريرة واحدة",
+      "fr": "Rouleau auto-nettoyant qui frotte et sèche en une seule passe",
+      "id": "Rol sikat pembersih otomatis menyikat dan mengeringkan sekali jalan",
+      "ru": "Самоочищающийся валик моет и сушит за один проход",
+      "th": "ลูกกลิ้งทำความสะอาดตัวเอง ขัดและเช็ดแห้งในครั้งเดียว",
+      "vi": "Con lăn tự làm sạch chà và làm khô trong một lượt"
+     }
+    },
+    {
+     "icon": "pet",
+     "text": {
+      "en": "Lifts pet hair, crumbs and spilled liquid from hard floors",
+      "zh": "轻松吸走硬地板上的宠物毛发、碎屑与泼洒液体",
+      "es": "Recoge pelo de mascotas, migas y líquidos derramados en suelos duros",
+      "ar": "يلتقط شعر الحيوانات والفتات والسوائل المنسكبة من الأرضيات الصلبة",
+      "fr": "Capte poils d’animaux, miettes et liquides renversés sur sols durs",
+      "id": "Mengangkat bulu hewan, remah, dan tumpahan dari lantai keras",
+      "ru": "Собирает шерсть животных, крошки и пролитые жидкости с твёрдых полов",
+      "th": "เก็บขนสัตว์ เศษอาหาร และของเหลวที่หกบนพื้นแข็ง",
+      "vi": "Thu gom lông thú, vụn thức ăn và chất lỏng tràn trên sàn cứng"
+     }
+    },
+    {
+     "icon": "filter",
+     "text": {
+      "en": "Washable HEPA filter traps fine dust and dander",
+      "zh": "可水洗 HEPA 滤网，拦截细尘与皮屑",
+      "es": "Filtro HEPA lavable que retiene polvo fino y caspa",
+      "ar": "فلتر HEPA قابل للغسل يحجز الغبار الناعم والقصاصات",
+      "fr": "Filtre HEPA lavable retenant poussières fines et squames",
+      "id": "Filter HEPA bisa dicuci menahan debu halus dan ketombe",
+      "ru": "Промываемый HEPA-фильтр задерживает мелкую пыль и перхоть",
+      "th": "ไส้กรอง HEPA ล้างได้ ดักจับฝุ่นละเอียดและรังแค",
+      "vi": "Bộ lọc HEPA giặt được giữ bụi mịn và gàu da"
+     }
+    },
+    {
+     "icon": "battery",
+     "text": {
+      "en": "4000mAh battery · 30–60 minutes per charge",
+      "zh": "4000mAh 电池 · 单次充电续航 30–60 分钟",
+      "es": "Batería de 4000 mAh · 30–60 minutos por carga",
+      "ar": "بطارية 4000 مللي أمبير · 30–60 دقيقة لكل شحن",
+      "fr": "Batterie 4000 mAh · 30–60 minutes par charge",
+      "id": "Baterai 4000mAh · 30–60 menit per pengisian",
+      "ru": "Аккумулятор 4000 мА·ч · 30–60 минут на заряде",
+      "th": "แบตเตอรี่ 4000mAh · 30–60 นาทีต่อการชาร์จ",
+      "vi": "Pin 4000mAh · 30–60 phút mỗi lần sạc"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "OEM/ODM — custom colour, power rating and packaging",
+      "zh": "支持 OEM/ODM —— 可定制颜色、功率与包装",
+      "es": "OEM/ODM — color, potencia y embalaje personalizables",
+      "ar": "تصنيع OEM/ODM — تخصيص اللون والقدرة والتغليف",
+      "fr": "OEM/ODM — couleur, puissance et emballage personnalisés",
+      "id": "OEM/ODM — warna, daya, dan kemasan khusus",
+      "ru": "OEM/ODM — индивидуальный цвет, мощность и упаковка",
+      "th": "OEM/ODM — ปรับสี กำลังไฟ และบรรจุภัณฑ์ได้",
+      "vi": "OEM/ODM — tùy chỉnh màu, công suất và bao bì"
+     }
+    }
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "Model",
+      "zh": "型号",
+      "es": "Modelo",
+      "ar": "الموديل",
+      "fr": "Modèle",
+      "id": "Model",
+      "ru": "Модель",
+      "th": "รุ่น",
+      "vi": "Model"
+     },
+     "value": {
+      "en": "QS7",
+      "zh": "QS7",
+      "es": "QS7",
+      "ar": "QS7",
+      "fr": "QS7",
+      "id": "QS7",
+      "ru": "QS7",
+      "th": "QS7",
+      "vi": "QS7"
+     }
+    },
+    {
+     "label": {
+      "en": "Motor Power",
+      "zh": "电机功率",
+      "es": "Potencia del motor",
+      "ar": "قدرة المحرك",
+      "fr": "Puissance du moteur",
+      "id": "Daya Motor",
+      "ru": "Мощность двигателя",
+      "th": "กำลังมอเตอร์",
+      "vi": "Công suất động cơ"
+     },
+     "value": {
+      "en": "250W",
+      "zh": "250W",
+      "es": "250W",
+      "ar": "250W",
+      "fr": "250W",
+      "id": "250W",
+      "ru": "250W",
+      "th": "250W",
+      "vi": "250W"
+     }
+    },
+    {
+     "label": {
+      "en": "Motor Type",
+      "zh": "电机类型",
+      "es": "Tipo de motor",
+      "ar": "نوع المحرك",
+      "fr": "Type de moteur",
+      "id": "Jenis Motor",
+      "ru": "Тип двигателя",
+      "th": "ประเภทมอเตอร์",
+      "vi": "Loại động cơ"
+     },
+     "value": {
+      "en": "Brushless",
+      "zh": "Brushless",
+      "es": "Brushless",
+      "ar": "Brushless",
+      "fr": "Brushless",
+      "id": "Brushless",
+      "ru": "Brushless",
+      "th": "Brushless",
+      "vi": "Brushless"
+     }
+    },
+    {
+     "label": {
+      "en": "Suction Power",
+      "zh": "吸力",
+      "es": "Potencia de succión",
+      "ar": "قوة الشفط",
+      "fr": "Puissance d’aspiration",
+      "id": "Daya Hisap",
+      "ru": "Мощность всасывания",
+      "th": "กำลังดูด",
+      "vi": "Công suất hút"
+     },
+     "value": {
+      "en": "121–150 AW",
+      "zh": "121–150 AW",
+      "es": "121–150 AW",
+      "ar": "121–150 AW",
+      "fr": "121–150 AW",
+      "id": "121–150 AW",
+      "ru": "121–150 AW",
+      "th": "121–150 AW",
+      "vi": "121–150 AW"
+     }
+    },
+    {
+     "label": {
+      "en": "Runtime",
+      "zh": "续航时间",
+      "es": "Autonomía",
+      "ar": "مدة التشغيل",
+      "fr": "Autonomie",
+      "id": "Waktu Pakai",
+      "ru": "Время работы",
+      "th": "ระยะเวลาทำงาน",
+      "vi": "Thời gian chạy"
+     },
+     "value": {
+      "en": "30–60 min",
+      "zh": "30–60 分钟",
+      "es": "30–60 min",
+      "ar": "30–60 دقيقة",
+      "fr": "30–60 min",
+      "id": "30–60 menit",
+      "ru": "30–60 мин",
+      "th": "30–60 นาที",
+      "vi": "30–60 phút"
+     }
+    },
+    {
+     "label": {
+      "en": "Battery",
+      "zh": "电池",
+      "es": "Batería",
+      "ar": "البطارية",
+      "fr": "Batterie",
+      "id": "Baterai",
+      "ru": "Аккумулятор",
+      "th": "แบตเตอรี่",
+      "vi": "Pin"
+     },
+     "value": {
+      "en": "4000mAh",
+      "zh": "4000mAh",
+      "es": "4000mAh",
+      "ar": "4000mAh",
+      "fr": "4000mAh",
+      "id": "4000mAh",
+      "ru": "4000mAh",
+      "th": "4000mAh",
+      "vi": "4000mAh"
+     }
+    },
+    {
+     "label": {
+      "en": "Clean Water Tank",
+      "zh": "净水箱",
+      "es": "Depósito de agua limpia",
+      "ar": "خزان الماء النظيف",
+      "fr": "Réservoir d’eau propre",
+      "id": "Tangki Air Bersih",
+      "ru": "Бак чистой воды",
+      "th": "ถังน้ำสะอาด",
+      "vi": "Bình nước sạch"
+     },
+     "value": {
+      "en": "550 ml",
+      "zh": "550 ml",
+      "es": "550 ml",
+      "ar": "550 ml",
+      "fr": "550 ml",
+      "id": "550 ml",
+      "ru": "550 ml",
+      "th": "550 ml",
+      "vi": "550 ml"
+     }
+    },
+    {
+     "label": {
+      "en": "Dirty Water Tank",
+      "zh": "污水箱",
+      "es": "Depósito de agua sucia",
+      "ar": "خزان الماء المتسخ",
+      "fr": "Réservoir d’eau sale",
+      "id": "Tangki Air Kotor",
+      "ru": "Бак грязной воды",
+      "th": "ถังน้ำสกปรก",
+      "vi": "Bình nước bẩn"
+     },
+     "value": {
+      "en": "850 ml",
+      "zh": "850 ml",
+      "es": "850 ml",
+      "ar": "850 ml",
+      "fr": "850 ml",
+      "id": "850 ml",
+      "ru": "850 ml",
+      "th": "850 ml",
+      "vi": "850 ml"
+     }
+    },
+    {
+     "label": {
+      "en": "Filter Type",
+      "zh": "滤网类型",
+      "es": "Tipo de filtro",
+      "ar": "نوع الفلتر",
+      "fr": "Type de filtre",
+      "id": "Jenis Filter",
+      "ru": "Тип фильтра",
+      "th": "ประเภทตัวกรอง",
+      "vi": "Loại bộ lọc"
+     },
+     "value": {
+      "en": "HEPA (washable)",
+      "zh": "HEPA（可水洗）",
+      "es": "HEPA (lavable)",
+      "ar": "HEPA قابل للغسل",
+      "fr": "HEPA (lavable)",
+      "id": "HEPA (bisa dicuci)",
+      "ru": "HEPA (промываемый)",
+      "th": "HEPA (ล้างได้)",
+      "vi": "HEPA (giặt được)"
+     }
+    },
+    {
+     "label": {
+      "en": "Function",
+      "zh": "功能",
+      "es": "Función",
+      "ar": "الوظيفة",
+      "fr": "Fonction",
+      "id": "Fungsi",
+      "ru": "Функция",
+      "th": "ฟังก์ชัน",
+      "vi": "Chức năng"
+     },
+     "value": {
+      "en": "Wet & Dry · Self-Cleaning",
+      "zh": "干湿两用 · 自清洁",
+      "es": "Seco y húmedo · autolimpiante",
+      "ar": "جاف ورطب · ذاتي التنظيف",
+      "fr": "Sec et humide · auto-nettoyant",
+      "id": "Basah & kering · pembersih otomatis",
+      "ru": "Сухая и влажная уборка · самоочистка",
+      "th": "เปียกและแห้ง · ทำความสะอาดตัวเอง",
+      "vi": "Khô & ướt · tự làm sạch"
+     }
+    },
+    {
+     "label": {
+      "en": "Material",
+      "zh": "材质",
+      "es": "Material",
+      "ar": "المادة",
+      "fr": "Matériau",
+      "id": "Material",
+      "ru": "Материал",
+      "th": "วัสดุ",
+      "vi": "Vật liệu"
+     },
+     "value": {
+      "en": "Plastic",
+      "zh": "Plastic",
+      "es": "Plastic",
+      "ar": "Plastic",
+      "fr": "Plastic",
+      "id": "Plastic",
+      "ru": "Plastic",
+      "th": "Plastic",
+      "vi": "Plastic"
+     }
+    },
+    {
+     "label": {
+      "en": "Power Source",
+      "zh": "电源",
+      "es": "Alimentación",
+      "ar": "مصدر الطاقة",
+      "fr": "Alimentation",
+      "id": "Sumber Daya",
+      "ru": "Питание",
+      "th": "แหล่งจ่ายไฟ",
+      "vi": "Nguồn điện"
+     },
+     "value": {
+      "en": "Battery",
+      "zh": "Battery",
+      "es": "Battery",
+      "ar": "Battery",
+      "fr": "Battery",
+      "id": "Battery",
+      "ru": "Battery",
+      "th": "Battery",
+      "vi": "Battery"
+     }
+    },
+    {
+     "label": {
+      "en": "APP Control",
+      "zh": "APP 控制",
+      "es": "Control por APP",
+      "ar": "التحكم عبر التطبيق",
+      "fr": "Contrôle via l’appli",
+      "id": "Kontrol Aplikasi",
+      "ru": "Управление в приложении",
+      "th": "ควบคุมผ่านแอป",
+      "vi": "Điều khiển qua ứng dụng"
+     },
+     "value": {
+      "en": "No",
+      "zh": "无",
+      "es": "No",
+      "ar": "لا",
+      "fr": "Non",
+      "id": "Tidak",
+      "ru": "Нет",
+      "th": "ไม่มี",
+      "vi": "Không"
+     }
+    },
+    {
+     "label": {
+      "en": "Operating Language",
+      "zh": "操作语言",
+      "es": "Idioma de los controles",
+      "ar": "لغة التشغيل",
+      "fr": "Langue de l’interface",
+      "id": "Bahasa Panel",
+      "ru": "Язык панели",
+      "th": "ภาษาบนแผงควบคุม",
+      "vi": "Ngôn ngữ bảng điều khiển"
+     },
+     "value": {
+      "en": "English",
+      "zh": "English",
+      "es": "English",
+      "ar": "English",
+      "fr": "English",
+      "id": "English",
+      "ru": "English",
+      "th": "English",
+      "vi": "English"
+     }
+    },
+    {
+     "label": {
+      "en": "Application",
+      "zh": "应用场景",
+      "es": "Aplicaciones",
+      "ar": "الاستخدام",
+      "fr": "Applications",
+      "id": "Aplikasi",
+      "ru": "Применение",
+      "th": "การใช้งาน",
+      "vi": "Ứng dụng"
+     },
+     "value": {
+      "en": "Car, Commercial, Garage, Hotel, Household, Outdoor, RV",
+      "zh": "汽车、商用、车库、酒店、家庭、户外、房车",
+      "es": "Coche, comercios, garaje, hotel, hogar, exterior, autocaravana",
+      "ar": "السيارات والمرافق التجارية والجراجات والفنادق والمنازل والمساحات الخارجية وعربات التخييم",
+      "fr": "Voiture, locaux commerciaux, garage, hôtel, maison, extérieur, camping-car",
+      "id": "Mobil, komersial, garasi, hotel, rumah tangga, luar ruangan, RV",
+      "ru": "Автомобиль, коммерческие помещения, гараж, отель, дом, улица, автодом",
+      "th": "รถยนต์ พื้นที่เชิงพาณิชย์ โรงรถ โรงแรม บ้าน พื้นที่ภายนอก รถบ้าน",
+      "vi": "Ô tô, khu thương mại, gara, khách sạn, gia đình, ngoài trời, xe RV"
+     }
+    },
+    {
+     "label": {
+      "en": "Packaging Type",
+      "zh": "包装形式",
+      "es": "Tipo de embalaje",
+      "ar": "نوع التغليف",
+      "fr": "Type d’emballage",
+      "id": "Jenis Kemasan",
+      "ru": "Тип упаковки",
+      "th": "ประเภทบรรจุภัณฑ์",
+      "vi": "Loại bao bì"
+     },
+     "value": {
+      "en": "Corrugated Carton",
+      "zh": "Corrugated Carton",
+      "es": "Corrugated Carton",
+      "ar": "Corrugated Carton",
+      "fr": "Corrugated Carton",
+      "id": "Corrugated Carton",
+      "ru": "Corrugated Carton",
+      "th": "Corrugated Carton",
+      "vi": "Corrugated Carton"
+     }
+    },
+    {
+     "label": {
+      "en": "Net Weight",
+      "zh": "净重",
+      "es": "Peso neto",
+      "ar": "الوزن الصافي",
+      "fr": "Poids net",
+      "id": "Berat Bersih",
+      "ru": "Вес нетто",
+      "th": "น้ำหนักสุทธิ",
+      "vi": "Trọng lượng tịnh"
+     },
+     "value": {
+      "en": "≥3 kg",
+      "zh": "≥3 kg",
+      "es": "≥3 kg",
+      "ar": "≥3 kg",
+      "fr": "≥3 kg",
+      "id": "≥3 kg",
+      "ru": "≥3 kg",
+      "th": "≥3 kg",
+      "vi": "≥3 kg"
+     }
+    },
+    {
+     "label": {
+      "en": "OEM Brand",
+      "zh": "品牌",
+      "es": "Marca",
+      "ar": "العلامة التجارية",
+      "fr": "Marque",
+      "id": "Merek",
+      "ru": "Бренд",
+      "th": "แบรนด์",
+      "vi": "Thương hiệu"
+     },
+     "value": {
+      "en": "OEM",
+      "zh": "OEM",
+      "es": "OEM",
+      "ar": "OEM",
+      "fr": "OEM",
+      "id": "OEM",
+      "ru": "OEM",
+      "th": "OEM",
+      "vi": "OEM"
+     }
+    },
+    {
+     "label": {
+      "en": "Warranty",
+      "zh": "质保",
+      "es": "Garantía",
+      "ar": "الضمان",
+      "fr": "Garantie",
+      "id": "Garansi",
+      "ru": "Гарантия",
+      "th": "การรับประกัน",
+      "vi": "Bảo hành"
+     },
+     "value": {
+      "en": "1 Year",
+      "zh": "1 Year",
+      "es": "1 Year",
+      "ar": "1 Year",
+      "fr": "1 Year",
+      "id": "1 Year",
+      "ru": "1 Year",
+      "th": "1 Year",
+      "vi": "1 Year"
+     }
+    },
+    {
+     "label": {
+      "en": "After-sales",
+      "zh": "售后",
+      "es": "Posventa",
+      "ar": "خدمة ما بعد البيع",
+      "fr": "Service après-vente",
+      "id": "Purnajual",
+      "ru": "Послепродажное обслуживание",
+      "th": "บริการหลังการขาย",
+      "vi": "Sau bán hàng"
+     },
+     "value": {
+      "en": "Free Spare Parts",
+      "zh": "Free Spare Parts",
+      "es": "Free Spare Parts",
+      "ar": "Free Spare Parts",
+      "fr": "Free Spare Parts",
+      "id": "Free Spare Parts",
+      "ru": "Free Spare Parts",
+      "th": "Free Spare Parts",
+      "vi": "Free Spare Parts"
+     }
+    }
+   ],
+   "quick_specs": [
+    {
+     "label": {
+      "en": "Motor Power",
+      "zh": "电机功率",
+      "es": "Potencia del motor",
+      "ar": "قدرة المحرك",
+      "fr": "Puissance du moteur",
+      "id": "Daya Motor",
+      "ru": "Мощность двигателя",
+      "th": "กำลังมอเตอร์",
+      "vi": "Công suất động cơ"
+     },
+     "value": {
+      "en": "250W",
+      "zh": "250W",
+      "es": "250W",
+      "ar": "250W",
+      "fr": "250W",
+      "id": "250W",
+      "ru": "250W",
+      "th": "250W",
+      "vi": "250W"
+     }
+    },
+    {
+     "label": {
+      "en": "Suction",
+      "zh": "吸力",
+      "es": "Succión",
+      "ar": "الشفط",
+      "fr": "Aspiration",
+      "id": "Daya Hisap",
+      "ru": "Всасывание",
+      "th": "แรงดูด",
+      "vi": "Lực hút"
+     },
+     "value": {
+      "en": "121–150AW",
+      "zh": "121–150AW",
+      "es": "121–150AW",
+      "ar": "121–150AW",
+      "fr": "121–150AW",
+      "id": "121–150AW",
+      "ru": "121–150AW",
+      "th": "121–150AW",
+      "vi": "121–150AW"
+     }
+    },
+    {
+     "label": {
+      "en": "Runtime",
+      "zh": "续航",
+      "es": "Autonomía",
+      "ar": "مدة التشغيل",
+      "fr": "Autonomie",
+      "id": "Waktu Pakai",
+      "ru": "Время работы",
+      "th": "ระยะเวลาทำงาน",
+      "vi": "Thời gian chạy"
+     },
+     "value": {
+      "en": "30–60 min",
+      "zh": "30–60 min",
+      "es": "30–60 min",
+      "ar": "30–60 min",
+      "fr": "30–60 min",
+      "id": "30–60 min",
+      "ru": "30–60 min",
+      "th": "30–60 min",
+      "vi": "30–60 min"
+     }
+    },
+    {
+     "label": {
+      "en": "Tank",
+      "zh": "水箱",
+      "es": "Depósito",
+      "ar": "الخزان",
+      "fr": "Réservoir",
+      "id": "Tangki",
+      "ru": "Баки",
+      "th": "ถังน้ำ",
+      "vi": "Bình nước"
+     },
+     "value": {
+      "en": "550 + 850 ml",
+      "zh": "550 + 850 ml",
+      "es": "550 + 850 ml",
+      "ar": "550 + 850 ml",
+      "fr": "550 + 850 ml",
+      "id": "550 + 850 ml",
+      "ru": "550 + 850 ml",
+      "th": "550 + 850 ml",
+      "vi": "550 + 850 ml"
+     }
+    }
+   ],
+   "packaging": {
+    "unit": "Corrugated Carton",
+    "ctn_size": "—",
+    "ctn_qty": "—",
+    "gross_weight": "—"
+   },
+   "customization": {
+    "oem": true,
+    "odm": true,
+    "logo": null,
+    "color": true,
+    "package": null,
+    "sample_lead": "on request",
+    "production_lead": "on request"
+   },
+   "applications": {
+    "en": "Car, Commercial, Garage, Hotel, Household, Outdoor, RV",
+    "zh": "汽车、商用、车库、酒店、家庭、户外、房车",
+    "es": "Coche, comercios, garaje, hotel, hogar, exterior, autocaravana",
+    "ar": "السيارات والمرافق التجارية والجراجات والفنادق والمنازل والمساحات الخارجية وعربات التخييم",
+    "fr": "Voiture, locaux commerciaux, garage, hôtel, maison, extérieur, camping-car",
+    "id": "Mobil, komersial, garasi, hotel, rumah tangga, luar ruangan, RV",
+    "ru": "Автомобиль, коммерческие помещения, гараж, отель, дом, улица, автодом",
+    "th": "รถยนต์ พื้นที่เชิงพาณิชย์ โรงรถ โรงแรม บ้าน พื้นที่ภายนอก รถบ้าน",
+    "vi": "Ô tô, khu thương mại, gara, khách sạn, gia đình, ngoài trời, xe RV"
+   },
+   "price_indicator": {
+    "min": 317,
+    "max": 430,
+    "currency": "USD"
+   },
+   "price_ladder": [
+    {
+     "min": 10,
+     "max": 499,
+     "price": 430
+    },
+    {
+     "min": 500,
+     "max": 4999,
+     "price": 420
+    },
+    {
+     "min": 5000,
+     "max": null,
+     "price": 317
+    }
+   ],
+   "sku": [
+    {
+     "name": {
+      "en": "Colour",
+      "zh": "颜色"
+     },
+     "values": [
+      {
+       "name": "White"
+      }
+     ]
+    },
+    {
+     "name": {
+      "en": "Power Rating",
+      "zh": "功率"
+     },
+     "values": [
+      {
+       "name": "250W"
+      },
+      {
+       "name": "180W (custom)"
+      }
+     ]
+    }
+   ],
+   "description": {
+    "en": "The QS7 is a cordless wet & dry floor washer that vacuums, scrubs and dries hard floors in a single pass. A 250W brushless motor delivers 121–150 AW of suction, while separate 550 ml clean and 850 ml dirty water tanks keep fresh water apart from the wastewater you just picked up. The self-cleaning roller brush scrubs stubborn marks and lifts pet hair, crumbs and spills without a second mopping step, and the washable HEPA filter traps fine dust and dander before it reaches the motor. A 4000mAh battery runs 30–60 minutes per charge. Available as OEM/ODM with custom colour, power rating and packaging for your market; certification documents are on file and available on request.",
+    "zh": "QS7 是一款无线干湿两用洗地机，推过一次即可完成吸尘、刷洗与吸干。250W 无刷电机提供 121–150AW 吸力，550ml 净水箱与 850ml 污水箱完全分离，不会用污水反复擦地。自清洁滚刷可刷除顽固污渍，同时吸走宠物毛发、碎屑与泼洒的液体，无需二次拖地；可水洗 HEPA 滤网在灰尘进入电机前完成拦截。4000mAh 电池单次充电可连续工作 30–60 分钟。支持 OEM/ODM 定制颜色、功率与包装，认证资料已备案，可按需提供。",
+    "es": "La QS7 es una fregadora-aspiradora inalámbrica de seco y húmedo que aspira, friega y seca suelos duros en una sola pasada. Un motor sin escobillas de 250 W ofrece 121–150 AW de succión, y los depósitos separados de 550 ml de agua limpia y 850 ml de agua sucia evitan volver a fregar con agua contaminada. El cepillo autolimpiante elimina manchas difíciles y recoge pelo de mascotas, migas y derrames sin un segundo repaso, mientras el filtro HEPA lavable retiene polvo fino y caspa antes de llegar al motor. La batería de 4000 mAh rinde de 30 a 60 minutos por carga. Disponible como OEM/ODM con color, potencia y embalaje personalizados; la documentación de certificación está disponible a petición.",
+    "ar": "إن QS7 ممسحة أرضيات لاسلكية تعمل جافة ورطبة، تمتص وتفرك وتجفف الأرضيات الصلبة في تمريرة واحدة. يوفر المحرك بدون فرشاة بقدرة 250 واط شفطًا بين 121 و150AW، ويحافظ الخزانان المنفصلان — 550 مل للماء النظيف و850 مل للماء المتسخ — على فصل الماء النظيف عن المياه المستعملة. تزيل الفرشاة الأسطوانية ذاتية التنظيف البقع العنيدة وتلتقط شعر الحيوانات والفتات والسوائل المنسكبة دون مسحة ثانية، فيما يحجز فلتر HEPA القابل للغسل الغبار الناعم قبل وصوله إلى المحرك. تعمل بطارية 4000 مللي أمبير من 30 إلى 60 دقيقة لكل شحن. متاحة بتصنيع OEM/ODM مع تخصيص اللون والقدرة والتغليف، ووثائق الاعتماد متوفرة عند الطلب.",
+    "fr": "Le QS7 est un laveur de sol sans fil sec et humide qui aspire, frotte et sèche les sols durs en une seule passe. Un moteur sans balais de 250 W délivre 121–150 AW d’aspiration, et les réservoirs séparés de 550 ml d’eau propre et 850 ml d’eau sale évitent de repasser avec une eau souillée. Le rouleau auto-nettoyant élimine les traces tenaces et capte poils d’animaux, miettes et liquides renversés sans second passage, tandis que le filtre HEPA lavable retient poussières fines et squames avant le moteur. La batterie de 4000 mAh offre 30 à 60 minutes par charge. Disponible en OEM/ODM avec couleur, puissance et emballage personnalisés ; les documents de certification sont disponibles sur demande.",
+    "id": "QS7 adalah pel lantai basah & kering nirkabel yang menyedot, menyikat, dan mengeringkan lantai keras dalam satu kali jalan. Motor tanpa sikat 250W menghasilkan hisapan 121–150AW, dan tangki terpisah 550 ml air bersih serta 850 ml air kotor menjaga air bersih tidak tercampur air bekas. Rol sikat pembersih otomatis mengangkat noda membandel, bulu hewan, remah, dan tumpahan tanpa perlu mengepel ulang, sementara filter HEPA yang bisa dicuci menahan debu halus sebelum masuk ke motor. Baterai 4000mAh bertahan 30–60 menit per pengisian. Tersedia OEM/ODM dengan warna, daya, dan kemasan khusus; dokumen sertifikasi tersedia atas permintaan.",
+    "ru": "QS7 — это беспроводной моющий пылесос, который собирает мусор, моет и сушит твёрдые полы за один проход. Бесщёточный двигатель 250 Вт обеспечивает всасывание 121–150 AW, а раздельные баки на 550 мл чистой и 850 мл грязной воды не дают мыть пол загрязнённой водой. Самоочищающийся валик удаляет стойкие загрязнения и собирает шерсть животных, крошки и пролитые жидкости без повторного мытья, а промываемый HEPA-фильтр задерживает мелкую пыль до попадания в двигатель. Аккумулятор 4000 мА·ч работает 30–60 минут на заряде. Доступен по схеме OEM/ODM с индивидуальным цветом, мощностью и упаковкой; сертификационные документы предоставляются по запросу.",
+    "th": "QS7 เป็นเครื่องล้างพื้นเปียกและแห้งไร้สายที่ดูดฝุ่น ขัดถู และเช็ดพื้นแข็งให้แห้งในครั้งเดียว มอเตอร์ไม่มีแปรงถ่าน 250W ให้แรงดูด 121–150AW และถังแยกสองถังขนาด 550 มล. สำหรับน้ำสะอาดกับ 850 มล. สำหรับน้ำสกปรกช่วยไม่ให้น้ำสะอาดปนกับน้ำที่ดูดขึ้นมา ลูกกลิ้งทำความสะอาดตัวเองขจัดคราบฝังแน่น พร้อมเก็บขนสัตว์ เศษอาหาร และของเหลวที่หกได้โดยไม่ต้องถูซ้ำ และไส้กรอง HEPA แบบล้างได้ดักจับฝุ่น ละเอียดก่อนเข้าสู่มอเตอร์ แบตเตอรี่ 4000mAh ใช้งานได้ 30–60 นาทีต่อการชาร์จ รองรับ OEM/ODM ทั้งสี กำลังไฟ และบรรจุภัณฑ์ตามตลาดของคุณ พร้อมเอกสารรับรองให้ตามคำขอ",
+    "vi": "QS7 là máy lau sàn khô & ướt không dây, hút bụi, chà và làm khô sàn cứng chỉ trong một lượt. Động cơ không chổi than 250W cho lực hút 121–150AW, hai bình riêng 550 ml nước sạch và 850 ml nước bẩn giúp nước sạch không lẫn nước đã hút. Con lăn tự làm sạch đánh bay vết bẩn cứng đầu, thu gom lông thú, vụn thức ăn và chất lỏng tràn mà không cần lau lại; bộ lọc HEPA giặt được giữ bụi mịn trước khi vào động cơ. Pin 4000mAh chạy 30–60 phút mỗi lần sạc. Có sẵn OEM/ODM với màu sắc, công suất và bao bì tùy chỉnh; hồ sơ chứng nhận được cung cấp theo yêu cầu."
+   },
+   "supplier_rating": "4.60",
+   "response_time": "—",
+   "transactions": "—",
+   "years": "—",
+   "ship_from": {
+    "en": "China",
+    "zh": "中国"
+   },
+   "sample": {
+    "enabled": true,
+    "qty": 1,
+    "note": {
+     "en": "Sample available (max 1 pc)",
+     "zh": "支持打样（最多 1 台）",
+     "es": "Muestra disponible (máx. 1 ud.)",
+     "ar": "عينة متاحة (قطعة واحدة كحد أقصى)",
+     "fr": "Échantillon disponible (1 pc max)",
+     "id": "Sampel tersedia (maks. 1 unit)",
+     "ru": "Образец доступен (не более 1 шт.)",
+     "th": "มีตัวอย่างให้ (สูงสุด 1 ชิ้น)",
+     "vi": "Có mẫu thử (tối đa 1 chiếc)"
+    }
+   },
+   "category_name": {
+    "en": "Handheld Floor Scrubber",
+    "zh": "手持洗地机",
+    "es": "Fregadora de Suelos de Mano",
+    "ar": "مكنسة أرضيات محمولة",
+    "fr": "Autolaveuse Portative",
+    "id": "Mesin Scrubber Lantai Genggam",
+    "ru": "Ручная поломоечная машина",
+    "th": "เครื่องขัดพื้นแบบมือถือ",
+    "vi": "Máy Chà Sàn Cầm Tay"
+   },
+   "certificates": [],
+   "supplier": {
+    "country": "HK",
+    "province": "New Territories",
+    "established": 2024,
+    "reply_rate": 0.9987,
+    "verified": false,
+    "main_markets": [
+     "North America",
+     "South America",
+     "Eastern Europe",
+     "Southeast Asia"
+    ]
+   },
+   "store_rating": {
+    "score": 4.6,
+    "reviews": 0,
+    "scope": "store"
+   },
+   "alibaba_url": "https://www.alibaba.com/product-detail/RedKey-QS7-Wireless-Wet-Dry-Vacuum_1601820410701.html",
+   "_cat": "handheld-floor-scrubber",
+   "detail_images": [
+    "https://www.hkdmj.net/assets/images/products/handheld-floor-scrubber-qs7/detail/01.webp",
+    "https://www.hkdmj.net/assets/images/products/handheld-floor-scrubber-qs7/detail/02.webp",
+    "https://www.hkdmj.net/assets/images/products/handheld-floor-scrubber-qs7/detail/03.webp",
+    "https://www.hkdmj.net/assets/images/products/handheld-floor-scrubber-qs7/detail/04.webp",
+    "https://www.hkdmj.net/assets/images/products/handheld-floor-scrubber-qs7/detail/05.webp",
+    "https://www.hkdmj.net/assets/images/products/handheld-floor-scrubber-qs7/detail/06.webp",
+    "https://www.hkdmj.net/assets/images/products/handheld-floor-scrubber-qs7/detail/07.webp",
+    "https://www.hkdmj.net/assets/images/products/handheld-floor-scrubber-qs7/detail/08.webp",
+    "https://www.hkdmj.net/assets/images/products/handheld-floor-scrubber-qs7/detail/09.webp",
+    "https://www.hkdmj.net/assets/images/products/handheld-floor-scrubber-qs7/detail/10.webp",
+    "https://www.hkdmj.net/assets/images/products/handheld-floor-scrubber-qs7/detail/11.webp",
+    "https://www.hkdmj.net/assets/images/products/handheld-floor-scrubber-qs7/detail/12.webp",
+    "https://www.hkdmj.net/assets/images/products/handheld-floor-scrubber-qs7/detail/13.webp",
+    "https://www.hkdmj.net/assets/images/products/handheld-floor-scrubber-qs7/detail/14.webp",
+    "https://www.hkdmj.net/assets/images/products/handheld-floor-scrubber-qs7/detail/15.webp"
+   ]
   }
  ],
  "reviews": [],
