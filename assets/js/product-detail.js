@@ -89,6 +89,14 @@
   // must be absolute), but <img> tags must load from the serving origin --
   // the production host 404s these paths, and any other origin breaks too.
   function localImg(u) { return (u || '').replace(/^https?:\/\/[^\/]+/i, ''); }
+  // 缩略图条每格只有 60–68px，没必要为了几个小方块去拉 900px 主图：
+  // 改取同目录 thumb/ 下的 160px 小图（命名与主图一致，路径推算即可，
+  // 不需要新增数据字段）。详情图没有缩略图，原样返回。
+  function thumbImg(u) {
+    if (!u || /\/detail\//i.test(u)) return u;
+    var m = /^(.*\/)([^\/]+\.webp)(\?.*)?$/i.exec(u);
+    return m ? (m[1] + 'thumb/' + m[2] + (m[3] || '')) : u;
+  }
   function shipFrom(p) { return pick(p && p.ship_from, LANG) || '—'; }
   // UI labels: injected dictionary (all 9 locales) over the locale's built-in
   // table over English. Prevents "undefined" for any key a locale omits.
@@ -130,29 +138,38 @@
   };
 
   // ---------- Load data ----------
+  // 数据来源优先级：
+  //   1. 页面内联的 window.AQC_PRODUCT_DATA（构建时注入，只含当前产品 + 当前语种）
+  //   2. /data/products/{category}.json（站点根绝对路径）
+  //   3. data/products/{category}.json（相对路径，兼容本地 file:// 打开）
+  // ⚠️ 顺序不能颠倒：详情页位于 /{lang}/xxx.html，相对路径会解析成
+  //    /{lang}/data/products/... 而必然 404。旧实现先发相对路径，于是每个
+  //    详情页都要多耗一次 404 往返（跨境约 0.5s）才开始真正加载数据，
+  //    随后再串行下载 64–160KB 的整品类 JSON —— 这是"详情页打开很慢"的主因。
   function loadData() {
+    if (window.AQC_PRODUCT_DATA) { render(window.AQC_PRODUCT_DATA); return; }
     if (!CATEGORY) { showError('Missing category config'); return; }
-    var url = 'data/products/' + CATEGORY + '.json';
-    // try absolute path fallback
+    requestJson('/data/products/' + CATEGORY + '.json', function () {
+      // 绝对路径失败（如以 file:// 打开）时退回相对路径
+      requestJson('data/products/' + CATEGORY + '.json', function () {
+        showError('Failed to load product data');
+      });
+    });
+  }
+
+  // 请求 JSON 并渲染；失败时调用 onFail 尝试下一个地址
+  function requestJson(url, onFail) {
     var xhr = new XMLHttpRequest();
     xhr.open('GET', url, true);
     xhr.onload = function () {
       if (xhr.status >= 200 && xhr.status < 300) {
-        try { render(JSON.parse(xhr.responseText)); }
-        catch (e) { showError('Data parse error: ' + e.message); }
-      } else {
-        // retry with absolute path
-        var xhr2 = new XMLHttpRequest();
-        xhr2.open('GET', '/data/products/' + CATEGORY + '.json', true);
-        xhr2.onload = function () {
-          try { render(JSON.parse(xhr2.responseText)); }
-          catch (e) { showError('Failed to load product data'); }
-        };
-        xhr2.onerror = function () { showError('Failed to load product data'); };
-        xhr2.send();
-      }
+        var data;
+        try { data = JSON.parse(xhr.responseText); }
+        catch (e) { showError('Data parse error: ' + e.message); return; }
+        render(data);
+      } else { onFail(); }
     };
-    xhr.onerror = function () { showError('Failed to load product data'); };
+    xhr.onerror = onFail;
     xhr.send();
   }
 
@@ -248,7 +265,7 @@
     if (images.length > 1 || hasVideo) {
       html += '<div class="d-gallery-thumbs">';
       for (var gi = 0; gi < images.length; gi++) {
-        html += '<div class="d-gallery-thumb' + (gi === 0 ? ' active' : '') + '" data-idx="' + gi + '"><img src="' + esc(localImg(images[gi])) + '" alt="" loading="lazy"></div>';
+        html += '<div class="d-gallery-thumb' + (gi === 0 ? ' active' : '') + '" data-idx="' + gi + '"><img src="' + esc(thumbImg(localImg(images[gi]))) + '" alt="" width="60" height="60"></div>';
       }
       if (hasVideo) {
         html += '<div class="d-gallery-thumb video-thumb" data-video="1">▶</div>';
@@ -257,7 +274,7 @@
     }
     html += '<div class="d-gallery-main" id="aqc-gallery-main">';
     if (images.length) {
-      html += '<img src="' + esc(localImg(images[0])) + '" alt="' + esc(pick(product.name, state.lang)) + '" id="aqc-main-img">';
+      html += '<img src="' + esc(localImg(images[0])) + '" alt="' + esc(pick(product.name, state.lang)) + '" id="aqc-main-img" fetchpriority="high" width="1024" height="1024">';
     } else {
       html += '<div class="d-loading">' + esc(ui.noImage) + '</div>';
     }
@@ -589,6 +606,15 @@
     }
 
     mount.innerHTML = html;
+
+    // 静态预渲染的详情图区（#detail-images，为 SEO / 无 JS 环境准备）与刚才
+    // 渲染进 mount 的内容是同一批长图：浏览器里两份都会显示，页面高度直接翻倍，
+    // 用户要滚过两遍一模一样的图，既拖慢观感又白白多建 15 个 img 节点。
+    // JS 已成功渲染时移除静态副本；渲染失败则保留它作为兜底。
+    var staticDup = document.getElementById('detail-images');
+    if (staticDup && detailImgs.length && staticDup.querySelector('img')) {
+      staticDup.parentNode.removeChild(staticDup);
+    }
 
     // ---------- Wire events ----------
     // 缩略图列的高度对齐主图（Alibaba 也是这么做的）：主图是 1:1 正方形，
