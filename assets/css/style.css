@@ -373,11 +373,27 @@ body.lang-ar { direction: rtl; }
   transition: var(--transition);
   display: flex;
   flex-direction: column;
+  /* 让卡内按钮的 ::after 点击区以整张卡为边界（见下方 stretched link） */
+  position: relative;
+  cursor: pointer;
 }
 .product-card:hover {
   transform: translateY(-6px);
   box-shadow: var(--shadow-lg), 0 0 0 1px var(--primary-light);
 }
+/* 整张产品卡可点击。
+   按钮本身仍是真链接（键盘可达、爬虫可见），这里只是把它的可点区域用
+   ::after 撑满整张卡 —— 不改 DOM，所以品类页里由 JS 动态渲染的卡片
+   同样生效，静态兜底卡片也一样。
+   注意：全覆盖后卡内文字不可框选，这是 stretched link 的固有代价。 */
+.product-card .btn-primary::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+/* 整卡 hover 时按钮也给出反馈，避免鼠标在卡片别处时按钮看起来没反应 */
+.product-card:hover .btn-primary { background: var(--primary-dark); }
 .product-img-wrap {
   aspect-ratio: 1/1;
   overflow: hidden;
