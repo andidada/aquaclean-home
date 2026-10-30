@@ -625,7 +625,12 @@
   "Self-Heating & Charging": "Autocalentamiento y carga",
   "3-in-1 Brewing": "Preparación 3 en 1",
   "Water Tank": "Depósito de agua",
-  "Portability": "Portabilidad"
+  "Portability": "Portabilidad",
+  "Output Levels": "Niveles de salida",
+  "Soap Tank Capacity": "Capacidad del depósito",
+  "Sensing Distance": "Distancia de detección",
+  "Waterproof Rating": "Índice de impermeabilidad",
+  "Battery & Charging": "Batería y carga"
  },
  "guideValues": {
   "Up to 4 cups": "Hasta 4 tazas",
@@ -642,7 +647,12 @@
   "Type-C": "Type-C",
   "Ground & capsules": "Molido y cápsulas",
   "90 ml": "90 ml",
-  "Travel size": "Tamaño viaje"
+  "Travel size": "Tamaño viaje",
+  "0.25–1.0 s": "0,25–1,0 s",
+  "300 ml": "300 ml",
+  "0–7 cm": "0–7 cm",
+  "IPX4": "IPX4",
+  "USB-C": "USB-C"
  },
  "nav": {
   "products": "Productos",
@@ -888,7 +898,12 @@
   "Self-Heating & Charging": "El autocalentamiento prepara directamente con agua fría; la carga Type-C comparte un solo cable con tu teléfono.",
   "3-in-1 Brewing": "Café molido, cápsulas pequeñas y grandes en una sola máquina — sin quedar atado a un consumible.",
   "Water Tank": "90 ml corresponde a un doble espresso auténtico; los depósitos mayores añaden volumen al cuerpo.",
-  "Portability": "El peso, las dimensiones y el espacio para vasos deciden si viaja de verdad con usted."
+  "Portability": "El peso, las dimensiones y el espacio para vasos deciden si viaja de verdad con usted.",
+  "Output Levels": "Cuatro tiempos de dosificación cubren desde un aclarado rápido hasta un lavado completo: la diferencia entre desperdicio y buen rendimiento en un hotel.",
+  "Soap Tank Capacity": "Un depósito de 300 ml dura semanas en un baño familiar y se rellena desde la tapa superior sin herramientas.",
+  "Sensing Distance": "El sensor infrarrojo se activa dentro de 7 cm y se detiene en cuanto las manos se retiran: sin goteos ni bomba en vacío.",
+  "Waterproof Rating": "La construcción IPX4 resistente a salpicaduras soporta grifos, lavabos y la limpieza constante del mostrador.",
+  "Battery & Charging": "La recarga USB-C comparte un solo cable con el móvil: una carga cubre semanas de uso familiar normal."
  },
  "categoryPage": {
   "car-vacuum": {
@@ -998,6 +1013,16 @@
    "oemTitle": "¿Necesita OEM / ODM para cafeteras espresso portátiles?",
    "oemSub": "Logo, color y embalaje personalizados · muestras 7–14 días · producción 25–35 días",
    "countSub": "1 modelo en esta categoría ahora mismo — consulte la tabla a continuación para MOQ, precio FOB indicativo y especificaciones clave.",
+   "heroP": "",
+   "hasRelated": true
+  },
+  "hands-free-soap-dispenser": {
+   "heroTitle": "Dispensador automático de jabón",
+   "whyTitle": "¿Por qué elegir nuestros dispensadores automáticos de jabón?",
+   "guideTitle": "Cómo elegir un dispensador automático de jabón",
+   "oemTitle": "¿Necesita OEM / ODM para dispensadores automáticos de jabón?",
+   "oemSub": "Logotipo, color y embalaje personalizados · muestras 7–14 días · producción 25–35 días",
+   "countSub": "1 modelo en esta categoría actualmente — consulte la tabla siguiente para el MOQ, el precio FOB orientativo y las especificaciones clave.",
    "heroP": "",
    "hasRelated": true
   }

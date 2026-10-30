@@ -134,6 +134,20 @@
       "btn_text": "Plus de produits",
       "btn_href": "/en/portable-espresso-machine/",
       "btn_slug": "coffee-machine"
+    },
+    {
+      "id": "p10",
+      "name": "Distributeur automatique de savon",
+      "slug": "",
+      "desc": "Distributeur automatique de mousse de savon sans contact à quatre niveaux de distribution (0,25–1,0 s). Capteur infrarouge, batterie rechargeable USB-C et réservoir visible de 300 ml.",
+      "img": "../assets/images/products/21-hands-free-soap-dispenser.webp?v=20261030a",
+      "btn_text": "Plus de produits",
+      "btn_href": "/fr/hands-free-soap-dispenser/",
+      "tags": [
+        "4 niveaux",
+        "0,25–1,0 s",
+        "USB-C"
+      ]
     }
   ],
   "contact": {

@@ -625,7 +625,12 @@
   "Self-Heating & Charging": "Làm nóng & sạc",
   "3-in-1 Brewing": "Pha 3 trong 1",
   "Water Tank": "Bình chứa nước",
-  "Portability": "Tính di động"
+  "Portability": "Tính di động",
+  "Output Levels": "Mức nhả",
+  "Soap Tank Capacity": "Dung tích bình xà phòng",
+  "Sensing Distance": "Khoảng cách cảm biến",
+  "Waterproof Rating": "Mức chống nước",
+  "Battery & Charging": "Pin và sạc"
  },
  "guideValues": {
   "Up to 4 cups": "Tối đa 4 tách",
@@ -642,7 +647,12 @@
   "Type-C": "Type-C",
   "Ground & capsules": "Xay & capsule",
   "90 ml": "90 ml",
-  "Travel size": "Cỡ bỏ đi"
+  "Travel size": "Cỡ bỏ đi",
+  "0.25–1.0 s": "0,25–1,0 giây",
+  "300 ml": "300 ml",
+  "0–7 cm": "0–7 cm",
+  "IPX4": "IPX4",
+  "USB-C": "USB-C"
  },
  "nav": {
   "products": "Sản phẩm",
@@ -888,7 +898,12 @@
   "Self-Heating & Charging": "Tự làm nóng pha trực tiếp bằng nước lạnh; sạc Type-C dùng chung một cáp với điện thoại.",
   "3-in-1 Brewing": "Cà phê xay, capsule nhỏ và lớn trong một máy — không bị trói vào loại phụ kiện nào.",
   "Water Tank": "90 ml đúng bằng một shot espresso đôi; bình lớn hơn chỉ làm máy cồng kềnh.",
-  "Portability": "Trọng lượng, kích thước và khoảng cạnh cốc quyết định nó có thực sự tiện mang theo không."
+  "Portability": "Trọng lượng, kích thước và khoảng cạnh cốc quyết định nó có thực sự tiện mang theo không.",
+  "Output Levels": "Bốn thời gian nhả bao phủ từ xả nhanh đến rửa kỹ — khác biệt giữa lãng phí và hiệu quả tại khách sạn.",
+  "Soap Tank Capacity": "Bình 300 ml dùng nhiều tuần trong phòng tắm gia đình và châm lại từ nắp trên không cần dụng cụ.",
+  "Sensing Distance": "Cảm biến hồng ngoại kích hoạt trong 7 cm và dừng ngay khi rút tay — không nhỏ giọt, bơm không chạy khan.",
+  "Waterproof Rating": "Kết cấu chống tạt IPX4 chịu được vòi nước, chậu rửa và việc lau chùi liên tục trên mặt bàn.",
+  "Battery & Charging": "Sạc USB-C dùng chung cáp với điện thoại — một lần sạc dùng được nhiều tuần cho gia đình."
  },
  "categoryPage": {
   "car-vacuum": {
@@ -998,6 +1013,16 @@
    "oemTitle": "Cần OEM / ODM cho máy pha espresso cầm tay?",
    "oemSub": "Logo, màu sắc và bao bì riêng · mẫu 7–14 ngày · sản xuất 25–35 ngày",
    "countSub": "1 model trong danh mục này hiện nay — xem bảng dưới đây để biết MOQ, giá FOB tham khảo và thông số chính.",
+   "heroP": "",
+   "hasRelated": true
+  },
+  "hands-free-soap-dispenser": {
+   "heroTitle": "Bình đựng xà phòng tự động",
+   "whyTitle": "Vì sao chọn bình đựng xà phòng tự động của chúng tôi?",
+   "guideTitle": "Cách chọn bình đựng xà phòng tự động",
+   "oemTitle": "Cần OEM / ODM cho bình đựng xà phòng tự động?",
+   "oemSub": "Tùy chỉnh logo, màu sắc và bao bì · mẫu 7–14 ngày · sản xuất 25–35 ngày",
+   "countSub": "Hiện có 1 mẫu trong danh mục này — xem MOQ, giá FOB tham khảo và thông số chính ở bảng dưới.",
    "heroP": "",
    "hasRelated": true
   }

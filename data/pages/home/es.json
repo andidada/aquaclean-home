@@ -134,6 +134,20 @@
       "btn_text": "Más productos",
       "btn_href": "/en/portable-espresso-machine/",
       "btn_slug": "coffee-machine"
+    },
+    {
+      "id": "p10",
+      "name": "Dispensador automático de jabón",
+      "slug": "",
+      "desc": "Dispensador automático de espuma de jabón sin contacto con cuatro niveles de salida (0,25–1,0 s). Sensor infrarrojo, batería recargable USB-C y depósito visible de 300 ml.",
+      "img": "../assets/images/products/21-hands-free-soap-dispenser.webp?v=20261030a",
+      "btn_text": "Más productos",
+      "btn_href": "/es/hands-free-soap-dispenser/",
+      "tags": [
+        "4 niveles",
+        "0,25–1,0 s",
+        "USB-C"
+      ]
     }
   ],
   "contact": {

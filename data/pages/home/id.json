@@ -134,6 +134,20 @@
       "btn_text": "Lebih banyak produk",
       "btn_href": "/en/portable-espresso-machine/",
       "btn_slug": "coffee-machine"
+    },
+    {
+      "id": "p10",
+      "name": "Dispenser sabun otomatis",
+      "slug": "",
+      "desc": "Dispenser sabun busa otomatis tanpa sentuh dengan empat tingkat keluaran (0,25–1,0 dtk). Sensor inframerah, baterai isi ulang USB-C, dan tangki 300 ml yang terlihat.",
+      "img": "../assets/images/products/21-hands-free-soap-dispenser.webp?v=20261030a",
+      "btn_text": "Lebih banyak produk",
+      "btn_href": "/id/hands-free-soap-dispenser/",
+      "tags": [
+        "4 tingkat",
+        "0,25–1,0 dtk",
+        "USB-C"
+      ]
     }
   ],
   "contact": {

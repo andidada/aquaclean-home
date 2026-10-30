@@ -134,6 +134,20 @@
       "btn_text": "สินค้าเพิ่มเติม",
       "btn_href": "/en/portable-espresso-machine/",
       "btn_slug": "coffee-machine"
+    },
+    {
+      "id": "p10",
+      "name": "เครื่องจ่ายสบู่อัตโนมัติ",
+      "slug": "",
+      "desc": "เครื่องจ่ายสบู่โฟมอัตโนมัติแบบไม่ต้องสัมผัส มีระดับจ่าย 4 ระดับ (0.25–1.0 วินาที) เซ็นเซอร์อินฟราเรด แบตเตอรี่ชาร์จ USB-C และถังใส 300 มล.",
+      "img": "../assets/images/products/21-hands-free-soap-dispenser.webp?v=20261030a",
+      "btn_text": "สินค้าเพิ่มเติม",
+      "btn_href": "/th/hands-free-soap-dispenser/",
+      "tags": [
+        "4 ระดับ",
+        "0.25–1.0 วินาที",
+        "USB-C"
+      ]
     }
   ],
   "contact": {

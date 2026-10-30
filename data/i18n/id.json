@@ -625,7 +625,12 @@
   "Self-Heating & Charging": "Pemanas & pengisian",
   "3-in-1 Brewing": "Seduh 3 in 1",
   "Water Tank": "Tangki air",
-  "Portability": "Portabilitas"
+  "Portability": "Portabilitas",
+  "Output Levels": "Tingkat keluaran",
+  "Soap Tank Capacity": "Kapasitas tangki sabun",
+  "Sensing Distance": "Jarak sensor",
+  "Waterproof Rating": "Tingkat kedap air",
+  "Battery & Charging": "Baterai & pengisian"
  },
  "guideValues": {
   "Up to 4 cups": "Hingga 4 cangkir",
@@ -642,7 +647,12 @@
   "Type-C": "Type-C",
   "Ground & capsules": "Bubuk & kapsul",
   "90 ml": "90 ml",
-  "Travel size": "Ukuran perjalanan"
+  "Travel size": "Ukuran perjalanan",
+  "0.25–1.0 s": "0,25–1,0 dtk",
+  "300 ml": "300 ml",
+  "0–7 cm": "0–7 cm",
+  "IPX4": "IPX4",
+  "USB-C": "USB-C"
  },
  "nav": {
   "products": "Produk",
@@ -888,7 +898,12 @@
   "Self-Heating & Charging": "Pemanas otomatis menyeduh langsung dari air dingin; pengisian Type-C berbagi satu kabel dengan ponsel Anda.",
   "3-in-1 Brewing": "Kopi bubuk, kapsul kecil, dan kapsul besar dalam satu mesin — tanpa ketergantungan konsumbel.",
   "Water Tank": "90 ml sesuai untuk satu shot espresso ganda sesungguhnya; tangki lebih besar menambah ukuran bodi.",
-  "Portability": "Berat, dimensi, dan ruang cangkir menentukan apakah benar-benar pas bepergian dengan Anda."
+  "Portability": "Berat, dimensi, dan ruang cangkir menentukan apakah benar-benar pas bepergian dengan Anda.",
+  "Output Levels": "Empat durasi keluaran mencakup semuanya dari bilas cepat hingga cuci penuh — beda antara pemborosan dan nilai baik di lantai hotel.",
+  "Soap Tank Capacity": "Tangki 300 ml bertahan berminggu-minggu di kamar mandi keluarga dan diisi ulang dari atas tanpa alat.",
+  "Sensing Distance": "Sensor inframerah aktif dalam 7 cm dan berhenti segera saat tangan menjauh — tidak menetes, pompa tidak berjalan kosong.",
+  "Waterproof Rating": "Konstruksi tahan cipratan IPX4 tahan terhadap keran, wastafel, dan seringnya mengelap meja wastafel.",
+  "Battery & Charging": "Pengisian USB-C berbagi satu kabel dengan ponsel Anda — satu kali cas cukup untuk berminggu-minggu pemakaian keluarga."
  },
  "categoryPage": {
   "car-vacuum": {
@@ -998,6 +1013,16 @@
    "oemTitle": "Butuh OEM / ODM untuk Mesin Espresso Portabel?",
    "oemSub": "Logo, warna, dan kemasan kustom · sampel 7–14 hari · produksi 25–35 hari",
    "countSub": "1 model dalam kategori ini saat ini — lihat tabel di bawah untuk MOQ, harga FOB indikatif, dan spesifikasi utama.",
+   "heroP": "",
+   "hasRelated": true
+  },
+  "hands-free-soap-dispenser": {
+   "heroTitle": "Dispenser sabun otomatis",
+   "whyTitle": "Mengapa memilih dispenser sabun otomatis kami?",
+   "guideTitle": "Cara memilih dispenser sabun otomatis",
+   "oemTitle": "Butuh OEM / ODM untuk dispenser sabun otomatis?",
+   "oemSub": "Logo, warna, dan kemasan khusus · sampel 7–14 hari · produksi 25–35 hari",
+   "countSub": "Saat ini ada 1 model dalam kategori ini — lihat tabel di bawah untuk MOQ, harga FOB indikatif, dan spesifikasi utama.",
    "heroP": "",
    "hasRelated": true
   }

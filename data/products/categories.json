@@ -297,6 +297,33 @@
     "ar": "آلات إسبريسو قابلة لإعادة الشحن مع تسخين ذاتي، لتحضير القهوة المطحونة والكبسولات في أي مكان. مضخة 20 بار بجسم بحجم السفر."
    },
    "banner_image": "https://www.hkdmj.net/assets/images/products/12-portable-espresso.webp?v=20261029p"
+  },
+  {
+   "slug": "hands-free-soap-dispenser",
+   "name": {
+    "en": "Hands-free Soap Dispenser",
+    "zh": "免接触泡沫洗手机",
+    "ar": "موزع صابون أوتوماتيكي",
+    "es": "Dispensador automático de jabón",
+    "fr": "Distributeur automatique de savon",
+    "id": "Dispenser sabun otomatis",
+    "ru": "Автоматический дозатор мыла",
+    "th": "เครื่องจ่ายสบู่อัตโนมัติ",
+    "vi": "Bình đựng xà phòng tự động"
+   },
+   "description": {
+    "en": "Touch-free automatic foam soap dispensers with four output levels (0.25–1.0 s). Infra-red sensor, USB-C rechargeable battery, 300 ml visible tank and an IPX4 splash-proof body — for bathrooms, kitchens, hotels, clinics and offices.",
+    "zh": "免接触自动泡沫洗手机，四档出液（0.25–1.0 秒）。红外感应、USB-C 充电电池、300 ml 可视水箱与 IPX4 防溅机身，适用于卫浴、厨房、酒店、诊所与办公室。",
+    "ar": "موزعات صابون رغوية أوتوماتيكية بدون لمس بأربعة مستويات ضخ (٠٫٢٥–١٫٠ ثانية). مستشعر أشعة تحت الحمراء وبطارية قابلة للشحن عبر USB-C وخزان مرئي ٣٠٠ مل وجسم مقاوم لرذاذ الماء IPX4 — للحمامات والمطابخ والفنادق والعيادات والمكاتب.",
+    "es": "Dispensadores automáticos de espuma de jabón sin contacto con cuatro niveles de salida (0,25–1,0 s). Sensor infrarrojo, batería recargable USB-C, depósito visible de 300 ml y cuerpo resistente a salpicaduras IPX4 — para baños, cocinas, hoteles, clínicas y oficinas.",
+    "fr": "Distributeurs automatiques de mousse de savon sans contact avec quatre niveaux de distribution (0,25–1,0 s). Capteur infrarouge, batterie rechargeable USB-C, réservoir visible de 300 ml et corps anti-éclaboussures IPX4 — pour salles de bain, cuisines, hôtels, cliniques et bureaux.",
+    "id": "Dispenser sabun busa otomatis tanpa sentuh dengan empat tingkat keluaran (0,25–1,0 dtk). Sensor inframerah, baterai isi ulang USB-C, tangki terlihat 300 ml, dan bodi tahan cipratan IPX4 — untuk kamar mandi, dapur, hotel, klinik, dan kantor.",
+    "ru": "Бесконтактные автоматические пенные дозаторы мыла с четырьмя уровнями подачи (0,25–1,0 с). Инфракрасный датчик, аккумулятор с зарядкой USB-C, видимый бак на 300 мл и влагозащищённый корпус IPX4 — для ванных, кухонь, отелей, клиник и офисов.",
+    "th": "เครื่องจ่ายสบู่โฟมอัตโนมัติแบบไม่ต้องสัมผัส มีระดับจ่าย 4 ระดับ (0.25–1.0 วินาที) เซ็นเซอร์อินฟราเรด แบตเตอรี่ชาร์จได้ USB-C ถังมองเห็นได้ 300 มล. และตัวเครื่องกันน้ำกระเซ็น IPX4 — สำหรับห้องน้ำ ห้องครัว โรงแรม คลินิก และออฟฟิศ",
+    "vi": "Bình đựng xà phòng bọt tự động không cần chạm với bốn mức nhả (0,25–1,0 giây). Cảm biến hồng ngoại, pin sạc USB-C, bình chứa 300 ml có cửa sổ quan sát và thân chống tạt nước IPX4 — cho phòng tắm, bếp, khách sạn, phòng khám và văn phòng."
+   },
+   "banner_image": "https://www.hkdmj.net/assets/images/products/21-hands-free-soap-dispenser.webp?v=20261030a",
+   "order": 12
   }
- ]
+]
 }

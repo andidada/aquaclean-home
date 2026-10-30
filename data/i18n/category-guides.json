@@ -290,5 +290,32 @@
    "values": "Travel size",
    "explain": "Weight, dimensions and cup clearance decide whether it truly travels with you."
   }
+ ],
+ "hands-free-soap-dispenser": [
+  {
+   "title": "Output Levels",
+   "values": "0.25–1.0 s",
+   "explain": "Four dispensing times cover everything from a quick rinse to a full wash — the difference between waste and good value on a hotel floor."
+  },
+  {
+   "title": "Soap Tank Capacity",
+   "values": "300 ml",
+   "explain": "A 300 ml tank runs for weeks in a family bathroom and refills tool-free through the top panel."
+  },
+  {
+   "title": "Sensing Distance",
+   "values": "0–7 cm",
+   "explain": "Infra-red sensing triggers inside 7 cm and stops the instant hands leave — no drips, no pumps running dry."
+  },
+  {
+   "title": "Waterproof Rating",
+   "values": "IPX4",
+   "explain": "IPX4 splash-proof construction survives the taps, sinks and constant wiping a washroom countertop gets."
+  },
+  {
+   "title": "Battery & Charging",
+   "values": "USB-C",
+   "explain": "USB-C recharging shares one cable with your phone — one charge covers weeks of normal family use."
+  }
  ]
 }
