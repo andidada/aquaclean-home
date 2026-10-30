@@ -1,664 +1,1381 @@
 {
-  "category": "hands-free-soap-dispenser",
-  "products": [
+ "category": "hands-free-soap-dispenser",
+ "products": [
+  {
+   "id": "sd901",
+   "name": {
+    "en": "SD-901 Automatic Foam Soap Dispenser · 4-Level Smart Output",
+    "zh": "SD-901 自动泡沫洗手机 · 四档智能出液",
+    "ar": "موزع صابون رغوي أوتوماتيكي SD-901 · 4 مستويات ذكية",
+    "es": "Dispensador automático de espuma de jabón SD-901 · 4 niveles inteligentes",
+    "fr": "Distributeur automatique de mousse de savon SD-901 · 4 niveaux intelligents",
+    "id": "Dispenser sabun busa otomatis SD-901 · keluaran pintar 4 tingkat",
+    "ru": "Автоматический пенный дозатор мыла SD-901 · 4 умных режима",
+    "th": "เครื่องจ่ายสบู่โฟมอัตโนมัติ SD-901 · จ่าย 4 ระดับอัจฉริยะ",
+    "vi": "Bình đựng xà phòng bọt tự động SD-901 · 4 mức nhả thông minh"
+   },
+   "tagline": {
+    "en": "4 Output Levels · 0.25–1.0s · Touch Switch · USB-C Rechargeable",
+    "zh": "四档出液 · 0.25–1.0 秒 · 触摸开关 · USB-C 充电",
+    "ar": "4 مستويات ضخ · ٠٫٢٥–١٫٠ ثانية · مفتاح لمس · شحن USB-C",
+    "es": "4 niveles de salida · 0,25–1,0 s · interruptor táctil · recargable USB-C",
+    "fr": "4 niveaux de distribution · 0,25–1,0 s · commande tactile · rechargeable USB-C",
+    "id": "4 tingkat keluaran · 0,25–1,0 dtk · tombol sentuh · isi ulang USB-C",
+    "ru": "4 режима подачи · 0,25–1,0 с · сенсорная кнопка · зарядка USB-C",
+    "th": "จ่าย 4 ระดับ · 0.25–1.0 วินาที · สวิตช์สัมผัส · ชาร์จ USB-C ได้",
+    "vi": "4 mức nhả · 0,25–1,0 giây · nút cảm ứng · sạc USB-C"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/hands-free-soap-dispenser-sd901/01.webp?v=20261030c",
+    "https://www.hkdmj.net/assets/images/products/hands-free-soap-dispenser-sd901/02.webp?v=20261030c",
+    "https://www.hkdmj.net/assets/images/products/hands-free-soap-dispenser-sd901/03.webp?v=20261030c"
+   ],
+   "video_url": "",
+   "moq": {
+    "value": 100,
+    "unit": "pieces"
+   },
+   "certifications": [],
+   "cert_note": {
+    "en": "Certification documents on file — available on request.",
+    "zh": "认证资料已备案，可按需提供。"
+   },
+   "highlights": [
     {
-      "id": "sd901",
-      "name": {
-        "en": "SD-901 Automatic Foam Soap Dispenser · 4-Level Smart Output",
-        "zh": "SD-901 自动泡沫洗手机 · 四档智能出液",
-        "ar": "موزع صابون رغوي أوتوماتيكي SD-901 · 4 مستويات ذكية",
-        "es": "Dispensador automático de espuma de jabón SD-901 · 4 niveles inteligentes",
-        "fr": "Distributeur automatique de mousse de savon SD-901 · 4 niveaux intelligents",
-        "id": "Dispenser sabun busa otomatis SD-901 · keluaran pintar 4 tingkat",
-        "ru": "Автоматический пенный дозатор мыла SD-901 · 4 умных режима",
-        "th": "เครื่องจ่ายสบู่โฟมอัตโนมัติ SD-901 · จ่าย 4 ระดับอัจฉริยะ",
-        "vi": "Bình đựng xà phòng bọt tự động SD-901 · 4 mức nhả thông minh"
-      },
-      "tagline": {
-        "en": "4 Output Levels · 0.25–1.0s · Touch Switch · USB-C Rechargeable",
-        "zh": "四档出液 · 0.25–1.0 秒 · 触摸开关 · USB-C 充电",
-        "ar": "4 مستويات ضخ · ٠٫٢٥–١٫٠ ثانية · مفتاح لمس · شحن USB-C",
-        "es": "4 niveles de salida · 0,25–1,0 s · interruptor táctil · recargable USB-C",
-        "fr": "4 niveaux de distribution · 0,25–1,0 s · commande tactile · rechargeable USB-C",
-        "id": "4 tingkat keluaran · 0,25–1,0 dtk · tombol sentuh · isi ulang USB-C",
-        "ru": "4 режима подачи · 0,25–1,0 с · сенсорная кнопка · зарядка USB-C",
-        "th": "จ่าย 4 ระดับ · 0.25–1.0 วินาที · สวิตช์สัมผัส · ชาร์จ USB-C ได้",
-        "vi": "4 mức nhả · 0,25–1,0 giây · nút cảm ứng · sạc USB-C"
-      },
-      "images": [
-        "https://www.hkdmj.net/assets/images/products/hands-free-soap-dispenser-sd901/01.webp?v=20261030c",
-        "https://www.hkdmj.net/assets/images/products/hands-free-soap-dispenser-sd901/02.webp?v=20261030c",
-        "https://www.hkdmj.net/assets/images/products/hands-free-soap-dispenser-sd901/03.webp?v=20261030c"
-      ],
-      "video_url": "",
-      "moq": {
-        "value": 100,
-        "unit": "pieces"
-      },
-      "certifications": [],
-      "cert_note": {
-        "en": "Certification documents on file — available on request.",
-        "zh": "认证资料已备案，可按需提供。"
-      },
-      "highlights": [
-        {
-          "icon": "power",
-          "text": {
-            "en": "Four output levels — 0.25 / 0.5 / 0.75 / 1.0 s — cover every handwashing habit in the family",
-            "zh": "四档出液 0.25 / 0.5 / 0.75 / 1.0 秒，满足全家不同的洗手习惯",
-            "ar": "أربعة مستويات ضخ — ٠٫٢٥ / ٠٫٥ / ٠٫٧٥ / ١٫٠ ثانية — تغطي كل عادات غسل اليدين في الأسرة",
-            "es": "Cuatro niveles de salida — 0,25 / 0,5 / 0,75 / 1,0 s — cubren todos los hábitos de lavado de la familia",
-            "fr": "Quatre niveaux de distribution — 0,25 / 0,5 / 0,75 / 1,0 s — couvrent toutes les habitudes de la famille",
-            "id": "Empat tingkat keluaran — 0,25 / 0,5 / 0,75 / 1,0 dtk — mencakup semua kebiasaan cuci tangan keluarga",
-            "ru": "Четыре уровня подачи — 0,25 / 0,5 / 0,75 / 1,0 с — покрывают любые привычки мытья рук в семье",
-            "th": "ระดับจ่าย 4 ระดับ — 0.25 / 0.5 / 0.75 / 1.0 วินาที — ครอบคลุมทุกพฤติกรรมการล้างมือในครอบครัว",
-            "vi": "Bốn mức nhả — 0,25 / 0,5 / 0,75 / 1,0 giây — đáp ứng mọi thói quen rửa tay của gia đình"
-          }
-        },
-        {
-          "icon": "battery",
-          "text": {
-            "en": "Touch switch on the slanted top panel with three LED indicators showing the selected level",
-            "zh": "斜面顶部面板触摸开关，三颗 LED 指示灯显示当前档位",
-            "ar": "مفتاح لمس على اللوحة العلوية المائلة مع ثلاثة مؤشرات LED توضح المستوى المحدد",
-            "es": "Interruptor táctil en el panel superior inclinado con tres indicadores LED del nivel seleccionado",
-            "fr": "Commande tactile sur le panneau supérieur incliné avec trois témoins LED du niveau sélectionné",
-            "id": "Tombol sentuh di panel atas miring dengan tiga indikator LED untuk tingkat yang dipilih",
-            "ru": "Сенсорная кнопка на наклонной верхней панели и три светодиода, показывающие выбранный уровень",
-            "th": "สวิตช์สัมผัสบนแผงบนเอียง พร้อมไฟ LED 3 ดวงแสดงระดับที่เลือก",
-            "vi": "Nút cảm ứng trên mặt nghiêng phía trên cùng ba đèn LED hiển thị mức đang chọn"
-          }
-        },
-        {
-          "icon": "filter",
-          "text": {
-            "en": "Short drip-free nozzle above the sensor keeps both the spout and the countertop clean",
-            "zh": "感应区上方的短喷嘴防滴漏，出液口与台面都保持洁净",
-            "ar": "فوهة قصيرة لا تقطر أعلى المستشعر تحافظ على نظافة الفوهة وسطح العمل",
-            "es": "Boquilla corta antigoteo sobre el sensor: limpia la salida y el mostrador",
-            "fr": "Bec court anti-goutte au-dessus du capteur : la sortie et le plan de travail restent propres",
-            "id": "Nozel pendek bebas tetes di atas sensor menjaga mulut dan meja tetap bersih",
-            "ru": "Короткий носик без подтекания над датчиком сохраняет чистоту и носика, и столешницы",
-            "th": "หัวจ่ายสั้นกันหยดอยู่เหนือเซ็นเซอร์ ช่วยให้ทั้งหัวจ่ายและเคาน์เตอร์สะอาด",
-            "vi": "Đầu nhả ngắn không nhỏ giọt phía trên cảm biến giữ cả miệng bình và mặt bàn sạch"
-          }
-        },
-        {
-          "icon": "check",
-          "text": {
-            "en": "300 ml tank read through a clear window, with USB-C recharging and quiet operation below 60 dB",
-            "zh": "300 ml 水箱配透明视窗，USB-C 充电，运行噪音低于 60 分贝",
-            "ar": "خزان ٣٠٠ مل مع نافذة شفافة للمراقبة وشحن USB-C وتشغيل هادئ أقل من ٦٠ ديسيبل",
-            "es": "Depósito de 300 ml con ventana transparente, recarga USB-C y funcionamiento silencioso por debajo de 60 dB",
-            "fr": "Réservoir de 300 ml avec fenêtre transparente, recharge USB-C et fonctionnement silencieux sous 60 dB",
-            "id": "Tangki 300 ml dengan jendela bening, isi ulang USB-C, dan operasi senyap di bawah 60 dB",
-            "ru": "Бак 300 мл с прозрачным окном, зарядка USB-C и тихая работа ниже 60 дБ",
-            "th": "ถัง 300 มล. มีหน้าต่างใบสมองเห็นระดับ ชาร์จ USB-C และทำงานเงียบต่ำกว่า 60 เดซิเบล",
-            "vi": "Bình 300 ml có cửa sổ trong để xem mức, sạc USB-C và vận hành êm dưới 60 dB"
-          }
-        }
-      ],
-      "specs": [
-        {
-          "label": {
-            "en": "Model",
-            "zh": "型号",
-            "ar": "Modelo",
-            "es": "Modèle",
-            "fr": "Model",
-            "id": "Модель",
-            "ru": "รุ่น",
-            "th": "Model",
-            "vi": "الموديل"
-          },
-          "value": {
-            "en": "SD-901",
-            "zh": "SD-901",
-            "ar": "SD-901",
-            "es": "SD-901",
-            "fr": "SD-901",
-            "id": "SD-901",
-            "ru": "SD-901",
-            "th": "SD-901",
-            "vi": "SD-901"
-          }
-        },
-        {
-          "label": {
-            "en": "Output Levels",
-            "zh": "出液档位",
-            "ar": "Niveles de salida",
-            "es": "Niveaux de distribution",
-            "fr": "Tingkat keluaran",
-            "id": "Режимы подачи",
-            "ru": "ระดับการจ่าย",
-            "th": "Mức nhả",
-            "vi": "مستويات الضخ"
-          },
-          "value": {
-            "en": "4 levels (0.25 / 0.5 / 0.75 / 1.0 s)",
-            "zh": "4 档（0.25 / 0.5 / 0.75 / 1.0 秒）",
-            "ar": "4 مستويات (٠٫٢٥ / ٠٫٥ / ٠٫٧٥ / ١٫٠ ثانية)",
-            "es": "4 niveles (0,25 / 0,5 / 0,75 / 1,0 s)",
-            "fr": "4 niveaux (0,25 / 0,5 / 0,75 / 1,0 s)",
-            "id": "4 tingkat (0,25 / 0,5 / 0,75 / 1,0 dtk)",
-            "ru": "4 режима (0,25 / 0,5 / 0,75 / 1,0 с)",
-            "th": "4 ระดับ (0.25 / 0.5 / 0.75 / 1.0 วินาที)",
-            "vi": "4 mức (0,25 / 0,5 / 0,75 / 1,0 giây)"
-          }
-        },
-        {
-          "label": {
-            "en": "Soap Tank Capacity",
-            "zh": "皂液容量",
-            "ar": "Capacidad del depósito",
-            "es": "Capacité du réservoir",
-            "fr": "Kapasitas tangki sabun",
-            "id": "Объём бака для мыла",
-            "ru": "ความจุถังสบู่",
-            "th": "Dung tích bình xà phòng",
-            "vi": "سعة خزان الصابون"
-          },
-          "value": {
-            "en": "300 ml",
-            "zh": "300 ml",
-            "ar": "٣٠٠ مل",
-            "es": "300 ml",
-            "fr": "300 ml",
-            "id": "300 ml",
-            "ru": "300 мл",
-            "th": "300 มล.",
-            "vi": "300 ml"
-          }
-        },
-        {
-          "label": {
-            "en": "Material",
-            "zh": "材质",
-            "ar": "Material",
-            "es": "Matériau",
-            "fr": "Material",
-            "id": "Материал",
-            "ru": "วัสดุ",
-            "th": "Chất liệu",
-            "vi": "المادة"
-          },
-          "value": {
-            "en": "ABS + PP",
-            "zh": "ABS + PP",
-            "ar": "ABS + PP",
-            "es": "ABS + PP",
-            "fr": "ABS + PP",
-            "id": "ABS + PP",
-            "ru": "ABS + PP",
-            "th": "ABS + PP",
-            "vi": "ABS + PP"
-          }
-        },
-        {
-          "label": {
-            "en": "Power Source",
-            "zh": "电源方式",
-            "ar": "Fuente de alimentación",
-            "es": "Source d'alimentation",
-            "fr": "Sumber daya",
-            "id": "Источник питания",
-            "ru": "แหล่งจ่ายไฟ",
-            "th": "Nguồn điện",
-            "vi": "مصدر الطاقة"
-          },
-          "value": {
-            "en": "Battery, USB",
-            "zh": "电池 + USB",
-            "ar": "بطارية، USB",
-            "es": "Batería, USB",
-            "fr": "Batterie, USB",
-            "id": "Baterai, USB",
-            "ru": "Аккумулятор, USB",
-            "th": "แบตเตอรี่, USB",
-            "vi": "Pin, USB"
-          }
-        },
-        {
-          "label": {
-            "en": "Sensing Distance",
-            "zh": "感应距离",
-            "ar": "Distancia de detección",
-            "es": "Distance de détection",
-            "fr": "Jarak sensor",
-            "id": "Дальность срабатывания",
-            "ru": "ระยะตรวจจับ",
-            "th": "Khoảng cách cảm biến",
-            "vi": "مسافة الاستشعار"
-          },
-          "value": {
-            "en": "0–7 cm",
-            "zh": "0–7 厘米",
-            "ar": "٠–٧ سم",
-            "es": "0–7 cm",
-            "fr": "0–7 cm",
-            "id": "0–7 cm",
-            "ru": "0–7 см",
-            "th": "0–7 ซม.",
-            "vi": "0–7 cm"
-          }
-        },
-        {
-          "label": {
-            "en": "Waterproof Rating",
-            "zh": "防水等级",
-            "ar": "Índice de impermeabilidad",
-            "es": "Indice d'étanchéité",
-            "fr": "Tingkat kedap air",
-            "id": "Степень влагозащиты",
-            "ru": "ระดับกันน้ำ",
-            "th": "Mức chống nước",
-            "vi": "تصنيف مقاومة الماء"
-          },
-          "value": {
-            "en": "IPX4",
-            "zh": "IPX4",
-            "ar": "IPX4",
-            "es": "IPX4",
-            "fr": "IPX4",
-            "id": "IPX4",
-            "ru": "IPX4",
-            "th": "IPX4",
-            "vi": "IPX4"
-          }
-        },
-        {
-          "label": {
-            "en": "Noise Level",
-            "zh": "噪音水平",
-            "ar": "Nivel de ruido",
-            "es": "Niveau sonore",
-            "fr": "Tingkat kebisingan",
-            "id": "Уровень шума",
-            "ru": "ระดับเสียง",
-            "th": "Độ ồn",
-            "vi": "مستوى الضجيج"
-          },
-          "value": {
-            "en": "< 60 dB",
-            "zh": "< 60 分贝",
-            "ar": "< 60 ديسيبل",
-            "es": "< 60 dB",
-            "fr": "< 60 dB",
-            "id": "< 60 dB",
-            "ru": "< 60 дБ",
-            "th": "< 60 เดซิเบล",
-            "vi": "< 60 dB"
-          }
-        },
-        {
-          "label": {
-            "en": "Packaging Type",
-            "zh": "包装类型",
-            "ar": "Tipo de embalaje",
-            "es": "Type d'emballage",
-            "fr": "Jenis kemasan",
-            "id": "Тип упаковки",
-            "ru": "ประเภทบรรจุภัณฑ์",
-            "th": "Loại bao bì",
-            "vi": "نوع التغليف"
-          },
-          "value": {
-            "en": "Corrugated Box, Color Box",
-            "zh": "瓦楞纸箱、彩盒",
-            "ar": "علبة كرتون، علبة ملونة",
-            "es": "Caja de cartón, caja de color",
-            "fr": "Carton ondulé, boîte couleur",
-            "id": "Karton bergelombang, kotak warna",
-            "ru": "Гофрокоробка, цветная коробка",
-            "th": "กล่องลูกฟูก กล่องสี",
-            "vi": "Thùng carton, hộp màu"
-          }
-        },
-        {
-          "label": {
-            "en": "Private Mould",
-            "zh": "私模",
-            "ar": "Molde privado",
-            "es": "Moule privé",
-            "fr": "Cetakan pribadi",
-            "id": "Собственная пресс-форма",
-            "ru": "แม่พิมพ์ส่วนตัว",
-            "th": "Khuôn riêng",
-            "vi": "قالب خاص"
-          },
-          "value": {
-            "en": "Yes",
-            "zh": "是",
-            "ar": "نعم",
-            "es": "Sí",
-            "fr": "Oui",
-            "id": "Ya",
-            "ru": "Да",
-            "th": "มี",
-            "vi": "Có"
-          }
-        },
-        {
-          "label": {
-            "en": "Place of Origin",
-            "zh": "产地",
-            "ar": "País de origen",
-            "es": "Pays d'origine",
-            "fr": "Negara asal",
-            "id": "Страна производства",
-            "ru": "แหล่งผลิต",
-            "th": "Xuất xứ",
-            "vi": "بلد المنشأ"
-          },
-          "value": {
-            "en": "Guangdong, China",
-            "zh": "中国广东",
-            "ar": "قوانغدونغ، الصين",
-            "es": "Guangdong, China",
-            "fr": "Guangdong, Chine",
-            "id": "Guangdong, Tiongkok",
-            "ru": "Гуандун, Китай",
-            "th": "กว่างตง จีน",
-            "vi": "Quảng Đông, Trung Quốc"
-          }
-        }
-      ],
-      "quick_specs": [
-        {
-          "label": {
-            "en": "Output Levels",
-            "zh": "出液档位",
-            "ar": "Niveles de salida",
-            "es": "Niveaux de distribution",
-            "fr": "Tingkat keluaran",
-            "id": "Режимы подачи",
-            "ru": "ระดับการจ่าย",
-            "th": "Mức nhả",
-            "vi": "مستويات الضخ"
-          },
-          "value": {
-            "en": "4 levels (0.25 / 0.5 / 0.75 / 1.0 s)",
-            "zh": "4 档（0.25 / 0.5 / 0.75 / 1.0 秒）",
-            "ar": "4 مستويات (٠٫٢٥ / ٠٫٥ / ٠٫٧٥ / ١٫٠ ثانية)",
-            "es": "4 niveles (0,25 / 0,5 / 0,75 / 1,0 s)",
-            "fr": "4 niveaux (0,25 / 0,5 / 0,75 / 1,0 s)",
-            "id": "4 tingkat (0,25 / 0,5 / 0,75 / 1,0 dtk)",
-            "ru": "4 режима (0,25 / 0,5 / 0,75 / 1,0 с)",
-            "th": "4 ระดับ (0.25 / 0.5 / 0.75 / 1.0 วินาที)",
-            "vi": "4 mức (0,25 / 0,5 / 0,75 / 1,0 giây)"
-          }
-        },
-        {
-          "label": {
-            "en": "Soap Tank Capacity",
-            "zh": "皂液容量",
-            "ar": "Capacidad del depósito",
-            "es": "Capacité du réservoir",
-            "fr": "Kapasitas tangki sabun",
-            "id": "Объём бака для мыла",
-            "ru": "ความจุถังสบู่",
-            "th": "Dung tích bình xà phòng",
-            "vi": "سعة خزان الصابون"
-          },
-          "value": {
-            "en": "300 ml",
-            "zh": "300 ml",
-            "ar": "٣٠٠ مل",
-            "es": "300 ml",
-            "fr": "300 ml",
-            "id": "300 ml",
-            "ru": "300 мл",
-            "th": "300 มล.",
-            "vi": "300 ml"
-          }
-        },
-        {
-          "label": {
-            "en": "Material",
-            "zh": "材质",
-            "ar": "Material",
-            "es": "Matériau",
-            "fr": "Material",
-            "id": "Материал",
-            "ru": "วัสดุ",
-            "th": "Chất liệu",
-            "vi": "المادة"
-          },
-          "value": {
-            "en": "ABS + PP",
-            "zh": "ABS + PP",
-            "ar": "ABS + PP",
-            "es": "ABS + PP",
-            "fr": "ABS + PP",
-            "id": "ABS + PP",
-            "ru": "ABS + PP",
-            "th": "ABS + PP",
-            "vi": "ABS + PP"
-          }
-        },
-        {
-          "label": {
-            "en": "Sensing Distance",
-            "zh": "感应距离",
-            "ar": "Distancia de detección",
-            "es": "Distance de détection",
-            "fr": "Jarak sensor",
-            "id": "Дальность срабатывания",
-            "ru": "ระยะตรวจจับ",
-            "th": "Khoảng cách cảm biến",
-            "vi": "مسافة الاستشعار"
-          },
-          "value": {
-            "en": "0–7 cm",
-            "zh": "0–7 厘米",
-            "ar": "٠–٧ سم",
-            "es": "0–7 cm",
-            "fr": "0–7 cm",
-            "id": "0–7 cm",
-            "ru": "0–7 см",
-            "th": "0–7 ซม.",
-            "vi": "0–7 cm"
-          }
-        }
-      ],
-      "packaging": {
-        "unit": "Color Box",
-        "ctn_size": "—",
-        "ctn_qty": "—",
-        "gross_weight": "—"
-      },
-      "customization": {
-        "oem": true,
-        "odm": true,
-        "logo": true,
-        "color": true,
-        "package": true,
-        "sample_lead": "7–14 days",
-        "production_lead": "25–35 days"
-      },
-      "applications": {
-        "en": "Home bathroom, kitchen, hotel washroom, restaurant, clinic, office & public washrooms",
-        "zh": "家庭卫浴、厨房、酒店洗手间、餐厅、诊所、办公室及公共洗手间",
-        "ar": "حمام المنزل والمطبخ ودورات مياه الفنادق والمطاعم والعيادات والمكاتب والمرافق العامة",
-        "es": "Baño del hogar, cocina, aseos de hotel, restaurante, clínica, oficina y aseos públicos",
-        "fr": "Salle de bain, cuisine, sanitaires d'hôtel, restaurant, clinique, bureau et sanitaires publics",
-        "id": "Kamar mandi rumah, dapur, toilet hotel, restoran, klinik, kantor, dan toilet umum",
-        "ru": "Домашняя ванная, кухня, санузлы отелей, рестораны, клиники, офисы и общественные туалеты",
-        "th": "ห้องน้ำบ้าน ห้องครัว ห้องน้ำโรงแรม ร้านอาหาร คลินิก ออฟฟิศ และห้องน้ำสาธารณะ",
-        "vi": "Phòng tắm gia đình, nhà bếp, nhà vệ sinh khách sạn, nhà hàng, phòng khám, văn phòng và nhà vệ sinh công cộng"
-      },
-      "price_indicator": {
-        "min": 7.5,
-        "max": 10.5,
-        "currency": "USD"
-      },
-      "price_ladder": [
-        {
-          "min": 100,
-          "max": 499,
-          "price": 10.5
-        },
-        {
-          "min": 500,
-          "max": 4999,
-          "price": 9.2
-        },
-        {
-          "min": 5000,
-          "max": 99999,
-          "price": 7.5
-        }
-      ],
-      "sku": [
-        {
-          "name": {
-            "en": "Colour",
-            "zh": "颜色",
-            "ar": "اللون",
-            "es": "Color",
-            "fr": "Couleur",
-            "id": "Warna",
-            "ru": "Цвет",
-            "th": "สี",
-            "vi": "Màu sắc"
-          },
-          "values": [
-            {
-              "name": {
-                "en": "White",
-                "zh": "白色",
-                "ar": "أبيض",
-                "es": "Blanco",
-                "fr": "Blanc",
-                "id": "Putih",
-                "ru": "Белый",
-                "th": "สีขาว",
-                "vi": "Trắng"
-              }
-            },
-            {
-              "name": {
-                "en": "Grey",
-                "zh": "灰色",
-                "ar": "رمادي",
-                "es": "Gris",
-                "fr": "Gris",
-                "id": "Abu-abu",
-                "ru": "Серый",
-                "th": "สีเทา",
-                "vi": "Xám"
-              }
-            },
-            {
-              "name": {
-                "en": "Green",
-                "zh": "绿色",
-                "ar": "أخضر",
-                "es": "Verde",
-                "fr": "Vert",
-                "id": "Hijau",
-                "ru": "Зелёный",
-                "th": "สีเขียว",
-                "vi": "Xanh lá"
-              }
-            },
-            {
-              "name": {
-                "en": "Pink",
-                "zh": "粉色",
-                "ar": "وردي",
-                "es": "Rosa",
-                "fr": "Rose",
-                "id": "Merah muda",
-                "ru": "Розовый",
-                "th": "สีชมพู",
-                "vi": "Hồng"
-              }
-            }
-          ]
-        }
-      ],
-      "description": {
-        "en": "The SD-901 is a touch-free automatic foam soap dispenser built around a four-step output dial: 0.25, 0.5, 0.75 and 1.0 seconds of foam per trigger. A capacitive touch switch on the slanted top panel selects the level and three LED indicators confirm it. The short nozzle sits above the sensing zone, so hands never touch the unit, and the 300 ml tank is read through a clear window on the front. USB-C recharging, an IPX4 splash-proof ABS body and a sub-60 dB pump make it suitable for bathrooms, kitchens, hotels, clinics and offices. OEM / ODM customization available for logo, colour and packaging.",
-        "zh": "SD-901 是一台免接触自动泡沫洗手机，核心是四段出液调节：单次出泡 0.25 / 0.5 / 0.75 / 1.0 秒。斜面顶部的电容式触摸键切换档位，三颗 LED 指示灯确认当前档位。短喷嘴位于感应区上方，双手全程无需接触机身；300 ml 水箱的余量通过正面透明视窗随时查看。USB-C 充电、IPX4 防溅 ABS 机身与低于 60 分贝的水泵，使其适合卫浴、厨房、酒店、诊所与办公室。支持 logo、颜色、包装的 OEM / ODM 定制。",
-        "ar": "SD-901 موزع صابون رغوي أوتوماتيكي بدون لمس يعتمد على قرص إخراج بأربع خطوات: ٠٫٢٥ و٠٫٥ و٠٫٧٥ و١٫٠ ثانية من الرغوة لكل تشغيل. مفتاح لمس سعوي في اللوحة العلوية المائلة يختار المستوى وتؤكده ثلاثة مؤشرات LED. الفوهة القصيرة فوق منطقة الاستشعار فلا تلمس اليدان الجهاز أبداً، ويمكن قراءة خزان ٣٠٠ مل عبر نافذة شفافة في الأمام. الشحن USB-C والجسم ABS المقاوم للرذاذ IPX4 ومضخة دون ٦٠ ديسيبل تجعله مناسباً للحمامات والمطابخ والفنادق والعيادات والمكاتب. يتوفر التخصيص OEM / ODM للشعار واللون والتغليف.",
-        "es": "El SD-901 es un dispensador automático de espuma de jabón sin contacto construido en torno a un selector de cuatro tiempos: 0,25; 0,5; 0,75 y 1,0 segundo de espuma por activación. Un interruptor táctil capacitivo en el panel superior inclinado selecciona el nivel y tres indicadores LED lo confirman. La boquilla corta queda por encima de la zona de detección, así que las manos nunca tocan el equipo, y el depósito de 300 ml se lee a través de una ventana transparente frontal. Recarga USB-C, cuerpo ABS resistente a salpicaduras IPX4 y bomba por debajo de 60 dB: apto para baños, cocinas, hoteles, clínicas y oficinas. Personalización OEM / ODM de logotipo, color y embalaje disponible.",
-        "fr": "Le SD-901 est un distributeur automatique de mousse de savon sans contact construit autour d'un sélecteur à quatre temps : 0,25 ; 0,5 ; 0,75 et 1,0 seconde de mousse par déclenchement. Une commande tactile capacitive sur le panneau supérieur incliné choisit le niveau et trois témoins LED le confirment. Le bec court se trouve au-dessus de la zone de détection : les mains ne touchent jamais l'appareil, et le réservoir de 300 ml se lit à travers une fenêtre transparente en façade. Recharge USB-C, corps ABS anti-éclaboussures IPX4 et pompe sous 60 dB : adapté aux salles de bain, cuisines, hôtels, cliniques et bureaux. Personnalisation OEM / ODM du logo, de la couleur et de l'emballage disponible.",
-        "id": "SD-901 adalah dispenser sabun busa otomatis tanpa sentuh dengan pengaturan empat langkah: 0,25; 0,5; 0,75 dan 1,0 detik busa setiap pemicu. Tombol sentuh kapasitif di panel atas yang miring memilih tingkat, dan tiga indikator LED mengonfirmasinya. Nozel pendek berada di atas zona sensor sehingga tangan tidak pernah menyentuh unit, dan tangki 300 ml dapat dipantau lewat jendela bening di depan. Pengisian USB-C, bodi ABS tahan cipratan IPX4, dan pompa di bawah 60 dB membuatnya cocok untuk kamar mandi, dapur, hotel, klinik, dan kantor. Kustomisasi OEM / ODM untuk logo, warna, dan kemasan tersedia.",
-        "ru": "SD-901 — бесконтактный автоматический пенный дозатор мыла с четырьмя режимами подачи: 0,25; 0,5; 0,75 и 1,0 секунды пены за срабатывание. Ёмкостная сенсорная кнопка на наклонной верхней панели выбирает уровень, а три светодиода подтверждают его. Короткий носик расположен над зоной датчика, поэтому руки никогда не касаются прибора, а остаток в баке на 300 мл видно через прозрачное окно спереди. Зарядка USB-C, влагозащищённый корпус из ABS по стандарту IPX4 и помпа ниже 60 дБ — подходит для ванных, кухонь, отелей, клиник и офисов. Доступна кастомизация OEM / ODM: логотип, цвет и упаковка.",
-        "th": "SD-901 คือเครื่องจ่ายสบู่โฟมอัตโนมัติแบบไม่ต้องสัมผัส มาพร้อมการปรับระดับจ่าย 4 ระดับ: 0.25, 0.5, 0.75 และ 1.0 วินาทีต่อครั้ง สวิตช์สัมผัสแบบคาปาซิทีฟบนแผงบนเอียงใช้เลือกระดับ และไฟ LED 3 ดวงยืนยันระดับที่เลือก หัวจ่ายสั้นอยู่เหนือโซนเซ็นเซอร์ มือจึงไม่ต้องสัมผัสตัวเครื่อง และตรวจสอบระดับสบู่ในถัง 300 มล. ได้จากหน้าต่างใสด้านหน้า ชาร์จ USB-C ตัวเครื่อง ABS กันน้ำกระเซ็น IPX4 และปั๊มที่ทำงานต่ำกว่า 60 เดซิเบล เหมาะกับห้องน้ำ ห้องครัว โรงแรม คลินิก และออฟฟิศ รองรับการปรับแต่ง OEM / ODM ทั้งโลโก้ สี และบรรจุภัณฑ์",
-        "vi": "SD-901 là bình đựng xà phòng bọt tự động không cần chạm, với bốn mức nhả: 0,25; 0,5; 0,75 và 1,0 giây mỗi lần kích hoạt. Nút cảm ứng điện dung trên mặt nghiêng phía trên dùng chọn mức, ba đèn LED xác nhận lựa chọn. Đầu nhả ngắn nằm phía trên vùng cảm biến nên tay không bao giờ chạm thân máy, và lượng dung dịch trong bình 300 ml được theo dõi qua cửa sổ trong suốt phía trước. Sạc USB-C, thân ABS chống tạt nước IPX4 và bơm dưới 60 dB, phù hợp cho phòng tắm, bếp, khách sạn, phòng khám và văn phòng. Có tùy biến OEM / ODM cho logo, màu sắc và bao bì."
-      },
-      "supplier_rating": "4.81",
-      "response_time": "—",
-      "transactions": "—",
-      "years": "—",
-      "ship_from": {
-        "en": "China",
-        "zh": "中国",
-        "ar": "الصين",
-        "es": "China",
-        "fr": "Chine",
-        "id": "Tiongkok",
-        "ru": "Китай",
-        "th": "จีน",
-        "vi": "Trung Quốc"
-      },
-      "sample": {
-        "enabled": true,
-        "qty": 1,
-        "note": {
-          "en": "Sample available (max 1 pc)",
-          "zh": "可提供样品（最多 1 台）",
-          "ar": "عينة متاحة (بحد أقصى قطعة واحدة)",
-          "es": "Muestra disponible (máx. 1 ud)",
-          "fr": "Échantillon disponible (max. 1 pièce)",
-          "id": "Sampel tersedia (maks. 1 unit)",
-          "ru": "Образец доступен (макс. 1 шт.)",
-          "th": "มีตัวอย่างให้ (สูงสุด 1 เครื่อง)",
-          "vi": "Có mẫu (tối đa 1 chiếc)"
-        }
-      },
-      "category_name": {
-        "en": "Hands-free Soap Dispenser",
-        "zh": "免接触泡沫洗手机",
-        "ar": "موزع صابون أوتوماتيكي",
-        "es": "Dispensador automático de jabón",
-        "fr": "Distributeur automatique de savon",
-        "id": "Dispenser sabun otomatis",
-        "ru": "Автоматический дозатор мыла",
-        "th": "เครื่องจ่ายสบู่อัตโนมัติ",
-        "vi": "Bình đựng xà phòng tự động"
-      },
-      "certificates": [],
-      "supplier": {
-        "country": "HK",
-        "province": "New Territories",
-        "established": 2024,
-        "reply_rate": 0.9987,
-        "verified": false,
-        "main_markets": [
-          "North America",
-          "South America",
-          "Eastern Europe",
-          "Southeast Asia"
-        ]
-      },
-      "store_rating": {
-        "score": 4.81,
-        "reviews": 7,
-        "scope": "store"
-      },
-      "shipping_fee_usd": 0,
-      "alibaba_url": "",
-      "_cat": "hands-free-soap-dispenser",
-      "detail_images": [
-        "https://www.hkdmj.net/assets/images/products/hands-free-soap-dispenser-sd901/01.webp?v=20261030c",
-        "https://www.hkdmj.net/assets/images/products/hands-free-soap-dispenser-sd901/02.webp?v=20261030c",
-        "https://www.hkdmj.net/assets/images/products/hands-free-soap-dispenser-sd901/03.webp?v=20261030c"
-      ]
+     "icon": "power",
+     "text": {
+      "en": "Four output levels — 0.25 / 0.5 / 0.75 / 1.0 s — cover every handwashing habit in the family",
+      "zh": "四档出液 0.25 / 0.5 / 0.75 / 1.0 秒，满足全家不同的洗手习惯",
+      "ar": "أربعة مستويات ضخ — ٠٫٢٥ / ٠٫٥ / ٠٫٧٥ / ١٫٠ ثانية — تغطي كل عادات غسل اليدين في الأسرة",
+      "es": "Cuatro niveles de salida — 0,25 / 0,5 / 0,75 / 1,0 s — cubren todos los hábitos de lavado de la familia",
+      "fr": "Quatre niveaux de distribution — 0,25 / 0,5 / 0,75 / 1,0 s — couvrent toutes les habitudes de la famille",
+      "id": "Empat tingkat keluaran — 0,25 / 0,5 / 0,75 / 1,0 dtk — mencakup semua kebiasaan cuci tangan keluarga",
+      "ru": "Четыре уровня подачи — 0,25 / 0,5 / 0,75 / 1,0 с — покрывают любые привычки мытья рук в семье",
+      "th": "ระดับจ่าย 4 ระดับ — 0.25 / 0.5 / 0.75 / 1.0 วินาที — ครอบคลุมทุกพฤติกรรมการล้างมือในครอบครัว",
+      "vi": "Bốn mức nhả — 0,25 / 0,5 / 0,75 / 1,0 giây — đáp ứng mọi thói quen rửa tay của gia đình"
+     }
+    },
+    {
+     "icon": "battery",
+     "text": {
+      "en": "Touch switch on the slanted top panel with three LED indicators showing the selected level",
+      "zh": "斜面顶部面板触摸开关，三颗 LED 指示灯显示当前档位",
+      "ar": "مفتاح لمس على اللوحة العلوية المائلة مع ثلاثة مؤشرات LED توضح المستوى المحدد",
+      "es": "Interruptor táctil en el panel superior inclinado con tres indicadores LED del nivel seleccionado",
+      "fr": "Commande tactile sur le panneau supérieur incliné avec trois témoins LED du niveau sélectionné",
+      "id": "Tombol sentuh di panel atas miring dengan tiga indikator LED untuk tingkat yang dipilih",
+      "ru": "Сенсорная кнопка на наклонной верхней панели и три светодиода, показывающие выбранный уровень",
+      "th": "สวิตช์สัมผัสบนแผงบนเอียง พร้อมไฟ LED 3 ดวงแสดงระดับที่เลือก",
+      "vi": "Nút cảm ứng trên mặt nghiêng phía trên cùng ba đèn LED hiển thị mức đang chọn"
+     }
+    },
+    {
+     "icon": "filter",
+     "text": {
+      "en": "Short drip-free nozzle above the sensor keeps both the spout and the countertop clean",
+      "zh": "感应区上方的短喷嘴防滴漏，出液口与台面都保持洁净",
+      "ar": "فوهة قصيرة لا تقطر أعلى المستشعر تحافظ على نظافة الفوهة وسطح العمل",
+      "es": "Boquilla corta antigoteo sobre el sensor: limpia la salida y el mostrador",
+      "fr": "Bec court anti-goutte au-dessus du capteur : la sortie et le plan de travail restent propres",
+      "id": "Nozel pendek bebas tetes di atas sensor menjaga mulut dan meja tetap bersih",
+      "ru": "Короткий носик без подтекания над датчиком сохраняет чистоту и носика, и столешницы",
+      "th": "หัวจ่ายสั้นกันหยดอยู่เหนือเซ็นเซอร์ ช่วยให้ทั้งหัวจ่ายและเคาน์เตอร์สะอาด",
+      "vi": "Đầu nhả ngắn không nhỏ giọt phía trên cảm biến giữ cả miệng bình và mặt bàn sạch"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "300 ml tank read through a clear window, with USB-C recharging and quiet operation below 60 dB",
+      "zh": "300 ml 水箱配透明视窗，USB-C 充电，运行噪音低于 60 分贝",
+      "ar": "خزان ٣٠٠ مل مع نافذة شفافة للمراقبة وشحن USB-C وتشغيل هادئ أقل من ٦٠ ديسيبل",
+      "es": "Depósito de 300 ml con ventana transparente, recarga USB-C y funcionamiento silencioso por debajo de 60 dB",
+      "fr": "Réservoir de 300 ml avec fenêtre transparente, recharge USB-C et fonctionnement silencieux sous 60 dB",
+      "id": "Tangki 300 ml dengan jendela bening, isi ulang USB-C, dan operasi senyap di bawah 60 dB",
+      "ru": "Бак 300 мл с прозрачным окном, зарядка USB-C и тихая работа ниже 60 дБ",
+      "th": "ถัง 300 มล. มีหน้าต่างใบสมองเห็นระดับ ชาร์จ USB-C และทำงานเงียบต่ำกว่า 60 เดซิเบล",
+      "vi": "Bình 300 ml có cửa sổ trong để xem mức, sạc USB-C và vận hành êm dưới 60 dB"
+     }
     }
-  ],
-  "reviews": []
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "Model",
+      "zh": "型号",
+      "ar": "الموديل",
+      "es": "Modelo",
+      "fr": "Modèle",
+      "id": "Model",
+      "ru": "Модель",
+      "th": "รุ่น",
+      "vi": "Model"
+     },
+     "value": {
+      "en": "SD-901",
+      "zh": "SD-901",
+      "ar": "SD-901",
+      "es": "SD-901",
+      "fr": "SD-901",
+      "id": "SD-901",
+      "ru": "SD-901",
+      "th": "SD-901",
+      "vi": "SD-901"
+     }
+    },
+    {
+     "label": {
+      "en": "Output Levels",
+      "zh": "出液档位",
+      "ar": "مستويات الضخ",
+      "es": "Niveles de salida",
+      "fr": "Niveaux de distribution",
+      "id": "Tingkat keluaran",
+      "ru": "Режимы подачи",
+      "th": "ระดับการจ่าย",
+      "vi": "Mức nhả"
+     },
+     "value": {
+      "en": "4 levels (0.25 / 0.5 / 0.75 / 1.0 s)",
+      "zh": "4 档（0.25 / 0.5 / 0.75 / 1.0 秒）",
+      "ar": "4 مستويات (٠٫٢٥ / ٠٫٥ / ٠٫٧٥ / ١٫٠ ثانية)",
+      "es": "4 niveles (0,25 / 0,5 / 0,75 / 1,0 s)",
+      "fr": "4 niveaux (0,25 / 0,5 / 0,75 / 1,0 s)",
+      "id": "4 tingkat (0,25 / 0,5 / 0,75 / 1,0 dtk)",
+      "ru": "4 режима (0,25 / 0,5 / 0,75 / 1,0 с)",
+      "th": "4 ระดับ (0.25 / 0.5 / 0.75 / 1.0 วินาที)",
+      "vi": "4 mức (0,25 / 0,5 / 0,75 / 1,0 giây)"
+     }
+    },
+    {
+     "label": {
+      "en": "Soap Tank Capacity",
+      "zh": "皂液容量",
+      "ar": "سعة خزان الصابون",
+      "es": "Capacidad del depósito",
+      "fr": "Capacité du réservoir",
+      "id": "Kapasitas tangki sabun",
+      "ru": "Объём бака для мыла",
+      "th": "ความจุถังสบู่",
+      "vi": "Dung tích bình xà phòng"
+     },
+     "value": {
+      "en": "300 ml",
+      "zh": "300 ml",
+      "ar": "٣٠٠ مل",
+      "es": "300 ml",
+      "fr": "300 ml",
+      "id": "300 ml",
+      "ru": "300 мл",
+      "th": "300 มล.",
+      "vi": "300 ml"
+     }
+    },
+    {
+     "label": {
+      "en": "Material",
+      "zh": "材质",
+      "ar": "المادة",
+      "es": "Material",
+      "fr": "Matériau",
+      "id": "Material",
+      "ru": "Материал",
+      "th": "วัสดุ",
+      "vi": "Chất liệu"
+     },
+     "value": {
+      "en": "ABS + PP",
+      "zh": "ABS + PP",
+      "ar": "ABS + PP",
+      "es": "ABS + PP",
+      "fr": "ABS + PP",
+      "id": "ABS + PP",
+      "ru": "ABS + PP",
+      "th": "ABS + PP",
+      "vi": "ABS + PP"
+     }
+    },
+    {
+     "label": {
+      "en": "Power Source",
+      "zh": "电源方式",
+      "ar": "مصدر الطاقة",
+      "es": "Fuente de alimentación",
+      "fr": "Source d'alimentation",
+      "id": "Sumber daya",
+      "ru": "Источник питания",
+      "th": "แหล่งจ่ายไฟ",
+      "vi": "Nguồn điện"
+     },
+     "value": {
+      "en": "Battery, USB",
+      "zh": "电池 + USB",
+      "ar": "بطارية، USB",
+      "es": "Batería, USB",
+      "fr": "Batterie, USB",
+      "id": "Baterai, USB",
+      "ru": "Аккумулятор, USB",
+      "th": "แบตเตอรี่, USB",
+      "vi": "Pin, USB"
+     }
+    },
+    {
+     "label": {
+      "en": "Sensing Distance",
+      "zh": "感应距离",
+      "ar": "مسافة الاستشعار",
+      "es": "Distancia de detección",
+      "fr": "Distance de détection",
+      "id": "Jarak sensor",
+      "ru": "Дальность срабатывания",
+      "th": "ระยะตรวจจับ",
+      "vi": "Khoảng cách cảm biến"
+     },
+     "value": {
+      "en": "0–7 cm",
+      "zh": "0–7 厘米",
+      "ar": "٠–٧ سم",
+      "es": "0–7 cm",
+      "fr": "0–7 cm",
+      "id": "0–7 cm",
+      "ru": "0–7 см",
+      "th": "0–7 ซม.",
+      "vi": "0–7 cm"
+     }
+    },
+    {
+     "label": {
+      "en": "Waterproof Rating",
+      "zh": "防水等级",
+      "ar": "تصنيف مقاومة الماء",
+      "es": "Índice de impermeabilidad",
+      "fr": "Indice d'étanchéité",
+      "id": "Tingkat kedap air",
+      "ru": "Степень влагозащиты",
+      "th": "ระดับกันน้ำ",
+      "vi": "Mức chống nước"
+     },
+     "value": {
+      "en": "IPX4",
+      "zh": "IPX4",
+      "ar": "IPX4",
+      "es": "IPX4",
+      "fr": "IPX4",
+      "id": "IPX4",
+      "ru": "IPX4",
+      "th": "IPX4",
+      "vi": "IPX4"
+     }
+    },
+    {
+     "label": {
+      "en": "Noise Level",
+      "zh": "噪音水平",
+      "ar": "مستوى الضجيج",
+      "es": "Nivel de ruido",
+      "fr": "Niveau sonore",
+      "id": "Tingkat kebisingan",
+      "ru": "Уровень шума",
+      "th": "ระดับเสียง",
+      "vi": "Độ ồn"
+     },
+     "value": {
+      "en": "< 60 dB",
+      "zh": "< 60 分贝",
+      "ar": "< 60 ديسيبل",
+      "es": "< 60 dB",
+      "fr": "< 60 dB",
+      "id": "< 60 dB",
+      "ru": "< 60 дБ",
+      "th": "< 60 เดซิเบล",
+      "vi": "< 60 dB"
+     }
+    },
+    {
+     "label": {
+      "en": "Packaging Type",
+      "zh": "包装类型",
+      "ar": "نوع التغليف",
+      "es": "Tipo de embalaje",
+      "fr": "Type d'emballage",
+      "id": "Jenis kemasan",
+      "ru": "Тип упаковки",
+      "th": "ประเภทบรรจุภัณฑ์",
+      "vi": "Loại bao bì"
+     },
+     "value": {
+      "en": "Corrugated Box, Color Box",
+      "zh": "瓦楞纸箱、彩盒",
+      "ar": "علبة كرتون، علبة ملونة",
+      "es": "Caja de cartón, caja de color",
+      "fr": "Carton ondulé, boîte couleur",
+      "id": "Karton bergelombang, kotak warna",
+      "ru": "Гофрокоробка, цветная коробка",
+      "th": "กล่องลูกฟูก กล่องสี",
+      "vi": "Thùng carton, hộp màu"
+     }
+    },
+    {
+     "label": {
+      "en": "Private Mould",
+      "zh": "私模",
+      "ar": "قالب خاص",
+      "es": "Molde privado",
+      "fr": "Moule privé",
+      "id": "Cetakan pribadi",
+      "ru": "Собственная пресс-форма",
+      "th": "แม่พิมพ์ส่วนตัว",
+      "vi": "Khuôn riêng"
+     },
+     "value": {
+      "en": "Yes",
+      "zh": "是",
+      "ar": "نعم",
+      "es": "Sí",
+      "fr": "Oui",
+      "id": "Ya",
+      "ru": "Да",
+      "th": "มี",
+      "vi": "Có"
+     }
+    },
+    {
+     "label": {
+      "en": "Place of Origin",
+      "zh": "产地",
+      "ar": "بلد المنشأ",
+      "es": "País de origen",
+      "fr": "Pays d'origine",
+      "id": "Negara asal",
+      "ru": "Страна производства",
+      "th": "แหล่งผลิต",
+      "vi": "Xuất xứ"
+     },
+     "value": {
+      "en": "Guangdong, China",
+      "zh": "中国广东",
+      "ar": "قوانغدونغ، الصين",
+      "es": "Guangdong, China",
+      "fr": "Guangdong, Chine",
+      "id": "Guangdong, Tiongkok",
+      "ru": "Гуандун, Китай",
+      "th": "กว่างตง จีน",
+      "vi": "Quảng Đông, Trung Quốc"
+     }
+    }
+   ],
+   "quick_specs": [
+    {
+     "label": {
+      "en": "Output Levels",
+      "zh": "出液档位",
+      "ar": "مستويات الضخ",
+      "es": "Niveles de salida",
+      "fr": "Niveaux de distribution",
+      "id": "Tingkat keluaran",
+      "ru": "Режимы подачи",
+      "th": "ระดับการจ่าย",
+      "vi": "Mức nhả"
+     },
+     "value": {
+      "en": "4 levels (0.25 / 0.5 / 0.75 / 1.0 s)",
+      "zh": "4 档（0.25 / 0.5 / 0.75 / 1.0 秒）",
+      "ar": "4 مستويات (٠٫٢٥ / ٠٫٥ / ٠٫٧٥ / ١٫٠ ثانية)",
+      "es": "4 niveles (0,25 / 0,5 / 0,75 / 1,0 s)",
+      "fr": "4 niveaux (0,25 / 0,5 / 0,75 / 1,0 s)",
+      "id": "4 tingkat (0,25 / 0,5 / 0,75 / 1,0 dtk)",
+      "ru": "4 режима (0,25 / 0,5 / 0,75 / 1,0 с)",
+      "th": "4 ระดับ (0.25 / 0.5 / 0.75 / 1.0 วินาที)",
+      "vi": "4 mức (0,25 / 0,5 / 0,75 / 1,0 giây)"
+     }
+    },
+    {
+     "label": {
+      "en": "Soap Tank Capacity",
+      "zh": "皂液容量",
+      "ar": "سعة خزان الصابون",
+      "es": "Capacidad del depósito",
+      "fr": "Capacité du réservoir",
+      "id": "Kapasitas tangki sabun",
+      "ru": "Объём бака для мыла",
+      "th": "ความจุถังสบู่",
+      "vi": "Dung tích bình xà phòng"
+     },
+     "value": {
+      "en": "300 ml",
+      "zh": "300 ml",
+      "ar": "٣٠٠ مل",
+      "es": "300 ml",
+      "fr": "300 ml",
+      "id": "300 ml",
+      "ru": "300 мл",
+      "th": "300 มล.",
+      "vi": "300 ml"
+     }
+    },
+    {
+     "label": {
+      "en": "Material",
+      "zh": "材质",
+      "ar": "المادة",
+      "es": "Material",
+      "fr": "Matériau",
+      "id": "Material",
+      "ru": "Материал",
+      "th": "วัสดุ",
+      "vi": "Chất liệu"
+     },
+     "value": {
+      "en": "ABS + PP",
+      "zh": "ABS + PP",
+      "ar": "ABS + PP",
+      "es": "ABS + PP",
+      "fr": "ABS + PP",
+      "id": "ABS + PP",
+      "ru": "ABS + PP",
+      "th": "ABS + PP",
+      "vi": "ABS + PP"
+     }
+    },
+    {
+     "label": {
+      "en": "Sensing Distance",
+      "zh": "感应距离",
+      "ar": "مسافة الاستشعار",
+      "es": "Distancia de detección",
+      "fr": "Distance de détection",
+      "id": "Jarak sensor",
+      "ru": "Дальность срабатывания",
+      "th": "ระยะตรวจจับ",
+      "vi": "Khoảng cách cảm biến"
+     },
+     "value": {
+      "en": "0–7 cm",
+      "zh": "0–7 厘米",
+      "ar": "٠–٧ سم",
+      "es": "0–7 cm",
+      "fr": "0–7 cm",
+      "id": "0–7 cm",
+      "ru": "0–7 см",
+      "th": "0–7 ซม.",
+      "vi": "0–7 cm"
+     }
+    }
+   ],
+   "packaging": {
+    "unit": "Color Box",
+    "ctn_size": "—",
+    "ctn_qty": "—",
+    "gross_weight": "—"
+   },
+   "customization": {
+    "oem": true,
+    "odm": true,
+    "logo": true,
+    "color": true,
+    "package": true,
+    "sample_lead": "7–14 days",
+    "production_lead": "25–35 days"
+   },
+   "applications": {
+    "en": "Home bathroom, kitchen, hotel washroom, restaurant, clinic, office & public washrooms",
+    "zh": "家庭卫浴、厨房、酒店洗手间、餐厅、诊所、办公室及公共洗手间",
+    "ar": "حمام المنزل والمطبخ ودورات مياه الفنادق والمطاعم والعيادات والمكاتب والمرافق العامة",
+    "es": "Baño del hogar, cocina, aseos de hotel, restaurante, clínica, oficina y aseos públicos",
+    "fr": "Salle de bain, cuisine, sanitaires d'hôtel, restaurant, clinique, bureau et sanitaires publics",
+    "id": "Kamar mandi rumah, dapur, toilet hotel, restoran, klinik, kantor, dan toilet umum",
+    "ru": "Домашняя ванная, кухня, санузлы отелей, рестораны, клиники, офисы и общественные туалеты",
+    "th": "ห้องน้ำบ้าน ห้องครัว ห้องน้ำโรงแรม ร้านอาหาร คลินิก ออฟฟิศ และห้องน้ำสาธารณะ",
+    "vi": "Phòng tắm gia đình, nhà bếp, nhà vệ sinh khách sạn, nhà hàng, phòng khám, văn phòng và nhà vệ sinh công cộng"
+   },
+   "price_indicator": {
+    "min": 7.5,
+    "max": 10.5,
+    "currency": "USD"
+   },
+   "price_ladder": [
+    {
+     "min": 100,
+     "max": 499,
+     "price": 10.5
+    },
+    {
+     "min": 500,
+     "max": 4999,
+     "price": 9.2
+    },
+    {
+     "min": 5000,
+     "max": 99999,
+     "price": 7.5
+    }
+   ],
+   "sku": [
+    {
+     "name": {
+      "en": "Colour",
+      "zh": "颜色",
+      "ar": "اللون",
+      "es": "Color",
+      "fr": "Couleur",
+      "id": "Warna",
+      "ru": "Цвет",
+      "th": "สี",
+      "vi": "Màu sắc"
+     },
+     "values": [
+      {
+       "name": {
+        "en": "White",
+        "zh": "白色",
+        "ar": "أبيض",
+        "es": "Blanco",
+        "fr": "Blanc",
+        "id": "Putih",
+        "ru": "Белый",
+        "th": "สีขาว",
+        "vi": "Trắng"
+       }
+      },
+      {
+       "name": {
+        "en": "Grey",
+        "zh": "灰色",
+        "ar": "رمادي",
+        "es": "Gris",
+        "fr": "Gris",
+        "id": "Abu-abu",
+        "ru": "Серый",
+        "th": "สีเทา",
+        "vi": "Xám"
+       }
+      },
+      {
+       "name": {
+        "en": "Green",
+        "zh": "绿色",
+        "ar": "أخضر",
+        "es": "Verde",
+        "fr": "Vert",
+        "id": "Hijau",
+        "ru": "Зелёный",
+        "th": "สีเขียว",
+        "vi": "Xanh lá"
+       }
+      },
+      {
+       "name": {
+        "en": "Pink",
+        "zh": "粉色",
+        "ar": "وردي",
+        "es": "Rosa",
+        "fr": "Rose",
+        "id": "Merah muda",
+        "ru": "Розовый",
+        "th": "สีชมพู",
+        "vi": "Hồng"
+       }
+      }
+     ]
+    }
+   ],
+   "description": {
+    "en": "The SD-901 is a touch-free automatic foam soap dispenser built around a four-step output dial: 0.25, 0.5, 0.75 and 1.0 seconds of foam per trigger. A capacitive touch switch on the slanted top panel selects the level and three LED indicators confirm it. The short nozzle sits above the sensing zone, so hands never touch the unit, and the 300 ml tank is read through a clear window on the front. USB-C recharging, an IPX4 splash-proof ABS body and a sub-60 dB pump make it suitable for bathrooms, kitchens, hotels, clinics and offices. OEM / ODM customization available for logo, colour and packaging.",
+    "zh": "SD-901 是一台免接触自动泡沫洗手机，核心是四段出液调节：单次出泡 0.25 / 0.5 / 0.75 / 1.0 秒。斜面顶部的电容式触摸键切换档位，三颗 LED 指示灯确认当前档位。短喷嘴位于感应区上方，双手全程无需接触机身；300 ml 水箱的余量通过正面透明视窗随时查看。USB-C 充电、IPX4 防溅 ABS 机身与低于 60 分贝的水泵，使其适合卫浴、厨房、酒店、诊所与办公室。支持 logo、颜色、包装的 OEM / ODM 定制。",
+    "ar": "SD-901 موزع صابون رغوي أوتوماتيكي بدون لمس يعتمد على قرص إخراج بأربع خطوات: ٠٫٢٥ و٠٫٥ و٠٫٧٥ و١٫٠ ثانية من الرغوة لكل تشغيل. مفتاح لمس سعوي في اللوحة العلوية المائلة يختار المستوى وتؤكده ثلاثة مؤشرات LED. الفوهة القصيرة فوق منطقة الاستشعار فلا تلمس اليدان الجهاز أبداً، ويمكن قراءة خزان ٣٠٠ مل عبر نافذة شفافة في الأمام. الشحن USB-C والجسم ABS المقاوم للرذاذ IPX4 ومضخة دون ٦٠ ديسيبل تجعله مناسباً للحمامات والمطابخ والفنادق والعيادات والمكاتب. يتوفر التخصيص OEM / ODM للشعار واللون والتغليف.",
+    "es": "El SD-901 es un dispensador automático de espuma de jabón sin contacto construido en torno a un selector de cuatro tiempos: 0,25; 0,5; 0,75 y 1,0 segundo de espuma por activación. Un interruptor táctil capacitivo en el panel superior inclinado selecciona el nivel y tres indicadores LED lo confirman. La boquilla corta queda por encima de la zona de detección, así que las manos nunca tocan el equipo, y el depósito de 300 ml se lee a través de una ventana transparente frontal. Recarga USB-C, cuerpo ABS resistente a salpicaduras IPX4 y bomba por debajo de 60 dB: apto para baños, cocinas, hoteles, clínicas y oficinas. Personalización OEM / ODM de logotipo, color y embalaje disponible.",
+    "fr": "Le SD-901 est un distributeur automatique de mousse de savon sans contact construit autour d'un sélecteur à quatre temps : 0,25 ; 0,5 ; 0,75 et 1,0 seconde de mousse par déclenchement. Une commande tactile capacitive sur le panneau supérieur incliné choisit le niveau et trois témoins LED le confirment. Le bec court se trouve au-dessus de la zone de détection : les mains ne touchent jamais l'appareil, et le réservoir de 300 ml se lit à travers une fenêtre transparente en façade. Recharge USB-C, corps ABS anti-éclaboussures IPX4 et pompe sous 60 dB : adapté aux salles de bain, cuisines, hôtels, cliniques et bureaux. Personnalisation OEM / ODM du logo, de la couleur et de l'emballage disponible.",
+    "id": "SD-901 adalah dispenser sabun busa otomatis tanpa sentuh dengan pengaturan empat langkah: 0,25; 0,5; 0,75 dan 1,0 detik busa setiap pemicu. Tombol sentuh kapasitif di panel atas yang miring memilih tingkat, dan tiga indikator LED mengonfirmasinya. Nozel pendek berada di atas zona sensor sehingga tangan tidak pernah menyentuh unit, dan tangki 300 ml dapat dipantau lewat jendela bening di depan. Pengisian USB-C, bodi ABS tahan cipratan IPX4, dan pompa di bawah 60 dB membuatnya cocok untuk kamar mandi, dapur, hotel, klinik, dan kantor. Kustomisasi OEM / ODM untuk logo, warna, dan kemasan tersedia.",
+    "ru": "SD-901 — бесконтактный автоматический пенный дозатор мыла с четырьмя режимами подачи: 0,25; 0,5; 0,75 и 1,0 секунды пены за срабатывание. Ёмкостная сенсорная кнопка на наклонной верхней панели выбирает уровень, а три светодиода подтверждают его. Короткий носик расположен над зоной датчика, поэтому руки никогда не касаются прибора, а остаток в баке на 300 мл видно через прозрачное окно спереди. Зарядка USB-C, влагозащищённый корпус из ABS по стандарту IPX4 и помпа ниже 60 дБ — подходит для ванных, кухонь, отелей, клиник и офисов. Доступна кастомизация OEM / ODM: логотип, цвет и упаковка.",
+    "th": "SD-901 คือเครื่องจ่ายสบู่โฟมอัตโนมัติแบบไม่ต้องสัมผัส มาพร้อมการปรับระดับจ่าย 4 ระดับ: 0.25, 0.5, 0.75 และ 1.0 วินาทีต่อครั้ง สวิตช์สัมผัสแบบคาปาซิทีฟบนแผงบนเอียงใช้เลือกระดับ และไฟ LED 3 ดวงยืนยันระดับที่เลือก หัวจ่ายสั้นอยู่เหนือโซนเซ็นเซอร์ มือจึงไม่ต้องสัมผัสตัวเครื่อง และตรวจสอบระดับสบู่ในถัง 300 มล. ได้จากหน้าต่างใสด้านหน้า ชาร์จ USB-C ตัวเครื่อง ABS กันน้ำกระเซ็น IPX4 และปั๊มที่ทำงานต่ำกว่า 60 เดซิเบล เหมาะกับห้องน้ำ ห้องครัว โรงแรม คลินิก และออฟฟิศ รองรับการปรับแต่ง OEM / ODM ทั้งโลโก้ สี และบรรจุภัณฑ์",
+    "vi": "SD-901 là bình đựng xà phòng bọt tự động không cần chạm, với bốn mức nhả: 0,25; 0,5; 0,75 và 1,0 giây mỗi lần kích hoạt. Nút cảm ứng điện dung trên mặt nghiêng phía trên dùng chọn mức, ba đèn LED xác nhận lựa chọn. Đầu nhả ngắn nằm phía trên vùng cảm biến nên tay không bao giờ chạm thân máy, và lượng dung dịch trong bình 300 ml được theo dõi qua cửa sổ trong suốt phía trước. Sạc USB-C, thân ABS chống tạt nước IPX4 và bơm dưới 60 dB, phù hợp cho phòng tắm, bếp, khách sạn, phòng khám và văn phòng. Có tùy biến OEM / ODM cho logo, màu sắc và bao bì."
+   },
+   "supplier_rating": "4.81",
+   "response_time": "—",
+   "transactions": "—",
+   "years": "—",
+   "ship_from": {
+    "en": "China",
+    "zh": "中国",
+    "ar": "الصين",
+    "es": "China",
+    "fr": "Chine",
+    "id": "Tiongkok",
+    "ru": "Китай",
+    "th": "จีน",
+    "vi": "Trung Quốc"
+   },
+   "sample": {
+    "enabled": true,
+    "qty": 1,
+    "note": {
+     "en": "Sample available (max 1 pc)",
+     "zh": "可提供样品（最多 1 台）",
+     "ar": "عينة متاحة (بحد أقصى قطعة واحدة)",
+     "es": "Muestra disponible (máx. 1 ud)",
+     "fr": "Échantillon disponible (max. 1 pièce)",
+     "id": "Sampel tersedia (maks. 1 unit)",
+     "ru": "Образец доступен (макс. 1 шт.)",
+     "th": "มีตัวอย่างให้ (สูงสุด 1 เครื่อง)",
+     "vi": "Có mẫu (tối đa 1 chiếc)"
+    }
+   },
+   "category_name": {
+    "en": "Hands-free Soap Dispenser",
+    "zh": "免接触泡沫洗手机",
+    "ar": "موزع صابون أوتوماتيكي",
+    "es": "Dispensador automático de jabón",
+    "fr": "Distributeur automatique de savon",
+    "id": "Dispenser sabun otomatis",
+    "ru": "Автоматический дозатор мыла",
+    "th": "เครื่องจ่ายสบู่อัตโนมัติ",
+    "vi": "Bình đựng xà phòng tự động"
+   },
+   "certificates": [],
+   "supplier": {
+    "country": "HK",
+    "province": "New Territories",
+    "established": 2024,
+    "reply_rate": 0.9987,
+    "verified": false,
+    "main_markets": [
+     "North America",
+     "South America",
+     "Eastern Europe",
+     "Southeast Asia"
+    ]
+   },
+   "store_rating": {
+    "score": 4.81,
+    "reviews": 7,
+    "scope": "store"
+   },
+   "shipping_fee_usd": 0,
+   "alibaba_url": "",
+   "_cat": "hands-free-soap-dispenser",
+   "detail_images": [
+    "https://www.hkdmj.net/assets/images/products/hands-free-soap-dispenser-sd901/01.webp?v=20261030c",
+    "https://www.hkdmj.net/assets/images/products/hands-free-soap-dispenser-sd901/02.webp?v=20261030c",
+    "https://www.hkdmj.net/assets/images/products/hands-free-soap-dispenser-sd901/03.webp?v=20261030c"
+   ]
+  },
+  {
+   "id": "as127a",
+   "name": {
+    "en": "AS127A Automatic Foam Soap Dispenser · Wall-Mounted USB Rechargeable",
+    "zh": "AS127A 自动泡沫洗手机 · 壁挂式 USB 充电",
+    "ar": "موزع صابون رغوي أوتوماتيكي AS127A · جداري قابل للشحن عبر USB",
+    "es": "Dispensador automático de espuma de jabón AS127A · de pared, recargable por USB",
+    "fr": "Distributeur automatique de mousse de savon AS127A · mural, rechargeable USB",
+    "id": "Dispenser sabun busa otomatis AS127A · dinding, dapat diisi ulang USB",
+    "ru": "Автоматический пенный дозатор мыла AS127A · настенный, с зарядкой от USB",
+    "th": "เครื่องจ่ายสบู่โฟมอัตโนมัติ AS127A · แบบติดผนัง ชาร์จ USB ได้",
+    "vi": "Bình đựng xà phòng bọt tự động AS127A · gắn tường, sạc USB"
+   },
+   "tagline": {
+    "en": "350 ml · 0.25 s Rapid Foam · 4 Levels · USB-C Rechargeable · Wall-Mounted",
+    "zh": "350 毫升 · 0.25 秒快速出泡 · 四档调节 · USB-C 充电 · 壁挂式",
+    "ar": "٣٥٠ مل · رغوة خلال ٠٫٢٥ ثانية · ٤ مستويات · شحن USB-C · تركيب جداري",
+    "es": "350 ml · espuma en 0,25 s · 4 niveles · recargable USB-C · de pared",
+    "fr": "350 ml · mousse en 0,25 s · 4 niveaux · rechargeable USB-C · mural",
+    "id": "350 ml · busa 0,25 dtk · 4 tingkat · isi ulang USB-C · dinding",
+    "ru": "350 мл · пена за 0,25 с · 4 уровня · зарядка USB-C · настенный",
+    "th": "350 มล. · ออกโฟม 0.25 วินาที · 4 ระดับ · ชาร์จ USB-C · ติดผนัง",
+    "vi": "350 ml · tạo bọt 0,25 giây · 4 mức · sạc USB-C · gắn tường"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/hands-free-soap-dispenser-as127a/01.webp?v=20261030d",
+    "https://www.hkdmj.net/assets/images/products/hands-free-soap-dispenser-as127a/02.webp?v=20261030d",
+    "https://www.hkdmj.net/assets/images/products/hands-free-soap-dispenser-as127a/03.webp?v=20261030d",
+    "https://www.hkdmj.net/assets/images/products/hands-free-soap-dispenser-as127a/04.webp?v=20261030d",
+    "https://www.hkdmj.net/assets/images/products/hands-free-soap-dispenser-as127a/05.webp?v=20261030d",
+    "https://www.hkdmj.net/assets/images/products/hands-free-soap-dispenser-as127a/06.webp?v=20261030d"
+   ],
+   "video_url": "",
+   "moq": {
+    "value": 10,
+    "unit": "pieces"
+   },
+   "certifications": [
+    "CE"
+   ],
+   "cert_note": {
+    "en": "Certification documents on file — available on request.",
+    "zh": "认证资料已备案，可按需提供。"
+   },
+   "highlights": [
+    {
+     "icon": "sensor",
+     "text": {
+      "en": "0.25 s infrared sensor — foam is released the instant hands enter the zone, no touch needed",
+      "zh": "0.25 秒红外感应 — 手一进入感应区即刻出泡，全程免接触",
+      "ar": "مستشعر أشعة تحت الحمراء خلال ٠٫٢٥ ثانية — تخرج الرغوة فور دخول اليدين دون لمس",
+      "es": "Sensor infrarrojo de 0,25 s — la espuma sale al instante al acercar las manos, sin contacto",
+      "fr": "Capteur infrarouge 0,25 s — la mousse sort dès que les mains approchent, sans contact",
+      "id": "Sensor inframerah 0,25 dtk — busa keluar segera saat tangan mendekat, tanpa sentuhan",
+      "ru": "Инфракрасный датчик 0,25 с — пена подаётся сразу при поднесении рук, без касания",
+      "th": "เซ็นเซอร์อินฟราเรด 0.25 วินาที — โฟมออกทันทีเมื่อมือเข้าใกล้ โดยไม่ต้องสัมผัส",
+      "vi": "Cảm biến hồng ngoại 0,25 giây — bọt thoát ra ngay khi tay đến gần, không cần chạm"
+     }
+    },
+    {
+     "icon": "layers",
+     "text": {
+      "en": "Four foam-volume levels — 0.5 / 0.75 / 1.0 / 1.5 s — matched to every handwashing habit",
+      "zh": "四档出泡量 — 0.5 / 0.75 / 1.0 / 1.5 秒 — 适配全家不同的洗手习惯",
+      "ar": "أربعة مستويات للرغوة — ٠٫٥ / ٠٫٧٥ / ١٫٠ / ١٫٥ ثانية — تناسب كل عادات غسل اليدين",
+      "es": "Cuatro niveles de espuma — 0,5 / 0,75 / 1,0 / 1,5 s — para cada hábito de lavado",
+      "fr": "Quatre niveaux de mousse — 0,5 / 0,75 / 1,0 / 1,5 s — adaptés à chaque habitude",
+      "id": "Empat tingkat busa — 0,5 / 0,75 / 1,0 / 1,5 dtk — sesuai semua kebiasaan cuci tangan",
+      "ru": "Четыре уровня пены — 0,5 / 0,75 / 1,0 / 1,5 с — под любые привычки",
+      "th": "ปรับโฟมได้ 4 ระดับ — 0.5 / 0.75 / 1.0 / 1.5 วินาที — เหมาะกับทุกพฤติกรรมการล้างมือ",
+      "vi": "Bốn mức bọt — 0,5 / 0,75 / 1,0 / 1,5 giây — phù hợp mọi thói quen rửa tay"
+     }
+    },
+    {
+     "icon": "droplet",
+     "text": {
+      "en": "Twist-open top with a visible tank — refill in seconds, no tools, no spills",
+      "zh": "顶部旋开设计配可视水箱 — 数秒完成补液，无需工具、不洒漏",
+      "ar": "فتح علوي بالتدوير مع خزان شفاف — إعادة التعبئة في ثوانٍ دون أدوات أو انسكاب",
+      "es": "Tapa superior de rosca con depósito visible — recarga en segundos, sin herramientas ni derrames",
+      "fr": "Dessus à visser avec réservoir visible — recharge en quelques secondes, sans outil ni fuite",
+      "id": "Bagian atas dapat diputar dengan tangki terlihat — isi ulang dalam hitungan detik, tanpa alat",
+      "ru": "Откручивающийся верх и смотровой бак — заправка за секунды, без инструментов и проливания",
+      "th": "ฝาบนหมุนเปิดพร้อมถังมองเห็นได้ — เติมสบู่ภายในไม่กี่วินาที ไม่ต้องใช้เครื่องมือ ไม่หกเลอะ",
+      "vi": "Nắp trên vặn mở kèm bình trong suốt — châm thêm trong vài giây, không cần dụng cụ, không đổ ra ngoài"
+     }
+    },
+    {
+     "icon": "battery",
+     "text": {
+      "en": "USB-C rechargeable at 4 W — no battery purchases, wall-mounted or countertop",
+      "zh": "USB-C 充电、功率 4 瓦 — 无需更换电池，可壁挂也可台面放置",
+      "ar": "قابل للشحن عبر USB-C بقدرة ٤ واط — دون شراء بطاريات، يُثبَّت على الجدار أو على الطاولة",
+      "es": "Recargable por USB-C a 4 W — sin comprar pilas, de pared o sobre el lavabo",
+      "fr": "Rechargeable en USB-C 4 W — aucune pile à acheter, mural ou sur plan",
+      "id": "Isi ulang USB-C 4 W — tidak perlu beli baterai, bisa di dinding atau di atas meja",
+      "ru": "Зарядка USB-C 4 Вт — без покупки батареек, на стену или на столешницу",
+      "th": "ชาร์จ USB-C 4 วัตต์ — ไม่ต้องซื้อถ่าน ติดผนังหรือวางบนเคาน์เตอร์ก็ได้",
+      "vi": "Sạc USB-C 4 W — không phải mua pin, gắn tường hoặc đặt trên mặt bàn đều được"
+     }
+    }
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "Model",
+      "zh": "型号",
+      "ar": "الموديل",
+      "es": "Modelo",
+      "fr": "Modèle",
+      "id": "Model",
+      "ru": "Модель",
+      "th": "รุ่น",
+      "vi": "Model"
+     },
+     "value": {
+      "en": "AS127A",
+      "zh": "AS127A",
+      "ar": "AS127A",
+      "es": "AS127A",
+      "fr": "AS127A",
+      "id": "AS127A",
+      "ru": "AS127A",
+      "th": "AS127A",
+      "vi": "AS127A"
+     }
+    },
+    {
+     "label": {
+      "en": "Type",
+      "zh": "种类",
+      "ar": "النوع",
+      "es": "Tipo",
+      "fr": "Type",
+      "id": "Jenis",
+      "ru": "Тип",
+      "th": "ประเภท",
+      "vi": "Loại"
+     },
+     "value": {
+      "en": "Automatic sensor",
+      "zh": "自动感应",
+      "ar": "استشعار أوتوماتيكي",
+      "es": "Sensor automático",
+      "fr": "Capteur automatique",
+      "id": "Sensor otomatis",
+      "ru": "Автоматический датчик",
+      "th": "เซ็นเซอร์อัตโนมัติ",
+      "vi": "Cảm biến tự động"
+     }
+    },
+    {
+     "label": {
+      "en": "Foam Response",
+      "zh": "出泡响应",
+      "ar": "سرعة إخراج الرغوة",
+      "es": "Respuesta de espuma",
+      "fr": "Réponse mousse",
+      "id": "Respon busa",
+      "ru": "Скорость подачи пены",
+      "th": "การตอบสนองโฟม",
+      "vi": "Tốc độ tạo bọt"
+     },
+     "value": {
+      "en": "0.25 s",
+      "zh": "0.25 s",
+      "ar": "0.25 s",
+      "es": "0.25 s",
+      "fr": "0.25 s",
+      "id": "0.25 s",
+      "ru": "0.25 s",
+      "th": "0.25 s",
+      "vi": "0.25 s"
+     }
+    },
+    {
+     "label": {
+      "en": "Foam Volume Levels",
+      "zh": "出泡档位",
+      "ar": "مستويات حجم الرغوة",
+      "es": "Niveles de volumen de espuma",
+      "fr": "Niveaux de volume de mousse",
+      "id": "Tingkat volume busa",
+      "ru": "Уровни объёма пены",
+      "th": "ระดับปริมาณโฟม",
+      "vi": "Mức thể tích bọt"
+     },
+     "value": {
+      "en": "4 levels (0.5 / 0.75 / 1.0 / 1.5 s)",
+      "zh": "4 levels (0.5 / 0.75 / 1.0 / 1.5 s)",
+      "ar": "4 levels (0.5 / 0.75 / 1.0 / 1.5 s)",
+      "es": "4 levels (0.5 / 0.75 / 1.0 / 1.5 s)",
+      "fr": "4 levels (0.5 / 0.75 / 1.0 / 1.5 s)",
+      "id": "4 levels (0.5 / 0.75 / 1.0 / 1.5 s)",
+      "ru": "4 levels (0.5 / 0.75 / 1.0 / 1.5 s)",
+      "th": "4 levels (0.5 / 0.75 / 1.0 / 1.5 s)",
+      "vi": "4 levels (0.5 / 0.75 / 1.0 / 1.5 s)"
+     }
+    },
+    {
+     "label": {
+      "en": "Soap Tank Capacity",
+      "zh": "皂液容量",
+      "ar": "سعة خزان الصابون",
+      "es": "Capacidad del depósito",
+      "fr": "Capacité du réservoir",
+      "id": "Kapasitas tangki sabun",
+      "ru": "Объём бака для мыла",
+      "th": "ความจุถังสบู่",
+      "vi": "Dung tích bình xà phòng"
+     },
+     "value": {
+      "en": "350 ml",
+      "zh": "350 ml",
+      "ar": "350 ml",
+      "es": "350 ml",
+      "fr": "350 ml",
+      "id": "350 ml",
+      "ru": "350 ml",
+      "th": "350 ml",
+      "vi": "350 ml"
+     }
+    },
+    {
+     "label": {
+      "en": "Material",
+      "zh": "材料",
+      "ar": "المادة",
+      "es": "Material",
+      "fr": "Matériau",
+      "id": "Bahan",
+      "ru": "Материал",
+      "th": "วัสดุ",
+      "vi": "Chất liệu"
+     },
+     "value": {
+      "en": "ABS plastic",
+      "zh": "ABS 塑料",
+      "ar": "بلاستيك ABS",
+      "es": "Plástico ABS",
+      "fr": "Plastique ABS",
+      "id": "Plastik ABS",
+      "ru": "Пластик ABS",
+      "th": "พลาสติก ABS",
+      "vi": "Nhựa ABS"
+     }
+    },
+    {
+     "label": {
+      "en": "Power Source",
+      "zh": "动力种类",
+      "ar": "مصدر الطاقة",
+      "es": "Fuente de alimentación",
+      "fr": "Source d'alimentation",
+      "id": "Sumber daya",
+      "ru": "Источник питания",
+      "th": "แหล่งจ่ายไฟ",
+      "vi": "Nguồn điện"
+     },
+     "value": {
+      "en": "USB rechargeable, 4 W",
+      "zh": "USB 充电，4 瓦",
+      "ar": "قابل للشحن عبر USB، ٤ واط",
+      "es": "Recargable USB, 4 W",
+      "fr": "Rechargeable USB, 4 W",
+      "id": "Isi ulang USB, 4 W",
+      "ru": "Зарядка от USB, 4 Вт",
+      "th": "ชาร์จ USB, 4 วัตต์",
+      "vi": "Sạc USB, 4 W"
+     }
+    },
+    {
+     "label": {
+      "en": "Rated Voltage",
+      "zh": "额定电压",
+      "ar": "الجهد المقنن",
+      "es": "Tensión nominal",
+      "fr": "Tension nominale",
+      "id": "Tegangan terukur",
+      "ru": "Номинальное напряжение",
+      "th": "แรงดันไฟฟ้าที่กำหนด",
+      "vi": "Điện áp định mức"
+     },
+     "value": {
+      "en": "5 V",
+      "zh": "5 V",
+      "ar": "5 V",
+      "es": "5 V",
+      "fr": "5 V",
+      "id": "5 V",
+      "ru": "5 V",
+      "th": "5 V",
+      "vi": "5 V"
+     }
+    },
+    {
+     "label": {
+      "en": "Installation",
+      "zh": "安装方式",
+      "ar": "طريقة التركيب",
+      "es": "Instalación",
+      "fr": "Installation",
+      "id": "Pemasangan",
+      "ru": "Установка",
+      "th": "การติดตั้ง",
+      "vi": "Lắp đặt"
+     },
+     "value": {
+      "en": "Wall-mounted",
+      "zh": "壁挂式",
+      "ar": "تثبيت على الجدار",
+      "es": "De pared",
+      "fr": "Mural",
+      "id": "Dinding",
+      "ru": "Настенный",
+      "th": "ติดผนัง",
+      "vi": "Gắn tường"
+     }
+    },
+    {
+     "label": {
+      "en": "Warranty",
+      "zh": "保修",
+      "ar": "الضمان",
+      "es": "Garantía",
+      "fr": "Garantie",
+      "id": "Garansi",
+      "ru": "Гарантия",
+      "th": "การรับประกัน",
+      "vi": "Bảo hành"
+     },
+     "value": {
+      "en": "1 year",
+      "zh": "1 年",
+      "ar": "سنة واحدة",
+      "es": "1 año",
+      "fr": "1 an",
+      "id": "1 tahun",
+      "ru": "1 год",
+      "th": "1 ปี",
+      "vi": "1 năm"
+     }
+    },
+    {
+     "label": {
+      "en": "Place of Origin",
+      "zh": "产地",
+      "ar": "بلد المنشأ",
+      "es": "País de origen",
+      "fr": "Pays d'origine",
+      "id": "Negara asal",
+      "ru": "Страна производства",
+      "th": "แหล่งผลิต",
+      "vi": "Xuất xứ"
+     },
+     "value": {
+      "en": "Guangdong, China",
+      "zh": "中国广东",
+      "ar": "قوانغدونغ، الصين",
+      "es": "Guangdong, China",
+      "fr": "Guangdong, Chine",
+      "id": "Guangdong, Tiongkok",
+      "ru": "Гуандун, Китай",
+      "th": "กวางตุ้ง จีน",
+      "vi": "Quảng Đông, Trung Quốc"
+     }
+    }
+   ],
+   "quick_specs": [
+    {
+     "label": {
+      "en": "Foam Volume Levels",
+      "zh": "出泡档位",
+      "ar": "مستويات حجم الرغوة",
+      "es": "Niveles de volumen de espuma",
+      "fr": "Niveaux de volume de mousse",
+      "id": "Tingkat volume busa",
+      "ru": "Уровни объёма пены",
+      "th": "ระดับปริมาณโฟม",
+      "vi": "Mức thể tích bọt"
+     },
+     "value": {
+      "en": "4 levels (0.5 / 0.75 / 1.0 / 1.5 s)",
+      "zh": "4 levels (0.5 / 0.75 / 1.0 / 1.5 s)",
+      "ar": "4 levels (0.5 / 0.75 / 1.0 / 1.5 s)",
+      "es": "4 levels (0.5 / 0.75 / 1.0 / 1.5 s)",
+      "fr": "4 levels (0.5 / 0.75 / 1.0 / 1.5 s)",
+      "id": "4 levels (0.5 / 0.75 / 1.0 / 1.5 s)",
+      "ru": "4 levels (0.5 / 0.75 / 1.0 / 1.5 s)",
+      "th": "4 levels (0.5 / 0.75 / 1.0 / 1.5 s)",
+      "vi": "4 levels (0.5 / 0.75 / 1.0 / 1.5 s)"
+     }
+    },
+    {
+     "label": {
+      "en": "Soap Tank Capacity",
+      "zh": "皂液容量",
+      "ar": "سعة خزان الصابون",
+      "es": "Capacidad del depósito",
+      "fr": "Capacité du réservoir",
+      "id": "Kapasitas tangki sabun",
+      "ru": "Объём бака для мыла",
+      "th": "ความจุถังสบู่",
+      "vi": "Dung tích bình xà phòng"
+     },
+     "value": {
+      "en": "350 ml",
+      "zh": "350 ml",
+      "ar": "350 ml",
+      "es": "350 ml",
+      "fr": "350 ml",
+      "id": "350 ml",
+      "ru": "350 ml",
+      "th": "350 ml",
+      "vi": "350 ml"
+     }
+    },
+    {
+     "label": {
+      "en": "Material",
+      "zh": "材料",
+      "ar": "المادة",
+      "es": "Material",
+      "fr": "Matériau",
+      "id": "Bahan",
+      "ru": "Материал",
+      "th": "วัสดุ",
+      "vi": "Chất liệu"
+     },
+     "value": {
+      "en": "ABS plastic",
+      "zh": "ABS 塑料",
+      "ar": "بلاستيك ABS",
+      "es": "Plástico ABS",
+      "fr": "Plastique ABS",
+      "id": "Plastik ABS",
+      "ru": "Пластик ABS",
+      "th": "พลาสติก ABS",
+      "vi": "Nhựa ABS"
+     }
+    },
+    {
+     "label": {
+      "en": "Power Source",
+      "zh": "动力种类",
+      "ar": "مصدر الطاقة",
+      "es": "Fuente de alimentación",
+      "fr": "Source d'alimentation",
+      "id": "Sumber daya",
+      "ru": "Источник питания",
+      "th": "แหล่งจ่ายไฟ",
+      "vi": "Nguồn điện"
+     },
+     "value": {
+      "en": "USB rechargeable, 4 W",
+      "zh": "USB 充电，4 瓦",
+      "ar": "قابل للشحن عبر USB، ٤ واط",
+      "es": "Recargable USB, 4 W",
+      "fr": "Rechargeable USB, 4 W",
+      "id": "Isi ulang USB, 4 W",
+      "ru": "Зарядка от USB, 4 Вт",
+      "th": "ชาร์จ USB, 4 วัตต์",
+      "vi": "Sạc USB, 4 W"
+     }
+    }
+   ],
+   "packaging": {
+    "unit": "Colour Box, Corrugated Carton",
+    "ctn_size": "14 × 14 × 23 cm",
+    "ctn_qty": "1 pc",
+    "gross_weight": "0.6 kg"
+   },
+   "customization": {
+    "oem": true,
+    "odm": true,
+    "logo": true,
+    "color": true,
+    "package": true,
+    "sample_lead": "7–14 days",
+    "production_lead": "25–35 days"
+   },
+   "applications": {
+    "en": "Commercial washrooms, hotels, restaurants, offices, clinics, household bathrooms and kitchens",
+    "zh": "商业洗手间、酒店、餐厅、办公室、诊所、家庭卫浴与厨房",
+    "ar": "دورات مياه تجارية وفنادق ومطاعم ومكاتب وعيادات وحمامات ومطابخ المنازل",
+    "es": "Aseos comerciales, hoteles, restaurantes, oficinas, clínicas, baños y cocinas domésticos",
+    "fr": "Sanitaires commerciaux, hôtels, restaurants, bureaux, cliniques, salles de bain et cuisines",
+    "id": "Toilet komersial, hotel, restoran, kantor, klinik, kamar mandi dan dapur rumah",
+    "ru": "Коммерческие санузлы, отели, рестораны, офисы, клиники, домашние ванные и кухни",
+    "th": "ห้องน้ำเชิงพาณิชย์ โรงแรม ร้านอาหาร สำนักงาน คลินิก ห้องน้ำและห้องครัวในบ้าน",
+    "vi": "Nhà vệ sinh thương mại, khách sạn, nhà hàng, văn phòng, phòng khám, phòng tắm và bếp gia đình"
+   },
+   "price_indicator": {
+    "min": 4.65,
+    "max": 4.8,
+    "currency": "USD"
+   },
+   "price_ladder": [
+    {
+     "min": 10,
+     "max": 99,
+     "price": 4.8
+    },
+    {
+     "min": 100,
+     "max": 999,
+     "price": 4.7
+    },
+    {
+     "min": 1000,
+     "max": 99999,
+     "price": 4.65
+    }
+   ],
+   "sku": [
+    {
+     "name": {
+      "en": "Colour",
+      "zh": "颜色",
+      "ar": "اللون",
+      "es": "Color",
+      "fr": "Couleur",
+      "id": "Warna",
+      "ru": "Цвет",
+      "th": "สี",
+      "vi": "Màu sắc"
+     },
+     "values": [
+      {
+       "name": {
+        "en": "White",
+        "zh": "白色",
+        "ar": "أبيض",
+        "es": "Blanco",
+        "fr": "Blanc",
+        "id": "Putih",
+        "ru": "Белый",
+        "th": "สีขาว",
+        "vi": "Trắng"
+       }
+      },
+      {
+       "name": {
+        "en": "Black",
+        "zh": "黑色",
+        "ar": "أسود",
+        "es": "Negro",
+        "fr": "Noir",
+        "id": "Hitam",
+        "ru": "Чёрный",
+        "th": "สีดำ",
+        "vi": "Đen"
+       }
+      }
+     ]
+    },
+    {
+     "name": {
+      "en": "Plug Type",
+      "zh": "插头类型",
+      "ar": "نوع القابس",
+      "es": "Tipo de enchufe",
+      "fr": "Type de prise",
+      "id": "Jenis steker",
+      "ru": "Тип вилки",
+      "th": "ประเภทปลั๊ก",
+      "vi": "Loại phích cắm"
+     },
+     "values": [
+      {
+       "name": {
+        "en": "No Plug",
+        "zh": "不需要插头",
+        "ar": "بدون قابس",
+        "es": "Sin enchufe",
+        "fr": "Sans prise",
+        "id": "Tanpa steker",
+        "ru": "Без вилки",
+        "th": "ไม่ต้องใช้ปลั๊ก",
+        "vi": "Không cần phích cắm"
+       }
+      },
+      {
+       "name": {
+        "en": "US Plug",
+        "zh": "美规",
+        "ar": "قابس أمريكي",
+        "es": "Enchufe US",
+        "fr": "Prise US",
+        "id": "Steker US",
+        "ru": "Вилка US",
+        "th": "ปลั๊ก US",
+        "vi": "Phích cắm US"
+       }
+      },
+      {
+       "name": {
+        "en": "EU Plug",
+        "zh": "欧规",
+        "ar": "قابس أوروبي",
+        "es": "Enchufe EU",
+        "fr": "Prise UE",
+        "id": "Steker EU",
+        "ru": "Вилка EU",
+        "th": "ปลั๊ก EU",
+        "vi": "Phích cắm EU"
+       }
+      },
+      {
+       "name": {
+        "en": "UK Plug",
+        "zh": "英规",
+        "ar": "قابس بريطاني",
+        "es": "Enchufe UK",
+        "fr": "Prise UK",
+        "id": "Steker UK",
+        "ru": "Вилка UK",
+        "th": "ปลั๊ก UK",
+        "vi": "Phích cắm UK"
+       }
+      },
+      {
+       "name": {
+        "en": "AU Plug",
+        "zh": "澳规",
+        "ar": "قابس أسترالي",
+        "es": "Enchufe AU",
+        "fr": "Prise AU",
+        "id": "Steker AU",
+        "ru": "Вилка AU",
+        "th": "ปลั๊ก AU",
+        "vi": "Phích cắm AU"
+       }
+      }
+     ]
+    }
+   ],
+   "description": {
+    "en": "The AS127A is a wall-mounted automatic foam soap dispenser built around a 350 ml tank and a 0.25 s infrared sensor. A twist-open top makes refilling tool-free, and the visible window shows how much soap is left at a glance. Four foam-volume levels (0.5 / 0.75 / 1.0 / 1.5 s) cover everything from a child quick rinse to a full handwash. USB-C rechargeable at 4 W, ABS housing, CE certified, and offered in black or white with US / EU / UK / AU plug options.",
+    "zh": "AS127A 是一台壁挂式自动泡沫洗手机，配 350 毫升水箱与 0.25 秒红外感应。顶部旋开即可补液，无需工具，可视窗一眼看清余量。四档出泡量（0.5 / 0.75 / 1.0 / 1.5 秒）从儿童快速冲洗到完整洗手都能覆盖。USB-C 充电、功率 4 瓦、ABS 机身、CE 认证，提供黑色与白色，插头可选美规 / 欧规 / 英规 / 澳规。",
+    "ar": "AS127A موزع صابون رغوي أوتوماتيكي يُثبَّت على الجدار، بخزان سعة ٣٥٠ مل ومستشعر أشعة تحت الحمراء يعمل خلال ٠٫٢٥ ثانية. يُفتح الجزء العلوي بالتدوير لإعادة التعبئة دون أدوات، وتُظهر النافذة الشفافة الكمية المتبقية. أربعة مستويات للرغوة (٠٫٥ / ٠٫٧٥ / ١٫٠ / ١٫٥ ثانية) تناسب كل الاستخدامات. يُشحن عبر USB-C بقدرة ٤ واط، هيكل ABS، شهادة CE، باللونين الأسود والأبيض وخيارات قوابس أمريكية وأوروبية وبريطانية وأسترالية.",
+    "es": "El AS127A es un dispensador automático de espuma de jabón de pared con depósito de 350 ml y sensor infrarrojo de 0,25 s. La tapa superior se abre girando para rellenar sin herramientas y la ventana visible muestra el nivel restante. Cuatro niveles de espuma (0,5 / 0,75 / 1,0 / 1,5 s) cubren desde un enjuague rápido hasta un lavado completo. Se recarga por USB-C a 4 W, carcasa ABS, certificado CE, en negro o blanco con enchufes US / EU / UK / AU.",
+    "fr": "L'AS127A est un distributeur automatique de mousse de savon mural doté d'un réservoir de 350 ml et d'un capteur infrarouge de 0,25 s. Le dessus se dévisse pour un remplissage sans outil et la fenêtre transparente indique le niveau restant. Quatre niveaux de mousse (0,5 / 0,75 / 1,0 / 1,5 s) couvrent tous les usages. Rechargeable en USB-C 4 W, corps ABS, certifié CE, en noir ou blanc avec fiches US / EU / UK / AU.",
+    "id": "AS127A adalah dispenser sabun busa otomatis untuk dinding dengan tangki 350 ml dan sensor inframerah 0,25 dtk. Bagian atas diputar untuk mengisi ulang tanpa alat, dan jendela transparan menunjukkan sisa sabun. Empat tingkat busa (0,5 / 0,75 / 1,0 / 1,5 dtk) mencakup semua kebutuhan. Dapat diisi ulang lewat USB-C 4 W, bodi ABS, bersertifikat CE, tersedia hitam atau putih dengan steker US / EU / UK / AU.",
+    "ru": "AS127A — настенный автоматический пенный дозатор мыла с баком 350 мл и инфракрасным датчиком 0,25 с. Верхняя крышка откручивается для заправки без инструментов, а смотровое окно показывает остаток. Четыре уровня пены (0,5 / 0,75 / 1,0 / 1,5 с) подходят для любых сценариев. Зарядка USB-C 4 Вт, корпус ABS, сертификат CE, чёрный или белый, вилки US / EU / UK / AU.",
+    "th": "AS127A เป็นเครื่องจ่ายสบู่โฟมอัตโนมัติแบบติดผนัง ถังจุ 350 มล. เซ็นเซอร์อินฟราเรดตอบสนอง 0.25 วินาที ฝาบนหมุนเปิดเพื่อเติมสบู่ได้โดยไม่ต้องใช้เครื่องมือ และมีช่องมองเห็นระดับสบู่คงเหลือ ปรับระดับโฟมได้ 4 ระดับ (0.5 / 0.75 / 1.0 / 1.5 วินาที) ชาร์จผ่าน USB-C 4 วัตต์ ตัวเครื่อง ABS ผ่านการรับรอง CE มีสีดำและสีขาว เลือกปลั๊ก US / EU / UK / AU ได้",
+    "vi": "AS127A là bình đựng xà phòng bọt tự động gắn tường, bình chứa 350 ml, cảm biến hồng ngoại 0,25 giây. Nắp trên vặn mở để châm thêm xà phòng không cần dụng cụ, cửa sổ trong suốt cho thấy lượng còn lại. Bốn mức bọt (0,5 / 0,75 / 1,0 / 1,5 giây) đáp ứng mọi nhu cầu. Sạc USB-C 4 W, vỏ ABS, chứng nhận CE, có đen hoặc trắng, tùy chọn phích cắm US / EU / UK / AU."
+   },
+   "supplier_rating": "4.6",
+   "response_time": "≤2h",
+   "transactions": "—",
+   "years": "1",
+   "ship_from": {
+    "en": "China",
+    "zh": "中国",
+    "ar": "الصين",
+    "es": "China",
+    "fr": "Chine",
+    "id": "Tiongkok",
+    "ru": "Китай",
+    "th": "จีน",
+    "vi": "Trung Quốc"
+   },
+   "sample": {
+    "enabled": true,
+    "qty": 1,
+    "note": {
+     "en": "Sample available (max 1 pc)",
+     "zh": "可提供样品（最多 1 台）",
+     "ar": "عينة متاحة (بحد أقصى قطعة واحدة)",
+     "es": "Muestra disponible (máx. 1 ud)",
+     "fr": "Échantillon disponible (max. 1 pièce)",
+     "id": "Sampel tersedia (maks. 1 unit)",
+     "ru": "Образец доступен (макс. 1 шт.)",
+     "th": "มีตัวอย่างให้ (สูงสุด 1 เครื่อง)",
+     "vi": "Có mẫu (tối đa 1 chiếc)"
+    }
+   },
+   "category_name": {
+    "en": "Hands-free Soap Dispenser",
+    "zh": "免接触泡沫洗手机",
+    "ar": "موزع صابون أوتوماتيكي",
+    "es": "Dispensador automático de jabón",
+    "fr": "Distributeur automatique de savon",
+    "id": "Dispenser sabun otomatis",
+    "ru": "Автоматический дозатор мыла",
+    "th": "เครื่องจ่ายสบู่อัตโนมัติ",
+    "vi": "Bình đựng xà phòng tự động"
+   },
+   "certificates": [],
+   "supplier": {
+    "country": "HK",
+    "province": "New Territories",
+    "established": 2024,
+    "reply_rate": 0.9987,
+    "verified": false,
+    "main_markets": [
+     "North America",
+     "South America",
+     "Eastern Europe",
+     "Southeast Asia"
+    ]
+   },
+   "store_rating": "4.6",
+   "shipping_fee_usd": 0,
+   "alibaba_url": "https://www.alibaba.com/product-detail/Modern-Design-Automatic-Foam-Soap-Dispenser_1601979661552.html",
+   "_cat": "hands-free-soap-dispenser",
+   "detail_images": [
+    "https://www.hkdmj.net/assets/images/products/hands-free-soap-dispenser-as127a/detail/01.webp?v=20261030d",
+    "https://www.hkdmj.net/assets/images/products/hands-free-soap-dispenser-as127a/detail/02.webp?v=20261030d",
+    "https://www.hkdmj.net/assets/images/products/hands-free-soap-dispenser-as127a/detail/03.webp?v=20261030d",
+    "https://www.hkdmj.net/assets/images/products/hands-free-soap-dispenser-as127a/detail/04.webp?v=20261030d",
+    "https://www.hkdmj.net/assets/images/products/hands-free-soap-dispenser-as127a/detail/05.webp?v=20261030d",
+    "https://www.hkdmj.net/assets/images/products/hands-free-soap-dispenser-as127a/detail/06.webp?v=20261030d",
+    "https://www.hkdmj.net/assets/images/products/hands-free-soap-dispenser-as127a/detail/07.webp?v=20261030d"
+   ]
+  }
+ ],
+ "reviews": []
 }
