@@ -374,12 +374,14 @@
         var vals = skuGroup.values || [];
         for (var vi = 0; vi < vals.length; vi++) {
           var v = vals[vi];
+          // 选项名既可能是纯字符串，也可能是 {lang:...} 多语言字典（用 pick 统一处理）
+          var vname = pick(v.name, state.lang);
           var swatch = v.color ? '<span class="swatch" style="background:' + esc(v.color) + '"></span>' : '';
-          html += '<div class="d-sku-opt' + (vi === 0 ? ' active' : '') + '" data-group="' + si + '" data-val="' + esc(v.name) + '">' + swatch + esc(v.name) + '</div>';
+          html += '<div class="d-sku-opt' + (vi === 0 ? ' active' : '') + '" data-group="' + si + '" data-val="' + esc(vname) + '">' + swatch + esc(vname) + '</div>';
         }
         html += '</div></div>';
         // set initial
-        state.selectedSku[si] = (vals[0] && vals[0].name) || '';
+        state.selectedSku[si] = (vals[0] && pick(vals[0].name, state.lang)) || '';
         var el = $('#aqc-sku-val-' + si, mount);
         if (el) el.textContent = state.selectedSku[si];
       }
