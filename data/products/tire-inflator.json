@@ -1,801 +1,1693 @@
 {
- "category": "tire-inflator",
- "products": [
-  {
-   "id": "ymc6667",
-   "name": {
-    "en": "1200A Jump Starter Tire Inflator Air Compressor 7 in 1 Car Battery Booster with Blower Vacuum LED Light Power Bank SOS OEM ODM",
-    "zh": "1200A 七合一应急启动电源 + 充气泵",
-    "es": "Arrancador de batería 1200A con inflador de neumáticos y compresor de aire 7 en 1, potenciador de batería de coche con soplador, aspiradora, luz LED, batería externa y SOS, OEM ODM",
-    "ar": "مشغّل بطارية 1200A مع مضخة إطارات وضاغط هواء 7 في 1، معزّز بطارية سيارة بمنفاخ ومكنسة وإضاءة LED وبطارية متنقلة وSOS، OEM ODM",
-    "fr": "Démarreur 1200A avec gonfleur de pneus et compresseur d'air 7 en 1, booster de batterie de voiture avec souffleur, aspirateur, éclairage LED, batterie externe et SOS, OEM ODM",
-    "id": "Jump Starter 1200A, Pompa Ban, Kompresor Udara 7 in 1, Booster Baterai Mobil dengan Peniup, Penyedot Debu, Lampu LED, Power Bank, SOS, OEM ODM",
-    "ru": "Пусковое устройство 1200 A с компрессором для шин и воздушным компрессором 7 в 1, автомобильный бустер аккумулятора с воздуходувкой, пылесосом, подсветкой LED, пауэрбанком и SOS, OEM ODM",
-    "th": "เครื่องจั๊มสตาร์ทแบตเตอรี่ 1200A พร้อมเครื่องเติมลมยางและปั๊มลม 7 in 1 บูสเตอร์แบตเตอรี่รถยนต์ พร้อมเป่าลม ดูดฝุ่น ไฟ LED พาวเวอร์แบงก์ และ SOS OEM ODM",
-    "vi": "Bộ kích bình 1200A kèm bơm lốp và máy nén khí 7 trong 1, bộ kích ắc quy ô tô với thổi khí, hút bụi, đèn LED, pin dự phòng và SOS, OEM ODM"
-   },
-   "tagline": {
-    "en": "≤120W · 150PSI / 10.3Bar · 40mins",
-    "zh": "≤120W · 150PSI / 10.3Bar · 40mins",
-    "es": "≤120W · 150PSI / 10.3Bar · 40mins",
-    "ar": "≤120W · 150PSI / 10.3Bar · 40mins",
-    "fr": "≤120W · 150PSI / 10.3Bar · 40mins",
-    "id": "≤120W · 150PSI / 10.3Bar · 40mins",
-    "ru": "≤120W · 150PSI / 10.3Bar · 40mins",
-    "th": "≤120W · 150PSI / 10.3Bar · 40mins",
-    "vi": "≤120W · 150PSI / 10.3Bar · 40mins"
-   },
-   "images": [
-    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/01.webp?v=20261029p",
-    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/02.webp?v=20261029p",
-    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/03.webp?v=20261029p",
-    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/04.webp?v=20261029p",
-    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/05.webp?v=20261029p",
-    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/06.webp?v=20261029p"
-   ],
-   "video_url": null,
-   "moq": {
-    "value": 1,
-    "unit": "pieces"
-   },
-   "certifications": [],
-   "highlights": [],
-   "specs": [
+  "category": "tire-inflator",
+  "products": [
     {
-     "label": {
-      "en": "Power",
-      "zh": "功率",
-      "es": "Potencia",
-      "ar": "القدرة",
-      "fr": "Puissance",
-      "id": "Daya",
-      "ru": "Мощность",
-      "th": "กำลังไฟ",
-      "vi": "Công suất"
-     },
-     "value": {
-      "en": "≤120W",
-      "es": "≤120W",
-      "ar": "≤120W",
-      "fr": "≤120W",
-      "id": "≤120W",
-      "ru": "≤120W",
-      "th": "≤120W",
-      "vi": "≤120W"
-     }
+      "id": "ymc6667",
+      "name": {
+        "en": "1200A Jump Starter Tire Inflator Air Compressor 7 in 1 Car Battery Booster with Blower Vacuum LED Light Power Bank SOS OEM ODM",
+        "zh": "1200A 七合一应急启动电源 + 充气泵",
+        "es": "Arrancador de batería 1200A con inflador de neumáticos y compresor de aire 7 en 1, potenciador de batería de coche con soplador, aspiradora, luz LED, batería externa y SOS, OEM ODM",
+        "ar": "مشغّل بطارية 1200A مع مضخة إطارات وضاغط هواء 7 في 1، معزّز بطارية سيارة بمنفاخ ومكنسة وإضاءة LED وبطارية متنقلة وSOS، OEM ODM",
+        "fr": "Démarreur 1200A avec gonfleur de pneus et compresseur d'air 7 en 1, booster de batterie de voiture avec souffleur, aspirateur, éclairage LED, batterie externe et SOS, OEM ODM",
+        "id": "Jump Starter 1200A, Pompa Ban, Kompresor Udara 7 in 1, Booster Baterai Mobil dengan Peniup, Penyedot Debu, Lampu LED, Power Bank, SOS, OEM ODM",
+        "ru": "Пусковое устройство 1200 A с компрессором для шин и воздушным компрессором 7 в 1, автомобильный бустер аккумулятора с воздуходувкой, пылесосом, подсветкой LED, пауэрбанком и SOS, OEM ODM",
+        "th": "เครื่องจั๊มสตาร์ทแบตเตอรี่ 1200A พร้อมเครื่องเติมลมยางและปั๊มลม 7 in 1 บูสเตอร์แบตเตอรี่รถยนต์ พร้อมเป่าลม ดูดฝุ่น ไฟ LED พาวเวอร์แบงก์ และ SOS OEM ODM",
+        "vi": "Bộ kích bình 1200A kèm bơm lốp và máy nén khí 7 trong 1, bộ kích ắc quy ô tô với thổi khí, hút bụi, đèn LED, pin dự phòng và SOS, OEM ODM"
+      },
+      "tagline": {
+        "en": "≤120W · 150PSI / 10.3Bar · 40mins",
+        "zh": "≤120W · 150PSI / 10.3Bar · 40mins",
+        "es": "≤120W · 150PSI / 10.3Bar · 40mins",
+        "ar": "≤120W · 150PSI / 10.3Bar · 40mins",
+        "fr": "≤120W · 150PSI / 10.3Bar · 40mins",
+        "id": "≤120W · 150PSI / 10.3Bar · 40mins",
+        "ru": "≤120W · 150PSI / 10.3Bar · 40mins",
+        "th": "≤120W · 150PSI / 10.3Bar · 40mins",
+        "vi": "≤120W · 150PSI / 10.3Bar · 40mins"
+      },
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/01.webp?v=20261029p",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/02.webp?v=20261029p",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/03.webp?v=20261029p",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/04.webp?v=20261029p",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/05.webp?v=20261029p",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/06.webp?v=20261029p"
+      ],
+      "video_url": null,
+      "moq": {
+        "value": 1,
+        "unit": "pieces"
+      },
+      "certifications": [],
+      "highlights": [],
+      "specs": [
+        {
+          "label": {
+            "en": "Power",
+            "zh": "功率",
+            "es": "Potencia",
+            "ar": "القدرة",
+            "fr": "Puissance",
+            "id": "Daya",
+            "ru": "Мощность",
+            "th": "กำลังไฟ",
+            "vi": "Công suất"
+          },
+          "value": {
+            "en": "≤120W",
+            "es": "≤120W",
+            "ar": "≤120W",
+            "fr": "≤120W",
+            "id": "≤120W",
+            "ru": "≤120W",
+            "th": "≤120W",
+            "vi": "≤120W"
+          }
+        },
+        {
+          "label": {
+            "en": "Battery Type",
+            "zh": "电池类型",
+            "es": "Tipo de batería",
+            "ar": "نوع البطارية",
+            "fr": "Type de batterie",
+            "id": "Jenis Baterai",
+            "ru": "Тип аккумулятора",
+            "th": "ประเภทแบตเตอรี่",
+            "vi": "Loại pin"
+          },
+          "value": {
+            "en": "Lithium Polymer Battery",
+            "es": "Batería de polímero de litio",
+            "ar": "بطارية ليثيوم بوليمر",
+            "fr": "Batterie polymère au lithium",
+            "id": "Baterai Litium Polimer",
+            "ru": "Литий-полимерный аккумулятор",
+            "th": "แบตเตอรี่ลิเธียมโพลิเมอร์",
+            "vi": "Pin lithium polymer"
+          }
+        },
+        {
+          "label": {
+            "en": "Battery Capacity",
+            "zh": "电池容量",
+            "es": "Capacidad de batería",
+            "ar": "سعة البطارية",
+            "fr": "Capacité de la batterie",
+            "id": "Kapasitas Baterai",
+            "ru": "Ёмкость аккумулятора",
+            "th": "ความจุแบตเตอรี่",
+            "vi": "Dung lượng pin"
+          },
+          "value": {
+            "en": "2500mAh*4",
+            "es": "2500mAh*4",
+            "ar": "2500mAh*4",
+            "fr": "2500mAh*4",
+            "id": "2500mAh*4",
+            "ru": "2500mAh*4",
+            "th": "2500mAh*4",
+            "vi": "2500mAh*4"
+          }
+        },
+        {
+          "label": {
+            "en": "Charging Time",
+            "zh": "充电时间",
+            "es": "Tiempo de carga",
+            "ar": "زمن الشحن",
+            "fr": "Temps de charge",
+            "id": "Waktu Pengisian",
+            "ru": "Время зарядки",
+            "th": "เวลาในการชาร์จ",
+            "vi": "Thời gian sạc"
+          },
+          "value": {
+            "en": "3-5H",
+            "es": "3-5H",
+            "ar": "3-5H",
+            "fr": "3-5H",
+            "id": "3-5H",
+            "ru": "3-5H",
+            "th": "3-5H",
+            "vi": "3-5H"
+          }
+        },
+        {
+          "label": {
+            "en": "Working Time",
+            "zh": "工作时间",
+            "es": "Tiempo de funcionamiento",
+            "ar": "زمن العمل",
+            "fr": "Temps de fonctionnement",
+            "id": "Waktu Kerja",
+            "ru": "Время работы",
+            "th": "เวลาทำงาน",
+            "vi": "Thời gian làm việc"
+          },
+          "value": {
+            "en": "40mins",
+            "es": "40mins",
+            "ar": "40mins",
+            "fr": "40mins",
+            "id": "40mins",
+            "ru": "40mins",
+            "th": "40mins",
+            "vi": "40mins"
+          }
+        },
+        {
+          "label": {
+            "en": "Maximum Pressure",
+            "zh": "Maximum Pressure",
+            "es": "Presión máxima",
+            "ar": "أقصى ضغط",
+            "fr": "Pression maximale",
+            "id": "Tekanan Maksimum",
+            "ru": "Максимальное давление",
+            "th": "แรงดันสูงสุด",
+            "vi": "Áp suất tối đa"
+          },
+          "value": {
+            "en": "150PSI / 10.3Bar",
+            "es": "150PSI / 10.3Bar",
+            "ar": "150PSI / 10.3Bar",
+            "fr": "150PSI / 10.3Bar",
+            "id": "150PSI / 10.3Bar",
+            "ru": "150PSI / 10.3Bar",
+            "th": "150PSI / 10.3Bar",
+            "vi": "150PSI / 10.3Bar"
+          }
+        },
+        {
+          "label": {
+            "en": "Warranty",
+            "zh": "质保",
+            "es": "Garantía",
+            "ar": "الضمان",
+            "fr": "Garantie",
+            "id": "Garansi",
+            "ru": "Гарантия",
+            "th": "การรับประกัน",
+            "vi": "Bảo hành"
+          },
+          "value": {
+            "en": "1 Year",
+            "es": "1 año",
+            "ar": "سنة واحدة",
+            "fr": "1 an",
+            "id": "1 tahun",
+            "ru": "1 год",
+            "th": "1 ปี",
+            "vi": "1 năm"
+          }
+        },
+        {
+          "label": {
+            "en": "Function",
+            "zh": "功能",
+            "es": "Función",
+            "ar": "الوظيفة",
+            "fr": "Fonction",
+            "id": "Fungsi",
+            "ru": "Функция",
+            "th": "ฟังก์ชัน",
+            "vi": "Chức năng"
+          },
+          "value": {
+            "en": "Emergency Light",
+            "es": "Luz de emergencia",
+            "ar": "إضاءة طوارئ",
+            "fr": "Éclairage d'urgence",
+            "id": "Lampu Darurat",
+            "ru": "Аварийный свет",
+            "th": "ไฟฉุกเฉิน",
+            "vi": "Đèn khẩn cấp"
+          }
+        },
+        {
+          "label": {
+            "en": "Function",
+            "zh": "功能",
+            "es": "Función",
+            "ar": "الوظيفة",
+            "fr": "Fonction",
+            "id": "Fungsi",
+            "ru": "Функция",
+            "th": "ฟังก์ชัน",
+            "vi": "Chức năng"
+          },
+          "value": {
+            "en": "Power Indicator",
+            "es": "Indicador de potencia",
+            "ar": "مؤشر الطاقة",
+            "fr": "Indicateur de puissance",
+            "id": "Indikator Daya",
+            "ru": "Индикатор питания",
+            "th": "ไฟแสดงสถานะพลังงาน",
+            "vi": "Đèn báo nguồn"
+          }
+        },
+        {
+          "label": {
+            "en": "Function",
+            "zh": "功能",
+            "es": "Función",
+            "ar": "الوظيفة",
+            "fr": "Fonction",
+            "id": "Fungsi",
+            "ru": "Функция",
+            "th": "ฟังก์ชัน",
+            "vi": "Chức năng"
+          },
+          "value": {
+            "en": "Tire Pressure Monitor",
+            "es": "Monitor de presión de neumáticos",
+            "ar": "مراقبة ضغط الإطارات",
+            "fr": "Contrôle de la pression des pneus",
+            "id": "Monitor Tekanan Ban",
+            "ru": "Мониторинг давления в шинах",
+            "th": "มาตรวัดแรงดันยาง",
+            "vi": "Đo áp suất lốp"
+          }
+        },
+        {
+          "label": {
+            "en": "Display Type",
+            "zh": "Display Type",
+            "es": "Tipo de pantalla",
+            "ar": "نوع الشاشة",
+            "fr": "Type d'écran",
+            "id": "Jenis Layar",
+            "ru": "Тип дисплея",
+            "th": "ประเภทหน้าจอแสดงผล",
+            "vi": "Loại màn hình"
+          },
+          "value": {
+            "en": "digital pressure gauge",
+            "es": "manómetro digital",
+            "ar": "مقياس ضغط رقمي",
+            "fr": "manomètre numérique",
+            "id": "pengukur tekanan digital",
+            "ru": "цифровой манометр",
+            "th": "มาตรวัดแรงดันดิจิทัล",
+            "vi": "đồng hồ đo áp suất kỹ thuật số"
+          }
+        },
+        {
+          "label": {
+            "en": "Cylinder type",
+            "zh": "Cylinder type",
+            "es": "Tipo de cilindro",
+            "ar": "نوع الأسطوانة",
+            "fr": "Type de cylindre",
+            "id": "Jenis silinder",
+            "ru": "Тип цилиндра",
+            "th": "ประเภทสูบ",
+            "vi": "Loại xi-lanh"
+          },
+          "value": {
+            "en": "Single Cylinder Inflators",
+            "es": "Infladores de cilindro único",
+            "ar": "مضخات بأسطوانة واحدة",
+            "fr": "Gonfleurs à cylindre unique",
+            "id": "Pompa Silinder Tunggal",
+            "ru": "Одноцилиндровые компрессоры",
+            "th": "เครื่องเติมลมแบบสูบเดียว",
+            "vi": "Bơm một xi-lanh"
+          }
+        },
+        {
+          "label": {
+            "en": "Material",
+            "zh": "材质",
+            "es": "Material",
+            "ar": "المادة",
+            "fr": "Matériau",
+            "id": "Material",
+            "ru": "Материал",
+            "th": "วัสดุ",
+            "vi": "Chất liệu"
+          },
+          "value": {
+            "en": "ABS",
+            "es": "ABS",
+            "ar": "ABS",
+            "fr": "ABS",
+            "id": "ABS",
+            "ru": "ABS",
+            "th": "ABS",
+            "vi": "ABS"
+          }
+        },
+        {
+          "label": {
+            "en": "Suitable for",
+            "zh": "Suitable for",
+            "es": "Apto para",
+            "ar": "مناسب لـ",
+            "fr": "Convient pour",
+            "id": "Cocok untuk",
+            "ru": "Подходит для",
+            "th": "เหมาะสำหรับ",
+            "vi": "Phù hợp cho"
+          },
+          "value": {
+            "en": "Compact Car / Motorcycle",
+            "es": "Coche compacto / motocicleta",
+            "ar": "سيارة صغيرة / دراجة نارية",
+            "fr": "Petite voiture / moto",
+            "id": "Mobil Kompak / Motor",
+            "ru": "Малолитражный автомобиль / мотоцикл",
+            "th": "รถยนต์ขนาดเล็ก / รถจักรยานยนต์",
+            "vi": "Xe nhỏ / xe máy"
+          }
+        },
+        {
+          "label": {
+            "en": "certification",
+            "zh": "certification",
+            "es": "certificación",
+            "ar": "الشهادة",
+            "fr": "certification",
+            "id": "sertifikasi",
+            "ru": "сертификация",
+            "th": "การรับรอง",
+            "vi": "chứng nhận"
+          },
+          "value": {
+            "en": "CE",
+            "es": "CE",
+            "ar": "CE",
+            "fr": "CE",
+            "id": "CE",
+            "ru": "CE",
+            "th": "CE",
+            "vi": "CE"
+          }
+        },
+        {
+          "label": {
+            "en": "Color",
+            "zh": "颜色",
+            "es": "Color",
+            "ar": "اللون",
+            "fr": "Couleur",
+            "id": "Warna",
+            "ru": "Цвет",
+            "th": "สี",
+            "vi": "Màu sắc"
+          },
+          "value": {
+            "en": "Black",
+            "es": "Negro",
+            "ar": "أسود",
+            "fr": "Noir",
+            "id": "Hitam",
+            "ru": "Чёрный",
+            "th": "ดำ",
+            "vi": "Đen"
+          }
+        },
+        {
+          "label": {
+            "en": "Place of Origin",
+            "zh": "产地",
+            "es": "País de Origen",
+            "ar": "بلد المنشأ",
+            "fr": "Lieu d'origine",
+            "id": "Negara Asal",
+            "ru": "Страна происхождения",
+            "th": "แหล่งที่มา",
+            "vi": "Xuất xứ"
+          },
+          "value": {
+            "en": "CN",
+            "es": "CN",
+            "ar": "CN",
+            "fr": "CN",
+            "id": "CN",
+            "ru": "CN",
+            "th": "CN",
+            "vi": "CN"
+          }
+        },
+        {
+          "label": {
+            "en": "Voltage",
+            "zh": "电压",
+            "es": "Tensión",
+            "ar": "الجهد",
+            "fr": "Tension",
+            "id": "Tegangan",
+            "ru": "Напряжение",
+            "th": "แรงดันไฟฟ้า",
+            "vi": "Điện áp"
+          },
+          "value": {
+            "en": "14.8V",
+            "es": "14.8V",
+            "ar": "14.8V",
+            "fr": "14.8V",
+            "id": "14.8V",
+            "ru": "14.8V",
+            "th": "14.8V",
+            "vi": "14.8V"
+          }
+        },
+        {
+          "label": {
+            "en": "Size",
+            "zh": "尺寸",
+            "es": "Tamaño",
+            "ar": "الحجم",
+            "fr": "Taille",
+            "id": "Ukuran",
+            "ru": "Размер",
+            "th": "ขนาด",
+            "vi": "Kích thước"
+          },
+          "value": {
+            "en": "23*10*11CM",
+            "es": "23*10*11CM",
+            "ar": "23*10*11CM",
+            "fr": "23*10*11CM",
+            "id": "23*10*11CM",
+            "ru": "23*10*11CM",
+            "th": "23*10*11CM",
+            "vi": "23*10*11CM"
+          }
+        },
+        {
+          "label": {
+            "en": "Model Number",
+            "zh": "型号",
+            "es": "Número de modelo",
+            "ar": "رقم الموديل",
+            "fr": "Numéro de modèle",
+            "id": "Nomor Model",
+            "ru": "Номер модели",
+            "th": "หมายเลขรุ่น",
+            "vi": "Số model"
+          },
+          "value": {
+            "en": "YMC6667",
+            "es": "YMC6667",
+            "ar": "YMC6667",
+            "fr": "YMC6667",
+            "id": "YMC6667",
+            "ru": "YMC6667",
+            "th": "YMC6667",
+            "vi": "YMC6667"
+          }
+        },
+        {
+          "label": {
+            "en": "Noise Level",
+            "zh": "噪音",
+            "es": "Nivel de ruido",
+            "ar": "مستوى الضجيج",
+            "fr": "Niveau sonore",
+            "id": "Tingkat Kebisingan",
+            "ru": "Уровень шума",
+            "th": "ระดับเสียงรบกวน",
+            "vi": "Mức ồn"
+          },
+          "value": {
+            "en": "85",
+            "es": "85",
+            "ar": "85",
+            "fr": "85",
+            "id": "85",
+            "ru": "85",
+            "th": "85",
+            "vi": "85"
+          }
+        }
+      ],
+      "packaging": {
+        "unit": "Color Box"
+      },
+      "customization": {},
+      "applications": {
+        "en": "",
+        "zh": ""
+      },
+      "price_indicator": null,
+      "quick_specs": [
+        {
+          "label": {
+            "en": "Power",
+            "zh": "功率",
+            "es": "Potencia",
+            "ar": "القدرة",
+            "fr": "Puissance",
+            "id": "Daya",
+            "ru": "Мощность",
+            "th": "กำลังไฟ",
+            "vi": "Công suất"
+          },
+          "value": {
+            "en": "≤120W",
+            "es": "≤120W",
+            "ar": "≤120W",
+            "fr": "≤120W",
+            "id": "≤120W",
+            "ru": "≤120W",
+            "th": "≤120W",
+            "vi": "≤120W"
+          }
+        },
+        {
+          "label": {
+            "en": "Maximum Pressure",
+            "zh": "最大气压",
+            "es": "Presión máxima",
+            "ar": "أقصى ضغط",
+            "fr": "Pression maximale",
+            "id": "Tekanan Maksimum",
+            "ru": "Максимальное давление",
+            "th": "แรงดันสูงสุด",
+            "vi": "Áp suất tối đa"
+          },
+          "value": {
+            "en": "150PSI / 10.3Bar",
+            "es": "150PSI / 10.3Bar",
+            "ar": "150PSI / 10.3Bar",
+            "fr": "150PSI / 10.3Bar",
+            "id": "150PSI / 10.3Bar",
+            "ru": "150PSI / 10.3Bar",
+            "th": "150PSI / 10.3Bar",
+            "vi": "150PSI / 10.3Bar"
+          }
+        },
+        {
+          "label": {
+            "en": "Working Time",
+            "zh": "工作时间",
+            "es": "Tiempo de funcionamiento",
+            "ar": "زمن العمل",
+            "fr": "Temps de fonctionnement",
+            "id": "Waktu Kerja",
+            "ru": "Время работы",
+            "th": "เวลาทำงาน",
+            "vi": "Thời gian làm việc"
+          },
+          "value": {
+            "en": "40mins",
+            "es": "40mins",
+            "ar": "40mins",
+            "fr": "40mins",
+            "id": "40mins",
+            "ru": "40mins",
+            "th": "40mins",
+            "vi": "40mins"
+          }
+        },
+        {
+          "label": {
+            "en": "Battery Capacity",
+            "zh": "电池容量",
+            "es": "Capacidad de batería",
+            "ar": "سعة البطارية",
+            "fr": "Capacité de la batterie",
+            "id": "Kapasitas Baterai",
+            "ru": "Ёмкость аккумулятора",
+            "th": "ความจุแบตเตอรี่",
+            "vi": "Dung lượng pin"
+          },
+          "value": {
+            "en": "2500mAh*4",
+            "es": "2500mAh*4",
+            "ar": "2500mAh*4",
+            "fr": "2500mAh*4",
+            "id": "2500mAh*4",
+            "ru": "2500mAh*4",
+            "th": "2500mAh*4",
+            "vi": "2500mAh*4"
+          }
+        }
+      ],
+      "price_ladder": [],
+      "sku": "1601909117845",
+      "description": {
+        "en": "≤120W · 150PSI / 10.3Bar · 40mins. OEM/ODM available; specifications from the supplier listing.",
+        "zh": "≤120W · 150PSI / 10.3Bar · 40mins。支持 OEM/ODM 定制，规格取自供应商商品资料。",
+        "es": "≤120W · 150PSI / 10.3Bar · 40mins. Disponible en OEM/ODM; especificaciones tomadas del listado del proveedor.",
+        "ar": "≤120W · 150PSI / 10.3Bar · 40mins. متاح بنظام OEM/ODM؛ المواصفات مأخوذة من قائمة المورّد.",
+        "fr": "≤120W · 150PSI / 10.3Bar · 40mins. Disponible en OEM/ODM ; spécifications issues de la fiche du fournisseur.",
+        "id": "≤120W · 150PSI / 10.3Bar · 40mins. Tersedia dalam OEM/ODM; spesifikasi diambil dari daftar pemasok.",
+        "ru": "≤120W · 150PSI / 10.3Bar · 40mins. Доступно в OEM/ODM; характеристики взяты из карточки товара поставщика.",
+        "th": "≤120W · 150PSI / 10.3Bar · 40mins. มีให้บริการในรูปแบบ OEM/ODM; ข้อมูลจำเพาะนำมาจากประกาศของผู้ขาย",
+        "vi": "≤120W · 150PSI / 10.3Bar · 40mins. Có sẵn dạng OEM/ODM; thông số kỹ thuật lấy từ niêm yết của nhà cung cấp."
+      },
+      "supplier_rating": "4.8",
+      "response_time": "≤ 2h",
+      "transactions": "US $100K+",
+      "years": "10+",
+      "ship_from": {
+        "en": "Ningbo, China",
+        "zh": "中国宁波"
+      },
+      "sample": {
+        "enabled": true,
+        "qty": 5,
+        "note": "Sample available, lead 7-14 days"
+      },
+      "category_name": {
+        "en": "Tire Inflators & Air Compressors",
+        "zh": "充气泵",
+        "es": "Inflador de Neumaticos Digital",
+        "ar": "مضخة إطارات رقمية",
+        "fr": "Gonfleur de pneus numérique",
+        "id": "Pompa Ban Digital",
+        "ru": "Цифровой компрессор для шин",
+        "th": "ปั๊มลมยางดิจิทัล",
+        "vi": "Bơm lốp xe kỹ thuật số"
+      },
+      "_source": {
+        "platform": "alibaba.com",
+        "productId": "1601909117845"
+      },
+      "_cat": "tire-inflator",
+      "detail_images": [
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/detail/01.webp?v=20261029p",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/detail/02.webp?v=20261029p",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/detail/03.webp?v=20261029p",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/detail/04.webp?v=20261029p",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/detail/05.webp?v=20261029p",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/detail/06.webp?v=20261029p",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/detail/07.webp?v=20261029p",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/detail/08.webp?v=20261029p",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/detail/09.webp?v=20261029p",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/detail/10.webp?v=20261029p",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/detail/11.webp?v=20261029p"
+      ]
     },
     {
-     "label": {
-      "en": "Battery Type",
-      "zh": "电池类型",
-      "es": "Tipo de batería",
-      "ar": "نوع البطارية",
-      "fr": "Type de batterie",
-      "id": "Jenis Baterai",
-      "ru": "Тип аккумулятора",
-      "th": "ประเภทแบตเตอรี่",
-      "vi": "Loại pin"
-     },
-     "value": {
-      "en": "Lithium Polymer Battery",
-      "es": "Batería de polímero de litio",
-      "ar": "بطارية ليثيوم بوليمر",
-      "fr": "Batterie polymère au lithium",
-      "id": "Baterai Litium Polimer",
-      "ru": "Литий-полимерный аккумулятор",
-      "th": "แบตเตอรี่ลิเธียมโพลิเมอร์",
-      "vi": "Pin lithium polymer"
-     }
+      "video_url": null,
+      "packaging": {
+        "unit": "Color Box"
+      },
+      "customization": {},
+      "supplier_rating": "4.6",
+      "response_time": "≤ 2h",
+      "years": "1",
+      "sample": {
+        "enabled": true,
+        "qty": 5,
+        "note": "Sample available, lead 7-14 days"
+      },
+      "category_name": {
+        "en": "Tire Inflators & Air Compressors",
+        "zh": "充气泵",
+        "es": "Inflador de Neumaticos Digital",
+        "ar": "مضخة إطارات رقمية",
+        "fr": "Gonfleur de pneus numérique",
+        "id": "Pompa Ban Digital",
+        "ru": "Цифровой компрессор для шин",
+        "th": "ปั๊มลมยางดิจิทัล",
+        "vi": "Bơm lốp xe kỹ thuật số"
+      },
+      "id": "js6in1",
+      "_source": {
+        "platform": "alibaba.com",
+        "productId": "1601909142066"
+      },
+      "_cat": "tire-inflator",
+      "name": {
+        "en": "6-in-1 Portable Jump Starter & Tire Inflator · 800A Peak · 150PSI Digital Air Compressor with Power Bank & LED Light",
+        "zh": "6合1便携式应急启动电源·轮胎充气泵 · 800A峰值 · 150PSI数显充气，含移动电源与LED灯",
+        "ar": "جهاز بدء تشغيل محمول 6 في 1 ومضخة إطارات · تيار ذروة 800A · ضاغط هواء رقمي 150PSI مع بنك طاقة ومصباح LED",
+        "es": "Arrancador portátil 6 en 1 e inflador de neumáticos · 800A pico · compresor digital 150PSI con power bank y luz LED",
+        "fr": "Démarreur portable 6 en 1 et gonfleur de pneus · 800A crête · compresseur numérique 150PSI avec batterie externe et lampe LED",
+        "id": "Starter Portable 6-in-1 & Pengisi Ban · Puncak 800A · Kompresor Digital 150PSI dengan Power Bank & Lampu LED",
+        "ru": "Пусковое устройство 6-в-1 и насос для шин · пиковый ток 800A · цифровой компрессор 150PSI с повербанком и LED-фонарём",
+        "th": "เครื่องสตาร์ทพกพา 6 ใน 1 และปั๊มลมยาง · กระแสสูงสุด 800A · คอมเพรสเซอร์ดิจิทัล 150PSI พร้อมเพาเวอร์แบงก์และไฟ LED",
+        "vi": "Máy kích nổ ắc quy 6 in 1 & bơm lốp xe · dòng đỉnh 800A · máy nén khí số 150PSI kèm pin sạc dự phòng và đèn LED"
+      },
+      "tagline": {
+        "en": "800A jump start · 150PSI digital inflation · power bank & SOS light in one pocket unit",
+        "zh": "800A 应急启动 · 150PSI 数显充气 · 移动电源与 SOS 灯，一台全搞定",
+        "ar": "بدء تشغيل 800A · نفخ رقمي 150PSI · بنك طاقة وإضاءة SOS في جهاز واحد",
+        "es": "Arranque 800A · hinchado digital 150PSI · power bank y luz SOS en un solo equipo",
+        "fr": "Démarrage 800A · gonflage numérique 150PSI · batterie externe et éclairage SOS en un seul appareil",
+        "id": "Jump start 800A · inflasi digital 150PSI · power bank & lampu SOS dalam satu unit",
+        "ru": "Пуск 800A · цифровая подкачка 150PSI · повербанк и SOS-фонарь в одном устройстве",
+        "th": "สตาร์ทฉุกเฉิน 800A · เติมลมดิจิทัล 150PSI · เพาเวอร์แบงก์และไฟ SOS ในเครื่องเดียว",
+        "vi": "Kích nổ 800A · bơm số 150PSI · pin sạc dự phòng và đèn SOS gọn trong một máy"
+      },
+      "description": {
+        "en": "JS6IN1 is a six-in-one car emergency tool that combines an 800A peak jump starter, a 150PSI digital tire inflator with tyre-pressure measurement, a 10000 mAh power bank, an LED flood light and an SOS rescue mode. Four 2500 mAh cells charge over USB Type-C in 3-5 hours and drive a 120 W motor; the 36 cm hose and Φ19-22 mm cylinder cover car, bike and ball valves. Five nozzles and smart jumper cables ship in the box; CE, FCC, UKCA, RoHS, UN38.3 and MSDS certified, with OEM logo, colour and packaging customisable, MOQ 10 sets.",
+        "zh": "JS6IN1 是一款六合一车载应急工具，集 800A 峰值应急启动、150PSI 数显轮胎充气（含胎压测量）、10000mAh 移动电源、LED 照明灯与 SOS 救援模式于一身。4 节 2500mAh 电芯经 USB Type-C 3-5 小时充满，驱动 120W 电机；36cm 气管与 Φ19-22mm 气缸适配汽车、自行车与球类气嘴。标配五款气嘴与智能搭电线；已获 CE、FCC、UKCA、RoHS、UN38.3、MSDS 认证，支持 OEM 标识、配色与包装定制，MOQ 10 套。",
+        "ar": "JS6IN1 أداة طوارئ سيارة 6 في 1 تجمع جهاز بدء تشغيل بتيار ذروة 800A، ومضخة إطارات رقمية 150PSI مع قياس ضغط الإطار، وبنك طاقة 10000mAh، ومصباح LED، ووضع إنقاذ SOS. أربع خلايا 2500mAh تُشحن عبر USB Type-C خلال 3-5 ساعات وتشغل محركاً بقدرة 120W؛ خرطوم 36 سم وأسطوانة Φ19-22mm تناسب صمامات السيارات والدراجات والكرات. يأتي مع خمس فوهات وكابلات تشغيل ذكية؛ حاصلة على CE وFCC وUKCA وRoHS وUN38.3 وMSDS، مع إمكانية تخصيص الشعار واللون والتغليف، الحد الأدنى 10 مجموعات.",
+        "es": "JS6IN1 es una herramienta de emergencia 6 en 1 que combina un arrancador de 800A pico, un inflador digital de 150PSI con medición de presión, un power bank de 10000mAh, una luz LED y modo SOS de rescate. Cuatro celdas de 2500mAh se cargan por USB Type-C en 3-5 horas y alimentan un motor de 120W; la manguera de 36cm y el cilindro Φ19-22mm cubren válvulas de auto, bicicleta y balón. Incluye cinco boquillas y pinzas inteligentes; certificado CE, FCC, UKCA, RoHS, UN38.3 y MSDS, con logo OEM, color y empaque personalizables, MOQ 10 juegos.",
+        "fr": "JS6IN1 est un outil d’urgence 6 en 1 réunissant un démarreur 800A crête, un gonfleur numérique 150PSI avec mesure de pression, une batterie externe de 10000mAh, une lampe LED et un mode SOS. Quatre cellules de 2500mAh se rechargent en USB Type-C en 3-5 h et alimentent un moteur 120W ; le tuyau de 36 cm et le cylindre Φ19-22mm conviennent aux voitures, vélos et ballons. Livré avec cinq embouts et câbles de démarrage intelligents ; certifié CE, FCC, UKCA, RoHS, UN38.3 et MSDS, personnalisation OEM du logo, de la couleur et de l’emballage, MOQ 10 lots.",
+        "id": "JS6IN1 adalah alat darurat mobil 6-in-1 yang menggabungkan jump starter puncak 800A, pengisi ban digital 150PSI dengan pengukuran tekanan, power bank 10000mAh, lampu LED, dan mode SOS. Empat sel 2500mAh diisi via USB Type-C dalam 3-5 jam dan menggerakkan motor 120W; selang 36cm dan silinder Φ19-22mm cocok untuk katup mobil, sepeda, dan bola. Termasuk lima nosel dan kabel jumper pintar; bersertifikat CE, FCC, UKCA, RoHS, UN38.3, MSDS, logo OEM, warna, dan kemasan dapat disesuaikan, MOQ 10 set.",
+        "ru": "JS6IN1 — автомобильный аварийный инструмент 6-в-1: стартер с пиковым током 800A, цифровой насос 150PSI с измерением давления, повербанк 10000mAh, LED-фонарь и режим SOS. Четыре ячейки 2500mAh заряжаются по USB Type-C за 3-5 часов и питают мотор 120Вт; шланг 36 см и цилиндр Φ19-22мм подходят для авто, велосипедов и мячей. В комплекте пять насадок и умные пусковые провода; сертификаты CE, FCC, UKCA, RoHS, UN38.3, MSDS; возможен OEM-логотип, цвет и упаковка, MOQ 10 комплектов.",
+        "th": "JS6IN1 เป็นอุปกรณ์ฉุกเฉินรถยนต์ 6 ใน 1 รวมเครื่องสตาร์ทกระแสสูงสุด 800A ปั๊มลมดิจิทัล 150PSI พร้อมวัดแรงดัน เพาเวอร์แบงก์ 10000mAh ไฟ LED และโหมด SOS แบตเตอรี่ 4 เซลล์ 2500mAh ชาร์จผ่าน USB Type-C ใน 3-5 ชั่วโมง ขับมอเตอร์ 120W สายลม 36ซม. และกระบอกสูบ Φ19-22มม. ใช้ได้กับล้อรถ จักรยาน และลูกบอล มาพร้อมหัวจ่าย 5 แบบและสายแจมสมาร์ท ผ่านการรับรอง CE FCC UKCA RoHS UN38.3 MSDS ปรับโลโก้ OEM สีและบรรจุภัณฑ์ได้ MOQ 10 ชุด",
+        "vi": "JS6IN1 là dụng cụ khẩn cấp ô tô 6 in 1, kết hợp máy kích nổ dòng đỉnh 800A, bơm lốp số 150PSI có đo áp suất, pin sạc dự phòng 10000mAh, đèn LED và chế độ SOS. Bốn cell 2500mAh sạc qua USB Type-C trong 3-5 giờ, dẫn động động cơ 120W; ống hơi 36cm và xi-lanh Φ19-22mm phù hợp van ô tô, xe đạp, bóng. Kèm 5 đầu bơm và cáp kích thông minh; đạt CE, FCC, UKCA, RoHS, UN38.3, MSDS; tùy chỉnh logo OEM, màu sắc, bao bì, MOQ 10 bộ."
+      },
+      "applications": {
+        "en": "Cars, SUVs, motorcycles, trucks, bicycles and balls; roadside emergencies, fleet maintenance, outdoor and camping lighting",
+        "zh": "轿车、SUV、摩托车、货车、自行车与球类；道路救援、车队保养、户外露营照明",
+        "ar": "السيارات والدفع الرباعي والدراجات النارية والشاحنات والدراجات والكرات؛ طوارئ الطريق وصيانة الأسطول والإضاءة الخارجية والتخييم",
+        "es": "Autos, SUV, motos, camiones, bicicletas y balones; emergencias en carretera, mantenimiento de flotas, iluminación exterior y camping",
+        "fr": "Voitures, SUV, motos, camions, vélos et ballons ; urgences routières, entretien de flotte, éclairage extérieur et camping",
+        "id": "Mobil, SUV, sepeda motor, truk, sepeda, dan bola; darurat di jalan, perawatan armada, penerangan luar ruangan dan berkemah",
+        "ru": "Авто, внедорожники, мотоциклы, грузовики, велосипеды и мячи; аварийные ситуации на дороге, обслуживание автопарков, освещение на природе и в походах",
+        "th": "รถยนต์ SUV มอเตอร์ไซค์ รถบรรทุก จักรยาน และลูกบอล; ฉุกเฉินริมถนน บำรุงรักษาฟลีต ไฟกลางแจ้งและแคมป์ปิ้ง",
+        "vi": "Ô tô, SUV, xe máy, xe tải, xe đạp và bóng; xử lý sự cố trên đường, bảo dưỡng đội xe, chiếu sáng ngoài trời và cắm trại"
+      },
+      "highlights": [
+        {
+          "icon": "power",
+          "text": {
+            "en": "800A peak current starts all 12 V vehicles — cars, SUVs, motorcycles, trucks and more",
+            "zh": "800A 峰值电流可启动所有 12V 车型——轿车、SUV、摩托车、货车等",
+            "ar": "تيار ذروة 800A يشغّل جميع مركبات 12 فولت — سيارات ودفع رباعي ودراجات نارية وشاحنات",
+            "es": "800A pico arranca todo vehículo de 12 V — autos, SUV, motos y camiones",
+            "fr": "800A crête démarre tous les véhicules 12 V — voitures, SUV, motos, camions",
+            "id": "Arus puncak 800A menyalakan semua kendaraan 12 V — mobil, SUV, motor, truk",
+            "ru": "Пиковый ток 800A запускает весь 12-вольтовый транспорт — авто, внедорожники, мото, грузовики",
+            "th": "กระแสสูงสุด 800A สตาร์ทรถ 12V ได้ทุกประเภท — รถเก๋ง SUV มอเตอร์ไซค์ รถบรรทุก",
+            "vi": "Dòng đỉnh 800A khởi động mọi phương tiện 12V — ô tô, SUV, xe máy, xe tải"
+          }
+        },
+        {
+          "icon": "gauge",
+          "text": {
+            "en": "150PSI digital inflator tops a car tyre in about a minute, with tyre-pressure measurement built in",
+            "zh": "150PSI 数显充气约一分钟充满一条车胎，并内置胎压测量",
+            "ar": "مضخة رقمية 150PSI تنفخ إطار السيارة في نحو دقيقة مع قياس ضغط مدمج",
+            "es": "Inflador digital 150PSI llena un neumático en ~1 minuto, con medición de presión integrada",
+            "fr": "Gonfleur numérique 150PSI gonfle un pneu en ~1 minute, mesure de pression intégrée",
+            "id": "Pengisi digital 150PSI mengisi ban mobil ±1 menit, dilengkapi pengukuran tekanan",
+            "ru": "Цифровой насос 150PSI качает автомобильное колесо ~за минуту, есть измерение давления",
+            "th": "ปั๊มดิจิทัล 150PSI เติมยางรถเก๋งราว 1 นาที พร้อมวัดแรงดันในตัว",
+            "vi": "Bơm số 150PSI đầy lốp ô tô ~1 phút, tích hợp đo áp suất"
+          }
+        },
+        {
+          "icon": "display",
+          "text": {
+            "en": "Large LCD shows real-time pressure, preset values, units and battery at a glance",
+            "zh": "大屏 LCD 一目了然：实时胎压、预设值、单位与电量",
+            "ar": "شاشة LCD كبيرة تعرض الضغط الفعلي والقيم المضبوطة والوحدات والبطارية",
+            "es": "LCD grande muestra presión en vivo, valores preajustados, unidades y batería",
+            "fr": "Grand écran LCD : pression en temps réel, valeurs préréglées, unités et batterie",
+            "id": "LCD besar menampilkan tekanan real-time, nilai preset, satuan, dan baterai",
+            "ru": "Большой ЖК-экран: давление в реальном времени, уставки, единицы и заряд",
+            "th": "จอ LCD ใหญ่แสดงแรงดันเรียลไทม์ ค่าที่ตั้งไว้ หน่วย และแบตเตอรี่",
+            "vi": "Màn hình LCD lớn hiển thị áp suất thực tế, giá trị cài sẵn, đơn vị và pin"
+          }
+        },
+        {
+          "icon": "battery",
+          "text": {
+            "en": "4 × 2500 mAh cells double as a 10000 mAh power bank, USB Type-C charge in 3-5 h",
+            "zh": "4×2500mAh 电芯兼作 10000mAh 移动电源，USB Type-C 3-5 小时充满",
+            "ar": "4 × 2500mAh تعمل أيضاً كبنك طاقة 10000mAh، شحن USB Type-C خلال 3-5 ساعات",
+            "es": "4 celdas de 2500mAh funcionan como power bank de 10000mAh, carga USB Type-C en 3-5 h",
+            "fr": "4 cellules de 2500mAh servent aussi de batterie externe 10000mAh, charge USB Type-C en 3-5 h",
+            "id": "4 sel 2500mAh sekaligus jadi power bank 10000mAh, isi USB Type-C 3-5 jam",
+            "ru": "4 × 2500mAh работают и как повербанк 10000mAh, заряд USB Type-C за 3-5 ч",
+            "th": "แบตเตอรี่ 4×2500mAh ทำหน้าที่เป็นเพาเวอร์แบงก์ 10000mAh ชาร์จ USB Type-C 3-5 ชม.",
+            "vi": "4 cell 2500mAh kiêm pin dự phòng 10000mAh, sạc USB Type-C 3-5 giờ"
+          }
+        },
+        {
+          "icon": "portable",
+          "text": {
+            "en": "Six functions in one pocket unit — jump start, inflation, lighting, SOS, power bank, pressure gauge",
+            "zh": "六合一掌上机身——应急启动、充气、照明、SOS、移动电源、胎压测量",
+            "ar": "ست وظائف في جهاز واحد — بدء تشغيل، نفخ، إضاءة، SOS، بنك طاقة، قياس ضغط",
+            "es": "Seis funciones en un equipo de bolsillo — arranque, inflado, luz, SOS, power bank, manómetro",
+            "fr": "Six fonctions en un appareil de poche — démarrage, gonflage, éclairage, SOS, batterie, manomètre",
+            "id": "Enam fungsi dalam satu unit saku — jump start, inflasi, lampu, SOS, power bank, pengukur tekanan",
+            "ru": "Шесть функций в карманном корпусе — пуск, подкачка, фонарь, SOS, повербанк, манометр",
+            "th": "หกฟังก์ชันในเครื่องพกเดียว — สตาร์ท เติมลม ไฟ SOS เพาเวอร์แบงก์ วัดแรงดัน",
+            "vi": "Sáu chức năng trong một máy bỏ túi — kích nổ, bơm hơi, đèn, SOS, pin dự phòng, đo áp suất"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "CE, FCC, UKCA, RoHS, UN38.3 & MSDS certified; OEM logo, colour and packaging customisable",
+            "zh": "已获 CE、FCC、UKCA、RoHS、UN38.3、MSDS 认证；支持 OEM 标识、配色与包装定制",
+            "ar": "حاصلة على CE وFCC وUKCA وRoHS وUN38.3 وMSDS؛ يمكن تخصيص الشعار واللون والتغليف",
+            "es": "Certificado CE, FCC, UKCA, RoHS, UN38.3 y MSDS; logo OEM, color y empaque personalizables",
+            "fr": "Certifié CE, FCC, UKCA, RoHS, UN38.3, MSDS ; logo OEM, couleur et emballage personnalisables",
+            "id": "Bersertifikat CE, FCC, UKCA, RoHS, UN38.3 & MSDS; logo OEM, warna, dan kemasan dapat disesuaikan",
+            "ru": "Сертификаты CE, FCC, UKCA, RoHS, UN38.3, MSDS; OEM-логотип, цвет и упаковка на заказ",
+            "th": "ผ่านการรับรอง CE FCC UKCA RoHS UN38.3 MSDS; ปรับโลโก้ OEM สีและบรรจุภัณฑ์ได้",
+            "vi": "Chứng nhận CE, FCC, UKCA, RoHS, UN38.3 & MSDS; tùy chỉnh logo OEM, màu và bao bì"
+          }
+        }
+      ],
+      "specs": [
+        {
+          "label": {
+            "en": "Peak Current",
+            "zh": "峰值电流",
+            "ar": "تيار الذروة",
+            "es": "Corriente pico",
+            "fr": "Courant de crête",
+            "id": "Arus puncak",
+            "ru": "Пиковый ток",
+            "th": "กระแสสูงสุด",
+            "vi": "Dòng đỉnh"
+          },
+          "value": "800 A"
+        },
+        {
+          "label": {
+            "en": "Battery Capacity",
+            "zh": "电池容量",
+            "ar": "سعة البطارية",
+            "es": "Capacidad de batería",
+            "fr": "Capacité de batterie",
+            "id": "Kapasitas baterai",
+            "ru": "Ёмкость аккумулятора",
+            "th": "ความจุแบตเตอรี่",
+            "vi": "Dung lượng pin"
+          },
+          "value": "2500 mAh × 4 (10000 mAh)"
+        },
+        {
+          "label": {
+            "en": "Charging",
+            "zh": "充电方式",
+            "ar": "الشحن",
+            "es": "Carga",
+            "fr": "Charge",
+            "id": "Pengisian",
+            "ru": "Зарядка",
+            "th": "การชาร์จ",
+            "vi": "Sạc"
+          },
+          "value": "USB Type-C"
+        },
+        {
+          "label": {
+            "en": "Charge Time",
+            "zh": "充电时间",
+            "ar": "وقت الشحن",
+            "es": "Tiempo de carga",
+            "fr": "Temps de charge",
+            "id": "Waktu pengisian",
+            "ru": "Время зарядки",
+            "th": "เวลาชาร์จ",
+            "vi": "Thời gian sạc"
+          },
+          "value": "3–5 h"
+        },
+        {
+          "label": {
+            "en": "Motor Power",
+            "zh": "电机功率",
+            "ar": "قدرة المحرك",
+            "es": "Potencia del motor",
+            "fr": "Puissance moteur",
+            "id": "Daya motor",
+            "ru": "Мощность мотора",
+            "th": "กำลังมอเตอร์",
+            "vi": "Công suất động cơ"
+          },
+          "value": "120 W"
+        },
+        {
+          "label": {
+            "en": "Max Pressure",
+            "zh": "最大压力",
+            "ar": "أقصى ضغط",
+            "es": "Presión máxima",
+            "fr": "Pression max",
+            "id": "Tekanan maks",
+            "ru": "Макс. давление",
+            "th": "แรงดันสูงสุด",
+            "vi": "Áp suất tối đa"
+          },
+          "value": "150 PSI / 10.34 bar"
+        },
+        {
+          "label": {
+            "en": "Air Hose",
+            "zh": "气管长度",
+            "ar": "خرطوم الهواء",
+            "es": "Manguera de aire",
+            "fr": "Tuyau à air",
+            "id": "Selang udara",
+            "ru": "Воздушный шланг",
+            "th": "สายลม",
+            "vi": "Ống hơi"
+          },
+          "value": "36 cm"
+        },
+        {
+          "label": {
+            "en": "Cylinder",
+            "zh": "气缸",
+            "ar": "الأسطوانة",
+            "es": "Cilindro",
+            "fr": "Cylindre",
+            "id": "Silinder",
+            "ru": "Цилиндр",
+            "th": "กระบอกสูบ",
+            "vi": "Xi-lanh"
+          },
+          "value": "Φ19–22 mm"
+        },
+        {
+          "label": {
+            "en": "Noise",
+            "zh": "噪音",
+            "ar": "الضوضاء",
+            "es": "Ruido",
+            "fr": "Bruit",
+            "id": "Kebisingan",
+            "ru": "Шум",
+            "th": "เสียงรบกวน",
+            "vi": "Tiếng ồn"
+          },
+          "value": "≤85 dB"
+        },
+        {
+          "label": {
+            "en": "Functions",
+            "zh": "功能",
+            "ar": "الوظائف",
+            "es": "Funciones",
+            "fr": "Fonctions",
+            "id": "Fungsi",
+            "ru": "Функции",
+            "th": "ฟังก์ชัน",
+            "vi": "Chức năng"
+          },
+          "value": "6-in-1"
+        },
+        {
+          "label": {
+            "en": "Product Size",
+            "zh": "产品尺寸",
+            "ar": "حجم المنتج",
+            "es": "Tamaño",
+            "fr": "Taille",
+            "id": "Ukuran",
+            "ru": "Размер",
+            "th": "ขนาดสินค้า",
+            "vi": "Kích thước"
+          },
+          "value": "19.7 cm"
+        }
+      ],
+      "quick_specs": [
+        {
+          "label": {
+            "en": "Motor Power",
+            "zh": "电机功率",
+            "ar": "قدرة المحرك",
+            "es": "Potencia del motor",
+            "fr": "Puissance moteur",
+            "id": "Daya motor",
+            "ru": "Мощность мотора",
+            "th": "กำลังมอเตอร์",
+            "vi": "Công suất động cơ"
+          },
+          "value": "120 W"
+        },
+        {
+          "label": {
+            "en": "Max Pressure",
+            "zh": "最大压力",
+            "ar": "أقصى ضغط",
+            "es": "Presión máxima",
+            "fr": "Pression max",
+            "id": "Tekanan maks",
+            "ru": "Макс. давление",
+            "th": "แรงดันสูงสุด",
+            "vi": "Áp suất tối đa"
+          },
+          "value": "150 PSI / 10.34 bar"
+        },
+        {
+          "label": {
+            "en": "Battery Capacity",
+            "zh": "电池容量",
+            "ar": "سعة البطارية",
+            "es": "Capacidad de batería",
+            "fr": "Capacité de batterie",
+            "id": "Kapasitas baterai",
+            "ru": "Ёмкость аккумулятора",
+            "th": "ความจุแบตเตอรี่",
+            "vi": "Dung lượng pin"
+          },
+          "value": "2500 mAh × 4"
+        },
+        {
+          "label": {
+            "en": "Charge Time",
+            "zh": "充电时间",
+            "ar": "وقت الشحن",
+            "es": "Tiempo de carga",
+            "fr": "Temps de charge",
+            "id": "Waktu pengisian",
+            "ru": "Время зарядки",
+            "th": "เวลาชาร์จ",
+            "vi": "Thời gian sạc"
+          },
+          "value": "3–5 h"
+        }
+      ],
+      "price_ladder": [
+        {
+          "min": 10,
+          "max": 499,
+          "price": 25.0
+        },
+        {
+          "min": 500,
+          "max": 999,
+          "price": 23.8
+        },
+        {
+          "min": 1000,
+          "max": -1,
+          "price": 22.0
+        }
+      ],
+      "price_indicator": {
+        "min": 22.0,
+        "max": 25.0,
+        "currency": "USD"
+      },
+      "moq": {
+        "value": 10,
+        "unit": "sets"
+      },
+      "certifications": [
+        "CE",
+        "FCC",
+        "RoHS",
+        "UKCA",
+        "UN38.3",
+        "MSDS"
+      ],
+      "sku": [
+        {
+          "name": {
+            "en": "Max Pressure",
+            "zh": "最大压力",
+            "ar": "أقصى ضغط",
+            "es": "Presión máxima",
+            "fr": "Pression max",
+            "id": "Tekanan maks",
+            "ru": "Макс. давление",
+            "th": "แรงดันสูงสุด",
+            "vi": "Áp suất tối đa"
+          },
+          "values": [
+            {
+              "name": "101–150 PSI"
+            }
+          ]
+        }
+      ],
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-js6in1/01.webp?v=20261031e",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-js6in1/02.webp?v=20261031e",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-js6in1/03.webp?v=20261031e",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-js6in1/04.webp?v=20261031e",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-js6in1/05.webp?v=20261031e",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-js6in1/06.webp?v=20261031e"
+      ],
+      "detail_images": [
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-js6in1/detail/01.webp?v=20261031e",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-js6in1/detail/02.webp?v=20261031e",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-js6in1/detail/03.webp?v=20261031e"
+      ],
+      "alibaba_url": "https://www.alibaba.com/product-detail/6-In-1-Portable-Jump-Starter_1601909142066.html",
+      "version": "20261031e"
     },
     {
-     "label": {
-      "en": "Battery Capacity",
-      "zh": "电池容量",
-      "es": "Capacidad de batería",
-      "ar": "سعة البطارية",
-      "fr": "Capacité de la batterie",
-      "id": "Kapasitas Baterai",
-      "ru": "Ёмкость аккумулятора",
-      "th": "ความจุแบตเตอรี่",
-      "vi": "Dung lượng pin"
-     },
-     "value": {
-      "en": "2500mAh*4",
-      "es": "2500mAh*4",
-      "ar": "2500mAh*4",
-      "fr": "2500mAh*4",
-      "id": "2500mAh*4",
-      "ru": "2500mAh*4",
-      "th": "2500mAh*4",
-      "vi": "2500mAh*4"
-     }
-    },
-    {
-     "label": {
-      "en": "Charging Time",
-      "zh": "充电时间",
-      "es": "Tiempo de carga",
-      "ar": "زمن الشحن",
-      "fr": "Temps de charge",
-      "id": "Waktu Pengisian",
-      "ru": "Время зарядки",
-      "th": "เวลาในการชาร์จ",
-      "vi": "Thời gian sạc"
-     },
-     "value": {
-      "en": "3-5H",
-      "es": "3-5H",
-      "ar": "3-5H",
-      "fr": "3-5H",
-      "id": "3-5H",
-      "ru": "3-5H",
-      "th": "3-5H",
-      "vi": "3-5H"
-     }
-    },
-    {
-     "label": {
-      "en": "Working Time",
-      "zh": "工作时间",
-      "es": "Tiempo de funcionamiento",
-      "ar": "زمن العمل",
-      "fr": "Temps de fonctionnement",
-      "id": "Waktu Kerja",
-      "ru": "Время работы",
-      "th": "เวลาทำงาน",
-      "vi": "Thời gian làm việc"
-     },
-     "value": {
-      "en": "40mins",
-      "es": "40mins",
-      "ar": "40mins",
-      "fr": "40mins",
-      "id": "40mins",
-      "ru": "40mins",
-      "th": "40mins",
-      "vi": "40mins"
-     }
-    },
-    {
-     "label": {
-      "en": "Maximum Pressure",
-      "zh": "Maximum Pressure",
-      "es": "Presión máxima",
-      "ar": "أقصى ضغط",
-      "fr": "Pression maximale",
-      "id": "Tekanan Maksimum",
-      "ru": "Максимальное давление",
-      "th": "แรงดันสูงสุด",
-      "vi": "Áp suất tối đa"
-     },
-     "value": {
-      "en": "150PSI / 10.3Bar",
-      "es": "150PSI / 10.3Bar",
-      "ar": "150PSI / 10.3Bar",
-      "fr": "150PSI / 10.3Bar",
-      "id": "150PSI / 10.3Bar",
-      "ru": "150PSI / 10.3Bar",
-      "th": "150PSI / 10.3Bar",
-      "vi": "150PSI / 10.3Bar"
-     }
-    },
-    {
-     "label": {
-      "en": "Warranty",
-      "zh": "质保",
-      "es": "Garantía",
-      "ar": "الضمان",
-      "fr": "Garantie",
-      "id": "Garansi",
-      "ru": "Гарантия",
-      "th": "การรับประกัน",
-      "vi": "Bảo hành"
-     },
-     "value": {
-      "en": "1 Year",
-      "es": "1 año",
-      "ar": "سنة واحدة",
-      "fr": "1 an",
-      "id": "1 tahun",
-      "ru": "1 год",
-      "th": "1 ปี",
-      "vi": "1 năm"
-     }
-    },
-    {
-     "label": {
-      "en": "Function",
-      "zh": "功能",
-      "es": "Función",
-      "ar": "الوظيفة",
-      "fr": "Fonction",
-      "id": "Fungsi",
-      "ru": "Функция",
-      "th": "ฟังก์ชัน",
-      "vi": "Chức năng"
-     },
-     "value": {
-      "en": "Emergency Light",
-      "es": "Luz de emergencia",
-      "ar": "إضاءة طوارئ",
-      "fr": "Éclairage d'urgence",
-      "id": "Lampu Darurat",
-      "ru": "Аварийный свет",
-      "th": "ไฟฉุกเฉิน",
-      "vi": "Đèn khẩn cấp"
-     }
-    },
-    {
-     "label": {
-      "en": "Function",
-      "zh": "功能",
-      "es": "Función",
-      "ar": "الوظيفة",
-      "fr": "Fonction",
-      "id": "Fungsi",
-      "ru": "Функция",
-      "th": "ฟังก์ชัน",
-      "vi": "Chức năng"
-     },
-     "value": {
-      "en": "Power Indicator",
-      "es": "Indicador de potencia",
-      "ar": "مؤشر الطاقة",
-      "fr": "Indicateur de puissance",
-      "id": "Indikator Daya",
-      "ru": "Индикатор питания",
-      "th": "ไฟแสดงสถานะพลังงาน",
-      "vi": "Đèn báo nguồn"
-     }
-    },
-    {
-     "label": {
-      "en": "Function",
-      "zh": "功能",
-      "es": "Función",
-      "ar": "الوظيفة",
-      "fr": "Fonction",
-      "id": "Fungsi",
-      "ru": "Функция",
-      "th": "ฟังก์ชัน",
-      "vi": "Chức năng"
-     },
-     "value": {
-      "en": "Tire Pressure Monitor",
-      "es": "Monitor de presión de neumáticos",
-      "ar": "مراقبة ضغط الإطارات",
-      "fr": "Contrôle de la pression des pneus",
-      "id": "Monitor Tekanan Ban",
-      "ru": "Мониторинг давления в шинах",
-      "th": "มาตรวัดแรงดันยาง",
-      "vi": "Đo áp suất lốp"
-     }
-    },
-    {
-     "label": {
-      "en": "Display Type",
-      "zh": "Display Type",
-      "es": "Tipo de pantalla",
-      "ar": "نوع الشاشة",
-      "fr": "Type d'écran",
-      "id": "Jenis Layar",
-      "ru": "Тип дисплея",
-      "th": "ประเภทหน้าจอแสดงผล",
-      "vi": "Loại màn hình"
-     },
-     "value": {
-      "en": "digital pressure gauge",
-      "es": "manómetro digital",
-      "ar": "مقياس ضغط رقمي",
-      "fr": "manomètre numérique",
-      "id": "pengukur tekanan digital",
-      "ru": "цифровой манометр",
-      "th": "มาตรวัดแรงดันดิจิทัล",
-      "vi": "đồng hồ đo áp suất kỹ thuật số"
-     }
-    },
-    {
-     "label": {
-      "en": "Cylinder type",
-      "zh": "Cylinder type",
-      "es": "Tipo de cilindro",
-      "ar": "نوع الأسطوانة",
-      "fr": "Type de cylindre",
-      "id": "Jenis silinder",
-      "ru": "Тип цилиндра",
-      "th": "ประเภทสูบ",
-      "vi": "Loại xi-lanh"
-     },
-     "value": {
-      "en": "Single Cylinder Inflators",
-      "es": "Infladores de cilindro único",
-      "ar": "مضخات بأسطوانة واحدة",
-      "fr": "Gonfleurs à cylindre unique",
-      "id": "Pompa Silinder Tunggal",
-      "ru": "Одноцилиндровые компрессоры",
-      "th": "เครื่องเติมลมแบบสูบเดียว",
-      "vi": "Bơm một xi-lanh"
-     }
-    },
-    {
-     "label": {
-      "en": "Material",
-      "zh": "材质",
-      "es": "Material",
-      "ar": "المادة",
-      "fr": "Matériau",
-      "id": "Material",
-      "ru": "Материал",
-      "th": "วัสดุ",
-      "vi": "Chất liệu"
-     },
-     "value": {
-      "en": "ABS",
-      "es": "ABS",
-      "ar": "ABS",
-      "fr": "ABS",
-      "id": "ABS",
-      "ru": "ABS",
-      "th": "ABS",
-      "vi": "ABS"
-     }
-    },
-    {
-     "label": {
-      "en": "Suitable for",
-      "zh": "Suitable for",
-      "es": "Apto para",
-      "ar": "مناسب لـ",
-      "fr": "Convient pour",
-      "id": "Cocok untuk",
-      "ru": "Подходит для",
-      "th": "เหมาะสำหรับ",
-      "vi": "Phù hợp cho"
-     },
-     "value": {
-      "en": "Compact Car / Motorcycle",
-      "es": "Coche compacto / motocicleta",
-      "ar": "سيارة صغيرة / دراجة نارية",
-      "fr": "Petite voiture / moto",
-      "id": "Mobil Kompak / Motor",
-      "ru": "Малолитражный автомобиль / мотоцикл",
-      "th": "รถยนต์ขนาดเล็ก / รถจักรยานยนต์",
-      "vi": "Xe nhỏ / xe máy"
-     }
-    },
-    {
-     "label": {
-      "en": "certification",
-      "zh": "certification",
-      "es": "certificación",
-      "ar": "الشهادة",
-      "fr": "certification",
-      "id": "sertifikasi",
-      "ru": "сертификация",
-      "th": "การรับรอง",
-      "vi": "chứng nhận"
-     },
-     "value": {
-      "en": "CE",
-      "es": "CE",
-      "ar": "CE",
-      "fr": "CE",
-      "id": "CE",
-      "ru": "CE",
-      "th": "CE",
-      "vi": "CE"
-     }
-    },
-    {
-     "label": {
-      "en": "Color",
-      "zh": "颜色",
-      "es": "Color",
-      "ar": "اللون",
-      "fr": "Couleur",
-      "id": "Warna",
-      "ru": "Цвет",
-      "th": "สี",
-      "vi": "Màu sắc"
-     },
-     "value": {
-      "en": "Black",
-      "es": "Negro",
-      "ar": "أسود",
-      "fr": "Noir",
-      "id": "Hitam",
-      "ru": "Чёрный",
-      "th": "ดำ",
-      "vi": "Đen"
-     }
-    },
-    {
-     "label": {
-      "en": "Place of Origin",
-      "zh": "产地",
-      "es": "País de Origen",
-      "ar": "بلد المنشأ",
-      "fr": "Lieu d'origine",
-      "id": "Negara Asal",
-      "ru": "Страна происхождения",
-      "th": "แหล่งที่มา",
-      "vi": "Xuất xứ"
-     },
-     "value": {
-      "en": "CN",
-      "es": "CN",
-      "ar": "CN",
-      "fr": "CN",
-      "id": "CN",
-      "ru": "CN",
-      "th": "CN",
-      "vi": "CN"
-     }
-    },
-    {
-     "label": {
-      "en": "Voltage",
-      "zh": "电压",
-      "es": "Tensión",
-      "ar": "الجهد",
-      "fr": "Tension",
-      "id": "Tegangan",
-      "ru": "Напряжение",
-      "th": "แรงดันไฟฟ้า",
-      "vi": "Điện áp"
-     },
-     "value": {
-      "en": "14.8V",
-      "es": "14.8V",
-      "ar": "14.8V",
-      "fr": "14.8V",
-      "id": "14.8V",
-      "ru": "14.8V",
-      "th": "14.8V",
-      "vi": "14.8V"
-     }
-    },
-    {
-     "label": {
-      "en": "Size",
-      "zh": "尺寸",
-      "es": "Tamaño",
-      "ar": "الحجم",
-      "fr": "Taille",
-      "id": "Ukuran",
-      "ru": "Размер",
-      "th": "ขนาด",
-      "vi": "Kích thước"
-     },
-     "value": {
-      "en": "23*10*11CM",
-      "es": "23*10*11CM",
-      "ar": "23*10*11CM",
-      "fr": "23*10*11CM",
-      "id": "23*10*11CM",
-      "ru": "23*10*11CM",
-      "th": "23*10*11CM",
-      "vi": "23*10*11CM"
-     }
-    },
-    {
-     "label": {
-      "en": "Model Number",
-      "zh": "型号",
-      "es": "Número de modelo",
-      "ar": "رقم الموديل",
-      "fr": "Numéro de modèle",
-      "id": "Nomor Model",
-      "ru": "Номер модели",
-      "th": "หมายเลขรุ่น",
-      "vi": "Số model"
-     },
-     "value": {
-      "en": "YMC6667",
-      "es": "YMC6667",
-      "ar": "YMC6667",
-      "fr": "YMC6667",
-      "id": "YMC6667",
-      "ru": "YMC6667",
-      "th": "YMC6667",
-      "vi": "YMC6667"
-     }
-    },
-    {
-     "label": {
-      "en": "Noise Level",
-      "zh": "噪音",
-      "es": "Nivel de ruido",
-      "ar": "مستوى الضجيج",
-      "fr": "Niveau sonore",
-      "id": "Tingkat Kebisingan",
-      "ru": "Уровень шума",
-      "th": "ระดับเสียงรบกวน",
-      "vi": "Mức ồn"
-     },
-     "value": {
-      "en": "85",
-      "es": "85",
-      "ar": "85",
-      "fr": "85",
-      "id": "85",
-      "ru": "85",
-      "th": "85",
-      "vi": "85"
-     }
+      "video_url": null,
+      "packaging": {
+        "unit": "Color Box"
+      },
+      "customization": {},
+      "supplier_rating": "4.6",
+      "response_time": "≤ 2h",
+      "years": "1",
+      "sample": {
+        "enabled": true,
+        "qty": 5,
+        "note": "Sample available, lead 7-14 days"
+      },
+      "category_name": {
+        "en": "Tire Inflators & Air Compressors",
+        "zh": "充气泵",
+        "es": "Inflador de Neumaticos Digital",
+        "ar": "مضخة إطارات رقمية",
+        "fr": "Gonfleur de pneus numérique",
+        "id": "Pompa Ban Digital",
+        "ru": "Цифровой компрессор для шин",
+        "th": "ปั๊มลมยางดิจิทัล",
+        "vi": "Bơm lốp xe kỹ thuật số"
+      },
+      "id": "mc6659",
+      "_source": {
+        "platform": "alibaba.com",
+        "productId": "1601910703144"
+      },
+      "_cat": "tire-inflator",
+      "name": {
+        "en": "MC6659 2000A Jump Starter & Tire Inflator · 150PSI Digital Air Compressor with Power Bank and LED Light",
+        "zh": "MC6659 2000A 应急启动电源·轮胎充气泵 · 150PSI 数显充气，含移动电源与LED灯",
+        "ar": "MC6659 جهاز بدء تشغيل 2000A ومضخة إطارات · ضاغط هواء رقمي 150PSI مع بنك طاقة ومصباح LED",
+        "es": "MC6659 Arrancador 2000A e inflador de neumáticos · compresor digital 150PSI con power bank y luz LED",
+        "fr": "MC6659 Démarreur 2000A et gonfleur de pneus · compresseur numérique 150PSI avec batterie externe et lampe LED",
+        "id": "MC6659 Jump Starter 2000A & Pengisi Ban · Kompresor Digital 150PSI dengan Power Bank dan Lampu LED",
+        "ru": "MC6659 Пусковое устройство 2000A и насос для шин · цифровой компрессор 150PSI с повербанком и LED-фонарём",
+        "th": "MC6659 เครื่องสตาร์ท 2000A และปั๊มลมยาง · คอมเพรสเซอร์ดิจิทัล 150PSI พร้อมเพาเวอร์แบงก์และไฟ LED",
+        "vi": "MC6659 Máy kích nổ 2000A & bơm lốp xe · máy nén khí số 150PSI kèm pin sạc dự phòng và đèn LED"
+      },
+      "tagline": {
+        "en": "2000A peak current · 150PSI / 27 L/min airflow · all-in-one car emergency solution",
+        "zh": "2000A 峰值电流 · 150PSI / 27L/min 气流量 · 一体式车载应急方案",
+        "ar": "تيار ذروة 2000A · 150PSI / 27 لتر/دقيقة تدفق هواء · حل طوارئ السيارة الشامل",
+        "es": "2000A pico · 150PSI / 27 L/min de flujo · solución integral de emergencia para el auto",
+        "fr": "2000A crête · 150PSI / 27 L/min de débit · solution d’urgence auto tout-en-un",
+        "id": "Arus puncak 2000A · 150PSI / 27 L/menit · solusi darurat mobil serba dalam satu",
+        "ru": "Пиковый ток 2000A · 150PSI / 27 л/мин · комплексное решение на случай ЧП в дороге",
+        "th": "กระแสสูงสุด 2000A · 150PSI / 27 ล./นาที · โซลูชันฉุกเฉินรถยนต์ครบวงจร",
+        "vi": "Dòng đỉnh 2000A · 150PSI / 27 L/phút · giải pháp khẩn cấp ô tô tất-cả-trong-một"
+      },
+      "description": {
+        "en": "MC6659 is an all-in-one car emergency solution: a 2000A peak jump starter that starts 12 V vehicles in seconds (up to 6.0 L petrol / 3.0 L diesel), a 150PSI digital tire inflator with 27 L/min airflow, a power bank, and an LED emergency light with lighting, SOS and strobe modes. Four 2000 mAh cells charge over USB Type-C in 3-5 hours and drive the 120 W motor; the 36 cm hose and Φ19-22 mm cylinder fit car, bike and ball valves. Complete accessories ship in the box; CE, FCC, RoHS, UKCA, UN38.3 and MSDS certified, MOQ 10 sets.",
+        "zh": "MC6659 是一体式车载应急方案：2000A 峰值电流数秒内启动 12V 车型（汽油 ≤6.0L/柴油 ≤3.0L），150PSI 数显充气泵气流量达 27L/min，并集成移动电源与具备照明/SOS/爆闪三种模式的 LED 应急灯。4 节 2000mAh 电芯经 USB Type-C 3-5 小时充满，驱动 120W 电机；36cm 气管与 Φ19-22mm 气缸适配汽车、自行车与球类气嘴。标配全套配件；已获 CE、FCC、RoHS、UKCA、UN38.3、MSDS 认证，MOQ 10 套。",
+        "ar": "MC6659 حل شامل لطوارئ السيارة: جهاز بدء تشغيل بتيار ذروة 2000A يشغّل مركبات 12 فولت في ثوانٍ (بنزين حتى 6.0 لتر / ديزل حتى 3.0 لتر)، ومضخة إطارات رقمية 150PSI بتدفق 27 لتراً/دقيقة، وبنك طاقة، ومصباح LED طوارئ بأنماط إضاءة وSOS ووميض. أربع خلايا 2000mAh تُشحن عبر USB Type-C خلال 3-5 ساعات وتشغل محرك 120W؛ خرطوم 36 سم وأسطوانة Φ19-22mm لصمامات السيارات والدراجات والكرات. ملحقات كاملة في العلبة؛ شهادات CE وFCC وRoHS وUKCA وUN38.3 وMSDS، الحد الأدنى 10 مجموعات.",
+        "es": "MC6659 es una solución integral de emergencia: arrancador de 2000A pico que arranca vehículos de 12 V en segundos (hasta 6.0L gasolina / 3.0L diésel), inflador digital 150PSI con 27 L/min, power bank y luz LED de emergencia con modos luz, SOS y estroboscópico. Cuatro celdas de 2000mAh se cargan por USB Type-C en 3-5 h y alimentan el motor de 120W; manguera de 36cm y cilindro Φ19-22mm para válvulas de auto, bici y balón. Accesorios completos incluidos; certificado CE, FCC, RoHS, UKCA, UN38.3 y MSDS, MOQ 10 juegos.",
+        "fr": "MC6659 est une solution d’urgence tout-en-un : démarreur 2000A crête lançant les véhicules 12 V en quelques secondes (jusqu’à 6,0 L essence / 3,0 L diesel), gonfleur numérique 150PSI avec 27 L/min, batterie externe et lampe LED d’urgence avec modes éclairage, SOS et stroboscope. Quatre cellules de 2000mAh se rechargent en USB Type-C en 3-5 h et alimentent le moteur 120W ; tuyau de 36 cm et cylindre Φ19-22mm pour voitures, vélos et ballons. Accessoires complets inclus ; certifié CE, FCC, RoHS, UKCA, UN38.3, MSDS, MOQ 10 lots.",
+        "id": "MC6659 adalah solusi darurat mobil serba dalam satu: jump starter puncak 2000A menyalakan kendaraan 12 V dalam hitungan detik (bensin hingga 6.0L / diesel 3.0L), pengisi ban digital 150PSI dengan aliran 27 L/menit, power bank, dan lampu LED darurat dengan mode cahaya, SOS, dan strobo. Empat sel 2000mAh diisi via USB Type-C dalam 3-5 jam dan menggerakkan motor 120W; selang 36cm dan silinder Φ19-22mm cocok untuk mobil, sepeda, dan bola. Aksesori lengkap dalam kotak; bersertifikat CE, FCC, RoHS, UKCA, UN38.3, MSDS, MOQ 10 set.",
+        "ru": "MC6659 — комплексное решение на случай ЧП: стартер с пиковым током 2000A запускает 12-вольтовую технику за секунды (бензин до 6,0 л / дизель до 3,0 л), цифровой насос 150PSI с потоком 27 л/мин, повербанк и аварийный LED-фонарь с режимами освещения, SOS и стробоскопа. Четыре ячейки 2000mAh заряжаются по USB Type-C за 3-5 ч и питают мотор 120Вт; шланг 36 см и цилиндр Φ19-22мм. Полный комплект аксессуаров; сертификаты CE, FCC, RoHS, UKCA, UN38.3, MSDS, MOQ 10 комплектов.",
+        "th": "MC6659 คือโซลูชันฉุกเฉินรถยนต์ครบวงจร: เครื่องสตาร์ทกระแสสูงสุด 2000A สตาร์ทรถ 12V ได้ในไม่กี่วินาที (น้ำมัน ≤6.0ล. / ดีเซล ≤3.0ล.) ปั๊มลมดิจิทัล 150PSI อัตราลม 27 ล./นาที เพาเวอร์แบงก์ และไฟ LED ฉุกเฉิน 3 โหมด แบตเตอรี่ 4 เซลล์ 2000mAh ชาร์จผ่าน USB Type-C ใน 3-5 ชม. ขับมอเตอร์ 120W สายลม 36ซม. กระบอกสูบ Φ19-22มม. มาพร้อมอุปกรณ์ครบชุด ผ่าน CE FCC RoHS UKCA UN38.3 MSDS MOQ 10 ชุด",
+        "vi": "MC6659 là giải pháp khẩn cấp ô tô tất-cả-trong-một: máy kích nổ dòng đỉnh 2000A khởi động xe 12V trong vài giây (xăng ≤6.0L / dầu ≤3.0L), bơm lốp số 150PSI lưu lượng 27 L/phút, pin sạc dự phòng và đèn LED khẩn cấp 3 chế độ chiếu sáng/SOS/strobe. Bốn cell 2000mAh sạc qua USB Type-C trong 3-5 giờ, dẫn động động cơ 120W; ống hơi 36cm, xi-lanh Φ19-22mm. Đầy đủ phụ kiện; đạt CE, FCC, RoHS, UKCA, UN38.3, MSDS, MOQ 10 bộ."
+      },
+      "applications": {
+        "en": "Cars, SUVs, motorcycles, trucks, bicycles and balls; roadside emergencies, fleet maintenance, outdoor and camping lighting",
+        "zh": "轿车、SUV、摩托车、货车、自行车与球类；道路救援、车队保养、户外露营照明",
+        "ar": "السيارات والدفع الرباعي والدراجات النارية والشاحنات والدراجات والكرات؛ طوارئ الطريق وصيانة الأسطول والإضاءة الخارجية والتخييم",
+        "es": "Autos, SUV, motos, camiones, bicicletas y balones; emergencias en carretera, mantenimiento de flotas, iluminación exterior y camping",
+        "fr": "Voitures, SUV, motos, camions, vélos et ballons ; urgences routières, entretien de flotte, éclairage extérieur et camping",
+        "id": "Mobil, SUV, sepeda motor, truk, sepeda, dan bola; darurat di jalan, perawatan armada, penerangan luar ruangan dan berkemah",
+        "ru": "Авто, внедорожники, мотоциклы, грузовики, велосипеды и мячи; аварийные ситуации на дороге, обслуживание автопарков, освещение на природе и в походах",
+        "th": "รถยนต์ SUV มอเตอร์ไซค์ รถบรรทุก จักรยาน และลูกบอล; ฉุกเฉินริมถนน บำรุงรักษาฟลีต ไฟกลางแจ้งและแคมป์ปิ้ง",
+        "vi": "Ô tô, SUV, xe máy, xe tải, xe đạp và bóng; xử lý sự cố trên đường, bảo dưỡng đội xe, chiếu sáng ngoài trời và cắm trại"
+      },
+      "highlights": [
+        {
+          "icon": "power",
+          "text": {
+            "en": "2000A peak current jump starts 12 V vehicles in seconds — up to 6.0 L petrol / 3.0 L diesel",
+            "zh": "2000A 峰值电流数秒启动 12V 车型——汽油 ≤6.0L / 柴油 ≤3.0L",
+            "ar": "تيار ذروة 2000A يشغّل مركبات 12 فولت في ثوانٍ — بنزين حتى 6.0 لتر / ديزل حتى 3.0 لتر",
+            "es": "2000A pico arranca vehículos 12 V en segundos — hasta 6.0L gasolina / 3.0L diésel",
+            "fr": "2000A crête démarre les véhicules 12 V en quelques secondes — jusqu’à 6,0 L essence / 3,0 L diesel",
+            "id": "Arus puncak 2000A menyalakan kendaraan 12 V dalam hitungan detik — bensin hingga 6.0L / diesel 3.0L",
+            "ru": "Пиковый ток 2000A запускает 12-вольтовую технику за секунды — бензин до 6,0 л / дизель до 3,0 л",
+            "th": "กระแสสูงสุด 2000A สตาร์ทรถ 12V ได้ในไม่กี่วินาที — น้ำมัน ≤6.0ล. / ดีเซล ≤3.0ล.",
+            "vi": "Dòng đỉnh 2000A khởi động xe 12V trong vài giây — xăng ≤6.0L / dầu ≤3.0L"
+          }
+        },
+        {
+          "icon": "gauge",
+          "text": {
+            "en": "150PSI max pressure with 27 L/min airflow — car tyre in about a minute (0.5-8.1 min by size)",
+            "zh": "最大压力 150PSI、气流量 27L/min——约一分钟充满车胎（按胎径 0.5-8.1 分钟）",
+            "ar": "أقصى ضغط 150PSI مع تدفق 27 لتراً/دقيقة — إطار السيارة في نحو دقيقة",
+            "es": "150PSI de presión máxima y 27 L/min — neumático de auto en ~1 minuto",
+            "fr": "150PSI de pression max et 27 L/min — pneu de voiture en ~1 minute",
+            "id": "Tekanan maks 150PSI dengan aliran 27 L/menit — ban mobil ±1 menit",
+            "ru": "Макс. давление 150PSI при потоке 27 л/мин — колесо авто ~за минуту",
+            "th": "แรงดันสูงสุด 150PSI อัตราลม 27 ล./นาที — เติมยางรถเก๋งราว 1 นาที",
+            "vi": "Áp suất tối đa 150PSI, lưu lượng 27 L/phút — đầy lốp ô tô ~1 phút"
+          }
+        },
+        {
+          "icon": "display",
+          "text": {
+            "en": "LCD screen for real-time monitoring of pressure, presets, units and battery",
+            "zh": "LCD 屏实时监控胎压、预设值、单位与电量",
+            "ar": "شاشة LCD لمراقبة الضغط والقيم المضبوطة والوحدات والبطارية لحظياً",
+            "es": "Pantalla LCD para monitoreo en vivo de presión, preajustes, unidades y batería",
+            "fr": "Écran LCD : surveillance en temps réel de la pression, des préréglages, des unités et de la batterie",
+            "id": "Layar LCD untuk memantau tekanan, preset, satuan, dan baterai secara real-time",
+            "ru": "ЖК-экран для контроля давления, уставок, единиц и заряда в реальном времени",
+            "th": "จอ LCD มอนิเตอร์แรงดัน ค่าที่ตั้งไว้ หน่วย และแบตเตอรี่แบบเรียลไทม์",
+            "vi": "Màn hình LCD theo dõi áp suất, giá trị cài sẵn, đơn vị và pin theo thời gian thực"
+          }
+        },
+        {
+          "icon": "battery",
+          "text": {
+            "en": "2000 mAh × 4 cells with USB Type-C input and dual USB output — 3-5 h charge",
+            "zh": "2000mAh×4 电芯，USB Type-C 输入 + 双 USB 输出，3-5 小时充满",
+            "ar": "خلايا 2000mAh × 4 مع مدخل USB Type-C ومخرجين USB — شحن خلال 3-5 ساعات",
+            "es": "Celdas de 2000mAh × 4 con entrada USB Type-C y doble salida USB — carga en 3-5 h",
+            "fr": "Cellules 2000mAh × 4 avec entrée USB Type-C et double sortie USB — charge 3-5 h",
+            "id": "Sel 2000mAh × 4 dengan input USB Type-C dan dual output USB — isi 3-5 jam",
+            "ru": "Ячейки 2000mAh × 4, вход USB Type-C и два USB-выхода — заряд за 3-5 ч",
+            "th": "แบตเตอรี่ 2000mAh × 4 ช่องชาร์จ USB Type-C และดับเบิลพอร์ต USB — ชาร์จ 3-5 ชม.",
+            "vi": "Cell 2000mAh × 4, đầu vào USB Type-C và 2 cổng USB xuất — sạc 3-5 giờ"
+          }
+        },
+        {
+          "icon": "portable",
+          "text": {
+            "en": "LED emergency light with lighting, SOS and strobe modes for roadside safety",
+            "zh": "LED 应急灯具备照明、SOS 与爆闪模式，路边救援更安全",
+            "ar": "مصباح LED طوارئ بأنماط إضاءة وSOS ووميض لسلامة الطريق",
+            "es": "Luz LED de emergencia con modos luz, SOS y estroboscópico para seguridad en carretera",
+            "fr": "Lampe LED d’urgence avec modes éclairage, SOS et stroboscope pour la sécurité routière",
+            "id": "Lampu LED darurat dengan mode cahaya, SOS, dan strobo untuk keamanan di jalan",
+            "ru": "Аварийный LED-фонарь с режимами освещения, SOS и стробоскопа для безопасности на дороге",
+            "th": "ไฟ LED ฉุกเฉิน 3 โหมด ส่องสว่าง SOS และแฟลช เพื่อความปลอดภัยริมถนน",
+            "vi": "Đèn LED khẩn cấp 3 chế độ chiếu sáng/SOS/strobe an toàn khi xử sự trên đường"
+          }
+        },
+        {
+          "icon": "check",
+          "text": {
+            "en": "CE, FCC, RoHS, UKCA, UN38.3 & MSDS certified; complete accessories ready to use",
+            "zh": "已获 CE、FCC、RoHS、UKCA、UN38.3、MSDS 认证；配件齐全即开即用",
+            "ar": "حاصلة على CE وFCC وRoHS وUKCA وUN38.3 وMSDS؛ ملحقات كاملة جاهزة للاستخدام",
+            "es": "Certificado CE, FCC, RoHS, UKCA, UN38.3 y MSDS; accesorios completos listos para usar",
+            "fr": "Certifié CE, FCC, RoHS, UKCA, UN38.3, MSDS ; accessoires complets prêts à l’emploi",
+            "id": "Bersertifikat CE, FCC, RoHS, UKCA, UN38.3 & MSDS; aksesori lengkap siap pakai",
+            "ru": "Сертификаты CE, FCC, RoHS, UKCA, UN38.3, MSDS; полный комплект аксессуаров",
+            "th": "ผ่านการรับรอง CE FCC RoHS UKCA UN38.3 MSDS; อุปกรณ์ครบพร้อมใช้งาน",
+            "vi": "Chứng nhận CE, FCC, RoHS, UKCA, UN38.3 & MSDS; phụ kiện đầy đủ dùng ngay"
+          }
+        }
+      ],
+      "specs": [
+        {
+          "label": {
+            "en": "Peak Current",
+            "zh": "峰值电流",
+            "ar": "تيار الذروة",
+            "es": "Corriente pico",
+            "fr": "Courant de crête",
+            "id": "Arus puncak",
+            "ru": "Пиковый ток",
+            "th": "กระแสสูงสุด",
+            "vi": "Dòng đỉnh"
+          },
+          "value": "2000 A"
+        },
+        {
+          "label": {
+            "en": "Battery Capacity",
+            "zh": "电池容量",
+            "ar": "سعة البطارية",
+            "es": "Capacidad de batería",
+            "fr": "Capacité de batterie",
+            "id": "Kapasitas baterai",
+            "ru": "Ёмкость аккумулятора",
+            "th": "ความจุแบตเตอรี่",
+            "vi": "Dung lượng pin"
+          },
+          "value": "2000 mAh × 4 (8000 mAh)"
+        },
+        {
+          "label": {
+            "en": "Charging",
+            "zh": "充电方式",
+            "ar": "الشحن",
+            "es": "Carga",
+            "fr": "Charge",
+            "id": "Pengisian",
+            "ru": "Зарядка",
+            "th": "การชาร์จ",
+            "vi": "Sạc"
+          },
+          "value": "USB Type-C"
+        },
+        {
+          "label": {
+            "en": "Charge Time",
+            "zh": "充电时间",
+            "ar": "وقت الشحن",
+            "es": "Tiempo de carga",
+            "fr": "Temps de charge",
+            "id": "Waktu pengisian",
+            "ru": "Время зарядки",
+            "th": "เวลาชาร์จ",
+            "vi": "Thời gian sạc"
+          },
+          "value": "3–5 h"
+        },
+        {
+          "label": {
+            "en": "Motor Power",
+            "zh": "电机功率",
+            "ar": "قدرة المحرك",
+            "es": "Potencia del motor",
+            "fr": "Puissance moteur",
+            "id": "Daya motor",
+            "ru": "Мощность мотора",
+            "th": "กำลังมอเตอร์",
+            "vi": "Công suất động cơ"
+          },
+          "value": "120 W"
+        },
+        {
+          "label": {
+            "en": "Max Pressure",
+            "zh": "最大压力",
+            "ar": "أقصى ضغط",
+            "es": "Presión máxima",
+            "fr": "Pression max",
+            "id": "Tekanan maks",
+            "ru": "Макс. давление",
+            "th": "แรงดันสูงสุด",
+            "vi": "Áp suất tối đa"
+          },
+          "value": "150 PSI / 10.34 bar"
+        },
+        {
+          "label": {
+            "en": "Airflow",
+            "zh": "气流量",
+            "ar": "تدفق الهواء",
+            "es": "Flujo de aire",
+            "fr": "Débit d’air",
+            "id": "Aliran udara",
+            "ru": "Поток воздуха",
+            "th": "อัตราลม",
+            "vi": "Lưu lượng khí"
+          },
+          "value": "27 L/min"
+        },
+        {
+          "label": {
+            "en": "Air Hose",
+            "zh": "气管长度",
+            "ar": "خرطوم الهواء",
+            "es": "Manguera de aire",
+            "fr": "Tuyau à air",
+            "id": "Selang udara",
+            "ru": "Воздушный шланг",
+            "th": "สายลม",
+            "vi": "Ống hơi"
+          },
+          "value": "36 cm"
+        },
+        {
+          "label": {
+            "en": "Cylinder",
+            "zh": "气缸",
+            "ar": "الأسطوانة",
+            "es": "Cilindro",
+            "fr": "Cylindre",
+            "id": "Silinder",
+            "ru": "Цилиндр",
+            "th": "กระบอกสูบ",
+            "vi": "Xi-lanh"
+          },
+          "value": "Φ19–22 mm"
+        },
+        {
+          "label": {
+            "en": "Noise",
+            "zh": "噪音",
+            "ar": "الضوضاء",
+            "es": "Ruido",
+            "fr": "Bruit",
+            "id": "Kebisingan",
+            "ru": "Шум",
+            "th": "เสียงรบกวน",
+            "vi": "Tiếng ồn"
+          },
+          "value": "≤85 dB"
+        },
+        {
+          "label": {
+            "en": "Functions",
+            "zh": "功能",
+            "ar": "الوظائف",
+            "es": "Funciones",
+            "fr": "Fonctions",
+            "id": "Fungsi",
+            "ru": "Функции",
+            "th": "ฟังก์ชัน",
+            "vi": "Chức năng"
+          },
+          "value": "6-in-1"
+        }
+      ],
+      "quick_specs": [
+        {
+          "label": {
+            "en": "Peak Current",
+            "zh": "峰值电流",
+            "ar": "تيار الذروة",
+            "es": "Corriente pico",
+            "fr": "Courant de crête",
+            "id": "Arus puncak",
+            "ru": "Пиковый ток",
+            "th": "กระแสสูงสุด",
+            "vi": "Dòng đỉnh"
+          },
+          "value": "2000 A"
+        },
+        {
+          "label": {
+            "en": "Max Pressure",
+            "zh": "最大压力",
+            "ar": "أقصى ضغط",
+            "es": "Presión máxima",
+            "fr": "Pression max",
+            "id": "Tekanan maks",
+            "ru": "Макс. давление",
+            "th": "แรงดันสูงสุด",
+            "vi": "Áp suất tối đa"
+          },
+          "value": "150 PSI / 10.34 bar"
+        },
+        {
+          "label": {
+            "en": "Battery Capacity",
+            "zh": "电池容量",
+            "ar": "سعة البطارية",
+            "es": "Capacidad de batería",
+            "fr": "Capacité de batterie",
+            "id": "Kapasitas baterai",
+            "ru": "Ёмкость аккумулятора",
+            "th": "ความจุแบตเตอรี่",
+            "vi": "Dung lượng pin"
+          },
+          "value": "2000 mAh × 4"
+        },
+        {
+          "label": {
+            "en": "Charge Time",
+            "zh": "充电时间",
+            "ar": "وقت الشحن",
+            "es": "Tiempo de carga",
+            "fr": "Temps de charge",
+            "id": "Waktu pengisian",
+            "ru": "Время зарядки",
+            "th": "เวลาชาร์จ",
+            "vi": "Thời gian sạc"
+          },
+          "value": "3–5 h"
+        }
+      ],
+      "price_ladder": [
+        {
+          "min": 10,
+          "max": 499,
+          "price": 28.0
+        },
+        {
+          "min": 500,
+          "max": 999,
+          "price": 25.0
+        },
+        {
+          "min": 1000,
+          "max": -1,
+          "price": 23.0
+        }
+      ],
+      "price_indicator": {
+        "min": 23.0,
+        "max": 28.0,
+        "currency": "USD"
+      },
+      "moq": {
+        "value": 10,
+        "unit": "sets"
+      },
+      "certifications": [
+        "CE",
+        "FCC",
+        "RoHS",
+        "UKCA",
+        "UN38.3",
+        "MSDS"
+      ],
+      "sku": [
+        {
+          "name": {
+            "en": "Max Pressure",
+            "zh": "最大压力",
+            "ar": "أقصى ضغط",
+            "es": "Presión máxima",
+            "fr": "Pression max",
+            "id": "Tekanan maks",
+            "ru": "Макс. давление",
+            "th": "แรงดันสูงสุด",
+            "vi": "Áp suất tối đa"
+          },
+          "values": [
+            {
+              "name": "101–150 PSI"
+            }
+          ]
+        }
+      ],
+      "images": [
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-mc6659/01.webp?v=20261031e",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-mc6659/02.webp?v=20261031e",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-mc6659/03.webp?v=20261031e",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-mc6659/04.webp?v=20261031e",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-mc6659/05.webp?v=20261031e",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-mc6659/06.webp?v=20261031e"
+      ],
+      "detail_images": [
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-mc6659/detail/01.webp?v=20261031e",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-mc6659/detail/02.webp?v=20261031e",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-mc6659/detail/03.webp?v=20261031e",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-mc6659/detail/04.webp?v=20261031e",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-mc6659/detail/05.webp?v=20261031e",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-mc6659/detail/06.webp?v=20261031e"
+      ],
+      "alibaba_url": "https://www.alibaba.com/product-detail/Portable-Jump-Starter-Air-Compressor-150PSI_1601910703144.html",
+      "version": "20261031e"
     }
-   ],
-   "packaging": {
-    "unit": "Color Box"
-   },
-   "customization": {},
-   "applications": {
-    "en": "",
-    "zh": ""
-   },
-   "price_indicator": null,
-   "quick_specs": [
+  ],
+  "reviews": [
     {
-     "label": {
-      "en": "Power",
-      "zh": "功率",
-      "es": "Potencia",
-      "ar": "القدرة",
-      "fr": "Puissance",
-      "id": "Daya",
-      "ru": "Мощность",
-      "th": "กำลังไฟ",
-      "vi": "Công suất"
-     },
-     "value": {
-      "en": "≤120W",
-      "es": "≤120W",
-      "ar": "≤120W",
-      "fr": "≤120W",
-      "id": "≤120W",
-      "ru": "≤120W",
-      "th": "≤120W",
-      "vi": "≤120W"
-     }
+      "name": "Kevin Murphy",
+      "location": "Denver, CO, USA",
+      "rating": 5,
+      "date": "2025-12-01",
+      "title": "Digital gauge is accurate to ±0.1 PSI — matches my professional inflator",
+      "body": "I am a mechanic and I use this for quick top-ups between full inflations. The digital display reads in PSI, BAR, and KPA. The auto shut-off at target pressure is reliable. The built-in LED light makes it usable in dark garages or at night.",
+      "photoUrls": [
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/01-main.webp?v=20261029p",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/02.webp?v=20261029p"
+      ]
     },
     {
-     "label": {
-      "en": "Maximum Pressure",
-      "zh": "最大气压",
-      "es": "Presión máxima",
-      "ar": "أقصى ضغط",
-      "fr": "Pression maximale",
-      "id": "Tekanan Maksimum",
-      "ru": "Максимальное давление",
-      "th": "แรงดันสูงสุด",
-      "vi": "Áp suất tối đa"
-     },
-     "value": {
-      "en": "150PSI / 10.3Bar",
-      "es": "150PSI / 10.3Bar",
-      "ar": "150PSI / 10.3Bar",
-      "fr": "150PSI / 10.3Bar",
-      "id": "150PSI / 10.3Bar",
-      "ru": "150PSI / 10.3Bar",
-      "th": "150PSI / 10.3Bar",
-      "vi": "150PSI / 10.3Bar"
-     }
+      "name": "Yuki Tanaka",
+      "location": "Osaka, Japan",
+      "rating": 5,
+      "date": "2025-09-25",
+      "title": "Compact digital inflator replaces my garage air compressor for daily use",
+      "body": "At 1.8kg this is the lightest digital inflator I have owned. It fills a standard car tire from 0 to 32 PSI in about 4 minutes. The 3m power cord and 60cm hose give plenty of reach. It also works as a power bank via its USB-A port.",
+      "photoUrls": [
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/01-main.webp?v=20261029p",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/02.webp?v=20261029p"
+      ]
     },
     {
-     "label": {
-      "en": "Working Time",
-      "zh": "工作时间",
-      "es": "Tiempo de funcionamiento",
-      "ar": "زمن العمل",
-      "fr": "Temps de fonctionnement",
-      "id": "Waktu Kerja",
-      "ru": "Время работы",
-      "th": "เวลาทำงาน",
-      "vi": "Thời gian làm việc"
-     },
-     "value": {
-      "en": "40mins",
-      "es": "40mins",
-      "ar": "40mins",
-      "fr": "40mins",
-      "id": "40mins",
-      "ru": "40mins",
-      "th": "40mins",
-      "vi": "40mins"
-     }
+      "name": "Stefan Bauer",
+      "location": "Vienna, Austria",
+      "rating": 4,
+      "date": "2025-07-30",
+      "title": "Reliable for both car and bicycle tires — good value for the price",
+      "body": "I use this for our family car and two bicycles (Presta valve adapter included). The inflation speed is slower than a garage compressor but perfectly adequate for regular maintenance. The storage pouch keeps everything organized.",
+      "photoUrls": [
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/01-main.webp?v=20261029p",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/02.webp?v=20261029p"
+      ]
+    }
+  ],
+  "_schema_reviews": [
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Kevin Murphy",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Denver, CO, USA"
+        }
+      },
+      "datePublished": "2025-12-01",
+      "reviewBody": "I am a mechanic and I use this for quick top-ups between full inflations. The digital display reads in PSI, BAR, and KPA. The auto shut-off at target pressure is reliable. The built-in LED light makes it usable in dark garages or at night.",
+      "name": "Digital gauge is accurate to ±0.1 PSI — matches my professional inflator",
+      "image": [
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/01-main.webp?v=20261029p",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/02.webp?v=20261029p"
+      ]
     },
     {
-     "label": {
-      "en": "Battery Capacity",
-      "zh": "电池容量",
-      "es": "Capacidad de batería",
-      "ar": "سعة البطارية",
-      "fr": "Capacité de la batterie",
-      "id": "Kapasitas Baterai",
-      "ru": "Ёмкость аккумулятора",
-      "th": "ความจุแบตเตอรี่",
-      "vi": "Dung lượng pin"
-     },
-     "value": {
-      "en": "2500mAh*4",
-      "es": "2500mAh*4",
-      "ar": "2500mAh*4",
-      "fr": "2500mAh*4",
-      "id": "2500mAh*4",
-      "ru": "2500mAh*4",
-      "th": "2500mAh*4",
-      "vi": "2500mAh*4"
-     }
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Yuki Tanaka",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Osaka, Japan"
+        }
+      },
+      "datePublished": "2025-09-25",
+      "reviewBody": "At 1.8kg this is the lightest digital inflator I have owned. It fills a standard car tire from 0 to 32 PSI in about 4 minutes. The 3m power cord and 60cm hose give plenty of reach. It also works as a power bank via its USB-A port.",
+      "name": "Compact digital inflator replaces my garage air compressor for daily use",
+      "image": [
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/01-main.webp?v=20261029p",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/02.webp?v=20261029p"
+      ]
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "4",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Stefan Bauer",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Vienna, Austria"
+        }
+      },
+      "datePublished": "2025-07-30",
+      "reviewBody": "I use this for our family car and two bicycles (Presta valve adapter included). The inflation speed is slower than a garage compressor but perfectly adequate for regular maintenance. The storage pouch keeps everything organized.",
+      "name": "Reliable for both car and bicycle tires — good value for the price",
+      "image": [
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/01-main.webp?v=20261029p",
+        "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/02.webp?v=20261029p"
+      ]
     }
-   ],
-   "price_ladder": [],
-   "sku": "1601909117845",
-   "description": {
-    "en": "≤120W · 150PSI / 10.3Bar · 40mins. OEM/ODM available; specifications from the supplier listing.",
-    "zh": "≤120W · 150PSI / 10.3Bar · 40mins。支持 OEM/ODM 定制，规格取自供应商商品资料。",
-    "es": "≤120W · 150PSI / 10.3Bar · 40mins. Disponible en OEM/ODM; especificaciones tomadas del listado del proveedor.",
-    "ar": "≤120W · 150PSI / 10.3Bar · 40mins. متاح بنظام OEM/ODM؛ المواصفات مأخوذة من قائمة المورّد.",
-    "fr": "≤120W · 150PSI / 10.3Bar · 40mins. Disponible en OEM/ODM ; spécifications issues de la fiche du fournisseur.",
-    "id": "≤120W · 150PSI / 10.3Bar · 40mins. Tersedia dalam OEM/ODM; spesifikasi diambil dari daftar pemasok.",
-    "ru": "≤120W · 150PSI / 10.3Bar · 40mins. Доступно в OEM/ODM; характеристики взяты из карточки товара поставщика.",
-    "th": "≤120W · 150PSI / 10.3Bar · 40mins. มีให้บริการในรูปแบบ OEM/ODM; ข้อมูลจำเพาะนำมาจากประกาศของผู้ขาย",
-    "vi": "≤120W · 150PSI / 10.3Bar · 40mins. Có sẵn dạng OEM/ODM; thông số kỹ thuật lấy từ niêm yết của nhà cung cấp."
-   },
-   "supplier_rating": "4.8",
-   "response_time": "≤ 2h",
-   "transactions": "US $100K+",
-   "years": "10+",
-   "ship_from": {
-    "en": "Ningbo, China",
-    "zh": "中国宁波"
-   },
-   "sample": {
-    "enabled": true,
-    "qty": 5,
-    "note": "Sample available, lead 7-14 days"
-   },
-   "category_name": {
-    "en": "Tire Inflators & Air Compressors",
-    "zh": "充气泵",
-    "es": "Inflador de Neumaticos Digital",
-    "ar": "مضخة إطارات رقمية",
-    "fr": "Gonfleur de pneus numérique",
-    "id": "Pompa Ban Digital",
-    "ru": "Цифровой компрессор для шин",
-    "th": "ปั๊มลมยางดิจิทัล",
-    "vi": "Bơm lốp xe kỹ thuật số"
-   },
-   "_source": {
-    "platform": "alibaba.com",
-    "productId": "1601909117845"
-   },
-   "_cat": "tire-inflator"
-  ,
-   "detail_images": [
-    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/detail/01.webp?v=20261029p",
-    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/detail/02.webp?v=20261029p",
-    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/detail/03.webp?v=20261029p",
-    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/detail/04.webp?v=20261029p",
-    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/detail/05.webp?v=20261029p",
-    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/detail/06.webp?v=20261029p",
-    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/detail/07.webp?v=20261029p",
-    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/detail/08.webp?v=20261029p",
-    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/detail/09.webp?v=20261029p",
-    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/detail/10.webp?v=20261029p",
-    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6667/detail/11.webp?v=20261029p"
-   ]
-  }
- ],
- "reviews": [
-  {
-   "name": "Kevin Murphy",
-   "location": "Denver, CO, USA",
-   "rating": 5,
-   "date": "2025-12-01",
-   "title": "Digital gauge is accurate to ±0.1 PSI — matches my professional inflator",
-   "body": "I am a mechanic and I use this for quick top-ups between full inflations. The digital display reads in PSI, BAR, and KPA. The auto shut-off at target pressure is reliable. The built-in LED light makes it usable in dark garages or at night.",
-   "photoUrls": [
-    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/01-main.webp?v=20261029p",
-    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/02.webp?v=20261029p"
-   ]
-  },
-  {
-   "name": "Yuki Tanaka",
-   "location": "Osaka, Japan",
-   "rating": 5,
-   "date": "2025-09-25",
-   "title": "Compact digital inflator replaces my garage air compressor for daily use",
-   "body": "At 1.8kg this is the lightest digital inflator I have owned. It fills a standard car tire from 0 to 32 PSI in about 4 minutes. The 3m power cord and 60cm hose give plenty of reach. It also works as a power bank via its USB-A port.",
-   "photoUrls": [
-    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/01-main.webp?v=20261029p",
-    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/02.webp?v=20261029p"
-   ]
-  },
-  {
-   "name": "Stefan Bauer",
-   "location": "Vienna, Austria",
-   "rating": 4,
-   "date": "2025-07-30",
-   "title": "Reliable for both car and bicycle tires — good value for the price",
-   "body": "I use this for our family car and two bicycles (Presta valve adapter included). The inflation speed is slower than a garage compressor but perfectly adequate for regular maintenance. The storage pouch keeps everything organized.",
-   "photoUrls": [
-    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/01-main.webp?v=20261029p",
-    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/02.webp?v=20261029p"
-   ]
-  }
- ],
- "_schema_reviews": [
-  {
-   "@type": "Review",
-   "reviewRating": {
-    "@type": "Rating",
-    "ratingValue": "5",
-    "bestRating": "5",
-    "worstRating": "1"
-   },
-   "author": {
-    "@type": "Person",
-    "name": "Kevin Murphy",
-    "address": {
-     "@type": "PostalAddress",
-     "addressLocality": "Denver, CO, USA"
-    }
-   },
-   "datePublished": "2025-12-01",
-   "reviewBody": "I am a mechanic and I use this for quick top-ups between full inflations. The digital display reads in PSI, BAR, and KPA. The auto shut-off at target pressure is reliable. The built-in LED light makes it usable in dark garages or at night.",
-   "name": "Digital gauge is accurate to ±0.1 PSI — matches my professional inflator",
-   "image": [
-    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/01-main.webp?v=20261029p",
-    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/02.webp?v=20261029p"
-   ]
-  },
-  {
-   "@type": "Review",
-   "reviewRating": {
-    "@type": "Rating",
-    "ratingValue": "5",
-    "bestRating": "5",
-    "worstRating": "1"
-   },
-   "author": {
-    "@type": "Person",
-    "name": "Yuki Tanaka",
-    "address": {
-     "@type": "PostalAddress",
-     "addressLocality": "Osaka, Japan"
-    }
-   },
-   "datePublished": "2025-09-25",
-   "reviewBody": "At 1.8kg this is the lightest digital inflator I have owned. It fills a standard car tire from 0 to 32 PSI in about 4 minutes. The 3m power cord and 60cm hose give plenty of reach. It also works as a power bank via its USB-A port.",
-   "name": "Compact digital inflator replaces my garage air compressor for daily use",
-   "image": [
-    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/01-main.webp?v=20261029p",
-    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/02.webp?v=20261029p"
-   ]
-  },
-  {
-   "@type": "Review",
-   "reviewRating": {
-    "@type": "Rating",
-    "ratingValue": "4",
-    "bestRating": "5",
-    "worstRating": "1"
-   },
-   "author": {
-    "@type": "Person",
-    "name": "Stefan Bauer",
-    "address": {
-     "@type": "PostalAddress",
-     "addressLocality": "Vienna, Austria"
-    }
-   },
-   "datePublished": "2025-07-30",
-   "reviewBody": "I use this for our family car and two bicycles (Presta valve adapter included). The inflation speed is slower than a garage compressor but perfectly adequate for regular maintenance. The storage pouch keeps everything organized.",
-   "name": "Reliable for both car and bicycle tires — good value for the price",
-   "image": [
-    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/01-main.webp?v=20261029p",
-    "https://www.hkdmj.net/assets/images/products/tire-inflator-ymc6628/02.webp?v=20261029p"
-   ]
-  }
- ]
+  ]
 }
