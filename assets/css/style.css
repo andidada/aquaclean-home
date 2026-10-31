@@ -364,18 +364,18 @@ body.lang-ar { direction: rtl; }
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 24px;
 }
-/* 首页 10 大类目：桌面 5 列 × 2 排（2026-10-31 用户要求），向下自适应。
-   仅首页 grid 挂 .products-grid-5 修饰类，品类页/文章页的 .products-grid 不受影响。 */
-.products-grid-5 { grid-template-columns: repeat(5, 1fr); }
-@media (max-width: 1100px) { .products-grid-5 { grid-template-columns: repeat(3, 1fr); } }
-@media (max-width: 768px)  { .products-grid-5 { grid-template-columns: repeat(2, 1fr); } }
-@media (max-width: 480px)  { .products-grid-5 { grid-template-columns: 1fr; } }
-/* 5 列下单卡约 220px，收紧内距与字号保持整齐 */
-.products-grid-5 .product-body { padding: 14px 14px 16px; }
-.products-grid-5 .product-body h3 { font-size: 15px; }
-.products-grid-5 .product-body p { font-size: 12.5px; line-height: 1.55; }
-.products-grid-5 .product-tag { font-size: 10px; padding: 3px 8px; }
-.products-grid-5 .product-card .btn-primary { padding: 10px 12px; font-size: 13px; }
+/* 首页 10 大类目：桌面 4 列 × 3 排（4+4+2，2026-10-31 用户要求），向下自适应。
+   仅首页 grid 挂 .home-cat-grid 修饰类，品类页/文章页的 .products-grid 不受影响。 */
+.home-cat-grid { grid-template-columns: repeat(4, 1fr); }
+@media (max-width: 1100px) { .home-cat-grid { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 768px)  { .home-cat-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 480px)  { .home-cat-grid { grid-template-columns: 1fr; } }
+/* 4 列下单卡约 282px，比默认略窄，内距与字号小幅收紧保持整齐 */
+.home-cat-grid .product-body { padding: 16px 16px 18px; }
+.home-cat-grid .product-body h3 { font-size: 16px; }
+.home-cat-grid .product-body p { font-size: 13px; }
+.home-cat-grid .product-tag { font-size: 11px; padding: 4px 9px; }
+.home-cat-grid .product-card .btn-primary { padding: 12px 14px; font-size: 14px; }
 .product-card {
   background: #fff;
   border-radius: var(--radius);
