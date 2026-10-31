@@ -752,8 +752,7 @@
    },
    "shipping_fee_usd": 17.02,
    "alibaba_url": "https://www.alibaba.com/product-detail/V18-Rechargeable-Cordless-Stick-Vacuum-Cleaner_1601887639841.html",
-   "_cat": "handheld-vacuum"
-  ,
+   "_cat": "handheld-vacuum",
    "detail_images": [
     "https://www.hkdmj.net/assets/images/products/handheld-vacuum-gv18/detail/01.webp?v=20261029p",
     "https://www.hkdmj.net/assets/images/products/handheld-vacuum-gv18/detail/02.webp?v=20261029p",
@@ -1874,8 +1873,7 @@
     "platform": "alibaba.com",
     "productId": "1601715098186"
    },
-   "_cat": "handheld-vacuum"
-  ,
+   "_cat": "handheld-vacuum",
    "detail_images": [
     "https://www.hkdmj.net/assets/images/products/handheld-vacuum-v22-2/detail/01.webp?v=20261029p",
     "https://www.hkdmj.net/assets/images/products/handheld-vacuum-v22-2/detail/02.webp?v=20261029p",
@@ -2748,8 +2746,7 @@
     "platform": "alibaba.com",
     "productId": "1601719491601"
    },
-   "_cat": "handheld-vacuum"
-  ,
+   "_cat": "handheld-vacuum",
    "detail_images": [
     "https://www.hkdmj.net/assets/images/products/handheld-vacuum-gv22/detail/01.webp?v=20261029p",
     "https://www.hkdmj.net/assets/images/products/handheld-vacuum-gv22/detail/02.webp?v=20261029p",
@@ -3777,8 +3774,7 @@
     "platform": "alibaba.com",
     "productId": "1601799172634"
    },
-   "_cat": "handheld-vacuum"
-  ,
+   "_cat": "handheld-vacuum",
    "detail_images": [
     "https://www.hkdmj.net/assets/images/products/handheld-vacuum-v26/detail/01.webp?v=20261029p",
     "https://www.hkdmj.net/assets/images/products/handheld-vacuum-v26/detail/02.webp?v=20261029p",
@@ -3791,6 +3787,755 @@
     "https://www.hkdmj.net/assets/images/products/handheld-vacuum-v26/detail/09.webp?v=20261029p",
     "https://www.hkdmj.net/assets/images/products/handheld-vacuum-v26/detail/10.webp?v=20261029p",
     "https://www.hkdmj.net/assets/images/products/handheld-vacuum-v26/detail/11.webp?v=20261029p"
+   ]
+  },
+  {
+   "id": "pw3023",
+   "name": {
+    "en": "PW3023 Foldable Cordless Stick Vacuum Cleaner",
+    "zh": "PW3023 可折叠无线立式吸尘器",
+    "es": "Aspiradora escoba plegable inalámbrica PW3023",
+    "ar": "مكنسة عصوية لاسلكية قابلة للطي PW3023",
+    "fr": "Aspirateur balai sans fil pliable PW3023",
+    "id": "Penyedot debu tongkat nirkabel lipat PW3023",
+    "ru": "Складной беспроводной вертикальный пылесос PW3023",
+    "th": "เครื่องดูดฝุ่นแบบแท่งไร้สายพับได้ PW3023",
+    "vi": "Máy hút bụi dạng gậy không dây gập được PW3023"
+   },
+   "tagline": {
+    "en": "350W BLDC Motor · 28kPa Suction · Foldable Design",
+    "zh": "350W 无刷电机 · 28kPa 大吸力 · 可折叠设计",
+    "es": "Motor BLDC de 350 W · succión 28 kPa · diseño plegable",
+    "ar": "محرك BLDC 350 واط · شفط 28kPa · تصميم قابل للطي",
+    "fr": "Moteur BLDC 350 W · aspiration 28 kPa · design pliable",
+    "id": "Motor BLDC 350W · daya hisap 28kPa · desain lipat",
+    "ru": "Бесщёточный двигатель 350 Вт · всасывание 28 кПа · складная конструкция",
+    "th": "มอเตอร์ BLDC 350W · แรงดูด 28kPa · ดีไซน์พับได้",
+    "vi": "Động cơ BLDC 350W · lực hút 28kPa · thiết kế gập"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/handheld-vacuum-pw3023/01-main.webp?v=20261101a",
+    "https://www.hkdmj.net/assets/images/products/handheld-vacuum-pw3023/02.webp?v=20261101a",
+    "https://www.hkdmj.net/assets/images/products/handheld-vacuum-pw3023/03.webp?v=20261101a",
+    "https://www.hkdmj.net/assets/images/products/handheld-vacuum-pw3023/04.webp?v=20261101a",
+    "https://www.hkdmj.net/assets/images/products/handheld-vacuum-pw3023/05.webp?v=20261101a",
+    "https://www.hkdmj.net/assets/images/products/handheld-vacuum-pw3023/06.webp?v=20261101a"
+   ],
+   "video_url": "",
+   "moq": {
+    "value": 2,
+    "unit": "pieces"
+   },
+   "certifications": [],
+   "cert_note": {
+    "en": "Certification documents on file — available on request.",
+    "zh": "认证资料已备案，可按需提供。"
+   },
+   "highlights": [
+    {
+     "icon": "power",
+     "text": {
+      "en": "350W BLDC Motor with 28kPa Suction",
+      "zh": "350W 无刷电机，28kPa 强吸力",
+      "es": "Motor BLDC de 350 W con succión de 28 kPa",
+      "ar": "محرك BLDC 350W بشفط 28kPa",
+      "fr": "Moteur BLDC de 350 W avec aspiration de 28 kPa",
+      "id": "Motor BLDC 350W dengan daya hisap 28kPa",
+      "ru": "Бесщёточный двигатель 350 Вт с всасыванием 28 кПа",
+      "th": "มอเตอร์ BLDC 350W พร้อมแรงดูด 28kPa",
+      "vi": "Động cơ BLDC 350W với lực hút 28kPa"
+     }
+    },
+    {
+     "icon": "suction",
+     "text": {
+      "en": "180° Foldable Design · Reaches Under Furniture",
+      "zh": "180° 可折叠设计 · 深入家具底部",
+      "es": "Diseño plegable 180° · alcanza debajo de los muebles",
+      "ar": "تصميم قابل للطي 180° · يصل تحت الأثاث",
+      "fr": "Conception pliable 180° · atteint sous les meubles",
+      "id": "Desain lipat 180° · menjangkau kolong furnitur",
+      "ru": "Складная конструкция 180° · достаёт под мебель",
+      "th": "ดีไซน์พับได้ 180° · ทะลุใต้เฟอร์นิเจอร์",
+      "vi": "Thiết kế gập 180° · với tới gầm nội thất"
+     }
+    },
+    {
+     "icon": "filter",
+     "text": {
+      "en": "6-Stage HEPA Filtration · Bagless 1.5L",
+      "zh": "六级 HEPA 过滤 · 无袋式 1.5L",
+      "es": "Filtración HEPA de 6 etapas · 1,5 L sin bolsa",
+      "ar": "ترشيح HEPA من 6 مراحل · 1.5 لتر بلا كيس",
+      "fr": "Filtration HEPA 6 étages · 1,5 L sans sac",
+      "id": "Filtrasi HEPA 6 tahap · 1,5L tanpa kantong",
+      "ru": "Фильтрация HEPA из 6 ступеней · 1,5 л без мешка",
+      "th": "กรอง HEPA 6 ชั้น · 1.5L ไม่ใช้ถุง",
+      "vi": "Lọc HEPA 6 cấp · 1,5L không túi"
+     }
+    },
+    {
+     "icon": "battery",
+     "text": {
+      "en": "Removable Battery · 45 min Runtime · LED Display",
+      "zh": "可拆卸电池 · 45 分钟续航 · LED 显示屏",
+      "es": "Batería extraíble · 45 min · pantalla LED",
+      "ar": "بطارية قابلة للإزالة · 45 دقيقة · شاشة LED",
+      "fr": "Batterie amovible · 45 min · écran LED",
+      "id": "Baterai dapat dilepas · 45 menit · layar LED",
+      "ru": "Съёмный аккумулятор · 45 минут · LED-дисплей",
+      "th": "แบตเตอรี่ถอดได้ · 45 นาที · จอ LED",
+      "vi": "Pin tháo rời · 45 phút · màn hình LED"
+     }
+    }
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "Model",
+      "zh": "Model",
+      "ar": "Model",
+      "es": "Model",
+      "fr": "Model",
+      "id": "Model",
+      "ru": "Model",
+      "th": "Model",
+      "vi": "Model"
+     },
+     "value": {
+      "en": "PW3023",
+      "zh": "PW3023",
+      "ar": "PW3023",
+      "es": "PW3023",
+      "fr": "PW3023",
+      "id": "PW3023",
+      "ru": "PW3023",
+      "th": "PW3023",
+      "vi": "PW3023"
+     }
+    },
+    {
+     "label": {
+      "en": "Motor Type",
+      "zh": "电机类型",
+      "es": "Tipo de motor",
+      "ar": "نوع المحرك",
+      "fr": "Type de moteur",
+      "id": "Tipe motor",
+      "ru": "Тип двигателя",
+      "th": "ประเภทมอเตอร์",
+      "vi": "Loại động cơ"
+     },
+     "value": {
+      "en": "Brushless (BLDC)",
+      "zh": "无刷（BLDC）",
+      "es": "Sin escobillas (BLDC)",
+      "ar": "بدون فرشاة (BLDC)",
+      "fr": "Sans balais (BLDC)",
+      "id": "Tanpa sikat (BLDC)",
+      "ru": "Бесщёточный (BLDC)",
+      "th": "ไม่มีแปรงถ่าน (BLDC)",
+      "vi": "Không chổi than (BLDC)"
+     }
+    },
+    {
+     "label": {
+      "en": "Motor Power",
+      "zh": "Motor Power",
+      "ar": "Motor Power",
+      "es": "Motor Power",
+      "fr": "Motor Power",
+      "id": "Motor Power",
+      "ru": "Motor Power",
+      "th": "Motor Power",
+      "vi": "Motor Power"
+     },
+     "value": {
+      "en": "350W",
+      "zh": "350W",
+      "ar": "350W",
+      "es": "350W",
+      "fr": "350W",
+      "id": "350W",
+      "ru": "350W",
+      "th": "350W",
+      "vi": "350W"
+     }
+    },
+    {
+     "label": {
+      "en": "Suction (Peak)",
+      "zh": "Suction (Peak)",
+      "ar": "Suction (Peak)",
+      "es": "Suction (Peak)",
+      "fr": "Suction (Peak)",
+      "id": "Suction (Peak)",
+      "ru": "Suction (Peak)",
+      "th": "Suction (Peak)",
+      "vi": "Suction (Peak)"
+     },
+     "value": {
+      "en": "28kPa",
+      "zh": "28kPa",
+      "ar": "28kPa",
+      "es": "28kPa",
+      "fr": "28kPa",
+      "id": "28kPa",
+      "ru": "28kPa",
+      "th": "28kPa",
+      "vi": "28kPa"
+     }
+    },
+    {
+     "label": {
+      "en": "Dust Cup",
+      "zh": "尘杯容量",
+      "es": "Cubo de polvo",
+      "ar": "كوب الغبار",
+      "fr": "Bac à poussière",
+      "id": "Wadah debu",
+      "ru": "Пылесборник",
+      "th": "ถ้วยเก็บฝุ่น",
+      "vi": "Hộp bụi"
+     },
+     "value": {
+      "en": "1.5L Bagless",
+      "zh": "1.5L 无袋式",
+      "es": "1,5 L sin bolsa",
+      "ar": "1.5 لتر بلا كيس",
+      "fr": "1,5 L sans sac",
+      "id": "1,5L tanpa kantong",
+      "ru": "1,5 л без мешка",
+      "th": "1.5L ไม่ใช้ถุง",
+      "vi": "1,5L không túi"
+     }
+    },
+    {
+     "label": {
+      "en": "Filtration",
+      "zh": "Filtration",
+      "ar": "Filtration",
+      "es": "Filtration",
+      "fr": "Filtration",
+      "id": "Filtration",
+      "ru": "Filtration",
+      "th": "Filtration",
+      "vi": "Filtration"
+     },
+     "value": {
+      "en": "6-Stage HEPA",
+      "zh": "六级 HEPA",
+      "es": "HEPA de 6 etapas",
+      "ar": "HEPA من 6 مراحل",
+      "fr": "HEPA 6 étages",
+      "id": "HEPA 6 tahap",
+      "ru": "HEPA из 6 ступеней",
+      "th": "HEPA 6 ชั้น",
+      "vi": "HEPA 6 cấp"
+     }
+    },
+    {
+     "label": {
+      "en": "Battery",
+      "zh": "电池",
+      "es": "Batería",
+      "ar": "البطارية",
+      "fr": "Batterie",
+      "id": "Baterai",
+      "ru": "Аккумулятор",
+      "th": "แบตเตอรี่",
+      "vi": "Pin"
+     },
+     "value": {
+      "en": "7×2200mAh (Removable)",
+      "zh": "7×2200mAh（可拆卸）",
+      "es": "7×2200mAh (extraíble)",
+      "ar": "7×2200mAh (قابلة للإزالة)",
+      "fr": "7×2200mAh (amovible)",
+      "id": "7×2200mAh (dapat dilepas)",
+      "ru": "7×2200mAh (съёмный)",
+      "th": "7×2200mAh (ถอดได้)",
+      "vi": "7×2200mAh (tháo rời)"
+     }
+    },
+    {
+     "label": {
+      "en": "Runtime",
+      "zh": "Runtime",
+      "ar": "Runtime",
+      "es": "Runtime",
+      "fr": "Runtime",
+      "id": "Runtime",
+      "ru": "Runtime",
+      "th": "Runtime",
+      "vi": "Runtime"
+     },
+     "value": {
+      "en": "Up to 45 min",
+      "zh": "最长 45 分钟",
+      "es": "Hasta 45 min",
+      "ar": "حتى 45 دقيقة",
+      "fr": "Jusqu'à 45 min",
+      "id": "Hingga 45 menit",
+      "ru": "До 45 минут",
+      "th": "สูงสุด 45 นาที",
+      "vi": "Tối đa 45 phút"
+     }
+    },
+    {
+     "label": {
+      "en": "Suction Levels",
+      "zh": "Suction Levels",
+      "ar": "Suction Levels",
+      "es": "Suction Levels",
+      "fr": "Suction Levels",
+      "id": "Suction Levels",
+      "ru": "Suction Levels",
+      "th": "Suction Levels",
+      "vi": "Suction Levels"
+     },
+     "value": {
+      "en": "5",
+      "zh": "5",
+      "ar": "5",
+      "es": "5",
+      "fr": "5",
+      "id": "5",
+      "ru": "5",
+      "th": "5",
+      "vi": "5"
+     }
+    },
+    {
+     "label": {
+      "en": "Voltage",
+      "zh": "Voltage",
+      "ar": "Voltage",
+      "es": "Voltage",
+      "fr": "Voltage",
+      "id": "Voltage",
+      "ru": "Voltage",
+      "th": "Voltage",
+      "vi": "Voltage"
+     },
+     "value": {
+      "en": "110-240V",
+      "zh": "110-240V",
+      "ar": "110-240V",
+      "es": "110-240V",
+      "fr": "110-240V",
+      "id": "110-240V",
+      "ru": "110-240V",
+      "th": "110-240V",
+      "vi": "110-240V"
+     }
+    },
+    {
+     "label": {
+      "en": "Color",
+      "zh": "颜色",
+      "es": "Color",
+      "ar": "اللون",
+      "fr": "Couleur",
+      "id": "Warna",
+      "ru": "Цвет",
+      "th": "สี",
+      "vi": "Màu sắc"
+     },
+     "value": {
+      "en": "Violet",
+      "zh": "紫罗兰",
+      "es": "Violeta",
+      "ar": "بنفسجي",
+      "fr": "Violet",
+      "id": "Ungu",
+      "ru": "Фиолетовый",
+      "th": "ไวน์ม่วง",
+      "vi": "Tím"
+     }
+    },
+    {
+     "label": {
+      "en": "Plug Type",
+      "zh": "Plug Type",
+      "ar": "Plug Type",
+      "es": "Plug Type",
+      "fr": "Plug Type",
+      "id": "Plug Type",
+      "ru": "Plug Type",
+      "th": "Plug Type",
+      "vi": "Plug Type"
+     },
+     "value": {
+      "en": "AU / EU / UK / US",
+      "zh": "AU / EU / UK / US",
+      "ar": "AU / EU / UK / US",
+      "es": "AU / EU / UK / US",
+      "fr": "AU / EU / UK / US",
+      "id": "AU / EU / UK / US",
+      "ru": "AU / EU / UK / US",
+      "th": "AU / EU / UK / US",
+      "vi": "AU / EU / UK / US"
+     }
+    },
+    {
+     "label": {
+      "en": "Certification",
+      "zh": "Certification",
+      "ar": "Certification",
+      "es": "Certification",
+      "fr": "Certification",
+      "id": "Certification",
+      "ru": "Certification",
+      "th": "Certification",
+      "vi": "Certification"
+     },
+     "value": {
+      "en": "CE",
+      "zh": "CE",
+      "ar": "CE",
+      "es": "CE",
+      "fr": "CE",
+      "id": "CE",
+      "ru": "CE",
+      "th": "CE",
+      "vi": "CE"
+     }
+    }
+   ],
+   "quick_specs": [
+    {
+     "label": {
+      "en": "Motor Power",
+      "zh": "Motor Power",
+      "ar": "Motor Power",
+      "es": "Motor Power",
+      "fr": "Motor Power",
+      "id": "Motor Power",
+      "ru": "Motor Power",
+      "th": "Motor Power",
+      "vi": "Motor Power"
+     },
+     "value": {
+      "en": "350W",
+      "zh": "350W",
+      "ar": "350W",
+      "es": "350W",
+      "fr": "350W",
+      "id": "350W",
+      "ru": "350W",
+      "th": "350W",
+      "vi": "350W"
+     }
+    },
+    {
+     "label": {
+      "en": "Suction (Peak)",
+      "zh": "Suction (Peak)",
+      "ar": "Suction (Peak)",
+      "es": "Suction (Peak)",
+      "fr": "Suction (Peak)",
+      "id": "Suction (Peak)",
+      "ru": "Suction (Peak)",
+      "th": "Suction (Peak)",
+      "vi": "Suction (Peak)"
+     },
+     "value": {
+      "en": "28kPa",
+      "zh": "28kPa",
+      "ar": "28kPa",
+      "es": "28kPa",
+      "fr": "28kPa",
+      "id": "28kPa",
+      "ru": "28kPa",
+      "th": "28kPa",
+      "vi": "28kPa"
+     }
+    },
+    {
+     "label": {
+      "en": "Dust Cup",
+      "zh": "尘杯容量",
+      "es": "Cubo de polvo",
+      "ar": "كوب الغبار",
+      "fr": "Bac à poussière",
+      "id": "Wadah debu",
+      "ru": "Пылесборник",
+      "th": "ถ้วยเก็บฝุ่น",
+      "vi": "Hộp bụi"
+     },
+     "value": {
+      "en": "1.5L Bagless",
+      "zh": "1.5L 无袋式",
+      "es": "1,5 L sin bolsa",
+      "ar": "1.5 لتر بلا كيس",
+      "fr": "1,5 L sans sac",
+      "id": "1,5L tanpa kantong",
+      "ru": "1,5 л без мешка",
+      "th": "1.5L ไม่ใช้ถุง",
+      "vi": "1,5L không túi"
+     }
+    },
+    {
+     "label": {
+      "en": "Battery",
+      "zh": "电池",
+      "es": "Batería",
+      "ar": "البطارية",
+      "fr": "Batterie",
+      "id": "Baterai",
+      "ru": "Аккумулятор",
+      "th": "แบตเตอรี่",
+      "vi": "Pin"
+     },
+     "value": {
+      "en": "7×2200mAh (Removable)",
+      "zh": "7×2200mAh（可拆卸）",
+      "es": "7×2200mAh (extraíble)",
+      "ar": "7×2200mAh (قابلة للإزالة)",
+      "fr": "7×2200mAh (amovible)",
+      "id": "7×2200mAh (dapat dilepas)",
+      "ru": "7×2200mAh (съёмный)",
+      "th": "7×2200mAh (ถอดได้)",
+      "vi": "7×2200mAh (tháo rời)"
+     }
+    },
+    {
+     "label": {
+      "en": "Filtration",
+      "zh": "Filtration",
+      "ar": "Filtration",
+      "es": "Filtration",
+      "fr": "Filtration",
+      "id": "Filtration",
+      "ru": "Filtration",
+      "th": "Filtration",
+      "vi": "Filtration"
+     },
+     "value": {
+      "en": "6-Stage HEPA",
+      "zh": "六级 HEPA",
+      "es": "HEPA de 6 etapas",
+      "ar": "HEPA من 6 مراحل",
+      "fr": "HEPA 6 étages",
+      "id": "HEPA 6 tahap",
+      "ru": "HEPA из 6 ступеней",
+      "th": "HEPA 6 ชั้น",
+      "vi": "HEPA 6 cấp"
+     }
+    }
+   ],
+   "packaging": {
+    "unit": "Color Box",
+    "ctn_size": "—",
+    "ctn_qty": "—",
+    "gross_weight": "—"
+   },
+   "customization": {
+    "oem": true,
+    "odm": true,
+    "logo": null,
+    "color": true,
+    "package": null,
+    "sample_lead": "on request",
+    "production_lead": "on request"
+   },
+   "applications": {
+    "en": "Household, Carpet & Car Interior",
+    "zh": "家庭、地毯与车内",
+    "es": "Hogar, alfombras e interior del coche",
+    "ar": "منزلي، سجاد وداخل السيارة",
+    "fr": "Maison, moquettes et intérieur de voiture",
+    "id": "Rumah tangga, karpet, dan interior mobil",
+    "ru": "Дом, ковры и салон автомобиля",
+    "th": "ใช้ในบ้าน พรม และห้องโดยสารรถ",
+    "vi": "Gia đình, thảm & nội thất ô tô"
+   },
+   "price_indicator": {
+    "min": 68,
+    "max": 76,
+    "currency": "USD"
+   },
+   "price_ladder": [
+    {
+     "min": 2,
+     "max": 499,
+     "price": 76
+    },
+    {
+     "min": 500,
+     "max": 999,
+     "price": 73
+    },
+    {
+     "min": 1000,
+     "max": null,
+     "price": 68
+    }
+   ],
+   "sku": [
+    {
+     "name": {
+      "en": "Voltage",
+      "zh": "Voltage",
+      "ar": "Voltage",
+      "es": "Voltage",
+      "fr": "Voltage",
+      "id": "Voltage",
+      "ru": "Voltage",
+      "th": "Voltage",
+      "vi": "Voltage"
+     },
+     "values": [
+      {
+       "name": "110-240V"
+      }
+     ]
+    },
+    {
+     "name": {
+      "en": "Plug Type",
+      "zh": "Plug Type",
+      "ar": "Plug Type",
+      "es": "Plug Type",
+      "fr": "Plug Type",
+      "id": "Plug Type",
+      "ru": "Plug Type",
+      "th": "Plug Type",
+      "vi": "Plug Type"
+     },
+     "values": [
+      {
+       "name": "AU"
+      },
+      {
+       "name": "EU"
+      },
+      {
+       "name": "UK"
+      },
+      {
+       "name": "US"
+      }
+     ]
+    },
+    {
+     "name": {
+      "en": "Colour",
+      "zh": "颜色",
+      "es": "Color",
+      "ar": "اللون",
+      "fr": "Couleur",
+      "id": "Warna",
+      "ru": "Цвет",
+      "th": "สี",
+      "vi": "Màu sắc"
+     },
+     "values": [
+      {
+       "name": "Violet"
+      }
+     ]
+    }
+   ],
+   "description": {
+    "en": "The PW3023 foldable cordless stick vacuum is powered by a 350W BLDC motor delivering up to 28kPa of peak suction, with a bagless 1.5L dust cup and a 6-stage HEPA filtration system. Its 180° flexible folding tube reaches deep under furniture, while the anti-tangle floor brush and one-touch emptying make daily cleaning effortless. A removable 7×2200mAh battery provides up to 45 minutes of runtime with 5 adjustable suction levels, and the LED display shows real-time status.",
+    "zh": "PW3023 可折叠无线立式吸尘器搭载 350W 无刷电机，峰值吸力可达 28kPa，采用无袋式 1.5L 大尘杯与六级 HEPA 过滤系统。180° 灵活折叠管可深入家具底部，防缠绕地刷与一键倒尘让日常清洁更轻松。可拆卸 7×2200mAh 电池提供最长 45 分钟续航，5 档吸力可调，LED 显示屏实时显示状态。",
+    "es": "El aspirador escoba plegable inalámbrico PW3023 cuenta con un motor BLDC de 350 W que ofrece hasta 28kPa de succión máxima, un depósito sin bolsa de 1,5 L y un sistema de filtración HEPA de 6 etapas. Su tubo flexible plegable de 180° alcanza debajo de los muebles, mientras que el cepillo anti-enredos y el vaciado con un toque facilitan la limpieza diaria. Una batería extraíble de 7×2200mAh ofrece hasta 45 minutos de autonomía con 5 niveles de succión y una pantalla LED con estado en tiempo real.",
+    "ar": "تتميز المكنسة العصوية اللاسلكية القابلة للطي PW3023 بمحرك BLDC 350 واط يوفر شفطاً يصل إلى 28kPa، وكوب غبار بلا كيس سعة 1.5 لتر، ونظام ترشيح HEPA من 6 مراحل. يصل أنبوبها المرن القابل للطي 180° تحت الأثاث، بينما يسهّل فرشاة الأرضية المضادة للتشابك والتفريغ بلمسة واحدة التنظيف اليومي. بطارية قابلة للإزالة 7×2200mAh توفر حتى 45 دقيقة تشغيل مع 5 مستويات شفط وشاشة LED تعرض الحالة لحظياً.",
+    "fr": "L'aspirateur balai sans fil pliable PW3023 est doté d'un moteur BLDC de 350 W offrant jusqu'à 28 kPa d'aspiration maximale, un bac sans sac de 1,5 L et un système de filtration HEPA à 6 étages. Son tube flexible pliable de 180° atteint sous les meubles, tandis que la brosse anti-emmêlement et le vidage d'une touche facilitent le nettoyage quotidien. Une batterie amovible de 7×2200mAh offre jusqu'à 45 minutes d'autonomie avec 5 niveaux d'aspiration et un écran LED affiche l'état en temps réel.",
+    "id": "Penyedot debu tongkat nirkabel lipat PW3023 memiliki motor BLDC 350W dengan daya hisap puncak hingga 28kPa, wadah debu tanpa kantong 1,5 L, dan sistem filtrasi HEPA 6 tahap. Tabung fleksibel lipat 180° menjangkau kolong furnitur, sementara sikat lantai anti-kusut dan pengosongan satu sentuhan memudahkan pembersihan harian. Baterai dapat dilepas 7×2200mAh memberikan waktu pakai hingga 45 menit dengan 5 level hisap dan layar LED menampilkan status waktu nyata.",
+    "ru": "Складной беспроводной вертикальный пылесос PW3023 оснащён бесщёточным двигателем 350 Вт с пиковым всасыванием до 28 кПа, без bagless-пылесборником 1,5 л и 6-ступенчатой HEPA-фильтрацией. Гибкая складная трубка 180° достаёт под мебель, а щётка с защитой от наматывания и опорожнение одним касанием упрощают ежедневную уборку. Съёмный аккумулятор 7×2200 мАч обеспечивает до 45 минут работы с 5 уровнями мощности и LED-дисплеем со статусом в реальном времени.",
+    "th": "เครื่องดูดฝุ่นแบบแท่งไร้สายพับได้ PW3023 มาพร้อมมอเตอร์ BLDC 350W ให้แรงดูดสูงสุด 28kPa ถ้วยเก็บฝุ่นแบบไม่ใช้ถุง 1.5L และระบบกรอง HEPA 6 ชั้น ท่อยืดหยุ่นพับได้ 180° ทะลุใต้เฟอร์นิเจอร์ ในขณะที่แปรงพื้นกันพันและเทฝุ่นสัมผัสเดียวช่วยให้ทำความสะอาดง่าย แบตเตอรี่ถอดได้ 7×2200mAh ให้เวลาใช้งานสูงสุด 45 นาที ด้วย 5 ระดับแรงดูดและจอ LED แสดงสถานะแบบเรียลไทม์",
+    "vi": "Máy hút bụi dạng gậy không dây gập được PW3023 được trang bị động cơ BLDC 350W với lực hút đỉnh tới 28kPa, hộp bụi không túi 1,5L và hệ thống lọc HEPA 6 cấp. Ống gập linh hoạt 180° với tới gầm nội thất, trong khi chổi sàn chống rối và đổ bụi một chạm giúp việc dọn dẹp hàng ngày dễ dàng. Pin tháo rời 7×2200mAh cung cấp thời gian chạy tới 45 phút với 5 mức hút và màn hình LED hiển thị trạng thái theo thời gian thực."
+   },
+   "supplier_rating": "4.81",
+   "response_time": "—",
+   "transactions": "—",
+   "years": "—",
+   "ship_from": {
+    "en": "China",
+    "zh": "中国"
+   },
+   "sample": {
+    "enabled": true,
+    "qty": 1,
+    "note": {
+     "en": "Sample available (max 1 pc)",
+     "zh": "支持打样（最多 1 台）"
+    }
+   },
+   "category_name": {
+    "en": "Handheld & Stick Vacuums",
+    "zh": "手持与立式吸尘器",
+    "es": "Aspiradora de Mano",
+    "ar": "مكنسة يدوية لاسلكية",
+    "fr": "Aspirateur à main",
+    "id": "Pembersih Vakum Tangan",
+    "ru": "Ручной пылесос",
+    "th": "เครื่องดูดฝุ่นมือถือ",
+    "vi": "Máy hút bụi cầm tay"
+   },
+   "certificates": [
+    {
+     "certId": "60007675410",
+     "name": "Declaration of Conformity",
+     "certNo": "EFW526022843-CG-02+REV 1",
+     "availableDate": "2026-07-27",
+     "expiredDate": "2031-07-24",
+     "verified": true,
+     "image": null,
+     "coversHint": "PW3023"
+    },
+    {
+     "certId": "60007673019",
+     "name": "Declaration of Conformity",
+     "certNo": "CTA25030700203+CTA25030700205+CQASZ20250902238E+YHJC202412100039R1",
+     "availableDate": "2026-07-27",
+     "expiredDate": "2031-07-24",
+     "verified": true,
+     "image": null,
+     "coversHint": null
+    },
+    {
+     "certId": "60008004208",
+     "name": "Declaration of Conformity",
+     "certNo": "XDX50238736101701EC",
+     "availableDate": "2026-09-02",
+     "expiredDate": "2031-09-07",
+     "verified": true,
+     "image": "/assets/images/certificates/60008004208.webp",
+     "coversHint": null
+    }
+   ],
+   "supplier": {
+    "country": "HK",
+    "province": "New Territories",
+    "established": 2024,
+    "reply_rate": 0.9987,
+    "verified": false,
+    "main_markets": [
+     "North America",
+     "South America",
+     "Eastern Europe",
+     "Southeast Asia"
+    ]
+   },
+   "store_rating": {
+    "score": 4.81,
+    "reviews": 7,
+    "scope": "store"
+   },
+   "shipping_fee_usd": 17.02,
+   "alibaba_url": "https://www.alibaba.com/product-detail/PW3023-Foldable-Cordless-Stick-Vacuum-Cleaner_1601860061977.html",
+   "_cat": "handheld-vacuum",
+   "detail_images": [
+    "https://www.hkdmj.net/assets/images/products/handheld-vacuum-pw3023/detail/01.webp?v=20261101a",
+    "https://www.hkdmj.net/assets/images/products/handheld-vacuum-pw3023/detail/02.webp?v=20261101a",
+    "https://www.hkdmj.net/assets/images/products/handheld-vacuum-pw3023/detail/03.webp?v=20261101a",
+    "https://www.hkdmj.net/assets/images/products/handheld-vacuum-pw3023/detail/04.webp?v=20261101a",
+    "https://www.hkdmj.net/assets/images/products/handheld-vacuum-pw3023/detail/05.webp?v=20261101a",
+    "https://www.hkdmj.net/assets/images/products/handheld-vacuum-pw3023/detail/06.webp?v=20261101a"
    ]
   }
  ],
@@ -3905,5 +4650,16 @@
     "https://www.hkdmj.net/assets/images/products/handheld-vacuum-gv18/02.webp?v=20261029p"
    ]
   }
- ]
+ ],
+ "category_name": {
+  "en": "Handheld & Stick Vacuums",
+  "zh": "手持与立式吸尘器",
+  "es": "Aspiradora de Mano",
+  "ar": "مكنسة يدوية لاسلكية",
+  "fr": "Aspirateur à main",
+  "id": "Pembersih Vakum Tangan",
+  "ru": "Ручной пылесос",
+  "th": "เครื่องดูดฝุ่นมือถือ",
+  "vi": "Máy hút bụi cầm tay"
+ }
 }
