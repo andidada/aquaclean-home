@@ -265,7 +265,7 @@
     if (images.length > 1 || hasVideo) {
       html += '<div class="d-gallery-thumbs">';
       for (var gi = 0; gi < images.length; gi++) {
-        html += '<div class="d-gallery-thumb' + (gi === 0 ? ' active' : '') + '" data-idx="' + gi + '"><img src="' + esc(thumbImg(localImg(images[gi]))) + '" alt="" width="60" height="60"></div>';
+        html += '<div class="d-gallery-thumb' + (gi === 0 ? ' active' : '') + '" data-idx="' + gi + '" data-full="' + esc(localImg(images[gi])) + '"><img src="' + esc(thumbImg(localImg(images[gi]))) + '" alt="" width="60" height="60"></div>';
       }
       if (hasVideo) {
         html += '<div class="d-gallery-thumb video-thumb" data-video="1">▶</div>';
@@ -703,7 +703,7 @@
           if (mainImg) mainImg.style.display = 'none';
         } else {
           if (videoBox) { videoBox.classList.remove('show'); var vid2 = $('#aqc-video', mount); if (vid2) vid2.pause(); }
-          if (mainImg) { mainImg.style.display = ''; mainImg.src = th.querySelector('img').src; }
+          if (mainImg) { mainImg.style.display = ''; mainImg.src = th.dataset.full || th.querySelector('img').src; }
           if (cntEl) cntEl.textContent = (parseInt(th.dataset.idx, 10) + 1) + '/' + images.length;
         }
       });
