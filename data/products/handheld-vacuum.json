@@ -6021,6 +6021,723 @@
     "https://www.hkdmj.net/assets/images/products/handheld-vacuum-c703c/detail/15.webp?v=20261101d",
     "https://www.hkdmj.net/assets/images/products/handheld-vacuum-c703c/detail/16.webp?v=20261101d"
    ]
+  },
+  {
+   "id": "qv18",
+   "name": {
+    "en": "QV18 450W Cordless Handheld Vacuum Cleaner 1.2L",
+    "zh": "QV18 450W 无线手持吸尘器 1.2L",
+    "es": "Aspiradora de mano inalámbrica QV18 450 W 1,2 L",
+    "ar": "مكنسة يدوية لاسلكية QV18 بقدرة 450 واط وسعة 1.2 لتر",
+    "fr": "Aspirateur à main sans fil QV18 450 W 1,2 L",
+    "id": "Penyedot debu genggam nirkabel QV18 450W 1.2L",
+    "ru": "Ручной беспроводной пылесос QV18 450 Вт 1,2 л",
+    "th": "เครื่องดูดฝุ่นมือถือไร้สาย QV18 450W 1.2L",
+    "vi": "Máy hút bụi cầm tay không dây QV18 450W 1.2L"
+   },
+   "tagline": {
+    "en": "450W Brushless · 151–180AW Suction · 1.2L Bagless",
+    "zh": "450W 无刷电机 · 151–180AW 吸入功率 · 1.2L 无尘袋",
+    "es": "Sin escobillas 450 W · succión 151–180 AW · 1,2 L sin bolsa",
+    "ar": "محرك بدون فرش 450 واط · شفط 151–180AW · 1.2 لتر بدون كيس",
+    "fr": "Sans balais 450 W · aspiration 151–180 AW · 1,2 L sans sac",
+    "id": "Brushless 450W · hisap 151–180AW · 1.2L tanpa kantong",
+    "ru": "Бесщёточный 450 Вт · всасывание 151–180 AW · 1,2 л без мешка",
+    "th": "ไร้แปรง 450W · แรงดูด 151–180AW · 1.2L ไม่ใช้ถุง",
+    "vi": "Không chổi than 450W · lực hút 151–180AW · 1.2L không túi"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/handheld-vacuum-qv18/01-main.webp?v=20261102d",
+    "https://www.hkdmj.net/assets/images/products/handheld-vacuum-qv18/02.webp?v=20261102d",
+    "https://www.hkdmj.net/assets/images/products/handheld-vacuum-qv18/03.webp?v=20261102d",
+    "https://www.hkdmj.net/assets/images/products/handheld-vacuum-qv18/04.webp?v=20261102d",
+    "https://www.hkdmj.net/assets/images/products/handheld-vacuum-qv18/05.webp?v=20261102d",
+    "https://www.hkdmj.net/assets/images/products/handheld-vacuum-qv18/06.webp?v=20261102d"
+   ],
+   "video_url": "",
+   "moq": {
+    "value": 1,
+    "unit": "pieces"
+   },
+   "certifications": [],
+   "cert_note": {
+    "en": "Certification documents on file — available on request.",
+    "zh": "认证资料已备案，可按需提供。"
+   },
+   "highlights": [
+    {
+     "icon": "power",
+     "text": {
+      "en": "450W Brushless Motor with 151–180AW Air-Watt Suction",
+      "zh": "450W 无刷电机，151–180AW 吸入功率",
+      "es": "Motor sin escobillas de 450 W con succión de 151–180 AW",
+      "ar": "محرك بدون فرش 450 واط بقوة شفط 151–180 واط هواء",
+      "fr": "Moteur sans balais 450 W avec aspiration de 151 à 180 AW",
+      "id": "Motor brushless 450W dengan daya hisap 151–180AW",
+      "ru": "Бесщёточный мотор 450 Вт со всасыванием 151–180 AW",
+      "th": "มอเตอร์ไร้แปรง 450W แรงดูด 151–180AW",
+      "vi": "Motor không chổi than 450W với lực hút 151–180AW"
+     }
+    },
+    {
+     "icon": "filter",
+     "text": {
+      "en": "Washable Filter, Bagless 1.2L Dust Cup",
+      "zh": "滤网可水洗，1.2L 无尘袋尘杯",
+      "es": "Filtro lavable, cubo sin bolsa de 1,2 L",
+      "ar": "فلتر قابل للغسل، كوب غبار بدون كيس 1.2 لتر",
+      "fr": "Filtre lavable, bac sans sac de 1,2 L",
+      "id": "Filter bisa dicuci, wadah debu 1.2L tanpa kantong",
+      "ru": "Моющийся фильтр, пылесборник 1,2 л без мешка",
+      "th": "ฟิลเตอร์ล้างได้ ถังฝุ่น 1.2L ไม่ใช้ถุง",
+      "vi": "Lọc giặt được, hộp bụi 1.2L không túi"
+     }
+    },
+    {
+     "icon": "battery",
+     "text": {
+      "en": "30–60 min Runtime · 3–5h Recharge",
+      "zh": "续航 30–60 分钟 · 充电 3–5 小时",
+      "es": "30–60 min de autonomía · carga en 3–5 h",
+      "ar": "تشغيل 30–60 دقيقة · شحن خلال 3–5 ساعات",
+      "fr": "Autonomie 30–60 min · recharge en 3–5 h",
+      "id": "Runtime 30–60 menit · pengisian 3–5 jam",
+      "ru": "Работа 30–60 мин · зарядка 3–5 ч",
+      "th": "ใช้งาน 30–60 นาที · ชาร์จ 3–5 ชม.",
+      "vi": "Hoạt động 30–60 phút · sạc 3–5 giờ"
+     }
+    },
+    {
+     "icon": "design",
+     "text": {
+      "en": "Portable Design for Hotel, Household & Commercial Use",
+      "zh": "便携设计，适用于酒店、家庭与商业场所",
+      "es": "Diseño portátil para hotel, hogar y uso comercial",
+      "ar": "تصميم محمول للفنادق والمنازل والاستخدام التجاري",
+      "fr": "Conception portable pour hôtel, maison et usage commercial",
+      "id": "Desain portabel untuk hotel, rumah tangga & komersial",
+      "ru": "Портативный дизайн для отелей, дома и коммерции",
+      "th": "ดีไซน์พกพาสำหรับโรงแรม บ้าน และธุรกิจ",
+      "vi": "Thiết kế bỏ túi cho khách sạn, gia đình & thương mại"
+     }
+    }
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "Model",
+      "zh": "Model",
+      "ar": "Model",
+      "es": "Model",
+      "fr": "Model",
+      "id": "Model",
+      "ru": "Model",
+      "th": "Model",
+      "vi": "Model"
+     },
+     "value": {
+      "en": "QV18",
+      "zh": "QV18",
+      "ar": "QV18",
+      "es": "QV18",
+      "fr": "QV18",
+      "id": "QV18",
+      "ru": "QV18",
+      "th": "QV18",
+      "vi": "QV18"
+     }
+    },
+    {
+     "label": {
+      "en": "Motor Type",
+      "zh": "电机类型",
+      "es": "Tipo de motor",
+      "ar": "نوع المحرك",
+      "fr": "Type de moteur",
+      "id": "Tipe motor",
+      "ru": "Тип двигателя",
+      "th": "ประเภทมอเตอร์",
+      "vi": "Loại động cơ"
+     },
+     "value": {
+      "en": "Brushless",
+      "zh": "无刷",
+      "es": "Sin escobillas",
+      "ar": "بدون فرش",
+      "fr": "Sans balais",
+      "id": "Brushless",
+      "ru": "Бесщёточный",
+      "th": "ไร้แปรง",
+      "vi": "Không chổi than"
+     }
+    },
+    {
+     "label": {
+      "en": "Motor Power",
+      "zh": "Motor Power",
+      "ar": "Motor Power",
+      "es": "Motor Power",
+      "fr": "Motor Power",
+      "id": "Motor Power",
+      "ru": "Motor Power",
+      "th": "Motor Power",
+      "vi": "Motor Power"
+     },
+     "value": {
+      "en": "450W",
+      "zh": "450W",
+      "ar": "450W",
+      "es": "450W",
+      "fr": "450W",
+      "id": "450W",
+      "ru": "450W",
+      "th": "450W",
+      "vi": "450W"
+     }
+    },
+    {
+     "label": {
+      "en": "Suction (Peak)",
+      "zh": "Suction (Peak)",
+      "ar": "Suction (Peak)",
+      "es": "Suction (Peak)",
+      "fr": "Suction (Peak)",
+      "id": "Suction (Peak)",
+      "ru": "Suction (Peak)",
+      "th": "Suction (Peak)",
+      "vi": "Suction (Peak)"
+     },
+     "value": {
+      "en": "151–180AW",
+      "zh": "151–180AW",
+      "ar": "151–180AW",
+      "es": "151–180AW",
+      "fr": "151–180AW",
+      "id": "151–180AW",
+      "ru": "151–180AW",
+      "th": "151–180AW",
+      "vi": "151–180AW"
+     }
+    },
+    {
+     "label": {
+      "en": "Runtime",
+      "zh": "Runtime",
+      "ar": "Runtime",
+      "es": "Runtime",
+      "fr": "Runtime",
+      "id": "Runtime",
+      "ru": "Runtime",
+      "th": "Runtime",
+      "vi": "Runtime"
+     },
+     "value": {
+      "en": "30–60 min",
+      "zh": "30–60 分钟",
+      "es": "30–60 min",
+      "ar": "30–60 دقيقة",
+      "fr": "30–60 min",
+      "id": "30–60 menit",
+      "ru": "30–60 мин",
+      "th": "30–60 นาที",
+      "vi": "30–60 phút"
+     }
+    },
+    {
+     "label": {
+      "en": "Dust Cup",
+      "zh": "尘杯容量",
+      "es": "Cubo de polvo",
+      "ar": "كوب الغبار",
+      "fr": "Bac à poussière",
+      "id": "Wadah debu",
+      "ru": "Пылесборник",
+      "th": "ถ้วยเก็บฝุ่น",
+      "vi": "Hộp bụi"
+     },
+     "value": {
+      "en": "1.2L Bagless",
+      "zh": "1.2L 无尘袋",
+      "es": "1,2 L sin bolsa",
+      "ar": "1.2 لتر بدون كيس",
+      "fr": "1,2 L sans sac",
+      "id": "1.2L tanpa kantong",
+      "ru": "1,2 л без мешка",
+      "th": "1.2L ไม่ใช้ถุง",
+      "vi": "1.2L không túi"
+     }
+    },
+    {
+     "label": {
+      "en": "Filtration",
+      "zh": "Filtration",
+      "ar": "Filtration",
+      "es": "Filtration",
+      "fr": "Filtration",
+      "id": "Filtration",
+      "ru": "Filtration",
+      "th": "Filtration",
+      "vi": "Filtration"
+     },
+     "value": {
+      "en": "HEPA (washable)",
+      "zh": "HEPA（可水洗）",
+      "es": "HEPA (lavable)",
+      "ar": "HEPA (قابل للغسل)",
+      "fr": "HEPA (lavable)",
+      "id": "HEPA (bisa dicuci)",
+      "ru": "HEPA (моющийся)",
+      "th": "HEPA (ล้างได้)",
+      "vi": "HEPA (giặt được)"
+     }
+    },
+    {
+     "label": {
+      "en": "Battery",
+      "zh": "电池",
+      "es": "Batería",
+      "ar": "البطارية",
+      "fr": "Batterie",
+      "id": "Baterai",
+      "ru": "Аккумулятор",
+      "th": "แบตเตอรี่",
+      "vi": "Pin"
+     },
+     "value": {
+      "en": "Lithium, rechargeable",
+      "zh": "锂电池，可充电",
+      "es": "Litio recargable",
+      "ar": "ليثيوم قابل للشحن",
+      "fr": "Lithium rechargeable",
+      "id": "Litium isi ulang",
+      "ru": "Литий, перезаряжаемый",
+      "th": "ลิเธียมชาร์จได้",
+      "vi": "Lithium sạc được"
+     }
+    },
+    {
+     "label": {
+      "en": "Charge Time",
+      "zh": "充电时长",
+      "es": "Tiempo de carga",
+      "ar": "وقت الشحن",
+      "fr": "Temps de charge",
+      "id": "Waktu pengisian",
+      "ru": "Время зарядки",
+      "th": "เวลาชาร์จ",
+      "vi": "Thời gian sạc"
+     },
+     "value": {
+      "en": "3–5 hours",
+      "zh": "3–5 小时",
+      "es": "3–5 horas",
+      "ar": "3–5 ساعات",
+      "fr": "3–5 heures",
+      "id": "3–5 jam",
+      "ru": "3–5 часов",
+      "th": "3–5 ชั่วโมง",
+      "vi": "3–5 giờ"
+     }
+    },
+    {
+     "label": {
+      "en": "Weight",
+      "zh": "产品净重",
+      "es": "Peso",
+      "ar": "الوزن",
+      "fr": "Poids",
+      "id": "Berat",
+      "ru": "Вес",
+      "th": "น้ำหนัก",
+      "vi": "Khối lượng"
+     },
+     "value": {
+      "en": "≥3 kg",
+      "zh": "≥3 公斤",
+      "es": "≥3 kg",
+      "ar": "≥3 كجم",
+      "fr": "≥3 kg",
+      "id": "≥3 kg",
+      "ru": "≥3 кг",
+      "th": "≥3 กก.",
+      "vi": "≥3 kg"
+     }
+    },
+    {
+     "label": {
+      "en": "Nozzle Count",
+      "zh": "喷嘴数量",
+      "es": "N.º de boquillas",
+      "ar": "عدد الفوهات",
+      "fr": "Nombre d’embouts",
+      "id": "Jumlah nosel",
+      "ru": "Кол-во насадок",
+      "th": "จำนวนหัวดูด",
+      "vi": "Số đầu hút"
+     },
+     "value": {
+      "en": "≤3",
+      "zh": "≤3",
+      "ar": "≤3",
+      "es": "≤3",
+      "fr": "≤3",
+      "id": "≤3",
+      "ru": "≤3",
+      "th": "≤3",
+      "vi": "≤3"
+     }
+    },
+    {
+     "label": {
+      "en": "Warranty",
+      "zh": "保修",
+      "es": "Garantía",
+      "ar": "الضمان",
+      "fr": "Garantie",
+      "id": "Garansi",
+      "ru": "Гарантия",
+      "th": "การรับประกัน",
+      "vi": "Bảo hành"
+     },
+     "value": {
+      "en": "1 year",
+      "zh": "1 年",
+      "es": "1 año",
+      "ar": "سنة واحدة",
+      "fr": "1 an",
+      "id": "1 tahun",
+      "ru": "1 год",
+      "th": "1 ปี",
+      "vi": "1 năm"
+     }
+    },
+    {
+     "label": {
+      "en": "Voltage",
+      "zh": "电压",
+      "es": "Voltaje",
+      "ar": "الجهد",
+      "fr": "Tension",
+      "id": "Tegangan",
+      "ru": "Напряжение",
+      "th": "แรงดัน",
+      "vi": "Điện áp"
+     },
+     "value": {
+      "en": "Rechargeable",
+      "zh": "Rechargeable",
+      "ar": "Rechargeable",
+      "es": "Rechargeable",
+      "fr": "Rechargeable",
+      "id": "Rechargeable",
+      "ru": "Rechargeable",
+      "th": "Rechargeable",
+      "vi": "Rechargeable"
+     }
+    }
+   ],
+   "quick_specs": [
+    {
+     "label": {
+      "en": "Motor Power",
+      "zh": "Motor Power",
+      "ar": "Motor Power",
+      "es": "Motor Power",
+      "fr": "Motor Power",
+      "id": "Motor Power",
+      "ru": "Motor Power",
+      "th": "Motor Power",
+      "vi": "Motor Power"
+     },
+     "value": {
+      "en": "450W",
+      "zh": "450W",
+      "ar": "450W",
+      "es": "450W",
+      "fr": "450W",
+      "id": "450W",
+      "ru": "450W",
+      "th": "450W",
+      "vi": "450W"
+     }
+    },
+    {
+     "label": {
+      "en": "Suction (Peak)",
+      "zh": "Suction (Peak)",
+      "ar": "Suction (Peak)",
+      "es": "Suction (Peak)",
+      "fr": "Suction (Peak)",
+      "id": "Suction (Peak)",
+      "ru": "Suction (Peak)",
+      "th": "Suction (Peak)",
+      "vi": "Suction (Peak)"
+     },
+     "value": {
+      "en": "151–180AW",
+      "zh": "151–180AW",
+      "ar": "151–180AW",
+      "es": "151–180AW",
+      "fr": "151–180AW",
+      "id": "151–180AW",
+      "ru": "151–180AW",
+      "th": "151–180AW",
+      "vi": "151–180AW"
+     }
+    },
+    {
+     "label": {
+      "en": "Dust Cup",
+      "zh": "尘杯容量",
+      "es": "Cubo de polvo",
+      "ar": "كوب الغبار",
+      "fr": "Bac à poussière",
+      "id": "Wadah debu",
+      "ru": "Пылесборник",
+      "th": "ถ้วยเก็บฝุ่น",
+      "vi": "Hộp bụi"
+     },
+     "value": {
+      "en": "1.2L Bagless",
+      "zh": "1.2L 无尘袋",
+      "es": "1,2 L sin bolsa",
+      "ar": "1.2 لتر بدون كيس",
+      "fr": "1,2 L sans sac",
+      "id": "1.2L tanpa kantong",
+      "ru": "1,2 л без мешка",
+      "th": "1.2L ไม่ใช้ถุง",
+      "vi": "1.2L không túi"
+     }
+    },
+    {
+     "label": {
+      "en": "Runtime",
+      "zh": "Runtime",
+      "ar": "Runtime",
+      "es": "Runtime",
+      "fr": "Runtime",
+      "id": "Runtime",
+      "ru": "Runtime",
+      "th": "Runtime",
+      "vi": "Runtime"
+     },
+     "value": {
+      "en": "30–60 min",
+      "zh": "30–60 分钟",
+      "es": "30–60 min",
+      "ar": "30–60 دقيقة",
+      "fr": "30–60 min",
+      "id": "30–60 menit",
+      "ru": "30–60 мин",
+      "th": "30–60 นาที",
+      "vi": "30–60 phút"
+     }
+    },
+    {
+     "label": {
+      "en": "Charge Time",
+      "zh": "充电时长",
+      "es": "Tiempo de carga",
+      "ar": "وقت الشحن",
+      "fr": "Temps de charge",
+      "id": "Waktu pengisian",
+      "ru": "Время зарядки",
+      "th": "เวลาชาร์จ",
+      "vi": "Thời gian sạc"
+     },
+     "value": {
+      "en": "3–5 hours",
+      "zh": "3–5 小时",
+      "es": "3–5 horas",
+      "ar": "3–5 ساعات",
+      "fr": "3–5 heures",
+      "id": "3–5 jam",
+      "ru": "3–5 часов",
+      "th": "3–5 ชั่วโมง",
+      "vi": "3–5 giờ"
+     }
+    }
+   ],
+   "packaging": {
+    "unit": "Color Box",
+    "ctn_size": "—",
+    "ctn_qty": "—",
+    "gross_weight": "—"
+   },
+   "customization": {
+    "oem": true,
+    "odm": true,
+    "logo": null,
+    "color": true,
+    "package": null,
+    "sample_lead": "on request",
+    "production_lead": "on request"
+   },
+   "applications": {
+    "en": "Hotel, Household & Commercial",
+    "zh": "酒店、家庭与商业场所",
+    "es": "Hotel, hogar y comercio",
+    "ar": "الفنادق والمنازل والتجارة",
+    "fr": "Hôtel, maison et commerce",
+    "id": "Hotel, rumah tangga & komersial",
+    "ru": "Отель, дом и коммерция",
+    "th": "โรงแรม บ้าน และธุรกิจ",
+    "vi": "Khách sạn, gia đình & thương mại"
+   },
+   "price_indicator": {
+    "min": 62,
+    "max": 65,
+    "currency": "USD"
+   },
+   "price_ladder": [
+    {
+     "min": 1,
+     "max": 499,
+     "price": 65
+    },
+    {
+     "min": 500,
+     "max": 999,
+     "price": 63
+    },
+    {
+     "min": 1000,
+     "max": null,
+     "price": 62
+    }
+   ],
+   "sku": [
+    {
+     "name": {
+      "en": "Voltage",
+      "zh": "电压",
+      "es": "Voltaje",
+      "ar": "الجهد",
+      "fr": "Tension",
+      "id": "Tegangan",
+      "ru": "Напряжение",
+      "th": "แรงดัน",
+      "vi": "Điện áp"
+     },
+     "values": [
+      {
+       "name": "Rechargeable"
+      }
+     ]
+    }
+   ],
+   "description": {
+    "en": "The QV18 is a 450W cordless handheld vacuum built for versatile cleaning in hotels, homes and commercial spaces. Its brushless motor delivers 151–180AW of air-watt suction, while the bagless 1.2L dust cup empties in seconds and the washable filter keeps maintenance simple. The rechargeable lithium battery runs 30–60 minutes per charge (3–5h recharge), and up to three nozzle attachments adapt to floors, upholstery and tight corners. OEM/ODM supported, MOQ 1 pc.",
+    "zh": "QV18 是一款 450W 无线手持吸尘器，适用于酒店、家庭与商业场所的多元清洁。无刷电机提供 151–180AW 吸入功率，1.2L 无尘袋尘杯秒速倾倒，滤网可水洗、维护简单。可充电锂电池单次充电续航 30–60 分钟（充电 3–5 小时），至多 3 种吸嘴附件从容应对地面、沙发与狭小角落。支持 OEM/ODM，MOQ 1 台。",
+    "es": "La QV18 es una aspiradora de mano inalámbrica de 450 W diseñada para la limpieza versátil en hoteles, hogares y espacios comerciales. Su motor sin escobillas ofrece 151–180 AW de succión, el cubo sin bolsa de 1,2 L se vacía en segundos y el filtro lavable simplifica el mantenimiento. La batería de litio recargable funciona 30–60 minutos por carga (recarga en 3–5 h), y hasta tres boquillas se adaptan a suelos, tapicería y rincones. OEM/ODM disponible, MOQ 1 ud.",
+    "ar": "المكنسة QV18 هي مكنسة يدوية لاسلكية بقدرة 450 واط مصممة للتنظيف متعدد الاستخدامات في الفنادق والمنازل والمساحات التجارية. يوفر المحرك بدون فرش قوة شفط تبلغ 151–180 واط هواء، ويُفرغ كوب الغبار بدون كيس بسعة 1.2 لتر في ثوانٍ، والفلتر القابل للغسل يسهل الصيانة. بطارية الليثيوم القابلة للشحن تعمل 30–60 دقيقة لكل شحن (الشحن خلال 3–5 ساعات)، وحتى ثلاث فوهات تناسب الأرضيات والمفروشات والزوايا الضيقة. OEM/ODM متاح، الحد الأدنى قطعة واحدة.",
+    "fr": "La QV18 est un aspirateur à main sans fil 450 W conçu pour un nettoyage polyvalent dans les hôtels, les maisons et les espaces commerciaux. Son moteur sans balais délivre 151–180 AW d’aspiration, le bac sans sac de 1,2 L se vide en quelques secondes et le filtre lavable simplifie l’entretien. La batterie lithium rechargeable offre 30 à 60 min d’autonomie (recharge en 3–5 h), et jusqu’à trois embouts s’adaptent aux sols, tissus et coins étroits. OEM/ODM pris en charge, MOQ 1 pc.",
+    "id": "QV18 adalah penyedot debu genggam nirkabel 450W yang dirancang untuk pembersihan serbaguna di hotel, rumah, dan ruang komersial. Motor brushless menghadirkan daya hisap 151–180AW, wadah debu tanpa kantong 1.2L dikosongkan dalam hitungan detik, dan filter yang bisa dicuci membuat perawatan mudah. Baterai litium isi ulang bekerja 30–60 menit per pengisian (isi ulang 3–5 jam), dan hingga tiga nosel menyesuaikan lantai, pelapis, dan sudut sempit. OEM/ODM tersedia, MOQ 1 pcs.",
+    "ru": "QV18 — ручной беспроводной пылесос 450 Вт для универсальной уборки в отелях, домах и коммерческих помещениях. Бесщёточный мотор обеспечивает всасывание 151–180 AW, безмешковый пылесборник 1,2 л опустошается за секунды, моющийся фильтр упрощает обслуживание. Перезаряжаемая литиевая батарея работает 30–60 минут (зарядка 3–5 ч), до трёх насадок адаптируются к полам, обивке и узким углам. OEM/ODM, MOQ 1 шт.",
+    "th": "QV18 เป็นเครื่องดูดฝุ่นมือถือไร้สาย 450W ออกแบบมาเพื่อการทำความสะอาดหลากหลายรูปแบบในโรงแรม บ้าน และพื้นที่เชิงพาณิชย์ มอเตอร์ไร้แปรงให้แรงดูด 151–180AW ถังฝุ่นแบบไม่ใช้ถุง 1.2L เทได้ในไม่กี่วินาที ฟิลเตอร์ล้างได้ดูแลง่าย แบตเตอรี่ลิเธียมชาร์จได้ใช้งาน 30–60 นาทีต่อการชาร์จ (ชาร์จ 3–5 ชม.) และมีหัวดูดได้ถึง 3 หัว รองรับพื้น เบาะ และมุมแคบ รองรับ OEM/ODM MOQ 1 ชิ้น",
+    "vi": "QV18 là máy hút bụi cầm tay không dây 450W được thiết kế cho việc vệ sinh đa dụng tại khách sạn, gia đình và không gian thương mại. Motor không chổi than mang lại lực hút 151–180AW, hộp bụi 1.2L không túi đổ trong vài giây, tấm lọc giặt được giúp bảo trì đơn giản. Pin lithium sạc được hoạt động 30–60 phút mỗi lần sạc (sạc 3–5 giờ), tối đa ba đầu hút phù hợp cho sàn, vải bọc và góc hẹp. Hỗ trợ OEM/ODM, MOQ 1 cái."
+   },
+   "supplier_rating": "4.81",
+   "response_time": "—",
+   "transactions": "—",
+   "years": "—",
+   "ship_from": {
+    "en": "China",
+    "zh": "中国"
+   },
+   "sample": {
+    "enabled": true,
+    "qty": 1,
+    "note": {
+     "en": "Sample available (max 1 pc)",
+     "zh": "支持打样（最多 1 台）"
+    }
+   },
+   "category_name": {
+    "en": "Handheld & Stick Vacuums",
+    "zh": "手持与立式吸尘器",
+    "es": "Aspiradora de Mano",
+    "ar": "مكنسة يدوية لاسلكية",
+    "fr": "Aspirateur à main",
+    "id": "Pembersih Vakum Tangan",
+    "ru": "Ручной пылесос",
+    "th": "เครื่องดูดฝุ่นมือถือ",
+    "vi": "Máy hút bụi cầm tay"
+   },
+   "certificates": [
+    {
+     "certId": "60008245082",
+     "name": "Declaration of Conformity",
+     "certNo": "CTA25030700203+CTA25030700205+CQASZ20250902238E+YHJC202412100039R1",
+     "availableDate": "2026-07-29",
+     "expiredDate": "2031-07-23",
+     "validPeriod": "2026/07/29 - 2031/07/23",
+     "verified": true,
+     "image": null,
+     "coversHint": "QV18"
+    },
+    {
+     "certId": "60008004208",
+     "name": "Declaration of Conformity",
+     "certNo": "XDX50238736101701EC",
+     "availableDate": "2026-09-01",
+     "expiredDate": "2031-09-06",
+     "validPeriod": "2026/09/01 - 2031/09/06",
+     "verified": true,
+     "image": null,
+     "coversHint": "QV18"
+    },
+    {
+     "certId": "60007675410",
+     "name": "Declaration of Conformity",
+     "certNo": "EFW526022843-CG-02+REV 1",
+     "availableDate": "2026-07-26",
+     "expiredDate": "2031-07-23",
+     "validPeriod": "2026/07/26 - 2031/07/23",
+     "verified": true,
+     "image": null,
+     "coversHint": "QV18"
+    }
+   ],
+   "supplier": {
+    "country": "HK",
+    "province": "New Territories",
+    "established": 2024,
+    "reply_rate": 0.9987,
+    "verified": false,
+    "main_markets": [
+     "North America",
+     "South America",
+     "Eastern Europe",
+     "Southeast Asia"
+    ]
+   },
+   "store_rating": {
+    "score": 4.81,
+    "reviews": 7,
+    "scope": "store"
+   },
+   "shipping_fee_usd": 17.02,
+   "alibaba_url": "https://www.alibaba.com/product-detail/QV18-Handheld-Battery-Powered-Vacuum-Cleaner_1601769600608.html",
+   "_cat": "handheld-vacuum",
+   "detail_images": [
+    "https://www.hkdmj.net/assets/images/products/handheld-vacuum-qv18/detail/01.webp?v=20261102d",
+    "https://www.hkdmj.net/assets/images/products/handheld-vacuum-qv18/detail/02.webp?v=20261102d",
+    "https://www.hkdmj.net/assets/images/products/handheld-vacuum-qv18/detail/03.webp?v=20261102d",
+    "https://www.hkdmj.net/assets/images/products/handheld-vacuum-qv18/detail/04.webp?v=20261102d",
+    "https://www.hkdmj.net/assets/images/products/handheld-vacuum-qv18/detail/05.webp?v=20261102d",
+    "https://www.hkdmj.net/assets/images/products/handheld-vacuum-qv18/detail/06.webp?v=20261102d",
+    "https://www.hkdmj.net/assets/images/products/handheld-vacuum-qv18/detail/07.webp?v=20261102d",
+    "https://www.hkdmj.net/assets/images/products/handheld-vacuum-qv18/detail/08.webp?v=20261102d",
+    "https://www.hkdmj.net/assets/images/products/handheld-vacuum-qv18/detail/09.webp?v=20261102d",
+    "https://www.hkdmj.net/assets/images/products/handheld-vacuum-qv18/detail/10.webp?v=20261102d",
+    "https://www.hkdmj.net/assets/images/products/handheld-vacuum-qv18/detail/11.webp?v=20261102d",
+    "https://www.hkdmj.net/assets/images/products/handheld-vacuum-qv18/detail/12.webp?v=20261102d",
+    "https://www.hkdmj.net/assets/images/products/handheld-vacuum-qv18/detail/13.webp?v=20261102d",
+    "https://www.hkdmj.net/assets/images/products/handheld-vacuum-qv18/detail/14.webp?v=20261102d",
+    "https://www.hkdmj.net/assets/images/products/handheld-vacuum-qv18/detail/15.webp?v=20261102d",
+    "https://www.hkdmj.net/assets/images/products/handheld-vacuum-qv18/detail/16.webp?v=20261102d"
+   ]
   }
  ],
  "reviews": [
