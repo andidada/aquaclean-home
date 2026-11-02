@@ -15,27 +15,27 @@
     "vi": "Robot hút bụi & lau nhà GT20"
    },
    "tagline": {
-    "en": "LiDAR Navigation · 5000Pa Suction · App & Voice Control",
-    "zh": "LDS 激光导航 · 5000Pa 吸力 · APP 与语音控制",
+    "en": "LiDAR Navigation · 4000Pa Suction · App & Voice Control",
+    "zh": "LDS 激光导航 · 4000Pa 吸力 · APP 与语音控制",
     "es": "Navegación LiDAR · succión de 5000 Pa · control por app y voz",
-    "ar": "ملاحة LiDAR · شفط 5000Pa · تحكم بالتطبيق والصوت",
+    "ar": "ملاحة LiDAR · شفط 4000Pa · تحكم بالتطبيق والصوت",
     "fr": "Navigation LiDAR · aspiration 5000 Pa · contrôle par application et voix",
-    "id": "Navigasi LiDAR · Daya Hisap 5000Pa · Kontrol Aplikasi dan Suara",
+    "id": "Navigasi LiDAR · Daya Hisap 4000Pa · Kontrol Aplikasi dan Suara",
     "ru": "Навигация LiDAR · всасывание 5000 Pa · управление через приложение и голосом",
-    "th": "การนำทาง LiDAR · แรงดูด 5000Pa · ควบคุมด้วยแอปและเสียง",
-    "vi": "Điều hướng LiDAR · lực hút 5000Pa · điều khiển qua app & giọng nói"
+    "th": "การนำทาง LiDAR · แรงดูด 4000Pa · ควบคุมด้วยแอปและเสียง",
+    "vi": "Điều hướng LiDAR · lực hút 4000Pa · điều khiển qua app & giọng nói"
    },
    "images": [
-    "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/01-main.webp?v=20261029p",
-    "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/02.webp?v=20261029p",
-    "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/03.webp?v=20261029p",
-    "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/04.webp?v=20261029p",
-    "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/05.webp?v=20261029p",
-    "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/06.webp?v=20261029p"
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/01-main.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/02.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/03.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/04.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/05.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/06.webp?v=20261102e"
    ],
    "video_url": "",
    "moq": {
-    "value": 2,
+    "value": 1000,
     "unit": "pieces"
    },
    "certifications": [],
@@ -61,15 +61,15 @@
     {
      "icon": "suction",
      "text": {
-      "en": "5000Pa Suction Power",
-      "zh": "5000Pa 强吸力",
+      "en": "4000Pa Suction Power",
+      "zh": "4000Pa 强吸力",
       "es": "Potencia de succión de 5000 Pa",
-      "ar": "قوة شفط 5000Pa",
+      "ar": "قوة شفط 4000Pa",
       "fr": "Puissance d'aspiration de 5000 Pa",
-      "id": "Daya hisap 5000Pa",
+      "id": "Daya hisap 4000Pa",
       "ru": "Мощность всасывания 5000 Pa",
-      "th": "กำลังดูด 5000Pa",
-      "vi": "Công suất hút 5000Pa"
+      "th": "กำลังดูด 4000Pa",
+      "vi": "Công suất hút 4000Pa"
      }
     },
     {
@@ -161,14 +161,15 @@
       "vi": "Công suất hút"
      },
      "value": {
-      "en": "5000Pa",
-      "es": "5000Pa",
-      "ar": "5000Pa",
-      "fr": "5000Pa",
-      "id": "5000Pa",
-      "ru": "5000Pa",
-      "th": "5000Pa",
-      "vi": "5000Pa"
+      "en": "4000Pa",
+      "zh": "4000Pa",
+      "ar": "4000Pa",
+      "es": "4000Pa",
+      "fr": "4000Pa",
+      "id": "4000Pa",
+      "ru": "4000Pa",
+      "th": "4000Pa",
+      "vi": "4000Pa"
      }
     },
     {
@@ -207,14 +208,15 @@
       "vi": "Dung tích hộp đựng bụi"
      },
      "value": {
-      "en": "220ml",
-      "es": "220ml",
-      "ar": "220ml",
-      "fr": "220ml",
-      "id": "220ml",
-      "ru": "220ml",
-      "th": "220ml",
-      "vi": "220ml"
+      "en": "800ml",
+      "zh": "800ml",
+      "ar": "800ml",
+      "es": "800ml",
+      "fr": "800ml",
+      "id": "800ml",
+      "ru": "800ml",
+      "th": "800ml",
+      "vi": "800ml"
      }
     },
     {
@@ -462,14 +464,14 @@
       "vi": "Lực hút"
      },
      "value": {
-      "en": "5000Pa",
-      "es": "5000Pa",
-      "ar": "5000Pa",
-      "fr": "5000Pa",
-      "id": "5000Pa",
-      "ru": "5000Pa",
-      "th": "5000Pa",
-      "vi": "5000Pa"
+      "en": "4000Pa",
+      "es": "4000Pa",
+      "ar": "4000Pa",
+      "fr": "4000Pa",
+      "id": "4000Pa",
+      "ru": "4000Pa",
+      "th": "4000Pa",
+      "vi": "4000Pa"
      }
     },
     {
@@ -508,14 +510,14 @@
       "vi": "Hộp đựng bụi"
      },
      "value": {
-      "en": "220ml",
-      "es": "220ml",
-      "ar": "220ml",
-      "fr": "220ml",
-      "id": "220ml",
-      "ru": "220ml",
-      "th": "220ml",
-      "vi": "220ml"
+      "en": "800ml",
+      "es": "800ml",
+      "ar": "800ml",
+      "fr": "800ml",
+      "id": "800ml",
+      "ru": "800ml",
+      "th": "800ml",
+      "vi": "800ml"
      }
     }
    ],
@@ -546,30 +548,15 @@
     "vi": "Hộ gia đình, văn phòng"
    },
    "price_indicator": {
-    "min": 81,
-    "max": 98,
+    "min": 249,
+    "max": 249,
     "currency": "USD"
    },
    "price_ladder": [
     {
-     "min": 2,
-     "max": 99,
-     "price": 98
-    },
-    {
-     "min": 100,
-     "max": 499,
-     "price": 95
-    },
-    {
-     "min": 500,
-     "max": 1999,
-     "price": 90
-    },
-    {
-     "min": 2000,
+     "min": 1000,
      "max": null,
-     "price": 81
+     "price": 249
     }
    ],
    "sku": [
@@ -620,15 +607,15 @@
     }
    ],
    "description": {
-    "en": "The GT20 is a 3-in-1 robot vacuum and mop with LDS SLAM navigation, 5000Pa suction and 120–150 minutes of runtime. It sweeps and mops with a 220ml dustbin and 230ml water tank, supports App control (Tuya) and voice control (Alexa / Google Assistant), and offers smart mapping, no-go zones and virtual walls, obstacle avoidance and auto recharge. OEM/ODM customisation available for colour, voltage and plug type. Certification documents on file.",
-    "zh": "GT20 是扫拖一体的三合一扫地机器人，采用 LDS SLAM 激光导航，吸力 5000Pa，续航 120–150 分钟。220ml 尘盒 + 230ml 水箱，支持 APP（涂鸦）与语音控制（Alexa / Google），具备智能建图、禁区与虚拟墙、越障避让、自动回充等功能。支持 OEM/ODM 定制颜色、电压与插头规格，认证资料已备案。",
+    "en": "The GT20 is a 3-in-1 robot vacuum and mop with LDS SLAM navigation, 4000Pa suction and 120–150 minutes of runtime. It sweeps and mops with a 800ml dustbin and 230ml water tank, supports App control (Tuya) and voice control (Alexa / Google Assistant), and offers smart mapping, no-go zones and virtual walls, obstacle avoidance and auto recharge. OEM/ODM customisation available for colour, voltage and plug type. Certification documents on file.",
+    "zh": "GT20 是扫拖一体的三合一扫地机器人，采用 LDS SLAM 激光导航，吸力 4000Pa，续航 120–150 分钟。800ml 尘盒 + 230ml 水箱，支持 APP（涂鸦）与语音控制（Alexa / Google），具备智能建图、禁区与虚拟墙、越障避让、自动回充等功能。支持 OEM/ODM 定制颜色、电压与插头规格，认证资料已备案。",
     "es": "El GT20 es un robot aspirador y fregasuelos 3 en 1 con navegación LDS SLAM, 5000 Pa de succión y 120–150 minutos de autonomía. Barre y friega con un depósito de polvo de 220 ml y un depósito de agua de 230 ml, admite control por app (Tuya) y control por voz (Alexa / Google Assistant), y ofrece cartografía inteligente, zonas prohibidas, muros virtuales, evitación de obstáculos y recarga automática. Personalización OEM/ODM disponible en color, tensión y tipo de enchufe. Documentación de certificación archivada.",
-    "ar": "GT20 هو روبوت تنظيف ومسح 3 في 1 بملاحة LDS SLAM وشفط 5000Pa وتشغيل من 120 إلى 150 دقيقة. يكنس ويمسح بصندوق غبار 220ml وخزان ماء 230ml، ويدعم التحكم بالتطبيق (Tuya) والتحكم الصوتي (Alexa / Google Assistant)، ويوفّر رسم خرائط ذكي ومناطق محظورة وجدران افتراضية وتجنّب العوائق وإعادة شحن تلقائية. يتوفر تخصيص OEM/ODM للون والجهد ونوع القابس. وثائق الشهادات محفوظة.",
+    "ar": "GT20 هو روبوت تنظيف ومسح 3 في 1 بملاحة LDS SLAM وشفط 4000Pa وتشغيل من 120 إلى 150 دقيقة. يكنس ويمسح بصندوق غبار 800ml وخزان ماء 230ml، ويدعم التحكم بالتطبيق (Tuya) والتحكم الصوتي (Alexa / Google Assistant)، ويوفّر رسم خرائط ذكي ومناطق محظورة وجدران افتراضية وتجنّب العوائق وإعادة شحن تلقائية. يتوفر تخصيص OEM/ODM للون والجهد ونوع القابس. وثائق الشهادات محفوظة.",
     "fr": "Le GT20 est un robot aspirateur laveur 3 en 1 doté d'une navigation LDS SLAM, d'une aspiration de 5000 Pa et d'une autonomie de 120–150 minutes. Il balaie et lave avec un bac à poussière de 220 ml et un réservoir d'eau de 230 ml, prend en charge le contrôle par application (Tuya) et le contrôle vocal (Alexa / Google Assistant), et propose une cartographie intelligente, des zones interdites et des murs virtuels, l'évitement des obstacles et la recharge automatique. Personnalisation OEM/ODM disponible pour la couleur, la tension et le type de prise. Documents de certification archivés.",
-    "id": "GT20 adalah robot penyedot debu dan pel 3 in 1 dengan navigasi LDS SLAM, daya hisap 5000Pa, dan waktu pakai 120–150 menit. Perangkat ini menyapu dan mengepel dengan wadah debu 220ml dan tangki air 230ml, mendukung kontrol aplikasi (Tuya) dan kontrol suara (Alexa / Google Assistant), serta menawarkan pemetaan cerdas, zona terlarang dan dinding virtual, penghindaran rintangan, dan pengisian ulang otomatis. Kustomisasi OEM/ODM tersedia untuk warna, tegangan, dan jenis steker. Dokumen sertifikasi terarsip.",
+    "id": "GT20 adalah robot penyedot debu dan pel 3 in 1 dengan navigasi LDS SLAM, daya hisap 4000Pa, dan waktu pakai 120–150 menit. Perangkat ini menyapu dan mengepel dengan wadah debu 800ml dan tangki air 230ml, mendukung kontrol aplikasi (Tuya) dan kontrol suara (Alexa / Google Assistant), serta menawarkan pemetaan cerdas, zona terlarang dan dinding virtual, penghindaran rintangan, dan pengisian ulang otomatis. Kustomisasi OEM/ODM tersedia untuk warna, tegangan, dan jenis steker. Dokumen sertifikasi terarsip.",
     "ru": "GT20 — это робот-пылесос с влажной уборкой 3 в 1 с навигацией LDS SLAM, всасыванием 5000 Pa и временем работы 120–150 минут. Он подметает и моет пол с пылесборником 220 мл и баком для воды 230 мл, поддерживает управление через приложение (Tuya) и голосовое управление (Alexa / Google Assistant), а также предлагает умное картографирование, запретные зоны и виртуальные стены, обход препятствий и автоматическую подзарядку. Доступна персонализация OEM/ODM по цвету, напряжению и типу вилки. Документы сертификации в наличии.",
-    "th": "GT20 เป็นหุ่นยนต์ดูดฝุ่นและถูพื้นแบบ 3-in-1 นำทางด้วย LDS SLAM แรงดูด 5000Pa และใช้งานได้ 120–150 นาที กวาดและถูพื้นด้วยถังเก็บฝุ่น 220ml และถังน้ำ 230ml รองรับการควบคุมผ่านแอป (Tuya) และการควบคุมด้วยเสียง (Alexa / Google Assistant) พร้อมการทำแผนที่อัจฉริยะ เขตห้ามเข้า กำแพงเสมือน การหลบหลีกสิ่งกีดขวาง และการชาร์จอัตโนมัติ มีบริการปรับแต่ง OEM/ODM สำหรับสี แรงดันไฟฟ้า และประเภทปลั๊ก เอกสารใบรับรองถูกจัดเก็บไว้",
-    "vi": "GT20 là robot hút bụi và lau nhà 3 trong 1 với điều hướng LDS SLAM, lực hút 5000Pa và thời gian chạy 120–150 phút. Máy quét và lau với hộp đựng bụi 220ml và bình nước 230ml, hỗ trợ điều khiển qua app (Tuya) và điều khiển bằng giọng nói (Alexa / Google Assistant), đồng thời có lập bản đồ thông minh, vùng cấm, tường ảo, tránh vật cản và tự động sạc lại. Có thể tùy chỉnh OEM/ODM về màu sắc, điện áp và loại phích cắm. Tài liệu chứng nhận đã lưu hồ sơ."
+    "th": "GT20 เป็นหุ่นยนต์ดูดฝุ่นและถูพื้นแบบ 3-in-1 นำทางด้วย LDS SLAM แรงดูด 4000Pa และใช้งานได้ 120–150 นาที กวาดและถูพื้นด้วยถังเก็บฝุ่น 800ml และถังน้ำ 230ml รองรับการควบคุมผ่านแอป (Tuya) และการควบคุมด้วยเสียง (Alexa / Google Assistant) พร้อมการทำแผนที่อัจฉริยะ เขตห้ามเข้า กำแพงเสมือน การหลบหลีกสิ่งกีดขวาง และการชาร์จอัตโนมัติ มีบริการปรับแต่ง OEM/ODM สำหรับสี แรงดันไฟฟ้า และประเภทปลั๊ก เอกสารใบรับรองถูกจัดเก็บไว้",
+    "vi": "GT20 là robot hút bụi và lau nhà 3 trong 1 với điều hướng LDS SLAM, lực hút 4000Pa và thời gian chạy 120–150 phút. Máy quét và lau với hộp đựng bụi 800ml và bình nước 230ml, hỗ trợ điều khiển qua app (Tuya) và điều khiển bằng giọng nói (Alexa / Google Assistant), đồng thời có lập bản đồ thông minh, vùng cấm, tường ảo, tránh vật cản và tự động sạc lại. Có thể tùy chỉnh OEM/ODM về màu sắc, điện áp và loại phích cắm. Tài liệu chứng nhận đã lưu hồ sơ."
    },
    "supplier_rating": "4.81",
    "response_time": "—",
@@ -709,22 +696,20 @@
    },
    "shipping_fee_usd": 22.06,
    "alibaba_url": "https://www.alibaba.com/product-detail/GT20-Electric-Smart-Robot-Vacuum-Mop_1601781982522.html",
-   "_cat": "robot-vacuum"
-  ,
+   "_cat": "robot-vacuum",
    "detail_images": [
-    "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/detail/01.webp?v=20261029p",
-    "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/detail/02.webp?v=20261029p",
-    "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/detail/03.webp?v=20261029p",
-    "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/detail/04.webp?v=20261029p",
-    "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/detail/05.webp?v=20261029p",
-    "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/detail/06.webp?v=20261029p",
-    "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/detail/07.webp?v=20261029p",
-    "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/detail/08.webp?v=20261029p",
-    "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/detail/09.webp?v=20261029p",
-    "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/detail/10.webp?v=20261029p",
-    "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/detail/11.webp?v=20261029p",
-    "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/detail/12.webp?v=20261029p",
-    "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/detail/13.webp?v=20261029p"
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/detail/01.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/detail/02.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/detail/03.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/detail/04.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/detail/05.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/detail/06.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/detail/07.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/detail/08.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/detail/09.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/detail/10.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/detail/11.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-gt20/detail/12.webp?v=20261102e"
    ]
   },
   {
@@ -1832,8 +1817,7 @@
     "platform": "alibaba.com",
     "productId": "1601696484785"
    },
-   "_cat": "robot-vacuum"
-  ,
+   "_cat": "robot-vacuum",
    "detail_images": [
     "https://www.hkdmj.net/assets/images/products/robot-vacuum-v2g-sj/detail/01.webp?v=20261029p",
     "https://www.hkdmj.net/assets/images/products/robot-vacuum-v2g-sj/detail/02.webp?v=20261029p",
@@ -2953,8 +2937,7 @@
     "platform": "alibaba.com",
     "productId": "1601715304265"
    },
-   "_cat": "robot-vacuum"
-  ,
+   "_cat": "robot-vacuum",
    "detail_images": [
     "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9/detail/01.webp?v=20261029p",
     "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9/detail/02.webp?v=20261029p",
@@ -4030,8 +4013,7 @@
     "platform": "alibaba.com",
     "productId": "1601744170441"
    },
-   "_cat": "robot-vacuum"
-  ,
+   "_cat": "robot-vacuum",
    "detail_images": [
     "https://www.hkdmj.net/assets/images/products/robot-vacuum-pt40c800/detail/01.webp?v=20261029p",
     "https://www.hkdmj.net/assets/images/products/robot-vacuum-pt40c800/detail/02.webp?v=20261029p",
@@ -4836,8 +4818,7 @@
     "platform": "alibaba.com",
     "productId": "1601887224510"
    },
-   "_cat": "robot-vacuum"
-  ,
+   "_cat": "robot-vacuum",
    "detail_images": [
     "https://www.hkdmj.net/assets/images/products/robot-vacuum-t20-c800/detail/01.webp?v=20261029p",
     "https://www.hkdmj.net/assets/images/products/robot-vacuum-t20-c800/detail/02.webp?v=20261029p",
@@ -4853,6 +4834,2695 @@
     "https://www.hkdmj.net/assets/images/products/robot-vacuum-t20-c800/detail/12.webp?v=20261029p",
     "https://www.hkdmj.net/assets/images/products/robot-vacuum-t20-c800/detail/13.webp?v=20261029p",
     "https://www.hkdmj.net/assets/images/products/robot-vacuum-t20-c800/detail/14.webp?v=20261029p"
+   ]
+  },
+  {
+   "_cat": "robot-vacuum",
+   "_source": {
+    "platform": "alibaba.com",
+    "productId": "1601696484785"
+   },
+   "category_name": {
+    "en": "Robot Vacuum Cleaners",
+    "zh": "扫地机器人",
+    "es": "Robot Aspirador",
+    "ar": "روبوت تنظيف الأرضيات",
+    "fr": "Robot aspirateur",
+    "id": "Robot Pembersih Vakum",
+    "ru": "Робот-пылесос",
+    "th": "หุ่นยนต์ดูดฝุ่น",
+    "vi": "Robot hút bụi"
+   },
+   "supplier_rating": "4.8",
+   "response_time": "≤ 2h",
+   "transactions": "US $100K+",
+   "years": "10+",
+   "ship_from": {
+    "en": "Ningbo, China",
+    "zh": "中国宁波"
+   },
+   "sample": {
+    "enabled": true,
+    "qty": 1,
+    "note": "Sample available, lead 7-14 days"
+   },
+   "packaging": {
+    "unit": "Color Box"
+   },
+   "customization": {
+    "oem": true,
+    "odm": true
+   },
+   "applications": {
+    "en": "Household, Hotel, Office",
+    "zh": "Household, Hotel, Office",
+    "ar": "Household, Hotel, Office",
+    "es": "Household, Hotel, Office",
+    "fr": "Household, Hotel, Office",
+    "id": "Household, Hotel, Office",
+    "ru": "Household, Hotel, Office",
+    "th": "Household, Hotel, Office",
+    "vi": "Household, Hotel, Office"
+   },
+   "video_url": null,
+   "certifications": [],
+   "alibaba_url": "https://www.alibaba.com/product-detail/1601696484785.html",
+   "sku": [
+    {
+     "name": {
+      "en": "Certification",
+      "zh": "认证",
+      "es": "Certificación",
+      "ar": "الشهادات",
+      "fr": "Certification",
+      "id": "Sertifikasi",
+      "ru": "Сертификация",
+      "th": "การรับรอง",
+      "vi": "Chứng nhận"
+     },
+     "values": [
+      {
+       "name": "CE, RoHS"
+      }
+     ]
+    }
+   ],
+   "id": "v2g-sj-2",
+   "name": {
+    "en": "V2G-SJ 3-in-1 Robot Vacuum and Mop 3500Pa Wet & Dry Gyro Navigation",
+    "zh": "V2G-SJ 三合一扫拖一体机器人 3500Pa 干湿两用陀螺仪导航",
+    "es": "Robot aspirador y trapeador 3 en 1 V2G-SJ 3500 Pa con navegación giroscópica",
+    "ar": "روبوت تنظيف وممسحة 3 في 1 V2G-SJ بقوة شفط 3500 باسكال للتنظيف الجاف والرطب",
+    "fr": "Robot aspirateur laveur 3 en 1 V2G-SJ 3500 Pa navigation gyroscopique",
+    "id": "Robot vakum dan pel 3 dalam 1 V2G-SJ 3500Pa navigasi giroskop",
+    "ru": "Робот-пылесос 3 в 1 V2G-SJ 3500 Па с влажной уборкой и гироскопической навигацией",
+    "th": "หุ่นยนต์ดูดฝุ่น 3 ใน 1 V2G-SJ 3500Pa แบบแห้งและเปียกนำทางด้วยไจโร",
+    "vi": "Robot hút bụi lau nhà 3 trong 1 V2G-SJ 3500Pa điều hướng con quay"
+   },
+   "tagline": {
+    "en": "3500Pa · 3-in-1 Sweep/Mop/Vacuum · 91–120 min",
+    "zh": "3500Pa · 扫拖吸三合一 · 91–120 分钟",
+    "es": "3500 Pa · barrido/trapeado/aspiración 3 en 1 · 91–120 min",
+    "ar": "3500 باسكال ·كنس ومسح وشفيط 3 في 1 · 91–120 دقيقة",
+    "fr": "3500 Pa · balayage/lavage/aspiration 3 en 1 · 91–120 min",
+    "id": "3500Pa · 3-in-1 sapu/pel/hisap · 91–120 menit",
+    "ru": "3500 Па · подметание/мытьё/всасывание 3 в 1 · 91–120 мин",
+    "th": "3500Pa · 3 ใน 1 กวาด/เช็ด/ดูด · 91–120 นาที",
+    "vi": "3500Pa · 3 trong 1 quét/lau/hút · 91–120 phút"
+   },
+   "moq": {
+    "value": 1,
+    "unit": "pieces"
+   },
+   "price_indicator": {
+    "min": 98,
+    "max": 107,
+    "currency": "USD"
+   },
+   "price_ladder": [
+    {
+     "min": 1,
+     "max": 499,
+     "price": 107
+    },
+    {
+     "min": 500,
+     "max": 999,
+     "price": 103
+    },
+    {
+     "min": 1000,
+     "max": null,
+     "price": 98
+    }
+   ],
+   "highlights": [
+    {
+     "icon": "power",
+     "text": {
+      "en": "3-in-1 Sweeping, Mopping and Vacuuming — Wet & Dry",
+      "zh": "扫、拖、吸三合一，干湿两用",
+      "es": "Barrido, trapeado y aspiración 3 en 1: húmedo y seco",
+      "ar": "كنس ومسح وشفط 3 في 1 — جاف ورطب",
+      "fr": "Balayage, lavage et aspiration 3 en 1 — humide et sec",
+      "id": "Menyapu, mengepel, dan menyedot 3 dalam 1 — basah & kering",
+      "ru": "Подметание, мытьё и вакуум 3 в 1 — влажная и сухая уборка",
+      "th": "กวาด เช็ด ดูด 3 ใน 1 — แบบแห้งและเปียก",
+      "vi": "Quét, lau và hút 3 trong 1 — khô & ướt"
+     }
+    },
+    {
+     "icon": "battery",
+     "text": {
+      "en": "91–120 min Runtime with Auto Recharge & Resume",
+      "zh": "续航 91–120 分钟，自动回充续扫",
+      "es": "Autonomía de 91–120 min con recarga y reanudación automáticas",
+      "ar": "تشغيل 91–120 دقيقة مع إعادة شحن واستئناف تلقائي",
+      "fr": "Autonomie 91–120 min avec recharge et reprise automatiques",
+      "id": "Runtime 91–120 menit dengan isi ulang & lanjut otomatis",
+      "ru": "Работа 91–120 мин с автозарядкой и продолжением уборки",
+      "th": "ใช้งาน 91–120 นาที ชาร์จอัตโนมัติและทำต่อได้",
+      "vi": "Chạy 91–120 phút với sạc tự động và tiếp tục"
+     }
+    },
+    {
+     "icon": "filter",
+     "text": {
+      "en": ">2L Dustbin + HEPA Filter + Auto Mop Cleaning",
+      "zh": ">2L 大尘盒 + HEPA 滤网 + 自动清洁拖布",
+      "es": "Depósito >2 L + filtro HEPA + limpieza automática del trapo",
+      "ar": "صندوق غبار >2 لتر + فلتر HEPA + تنظيف الممسحة تلقائياً",
+      "fr": "Bac >2 L + filtre HEPA + nettoyage auto de la serpillière",
+      "id": "Wadah >2L + filter HEPA + pembersihan pel otomatis",
+      "ru": "Пылесборник >2 л + HEPA-фильтр + автоочистка тряпки",
+      "th": "ถังฝุ่น >2L + ฟิลเตอร์ HEPA + ล้างผ้าเช็ดอัตโนมัติ",
+      "vi": "Hộp bụi >2L + lọc HEPA + tự làm sạch khăn lau"
+     }
+    },
+    {
+     "icon": "design",
+     "text": {
+      "en": "WiFi App + Remote + Button Control, Pet-Friendly",
+      "zh": "WiFi APP + 遥控 + 按键三种控制，宠物家庭友好",
+      "es": "Control por app WiFi, mando y botones, apto para mascotas",
+      "ar": "تحكم عبر تطبيق WiFi وجهاز تحكم وأزرار، مناسب للحيوانات الأليفة",
+      "fr": "Contrôle app WiFi + télécommande + boutons, adapté aux animaux",
+      "id": "Kontrol aplikasi WiFi + remote + tombol, ramah hewan peliharaan",
+      "ru": "Управление по WiFi-приложению, пульту и кнопкам, безопасно для питомцев",
+      "th": "ควบคุมผ่านแอป WiFi + รีโมต + ปุ่ม เป็นมิตรกับสัตว์เลี้ยง",
+      "vi": "Điều khiển app WiFi + remote + nút bấm, thân thiện thú cưng"
+     }
+    }
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "model number",
+      "zh": "model number",
+      "es": "número de modelo",
+      "ar": "رقم الموديل",
+      "fr": "numéro de modèle",
+      "id": "nomor model",
+      "ru": "номер модели",
+      "th": "หมายเลขรุ่น",
+      "vi": "số model"
+     },
+     "value": {
+      "en": "V2G-SJ",
+      "zh": "V2G-SJ",
+      "ar": "V2G-SJ",
+      "es": "V2G-SJ",
+      "fr": "V2G-SJ",
+      "id": "V2G-SJ",
+      "ru": "V2G-SJ",
+      "th": "V2G-SJ",
+      "vi": "V2G-SJ"
+     }
+    },
+    {
+     "label": {
+      "en": "Suction Power",
+      "zh": "吸力",
+      "es": "Potencia de succión",
+      "ar": "قوة الشفط",
+      "fr": "Puissance d'aspiration",
+      "id": "Daya Hisap",
+      "ru": "Мощность всасывания",
+      "th": "กำลังดูด",
+      "vi": "Công suất hút"
+     },
+     "value": {
+      "en": "3500Pa",
+      "zh": "3500Pa",
+      "ar": "3500Pa",
+      "es": "3500Pa",
+      "fr": "3500Pa",
+      "id": "3500Pa",
+      "ru": "3500Pa",
+      "th": "3500Pa",
+      "vi": "3500Pa"
+     }
+    },
+    {
+     "label": {
+      "en": "Navigation",
+      "zh": "导航方式",
+      "es": "Navegación",
+      "ar": "الملاحة",
+      "fr": "Navigation",
+      "id": "Navigasi",
+      "ru": "Навигация",
+      "th": "การนำทาง",
+      "vi": "Điều hướng"
+     },
+     "value": {
+      "en": "Gyroscope",
+      "zh": "陀螺仪",
+      "es": "Giroscopio",
+      "ar": "جيروسكوب",
+      "fr": "Gyroscope",
+      "id": "Giroskop",
+      "ru": "Гироскоп",
+      "th": "ไจโรสโคป",
+      "vi": "Con quay hồi chuyển"
+     }
+    },
+    {
+     "label": {
+      "en": "Runtime",
+      "zh": "续航时间",
+      "es": "Autonomía",
+      "ar": "مدة التشغيل",
+      "fr": "Autonomie",
+      "id": "Waktu Pakai",
+      "ru": "Время работы",
+      "th": "ระยะเวลาทำงาน",
+      "vi": "Thời gian chạy"
+     },
+     "value": {
+      "en": "91–120 min",
+      "zh": "91–120 分钟",
+      "es": "91–120 min",
+      "ar": "91–120 دقيقة",
+      "fr": "91–120 min",
+      "id": "91–120 menit",
+      "ru": "91–120 мин",
+      "th": "91–120 นาที",
+      "vi": "91–120 phút"
+     }
+    },
+    {
+     "label": {
+      "en": "Functions",
+      "zh": "Functions",
+      "es": "Funciones",
+      "ar": "الوظائف",
+      "fr": "Fonctions",
+      "id": "Fungsi",
+      "ru": "Функции",
+      "th": "ฟังก์ชัน",
+      "vi": "Các chức năng"
+     },
+     "value": {
+      "en": "Sweep / Mop / Vacuum (Wet & Dry)",
+      "zh": "扫地 / 拖地 / 吸尘（干湿两用）",
+      "es": "Barrido / trapeado / aspiración (húmedo y seco)",
+      "ar": "كنس / مسح / شفط (جاف ورطب)",
+      "fr": "Balayage / lavage / aspiration (humide et sec)",
+      "id": "Sapu / pel / hisap (basah & kering)",
+      "ru": "Подметание / мытьё / вакуум (влажно и сухо)",
+      "th": "กวาด / เช็ด / ดูด (แห้งและเปียก)",
+      "vi": "Quét / lau / hút (khô & ướt)"
+     }
+    },
+    {
+     "label": {
+      "en": "Dustbin Capacity",
+      "zh": "尘盒容量",
+      "es": "Capacidad del depósito",
+      "ar": "سعة صندوق الغبار",
+      "fr": "Capacité du bac",
+      "id": "Kapasitas debu",
+      "ru": "Объём пылесборника",
+      "th": "ความจุถังฝุ่น",
+      "vi": "Dung tích hộp bụi"
+     },
+     "value": {
+      "en": ">2L",
+      "zh": ">2L",
+      "ar": ">2L",
+      "es": ">2L",
+      "fr": ">2L",
+      "id": ">2L",
+      "ru": ">2L",
+      "th": ">2L",
+      "vi": ">2L"
+     }
+    },
+    {
+     "label": {
+      "en": "filter type",
+      "zh": "filter type",
+      "es": "tipo de filtro",
+      "ar": "نوع الفلتر",
+      "fr": "type de filtre",
+      "id": "jenis filter",
+      "ru": "тип фильтра",
+      "th": "ประเภทตัวกรอง",
+      "vi": "loại bộ lọc"
+     },
+     "value": {
+      "en": "HEPA",
+      "zh": "HEPA",
+      "ar": "HEPA",
+      "es": "HEPA",
+      "fr": "HEPA",
+      "id": "HEPA",
+      "ru": "HEPA",
+      "th": "HEPA",
+      "vi": "HEPA"
+     }
+    },
+    {
+     "label": {
+      "en": "motor type",
+      "zh": "motor type",
+      "es": "tipo de motor",
+      "ar": "نوع المحرك",
+      "fr": "type de moteur",
+      "id": "jenis motor",
+      "ru": "тип двигателя",
+      "th": "ประเภทมอเตอร์",
+      "vi": "loại động cơ"
+     },
+     "value": {
+      "en": "Brushless Motor",
+      "zh": "无刷电机",
+      "es": "Motor sin escobillas",
+      "ar": "محرك بدون فرش",
+      "fr": "Moteur sans balais",
+      "id": "Motor brushless",
+      "ru": "Бесщёточный мотор",
+      "th": "มอเตอร์ไร้แปรง",
+      "vi": "Motor không chổi than"
+     }
+    },
+    {
+     "label": {
+      "en": "Battery Type",
+      "zh": "电池类型",
+      "es": "Tipo de batería",
+      "ar": "نوع البطارية",
+      "fr": "Type de batterie",
+      "id": "Jenis Baterai",
+      "ru": "Тип аккумулятора",
+      "th": "ประเภทแบตเตอรี่",
+      "vi": "Loại pin"
+     },
+     "value": {
+      "en": "Li-Ion Battery",
+      "zh": "锂电池",
+      "es": "Batería de iones de litio",
+      "ar": "بطارية ليثيوم أيون",
+      "fr": "Batterie Li-Ion",
+      "id": "Baterai Li-Ion",
+      "ru": "Литиевая батарея",
+      "th": "แบตเตอรี่ลิเธียมไอออน",
+      "vi": "Pin Li-Ion"
+     }
+    },
+    {
+     "label": {
+      "en": "App",
+      "zh": "App",
+      "es": "Aplicación",
+      "ar": "تطبيق",
+      "fr": "Application",
+      "id": "Aplikasi",
+      "ru": "Приложение",
+      "th": "แอป",
+      "vi": "Ứng dụng"
+     },
+     "value": {
+      "en": "WiFi App + Remote + Buttons",
+      "zh": "WiFi APP + 遥控 + 按键",
+      "es": "App WiFi + mando + botones",
+      "ar": "تطبيق WiFi + جهاز تحكم + أزرار",
+      "fr": "App WiFi + télécommande + boutons",
+      "id": "Aplikasi WiFi + remote + tombol",
+      "ru": "Приложение WiFi + пульт + кнопки",
+      "th": "แอป WiFi + รีโมต + ปุ่ม",
+      "vi": "Ứng dụng WiFi + remote + nút"
+     }
+    },
+    {
+     "label": {
+      "en": "Material",
+      "zh": "材质",
+      "es": "Material",
+      "ar": "المادة",
+      "fr": "Matériau",
+      "id": "Material",
+      "ru": "Материал",
+      "th": "วัสดุ",
+      "vi": "Chất liệu"
+     },
+     "value": {
+      "en": "ABS",
+      "zh": "ABS",
+      "ar": "ABS",
+      "es": "ABS",
+      "fr": "ABS",
+      "id": "ABS",
+      "ru": "ABS",
+      "th": "ABS",
+      "vi": "ABS"
+     }
+    },
+    {
+     "label": {
+      "en": "Certification",
+      "zh": "认证",
+      "es": "Certificación",
+      "ar": "الشهادات",
+      "fr": "Certification",
+      "id": "Sertifikasi",
+      "ru": "Сертификация",
+      "th": "การรับรอง",
+      "vi": "Chứng nhận"
+     },
+     "value": {
+      "en": "CE, RoHS",
+      "zh": "CE, RoHS",
+      "ar": "CE, RoHS",
+      "es": "CE, RoHS",
+      "fr": "CE, RoHS",
+      "id": "CE, RoHS",
+      "ru": "CE, RoHS",
+      "th": "CE, RoHS",
+      "vi": "CE, RoHS"
+     }
+    },
+    {
+     "label": {
+      "en": "Warranty",
+      "zh": "保修",
+      "es": "Garantía",
+      "ar": "الضمان",
+      "fr": "Garantie",
+      "id": "Garansi",
+      "ru": "Гарантия",
+      "th": "การรับประกัน",
+      "vi": "Bảo hành"
+     },
+     "value": {
+      "en": "1 Year",
+      "zh": "1 年",
+      "es": "1 año",
+      "ar": "سنة واحدة",
+      "fr": "1 an",
+      "id": "1 tahun",
+      "ru": "1 год",
+      "th": "1 ปี",
+      "vi": "1 năm"
+     }
+    }
+   ],
+   "quick_specs": [
+    {
+     "label": {
+      "en": "Suction Power",
+      "zh": "吸力",
+      "es": "Potencia de succión",
+      "ar": "قوة الشفط",
+      "fr": "Puissance d'aspiration",
+      "id": "Daya Hisap",
+      "ru": "Мощность всасывания",
+      "th": "กำลังดูด",
+      "vi": "Công suất hút"
+     },
+     "value": {
+      "en": "3500Pa",
+      "zh": "3500Pa",
+      "ar": "3500Pa",
+      "es": "3500Pa",
+      "fr": "3500Pa",
+      "id": "3500Pa",
+      "ru": "3500Pa",
+      "th": "3500Pa",
+      "vi": "3500Pa"
+     }
+    },
+    {
+     "label": {
+      "en": "Navigation",
+      "zh": "导航方式",
+      "es": "Navegación",
+      "ar": "الملاحة",
+      "fr": "Navigation",
+      "id": "Navigasi",
+      "ru": "Навигация",
+      "th": "การนำทาง",
+      "vi": "Điều hướng"
+     },
+     "value": {
+      "en": "Gyroscope",
+      "zh": "陀螺仪",
+      "es": "Giroscopio",
+      "ar": "جيروسكوب",
+      "fr": "Gyroscope",
+      "id": "Giroskop",
+      "ru": "Гироскоп",
+      "th": "ไจโรสโคป",
+      "vi": "Con quay hồi chuyển"
+     }
+    },
+    {
+     "label": {
+      "en": "Runtime",
+      "zh": "续航时间",
+      "es": "Autonomía",
+      "ar": "مدة التشغيل",
+      "fr": "Autonomie",
+      "id": "Waktu Pakai",
+      "ru": "Время работы",
+      "th": "ระยะเวลาทำงาน",
+      "vi": "Thời gian chạy"
+     },
+     "value": {
+      "en": "91–120 min",
+      "zh": "91–120 分钟",
+      "es": "91–120 min",
+      "ar": "91–120 دقيقة",
+      "fr": "91–120 min",
+      "id": "91–120 menit",
+      "ru": "91–120 мин",
+      "th": "91–120 นาที",
+      "vi": "91–120 phút"
+     }
+    },
+    {
+     "label": {
+      "en": "Dustbin Capacity",
+      "zh": "尘盒容量",
+      "es": "Capacidad del depósito",
+      "ar": "سعة صندوق الغبار",
+      "fr": "Capacité du bac",
+      "id": "Kapasitas debu",
+      "ru": "Объём пылесборника",
+      "th": "ความจุถังฝุ่น",
+      "vi": "Dung tích hộp bụi"
+     },
+     "value": {
+      "en": ">2L",
+      "zh": ">2L",
+      "ar": ">2L",
+      "es": ">2L",
+      "fr": ">2L",
+      "id": ">2L",
+      "ru": ">2L",
+      "th": ">2L",
+      "vi": ">2L"
+     }
+    }
+   ],
+   "description": {
+    "en": "The V2G-SJ is a 2026 3-in-1 robot vacuum that sweeps, mops and vacuum-cleans in one pass, wet or dry. Gyroscope navigation keeps systematic coverage while the >2L dustbox and HEPA filter handle large homes; the brushless motor delivers 3500Pa suction with auto mop cleaning, auto recharge and resume, App/remote/button control and pet-hair pickup. CE/RoHS certified, OEM/ODM supported, MOQ 1 pc.",
+    "zh": "V2G-SJ 是 2026 年新品三合一扫地机器人，一次完成扫、拖、吸，干湿两用。陀螺仪导航规划式全覆盖，>2L 大尘盒与 HEPA 滤网轻松应对大户型；无刷电机 3500Pa 吸力，支持拖布自动清洁、自动回充续扫，APP/遥控/按键三种控制，善于清理宠物毛发。CE/RoHS 认证，支持 OEM/ODM，MOQ 1 台。",
+    "es": "La V2G-SJ es un robot aspirador 3 en 1 de 2026 que barre, trapea y aspira en una sola pasada, en húmedo o en seco. La navegación giroscópica garantiza una cobertura sistemática mientras el depósito de >2 L y el filtro HEPA se adaptan a viviendas grandes; el motor sin escobillas ofrece 3500 Pa con limpieza automática del trapo, recarga y reanudación automáticas, control por app/mando/botones y recogida de pelo de mascotas. Certificado CE/RoHS, OEM/ODM disponible, MOQ 1 ud.",
+    "ar": "روبوت V2G-SJ ثلاثي الوظائف لعام 2026 يمسح ويمسح بالمنشفة ويشفط في تمريرة واحدة، جاف أو رطب. توفر الملاحة بالجيروسكوب تغطية منهجية بينما يتكفل صندوق الغبار بسعة تزيد على 2 لتر وفلتر HEPA بالمنازل الكبيرة؛ يقدم المحرك بدون فرش قوة شفط 3500 باسكال مع تنظيف تلقائي للممسحة وإعادة شحن واستئناف تلقائي وتحكم عبر التطبيق/جهاز التحكم/الأزرار وجمع شعر الحيوانات. معتمد CE/RoHS، متوفر OEM/ODM، الحد الأدنى قطعة واحدة.",
+    "fr": "La V2G-SJ est un robot 3 en 1 de 2026 qui balaie, lave et aspire en un seul passage, à l’humide comme au sec. La navigation gyroscopique assure une couverture systématique, le bac >2 L et le filtre HEPA conviennent aux grands logements ; le moteur sans balais délivre 3500 Pa avec nettoyage automatique de la serpillière, recharge et reprise automatiques, contrôle par app/télécommande/boutons et ramassage des poils d’animaux. Certifié CE/RoHS, OEM/ODM pris en charge, MOQ 1 pc.",
+    "id": "V2G-SJ adalah robot vakum 3 dalam 1 tahun 2026 yang menyapu, mengepel, dan menyedot dalam satu kali langkah, basah atau kering. Navigasi giroskop menjaga cakupan sistematis sementara wadah debu >2L dan filter HEPA cocok untuk rumah besar; motor brushless menghadirkan hisap 3500Pa dengan pembersihan pel otomatis, isi ulang dan lanjut otomatis, kontrol aplikasi/remote/tombol, dan penjemputan bulu hewan. Bersertifikat CE/RoHS, OEM/ODM tersedia, MOQ 1 pcs.",
+    "ru": "V2G-SJ — робот-пылесос 3 в 1 2026 года: подметает, моет и пылесосит за один проход, влажно или сухо. Гироскопическая навигация обеспечивает систематическое покрытие, пылесборник >2 л и HEPA-фильтр подходят для больших домов; бесщёточный мотор даёт 3500 Па с автоочисткой тряпки, автозарядкой и продолжением, управлением через приложение/пульт/кнопки и сбором шерсти. Сертификаты CE/RoHS, OEM/ODM, MOQ 1 шт.",
+    "th": "V2G-SJ เป็นหุ่นยนต์ดูดฝุ่น 3 ใน 1 ปี 2026 ที่กวาด เช็ด และดูดฝุ่นในรอบเดียว ทั้งแบบเปียกและแห้ง การนำทางด้วยไจโรสโคปครอบคลุมอย่างเป็นระบบ ถังฝุ่น >2L และฟิลเตอร์ HEPA เหมาะกับบ้านขนาดใหญ่ มอเตอร์ไร้แปรงให้แรงดูด 3500Pa ล้างผ้าเช็ดอัตโนมัติ ชาร์จอัตโนมัติและทำต่อ ควบคุมผ่านแอป/รีโมต/ปุ่ม เก็บขนสัตว์เก่ง รับรอง CE/RoHS รองรับ OEM/ODM MOQ 1 ชิ้น",
+    "vi": "V2G-SJ là robot hút bụi 3 trong 1 năm 2026, quét, lau và hút trong một lượt, khô hoặc ướt. Điều hướng con quay đảm bảo phủ đều hệ thống, hộp bụi >2L và lọc HEPA phù hợp nhà rộng; motor không chổi than cho lực hút 3500Pa với tự làm sạch khăn lau, tự sạc và tiếp tục, điều khiển app/remote/nút, hút lông thú cưng. Chứng nhận CE/RoHS, hỗ trợ OEM/ODM, MOQ 1 cái."
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v2g-sj-2/01-main.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v2g-sj-2/02.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v2g-sj-2/03.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v2g-sj-2/04.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v2g-sj-2/05.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v2g-sj-2/06.webp?v=20261102e"
+   ],
+   "detail_images": [
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v2g-sj-2/detail/01.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v2g-sj-2/detail/02.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v2g-sj-2/detail/03.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v2g-sj-2/detail/04.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v2g-sj-2/detail/05.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v2g-sj-2/detail/06.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v2g-sj-2/detail/07.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v2g-sj-2/detail/08.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v2g-sj-2/detail/09.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v2g-sj-2/detail/10.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v2g-sj-2/detail/11.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v2g-sj-2/detail/12.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v2g-sj-2/detail/13.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v2g-sj-2/detail/14.webp?v=20261102e"
+   ],
+   "certificates": [
+    {
+     "certId": "60008245082",
+     "name": "Declaration of Conformity",
+     "certNo": "CTA25030700203+CTA25030700205+CQASZ20250902238E+YHJC202412100039R1",
+     "availableDate": "2026-07-29",
+     "expiredDate": "2031-07-23",
+     "validPeriod": "2026/07/29 - 2031/07/23",
+     "verified": true,
+     "image": null,
+     "coversHint": "V2G-SJ"
+    }
+   ]
+  },
+  {
+   "_cat": "robot-vacuum",
+   "_source": {
+    "platform": "alibaba.com",
+    "productId": "1601757912024"
+   },
+   "category_name": {
+    "en": "Robot Vacuum Cleaners",
+    "zh": "扫地机器人",
+    "es": "Robot Aspirador",
+    "ar": "روبوت تنظيف الأرضيات",
+    "fr": "Robot aspirateur",
+    "id": "Robot Pembersih Vakum",
+    "ru": "Робот-пылесос",
+    "th": "หุ่นยนต์ดูดฝุ่น",
+    "vi": "Robot hút bụi"
+   },
+   "supplier_rating": "4.8",
+   "response_time": "≤ 2h",
+   "transactions": "US $100K+",
+   "years": "10+",
+   "ship_from": {
+    "en": "Ningbo, China",
+    "zh": "中国宁波"
+   },
+   "sample": {
+    "enabled": true,
+    "qty": 1,
+    "note": "Sample available, lead 7-14 days"
+   },
+   "packaging": {
+    "unit": "Color Box"
+   },
+   "customization": {
+    "oem": true,
+    "odm": true
+   },
+   "applications": {
+    "en": "Household, Hotel, Office",
+    "zh": "Household, Hotel, Office",
+    "ar": "Household, Hotel, Office",
+    "es": "Household, Hotel, Office",
+    "fr": "Household, Hotel, Office",
+    "id": "Household, Hotel, Office",
+    "ru": "Household, Hotel, Office",
+    "th": "Household, Hotel, Office",
+    "vi": "Household, Hotel, Office"
+   },
+   "video_url": null,
+   "certifications": [],
+   "alibaba_url": "https://www.alibaba.com/product-detail/1601757912024.html",
+   "sku": [
+    {
+     "name": {
+      "en": "Station",
+      "zh": "基站",
+      "es": "Estación",
+      "ar": "القاعدة",
+      "fr": "Station",
+      "id": "Stasiun",
+      "ru": "Станция",
+      "th": "สถานี",
+      "vi": "Trạm"
+     },
+     "values": [
+      {
+       "name": {
+        "en": "Self-Cleaning Station",
+        "zh": "自清洁基站",
+        "es": "Estación de autolimpieza",
+        "ar": "قاعدة تنظيف ذاتي",
+        "fr": "Station d’autonettoyage",
+        "id": "Stasiun pembersih mandiri",
+        "ru": "Станция самоочистки",
+        "th": "สถานีทำความสะอาดอัตโนมัติ",
+        "vi": "Trạm tự làm sạch"
+       }
+      }
+     ]
+    }
+   ],
+   "id": "v9-2",
+   "name": {
+    "en": "V9 Robot Vacuum with Self-Cleaning Station 20000Pa Auto Mop Washing & Drying",
+    "zh": "V9 自清洁站扫地机器人 20000Pa 自动拖布洗烘",
+    "es": "Robot aspirador V9 con estación de autolimpieza 20000 Pa lavado y secado automático del trapo",
+    "ar": "روبوت V9 مع قاعدة تنظيف ذاتي بقوة شفط 20000 باسكال وغسل وتجفيف الممسحة تلقائياً",
+    "fr": "Robot aspirateur V9 avec station d’autonettoyage 20000 Pa lavage et séchage automatiques",
+    "id": "Robot vakum V9 dengan stasiun pembersih mandiri 20000Pa pencucian & pengeringan pel otomatis",
+    "ru": "Робот-пылесос V9 со станцией самоочистки 20000 Па, авто мойка и сушка тряпки",
+    "th": "หุ่นยนต์ V9 พร้อมสถานีทำความสะอาดอัตโนมัติ 20000Pa ล้างและอบผ้าเช็ดอัตโนมัติ",
+    "vi": "Robot hút bụi V9 với trạm tự làm sạch 20000Pa tự rửa và sấy khăn lau"
+   },
+   "tagline": {
+    "en": "20000Pa · Self-Cleaning Station · 150–180 min",
+    "zh": "20000Pa · 自清洁基站 · 150–180 分钟",
+    "es": "20000 Pa · estación de autolimpieza · 150–180 min",
+    "ar": "20000 باسكال · قاعدة تنظيف ذاتي · 150–180 دقيقة",
+    "fr": "20000 Pa · station d’autonettoyage · 150–180 min",
+    "id": "20000Pa · stasiun pembersih mandiri · 150–180 menit",
+    "ru": "20000 Па · станция самоочистки · 150–180 мин",
+    "th": "20000Pa · สถานีทำความสะอาดอัตโนมัติ · 150–180 นาที",
+    "vi": "20000Pa · trạm tự làm sạch · 150–180 phút"
+   },
+   "moq": {
+    "value": 1000,
+    "unit": "pieces"
+   },
+   "price_indicator": {
+    "min": 246,
+    "max": 256,
+    "currency": "USD"
+   },
+   "price_ladder": [
+    {
+     "min": 1000,
+     "max": 1999,
+     "price": 256
+    },
+    {
+     "min": 2000,
+     "max": null,
+     "price": 246
+    }
+   ],
+   "highlights": [
+    {
+     "icon": "power",
+     "text": {
+      "en": "Extreme 20000Pa Suction with Auto-Empty Dust Collection",
+      "zh": "20000Pa 超强吸力，自动集尘",
+      "es": "Sución extrema de 20000 Pa con recogida de polvo automática",
+      "ar": "قوة شفط هائلة 20000 باسكال مع جمع الغبار تلقائياً",
+      "fr": "Aspiration extrême 20000 Pa avec vidage automatique",
+      "id": "Hisap ekstrem 20000Pa dengan pengumpulan debu otomatis",
+      "ru": "Мощность 20000 Па с автоматическим сбором пыли",
+      "th": "แรงดูดสูงสุด 20000Pa รวบรวมฝุ่นอัตโนมัติ",
+      "vi": "Lực hút cực đại 20000Pa với thu bụi tự động"
+     }
+    },
+    {
+     "icon": "filter",
+     "text": {
+      "en": "All-in-One Station: Auto Mop Washing, Drying & Self-Empty",
+      "zh": "基站一体机：自动洗拖布、烘干、自动集尘",
+      "es": "Estación todo en uno: lavado y secado del trapo y autovaciado",
+      "ar": "قاعدة متكاملة: غسل وتجفيف الممسحة وجمع الغبار تلقائياً",
+      "fr": "Station tout-en-un : lavage, séchage de la serpillière et vidage auto",
+      "id": "Stasiun all-in-one: cuci & keringkan pel, kosongkan debu otomatis",
+      "ru": "Станция 3-в-1: мойка и сушка тряпки, автосбор пыли",
+      "th": "สถานีครบวงจร: ล้าง-อบผ้าเช็ด และรวบรวมฝุ่นอัตโนมัติ",
+      "vi": "Trạm tất cả trong một: rửa & sấy khăn lau, tự đổ bụi"
+     }
+    },
+    {
+     "icon": "battery",
+     "text": {
+      "en": "150–180 min Runtime, 40W Brushless Motor, LDS Navigation",
+      "zh": "续航 150–180 分钟，40W 无刷电机，激光导航",
+      "es": "Autonomía de 150–180 min, motor sin escobillas de 40 W, navegación LDS",
+      "ar": "تشغيل 150–180 دقيقة، محرك بدون فرش 40 واط، ملاحة LDS",
+      "fr": "Autonomie 150–180 min, moteur sans balais 40 W, navigation LDS",
+      "id": "Runtime 150–180 menit, motor brushless 40W, navigasi LDS",
+      "ru": "Работа 150–180 мин, бесщёточный мотор 40 Вт, LDS-навигация",
+      "th": "ใช้งาน 150–180 นาที มอเตอร์ไร้แปรง 40W นำทางแบบ LDS",
+      "vi": "Chạy 150–180 phút, motor không chổi than 40W, điều hướng LDS"
+     }
+    },
+    {
+     "icon": "design",
+     "text": {
+      "en": "Pet-Hair Specialist with App Control & Smart Scheduling",
+      "zh": "宠物毛发清理专家，APP 控制与智能预约",
+      "es": "Especialista en pelo de mascotas con control por app y programación",
+      "ar": "متخصص في شعر الحيوانات الأليفة مع تحكم بالتطبيق وجدولة ذكية",
+      "fr": "Spécialiste poils d’animaux avec app et programmation",
+      "id": "Ahli bulu hewan peliharaan dengan kontrol aplikasi & penjadwalan",
+      "ru": "Специалист по шерсти питомцев, управление из приложения и расписания",
+      "th": "ผู้เชี่ยวชาญขนสัตว์ ควบคุมผ่านแอปและตั้งเวลาอัจฉริยะ",
+      "vi": "Chuyên hút lông thú cưng, điều khiển app & hẹn giờ thông minh"
+     }
+    }
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "model number",
+      "zh": "model number",
+      "es": "número de modelo",
+      "ar": "رقم الموديل",
+      "fr": "numéro de modèle",
+      "id": "nomor model",
+      "ru": "номер модели",
+      "th": "หมายเลขรุ่น",
+      "vi": "số model"
+     },
+     "value": {
+      "en": "V9",
+      "zh": "V9",
+      "ar": "V9",
+      "es": "V9",
+      "fr": "V9",
+      "id": "V9",
+      "ru": "V9",
+      "th": "V9",
+      "vi": "V9"
+     }
+    },
+    {
+     "label": {
+      "en": "Suction Power",
+      "zh": "吸力",
+      "es": "Potencia de succión",
+      "ar": "قوة الشفط",
+      "fr": "Puissance d'aspiration",
+      "id": "Daya Hisap",
+      "ru": "Мощность всасывания",
+      "th": "กำลังดูด",
+      "vi": "Công suất hút"
+     },
+     "value": {
+      "en": "20000Pa",
+      "zh": "20000Pa",
+      "ar": "20000Pa",
+      "es": "20000Pa",
+      "fr": "20000Pa",
+      "id": "20000Pa",
+      "ru": "20000Pa",
+      "th": "20000Pa",
+      "vi": "20000Pa"
+     }
+    },
+    {
+     "label": {
+      "en": "Navigation",
+      "zh": "导航方式",
+      "es": "Navegación",
+      "ar": "الملاحة",
+      "fr": "Navigation",
+      "id": "Navigasi",
+      "ru": "Навигация",
+      "th": "การนำทาง",
+      "vi": "Điều hướng"
+     },
+     "value": {
+      "en": "LDS Laser Navigation",
+      "zh": "激光导航",
+      "es": "Navegación láser LDS",
+      "ar": "ملاحة ليزر LDS",
+      "fr": "Navigation laser LDS",
+      "id": "Navigasi laser LDS",
+      "ru": "Лазерная навигация LDS",
+      "th": "นำทางเลเซอร์ LDS",
+      "vi": "Điều hướng laser LDS"
+     }
+    },
+    {
+     "label": {
+      "en": "Runtime",
+      "zh": "续航时间",
+      "es": "Autonomía",
+      "ar": "مدة التشغيل",
+      "fr": "Autonomie",
+      "id": "Waktu Pakai",
+      "ru": "Время работы",
+      "th": "ระยะเวลาทำงาน",
+      "vi": "Thời gian chạy"
+     },
+     "value": {
+      "en": "150–180 min",
+      "zh": "150–180 分钟",
+      "es": "150–180 min",
+      "ar": "150–180 دقيقة",
+      "fr": "150–180 min",
+      "id": "150–180 menit",
+      "ru": "150–180 мин",
+      "th": "150–180 นาที",
+      "vi": "150–180 phút"
+     }
+    },
+    {
+     "label": {
+      "en": "power (w)",
+      "zh": "power (w)",
+      "es": "potencia (W)",
+      "ar": "القدرة (W)",
+      "fr": "puissance (W)",
+      "id": "daya (W)",
+      "ru": "мощность (Вт)",
+      "th": "กำลังไฟ (W)",
+      "vi": "công suất (w)"
+     },
+     "value": {
+      "en": "40W",
+      "zh": "40W",
+      "ar": "40W",
+      "es": "40W",
+      "fr": "40W",
+      "id": "40W",
+      "ru": "40W",
+      "th": "40W",
+      "vi": "40W"
+     }
+    },
+    {
+     "label": {
+      "en": "Station",
+      "zh": "基站",
+      "es": "Estación",
+      "ar": "القاعدة",
+      "fr": "Station",
+      "id": "Stasiun",
+      "ru": "Станция",
+      "th": "สถานี",
+      "vi": "Trạm"
+     },
+     "value": {
+      "en": "Self-Cleaning (Mop Wash + Dry + Auto-Empty)",
+      "zh": "自清洁（洗拖布 + 烘干 + 自动集尘）",
+      "es": "Autolimpieza (lavado + secado + autovaciado)",
+      "ar": "تنظيف ذاتي (غسل + تجفيف + جمع الغبار)",
+      "fr": "Autonettoyage (lavage + séchage + vidage auto)",
+      "id": "Pembersih mandiri (cuci + keringkan + kosongkan otomatis)",
+      "ru": "Самоочистка (мойка + сушка + автосбор пыли)",
+      "th": "ทำความสะอาดอัตโนมัติ (ล้าง + อบ + รวบรวมฝุ่น)",
+      "vi": "Tự làm sạch (rửa + sấy + tự đổ bụi)"
+     }
+    },
+    {
+     "label": {
+      "en": "automatic dirt disposal",
+      "zh": "automatic dirt disposal",
+      "es": "vaciado automático de suciedad",
+      "ar": "تفريغ الأوساخ تلقائيًا",
+      "fr": "évacuation automatique de la saleté",
+      "id": "pembuangan kotoran otomatis",
+      "ru": "автоматическое удаление мусора",
+      "th": "การทิ้งฝุ่นอัตโนมัติ",
+      "vi": "tự động xử lý bụi bẩn"
+     },
+     "value": {
+      "en": "Yes",
+      "zh": "是",
+      "es": "Sí",
+      "ar": "نعم",
+      "fr": "Oui",
+      "id": "Ya",
+      "ru": "Да",
+      "th": "ใช่",
+      "vi": "Có"
+     }
+    },
+    {
+     "label": {
+      "en": "Dustbin Capacity",
+      "zh": "尘盒容量",
+      "es": "Capacidad del depósito",
+      "ar": "سعة صندوق الغبار",
+      "fr": "Capacité du bac",
+      "id": "Kapasitas debu",
+      "ru": "Объём пылесборника",
+      "th": "ความจุถังฝุ่น",
+      "vi": "Dung tích hộp bụi"
+     },
+     "value": {
+      "en": "800ml",
+      "zh": "800ml",
+      "ar": "800ml",
+      "es": "800ml",
+      "fr": "800ml",
+      "id": "800ml",
+      "ru": "800ml",
+      "th": "800ml",
+      "vi": "800ml"
+     }
+    },
+    {
+     "label": {
+      "en": "motor type",
+      "zh": "motor type",
+      "es": "tipo de motor",
+      "ar": "نوع المحرك",
+      "fr": "type de moteur",
+      "id": "jenis motor",
+      "ru": "тип двигателя",
+      "th": "ประเภทมอเตอร์",
+      "vi": "loại động cơ"
+     },
+     "value": {
+      "en": "Brushless Motor",
+      "zh": "无刷电机",
+      "es": "Motor sin escobillas",
+      "ar": "محرك بدون فرش",
+      "fr": "Moteur sans balais",
+      "id": "Motor brushless",
+      "ru": "Бесщёточный мотор",
+      "th": "มอเตอร์ไร้แปรง",
+      "vi": "Motor không chổi than"
+     }
+    },
+    {
+     "label": {
+      "en": "Battery Type",
+      "zh": "电池类型",
+      "es": "Tipo de batería",
+      "ar": "نوع البطارية",
+      "fr": "Type de batterie",
+      "id": "Jenis Baterai",
+      "ru": "Тип аккумулятора",
+      "th": "ประเภทแบตเตอรี่",
+      "vi": "Loại pin"
+     },
+     "value": {
+      "en": "Li-Ion Battery",
+      "zh": "锂电池",
+      "es": "Batería de iones de litio",
+      "ar": "بطارية ليثيوم أيون",
+      "fr": "Batterie Li-Ion",
+      "id": "Baterai Li-Ion",
+      "ru": "Литиевая батарея",
+      "th": "แบตเตอรี่ลิเธียมไอออน",
+      "vi": "Pin Li-Ion"
+     }
+    },
+    {
+     "label": {
+      "en": "App",
+      "zh": "App",
+      "es": "Aplicación",
+      "ar": "تطبيق",
+      "fr": "Application",
+      "id": "Aplikasi",
+      "ru": "Приложение",
+      "th": "แอป",
+      "vi": "Ứng dụng"
+     },
+     "value": {
+      "en": "Yes (App Control)",
+      "zh": "是（APP 控制）",
+      "es": "Sí (control por app)",
+      "ar": "نعم (تحكم بالتطبيق)",
+      "fr": "Oui (contrôle par app)",
+      "id": "Ya (kontrol aplikasi)",
+      "ru": "Да (управление из приложения)",
+      "th": "ใช่ (ควบคุมผ่านแอป)",
+      "vi": "Có (điều khiển app)"
+     }
+    },
+    {
+     "label": {
+      "en": "Material",
+      "zh": "材质",
+      "es": "Material",
+      "ar": "المادة",
+      "fr": "Matériau",
+      "id": "Material",
+      "ru": "Материал",
+      "th": "วัสดุ",
+      "vi": "Chất liệu"
+     },
+     "value": {
+      "en": "ABS",
+      "zh": "ABS",
+      "ar": "ABS",
+      "es": "ABS",
+      "fr": "ABS",
+      "id": "ABS",
+      "ru": "ABS",
+      "th": "ABS",
+      "vi": "ABS"
+     }
+    },
+    {
+     "label": {
+      "en": "Warranty",
+      "zh": "保修",
+      "es": "Garantía",
+      "ar": "الضمان",
+      "fr": "Garantie",
+      "id": "Garansi",
+      "ru": "Гарантия",
+      "th": "การรับประกัน",
+      "vi": "Bảo hành"
+     },
+     "value": {
+      "en": "1 Year",
+      "zh": "1 年",
+      "es": "1 año",
+      "ar": "سنة واحدة",
+      "fr": "1 an",
+      "id": "1 tahun",
+      "ru": "1 год",
+      "th": "1 ปี",
+      "vi": "1 năm"
+     }
+    }
+   ],
+   "quick_specs": [
+    {
+     "label": {
+      "en": "Suction Power",
+      "zh": "吸力",
+      "es": "Potencia de succión",
+      "ar": "قوة الشفط",
+      "fr": "Puissance d'aspiration",
+      "id": "Daya Hisap",
+      "ru": "Мощность всасывания",
+      "th": "กำลังดูด",
+      "vi": "Công suất hút"
+     },
+     "value": {
+      "en": "20000Pa",
+      "zh": "20000Pa",
+      "ar": "20000Pa",
+      "es": "20000Pa",
+      "fr": "20000Pa",
+      "id": "20000Pa",
+      "ru": "20000Pa",
+      "th": "20000Pa",
+      "vi": "20000Pa"
+     }
+    },
+    {
+     "label": {
+      "en": "Station",
+      "zh": "基站",
+      "es": "Estación",
+      "ar": "القاعدة",
+      "fr": "Station",
+      "id": "Stasiun",
+      "ru": "Станция",
+      "th": "สถานี",
+      "vi": "Trạm"
+     },
+     "value": {
+      "en": "Self-Cleaning Station",
+      "zh": "自清洁基站",
+      "es": "Estación de autolimpieza",
+      "ar": "قاعدة تنظيف ذاتي",
+      "fr": "Station d’autonettoyage",
+      "id": "Stasiun pembersih mandiri",
+      "ru": "Станция самоочистки",
+      "th": "สถานีทำความสะอาดอัตโนมัติ",
+      "vi": "Trạm tự làm sạch"
+     }
+    },
+    {
+     "label": {
+      "en": "Runtime",
+      "zh": "续航时间",
+      "es": "Autonomía",
+      "ar": "مدة التشغيل",
+      "fr": "Autonomie",
+      "id": "Waktu Pakai",
+      "ru": "Время работы",
+      "th": "ระยะเวลาทำงาน",
+      "vi": "Thời gian chạy"
+     },
+     "value": {
+      "en": "150–180 min",
+      "zh": "150–180 分钟",
+      "es": "150–180 min",
+      "ar": "150–180 دقيقة",
+      "fr": "150–180 min",
+      "id": "150–180 menit",
+      "ru": "150–180 мин",
+      "th": "150–180 นาที",
+      "vi": "150–180 phút"
+     }
+    },
+    {
+     "label": {
+      "en": "power (w)",
+      "zh": "power (w)",
+      "es": "potencia (W)",
+      "ar": "القدرة (W)",
+      "fr": "puissance (W)",
+      "id": "daya (W)",
+      "ru": "мощность (Вт)",
+      "th": "กำลังไฟ (W)",
+      "vi": "công suất (w)"
+     },
+     "value": {
+      "en": "40W",
+      "zh": "40W",
+      "ar": "40W",
+      "es": "40W",
+      "fr": "40W",
+      "id": "40W",
+      "ru": "40W",
+      "th": "40W",
+      "vi": "40W"
+     }
+    }
+   ],
+   "description": {
+    "en": "The V9 pairs a 20000Pa robot vacuum with an all-in-one self-cleaning station: the base washes and dries the mop, empties the dustbin automatically and keeps hands clean. LDS laser navigation maps your home for systematic, pet-hair-friendly cleaning; the 40W brushless motor and Li-Ion battery deliver 150–180 minutes of runtime with app control and scheduling. Ideal for homes with pets; MOQ 1000 pcs, OEM/ODM supported.",
+    "zh": "V9 将 20000Pa 扫地机器人与一体式自清洁基站结合：基站自动洗拖布、烘干、自动集尘，全程无需动手。激光导航建图规划式清扫，善理宠物毛发；40W 无刷电机与锂电池提供 150–180 分钟续航，支持 APP 控制与智能预约。适合有宠物的家庭；MOQ 1000 台，支持 OEM/ODM。",
+    "es": "La V9 combina un robot de 20000 Pa con una estación de autolimpieza todo en uno: la base lava y seca el trapo, vacía el depósito automáticamente y mantiene las manos limpias. La navegación láser LDS mapea tu hogar para una limpieza sistemática apta para mascotas; el motor sin escobillas de 40 W y la batería de iones de litio ofrecen 150–180 minutos de autonomía con control por app y programación. Ideal para hogares con mascotas; MOQ 1000 uds, OEM/ODM disponible.",
+    "ar": "يجمع V9 بين روبوت شفط 20000 باسكال وقاعدة تنظيف ذاتي متكاملة: تغسل القاعدة المنشفة وتجففها وتفرغ صندوق الغبار تلقائياً دون لمس اليدين. توفر الملاحة بالليزر LDS رسم خرائط المنزل لتنظيف منهجي مناسب لشعر الحيوانات؛ يوفر المحرك بدون فرش 40 واط والبطارية الليثيومية 150–180 دقيقة تشغيل مع تحكم بالتطبيق والجدولة. مثالي للمنازل ذات الحيوانات الأليفة؛ MOQ 1000 قطعة، متوفر OEM/ODM.",
+    "fr": "La V9 associe un robot 20000 Pa à une station d’autonettoyage tout-en-un : la base lave et sèche la serpillière, vide le bac automatiquement et garde les mains propres. La navigation laser LDS cartographie votre intérieur pour un nettoyage systématique adapté aux poils d’animaux ; le moteur sans balais 40 W et la batterie Li-Ion offrent 150–180 min d’autonomie avec contrôle par app et programmation. Idéale pour les foyers avec animaux ; MOQ 1000 pcs, OEM/ODM pris en charge.",
+    "id": "V9 memadukan robot vakum 20000Pa dengan stasiun pembersih mandiri all-in-one: basis mencuci dan mengeringkan pel, mengosongkan wadah debu secara otomatis, dan menjaga tangan tetap bersih. Navigasi laser LDS memetakan rumah Anda untuk pembersihan sistematis yang ramah bulu hewan; motor brushless 40W dan baterai Li-Ion memberi runtime 150–180 menit dengan kontrol aplikasi dan penjadwalan. Ideal untuk rumah dengan hewan peliharaan; MOQ 1000 pcs, OEM/ODM tersedia.",
+    "ru": "V9 объединяет робот-пылесос 20000 Па со станцией самоочистки 3-в-1: база моет и сушит тряпку, автоматически опустошает пылесборник, сохраняя руки чистыми. Лазерная LDS-навигация картографирует дом для систематической уборки, безопасной для шерсти питомцев; бесщёточный мотор 40 Вт и литиевая батарея дают 150–180 минут работы с управлением из приложения и расписанием. Идеально для домов с питомцами; MOQ 1000 шт., OEM/ODM.",
+    "th": "V9 ผสานหุ่นยนต์ดูดฝุ่น 20000Pa เข้ากับสถานีทำความสะอาดอัตโนมัติครบวงจร: ฐานล้างและอบผ้าเช็ด เทถังฝุ่นอัตโนมัติ ไม่ต้องใช้มือ การนำทางเลเซอร์ LDS สร้างแผนที่บ้านเพื่อการทำความสะอาดเป็นระบบ เป็นมิตรกับขนสัตว์ มอเตอร์ไร้แปรง 40W และแบตเตอรี่ลิเธียมให้เวลาใช้งาน 150–180 นาที พร้อมแอปและตั้งเวลา เหมาะกับบ้านที่มีสัตว์เลี้ยง MOQ 1000 ชิ้น รองรับ OEM/ODM",
+    "vi": "V9 kết hợp robot hút bụi 20000Pa với trạm tự làm sạch tất cả trong một: đế tự rửa và sấy khăn lau, tự đổ hộp bụi, giữ tay luôn sạch. Điều hướng laser LDS lập bản đồ nhà để dọn dẹp có hệ thống, thân thiện lông thú cưng; motor không chổi than 40W và pin Li-Ion cho 150–180 phút hoạt động với điều khiển app và hẹn giờ. Lý tưởng cho nhà có thú cưng; MOQ 1000 cái, hỗ trợ OEM/ODM."
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9-2/01-main.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9-2/02.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9-2/03.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9-2/04.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9-2/05.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9-2/06.webp?v=20261102e"
+   ],
+   "detail_images": [
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9-2/detail/01.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9-2/detail/02.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9-2/detail/03.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9-2/detail/04.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9-2/detail/05.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9-2/detail/06.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9-2/detail/07.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9-2/detail/08.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9-2/detail/09.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9-2/detail/10.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9-2/detail/11.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9-2/detail/12.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9-2/detail/13.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9-2/detail/14.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9-2/detail/15.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9-2/detail/16.webp?v=20261102e"
+   ],
+   "certificates": [
+    {
+     "certId": "60008245082",
+     "name": "Declaration of Conformity",
+     "certNo": "CTA25030700203+CTA25030700205+CQASZ20250902238E+YHJC202412100039R1",
+     "availableDate": "2026-07-29",
+     "expiredDate": "2031-07-23",
+     "validPeriod": "2026/07/29 - 2031/07/23",
+     "verified": true,
+     "image": null,
+     "coversHint": "V9"
+    },
+    {
+     "certId": "60008004208",
+     "name": "Declaration of Conformity",
+     "certNo": "XDX50238736101701EC",
+     "availableDate": "2026-09-01",
+     "expiredDate": "2031-09-06",
+     "validPeriod": "2026/09/01 - 2031/09/06",
+     "verified": true,
+     "image": null,
+     "coversHint": "V9"
+    },
+    {
+     "certId": "60007675410",
+     "name": "Declaration of Conformity",
+     "certNo": "EFW526022843-CG-02+REV 1",
+     "availableDate": "2026-07-26",
+     "expiredDate": "2031-07-23",
+     "validPeriod": "2026/07/26 - 2031/07/23",
+     "verified": true,
+     "image": null,
+     "coversHint": "V9"
+    }
+   ]
+  },
+  {
+   "_cat": "robot-vacuum",
+   "_source": {
+    "platform": "alibaba.com",
+    "productId": "1601830891717"
+   },
+   "category_name": {
+    "en": "Robot Vacuum Cleaners",
+    "zh": "扫地机器人",
+    "es": "Robot Aspirador",
+    "ar": "روبوت تنظيف الأرضيات",
+    "fr": "Robot aspirateur",
+    "id": "Robot Pembersih Vakum",
+    "ru": "Робот-пылесос",
+    "th": "หุ่นยนต์ดูดฝุ่น",
+    "vi": "Robot hút bụi"
+   },
+   "supplier_rating": "4.8",
+   "response_time": "≤ 2h",
+   "transactions": "US $100K+",
+   "years": "10+",
+   "ship_from": {
+    "en": "Ningbo, China",
+    "zh": "中国宁波"
+   },
+   "sample": {
+    "enabled": true,
+    "qty": 1,
+    "note": "Sample available, lead 7-14 days"
+   },
+   "packaging": {
+    "unit": "Color Box"
+   },
+   "customization": {
+    "oem": true,
+    "odm": true
+   },
+   "applications": {
+    "en": "Household, Hotel, Office",
+    "zh": "Household, Hotel, Office",
+    "ar": "Household, Hotel, Office",
+    "es": "Household, Hotel, Office",
+    "fr": "Household, Hotel, Office",
+    "id": "Household, Hotel, Office",
+    "ru": "Household, Hotel, Office",
+    "th": "Household, Hotel, Office",
+    "vi": "Household, Hotel, Office"
+   },
+   "video_url": null,
+   "certifications": [],
+   "alibaba_url": "https://www.alibaba.com/product-detail/1601830891717.html",
+   "sku": [
+    {
+     "name": {
+      "en": "Station",
+      "zh": "基站",
+      "es": "Estación",
+      "ar": "القاعدة",
+      "fr": "Station",
+      "id": "Stasiun",
+      "ru": "Станция",
+      "th": "สถานี",
+      "vi": "Trạm"
+     },
+     "values": [
+      {
+       "name": {
+        "en": "Self-Empty Base",
+        "zh": "自动集尘座",
+        "es": "Base autovaciante",
+        "ar": "قاعدة تفريغ ذاتي",
+        "fr": "Base autovideuse",
+        "id": "Basis kosong otomatis",
+        "ru": "База автоперегрузки",
+        "th": "ฐานเทฝุ่นอัตโนมัติ",
+        "vi": "Đế tự đổ bụi"
+       }
+      }
+     ]
+    }
+   ],
+   "id": "pt40-c800",
+   "name": {
+    "en": "PT40-C800 Laser Robot Vacuum 18000Pa with Self-Empty Base Smart Mapping",
+    "zh": "PT40-C800 激光导航扫地机器人 18000Pa 自动集尘智能建图",
+    "es": "Robot aspirador láser PT40-C800 18000 Pa con base de autovaciado y mapeo inteligente",
+    "ar": "روبوت ليزر PT40-C800 بقوة شفط 18000 باسكال مع قاعدة تفريغ ذاتي ورسم خرائط ذكي",
+    "fr": "Robot aspirateur laser PT40-C800 18000 Pa avec base autovideuse et cartographie",
+    "id": "Robot vakum laser PT40-C800 18000Pa dengan basis kosong otomatis dan pemetaan pintar",
+    "ru": "Робот-пылесос PT40-C800 18000 Па с лазерной навигацией, автоперегрузкой и умной картографией",
+    "th": "หุ่นยนต์ดูดฝุ่นเลเซอร์ PT40-C800 18000Pa พร้อมฐานเทฝุ่นอัตโนมัติและสร้างแผนที่อัจฉริยะ",
+    "vi": "Robot hút bụi laser PT40-C800 18000Pa với đế tự đổ bụi và lập bản đồ thông minh"
+   },
+   "tagline": {
+    "en": "18000Pa · LDS Laser · Self-Empty Base · 91–120 min",
+    "zh": "18000Pa · 激光导航 · 自动集尘座 · 91–120 分钟",
+    "es": "18000 Pa · láser LDS · base autovaciante · 91–120 min",
+    "ar": "18000 باسكال · ليزر LDS · قاعدة تفريغ ذاتي · 91–120 دقيقة",
+    "fr": "18000 Pa · laser LDS · base autovideuse · 91–120 min",
+    "id": "18000Pa · laser LDS · basis kosong otomatis · 91–120 menit",
+    "ru": "18000 Па · LDS-лазер · автоперегрузка · 91–120 мин",
+    "th": "18000Pa · เลเซอร์ LDS · ฐานเทฝุ่นอัตโนมัติ · 91–120 นาที",
+    "vi": "18000Pa · laser LDS · đế tự đổ bụi · 91–120 phút"
+   },
+   "moq": {
+    "value": 2,
+    "unit": "pieces"
+   },
+   "price_indicator": {
+    "min": 100,
+    "max": 126,
+    "currency": "USD"
+   },
+   "price_ladder": [
+    {
+     "min": 2,
+     "max": 999,
+     "price": 126
+    },
+    {
+     "min": 1000,
+     "max": 4999,
+     "price": 116
+    },
+    {
+     "min": 5000,
+     "max": 49999,
+     "price": 103
+    },
+    {
+     "min": 50000,
+     "max": null,
+     "price": 100
+    }
+   ],
+   "highlights": [
+    {
+     "icon": "power",
+     "text": {
+      "en": "18000Pa Suction with Self-Empty Base — MOQ 2 pcs",
+      "zh": "18000Pa 吸力，自动集尘座 — MOQ 仅 2 台",
+      "es": "18000 Pa con base autovaciante — MOQ 2 uds",
+      "ar": "قوة شفط 18000 باسكال مع قاعدة تفريغ ذاتي — الحد الأدنى قطعتان",
+      "fr": "18000 Pa avec base autovideuse — MOQ 2 pcs",
+      "id": "18000Pa dengan basis kosong otomatis — MOQ 2 pcs",
+      "ru": "18000 Па с автоперегрузочной базой — MOQ 2 шт.",
+      "th": "แรงดูด 18000Pa พร้อมฐานเทฝุ่นอัตโนมัติ — MOQ 2 ชิ้น",
+      "vi": "Lực hút 18000Pa với đế tự đổ bụi — MOQ 2 cái"
+     }
+    },
+    {
+     "icon": "filter",
+     "text": {
+      "en": "LDS Smart Mapping with Room-By-Room Navigation",
+      "zh": "LDS 智能建图，逐房间导航",
+      "es": "Mapeo LDS con navegación habitación por habitación",
+      "ar": "رسم خرائط LDS مع ملاحة غرفة بغرفة",
+      "fr": "Cartographie LDS avec navigation pièce par pièce",
+      "id": "Pemetaan LDS dengan navigasi ruang per ruang",
+      "ru": "LDS-картография с навигацией по комнатам",
+      "th": "สร้างแผนที่ LDS นำทางทีละห้อง",
+      "vi": "Bản đồ LDS điều hướng từng phòng"
+     }
+    },
+    {
+     "icon": "battery",
+     "text": {
+      "en": "2L Dustbin + Sonic Mopping + Washable HEPA",
+      "zh": "2L 大尘盒 + 声波拖地 + 可水洗 HEPA",
+      "es": "Depósito de 2 L + trapeado sónico + HEPA lavable",
+      "ar": "صندوق غبار 2 لتر + مسح صوتي + HEPA قابل للغسل",
+      "fr": "Bac 2 L + lavage sonique + HEPA lavable",
+      "id": "Wadah 2L + pel sonik + HEPA bisa dicuci",
+      "ru": "Пылесборник 2 л + sonic-мытьё + моющийся HEPA",
+      "th": "ถังฝุ่น 2L + เช็ดแบบโซนิก + HEPA ล้างได้",
+      "vi": "Hộp bụi 2L + lau sóng + HEPA giặt được"
+     }
+    },
+    {
+     "icon": "design",
+     "text": {
+      "en": "28W Brushless, Pet Hair & Edge Cleaning Specialist",
+      "zh": "28W 无刷电机，宠物毛发与边角清洁专家",
+      "es": "28 W sin escobillas, especialista en pelo de mascotas y bordes",
+      "ar": "28 واط بدون فرش، متخصص في شعر الحيوانات وتنظيف الحواف",
+      "fr": "28 W sans balais, spécialiste poils d’animaux et bords",
+      "id": "28W brushless, ahli bulu hewan & pembersihan tepi",
+      "ru": "28 Вт бесщёточный, специалист по шерсти и краевой уборке",
+      "th": "28W ไร้แปรง เชี่ยวชาญขนสัตว์และขอบพื้น",
+      "vi": "28W không chổi than, chuyên lông thú & vệ sinh góc cạnh"
+     }
+    }
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "model number",
+      "zh": "model number",
+      "es": "número de modelo",
+      "ar": "رقم الموديل",
+      "fr": "numéro de modèle",
+      "id": "nomor model",
+      "ru": "номер модели",
+      "th": "หมายเลขรุ่น",
+      "vi": "số model"
+     },
+     "value": {
+      "en": "PT40-C800",
+      "zh": "PT40-C800",
+      "ar": "PT40-C800",
+      "es": "PT40-C800",
+      "fr": "PT40-C800",
+      "id": "PT40-C800",
+      "ru": "PT40-C800",
+      "th": "PT40-C800",
+      "vi": "PT40-C800"
+     }
+    },
+    {
+     "label": {
+      "en": "Suction Power",
+      "zh": "吸力",
+      "es": "Potencia de succión",
+      "ar": "قوة الشفط",
+      "fr": "Puissance d'aspiration",
+      "id": "Daya Hisap",
+      "ru": "Мощность всасывания",
+      "th": "กำลังดูด",
+      "vi": "Công suất hút"
+     },
+     "value": {
+      "en": "18000Pa",
+      "zh": "18000Pa",
+      "ar": "18000Pa",
+      "es": "18000Pa",
+      "fr": "18000Pa",
+      "id": "18000Pa",
+      "ru": "18000Pa",
+      "th": "18000Pa",
+      "vi": "18000Pa"
+     }
+    },
+    {
+     "label": {
+      "en": "Navigation",
+      "zh": "导航方式",
+      "es": "Navegación",
+      "ar": "الملاحة",
+      "fr": "Navigation",
+      "id": "Navigasi",
+      "ru": "Навигация",
+      "th": "การนำทาง",
+      "vi": "Điều hướng"
+     },
+     "value": {
+      "en": "LDS Laser + Smart Mapping",
+      "zh": "激光导航 + 智能建图",
+      "es": "Láser LDS + mapeo inteligente",
+      "ar": "ليزر LDS + رسم خرائط ذكي",
+      "fr": "Laser LDS + cartographie intelligente",
+      "id": "Laser LDS + pemetaan pintar",
+      "ru": "LDS-лазер + умная картография",
+      "th": "เลเซอร์ LDS + สร้างแผนที่อัจฉริยะ",
+      "vi": "Laser LDS + lập bản đồ thông minh"
+     }
+    },
+    {
+     "label": {
+      "en": "Runtime",
+      "zh": "续航时间",
+      "es": "Autonomía",
+      "ar": "مدة التشغيل",
+      "fr": "Autonomie",
+      "id": "Waktu Pakai",
+      "ru": "Время работы",
+      "th": "ระยะเวลาทำงาน",
+      "vi": "Thời gian chạy"
+     },
+     "value": {
+      "en": "91–120 min",
+      "zh": "91–120 分钟",
+      "es": "91–120 min",
+      "ar": "91–120 دقيقة",
+      "fr": "91–120 min",
+      "id": "91–120 menit",
+      "ru": "91–120 мин",
+      "th": "91–120 นาที",
+      "vi": "91–120 phút"
+     }
+    },
+    {
+     "label": {
+      "en": "power (w)",
+      "zh": "power (w)",
+      "es": "potencia (W)",
+      "ar": "القدرة (W)",
+      "fr": "puissance (W)",
+      "id": "daya (W)",
+      "ru": "мощность (Вт)",
+      "th": "กำลังไฟ (W)",
+      "vi": "công suất (w)"
+     },
+     "value": {
+      "en": "28W",
+      "zh": "28W",
+      "ar": "28W",
+      "es": "28W",
+      "fr": "28W",
+      "id": "28W",
+      "ru": "28W",
+      "th": "28W",
+      "vi": "28W"
+     }
+    },
+    {
+     "label": {
+      "en": "Station",
+      "zh": "基站",
+      "es": "Estación",
+      "ar": "القاعدة",
+      "fr": "Station",
+      "id": "Stasiun",
+      "ru": "Станция",
+      "th": "สถานี",
+      "vi": "Trạm"
+     },
+     "value": {
+      "en": "Self-Empty Base",
+      "zh": "自动集尘座",
+      "es": "Base autovaciante",
+      "ar": "قاعدة تفريغ ذاتي",
+      "fr": "Base autovideuse",
+      "id": "Basis kosong otomatis",
+      "ru": "База автоперегрузки",
+      "th": "ฐานเทฝุ่นอัตโนมัติ",
+      "vi": "Đế tự đổ bụi"
+     }
+    },
+    {
+     "label": {
+      "en": "Dustbin Capacity",
+      "zh": "尘盒容量",
+      "es": "Capacidad del depósito",
+      "ar": "سعة صندوق الغبار",
+      "fr": "Capacité du bac",
+      "id": "Kapasitas debu",
+      "ru": "Объём пылесборника",
+      "th": "ความจุถังฝุ่น",
+      "vi": "Dung tích hộp bụi"
+     },
+     "value": {
+      "en": "2L",
+      "zh": "2L",
+      "ar": "2L",
+      "es": "2L",
+      "fr": "2L",
+      "id": "2L",
+      "ru": "2L",
+      "th": "2L",
+      "vi": "2L"
+     }
+    },
+    {
+     "label": {
+      "en": "Mop",
+      "zh": "拖地",
+      "es": "Trapeado",
+      "ar": "الممسحة",
+      "fr": "Serpillère",
+      "id": "Pel",
+      "ru": "Швабра",
+      "th": "ทำความสะอาดแบบเปียก",
+      "vi": "Lau nhà"
+     },
+     "value": {
+      "en": "Sonic Mopping",
+      "zh": "声波拖地",
+      "es": "Trapeado sónico",
+      "ar": "مسح صوتي",
+      "fr": "Lavage sonique",
+      "id": "Pel sonik",
+      "ru": "Sonic-мытьё",
+      "th": "เช็ดแบบโซนิก",
+      "vi": "Lau sóng"
+     }
+    },
+    {
+     "label": {
+      "en": "filter type",
+      "zh": "filter type",
+      "es": "tipo de filtro",
+      "ar": "نوع الفلتر",
+      "fr": "type de filtre",
+      "id": "jenis filter",
+      "ru": "тип фильтра",
+      "th": "ประเภทตัวกรอง",
+      "vi": "loại bộ lọc"
+     },
+     "value": {
+      "en": "HEPA (washable)",
+      "zh": "HEPA（可水洗）",
+      "es": "HEPA (lavable)",
+      "ar": "HEPA (قابل للغسل)",
+      "fr": "HEPA (lavable)",
+      "id": "HEPA (bisa dicuci)",
+      "ru": "HEPA (моющийся)",
+      "th": "HEPA (ล้างได้)",
+      "vi": "HEPA (giặt được)"
+     }
+    },
+    {
+     "label": {
+      "en": "motor type",
+      "zh": "motor type",
+      "es": "tipo de motor",
+      "ar": "نوع المحرك",
+      "fr": "type de moteur",
+      "id": "jenis motor",
+      "ru": "тип двигателя",
+      "th": "ประเภทมอเตอร์",
+      "vi": "loại động cơ"
+     },
+     "value": {
+      "en": "Brushless Motor",
+      "zh": "无刷电机",
+      "es": "Motor sin escobillas",
+      "ar": "محرك بدون فرش",
+      "fr": "Moteur sans balais",
+      "id": "Motor brushless",
+      "ru": "Бесщёточный мотор",
+      "th": "มอเตอร์ไร้แปรง",
+      "vi": "Motor không chổi than"
+     }
+    },
+    {
+     "label": {
+      "en": "Battery Type",
+      "zh": "电池类型",
+      "es": "Tipo de batería",
+      "ar": "نوع البطارية",
+      "fr": "Type de batterie",
+      "id": "Jenis Baterai",
+      "ru": "Тип аккумулятора",
+      "th": "ประเภทแบตเตอรี่",
+      "vi": "Loại pin"
+     },
+     "value": {
+      "en": "Li-Ion Battery",
+      "zh": "锂电池",
+      "es": "Batería de iones de litio",
+      "ar": "بطارية ليثيوم أيون",
+      "fr": "Batterie Li-Ion",
+      "id": "Baterai Li-Ion",
+      "ru": "Литиевая батарея",
+      "th": "แบตเตอรี่ลิเธียมไอออน",
+      "vi": "Pin Li-Ion"
+     }
+    },
+    {
+     "label": {
+      "en": "App",
+      "zh": "App",
+      "es": "Aplicación",
+      "ar": "تطبيق",
+      "fr": "Application",
+      "id": "Aplikasi",
+      "ru": "Приложение",
+      "th": "แอป",
+      "vi": "Ứng dụng"
+     },
+     "value": {
+      "en": "Yes (App Control)",
+      "zh": "是（APP 控制）",
+      "es": "Sí (control por app)",
+      "ar": "نعم (تحكم بالتطبيق)",
+      "fr": "Oui (contrôle par app)",
+      "id": "Ya (kontrol aplikasi)",
+      "ru": "Да (управление из приложения)",
+      "th": "ใช่ (ควบคุมผ่านแอป)",
+      "vi": "Có (điều khiển app)"
+     }
+    },
+    {
+     "label": {
+      "en": "Warranty",
+      "zh": "保修",
+      "es": "Garantía",
+      "ar": "الضمان",
+      "fr": "Garantie",
+      "id": "Garansi",
+      "ru": "Гарантия",
+      "th": "การรับประกัน",
+      "vi": "Bảo hành"
+     },
+     "value": {
+      "en": "1 Year",
+      "zh": "1 年",
+      "es": "1 año",
+      "ar": "سنة واحدة",
+      "fr": "1 an",
+      "id": "1 tahun",
+      "ru": "1 год",
+      "th": "1 ปี",
+      "vi": "1 năm"
+     }
+    }
+   ],
+   "quick_specs": [
+    {
+     "label": {
+      "en": "Suction Power",
+      "zh": "吸力",
+      "es": "Potencia de succión",
+      "ar": "قوة الشفط",
+      "fr": "Puissance d'aspiration",
+      "id": "Daya Hisap",
+      "ru": "Мощность всасывания",
+      "th": "กำลังดูด",
+      "vi": "Công suất hút"
+     },
+     "value": {
+      "en": "18000Pa",
+      "zh": "18000Pa",
+      "ar": "18000Pa",
+      "es": "18000Pa",
+      "fr": "18000Pa",
+      "id": "18000Pa",
+      "ru": "18000Pa",
+      "th": "18000Pa",
+      "vi": "18000Pa"
+     }
+    },
+    {
+     "label": {
+      "en": "Station",
+      "zh": "基站",
+      "es": "Estación",
+      "ar": "القاعدة",
+      "fr": "Station",
+      "id": "Stasiun",
+      "ru": "Станция",
+      "th": "สถานี",
+      "vi": "Trạm"
+     },
+     "value": {
+      "en": "Self-Empty Base",
+      "zh": "自动集尘座",
+      "es": "Base autovaciante",
+      "ar": "قاعدة تفريغ ذاتي",
+      "fr": "Base autovideuse",
+      "id": "Basis kosong otomatis",
+      "ru": "База автоперегрузки",
+      "th": "ฐานเทฝุ่นอัตโนมัติ",
+      "vi": "Đế tự đổ bụi"
+     }
+    },
+    {
+     "label": {
+      "en": "Navigation",
+      "zh": "导航方式",
+      "es": "Navegación",
+      "ar": "الملاحة",
+      "fr": "Navigation",
+      "id": "Navigasi",
+      "ru": "Навигация",
+      "th": "การนำทาง",
+      "vi": "Điều hướng"
+     },
+     "value": {
+      "en": "LDS Laser",
+      "zh": "激光导航",
+      "es": "Láser LDS",
+      "ar": "ليزر LDS",
+      "fr": "Laser LDS",
+      "id": "Laser LDS",
+      "ru": "LDS-лазер",
+      "th": "เลเซอร์ LDS",
+      "vi": "Laser LDS"
+     }
+    },
+    {
+     "label": {
+      "en": "Runtime",
+      "zh": "续航时间",
+      "es": "Autonomía",
+      "ar": "مدة التشغيل",
+      "fr": "Autonomie",
+      "id": "Waktu Pakai",
+      "ru": "Время работы",
+      "th": "ระยะเวลาทำงาน",
+      "vi": "Thời gian chạy"
+     },
+     "value": {
+      "en": "91–120 min",
+      "zh": "91–120 分钟",
+      "es": "91–120 min",
+      "ar": "91–120 دقيقة",
+      "fr": "91–120 min",
+      "id": "91–120 menit",
+      "ru": "91–120 мин",
+      "th": "91–120 นาที",
+      "vi": "91–120 phút"
+     }
+    }
+   ],
+   "description": {
+    "en": "PT40-C800 is a laser-navigation robot vacuum with 18000Pa suction and a self-empty base: the robot returns to the dock, which pulls debris into a sealed bag so you can go weeks without thinking about dust. LDS smart mapping with room-by-room navigation, sonic mopping, a 2L dustbin and washable HEPA filtration cover large homes in 91–120 minutes per clean. 28W brushless motor; MOQ only 2 pcs with volume pricing down to $100.",
+    "zh": "PT40-C800 是激光导航扫地机器人，18000Pa 吸力配自动集尘座：机器人回座后自动将尘垢吸入密封集尘袋，数周无需打理。LDS 智能建图逐房间导航，声波拖地，2L 大尘盒与可水洗 HEPA 过滤，单次清洁 91–120 分钟覆盖大户型。28W 无刷电机；MOQ 仅 2 台，量大价优至 $100。",
+    "es": "PT40-C800 es un robot con navegación láser, 18000 Pa y base de autovaciado: el robot vuelve a la base, que extrae la suciedad a una bolsa sellada para que pases semanas sin pensar en el polvo. Mapeo LDS con navegación habitación por habitación, trapeado sónico, depósito de 2 L y filtración HEPA lavable cubren grandes viviendas en 91–120 minutos por limpieza. Motor sin escobillas de 28 W; MOQ solo 2 uds con precios por volumen desde 100 $.",
+    "ar": "PT40-C800 روبوت بملاحة الليزر وقوة شفط 18000 باسكال وقاعدة تفريغ ذاتي: يعود الروبوت إلى القاعدة التي تسحب الأوساخ إلى كيس محكم فتمضي أسابيع دون القلق من الغبار. رسم خرائط LDS مع ملاحة غرفة بغرفة، ومسح صوتي، وصندوق غبار 2 لتر، وترشيح HEPA قابل للغسل يغطي المنازل الكبيرة في 91–120 دقيقة لكل تنظيف. محرك بدون فرش 28 واط؛ الحد الأدنى قطعتان فقط مع أسعار الكميات حتى 100 دولار.",
+    "fr": "PT40-C800 est un robot à navigation laser de 18000 Pa avec base autovideuse : le robot retourne à la station, qui aspire les débris dans un sac scellé — plusieurs semaines sans penser à la poussière. Cartographie LDS avec navigation pièce par pièce, lavage sonique, bac 2 L et filtration HEPA lavable couvrent les grands logements en 91–120 min par nettoyage. Moteur sans balais 28 W ; MOQ 2 pcs seulement, prix dégressifs jusqu’à 100 $.",
+    "id": "PT40-C800 adalah robot vakum navigasi laser dengan hisap 18000Pa dan basis kosong otomatis: robot kembali ke dok, yang menarik kotoran ke dalam kantong tertutup sehingga Anda bisa berminggu-minggu tanpa memikirkan debu. Pemetaan pintar LDS dengan navigasi ruang per ruang, pel sonik, wadah 2L, dan filtrasi HEPA yang bisa dicuci menjangkau rumah besar dalam 91–120 menit per pembersihan. Motor brushless 28W; MOQ hanya 2 pcs dengan harga volume hingga $100.",
+    "ru": "PT40-C800 — робот-пылесос с лазерной навигацией, всасыванием 18000 Па и автоперегрузочной базой: робот возвращается на док, который собирает мусор в герметичный пакет — недели без забот о пыли. LDS-картография с навигацией по комнатам, sonic-мытьё, пылесборник 2 л и моющийся HEPA охватывают большие дома за 91–120 минут. Бесщёточный мотор 28 Вт; MOQ всего 2 шт. со скидками до $100.",
+    "th": "PT40-C800 เป็นหุ่นยนต์ดูดฝุ่นนำทางเลเซอร์ แรงดูด 18000Pa พร้อมฐานเทฝุ่นอัตโนมัติ: หุ่นยนต์กลับเข้าฐานซึ่งดึงสิ่งสกปรก เข้าถุงปิดสนิท ทำให้ไม่ต้องคิดเรื่องฝุ่นเป็นสัปดาห์ การสร้างแผนที่ LDS อัจฉริยะนำทางทีละห้อง เช็ดแบบโซนิก ถังฝุ่น 2L และกรอง HEPA ล้างได้ ครอบคลุมบ้านขนาดใหญ่ใน 91–120 นาทีต่อรอบ มอเตอร์ไร้แปรง 28W; MOQ เพียง 2 ชิ้น ราคาปริมาณลดถึง $100",
+    "vi": "PT40-C800 là robot hút bụi điều hướng laser với lực hút 18000Pa và đế tự đổ bụi: robot quay về đế sạc, nơi hút rác vào túi kín để bạn có thể nhiều tuần không cần bận tâm đến bụi. Bản đồ thông minh LDS điều hướng từng phòng, lau sóng, hộp bụi 2L và lọc HEPA giặt được phủ nhà lớn trong 91–120 phút mỗi lần dọn. Motor không chổi than 28W; MOQ chỉ 2 cái, giá số lượng giảm còn $100."
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-pt40-c800/01-main.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-pt40-c800/02.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-pt40-c800/03.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-pt40-c800/04.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-pt40-c800/05.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-pt40-c800/06.webp?v=20261102e"
+   ],
+   "detail_images": [
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-pt40-c800/detail/01.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-pt40-c800/detail/02.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-pt40-c800/detail/03.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-pt40-c800/detail/04.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-pt40-c800/detail/05.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-pt40-c800/detail/06.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-pt40-c800/detail/07.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-pt40-c800/detail/08.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-pt40-c800/detail/09.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-pt40-c800/detail/10.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-pt40-c800/detail/11.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-pt40-c800/detail/12.webp?v=20261102e"
+   ],
+   "certificates": [
+    {
+     "certId": "60008245082",
+     "name": "Declaration of Conformity",
+     "certNo": "CTA25030700203+CTA25030700205+CQASZ20250902238E+YHJC202412100039R1",
+     "availableDate": "2026-07-29",
+     "expiredDate": "2031-07-23",
+     "validPeriod": "2026/07/29 - 2031/07/23",
+     "verified": true,
+     "image": null,
+     "coversHint": "PT40-C800"
+    },
+    {
+     "certId": "60008004208",
+     "name": "Declaration of Conformity",
+     "certNo": "XDX50238736101701EC",
+     "availableDate": "2026-09-01",
+     "expiredDate": "2031-09-06",
+     "validPeriod": "2026/09/01 - 2031/09/06",
+     "verified": true,
+     "image": null,
+     "coversHint": "PT40-C800"
+    },
+    {
+     "certId": "60007675410",
+     "name": "Declaration of Conformity",
+     "certNo": "EFW526022843-CG-02+REV 1",
+     "availableDate": "2026-07-26",
+     "expiredDate": "2031-07-23",
+     "validPeriod": "2026/07/26 - 2031/07/23",
+     "verified": true,
+     "image": null,
+     "coversHint": "PT40-C800"
+    }
+   ]
+  },
+  {
+   "_cat": "robot-vacuum",
+   "_source": {
+    "platform": "alibaba.com",
+    "productId": "1601715304265"
+   },
+   "category_name": {
+    "en": "Robot Vacuum Cleaners",
+    "zh": "扫地机器人",
+    "es": "Robot Aspirador",
+    "ar": "روبوت تنظيف الأرضيات",
+    "fr": "Robot aspirateur",
+    "id": "Robot Pembersih Vakum",
+    "ru": "Робот-пылесос",
+    "th": "หุ่นยนต์ดูดฝุ่น",
+    "vi": "Robot hút bụi"
+   },
+   "supplier_rating": "4.8",
+   "response_time": "≤ 2h",
+   "transactions": "US $100K+",
+   "years": "10+",
+   "ship_from": {
+    "en": "Ningbo, China",
+    "zh": "中国宁波"
+   },
+   "sample": {
+    "enabled": true,
+    "qty": 1,
+    "note": "Sample available, lead 7-14 days"
+   },
+   "packaging": {
+    "unit": "Color Box"
+   },
+   "customization": {
+    "oem": true,
+    "odm": true
+   },
+   "applications": {
+    "en": "Household, Hotel, Office",
+    "zh": "Household, Hotel, Office",
+    "ar": "Household, Hotel, Office",
+    "es": "Household, Hotel, Office",
+    "fr": "Household, Hotel, Office",
+    "id": "Household, Hotel, Office",
+    "ru": "Household, Hotel, Office",
+    "th": "Household, Hotel, Office",
+    "vi": "Household, Hotel, Office"
+   },
+   "video_url": null,
+   "certifications": [],
+   "alibaba_url": "https://www.alibaba.com/product-detail/1601715304265.html",
+   "sku": [
+    {
+     "name": {
+      "en": "Mop",
+      "zh": "拖地",
+      "es": "Trapeado",
+      "ar": "الممسحة",
+      "fr": "Serpillère",
+      "id": "Pel",
+      "ru": "Швабра",
+      "th": "ทำความสะอาดแบบเปียก",
+      "vi": "Lau nhà"
+     },
+     "values": [
+      {
+       "name": {
+        "en": "65℃ Hot-Water Wash",
+        "zh": "65℃ 热水洗",
+        "es": "Lavado a 65 ℃",
+        "ar": "غسل بماء ساخن 65 درجة",
+        "fr": "Lavage 65 ℃",
+        "id": "Cuci air panas 65℃",
+        "ru": "Мойка 65 ℃",
+        "th": "ล้างน้ำร้อน 65℃",
+        "vi": "Rửa nước nóng 65℃"
+       }
+      }
+     ]
+    }
+   ],
+   "id": "v9-3",
+   "name": {
+    "en": "V9 Smart Robot Vacuum 20000Pa with 65℃ Hot Water Mopping & Auto Station",
+    "zh": "V9 智能扫地机器人 20000Pa 65℃ 热水洗拖自动基站",
+    "es": "Robot inteligente V9 20000 Pa con trapeado con agua caliente a 65 ℃ y estación automática",
+    "ar": "روبوت V9 الذكي بقوة شفط 20000 باسكال ومسح بماء ساخن 65 درجة وقاعدة تلقائية",
+    "fr": "Robot intelligent V9 20000 Pa avec lavage à l’eau chaude 65 ℃ et station auto",
+    "id": "Robot pintar V9 20000Pa dengan pel air panas 65℃ dan stasiun otomatis",
+    "ru": "Умный робот-пылесос V9 20000 Па с мытьём горячей водой 65 ℃ и автостанцией",
+    "th": "หุ่นยนต์อัจฉริยะ V9 20000Pa เช็ดด้วยน้ำร้อน 65℃ พร้อมสถานีอัตโนมัติ",
+    "vi": "Robot thông minh V9 20000Pa lau nước nóng 65℃ với trạm tự động"
+   },
+   "tagline": {
+    "en": "20000Pa · 65℃ Hot-Water Mop · 55℃ Drying · 5200mAh",
+    "zh": "20000Pa · 65℃ 热水洗拖 · 55℃ 烘干 · 5200mAh",
+    "es": "20000 Pa · trapeado con agua caliente 65 ℃ · secado 55 ℃ · 5200 mAh",
+    "ar": "20000 باسكال · مسح بماء ساخن 65 درجة · تجفيف 55 درجة · 5200 مللي أمبير",
+    "fr": "20000 Pa · lavage eau chaude 65 ℃ · séchage 55 ℃ · 5200 mAh",
+    "id": "20000Pa · pel air panas 65℃ · pengeringan 55℃ · 5200mAh",
+    "ru": "20000 Па · мытьё горячей водой 65 ℃ · сушка 55 ℃ · 5200 мА·ч",
+    "th": "20000Pa · เช็ดน้ำร้อน 65℃ · อบ 55℃ · 5200mAh",
+    "vi": "20000Pa · lau nước nóng 65℃ · sấy 55℃ · 5200mAh"
+   },
+   "moq": {
+    "value": 1000,
+    "unit": "pieces"
+   },
+   "price_indicator": {
+    "min": 249,
+    "max": 249,
+    "currency": "USD"
+   },
+   "price_ladder": [
+    {
+     "min": 1000,
+     "max": null,
+     "price": 249
+    }
+   ],
+   "highlights": [
+    {
+     "icon": "power",
+     "text": {
+      "en": "20000Pa Suction + 65℃ Hot-Water Mop Washing, 55℃ Drying",
+      "zh": "20000Pa 吸力 + 65℃ 热水洗拖布，55℃ 烘干",
+      "es": "20000 Pa + lavado del trapo con agua caliente a 65 ℃, secado a 55 ℃",
+      "ar": "قوة شفط 20000 باسكال + غسل الممسحة بماء ساخن 65 درجة وتجفيف 55 درجة",
+      "fr": "20000 Pa + lavage de la serpillière à l’eau chaude 65 ℃, séchage 55 ℃",
+      "id": "20000Pa + pencucian pel air panas 65℃, pengeringan 55℃",
+      "ru": "20000 Па + мойка тряпки горячей водой 65 ℃, сушка при 55 ℃",
+      "th": "แรงดูด 20000Pa + ล้างผ้าเช็ดน้ำร้อน 65℃ อบที่ 55℃",
+      "vi": "Lực hút 20000Pa + rửa khăn nước nóng 65℃, sấy 55℃"
+     }
+    },
+    {
+     "icon": "filter",
+     "text": {
+      "en": "Water Filtration + Auto Mop Lifting + Auto Water Refill",
+      "zh": "水过滤 + 拖布自动升降 + 自动补水",
+      "es": "Filtración de agua + elevación automática del trapo + relleno automático",
+      "ar": "ترشيح بالماء + رفع الممسحة تلقائياً + تعبئة الماء تلقائياً",
+      "fr": "Filtration à l’eau + relèvement auto de la serpillière + remplissage auto",
+      "id": "Filtrasi air + pengangkatan pel otomatis + isi air otomatis",
+      "ru": "Водный фильтр + автоподъём тряпки + автодолив воды",
+      "th": "กรองด้วยน้ำ + ยกผ้าเช็ดอัตโนมัติ + เติมน้ำอัตโนมัติ",
+      "vi": "Lọc nước + nâng khăn lau tự động + tự châm nước"
+     }
+    },
+    {
+     "icon": "battery",
+     "text": {
+      "en": "5200mAh Battery, 150–180 min Runtime, 5–6h Recharge",
+      "zh": "5200mAh 电池，续航 150–180 分钟，充电 5–6 小时",
+      "es": "Batería de 5200 mAh, 150–180 min de autonomía, carga en 5–6 h",
+      "ar": "بطارية 5200 مللي أمبير، تشغيل 150–180 دقيقة، شحن 5–6 ساعات",
+      "fr": "Batterie 5200 mAh, autonomie 150–180 min, recharge 5–6 h",
+      "id": "Baterai 5200mAh, runtime 150–180 menit, isi ulang 5–6 jam",
+      "ru": "Батарея 5200 мА·ч, работа 150–180 мин, зарядка 5–6 ч",
+      "th": "แบตเตอรี่ 5200mAh ใช้งาน 150–180 นาที ชาร์จ 5–6 ชม.",
+      "vi": "Pin 5200mAh, chạy 150–180 phút, sạc 5–6 giờ"
+     }
+    },
+    {
+     "icon": "design",
+     "text": {
+      "en": "Tuya App + Alexa/Google Voice + No-Go Zones & Virtual Walls",
+      "zh": "涂鸦 APP + Alexa/Google 语音 + 禁区与虚拟墙",
+      "es": "App Tuya + voz Alexa/Google + zonas prohibidas y paredes virtuales",
+      "ar": "تطبيق Tuya + أوامر صوتية Alexa/Google + مناطق محظورة وجدران افتراضية",
+      "fr": "App Tuya + voix Alexa/Google + zones interdites et murs virtuels",
+      "id": "Aplikasi Tuya + suara Alexa/Google + zona larangan & dinding virtual",
+      "ru": "Приложение Tuya + голос Alexa/Google + запретные зоны и виртуальные стены",
+      "th": "แอป Tuya + เสียง Alexa/Google + เขตห้ามและกำแพงเสมือน",
+      "vi": "Ứng dụng Tuya + giọng nói Alexa/Google + vùng cấm & tường ảo"
+     }
+    }
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "model number",
+      "zh": "model number",
+      "es": "número de modelo",
+      "ar": "رقم الموديل",
+      "fr": "numéro de modèle",
+      "id": "nomor model",
+      "ru": "номер модели",
+      "th": "หมายเลขรุ่น",
+      "vi": "số model"
+     },
+     "value": {
+      "en": "V9",
+      "zh": "V9",
+      "ar": "V9",
+      "es": "V9",
+      "fr": "V9",
+      "id": "V9",
+      "ru": "V9",
+      "th": "V9",
+      "vi": "V9"
+     }
+    },
+    {
+     "label": {
+      "en": "Suction Power",
+      "zh": "吸力",
+      "es": "Potencia de succión",
+      "ar": "قوة الشفط",
+      "fr": "Puissance d'aspiration",
+      "id": "Daya Hisap",
+      "ru": "Мощность всасывания",
+      "th": "กำลังดูด",
+      "vi": "Công suất hút"
+     },
+     "value": {
+      "en": "20000Pa",
+      "zh": "20000Pa",
+      "ar": "20000Pa",
+      "es": "20000Pa",
+      "fr": "20000Pa",
+      "id": "20000Pa",
+      "ru": "20000Pa",
+      "th": "20000Pa",
+      "vi": "20000Pa"
+     }
+    },
+    {
+     "label": {
+      "en": "Navigation",
+      "zh": "导航方式",
+      "es": "Navegación",
+      "ar": "الملاحة",
+      "fr": "Navigation",
+      "id": "Navigasi",
+      "ru": "Навигация",
+      "th": "การนำทาง",
+      "vi": "Điều hướng"
+     },
+     "value": {
+      "en": "LDS + VSLAM",
+      "zh": "激光 + 视觉导航",
+      "es": "LDS + VSLAM",
+      "ar": "LDS + VSLAM",
+      "fr": "LDS + VSLAM",
+      "id": "LDS + VSLAM",
+      "ru": "LDS + VSLAM",
+      "th": "LDS + VSLAM",
+      "vi": "LDS + VSLAM"
+     }
+    },
+    {
+     "label": {
+      "en": "Runtime",
+      "zh": "续航时间",
+      "es": "Autonomía",
+      "ar": "مدة التشغيل",
+      "fr": "Autonomie",
+      "id": "Waktu Pakai",
+      "ru": "Время работы",
+      "th": "ระยะเวลาทำงาน",
+      "vi": "Thời gian chạy"
+     },
+     "value": {
+      "en": "150–180 min",
+      "zh": "150–180 分钟",
+      "es": "150–180 min",
+      "ar": "150–180 دقيقة",
+      "fr": "150–180 min",
+      "id": "150–180 menit",
+      "ru": "150–180 мин",
+      "th": "150–180 นาที",
+      "vi": "150–180 phút"
+     }
+    },
+    {
+     "label": {
+      "en": "power (w)",
+      "zh": "power (w)",
+      "es": "potencia (W)",
+      "ar": "القدرة (W)",
+      "fr": "puissance (W)",
+      "id": "daya (W)",
+      "ru": "мощность (Вт)",
+      "th": "กำลังไฟ (W)",
+      "vi": "công suất (w)"
+     },
+     "value": {
+      "en": "60W",
+      "zh": "60W",
+      "ar": "60W",
+      "es": "60W",
+      "fr": "60W",
+      "id": "60W",
+      "ru": "60W",
+      "th": "60W",
+      "vi": "60W"
+     }
+    },
+    {
+     "label": {
+      "en": "Battery Capacity",
+      "zh": "电池容量",
+      "es": "Capacidad de batería",
+      "ar": "سعة البطارية",
+      "fr": "Capacité batterie",
+      "id": "Kapasitas baterai",
+      "ru": "Ёмкость батареи",
+      "th": "ความจุแบตเตอรี่",
+      "vi": "Dung lượng pin"
+     },
+     "value": {
+      "en": "5200mAh",
+      "zh": "5200mAh",
+      "ar": "5200mAh",
+      "es": "5200mAh",
+      "fr": "5200mAh",
+      "id": "5200mAh",
+      "ru": "5200mAh",
+      "th": "5200mAh",
+      "vi": "5200mAh"
+     }
+    },
+    {
+     "label": {
+      "en": "Charging Time",
+      "zh": "充电时间",
+      "es": "Tiempo de carga",
+      "ar": "وقت الشحن",
+      "fr": "Temps de charge",
+      "id": "Waktu pengisian",
+      "ru": "Время зарядки",
+      "th": "เวลาชาร์จ",
+      "vi": "Thời gian sạc"
+     },
+     "value": {
+      "en": "5–6 hours",
+      "zh": "5–6 小时",
+      "es": "5–6 horas",
+      "ar": "5–6 ساعات",
+      "fr": "5–6 heures",
+      "id": "5–6 jam",
+      "ru": "5–6 часов",
+      "th": "5–6 ชั่วโมง",
+      "vi": "5–6 giờ"
+     }
+    },
+    {
+     "label": {
+      "en": "Dustbin Capacity",
+      "zh": "尘盒容量",
+      "es": "Capacidad del depósito",
+      "ar": "سعة صندوق الغبار",
+      "fr": "Capacité du bac",
+      "id": "Kapasitas debu",
+      "ru": "Объём пылесборника",
+      "th": "ความจุถังฝุ่น",
+      "vi": "Dung tích hộp bụi"
+     },
+     "value": {
+      "en": "800ml",
+      "zh": "800ml",
+      "ar": "800ml",
+      "es": "800ml",
+      "fr": "800ml",
+      "id": "800ml",
+      "ru": "800ml",
+      "th": "800ml",
+      "vi": "800ml"
+     }
+    },
+    {
+     "label": {
+      "en": "Dust Bag Capacity",
+      "zh": "集尘袋容量",
+      "es": "Capacidad de bolsa",
+      "ar": "سعة كيس الغبار",
+      "fr": "Capacité du sac",
+      "id": "Kapasitas kantong",
+      "ru": "Объём мешка",
+      "th": "ความจุถุงฝุ่น",
+      "vi": "Dung tích túi bụi"
+     },
+     "value": {
+      "en": "1L",
+      "zh": "1L",
+      "ar": "1L",
+      "es": "1L",
+      "fr": "1L",
+      "id": "1L",
+      "ru": "1L",
+      "th": "1L",
+      "vi": "1L"
+     }
+    },
+    {
+     "label": {
+      "en": "Clean Water Tank",
+      "zh": "净水箱容量",
+      "es": "Depósito agua limpia",
+      "ar": "خزان الماء النظيف",
+      "fr": "Réservoir eau propre",
+      "id": "Tangki air bersih",
+      "ru": "Бак чистой воды",
+      "th": "ถังน้ำสะอาด",
+      "vi": "Bình nước sạch"
+     },
+     "value": {
+      "en": "4L",
+      "zh": "4L",
+      "ar": "4L",
+      "es": "4L",
+      "fr": "4L",
+      "id": "4L",
+      "ru": "4L",
+      "th": "4L",
+      "vi": "4L"
+     }
+    },
+    {
+     "label": {
+      "en": "Waste Water Tank",
+      "zh": "污水箱容量",
+      "es": "Depósito agua sucia",
+      "ar": "خزان الماء المتسخ",
+      "fr": "Réservoir eau sale",
+      "id": "Tangki air kotor",
+      "ru": "Бак грязной воды",
+      "th": "ถังน้ำสกปรก",
+      "vi": "Bình nước bẩn"
+     },
+     "value": {
+      "en": "4L",
+      "zh": "4L",
+      "ar": "4L",
+      "es": "4L",
+      "fr": "4L",
+      "id": "4L",
+      "ru": "4L",
+      "th": "4L",
+      "vi": "4L"
+     }
+    },
+    {
+     "label": {
+      "en": "filter type",
+      "zh": "filter type",
+      "es": "tipo de filtro",
+      "ar": "نوع الفلتر",
+      "fr": "type de filtre",
+      "id": "jenis filter",
+      "ru": "тип фильтра",
+      "th": "ประเภทตัวกรอง",
+      "vi": "loại bộ lọc"
+     },
+     "value": {
+      "en": "Water Filter",
+      "zh": "水过滤",
+      "es": "Filtro de agua",
+      "ar": "فلتر ماء",
+      "fr": "Filtre à eau",
+      "id": "Filter air",
+      "ru": "Водный фильтр",
+      "th": "ฟิลเตอร์น้ำ",
+      "vi": "Lọc nước"
+     }
+    },
+    {
+     "label": {
+      "en": "Mop",
+      "zh": "拖地",
+      "es": "Trapeado",
+      "ar": "الممسحة",
+      "fr": "Serpillère",
+      "id": "Pel",
+      "ru": "Швабра",
+      "th": "ทำความสะอาดแบบเปียก",
+      "vi": "Lau nhà"
+     },
+     "value": {
+      "en": "65℃ Hot-Water Wash + 55℃ Drying + Auto Lift + Auto Refill",
+      "zh": "65℃ 热水洗 + 55℃ 烘干 + 自动升降 + 自动补水",
+      "es": "Lavado a 65 ℃ + secado 55 ℃ + elevación auto + relleno auto",
+      "ar": "غسل بماء ساخن 65 درجة + تجفيف 55 + رفع تلقائي + تعبئة تلقائية",
+      "fr": "Lavage 65 ℃ + séchage 55 ℃ + relèvement auto + remplissage auto",
+      "id": "Cuci air panas 65℃ + keringkan 55℃ + angkat otomatis + isi otomatis",
+      "ru": "Мойка 65 ℃ + сушка 55 ℃ + автоподъём + автодолив",
+      "th": "ล้างน้ำร้อน 65℃ + อบ 55℃ + ยกอัตโนมัติ + เติมน้ำอัตโนมัติ",
+      "vi": "Rửa nước nóng 65℃ + sấy 55℃ + tự nâng + tự châm nước"
+     }
+    },
+    {
+     "label": {
+      "en": "App",
+      "zh": "App",
+      "es": "Aplicación",
+      "ar": "تطبيق",
+      "fr": "Application",
+      "id": "Aplikasi",
+      "ru": "Приложение",
+      "th": "แอป",
+      "vi": "Ứng dụng"
+     },
+     "value": {
+      "en": "Tuya App + Alexa / Google Assistant",
+      "zh": "涂鸦 APP + Alexa / Google 助手",
+      "es": "App Tuya + Alexa / Google Assistant",
+      "ar": "تطبيق Tuya + Alexa / Google Assistant",
+      "fr": "App Tuya + Alexa / Google Assistant",
+      "id": "Aplikasi Tuya + Alexa / Google Assistant",
+      "ru": "Приложение Tuya + Alexa / Google Assistant",
+      "th": "แอป Tuya + Alexa / Google Assistant",
+      "vi": "Ứng dụng Tuya + Alexa / Google Assistant"
+     }
+    },
+    {
+     "label": {
+      "en": "Warranty",
+      "zh": "保修",
+      "es": "Garantía",
+      "ar": "الضمان",
+      "fr": "Garantie",
+      "id": "Garansi",
+      "ru": "Гарантия",
+      "th": "การรับประกัน",
+      "vi": "Bảo hành"
+     },
+     "value": {
+      "en": "1 Year",
+      "zh": "1 年",
+      "es": "1 año",
+      "ar": "سنة واحدة",
+      "fr": "1 an",
+      "id": "1 tahun",
+      "ru": "1 год",
+      "th": "1 ปี",
+      "vi": "1 năm"
+     }
+    }
+   ],
+   "quick_specs": [
+    {
+     "label": {
+      "en": "Suction Power",
+      "zh": "吸力",
+      "es": "Potencia de succión",
+      "ar": "قوة الشفط",
+      "fr": "Puissance d'aspiration",
+      "id": "Daya Hisap",
+      "ru": "Мощность всасывания",
+      "th": "กำลังดูด",
+      "vi": "Công suất hút"
+     },
+     "value": {
+      "en": "20000Pa",
+      "zh": "20000Pa",
+      "ar": "20000Pa",
+      "es": "20000Pa",
+      "fr": "20000Pa",
+      "id": "20000Pa",
+      "ru": "20000Pa",
+      "th": "20000Pa",
+      "vi": "20000Pa"
+     }
+    },
+    {
+     "label": {
+      "en": "Mop",
+      "zh": "拖地",
+      "es": "Trapeado",
+      "ar": "الممسحة",
+      "fr": "Serpillère",
+      "id": "Pel",
+      "ru": "Швабра",
+      "th": "ทำความสะอาดแบบเปียก",
+      "vi": "Lau nhà"
+     },
+     "value": {
+      "en": "65℃ Hot-Water Wash",
+      "zh": "65℃ 热水洗",
+      "es": "Lavado a 65 ℃",
+      "ar": "غسل بماء ساخن 65 درجة",
+      "fr": "Lavage 65 ℃",
+      "id": "Cuci air panas 65℃",
+      "ru": "Мойка 65 ℃",
+      "th": "ล้างน้ำร้อน 65℃",
+      "vi": "Rửa nước nóng 65℃"
+     }
+    },
+    {
+     "label": {
+      "en": "Battery Capacity",
+      "zh": "电池容量",
+      "es": "Capacidad de batería",
+      "ar": "سعة البطارية",
+      "fr": "Capacité batterie",
+      "id": "Kapasitas baterai",
+      "ru": "Ёмкость батареи",
+      "th": "ความจุแบตเตอรี่",
+      "vi": "Dung lượng pin"
+     },
+     "value": {
+      "en": "5200mAh",
+      "zh": "5200mAh",
+      "ar": "5200mAh",
+      "es": "5200mAh",
+      "fr": "5200mAh",
+      "id": "5200mAh",
+      "ru": "5200mAh",
+      "th": "5200mAh",
+      "vi": "5200mAh"
+     }
+    },
+    {
+     "label": {
+      "en": "Runtime",
+      "zh": "续航时间",
+      "es": "Autonomía",
+      "ar": "مدة التشغيل",
+      "fr": "Autonomie",
+      "id": "Waktu Pakai",
+      "ru": "Время работы",
+      "th": "ระยะเวลาทำงาน",
+      "vi": "Thời gian chạy"
+     },
+     "value": {
+      "en": "150–180 min",
+      "zh": "150–180 分钟",
+      "es": "150–180 min",
+      "ar": "150–180 دقيقة",
+      "fr": "150–180 min",
+      "id": "150–180 menit",
+      "ru": "150–180 мин",
+      "th": "150–180 นาที",
+      "vi": "150–180 phút"
+     }
+    }
+   ],
+   "description": {
+    "en": "The V9 flagship robot vacuum combines 20000Pa suction with true hot-water mopping: the station washes the mop at 65℃, dries it at 55℃ to stay odor-free, and refills clean water automatically. LDS+VSLAM navigation, auto mop lifting, no-go zones and Tuya app plus Alexa/Google voice control make whole-home cleaning effortless; the 5200mAh battery runs 150–180 minutes. Water filtration, 800ml dustbin, 1L dust bag and 4L+4L tanks. MOQ 1000 pcs, OEM/ODM.",
+    "zh": "V9 旗舰扫地机器人集 20000Pa 吸力与真正的热水洗拖于一身：基站以 65℃ 热水洗拖布、55℃ 烘干防异味，并自动补水。LDS+VSLAM 导航、拖布自动升降、禁区虚拟墙与涂鸦 APP、Alexa/Google 语音控制让全屋清洁轻松完成；5200mAh 电池续航 150–180 分钟。水过滤系统，800ml 尘盒、1L 集尘袋与 4L+4L 水箱。MOQ 1000 台，支持 OEM/ODM。",
+    "es": "El robot insignia V9 combina 20000 Pa con trapeado real con agua caliente: la estación lava el trapo a 65 ℃, lo seca a 55 ℃ para evitar olores y rellena el agua limpia automáticamente. Navegación LDS+VSLAM, elevación automática del trapo, zonas prohibidas y app Tuya con voz Alexa/Google hacen la limpieza de toda la casa sin esfuerzo; la batería de 5200 mAh rinde 150–180 minutos. Filtración de agua, depósito de 800 ml, bolsa de 1 L y tanques de 4 L + 4 L. MOQ 1000 uds, OEM/ODM.",
+    "ar": "يجمع روبوت V9 الرائد بين قوة شفط 20000 باسكال والمسح الحقيقي بالماء الساخن: تغسل القاعدة المنشفة بماء ساخن 65 درجة وتجففها عند 55 درجة لمنع الروائح وتعيد تعبئة الماء النظيف تلقائياً. ملاحة LDS+VSLAM ورفع الممسحة تلقائياً ومناطق محظورة وتطبيق Tuya مع أوامر Alexa/Google الصوتية تجعل تنظيف المنزل بالكامل سهلاً؛ بطارية 5200 مللي أمبير تعمل 150–180 دقيقة. ترشيح بالماء، صندوق غبار 800 مل، كيس غبار 1 لتر وخزانان 4 لتر. MOQ 1000 قطعة، OEM/ODM.",
+    "fr": "Le robot phare V9 combine 20000 Pa et un vrai lavage à l’eau chaude : la station lave la serpillière à 65 ℃, la sèche à 55 ℃ contre les odeurs et remplit l’eau propre automatiquement. Navigation LDS+VSLAM, relèvement automatique de la serpillière, zones interdites et app Tuya avec voix Alexa/Google rendent le nettoyage intégral sans effort ; la batterie 5200 mAh tient 150–180 minutes. Filtration à l’eau, bac 800 ml, sac 1 L et réservoirs 4 L + 4 L. MOQ 1000 pcs, OEM/ODM.",
+    "id": "Robot unggulan V9 memadukan hisap 20000Pa dengan pel air panas sungguhan: stasiun mencuci pel dengan air panas 65℃, mengeringkannya pada 55℃ agar bebas bau, dan mengisi air bersih otomatis. Navigasi LDS+VSLAM, pengangkatan pel otomatis, zona larangan, aplikasi Tuya plus suara Alexa/Google membuat pembersihan seluruh rumah mudah; baterai 5200mAh bekerja 150–180 menit. Filtrasi air, wadah 800ml, kantong 1L, dan tangki 4L+4L. MOQ 1000 pcs, OEM/ODM.",
+    "ru": "Флагманский робот V9 объединяет всасывание 20000 Па и настоящую мойку горячей водой: станция моет тряпку при 65 ℃, сушит при 55 ℃ против запахов и автоматически доливает чистую воду. Навигация LDS+VSLAM, автоподъём тряпки, запретные зоны, приложение Tuya и голос Alexa/Google делают уборку всего дома простой; батарея 5200 мА·ч работает 150–180 минут. Водный фильтр, пылесборник 800 мл, мешок 1 л и баки 4+4 л. MOQ 1000 шт., OEM/ODM.",
+    "th": "หุ่นยนต์รุ่นเรือธง V9 ผสานแรงดูด 20000Pa เข้ากับการเช็ดน้ำร้อนจริง: สถานีล้างผ้าเช็ดด้วยน้ำร้อน 65℃ อบที่ 55℃ ป้องกันกลิ่น และเติมน้ำสะอาดอัตโนมัติ การนำทาง LDS+VSLAM ยกผ้าเช็ดอัตโนมัติ เขตห้าม แอป Tuya และเสียง Alexa/Google ทำให้ทำความสะอาดทั้งบ้านง่ายดาย แบตเตอรี่ 5200mAh ใช้งาน 150–180 นาที กรองด้วยน้ำ ถังฝุ่น 800ml ถุงฝุ่น 1L และถังน้ำ 4L+4L MOQ 1000 ชิ้น รองรับ OEM/ODM",
+    "vi": "Robot flagship V9 kết hợp lực hút 20000Pa với lau nước nóng thực sự: trạm rửa khăn bằng nước nóng 65℃, sấy ở 55℃ chống mùi, tự châm nước sạch. Điều hướng LDS+VSLAM, tự nâng khăn lau, vùng cấm, ứng dụng Tuya cùng giọng nói Alexa/Google giúp dọn toàn nhà dễ dàng; pin 5200mAh chạy 150–180 phút. Lọc nước, hộp bụi 800ml, túi bụi 1L và bình 4L+4L. MOQ 1000 cái, hỗ trợ OEM/ODM."
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9-3/01-main.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9-3/02.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9-3/03.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9-3/04.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9-3/05.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9-3/06.webp?v=20261102e"
+   ],
+   "detail_images": [
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9-3/detail/01.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9-3/detail/02.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9-3/detail/03.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9-3/detail/04.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9-3/detail/05.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9-3/detail/06.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9-3/detail/07.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9-3/detail/08.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9-3/detail/09.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9-3/detail/10.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9-3/detail/11.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9-3/detail/12.webp?v=20261102e",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9-3/detail/13.webp?v=20261102e"
+   ],
+   "certificates": [
+    {
+     "certId": "60008245082",
+     "name": "Declaration of Conformity",
+     "certNo": "CTA25030700203+CTA25030700205+CQASZ20250902238E+YHJC202412100039R1",
+     "availableDate": "2026-07-29",
+     "expiredDate": "2031-07-23",
+     "validPeriod": "2026/07/29 - 2031/07/23",
+     "verified": true,
+     "image": null,
+     "coversHint": "V9"
+    },
+    {
+     "certId": "60008004208",
+     "name": "Declaration of Conformity",
+     "certNo": "XDX50238736101701EC",
+     "availableDate": "2026-09-01",
+     "expiredDate": "2031-09-06",
+     "validPeriod": "2026/09/01 - 2031/09/06",
+     "verified": true,
+     "image": null,
+     "coversHint": "V9"
+    },
+    {
+     "certId": "60007675410",
+     "name": "Declaration of Conformity",
+     "certNo": "EFW526022843-CG-02+REV 1",
+     "availableDate": "2026-07-26",
+     "expiredDate": "2031-07-23",
+     "validPeriod": "2026/07/26 - 2031/07/23",
+     "verified": true,
+     "image": null,
+     "coversHint": "V9"
+    }
    ]
   }
  ],
