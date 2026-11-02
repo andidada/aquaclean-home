@@ -883,7 +883,11 @@
         "en": "",
         "zh": ""
       },
-      "price_indicator": null,
+      "price_indicator": {
+        "min": 11,
+        "max": 13.9,
+        "currency": "USD"
+      },
       "quick_specs": [
         {
           "label": {
