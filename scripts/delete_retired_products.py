@@ -9,10 +9,11 @@ DEAD_SLUGS = [
     'handheld-vacuum-gv18', 'handheld-vacuum-v22-2', 'handheld-vacuum-gv22', 'handheld-vacuum-v26',
     'robot-vacuum-v9', 'robot-vacuum-pt40c800', 'robot-vacuum-v9-2',
     'tire-inflator-ymc6667', 'steam-cleaner-ptc-sc-004', 'hands-free-soap-dispenser-sd901',
+    'robot-vacuum-v2g-sj',
 ]
 DEAD_IDS = {  # data JSON product id per category
     'handheld-vacuum': ['gv18', 'v22-2', 'gv22', 'v26'],
-    'robot-vacuum': ['v9', 'pt40c800', 'v9-2'],
+    'robot-vacuum': ['v9', 'pt40c800', 'v9-2', 'v2g-sj'],
     'tire-inflator': ['ymc6667'],
     'steam-cleaner': ['ptc-sc-004'],
     'hands-free-soap-dispenser': ['sd901'],
@@ -21,6 +22,7 @@ IMG_DIRS = [
     'handheld-vacuum-gv18', 'handheld-vacuum-v22-2', 'handheld-vacuum-gv22', 'handheld-vacuum-v26',
     'robot-vacuum-v9', 'robot-vacuum-pt40c800', 'robot-vacuum-v9-2',
     'tire-inflator-ymc6667', 'steam-cleaner-ptc-sc-004', 'hands-free-soap-dispenser-sd901',
+    'robot-vacuum-v2g-sj',
 ]
 # category count after deletion (for productCount badge, keyed by index dir name)
 CAT_COUNT = {'handheld-vacuum': 4, 'robot-vacuum': 6, 'tire-inflator': 2,
@@ -56,11 +58,12 @@ for cat, ids in DEAD_IDS.items():
     obj = json.loads(d)
     prods = obj['products'] if isinstance(obj, dict) else obj
     before = len(prods)
+    present = [i for i in ids if any(x.get('id') == i for x in prods)]
     prods[:] = [x for x in prods if x.get('id') not in ids]
-    if len(prods) == before:
+    if not present:
         stats.setdefault('json', []).append('%s: already clean' % cat)
         continue
-    assert len(prods) == before - len(ids), 'JSON drop mismatch for %s' % cat
+    assert len(prods) == before - len(present), 'JSON drop mismatch for %s' % cat
     out = json.dumps(obj, ensure_ascii=False, indent=2)
     if not d.endswith('\n'):
         out += '\n'
