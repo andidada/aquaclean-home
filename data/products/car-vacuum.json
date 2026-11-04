@@ -1,1951 +1,3854 @@
 {
-  "category": "car-vacuum",
-  "products": [
+ "category": "car-vacuum",
+ "products": [
+  {
+   "id": "yzx-309",
+   "name": {
+    "en": "PX8 4-in-1 Wireless Handheld Car Vacuum Cleaner 126000RPM Air Duster Pump for Home Car Pet",
+    "zh": "PX8 四合一无线手持车载吸尘器 126000RPM 吹吸充放气迷你吸尘器 家用车用宠物用",
+    "ar": "مكنسة سيارة محمولة لاسلكية PX8 رباعية الوظائف بمحرك 126000RPM ومنفاخ هواء للمنزل والسيارة والحيوانات الأليفة",
+    "es": "Aspiradora de coche inalámbrica portátil PX8 4 en 1 con motor de 126000RPM y soplador para hogar, coche y mascotas",
+    "fr": "Aspirateur de voiture sans fil portable PX8 4-en-1 avec moteur 126000RPM et souffleur pour maison, voiture et animaux",
+    "id": "Penyedot debu mobil PX8 4-in-1 tanpa kabel 126000RPM dengan peniup udara untuk rumah, mobil, dan hewan peliharaan",
+    "ru": "Беспроводной ручной автомобильный пылесос PX8 4-в-1 с мотором 126000 об/мин и воздуходувкой для дома, авто и животных",
+    "th": "เครื่องดูดฝุ่นรถยนต์แบบพกพาไร้สาย PX8 4-in-1 มอเตอร์ 126000RPM พร้อมเป่าลม สำหรับบ้าน รถยนต์ สัตว์เลี้ยง",
+    "vi": "Máy hút bụi ô tô cầm tay không dây PX8 4-in-1 động cơ 126000RPM kèm thổi hơi cho gia đình, ô tô, thú cưng"
+   },
+   "tagline": {
+    "en": "126000RPM · 100 W · 16-32 min",
+    "zh": "126000RPM · 100 W · 16-32 分钟",
+    "ar": "126000RPM · 100 واط · 16-32 دقيقة",
+    "es": "126000RPM · 100 W · 16-32 min",
+    "fr": "126000RPM · 100 W · 16-32 min",
+    "id": "126000RPM · 100 W · 16-32 menit",
+    "ru": "126000RPM · 100 Вт · 16-32 мин",
+    "th": "126000RPM · 100 W · 16-32 นาที",
+    "vi": "126000RPM · 100 W · 16-32 phút"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/01.webp?v=20261102c",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/02.webp?v=20261102c",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/03.webp?v=20261102c",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/04.webp?v=20261102c",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/05.webp?v=20261102c",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/06.webp?v=20261102c"
+   ],
+   "video_url": null,
+   "moq": {
+    "value": 2,
+    "unit": "pieces"
+   },
+   "certifications": [
+    "CE / EU DoC"
+   ],
+   "highlights": [
     {
-      "id": "yzx-309",
-      "name": {
-        "en": "PX8 4-in-1 Wireless Handheld Car Vacuum Cleaner 126000RPM Air Duster Pump for Home Car Pet",
-        "zh": "PX8 四合一无线手持车载吸尘器 126000RPM 吹吸充放气迷你吸尘器 家用车用宠物用",
-        "ar": "مكنسة سيارة محمولة لاسلكية PX8 رباعية الوظائف بمحرك 126000RPM ومنفاخ هواء للمنزل والسيارة والحيوانات الأليفة",
-        "es": "Aspiradora de coche inalámbrica portátil PX8 4 en 1 con motor de 126000RPM y soplador para hogar, coche y mascotas",
-        "fr": "Aspirateur de voiture sans fil portable PX8 4-en-1 avec moteur 126000RPM et souffleur pour maison, voiture et animaux",
-        "id": "Penyedot debu mobil PX8 4-in-1 tanpa kabel 126000RPM dengan peniup udara untuk rumah, mobil, dan hewan peliharaan",
-        "ru": "Беспроводной ручной автомобильный пылесос PX8 4-в-1 с мотором 126000 об/мин и воздуходувкой для дома, авто и животных",
-        "th": "เครื่องดูดฝุ่นรถยนต์แบบพกพาไร้สาย PX8 4-in-1 มอเตอร์ 126000RPM พร้อมเป่าลม สำหรับบ้าน รถยนต์ สัตว์เลี้ยง",
-        "vi": "Máy hút bụi ô tô cầm tay không dây PX8 4-in-1 động cơ 126000RPM kèm thổi hơi cho gia đình, ô tô, thú cưng"
-      },
-      "tagline": {
-        "en": "126000RPM · 100 W · 16-32 min",
-        "zh": "126000RPM · 100 W · 16-32 分钟",
-        "ar": "126000RPM · 100 واط · 16-32 دقيقة",
-        "es": "126000RPM · 100 W · 16-32 min",
-        "fr": "126000RPM · 100 W · 16-32 min",
-        "id": "126000RPM · 100 W · 16-32 menit",
-        "ru": "126000RPM · 100 Вт · 16-32 мин",
-        "th": "126000RPM · 100 W · 16-32 นาที",
-        "vi": "126000RPM · 100 W · 16-32 phút"
-      },
-      "images": [
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/01.webp?v=20261102c",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/02.webp?v=20261102c",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/03.webp?v=20261102c",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/04.webp?v=20261102c",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/05.webp?v=20261102c",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/06.webp?v=20261102c"
-      ],
-      "video_url": null,
-      "moq": {
-        "value": 2,
-        "unit": "pieces"
-      },
-      "certifications": [
-        "CE / EU DoC"
-      ],
-      "highlights": [
-        {
-          "icon": "power",
-          "text": {
-            "en": "126000RPM high-speed motor with 200000Pa suction",
-            "zh": "126000RPM 高速电机，200000Pa 强劲吸力",
-            "ar": "محرك عالي السرعة 126000RPM بقوة شفط 200000Pa",
-            "es": "Motor de alta velocidad 126000RPM con succión de 200000Pa",
-            "fr": "Moteur haute vitesse 126000RPM avec aspiration de 200000Pa",
-            "id": "Motor kecepatan tinggi 126000RPM dengan daya hisap 200000Pa",
-            "ru": "Высокоскоростной мотор 126000 об/мин со всасыванием 200000 Па",
-            "th": "มอเตอร์ความเร็วสูง 126000RPM แรงดูด 200000Pa",
-            "vi": "Động cơ tốc độ cao 126000RPM với lực hút 200000Pa"
-          }
-        },
-        {
-          "icon": "mop",
-          "text": {
-            "en": "4-in-1: vacuum, blow, inflate and compress",
-            "zh": "四合一：吸尘、吹气、充气放气、压缩",
-            "ar": "٤ في ١: شفط، نفخ، تهوية وضغط",
-            "es": "4 en 1: aspirar, soplar, inflar y comprimir",
-            "fr": "4-en-1 : aspirer, souffler, gonfler et comprimer",
-            "id": "4-in-1: sedot, tiup, isi udara, dan kompres",
-            "ru": "4-в-1: всасывание, выдувание, накачивание и сжатие",
-            "th": "4-in-1: ดูดฝุ่น เป่าลม อัดลม ระบายลม",
-            "vi": "4-in-1: hút bụi, thổi khí, bơm hơi và nén khí"
-          }
-        },
-        {
-          "icon": "battery",
-          "text": {
-            "en": "100 W power, 2000 mAh battery, 16-32 min runtime",
-            "zh": "100W 大功率，2000mAh 电池，16-32 分钟续航",
-            "ar": "قوة 100 واط، بطارية 2000 مللي أمبير، تشغيل 16-32 دقيقة",
-            "es": "100 W de potencia, batería de 2000 mAh, 16-32 min de uso",
-            "fr": "Puissance 100 W, batterie 2000 mAh, autonomie 16-32 min",
-            "id": "Daya 100 W, baterai 2000 mAh, pakai 16-32 menit",
-            "ru": "Мощность 100 Вт, аккумулятор 2000 мАч, работа 16-32 мин",
-            "th": "พลังงาน 100 W แบตเตอรี่ 2000 mAh ใช้งาน 16-32 นาที",
-            "vi": "Công suất 100 W, pin 2000 mAh, hoạt động 16-32 phút"
-          }
-        },
-        {
-          "icon": "filter",
-          "text": {
-            "en": "HEPA filter with laser dust illumination, only 75 dB",
-            "zh": "HEPA 滤网 + 激光尘埃照明，噪音仅 75dB",
-            "ar": "فلتر HEPA مع إضاءة ليزر للغبار وضجيج 75 ديسيبل فقط",
-            "es": "Filtro HEPA con iluminación láser de polvo, solo 75 dB",
-            "fr": "Filtre HEPA avec éclairage laser des poussières, seulement 75 dB",
-            "id": "Filter HEPA dengan lampu laser debu, hanya 75 dB",
-            "ru": "HEPA-фильтр с лазерной подсветкой пыли, всего 75 дБ",
-            "th": "ฟิลเตอร์ HEPA พร้อมไฟเลเซอร์ส่องฝุ่น เสียงเพียง 75 dB",
-            "vi": "Lọc HEPA với đèn laser soi bụi, độ ồn chỉ 75 dB"
-          }
-        }
-      ],
-      "specs": [
-        {
-          "label": {
-            "en": "Product name",
-            "zh": "Product name",
-            "es": "Nombre del producto",
-            "ar": "اسم المنتج",
-            "fr": "Nom du produit",
-            "id": "Nama produk",
-            "ru": "Название товара",
-            "th": "ชื่อสินค้า",
-            "vi": "Tên sản phẩm"
-          },
-          "value": {
-            "en": "Handheld Car Vacuum Cleaner",
-            "zh": "手持车载吸尘器",
-            "ar": "مكنسة سيارة محمولة",
-            "es": "Aspiradora de coche de mano",
-            "fr": "Aspirateur de voiture de main",
-            "id": "Penyedot debu mobil genggam",
-            "ru": "Ручной автомобильный пылесос",
-            "th": "เครื่องดูดฝุ่นรถยนต์แบบถือ",
-            "vi": "Máy hút bụi ô tô cầm tay"
-          }
-        },
-        {
-          "label": {
-            "en": "Suction",
-            "zh": "Suction",
-            "es": "Succión",
-            "ar": "الشفط",
-            "fr": "Aspiration",
-            "id": "Daya Hisap",
-            "ru": "Всасывание",
-            "th": "แรงดูด",
-            "vi": "Lực hút"
-          },
-          "value": {
-            "en": "200000Pa",
-            "zh": "200000Pa",
-            "ar": "200000Pa",
-            "es": "200000Pa",
-            "fr": "200000Pa",
-            "id": "200000Pa",
-            "ru": "200000 Па",
-            "th": "200000Pa",
-            "vi": "200000Pa"
-          }
-        },
-        {
-          "label": {
-            "en": "Keywords",
-            "zh": "Keywords",
-            "es": "Palabras clave",
-            "ar": "الكلمات المفتاحية",
-            "fr": "Mots-clés",
-            "id": "Kata Kunci",
-            "ru": "Ключевые слова",
-            "th": "คำค้นหา",
-            "vi": "Từ khóa"
-          },
-          "value": {
-            "en": "Car Cordless Cleaner Vacuum",
-            "es": "Aspiradora inalámbrica para coche",
-            "ar": "مكنسة سيارة لاسلكية",
-            "fr": "Aspirateur voiture sans fil",
-            "id": "Penyedot Debu Mobil Nirkabel",
-            "ru": "Беспроводной автомобильный пылесос",
-            "th": "เครื่องดูดฝุ่นไร้สายสำหรับรถยนต์",
-            "vi": "Máy hút bụi ô tô không dây"
-          }
-        },
-        {
-          "label": {
-            "en": "Material",
-            "zh": "材质",
-            "es": "Material",
-            "ar": "المادة",
-            "fr": "Matériau",
-            "id": "Material",
-            "ru": "Материал",
-            "th": "วัสดุ",
-            "vi": "Chất liệu"
-          },
-          "value": {
-            "en": "ABS",
-            "es": "ABS",
-            "ar": "ABS",
-            "fr": "ABS",
-            "id": "ABS",
-            "ru": "ABS",
-            "th": "ABS",
-            "vi": "ABS"
-          }
-        },
-        {
-          "label": {
-            "en": "Battery Capacity",
-            "zh": "电池容量",
-            "es": "Capacidad de batería",
-            "ar": "سعة البطارية",
-            "fr": "Capacité de la batterie",
-            "id": "Kapasitas Baterai",
-            "ru": "Ёмкость аккумулятора",
-            "th": "ความจุแบตเตอรี่",
-            "vi": "Dung lượng pin"
-          },
-          "value": {
-            "en": "2000mAh",
-            "zh": "2000mAh",
-            "ar": "2000mAh",
-            "es": "2000mAh",
-            "fr": "2000mAh",
-            "id": "2000mAh",
-            "ru": "2000 мАч",
-            "th": "2000mAh",
-            "vi": "2000mAh"
-          }
-        },
-        {
-          "label": {
-            "en": "Style",
-            "zh": "Style",
-            "es": "Estilo",
-            "ar": "الطراز",
-            "fr": "Style",
-            "id": "Gaya",
-            "ru": "Стиль",
-            "th": "สไตล์",
-            "vi": "Kiểu dáng"
-          },
-          "value": {
-            "en": "Wireless 4-in-1",
-            "zh": "无线四合一",
-            "ar": "لاسلكي رباعي الوظائف",
-            "es": "Inalámbrico 4 en 1",
-            "fr": "Sans fil 4-en-1",
-            "id": "Nirkabel 4-in-1",
-            "ru": "Беспроводной 4-в-1",
-            "th": "ไร้สาย 4-in-1",
-            "vi": "Không dây 4-in-1"
-          }
-        },
-        {
-          "label": {
-            "en": "Runtime",
-            "zh": "续航时间",
-            "es": "Autonomía",
-            "ar": "مدة التشغيل",
-            "fr": "Autonomie",
-            "id": "Waktu Pakai",
-            "ru": "Время работы",
-            "th": "ระยะเวลาทำงาน",
-            "vi": "Thời gian chạy"
-          },
-          "value": {
-            "en": "16-32 min",
-            "zh": "16-32 分钟",
-            "ar": "16-32 دقيقة",
-            "es": "16-32 min",
-            "fr": "16-32 min",
-            "id": "16-32 menit",
-            "ru": "16-32 мин",
-            "th": "16-32 นาที",
-            "vi": "16-32 phút"
-          }
-        },
-        {
-          "label": {
-            "en": "maximum runtime",
-            "zh": "maximum runtime",
-            "es": "autonomía máxima",
-            "ar": "أقصى مدة تشغيل",
-            "fr": "autonomie maximale",
-            "id": "waktu pakai maksimum",
-            "ru": "макс. время работы",
-            "th": "ระยะเวลาทำงานสูงสุด",
-            "vi": "thời gian chạy tối đa"
-          },
-          "value": {
-            "en": "<30 min",
-            "es": "<30 min",
-            "ar": "<30 min",
-            "fr": "<30 min",
-            "id": "<30 min",
-            "ru": "<30 min",
-            "th": "<30 min",
-            "vi": "<30 min"
-          }
-        },
-        {
-          "label": {
-            "en": "suction power (airwatts)",
-            "zh": "suction power (airwatts)",
-            "es": "potencia de succión (vatios de aire)",
-            "ar": "قوة الشفط (AirWatts)",
-            "fr": "puissance d'aspiration (AirWatts)",
-            "id": "daya hisap (AirWatts)",
-            "ru": "мощность всасывания (AirWatts)",
-            "th": "กำลังดูด (AirWatts)",
-            "vi": "công suất hút (airwatts)"
-          },
-          "value": {
-            "en": "100 AW",
-            "zh": "100 AW",
-            "ar": "100 AW",
-            "es": "100 AW",
-            "fr": "100 AW",
-            "id": "100 AW",
-            "ru": "100 AW",
-            "th": "100 AW",
-            "vi": "100 AW"
-          }
-        },
-        {
-          "label": {
-            "en": "app-controlled",
-            "zh": "app-controlled",
-            "es": "control por app",
-            "ar": "يُتحكم به عبر التطبيق",
-            "fr": "contrôlé par application",
-            "id": "dikendalikan aplikasi",
-            "ru": "управление через приложение",
-            "th": "ควบคุมผ่านแอป",
-            "vi": "điều khiển qua app"
-          },
-          "value": {
-            "en": "No",
-            "es": "No",
-            "ar": "لا",
-            "fr": "Non",
-            "id": "Tidak",
-            "ru": "Нет",
-            "th": "ไม่",
-            "vi": "Không"
-          }
-        },
-        {
-          "label": {
-            "en": "application",
-            "zh": "application",
-            "es": "aplicación",
-            "ar": "التطبيق",
-            "fr": "utilisation",
-            "id": "aplikasi",
-            "ru": "применение",
-            "th": "การใช้งาน",
-            "vi": "ứng dụng"
-          },
-          "value": {
-            "en": "Car",
-            "es": "Coche",
-            "ar": "سيارة",
-            "fr": "Voiture",
-            "id": "Mobil",
-            "ru": "Автомобиль",
-            "th": "รถยนต์",
-            "vi": "Ô tô"
-          }
-        },
-        {
-          "label": {
-            "en": "application",
-            "zh": "application",
-            "es": "aplicación",
-            "ar": "التطبيق",
-            "fr": "utilisation",
-            "id": "aplikasi",
-            "ru": "применение",
-            "th": "การใช้งาน",
-            "vi": "ứng dụng"
-          },
-          "value": {
-            "en": "Household",
-            "es": "Hogar",
-            "ar": "منزلي",
-            "fr": "Ménager",
-            "id": "Rumah tangga",
-            "ru": "Бытовой",
-            "th": "ใช้ในบ้าน",
-            "vi": "Gia dụng"
-          }
-        },
-        {
-          "label": {
-            "en": "application",
-            "zh": "application",
-            "es": "aplicación",
-            "ar": "التطبيق",
-            "fr": "utilisation",
-            "id": "aplikasi",
-            "ru": "применение",
-            "th": "การใช้งาน",
-            "vi": "ứng dụng"
-          },
-          "value": {
-            "en": "Hotel",
-            "es": "Hotel",
-            "ar": "فندق",
-            "fr": "Hôtel",
-            "id": "Hotel",
-            "ru": "Отель",
-            "th": "โรงแรม",
-            "vi": "Khách sạn"
-          }
-        },
-        {
-          "label": {
-            "en": "bag or bagless",
-            "zh": "bag or bagless",
-            "es": "con bolsa o sin bolsa",
-            "ar": "بكيس أو بدون كيس",
-            "fr": "avec sac ou sans sac",
-            "id": "dengan kantong atau tanpa kantong",
-            "ru": "с мешком или без мешка",
-            "th": "มีถุงหรือไม่มีถุง",
-            "vi": "có túi hoặc không túi"
-          },
-          "value": {
-            "en": "Bagless",
-            "es": "Sin bolsa",
-            "ar": "بدون كيس",
-            "fr": "Sans sac",
-            "id": "Tanpa Kantong",
-            "ru": "Без мешка",
-            "th": "ไม่มีถุง",
-            "vi": "Không túi"
-          }
-        },
-        {
-          "label": {
-            "en": "Charging Time",
-            "zh": "充电时间",
-            "es": "Tiempo de carga",
-            "ar": "زمن الشحن",
-            "fr": "Temps de charge",
-            "id": "Waktu Pengisian",
-            "ru": "Время зарядки",
-            "th": "เวลาในการชาร์จ",
-            "vi": "Thời gian sạc"
-          },
-          "value": {
-            "en": "1-3H",
-            "es": "1-3H",
-            "ar": "1-3H",
-            "fr": "1-3H",
-            "id": "1-3H",
-            "ru": "1-3H",
-            "th": "1-3H",
-            "vi": "1-3H"
-          }
-        },
-        {
-          "label": {
-            "en": "filter",
-            "zh": "filter",
-            "es": "filtro",
-            "ar": "الفلتر",
-            "fr": "filtre",
-            "id": "filter",
-            "ru": "фильтр",
-            "th": "ตัวกรอง",
-            "vi": "bộ lọc"
-          },
-          "value": {
-            "en": "HEPA Filter",
-            "es": "Filtro HEPA",
-            "ar": "فلتر HEPA",
-            "fr": "Filtre HEPA",
-            "id": "Filter HEPA",
-            "ru": "Фильтр HEPA",
-            "th": "ตัวกรอง HEPA",
-            "vi": "Bộ lọc HEPA"
-          }
-        },
-        {
-          "label": {
-            "en": "installation",
-            "zh": "installation",
-            "es": "instalación",
-            "ar": "التركيب",
-            "fr": "installation",
-            "id": "instalasi",
-            "ru": "установка",
-            "th": "การติดตั้ง",
-            "vi": "lắp đặt"
-          },
-          "value": {
-            "en": "Hand Held",
-            "es": "De mano",
-            "ar": "محمولة باليد",
-            "fr": "À main",
-            "id": "Genggam",
-            "ru": "Ручной",
-            "th": "แบบพกพา",
-            "vi": "Cầm tay"
-          }
-        },
-        {
-          "label": {
-            "en": "motor type",
-            "zh": "motor type",
-            "es": "tipo de motor",
-            "ar": "نوع المحرك",
-            "fr": "type de moteur",
-            "id": "jenis motor",
-            "ru": "тип двигателя",
-            "th": "ประเภทมอเตอร์",
-            "vi": "loại động cơ"
-          },
-          "value": {
-            "en": "Brushed Motor",
-            "zh": "有刷电机",
-            "ar": "محرك ذو فرشاة",
-            "es": "Motor con escobillas",
-            "fr": "Moteur à balais",
-            "id": "Motor Sikat",
-            "ru": "Щёточный мотор",
-            "th": "มอเตอร์แปรงถ่าน",
-            "vi": "Động cơ chổi than"
-          }
-        },
-        {
-          "label": {
-            "en": "nozzle number",
-            "zh": "nozzle number",
-            "es": "número de boquillas",
-            "ar": "عدد الفوهات",
-            "fr": "nombre de buses",
-            "id": "jumlah nozzle",
-            "ru": "количество насадок",
-            "th": "จำนวนหัวฉีด",
-            "vi": "số đầu vòi"
-          },
-          "value": {
-            "en": "≤3",
-            "zh": "≤3",
-            "ar": "≤3",
-            "es": "≤3",
-            "fr": "≤3",
-            "id": "≤3",
-            "ru": "≤3",
-            "th": "≤3",
-            "vi": "≤3"
-          }
-        },
-        {
-          "label": {
-            "en": "operating language",
-            "zh": "operating language",
-            "es": "idioma de funcionamiento",
-            "ar": "لغة التشغيل",
-            "fr": "langue d'utilisation",
-            "id": "bahasa pengoperasian",
-            "ru": "язык интерфейса",
-            "th": "ภาษาที่ใช้งาน",
-            "vi": "ngôn ngữ hoạt động"
-          },
-          "value": {
-            "en": "English",
-            "es": "Inglés",
-            "ar": "الإنجليزية",
-            "fr": "Anglais",
-            "id": "Inggris",
-            "ru": "Английский",
-            "th": "อังกฤษ",
-            "vi": "Tiếng Anh"
-          }
-        },
-        {
-          "label": {
-            "en": "packaging types",
-            "zh": "packaging types",
-            "es": "tipos de embalaje",
-            "ar": "أنواع التغليف",
-            "fr": "types d'emballage",
-            "id": "jenis kemasan",
-            "ru": "типы упаковки",
-            "th": "ประเภทบรรจุภัณฑ์",
-            "vi": "loại bao bì"
-          },
-          "value": {
-            "en": "Corrugated Box",
-            "es": "Caja de cartón ondulado",
-            "ar": "كرتون مموج",
-            "fr": "Carton ondulé",
-            "id": "Kotak Karton Bergelombang",
-            "ru": "Гофрокоробка",
-            "th": "กล่องกระดาษลูกฟูก",
-            "vi": "Thùng carton sóng"
-          }
-        },
-        {
-          "label": {
-            "en": "packaging types",
-            "zh": "packaging types",
-            "es": "tipos de embalaje",
-            "ar": "أنواع التغليف",
-            "fr": "types d'emballage",
-            "id": "jenis kemasan",
-            "ru": "типы упаковки",
-            "th": "ประเภทบรรจุภัณฑ์",
-            "vi": "loại bao bì"
-          },
-          "value": {
-            "en": "Color Box",
-            "es": "Caja a color",
-            "ar": "علبة ملونة",
-            "fr": "Boîte couleur",
-            "id": "Kotak Warna",
-            "ru": "Цветная коробка",
-            "th": "กล่องสี",
-            "vi": "Hộp màu"
-          }
-        },
-        {
-          "label": {
-            "en": "private mold",
-            "zh": "private mold",
-            "es": "molde propio",
-            "ar": "قالب خاص",
-            "fr": "moule exclusif",
-            "id": "cetakan sendiri",
-            "ru": "собственная пресс-форма",
-            "th": "แม่พิมพ์เฉพาะ",
-            "vi": "khuôn riêng"
-          },
-          "value": {
-            "en": "Yes",
-            "es": "Sí",
-            "ar": "نعم",
-            "fr": "Oui",
-            "id": "Ya",
-            "ru": "Да",
-            "th": "ใช่",
-            "vi": "Có"
-          }
-        },
-        {
-          "label": {
-            "en": "product net weight",
-            "zh": "product net weight",
-            "es": "peso neto",
-            "ar": "الوزن الصافي",
-            "fr": "poids net",
-            "id": "berat bersih",
-            "ru": "вес нетто",
-            "th": "น้ำหนักสุทธิ",
-            "vi": "trọng lượng tịnh"
-          },
-          "value": {
-            "en": "0.5–1 kg",
-            "es": "0.5–1 kg",
-            "ar": "0.5–1 kg",
-            "fr": "0.5–1 kg",
-            "id": "0.5–1 kg",
-            "ru": "0.5–1 kg",
-            "th": "0.5–1 kg",
-            "vi": "0.5–1 kg"
-          }
-        },
-        {
-          "label": {
-            "en": "warranty",
-            "zh": "warranty",
-            "es": "garantía",
-            "ar": "الضمان",
-            "fr": "garantie",
-            "id": "garansi",
-            "ru": "гарантия",
-            "th": "การรับประกัน",
-            "vi": "bảo hành"
-          },
-          "value": {
-            "en": "1 Year",
-            "es": "1 año",
-            "ar": "سنة واحدة",
-            "fr": "1 an",
-            "id": "1 tahun",
-            "ru": "1 год",
-            "th": "1 ปี",
-            "vi": "1 năm"
-          }
-        },
-        {
-          "label": {
-            "en": "place of origin",
-            "zh": "place of origin",
-            "es": "país de origen",
-            "ar": "بلد المنشأ",
-            "fr": "lieu d'origine",
-            "id": "negara asal",
-            "ru": "страна происхождения",
-            "th": "แหล่งที่มา",
-            "vi": "xuất xứ"
-          },
-          "value": {
-            "en": "CN;GUA",
-            "es": "CN;GUA",
-            "ar": "CN;GUA",
-            "fr": "CN;GUA",
-            "id": "CN;GUA",
-            "ru": "CN;GUA",
-            "th": "CN;GUA",
-            "vi": "CN;GUA"
-          }
-        },
-        {
-          "label": {
-            "en": "Function",
-            "zh": "功能",
-            "es": "Función",
-            "ar": "الوظيفة",
-            "fr": "Fonction",
-            "id": "Fungsi",
-            "ru": "Функция",
-            "th": "ฟังก์ชัน",
-            "vi": "Chức năng"
-          },
-          "value": {
-            "en": "Vacuum, Blow, Inflate, Compress",
-            "zh": "吸尘/吹气/充气/压缩",
-            "ar": "شفط ونفخ وتهوية وضغط",
-            "es": "Aspirar, soplar, inflar, comprimir",
-            "fr": "Aspirer, souffler, gonfler, comprimer",
-            "id": "Hisap, tiup, isi udara, kompres",
-            "ru": "Всасывание, выдувание, накачивание, сжатие",
-            "th": "ดูดฝุ่น เป่าลม อัดลม ระบายลม",
-            "vi": "Hút, thổi, bơm hơi, nén khí"
-          }
-        },
-        {
-          "label": {
-            "en": "Function",
-            "zh": "功能",
-            "es": "Función",
-            "ar": "الوظيفة",
-            "fr": "Fonction",
-            "id": "Fungsi",
-            "ru": "Функция",
-            "th": "ฟังก์ชัน",
-            "vi": "Chức năng"
-          },
-          "value": {
-            "en": "Vacuum, Blow, Inflate, Compress",
-            "zh": "吸尘/吹气/充气/压缩",
-            "ar": "شفط ونفخ وتهوية وضغط",
-            "es": "Aspirar, soplar, inflar, comprimir",
-            "fr": "Aspirer, souffler, gonfler, comprimer",
-            "id": "Hisap, tiup, isi udara, kompres",
-            "ru": "Всасывание, выдувание, накачивание, сжатие",
-            "th": "ดูดฝุ่น เป่าลม อัดลม ระบายลม",
-            "vi": "Hút, thổi, bơm hơi, nén khí"
-          }
-        },
-        {
-          "label": {
-            "en": "Dust capacity",
-            "zh": "Dust capacity",
-            "es": "Capacidad de polvo",
-            "ar": "سعة الغبار",
-            "fr": "Capacité du bac à poussière",
-            "id": "Kapasitas debu",
-            "ru": "Объём пылесборника",
-            "th": "ความจุฝุ่น",
-            "vi": "Dung tích bụi"
-          },
-          "value": {
-            "en": "0.12L",
-            "es": "0.12L",
-            "ar": "0.12L",
-            "fr": "0.12L",
-            "id": "0.12L",
-            "ru": "0.12L",
-            "th": "0.12L",
-            "vi": "0.12L"
-          }
-        },
-        {
-          "label": {
-            "en": "Feature",
-            "zh": "Feature",
-            "es": "Característica",
-            "ar": "الميزة",
-            "fr": "Caractéristique",
-            "id": "Fitur",
-            "ru": "Характеристика",
-            "th": "คุณสมบัติ",
-            "vi": "Tính năng"
-          },
-          "value": {
-            "en": "HEPA, laser dust illumination, lightweight, portable, rechargeable",
-            "zh": "HEPA、激光尘埃照明、轻便、便携、可充电",
-            "ar": "HEPA، إضاءة ليزر للغبار، خفيف، محمول، قابل للشحن",
-            "es": "HEPA, iluminación láser de polvo, ligero, portátil, recargable",
-            "fr": "HEPA, éclairage laser des poussières, léger, portable, rechargeable",
-            "id": "HEPA, lampu laser debu, ringan, portabel, dapat diisi ulang",
-            "ru": "HEPA, лазерная подсветка пыли, лёгкий, портативный, перезаряжаемый",
-            "th": "HEPA, ไฟเลเซอร์ส่องฝุ่น น้ำหนักเบา พกพาสะดวก ชาร์จได้",
-            "vi": "HEPA, đèn laser soi bụi, nhẹ, di động, sạc được"
-          }
-        },
-        {
-          "label": {
-            "en": "power (w)",
-            "zh": "power (w)",
-            "es": "potencia (W)",
-            "ar": "القدرة (W)",
-            "fr": "puissance (W)",
-            "id": "daya (W)",
-            "ru": "мощность (Вт)",
-            "th": "กำลังไฟ (W)",
-            "vi": "công suất (w)"
-          },
-          "value": {
-            "en": "100 W",
-            "zh": "100 W",
-            "ar": "100 W",
-            "es": "100 W",
-            "fr": "100 W",
-            "id": "100 W",
-            "ru": "100 Вт",
-            "th": "100 W",
-            "vi": "100 W"
-          }
-        },
-        {
-          "label": {
-            "en": "power source",
-            "zh": "power source",
-            "es": "fuente de alimentación",
-            "ar": "مصدر الطاقة",
-            "fr": "source d'alimentation",
-            "id": "sumber daya",
-            "ru": "источник питания",
-            "th": "แหล่งจ่ายไฟ",
-            "vi": "nguồn điện"
-          },
-          "value": {
-            "en": "Battery Powered",
-            "es": "Alimentación por batería",
-            "ar": "يعمل بالبطارية",
-            "fr": "Alimenté par batterie",
-            "id": "Berbaterai",
-            "ru": "Питание от аккумулятора",
-            "th": "ใช้พลังงานแบตเตอรี่",
-            "vi": "Chạy bằng pin"
-          }
-        },
-        {
-          "label": {
-            "en": "model number",
-            "zh": "model number",
-            "es": "número de modelo",
-            "ar": "رقم الموديل",
-            "fr": "numéro de modèle",
-            "id": "nomor model",
-            "ru": "номер модели",
-            "th": "หมายเลขรุ่น",
-            "vi": "số model"
-          },
-          "value": {
-            "en": "PX8",
-            "zh": "PX8",
-            "ar": "PX8",
-            "es": "PX8",
-            "fr": "PX8",
-            "id": "PX8",
-            "ru": "PX8",
-            "th": "PX8",
-            "vi": "PX8"
-          }
-        }
-      ],
-      "packaging": {
-        "unit": "Color Box",
-        "size": "18X19X6.3 cm",
-        "net_weight": "0.56kg"
-      },
-      "customization": {},
-      "applications": {
-        "en": "",
-        "zh": ""
-      },
-      "price_indicator": {
-        "min": 11,
-        "max": 13.9,
-        "currency": "USD"
-      },
-      "quick_specs": [
-        {
-          "label": {
-            "en": "Suction",
-            "zh": "吸力",
-            "ar": "الشفط",
-            "es": "Succión",
-            "fr": "Aspiration",
-            "id": "Daya Hisap",
-            "ru": "Всасывание",
-            "th": "แรงดูด",
-            "vi": "Lực hút"
-          },
-          "value": {
-            "en": "200000Pa",
-            "zh": "200000Pa",
-            "ar": "200000Pa",
-            "es": "200000Pa",
-            "fr": "200000Pa",
-            "id": "200000Pa",
-            "ru": "200000 Па",
-            "th": "200000Pa",
-            "vi": "200000Pa"
-          }
-        },
-        {
-          "label": {
-            "en": "Power (W)",
-            "zh": "功率(W)",
-            "ar": "القدرة (W)",
-            "es": "Potencia (W)",
-            "fr": "Puissance (W)",
-            "id": "Daya (W)",
-            "ru": "Мощность (Вт)",
-            "th": "กำลัง (W)",
-            "vi": "Công suất (W)"
-          },
-          "value": {
-            "en": "100 W",
-            "zh": "100 W",
-            "ar": "100 W",
-            "es": "100 W",
-            "fr": "100 W",
-            "id": "100 W",
-            "ru": "100 Вт",
-            "th": "100 W",
-            "vi": "100 W"
-          }
-        },
-        {
-          "label": {
-            "en": "Runtime",
-            "zh": "续航",
-            "ar": "مدة التشغيل",
-            "es": "Autonomía",
-            "fr": "Autonomie",
-            "id": "Waktu pakai",
-            "ru": "Время работы",
-            "th": "เวลาทำงาน",
-            "vi": "Thời gian chạy"
-          },
-          "value": {
-            "en": "16-32 min",
-            "zh": "16-32 分钟",
-            "ar": "16-32 دقيقة",
-            "es": "16-32 min",
-            "fr": "16-32 min",
-            "id": "16-32 menit",
-            "ru": "16-32 мин",
-            "th": "16-32 นาที",
-            "vi": "16-32 phút"
-          }
-        },
-        {
-          "label": {
-            "en": "Noise",
-            "zh": "噪音",
-            "ar": "الضجيج",
-            "es": "Ruido",
-            "fr": "Bruit",
-            "id": "Kebisingan",
-            "ru": "Шум",
-            "th": "เสียงรบกวน",
-            "vi": "Độ ồn"
-          },
-          "value": {
-            "en": "75 dB",
-            "zh": "75 dB",
-            "ar": "75 dB",
-            "es": "75 dB",
-            "fr": "75 dB",
-            "id": "75 dB",
-            "ru": "75 дБ",
-            "th": "75 dB",
-            "vi": "75 dB"
-          }
-        }
-      ],
-      "price_ladder": [
-        {
-          "min": 2,
-          "max": 4999,
-          "price": 13.9
-        },
-        {
-          "min": 5000,
-          "max": 9999,
-          "price": 13
-        },
-        {
-          "min": 10000,
-          "max": null,
-          "price": 11
-        }
-      ],
-      "sku": "1601866170477",
-      "description": {
-        "en": "PX8 4-in-1 wireless handheld car vacuum cleaner: 126000RPM motor combines vacuuming, air blowing, inflating and compressing in one device. 100 W power, 2000 mAh lithium battery, 16-32 min working time, HEPA filter and laser dust illumination at only 75 dB. Ideal for home, car and pet cleaning. OEM/ODM available.",
-        "zh": "PX8 四合一无线手持车载吸尘器：126000RPM 电机集吸尘、吹气、充气放气、压缩于一体。100W 功率，2000mAh 锂电池，16-32 分钟续航，HEPA 滤网 + 激光尘埃照明，噪音仅 75dB。家用、车载、宠物清洁皆宜，支持 OEM/ODM 定制。",
-        "ar": "مكنسة سيارة محمولة لاسلكية PX8 رباعية الوظائف: محرك 126000RPM يجمع الشفط والنفخ والتهوية والضغط في جهاز واحد. قوة 100 واط، بطارية ليثيوم 2000 مللي أمبير، وقت تشغيل 16-32 دقيقة، فلتر HEPA وإضاءة ليزر للغبار بضجيج 75 ديسيبل فقط. مثالية للمنزل والسيارة والحيوانات الأليفة. متاح OEM/ODM.",
-        "es": "Aspiradora de coche inalámbrica portátil PX8 4 en 1: el motor de 126000RPM combina aspirado, soplado, inflado y compresión en un solo dispositivo. 100 W, batería de litio de 2000 mAh, 16-32 min de funcionamiento, filtro HEPA e iluminación láser de polvo a solo 75 dB. Ideal para el hogar, el coche y las mascotas. Disponible OEM/ODM.",
-        "fr": "Aspirateur de voiture sans fil portable PX8 4-en-1 : le moteur 126000RPM combine aspiration, soufflage, gonflage et compression en un seul appareil. 100 W, batterie lithium 2000 mAh, 16-32 min d'autonomie, filtre HEPA et éclairage laser des poussières pour seulement 75 dB. Idéal pour la maison, la voiture et les animaux. OEM/ODM disponible.",
-        "id": "Penyedot debu mobil PX8 4-in-1 tanpa kabel: motor 126000RPM menggabungkan penyedotan, tiupan angin, pengisian, dan kompresi dalam satu perangkat. Daya 100 W, baterai lithium 2000 mAh, waktu kerja 16-32 menit, filter HEPA dan pencahayaan laser debu dengan kebisingan hanya 75 dB. Ideal untuk rumah, mobil, dan hewan peliharaan. OEM/ODM tersedia.",
-        "ru": "Беспроводной ручной автомобильный пылесос PX8 4-в-1: мотор 126000 об/мин объединяет всасывание, выдувание, накачивание и сжатие в одном устройстве. Мощность 100 Вт, литиевый аккумулятор 2000 мАч, время работы 16-32 мин, HEPA-фильтр и лазерная подсветка пыли при шуме всего 75 дБ. Идеален для дома, авто и животных. Доступно OEM/ODM.",
-        "th": "เครื่องดูดฝุ่นรถยนต์แบบพกพาไร้สาย PX8 4-in-1: มอเตอร์ 126000RPM รวมดูดฝุ่น เป่าลม อัดลม และระบายลมไว้ในเครื่องเดียว พลังงาน 100 W แบตเตอรี่ลิเธียม 2000 mAh เวลาทำงาน 16-32 นาที ฟิลเตอร์ HEPA พร้อมไฟเลเซอร์ส่องฝุ่น เสียงเพียง 75 dB เหมาะสำหรับบ้าน รถยนต์ และสัตว์เลี้ยง รับ OEM/ODM",
-        "vi": "Máy hút bụi ô tô cầm tay không dây PX8 4-in-1: động cơ 126000RPM kết hợp hút bụi, thổi khí, bơm hơi và nén khí trong một thiết bị. Công suất 100 W, pin lithium 2000 mAh, thời gian hoạt động 16-32 phút, lọc HEPA và đèn laser soi bụi, độ ồn chỉ 75 dB. Lý tưởng cho gia đình, ô tô và thú cưng. Nhận OEM/ODM."
-      },
-      "supplier_rating": null,
-      "response_time": null,
-      "transactions": null,
-      "years": null,
-      "ship_from": null,
-      "sample": null,
-      "category_name": {
-        "en": "Car Vacuum Cleaners",
-        "zh": "车载吸尘器",
-        "es": "Aspirador de Coche",
-        "ar": "مكنسة سيارات",
-        "fr": "Aspirateur voiture",
-        "id": "Penyedot Debu Mobil",
-        "ru": "Автомобильный пылесос",
-        "th": "เครื่องดูดฝุ่นในรถ",
-        "vi": "Máy hút bụi ô tô"
-      },
-      "_source": {
-        "platform": "alibaba.com",
-        "productId": "1601866170477"
-      },
-      "_cat": "car-vacuum",
-      "detail_images": [
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/detail/01.webp?v=20261102c",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/detail/02.webp?v=20261102c",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/detail/03.webp?v=20261102c",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/detail/04.webp?v=20261102c",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/detail/05.webp?v=20261102c",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/detail/06.webp?v=20261102c",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/detail/07.webp?v=20261102c",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/detail/08.webp?v=20261102c",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/detail/09.webp?v=20261102c",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/detail/10.webp?v=20261102c",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/detail/11.webp?v=20261102c",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/detail/12.webp?v=20261102c",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/detail/13.webp?v=20261102c",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/detail/14.webp?v=20261102c"
-      ]
+     "icon": "power",
+     "text": {
+      "en": "126000RPM high-speed motor with 200000Pa suction",
+      "zh": "126000RPM 高速电机，200000Pa 强劲吸力",
+      "ar": "محرك عالي السرعة 126000RPM بقوة شفط 200000Pa",
+      "es": "Motor de alta velocidad 126000RPM con succión de 200000Pa",
+      "fr": "Moteur haute vitesse 126000RPM avec aspiration de 200000Pa",
+      "id": "Motor kecepatan tinggi 126000RPM dengan daya hisap 200000Pa",
+      "ru": "Высокоскоростной мотор 126000 об/мин со всасыванием 200000 Па",
+      "th": "มอเตอร์ความเร็วสูง 126000RPM แรงดูด 200000Pa",
+      "vi": "Động cơ tốc độ cao 126000RPM với lực hút 200000Pa"
+     }
     },
     {
-      "id": "cv4000",
-      "name": {
-        "en": "CV-4000 4000Pa Cordless Handheld Vacuum Cleaner · 50W Wet & Dry with 7 Accessories",
-        "zh": "CV-4000 4000Pa 无线手持吸尘器 · 50W 干湿两用 7 件配件",
-        "ar": "مكنسة يدوية لاسلكية CV-4000 بقوة 4000 باسكال · 50 واط للتنظيف الجاف والرطب مع 7 ملحقات",
-        "es": "Aspiradora de mano inalámbrica CV-4000 de 4000Pa · 50W húmedo/seco con 7 accesorios",
-        "fr": "Aspirateur à main sans fil CV-4000 4000Pa · 50W humide/sec avec 7 accessoires",
-        "id": "Vacuum cleaner genggam nirkabel CV-4000 4000Pa · 50W basah/kering dengan 7 aksesori",
-        "ru": "Ручной беспроводной пылесос CV-4000 4000 Па · 50 Вт, влажная и сухая уборка, 7 насадок",
-        "th": "เครื่องดูดฝุ่นมือถือไร้สาย CV-4000 4000Pa · 50W เปียก/แห้ง พร้อมอุปกรณ์ 7 ชิ้น",
-        "vi": "Máy hút bụi cầm tay không dây CV-4000 4000Pa · 50W ướt/khô kèm 7 phụ kiện"
-      },
-      "tagline": {
-        "en": "4000Pa · 50 W · 15 min",
-        "zh": "4000Pa · 50 W · 15 min",
-        "ar": "4000Pa · 50 W · 15 min",
-        "es": "4000Pa · 50 W · 15 min",
-        "fr": "4000Pa · 50 W · 15 min",
-        "id": "4000Pa · 50 W · 15 min",
-        "ru": "4000Pa · 50 W · 15 min",
-        "th": "4000Pa · 50 W · 15 min",
-        "vi": "4000Pa · 50 W · 15 min"
-      },
-      "images": [
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-cv4000/01.webp?v=20261031d",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-cv4000/02.webp?v=20261031d",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-cv4000/03.webp?v=20261031d",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-cv4000/04.webp?v=20261031d",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-cv4000/05.webp?v=20261031d",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-cv4000/06.webp?v=20261031d"
-      ],
-      "video_url": null,
-      "moq": {
-        "value": 2,
-        "unit": "pieces"
-      },
-      "certifications": [
-        "CE"
-      ],
-      "highlights": [
-        {
-          "icon": "suction",
-          "text": {
-            "en": "4000 Pa suction from a 50 W motor — picks up crumbs, pet hair and dust in one pass",
-            "zh": "50W 电机带来 4000Pa 吸力，一次带走碎屑、宠物毛发与灰尘",
-            "ar": "قوة شفط 4000 باسكال بمحرك 50 واط تلتقط الفتات وشعر الحيوانات والغبار بمرور واحد",
-            "es": "Succión de 4000 Pa con motor de 50 W: migas, pelos y polvo en una pasada",
-            "fr": "Aspiration de 4000 Pa avec moteur de 50 W : miettes, poils et poussière en un seul passage",
-            "id": "Hisap 4000 Pa dari motor 50 W — mengangkat remah, bulu hewan, dan debu sekali jalan",
-            "ru": "Сила всасывания 4000 Па при моторе 50 Вт — крошки, шерсть и пыль за один проход",
-            "th": "แรงดูด 4000Pa จากมอเตอร์ 50 วัตต์ จัดการเศษขนมปัง ขนสัตว์ และฝุ่นในครั้งเดียว",
-            "vi": "Lực hút 4000 Pa từ động cơ 50 W — hút vụn bánh, lông thú và bụi chỉ một lần"
-          }
-        },
-        {
-          "icon": "battery",
-          "text": {
-            "en": "Twin 1500 mAh cells, about 15 min runtime, Type-C recharge anywhere",
-            "zh": "双节 1500mAh 电池，约 15 分钟续航，Type-C 随地充电",
-            "ar": "بطاريتان بسعة 1500 مللي أمبير، نحو 15 دقيقة تشغيل، شحن Type-C في أي مكان",
-            "es": "Dos celdas de 1500 mAh, unos 15 min de autonomía, recarga Type-C en cualquier lugar",
-            "fr": "Deux cellules de 1500 mAh, environ 15 min d'autonomie, recharge Type-C partout",
-            "id": "Dua sel 1500 mAh, sekitar 15 menit pemakaian, isi ulang Type-C di mana saja",
-            "ru": "Два аккумулятора по 1500 мА·ч, около 15 мин работы, зарядка Type-C где угодно",
-            "th": "แบตเตอรี่คู่ 1500mAh ใช้งานได้ราว 15 นาที ชาร์จ Type-C ได้ทุกที่",
-            "vi": "Hai pin 1500 mAh, khoảng 15 phút sử dụng, sạc Type-C mọi nơi"
-          }
-        },
-        {
-          "icon": "filter",
-          "text": {
-            "en": "Washable HEPA filter and one-click 0.12 L bagless dust cup",
-            "zh": "可水洗 HEPA 滤芯 + 0.12L 无尘袋尘杯，一键倾倒",
-            "ar": "فلتر HEPA قابل للغسل وسلة غبار بدون كيس بسعة 0.12 لتر تُفرغ بضغطة واحدة",
-            "es": "Filtro HEPA lavable y depósito sin bolsa de 0,12 L que se vacía con un clic",
-            "fr": "Filtre HEPA lavable et bac sans sac de 0,12 L qui se vide en un clic",
-            "id": "Filter HEPA bisa dicuci dan wadah debu tanpa kantong 0,12 L yang kosong dalam satu klik",
-            "ru": "Моющийся HEPA-фильтр и пылесборник без мешка 0,12 л, опорожняемый одним нажатием",
-            "th": "ฟิลเตอร์ HEPA ล้างได้ และถังเก็บฝุ่นแบบไม่ใช้ถุง 0.12 ลิตร เททิ้งในคลิกเดียว",
-            "vi": "Bộ lọc HEPA giặt được và hộp bụi không túi 0,12 L đổ chỉ một nút bấm"
-          }
-        },
-        {
-          "icon": "accessory",
-          "text": {
-            "en": "Seven accessories: crevice, brush, wide nozzle, extension tube and more",
-            "zh": "7 件配件：扁吸、毛刷、宽嘴吸、延长管等",
-            "ar": "سبعة ملحقات: أداة الشقوق، فرشاة، فوهة عريضة، أنبوب تمديد والمزيد",
-            "es": "Siete accesorios: boquilla para rendijas, cepillo, boquilla ancha, tubo de extensión y más",
-            "fr": "Sept accessoires : suceur plat, brosse, embout large, tube rallonge et plus",
-            "id": "Tujuh aksesori: nozzle celah, sikat, nozzle lebar, tabung ekstensi, dan lainnya",
-            "ru": "Семь насадок: щелевая, щётка, широкая, удлинительная трубка и другие",
-            "th": "อุปกรณ์เสริม 7 ชิ้น: หัวดูดซอก หัวแปรง หัวดูดกว้าง ท่อต่อขยาย และอื่น ๆ",
-            "vi": "7 phụ kiện: đầu hút khe, bàn chải, đầu hút rộng, ống nối dài và hơn nữa"
-          }
-        },
-        {
-          "icon": "blower",
-          "text": {
-            "en": "Blower, inflate and deflate functions for keyboards and storage bags",
-            "zh": "兼具吹风与充/抽气功能，清洁键盘、给收纳袋充气抽气",
-            "ar": "وظائف النفخ والتعبئة والتفريغ للوحة المفاتيح وأكياس التخزين",
-            "es": "Funciones de soplado, inflado y desinflado para teclados y bolsas de almacenamiento",
-            "fr": "Fonctions soufflerie, gonflage et dégonflage pour claviers et sacs de rangement",
-            "id": "Fungsi tiup, kembang, dan kempes untuk keyboard dan kantong penyimpanan",
-            "ru": "Функции обдува, накачивания и сдувания для клавиатуры и вакуумных пакетов",
-            "th": "ฟังก์ชันเป่าลม สูบลม และดูดอากาศ สำหรับคีย์บอร์ดและถุงเก็บของ",
-            "vi": "Chức năng thổi, bơm và hút khí cho bàn phím và túi đựng đồ"
-          }
-        },
-        {
-          "icon": "oem",
-          "text": {
-            "en": "OEM logo, colour and packaging; CE certified, MOQ 2 pieces",
-            "zh": "支持 OEM 定制 logo、颜色与包装；CE 认证，起订量 2 台",
-            "ar": "تخصيص OEM للشعار واللون والتغليف؛ شهادة CE، والحد الأدنى للطلب قطعتان",
-            "es": "Personalización OEM de logotipo, color y embalaje; certificación CE, pedido mínimo 2 unidades",
-            "fr": "Personnalisation OEM du logo, de la couleur et de l'emballage ; certification CE, MOQ 2 pièces",
-            "id": "Kustomisasi OEM logo, warna, dan kemasan; bersertifikat CE, MOQ 2 unit",
-            "ru": "OEM-кастомизация логотипа, цвета и упаковки; сертификат CE, минимальный заказ 2 шт.",
-            "th": "รองรับ OEM ปรับโลโก้ สี และบรรจุภัณฑ์ ได้รับรอง CE สั่งขั้นต่ำ 2 เครื่อง",
-            "vi": "Hỗ trợ OEM logo, màu sắc, bao bì; chứng nhận CE, MOQ 2 chiếc"
-          }
-        }
-      ],
-      "specs": [
-        {
-          "label": {
-            "en": "Model",
-            "zh": "型号",
-            "ar": "الطراز",
-            "es": "Modelo",
-            "fr": "Modèle",
-            "id": "Model",
-            "ru": "Модель",
-            "th": "รุ่น",
-            "vi": "Mẫu"
-          },
-          "value": {
-            "en": "CV-4000",
-            "zh": "CV-4000",
-            "ar": "CV-4000",
-            "es": "CV-4000",
-            "fr": "CV-4000",
-            "id": "CV-4000",
-            "ru": "CV-4000",
-            "th": "CV-4000",
-            "vi": "CV-4000"
-          }
-        },
-        {
-          "label": {
-            "en": "Suction",
-            "zh": "吸力",
-            "ar": "الشفط",
-            "es": "Succión",
-            "fr": "Aspiration",
-            "id": "Daya Hisap",
-            "ru": "Всасывание",
-            "th": "แรงดูด",
-            "vi": "Lực hút"
-          },
-          "value": {
-            "en": "4000 Pa",
-            "zh": "4000 Pa",
-            "ar": "4000 Pa",
-            "es": "4000 Pa",
-            "fr": "4000 Pa",
-            "id": "4000 Pa",
-            "ru": "4000 Pa",
-            "th": "4000 Pa",
-            "vi": "4000 Pa"
-          }
-        },
-        {
-          "label": {
-            "en": "Rated Power",
-            "zh": "额定功率",
-            "ar": "القدرة المقدرة",
-            "es": "Potencia nominal",
-            "fr": "Puissance nominale",
-            "id": "Daya Terukur",
-            "ru": "Номинальная мощность",
-            "th": "กำลังไฟ",
-            "vi": "Công suất"
-          },
-          "value": {
-            "en": "50 W",
-            "zh": "50 W",
-            "ar": "50 W",
-            "es": "50 W",
-            "fr": "50 W",
-            "id": "50 W",
-            "ru": "50 W",
-            "th": "50 W",
-            "vi": "50 W"
-          }
-        },
-        {
-          "label": {
-            "en": "Battery",
-            "zh": "电池",
-            "ar": "البطارية",
-            "es": "Batería",
-            "fr": "Batterie",
-            "id": "Baterai",
-            "ru": "Аккумулятор",
-            "th": "แบตเตอรี่",
-            "vi": "Pin"
-          },
-          "value": {
-            "en": "1500 mAh × 2 (7.4 V)",
-            "zh": "1500 mAh × 2 (7.4 V)",
-            "ar": "1500 mAh × 2 (7.4 V)",
-            "es": "1500 mAh × 2 (7.4 V)",
-            "fr": "1500 mAh × 2 (7.4 V)",
-            "id": "1500 mAh × 2 (7.4 V)",
-            "ru": "1500 mAh × 2 (7.4 V)",
-            "th": "1500 mAh × 2 (7.4 V)",
-            "vi": "1500 mAh × 2 (7.4 V)"
-          }
-        },
-        {
-          "label": {
-            "en": "Runtime",
-            "zh": "续航时间",
-            "ar": "مدة التشغيل",
-            "es": "Autonomía",
-            "fr": "Autonomie",
-            "id": "Daya Tahan",
-            "ru": "Время работы",
-            "th": "ระยะเวลาใช้งาน",
-            "vi": "Thời gian dùng"
-          },
-          "value": {
-            "en": "15 min",
-            "zh": "15 min",
-            "ar": "15 min",
-            "es": "15 min",
-            "fr": "15 min",
-            "id": "15 min",
-            "ru": "15 min",
-            "th": "15 min",
-            "vi": "15 min"
-          }
-        },
-        {
-          "label": {
-            "en": "Noise Level",
-            "zh": "噪音",
-            "ar": "مستوى الضوضاء",
-            "es": "Nivel de ruido",
-            "fr": "Niveau sonore",
-            "id": "Tingkat Kebisingan",
-            "ru": "Уровень шума",
-            "th": "ระดับเสียง",
-            "vi": "Độ ồn"
-          },
-          "value": {
-            "en": "≤75 dB",
-            "zh": "≤75 dB",
-            "ar": "≤75 dB",
-            "es": "≤75 dB",
-            "fr": "≤75 dB",
-            "id": "≤75 dB",
-            "ru": "≤75 dB",
-            "th": "≤75 dB",
-            "vi": "≤75 dB"
-          }
-        },
-        {
-          "label": {
-            "en": "Dust Cup Capacity",
-            "zh": "尘杯容量",
-            "ar": "سعة وعاء الغبار",
-            "es": "Capacidad del depósito",
-            "fr": "Capacité du bac",
-            "id": "Kapasitas Wadah Debu",
-            "ru": "Объём пылесборника",
-            "th": "ความจุถังฝุ่น",
-            "vi": "Dung tích hộp bụi"
-          },
-          "value": {
-            "en": "0.12 L",
-            "zh": "0.12 L",
-            "ar": "0.12 L",
-            "es": "0.12 L",
-            "fr": "0.12 L",
-            "id": "0.12 L",
-            "ru": "0.12 L",
-            "th": "0.12 L",
-            "vi": "0.12 L"
-          }
-        },
-        {
-          "label": {
-            "en": "Filter Type",
-            "zh": "滤芯类型",
-            "ar": "نوع الفلتر",
-            "es": "Tipo de filtro",
-            "fr": "Type de filtre",
-            "id": "Jenis Filter",
-            "ru": "Тип фильтра",
-            "th": "ชนิดฟิลเตอร์",
-            "vi": "Loại bộ lọc"
-          },
-          "value": {
-            "en": "HEPA, washable",
-            "zh": "HEPA，可水洗",
-            "ar": "HEPA قابل للغسل",
-            "es": "HEPA lavable",
-            "fr": "HEPA lavable",
-            "id": "HEPA, bisa dicuci",
-            "ru": "HEPA, моющийся",
-            "th": "HEPA ล้างได้",
-            "vi": "HEPA, giặt được"
-          }
-        },
-        {
-          "label": {
-            "en": "Material",
-            "zh": "材质",
-            "ar": "المادة",
-            "es": "Material",
-            "fr": "Matériau",
-            "id": "Material",
-            "ru": "Материал",
-            "th": "วัสดุ",
-            "vi": "Chất liệu"
-          },
-          "value": {
-            "en": "ABS plastic",
-            "zh": "ABS 塑料",
-            "ar": "بلاستيك ABS",
-            "es": "Plástico ABS",
-            "fr": "Plastique ABS",
-            "id": "Plastik ABS",
-            "ru": "ABS-пластик",
-            "th": "พลาสติก ABS",
-            "vi": "Nhựa ABS"
-          }
-        },
-        {
-          "label": {
-            "en": "Motor Type",
-            "zh": "电机类型",
-            "ar": "نوع المحرك",
-            "es": "Tipo de motor",
-            "fr": "Type de moteur",
-            "id": "Jenis Motor",
-            "ru": "Тип двигателя",
-            "th": "ชนิดมอเตอร์",
-            "vi": "Loại động cơ"
-          },
-          "value": {
-            "en": "Brushed motor",
-            "zh": "有刷电机",
-            "ar": "محرك بفرش",
-            "es": "Motor con escobillas",
-            "fr": "Moteur à balais",
-            "id": "Motor ber-sikat",
-            "ru": "Коллекторный двигатель",
-            "th": "มอเตอร์แบบมีแปรงถ่าน",
-            "vi": "Động cơ chổi than"
-          }
-        },
-        {
-          "label": {
-            "en": "Charging",
-            "zh": "充电方式",
-            "ar": "الشحن",
-            "es": "Carga",
-            "fr": "Recharge",
-            "id": "Pengisian",
-            "ru": "Зарядка",
-            "th": "การชาร์จ",
-            "vi": "Sạc"
-          },
-          "value": {
-            "en": "Type-C",
-            "zh": "Type-C",
-            "ar": "Type-C",
-            "es": "Type-C",
-            "fr": "Type-C",
-            "id": "Type-C",
-            "ru": "Type-C",
-            "th": "Type-C",
-            "vi": "Type-C"
-          }
-        },
-        {
-          "label": {
-            "en": "Cable Length",
-            "zh": "电源线长度",
-            "ar": "طول السلك",
-            "es": "Longitud del cable",
-            "fr": "Longueur du câble",
-            "id": "Panjang Kabel",
-            "ru": "Длина кабеля",
-            "th": "ความยาวสาย",
-            "vi": "Chiều dài dây"
-          },
-          "value": {
-            "en": "0.5 m",
-            "zh": "0.5 m",
-            "ar": "0.5 m",
-            "es": "0.5 m",
-            "fr": "0.5 m",
-            "id": "0.5 m",
-            "ru": "0.5 m",
-            "th": "0.5 m",
-            "vi": "0.5 m"
-          }
-        },
-        {
-          "label": {
-            "en": "Net Weight",
-            "zh": "净重",
-            "ar": "الوزن الصافي",
-            "es": "Peso neto",
-            "fr": "Poids net",
-            "id": "Berat Bersih",
-            "ru": "Вес нетто",
-            "th": "น้ำหนักสุทธิ",
-            "vi": "Trọng lượng tịnh"
-          },
-          "value": {
-            "en": "500 g",
-            "zh": "500 g",
-            "ar": "500 g",
-            "es": "500 g",
-            "fr": "500 g",
-            "id": "500 g",
-            "ru": "500 g",
-            "th": "500 g",
-            "vi": "500 g"
-          }
-        },
-        {
-          "label": {
-            "en": "Gross Weight",
-            "zh": "毛重",
-            "ar": "الوزن الإجمالي",
-            "es": "Peso bruto",
-            "fr": "Poids brut",
-            "id": "Berat Kotor",
-            "ru": "Вес брутто",
-            "th": "น้ำหนักรวม",
-            "vi": "Trọng lượng gộp"
-          },
-          "value": {
-            "en": "600 g",
-            "zh": "600 g",
-            "ar": "600 g",
-            "es": "600 g",
-            "fr": "600 g",
-            "id": "600 g",
-            "ru": "600 g",
-            "th": "600 g",
-            "vi": "600 g"
-          }
-        },
-        {
-          "label": {
-            "en": "Product Size",
-            "zh": "产品尺寸",
-            "ar": "حجم المنتج",
-            "es": "Tamaño del producto",
-            "fr": "Dimensions",
-            "id": "Ukuran Produk",
-            "ru": "Размеры",
-            "th": "ขนาดสินค้า",
-            "vi": "Kích thước"
-          },
-          "value": {
-            "en": "18 × 19 × 6.3 cm",
-            "zh": "18 × 19 × 6.3 cm",
-            "ar": "18 × 19 × 6.3 cm",
-            "es": "18 × 19 × 6.3 cm",
-            "fr": "18 × 19 × 6.3 cm",
-            "id": "18 × 19 × 6.3 cm",
-            "ru": "18 × 19 × 6.3 cm",
-            "th": "18 × 19 × 6.3 cm",
-            "vi": "18 × 19 × 6.3 cm"
-          }
-        },
-        {
-          "label": {
-            "en": "Accessories",
-            "zh": "配件数量",
-            "ar": "الملحقات",
-            "es": "Accesorios",
-            "fr": "Accessoires",
-            "id": "Aksesori",
-            "ru": "Насадки",
-            "th": "อุปกรณ์เสริม",
-            "vi": "Phụ kiện"
-          },
-          "value": {
-            "en": "7 pieces",
-            "zh": "7 件",
-            "ar": "7 قطع",
-            "es": "7 piezas",
-            "fr": "7 pièces",
-            "id": "7 buah",
-            "ru": "7 шт.",
-            "th": "7 ชิ้น",
-            "vi": "7 món"
-          }
-        },
-        {
-          "label": {
-            "en": "Application",
-            "zh": "适用场景",
-            "ar": "التطبيق",
-            "es": "Aplicación",
-            "fr": "Application",
-            "id": "Aplikasi",
-            "ru": "Применение",
-            "th": "การใช้งาน",
-            "vi": "Ứng dụng"
-          },
-          "value": {
-            "en": "Car, home, hotel, outdoor",
-            "zh": "车载、家用、酒店、户外",
-            "ar": "سيارة، منزل، فندق، خارجي",
-            "es": "Coche, hogar, hotel, exterior",
-            "fr": "Voiture, maison, hôtel, extérieur",
-            "id": "Mobil, rumah, hotel, luar ruangan",
-            "ru": "Авто, дом, отель, улица",
-            "th": "รถยนต์ บ้าน โรงแรม กลางแจ้ง",
-            "vi": "Xe hơi, gia đình, khách sạn, ngoài trời"
-          }
-        },
-        {
-          "label": {
-            "en": "Certification",
-            "zh": "认证",
-            "ar": "الشهادة",
-            "es": "Certificación",
-            "fr": "Certification",
-            "id": "Sertifikasi",
-            "ru": "Сертификация",
-            "th": "การรับรอง",
-            "vi": "Chứng nhận"
-          },
-          "value": {
-            "en": "CE / RoHS / FCC",
-            "zh": "CE / RoHS / FCC",
-            "ar": "CE / RoHS / FCC",
-            "es": "CE / RoHS / FCC",
-            "fr": "CE / RoHS / FCC",
-            "id": "CE / RoHS / FCC",
-            "ru": "CE / RoHS / FCC",
-            "th": "CE / RoHS / FCC",
-            "vi": "CE / RoHS / FCC"
-          }
-        }
-      ],
-      "packaging": {
-        "en": "1 pc / colour box; 20 pcs / carton",
-        "zh": "1 台/彩盒；20 台/箱"
-      },
-      "customization": {
-        "en": "Logo, colour and packaging (OEM/ODM)",
-        "zh": "logo、颜色与包装（OEM/ODM）"
-      },
-      "applications": {
-        "en": "Car, home, hotel, outdoor",
-        "zh": "车载、家用、酒店、户外",
-        "ar": "سيارة، منزل، فندق، خارجي",
-        "es": "Coche, hogar, hotel, exterior",
-        "fr": "Voiture, maison, hôtel, extérieur",
-        "id": "Mobil, rumah, hotel, luar ruangan",
-        "ru": "Авто, дом, отель, улица",
-        "th": "รถยนต์ บ้าน โรงแรม กลางแจ้ง",
-        "vi": "Xe hơi, gia đình, khách sạn, ngoài trời"
-      },
-      "price_indicator": {
-        "min": 5.9,
-        "max": 6.9,
-        "currency": "USD"
-      },
-      "quick_specs": [
-        {
-          "label": {
-            "en": "Suction",
-            "zh": "吸力",
-            "ar": "الشفط",
-            "es": "Succión",
-            "fr": "Aspiration",
-            "id": "Daya Hisap",
-            "ru": "Всасывание",
-            "th": "แรงดูด",
-            "vi": "Lực hút"
-          },
-          "value": {
-            "en": "4000 Pa",
-            "zh": "4000 Pa",
-            "ar": "4000 Pa",
-            "es": "4000 Pa",
-            "fr": "4000 Pa",
-            "id": "4000 Pa",
-            "ru": "4000 Pa",
-            "th": "4000 Pa",
-            "vi": "4000 Pa"
-          }
-        },
-        {
-          "label": {
-            "en": "Rated Power",
-            "zh": "额定功率",
-            "ar": "القدرة المقدرة",
-            "es": "Potencia nominal",
-            "fr": "Puissance nominale",
-            "id": "Daya Terukur",
-            "ru": "Номинальная мощность",
-            "th": "กำลังไฟ",
-            "vi": "Công suất"
-          },
-          "value": {
-            "en": "50 W",
-            "zh": "50 W",
-            "ar": "50 W",
-            "es": "50 W",
-            "fr": "50 W",
-            "id": "50 W",
-            "ru": "50 W",
-            "th": "50 W",
-            "vi": "50 W"
-          }
-        },
-        {
-          "label": {
-            "en": "Runtime",
-            "zh": "续航时间",
-            "ar": "مدة التشغيل",
-            "es": "Autonomía",
-            "fr": "Autonomie",
-            "id": "Daya Tahan",
-            "ru": "Время работы",
-            "th": "ระยะเวลาใช้งาน",
-            "vi": "Thời gian dùng"
-          },
-          "value": {
-            "en": "15 min",
-            "zh": "15 min",
-            "ar": "15 min",
-            "es": "15 min",
-            "fr": "15 min",
-            "id": "15 min",
-            "ru": "15 min",
-            "th": "15 min",
-            "vi": "15 min"
-          }
-        },
-        {
-          "label": {
-            "en": "Dust Cup Capacity",
-            "zh": "尘杯容量",
-            "ar": "سعة وعاء الغبار",
-            "es": "Capacidad del depósito",
-            "fr": "Capacité du bac",
-            "id": "Kapasitas Wadah Debu",
-            "ru": "Объём пылесборника",
-            "th": "ความจุถังฝุ่น",
-            "vi": "Dung tích hộp bụi"
-          },
-          "value": {
-            "en": "0.12 L",
-            "zh": "0.12 L",
-            "ar": "0.12 L",
-            "es": "0.12 L",
-            "fr": "0.12 L",
-            "id": "0.12 L",
-            "ru": "0.12 L",
-            "th": "0.12 L",
-            "vi": "0.12 L"
-          }
-        }
-      ],
-      "price_ladder": [
-        {
-          "min": 2,
-          "max": 999,
-          "price": 6.9
-        },
-        {
-          "min": 1000,
-          "max": 1999,
-          "price": 6.5
-        },
-        {
-          "min": 2000,
-          "max": -1,
-          "price": 5.9
-        }
-      ],
-      "sku": [
-        {
-          "name": {
-            "en": "Colour",
-            "zh": "颜色",
-            "ar": "اللون",
-            "es": "Color",
-            "fr": "Couleur",
-            "id": "Warna",
-            "ru": "Цвет",
-            "th": "สี",
-            "vi": "Màu sắc"
-          },
-          "values": [
-            {
-              "name": "Black"
-            }
-          ]
-        },
-        {
-          "name": {
-            "en": "Plug Type",
-            "zh": "插头类型",
-            "ar": "نوع القابس",
-            "es": "Tipo de enchufe",
-            "fr": "Type de prise",
-            "id": "Jenis steker",
-            "ru": "Тип вилки",
-            "th": "ประเภทปลั๊ก",
-            "vi": "Loại phích cắm"
-          },
-          "values": [
-            {
-              "name": "Type-C"
-            }
-          ]
-        }
-      ],
-      "description": {
-        "en": "CV-4000 is a pocket-size cordless handheld vacuum built for car interiors and quick home clean-ups. A 50 W motor delivers 4000 Pa of suction through a washable HEPA filter, while twin 1500 mAh cells give about 15 minutes of runtime and recharge over Type-C. The 0.12 L bagless dust cup empties in one click, and the seven included nozzles cover crevices, upholstery, keyboards, pet hair, and even inflating or deflating storage bags. The ABS housing weighs just 500 g. OEM logo, colour and packaging are customisable; CE certified, MOQ 2 pieces.",
-        "zh": "CV-4000 是一款口袋大小的无线手持吸尘器，专为车内与居家快速清洁设计。50W 电机通过可水洗 HEPA 滤芯提供 4000Pa 吸力，双节 1500mAh 电池可连续使用约 15 分钟，Type-C 充电。0.12L 无尘袋尘杯一键倾倒，随机 7 件配件覆盖缝隙、布艺、键盘、宠物毛发，还可给收纳袋充气/抽气。ABS 机身仅重 500g。支持 OEM 定制 logo、颜色与包装；CE 认证，最小起订量 2 台。",
-        "ar": "CV-4000 مكنسة يدوية لاسلكية بحجم الجيب مصممة لتنظيف السيارات والمنزل بسرعة. محرك 50 واط يوفر قوة شفط 4000 باسكال عبر فلتر HEPA قابل للغسل، وبطاريتي 1500 مللي أمبير تمنحان نحو 15 دقيقة من العمل وتُشحنان عبر Type-C. سلة غبار بسعة 0.12 لتر بدون كيس تُفرغ بضغطة واحدة، والملحقات السبع تغطي الشقوق والمفروشات ولوحة المفاتيح وشعر الحيوانات وحتى نفخ وتفريغ أكياس التخزين. هيكل ABS بوزن 500 غرام فقط. تتوفر خيارات OEM للشعار واللون والتغليف؛ حاصلة على شهادة CE، والحد الأدنى للطلب قطعتان.",
-        "es": "La CV-4000 es una aspiradora de mano inalámbrica de bolsillo pensada para el interior del coche y limpiezas rápidas en casa. Su motor de 50 W ofrece 4000 Pa de succión a través de un filtro HEPA lavable, y sus dos celdas de 1500 mAh dan unos 15 minutos de autonomía con recarga Type-C. El depósito sin bolsa de 0,12 L se vacía con un clic y los siete accesorios incluidos cubren rendijas, tapicerías, teclados, pelo de mascotas e incluso inflar o desinflar bolsas de almacenamiento. Carcasa de ABS de solo 500 g. Personalización OEM de logotipo, color y embalaje; certificación CE, pedido mínimo 2 unidades.",
-        "fr": "La CV-4000 est un aspirateur à main sans fil format de poche conçu pour l'intérieur de voiture et les nettoyages rapides à la maison. Son moteur de 50 W délivre 4000 Pa d'aspiration via un filtre HEPA lavable, et ses deux cellules de 1500 mAh offrent environ 15 minutes d'autonomie avec recharge Type-C. Le bac à poussière sans sac de 0,12 L se vide en un clic, et les sept accessoires couvrent les recoins, tissus, claviers, poils d'animaux, ainsi que le gonflage et le dégonflage des sacs de rangement. Coque ABS de seulement 500 g. Personnalisation OEM du logo, de la couleur et de l'emballage ; certification CE, MOQ 2 pièces.",
-        "id": "CV-4000 adalah vacuum cleaner genggam nirkabel berukuran saku untuk interior mobil dan pembersihan rumah cepat. Motor 50 W menghasilkan hisap 4000 Pa melalui filter HEPA yang bisa dicuci, dan dua sel 1500 mAh memberi sekitar 15 menit pemakaian dengan pengisian Type-C. Wadah debu tanpa kantong 0,12 L dikosongkan dengan satu klik, dan tujuh aksesori mencakup celah, pelapis, keyboard, bulu hewan, bahkan mengembang dan mengempeskan kantong penyimpanan. Bodi ABS hanya 500 g. Tersedia kustomisasi OEM logo, warna, dan kemasan; bersertifikat CE, MOQ 2 unit.",
-        "ru": "CV-4000 — компактный ручной беспроводной пылесос для салона автомобиля и быстрой уборки дома. Мотор 50 Вт обеспечивает силу всасывания 4000 Па через моющийся HEPA-фильтр, а два аккумулятора по 1500 мА·ч дают около 15 минут работы и заряжаются через Type-C. Пылесборник объёмом 0,12 л без мешка опорожняется одним нажатием, а семь насадок подходят для щелей, обивки, клавиатуры, шерсти питомцев, а также для накачивания и сдувания вакуумных пакетов. Корпус из ABS весит всего 500 г. Возможна OEM-кастомизация логотипа, цвета и упаковки; сертификат CE, минимальный заказ 2 шт.",
-        "th": "CV-4000 คือเครื่องดูดฝุ่นมือถือไร้สายขนาดพกพา ออกแบบสำหรับภายในรถและการทำความสะอาดบ้านอย่างรวดเร็ว มอเตอร์ 50 วัตต์ ให้แรงดูด 4000Pa ผ่านฟิลเตอร์ HEPA ที่ล้างได้ แบตเตอรี่คู่ 1500mAh ใช้งานได้ประมาณ 15 นาทีและชาร์จผ่าน Type-C ถังเก็บฝุ่นแบบไม่ใช้ถุง 0.12 ลิตร เททิ้งได้ในคลิกเดียว และอุปกรณ์เสริม 7 ชิ้นครอบคลุมซอกแคบ เบาะ คีย์บอร์ด ขนสัตว์เลี้ยง และยังใช้เป่าลม/ดูดอากาศถุงเก็บของได้ ตัวเครื่อง ABS หนักเพียง 500 กรัม รองรับ OEM ปรับโลโก้ สี และบรรจุภัณฑ์ ได้รับการรับรอง CE สั่งขั้นต่ำ 2 เครื่อง",
-        "vi": "CV-4000 là máy hút bụi cầm tay không dây cỡ túi, thiết kế cho nội thất xe hơi và dọn nhà nhanh. Động cơ 50 W cho lực hút 4000 Pa qua bộ lọc HEPA có thể giặt, hai pin 1500 mAh cho khoảng 15 phút sử dụng và sạc qua Type-C. Hộp bụi không túi 0,12 L đổ chỉ bằng một nút bấm, và 7 phụ kiện đi kèm phủ kẽ hẹp, nệm, bàn phím, lông thú, thậm chí bơm/hút túi đựng đồ. Vỏ ABS chỉ nặng 500 g. Hỗ trợ OEM tuỳ chỉnh logo, màu sắc và bao bì; chứng nhận CE, MOQ 2 chiếc."
-      },
-      "supplier_rating": "4.6",
-      "response_time": "≤2h",
-      "transactions": "21",
-      "years": "1",
-      "ship_from": "Guangdong, China",
-      "sample": {
-        "price": 6.9,
-        "max_qty": 2
-      },
-      "category_name": {
-        "en": "Car Vacuum Cleaners",
-        "zh": "车载吸尘器",
-        "es": "Aspirador de Coche",
-        "ar": "مكنسة سيارات",
-        "fr": "Aspirateur voiture",
-        "id": "Penyedot Debu Mobil",
-        "ru": "Автомобильный пылесос",
-        "th": "เครื่องดูดฝุ่นในรถ",
-        "vi": "Máy hút bụi ô tô"
-      },
-      "_source": "https://www.alibaba.com/product-detail/4000Pa-Cordless-Handheld-Vacuum-Cleaner-50W_1601895691560.html",
-      "_cat": "car-vacuum",
-      "detail_images": [
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-cv4000/detail/01.webp?v=20261031d",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-cv4000/detail/02.webp?v=20261031d",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-cv4000/detail/03.webp?v=20261031d",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-cv4000/detail/04.webp?v=20261031d",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-cv4000/detail/05.webp?v=20261031d",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-cv4000/detail/06.webp?v=20261031d",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-cv4000/detail/07.webp?v=20261031d"
-      ],
-      "version": "20261031d"
+     "icon": "mop",
+     "text": {
+      "en": "4-in-1: vacuum, blow, inflate and compress",
+      "zh": "四合一：吸尘、吹气、充气放气、压缩",
+      "ar": "٤ في ١: شفط، نفخ، تهوية وضغط",
+      "es": "4 en 1: aspirar, soplar, inflar y comprimir",
+      "fr": "4-en-1 : aspirer, souffler, gonfler et comprimer",
+      "id": "4-in-1: sedot, tiup, isi udara, dan kompres",
+      "ru": "4-в-1: всасывание, выдувание, накачивание и сжатие",
+      "th": "4-in-1: ดูดฝุ่น เป่าลม อัดลม ระบายลม",
+      "vi": "4-in-1: hút bụi, thổi khí, bơm hơi và nén khí"
+     }
+    },
+    {
+     "icon": "battery",
+     "text": {
+      "en": "100 W power, 2000 mAh battery, 16-32 min runtime",
+      "zh": "100W 大功率，2000mAh 电池，16-32 分钟续航",
+      "ar": "قوة 100 واط، بطارية 2000 مللي أمبير، تشغيل 16-32 دقيقة",
+      "es": "100 W de potencia, batería de 2000 mAh, 16-32 min de uso",
+      "fr": "Puissance 100 W, batterie 2000 mAh, autonomie 16-32 min",
+      "id": "Daya 100 W, baterai 2000 mAh, pakai 16-32 menit",
+      "ru": "Мощность 100 Вт, аккумулятор 2000 мАч, работа 16-32 мин",
+      "th": "พลังงาน 100 W แบตเตอรี่ 2000 mAh ใช้งาน 16-32 นาที",
+      "vi": "Công suất 100 W, pin 2000 mAh, hoạt động 16-32 phút"
+     }
+    },
+    {
+     "icon": "filter",
+     "text": {
+      "en": "HEPA filter with laser dust illumination, only 75 dB",
+      "zh": "HEPA 滤网 + 激光尘埃照明，噪音仅 75dB",
+      "ar": "فلتر HEPA مع إضاءة ليزر للغبار وضجيج 75 ديسيبل فقط",
+      "es": "Filtro HEPA con iluminación láser de polvo, solo 75 dB",
+      "fr": "Filtre HEPA avec éclairage laser des poussières, seulement 75 dB",
+      "id": "Filter HEPA dengan lampu laser debu, hanya 75 dB",
+      "ru": "HEPA-фильтр с лазерной подсветкой пыли, всего 75 дБ",
+      "th": "ฟิลเตอร์ HEPA พร้อมไฟเลเซอร์ส่องฝุ่น เสียงเพียง 75 dB",
+      "vi": "Lọc HEPA với đèn laser soi bụi, độ ồn chỉ 75 dB"
+     }
     }
-  ],
-  "reviews": [
+   ],
+   "specs": [
     {
-      "name": "Ryan Cooper",
-      "location": "Chicago, IL, USA",
-      "rating": 5,
-      "date": "2025-10-29",
-      "title": "Strongest 12V car vacuum I have tested — handles sand and gravel",
-      "body": "I tested 6 different car vacuums and this one has the highest suction at 5000Pa. It pulls sand from the carpet, crumbs from the seat crevices, and even pet hair. The washable HEPA filter is a huge plus. See the before/after photos of my truck bed.",
-      "photoUrls": [
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/01.webp?v=20261029p",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/02.webp?v=20261029p"
-      ]
+     "label": {
+      "en": "Product name",
+      "zh": "Product name",
+      "es": "Nombre del producto",
+      "ar": "اسم المنتج",
+      "fr": "Nom du produit",
+      "id": "Nama produk",
+      "ru": "Название товара",
+      "th": "ชื่อสินค้า",
+      "vi": "Tên sản phẩm"
+     },
+     "value": {
+      "en": "Handheld Car Vacuum Cleaner",
+      "zh": "手持车载吸尘器",
+      "ar": "مكنسة سيارة محمولة",
+      "es": "Aspiradora de coche de mano",
+      "fr": "Aspirateur de voiture de main",
+      "id": "Penyedot debu mobil genggam",
+      "ru": "Ручной автомобильный пылесос",
+      "th": "เครื่องดูดฝุ่นรถยนต์แบบถือ",
+      "vi": "Máy hút bụi ô tô cầm tay"
+     }
     },
     {
-      "name": "Nina Johansson",
-      "location": "Stockholm, Sweden",
-      "rating": 5,
-      "date": "2025-08-11",
-      "title": "Compact enough to keep in the glove box, powerful enough for weekly cleans",
-      "body": "At just 1.2kg it fits in our glove box. The 5m car charger cable reaches every corner of our SUV. The LED light on the nozzle is perfect for cleaning under seats at night. No complaints after 8 months of weekly use.",
-      "photoUrls": [
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/01.webp?v=20261029p",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/02.webp?v=20261029p"
-      ]
+     "label": {
+      "en": "Suction",
+      "zh": "Suction",
+      "es": "Succión",
+      "ar": "الشفط",
+      "fr": "Aspiration",
+      "id": "Daya Hisap",
+      "ru": "Всасывание",
+      "th": "แรงดูด",
+      "vi": "Lực hút"
+     },
+     "value": {
+      "en": "200000Pa",
+      "zh": "200000Pa",
+      "ar": "200000Pa",
+      "es": "200000Pa",
+      "fr": "200000Pa",
+      "id": "200000Pa",
+      "ru": "200000 Па",
+      "th": "200000Pa",
+      "vi": "200000Pa"
+     }
     },
     {
-      "name": "Ahmed Hassan",
-      "location": "Dubai, UAE",
-      "rating": 5,
-      "date": "2025-06-18",
-      "title": "DC 12V works perfectly in our extreme summer heat",
-      "body": "Many car accessories fail in Dubai summers. This vacuum has survived temperatures above 45°C in the car. The cord management is neat and the dust cup is easy to empty. The transparent design lets you see when it needs cleaning.",
-      "photoUrls": [
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/01.webp?v=20261029p",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/02.webp?v=20261029p"
-      ]
+     "label": {
+      "en": "Keywords",
+      "zh": "Keywords",
+      "es": "Palabras clave",
+      "ar": "الكلمات المفتاحية",
+      "fr": "Mots-clés",
+      "id": "Kata Kunci",
+      "ru": "Ключевые слова",
+      "th": "คำค้นหา",
+      "vi": "Từ khóa"
+     },
+     "value": {
+      "en": "Car Cordless Cleaner Vacuum",
+      "es": "Aspiradora inalámbrica para coche",
+      "ar": "مكنسة سيارة لاسلكية",
+      "fr": "Aspirateur voiture sans fil",
+      "id": "Penyedot Debu Mobil Nirkabel",
+      "ru": "Беспроводной автомобильный пылесос",
+      "th": "เครื่องดูดฝุ่นไร้สายสำหรับรถยนต์",
+      "vi": "Máy hút bụi ô tô không dây"
+     }
+    },
+    {
+     "label": {
+      "en": "Material",
+      "zh": "材质",
+      "es": "Material",
+      "ar": "المادة",
+      "fr": "Matériau",
+      "id": "Material",
+      "ru": "Материал",
+      "th": "วัสดุ",
+      "vi": "Chất liệu"
+     },
+     "value": {
+      "en": "ABS",
+      "es": "ABS",
+      "ar": "ABS",
+      "fr": "ABS",
+      "id": "ABS",
+      "ru": "ABS",
+      "th": "ABS",
+      "vi": "ABS"
+     }
+    },
+    {
+     "label": {
+      "en": "Battery Capacity",
+      "zh": "电池容量",
+      "es": "Capacidad de batería",
+      "ar": "سعة البطارية",
+      "fr": "Capacité de la batterie",
+      "id": "Kapasitas Baterai",
+      "ru": "Ёмкость аккумулятора",
+      "th": "ความจุแบตเตอรี่",
+      "vi": "Dung lượng pin"
+     },
+     "value": {
+      "en": "2000mAh",
+      "zh": "2000mAh",
+      "ar": "2000mAh",
+      "es": "2000mAh",
+      "fr": "2000mAh",
+      "id": "2000mAh",
+      "ru": "2000 мАч",
+      "th": "2000mAh",
+      "vi": "2000mAh"
+     }
+    },
+    {
+     "label": {
+      "en": "Style",
+      "zh": "Style",
+      "es": "Estilo",
+      "ar": "الطراز",
+      "fr": "Style",
+      "id": "Gaya",
+      "ru": "Стиль",
+      "th": "สไตล์",
+      "vi": "Kiểu dáng"
+     },
+     "value": {
+      "en": "Wireless 4-in-1",
+      "zh": "无线四合一",
+      "ar": "لاسلكي رباعي الوظائف",
+      "es": "Inalámbrico 4 en 1",
+      "fr": "Sans fil 4-en-1",
+      "id": "Nirkabel 4-in-1",
+      "ru": "Беспроводной 4-в-1",
+      "th": "ไร้สาย 4-in-1",
+      "vi": "Không dây 4-in-1"
+     }
+    },
+    {
+     "label": {
+      "en": "Runtime",
+      "zh": "续航时间",
+      "es": "Autonomía",
+      "ar": "مدة التشغيل",
+      "fr": "Autonomie",
+      "id": "Waktu Pakai",
+      "ru": "Время работы",
+      "th": "ระยะเวลาทำงาน",
+      "vi": "Thời gian chạy"
+     },
+     "value": {
+      "en": "16-32 min",
+      "zh": "16-32 分钟",
+      "ar": "16-32 دقيقة",
+      "es": "16-32 min",
+      "fr": "16-32 min",
+      "id": "16-32 menit",
+      "ru": "16-32 мин",
+      "th": "16-32 นาที",
+      "vi": "16-32 phút"
+     }
+    },
+    {
+     "label": {
+      "en": "maximum runtime",
+      "zh": "maximum runtime",
+      "es": "autonomía máxima",
+      "ar": "أقصى مدة تشغيل",
+      "fr": "autonomie maximale",
+      "id": "waktu pakai maksimum",
+      "ru": "макс. время работы",
+      "th": "ระยะเวลาทำงานสูงสุด",
+      "vi": "thời gian chạy tối đa"
+     },
+     "value": {
+      "en": "<30 min",
+      "es": "<30 min",
+      "ar": "<30 min",
+      "fr": "<30 min",
+      "id": "<30 min",
+      "ru": "<30 min",
+      "th": "<30 min",
+      "vi": "<30 min"
+     }
+    },
+    {
+     "label": {
+      "en": "suction power (airwatts)",
+      "zh": "suction power (airwatts)",
+      "es": "potencia de succión (vatios de aire)",
+      "ar": "قوة الشفط (AirWatts)",
+      "fr": "puissance d'aspiration (AirWatts)",
+      "id": "daya hisap (AirWatts)",
+      "ru": "мощность всасывания (AirWatts)",
+      "th": "กำลังดูด (AirWatts)",
+      "vi": "công suất hút (airwatts)"
+     },
+     "value": {
+      "en": "100 AW",
+      "zh": "100 AW",
+      "ar": "100 AW",
+      "es": "100 AW",
+      "fr": "100 AW",
+      "id": "100 AW",
+      "ru": "100 AW",
+      "th": "100 AW",
+      "vi": "100 AW"
+     }
+    },
+    {
+     "label": {
+      "en": "app-controlled",
+      "zh": "app-controlled",
+      "es": "control por app",
+      "ar": "يُتحكم به عبر التطبيق",
+      "fr": "contrôlé par application",
+      "id": "dikendalikan aplikasi",
+      "ru": "управление через приложение",
+      "th": "ควบคุมผ่านแอป",
+      "vi": "điều khiển qua app"
+     },
+     "value": {
+      "en": "No",
+      "es": "No",
+      "ar": "لا",
+      "fr": "Non",
+      "id": "Tidak",
+      "ru": "Нет",
+      "th": "ไม่",
+      "vi": "Không"
+     }
+    },
+    {
+     "label": {
+      "en": "application",
+      "zh": "application",
+      "es": "aplicación",
+      "ar": "التطبيق",
+      "fr": "utilisation",
+      "id": "aplikasi",
+      "ru": "применение",
+      "th": "การใช้งาน",
+      "vi": "ứng dụng"
+     },
+     "value": {
+      "en": "Car",
+      "es": "Coche",
+      "ar": "سيارة",
+      "fr": "Voiture",
+      "id": "Mobil",
+      "ru": "Автомобиль",
+      "th": "รถยนต์",
+      "vi": "Ô tô"
+     }
+    },
+    {
+     "label": {
+      "en": "application",
+      "zh": "application",
+      "es": "aplicación",
+      "ar": "التطبيق",
+      "fr": "utilisation",
+      "id": "aplikasi",
+      "ru": "применение",
+      "th": "การใช้งาน",
+      "vi": "ứng dụng"
+     },
+     "value": {
+      "en": "Household",
+      "es": "Hogar",
+      "ar": "منزلي",
+      "fr": "Ménager",
+      "id": "Rumah tangga",
+      "ru": "Бытовой",
+      "th": "ใช้ในบ้าน",
+      "vi": "Gia dụng"
+     }
+    },
+    {
+     "label": {
+      "en": "application",
+      "zh": "application",
+      "es": "aplicación",
+      "ar": "التطبيق",
+      "fr": "utilisation",
+      "id": "aplikasi",
+      "ru": "применение",
+      "th": "การใช้งาน",
+      "vi": "ứng dụng"
+     },
+     "value": {
+      "en": "Hotel",
+      "es": "Hotel",
+      "ar": "فندق",
+      "fr": "Hôtel",
+      "id": "Hotel",
+      "ru": "Отель",
+      "th": "โรงแรม",
+      "vi": "Khách sạn"
+     }
+    },
+    {
+     "label": {
+      "en": "bag or bagless",
+      "zh": "bag or bagless",
+      "es": "con bolsa o sin bolsa",
+      "ar": "بكيس أو بدون كيس",
+      "fr": "avec sac ou sans sac",
+      "id": "dengan kantong atau tanpa kantong",
+      "ru": "с мешком или без мешка",
+      "th": "มีถุงหรือไม่มีถุง",
+      "vi": "có túi hoặc không túi"
+     },
+     "value": {
+      "en": "Bagless",
+      "es": "Sin bolsa",
+      "ar": "بدون كيس",
+      "fr": "Sans sac",
+      "id": "Tanpa Kantong",
+      "ru": "Без мешка",
+      "th": "ไม่มีถุง",
+      "vi": "Không túi"
+     }
+    },
+    {
+     "label": {
+      "en": "Charging Time",
+      "zh": "充电时间",
+      "es": "Tiempo de carga",
+      "ar": "زمن الشحن",
+      "fr": "Temps de charge",
+      "id": "Waktu Pengisian",
+      "ru": "Время зарядки",
+      "th": "เวลาในการชาร์จ",
+      "vi": "Thời gian sạc"
+     },
+     "value": {
+      "en": "1-3H",
+      "es": "1-3H",
+      "ar": "1-3H",
+      "fr": "1-3H",
+      "id": "1-3H",
+      "ru": "1-3H",
+      "th": "1-3H",
+      "vi": "1-3H"
+     }
+    },
+    {
+     "label": {
+      "en": "filter",
+      "zh": "filter",
+      "es": "filtro",
+      "ar": "الفلتر",
+      "fr": "filtre",
+      "id": "filter",
+      "ru": "фильтр",
+      "th": "ตัวกรอง",
+      "vi": "bộ lọc"
+     },
+     "value": {
+      "en": "HEPA Filter",
+      "es": "Filtro HEPA",
+      "ar": "فلتر HEPA",
+      "fr": "Filtre HEPA",
+      "id": "Filter HEPA",
+      "ru": "Фильтр HEPA",
+      "th": "ตัวกรอง HEPA",
+      "vi": "Bộ lọc HEPA"
+     }
+    },
+    {
+     "label": {
+      "en": "installation",
+      "zh": "installation",
+      "es": "instalación",
+      "ar": "التركيب",
+      "fr": "installation",
+      "id": "instalasi",
+      "ru": "установка",
+      "th": "การติดตั้ง",
+      "vi": "lắp đặt"
+     },
+     "value": {
+      "en": "Hand Held",
+      "es": "De mano",
+      "ar": "محمولة باليد",
+      "fr": "À main",
+      "id": "Genggam",
+      "ru": "Ручной",
+      "th": "แบบพกพา",
+      "vi": "Cầm tay"
+     }
+    },
+    {
+     "label": {
+      "en": "motor type",
+      "zh": "motor type",
+      "es": "tipo de motor",
+      "ar": "نوع المحرك",
+      "fr": "type de moteur",
+      "id": "jenis motor",
+      "ru": "тип двигателя",
+      "th": "ประเภทมอเตอร์",
+      "vi": "loại động cơ"
+     },
+     "value": {
+      "en": "Brushed Motor",
+      "zh": "有刷电机",
+      "ar": "محرك ذو فرشاة",
+      "es": "Motor con escobillas",
+      "fr": "Moteur à balais",
+      "id": "Motor Sikat",
+      "ru": "Щёточный мотор",
+      "th": "มอเตอร์แปรงถ่าน",
+      "vi": "Động cơ chổi than"
+     }
+    },
+    {
+     "label": {
+      "en": "nozzle number",
+      "zh": "nozzle number",
+      "es": "número de boquillas",
+      "ar": "عدد الفوهات",
+      "fr": "nombre de buses",
+      "id": "jumlah nozzle",
+      "ru": "количество насадок",
+      "th": "จำนวนหัวฉีด",
+      "vi": "số đầu vòi"
+     },
+     "value": {
+      "en": "≤3",
+      "zh": "≤3",
+      "ar": "≤3",
+      "es": "≤3",
+      "fr": "≤3",
+      "id": "≤3",
+      "ru": "≤3",
+      "th": "≤3",
+      "vi": "≤3"
+     }
+    },
+    {
+     "label": {
+      "en": "operating language",
+      "zh": "operating language",
+      "es": "idioma de funcionamiento",
+      "ar": "لغة التشغيل",
+      "fr": "langue d'utilisation",
+      "id": "bahasa pengoperasian",
+      "ru": "язык интерфейса",
+      "th": "ภาษาที่ใช้งาน",
+      "vi": "ngôn ngữ hoạt động"
+     },
+     "value": {
+      "en": "English",
+      "es": "Inglés",
+      "ar": "الإنجليزية",
+      "fr": "Anglais",
+      "id": "Inggris",
+      "ru": "Английский",
+      "th": "อังกฤษ",
+      "vi": "Tiếng Anh"
+     }
+    },
+    {
+     "label": {
+      "en": "packaging types",
+      "zh": "packaging types",
+      "es": "tipos de embalaje",
+      "ar": "أنواع التغليف",
+      "fr": "types d'emballage",
+      "id": "jenis kemasan",
+      "ru": "типы упаковки",
+      "th": "ประเภทบรรจุภัณฑ์",
+      "vi": "loại bao bì"
+     },
+     "value": {
+      "en": "Corrugated Box",
+      "es": "Caja de cartón ondulado",
+      "ar": "كرتون مموج",
+      "fr": "Carton ondulé",
+      "id": "Kotak Karton Bergelombang",
+      "ru": "Гофрокоробка",
+      "th": "กล่องกระดาษลูกฟูก",
+      "vi": "Thùng carton sóng"
+     }
+    },
+    {
+     "label": {
+      "en": "packaging types",
+      "zh": "packaging types",
+      "es": "tipos de embalaje",
+      "ar": "أنواع التغليف",
+      "fr": "types d'emballage",
+      "id": "jenis kemasan",
+      "ru": "типы упаковки",
+      "th": "ประเภทบรรจุภัณฑ์",
+      "vi": "loại bao bì"
+     },
+     "value": {
+      "en": "Color Box",
+      "es": "Caja a color",
+      "ar": "علبة ملونة",
+      "fr": "Boîte couleur",
+      "id": "Kotak Warna",
+      "ru": "Цветная коробка",
+      "th": "กล่องสี",
+      "vi": "Hộp màu"
+     }
+    },
+    {
+     "label": {
+      "en": "private mold",
+      "zh": "private mold",
+      "es": "molde propio",
+      "ar": "قالب خاص",
+      "fr": "moule exclusif",
+      "id": "cetakan sendiri",
+      "ru": "собственная пресс-форма",
+      "th": "แม่พิมพ์เฉพาะ",
+      "vi": "khuôn riêng"
+     },
+     "value": {
+      "en": "Yes",
+      "es": "Sí",
+      "ar": "نعم",
+      "fr": "Oui",
+      "id": "Ya",
+      "ru": "Да",
+      "th": "ใช่",
+      "vi": "Có"
+     }
+    },
+    {
+     "label": {
+      "en": "product net weight",
+      "zh": "product net weight",
+      "es": "peso neto",
+      "ar": "الوزن الصافي",
+      "fr": "poids net",
+      "id": "berat bersih",
+      "ru": "вес нетто",
+      "th": "น้ำหนักสุทธิ",
+      "vi": "trọng lượng tịnh"
+     },
+     "value": {
+      "en": "0.5–1 kg",
+      "es": "0.5–1 kg",
+      "ar": "0.5–1 kg",
+      "fr": "0.5–1 kg",
+      "id": "0.5–1 kg",
+      "ru": "0.5–1 kg",
+      "th": "0.5–1 kg",
+      "vi": "0.5–1 kg"
+     }
+    },
+    {
+     "label": {
+      "en": "warranty",
+      "zh": "warranty",
+      "es": "garantía",
+      "ar": "الضمان",
+      "fr": "garantie",
+      "id": "garansi",
+      "ru": "гарантия",
+      "th": "การรับประกัน",
+      "vi": "bảo hành"
+     },
+     "value": {
+      "en": "1 Year",
+      "es": "1 año",
+      "ar": "سنة واحدة",
+      "fr": "1 an",
+      "id": "1 tahun",
+      "ru": "1 год",
+      "th": "1 ปี",
+      "vi": "1 năm"
+     }
+    },
+    {
+     "label": {
+      "en": "place of origin",
+      "zh": "place of origin",
+      "es": "país de origen",
+      "ar": "بلد المنشأ",
+      "fr": "lieu d'origine",
+      "id": "negara asal",
+      "ru": "страна происхождения",
+      "th": "แหล่งที่มา",
+      "vi": "xuất xứ"
+     },
+     "value": {
+      "en": "CN;GUA",
+      "es": "CN;GUA",
+      "ar": "CN;GUA",
+      "fr": "CN;GUA",
+      "id": "CN;GUA",
+      "ru": "CN;GUA",
+      "th": "CN;GUA",
+      "vi": "CN;GUA"
+     }
+    },
+    {
+     "label": {
+      "en": "Function",
+      "zh": "功能",
+      "es": "Función",
+      "ar": "الوظيفة",
+      "fr": "Fonction",
+      "id": "Fungsi",
+      "ru": "Функция",
+      "th": "ฟังก์ชัน",
+      "vi": "Chức năng"
+     },
+     "value": {
+      "en": "Vacuum, Blow, Inflate, Compress",
+      "zh": "吸尘/吹气/充气/压缩",
+      "ar": "شفط ونفخ وتهوية وضغط",
+      "es": "Aspirar, soplar, inflar, comprimir",
+      "fr": "Aspirer, souffler, gonfler, comprimer",
+      "id": "Hisap, tiup, isi udara, kompres",
+      "ru": "Всасывание, выдувание, накачивание, сжатие",
+      "th": "ดูดฝุ่น เป่าลม อัดลม ระบายลม",
+      "vi": "Hút, thổi, bơm hơi, nén khí"
+     }
+    },
+    {
+     "label": {
+      "en": "Function",
+      "zh": "功能",
+      "es": "Función",
+      "ar": "الوظيفة",
+      "fr": "Fonction",
+      "id": "Fungsi",
+      "ru": "Функция",
+      "th": "ฟังก์ชัน",
+      "vi": "Chức năng"
+     },
+     "value": {
+      "en": "Vacuum, Blow, Inflate, Compress",
+      "zh": "吸尘/吹气/充气/压缩",
+      "ar": "شفط ونفخ وتهوية وضغط",
+      "es": "Aspirar, soplar, inflar, comprimir",
+      "fr": "Aspirer, souffler, gonfler, comprimer",
+      "id": "Hisap, tiup, isi udara, kompres",
+      "ru": "Всасывание, выдувание, накачивание, сжатие",
+      "th": "ดูดฝุ่น เป่าลม อัดลม ระบายลม",
+      "vi": "Hút, thổi, bơm hơi, nén khí"
+     }
+    },
+    {
+     "label": {
+      "en": "Dust capacity",
+      "zh": "Dust capacity",
+      "es": "Capacidad de polvo",
+      "ar": "سعة الغبار",
+      "fr": "Capacité du bac à poussière",
+      "id": "Kapasitas debu",
+      "ru": "Объём пылесборника",
+      "th": "ความจุฝุ่น",
+      "vi": "Dung tích bụi"
+     },
+     "value": {
+      "en": "0.12L",
+      "es": "0.12L",
+      "ar": "0.12L",
+      "fr": "0.12L",
+      "id": "0.12L",
+      "ru": "0.12L",
+      "th": "0.12L",
+      "vi": "0.12L"
+     }
+    },
+    {
+     "label": {
+      "en": "Feature",
+      "zh": "Feature",
+      "es": "Característica",
+      "ar": "الميزة",
+      "fr": "Caractéristique",
+      "id": "Fitur",
+      "ru": "Характеристика",
+      "th": "คุณสมบัติ",
+      "vi": "Tính năng"
+     },
+     "value": {
+      "en": "HEPA, laser dust illumination, lightweight, portable, rechargeable",
+      "zh": "HEPA、激光尘埃照明、轻便、便携、可充电",
+      "ar": "HEPA، إضاءة ليزر للغبار، خفيف، محمول، قابل للشحن",
+      "es": "HEPA, iluminación láser de polvo, ligero, portátil, recargable",
+      "fr": "HEPA, éclairage laser des poussières, léger, portable, rechargeable",
+      "id": "HEPA, lampu laser debu, ringan, portabel, dapat diisi ulang",
+      "ru": "HEPA, лазерная подсветка пыли, лёгкий, портативный, перезаряжаемый",
+      "th": "HEPA, ไฟเลเซอร์ส่องฝุ่น น้ำหนักเบา พกพาสะดวก ชาร์จได้",
+      "vi": "HEPA, đèn laser soi bụi, nhẹ, di động, sạc được"
+     }
+    },
+    {
+     "label": {
+      "en": "power (w)",
+      "zh": "power (w)",
+      "es": "potencia (W)",
+      "ar": "القدرة (W)",
+      "fr": "puissance (W)",
+      "id": "daya (W)",
+      "ru": "мощность (Вт)",
+      "th": "กำลังไฟ (W)",
+      "vi": "công suất (w)"
+     },
+     "value": {
+      "en": "100 W",
+      "zh": "100 W",
+      "ar": "100 W",
+      "es": "100 W",
+      "fr": "100 W",
+      "id": "100 W",
+      "ru": "100 Вт",
+      "th": "100 W",
+      "vi": "100 W"
+     }
+    },
+    {
+     "label": {
+      "en": "power source",
+      "zh": "power source",
+      "es": "fuente de alimentación",
+      "ar": "مصدر الطاقة",
+      "fr": "source d'alimentation",
+      "id": "sumber daya",
+      "ru": "источник питания",
+      "th": "แหล่งจ่ายไฟ",
+      "vi": "nguồn điện"
+     },
+     "value": {
+      "en": "Battery Powered",
+      "es": "Alimentación por batería",
+      "ar": "يعمل بالبطارية",
+      "fr": "Alimenté par batterie",
+      "id": "Berbaterai",
+      "ru": "Питание от аккумулятора",
+      "th": "ใช้พลังงานแบตเตอรี่",
+      "vi": "Chạy bằng pin"
+     }
+    },
+    {
+     "label": {
+      "en": "model number",
+      "zh": "model number",
+      "es": "número de modelo",
+      "ar": "رقم الموديل",
+      "fr": "numéro de modèle",
+      "id": "nomor model",
+      "ru": "номер модели",
+      "th": "หมายเลขรุ่น",
+      "vi": "số model"
+     },
+     "value": {
+      "en": "PX8",
+      "zh": "PX8",
+      "ar": "PX8",
+      "es": "PX8",
+      "fr": "PX8",
+      "id": "PX8",
+      "ru": "PX8",
+      "th": "PX8",
+      "vi": "PX8"
+     }
     }
-  ],
-  "_schema_reviews": [
+   ],
+   "packaging": {
+    "unit": "Color Box",
+    "size": "18X19X6.3 cm",
+    "net_weight": "0.56kg"
+   },
+   "customization": {},
+   "applications": {
+    "en": "",
+    "zh": ""
+   },
+   "price_indicator": {
+    "min": 11,
+    "max": 13.9,
+    "currency": "USD"
+   },
+   "quick_specs": [
     {
-      "@type": "Review",
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "5",
-        "bestRating": "5",
-        "worstRating": "1"
-      },
-      "author": {
-        "@type": "Person",
-        "name": "Ryan Cooper",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Chicago, IL, USA"
-        }
-      },
-      "datePublished": "2025-10-29",
-      "reviewBody": "I tested 6 different car vacuums and this one has the highest suction at 5000Pa. It pulls sand from the carpet, crumbs from the seat crevices, and even pet hair. The washable HEPA filter is a huge plus. See the before/after photos of my truck bed.",
-      "name": "Strongest 12V car vacuum I have tested — handles sand and gravel",
-      "image": [
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/01.webp?v=20261029p",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/02.webp?v=20261029p"
-      ]
+     "label": {
+      "en": "Suction",
+      "zh": "吸力",
+      "ar": "الشفط",
+      "es": "Succión",
+      "fr": "Aspiration",
+      "id": "Daya Hisap",
+      "ru": "Всасывание",
+      "th": "แรงดูด",
+      "vi": "Lực hút"
+     },
+     "value": {
+      "en": "200000Pa",
+      "zh": "200000Pa",
+      "ar": "200000Pa",
+      "es": "200000Pa",
+      "fr": "200000Pa",
+      "id": "200000Pa",
+      "ru": "200000 Па",
+      "th": "200000Pa",
+      "vi": "200000Pa"
+     }
     },
     {
-      "@type": "Review",
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "5",
-        "bestRating": "5",
-        "worstRating": "1"
-      },
-      "author": {
-        "@type": "Person",
-        "name": "Nina Johansson",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Stockholm, Sweden"
-        }
-      },
-      "datePublished": "2025-08-11",
-      "reviewBody": "At just 1.2kg it fits in our glove box. The 5m car charger cable reaches every corner of our SUV. The LED light on the nozzle is perfect for cleaning under seats at night. No complaints after 8 months of weekly use.",
-      "name": "Compact enough to keep in the glove box, powerful enough for weekly cleans",
-      "image": [
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/01.webp?v=20261029p",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/02.webp?v=20261029p"
-      ]
+     "label": {
+      "en": "Power (W)",
+      "zh": "功率(W)",
+      "ar": "القدرة (W)",
+      "es": "Potencia (W)",
+      "fr": "Puissance (W)",
+      "id": "Daya (W)",
+      "ru": "Мощность (Вт)",
+      "th": "กำลัง (W)",
+      "vi": "Công suất (W)"
+     },
+     "value": {
+      "en": "100 W",
+      "zh": "100 W",
+      "ar": "100 W",
+      "es": "100 W",
+      "fr": "100 W",
+      "id": "100 W",
+      "ru": "100 Вт",
+      "th": "100 W",
+      "vi": "100 W"
+     }
     },
     {
-      "@type": "Review",
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "5",
-        "bestRating": "5",
-        "worstRating": "1"
-      },
-      "author": {
-        "@type": "Person",
-        "name": "Ahmed Hassan",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Dubai, UAE"
-        }
-      },
-      "datePublished": "2025-06-18",
-      "reviewBody": "Many car accessories fail in Dubai summers. This vacuum has survived temperatures above 45°C in the car. The cord management is neat and the dust cup is easy to empty. The transparent design lets you see when it needs cleaning.",
-      "name": "DC 12V works perfectly in our extreme summer heat",
-      "image": [
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/01.webp?v=20261029p",
-        "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/02.webp?v=20261029p"
-      ]
+     "label": {
+      "en": "Runtime",
+      "zh": "续航",
+      "ar": "مدة التشغيل",
+      "es": "Autonomía",
+      "fr": "Autonomie",
+      "id": "Waktu pakai",
+      "ru": "Время работы",
+      "th": "เวลาทำงาน",
+      "vi": "Thời gian chạy"
+     },
+     "value": {
+      "en": "16-32 min",
+      "zh": "16-32 分钟",
+      "ar": "16-32 دقيقة",
+      "es": "16-32 min",
+      "fr": "16-32 min",
+      "id": "16-32 menit",
+      "ru": "16-32 мин",
+      "th": "16-32 นาที",
+      "vi": "16-32 phút"
+     }
+    },
+    {
+     "label": {
+      "en": "Noise",
+      "zh": "噪音",
+      "ar": "الضجيج",
+      "es": "Ruido",
+      "fr": "Bruit",
+      "id": "Kebisingan",
+      "ru": "Шум",
+      "th": "เสียงรบกวน",
+      "vi": "Độ ồn"
+     },
+     "value": {
+      "en": "75 dB",
+      "zh": "75 dB",
+      "ar": "75 dB",
+      "es": "75 dB",
+      "fr": "75 dB",
+      "id": "75 dB",
+      "ru": "75 дБ",
+      "th": "75 dB",
+      "vi": "75 dB"
+     }
     }
-  ]
+   ],
+   "price_ladder": [
+    {
+     "min": 2,
+     "max": 4999,
+     "price": 13.9
+    },
+    {
+     "min": 5000,
+     "max": 9999,
+     "price": 13
+    },
+    {
+     "min": 10000,
+     "max": null,
+     "price": 11
+    }
+   ],
+   "sku": "1601866170477",
+   "description": {
+    "en": "PX8 4-in-1 wireless handheld car vacuum cleaner: 126000RPM motor combines vacuuming, air blowing, inflating and compressing in one device. 100 W power, 2000 mAh lithium battery, 16-32 min working time, HEPA filter and laser dust illumination at only 75 dB. Ideal for home, car and pet cleaning. OEM/ODM available.",
+    "zh": "PX8 四合一无线手持车载吸尘器：126000RPM 电机集吸尘、吹气、充气放气、压缩于一体。100W 功率，2000mAh 锂电池，16-32 分钟续航，HEPA 滤网 + 激光尘埃照明，噪音仅 75dB。家用、车载、宠物清洁皆宜，支持 OEM/ODM 定制。",
+    "ar": "مكنسة سيارة محمولة لاسلكية PX8 رباعية الوظائف: محرك 126000RPM يجمع الشفط والنفخ والتهوية والضغط في جهاز واحد. قوة 100 واط، بطارية ليثيوم 2000 مللي أمبير، وقت تشغيل 16-32 دقيقة، فلتر HEPA وإضاءة ليزر للغبار بضجيج 75 ديسيبل فقط. مثالية للمنزل والسيارة والحيوانات الأليفة. متاح OEM/ODM.",
+    "es": "Aspiradora de coche inalámbrica portátil PX8 4 en 1: el motor de 126000RPM combina aspirado, soplado, inflado y compresión en un solo dispositivo. 100 W, batería de litio de 2000 mAh, 16-32 min de funcionamiento, filtro HEPA e iluminación láser de polvo a solo 75 dB. Ideal para el hogar, el coche y las mascotas. Disponible OEM/ODM.",
+    "fr": "Aspirateur de voiture sans fil portable PX8 4-en-1 : le moteur 126000RPM combine aspiration, soufflage, gonflage et compression en un seul appareil. 100 W, batterie lithium 2000 mAh, 16-32 min d'autonomie, filtre HEPA et éclairage laser des poussières pour seulement 75 dB. Idéal pour la maison, la voiture et les animaux. OEM/ODM disponible.",
+    "id": "Penyedot debu mobil PX8 4-in-1 tanpa kabel: motor 126000RPM menggabungkan penyedotan, tiupan angin, pengisian, dan kompresi dalam satu perangkat. Daya 100 W, baterai lithium 2000 mAh, waktu kerja 16-32 menit, filter HEPA dan pencahayaan laser debu dengan kebisingan hanya 75 dB. Ideal untuk rumah, mobil, dan hewan peliharaan. OEM/ODM tersedia.",
+    "ru": "Беспроводной ручной автомобильный пылесос PX8 4-в-1: мотор 126000 об/мин объединяет всасывание, выдувание, накачивание и сжатие в одном устройстве. Мощность 100 Вт, литиевый аккумулятор 2000 мАч, время работы 16-32 мин, HEPA-фильтр и лазерная подсветка пыли при шуме всего 75 дБ. Идеален для дома, авто и животных. Доступно OEM/ODM.",
+    "th": "เครื่องดูดฝุ่นรถยนต์แบบพกพาไร้สาย PX8 4-in-1: มอเตอร์ 126000RPM รวมดูดฝุ่น เป่าลม อัดลม และระบายลมไว้ในเครื่องเดียว พลังงาน 100 W แบตเตอรี่ลิเธียม 2000 mAh เวลาทำงาน 16-32 นาที ฟิลเตอร์ HEPA พร้อมไฟเลเซอร์ส่องฝุ่น เสียงเพียง 75 dB เหมาะสำหรับบ้าน รถยนต์ และสัตว์เลี้ยง รับ OEM/ODM",
+    "vi": "Máy hút bụi ô tô cầm tay không dây PX8 4-in-1: động cơ 126000RPM kết hợp hút bụi, thổi khí, bơm hơi và nén khí trong một thiết bị. Công suất 100 W, pin lithium 2000 mAh, thời gian hoạt động 16-32 phút, lọc HEPA và đèn laser soi bụi, độ ồn chỉ 75 dB. Lý tưởng cho gia đình, ô tô và thú cưng. Nhận OEM/ODM."
+   },
+   "supplier_rating": null,
+   "response_time": null,
+   "transactions": null,
+   "years": null,
+   "ship_from": null,
+   "sample": null,
+   "category_name": {
+    "en": "Car Vacuum Cleaners",
+    "zh": "车载吸尘器",
+    "es": "Aspirador de Coche",
+    "ar": "مكنسة سيارات",
+    "fr": "Aspirateur voiture",
+    "id": "Penyedot Debu Mobil",
+    "ru": "Автомобильный пылесос",
+    "th": "เครื่องดูดฝุ่นในรถ",
+    "vi": "Máy hút bụi ô tô"
+   },
+   "_source": {
+    "platform": "alibaba.com",
+    "productId": "1601866170477"
+   },
+   "_cat": "car-vacuum",
+   "detail_images": [
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/detail/01.webp?v=20261102c",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/detail/02.webp?v=20261102c",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/detail/03.webp?v=20261102c",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/detail/04.webp?v=20261102c",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/detail/05.webp?v=20261102c",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/detail/06.webp?v=20261102c",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/detail/07.webp?v=20261102c",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/detail/08.webp?v=20261102c",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/detail/09.webp?v=20261102c",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/detail/10.webp?v=20261102c",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/detail/11.webp?v=20261102c",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/detail/12.webp?v=20261102c",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/detail/13.webp?v=20261102c",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-309/detail/14.webp?v=20261102c"
+   ]
+  },
+  {
+   "id": "cv4000",
+   "name": {
+    "en": "CV-4000 4000Pa Cordless Handheld Vacuum Cleaner · 50W Wet & Dry with 7 Accessories",
+    "zh": "CV-4000 4000Pa 无线手持吸尘器 · 50W 干湿两用 7 件配件",
+    "ar": "مكنسة يدوية لاسلكية CV-4000 بقوة 4000 باسكال · 50 واط للتنظيف الجاف والرطب مع 7 ملحقات",
+    "es": "Aspiradora de mano inalámbrica CV-4000 de 4000Pa · 50W húmedo/seco con 7 accesorios",
+    "fr": "Aspirateur à main sans fil CV-4000 4000Pa · 50W humide/sec avec 7 accessoires",
+    "id": "Vacuum cleaner genggam nirkabel CV-4000 4000Pa · 50W basah/kering dengan 7 aksesori",
+    "ru": "Ручной беспроводной пылесос CV-4000 4000 Па · 50 Вт, влажная и сухая уборка, 7 насадок",
+    "th": "เครื่องดูดฝุ่นมือถือไร้สาย CV-4000 4000Pa · 50W เปียก/แห้ง พร้อมอุปกรณ์ 7 ชิ้น",
+    "vi": "Máy hút bụi cầm tay không dây CV-4000 4000Pa · 50W ướt/khô kèm 7 phụ kiện"
+   },
+   "tagline": {
+    "en": "4000Pa · 50 W · 15 min",
+    "zh": "4000Pa · 50 W · 15 min",
+    "ar": "4000Pa · 50 W · 15 min",
+    "es": "4000Pa · 50 W · 15 min",
+    "fr": "4000Pa · 50 W · 15 min",
+    "id": "4000Pa · 50 W · 15 min",
+    "ru": "4000Pa · 50 W · 15 min",
+    "th": "4000Pa · 50 W · 15 min",
+    "vi": "4000Pa · 50 W · 15 min"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-cv4000/01.webp?v=20261031d",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-cv4000/02.webp?v=20261031d",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-cv4000/03.webp?v=20261031d",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-cv4000/04.webp?v=20261031d",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-cv4000/05.webp?v=20261031d",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-cv4000/06.webp?v=20261031d"
+   ],
+   "video_url": null,
+   "moq": {
+    "value": 2,
+    "unit": "pieces"
+   },
+   "certifications": [
+    "CE"
+   ],
+   "highlights": [
+    {
+     "icon": "suction",
+     "text": {
+      "en": "4000 Pa suction from a 50 W motor — picks up crumbs, pet hair and dust in one pass",
+      "zh": "50W 电机带来 4000Pa 吸力，一次带走碎屑、宠物毛发与灰尘",
+      "ar": "قوة شفط 4000 باسكال بمحرك 50 واط تلتقط الفتات وشعر الحيوانات والغبار بمرور واحد",
+      "es": "Succión de 4000 Pa con motor de 50 W: migas, pelos y polvo en una pasada",
+      "fr": "Aspiration de 4000 Pa avec moteur de 50 W : miettes, poils et poussière en un seul passage",
+      "id": "Hisap 4000 Pa dari motor 50 W — mengangkat remah, bulu hewan, dan debu sekali jalan",
+      "ru": "Сила всасывания 4000 Па при моторе 50 Вт — крошки, шерсть и пыль за один проход",
+      "th": "แรงดูด 4000Pa จากมอเตอร์ 50 วัตต์ จัดการเศษขนมปัง ขนสัตว์ และฝุ่นในครั้งเดียว",
+      "vi": "Lực hút 4000 Pa từ động cơ 50 W — hút vụn bánh, lông thú và bụi chỉ một lần"
+     }
+    },
+    {
+     "icon": "battery",
+     "text": {
+      "en": "Twin 1500 mAh cells, about 15 min runtime, Type-C recharge anywhere",
+      "zh": "双节 1500mAh 电池，约 15 分钟续航，Type-C 随地充电",
+      "ar": "بطاريتان بسعة 1500 مللي أمبير، نحو 15 دقيقة تشغيل، شحن Type-C في أي مكان",
+      "es": "Dos celdas de 1500 mAh, unos 15 min de autonomía, recarga Type-C en cualquier lugar",
+      "fr": "Deux cellules de 1500 mAh, environ 15 min d'autonomie, recharge Type-C partout",
+      "id": "Dua sel 1500 mAh, sekitar 15 menit pemakaian, isi ulang Type-C di mana saja",
+      "ru": "Два аккумулятора по 1500 мА·ч, около 15 мин работы, зарядка Type-C где угодно",
+      "th": "แบตเตอรี่คู่ 1500mAh ใช้งานได้ราว 15 นาที ชาร์จ Type-C ได้ทุกที่",
+      "vi": "Hai pin 1500 mAh, khoảng 15 phút sử dụng, sạc Type-C mọi nơi"
+     }
+    },
+    {
+     "icon": "filter",
+     "text": {
+      "en": "Washable HEPA filter and one-click 0.12 L bagless dust cup",
+      "zh": "可水洗 HEPA 滤芯 + 0.12L 无尘袋尘杯，一键倾倒",
+      "ar": "فلتر HEPA قابل للغسل وسلة غبار بدون كيس بسعة 0.12 لتر تُفرغ بضغطة واحدة",
+      "es": "Filtro HEPA lavable y depósito sin bolsa de 0,12 L que se vacía con un clic",
+      "fr": "Filtre HEPA lavable et bac sans sac de 0,12 L qui se vide en un clic",
+      "id": "Filter HEPA bisa dicuci dan wadah debu tanpa kantong 0,12 L yang kosong dalam satu klik",
+      "ru": "Моющийся HEPA-фильтр и пылесборник без мешка 0,12 л, опорожняемый одним нажатием",
+      "th": "ฟิลเตอร์ HEPA ล้างได้ และถังเก็บฝุ่นแบบไม่ใช้ถุง 0.12 ลิตร เททิ้งในคลิกเดียว",
+      "vi": "Bộ lọc HEPA giặt được và hộp bụi không túi 0,12 L đổ chỉ một nút bấm"
+     }
+    },
+    {
+     "icon": "accessory",
+     "text": {
+      "en": "Seven accessories: crevice, brush, wide nozzle, extension tube and more",
+      "zh": "7 件配件：扁吸、毛刷、宽嘴吸、延长管等",
+      "ar": "سبعة ملحقات: أداة الشقوق، فرشاة، فوهة عريضة، أنبوب تمديد والمزيد",
+      "es": "Siete accesorios: boquilla para rendijas, cepillo, boquilla ancha, tubo de extensión y más",
+      "fr": "Sept accessoires : suceur plat, brosse, embout large, tube rallonge et plus",
+      "id": "Tujuh aksesori: nozzle celah, sikat, nozzle lebar, tabung ekstensi, dan lainnya",
+      "ru": "Семь насадок: щелевая, щётка, широкая, удлинительная трубка и другие",
+      "th": "อุปกรณ์เสริม 7 ชิ้น: หัวดูดซอก หัวแปรง หัวดูดกว้าง ท่อต่อขยาย และอื่น ๆ",
+      "vi": "7 phụ kiện: đầu hút khe, bàn chải, đầu hút rộng, ống nối dài và hơn nữa"
+     }
+    },
+    {
+     "icon": "blower",
+     "text": {
+      "en": "Blower, inflate and deflate functions for keyboards and storage bags",
+      "zh": "兼具吹风与充/抽气功能，清洁键盘、给收纳袋充气抽气",
+      "ar": "وظائف النفخ والتعبئة والتفريغ للوحة المفاتيح وأكياس التخزين",
+      "es": "Funciones de soplado, inflado y desinflado para teclados y bolsas de almacenamiento",
+      "fr": "Fonctions soufflerie, gonflage et dégonflage pour claviers et sacs de rangement",
+      "id": "Fungsi tiup, kembang, dan kempes untuk keyboard dan kantong penyimpanan",
+      "ru": "Функции обдува, накачивания и сдувания для клавиатуры и вакуумных пакетов",
+      "th": "ฟังก์ชันเป่าลม สูบลม และดูดอากาศ สำหรับคีย์บอร์ดและถุงเก็บของ",
+      "vi": "Chức năng thổi, bơm và hút khí cho bàn phím và túi đựng đồ"
+     }
+    },
+    {
+     "icon": "oem",
+     "text": {
+      "en": "OEM logo, colour and packaging; CE certified, MOQ 2 pieces",
+      "zh": "支持 OEM 定制 logo、颜色与包装；CE 认证，起订量 2 台",
+      "ar": "تخصيص OEM للشعار واللون والتغليف؛ شهادة CE، والحد الأدنى للطلب قطعتان",
+      "es": "Personalización OEM de logotipo, color y embalaje; certificación CE, pedido mínimo 2 unidades",
+      "fr": "Personnalisation OEM du logo, de la couleur et de l'emballage ; certification CE, MOQ 2 pièces",
+      "id": "Kustomisasi OEM logo, warna, dan kemasan; bersertifikat CE, MOQ 2 unit",
+      "ru": "OEM-кастомизация логотипа, цвета и упаковки; сертификат CE, минимальный заказ 2 шт.",
+      "th": "รองรับ OEM ปรับโลโก้ สี และบรรจุภัณฑ์ ได้รับรอง CE สั่งขั้นต่ำ 2 เครื่อง",
+      "vi": "Hỗ trợ OEM logo, màu sắc, bao bì; chứng nhận CE, MOQ 2 chiếc"
+     }
+    }
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "Model",
+      "zh": "型号",
+      "ar": "الطراز",
+      "es": "Modelo",
+      "fr": "Modèle",
+      "id": "Model",
+      "ru": "Модель",
+      "th": "รุ่น",
+      "vi": "Mẫu"
+     },
+     "value": {
+      "en": "CV-4000",
+      "zh": "CV-4000",
+      "ar": "CV-4000",
+      "es": "CV-4000",
+      "fr": "CV-4000",
+      "id": "CV-4000",
+      "ru": "CV-4000",
+      "th": "CV-4000",
+      "vi": "CV-4000"
+     }
+    },
+    {
+     "label": {
+      "en": "Suction",
+      "zh": "吸力",
+      "ar": "الشفط",
+      "es": "Succión",
+      "fr": "Aspiration",
+      "id": "Daya Hisap",
+      "ru": "Всасывание",
+      "th": "แรงดูด",
+      "vi": "Lực hút"
+     },
+     "value": {
+      "en": "4000 Pa",
+      "zh": "4000 Pa",
+      "ar": "4000 Pa",
+      "es": "4000 Pa",
+      "fr": "4000 Pa",
+      "id": "4000 Pa",
+      "ru": "4000 Pa",
+      "th": "4000 Pa",
+      "vi": "4000 Pa"
+     }
+    },
+    {
+     "label": {
+      "en": "Rated Power",
+      "zh": "额定功率",
+      "ar": "القدرة المقدرة",
+      "es": "Potencia nominal",
+      "fr": "Puissance nominale",
+      "id": "Daya Terukur",
+      "ru": "Номинальная мощность",
+      "th": "กำลังไฟ",
+      "vi": "Công suất"
+     },
+     "value": {
+      "en": "50 W",
+      "zh": "50 W",
+      "ar": "50 W",
+      "es": "50 W",
+      "fr": "50 W",
+      "id": "50 W",
+      "ru": "50 W",
+      "th": "50 W",
+      "vi": "50 W"
+     }
+    },
+    {
+     "label": {
+      "en": "Battery",
+      "zh": "电池",
+      "ar": "البطارية",
+      "es": "Batería",
+      "fr": "Batterie",
+      "id": "Baterai",
+      "ru": "Аккумулятор",
+      "th": "แบตเตอรี่",
+      "vi": "Pin"
+     },
+     "value": {
+      "en": "1500 mAh × 2 (7.4 V)",
+      "zh": "1500 mAh × 2 (7.4 V)",
+      "ar": "1500 mAh × 2 (7.4 V)",
+      "es": "1500 mAh × 2 (7.4 V)",
+      "fr": "1500 mAh × 2 (7.4 V)",
+      "id": "1500 mAh × 2 (7.4 V)",
+      "ru": "1500 mAh × 2 (7.4 V)",
+      "th": "1500 mAh × 2 (7.4 V)",
+      "vi": "1500 mAh × 2 (7.4 V)"
+     }
+    },
+    {
+     "label": {
+      "en": "Runtime",
+      "zh": "续航时间",
+      "ar": "مدة التشغيل",
+      "es": "Autonomía",
+      "fr": "Autonomie",
+      "id": "Daya Tahan",
+      "ru": "Время работы",
+      "th": "ระยะเวลาใช้งาน",
+      "vi": "Thời gian dùng"
+     },
+     "value": {
+      "en": "15 min",
+      "zh": "15 min",
+      "ar": "15 min",
+      "es": "15 min",
+      "fr": "15 min",
+      "id": "15 min",
+      "ru": "15 min",
+      "th": "15 min",
+      "vi": "15 min"
+     }
+    },
+    {
+     "label": {
+      "en": "Noise Level",
+      "zh": "噪音",
+      "ar": "مستوى الضوضاء",
+      "es": "Nivel de ruido",
+      "fr": "Niveau sonore",
+      "id": "Tingkat Kebisingan",
+      "ru": "Уровень шума",
+      "th": "ระดับเสียง",
+      "vi": "Độ ồn"
+     },
+     "value": {
+      "en": "≤75 dB",
+      "zh": "≤75 dB",
+      "ar": "≤75 dB",
+      "es": "≤75 dB",
+      "fr": "≤75 dB",
+      "id": "≤75 dB",
+      "ru": "≤75 dB",
+      "th": "≤75 dB",
+      "vi": "≤75 dB"
+     }
+    },
+    {
+     "label": {
+      "en": "Dust Cup Capacity",
+      "zh": "尘杯容量",
+      "ar": "سعة وعاء الغبار",
+      "es": "Capacidad del depósito",
+      "fr": "Capacité du bac",
+      "id": "Kapasitas Wadah Debu",
+      "ru": "Объём пылесборника",
+      "th": "ความจุถังฝุ่น",
+      "vi": "Dung tích hộp bụi"
+     },
+     "value": {
+      "en": "0.12 L",
+      "zh": "0.12 L",
+      "ar": "0.12 L",
+      "es": "0.12 L",
+      "fr": "0.12 L",
+      "id": "0.12 L",
+      "ru": "0.12 L",
+      "th": "0.12 L",
+      "vi": "0.12 L"
+     }
+    },
+    {
+     "label": {
+      "en": "Filter Type",
+      "zh": "滤芯类型",
+      "ar": "نوع الفلتر",
+      "es": "Tipo de filtro",
+      "fr": "Type de filtre",
+      "id": "Jenis Filter",
+      "ru": "Тип фильтра",
+      "th": "ชนิดฟิลเตอร์",
+      "vi": "Loại bộ lọc"
+     },
+     "value": {
+      "en": "HEPA, washable",
+      "zh": "HEPA，可水洗",
+      "ar": "HEPA قابل للغسل",
+      "es": "HEPA lavable",
+      "fr": "HEPA lavable",
+      "id": "HEPA, bisa dicuci",
+      "ru": "HEPA, моющийся",
+      "th": "HEPA ล้างได้",
+      "vi": "HEPA, giặt được"
+     }
+    },
+    {
+     "label": {
+      "en": "Material",
+      "zh": "材质",
+      "ar": "المادة",
+      "es": "Material",
+      "fr": "Matériau",
+      "id": "Material",
+      "ru": "Материал",
+      "th": "วัสดุ",
+      "vi": "Chất liệu"
+     },
+     "value": {
+      "en": "ABS plastic",
+      "zh": "ABS 塑料",
+      "ar": "بلاستيك ABS",
+      "es": "Plástico ABS",
+      "fr": "Plastique ABS",
+      "id": "Plastik ABS",
+      "ru": "ABS-пластик",
+      "th": "พลาสติก ABS",
+      "vi": "Nhựa ABS"
+     }
+    },
+    {
+     "label": {
+      "en": "Motor Type",
+      "zh": "电机类型",
+      "ar": "نوع المحرك",
+      "es": "Tipo de motor",
+      "fr": "Type de moteur",
+      "id": "Jenis Motor",
+      "ru": "Тип двигателя",
+      "th": "ชนิดมอเตอร์",
+      "vi": "Loại động cơ"
+     },
+     "value": {
+      "en": "Brushed motor",
+      "zh": "有刷电机",
+      "ar": "محرك بفرش",
+      "es": "Motor con escobillas",
+      "fr": "Moteur à balais",
+      "id": "Motor ber-sikat",
+      "ru": "Коллекторный двигатель",
+      "th": "มอเตอร์แบบมีแปรงถ่าน",
+      "vi": "Động cơ chổi than"
+     }
+    },
+    {
+     "label": {
+      "en": "Charging",
+      "zh": "充电方式",
+      "ar": "الشحن",
+      "es": "Carga",
+      "fr": "Recharge",
+      "id": "Pengisian",
+      "ru": "Зарядка",
+      "th": "การชาร์จ",
+      "vi": "Sạc"
+     },
+     "value": {
+      "en": "Type-C",
+      "zh": "Type-C",
+      "ar": "Type-C",
+      "es": "Type-C",
+      "fr": "Type-C",
+      "id": "Type-C",
+      "ru": "Type-C",
+      "th": "Type-C",
+      "vi": "Type-C"
+     }
+    },
+    {
+     "label": {
+      "en": "Cable Length",
+      "zh": "电源线长度",
+      "ar": "طول السلك",
+      "es": "Longitud del cable",
+      "fr": "Longueur du câble",
+      "id": "Panjang Kabel",
+      "ru": "Длина кабеля",
+      "th": "ความยาวสาย",
+      "vi": "Chiều dài dây"
+     },
+     "value": {
+      "en": "0.5 m",
+      "zh": "0.5 m",
+      "ar": "0.5 m",
+      "es": "0.5 m",
+      "fr": "0.5 m",
+      "id": "0.5 m",
+      "ru": "0.5 m",
+      "th": "0.5 m",
+      "vi": "0.5 m"
+     }
+    },
+    {
+     "label": {
+      "en": "Net Weight",
+      "zh": "净重",
+      "ar": "الوزن الصافي",
+      "es": "Peso neto",
+      "fr": "Poids net",
+      "id": "Berat Bersih",
+      "ru": "Вес нетто",
+      "th": "น้ำหนักสุทธิ",
+      "vi": "Trọng lượng tịnh"
+     },
+     "value": {
+      "en": "500 g",
+      "zh": "500 g",
+      "ar": "500 g",
+      "es": "500 g",
+      "fr": "500 g",
+      "id": "500 g",
+      "ru": "500 g",
+      "th": "500 g",
+      "vi": "500 g"
+     }
+    },
+    {
+     "label": {
+      "en": "Gross Weight",
+      "zh": "毛重",
+      "ar": "الوزن الإجمالي",
+      "es": "Peso bruto",
+      "fr": "Poids brut",
+      "id": "Berat Kotor",
+      "ru": "Вес брутто",
+      "th": "น้ำหนักรวม",
+      "vi": "Trọng lượng gộp"
+     },
+     "value": {
+      "en": "600 g",
+      "zh": "600 g",
+      "ar": "600 g",
+      "es": "600 g",
+      "fr": "600 g",
+      "id": "600 g",
+      "ru": "600 g",
+      "th": "600 g",
+      "vi": "600 g"
+     }
+    },
+    {
+     "label": {
+      "en": "Product Size",
+      "zh": "产品尺寸",
+      "ar": "حجم المنتج",
+      "es": "Tamaño del producto",
+      "fr": "Dimensions",
+      "id": "Ukuran Produk",
+      "ru": "Размеры",
+      "th": "ขนาดสินค้า",
+      "vi": "Kích thước"
+     },
+     "value": {
+      "en": "18 × 19 × 6.3 cm",
+      "zh": "18 × 19 × 6.3 cm",
+      "ar": "18 × 19 × 6.3 cm",
+      "es": "18 × 19 × 6.3 cm",
+      "fr": "18 × 19 × 6.3 cm",
+      "id": "18 × 19 × 6.3 cm",
+      "ru": "18 × 19 × 6.3 cm",
+      "th": "18 × 19 × 6.3 cm",
+      "vi": "18 × 19 × 6.3 cm"
+     }
+    },
+    {
+     "label": {
+      "en": "Accessories",
+      "zh": "配件数量",
+      "ar": "الملحقات",
+      "es": "Accesorios",
+      "fr": "Accessoires",
+      "id": "Aksesori",
+      "ru": "Насадки",
+      "th": "อุปกรณ์เสริม",
+      "vi": "Phụ kiện"
+     },
+     "value": {
+      "en": "7 pieces",
+      "zh": "7 件",
+      "ar": "7 قطع",
+      "es": "7 piezas",
+      "fr": "7 pièces",
+      "id": "7 buah",
+      "ru": "7 шт.",
+      "th": "7 ชิ้น",
+      "vi": "7 món"
+     }
+    },
+    {
+     "label": {
+      "en": "Application",
+      "zh": "适用场景",
+      "ar": "التطبيق",
+      "es": "Aplicación",
+      "fr": "Application",
+      "id": "Aplikasi",
+      "ru": "Применение",
+      "th": "การใช้งาน",
+      "vi": "Ứng dụng"
+     },
+     "value": {
+      "en": "Car, home, hotel, outdoor",
+      "zh": "车载、家用、酒店、户外",
+      "ar": "سيارة، منزل، فندق، خارجي",
+      "es": "Coche, hogar, hotel, exterior",
+      "fr": "Voiture, maison, hôtel, extérieur",
+      "id": "Mobil, rumah, hotel, luar ruangan",
+      "ru": "Авто, дом, отель, улица",
+      "th": "รถยนต์ บ้าน โรงแรม กลางแจ้ง",
+      "vi": "Xe hơi, gia đình, khách sạn, ngoài trời"
+     }
+    },
+    {
+     "label": {
+      "en": "Certification",
+      "zh": "认证",
+      "ar": "الشهادة",
+      "es": "Certificación",
+      "fr": "Certification",
+      "id": "Sertifikasi",
+      "ru": "Сертификация",
+      "th": "การรับรอง",
+      "vi": "Chứng nhận"
+     },
+     "value": {
+      "en": "CE / RoHS / FCC",
+      "zh": "CE / RoHS / FCC",
+      "ar": "CE / RoHS / FCC",
+      "es": "CE / RoHS / FCC",
+      "fr": "CE / RoHS / FCC",
+      "id": "CE / RoHS / FCC",
+      "ru": "CE / RoHS / FCC",
+      "th": "CE / RoHS / FCC",
+      "vi": "CE / RoHS / FCC"
+     }
+    }
+   ],
+   "packaging": {
+    "en": "1 pc / colour box; 20 pcs / carton",
+    "zh": "1 台/彩盒；20 台/箱"
+   },
+   "customization": {
+    "en": "Logo, colour and packaging (OEM/ODM)",
+    "zh": "logo、颜色与包装（OEM/ODM）"
+   },
+   "applications": {
+    "en": "Car, home, hotel, outdoor",
+    "zh": "车载、家用、酒店、户外",
+    "ar": "سيارة، منزل، فندق، خارجي",
+    "es": "Coche, hogar, hotel, exterior",
+    "fr": "Voiture, maison, hôtel, extérieur",
+    "id": "Mobil, rumah, hotel, luar ruangan",
+    "ru": "Авто, дом, отель, улица",
+    "th": "รถยนต์ บ้าน โรงแรม กลางแจ้ง",
+    "vi": "Xe hơi, gia đình, khách sạn, ngoài trời"
+   },
+   "price_indicator": {
+    "min": 5.9,
+    "max": 6.9,
+    "currency": "USD"
+   },
+   "quick_specs": [
+    {
+     "label": {
+      "en": "Suction",
+      "zh": "吸力",
+      "ar": "الشفط",
+      "es": "Succión",
+      "fr": "Aspiration",
+      "id": "Daya Hisap",
+      "ru": "Всасывание",
+      "th": "แรงดูด",
+      "vi": "Lực hút"
+     },
+     "value": {
+      "en": "4000 Pa",
+      "zh": "4000 Pa",
+      "ar": "4000 Pa",
+      "es": "4000 Pa",
+      "fr": "4000 Pa",
+      "id": "4000 Pa",
+      "ru": "4000 Pa",
+      "th": "4000 Pa",
+      "vi": "4000 Pa"
+     }
+    },
+    {
+     "label": {
+      "en": "Rated Power",
+      "zh": "额定功率",
+      "ar": "القدرة المقدرة",
+      "es": "Potencia nominal",
+      "fr": "Puissance nominale",
+      "id": "Daya Terukur",
+      "ru": "Номинальная мощность",
+      "th": "กำลังไฟ",
+      "vi": "Công suất"
+     },
+     "value": {
+      "en": "50 W",
+      "zh": "50 W",
+      "ar": "50 W",
+      "es": "50 W",
+      "fr": "50 W",
+      "id": "50 W",
+      "ru": "50 W",
+      "th": "50 W",
+      "vi": "50 W"
+     }
+    },
+    {
+     "label": {
+      "en": "Runtime",
+      "zh": "续航时间",
+      "ar": "مدة التشغيل",
+      "es": "Autonomía",
+      "fr": "Autonomie",
+      "id": "Daya Tahan",
+      "ru": "Время работы",
+      "th": "ระยะเวลาใช้งาน",
+      "vi": "Thời gian dùng"
+     },
+     "value": {
+      "en": "15 min",
+      "zh": "15 min",
+      "ar": "15 min",
+      "es": "15 min",
+      "fr": "15 min",
+      "id": "15 min",
+      "ru": "15 min",
+      "th": "15 min",
+      "vi": "15 min"
+     }
+    },
+    {
+     "label": {
+      "en": "Dust Cup Capacity",
+      "zh": "尘杯容量",
+      "ar": "سعة وعاء الغبار",
+      "es": "Capacidad del depósito",
+      "fr": "Capacité du bac",
+      "id": "Kapasitas Wadah Debu",
+      "ru": "Объём пылесборника",
+      "th": "ความจุถังฝุ่น",
+      "vi": "Dung tích hộp bụi"
+     },
+     "value": {
+      "en": "0.12 L",
+      "zh": "0.12 L",
+      "ar": "0.12 L",
+      "es": "0.12 L",
+      "fr": "0.12 L",
+      "id": "0.12 L",
+      "ru": "0.12 L",
+      "th": "0.12 L",
+      "vi": "0.12 L"
+     }
+    }
+   ],
+   "price_ladder": [
+    {
+     "min": 2,
+     "max": 999,
+     "price": 6.9
+    },
+    {
+     "min": 1000,
+     "max": 1999,
+     "price": 6.5
+    },
+    {
+     "min": 2000,
+     "max": -1,
+     "price": 5.9
+    }
+   ],
+   "sku": [
+    {
+     "name": {
+      "en": "Colour",
+      "zh": "颜色",
+      "ar": "اللون",
+      "es": "Color",
+      "fr": "Couleur",
+      "id": "Warna",
+      "ru": "Цвет",
+      "th": "สี",
+      "vi": "Màu sắc"
+     },
+     "values": [
+      {
+       "name": "Black"
+      }
+     ]
+    },
+    {
+     "name": {
+      "en": "Plug Type",
+      "zh": "插头类型",
+      "ar": "نوع القابس",
+      "es": "Tipo de enchufe",
+      "fr": "Type de prise",
+      "id": "Jenis steker",
+      "ru": "Тип вилки",
+      "th": "ประเภทปลั๊ก",
+      "vi": "Loại phích cắm"
+     },
+     "values": [
+      {
+       "name": "Type-C"
+      }
+     ]
+    }
+   ],
+   "description": {
+    "en": "CV-4000 is a pocket-size cordless handheld vacuum built for car interiors and quick home clean-ups. A 50 W motor delivers 4000 Pa of suction through a washable HEPA filter, while twin 1500 mAh cells give about 15 minutes of runtime and recharge over Type-C. The 0.12 L bagless dust cup empties in one click, and the seven included nozzles cover crevices, upholstery, keyboards, pet hair, and even inflating or deflating storage bags. The ABS housing weighs just 500 g. OEM logo, colour and packaging are customisable; CE certified, MOQ 2 pieces.",
+    "zh": "CV-4000 是一款口袋大小的无线手持吸尘器，专为车内与居家快速清洁设计。50W 电机通过可水洗 HEPA 滤芯提供 4000Pa 吸力，双节 1500mAh 电池可连续使用约 15 分钟，Type-C 充电。0.12L 无尘袋尘杯一键倾倒，随机 7 件配件覆盖缝隙、布艺、键盘、宠物毛发，还可给收纳袋充气/抽气。ABS 机身仅重 500g。支持 OEM 定制 logo、颜色与包装；CE 认证，最小起订量 2 台。",
+    "ar": "CV-4000 مكنسة يدوية لاسلكية بحجم الجيب مصممة لتنظيف السيارات والمنزل بسرعة. محرك 50 واط يوفر قوة شفط 4000 باسكال عبر فلتر HEPA قابل للغسل، وبطاريتي 1500 مللي أمبير تمنحان نحو 15 دقيقة من العمل وتُشحنان عبر Type-C. سلة غبار بسعة 0.12 لتر بدون كيس تُفرغ بضغطة واحدة، والملحقات السبع تغطي الشقوق والمفروشات ولوحة المفاتيح وشعر الحيوانات وحتى نفخ وتفريغ أكياس التخزين. هيكل ABS بوزن 500 غرام فقط. تتوفر خيارات OEM للشعار واللون والتغليف؛ حاصلة على شهادة CE، والحد الأدنى للطلب قطعتان.",
+    "es": "La CV-4000 es una aspiradora de mano inalámbrica de bolsillo pensada para el interior del coche y limpiezas rápidas en casa. Su motor de 50 W ofrece 4000 Pa de succión a través de un filtro HEPA lavable, y sus dos celdas de 1500 mAh dan unos 15 minutos de autonomía con recarga Type-C. El depósito sin bolsa de 0,12 L se vacía con un clic y los siete accesorios incluidos cubren rendijas, tapicerías, teclados, pelo de mascotas e incluso inflar o desinflar bolsas de almacenamiento. Carcasa de ABS de solo 500 g. Personalización OEM de logotipo, color y embalaje; certificación CE, pedido mínimo 2 unidades.",
+    "fr": "La CV-4000 est un aspirateur à main sans fil format de poche conçu pour l'intérieur de voiture et les nettoyages rapides à la maison. Son moteur de 50 W délivre 4000 Pa d'aspiration via un filtre HEPA lavable, et ses deux cellules de 1500 mAh offrent environ 15 minutes d'autonomie avec recharge Type-C. Le bac à poussière sans sac de 0,12 L se vide en un clic, et les sept accessoires couvrent les recoins, tissus, claviers, poils d'animaux, ainsi que le gonflage et le dégonflage des sacs de rangement. Coque ABS de seulement 500 g. Personnalisation OEM du logo, de la couleur et de l'emballage ; certification CE, MOQ 2 pièces.",
+    "id": "CV-4000 adalah vacuum cleaner genggam nirkabel berukuran saku untuk interior mobil dan pembersihan rumah cepat. Motor 50 W menghasilkan hisap 4000 Pa melalui filter HEPA yang bisa dicuci, dan dua sel 1500 mAh memberi sekitar 15 menit pemakaian dengan pengisian Type-C. Wadah debu tanpa kantong 0,12 L dikosongkan dengan satu klik, dan tujuh aksesori mencakup celah, pelapis, keyboard, bulu hewan, bahkan mengembang dan mengempeskan kantong penyimpanan. Bodi ABS hanya 500 g. Tersedia kustomisasi OEM logo, warna, dan kemasan; bersertifikat CE, MOQ 2 unit.",
+    "ru": "CV-4000 — компактный ручной беспроводной пылесос для салона автомобиля и быстрой уборки дома. Мотор 50 Вт обеспечивает силу всасывания 4000 Па через моющийся HEPA-фильтр, а два аккумулятора по 1500 мА·ч дают около 15 минут работы и заряжаются через Type-C. Пылесборник объёмом 0,12 л без мешка опорожняется одним нажатием, а семь насадок подходят для щелей, обивки, клавиатуры, шерсти питомцев, а также для накачивания и сдувания вакуумных пакетов. Корпус из ABS весит всего 500 г. Возможна OEM-кастомизация логотипа, цвета и упаковки; сертификат CE, минимальный заказ 2 шт.",
+    "th": "CV-4000 คือเครื่องดูดฝุ่นมือถือไร้สายขนาดพกพา ออกแบบสำหรับภายในรถและการทำความสะอาดบ้านอย่างรวดเร็ว มอเตอร์ 50 วัตต์ ให้แรงดูด 4000Pa ผ่านฟิลเตอร์ HEPA ที่ล้างได้ แบตเตอรี่คู่ 1500mAh ใช้งานได้ประมาณ 15 นาทีและชาร์จผ่าน Type-C ถังเก็บฝุ่นแบบไม่ใช้ถุง 0.12 ลิตร เททิ้งได้ในคลิกเดียว และอุปกรณ์เสริม 7 ชิ้นครอบคลุมซอกแคบ เบาะ คีย์บอร์ด ขนสัตว์เลี้ยง และยังใช้เป่าลม/ดูดอากาศถุงเก็บของได้ ตัวเครื่อง ABS หนักเพียง 500 กรัม รองรับ OEM ปรับโลโก้ สี และบรรจุภัณฑ์ ได้รับการรับรอง CE สั่งขั้นต่ำ 2 เครื่อง",
+    "vi": "CV-4000 là máy hút bụi cầm tay không dây cỡ túi, thiết kế cho nội thất xe hơi và dọn nhà nhanh. Động cơ 50 W cho lực hút 4000 Pa qua bộ lọc HEPA có thể giặt, hai pin 1500 mAh cho khoảng 15 phút sử dụng và sạc qua Type-C. Hộp bụi không túi 0,12 L đổ chỉ bằng một nút bấm, và 7 phụ kiện đi kèm phủ kẽ hẹp, nệm, bàn phím, lông thú, thậm chí bơm/hút túi đựng đồ. Vỏ ABS chỉ nặng 500 g. Hỗ trợ OEM tuỳ chỉnh logo, màu sắc và bao bì; chứng nhận CE, MOQ 2 chiếc."
+   },
+   "supplier_rating": "4.6",
+   "response_time": "≤2h",
+   "transactions": "21",
+   "years": "1",
+   "ship_from": "Guangdong, China",
+   "sample": {
+    "price": 6.9,
+    "max_qty": 2
+   },
+   "category_name": {
+    "en": "Car Vacuum Cleaners",
+    "zh": "车载吸尘器",
+    "es": "Aspirador de Coche",
+    "ar": "مكنسة سيارات",
+    "fr": "Aspirateur voiture",
+    "id": "Penyedot Debu Mobil",
+    "ru": "Автомобильный пылесос",
+    "th": "เครื่องดูดฝุ่นในรถ",
+    "vi": "Máy hút bụi ô tô"
+   },
+   "_source": "https://www.alibaba.com/product-detail/4000Pa-Cordless-Handheld-Vacuum-Cleaner-50W_1601895691560.html",
+   "_cat": "car-vacuum",
+   "detail_images": [
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-cv4000/detail/01.webp?v=20261031d",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-cv4000/detail/02.webp?v=20261031d",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-cv4000/detail/03.webp?v=20261031d",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-cv4000/detail/04.webp?v=20261031d",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-cv4000/detail/05.webp?v=20261031d",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-cv4000/detail/06.webp?v=20261031d",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-cv4000/detail/07.webp?v=20261031d"
+   ],
+   "version": "20261031d"
+  },
+  {
+   "id": "x7",
+   "_cat": "car-vacuum",
+   "_source": {
+    "platform": "alibaba.com",
+    "productId": "1601716189230"
+   },
+   "alibaba_url": "https://www.alibaba.com/product-detail/Cordless-Car-Vacuum-Cleaner-15000Pa-Powerful_1601716189230.html",
+   "name": {
+    "en": "X7 Cordless Car Vacuum · 15000Pa Powerful Brushless Mini 6-in-1 Handheld for Car, Pet Hair & Home",
+    "zh": "X7 无绳车载吸尘器 · 15000Pa 强劲无刷迷你 6 合 1 手持，车载/宠物/家用",
+    "ar": "X7 قوة شفط 15000Pa · محرك بدون فرش · فلتر HEPA قابل للغسل",
+    "es": "X7 succión potente de 15000Pa · motor sin escobillas · filtro HEPA lavable",
+    "fr": "X7 aspiration puissante 15000Pa · moteur sans balais · filtre HEPA lavable",
+    "id": "X7 hisapan kuat 15000Pa · motor brushless · filter HEPA yang dapat dicuci",
+    "ru": "X7 мощное всасывание 15000Па · бесщёточный мотор · моющийся HEPA-фильтр",
+    "th": "X7 แรงดูดแรงสูง 15000Pa · มอเตอร์ไร้แปรง · ฟิลเตอร์ HEPA ล้างได้",
+    "vi": "X7 lực hút mạnh 15000Pa · động cơ không chổi than · lọc HEPA có thể giặt"
+   },
+   "tagline": {
+    "en": "15000Pa brushless suction in a 6-in-1 handheld body",
+    "zh": "15000Pa 无刷吸力，6 合 1 手持机身",
+    "ar": "قوة شفط 15000Pa · محرك بدون فرش · فلتر HEPA قابل للغسل",
+    "es": "succión potente de 15000Pa · motor sin escobillas · filtro HEPA lavable",
+    "fr": "aspiration puissante 15000Pa · moteur sans balais · filtre HEPA lavable",
+    "id": "hisapan kuat 15000Pa · motor brushless · filter HEPA yang dapat dicuci",
+    "ru": "мощное всасывание 15000Па · бесщёточный мотор · моющийся HEPA-фильтр",
+    "th": "แรงดูดแรงสูง 15000Pa · มอเตอร์ไร้แปรง · ฟิลเตอร์ HEPA ล้างได้",
+    "vi": "lực hút mạnh 15000Pa · động cơ không chổi than · lọc HEPA có thể giặt"
+   },
+   "description": {
+    "en": "X7 is a cordless handheld car vacuum with 15000Pa suction from a 65 W brushless motor. Six attachments cover seats, mats, corners and pet hair, the washable HEPA filter traps fine dust, and the 2000 mAh battery runs 16–25 minutes per charge. Cyclone separation keeps suction steady; color box packaging.",
+    "zh": "X7 无绳手持车载吸尘器，65W 无刷电机输出 15000Pa 吸力。六种配件覆盖座椅、脚垫、缝隙与宠物毛发，可水洗 HEPA 滤网拦截微尘，2000mAh 电池单次续航 16–25 分钟。旋风分离技术保持吸力稳定；彩盒包装。",
+    "ar": "X7 — مكنسة سيارة لاسلكية لتنظيف سريع للمقاعد والسجاد والزوايا. توفر قوة شفط 15000Pa ومحرك بدون فرش وفلتر HEPA قابل للغسل في جسم خفيف ببطارية قابلة للشحن. مثالية للسيارات والمنازل ووبر الحيوانات، مع دعم OEM/ODM.",
+    "es": "X7 es un aspirador inalámbrico para limpieza rápida de asientos, alfombrillas y rincones. Ofrece succión potente de 15000Pa, motor sin escobillas y filtro HEPA lavable en un cuerpo ligero con batería recargable. Ideal para coches, hogares y pelo de mascotas; OEM/ODM disponible.",
+    "fr": "X7 est un aspirateur sans fil pour un nettoyage rapide des sièges, tapis et recoins. Il offre aspiration puissante 15000Pa, moteur sans balais et filtre HEPA lavable dans un corps léger à batterie rechargeable. Idéal pour voitures, maisons et poils d'animaux ; OEM/ODM possible.",
+    "id": "X7 adalah vakum mobil nirkabel untuk pembersihan cepat jok, karpet, dan sudut. Menyediakan hisapan kuat 15000Pa, motor brushless, dan filter HEPA yang dapat dicuci dalam bodi ringan bertenaga baterai isi ulang. Ideal untuk mobil, rumah, dan bulu hewan; OEM/ODM tersedia.",
+    "ru": "X7 — беспроводной автомобильный пылесос для быстрой чистки сидений, ковриков и углов. Обеспечивает мощное всасывание 15000Па, бесщёточный мотор и моющийся HEPA-фильтр в лёгком корпусе с аккумулятором. Идеален для авто, дома и шерсти животных; OEM/ODM доступно.",
+    "th": "X7 เครื่องดูดฝุ่นรถไร้สาย ทำความสะอาดเบาะ พรมปู และซอกมุมได้รวดเร็ว มีแรงดูดแรงสูง 15000Pa มอเตอร์ไร้แปรง และฟิลเตอร์ HEPA ล้างได้ ในตัวเครื่องเบา ใช้แบตเตอรี่ชาร์จได้ เหมาะกับรถยนต์ บ้าน และขนสัตว์ รองรับ OEM/ODM",
+    "vi": "X7 là máy hút bụi ô tô không dây làm sạch nhanh ghế, thảm và kẽ góc. Trang bị lực hút mạnh 15000Pa, động cơ không chổi than và lọc HEPA có thể giặt trên thân nhẹ dùng pin sạc. Phù hợp ô tô, gia đình và lông thú cưng; hỗ trợ OEM/ODM."
+   },
+   "highlights": [
+    {
+     "icon": "suction",
+     "text": {
+      "en": "15000Pa strong suction",
+      "zh": "15000Pa 强劲吸力",
+      "ar": "قوة شفط 15000Pa",
+      "es": "succión potente de 15000Pa",
+      "fr": "aspiration puissante 15000Pa",
+      "id": "hisapan kuat 15000Pa",
+      "ru": "мощное всасывание 15000Па",
+      "th": "แรงดูดแรงสูง 15000Pa",
+      "vi": "lực hút mạnh 15000Pa"
+     }
+    },
+    {
+     "icon": "power",
+     "text": {
+      "en": "brushless motor",
+      "zh": "无刷电机",
+      "ar": "محرك بدون فرش",
+      "es": "motor sin escobillas",
+      "fr": "moteur sans balais",
+      "id": "motor brushless",
+      "ru": "бесщёточный мотор",
+      "th": "มอเตอร์ไร้แปรง",
+      "vi": "động cơ không chổi than"
+     }
+    },
+    {
+     "icon": "filter",
+     "text": {
+      "en": "washable HEPA filter",
+      "zh": "可水洗 HEPA 滤网",
+      "ar": "فلتر HEPA قابل للغسل",
+      "es": "filtro HEPA lavable",
+      "fr": "filtre HEPA lavable",
+      "id": "filter HEPA yang dapat dicuci",
+      "ru": "моющийся HEPA-фильтр",
+      "th": "ฟิลเตอร์ HEPA ล้างได้",
+      "vi": "lọc HEPA có thể giặt"
+     }
+    },
+    {
+     "icon": "portable",
+     "text": {
+      "en": "lightweight portable design",
+      "zh": "轻量便携设计",
+      "ar": "تصميم خفيف ومحمول",
+      "es": "diseño ligero y portátil",
+      "fr": "design léger et portable",
+      "id": "desain ringan dan portabel",
+      "ru": "лёгкий портативный дизайн",
+      "th": "ดีไซน์เบาพกพาสะดวก",
+      "vi": "thiết kế nhẹ nhàng tiện mang theo"
+     }
+    }
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "Model",
+      "zh": "型号",
+      "ar": "الموديل",
+      "es": "Modelo",
+      "fr": "Modèle",
+      "id": "Model",
+      "ru": "Модель",
+      "th": "รุ่น",
+      "vi": "Mã sản phẩm"
+     },
+     "value": "X7 (GX7)"
+    },
+    {
+     "label": {
+      "en": "Suction",
+      "zh": "吸力",
+      "ar": "قوة الشفط",
+      "es": "Succión",
+      "fr": "Aspiration",
+      "id": "Hisapan",
+      "ru": "Всасывание",
+      "th": "แรงดูด",
+      "vi": "Lực hút"
+     },
+     "value": "15000 Pa"
+    },
+    {
+     "label": {
+      "en": "Motor",
+      "zh": "电机",
+      "ar": "المحرك",
+      "es": "Motor",
+      "fr": "Moteur",
+      "id": "Motor",
+      "ru": "Мотор",
+      "th": "มอเตอร์",
+      "vi": "Động cơ"
+     },
+     "value": "Brushless, 65 W"
+    },
+    {
+     "label": {
+      "en": "Runtime",
+      "zh": "续航时间",
+      "ar": "وقت التشغيل",
+      "es": "Tiempo de funcionamiento",
+      "fr": "Autonomie",
+      "id": "Waktu Operasi",
+      "ru": "Время работы",
+      "th": "ระยะเวลาทำงาน",
+      "vi": "Thời gian hoạt động"
+     },
+     "value": "16–25 min"
+    },
+    {
+     "label": {
+      "en": "Battery",
+      "zh": "电池",
+      "ar": "البطارية",
+      "es": "Batería",
+      "fr": "Batterie",
+      "id": "Baterai",
+      "ru": "Аккумулятор",
+      "th": "แบตเตอรี่",
+      "vi": "Pin"
+     },
+     "value": "2000 mAh"
+    },
+    {
+     "label": {
+      "en": "Filter",
+      "zh": "滤网",
+      "ar": "الفلاتر",
+      "es": "Filtro",
+      "fr": "Filtre",
+      "id": "Filter",
+      "ru": "Фильтр",
+      "th": "ฟิลเตอร์",
+      "vi": "Bộ lọc"
+     },
+     "value": "HEPA"
+    },
+    {
+     "label": {
+      "en": "Dust Cup",
+      "zh": "尘杯容量",
+      "ar": "كوب الغبار",
+      "es": "Vaso de polvo",
+      "fr": "Réservoir à poussière",
+      "id": "Cangkir Debu",
+      "ru": "Пылесборник",
+      "th": "ถังฝุ่น",
+      "vi": "Cốc chứa bụi"
+     },
+     "value": "0.12 L"
+    },
+    {
+     "label": {
+      "en": "Attachments",
+      "zh": "配件",
+      "ar": "الملحقات",
+      "es": "Accesorios",
+      "fr": "Accessoires",
+      "id": "Aksesori",
+      "ru": "Насадки",
+      "th": "อุปกรณ์เสริม",
+      "vi": "Phụ kiện"
+     },
+     "value": "6-in-1"
+    },
+    {
+     "label": {
+      "en": "Charging",
+      "zh": "充电方式",
+      "ar": "الشحن",
+      "es": "Carga",
+      "fr": "Charge",
+      "id": "Pengisian",
+      "ru": "Зарядка",
+      "th": "การชาร์จ",
+      "vi": "Sạc"
+     },
+     "value": "1–3 h"
+    }
+   ],
+   "quick_specs": [
+    {
+     "label": {
+      "en": "Suction",
+      "zh": "吸力",
+      "ar": "قوة الشفط",
+      "es": "Succión",
+      "fr": "Aspiration",
+      "id": "Hisapan",
+      "ru": "Всасывание",
+      "th": "แรงดูด",
+      "vi": "Lực hút"
+     },
+     "value": "15000 Pa"
+    },
+    {
+     "label": {
+      "en": "Motor",
+      "zh": "电机",
+      "ar": "المحرك",
+      "es": "Motor",
+      "fr": "Moteur",
+      "id": "Motor",
+      "ru": "Мотор",
+      "th": "มอเตอร์",
+      "vi": "Động cơ"
+     },
+     "value": "Brushless 65 W"
+    },
+    {
+     "label": {
+      "en": "Runtime",
+      "zh": "续航时间",
+      "ar": "وقت التشغيل",
+      "es": "Tiempo de funcionamiento",
+      "fr": "Autonomie",
+      "id": "Waktu Operasi",
+      "ru": "Время работы",
+      "th": "ระยะเวลาทำงาน",
+      "vi": "Thời gian hoạt động"
+     },
+     "value": "16–25 min"
+    },
+    {
+     "label": {
+      "en": "Attachments",
+      "zh": "配件",
+      "ar": "الملحقات",
+      "es": "Accesorios",
+      "fr": "Accessoires",
+      "id": "Aksesori",
+      "ru": "Насадки",
+      "th": "อุปกรณ์เสริม",
+      "vi": "Phụ kiện"
+     },
+     "value": "6-in-1"
+    }
+   ],
+   "moq": {
+    "value": 1,
+    "unit": "pieces"
+   },
+   "price_ladder": [
+    {
+     "min": 1,
+     "max": 999,
+     "price": 12.9
+    },
+    {
+     "min": 1000,
+     "max": 4999,
+     "price": 12.88
+    },
+    {
+     "min": 5000,
+     "max": 9999,
+     "price": 12.5
+    },
+    {
+     "min": 10000,
+     "max": -1,
+     "price": 10.5
+    }
+   ],
+   "price_indicator": {
+    "min": 10.5,
+    "max": 12.9,
+    "currency": "USD"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x7/01.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x7/02.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x7/03.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x7/04.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x7/05.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x7/06.webp?v=20261104b"
+   ],
+   "detail_images": [
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x7/detail/01.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x7/detail/02.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x7/detail/03.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x7/detail/04.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x7/detail/05.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x7/detail/06.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x7/detail/07.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x7/detail/08.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x7/detail/09.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x7/detail/10.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x7/detail/11.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x7/detail/12.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x7/detail/13.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x7/detail/14.webp?v=20261104b"
+   ],
+   "video_url": "",
+   "applications": {
+    "en": "Car seats and mats, home corners, keyboards and pet hair",
+    "zh": "汽车座椅脚垫、家居缝隙、键盘与宠物毛发",
+    "ar": "قوة شفط 15000Pa · محرك بدون فرش · فلتر HEPA قابل للغسل",
+    "es": "succión potente de 15000Pa, motor sin escobillas, filtro HEPA lavable",
+    "fr": "aspiration puissante 15000Pa, moteur sans balais, filtre HEPA lavable",
+    "id": "hisapan kuat 15000Pa, motor brushless, filter HEPA yang dapat dicuci",
+    "ru": "мощное всасывание 15000Па, бесщёточный мотор, моющийся HEPA-фильтр",
+    "th": "แรงดูดแรงสูง 15000Pa, มอเตอร์ไร้แปรง, ฟิลเตอร์ HEPA ล้างได้",
+    "vi": "lực hút mạnh 15000Pa, động cơ không chổi than, lọc HEPA có thể giặt"
+   },
+   "certifications": [],
+   "certificates": [],
+   "sku": [],
+   "packaging": {
+    "unit": "Color Box",
+    "ctn_size": "—",
+    "ctn_qty": "—",
+    "gross_weight": "—"
+   },
+   "customization": {},
+   "pack_size": "—",
+   "category_name": {
+    "en": "Car Vacuum Cleaners",
+    "zh": "车载吸尘器",
+    "es": "Aspirador de Coche",
+    "ar": "مكنسة سيارات",
+    "fr": "Aspirateur voiture",
+    "id": "Penyedot Debu Mobil",
+    "ru": "Автомобильный пылесос",
+    "th": "เครื่องดูดฝุ่นในรถ",
+    "vi": "Máy hút bụi ô tô"
+   },
+   "supplier_rating": null,
+   "response_time": null,
+   "years": null,
+   "sample": null
+  },
+  {
+   "id": "x9",
+   "_cat": "car-vacuum",
+   "_source": {
+    "platform": "alibaba.com",
+    "productId": "1601892376202"
+   },
+   "alibaba_url": "https://www.alibaba.com/product-detail/Portable-15KPa-Brushless-Car-Vacuum-Cleaner_1601892376202.html",
+   "name": {
+    "en": "X9 Portable 15KPa Brushless Car Vacuum · Cordless Handheld with Blower Mode · 65W 2-Speed, Black",
+    "zh": "X9 便携式 15KPa 无刷车载吸尘器 · 无绳手持带吹气功能 · 65W 双档风速，黑色",
+    "ar": "X9 قوة شفط 15000Pa · محرك بدون فرش · وظيفة النفخ",
+    "es": "X9 succión potente de 15000Pa · motor sin escobillas · función de soplado",
+    "fr": "X9 aspiration puissante 15000Pa · moteur sans balais · fonction soufflage",
+    "id": "X9 hisapan kuat 15000Pa · motor brushless · fungsi blower",
+    "ru": "X9 мощное всасывание 15000Па · бесщёточный мотор · функция выдува",
+    "th": "X9 แรงดูดแรงสูง 15000Pa · มอเตอร์ไร้แปรง · ฟังก์ชันเป่าลม",
+    "vi": "X9 lực hút mạnh 15000Pa · động cơ không chổi than · chức năng thổi"
+   },
+   "tagline": {
+    "en": "15KPa brushless handheld with blower mode and 2 speed settings",
+    "zh": "15KPa 无刷手持，带吹气功能，双档风速",
+    "ar": "قوة شفط 15000Pa · وظيفة النفخ · محرك بدون فرش",
+    "es": "succión potente de 15000Pa · función de soplado · motor sin escobillas",
+    "fr": "aspiration puissante 15000Pa · fonction soufflage · moteur sans balais",
+    "id": "hisapan kuat 15000Pa · fungsi blower · motor brushless",
+    "ru": "мощное всасывание 15000Па · функция выдува · бесщёточный мотор",
+    "th": "แรงดูดแรงสูง 15000Pa · ฟังก์ชันเป่าลม · มอเตอร์ไร้แปรง",
+    "vi": "lực hút mạnh 15000Pa · chức năng thổi · động cơ không chổi than"
+   },
+   "description": {
+    "en": "X9 pairs 15KPa suction from a 65 W brushless motor with a blower mode that clears debris from gaps and keyboards before vacuuming. Two speed settings balance runtime and power, the 2000 mAh×2 pack recharges over USB, and at 21 × 19.5 × 7.2 cm it stores in the glove box.",
+    "zh": "X9 以 65W 无刷电机输出 15KPa 吸力，并带吹气模式，先吹散缝隙与键盘碎屑再吸除。双档风速兼顾续航与动力，2000mAh×2 电池 USB 充电，21×19.5×7.2cm 机身轻松放入手套箱。",
+    "ar": "X9 — مكنسة سيارة لاسلكية لتنظيف سريع للمقاعد والسجاد والزوايا. توفر قوة شفط 15000Pa ومحرك بدون فرش ووظيفة النفخ في جسم خفيف ببطارية قابلة للشحن. مثالية للسيارات والمنازل ووبر الحيوانات، مع دعم OEM/ODM.",
+    "es": "X9 es un aspirador inalámbrico para limpieza rápida de asientos, alfombrillas y rincones. Ofrece succión potente de 15000Pa, motor sin escobillas y función de soplado en un cuerpo ligero con batería recargable. Ideal para coches, hogares y pelo de mascotas; OEM/ODM disponible.",
+    "fr": "X9 est un aspirateur sans fil pour un nettoyage rapide des sièges, tapis et recoins. Il offre aspiration puissante 15000Pa, moteur sans balais et fonction soufflage dans un corps léger à batterie rechargeable. Idéal pour voitures, maisons et poils d'animaux ; OEM/ODM possible.",
+    "id": "X9 adalah vakum mobil nirkabel untuk pembersihan cepat jok, karpet, dan sudut. Menyediakan hisapan kuat 15000Pa, motor brushless, dan fungsi blower dalam bodi ringan bertenaga baterai isi ulang. Ideal untuk mobil, rumah, dan bulu hewan; OEM/ODM tersedia.",
+    "ru": "X9 — беспроводной автомобильный пылесос для быстрой чистки сидений, ковриков и углов. Обеспечивает мощное всасывание 15000Па, бесщёточный мотор и функция выдува в лёгком корпусе с аккумулятором. Идеален для авто, дома и шерсти животных; OEM/ODM доступно.",
+    "th": "X9 เครื่องดูดฝุ่นรถไร้สาย ทำความสะอาดเบาะ พรมปู และซอกมุมได้รวดเร็ว มีแรงดูดแรงสูง 15000Pa มอเตอร์ไร้แปรง และฟังก์ชันเป่าลม ในตัวเครื่องเบา ใช้แบตเตอรี่ชาร์จได้ เหมาะกับรถยนต์ บ้าน และขนสัตว์ รองรับ OEM/ODM",
+    "vi": "X9 là máy hút bụi ô tô không dây làm sạch nhanh ghế, thảm và kẽ góc. Trang bị lực hút mạnh 15000Pa, động cơ không chổi than và chức năng thổi trên thân nhẹ dùng pin sạc. Phù hợp ô tô, gia đình và lông thú cưng; hỗ trợ OEM/ODM."
+   },
+   "highlights": [
+    {
+     "icon": "suction",
+     "text": {
+      "en": "15000Pa strong suction",
+      "zh": "15000Pa 强劲吸力",
+      "ar": "قوة شفط 15000Pa",
+      "es": "succión potente de 15000Pa",
+      "fr": "aspiration puissante 15000Pa",
+      "id": "hisapan kuat 15000Pa",
+      "ru": "мощное всасывание 15000Па",
+      "th": "แรงดูดแรงสูง 15000Pa",
+      "vi": "lực hút mạnh 15000Pa"
+     }
+    },
+    {
+     "icon": "power",
+     "text": {
+      "en": "brushless motor",
+      "zh": "无刷电机",
+      "ar": "محرك بدون فرش",
+      "es": "motor sin escobillas",
+      "fr": "moteur sans balais",
+      "id": "motor brushless",
+      "ru": "бесщёточный мотор",
+      "th": "มอเตอร์ไร้แปรง",
+      "vi": "động cơ không chổi than"
+     }
+    },
+    {
+     "icon": "portable",
+     "text": {
+      "en": "blower function",
+      "zh": "吹气功能",
+      "ar": "وظيفة النفخ",
+      "es": "función de soplado",
+      "fr": "fonction soufflage",
+      "id": "fungsi blower",
+      "ru": "функция выдува",
+      "th": "ฟังก์ชันเป่าลม",
+      "vi": "chức năng thổi"
+     }
+    },
+    {
+     "icon": "gauge",
+     "text": {
+      "en": "lightweight portable design",
+      "zh": "轻量便携设计",
+      "ar": "تصميم خفيف ومحمول",
+      "es": "diseño ligero y portátil",
+      "fr": "design léger et portable",
+      "id": "desain ringan dan portabel",
+      "ru": "лёгкий портативный дизайн",
+      "th": "ดีไซน์เบาพกพาสะดวก",
+      "vi": "thiết kế nhẹ nhàng tiện mang theo"
+     }
+    }
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "Model",
+      "zh": "型号",
+      "ar": "الموديل",
+      "es": "Modelo",
+      "fr": "Modèle",
+      "id": "Model",
+      "ru": "Модель",
+      "th": "รุ่น",
+      "vi": "Mã sản phẩm"
+     },
+     "value": "X9 (YX9)"
+    },
+    {
+     "label": {
+      "en": "Suction",
+      "zh": "吸力",
+      "ar": "قوة الشفط",
+      "es": "Succión",
+      "fr": "Aspiration",
+      "id": "Hisapan",
+      "ru": "Всасывание",
+      "th": "แรงดูด",
+      "vi": "Lực hút"
+     },
+     "value": "15 kPa"
+    },
+    {
+     "label": {
+      "en": "Motor",
+      "zh": "电机",
+      "ar": "المحرك",
+      "es": "Motor",
+      "fr": "Moteur",
+      "id": "Motor",
+      "ru": "Мотор",
+      "th": "มอเตอร์",
+      "vi": "Động cơ"
+     },
+     "value": "Brushless, 65 W"
+    },
+    {
+     "label": {
+      "en": "Speeds",
+      "zh": "风速档位",
+      "ar": "السرعات",
+      "es": "Velocidades",
+      "fr": "Vitesses",
+      "id": "Kecepatan",
+      "ru": "Скорости",
+      "th": "รอบความเร็ว",
+      "vi": "Tốc độ"
+     },
+     "value": "2 levels"
+    },
+    {
+     "label": {
+      "en": "Blower",
+      "zh": "吹气功能",
+      "ar": "النفخ",
+      "es": "Soplado",
+      "fr": "Soufflage",
+      "id": "Blower",
+      "ru": "Выдув",
+      "th": "เป่าลม",
+      "vi": "Chức năng thổi"
+     },
+     "value": "Yes"
+    },
+    {
+     "label": {
+      "en": "Battery",
+      "zh": "电池",
+      "ar": "البطارية",
+      "es": "Batería",
+      "fr": "Batterie",
+      "id": "Baterai",
+      "ru": "Аккумулятор",
+      "th": "แบตเตอรี่",
+      "vi": "Pin"
+     },
+     "value": "2000 mAh × 2"
+    },
+    {
+     "label": {
+      "en": "Runtime",
+      "zh": "续航时间",
+      "ar": "وقت التشغيل",
+      "es": "Tiempo de funcionamiento",
+      "fr": "Autonomie",
+      "id": "Waktu Operasi",
+      "ru": "Время работы",
+      "th": "ระยะเวลาทำงาน",
+      "vi": "Thời gian hoạt động"
+     },
+     "value": "16–25 min"
+    },
+    {
+     "label": {
+      "en": "Dust Cup",
+      "zh": "尘杯容量",
+      "ar": "كوب الغبار",
+      "es": "Vaso de polvo",
+      "fr": "Réservoir à poussière",
+      "id": "Cangkir Debu",
+      "ru": "Пылесборник",
+      "th": "ถังฝุ่น",
+      "vi": "Cốc chứa bụi"
+     },
+     "value": "0.12 L"
+    },
+    {
+     "label": {
+      "en": "Color",
+      "zh": "颜色",
+      "ar": "اللون",
+      "es": "Color",
+      "fr": "Couleur",
+      "id": "Warna",
+      "ru": "Цвет",
+      "th": "สี",
+      "vi": "Màu sắc"
+     },
+     "value": "Black"
+    },
+    {
+     "label": {
+      "en": "Size",
+      "zh": "尺寸",
+      "ar": "المقاس",
+      "es": "Tamaño",
+      "fr": "Dimensions",
+      "id": "Ukuran",
+      "ru": "Размер",
+      "th": "ขนาด",
+      "vi": "Kích thước"
+     },
+     "value": "21 × 19.5 × 7.2 cm"
+    }
+   ],
+   "quick_specs": [
+    {
+     "label": {
+      "en": "Suction",
+      "zh": "吸力",
+      "ar": "قوة الشفط",
+      "es": "Succión",
+      "fr": "Aspiration",
+      "id": "Hisapan",
+      "ru": "Всасывание",
+      "th": "แรงดูด",
+      "vi": "Lực hút"
+     },
+     "value": "15 kPa"
+    },
+    {
+     "label": {
+      "en": "Motor",
+      "zh": "电机",
+      "ar": "المحرك",
+      "es": "Motor",
+      "fr": "Moteur",
+      "id": "Motor",
+      "ru": "Мотор",
+      "th": "มอเตอร์",
+      "vi": "Động cơ"
+     },
+     "value": "Brushless 65 W"
+    },
+    {
+     "label": {
+      "en": "Speeds",
+      "zh": "风速档位",
+      "ar": "السرعات",
+      "es": "Velocidades",
+      "fr": "Vitesses",
+      "id": "Kecepatan",
+      "ru": "Скорости",
+      "th": "รอบความเร็ว",
+      "vi": "Tốc độ"
+     },
+     "value": "2 levels"
+    },
+    {
+     "label": {
+      "en": "Blower",
+      "zh": "吹气功能",
+      "ar": "النفخ",
+      "es": "Soplado",
+      "fr": "Soufflage",
+      "id": "Blower",
+      "ru": "Выдув",
+      "th": "เป่าลม",
+      "vi": "Chức năng thổi"
+     },
+     "value": "Yes"
+    }
+   ],
+   "moq": {
+    "value": 2,
+    "unit": "pieces"
+   },
+   "price_ladder": [
+    {
+     "min": 2,
+     "max": 999,
+     "price": 12.5
+    },
+    {
+     "min": 1000,
+     "max": 2999,
+     "price": 12.2
+    },
+    {
+     "min": 3000,
+     "max": 4999,
+     "price": 11.8
+    },
+    {
+     "min": 5000,
+     "max": -1,
+     "price": 11.3
+    }
+   ],
+   "price_indicator": {
+    "min": 11.3,
+    "max": 12.5,
+    "currency": "USD"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x9/01.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x9/02.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x9/03.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x9/04.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x9/05.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x9/06.webp?v=20261104b"
+   ],
+   "detail_images": [
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x9/detail/01.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x9/detail/02.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x9/detail/03.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x9/detail/04.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x9/detail/05.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x9/detail/06.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x9/detail/07.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x9/detail/08.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x9/detail/09.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x9/detail/10.webp?v=20261104b"
+   ],
+   "video_url": "",
+   "applications": {
+    "en": "Car interiors, keyboards, window gaps and pet hair",
+    "zh": "汽车内饰、键盘、车窗缝隙与宠物毛发",
+    "ar": "قوة شفط 15000Pa · محرك بدون فرش · وظيفة النفخ",
+    "es": "succión potente de 15000Pa, motor sin escobillas, función de soplado",
+    "fr": "aspiration puissante 15000Pa, moteur sans balais, fonction soufflage",
+    "id": "hisapan kuat 15000Pa, motor brushless, fungsi blower",
+    "ru": "мощное всасывание 15000Па, бесщёточный мотор, функция выдува",
+    "th": "แรงดูดแรงสูง 15000Pa, มอเตอร์ไร้แปรง, ฟังก์ชันเป่าลม",
+    "vi": "lực hút mạnh 15000Pa, động cơ không chổi than, chức năng thổi"
+   },
+   "certifications": [],
+   "certificates": [],
+   "sku": [],
+   "packaging": {
+    "unit": "Color Box",
+    "ctn_size": "—",
+    "ctn_qty": "—",
+    "gross_weight": "—"
+   },
+   "customization": {},
+   "pack_size": "21 × 19.5 × 7.2 cm",
+   "category_name": {
+    "en": "Car Vacuum Cleaners",
+    "zh": "车载吸尘器",
+    "es": "Aspirador de Coche",
+    "ar": "مكنسة سيارات",
+    "fr": "Aspirateur voiture",
+    "id": "Penyedot Debu Mobil",
+    "ru": "Автомобильный пылесос",
+    "th": "เครื่องดูดฝุ่นในรถ",
+    "vi": "Máy hút bụi ô tô"
+   },
+   "supplier_rating": null,
+   "response_time": null,
+   "years": null,
+   "sample": null
+  },
+  {
+   "id": "f1",
+   "_cat": "car-vacuum",
+   "_source": {
+    "platform": "alibaba.com",
+    "productId": "1601893615882"
+   },
+   "alibaba_url": "https://www.alibaba.com/product-detail/Portable-Lightweight-Brush-Motor-Car-Vacuum_1601893615882.html",
+   "name": {
+    "en": "F1 Portable Lightweight Car Vacuum · 4000Pa Brush Motor Wet & Dry · USB Rechargeable with HEPA Filter",
+    "zh": "F1 便携轻量车载吸尘器 · 4000Pa 有刷电机干湿两用 · USB 充电带 HEPA 滤网",
+    "ar": "F1 تنظيف رطب وجاف · فلتر HEPA قابل للغسل · قوة شفط 15000Pa",
+    "es": "F1 limpieza en húmedo y seco · filtro HEPA lavable · succión potente de 15000Pa",
+    "fr": "F1 nettoyage humide et sec · filtre HEPA lavable · aspiration puissante 15000Pa",
+    "id": "F1 pembersihan basah & kering · filter HEPA yang dapat dicuci · hisapan kuat 15000Pa",
+    "ru": "F1 влажная и сухая уборка · моющийся HEPA-фильтр · мощное всасывание 15000Па",
+    "th": "F1 ทำความสะอาดแบบเปียกและแห้ง · ฟิลเตอร์ HEPA ล้างได้ · แรงดูดแรงสูง 15000Pa",
+    "vi": "F1 làm sạch ướt và khô · lọc HEPA có thể giặt · lực hút mạnh 15000Pa"
+   },
+   "tagline": {
+    "en": "Lightweight 4000Pa wet & dry vacuum with USB charging",
+    "zh": "轻量 4000Pa 干湿两用吸尘器，USB 充电",
+    "ar": "تنظيف رطب وجاف · فلتر HEPA قابل للغسل · تصميم خفيف ومحمول",
+    "es": "limpieza en húmedo y seco · filtro HEPA lavable · diseño ligero y portátil",
+    "fr": "nettoyage humide et sec · filtre HEPA lavable · design léger et portable",
+    "id": "pembersihan basah & kering · filter HEPA yang dapat dicuci · desain ringan dan portabel",
+    "ru": "влажная и сухая уборка · моющийся HEPA-фильтр · лёгкий портативный дизайн",
+    "th": "ทำความสะอาดแบบเปียกและแห้ง · ฟิลเตอร์ HEPA ล้างได้ · ดีไซน์เบาพกพาสะดวก",
+    "vi": "làm sạch ướt và khô · lọc HEPA có thể giặt · thiết kế nhẹ nhàng tiện mang theo"
+   },
+   "description": {
+    "en": "F1 is a lightweight handheld car vacuum with 4000Pa suction and a dual wet/dry intake mode that picks up crumbs, dust and small spills. The washable HEPA filter and 0.12 L cup empty in seconds; two 1500 mAh cells recharge over USB in 1–3 hours for about 15 minutes of cleaning.",
+    "zh": "F1 轻量手持车载吸尘器，4000Pa 吸力，干湿双吸模式可吸碎屑、灰尘与小洒漏。可水洗 HEPA 滤网，0.12L 尘杯数秒清空；1500mAh×2 电池 USB 充电 1–3 小时，续航约 15 分钟。",
+    "ar": "F1 — مكنسة سيارة لاسلكية لتنظيف سريع للمقاعد والسجاد والزوايا. توفر تنظيف رطب وجاف وفلتر HEPA قابل للغسل وقوة شفط 15000Pa في جسم خفيف ببطارية قابلة للشحن. مثالية للسيارات والمنازل ووبر الحيوانات، مع دعم OEM/ODM.",
+    "es": "F1 es un aspirador inalámbrico para limpieza rápida de asientos, alfombrillas y rincones. Ofrece limpieza en húmedo y seco, filtro HEPA lavable y succión potente de 15000Pa en un cuerpo ligero con batería recargable. Ideal para coches, hogares y pelo de mascotas; OEM/ODM disponible.",
+    "fr": "F1 est un aspirateur sans fil pour un nettoyage rapide des sièges, tapis et recoins. Il offre nettoyage humide et sec, filtre HEPA lavable et aspiration puissante 15000Pa dans un corps léger à batterie rechargeable. Idéal pour voitures, maisons et poils d'animaux ; OEM/ODM possible.",
+    "id": "F1 adalah vakum mobil nirkabel untuk pembersihan cepat jok, karpet, dan sudut. Menyediakan pembersihan basah & kering, filter HEPA yang dapat dicuci, dan hisapan kuat 15000Pa dalam bodi ringan bertenaga baterai isi ulang. Ideal untuk mobil, rumah, dan bulu hewan; OEM/ODM tersedia.",
+    "ru": "F1 — беспроводной автомобильный пылесос для быстрой чистки сидений, ковриков и углов. Обеспечивает влажная и сухая уборка, моющийся HEPA-фильтр и мощное всасывание 15000Па в лёгком корпусе с аккумулятором. Идеален для авто, дома и шерсти животных; OEM/ODM доступно.",
+    "th": "F1 เครื่องดูดฝุ่นรถไร้สาย ทำความสะอาดเบาะ พรมปู และซอกมุมได้รวดเร็ว มีทำความสะอาดแบบเปียกและแห้ง ฟิลเตอร์ HEPA ล้างได้ และแรงดูดแรงสูง 15000Pa ในตัวเครื่องเบา ใช้แบตเตอรี่ชาร์จได้ เหมาะกับรถยนต์ บ้าน และขนสัตว์ รองรับ OEM/ODM",
+    "vi": "F1 là máy hút bụi ô tô không dây làm sạch nhanh ghế, thảm và kẽ góc. Trang bị làm sạch ướt và khô, lọc HEPA có thể giặt và lực hút mạnh 15000Pa trên thân nhẹ dùng pin sạc. Phù hợp ô tô, gia đình và lông thú cưng; hỗ trợ OEM/ODM."
+   },
+   "highlights": [
+    {
+     "icon": "portable",
+     "text": {
+      "en": "wet & dry cleaning",
+      "zh": "干湿两用清洁",
+      "ar": "تنظيف رطب وجاف",
+      "es": "limpieza en húmedo y seco",
+      "fr": "nettoyage humide et sec",
+      "id": "pembersihan basah & kering",
+      "ru": "влажная и сухая уборка",
+      "th": "ทำความสะอาดแบบเปียกและแห้ง",
+      "vi": "làm sạch ướt và khô"
+     }
+    },
+    {
+     "icon": "filter",
+     "text": {
+      "en": "washable HEPA filter",
+      "zh": "可水洗 HEPA 滤网",
+      "ar": "فلتر HEPA قابل للغسل",
+      "es": "filtro HEPA lavable",
+      "fr": "filtre HEPA lavable",
+      "id": "filter HEPA yang dapat dicuci",
+      "ru": "моющийся HEPA-фильтр",
+      "th": "ฟิลเตอร์ HEPA ล้างได้",
+      "vi": "lọc HEPA có thể giặt"
+     }
+    },
+    {
+     "icon": "battery",
+     "text": {
+      "en": "USB rechargeable battery",
+      "zh": "USB 充电电池",
+      "ar": "بطارية قابلة للشحن عبر USB",
+      "es": "batería recargable por USB",
+      "fr": "batterie rechargeable USB",
+      "id": "baterai isi ulang USB",
+      "ru": "аккумулятор с зарядкой USB",
+      "th": "แบตเตอรี่ชาร์จ USB",
+      "vi": "pin sạc USB"
+     }
+    },
+    {
+     "icon": "clean",
+     "text": {
+      "en": "lightweight portable design",
+      "zh": "轻量便携设计",
+      "ar": "تصميم خفيف ومحمول",
+      "es": "diseño ligero y portátil",
+      "fr": "design léger et portable",
+      "id": "desain ringan dan portabel",
+      "ru": "лёгкий портативный дизайн",
+      "th": "ดีไซน์เบาพกพาสะดวก",
+      "vi": "thiết kế nhẹ nhàng tiện mang theo"
+     }
+    }
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "Model",
+      "zh": "型号",
+      "ar": "الموديل",
+      "es": "Modelo",
+      "fr": "Modèle",
+      "id": "Model",
+      "ru": "Модель",
+      "th": "รุ่น",
+      "vi": "Mã sản phẩm"
+     },
+     "value": "F1 (YF1)"
+    },
+    {
+     "label": {
+      "en": "Suction",
+      "zh": "吸力",
+      "ar": "قوة الشفط",
+      "es": "Succión",
+      "fr": "Aspiration",
+      "id": "Hisapan",
+      "ru": "Всасывание",
+      "th": "แรงดูด",
+      "vi": "Lực hút"
+     },
+     "value": "4000 Pa"
+    },
+    {
+     "label": {
+      "en": "Motor",
+      "zh": "电机",
+      "ar": "المحرك",
+      "es": "Motor",
+      "fr": "Moteur",
+      "id": "Motor",
+      "ru": "Мотор",
+      "th": "มอเตอร์",
+      "vi": "Động cơ"
+     },
+     "value": "Brushed, 50 W"
+    },
+    {
+     "label": {
+      "en": "Use",
+      "zh": "使用方式",
+      "ar": "الاستخدام",
+      "es": "Uso",
+      "fr": "Utilisation",
+      "id": "Penggunaan",
+      "ru": "Использование",
+      "th": "การใช้งาน",
+      "vi": "Cách dùng"
+     },
+     "value": "Wet & Dry"
+    },
+    {
+     "label": {
+      "en": "Filter",
+      "zh": "滤网",
+      "ar": "الفلاتر",
+      "es": "Filtro",
+      "fr": "Filtre",
+      "id": "Filter",
+      "ru": "Фильтр",
+      "th": "ฟิลเตอร์",
+      "vi": "Bộ lọc"
+     },
+     "value": "HEPA"
+    },
+    {
+     "label": {
+      "en": "Dust Cup",
+      "zh": "尘杯容量",
+      "ar": "كوب الغبار",
+      "es": "Vaso de polvo",
+      "fr": "Réservoir à poussière",
+      "id": "Cangkir Debu",
+      "ru": "Пылесборник",
+      "th": "ถังฝุ่น",
+      "vi": "Cốc chứa bụi"
+     },
+     "value": "0.12 L"
+    },
+    {
+     "label": {
+      "en": "Battery",
+      "zh": "电池",
+      "ar": "البطارية",
+      "es": "Batería",
+      "fr": "Batterie",
+      "id": "Baterai",
+      "ru": "Аккумулятор",
+      "th": "แบตเตอรี่",
+      "vi": "Pin"
+     },
+     "value": "1500 mAh × 2"
+    },
+    {
+     "label": {
+      "en": "Runtime",
+      "zh": "续航时间",
+      "ar": "وقت التشغيل",
+      "es": "Tiempo de funcionamiento",
+      "fr": "Autonomie",
+      "id": "Waktu Operasi",
+      "ru": "Время работы",
+      "th": "ระยะเวลาทำงาน",
+      "vi": "Thời gian hoạt động"
+     },
+     "value": "15 min"
+    },
+    {
+     "label": {
+      "en": "Charging",
+      "zh": "充电方式",
+      "ar": "الشحن",
+      "es": "Carga",
+      "fr": "Charge",
+      "id": "Pengisian",
+      "ru": "Зарядка",
+      "th": "การชาร์จ",
+      "vi": "Sạc"
+     },
+     "value": "USB, 1–3 h"
+    },
+    {
+     "label": {
+      "en": "Weight",
+      "zh": "重量",
+      "ar": "الوزن",
+      "es": "Peso",
+      "fr": "Poids",
+      "id": "Berat",
+      "ru": "Вес",
+      "th": "น้ำหนัก",
+      "vi": "Trọng lượng"
+     },
+     "value": "0.5–1 kg"
+    }
+   ],
+   "quick_specs": [
+    {
+     "label": {
+      "en": "Suction",
+      "zh": "吸力",
+      "ar": "قوة الشفط",
+      "es": "Succión",
+      "fr": "Aspiration",
+      "id": "Hisapan",
+      "ru": "Всасывание",
+      "th": "แรงดูด",
+      "vi": "Lực hút"
+     },
+     "value": "4000 Pa"
+    },
+    {
+     "label": {
+      "en": "Use",
+      "zh": "使用方式",
+      "ar": "الاستخدام",
+      "es": "Uso",
+      "fr": "Utilisation",
+      "id": "Penggunaan",
+      "ru": "Использование",
+      "th": "การใช้งาน",
+      "vi": "Cách dùng"
+     },
+     "value": "Wet & Dry"
+    },
+    {
+     "label": {
+      "en": "Battery",
+      "zh": "电池",
+      "ar": "البطارية",
+      "es": "Batería",
+      "fr": "Batterie",
+      "id": "Baterai",
+      "ru": "Аккумулятор",
+      "th": "แบตเตอรี่",
+      "vi": "Pin"
+     },
+     "value": "1500 mAh × 2"
+    },
+    {
+     "label": {
+      "en": "Runtime",
+      "zh": "续航时间",
+      "ar": "وقت التشغيل",
+      "es": "Tiempo de funcionamiento",
+      "fr": "Autonomie",
+      "id": "Waktu Operasi",
+      "ru": "Время работы",
+      "th": "ระยะเวลาทำงาน",
+      "vi": "Thời gian hoạt động"
+     },
+     "value": "15 min"
+    }
+   ],
+   "moq": {
+    "value": 2,
+    "unit": "pieces"
+   },
+   "price_ladder": [
+    {
+     "min": 2,
+     "max": 4999,
+     "price": 6.9
+    },
+    {
+     "min": 5000,
+     "max": 9999,
+     "price": 6.3
+    },
+    {
+     "min": 10000,
+     "max": -1,
+     "price": 6
+    }
+   ],
+   "price_indicator": {
+    "min": 6,
+    "max": 6.9,
+    "currency": "USD"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-f1/01.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-f1/02.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-f1/03.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-f1/04.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-f1/05.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-f1/06.webp?v=20261104b"
+   ],
+   "detail_images": [
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-f1/detail/01.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-f1/detail/02.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-f1/detail/03.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-f1/detail/04.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-f1/detail/05.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-f1/detail/06.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-f1/detail/07.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-f1/detail/08.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-f1/detail/09.webp?v=20261104b"
+   ],
+   "video_url": "",
+   "applications": {
+    "en": "Car seats, mats, cup holders and small liquid spills",
+    "zh": "汽车座椅、脚垫、杯架与小量液体洒漏",
+    "ar": "تنظيف رطب وجاف · فلتر HEPA قابل للغسل · قوة شفط 15000Pa",
+    "es": "limpieza en húmedo y seco, filtro HEPA lavable, succión potente de 15000Pa",
+    "fr": "nettoyage humide et sec, filtre HEPA lavable, aspiration puissante 15000Pa",
+    "id": "pembersihan basah & kering, filter HEPA yang dapat dicuci, hisapan kuat 15000Pa",
+    "ru": "влажная и сухая уборка, моющийся HEPA-фильтр, мощное всасывание 15000Па",
+    "th": "ทำความสะอาดแบบเปียกและแห้ง, ฟิลเตอร์ HEPA ล้างได้, แรงดูดแรงสูง 15000Pa",
+    "vi": "làm sạch ướt và khô, lọc HEPA có thể giặt, lực hút mạnh 15000Pa"
+   },
+   "certifications": [],
+   "certificates": [],
+   "sku": [],
+   "packaging": {
+    "unit": "Color Box",
+    "ctn_size": "—",
+    "ctn_qty": "—",
+    "gross_weight": "—"
+   },
+   "customization": {},
+   "pack_size": "—",
+   "category_name": {
+    "en": "Car Vacuum Cleaners",
+    "zh": "车载吸尘器",
+    "es": "Aspirador de Coche",
+    "ar": "مكنسة سيارات",
+    "fr": "Aspirateur voiture",
+    "id": "Penyedot Debu Mobil",
+    "ru": "Автомобильный пылесос",
+    "th": "เครื่องดูดฝุ่นในรถ",
+    "vi": "Máy hút bụi ô tô"
+   },
+   "supplier_rating": null,
+   "response_time": null,
+   "years": null,
+   "sample": null
+  },
+  {
+   "id": "x5",
+   "_cat": "car-vacuum",
+   "_source": {
+    "platform": "alibaba.com",
+    "productId": "1601895502203"
+   },
+   "alibaba_url": "https://www.alibaba.com/product-detail/15KPa-Cordless-Handheld-Vacuum-Cleaner-Blower_1601895502203.html",
+   "name": {
+    "en": "X5 15KPa Cordless Handheld Vacuum · Blower Function 65W Brushless · 4000mAh Type-C Rechargeable, OEM/ODM",
+    "zh": "X5 15KPa 无绳手持吸尘器 · 吹气功能 65W 无刷 · 4000mAh Type-C 充电，支持 OEM/ODM",
+    "ar": "X5 قوة شفط 15000Pa · وظيفة النفخ · محرك بدون فرش",
+    "es": "X5 succión potente de 15000Pa · función de soplado · motor sin escobillas",
+    "fr": "X5 aspiration puissante 15000Pa · fonction soufflage · moteur sans balais",
+    "id": "X5 hisapan kuat 15000Pa · fungsi blower · motor brushless",
+    "ru": "X5 мощное всасывание 15000Па · функция выдува · бесщёточный мотор",
+    "th": "X5 แรงดูดแรงสูง 15000Pa · ฟังก์ชันเป่าลม · มอเตอร์ไร้แปรง",
+    "vi": "X5 lực hút mạnh 15000Pa · chức năng thổi · động cơ không chổi than"
+   },
+   "tagline": {
+    "en": "15KPa brushless handheld with blower and Type-C charging",
+    "zh": "15KPa 无刷手持，带吹气功能与 Type-C 充电",
+    "ar": "قوة شفط 15000Pa · وظيفة النفخ · محرك بدون فرش",
+    "es": "succión potente de 15000Pa · función de soplado · motor sin escobillas",
+    "fr": "aspiration puissante 15000Pa · fonction soufflage · moteur sans balais",
+    "id": "hisapan kuat 15000Pa · fungsi blower · motor brushless",
+    "ru": "мощное всасывание 15000Па · функция выдува · бесщёточный мотор",
+    "th": "แรงดูดแรงสูง 15000Pa · ฟังก์ชันเป่าลม · มอเตอร์ไร้แปรง",
+    "vi": "lực hút mạnh 15000Pa · chức năng thổi · động cơ không chổi than"
+   },
+   "description": {
+    "en": "X5 combines 15KPa suction (81–100AW) from a 65 W brushless motor with a blower function for gap cleaning. The 4000 mAh battery (2000 mAh×2) charges over Type-C and runs 16–25 minutes; HEPA filtration, 0.12 L cup and 4–6 attachments cover car, home and hotel use.",
+    "zh": "X5 以 65W 无刷电机输出 15KPa 吸力（81–100AW），并配吹气功能清理缝隙。4000mAh 电池（2000mAh×2）Type-C 充电，续航 16–25 分钟；HEPA 过滤、0.12L 尘杯与 4–6 种配件，覆盖车载/家用/酒店场景。",
+    "ar": "X5 — مكنسة سيارة لاسلكية لتنظيف سريع للمقاعد والسجاد والزوايا. توفر قوة شفط 15000Pa ووظيفة النفخ ومحرك بدون فرش في جسم خفيف ببطارية قابلة للشحن. مثالية للسيارات والمنازل ووبر الحيوانات، مع دعم OEM/ODM.",
+    "es": "X5 es un aspirador inalámbrico para limpieza rápida de asientos, alfombrillas y rincones. Ofrece succión potente de 15000Pa, función de soplado y motor sin escobillas en un cuerpo ligero con batería recargable. Ideal para coches, hogares y pelo de mascotas; OEM/ODM disponible.",
+    "fr": "X5 est un aspirateur sans fil pour un nettoyage rapide des sièges, tapis et recoins. Il offre aspiration puissante 15000Pa, fonction soufflage et moteur sans balais dans un corps léger à batterie rechargeable. Idéal pour voitures, maisons et poils d'animaux ; OEM/ODM possible.",
+    "id": "X5 adalah vakum mobil nirkabel untuk pembersihan cepat jok, karpet, dan sudut. Menyediakan hisapan kuat 15000Pa, fungsi blower, dan motor brushless dalam bodi ringan bertenaga baterai isi ulang. Ideal untuk mobil, rumah, dan bulu hewan; OEM/ODM tersedia.",
+    "ru": "X5 — беспроводной автомобильный пылесос для быстрой чистки сидений, ковриков и углов. Обеспечивает мощное всасывание 15000Па, функция выдува и бесщёточный мотор в лёгком корпусе с аккумулятором. Идеален для авто, дома и шерсти животных; OEM/ODM доступно.",
+    "th": "X5 เครื่องดูดฝุ่นรถไร้สาย ทำความสะอาดเบาะ พรมปู และซอกมุมได้รวดเร็ว มีแรงดูดแรงสูง 15000Pa ฟังก์ชันเป่าลม และมอเตอร์ไร้แปรง ในตัวเครื่องเบา ใช้แบตเตอรี่ชาร์จได้ เหมาะกับรถยนต์ บ้าน และขนสัตว์ รองรับ OEM/ODM",
+    "vi": "X5 là máy hút bụi ô tô không dây làm sạch nhanh ghế, thảm và kẽ góc. Trang bị lực hút mạnh 15000Pa, chức năng thổi và động cơ không chổi than trên thân nhẹ dùng pin sạc. Phù hợp ô tô, gia đình và lông thú cưng; hỗ trợ OEM/ODM."
+   },
+   "highlights": [
+    {
+     "icon": "suction",
+     "text": {
+      "en": "15000Pa strong suction",
+      "zh": "15000Pa 强劲吸力",
+      "ar": "قوة شفط 15000Pa",
+      "es": "succión potente de 15000Pa",
+      "fr": "aspiration puissante 15000Pa",
+      "id": "hisapan kuat 15000Pa",
+      "ru": "мощное всасывание 15000Па",
+      "th": "แรงดูดแรงสูง 15000Pa",
+      "vi": "lực hút mạnh 15000Pa"
+     }
+    },
+    {
+     "icon": "power",
+     "text": {
+      "en": "brushless motor",
+      "zh": "无刷电机",
+      "ar": "محرك بدون فرش",
+      "es": "motor sin escobillas",
+      "fr": "moteur sans balais",
+      "id": "motor brushless",
+      "ru": "бесщёточный мотор",
+      "th": "มอเตอร์ไร้แปรง",
+      "vi": "động cơ không chổi than"
+     }
+    },
+    {
+     "icon": "portable",
+     "text": {
+      "en": "blower function",
+      "zh": "吹气功能",
+      "ar": "وظيفة النفخ",
+      "es": "función de soplado",
+      "fr": "fonction soufflage",
+      "id": "fungsi blower",
+      "ru": "функция выдува",
+      "th": "ฟังก์ชันเป่าลม",
+      "vi": "chức năng thổi"
+     }
+    },
+    {
+     "icon": "battery",
+     "text": {
+      "en": "USB rechargeable battery",
+      "zh": "USB 充电电池",
+      "ar": "بطارية قابلة للشحن عبر USB",
+      "es": "batería recargable por USB",
+      "fr": "batterie rechargeable USB",
+      "id": "baterai isi ulang USB",
+      "ru": "аккумулятор с зарядкой USB",
+      "th": "แบตเตอรี่ชาร์จ USB",
+      "vi": "pin sạc USB"
+     }
+    }
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "Model",
+      "zh": "型号",
+      "ar": "الموديل",
+      "es": "Modelo",
+      "fr": "Modèle",
+      "id": "Model",
+      "ru": "Модель",
+      "th": "รุ่น",
+      "vi": "Mã sản phẩm"
+     },
+     "value": "X5 (YX5)"
+    },
+    {
+     "label": {
+      "en": "Suction",
+      "zh": "吸力",
+      "ar": "قوة الشفط",
+      "es": "Succión",
+      "fr": "Aspiration",
+      "id": "Hisapan",
+      "ru": "Всасывание",
+      "th": "แรงดูด",
+      "vi": "Lực hút"
+     },
+     "value": "15000 Pa"
+    },
+    {
+     "label": {
+      "en": "Motor",
+      "zh": "电机",
+      "ar": "المحرك",
+      "es": "Motor",
+      "fr": "Moteur",
+      "id": "Motor",
+      "ru": "Мотор",
+      "th": "มอเตอร์",
+      "vi": "Động cơ"
+     },
+     "value": "Brushless, 65 W"
+    },
+    {
+     "label": {
+      "en": "Blower",
+      "zh": "吹气功能",
+      "ar": "النفخ",
+      "es": "Soplado",
+      "fr": "Soufflage",
+      "id": "Blower",
+      "ru": "Выдув",
+      "th": "เป่าลม",
+      "vi": "Chức năng thổi"
+     },
+     "value": "Yes"
+    },
+    {
+     "label": {
+      "en": "Battery",
+      "zh": "电池",
+      "ar": "البطارية",
+      "es": "Batería",
+      "fr": "Batterie",
+      "id": "Baterai",
+      "ru": "Аккумулятор",
+      "th": "แบตเตอรี่",
+      "vi": "Pin"
+     },
+     "value": "4000 mAh (2000 × 2)"
+    },
+    {
+     "label": {
+      "en": "Runtime",
+      "zh": "续航时间",
+      "ar": "وقت التشغيل",
+      "es": "Tiempo de funcionamiento",
+      "fr": "Autonomie",
+      "id": "Waktu Operasi",
+      "ru": "Время работы",
+      "th": "ระยะเวลาทำงาน",
+      "vi": "Thời gian hoạt động"
+     },
+     "value": "16–25 min"
+    },
+    {
+     "label": {
+      "en": "Charging",
+      "zh": "充电方式",
+      "ar": "الشحن",
+      "es": "Carga",
+      "fr": "Charge",
+      "id": "Pengisian",
+      "ru": "Зарядка",
+      "th": "การชาร์จ",
+      "vi": "Sạc"
+     },
+     "value": "Type-C"
+    },
+    {
+     "label": {
+      "en": "Filter",
+      "zh": "滤网",
+      "ar": "الفلاتر",
+      "es": "Filtro",
+      "fr": "Filtre",
+      "id": "Filter",
+      "ru": "Фильтр",
+      "th": "ฟิลเตอร์",
+      "vi": "Bộ lọc"
+     },
+     "value": "HEPA"
+    },
+    {
+     "label": {
+      "en": "Dust Cup",
+      "zh": "尘杯容量",
+      "ar": "كوب الغبار",
+      "es": "Vaso de polvo",
+      "fr": "Réservoir à poussière",
+      "id": "Cangkir Debu",
+      "ru": "Пылесборник",
+      "th": "ถังฝุ่น",
+      "vi": "Cốc chứa bụi"
+     },
+     "value": "0.12 L"
+    },
+    {
+     "label": {
+      "en": "Suction Power",
+      "zh": "吸入功率",
+      "ar": "قوة الشفط",
+      "es": "Potencia de succión",
+      "fr": "Puissance d’aspiration",
+      "id": "Daya Hisap",
+      "ru": "Мощность всасывания",
+      "th": "พลังดูด",
+      "vi": "Công suất hút"
+     },
+     "value": "81–100 AW"
+    }
+   ],
+   "quick_specs": [
+    {
+     "label": {
+      "en": "Suction",
+      "zh": "吸力",
+      "ar": "قوة الشفط",
+      "es": "Succión",
+      "fr": "Aspiration",
+      "id": "Hisapan",
+      "ru": "Всасывание",
+      "th": "แรงดูด",
+      "vi": "Lực hút"
+     },
+     "value": "15000 Pa"
+    },
+    {
+     "label": {
+      "en": "Motor",
+      "zh": "电机",
+      "ar": "المحرك",
+      "es": "Motor",
+      "fr": "Moteur",
+      "id": "Motor",
+      "ru": "Мотор",
+      "th": "มอเตอร์",
+      "vi": "Động cơ"
+     },
+     "value": "Brushless 65 W"
+    },
+    {
+     "label": {
+      "en": "Battery",
+      "zh": "电池",
+      "ar": "البطارية",
+      "es": "Batería",
+      "fr": "Batterie",
+      "id": "Baterai",
+      "ru": "Аккумулятор",
+      "th": "แบตเตอรี่",
+      "vi": "Pin"
+     },
+     "value": "4000 mAh"
+    },
+    {
+     "label": {
+      "en": "Charging",
+      "zh": "充电方式",
+      "ar": "الشحن",
+      "es": "Carga",
+      "fr": "Charge",
+      "id": "Pengisian",
+      "ru": "Зарядка",
+      "th": "การชาร์จ",
+      "vi": "Sạc"
+     },
+     "value": "Type-C"
+    }
+   ],
+   "moq": {
+    "value": 2,
+    "unit": "pieces"
+   },
+   "price_ladder": [
+    {
+     "min": 2,
+     "max": 999,
+     "price": 11.9
+    },
+    {
+     "min": 1000,
+     "max": 1999,
+     "price": 11.6
+    },
+    {
+     "min": 2000,
+     "max": -1,
+     "price": 11.3
+    }
+   ],
+   "price_indicator": {
+    "min": 11.3,
+    "max": 11.9,
+    "currency": "USD"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x5/01.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x5/02.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x5/03.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x5/04.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x5/05.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x5/06.webp?v=20261104b"
+   ],
+   "detail_images": [
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x5/detail/01.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x5/detail/02.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x5/detail/03.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x5/detail/04.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x5/detail/05.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x5/detail/06.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x5/detail/07.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x5/detail/08.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-x5/detail/09.webp?v=20261104b"
+   ],
+   "video_url": "",
+   "applications": {
+    "en": "Car interiors, homes, hotels and keyboards",
+    "zh": "汽车内饰、家庭、酒店与键盘",
+    "ar": "قوة شفط 15000Pa · وظيفة النفخ · محرك بدون فرش",
+    "es": "succión potente de 15000Pa, función de soplado, motor sin escobillas",
+    "fr": "aspiration puissante 15000Pa, fonction soufflage, moteur sans balais",
+    "id": "hisapan kuat 15000Pa, fungsi blower, motor brushless",
+    "ru": "мощное всасывание 15000Па, функция выдува, бесщёточный мотор",
+    "th": "แรงดูดแรงสูง 15000Pa, ฟังก์ชันเป่าลม, มอเตอร์ไร้แปรง",
+    "vi": "lực hút mạnh 15000Pa, chức năng thổi, động cơ không chổi than"
+   },
+   "certifications": [],
+   "certificates": [],
+   "sku": [],
+   "packaging": {
+    "unit": "Color Box",
+    "ctn_size": "—",
+    "ctn_qty": "—",
+    "gross_weight": "—"
+   },
+   "customization": {},
+   "pack_size": "—",
+   "category_name": {
+    "en": "Car Vacuum Cleaners",
+    "zh": "车载吸尘器",
+    "es": "Aspirador de Coche",
+    "ar": "مكنسة سيارات",
+    "fr": "Aspirateur voiture",
+    "id": "Penyedot Debu Mobil",
+    "ru": "Автомобильный пылесос",
+    "th": "เครื่องดูดฝุ่นในรถ",
+    "vi": "Máy hút bụi ô tô"
+   },
+   "supplier_rating": null,
+   "response_time": null,
+   "years": null,
+   "sample": null
+  },
+  {
+   "id": "zx-201",
+   "_cat": "car-vacuum",
+   "_source": {
+    "platform": "alibaba.com",
+    "productId": "1601895520738"
+   },
+   "alibaba_url": "https://www.alibaba.com/product-detail/4000Pa-Cordless-Handheld-Bagless-HEPA-Filter_1601895520738.html",
+   "name": {
+    "en": "ZX-201 4000Pa Cordless Handheld Vacuum · Bagless HEPA Wet & Dry · Type-C Rechargeable with 6 Nozzles",
+    "zh": "ZX-201 4000Pa 无绳手持吸尘器 · 无袋 HEPA 干湿两用 · Type-C 充电带 6 种喷嘴",
+    "ar": "ZX-201 تنظيف رطب وجاف · ملحقات فوهات متعددة · فلتر HEPA قابل للغسل",
+    "es": "ZX-201 limpieza en húmedo y seco · accesorios de boquillas múltiples · filtro HEPA lavable",
+    "fr": "ZX-201 nettoyage humide et sec · accessoires multi-embouts · filtre HEPA lavable",
+    "id": "ZX-201 pembersihan basah & kering · aksesoris nozzle lengkap · filter HEPA yang dapat dicuci",
+    "ru": "ZX-201 влажная и сухая уборка · набор насадок · моющийся HEPA-фильтр",
+    "th": "ZX-201 ทำความสะอาดแบบเปียกและแห้ง · หัวฉีดหลายแบบ · ฟิลเตอร์ HEPA ล้างได้",
+    "vi": "ZX-201 làm sạch ướt và khô · nhiều đầu phun kèm theo · lọc HEPA có thể giặt"
+   },
+   "tagline": {
+    "en": "4000Pa bagless wet & dry vacuum with 6 nozzle accessories",
+    "zh": "4000Pa 无袋干湿两用，6 种喷嘴配件",
+    "ar": "تنظيف رطب وجاف · ملحقات فوهات متعددة · فلتر HEPA قابل للغسل",
+    "es": "limpieza en húmedo y seco · accesorios de boquillas múltiples · filtro HEPA lavable",
+    "fr": "nettoyage humide et sec · accessoires multi-embouts · filtre HEPA lavable",
+    "id": "pembersihan basah & kering · aksesoris nozzle lengkap · filter HEPA yang dapat dicuci",
+    "ru": "влажная и сухая уборка · набор насадок · моющийся HEPA-фильтр",
+    "th": "ทำความสะอาดแบบเปียกและแห้ง · หัวฉีดหลายแบบ · ฟิลเตอร์ HEPA ล้างได้",
+    "vi": "làm sạch ướt và khô · nhiều đầu phun kèm theo · lọc HEPA có thể giặt"
+   },
+   "description": {
+    "en": "ZX-201 is a bagless handheld vacuum with 4000Pa suction and wet/dry dual mode. Six nozzle accessories reach seats, mats, vents and gaps, the washable HEPA filter rinses clean, and two 1500 mAh cells recharge over Type-C for about 15 minutes of runtime per charge.",
+    "zh": "ZX-201 无袋手持吸尘器，4000Pa 吸力，干湿双模式。六种喷嘴配件深入座椅、脚垫、出风口与缝隙，可水洗 HEPA 滤网冲净即用，1500mAh×2 电池 Type-C 充电，单次续航约 15 分钟。",
+    "ar": "ZX-201 — مكنسة سيارة لاسلكية لتنظيف سريع للمقاعد والسجاد والزوايا. توفر تنظيف رطب وجاف وملحقات فوهات متعددة وفلتر HEPA قابل للغسل في جسم خفيف ببطارية قابلة للشحن. مثالية للسيارات والمنازل ووبر الحيوانات، مع دعم OEM/ODM.",
+    "es": "ZX-201 es un aspirador inalámbrico para limpieza rápida de asientos, alfombrillas y rincones. Ofrece limpieza en húmedo y seco, accesorios de boquillas múltiples y filtro HEPA lavable en un cuerpo ligero con batería recargable. Ideal para coches, hogares y pelo de mascotas; OEM/ODM disponible.",
+    "fr": "ZX-201 est un aspirateur sans fil pour un nettoyage rapide des sièges, tapis et recoins. Il offre nettoyage humide et sec, accessoires multi-embouts et filtre HEPA lavable dans un corps léger à batterie rechargeable. Idéal pour voitures, maisons et poils d'animaux ; OEM/ODM possible.",
+    "id": "ZX-201 adalah vakum mobil nirkabel untuk pembersihan cepat jok, karpet, dan sudut. Menyediakan pembersihan basah & kering, aksesoris nozzle lengkap, dan filter HEPA yang dapat dicuci dalam bodi ringan bertenaga baterai isi ulang. Ideal untuk mobil, rumah, dan bulu hewan; OEM/ODM tersedia.",
+    "ru": "ZX-201 — беспроводной автомобильный пылесос для быстрой чистки сидений, ковриков и углов. Обеспечивает влажная и сухая уборка, набор насадок и моющийся HEPA-фильтр в лёгком корпусе с аккумулятором. Идеален для авто, дома и шерсти животных; OEM/ODM доступно.",
+    "th": "ZX-201 เครื่องดูดฝุ่นรถไร้สาย ทำความสะอาดเบาะ พรมปู และซอกมุมได้รวดเร็ว มีทำความสะอาดแบบเปียกและแห้ง หัวฉีดหลายแบบ และฟิลเตอร์ HEPA ล้างได้ ในตัวเครื่องเบา ใช้แบตเตอรี่ชาร์จได้ เหมาะกับรถยนต์ บ้าน และขนสัตว์ รองรับ OEM/ODM",
+    "vi": "ZX-201 là máy hút bụi ô tô không dây làm sạch nhanh ghế, thảm và kẽ góc. Trang bị làm sạch ướt và khô, nhiều đầu phun kèm theo và lọc HEPA có thể giặt trên thân nhẹ dùng pin sạc. Phù hợp ô tô, gia đình và lông thú cưng; hỗ trợ OEM/ODM."
+   },
+   "highlights": [
+    {
+     "icon": "suction",
+     "text": {
+      "en": "multiple nozzle accessories",
+      "zh": "多种喷嘴配件",
+      "ar": "ملحقات فوهات متعددة",
+      "es": "accesorios de boquillas múltiples",
+      "fr": "accessoires multi-embouts",
+      "id": "aksesoris nozzle lengkap",
+      "ru": "набор насадок",
+      "th": "หัวฉีดหลายแบบ",
+      "vi": "nhiều đầu phun kèm theo"
+     }
+    },
+    {
+     "icon": "portable",
+     "text": {
+      "en": "wet & dry cleaning",
+      "zh": "干湿两用清洁",
+      "ar": "تنظيف رطب وجاف",
+      "es": "limpieza en húmedo y seco",
+      "fr": "nettoyage humide et sec",
+      "id": "pembersihan basah & kering",
+      "ru": "влажная и сухая уборка",
+      "th": "ทำความสะอาดแบบเปียกและแห้ง",
+      "vi": "làm sạch ướt và khô"
+     }
+    },
+    {
+     "icon": "filter",
+     "text": {
+      "en": "washable HEPA filter",
+      "zh": "可水洗 HEPA 滤网",
+      "ar": "فلتر HEPA قابل للغسل",
+      "es": "filtro HEPA lavable",
+      "fr": "filtre HEPA lavable",
+      "id": "filter HEPA yang dapat dicuci",
+      "ru": "моющийся HEPA-фильтр",
+      "th": "ฟิลเตอร์ HEPA ล้างได้",
+      "vi": "lọc HEPA có thể giặt"
+     }
+    },
+    {
+     "icon": "battery",
+     "text": {
+      "en": "USB rechargeable battery",
+      "zh": "USB 充电电池",
+      "ar": "بطارية قابلة للشحن عبر USB",
+      "es": "batería recargable por USB",
+      "fr": "batterie rechargeable USB",
+      "id": "baterai isi ulang USB",
+      "ru": "аккумулятор с зарядкой USB",
+      "th": "แบตเตอรี่ชาร์จ USB",
+      "vi": "pin sạc USB"
+     }
+    }
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "Model",
+      "zh": "型号",
+      "ar": "الموديل",
+      "es": "Modelo",
+      "fr": "Modèle",
+      "id": "Model",
+      "ru": "Модель",
+      "th": "รุ่น",
+      "vi": "Mã sản phẩm"
+     },
+     "value": "ZX-201 (YZX-201)"
+    },
+    {
+     "label": {
+      "en": "Suction",
+      "zh": "吸力",
+      "ar": "قوة الشفط",
+      "es": "Succión",
+      "fr": "Aspiration",
+      "id": "Hisapan",
+      "ru": "Всасывание",
+      "th": "แรงดูด",
+      "vi": "Lực hút"
+     },
+     "value": "4000 Pa"
+    },
+    {
+     "label": {
+      "en": "Motor",
+      "zh": "电机",
+      "ar": "المحرك",
+      "es": "Motor",
+      "fr": "Moteur",
+      "id": "Motor",
+      "ru": "Мотор",
+      "th": "มอเตอร์",
+      "vi": "Động cơ"
+     },
+     "value": "Brushed, 50 W"
+    },
+    {
+     "label": {
+      "en": "Use",
+      "zh": "使用方式",
+      "ar": "الاستخدام",
+      "es": "Uso",
+      "fr": "Utilisation",
+      "id": "Penggunaan",
+      "ru": "Использование",
+      "th": "การใช้งาน",
+      "vi": "Cách dùng"
+     },
+     "value": "Wet & Dry"
+    },
+    {
+     "label": {
+      "en": "Filter",
+      "zh": "滤网",
+      "ar": "الفلاتر",
+      "es": "Filtro",
+      "fr": "Filtre",
+      "id": "Filter",
+      "ru": "Фильтр",
+      "th": "ฟิลเตอร์",
+      "vi": "Bộ lọc"
+     },
+     "value": "HEPA, bagless"
+    },
+    {
+     "label": {
+      "en": "Nozzles",
+      "zh": "喷嘴",
+      "ar": "الفوهات",
+      "es": "Boquillas",
+      "fr": "Embouts",
+      "id": "Nozzle",
+      "ru": "Насадки",
+      "th": "หัวฉีด",
+      "vi": "Đầu phun"
+     },
+     "value": "6 types"
+    },
+    {
+     "label": {
+      "en": "Battery",
+      "zh": "电池",
+      "ar": "البطارية",
+      "es": "Batería",
+      "fr": "Batterie",
+      "id": "Baterai",
+      "ru": "Аккумулятор",
+      "th": "แบตเตอรี่",
+      "vi": "Pin"
+     },
+     "value": "1500 mAh × 2"
+    },
+    {
+     "label": {
+      "en": "Runtime",
+      "zh": "续航时间",
+      "ar": "وقت التشغيل",
+      "es": "Tiempo de funcionamiento",
+      "fr": "Autonomie",
+      "id": "Waktu Operasi",
+      "ru": "Время работы",
+      "th": "ระยะเวลาทำงาน",
+      "vi": "Thời gian hoạt động"
+     },
+     "value": "15 min"
+    },
+    {
+     "label": {
+      "en": "Charging",
+      "zh": "充电方式",
+      "ar": "الشحن",
+      "es": "Carga",
+      "fr": "Charge",
+      "id": "Pengisian",
+      "ru": "Зарядка",
+      "th": "การชาร์จ",
+      "vi": "Sạc"
+     },
+     "value": "Type-C"
+    }
+   ],
+   "quick_specs": [
+    {
+     "label": {
+      "en": "Suction",
+      "zh": "吸力",
+      "ar": "قوة الشفط",
+      "es": "Succión",
+      "fr": "Aspiration",
+      "id": "Hisapan",
+      "ru": "Всасывание",
+      "th": "แรงดูด",
+      "vi": "Lực hút"
+     },
+     "value": "4000 Pa"
+    },
+    {
+     "label": {
+      "en": "Use",
+      "zh": "使用方式",
+      "ar": "الاستخدام",
+      "es": "Uso",
+      "fr": "Utilisation",
+      "id": "Penggunaan",
+      "ru": "Использование",
+      "th": "การใช้งาน",
+      "vi": "Cách dùng"
+     },
+     "value": "Wet & Dry"
+    },
+    {
+     "label": {
+      "en": "Nozzles",
+      "zh": "喷嘴",
+      "ar": "الفوهات",
+      "es": "Boquillas",
+      "fr": "Embouts",
+      "id": "Nozzle",
+      "ru": "Насадки",
+      "th": "หัวฉีด",
+      "vi": "Đầu phun"
+     },
+     "value": "6 types"
+    },
+    {
+     "label": {
+      "en": "Charging",
+      "zh": "充电方式",
+      "ar": "الشحن",
+      "es": "Carga",
+      "fr": "Charge",
+      "id": "Pengisian",
+      "ru": "Зарядка",
+      "th": "การชาร์จ",
+      "vi": "Sạc"
+     },
+     "value": "Type-C"
+    }
+   ],
+   "moq": {
+    "value": 2,
+    "unit": "pieces"
+   },
+   "price_ladder": [
+    {
+     "min": 2,
+     "max": 4999,
+     "price": 6.6
+    },
+    {
+     "min": 5000,
+     "max": 9999,
+     "price": 6
+    },
+    {
+     "min": 10000,
+     "max": -1,
+     "price": 5.2
+    }
+   ],
+   "price_indicator": {
+    "min": 5.2,
+    "max": 6.6,
+    "currency": "USD"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-zx-201/01.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-zx-201/02.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-zx-201/03.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-zx-201/04.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-zx-201/05.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-zx-201/06.webp?v=20261104b"
+   ],
+   "detail_images": [
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-zx-201/detail/01.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-zx-201/detail/02.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-zx-201/detail/03.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-zx-201/detail/04.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-zx-201/detail/05.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-zx-201/detail/06.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-zx-201/detail/07.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-zx-201/detail/08.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-zx-201/detail/09.webp?v=20261104b"
+   ],
+   "video_url": "",
+   "applications": {
+    "en": "Car seats, mats, air vents and small spills",
+    "zh": "汽车座椅、脚垫、空调出风口与小量洒漏",
+    "ar": "تنظيف رطب وجاف · ملحقات فوهات متعددة · فلتر HEPA قابل للغسل",
+    "es": "limpieza en húmedo y seco, accesorios de boquillas múltiples, filtro HEPA lavable",
+    "fr": "nettoyage humide et sec, accessoires multi-embouts, filtre HEPA lavable",
+    "id": "pembersihan basah & kering, aksesoris nozzle lengkap, filter HEPA yang dapat dicuci",
+    "ru": "влажная и сухая уборка, набор насадок, моющийся HEPA-фильтр",
+    "th": "ทำความสะอาดแบบเปียกและแห้ง, หัวฉีดหลายแบบ, ฟิลเตอร์ HEPA ล้างได้",
+    "vi": "làm sạch ướt và khô, nhiều đầu phun kèm theo, lọc HEPA có thể giặt"
+   },
+   "certifications": [],
+   "certificates": [],
+   "sku": [],
+   "packaging": {
+    "unit": "Color Box",
+    "ctn_size": "—",
+    "ctn_qty": "—",
+    "gross_weight": "—"
+   },
+   "customization": {},
+   "pack_size": "—",
+   "category_name": {
+    "en": "Car Vacuum Cleaners",
+    "zh": "车载吸尘器",
+    "es": "Aspirador de Coche",
+    "ar": "مكنسة سيارات",
+    "fr": "Aspirateur voiture",
+    "id": "Penyedot Debu Mobil",
+    "ru": "Автомобильный пылесос",
+    "th": "เครื่องดูดฝุ่นในรถ",
+    "vi": "Máy hút bụi ô tô"
+   },
+   "supplier_rating": null,
+   "response_time": null,
+   "years": null,
+   "sample": null
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Ryan Cooper",
+   "location": "Chicago, IL, USA",
+   "rating": 5,
+   "date": "2025-10-29",
+   "title": "Strongest 12V car vacuum I have tested — handles sand and gravel",
+   "body": "I tested 6 different car vacuums and this one has the highest suction at 5000Pa. It pulls sand from the carpet, crumbs from the seat crevices, and even pet hair. The washable HEPA filter is a huge plus. See the before/after photos of my truck bed.",
+   "photoUrls": [
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/01.webp?v=20261029p",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/02.webp?v=20261029p"
+   ]
+  },
+  {
+   "name": "Nina Johansson",
+   "location": "Stockholm, Sweden",
+   "rating": 5,
+   "date": "2025-08-11",
+   "title": "Compact enough to keep in the glove box, powerful enough for weekly cleans",
+   "body": "At just 1.2kg it fits in our glove box. The 5m car charger cable reaches every corner of our SUV. The LED light on the nozzle is perfect for cleaning under seats at night. No complaints after 8 months of weekly use.",
+   "photoUrls": [
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/01.webp?v=20261029p",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/02.webp?v=20261029p"
+   ]
+  },
+  {
+   "name": "Ahmed Hassan",
+   "location": "Dubai, UAE",
+   "rating": 5,
+   "date": "2025-06-18",
+   "title": "DC 12V works perfectly in our extreme summer heat",
+   "body": "Many car accessories fail in Dubai summers. This vacuum has survived temperatures above 45°C in the car. The cord management is neat and the dust cup is easy to empty. The transparent design lets you see when it needs cleaning.",
+   "photoUrls": [
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/01.webp?v=20261029p",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/02.webp?v=20261029p"
+   ]
+  }
+ ],
+ "_schema_reviews": [
+  {
+   "@type": "Review",
+   "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "5",
+    "bestRating": "5",
+    "worstRating": "1"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Ryan Cooper",
+    "address": {
+     "@type": "PostalAddress",
+     "addressLocality": "Chicago, IL, USA"
+    }
+   },
+   "datePublished": "2025-10-29",
+   "reviewBody": "I tested 6 different car vacuums and this one has the highest suction at 5000Pa. It pulls sand from the carpet, crumbs from the seat crevices, and even pet hair. The washable HEPA filter is a huge plus. See the before/after photos of my truck bed.",
+   "name": "Strongest 12V car vacuum I have tested — handles sand and gravel",
+   "image": [
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/01.webp?v=20261029p",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/02.webp?v=20261029p"
+   ]
+  },
+  {
+   "@type": "Review",
+   "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "5",
+    "bestRating": "5",
+    "worstRating": "1"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Nina Johansson",
+    "address": {
+     "@type": "PostalAddress",
+     "addressLocality": "Stockholm, Sweden"
+    }
+   },
+   "datePublished": "2025-08-11",
+   "reviewBody": "At just 1.2kg it fits in our glove box. The 5m car charger cable reaches every corner of our SUV. The LED light on the nozzle is perfect for cleaning under seats at night. No complaints after 8 months of weekly use.",
+   "name": "Compact enough to keep in the glove box, powerful enough for weekly cleans",
+   "image": [
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/01.webp?v=20261029p",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/02.webp?v=20261029p"
+   ]
+  },
+  {
+   "@type": "Review",
+   "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "5",
+    "bestRating": "5",
+    "worstRating": "1"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Ahmed Hassan",
+    "address": {
+     "@type": "PostalAddress",
+     "addressLocality": "Dubai, UAE"
+    }
+   },
+   "datePublished": "2025-06-18",
+   "reviewBody": "Many car accessories fail in Dubai summers. This vacuum has survived temperatures above 45°C in the car. The cord management is neat and the dust cup is easy to empty. The transparent design lets you see when it needs cleaning.",
+   "name": "DC 12V works perfectly in our extreme summer heat",
+   "image": [
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/01.webp?v=20261029p",
+    "https://www.hkdmj.net/assets/images/products/car-vacuum-yzx-305/02.webp?v=20261029p"
+   ]
+  }
+ ]
 }

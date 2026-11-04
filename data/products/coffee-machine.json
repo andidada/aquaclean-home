@@ -1,6 +1,771 @@
 {
  "category": "coffee-machine",
- "products": [],
+ "products": [
+  {
+   "id": "xyd-008",
+   "_cat": "coffee-machine",
+   "_source": {
+    "platform": "alibaba.com",
+    "productId": "1602003492713"
+   },
+   "alibaba_url": "https://www.alibaba.com/product-detail/Portable-Electric-Coffee-Grinder-Cordless-USB_1602003492713.html",
+   "name": {
+    "en": "XYD-008 Portable Electric Coffee Grinder · Wireless USB-C Rechargeable Conical Burr · 30 Grind Settings for Espresso, 20 g Capacity",
+    "zh": "XYD-008 便携式电动咖啡研磨机 · 无线 Type-C 充电锥形磨盘 · 30 档研磨可调，20 克豆仓容量",
+    "ar": "XYD-008 مطحنة قرصية مخروطية · 30 درجة طحن قابلة للتعديل · قابل للشحن عبر USB-C",
+    "es": "XYD-008 molinillo de muelas cónicas · 30 niveles de molienda ajustables · recargable por USB-C",
+    "fr": "XYD-008 moulin à meules coniques · 30 niveaux de mouture réglables · rechargeable USB-C",
+    "id": "XYD-008 penggiling burr kerucut · 30 tingkat penggilingan yang dapat disesuaikan · isi ulang USB-C",
+    "ru": "XYD-008 жерновая кофемолка с коническими жерновами · 30 ступеней помола · зарядка USB-C",
+    "th": "XYD-008 เครื่องบดใบมีดกรวย · ปรับระดับการบดได้ 30 ระดับ · ชาร์จผ่าน USB-C",
+    "vi": "XYD-008 máy xay Burr hình nón · 30 cấp độ xay điều chỉnh được · sạc qua USB-C"
+   },
+   "tagline": {
+    "en": "Wireless conical burr grinding with 30 settings and USB-C charging",
+    "zh": "无线锥形磨盘研磨，30 档可调，Type-C 充电",
+    "ar": "30 درجة طحن قابلة للتعديل · قابل للشحن عبر USB-C · سعة 20 جم من حبوب البن",
+    "es": "30 niveles de molienda ajustables · recargable por USB-C · capacidad de 20 g de granos",
+    "fr": "30 niveaux de mouture réglables · rechargeable USB-C · capacité de 20 g de grains",
+    "id": "30 tingkat penggilingan yang dapat disesuaikan · isi ulang USB-C · kapasitas 20 gram biji kopi",
+    "ru": "30 ступеней помола · зарядка USB-C ·  ёмкость 20 г зёрен",
+    "th": "ปรับระดับการบดได้ 30 ระดับ · ชาร์จผ่าน USB-C · ความจุเมล็ดกาแฟ 20 กรัม",
+    "vi": "30 cấp độ xay điều chỉnh được · sạc qua USB-C · sức chứa 20g hạt cà phê"
+   },
+   "description": {
+    "en": "XYD-008 is a portable electric coffee grinder with 420 stainless steel conical burr blades and 30 adjustable grind settings, from fine espresso to coarse French press. A 20 g bean chamber, one-touch control and automatic stop after grinding make daily use simple; the aluminum body (260 g) charges over USB-C and detaches for easy cleaning.",
+    "zh": "XYD-008 便携式电动咖啡研磨机，配备 420 不锈钢锥形磨刀片与 30 档可调研磨，从意式细粉到法压粗粉一机搞定。20 克豆仓、一键操作、研磨完成自动停止；铝制机身仅 260 克，Type-C 充电，部件可拆卸易清洗。",
+    "ar": "XYD-008 — مطحنة قهوة كهربائية محمولة من AquaClean. تتميز بـمطحنة قرصية مخروطية، و30 درجة طحن قابلة للتعديل، وقابل للشحن عبر USB-C، بجسم صغير يسهل تنظيفه وتخزينه. مثالية للمنزل والمكتب والسفر، وتدعم التخصيص OEM/ODM وتأتي في علبة ملوّنة.",
+    "es": "XYD-008 es un molinillo de café eléctrico portátil de AquaClean. Ofrece molinillo de muelas cónicas, 30 niveles de molienda ajustables y recargable por USB-C, en un cuerpo compacto fácil de limpiar y guardar. Ideal para hogar, oficina y viaje; admite OEM/ODM y viene en caja de color.",
+    "fr": "XYD-008 est un moulin à café électrique portable AquaClean. Il offre moulin à meules coniques, 30 niveaux de mouture réglables et rechargeable USB-C, dans un corps compact facile à nettoyer et à ranger. Idéal pour la maison, le bureau et le voyage ; OEM/ODM possible, livré en boîte colorée.",
+    "id": "XYD-008 adalah penggiling kopi listrik portabel dari AquaClean. Dilengkapi penggiling burr kerucut, 30 tingkat penggilingan yang dapat disesuaikan, dan isi ulang USB-C dalam bodi ringkas yang mudah dibersihkan dan disimpan. Ideal untuk rumah, kantor, dan perjalanan; mendukung OEM/ODM, dikemas dalam color box.",
+    "ru": "XYD-008 — портативная электрическая кофемолка AquaClean. В ней есть жерновая кофемолка с коническими жерновами, 30 ступеней помола и зарядка USB-C; компактный корпус легко чистить и хранить. Идеальна для дома, офиса и поездок, поддерживает OEM/ODM, поставляется в цветной коробке.",
+    "th": "XYD-008 คือเครื่องบดกาแฟไฟฟ้าพกพาจาก AquaClean มีเครื่องบดใบมีดกรวย ปรับระดับการบดได้ 30 ระดับ และชาร์จผ่าน USB-C ตัวเครื่องกะทัดรัด ทำความสะอาดและเก็บง่าย เหมาะสำหรับบ้าน สำนักงาน และท่องเที่ยว รองรับ OEM/ODM บรรจุกล่องสี",
+    "vi": "XYD-008 là máy xay cà phê điện cầm tay của AquaClean, có máy xay Burr hình nón, 30 cấp độ xay điều chỉnh được và sạc qua USB-C, thân máy gọn gàng dễ vệ sinh và bảo quản. Phù hợp cho gia đình, văn phòng và du lịch; hỗ trợ OEM/ODM, đóng hộp màu."
+   },
+   "highlights": [
+    {
+     "icon": "check",
+     "text": {
+      "en": "conical burr grinder",
+      "zh": "锥形磨盘研磨机",
+      "ar": "مطحنة قرصية مخروطية",
+      "es": "molinillo de muelas cónicas",
+      "fr": "moulin à meules coniques",
+      "id": "penggiling burr kerucut",
+      "ru": "жерновая кофемолка с коническими жерновами",
+      "th": "เครื่องบดใบมีดกรวย",
+      "vi": "máy xay Burr hình nón"
+     }
+    },
+    {
+     "icon": "gauge",
+     "text": {
+      "en": "30 adjustable grind settings",
+      "zh": "30 档研磨粗细可调",
+      "ar": "30 درجة طحن قابلة للتعديل",
+      "es": "30 niveles de molienda ajustables",
+      "fr": "30 niveaux de mouture réglables",
+      "id": "30 tingkat penggilingan yang dapat disesuaikan",
+      "ru": "30 ступеней помола",
+      "th": "ปรับระดับการบดได้ 30 ระดับ",
+      "vi": "30 cấp độ xay điều chỉnh được"
+     }
+    },
+    {
+     "icon": "battery",
+     "text": {
+      "en": "USB-C rechargeable",
+      "zh": "Type-C USB 充电",
+      "ar": "قابل للشحن عبر USB-C",
+      "es": "recargable por USB-C",
+      "fr": "rechargeable USB-C",
+      "id": "isi ulang USB-C",
+      "ru": "зарядка USB-C",
+      "th": "ชาร์จผ่าน USB-C",
+      "vi": "sạc qua USB-C"
+     }
+    },
+    {
+     "icon": "design",
+     "text": {
+      "en": "durable aluminum body",
+      "zh": "耐用铝制机身",
+      "ar": "هيكل ألومنيوم متين",
+      "es": "cuerpo de aluminio duradero",
+      "fr": "corps en aluminium durable",
+      "id": "bodi aluminium tahan lama",
+      "ru": "прочный алюминиевый корпус",
+      "th": "ตัวเครื่องอะลูมิเนียมทนทาน",
+      "vi": "thân nhôm bền bỉ"
+     }
+    }
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "Model",
+      "zh": "型号",
+      "ar": "الموديل",
+      "es": "Modelo",
+      "fr": "Modèle",
+      "id": "Model",
+      "ru": "Модель",
+      "th": "รุ่น",
+      "vi": "Mã sản phẩm"
+     },
+     "value": "XYD-008"
+    },
+    {
+     "label": {
+      "en": "Type",
+      "zh": "类型",
+      "ar": "النوع",
+      "es": "Tipo",
+      "fr": "Type",
+      "id": "Tipe",
+      "ru": "Тип",
+      "th": "ประเภท",
+      "vi": "Loại"
+     },
+     "value": "Conical Burr Grinder"
+    },
+    {
+     "label": {
+      "en": "Grind Settings",
+      "zh": "研磨档位",
+      "ar": "درجات الطحن",
+      "es": "Niveles de molienda",
+      "fr": "Niveaux de mouture",
+      "id": "Tingkat Penggilingan",
+      "ru": "Ступени помола",
+      "th": "ระดับการบด",
+      "vi": "Cấp độ xay"
+     },
+     "value": "30 levels"
+    },
+    {
+     "label": {
+      "en": "Bean Capacity",
+      "zh": "豆仓容量",
+      "ar": "سعة حبوب البن",
+      "es": "Capacidad de granos",
+      "fr": "Capacité de grains",
+      "id": "Kapasitas Biji",
+      "ru": "Ёмкость для зёрен",
+      "th": "ความจุเมล็ด",
+      "vi": "Dung tích hạt"
+     },
+     "value": "20 g"
+    },
+    {
+     "label": {
+      "en": "Blade Material",
+      "zh": "刀片材质",
+      "ar": "مادة الشفرة",
+      "es": "Material de la cuchilla",
+      "fr": "Matériau des lames",
+      "id": "Bahan Bilah",
+      "ru": "Материал ножей",
+      "th": "วัสดุใบมีด",
+      "vi": "Chất liệu lưỡi dao"
+     },
+     "value": "420 Stainless Steel"
+    },
+    {
+     "label": {
+      "en": "Body Material",
+      "zh": "机身材质",
+      "ar": "مادة الهيكل",
+      "es": "Material del cuerpo",
+      "fr": "Matériau du corps",
+      "id": "Bahan Bodi",
+      "ru": "Материал корпуса",
+      "th": "วัสดุตัวเครื่อง",
+      "vi": "Chất liệu thân máy"
+     },
+     "value": "Aluminum"
+    },
+    {
+     "label": {
+      "en": "Power",
+      "zh": "功率",
+      "ar": "الطاقة",
+      "es": "Potencia",
+      "fr": "Puissance",
+      "id": "Daya",
+      "ru": "Мощность",
+      "th": "กำลังไฟ",
+      "vi": "Công suất"
+     },
+     "value": "5 W"
+    },
+    {
+     "label": {
+      "en": "Charging",
+      "zh": "充电方式",
+      "ar": "الشحن",
+      "es": "Carga",
+      "fr": "Charge",
+      "id": "Pengisian",
+      "ru": "Зарядка",
+      "th": "การชาร์จ",
+      "vi": "Sạc"
+     },
+     "value": "USB-C, built-in battery"
+    },
+    {
+     "label": {
+      "en": "Net Weight",
+      "zh": "净重",
+      "ar": "الوزن الصافي",
+      "es": "Peso neto",
+      "fr": "Poids net",
+      "id": "Berat Bersih",
+      "ru": "Вес нетто",
+      "th": "น้ำหนักสุทธิ",
+      "vi": "Khối lượng tịn"
+     },
+     "value": "260 g"
+    },
+    {
+     "label": {
+      "en": "Colors",
+      "zh": "颜色选项",
+      "ar": "الألوان",
+      "es": "Colores",
+      "fr": "Couleurs",
+      "id": "Warna",
+      "ru": "Цвета",
+      "th": "สี",
+      "vi": "Màu sắc"
+     },
+     "value": "Black / White / Pink / Blue"
+    }
+   ],
+   "quick_specs": [
+    {
+     "label": {
+      "en": "Grind Settings",
+      "zh": "研磨档位",
+      "ar": "درجات الطحن",
+      "es": "Niveles de molienda",
+      "fr": "Niveaux de mouture",
+      "id": "Tingkat Penggilingan",
+      "ru": "Ступени помола",
+      "th": "ระดับการบด",
+      "vi": "Cấp độ xay"
+     },
+     "value": "30 levels"
+    },
+    {
+     "label": {
+      "en": "Bean Capacity",
+      "zh": "豆仓容量",
+      "ar": "سعة حبوب البن",
+      "es": "Capacidad de granos",
+      "fr": "Capacité de grains",
+      "id": "Kapasitas Biji",
+      "ru": "Ёмкость для зёрен",
+      "th": "ความจุเมล็ด",
+      "vi": "Dung tích hạt"
+     },
+     "value": "20 g"
+    },
+    {
+     "label": {
+      "en": "Charging",
+      "zh": "充电方式",
+      "ar": "الشحن",
+      "es": "Carga",
+      "fr": "Charge",
+      "id": "Pengisian",
+      "ru": "Зарядка",
+      "th": "การชาร์จ",
+      "vi": "Sạc"
+     },
+     "value": "USB-C"
+    },
+    {
+     "label": {
+      "en": "Net Weight",
+      "zh": "净重",
+      "ar": "الوزن الصافي",
+      "es": "Peso neto",
+      "fr": "Poids net",
+      "id": "Berat Bersih",
+      "ru": "Вес нетто",
+      "th": "น้ำหนักสุทธิ",
+      "vi": "Khối lượng tịn"
+     },
+     "value": "260 g"
+    }
+   ],
+   "moq": {
+    "value": 10,
+    "unit": "pieces"
+   },
+   "price_ladder": [
+    {
+     "min": 10,
+     "max": 499,
+     "price": 19.9
+    },
+    {
+     "min": 500,
+     "max": 999,
+     "price": 17.9
+    },
+    {
+     "min": 1000,
+     "max": -1,
+     "price": 15.3
+    }
+   ],
+   "price_indicator": {
+    "min": 15.3,
+    "max": 19.9,
+    "currency": "USD"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-xyd-008/01-main.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-xyd-008/02.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-xyd-008/03.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-xyd-008/04.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-xyd-008/05.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-xyd-008/06.webp?v=20261104b"
+   ],
+   "detail_images": [
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-xyd-008/detail/01.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-xyd-008/detail/02.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-xyd-008/detail/03.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-xyd-008/detail/04.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-xyd-008/detail/05.webp?v=20261104b"
+   ],
+   "video_url": "",
+   "applications": {
+    "en": "Home, office and travel coffee grinding; espresso, drip and French press",
+    "zh": "家庭/办公/旅途咖啡研磨；意式、手冲、法压适用",
+    "ar": "مطحنة قرصية مخروطية · 30 درجة طحن قابلة للتعديل · قابل للشحن عبر USB-C",
+    "es": "molinillo de muelas cónicas, 30 niveles de molienda ajustables, recargable por USB-C",
+    "fr": "moulin à meules coniques, 30 niveaux de mouture réglables, rechargeable USB-C",
+    "id": "penggiling burr kerucut, 30 tingkat penggilingan yang dapat disesuaikan, isi ulang USB-C",
+    "ru": "жерновая кофемолка с коническими жерновами, 30 ступеней помола, зарядка USB-C",
+    "th": "เครื่องบดใบมีดกรวย, ปรับระดับการบดได้ 30 ระดับ, ชาร์จผ่าน USB-C",
+    "vi": "máy xay Burr hình nón, 30 cấp độ xay điều chỉnh được, sạc qua USB-C"
+   },
+   "certifications": [],
+   "certificates": [],
+   "sku": [],
+   "packaging": {
+    "unit": "Color Box",
+    "ctn_size": "—",
+    "ctn_qty": "—",
+    "gross_weight": "—"
+   },
+   "customization": {
+    "oem": true,
+    "odm": true,
+    "logo": null,
+    "color": true,
+    "package": true,
+    "sample_lead": "on request",
+    "production_lead": "on request"
+   },
+   "pack_size": "7 × 7 × 17 cm",
+   "category_name": {
+    "en": "Espresso Coffee Machine",
+    "zh": "意式咖啡机",
+    "ar": "ماكينة قهوة إسبريسو",
+    "es": "Máquina de Café Espresso",
+    "fr": "Machine à café expresso",
+    "id": "Mesin Kopi Espresso",
+    "ru": "Кофемашина эспрессо",
+    "th": "เครื่องชงกาแฟเอสเปรสโซ",
+    "vi": "Máy pha cà phê espresso"
+   },
+   "supplier_rating": "4.8",
+   "response_time": "≤ 2h",
+   "years": "10+",
+   "sample": {
+    "enabled": true,
+    "qty": 1,
+    "note": {
+     "en": "Sample available, cost refunded on bulk order"
+    }
+   }
+  },
+  {
+   "id": "xyd-009",
+   "_cat": "coffee-machine",
+   "_source": {
+    "platform": "alibaba.com",
+    "productId": "1601987242745"
+   },
+   "alibaba_url": "https://www.alibaba.com/product-detail/Handheld-Electric-Milk-Frother-Rechargeable-6000RPM_1601987242745.html",
+   "name": {
+    "en": "XYD-009 Handheld Electric Milk Frother · Rechargeable 6000 rpm Motor · Detachable 304 Stainless Steel Whisk for Coffee & Cappuccino",
+    "zh": "XYD-009 手持式电动奶泡器 · 充电式 6000 转/分钟 · 可拆卸 304 不锈钢搅拌头，咖啡卡布奇诺适用",
+    "ar": "XYD-009 محرك 6000 دورة في الدقيقة · مضرب 304 ستانلس ستيل قابل للفصل · قابل للشحن عبر USB-C",
+    "es": "XYD-009 motor de 6000 rpm · varilla de acero inoxidable 304 desmontable · recargable por USB-C",
+    "fr": "XYD-009 moteur 6000 tr/min · fouet en acier inoxydable 304 amovible · rechargeable USB-C",
+    "id": "XYD-009 motor 6000 rpm · pengocok stainless steel 304 yang dapat dilepas · isi ulang USB-C",
+    "ru": "XYD-009 мотор 6000 об/мин · съёмный венчик из нержавеющей стали 304 · зарядка USB-C",
+    "th": "XYD-009 มอเตอร์ 6000 รอบ/นาที · หัวกวนสแตนเลส 304 ถอดได้ · ชาร์จผ่าน USB-C",
+    "vi": "XYD-009 động cơ 6000 vòng/phút · đầu khuấy inox 304 tháo rời · sạc qua USB-C"
+   },
+   "tagline": {
+    "en": "6000 rpm rechargeable frother with detachable stainless whisk",
+    "zh": "6000 转/分钟充电奶泡器，不锈钢搅拌头可拆卸",
+    "ar": "محرك 6000 دورة في الدقيقة · مضرب 304 ستانلس ستيل قابل للفصل · قابل للشحن عبر USB-C",
+    "es": "motor de 6000 rpm · varilla de acero inoxidable 304 desmontable · recargable por USB-C",
+    "fr": "moteur 6000 tr/min · fouet en acier inoxydable 304 amovible · rechargeable USB-C",
+    "id": "motor 6000 rpm · pengocok stainless steel 304 yang dapat dilepas · isi ulang USB-C",
+    "ru": "мотор 6000 об/мин · съёмный венчик из нержавеющей стали 304 · зарядка USB-C",
+    "th": "มอเตอร์ 6000 รอบ/นาที · หัวกวนสแตนเลส 304 ถอดได้ · ชาร์จผ่าน USB-C",
+    "vi": "động cơ 6000 vòng/phút · đầu khuấy inox 304 tháo rời · sạc qua USB-C"
+   },
+   "description": {
+    "en": "XYD-009 is a handheld electric milk frother with a 6000 rpm motor and a detachable 304 stainless steel whisk. The built-in 1200 mAh battery recharges over USB for weeks of daily use, whipping hot or cold milk into silky foam for cappuccino, latte and matcha in seconds. The whisk detaches for rinsing; ABS body, color box packaging.",
+    "zh": "XYD-009 手持式电动奶泡器，6000 转/分钟电机，304 不锈钢搅拌头可拆卸。内置 1200mAh 电池 USB 充电，数周日常使用无需反复充电；数秒打出绵密奶泡，卡布奇诺、拿铁、抹茶皆宜。搅拌头可拆水洗，ABS 机身，彩盒包装。",
+    "ar": "XYD-009 — مطحنة قهوة كهربائية محمولة من AquaClean. تتميز بـمحرك 6000 دورة في الدقيقة، ومضرب 304 ستانلس ستيل قابل للفصل، وقابل للشحن عبر USB-C، بجسم صغير يسهل تنظيفه وتخزينه. مثالية للمنزل والمكتب والسفر، وتدعم التخصيص OEM/ODM وتأتي في علبة ملوّنة.",
+    "es": "XYD-009 es un molinillo de café eléctrico portátil de AquaClean. Ofrece motor de 6000 rpm, varilla de acero inoxidable 304 desmontable y recargable por USB-C, en un cuerpo compacto fácil de limpiar y guardar. Ideal para hogar, oficina y viaje; admite OEM/ODM y viene en caja de color.",
+    "fr": "XYD-009 est un moulin à café électrique portable AquaClean. Il offre moteur 6000 tr/min, fouet en acier inoxydable 304 amovible et rechargeable USB-C, dans un corps compact facile à nettoyer et à ranger. Idéal pour la maison, le bureau et le voyage ; OEM/ODM possible, livré en boîte colorée.",
+    "id": "XYD-009 adalah penggiling kopi listrik portabel dari AquaClean. Dilengkapi motor 6000 rpm, pengocok stainless steel 304 yang dapat dilepas, dan isi ulang USB-C dalam bodi ringkas yang mudah dibersihkan dan disimpan. Ideal untuk rumah, kantor, dan perjalanan; mendukung OEM/ODM, dikemas dalam color box.",
+    "ru": "XYD-009 — портативная электрическая кофемолка AquaClean. В ней есть мотор 6000 об/мин, съёмный венчик из нержавеющей стали 304 и зарядка USB-C; компактный корпус легко чистить и хранить. Идеальна для дома, офиса и поездок, поддерживает OEM/ODM, поставляется в цветной коробке.",
+    "th": "XYD-009 คือเครื่องบดกาแฟไฟฟ้าพกพาจาก AquaClean มีมอเตอร์ 6000 รอบ/นาที หัวกวนสแตนเลส 304 ถอดได้ และชาร์จผ่าน USB-C ตัวเครื่องกะทัดรัด ทำความสะอาดและเก็บง่าย เหมาะสำหรับบ้าน สำนักงาน และท่องเที่ยว รองรับ OEM/ODM บรรจุกล่องสี",
+    "vi": "XYD-009 là máy xay cà phê điện cầm tay của AquaClean, có động cơ 6000 vòng/phút, đầu khuấy inox 304 tháo rời và sạc qua USB-C, thân máy gọn gàng dễ vệ sinh và bảo quản. Phù hợp cho gia đình, văn phòng và du lịch; hỗ trợ OEM/ODM, đóng hộp màu."
+   },
+   "highlights": [
+    {
+     "icon": "power",
+     "text": {
+      "en": "6000 rpm motor",
+      "zh": "6000 转/分钟电机",
+      "ar": "محرك 6000 دورة في الدقيقة",
+      "es": "motor de 6000 rpm",
+      "fr": "moteur 6000 tr/min",
+      "id": "motor 6000 rpm",
+      "ru": "мотор 6000 об/мин",
+      "th": "มอเตอร์ 6000 รอบ/นาที",
+      "vi": "động cơ 6000 vòng/phút"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "detachable 304 stainless steel whisk",
+      "zh": "可拆卸 304 不锈钢搅拌头",
+      "ar": "مضرب 304 ستانلس ستيل قابل للفصل",
+      "es": "varilla de acero inoxidable 304 desmontable",
+      "fr": "fouet en acier inoxydable 304 amovible",
+      "id": "pengocok stainless steel 304 yang dapat dilepas",
+      "ru": "съёмный венчик из нержавеющей стали 304",
+      "th": "หัวกวนสแตนเลส 304 ถอดได้",
+      "vi": "đầu khuấy inox 304 tháo rời"
+     }
+    },
+    {
+     "icon": "battery",
+     "text": {
+      "en": "USB-C rechargeable",
+      "zh": "Type-C USB 充电",
+      "ar": "قابل للشحن عبر USB-C",
+      "es": "recargable por USB-C",
+      "fr": "rechargeable USB-C",
+      "id": "isi ulang USB-C",
+      "ru": "зарядка USB-C",
+      "th": "ชาร์จผ่าน USB-C",
+      "vi": "sạc qua USB-C"
+     }
+    },
+    {
+     "icon": "portable",
+     "text": {
+      "en": "lightweight portable design",
+      "zh": "轻量便携设计",
+      "ar": "تصميم خفيف ومحمول",
+      "es": "diseño ligero y portátil",
+      "fr": "design léger et portable",
+      "id": "desain ringan dan portabel",
+      "ru": "лёгкий портативный дизайн",
+      "th": "ดีไซน์เบาพกพาสะดวก",
+      "vi": "thiết kế nhẹ nhàng tiện mang theo"
+     }
+    }
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "Model",
+      "zh": "型号",
+      "ar": "الموديل",
+      "es": "Modelo",
+      "fr": "Modèle",
+      "id": "Model",
+      "ru": "Модель",
+      "th": "รุ่น",
+      "vi": "Mã sản phẩm"
+     },
+     "value": "XYD-009"
+    },
+    {
+     "label": {
+      "en": "Motor Speed",
+      "zh": "电机转速",
+      "ar": "سرعة المحرك",
+      "es": "Velocidad del motor",
+      "fr": "Vitesse du moteur",
+      "id": "Kecepatan Motor",
+      "ru": "Скорость мотора",
+      "th": "ความเร็วมอเตอร์",
+      "vi": "Tốc độ động cơ"
+     },
+     "value": "6000 rpm"
+    },
+    {
+     "label": {
+      "en": "Whisk Material",
+      "zh": "搅拌头材质",
+      "ar": "مادة المضرب",
+      "es": "Material del batidor",
+      "fr": "Matériau du fouet",
+      "id": "Bahan Pengocok",
+      "ru": "Материал венчика",
+      "th": "วัสดุหัวกวน",
+      "vi": "Chất liệu đầu khuấy"
+     },
+     "value": "304 Stainless Steel"
+    },
+    {
+     "label": {
+      "en": "Battery Capacity",
+      "zh": "电池容量",
+      "es": "Capacidad de batería",
+      "ar": "سعة البطارية",
+      "fr": "Capacité batterie",
+      "id": "Kapasitas baterai",
+      "ru": "Ёмкость батареи",
+      "th": "ความจุแบตเตอรี่",
+      "vi": "Dung lượng pin"
+     },
+     "value": "1200 mAh"
+    },
+    {
+     "label": {
+      "en": "Power",
+      "zh": "功率",
+      "ar": "الطاقة",
+      "es": "Potencia",
+      "fr": "Puissance",
+      "id": "Daya",
+      "ru": "Мощность",
+      "th": "กำลังไฟ",
+      "vi": "Công suất"
+     },
+     "value": "10 W"
+    },
+    {
+     "label": {
+      "en": "Body Material",
+      "zh": "机身材质",
+      "ar": "مادة الهيكل",
+      "es": "Material del cuerpo",
+      "fr": "Matériau du corps",
+      "id": "Bahan Bodi",
+      "ru": "Материал корпуса",
+      "th": "วัสดุตัวเครื่อง",
+      "vi": "Chất liệu thân máy"
+     },
+     "value": "ABS"
+    },
+    {
+     "label": {
+      "en": "Charging",
+      "zh": "充电方式",
+      "ar": "الشحن",
+      "es": "Carga",
+      "fr": "Charge",
+      "id": "Pengisian",
+      "ru": "Зарядка",
+      "th": "การชาร์จ",
+      "vi": "Sạc"
+     },
+     "value": "USB"
+    },
+    {
+     "label": {
+      "en": "Packaging",
+      "zh": "包装",
+      "ar": "التغليف",
+      "es": "Embalaje",
+      "fr": "Emballage",
+      "id": "Kemasan",
+      "ru": "Упаковка",
+      "th": "บรรจุภัณฑ์",
+      "vi": "Đóng gói"
+     },
+     "value": "Color Box"
+    }
+   ],
+   "quick_specs": [
+    {
+     "label": {
+      "en": "Motor Speed",
+      "zh": "电机转速",
+      "ar": "سرعة المحرك",
+      "es": "Velocidad del motor",
+      "fr": "Vitesse du moteur",
+      "id": "Kecepatan Motor",
+      "ru": "Скорость мотора",
+      "th": "ความเร็วมอเตอร์",
+      "vi": "Tốc độ động cơ"
+     },
+     "value": "6000 rpm"
+    },
+    {
+     "label": {
+      "en": "Battery",
+      "zh": "电池",
+      "ar": "البطارية",
+      "es": "Batería",
+      "fr": "Batterie",
+      "id": "Baterai",
+      "ru": "Аккумулятор",
+      "th": "แบตเตอรี่",
+      "vi": "Pin"
+     },
+     "value": "1200 mAh"
+    },
+    {
+     "label": {
+      "en": "Whisk",
+      "zh": "搅拌头",
+      "ar": "المضرب",
+      "es": "Batidor",
+      "fr": "Fouet",
+      "id": "Pengocok",
+      "ru": "Венчик",
+      "th": "หัวกวน",
+      "vi": "Đầu khuấy"
+     },
+     "value": "304 Stainless Steel"
+    },
+    {
+     "label": {
+      "en": "Charging",
+      "zh": "充电方式",
+      "ar": "الشحن",
+      "es": "Carga",
+      "fr": "Charge",
+      "id": "Pengisian",
+      "ru": "Зарядка",
+      "th": "การชาร์จ",
+      "vi": "Sạc"
+     },
+     "value": "USB"
+    }
+   ],
+   "moq": {
+    "value": 200,
+    "unit": "pieces"
+   },
+   "price_ladder": [
+    {
+     "min": 200,
+     "max": 499,
+     "price": 5.2
+    },
+    {
+     "min": 500,
+     "max": 999,
+     "price": 4.5
+    },
+    {
+     "min": 1000,
+     "max": -1,
+     "price": 3.8
+    }
+   ],
+   "price_indicator": {
+    "min": 3.8,
+    "max": 5.2,
+    "currency": "USD"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-xyd-009/01-main.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-xyd-009/02.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-xyd-009/03.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-xyd-009/04.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-xyd-009/05.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-xyd-009/06.webp?v=20261104b"
+   ],
+   "detail_images": [
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-xyd-009/detail/01.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-xyd-009/detail/02.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-xyd-009/detail/03.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-xyd-009/detail/04.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-xyd-009/detail/05.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-xyd-009/detail/06.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-xyd-009/detail/07.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-xyd-009/detail/08.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-xyd-009/detail/09.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-xyd-009/detail/10.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/coffee-machine-xyd-009/detail/11.webp?v=20261104b"
+   ],
+   "video_url": "",
+   "applications": {
+    "en": "Cappuccino, latte, matcha and hot chocolate frothing at home or in cafés",
+    "zh": "家庭/咖啡馆奶泡制作；卡布奇诺、拿铁、抹茶、热巧克力",
+    "ar": "محرك 6000 دورة في الدقيقة · مضرب 304 ستانلس ستيل قابل للفصل · قابل للشحن عبر USB-C",
+    "es": "motor de 6000 rpm, varilla de acero inoxidable 304 desmontable, recargable por USB-C",
+    "fr": "moteur 6000 tr/min, fouet en acier inoxydable 304 amovible, rechargeable USB-C",
+    "id": "motor 6000 rpm, pengocok stainless steel 304 yang dapat dilepas, isi ulang USB-C",
+    "ru": "мотор 6000 об/мин, съёмный венчик из нержавеющей стали 304, зарядка USB-C",
+    "th": "มอเตอร์ 6000 รอบ/นาที, หัวกวนสแตนเลส 304 ถอดได้, ชาร์จผ่าน USB-C",
+    "vi": "động cơ 6000 vòng/phút, đầu khuấy inox 304 tháo rời, sạc qua USB-C"
+   },
+   "certifications": [],
+   "certificates": [],
+   "sku": [],
+   "packaging": {
+    "unit": "Color Box",
+    "ctn_size": "—",
+    "ctn_qty": "—",
+    "gross_weight": "—"
+   },
+   "customization": {
+    "oem": true,
+    "odm": true,
+    "logo": null,
+    "color": true,
+    "package": true,
+    "sample_lead": "on request",
+    "production_lead": "on request"
+   },
+   "pack_size": "8 × 8 × 20 cm",
+   "category_name": {
+    "en": "Espresso Coffee Machine",
+    "zh": "意式咖啡机",
+    "ar": "ماكينة قهوة إسبريسو",
+    "es": "Máquina de Café Espresso",
+    "fr": "Machine à café expresso",
+    "id": "Mesin Kopi Espresso",
+    "ru": "Кофемашина эспрессо",
+    "th": "เครื่องชงกาแฟเอสเปรสโซ",
+    "vi": "Máy pha cà phê espresso"
+   },
+   "supplier_rating": "4.8",
+   "response_time": "≤ 2h",
+   "years": "10+",
+   "sample": {
+    "enabled": true,
+    "qty": 1,
+    "note": {
+     "en": "Sample available, cost refunded on bulk order"
+    }
+   }
+  }
+ ],
  "reviews": [
   {
    "name": "Lucas Schmidt",

@@ -2313,6 +2313,1167 @@
      "coversHint": "PTC-SC-006"
     }
    ]
+  },
+  {
+   "id": "tc-sc-002",
+   "_cat": "steam-cleaner",
+   "_source": {
+    "platform": "alibaba.com",
+    "productId": "1601906075438"
+   },
+   "alibaba_url": "https://www.alibaba.com/product-detail/1500W-USB-Powered-Portable-High-Pressure_1601906075438.html",
+   "name": {
+    "en": "TC-SC-002 1500W Portable High-Pressure Steam Cleaner · 3 Bar Handheld with 1200 ml Tank for Home & Car",
+    "zh": "TC-SC-002 1500W 便携式高压蒸汽清洁机 · 3 巴手持 1200ml 水箱，家用车用",
+    "ar": "TC-SC-002 بخار عالي الضغط 3 بار · تسخين سريع في 15 ثانية · بخار عالي الحرارة 100℃",
+    "es": "TC-SC-002 vapor a alta presión de 3 bares · calentamiento rápido en 15 segundos · vapor de alta temperatura 100℃",
+    "fr": "TC-SC-002 vapeur haute pression 3 bars · chauffe rapide en 15 secondes · vapeur haute température 100℃",
+    "id": "TC-SC-002 uap bertekanan tinggi 3 bar · panas cepat 15 detik · uap suhu tinggi 100℃",
+    "ru": "TC-SC-002 пар высокого давления 3 бар · быстрый нагрев за 15 секунд · пар высокой температуры 100℃",
+    "th": "TC-SC-002 ไอน้ำแรงดันสูง 3 บาร์ · ให้ความร้อนเร็วใน 15 วินาที · ไอน้ำอุณหภูมิสูง 100℃",
+    "vi": "TC-SC-002 hơi nước áp suất cao 3 bar · gia nhiệt nhanh 15 giây · hơi nước nhiệt độ cao 100℃"
+   },
+   "tagline": {
+    "en": "3 bar handheld steam cleaner with 1200 ml tank and 15s heat-up",
+    "zh": "3 巴手持蒸汽清洁机，1200ml 水箱，15 秒速热",
+    "ar": "بخار عالي الضغط 3 بار · تسخين سريع في 15 ثانية · بخار عالي الحرارة 100℃",
+    "es": "vapor a alta presión de 3 bares · calentamiento rápido en 15 segundos · vapor de alta temperatura 100℃",
+    "fr": "vapeur haute pression 3 bars · chauffe rapide en 15 secondes · vapeur haute température 100℃",
+    "id": "uap bertekanan tinggi 3 bar · panas cepat 15 detik · uap suhu tinggi 100℃",
+    "ru": "пар высокого давления 3 бар · быстрый нагрев за 15 секунд · пар высокой температуры 100℃",
+    "th": "ไอน้ำแรงดันสูง 3 บาร์ · ให้ความร้อนเร็วใน 15 วินาที · ไอน้ำอุณหภูมิสูง 100℃",
+    "vi": "hơi nước áp suất cao 3 bar · gia nhiệt nhanh 15 giây · hơi nước nhiệt độ cao 100℃"
+   },
+   "description": {
+    "en": "TC-SC-002 is a handheld steam cleaner that builds 3 bar pressure in 15 seconds, delivering 100℃ steam for chemical-free degreasing and sanitizing. The 1200 ml tank supports about 20 minutes of continuous steam, and the 2 m steam pipe plus brush set cleans kitchens, bathrooms and car interiors. ABS body, 2 kg, box package.",
+    "zh": "TC-SC-002 手持蒸汽清洁机，15 秒建立 3 巴压力，输出 100℃ 高温蒸汽，无需清洁剂即可除油杀菌。1200ml 水箱支持约 20 分钟连续出汽，2 米蒸汽管与刷头组合清洁厨房、卫浴与汽车内饰。ABS 机身 2kg，盒装。",
+    "ar": "TC-SC-002 — منظف بخار محمول للمطبخ والحمام والسيارة. يوفر بخار عالي الضغط 3 بار وتسخين سريع في 15 ثانية وبخار عالي الحرارة 100℃ لتنظيف عميق دون مواد كيميائية. تصميم يدوي مدمج مع دعم OEM/ODM.",
+    "es": "TC-SC-002 es un limpiador a vapor portátil para cocina, baño y coche. Aporta vapor a alta presión de 3 bares, calentamiento rápido en 15 segundos y vapor de alta temperatura 100℃ para una limpieza profunda sin químicos. Diseño manual compacto con soporte OEM/ODM.",
+    "fr": "TC-SC-002 est un nettoyeur vapeur portable pour la cuisine, la salle de bain et la voiture. Il délivre vapeur haute pression 3 bars, chauffe rapide en 15 secondes et vapeur haute température 100℃ pour un nettoyage en profondeur sans produits chimiques. Design manuel compact ; OEM/ODM possible.",
+    "id": "TC-SC-002 adalah pembersih uap portabel untuk dapur, kamar mandi, dan mobil. Memberikan uap bertekanan tinggi 3 bar, panas cepat 15 detik, dan uap suhu tinggi 100℃ untuk pembersihan mendalam tanpa bahan kimia. Desain genggam ringkas, dukungan OEM/ODM.",
+    "ru": "TC-SC-002 — портативный пароочиститель для кухни, ванной и автомобиля. Подаёт пар высокого давления 3 бар, быстрый нагрев за 15 секунд и пар высокой температуры 100℃ для глубокой чистки без химии. Компактный ручной дизайн, поддержка OEM/ODM.",
+    "th": "TC-SC-002 เครื่องทำความสะอาดด้วยไอน้ำพกพา สำหรับครัว ห้องน้ำ และรถยนต์ ให้ไอน้ำแรงดันสูง 3 บาร์ ให้ความร้อนเร็วใน 15 วินาที และไอน้ำอุณหภูมิสูง 100℃ ทำความสะอาดลึกโดยไม่ต้องใช้สารเคมี ดีไซน์ถือกะทัดรัด รองรับ OEM/ODM",
+    "vi": "TC-SC-002 là máy vệ sinh bằng hơi nước cầm tay cho bếp, nhà tắm và ô tô. Mang lại hơi nước áp suất cao 3 bar, gia nhiệt nhanh 15 giây và hơi nước nhiệt độ cao 100℃ để làm sạch sâu không cần hóa chất. Thiết kế cầm tay gọn gàng, hỗ trợ OEM/ODM."
+   },
+   "highlights": [
+    {
+     "icon": "power",
+     "text": {
+      "en": "3 bar high-pressure steam",
+      "zh": "3 巴高压蒸汽",
+      "ar": "بخار عالي الضغط 3 بار",
+      "es": "vapor a alta presión de 3 bares",
+      "fr": "vapeur haute pression 3 bars",
+      "id": "uap bertekanan tinggi 3 bar",
+      "ru": "пар высокого давления 3 бар",
+      "th": "ไอน้ำแรงดันสูง 3 บาร์",
+      "vi": "hơi nước áp suất cao 3 bar"
+     }
+    },
+    {
+     "icon": "clean",
+     "text": {
+      "en": "15-second fast heating",
+      "zh": "15 秒快速加热",
+      "ar": "تسخين سريع في 15 ثانية",
+      "es": "calentamiento rápido en 15 segundos",
+      "fr": "chauffe rapide en 15 secondes",
+      "id": "panas cepat 15 detik",
+      "ru": "быстрый нагрев за 15 секунд",
+      "th": "ให้ความร้อนเร็วใน 15 วินาที",
+      "vi": "gia nhiệt nhanh 15 giây"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "100℃ high-temperature steam",
+      "zh": "100℃ 高温蒸汽",
+      "ar": "بخار عالي الحرارة 100℃",
+      "es": "vapor de alta temperatura 100℃",
+      "fr": "vapeur haute température 100℃",
+      "id": "uap suhu tinggi 100℃",
+      "ru": "пар высокой температуры 100℃",
+      "th": "ไอน้ำอุณหภูมิสูง 100℃",
+      "vi": "hơi nước nhiệt độ cao 100℃"
+     }
+    },
+    {
+     "icon": "portable",
+     "text": {
+      "en": "lightweight portable design",
+      "zh": "轻量便携设计",
+      "ar": "تصميم خفيف ومحمول",
+      "es": "diseño ligero y portátil",
+      "fr": "design léger et portable",
+      "id": "desain ringan dan portabel",
+      "ru": "лёгкий портативный дизайн",
+      "th": "ดีไซน์เบาพกพาสะดวก",
+      "vi": "thiết kế nhẹ nhàng tiện mang theo"
+     }
+    }
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "Model",
+      "zh": "型号",
+      "ar": "الموديل",
+      "es": "Modelo",
+      "fr": "Modèle",
+      "id": "Model",
+      "ru": "Модель",
+      "th": "รุ่น",
+      "vi": "Mã sản phẩm"
+     },
+     "value": "TC-SC-002 (PTC-SC-002)"
+    },
+    {
+     "label": {
+      "en": "Power",
+      "zh": "功率",
+      "ar": "الطاقة",
+      "es": "Potencia",
+      "fr": "Puissance",
+      "id": "Daya",
+      "ru": "Мощность",
+      "th": "กำลังไฟ",
+      "vi": "Công suất"
+     },
+     "value": "1500 W"
+    },
+    {
+     "label": {
+      "en": "Steam Pressure",
+      "zh": "蒸汽压力",
+      "ar": "ضغط البخار",
+      "es": "Presión de vapor",
+      "fr": "Pression de vapeur",
+      "id": "Tekanan Uap",
+      "ru": "Давление пара",
+      "th": "แรงดันไอน้ำ",
+      "vi": "Áp suất hơi"
+     },
+     "value": "3 bar"
+    },
+    {
+     "label": {
+      "en": "Tank Capacity",
+      "zh": "水箱容量",
+      "ar": "سعة الخزان",
+      "es": "Capacidad del tanque",
+      "fr": "Capacité du réservoir",
+      "id": "Kapasitas Tangki",
+      "ru": "Ёмкость бака",
+      "th": "ความจุถังน้ำ",
+      "vi": "Dung tích bình"
+     },
+     "value": "1200 ml"
+    },
+    {
+     "label": {
+      "en": "Heat-up Time",
+      "zh": "加热时间",
+      "ar": "وقت التسخين",
+      "es": "Tiempo de calentamiento",
+      "fr": "Temps de chauffe",
+      "id": "Waktu Pemanasan",
+      "ru": "Время нагрева",
+      "th": "เวลาให้ความร้อน",
+      "vi": "Thời gian gia nhiệt"
+     },
+     "value": "15 s"
+    },
+    {
+     "label": {
+      "en": "Steam Pipe Length",
+      "zh": "蒸汽管长度",
+      "ar": "طول أنبوب البخار",
+      "es": "Longitud del tubo de vapor",
+      "fr": "Longueur du tuyau à vapeur",
+      "id": "Panjang Pipa Uap",
+      "ru": "Длина паровой трубки",
+      "th": "ความยาวท่อไอน้ำ",
+      "vi": "Chiều dài ống hơi"
+     },
+     "value": "2.0 m"
+    },
+    {
+     "label": {
+      "en": "Material",
+      "zh": "材料",
+      "ar": "المادة",
+      "es": "Material",
+      "fr": "Matériau",
+      "id": "Bahan",
+      "ru": "Материал",
+      "th": "วัสดุ",
+      "vi": "Chất liệu"
+     },
+     "value": "ABS"
+    },
+    {
+     "label": {
+      "en": "Weight",
+      "zh": "重量",
+      "ar": "الوزن",
+      "es": "Peso",
+      "fr": "Poids",
+      "id": "Berat",
+      "ru": "Вес",
+      "th": "น้ำหนัก",
+      "vi": "Trọng lượng"
+     },
+     "value": "2 kg"
+    },
+    {
+     "label": {
+      "en": "Size",
+      "zh": "尺寸",
+      "ar": "المقاس",
+      "es": "Tamaño",
+      "fr": "Dimensions",
+      "id": "Ukuran",
+      "ru": "Размер",
+      "th": "ขนาด",
+      "vi": "Kích thước"
+     },
+     "value": "20 × 14.5 × 13 cm"
+    },
+    {
+     "label": {
+      "en": "Packaging",
+      "zh": "包装",
+      "ar": "التغليف",
+      "es": "Embalaje",
+      "fr": "Emballage",
+      "id": "Kemasan",
+      "ru": "Упаковка",
+      "th": "บรรจุภัณฑ์",
+      "vi": "Đóng gói"
+     },
+     "value": "Box"
+    }
+   ],
+   "quick_specs": [
+    {
+     "label": {
+      "en": "Power",
+      "zh": "功率",
+      "ar": "الطاقة",
+      "es": "Potencia",
+      "fr": "Puissance",
+      "id": "Daya",
+      "ru": "Мощность",
+      "th": "กำลังไฟ",
+      "vi": "Công suất"
+     },
+     "value": "1500 W"
+    },
+    {
+     "label": {
+      "en": "Steam Pressure",
+      "zh": "蒸汽压力",
+      "ar": "ضغط البخار",
+      "es": "Presión de vapor",
+      "fr": "Pression de vapeur",
+      "id": "Tekanan Uap",
+      "ru": "Давление пара",
+      "th": "แรงดันไอน้ำ",
+      "vi": "Áp suất hơi"
+     },
+     "value": "3 bar"
+    },
+    {
+     "label": {
+      "en": "Tank",
+      "zh": "水箱",
+      "ar": "الخزان",
+      "es": "Tanque",
+      "fr": "Réservoir",
+      "id": "Tangki",
+      "ru": "Бак",
+      "th": "ถังน้ำ",
+      "vi": "Bình chứa"
+     },
+     "value": "1200 ml"
+    },
+    {
+     "label": {
+      "en": "Heat-up Time",
+      "zh": "加热时间",
+      "ar": "وقت التسخين",
+      "es": "Tiempo de calentamiento",
+      "fr": "Temps de chauffe",
+      "id": "Waktu Pemanasan",
+      "ru": "Время нагрева",
+      "th": "เวลาให้ความร้อน",
+      "vi": "Thời gian gia nhiệt"
+     },
+     "value": "15 s"
+    }
+   ],
+   "moq": {
+    "value": 10,
+    "unit": "pieces"
+   },
+   "price_ladder": [
+    {
+     "min": 10,
+     "max": 499,
+     "price": 18.56
+    },
+    {
+     "min": 500,
+     "max": 999,
+     "price": 16.88
+    },
+    {
+     "min": 1000,
+     "max": -1,
+     "price": 15
+    }
+   ],
+   "price_indicator": {
+    "min": 15,
+    "max": 18.56,
+    "currency": "USD"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-002/01-main.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-002/02.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-002/03.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-002/04.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-002/05.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-002/06.webp?v=20261104b"
+   ],
+   "detail_images": [
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-002/detail/01.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-002/detail/02.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-002/detail/03.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-002/detail/04.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-002/detail/05.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-002/detail/06.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-002/detail/07.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-002/detail/08.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-002/detail/09.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-002/detail/10.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-002/detail/11.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-002/detail/12.webp?v=20261104b"
+   ],
+   "video_url": "",
+   "applications": {
+    "en": "Kitchens, bathrooms, tiles, windows and car interiors",
+    "zh": "厨房、卫浴、瓷砖、车窗与汽车内饰",
+    "ar": "بخار عالي الضغط 3 بار · تسخين سريع في 15 ثانية · بخار عالي الحرارة 100℃",
+    "es": "vapor a alta presión de 3 bares, calentamiento rápido en 15 segundos, vapor de alta temperatura 100℃",
+    "fr": "vapeur haute pression 3 bars, chauffe rapide en 15 secondes, vapeur haute température 100℃",
+    "id": "uap bertekanan tinggi 3 bar, panas cepat 15 detik, uap suhu tinggi 100℃",
+    "ru": "пар высокого давления 3 бар, быстрый нагрев за 15 секунд, пар высокой температуры 100℃",
+    "th": "ไอน้ำแรงดันสูง 3 บาร์, ให้ความร้อนเร็วใน 15 วินาที, ไอน้ำอุณหภูมิสูง 100℃",
+    "vi": "hơi nước áp suất cao 3 bar, gia nhiệt nhanh 15 giây, hơi nước nhiệt độ cao 100℃"
+   },
+   "certifications": [],
+   "certificates": [],
+   "sku": [],
+   "packaging": {
+    "unit": "Box Package",
+    "ctn_size": "—",
+    "ctn_qty": "—",
+    "gross_weight": "—"
+   },
+   "customization": {},
+   "pack_size": "20 × 14.5 × 13 cm",
+   "category_name": {
+    "en": "Steam Cleaners",
+    "zh": "蒸汽清洁机",
+    "es": "Limpiador de Vapor",
+    "ar": "منظف بالبخار",
+    "fr": "Nettoyeur vapeur",
+    "id": "Pembersih Uap",
+    "ru": "Пароочиститель",
+    "th": "เครื่องทำความสะอาดด้วยไอน้ำ",
+    "vi": "Máy vệ sinh hơi nước"
+   },
+   "supplier_rating": "4.8",
+   "response_time": "≤ 2h",
+   "years": "10+",
+   "sample": {
+    "enabled": true,
+    "qty": 5,
+    "note": "Sample available, lead 7-14 days"
+   }
+  },
+  {
+   "id": "tc-sc-003",
+   "_cat": "steam-cleaner",
+   "_source": {
+    "platform": "alibaba.com",
+    "productId": "1601997416962"
+   },
+   "alibaba_url": "https://www.alibaba.com/product-detail/OEM-Portable-Steam-Cleaner-1500W-3BAR_1601997416962.html",
+   "name": {
+    "en": "TC-SC-003 OEM Portable Steam Cleaner · 1500W 3BAR with 1600 ml Tank · 15s Fast Heating, 3 Adjustable Steam Levels",
+    "zh": "TC-SC-003 OEM 便携式蒸汽清洁机 · 1500W 3BAR 1600ml 水箱 · 15 秒速热，3 档蒸汽可调",
+    "ar": "TC-SC-003 بخار عالي الضغط 3 بار · تسخين سريع في 15 ثانية · 3 مستويات بخار قابلة للتعديل",
+    "es": "TC-SC-003 vapor a alta presión de 3 bares · calentamiento rápido en 15 segundos · 3 niveles de vapor ajustables",
+    "fr": "TC-SC-003 vapeur haute pression 3 bars · chauffe rapide en 15 secondes · 3 niveaux de vapeur réglables",
+    "id": "TC-SC-003 uap bertekanan tinggi 3 bar · panas cepat 15 detik · 3 tingkat uap yang dapat disesuaikan",
+    "ru": "TC-SC-003 пар высокого давления 3 бар · быстрый нагрев за 15 секунд · 3 уровня подачи пара",
+    "th": "TC-SC-003 ไอน้ำแรงดันสูง 3 บาร์ · ให้ความร้อนเร็วใน 15 วินาที · ปรับระดับไอน้ำได้ 3 ระดับ",
+    "vi": "TC-SC-003 hơi nước áp suất cao 3 bar · gia nhiệt nhanh 15 giây · 3 mức hơi điều chỉnh được"
+   },
+   "tagline": {
+    "en": "1500W 3BAR steam cleaner, 15s fast heating, 3 steam levels",
+    "zh": "1500W 3BAR 蒸汽清洁机，15 秒速热，3 档蒸汽",
+    "ar": "بخار عالي الضغط 3 بار · تسخين سريع في 15 ثانية · 3 مستويات بخار قابلة للتعديل",
+    "es": "vapor a alta presión de 3 bares · calentamiento rápido en 15 segundos · 3 niveles de vapor ajustables",
+    "fr": "vapeur haute pression 3 bars · chauffe rapide en 15 secondes · 3 niveaux de vapeur réglables",
+    "id": "uap bertekanan tinggi 3 bar · panas cepat 15 detik · 3 tingkat uap yang dapat disesuaikan",
+    "ru": "пар высокого давления 3 бар · быстрый нагрев за 15 секунд · 3 уровня подачи пара",
+    "th": "ไอน้ำแรงดันสูง 3 บาร์ · ให้ความร้อนเร็วใน 15 วินาที · ปรับระดับไอน้ำได้ 3 ระดับ",
+    "vi": "hơi nước áp suất cao 3 bar · gia nhiệt nhanh 15 giây · 3 mức hơi điều chỉnh được"
+   },
+   "description": {
+    "en": "TC-SC-003 is an OEM portable steam cleaner with 1500 W heating, 3 bar steam and a 1600 ml tank. It heats in 15 seconds and offers three adjustable steam levels for grout, tile, floors, kitchens, bathrooms and cars. Accessories include brass and nylon brushes plus a high-pressure nozzle; 110V/220V, CE/ETL supported.",
+    "zh": "TC-SC-003 OEM 便携式蒸汽清洁机，1500W 加热、3 巴蒸汽、1600ml 水箱。15 秒速热，3 档蒸汽强度可调，适用于瓷砖缝、地面、厨房、卫浴与汽车。配件含铜刷、尼龙刷与高压喷嘴；110V/220V，支持 CE/ETL。",
+    "ar": "TC-SC-003 — منظف بخار محمول للمطبخ والحمام والسيارة. يوفر بخار عالي الضغط 3 بار وتسخين سريع في 15 ثانية و3 مستويات بخار قابلة للتعديل لتنظيف عميق دون مواد كيميائية. تصميم يدوي مدمج مع دعم OEM/ODM.",
+    "es": "TC-SC-003 es un limpiador a vapor portátil para cocina, baño y coche. Aporta vapor a alta presión de 3 bares, calentamiento rápido en 15 segundos y 3 niveles de vapor ajustables para una limpieza profunda sin químicos. Diseño manual compacto con soporte OEM/ODM.",
+    "fr": "TC-SC-003 est un nettoyeur vapeur portable pour la cuisine, la salle de bain et la voiture. Il délivre vapeur haute pression 3 bars, chauffe rapide en 15 secondes et 3 niveaux de vapeur réglables pour un nettoyage en profondeur sans produits chimiques. Design manuel compact ; OEM/ODM possible.",
+    "id": "TC-SC-003 adalah pembersih uap portabel untuk dapur, kamar mandi, dan mobil. Memberikan uap bertekanan tinggi 3 bar, panas cepat 15 detik, dan 3 tingkat uap yang dapat disesuaikan untuk pembersihan mendalam tanpa bahan kimia. Desain genggam ringkas, dukungan OEM/ODM.",
+    "ru": "TC-SC-003 — портативный пароочиститель для кухни, ванной и автомобиля. Подаёт пар высокого давления 3 бар, быстрый нагрев за 15 секунд и 3 уровня подачи пара для глубокой чистки без химии. Компактный ручной дизайн, поддержка OEM/ODM.",
+    "th": "TC-SC-003 เครื่องทำความสะอาดด้วยไอน้ำพกพา สำหรับครัว ห้องน้ำ และรถยนต์ ให้ไอน้ำแรงดันสูง 3 บาร์ ให้ความร้อนเร็วใน 15 วินาที และปรับระดับไอน้ำได้ 3 ระดับ ทำความสะอาดลึกโดยไม่ต้องใช้สารเคมี ดีไซน์ถือกะทัดรัด รองรับ OEM/ODM",
+    "vi": "TC-SC-003 là máy vệ sinh bằng hơi nước cầm tay cho bếp, nhà tắm và ô tô. Mang lại hơi nước áp suất cao 3 bar, gia nhiệt nhanh 15 giây và 3 mức hơi điều chỉnh được để làm sạch sâu không cần hóa chất. Thiết kế cầm tay gọn gàng, hỗ trợ OEM/ODM."
+   },
+   "highlights": [
+    {
+     "icon": "power",
+     "text": {
+      "en": "3 bar high-pressure steam",
+      "zh": "3 巴高压蒸汽",
+      "ar": "بخار عالي الضغط 3 بار",
+      "es": "vapor a alta presión de 3 bares",
+      "fr": "vapeur haute pression 3 bars",
+      "id": "uap bertekanan tinggi 3 bar",
+      "ru": "пар высокого давления 3 бар",
+      "th": "ไอน้ำแรงดันสูง 3 บาร์",
+      "vi": "hơi nước áp suất cao 3 bar"
+     }
+    },
+    {
+     "icon": "clean",
+     "text": {
+      "en": "15-second fast heating",
+      "zh": "15 秒快速加热",
+      "ar": "تسخين سريع في 15 ثانية",
+      "es": "calentamiento rápido en 15 segundos",
+      "fr": "chauffe rapide en 15 secondes",
+      "id": "panas cepat 15 detik",
+      "ru": "быстрый нагрев за 15 секунд",
+      "th": "ให้ความร้อนเร็วใน 15 วินาที",
+      "vi": "gia nhiệt nhanh 15 giây"
+     }
+    },
+    {
+     "icon": "gauge",
+     "text": {
+      "en": "3 adjustable steam levels",
+      "zh": "3 档蒸汽强度可调",
+      "ar": "3 مستويات بخار قابلة للتعديل",
+      "es": "3 niveles de vapor ajustables",
+      "fr": "3 niveaux de vapeur réglables",
+      "id": "3 tingkat uap yang dapat disesuaikan",
+      "ru": "3 уровня подачи пара",
+      "th": "ปรับระดับไอน้ำได้ 3 ระดับ",
+      "vi": "3 mức hơi điều chỉnh được"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "lightweight portable design",
+      "zh": "轻量便携设计",
+      "ar": "تصميم خفيف ومحمول",
+      "es": "diseño ligero y portátil",
+      "fr": "design léger et portable",
+      "id": "desain ringan dan portabel",
+      "ru": "лёгкий портативный дизайн",
+      "th": "ดีไซน์เบาพกพาสะดวก",
+      "vi": "thiết kế nhẹ nhàng tiện mang theo"
+     }
+    }
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "Model",
+      "zh": "型号",
+      "ar": "الموديل",
+      "es": "Modelo",
+      "fr": "Modèle",
+      "id": "Model",
+      "ru": "Модель",
+      "th": "รุ่น",
+      "vi": "Mã sản phẩm"
+     },
+     "value": "TC-SC-003"
+    },
+    {
+     "label": {
+      "en": "Power",
+      "zh": "功率",
+      "ar": "الطاقة",
+      "es": "Potencia",
+      "fr": "Puissance",
+      "id": "Daya",
+      "ru": "Мощность",
+      "th": "กำลังไฟ",
+      "vi": "Công suất"
+     },
+     "value": "1500–1600 W"
+    },
+    {
+     "label": {
+      "en": "Steam Pressure",
+      "zh": "蒸汽压力",
+      "ar": "ضغط البخار",
+      "es": "Presión de vapor",
+      "fr": "Pression de vapeur",
+      "id": "Tekanan Uap",
+      "ru": "Давление пара",
+      "th": "แรงดันไอน้ำ",
+      "vi": "Áp suất hơi"
+     },
+     "value": "3 bar"
+    },
+    {
+     "label": {
+      "en": "Tank Capacity",
+      "zh": "水箱容量",
+      "ar": "سعة الخزان",
+      "es": "Capacidad del tanque",
+      "fr": "Capacité du réservoir",
+      "id": "Kapasitas Tangki",
+      "ru": "Ёмкость бака",
+      "th": "ความจุถังน้ำ",
+      "vi": "Dung tích bình"
+     },
+     "value": "1600 ml"
+    },
+    {
+     "label": {
+      "en": "Heat-up Time",
+      "zh": "加热时间",
+      "ar": "وقت التسخين",
+      "es": "Tiempo de calentamiento",
+      "fr": "Temps de chauffe",
+      "id": "Waktu Pemanasan",
+      "ru": "Время нагрева",
+      "th": "เวลาให้ความร้อน",
+      "vi": "Thời gian gia nhiệt"
+     },
+     "value": "15 s"
+    },
+    {
+     "label": {
+      "en": "Steam Levels",
+      "zh": "蒸汽档位",
+      "ar": "مستويات البخار",
+      "es": "Niveles de vapor",
+      "fr": "Niveaux de vapeur",
+      "id": "Level Uap",
+      "ru": "Уровни пара",
+      "th": "ระดับไอน้ำ",
+      "vi": "Mức hơi"
+     },
+     "value": "3 adjustable"
+    },
+    {
+     "label": {
+      "en": "Voltage",
+      "zh": "电压",
+      "ar": "الجهد الكهربائي",
+      "es": "Voltaje",
+      "fr": "Tension",
+      "id": "Tegangan",
+      "ru": "Напряжение",
+      "th": "แรงดันไฟ",
+      "vi": "Điện áp"
+     },
+     "value": "110V / 220V"
+    },
+    {
+     "label": {
+      "en": "Cord Length",
+      "zh": "线长",
+      "ar": "طول الكابل",
+      "es": "Longitud del cable",
+      "fr": "Longueur du câble",
+      "id": "Panjang Kabel",
+      "ru": "Длина кабеля",
+      "th": "ความยาวสาย",
+      "vi": "Chiều dài dây"
+     },
+     "value": "1.5 m"
+    },
+    {
+     "label": {
+      "en": "Accessories",
+      "zh": "配件清单",
+      "ar": "الملحقات",
+      "es": "Accesorios",
+      "fr": "Accessoires",
+      "id": "Aksesori",
+      "ru": "Комплектация",
+      "th": "อุปกรณ์",
+      "vi": "Phụ kiện"
+     },
+     "value": "Brass brush, nylon brushes, high-pressure nozzle"
+    },
+    {
+     "label": {
+      "en": "Certification",
+      "zh": "认证",
+      "ar": "الشهادة",
+      "es": "Certificación",
+      "fr": "Certification",
+      "id": "Sertifikasi",
+      "ru": "Сертификация",
+      "th": "การรับรอง",
+      "vi": "Chứng nhận"
+     },
+     "value": "CE / ETL supported"
+    }
+   ],
+   "quick_specs": [
+    {
+     "label": {
+      "en": "Power",
+      "zh": "功率",
+      "ar": "الطاقة",
+      "es": "Potencia",
+      "fr": "Puissance",
+      "id": "Daya",
+      "ru": "Мощность",
+      "th": "กำลังไฟ",
+      "vi": "Công suất"
+     },
+     "value": "1500 W"
+    },
+    {
+     "label": {
+      "en": "Steam Pressure",
+      "zh": "蒸汽压力",
+      "ar": "ضغط البخار",
+      "es": "Presión de vapor",
+      "fr": "Pression de vapeur",
+      "id": "Tekanan Uap",
+      "ru": "Давление пара",
+      "th": "แรงดันไอน้ำ",
+      "vi": "Áp suất hơi"
+     },
+     "value": "3 bar"
+    },
+    {
+     "label": {
+      "en": "Tank",
+      "zh": "水箱",
+      "ar": "الخزان",
+      "es": "Tanque",
+      "fr": "Réservoir",
+      "id": "Tangki",
+      "ru": "Бак",
+      "th": "ถังน้ำ",
+      "vi": "Bình chứa"
+     },
+     "value": "1600 ml"
+    },
+    {
+     "label": {
+      "en": "Steam Levels",
+      "zh": "蒸汽档位",
+      "ar": "مستويات البخار",
+      "es": "Niveles de vapor",
+      "fr": "Niveaux de vapeur",
+      "id": "Level Uap",
+      "ru": "Уровни пара",
+      "th": "ระดับไอน้ำ",
+      "vi": "Mức hơi"
+     },
+     "value": "3"
+    }
+   ],
+   "moq": {
+    "value": 1,
+    "unit": "pieces"
+   },
+   "price_ladder": [
+    {
+     "min": 1,
+     "max": 499,
+     "price": 28.66
+    },
+    {
+     "min": 500,
+     "max": 4999,
+     "price": 24.62
+    },
+    {
+     "min": 5000,
+     "max": -1,
+     "price": 19.9
+    }
+   ],
+   "price_indicator": {
+    "min": 19.9,
+    "max": 28.66,
+    "currency": "USD"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-003/01-main.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-003/02.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-003/03.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-003/04.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-003/05.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-003/06.webp?v=20261104b"
+   ],
+   "detail_images": [
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-003/detail/01.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-003/detail/02.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-003/detail/03.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-003/detail/04.webp?v=20261104b"
+   ],
+   "video_url": "",
+   "applications": {
+    "en": "Grout, tile, floors, kitchens, bathrooms and cars",
+    "zh": "瓷砖缝、地面、厨房、卫浴与汽车",
+    "ar": "بخار عالي الضغط 3 بار · تسخين سريع في 15 ثانية · 3 مستويات بخار قابلة للتعديل",
+    "es": "vapor a alta presión de 3 bares, calentamiento rápido en 15 segundos, 3 niveles de vapor ajustables",
+    "fr": "vapeur haute pression 3 bars, chauffe rapide en 15 secondes, 3 niveaux de vapeur réglables",
+    "id": "uap bertekanan tinggi 3 bar, panas cepat 15 detik, 3 tingkat uap yang dapat disesuaikan",
+    "ru": "пар высокого давления 3 бар, быстрый нагрев за 15 секунд, 3 уровня подачи пара",
+    "th": "ไอน้ำแรงดันสูง 3 บาร์, ให้ความร้อนเร็วใน 15 วินาที, ปรับระดับไอน้ำได้ 3 ระดับ",
+    "vi": "hơi nước áp suất cao 3 bar, gia nhiệt nhanh 15 giây, 3 mức hơi điều chỉnh được"
+   },
+   "certifications": [],
+   "certificates": [],
+   "sku": [],
+   "packaging": {
+    "unit": "Color Box",
+    "ctn_size": "—",
+    "ctn_qty": "—",
+    "gross_weight": "—"
+   },
+   "customization": {},
+   "pack_size": "—",
+   "category_name": {
+    "en": "Steam Cleaners",
+    "zh": "蒸汽清洁机",
+    "es": "Limpiador de Vapor",
+    "ar": "منظف بالبخار",
+    "fr": "Nettoyeur vapeur",
+    "id": "Pembersih Uap",
+    "ru": "Пароочиститель",
+    "th": "เครื่องทำความสะอาดด้วยไอน้ำ",
+    "vi": "Máy vệ sinh hơi nước"
+   },
+   "supplier_rating": "4.8",
+   "response_time": "≤ 2h",
+   "years": "10+",
+   "sample": {
+    "enabled": true,
+    "qty": 5,
+    "note": "Sample available, lead 7-14 days"
+   }
+  },
+  {
+   "id": "tc-sc-007",
+   "_cat": "steam-cleaner",
+   "_source": {
+    "platform": "alibaba.com",
+    "productId": "1601906215568"
+   },
+   "alibaba_url": "https://www.alibaba.com/product-detail/2500W-Electric-High-Pressure-Steam-Cleaner_1601906215568.html",
+   "name": {
+    "en": "TC-SC-007 2500W High-Pressure Steam Cleaner · 3 Bar Steam Mop 1600 ml · 100℃ Steam for Home & Car",
+    "zh": "TC-SC-007 2500W 电动高压蒸汽清洁机 · 3 巴蒸汽拖把 1600ml · 100℃ 蒸汽家用车用",
+    "ar": "TC-SC-007 بخار عالي الضغط 3 بار · بخار عالي الحرارة 100℃ · تسخين سريع في 15 ثانية",
+    "es": "TC-SC-007 vapor a alta presión de 3 bares · vapor de alta temperatura 100℃ · calentamiento rápido en 15 segundos",
+    "fr": "TC-SC-007 vapeur haute pression 3 bars · vapeur haute température 100℃ · chauffe rapide en 15 secondes",
+    "id": "TC-SC-007 uap bertekanan tinggi 3 bar · uap suhu tinggi 100℃ · panas cepat 15 detik",
+    "ru": "TC-SC-007 пар высокого давления 3 бар · пар высокой температуры 100℃ · быстрый нагрев за 15 секунд",
+    "th": "TC-SC-007 ไอน้ำแรงดันสูง 3 บาร์ · ไอน้ำอุณหภูมิสูง 100℃ · ให้ความร้อนเร็วใน 15 วินาที",
+    "vi": "TC-SC-007 hơi nước áp suất cao 3 bar · hơi nước nhiệt độ cao 100℃ · gia nhiệt nhanh 15 giây"
+   },
+   "tagline": {
+    "en": "2500W high-pressure steam with 1600 ml tank and 100℃ output",
+    "zh": "2500W 高压蒸汽，1600ml 水箱，100℃ 输出",
+    "ar": "بخار عالي الضغط 3 بار · بخار عالي الحرارة 100℃ · تسخين سريع في 15 ثانية",
+    "es": "vapor a alta presión de 3 bares · vapor de alta temperatura 100℃ · calentamiento rápido en 15 segundos",
+    "fr": "vapeur haute pression 3 bars · vapeur haute température 100℃ · chauffe rapide en 15 secondes",
+    "id": "uap bertekanan tinggi 3 bar · uap suhu tinggi 100℃ · panas cepat 15 detik",
+    "ru": "пар высокого давления 3 бар · пар высокой температуры 100℃ · быстрый нагрев за 15 секунд",
+    "th": "ไอน้ำแรงดันสูง 3 บาร์ · ไอน้ำอุณหภูมิสูง 100℃ · ให้ความร้อนเร็วใน 15 วินาที",
+    "vi": "hơi nước áp suất cao 3 bar · hơi nước nhiệt độ cao 100℃ · gia nhiệt nhanh 15 giây"
+   },
+   "description": {
+    "en": "TC-SC-007 is a 2500 W high-pressure steam cleaner delivering 3 bar, 100℃ steam for heavy-duty home and car cleaning. The 1600 ml tank supports around 30 minutes of continuous steam, the 1.5 m steam pipe reaches floors and upholstery, and heat-up takes just 15 seconds. 4 kg body with color box packaging.",
+    "zh": "TC-SC-007 2500W 高压蒸汽清洁机，输出 3 巴、100℃ 高温蒸汽，胜任家用与汽车重度清洁。1600ml 水箱支持约 30 分钟连续出汽，1.5 米蒸汽管覆盖地面与软装，15 秒速热。机身 4kg，彩盒包装。",
+    "ar": "TC-SC-007 — منظف بخار محمول للمطبخ والحمام والسيارة. يوفر بخار عالي الضغط 3 بار وبخار عالي الحرارة 100℃ وتسخين سريع في 15 ثانية لتنظيف عميق دون مواد كيميائية. تصميم يدوي مدمج مع دعم OEM/ODM.",
+    "es": "TC-SC-007 es un limpiador a vapor portátil para cocina, baño y coche. Aporta vapor a alta presión de 3 bares, vapor de alta temperatura 100℃ y calentamiento rápido en 15 segundos para una limpieza profunda sin químicos. Diseño manual compacto con soporte OEM/ODM.",
+    "fr": "TC-SC-007 est un nettoyeur vapeur portable pour la cuisine, la salle de bain et la voiture. Il délivre vapeur haute pression 3 bars, vapeur haute température 100℃ et chauffe rapide en 15 secondes pour un nettoyage en profondeur sans produits chimiques. Design manuel compact ; OEM/ODM possible.",
+    "id": "TC-SC-007 adalah pembersih uap portabel untuk dapur, kamar mandi, dan mobil. Memberikan uap bertekanan tinggi 3 bar, uap suhu tinggi 100℃, dan panas cepat 15 detik untuk pembersihan mendalam tanpa bahan kimia. Desain genggam ringkas, dukungan OEM/ODM.",
+    "ru": "TC-SC-007 — портативный пароочиститель для кухни, ванной и автомобиля. Подаёт пар высокого давления 3 бар, пар высокой температуры 100℃ и быстрый нагрев за 15 секунд для глубокой чистки без химии. Компактный ручной дизайн, поддержка OEM/ODM.",
+    "th": "TC-SC-007 เครื่องทำความสะอาดด้วยไอน้ำพกพา สำหรับครัว ห้องน้ำ และรถยนต์ ให้ไอน้ำแรงดันสูง 3 บาร์ ไอน้ำอุณหภูมิสูง 100℃ และให้ความร้อนเร็วใน 15 วินาที ทำความสะอาดลึกโดยไม่ต้องใช้สารเคมี ดีไซน์ถือกะทัดรัด รองรับ OEM/ODM",
+    "vi": "TC-SC-007 là máy vệ sinh bằng hơi nước cầm tay cho bếp, nhà tắm và ô tô. Mang lại hơi nước áp suất cao 3 bar, hơi nước nhiệt độ cao 100℃ và gia nhiệt nhanh 15 giây để làm sạch sâu không cần hóa chất. Thiết kế cầm tay gọn gàng, hỗ trợ OEM/ODM."
+   },
+   "highlights": [
+    {
+     "icon": "power",
+     "text": {
+      "en": "3 bar high-pressure steam",
+      "zh": "3 巴高压蒸汽",
+      "ar": "بخار عالي الضغط 3 بار",
+      "es": "vapor a alta presión de 3 bares",
+      "fr": "vapeur haute pression 3 bars",
+      "id": "uap bertekanan tinggi 3 bar",
+      "ru": "пар высокого давления 3 бар",
+      "th": "ไอน้ำแรงดันสูง 3 บาร์",
+      "vi": "hơi nước áp suất cao 3 bar"
+     }
+    },
+    {
+     "icon": "check",
+     "text": {
+      "en": "100℃ high-temperature steam",
+      "zh": "100℃ 高温蒸汽",
+      "ar": "بخار عالي الحرارة 100℃",
+      "es": "vapor de alta temperatura 100℃",
+      "fr": "vapeur haute température 100℃",
+      "id": "uap suhu tinggi 100℃",
+      "ru": "пар высокой температуры 100℃",
+      "th": "ไอน้ำอุณหภูมิสูง 100℃",
+      "vi": "hơi nước nhiệt độ cao 100℃"
+     }
+    },
+    {
+     "icon": "clean",
+     "text": {
+      "en": "15-second fast heating",
+      "zh": "15 秒快速加热",
+      "ar": "تسخين سريع في 15 ثانية",
+      "es": "calentamiento rápido en 15 segundos",
+      "fr": "chauffe rapide en 15 secondes",
+      "id": "panas cepat 15 detik",
+      "ru": "быстрый нагрев за 15 секунд",
+      "th": "ให้ความร้อนเร็วใน 15 วินาที",
+      "vi": "gia nhiệt nhanh 15 giây"
+     }
+    },
+    {
+     "icon": "gauge",
+     "text": {
+      "en": "lightweight portable design",
+      "zh": "轻量便携设计",
+      "ar": "تصميم خفيف ومحمول",
+      "es": "diseño ligero y portátil",
+      "fr": "design léger et portable",
+      "id": "desain ringan dan portabel",
+      "ru": "лёгкий портативный дизайн",
+      "th": "ดีไซน์เบาพกพาสะดวก",
+      "vi": "thiết kế nhẹ nhàng tiện mang theo"
+     }
+    }
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "Model",
+      "zh": "型号",
+      "ar": "الموديل",
+      "es": "Modelo",
+      "fr": "Modèle",
+      "id": "Model",
+      "ru": "Модель",
+      "th": "รุ่น",
+      "vi": "Mã sản phẩm"
+     },
+     "value": "TC-SC-007 (YTC-SC-007/008)"
+    },
+    {
+     "label": {
+      "en": "Power",
+      "zh": "功率",
+      "ar": "الطاقة",
+      "es": "Potencia",
+      "fr": "Puissance",
+      "id": "Daya",
+      "ru": "Мощность",
+      "th": "กำลังไฟ",
+      "vi": "Công suất"
+     },
+     "value": "2500 W"
+    },
+    {
+     "label": {
+      "en": "Steam Pressure",
+      "zh": "蒸汽压力",
+      "ar": "ضغط البخار",
+      "es": "Presión de vapor",
+      "fr": "Pression de vapeur",
+      "id": "Tekanan Uap",
+      "ru": "Давление пара",
+      "th": "แรงดันไอน้ำ",
+      "vi": "Áp suất hơi"
+     },
+     "value": "3 bar"
+    },
+    {
+     "label": {
+      "en": "Steam Temp",
+      "zh": "蒸汽温度",
+      "ar": "حرارة البخار",
+      "es": "Temp. del vapor",
+      "fr": "Temp. de la vapeur",
+      "id": "Suhu Uap",
+      "ru": "Темп. пара",
+      "th": "อุณหภูมิไอน้ำ",
+      "vi": "Nhiệt độ hơi"
+     },
+     "value": "100 ℃"
+    },
+    {
+     "label": {
+      "en": "Tank Capacity",
+      "zh": "水箱容量",
+      "ar": "سعة الخزان",
+      "es": "Capacidad del tanque",
+      "fr": "Capacité du réservoir",
+      "id": "Kapasitas Tangki",
+      "ru": "Ёмкость бака",
+      "th": "ความจุถังน้ำ",
+      "vi": "Dung tích bình"
+     },
+     "value": "1600 ml"
+    },
+    {
+     "label": {
+      "en": "Heat-up Time",
+      "zh": "加热时间",
+      "ar": "وقت التسخين",
+      "es": "Tiempo de calentamiento",
+      "fr": "Temps de chauffe",
+      "id": "Waktu Pemanasan",
+      "ru": "Время нагрева",
+      "th": "เวลาให้ความร้อน",
+      "vi": "Thời gian gia nhiệt"
+     },
+     "value": "15 s"
+    },
+    {
+     "label": {
+      "en": "Runtime",
+      "zh": "续航时间",
+      "ar": "وقت التشغيل",
+      "es": "Tiempo de funcionamiento",
+      "fr": "Autonomie",
+      "id": "Waktu Operasi",
+      "ru": "Время работы",
+      "th": "ระยะเวลาทำงาน",
+      "vi": "Thời gian hoạt động"
+     },
+     "value": "30 min"
+    },
+    {
+     "label": {
+      "en": "Steam Pipe Length",
+      "zh": "蒸汽管长度",
+      "ar": "طول أنبوب البخار",
+      "es": "Longitud del tubo de vapor",
+      "fr": "Longueur du tuyau à vapeur",
+      "id": "Panjang Pipa Uap",
+      "ru": "Длина паровой трубки",
+      "th": "ความยาวท่อไอน้ำ",
+      "vi": "Chiều dài ống hơi"
+     },
+     "value": "1.5 m"
+    },
+    {
+     "label": {
+      "en": "Weight",
+      "zh": "重量",
+      "ar": "الوزن",
+      "es": "Peso",
+      "fr": "Poids",
+      "id": "Berat",
+      "ru": "Вес",
+      "th": "น้ำหนัก",
+      "vi": "Trọng lượng"
+     },
+     "value": "4 kg"
+    },
+    {
+     "label": {
+      "en": "Size",
+      "zh": "尺寸",
+      "ar": "المقاس",
+      "es": "Tamaño",
+      "fr": "Dimensions",
+      "id": "Ukuran",
+      "ru": "Размер",
+      "th": "ขนาด",
+      "vi": "Kích thước"
+     },
+     "value": "21 × 15 × 15 cm"
+    }
+   ],
+   "quick_specs": [
+    {
+     "label": {
+      "en": "Power",
+      "zh": "功率",
+      "ar": "الطاقة",
+      "es": "Potencia",
+      "fr": "Puissance",
+      "id": "Daya",
+      "ru": "Мощность",
+      "th": "กำลังไฟ",
+      "vi": "Công suất"
+     },
+     "value": "2500 W"
+    },
+    {
+     "label": {
+      "en": "Steam Pressure",
+      "zh": "蒸汽压力",
+      "ar": "ضغط البخار",
+      "es": "Presión de vapor",
+      "fr": "Pression de vapeur",
+      "id": "Tekanan Uap",
+      "ru": "Давление пара",
+      "th": "แรงดันไอน้ำ",
+      "vi": "Áp suất hơi"
+     },
+     "value": "3 bar"
+    },
+    {
+     "label": {
+      "en": "Tank",
+      "zh": "水箱",
+      "ar": "الخزان",
+      "es": "Tanque",
+      "fr": "Réservoir",
+      "id": "Tangki",
+      "ru": "Бак",
+      "th": "ถังน้ำ",
+      "vi": "Bình chứa"
+     },
+     "value": "1600 ml"
+    },
+    {
+     "label": {
+      "en": "Runtime",
+      "zh": "续航时间",
+      "ar": "وقت التشغيل",
+      "es": "Tiempo de funcionamiento",
+      "fr": "Autonomie",
+      "id": "Waktu Operasi",
+      "ru": "Время работы",
+      "th": "ระยะเวลาทำงาน",
+      "vi": "Thời gian hoạt động"
+     },
+     "value": "30 min"
+    }
+   ],
+   "moq": {
+    "value": 10,
+    "unit": "pieces"
+   },
+   "price_ladder": [
+    {
+     "min": 10,
+     "max": 499,
+     "price": 40
+    },
+    {
+     "min": 500,
+     "max": 999,
+     "price": 37
+    },
+    {
+     "min": 1000,
+     "max": -1,
+     "price": 34
+    }
+   ],
+   "price_indicator": {
+    "min": 34,
+    "max": 40,
+    "currency": "USD"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-007/01-main.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-007/02.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-007/03.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-007/04.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-007/05.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-007/06.webp?v=20261104b"
+   ],
+   "detail_images": [
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-007/detail/01.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-007/detail/02.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-007/detail/03.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-007/detail/04.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-007/detail/05.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-007/detail/06.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-007/detail/07.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-007/detail/08.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-007/detail/09.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-007/detail/10.webp?v=20261104b",
+    "https://www.hkdmj.net/assets/images/products/steam-cleaner-tc-sc-007/detail/11.webp?v=20261104b"
+   ],
+   "video_url": "",
+   "applications": {
+    "en": "Floors, kitchens, bathrooms, upholstery and car interiors",
+    "zh": "地面、厨房、卫浴、软装与汽车内饰",
+    "ar": "بخار عالي الضغط 3 بار · بخار عالي الحرارة 100℃ · تسخين سريع في 15 ثانية",
+    "es": "vapor a alta presión de 3 bares, vapor de alta temperatura 100℃, calentamiento rápido en 15 segundos",
+    "fr": "vapeur haute pression 3 bars, vapeur haute température 100℃, chauffe rapide en 15 secondes",
+    "id": "uap bertekanan tinggi 3 bar, uap suhu tinggi 100℃, panas cepat 15 detik",
+    "ru": "пар высокого давления 3 бар, пар высокой температуры 100℃, быстрый нагрев за 15 секунд",
+    "th": "ไอน้ำแรงดันสูง 3 บาร์, ไอน้ำอุณหภูมิสูง 100℃, ให้ความร้อนเร็วใน 15 วินาที",
+    "vi": "hơi nước áp suất cao 3 bar, hơi nước nhiệt độ cao 100℃, gia nhiệt nhanh 15 giây"
+   },
+   "certifications": [],
+   "certificates": [],
+   "sku": [],
+   "packaging": {
+    "unit": "Color Box Packing",
+    "ctn_size": "—",
+    "ctn_qty": "—",
+    "gross_weight": "—"
+   },
+   "customization": {},
+   "pack_size": "21 × 15 × 15 cm",
+   "category_name": {
+    "en": "Steam Cleaners",
+    "zh": "蒸汽清洁机",
+    "es": "Limpiador de Vapor",
+    "ar": "منظف بالبخار",
+    "fr": "Nettoyeur vapeur",
+    "id": "Pembersih Uap",
+    "ru": "Пароочиститель",
+    "th": "เครื่องทำความสะอาดด้วยไอน้ำ",
+    "vi": "Máy vệ sinh hơi nước"
+   },
+   "supplier_rating": "4.8",
+   "response_time": "≤ 2h",
+   "years": "10+",
+   "sample": {
+    "enabled": true,
+    "qty": 5,
+    "note": "Sample available, lead 7-14 days"
+   }
   }
  ],
  "reviews": [
