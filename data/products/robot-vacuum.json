@@ -2919,15 +2919,15 @@
    ],
    "id": "v9-3",
    "name": {
-    "en": "V9 Smart Robot Vacuum 20000Pa with 65℃ Hot Water Mopping & Auto Station",
-    "zh": "V9 智能扫地机器人 20000Pa 65℃ 热水洗拖自动基站",
-    "es": "Robot inteligente V9 20000 Pa con trapeado con agua caliente a 65 ℃ y estación automática",
-    "ar": "روبوت V9 الذكي بقوة شفط 20000 باسكال ومسح بماء ساخن 65 درجة وقاعدة تلقائية",
-    "fr": "Robot intelligent V9 20000 Pa avec lavage à l’eau chaude 65 ℃ et station auto",
-    "id": "Robot pintar V9 20000Pa dengan pel air panas 65℃ dan stasiun otomatis",
-    "ru": "Умный робот-пылесос V9 20000 Па с мытьём горячей водой 65 ℃ и автостанцией",
-    "th": "หุ่นยนต์อัจฉริยะ V9 20000Pa เช็ดด้วยน้ำร้อน 65℃ พร้อมสถานีอัตโนมัติ",
-    "vi": "Robot thông minh V9 20000Pa lau nước nóng 65℃ với trạm tự động"
+    "en": "V501 Smart Robot Vacuum 20000Pa with 65℃ Hot Water Mopping & Auto Station",
+    "zh": "V501 智能扫地机器人 20000Pa 65℃ 热水洗拖自动基站",
+    "es": "Robot inteligente V501 20000 Pa con trapeado con agua caliente a 65 ℃ y estación automática",
+    "ar": "روبوت V501 الذكي بقوة شفط 20000 باسكال ومسح بماء ساخن 65 درجة وقاعدة تلقائية",
+    "fr": "Robot intelligent V501 20000 Pa avec lavage à l’eau chaude 65 ℃ et station auto",
+    "id": "Robot pintar V501 20000Pa dengan pel air panas 65℃ dan stasiun otomatis",
+    "ru": "Умный робот-пылесос V501 20000 Па с мытьём горячей водой 65 ℃ и автостанцией",
+    "th": "หุ่นยนต์อัจฉริยะ V501 20000Pa เช็ดด้วยน้ำร้อน 65℃ พร้อมสถานีอัตโนมัติ",
+    "vi": "Robot thông minh V501 20000Pa lau nước nóng 65℃ với trạm tự động"
    },
    "tagline": {
     "en": "20000Pa · 65℃ Hot-Water Mop · 55℃ Drying · 5200mAh",
@@ -2941,19 +2941,24 @@
     "vi": "20000Pa · lau nước nóng 65℃ · sấy 55℃ · 5200mAh"
    },
    "moq": {
-    "value": 1000,
+    "value": 2,
     "unit": "pieces"
    },
    "price_indicator": {
-    "min": 249,
-    "max": 249,
+    "min": 259,
+    "max": 279,
     "currency": "USD"
    },
    "price_ladder": [
     {
-     "min": 1000,
-     "max": null,
-     "price": 249
+     "min": 2,
+     "max": 500,
+     "price": 279
+    },
+    {
+     "min": 500,
+     "max": 1000,
+     "price": 259
     }
    ],
    "highlights": [
@@ -3028,15 +3033,15 @@
       "vi": "số model"
      },
      "value": {
-      "en": "V9",
-      "zh": "V9",
-      "ar": "V9",
-      "es": "V9",
-      "fr": "V9",
-      "id": "V9",
-      "ru": "V9",
-      "th": "V9",
-      "vi": "V9"
+      "en": "V501",
+      "zh": "V501",
+      "ar": "V501",
+      "es": "V501",
+      "fr": "V501",
+      "id": "V501",
+      "ru": "V501",
+      "th": "V501",
+      "vi": "V501"
      }
     },
     {
@@ -3475,15 +3480,15 @@
     }
    ],
    "description": {
-    "en": "The V9 flagship robot vacuum combines 20000Pa suction with true hot-water mopping: the station washes the mop at 65℃, dries it at 55℃ to stay odor-free, and refills clean water automatically. LDS+VSLAM navigation, auto mop lifting, no-go zones and Tuya app plus Alexa/Google voice control make whole-home cleaning effortless; the 5200mAh battery runs 150–180 minutes. Water filtration, 800ml dustbin, 1L dust bag and 4L+4L tanks. MOQ 1000 pcs, OEM/ODM.",
-    "zh": "V9 旗舰扫地机器人集 20000Pa 吸力与真正的热水洗拖于一身：基站以 65℃ 热水洗拖布、55℃ 烘干防异味，并自动补水。LDS+VSLAM 导航、拖布自动升降、禁区虚拟墙与涂鸦 APP、Alexa/Google 语音控制让全屋清洁轻松完成；5200mAh 电池续航 150–180 分钟。水过滤系统，800ml 尘盒、1L 集尘袋与 4L+4L 水箱。MOQ 1000 台，支持 OEM/ODM。",
-    "es": "El robot insignia V9 combina 20000 Pa con trapeado real con agua caliente: la estación lava el trapo a 65 ℃, lo seca a 55 ℃ para evitar olores y rellena el agua limpia automáticamente. Navegación LDS+VSLAM, elevación automática del trapo, zonas prohibidas y app Tuya con voz Alexa/Google hacen la limpieza de toda la casa sin esfuerzo; la batería de 5200 mAh rinde 150–180 minutos. Filtración de agua, depósito de 800 ml, bolsa de 1 L y tanques de 4 L + 4 L. MOQ 1000 uds, OEM/ODM.",
-    "ar": "يجمع روبوت V9 الرائد بين قوة شفط 20000 باسكال والمسح الحقيقي بالماء الساخن: تغسل القاعدة المنشفة بماء ساخن 65 درجة وتجففها عند 55 درجة لمنع الروائح وتعيد تعبئة الماء النظيف تلقائياً. ملاحة LDS+VSLAM ورفع الممسحة تلقائياً ومناطق محظورة وتطبيق Tuya مع أوامر Alexa/Google الصوتية تجعل تنظيف المنزل بالكامل سهلاً؛ بطارية 5200 مللي أمبير تعمل 150–180 دقيقة. ترشيح بالماء، صندوق غبار 800 مل، كيس غبار 1 لتر وخزانان 4 لتر. MOQ 1000 قطعة، OEM/ODM.",
-    "fr": "Le robot phare V9 combine 20000 Pa et un vrai lavage à l’eau chaude : la station lave la serpillière à 65 ℃, la sèche à 55 ℃ contre les odeurs et remplit l’eau propre automatiquement. Navigation LDS+VSLAM, relèvement automatique de la serpillière, zones interdites et app Tuya avec voix Alexa/Google rendent le nettoyage intégral sans effort ; la batterie 5200 mAh tient 150–180 minutes. Filtration à l’eau, bac 800 ml, sac 1 L et réservoirs 4 L + 4 L. MOQ 1000 pcs, OEM/ODM.",
-    "id": "Robot unggulan V9 memadukan hisap 20000Pa dengan pel air panas sungguhan: stasiun mencuci pel dengan air panas 65℃, mengeringkannya pada 55℃ agar bebas bau, dan mengisi air bersih otomatis. Navigasi LDS+VSLAM, pengangkatan pel otomatis, zona larangan, aplikasi Tuya plus suara Alexa/Google membuat pembersihan seluruh rumah mudah; baterai 5200mAh bekerja 150–180 menit. Filtrasi air, wadah 800ml, kantong 1L, dan tangki 4L+4L. MOQ 1000 pcs, OEM/ODM.",
-    "ru": "Флагманский робот V9 объединяет всасывание 20000 Па и настоящую мойку горячей водой: станция моет тряпку при 65 ℃, сушит при 55 ℃ против запахов и автоматически доливает чистую воду. Навигация LDS+VSLAM, автоподъём тряпки, запретные зоны, приложение Tuya и голос Alexa/Google делают уборку всего дома простой; батарея 5200 мА·ч работает 150–180 минут. Водный фильтр, пылесборник 800 мл, мешок 1 л и баки 4+4 л. MOQ 1000 шт., OEM/ODM.",
-    "th": "หุ่นยนต์รุ่นเรือธง V9 ผสานแรงดูด 20000Pa เข้ากับการเช็ดน้ำร้อนจริง: สถานีล้างผ้าเช็ดด้วยน้ำร้อน 65℃ อบที่ 55℃ ป้องกันกลิ่น และเติมน้ำสะอาดอัตโนมัติ การนำทาง LDS+VSLAM ยกผ้าเช็ดอัตโนมัติ เขตห้าม แอป Tuya และเสียง Alexa/Google ทำให้ทำความสะอาดทั้งบ้านง่ายดาย แบตเตอรี่ 5200mAh ใช้งาน 150–180 นาที กรองด้วยน้ำ ถังฝุ่น 800ml ถุงฝุ่น 1L และถังน้ำ 4L+4L MOQ 1000 ชิ้น รองรับ OEM/ODM",
-    "vi": "Robot flagship V9 kết hợp lực hút 20000Pa với lau nước nóng thực sự: trạm rửa khăn bằng nước nóng 65℃, sấy ở 55℃ chống mùi, tự châm nước sạch. Điều hướng LDS+VSLAM, tự nâng khăn lau, vùng cấm, ứng dụng Tuya cùng giọng nói Alexa/Google giúp dọn toàn nhà dễ dàng; pin 5200mAh chạy 150–180 phút. Lọc nước, hộp bụi 800ml, túi bụi 1L và bình 4L+4L. MOQ 1000 cái, hỗ trợ OEM/ODM."
+    "en": "The V501 flagship robot vacuum combines 20000Pa suction with true hot-water mopping: the station washes the mop at 65℃, dries it at 55℃ to stay odor-free, and refills clean water automatically. LDS+VSLAM navigation, auto mop lifting, no-go zones and Tuya app plus Alexa/Google voice control make whole-home cleaning effortless; the 5200mAh battery runs 150–180 minutes. Water filtration, 800ml dustbin, 1L dust bag and 4L+4L tanks. MOQ 2 pcs, OEM/ODM.",
+    "zh": "V501 旗舰扫地机器人集 20000Pa 吸力与真正的热水洗拖于一身：基站以 65℃ 热水洗拖布、55℃ 烘干防异味，并自动补水。LDS+VSLAM 导航、拖布自动升降、禁区虚拟墙与涂鸦 APP、Alexa/Google 语音控制让全屋清洁轻松完成；5200mAh 电池续航 150–180 分钟。水过滤系统，800ml 尘盒、1L 集尘袋与 4L+4L 水箱。MOQ 2 台，支持 OEM/ODM。",
+    "es": "El robot insignia V501 combina 20000 Pa con trapeado real con agua caliente: la estación lava el trapo a 65 ℃, lo seca a 55 ℃ para evitar olores y rellena el agua limpia automáticamente. Navegación LDS+VSLAM, elevación automática del trapo, zonas prohibidas y app Tuya con voz Alexa/Google hacen la limpieza de toda la casa sin esfuerzo; la batería de 5200 mAh rinde 150–180 minutos. Filtración de agua, depósito de 800 ml, bolsa de 1 L y tanques de 4 L + 4 L. MOQ 2 uds, OEM/ODM.",
+    "ar": "يجمع روبوت V501 الرائد بين قوة شفط 20000 باسكال والمسح الحقيقي بالماء الساخن: تغسل القاعدة المنشفة بماء ساخن 65 درجة وتجففها عند 55 درجة لمنع الروائح وتعيد تعبئة الماء النظيف تلقائياً. ملاحة LDS+VSLAM ورفع الممسحة تلقائياً ومناطق محظورة وتطبيق Tuya مع أوامر Alexa/Google الصوتية تجعل تنظيف المنزل بالكامل سهلاً؛ بطارية 5200 مللي أمبير تعمل 150–180 دقيقة. ترشيح بالماء، صندوق غبار 800 مل، كيس غبار 1 لتر وخزانان 4 لتر. MOQ 2 قطعة، OEM/ODM.",
+    "fr": "Le robot phare V501 combine 20000 Pa et un vrai lavage à l’eau chaude : la station lave la serpillière à 65 ℃, la sèche à 55 ℃ contre les odeurs et remplit l’eau propre automatiquement. Navigation LDS+VSLAM, relèvement automatique de la serpillière, zones interdites et app Tuya avec voix Alexa/Google rendent le nettoyage intégral sans effort ; la batterie 5200 mAh tient 150–180 minutes. Filtration à l’eau, bac 800 ml, sac 1 L et réservoirs 4 L + 4 L. MOQ 2 pcs, OEM/ODM.",
+    "id": "Robot unggulan V501 memadukan hisap 20000Pa dengan pel air panas sungguhan: stasiun mencuci pel dengan air panas 65℃, mengeringkannya pada 55℃ agar bebas bau, dan mengisi air bersih otomatis. Navigasi LDS+VSLAM, pengangkatan pel otomatis, zona larangan, aplikasi Tuya plus suara Alexa/Google membuat pembersihan seluruh rumah mudah; baterai 5200mAh bekerja 150–180 menit. Filtrasi air, wadah 800ml, kantong 1L, dan tangki 4L+4L. MOQ 2 pcs, OEM/ODM.",
+    "ru": "Флагманский робот V501 объединяет всасывание 20000 Па и настоящую мойку горячей водой: станция моет тряпку при 65 ℃, сушит при 55 ℃ против запахов и автоматически доливает чистую воду. Навигация LDS+VSLAM, автоподъём тряпки, запретные зоны, приложение Tuya и голос Alexa/Google делают уборку всего дома простой; батарея 5200 мА·ч работает 150–180 минут. Водный фильтр, пылесборник 800 мл, мешок 1 л и баки 4+4 л. MOQ 2 шт., OEM/ODM.",
+    "th": "หุ่นยนต์รุ่นเรือธง V501 ผสานแรงดูด 20000Pa เข้ากับการเช็ดน้ำร้อนจริง: สถานีล้างผ้าเช็ดด้วยน้ำร้อน 65℃ อบที่ 55℃ ป้องกันกลิ่น และเติมน้ำสะอาดอัตโนมัติ การนำทาง LDS+VSLAM ยกผ้าเช็ดอัตโนมัติ เขตห้าม แอป Tuya และเสียง Alexa/Google ทำให้ทำความสะอาดทั้งบ้านง่ายดาย แบตเตอรี่ 5200mAh ใช้งาน 150–180 นาที กรองด้วยน้ำ ถังฝุ่น 800ml ถุงฝุ่น 1L และถังน้ำ 4L+4L MOQ 2 ชิ้น รองรับ OEM/ODM",
+    "vi": "Robot flagship V501 kết hợp lực hút 20000Pa với lau nước nóng thực sự: trạm rửa khăn bằng nước nóng 65℃, sấy ở 55℃ chống mùi, tự châm nước sạch. Điều hướng LDS+VSLAM, tự nâng khăn lau, vùng cấm, ứng dụng Tuya cùng giọng nói Alexa/Google giúp dọn toàn nhà dễ dàng; pin 5200mAh chạy 150–180 phút. Lọc nước, hộp bụi 800ml, túi bụi 1L và bình 4L+4L. MOQ 2 cái, hỗ trợ OEM/ODM."
    },
    "images": [
     "https://www.hkdmj.net/assets/images/products/robot-vacuum-v9-3/01-main.webp?v=20261102e",
@@ -3518,7 +3523,7 @@
      "validPeriod": "2026/07/29 - 2031/07/23",
      "verified": true,
      "image": null,
-     "coversHint": "V9"
+     "coversHint": "V501"
     },
     {
      "certId": "60008004208",
@@ -3529,7 +3534,7 @@
      "validPeriod": "2026/09/01 - 2031/09/06",
      "verified": true,
      "image": null,
-     "coversHint": "V9"
+     "coversHint": "V501"
     },
     {
      "certId": "60007675410",
@@ -3540,7 +3545,7 @@
      "validPeriod": "2026/07/26 - 2031/07/23",
      "verified": true,
      "image": null,
-     "coversHint": "V9"
+     "coversHint": "V501"
     }
    ]
   },
