@@ -8664,6 +8664,491 @@
      "zh": "支持打样（最多 1 台）"
     }
    }
+  },
+  {
+   "id": "v501",
+   "_cat": "robot-vacuum",
+   "_source": {
+    "platform": "alibaba.com",
+    "productId": "1601697364353"
+   },
+   "alibaba_url": "https://www.alibaba.com/product-detail/Robot-Vacuum-Cleaner-Mop-20000Pa-Power_1601697364353.html",
+   "name": {
+    "en": "V501 20000Pa Robot Vacuum & Mop · LDS Laser + Visual Navigation · 4L Self-Emptying Station",
+    "zh": "V501 20000Pa 扫吸拖一体机器人 · LDS 激光 + 视觉双导航 · 4L 自动集尘基站",
+    "ar": "V501 قوة شفط 20000 باسكال · ملاحة مزدوجة بالليزر LDS والرؤية · محطة تفريغ تلقائي سعة 4 لتر",
+    "es": "V501 succión potente de 20000 Pa · navegación dual LDS láser + visual · estación de vaciado automático de 4 L",
+    "fr": "V501 aspiration puissante de 20000 Pa · navigation double LDS laser + visuelle · station de vidage automatique de 4 L",
+    "id": "V501 hisapan kuat 20000 Pa · navigasi ganda laser LDS + visual · stasiun pengosongan otomatis 4 L",
+    "ru": "V501 мощное всасывание 20000 Па · двойная навигация: лазер LDS + визуальная · станция автоопустошения 4 л",
+    "th": "V501 แรงดูดสูง 20000 Pa · ระบบนำทางคู่เลเซอร์ LDS + วิชัน · ฐานเทฝุ่นอัตโนมัติ 4 ล.",
+    "vi": "V501 lực hút mạnh 20000 Pa · điều hướng kép laser LDS + thị giác · trạm tự đổ bụi 4 L"
+   },
+   "tagline": {
+    "en": "20,000 Pa suction, laser + visual navigation and a 4 L self-emptying station",
+    "zh": "20000Pa 吸力，激光 + 视觉双导航，4L 自动集尘基站",
+    "ar": "قوة شفط 20000 باسكال · تشغيل 150–180 دقيقة · جدولة عبر التطبيق وتنظيف غرفة بغرفة",
+    "es": "succión potente de 20000 Pa · autonomía de 150–180 minutos · programación por app y limpieza por habitaciones",
+    "fr": "aspiration puissante de 20000 Pa · autonomie de 150 à 180 minutes · planification via l’application et nettoyage pièce par pièce",
+    "id": "hisapan kuat 20000 Pa · waktu operasi 150–180 menit · penjadwalan aplikasi & pembersihan per ruangan",
+    "ru": "мощное всасывание 20000 Па · до 150–180 минут работы · планирование в приложении и уборка по комнатам",
+    "th": "แรงดูดสูง 20000 Pa · ใช้งาน 150–180 นาที · ตั้งเวลาผ่านแอปและทำความสะอาดรายห้อง",
+    "vi": "lực hút mạnh 20000 Pa · thời gian chạy 150–180 phút · hẹn giờ qua app & dọn từng phòng"
+   },
+   "description": {
+    "en": "V501 is a 3-in-1 sweeping, vacuuming and mopping robot delivering 20,000 Pa suction from a brushless motor. LDS laser navigation combined with visual positioning maps rooms accurately for room-by-room schedules in the app, while wet and dry mopping handles hard floors and low-pile carpets. After each run it returns to the 4 L self-emptying station, so the HEPA-filtered dust path stays clear for weeks. A lithium-ion battery provides 150–180 minutes of runtime, with auto recharge, free spare parts and a 1-year warranty. Supplied in black or white, packed in a color box, and available for OEM/ODM programs aimed at households, hotels and offices.",
+    "zh": "V501 是扫、吸、拖三合一清洁机器人，无刷电机提供 20000Pa 强劲吸力。LDS 激光导航结合视觉定位精准建图，可在 APP 中设置逐室清洁计划；干湿两用拖地适配硬地板与短绒地毯。每次清洁结束自动返回 4L 集尘基站排空尘盒，配合 HEPA 过滤，数周无需手动倒灰。锂电池续航 150–180 分钟，支持自动回充、免费备件与 1 年保修。提供黑/白两色，彩盒包装，面向家庭、酒店与办公场景，支持 OEM/ODM 定制。",
+    "ar": "V501 — روبوت تنظيف من AquaClean بقوة قوة شفط 20000 باسكال وملاحة مزدوجة بالليزر LDS والرؤية ومحطة تفريغ تلقائي سعة 4 لتر. يكنس ويمسح وينظف الأرضيات الصلبة والسجاد بنظام رطب وجاف، ويعود إلى القاعدة للشحن والتفريغ التلقائي، مع جدولة عبر التطبيق. مناسب للمنازل والفنادق والمكاتب، ويدعم OEM/ODM.",
+    "es": "V501 es un robot aspirador y fregador de AquaClean con succión potente de 20000 Pa, navegación dual LDS láser + visual y estación de vaciado automático de 4 L. Barre, aspira y friega suelos duros y alfombras en modo húmedo o seco, vuelve solo a la base para recargarse y vaciarse, y se programa por habitaciones desde la app. Ideal para hogares, hoteles y oficinas; admite OEM/ODM.",
+    "fr": "V501 est un robot aspirateur-laveur AquaClean offrant aspiration puissante de 20000 Pa, navigation double LDS laser + visuelle et station de vidage automatique de 4 L. Il balaie, aspire et lave sols durs et tapis en mode humide ou sec, retourne seul à la station pour se recharger et se vider, et se programme pièce par pièce via l’application. Pour maisons, hôtels et bureaux ; OEM/ODM possible.",
+    "id": "V501 adalah robot vakum & pel AquaClean dengan hisapan kuat 20000 Pa, navigasi ganda laser LDS + visual, dan stasiun pengosongan otomatis 4 L. Menyapu, menghisap, dan mengepel lantai keras serta karpet secara basah maupun kering, kembali sendiri ke stasiun untuk mengisi daya dan mengosongkan debu, serta dijadwalkan per ruangan lewat aplikasi. Cocok untuk rumah, hotel, dan kantor; mendukung OEM/ODM.",
+    "ru": "V501 — робот-пылесос и поломойка AquaClean с мощное всасывание 20000 Па, двойная навигация: лазер LDS + визуальная и станция автоопустошения 4 л. Подметает, пылесосит и моет твёрдые полы и ковры во влажном и сухом режиме, сам возвращается на станцию для зарядки и выгрузки пыли, а уборка по комнатам планируется в приложении. Для дома, отелей и офисов; поддерживает OEM/ODM.",
+    "th": "V501 หุ่นยนต์ดูดฝุ่นและถูพื้น AquaClean มาพร้อมแรงดูดสูง 20000 Pa ระบบนำทางคู่เลเซอร์ LDS + วิชัน และฐานเทฝุ่นอัตโนมัติ 4 ล. กวาด ดูด และถูพื้นแข็งและพรมได้ทั้งแบบเปียกและแห้ง กลับเข้าฐานชาร์จและเทฝุ่นเอง ตั้งเวลาแยกห้องผ่านแอปได้ เหมาะกับบ้าน โรงแรม และสำนักงาน รองรับ OEM/ODM",
+    "vi": "V501 là robot hút bụi và lau nhà AquaClean với lực hút mạnh 20000 Pa, điều hướng kép laser LDS + thị giác và trạm tự đổ bụi 4 L. Quét, hút và lau sàn cứng cùng thảm ở chế độ ướt hoặc khô, tự về trạm sạc và đổ bụi, hẹn giờ dọn từng phòng qua ứng dụng. Phù hợp nhà ở, khách sạn và văn phòng; hỗ trợ OEM/ODM."
+   },
+   "highlights": [
+    {
+     "icon": "suction",
+     "text": {
+      "en": "20,000 Pa strong suction",
+      "zh": "20000Pa 强劲吸力",
+      "ar": "قوة شفط 20000 باسكال",
+      "es": "succión potente de 20000 Pa",
+      "fr": "aspiration puissante de 20000 Pa",
+      "id": "hisapan kuat 20000 Pa",
+      "ru": "мощное всасывание 20000 Па",
+      "th": "แรงดูดสูง 20000 Pa",
+      "vi": "lực hút mạnh 20000 Pa"
+     }
+    },
+    {
+     "icon": "gauge",
+     "text": {
+      "en": "LDS laser + visual dual navigation",
+      "zh": "LDS 激光 + 视觉双导航",
+      "ar": "ملاحة مزدوجة بالليزر LDS والرؤية",
+      "es": "navegación dual LDS láser + visual",
+      "fr": "navigation double LDS laser + visuelle",
+      "id": "navigasi ganda laser LDS + visual",
+      "ru": "двойная навигация: лазер LDS + визуальная",
+      "th": "ระบบนำทางคู่เลเซอร์ LDS + วิชัน",
+      "vi": "điều hướng kép laser LDS + thị giác"
+     }
+    },
+    {
+     "icon": "dust",
+     "text": {
+      "en": "4 L self-emptying station",
+      "zh": "4L 自动集尘基站",
+      "ar": "محطة تفريغ تلقائي سعة 4 لتر",
+      "es": "estación de vaciado automático de 4 L",
+      "fr": "station de vidage automatique de 4 L",
+      "id": "stasiun pengosongan otomatis 4 L",
+      "ru": "станция автоопустошения 4 л",
+      "th": "ฐานเทฝุ่นอัตโนมัติ 4 ล.",
+      "vi": "trạm tự đổ bụi 4 L"
+     }
+    },
+    {
+     "icon": "battery",
+     "text": {
+      "en": "150–180 min runtime",
+      "zh": "150–180 分钟续航",
+      "ar": "تشغيل 150–180 دقيقة",
+      "es": "autonomía de 150–180 minutos",
+      "fr": "autonomie de 150 à 180 minutes",
+      "id": "waktu operasi 150–180 menit",
+      "ru": "до 150–180 минут работы",
+      "th": "ใช้งาน 150–180 นาที",
+      "vi": "thời gian chạy 150–180 phút"
+     }
+    },
+    {
+     "icon": "clean",
+     "text": {
+      "en": "app scheduling & room-by-room cleaning",
+      "zh": "APP 定时与逐室清洁",
+      "ar": "جدولة عبر التطبيق وتنظيف غرفة بغرفة",
+      "es": "programación por app y limpieza por habitaciones",
+      "fr": "planification via l’application et nettoyage pièce par pièce",
+      "id": "penjadwalan aplikasi & pembersihan per ruangan",
+      "ru": "планирование в приложении и уборка по комнатам",
+      "th": "ตั้งเวลาผ่านแอปและทำความสะอาดรายห้อง",
+      "vi": "hẹn giờ qua app & dọn từng phòng"
+     }
+    },
+    {
+     "icon": "filter",
+     "text": {
+      "en": "HEPA filtration",
+      "zh": "HEPA 过滤",
+      "ar": "فلتر HEPA",
+      "es": "filtración HEPA",
+      "fr": "filtration HEPA",
+      "id": "filtrasi HEPA",
+      "ru": "HEPA-фильтрация",
+      "th": "ฟิลเตอร์ HEPA",
+      "vi": "lọc HEPA"
+     }
+    }
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "Model",
+      "zh": "型号",
+      "ar": "الموديل",
+      "es": "Modelo",
+      "fr": "Modèle",
+      "id": "Model",
+      "ru": "Модель",
+      "th": "รุ่น",
+      "vi": "Mã sản phẩm"
+     },
+     "value": "V501"
+    },
+    {
+     "label": {
+      "en": "Suction",
+      "zh": "吸力",
+      "ar": "قوة الشفط",
+      "es": "Succión",
+      "fr": "Aspiration",
+      "id": "Hisapan",
+      "ru": "Всасывание",
+      "th": "แรงดูด",
+      "vi": "Lực hút"
+     },
+     "value": "20,000 Pa"
+    },
+    {
+     "label": {
+      "en": "Navigation",
+      "zh": "导航方式",
+      "ar": "الملاحة",
+      "es": "Navegación",
+      "fr": "Navigation",
+      "id": "Navigasi",
+      "ru": "Навигация",
+      "th": "ระบบนำทาง",
+      "vi": "Điều hướng"
+     },
+     "value": "LDS laser + visual"
+    },
+    {
+     "label": {
+      "en": "Functions",
+      "zh": "功能",
+      "ar": "الوظائف",
+      "es": "Funciones",
+      "fr": "Fonctions",
+      "id": "Fungsi",
+      "ru": "Функции",
+      "th": "ฟังก์ชัน",
+      "vi": "Chức năng"
+     },
+     "value": "Sweep / vacuum / mop, wet & dry"
+    },
+    {
+     "label": {
+      "en": "Dust Bag Capacity",
+      "zh": "集尘袋容量",
+      "ar": "سعة كيس الغبار",
+      "es": "Capacidad de la bolsa",
+      "fr": "Capacité du sac",
+      "id": "Kapasitas Kantong Debu",
+      "ru": "Ёмкость пылевого мешка",
+      "th": "ความจุถุงฝุ่น",
+      "vi": "Dung tích túi bụi"
+     },
+     "value": "4 L self-emptying station"
+    },
+    {
+     "label": {
+      "en": "Runtime",
+      "zh": "续航时间",
+      "ar": "وقت التشغيل",
+      "es": "Tiempo de funcionamiento",
+      "fr": "Autonomie",
+      "id": "Waktu Operasi",
+      "ru": "Время работы",
+      "th": "ระยะเวลาทำงาน",
+      "vi": "Thời gian hoạt động"
+     },
+     "value": "150–180 min"
+    },
+    {
+     "label": {
+      "en": "Battery",
+      "zh": "电池",
+      "ar": "البطارية",
+      "es": "Batería",
+      "fr": "Batterie",
+      "id": "Baterai",
+      "ru": "Аккумулятор",
+      "th": "แบตเตอรี่",
+      "vi": "Pin"
+     },
+     "value": "Lithium-ion"
+    },
+    {
+     "label": {
+      "en": "Motor",
+      "zh": "电机",
+      "ar": "المحرك",
+      "es": "Motor",
+      "fr": "Moteur",
+      "id": "Motor",
+      "ru": "Мотор",
+      "th": "มอเตอร์",
+      "vi": "Động cơ"
+     },
+     "value": "Brushless"
+    },
+    {
+     "label": {
+      "en": "Filter",
+      "zh": "滤网",
+      "ar": "الفلاتر",
+      "es": "Filtro",
+      "fr": "Filtre",
+      "id": "Filter",
+      "ru": "Фильтр",
+      "th": "ฟิลเตอร์",
+      "vi": "Bộ lọc"
+     },
+     "value": "HEPA"
+    },
+    {
+     "label": {
+      "en": "App",
+      "zh": "APP",
+      "ar": "التطبيق",
+      "es": "Aplicación",
+      "fr": "Application",
+      "id": "Aplikasi",
+      "ru": "Приложение",
+      "th": "แอป",
+      "vi": "Ứng dụng"
+     },
+     "value": "App scheduling & room-by-room cleaning"
+    },
+    {
+     "label": {
+      "en": "Material",
+      "zh": "材料",
+      "ar": "المادة",
+      "es": "Material",
+      "fr": "Matériau",
+      "id": "Bahan",
+      "ru": "Материал",
+      "th": "วัสดุ",
+      "vi": "Chất liệu"
+     },
+     "value": "ABS"
+    },
+    {
+     "label": {
+      "en": "Color Options",
+      "zh": "颜色选项",
+      "ar": "خيارات الألوان",
+      "es": "Colores disponibles",
+      "fr": "Coloris disponibles",
+      "id": "Pilihan Warna",
+      "ru": "Варианты цвета",
+      "th": "ตัวเลือกสี",
+      "vi": "Tùy chọn màu"
+     },
+     "value": "Black / White"
+    },
+    {
+     "label": {
+      "en": "Warranty",
+      "zh": "保修",
+      "ar": "الضمان",
+      "es": "Garantía",
+      "fr": "Garantie",
+      "id": "Garansi",
+      "ru": "Гарантия",
+      "th": "การรับประกัน",
+      "vi": "Bảo hành"
+     },
+     "value": "1 year"
+    },
+    {
+     "label": {
+      "en": "Packaging",
+      "zh": "包装",
+      "ar": "التغليف",
+      "es": "Embalaje",
+      "fr": "Emballage",
+      "id": "Kemasan",
+      "ru": "Упаковка",
+      "th": "บรรจุภัณฑ์",
+      "vi": "Đóng gói"
+     },
+     "value": "Color Box"
+    }
+   ],
+   "quick_specs": [
+    {
+     "label": {
+      "en": "Suction",
+      "zh": "吸力",
+      "ar": "قوة الشفط",
+      "es": "Succión",
+      "fr": "Aspiration",
+      "id": "Hisapan",
+      "ru": "Всасывание",
+      "th": "แรงดูด",
+      "vi": "Lực hút"
+     },
+     "value": "20,000 Pa"
+    },
+    {
+     "label": {
+      "en": "Navigation",
+      "zh": "导航方式",
+      "ar": "الملاحة",
+      "es": "Navegación",
+      "fr": "Navigation",
+      "id": "Navigasi",
+      "ru": "Навигация",
+      "th": "ระบบนำทาง",
+      "vi": "Điều hướng"
+     },
+     "value": "LDS laser + visual"
+    },
+    {
+     "label": {
+      "en": "Dust Bag Capacity",
+      "zh": "集尘袋容量",
+      "ar": "سعة كيس الغبار",
+      "es": "Capacidad de la bolsa",
+      "fr": "Capacité du sac",
+      "id": "Kapasitas Kantong Debu",
+      "ru": "Ёмкость пылевого мешка",
+      "th": "ความจุถุงฝุ่น",
+      "vi": "Dung tích túi bụi"
+     },
+     "value": "4 L"
+    },
+    {
+     "label": {
+      "en": "Runtime",
+      "zh": "续航时间",
+      "ar": "وقت التشغيل",
+      "es": "Tiempo de funcionamiento",
+      "fr": "Autonomie",
+      "id": "Waktu Operasi",
+      "ru": "Время работы",
+      "th": "ระยะเวลาทำงาน",
+      "vi": "Thời gian hoạt động"
+     },
+     "value": "150–180 min"
+    }
+   ],
+   "moq": {
+    "value": 1,
+    "unit": "pieces"
+   },
+   "price_ladder": [
+    {
+     "min": 1,
+     "max": 499,
+     "price": 279
+    },
+    {
+     "min": 500,
+     "max": 9999,
+     "price": 269
+    },
+    {
+     "min": 10000,
+     "max": -1,
+     "price": 240
+    }
+   ],
+   "price_indicator": {
+    "min": 240,
+    "max": 279,
+    "currency": "USD"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v501/01-main.webp?v=20261105b",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v501/02.webp?v=20261105b",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v501/03.webp?v=20261105b",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v501/04.webp?v=20261105b",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v501/05.webp?v=20261105b",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v501/06.webp?v=20261105b"
+   ],
+   "detail_images": [
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v501/detail/01.webp?v=20261105b",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v501/detail/02.webp?v=20261105b",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v501/detail/03.webp?v=20261105b",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v501/detail/04.webp?v=20261105b",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v501/detail/05.webp?v=20261105b",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v501/detail/06.webp?v=20261105b",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v501/detail/07.webp?v=20261105b",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v501/detail/08.webp?v=20261105b",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v501/detail/09.webp?v=20261105b",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v501/detail/10.webp?v=20261105b",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v501/detail/11.webp?v=20261105b",
+    "https://www.hkdmj.net/assets/images/products/robot-vacuum-v501/detail/12.webp?v=20261105b"
+   ],
+   "video_url": "",
+   "applications": {
+    "en": "Hardwood, tile, marble, low-pile carpets, pet hair; homes, hotels and offices",
+    "zh": "木地板、瓷砖、大理石、短绒地毯、宠物毛发；家庭、酒店与办公室",
+    "ar": "الأرضيات الخشبية والبلاط والرخام والسجاد القصير وشعر الحيوانات؛ المنازل والفنادق والمكاتب",
+    "es": "Suelos de madera, baldosas, mármol, alfombras de pelo corto y pelo de mascotas; hogares, hoteles y oficinas",
+    "fr": "Parquet, carrelage, marbre, tapis à poils courts et poils d’animaux ; maisons, hôtels et bureaux",
+    "id": "Lantai kayu, ubin, marmer, karpet bulu pendek dan bulu hewan; rumah, hotel dan kantor",
+    "ru": "Деревянные полы, плитка, мрамор, ковры с коротким ворсом и шерсть животных; дома, отели и офисы",
+    "th": "พื้นไม้ กระเบื้อง หินอ่อน พรมขนสั้น และขนสัตว์เลี้ยง; บ้าน โรงแรม และสำนักงาน",
+    "vi": "Sàn gỗ, gạch, đá cẩm thạch, thảm lông ngắn và lông thú; nhà ở, khách sạn và văn phòng"
+   },
+   "certifications": [],
+   "certificates": [],
+   "sku": [],
+   "packaging": {
+    "unit": "Color Box",
+    "ctn_size": "—",
+    "ctn_qty": "—",
+    "gross_weight": "—"
+   },
+   "customization": {
+    "oem": true,
+    "odm": true,
+    "logo": null,
+    "color": true,
+    "package": null,
+    "sample_lead": "on request",
+    "production_lead": "on request"
+   },
+   "pack_size": "—",
+   "category_name": {
+    "en": "Robot Vacuum Cleaners",
+    "zh": "扫地机器人",
+    "es": "Robot Aspirador",
+    "ar": "روبوت تنظيف الأرضيات",
+    "fr": "Robot aspirateur",
+    "id": "Robot Pembersih Vakum",
+    "ru": "Робот-пылесос",
+    "th": "หุ่นยนต์ดูดฝุ่น",
+    "vi": "Robot hút bụi"
+   },
+   "supplier_rating": "4.81",
+   "response_time": "—",
+   "years": "—",
+   "sample": {
+    "enabled": true,
+    "qty": 1,
+    "note": {
+     "en": "Sample available (max 1 pc)",
+     "zh": "支持打样（最多 1 台）"
+    }
+   }
   }
  ],
  "reviews": [
