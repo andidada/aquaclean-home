@@ -562,6 +562,842 @@
     "https://www.hkdmj.net/assets/images/products/portable-espresso-xyd003/detail/13.webp?v=20261029p",
     "https://www.hkdmj.net/assets/images/products/portable-espresso-xyd003/detail/14.webp?v=20261029p"
    ]
+  },
+  {
+   "id": "xyd003-orange-a",
+   "_cat": "portable-espresso-machine",
+   "_source": {
+    "platform": "alibaba.com",
+    "productId": "1601980962321"
+   },
+   "alibaba_url": "https://www.alibaba.com/product-detail/3-in-1-Portable-Espresso-Machine_1601980962321.html",
+   "name": {
+    "en": "XYD-003 Orange 3-in-1 Portable Espresso Machine · 16–20 Bar Pump · Hot & Cold Brew for Capsules, ESE Pods & Ground Coffee",
+    "zh": "XYD-003 橙色三合一便携咖啡机 · 16–20Bar 泵压 · 冷热双萃，兼容胶囊/ESE/咖啡粉",
+    "ar": "XYD003-ORANGE-A ضغط مضخة 20 بار · 3 في 1: قهوة مطحونة وكبسولات وأقراص ESE · تحضير ساخن وبارد",
+    "es": "XYD003-ORANGE-A presión de bomba de 20 bares · 3 en 1: café molido, cápsulas y ESE · preparación en caliente y frío",
+    "fr": "XYD003-ORANGE-A pression de pompe de 20 bars · 3 en 1 : café moulu, capsules et dosettes ESE · préparation chaude et froide",
+    "id": "XYD003-ORANGE-A tekanan pompa 20 bar · 3-in-1: kopi bubuk, kapsul, dan ESE pod · penyeduhan panas & dingin",
+    "ru": "XYD003-ORANGE-A давление помпы 20 бар · 3 в 1: молотый кофе, капсулы и ESE · горячее и холодное приготовление",
+    "th": "XYD003-ORANGE-A แรงดันปั๊ม 20 บาร์ · 3-in-1 กาแฟบด แคปซูล และ ESE · ชงได้ทั้งร้อนและเย็น",
+    "vi": "XYD003-ORANGE-A áp suất bơm 20 bar · 3 trong 1: cà phê bột, viên nén và ESE · pha nóng và lạnh"
+   },
+   "tagline": {
+    "en": "3-in-1 capsule, ESE pod and ground coffee brewing with hot & cold modes",
+    "zh": "三合一胶囊/ESE/咖啡粉，冷热双萃",
+    "ar": "ضغط مضخة 20 بار · 3 في 1: قهوة مطحونة وكبسولات وأقراص ESE · بطارية قابلة للشحن عبر USB",
+    "es": "presión de bomba de 20 bares · 3 en 1: café molido, cápsulas y ESE · batería recargable por USB",
+    "fr": "pression de pompe de 20 bars · 3 en 1 : café moulu, capsules et dosettes ESE · batterie rechargeable USB",
+    "id": "tekanan pompa 20 bar · 3-in-1: kopi bubuk, kapsul, dan ESE pod · baterai isi ulang USB",
+    "ru": "давление помпы 20 бар · 3 в 1: молотый кофе, капсулы и ESE · аккумулятор с зарядкой USB",
+    "th": "แรงดันปั๊ม 20 บาร์ · 3-in-1 กาแฟบด แคปซูล และ ESE · แบตเตอรี่ชาร์จ USB",
+    "vi": "áp suất bơm 20 bar · 3 trong 1: cà phê bột, viên nén và ESE · pin sạc USB"
+   },
+   "description": {
+    "en": "XYD-003 Orange is a 3-in-1 portable espresso machine for ground coffee, Nespresso-style capsules and ESE pods. A 16–20 bar pump extracts in about 60 seconds, with both hot and cold brew modes for travel and outdoor use. The 72 W heating system runs on a 2600 mAh ×3 rechargeable battery pack, with a 90 mL water tank, 120 mL built-in cup and 500 g body.",
+    "zh": "XYD-003 橙色三合一便携咖啡机，兼容咖啡粉、胶囊与 ESE 饼。16–20Bar 泵压约 60 秒完成萃取，支持冷热双萃，适合旅行户外。72W 加热系统由 2600mAh×3 充电电池组供电，90mL 水箱、120mL 内置杯，整机约 500g。",
+    "ar": "XYD003-ORANGE-A — ماكينة إسبريسو محمولة من AquaClean تتميز بـضغط مضخة 20 بار و3 في 1: قهوة مطحونة وكبسولات وأقراص ESE وتحضير ساخن وبارد. تعمل بالبطارية القابلة للشحن via USB، وتناسب السفر والتخييم والمكتب، مع دعم التخصيص OEM/ODM وتغليف علبة ملوّنة.",
+    "es": "XYD003-ORANGE-A es una cafetera espresso portátil de AquaClean con presión de bomba de 20 bares, 3 en 1: café molido, cápsulas y ESE y preparación en caliente y frío. Funciona con batería recargable por USB y es ideal para viajes, camping y oficina; admite OEM/ODM y se entrega en caja de color.",
+    "fr": "XYD003-ORANGE-A est une machine à espresso portable AquaClean offrant pression de pompe de 20 bars, 3 en 1 : café moulu, capsules et dosettes ESE et préparation chaude et froide. Alimentée par batterie USB rechargeable, elle convient aux voyages, au camping et au bureau ; OEM/ODM possible, livrée en boîte couleur.",
+    "id": "XYD003-ORANGE-A adalah mesin espresso portabel AquaClean dengan tekanan pompa 20 bar, 3-in-1: kopi bubuk, kapsul, dan ESE pod, dan penyeduhan panas & dingin. Menggunakan baterai isi ulang USB, cocok untuk perjalanan, camping, dan kantor; mendukung OEM/ODM, dikemas dalam color box.",
+    "ru": "XYD003-ORANGE-A — портативная эспрессо-машина AquaClean с давление помпы 20 бар, 3 в 1: молотый кофе, капсулы и ESE и горячее и холодное приготовление. Работает от аккумулятора с зарядкой USB, подходит для поездок, кемпинга и офиса; поддерживает OEM/ODM, поставляется в цветной коробке.",
+    "th": "XYD003-ORANGE-A เครื่องชงเอสเปรสโซ่พกพา AquaClean มีแรงดันปั๊ม 20 บาร์ 3-in-1 กาแฟบด แคปซูล และ ESE และชงได้ทั้งร้อนและเย็น ใช้แบตเตอรี่ชาร์จ USB เหมาะกับท่องเที่ยว แคมป์ และสำนักงาน รองรับ OEM/ODM บรรจุกล่องสี",
+    "vi": "XYD003-ORANGE-A là máy pha espresso cầm tay AquaClean với áp suất bơm 20 bar, 3 trong 1: cà phê bột, viên nén và ESE và pha nóng và lạnh. Dùng pin sạc USB, phù hợp du lịch, cắm trại và văn phòng; hỗ trợ OEM/ODM, đóng hộp màu."
+   },
+   "highlights": [
+    {
+     "icon": "power",
+     "text": {
+      "en": "20-bar pump pressure",
+      "zh": "20Bar 泵压萃取",
+      "ar": "ضغط مضخة 20 بار",
+      "es": "presión de bomba de 20 bares",
+      "fr": "pression de pompe de 20 bars",
+      "id": "tekanan pompa 20 bar",
+      "ru": "давление помпы 20 бар",
+      "th": "แรงดันปั๊ม 20 บาร์",
+      "vi": "áp suất bơm 20 bar"
+     }
+    },
+    {
+     "icon": "clean",
+     "text": {
+      "en": "3-in-1 ground coffee, capsules & ESE pods",
+      "zh": "三合一咖啡粉/胶囊/ESE 饼",
+      "ar": "3 في 1: قهوة مطحونة وكبسولات وأقراص ESE",
+      "es": "3 en 1: café molido, cápsulas y ESE",
+      "fr": "3 en 1 : café moulu, capsules et dosettes ESE",
+      "id": "3-in-1: kopi bubuk, kapsul, dan ESE pod",
+      "ru": "3 в 1: молотый кофе, капсулы и ESE",
+      "th": "3-in-1 กาแฟบด แคปซูล และ ESE",
+      "vi": "3 trong 1: cà phê bột, viên nén và ESE"
+     }
+    },
+    {
+     "icon": "portable",
+     "text": {
+      "en": "hot & cold brewing",
+      "zh": "冷热双萃",
+      "ar": "تحضير ساخن وبارد",
+      "es": "preparación en caliente y frío",
+      "fr": "préparation chaude et froide",
+      "id": "penyeduhan panas & dingin",
+      "ru": "горячее и холодное приготовление",
+      "th": "ชงได้ทั้งร้อนและเย็น",
+      "vi": "pha nóng và lạnh"
+     }
+    },
+    {
+     "icon": "battery",
+     "text": {
+      "en": "USB rechargeable battery",
+      "zh": "USB 充电电池",
+      "ar": "بطارية قابلة للشحن عبر USB",
+      "es": "batería recargable por USB",
+      "fr": "batterie rechargeable USB",
+      "id": "baterai isi ulang USB",
+      "ru": "аккумулятор с зарядкой USB",
+      "th": "แบตเตอรี่ชาร์จ USB",
+      "vi": "pin sạc USB"
+     }
+    }
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "Model",
+      "zh": "型号",
+      "ar": "الموديل",
+      "es": "Modelo",
+      "fr": "Modèle",
+      "id": "Model",
+      "ru": "Модель",
+      "th": "รุ่น",
+      "vi": "Mã sản phẩm"
+     },
+     "value": "XYD-003 (Orange)"
+    },
+    {
+     "label": {
+      "en": "Pump Pressure",
+      "zh": "泵压",
+      "ar": "ضغط المضخة",
+      "es": "Presión de bomba",
+      "fr": "Pression de la pompe",
+      "id": "Tekanan Pompa",
+      "ru": "Давление помпы",
+      "th": "แรงดันปั๊ม",
+      "vi": "Áp suất bơm"
+     },
+     "value": "16–20 bar"
+    },
+    {
+     "label": {
+      "en": "Rated Power",
+      "zh": "额定功率",
+      "ar": "الطاقة المقننة",
+      "es": "Potencia nominal",
+      "fr": "Puissance nominale",
+      "id": "Daya Nominal",
+      "ru": "Номинальная мощность",
+      "th": "กำลังไฟระบุ",
+      "vi": "Công suất định mức"
+     },
+     "value": "72 W"
+    },
+    {
+     "label": {
+      "en": "Compatibility",
+      "zh": "兼容咖啡类型",
+      "ar": "التوافق",
+      "es": "Compatibilidad",
+      "fr": "Compatibilité",
+      "id": "Kompatibilitas",
+      "ru": "Совместимость",
+      "th": "ความเข้ากันได้",
+      "vi": "Tương thích"
+     },
+     "value": "Ground coffee / Capsule / ESE pod"
+    },
+    {
+     "label": {
+      "en": "Battery Capacity",
+      "zh": "电池容量",
+      "ar": "سعة البطارية",
+      "es": "Capacidad de batería",
+      "fr": "Capacité de la batterie",
+      "id": "Kapasitas Baterai",
+      "ru": "Ёмкость аккумулятора",
+      "th": "ความจุแบตเตอรี่",
+      "vi": "Dung lượng pin"
+     },
+     "value": "2600 mAh × 3"
+    },
+    {
+     "label": {
+      "en": "Tank Capacity",
+      "zh": "水箱容量",
+      "ar": "سعة الخزان",
+      "es": "Capacidad del tanque",
+      "fr": "Capacité du réservoir",
+      "id": "Kapasitas Tangki",
+      "ru": "Ёмкость бака",
+      "th": "ความจุถังน้ำ",
+      "vi": "Dung tích bình"
+     },
+     "value": "90 mL"
+    },
+    {
+     "label": {
+      "en": "Cup Capacity",
+      "zh": "杯容量",
+      "ar": "سعة الكوب",
+      "es": "Capacidad de taza",
+      "fr": "Capacité de la tasse",
+      "id": "Kapasitas Cangkir",
+      "ru": "Ёмкость чашки",
+      "th": "ความจุถ้วย",
+      "vi": "Dung tích cốc"
+     },
+     "value": "120 mL"
+    },
+    {
+     "label": {
+      "en": "Extraction Time",
+      "zh": "萃取时间",
+      "ar": "وقت الاستخلاص",
+      "es": "Tiempo de extracción",
+      "fr": "Temps d’extraction",
+      "id": "Waktu Ekstraksi",
+      "ru": "Время экстракции",
+      "th": "เวลาสกัด",
+      "vi": "Thời gian chiết xuất"
+     },
+     "value": "60 s"
+    },
+    {
+     "label": {
+      "en": "Net Weight",
+      "zh": "净重",
+      "ar": "الوزن الصافي",
+      "es": "Peso neto",
+      "fr": "Poids net",
+      "id": "Berat Bersih",
+      "ru": "Вес нетто",
+      "th": "น้ำหนักสุทธิ",
+      "vi": "Khối lượng tịn"
+     },
+     "value": "500 g"
+    },
+    {
+     "label": {
+      "en": "Charging",
+      "zh": "充电方式",
+      "ar": "الشحن",
+      "es": "Carga",
+      "fr": "Charge",
+      "id": "Pengisian",
+      "ru": "Зарядка",
+      "th": "การชาร์จ",
+      "vi": "Sạc"
+     },
+     "value": "USB"
+    },
+    {
+     "label": {
+      "en": "Packaging",
+      "zh": "包装",
+      "ar": "التغليف",
+      "es": "Embalaje",
+      "fr": "Emballage",
+      "id": "Kemasan",
+      "ru": "Упаковка",
+      "th": "บรรจุภัณฑ์",
+      "vi": "Đóng gói"
+     },
+     "value": "Color Box"
+    }
+   ],
+   "quick_specs": [
+    {
+     "label": {
+      "en": "Pump Pressure",
+      "zh": "泵压",
+      "ar": "ضغط المضخة",
+      "es": "Presión de bomba",
+      "fr": "Pression de la pompe",
+      "id": "Tekanan Pompa",
+      "ru": "Давление помпы",
+      "th": "แรงดันปั๊ม",
+      "vi": "Áp suất bơm"
+     },
+     "value": "16–20 bar"
+    },
+    {
+     "label": {
+      "en": "Rated Power",
+      "zh": "额定功率",
+      "ar": "الطاقة المقننة",
+      "es": "Potencia nominal",
+      "fr": "Puissance nominale",
+      "id": "Daya Nominal",
+      "ru": "Номинальная мощность",
+      "th": "กำลังไฟระบุ",
+      "vi": "Công suất định mức"
+     },
+     "value": "72 W"
+    },
+    {
+     "label": {
+      "en": "Tank Capacity",
+      "zh": "水箱容量",
+      "ar": "سعة الخزان",
+      "es": "Capacidad del tanque",
+      "fr": "Capacité du réservoir",
+      "id": "Kapasitas Tangki",
+      "ru": "Ёмкость бака",
+      "th": "ความจุถังน้ำ",
+      "vi": "Dung tích bình"
+     },
+     "value": "90 mL"
+    },
+    {
+     "label": {
+      "en": "Compatibility",
+      "zh": "兼容咖啡类型",
+      "ar": "التوافق",
+      "es": "Compatibilidad",
+      "fr": "Compatibilité",
+      "id": "Kompatibilitas",
+      "ru": "Совместимость",
+      "th": "ความเข้ากันได้",
+      "vi": "Tương thích"
+     },
+     "value": "3-in-1"
+    }
+   ],
+   "moq": {
+    "value": 2,
+    "unit": "pieces"
+   },
+   "price_ladder": [
+    {
+     "min": 2,
+     "max": 999,
+     "price": 21.8
+    },
+    {
+     "min": 1000,
+     "max": 9999,
+     "price": 18.8
+    },
+    {
+     "min": 10000,
+     "max": -1,
+     "price": 15.8
+    }
+   ],
+   "price_indicator": {
+    "min": 15.8,
+    "max": 21.8,
+    "currency": "USD"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-machine-xyd003-orange-a/01.webp?v=20261105a",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-machine-xyd003-orange-a/02.webp?v=20261105a",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-machine-xyd003-orange-a/03.webp?v=20261105a",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-machine-xyd003-orange-a/04.webp?v=20261105a",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-machine-xyd003-orange-a/05.webp?v=20261105a",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-machine-xyd003-orange-a/06.webp?v=20261105a"
+   ],
+   "detail_images": [
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-machine-xyd003-orange-a/detail/01.webp?v=20261105a",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-machine-xyd003-orange-a/detail/02.webp?v=20261105a",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-machine-xyd003-orange-a/detail/03.webp?v=20261105a",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-machine-xyd003-orange-a/detail/04.webp?v=20261105a",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-machine-xyd003-orange-a/detail/05.webp?v=20261105a",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-machine-xyd003-orange-a/detail/06.webp?v=20261105a",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-machine-xyd003-orange-a/detail/07.webp?v=20261105a",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-machine-xyd003-orange-a/detail/08.webp?v=20261105a",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-machine-xyd003-orange-a/detail/09.webp?v=20261105a",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-machine-xyd003-orange-a/detail/10.webp?v=20261105a",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-machine-xyd003-orange-a/detail/11.webp?v=20261105a"
+   ],
+   "video_url": "",
+   "applications": {
+    "en": "Travel, camping, hotels, office and outdoor coffee",
+    "zh": "旅行、露营、酒店、办公室、户外咖啡",
+    "ar": "ضغط مضخة 20 بار · 3 في 1: قهوة مطحونة وكبسولات وأقراص ESE · تحضير ساخن وبارد",
+    "es": "presión de bomba de 20 bares, 3 en 1: café molido, cápsulas y ESE, preparación en caliente y frío",
+    "fr": "pression de pompe de 20 bars, 3 en 1 : café moulu, capsules et dosettes ESE, préparation chaude et froide",
+    "id": "tekanan pompa 20 bar, 3-in-1: kopi bubuk, kapsul, dan ESE pod, penyeduhan panas & dingin",
+    "ru": "давление помпы 20 бар, 3 в 1: молотый кофе, капсулы и ESE, горячее и холодное приготовление",
+    "th": "แรงดันปั๊ม 20 บาร์, 3-in-1 กาแฟบด แคปซูล และ ESE, ชงได้ทั้งร้อนและเย็น",
+    "vi": "áp suất bơm 20 bar, 3 trong 1: cà phê bột, viên nén và ESE, pha nóng và lạnh"
+   },
+   "certifications": [],
+   "certificates": [],
+   "sku": [],
+   "packaging": {
+    "unit": "Color Box",
+    "ctn_size": "—",
+    "ctn_qty": "—",
+    "gross_weight": "—"
+   },
+   "customization": {
+    "oem": true,
+    "odm": true,
+    "logo": true,
+    "color": true,
+    "package": true,
+    "sample_lead": "on request",
+    "production_lead": "on request"
+   },
+   "pack_size": "—",
+   "category_name": {
+    "en": "Portable Espresso Machine",
+    "zh": "便携式浓缩咖啡机",
+    "es": "Cafetera Espresso Portátil",
+    "fr": "Machine à Espresso Portable",
+    "id": "Mesin Espresso Portabel",
+    "ru": "Портативная эспрессо-машина",
+    "th": "เครื่องเอสเปรสโซ่พกพา",
+    "vi": "Máy Pha Espresso Cầm Tay",
+    "ar": "آلة إسبريسو محمولة"
+   },
+   "supplier_rating": "4.81",
+   "response_time": "—",
+   "years": "—",
+   "sample": {
+    "enabled": true,
+    "qty": 1,
+    "note": {
+     "en": "Sample available (max 1 pc)",
+     "zh": "支持打样（最多 1 台）"
+    }
+   }
+  },
+  {
+   "id": "xyd003-orange-b",
+   "_cat": "portable-espresso-machine",
+   "_source": {
+    "platform": "alibaba.com",
+    "productId": "1601981926404"
+   },
+   "alibaba_url": "https://www.alibaba.com/product-detail/Portable-Espresso-Coffee-Maker-Rechargeable-72W_1601981926404.html",
+   "name": {
+    "en": "XYD-003 Orange Rechargeable Espresso Maker · 72W Self-Heating 20 Bar · 120mL Cup & 90mL Water Tank",
+    "zh": "XYD-003 橙色充电式浓缩咖啡机 · 72W 自加热 20Bar · 120mL 杯与 90mL 水箱",
+    "ar": "XYD003-ORANGE-B ضغط مضخة 20 بار · تسخين ذاتي خلال 5–6 دقائق · كوب مدمج 120 مل",
+    "es": "XYD003-ORANGE-B presión de bomba de 20 bares · autocalentamiento en 5–6 minutos · taza integrada de 120 ml",
+    "fr": "XYD003-ORANGE-B pression de pompe de 20 bars · auto-chauffe en 5–6 minutes · tasse intégrée de 120 ml",
+    "id": "XYD003-ORANGE-B tekanan pompa 20 bar · pemanasan otomatis 5–6 menit · cangkir terintegrasi 120 mL",
+    "ru": "XYD003-ORANGE-B давление помпы 20 бар · саморазогрев за 5–6 минут · встроенная чашка 120 мл",
+    "th": "XYD003-ORANGE-B แรงดันปั๊ม 20 บาร์ · อุ่นเองใน 5–6 นาที · ถ้วยในตัว 120 มล.",
+    "vi": "XYD003-ORANGE-B áp suất bơm 20 bar · tự làm nóng trong 5–6 phút · cốc tích hợp 120 mL"
+   },
+   "tagline": {
+    "en": "Self-heating 72W espresso with digital display and 20-bar pressure",
+    "zh": "72W 自加热，数显屏，20Bar 泵压萃取",
+    "ar": "ضغط مضخة 20 بار · تسخين ذاتي خلال 5–6 دقائق · بطارية قابلة للشحن عبر USB",
+    "es": "presión de bomba de 20 bares · autocalentamiento en 5–6 minutos · batería recargable por USB",
+    "fr": "pression de pompe de 20 bars · auto-chauffe en 5–6 minutes · batterie rechargeable USB",
+    "id": "tekanan pompa 20 bar · pemanasan otomatis 5–6 menit · baterai isi ulang USB",
+    "ru": "давление помпы 20 бар · саморазогрев за 5–6 минут · аккумулятор с зарядкой USB",
+    "th": "แรงดันปั๊ม 20 บาร์ · อุ่นเองใน 5–6 นาที · แบตเตอรี่ชาร์จ USB",
+    "vi": "áp suất bơm 20 bar · tự làm nóng trong 5–6 phút · pin sạc USB"
+   },
+   "description": {
+    "en": "XYD-003 Orange (self-heating version) is a rechargeable 72 W portable espresso maker with a 20 bar pump and digital display. It heats water in 5–6 minutes and extracts in about 60 seconds using 15–18 g of ground coffee; the 90 mL tank and 120 mL integrated cup make it a complete travel coffee kit. 304 stainless steel body, 10 g powder chamber and USB charging.",
+    "zh": "XYD-003 橙色（自加热版）为 72W 充电式便携浓缩咖啡机，20Bar 泵压配数显屏。5–6 分钟完成加热，约 60 秒萃取，使用 15–18g 咖啡粉；90mL 水箱与 120mL 内置杯构成完整旅行咖啡套装。304 不锈钢机身、10g 粉仓、USB 充电。",
+    "ar": "XYD003-ORANGE-B — ماكينة إسبريسو محمولة من AquaClean تتميز بـضغط مضخة 20 بار وتسخين ذاتي خلال 5–6 دقائق وكوب مدمج 120 مل. تعمل بالبطارية القابلة للشحن via USB، وتناسب السفر والتخييم والمكتب، مع دعم التخصيص OEM/ODM وتغليف علبة ملوّنة.",
+    "es": "XYD003-ORANGE-B es una cafetera espresso portátil de AquaClean con presión de bomba de 20 bares, autocalentamiento en 5–6 minutos y taza integrada de 120 ml. Funciona con batería recargable por USB y es ideal para viajes, camping y oficina; admite OEM/ODM y se entrega en caja de color.",
+    "fr": "XYD003-ORANGE-B est une machine à espresso portable AquaClean offrant pression de pompe de 20 bars, auto-chauffe en 5–6 minutes et tasse intégrée de 120 ml. Alimentée par batterie USB rechargeable, elle convient aux voyages, au camping et au bureau ; OEM/ODM possible, livrée en boîte couleur.",
+    "id": "XYD003-ORANGE-B adalah mesin espresso portabel AquaClean dengan tekanan pompa 20 bar, pemanasan otomatis 5–6 menit, dan cangkir terintegrasi 120 mL. Menggunakan baterai isi ulang USB, cocok untuk perjalanan, camping, dan kantor; mendukung OEM/ODM, dikemas dalam color box.",
+    "ru": "XYD003-ORANGE-B — портативная эспрессо-машина AquaClean с давление помпы 20 бар, саморазогрев за 5–6 минут и встроенная чашка 120 мл. Работает от аккумулятора с зарядкой USB, подходит для поездок, кемпинга и офиса; поддерживает OEM/ODM, поставляется в цветной коробке.",
+    "th": "XYD003-ORANGE-B เครื่องชงเอสเปรสโซ่พกพา AquaClean มีแรงดันปั๊ม 20 บาร์ อุ่นเองใน 5–6 นาที และถ้วยในตัว 120 มล. ใช้แบตเตอรี่ชาร์จ USB เหมาะกับท่องเที่ยว แคมป์ และสำนักงาน รองรับ OEM/ODM บรรจุกล่องสี",
+    "vi": "XYD003-ORANGE-B là máy pha espresso cầm tay AquaClean với áp suất bơm 20 bar, tự làm nóng trong 5–6 phút và cốc tích hợp 120 mL. Dùng pin sạc USB, phù hợp du lịch, cắm trại và văn phòng; hỗ trợ OEM/ODM, đóng hộp màu."
+   },
+   "highlights": [
+    {
+     "icon": "power",
+     "text": {
+      "en": "20-bar pump pressure",
+      "zh": "20Bar 泵压萃取",
+      "ar": "ضغط مضخة 20 بار",
+      "es": "presión de bomba de 20 bares",
+      "fr": "pression de pompe de 20 bars",
+      "id": "tekanan pompa 20 bar",
+      "ru": "давление помпы 20 бар",
+      "th": "แรงดันปั๊ม 20 บาร์",
+      "vi": "áp suất bơm 20 bar"
+     }
+    },
+    {
+     "icon": "gauge",
+     "text": {
+      "en": "self-heating in 5–6 minutes",
+      "zh": "5–6 分钟自加热",
+      "ar": "تسخين ذاتي خلال 5–6 دقائق",
+      "es": "autocalentamiento en 5–6 minutos",
+      "fr": "auto-chauffe en 5–6 minutes",
+      "id": "pemanasan otomatis 5–6 menit",
+      "ru": "саморазогрев за 5–6 минут",
+      "th": "อุ่นเองใน 5–6 นาที",
+      "vi": "tự làm nóng trong 5–6 phút"
+     }
+    },
+    {
+     "icon": "portable",
+     "text": {
+      "en": "120 mL integrated cup",
+      "zh": "120mL 内置咖啡杯",
+      "ar": "كوب مدمج 120 مل",
+      "es": "taza integrada de 120 ml",
+      "fr": "tasse intégrée de 120 ml",
+      "id": "cangkir terintegrasi 120 mL",
+      "ru": "встроенная чашка 120 мл",
+      "th": "ถ้วยในตัว 120 มล.",
+      "vi": "cốc tích hợp 120 mL"
+     }
+    },
+    {
+     "icon": "battery",
+     "text": {
+      "en": "USB rechargeable battery",
+      "zh": "USB 充电电池",
+      "ar": "بطارية قابلة للشحن عبر USB",
+      "es": "batería recargable por USB",
+      "fr": "batterie rechargeable USB",
+      "id": "baterai isi ulang USB",
+      "ru": "аккумулятор с зарядкой USB",
+      "th": "แบตเตอรี่ชาร์จ USB",
+      "vi": "pin sạc USB"
+     }
+    }
+   ],
+   "specs": [
+    {
+     "label": {
+      "en": "Model",
+      "zh": "型号",
+      "ar": "الموديل",
+      "es": "Modelo",
+      "fr": "Modèle",
+      "id": "Model",
+      "ru": "Модель",
+      "th": "รุ่น",
+      "vi": "Mã sản phẩm"
+     },
+     "value": "XYD-003 (Orange, self-heating)"
+    },
+    {
+     "label": {
+      "en": "Pump Pressure",
+      "zh": "泵压",
+      "ar": "ضغط المضخة",
+      "es": "Presión de bomba",
+      "fr": "Pression de la pompe",
+      "id": "Tekanan Pompa",
+      "ru": "Давление помпы",
+      "th": "แรงดันปั๊ม",
+      "vi": "Áp suất bơm"
+     },
+     "value": "20 bar"
+    },
+    {
+     "label": {
+      "en": "Rated Power",
+      "zh": "额定功率",
+      "ar": "الطاقة المقننة",
+      "es": "Potencia nominal",
+      "fr": "Puissance nominale",
+      "id": "Daya Nominal",
+      "ru": "Номинальная мощность",
+      "th": "กำลังไฟระบุ",
+      "vi": "Công suất định mức"
+     },
+     "value": "72 W"
+    },
+    {
+     "label": {
+      "en": "Heating Time",
+      "zh": "加热时间",
+      "ar": "وقت التسخين",
+      "es": "Tiempo de calentamiento",
+      "fr": "Temps de chauffe",
+      "id": "Waktu Pemanasan",
+      "ru": "Время нагрева",
+      "th": "เวลาทำความร้อน",
+      "vi": "Thời gian gia nhiệt"
+     },
+     "value": "5–6 min"
+    },
+    {
+     "label": {
+      "en": "Extraction Time",
+      "zh": "萃取时间",
+      "ar": "وقت الاستخلاص",
+      "es": "Tiempo de extracción",
+      "fr": "Temps d’extraction",
+      "id": "Waktu Ekstraksi",
+      "ru": "Время экстракции",
+      "th": "เวลาสกัด",
+      "vi": "Thời gian chiết xuất"
+     },
+     "value": "60 s"
+    },
+    {
+     "label": {
+      "en": "Tank Capacity",
+      "zh": "水箱容量",
+      "ar": "سعة الخزان",
+      "es": "Capacidad del tanque",
+      "fr": "Capacité du réservoir",
+      "id": "Kapasitas Tangki",
+      "ru": "Ёмкость бака",
+      "th": "ความจุถังน้ำ",
+      "vi": "Dung tích bình"
+     },
+     "value": "90 mL"
+    },
+    {
+     "label": {
+      "en": "Cup Capacity",
+      "zh": "杯容量",
+      "ar": "سعة الكوب",
+      "es": "Capacidad de taza",
+      "fr": "Capacité de la tasse",
+      "id": "Kapasitas Cangkir",
+      "ru": "Ёмкость чашки",
+      "th": "ความจุถ้วย",
+      "vi": "Dung tích cốc"
+     },
+     "value": "120 mL"
+    },
+    {
+     "label": {
+      "en": "Material",
+      "zh": "材料",
+      "ar": "المادة",
+      "es": "Material",
+      "fr": "Matériau",
+      "id": "Bahan",
+      "ru": "Материал",
+      "th": "วัสดุ",
+      "vi": "Chất liệu"
+     },
+     "value": "304 Stainless Steel"
+    },
+    {
+     "label": {
+      "en": "Display",
+      "zh": "显示屏",
+      "ar": "الشاشة",
+      "es": "Pantalla",
+      "fr": "Affichage",
+      "id": "Layar",
+      "ru": "Дисплей",
+      "th": "จอแสดงผล",
+      "vi": "Màn hình"
+     },
+     "value": "Digital"
+    },
+    {
+     "label": {
+      "en": "Charging",
+      "zh": "充电方式",
+      "ar": "الشحن",
+      "es": "Carga",
+      "fr": "Charge",
+      "id": "Pengisian",
+      "ru": "Зарядка",
+      "th": "การชาร์จ",
+      "vi": "Sạc"
+     },
+     "value": "USB / Battery"
+    },
+    {
+     "label": {
+      "en": "Packaging",
+      "zh": "包装",
+      "ar": "التغليف",
+      "es": "Embalaje",
+      "fr": "Emballage",
+      "id": "Kemasan",
+      "ru": "Упаковка",
+      "th": "บรรจุภัณฑ์",
+      "vi": "Đóng gói"
+     },
+     "value": "Color Box + Carton"
+    }
+   ],
+   "quick_specs": [
+    {
+     "label": {
+      "en": "Pump Pressure",
+      "zh": "泵压",
+      "ar": "ضغط المضخة",
+      "es": "Presión de bomba",
+      "fr": "Pression de la pompe",
+      "id": "Tekanan Pompa",
+      "ru": "Давление помпы",
+      "th": "แรงดันปั๊ม",
+      "vi": "Áp suất bơm"
+     },
+     "value": "20 bar"
+    },
+    {
+     "label": {
+      "en": "Rated Power",
+      "zh": "额定功率",
+      "ar": "الطاقة المقننة",
+      "es": "Potencia nominal",
+      "fr": "Puissance nominale",
+      "id": "Daya Nominal",
+      "ru": "Номинальная мощность",
+      "th": "กำลังไฟระบุ",
+      "vi": "Công suất định mức"
+     },
+     "value": "72 W"
+    },
+    {
+     "label": {
+      "en": "Heating Time",
+      "zh": "加热时间",
+      "ar": "وقت التسخين",
+      "es": "Tiempo de calentamiento",
+      "fr": "Temps de chauffe",
+      "id": "Waktu Pemanasan",
+      "ru": "Время нагрева",
+      "th": "เวลาทำความร้อน",
+      "vi": "Thời gian gia nhiệt"
+     },
+     "value": "5–6 min"
+    },
+    {
+     "label": {
+      "en": "Tank Capacity",
+      "zh": "水箱容量",
+      "ar": "سعة الخزان",
+      "es": "Capacidad del tanque",
+      "fr": "Capacité du réservoir",
+      "id": "Kapasitas Tangki",
+      "ru": "Ёмкость бака",
+      "th": "ความจุถังน้ำ",
+      "vi": "Dung tích bình"
+     },
+     "value": "90 mL"
+    }
+   ],
+   "moq": {
+    "value": 1,
+    "unit": "pieces"
+   },
+   "price_ladder": [
+    {
+     "min": 1,
+     "max": 499,
+     "price": 23
+    },
+    {
+     "min": 500,
+     "max": 999,
+     "price": 18.5
+    },
+    {
+     "min": 1000,
+     "max": 9999,
+     "price": 17.8
+    },
+    {
+     "min": 10000,
+     "max": -1,
+     "price": 16
+    }
+   ],
+   "price_indicator": {
+    "min": 16,
+    "max": 23,
+    "currency": "USD"
+   },
+   "images": [
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-machine-xyd003-orange-b/01.webp?v=20261105a",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-machine-xyd003-orange-b/02.webp?v=20261105a",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-machine-xyd003-orange-b/03.webp?v=20261105a",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-machine-xyd003-orange-b/04.webp?v=20261105a",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-machine-xyd003-orange-b/05.webp?v=20261105a",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-machine-xyd003-orange-b/06.webp?v=20261105a"
+   ],
+   "detail_images": [
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-machine-xyd003-orange-b/detail/01.webp?v=20261105a",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-machine-xyd003-orange-b/detail/02.webp?v=20261105a",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-machine-xyd003-orange-b/detail/03.webp?v=20261105a",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-machine-xyd003-orange-b/detail/04.webp?v=20261105a",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-machine-xyd003-orange-b/detail/05.webp?v=20261105a",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-machine-xyd003-orange-b/detail/06.webp?v=20261105a",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-machine-xyd003-orange-b/detail/07.webp?v=20261105a",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-machine-xyd003-orange-b/detail/08.webp?v=20261105a",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-machine-xyd003-orange-b/detail/09.webp?v=20261105a",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-machine-xyd003-orange-b/detail/10.webp?v=20261105a",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-machine-xyd003-orange-b/detail/11.webp?v=20261105a",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-machine-xyd003-orange-b/detail/12.webp?v=20261105a",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-machine-xyd003-orange-b/detail/13.webp?v=20261105a",
+    "https://www.hkdmj.net/assets/images/products/portable-espresso-machine-xyd003-orange-b/detail/14.webp?v=20261105a"
+   ],
+   "video_url": "",
+   "applications": {
+    "en": "Travel, RV, camping, office, hotel and home use",
+    "zh": "旅行、房车、露营、办公室、酒店、家用",
+    "ar": "ضغط مضخة 20 بار · تسخين ذاتي خلال 5–6 دقائق · كوب مدمج 120 مل",
+    "es": "presión de bomba de 20 bares, autocalentamiento en 5–6 minutos, taza integrada de 120 ml",
+    "fr": "pression de pompe de 20 bars, auto-chauffe en 5–6 minutes, tasse intégrée de 120 ml",
+    "id": "tekanan pompa 20 bar, pemanasan otomatis 5–6 menit, cangkir terintegrasi 120 mL",
+    "ru": "давление помпы 20 бар, саморазогрев за 5–6 минут, встроенная чашка 120 мл",
+    "th": "แรงดันปั๊ม 20 บาร์, อุ่นเองใน 5–6 นาที, ถ้วยในตัว 120 มล.",
+    "vi": "áp suất bơm 20 bar, tự làm nóng trong 5–6 phút, cốc tích hợp 120 mL"
+   },
+   "certifications": [],
+   "certificates": [],
+   "sku": [],
+   "packaging": {
+    "unit": "Color Box + Carton",
+    "ctn_size": "—",
+    "ctn_qty": "—",
+    "gross_weight": "—"
+   },
+   "customization": {
+    "oem": true,
+    "odm": true,
+    "logo": true,
+    "color": true,
+    "package": true,
+    "sample_lead": "on request",
+    "production_lead": "on request"
+   },
+   "pack_size": "—",
+   "category_name": {
+    "en": "Portable Espresso Machine",
+    "zh": "便携式浓缩咖啡机",
+    "es": "Cafetera Espresso Portátil",
+    "fr": "Machine à Espresso Portable",
+    "id": "Mesin Espresso Portabel",
+    "ru": "Портативная эспрессо-машина",
+    "th": "เครื่องเอสเปรสโซ่พกพา",
+    "vi": "Máy Pha Espresso Cầm Tay",
+    "ar": "آلة إسبريسو محمولة"
+   },
+   "supplier_rating": "4.81",
+   "response_time": "—",
+   "years": "—",
+   "sample": {
+    "enabled": true,
+    "qty": 1,
+    "note": {
+     "en": "Sample available (max 1 pc)",
+     "zh": "支持打样（最多 1 台）"
+    }
+   }
   }
  ],
  "reviews": [],
