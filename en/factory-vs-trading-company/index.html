@@ -429,8 +429,26 @@
       <li><a href="/en/#contact">Contact</a></li>
       <li><a href="/en/#contact" class="nav-cta">Get Quote</a></li>
     </ul>
+    <div class="lang-picker" id="langPicker">
+      <button class="lang-current" type="button" aria-haspopup="true" aria-expanded="false">
+        <span class="lang-flag">🇬🇧</span>
+        <span class="lang-label">English</span>
+        <span class="lang-caret">&#9662;</span>
+      </button>
+      <ul class="lang-menu">
+        <li><a href="/en/" class="active">🇬🇧 English</a></li>
+        <li><a href="/zh/">🇨🇳 中文</a></li>
+        <li><a href="/ar/">🇸🇦 العربية</a></li>
+        <li><a href="/es/">🇪🇸 Español</a></li>
+        <li><a href="/fr/">🇫🇷 Français</a></li>
+        <li><a href="/id/">🇮🇩 Bahasa Indonesia</a></li>
+        <li><a href="/ru/">🇷🇺 Русский</a></li>
+        <li><a href="/th/">🇹🇭 ภาษาไทย</a></li>
+        <li><a href="/vi/">🇻🇳 Tiếng Việt</a></li>
+      </ul>
+    </div>
   </div>
-</nav>
+</nav><script>/*aqc-lang-inline*/(function(){"use strict";var p=document.getElementById("langPicker");if(!p||p.dataset.lpBound==="1")return;p.dataset.lpBound="1";var b=p.querySelector(".lang-current");if(!b)return;b.addEventListener("click",function(e){e.preventDefault();e.stopPropagation();var o=p.classList.toggle("open");b.setAttribute("aria-expanded",o?"true":"false")});document.addEventListener("click",function(e){if(!p.contains(e.target)){p.classList.remove("open");b.setAttribute("aria-expanded","false")}});document.addEventListener("keydown",function(e){if(e.key==="Escape"){p.classList.remove("open");b.setAttribute("aria-expanded","false")}})})();</script>
 
 <!-- CATEGORY HERO -->
 <section class="cat-hero"><div class="cat-hero-inner"><div class="cat-breadcrumb"><a href="/en/">Home</a><span>/</span><span>Guides</span></div><h1>Factory or Trading Company: What Actually Changes for a Buyer</h1><p>Sourcing guides often say &quot;always buy from the factory&quot;. The reality is more specific: what changes is not honesty but the shape of the cost, the control and the risk.</p></div></section>

@@ -153,8 +153,26 @@
       <li><a href="/zh/#contact">联系我们</a></li>
       <li><a href="/zh/#contact" class="nav-cta">获取报价</a></li>
     </ul>
+    <div class="lang-picker" id="langPicker">
+      <button class="lang-current" type="button" aria-haspopup="true" aria-expanded="false">
+        <span class="lang-flag">🇨🇳</span>
+        <span class="lang-label">中文</span>
+        <span class="lang-caret">&#9662;</span>
+      </button>
+      <ul class="lang-menu">
+        <li><a href="/en/">🇬🇧 English</a></li>
+        <li><a href="/zh/" class="active">🇨🇳 中文</a></li>
+        <li><a href="/ar/">🇸🇦 العربية</a></li>
+        <li><a href="/es/">🇪🇸 Español</a></li>
+        <li><a href="/fr/">🇫🇷 Français</a></li>
+        <li><a href="/id/">🇮🇩 Bahasa Indonesia</a></li>
+        <li><a href="/ru/">🇷🇺 Русский</a></li>
+        <li><a href="/th/">🇹🇭 ภาษาไทย</a></li>
+        <li><a href="/vi/">🇻🇳 Tiếng Việt</a></li>
+      </ul>
+    </div>
   </div>
-</nav>
+</nav><script>/*aqc-lang-inline*/(function(){"use strict";var p=document.getElementById("langPicker");if(!p||p.dataset.lpBound==="1")return;p.dataset.lpBound="1";var b=p.querySelector(".lang-current");if(!b)return;b.addEventListener("click",function(e){e.preventDefault();e.stopPropagation();var o=p.classList.toggle("open");b.setAttribute("aria-expanded",o?"true":"false")});document.addEventListener("click",function(e){if(!p.contains(e.target)){p.classList.remove("open");b.setAttribute("aria-expanded","false")}});document.addEventListener("keydown",function(e){if(e.key==="Escape"){p.classList.remove("open");b.setAttribute("aria-expanded","false")}})})();</script>
 
 <!-- CATEGORY HERO -->
 <section class="cat-hero">
