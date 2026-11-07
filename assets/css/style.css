@@ -1010,7 +1010,12 @@ body.lang-ar .product-modal-close { right: auto; left: 16px; }
 body.lang-ar .navbar-inner { padding-right: 150px; padding-left: 0; }
 
 @media (max-width: 768px) {
-  .navbar-inner { padding-right: 0; }
+  /* 窄屏同样要给右上角固定(z-index:2000)的语言选择器留位。原先清零后，
+     margin-left:auto 的汉堡按钮正好落在语言按钮底下，真实点击命中的是
+     .lang-current，菜单打不开；RTL 版保留 132px 所以一直正常。 */
+  .navbar-inner { padding-right: 132px; }
+  /* 留位后内容区变窄，别让汉堡被 flex 压缩（390px 下曾缩到 22px 宽）。 */
+  .nav-toggle { flex-shrink: 0; }
   /* RTL 下 logo 落在右侧，仍要避开右上角固定的语言选择器 */
   body.lang-ar .navbar-inner { padding-right: 132px; padding-left: 0; }
   .lang-current { padding: 7px 12px; font-size: 13px; }
