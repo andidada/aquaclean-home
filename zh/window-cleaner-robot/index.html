@@ -344,76 +344,101 @@
   var LANG = "zh";
   var SLUG = "window-cleaner-robot";
   var DATA_URL = "/data/products/window-cleaner-robot.json";
+  var UI = {"viewDetails": "查看详情", "products": "个商品", "product": "个商品", "noProducts": "暂无产品", "checkBack": "请稍后再查看。", "loadFailed": "产品加载失败", "tryAgain": "请稍后重试。", "error": "错误", "perPiece": "/ 台", "moqPrefix": "起订量", "moqUnit": "台"};
 
   var ICONS = {
     power: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18.36 6.64A9 9 0 1 1 5.64 6.64"/><line x1="12" y1="2" x2="12" y2="12"/></svg>',
     battery: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="18" height="10" rx="2"/><path d="M22 11v2"/></svg>',
     water: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>',
     light: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4"/></svg>',
-    laser: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4"/></svg>',
+    laser: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M2 12h4M18 12h4"/></svg>',
     mop: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M3 7l9-4 9 4M4 7v14M20 7v14M9 21V10M15 21V10"/></svg>',
-    map: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/></svg>',
+    map: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/><line x1="8" y1="2" x2="8" y2="18"/><line x1="16" y1="6" x2="16" y2="22"/></svg>',
     heat: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v10M18.4 6.6a9 9 0 1 1-12.77.04"/></svg>',
     temp: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z"/></svg>',
     tank: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2h12M6 2v6a6 6 0 0 0 12 0V2M6 2H4M20 2h-2"/></svg>',
     tools: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>',
-    uv: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2"/></svg>',
+    uv: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2"/></svg>',
     filter: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>',
     ai: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 9h.01M15 9h.01M9 15h.01M15 15h.01"/></svg>',
     safety: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>',
     speed: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>',
-    sensor: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/></svg>',
+    sensor: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2"/></svg>',
     suction: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/></svg>',
-    power2: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="10" rx="2"/></svg>',
+    power2: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="10" rx="2"/><path d="M22 11v2"/></svg>',
     size: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 21H3V3"/><path d="M21 3l-9 9M3 3l9 9"/></svg>',
     display: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>',
-    auto: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/></svg>',
+    auto: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42"/></svg>',
     max: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18.36 6.64a9 9 0 1 1-12.73 0M12 2v10"/></svg>',
     pressure: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>',
     milk: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 2h8l2 4H6l2-4zM5 8h14M6 8v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V8"/></svg>',
     cup: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 8h1a4 4 0 1 1 0 8h-1M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V8z"/></svg>',
-    carpet: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="8" width="18" height="12" rx="2"/></svg>',
+    carpet: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="8" width="18" height="12" rx="2"/><path d="M7 8V6a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2"/></svg>',
     chemical: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 2v7.31M14 9.3V1.99M8.5 2h7M14 9.3a6.5 6.5 0 1 1-4 0"/></svg>'
   };
 
   function getIcon(name) { return ICONS[name] || ICONS['power']; }
-  function t(obj) { if (typeof obj === 'string') return obj; return obj[LANG] || obj['en'] || ''; }
-  function getProductDetailUrl(productId) { return '/zh/' + SLUG + '-' + productId + '.html'; }
+
+  function t(obj) {
+    if (typeof obj === 'string') return obj;
+    if (!obj) return '';
+    return obj[LANG] || obj['en'] || '';
+  }
+
+  function detailUrl(id) { return '/' + LANG + '/' + SLUG + '-' + id + '.html'; }
+
+  function priceRange(p) {
+    var pi = p.price_indicator || {};
+    function n(v) {
+      if (typeof v === 'number') return v;
+      if (typeof v === 'string' && v !== '' && !isNaN(v)) return parseFloat(v);
+      if (v && typeof v === 'object') return n(v.number);
+      return null;
+    }
+    var lo = n(pi.min), hi = n(pi.max);
+    if (lo === null || hi === null) return '';
+    return '$' + lo + ' - $' + hi;
+  }
 
   function renderProducts(products) {
     var grid = document.getElementById('productsGrid');
     var countEl = document.getElementById('productCount');
+    if (!grid) return;
+
     if (!products || products.length === 0) {
-      grid.innerHTML = '<div class="empty-state"><h3>暂无产品</h3><p>请稍后再查看。</p></div>';
-      countEl.textContent = '0 产品';
+      grid.innerHTML = '<div class="empty-state"><div class="empty-state-icon">...</div><h3>' + UI.noProducts + '</h3><p>' + UI.checkBack + '</p></div>';
+      if (countEl) countEl.textContent = '0 ' + UI.products;
       return;
     }
-    countEl.textContent = products.length + ' 个产品';
+    if (countEl) countEl.textContent = products.length + ' ' + (products.length === 1 ? UI.product : UI.products);
+
     var html = '';
     products.forEach(function(p) {
       var name = t(p.name);
       var tagline = t(p.tagline);
-      var priceMin = p.price_indicator ? p.price_indicator.min : '';
-      var priceMax = p.price_indicator ? p.price_indicator.max : '';
-      var moq = p.moq ? p.moq.value + ' ' + p.moq.unit : '';
-      var img = p.images && p.images[0] ? p.images[0] : '/assets/images/placeholder-product.svg';
-      var detailUrl = getProductDetailUrl(p.id);
+      var img = (p.images && p.images[0]) ? p.images[0].split('https://www.hkdmj.net').join('') : '';
       var certs = p.certifications || [];
+      var range = priceRange(p);
+      var moqTxt = p.moq && p.moq.value ? (p.moq.value + ' ' + UI.moqUnit) : '';
+
       html += '<div class="product-card">';
-      html += '  <div class="product-img-wrap"><img src="' + img + '" alt="' + name + '" loading="lazy" decoding="async"></div>';
+      html += '  <div class="product-img-wrap">';
+      html += '    <img src="' + img + '" alt="' + name + '" loading="lazy" decoding="async">';
+      html += '  </div>';
       html += '  <div class="product-body">';
       html += '    <h3>' + name + '</h3>';
       html += '    <p>' + tagline + '</p>';
       if (certs.length > 0) {
         html += '    <div class="cert-badges">';
-        certs.slice(0, 4).forEach(function(c) { html += '      <span class="cert-badge">' + c + '</span>'; });
+        certs.slice(0, 4).forEach(function(c) { html += '<span class="cert-badge">' + c + '</span>'; });
         html += '    </div>';
       }
-      if (priceMin && priceMax) {
-        html += '    <div class="price-indicator" style="margin-bottom:12px;">$' + priceMin + '-$' + priceMax + ' <span class="moq">/ 台 起订量 ' + moq + '</span></div>';
+      if (range) {
+        html += '    <div style="margin-bottom:12px;"><div class="price-indicator">' + range + ' <span class="moq">' + UI.perPiece + ' ' + UI.moqPrefix + ' ' + moqTxt + '</span></div></div>';
       }
-      html += '    <a href="' + detailUrl + '" class="btn btn-primary" style="width:100%;justify-content:center;text-decoration:none;">查看详情 &#8594;</a>';
-      html += '  </div></div>';
+      html += '    <a href="' + detailUrl(p.id) + '" class="btn btn-primary" style="width:100%;justify-content:center;text-decoration:none;">' + UI.viewDetails + ' &#8594;</a>';
+      html += '  </div>';
+      html += '</div>';
     });
     grid.innerHTML = html;
   }
@@ -421,11 +446,17 @@
   function init() {
     fetch(DATA_URL)
       .then(function(res) { return res.json(); })
-      .then(function(data) { renderProducts(data.products || []); })
+      .then(function(data) {
+        // 形状不对（网关错误页、空响应、被拦截）就当失败处理：宁可保留
+        // 静态卡片，也不要把整页产品信息换成"暂无产品"。
+        if (!data || !Array.isArray(data.products)) throw new Error('unexpected payload shape');
+        renderProducts(data.products);
+      })
       .catch(function(err) {
-        console.error('Failed to load:', err);
-        document.getElementById('productsGrid').innerHTML = '<div class="empty-state"><h3>加载失败</h3><p>请稍后重试。</p></div>';
-        document.getElementById('productCount').textContent = 'Error';
+        // 拉不到数据时保留页面里静态输出的卡片 —— 它们是给爬虫和禁用 JS 的
+        // 用户看的，还带着价格、MOQ、认证等 SEO 文案。用一个错误占位把它们
+        // 抹掉，等于一次网络抖动就把整页产品信息变成空白。
+        console.error('Failed to load products:', err);
       });
   }
 
