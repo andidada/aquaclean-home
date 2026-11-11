@@ -35,6 +35,32 @@
   "about": {"@id": "https://www.hkdmj.net/#organization"}
 }
 </script>
+<!-- FACTORY GALLERY STYLES (about page, scoped) -->
+<style>
+/* Full-width, uncropped factory views. New class prefixes only; all colors
+   come from the site's design tokens (no hardcoded color values). */
+#factory-showcase .factory-sub,
+#factory-archive .factory-sub { margin-bottom: 12px; }
+.factory-note { font-size: 13px; line-height: 1.7; color: var(--text-muted); }
+.factory-figure { margin: 0 0 40px; }
+.factory-figure img { width: 100%; height: auto; display: block; }
+.factory-figure figcaption { margin-top: 14px; font-size: 15px; line-height: 1.7; color: var(--text-muted); }
+.archive-group { margin-top: 36px; }
+.archive-group-title { font-size: clamp(18px, 2.2vw, 22px); font-weight: 700; line-height: 1.4; color: var(--secondary); margin-bottom: 6px; }
+.archive-group-intro { font-size: 14px; line-height: 1.7; color: var(--text-muted); margin-bottom: 22px; }
+.archive-figure { margin-bottom: 24px; }
+.archive-figure figcaption { margin-top: 10px; font-size: 13px; }
+@media (max-width: 768px) {
+  /* One column at every width; tighter mobile spacing for these long sections. */
+  #factory-showcase, #factory-archive { padding: 40px 16px; }
+  .factory-figure { margin-bottom: 28px; }
+  .factory-figure figcaption { font-size: 14px; }
+  .archive-group { margin-top: 28px; }
+  .archive-group-title { font-size: 17px; }
+  .archive-figure figcaption { font-size: 12px; }
+  .factory-note { font-size: 12px; }
+}
+</style>
 </head>
 <body>
 
@@ -165,6 +191,46 @@
   </div>
 </section>
 
+<!-- FACTORY SHOWCASE (7 full-width views, uncropped) -->
+<section class="section" id="factory-showcase">
+  <div class="section-inner">
+    <div class="text-center">
+      <div class="section-label">工厂实拍导览</div>
+      <h2 class="section-title">七个视角，从工厂实力到出货</h2>
+      <p class="section-sub factory-sub">按采购方验厂的阅读顺序完整呈现、不裁切：公司实力、定制范围、生产流程、性能测试、合规研发、包装出货，以及样品室的成品陈列。</p>
+      <p class="factory-note">以下图片为原厂英文版式设计稿，中文图注为内容说明。</p>
+    </div>
+      <figure class="factory-figure">
+        <img src="../assets/images/about/about-01-company-capability-overview.jpg" width="1672" height="941" loading="lazy" decoding="async" alt="公司实力总览图：公司大楼、四项服务卖点、六格车间照片与底部数据条。">
+        <figcaption>一张图看清整座工厂：楼体、研发实验室、注塑与无尘车间、装配线，以及 QC 检验工位。</figcaption>
+      </figure>
+      <figure class="factory-figure">
+        <img src="../assets/images/about/about-02-oem-odm-one-stop-landscape.jpg" width="1672" height="941" loading="lazy" decoding="async" alt="横版 OEM/ODM 总览：五项服务图标与六格实景（产线、质检、仓储、包装、样品室、测试区）。">
+        <figcaption>图中上方列出五类服务，下方六个实景格展示产线、质检、仓储、包装、样品室与测试区，对应从需求到量产的整条路径。</figcaption>
+      </figure>
+      <figure class="factory-figure">
+        <img src="../assets/images/about/about-03-production-process-8-steps.jpg" width="1254" height="1254" loading="lazy" decoding="async" alt="八步生产流程图：厂房、注塑、装配车间、半成品区、成品暂存与仓储、包装成品仓、装柜出货，底部五个能力图标。">
+        <figcaption>八个编号步骤从厂房、注塑、装配一路走到成品仓与装柜，把一张订单的完整链路摊开给你看。</figcaption>
+      </figure>
+      <figure class="factory-figure">
+        <img src="../assets/images/about/about-04-multi-surface-testing-lab.jpg" width="1254" height="1254" loading="lazy" decoding="async" alt="多地面测试实验室图：地毯、地垫、瓷砖、木地板、水泥地与硬地面六个测试格，标注标准化碎屑与性能验证项。">
+        <figcaption>实验室在地毯、瓷砖、木地板等六种地面上用真实碎屑做测试，让吸力与清洁表现有可比对的数据。</figcaption>
+      </figure>
+      <figure class="factory-figure">
+        <img src="../assets/images/about/about-05-certifications-rnd-capability.jpg" width="1492" height="1054" loading="lazy" decoding="async" alt="认证与研发能力图：七张证书图样、专利墙、四项研发要点与底部四项价值说明。">
+        <figcaption>左侧排开证书图样与专利墙，右侧写研发与 OEM/ODM 定制能力，底部是四项价值点。</figcaption>
+      </figure>
+      <figure class="factory-figure">
+        <img src="../assets/images/about/about-06-export-packaging-shipping.jpg" width="1024" height="572" loading="lazy" decoding="async" alt="出口包装与出货三步示意图：出口纸箱、托盘装载、仓库托盘存储。">
+        <figcaption>三步示意把出货讲清：出口纸箱、托盘码放、仓库托盘存放，对应装柜前每一层防护。</figcaption>
+      </figure>
+      <figure class="factory-figure">
+        <img src="../assets/images/about/about-07-showroom-display-area.jpg" width="1199" height="479" loading="lazy" decoding="async" alt="工厂样品室展厅四格实拍：无线吸尘器整机墙、配件展台与立式机排。">
+        <figcaption>样品室把整机墙、配件展台与立式机排集中陈列，方便合作伙伴比对机型后再下 OEM 订单。</figcaption>
+      </figure>
+  </div>
+</section>
+
 <!-- MILESTONES -->
 <section class="section section-alt" id="milestones">
   <div class="section-inner">
@@ -178,6 +244,53 @@
       <div class="tl-item"><div class="tl-year">2021</div><h3>全球认证</h3><p>通过 ETL 与 CB 审核，进入北美与欧盟市场。</p></div>
       <div class="tl-item"><div class="tl-year">2024</div><h3>200+ 合作伙伴</h3><p>活跃 B2B 合作伙伴突破 200 家，覆盖 50 多个国家。</p></div>
       <div class="tl-item"><div class="tl-year">2026</div><h3>智能与汽车</h3><p>推出擦窗机器人与完整的汽车护理系列。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- FACTORY ARCHIVE (6 supplementary views) -->
+<section class="section section-alt" id="factory-archive">
+  <div class="section-inner">
+    <div class="text-center">
+      <div class="section-label">补充素材</div>
+      <h2 class="section-title">更多工厂实景</h2>
+      <p class="section-sub factory-sub">同一主题的另一种版式、额外的现场实拍，以及两张产品横幅集中放在这里，让上方主线索保持连贯。以下为补充，不是重复。</p>
+    </div>
+    <div class="archive-group">
+      <h3 class="archive-group-title">公司与能力 · 另一版式</h3>
+      <p class="archive-group-intro">同样的信息换一种排版，方便习惯整页浏览的采购方。</p>
+      <figure class="factory-figure archive-figure">
+        <img src="../assets/images/about/about-08-company-intro-banner.jpg" width="1199" height="499" loading="lazy" decoding="async" alt="官网首页式公司介绍长图：顶部四栏标题、供应商简介、厂房大楼图、View More 按钮与底部四类产品图标。">
+        <figcaption>公司介绍的另一版式：官网首页式长图，顶部四栏定位、中部简介与厂房图、底部四类整机图标。</figcaption>
+      </figure>
+      <figure class="factory-figure archive-figure">
+        <img src="../assets/images/about/about-09-oem-odm-one-stop-portrait.jpg" width="1254" height="1254" loading="lazy" decoding="async" alt="竖版 OEM/ODM 总览：公司大楼、五项服务图标与六格实景（产线、质检、仓储、包装、样品室、测试区）。">
+        <figcaption>与主线同一套素材的竖版：公司大楼在上，五项服务图标与六格车间实景改为纵向排列。</figcaption>
+      </figure>
+    </div>
+    <div class="archive-group">
+      <h3 class="archive-group-title">车间现场 · 补充实拍</h3>
+      <p class="archive-group-intro">车间与装柜当天的未摆拍记录，为上方的流程与包装视角补上细节。</p>
+      <figure class="factory-figure archive-figure">
+        <img src="../assets/images/about/about-10-production-workshop-8-stations.jpg" width="1200" height="1000" loading="lazy" decoding="async" alt="生产车间八格实拍：样品陈列、备料、配件存放、装配线、手工装配、功能测试、成品存放、打包与打托。">
+        <figcaption>八格车间特写给流程图补上工位细节：备料、手工装配、功能测试与打托，都是产线上真实的一手动作。</figcaption>
+      </figure>
+      <figure class="factory-figure archive-figure">
+        <img src="../assets/images/about/about-11-shipping-real-photos.jpg" width="1551" height="1014" loading="lazy" decoding="async" alt="六格无标题实拍：仓库纸箱堆与手动液压车、缠膜托盘、纸箱装柜与叉车作业。">
+        <figcaption>不加摆拍的实景给出货规范补证：纸箱堆、缠膜托盘与正在装柜的集装箱，都是现场记录。</figcaption>
+      </figure>
+    </div>
+    <div class="archive-group">
+      <h3 class="archive-group-title">产品系列与新品</h3>
+      <p class="archive-group-intro">来自产品目录与 2026 新品的产品向横幅，不并入上方工厂主线。</p>
+      <figure class="factory-figure archive-figure">
+        <img src="../assets/images/about/about-12-2026-new-arrival-banner.jpg" width="1920" height="650" loading="lazy" decoding="async" alt="2026 新品无线吸尘器导购横幅：五款机型立于展台，带 Shop Now 按钮与起订量、工厂直供、可提供样品字样。">
+        <figcaption>2026 新品横幅把五款无线吸尘器摆上展台，并印有起订量、工厂直供与可提供样品等采购信息。</figcaption>
+      </figure>
+      <figure class="factory-figure archive-figure">
+        <img src="../assets/images/about/about-13-product-category-selector.jpg" width="1199" height="600" loading="lazy" decoding="async" alt="产品品类导购图：一个无线吸尘器批发大格，另有无线、扫地机器人、车载、蒸汽清洁机、充气泵五个小格，各带 MORE 按钮。">
+        <figcaption>品类选择页把批发整机与无线、扫地机器人、车载、蒸汽、充气泵五类并列，每格带 MORE 入口。</figcaption>
+      </figure>
     </div>
   </div>
 </section>

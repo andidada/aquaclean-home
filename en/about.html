@@ -35,6 +35,32 @@
   "about": {"@id": "https://www.hkdmj.net/#organization"}
 }
 </script>
+<!-- FACTORY GALLERY STYLES (about page, scoped) -->
+<style>
+/* Full-width, uncropped factory views. New class prefixes only; all colors
+   come from the site's design tokens (no hardcoded color values). */
+#factory-showcase .factory-sub,
+#factory-archive .factory-sub { margin-bottom: 12px; }
+.factory-note { font-size: 13px; line-height: 1.7; color: var(--text-muted); }
+.factory-figure { margin: 0 0 40px; }
+.factory-figure img { width: 100%; height: auto; display: block; }
+.factory-figure figcaption { margin-top: 14px; font-size: 15px; line-height: 1.7; color: var(--text-muted); }
+.archive-group { margin-top: 36px; }
+.archive-group-title { font-size: clamp(18px, 2.2vw, 22px); font-weight: 700; line-height: 1.4; color: var(--secondary); margin-bottom: 6px; }
+.archive-group-intro { font-size: 14px; line-height: 1.7; color: var(--text-muted); margin-bottom: 22px; }
+.archive-figure { margin-bottom: 24px; }
+.archive-figure figcaption { margin-top: 10px; font-size: 13px; }
+@media (max-width: 768px) {
+  /* One column at every width; tighter mobile spacing for these long sections. */
+  #factory-showcase, #factory-archive { padding: 40px 16px; }
+  .factory-figure { margin-bottom: 28px; }
+  .factory-figure figcaption { font-size: 14px; }
+  .archive-group { margin-top: 28px; }
+  .archive-group-title { font-size: 17px; }
+  .archive-figure figcaption { font-size: 12px; }
+  .factory-note { font-size: 12px; }
+}
+</style>
 </head>
 <body>
 
@@ -166,6 +192,45 @@
   </div>
 </section>
 
+<!-- FACTORY SHOWCASE (7 full-width views, uncropped) -->
+<section class="section" id="factory-showcase">
+  <div class="section-inner">
+    <div class="text-center">
+      <div class="section-label">Factory Walkthrough</div>
+      <h2 class="section-title">Seven Views, From Capability to Dispatch</h2>
+      <p class="section-sub factory-sub">Shown in full, in the order a buyer audits a supplier — company, customisation, process, testing, compliance, packing, and the finished range.</p>
+    </div>
+      <figure class="factory-figure">
+        <img src="../assets/images/about/about-01-company-capability-overview.jpg" width="1672" height="941" loading="lazy" decoding="async" alt="Company capability overview showing the building, four service highlights, six labelled plant-area photos and a statistics bar.">
+        <figcaption>See the full operation in one frame — our building, R&D lab, injection workshop, assembly lines and QC inspection.</figcaption>
+      </figure>
+      <figure class="factory-figure">
+        <img src="../assets/images/about/about-02-oem-odm-one-stop-landscape.jpg" width="1672" height="941" loading="lazy" decoding="async" alt="Landscape OEM/ODM overview with five service icons and six photos of production line, QC inspection, warehouse, packaging, sample room and testing area.">
+        <figcaption>Five service icons sit above six work areas, mapping the path from your brief to mass production.</figcaption>
+      </figure>
+      <figure class="factory-figure">
+        <img src="../assets/images/about/about-03-production-process-8-steps.jpg" width="1254" height="1254" loading="lazy" decoding="async" alt="Eight-step production process diagram: factory building, injection molding, assembly, semi-finished and finished goods areas, packed goods warehouse, loading and shipment, plus five capability icons.">
+        <figcaption>Eight numbered steps follow an order from the factory building to a loaded container, with checks between stages.</figcaption>
+      </figure>
+      <figure class="factory-figure">
+        <img src="../assets/images/about/about-04-multi-surface-testing-lab.jpg" width="1254" height="1254" loading="lazy" decoding="async" alt="Multi-surface testing lab layout showing carpet, rug, tile, wood, concrete and hard floor test bays with standardized debris and performance criteria.">
+        <figcaption>Six floor surfaces are tested with real debris so suction and pickup data can be compared before a model ships.</figcaption>
+      </figure>
+      <figure class="factory-figure">
+        <img src="../assets/images/about/about-05-certifications-rnd-capability.jpg" width="1492" height="1054" loading="lazy" decoding="async" alt="Certifications and R&D capability sheet: seven certificate graphics, a patent wall, four innovation points and four value statements.">
+        <figcaption>Certificate logos and a patent wall fill one side; R&D and OEM/ODM capability notes fill the other.</figcaption>
+      </figure>
+      <figure class="factory-figure">
+        <img src="../assets/images/about/about-06-export-packaging-shipping.jpg" width="1024" height="572" loading="lazy" decoding="async" alt="Export packaging and shipping diagram with three labelled steps: export carton, pallet loading, and warehouse and pallet storage.">
+        <figcaption>Three steps show how a unit moves from export carton to pallet loading and into warehouse storage before dispatch.</figcaption>
+      </figure>
+      <figure class="factory-figure">
+        <img src="../assets/images/about/about-07-showroom-display-area.jpg" width="1199" height="479" loading="lazy" decoding="async" alt="Factory sample room showroom with four photos of cordless vacuum display walls, accessory stands and upright vacuum rows.">
+        <figcaption>Cordless machines, accessories and upright units are laid out for partners to compare models before placing an OEM order.</figcaption>
+      </figure>
+  </div>
+</section>
+
 <!-- MILESTONES -->
 <section class="section section-alt" id="milestones">
   <div class="section-inner">
@@ -179,6 +244,53 @@
       <div class="tl-item"><div class="tl-year">2021</div><h3>Global Certifications</h3><p>Passed ETL &amp; CB audits and entered the North American and EU markets.</p></div>
       <div class="tl-item"><div class="tl-year">2024</div><h3>200+ Partners</h3><p>Reached 200+ active B2B partners across more than 50 countries worldwide.</p></div>
       <div class="tl-item"><div class="tl-year">2026</div><h3>Smart &amp; Automotive</h3><p>Launched window-cleaning robots and a full automotive care series.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- FACTORY ARCHIVE (6 supplementary views) -->
+<section class="section section-alt" id="factory-archive">
+  <div class="section-inner">
+    <div class="text-center">
+      <div class="section-label">Additional Shots</div>
+      <h2 class="section-title">More Factory Views</h2>
+      <p class="section-sub factory-sub">Alternate layouts, extra on-site photos and two product banners kept here so the main walkthrough stays readable. Supplementary — not a repeat of the seven views above.</p>
+    </div>
+    <div class="archive-group">
+      <h3 class="archive-group-title">Company & Capability · Alternate Layouts</h3>
+      <p class="archive-group-intro">The same information, set in a different layout, for buyers who prefer to scan a full page at once.</p>
+      <figure class="factory-figure archive-figure">
+        <img src="../assets/images/about/about-08-company-intro-banner.jpg" width="1199" height="499" loading="lazy" decoding="async" alt="Homepage-style company introduction banner with four top headers, a supplier description, a factory building photo, a View More button and four product category icons.">
+        <figcaption>A second company introduction, laid out as a homepage banner with four supplier pillars and four product categories.</figcaption>
+      </figure>
+      <figure class="factory-figure archive-figure">
+        <img src="../assets/images/about/about-09-oem-odm-one-stop-portrait.jpg" width="1254" height="1254" loading="lazy" decoding="async" alt="Vertical-layout OEM/ODM overview: company building photo, five service icons and six photos of production line, QC, warehouse, packaging, sample room and testing area.">
+        <figcaption>The same six work areas and five service icons as above, arranged vertically with the company building on top.</figcaption>
+      </figure>
+    </div>
+    <div class="archive-group">
+      <h3 class="archive-group-title">On the Floor · Additional Real Shots</h3>
+      <p class="archive-group-intro">Unposed records from the workshop and a loading day, adding detail to the process and packing views above.</p>
+      <figure class="factory-figure archive-figure">
+        <img src="../assets/images/about/about-10-production-workshop-8-stations.jpg" width="1200" height="1000" loading="lazy" decoding="async" alt="Production workshop photo grid of eight numbered stations: sample display, components preparation, accessories storage, assembly line, manual assembly, functional testing, finished goods storage, packing and palletizing.">
+        <figcaption>Eight close-ups add the human detail behind the process diagram: component prep, manual assembly, functional testing and palletising.</figcaption>
+      </figure>
+      <figure class="factory-figure archive-figure">
+        <img src="../assets/images/about/about-11-shipping-real-photos.jpg" width="1551" height="1014" loading="lazy" decoding="async" alt="Six unlabelled factory photos of carton stacks, a pallet truck, stretch-wrapped pallets and loading cartons into a shipping container.">
+        <figcaption>Unposed shipping photos back the packaging diagram with cartons, wrapped pallets and a container being loaded on site.</figcaption>
+      </figure>
+    </div>
+    <div class="archive-group">
+      <h3 class="archive-group-title">Product Range & New Arrivals</h3>
+      <p class="archive-group-intro">Product-facing banners from our catalogue and 2026 range, kept out of the factory walkthrough.</p>
+      <figure class="factory-figure archive-figure">
+        <img src="../assets/images/about/about-12-2026-new-arrival-banner.jpg" width="1920" height="650" loading="lazy" decoding="async" alt="2026 new arrival promotional banner for wireless vacuum cleaners, showing five cordless models, a Shop Now button and MOQ, factory-direct and sample text.">
+        <figcaption>A 2026 new-arrival banner presents five cordless vacuums with MOQ, factory-direct and sample terms for buyers.</figcaption>
+      </figure>
+      <figure class="factory-figure archive-figure">
+        <img src="../assets/images/about/about-13-product-category-selector.jpg" width="1199" height="600" loading="lazy" decoding="async" alt="Product selection graphic with one large wholesale cordless vacuum panel and five smaller category panels: cordless, robot, car, steam and tire inflator, each with a More button.">
+        <figcaption>A category selector lays out wholesale and five cleaning-appliance types, each with its own More button.</figcaption>
+      </figure>
     </div>
   </div>
 </section>
