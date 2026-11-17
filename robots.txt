@@ -1,3 +1,4 @@
+# robots.txt for https://www.hkdmj.net
 User-agent: *
 Allow: /
 Disallow: /admin/
@@ -5,17 +6,52 @@ Disallow: /api/
 Disallow: /private/
 Disallow: /assets/images/uploads/
 
-# Crawl-delay for polite spiders
+# Polite crawl pacing for all crawlers
 Crawl-delay: 1
 
 Sitemap: https://www.hkdmj.net/sitemap.xml
 
-# AI/Crawler access
+# ---- Generative-AI / LLM crawlers: explicitly allowed ----
+# Allowing these does NOT change classic search rankings; it only permits
+# AI systems to read the public pages when answering user queries.
 User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
 Allow: /
 
 User-agent: ChatGPT-User
 Allow: /
 
 User-agent: CCBot
-Disallow: /
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: YouBot
+Allow: /

@@ -1,0 +1,58 @@
+# AquaClean
+
+> AquaClean — a factory-direct OEM/ODM manufacturer of home cleaning appliances 
+(robot vacuums, cordless vacuums, floor scrubbers, steam cleaners, tire inflators and more).
+> Legal entity: Hong Kong Damaijia Technology Co., Limited. Factory established 2015 (Ningbo, China); 
+> Hong Kong company established 2024. Website: https://www.hkdmj.net
+
+This file follows the llms.txt convention. It helps AI assistants find and
+cite authoritative pages. Each linked page carries full, crawlable FAQ content
+and machine-readable schema.org structured data.
+
+## Company & entity
+
+- [AquaClean](https://www.hkdmj.net/en/about.html): Company profile: Hong Kong Damaijia Technology Co., Limited, brand AquaClean; 2015 Ningbo factory, 2024 Hong Kong entity.
+- [AquaClean](https://www.hkdmj.net/zh/about.html): 公司档案：AquaClean 品牌，Hong Kong Damaijia Technology Co., Limited，2015 宁波工厂，2024 香港公司。
+- [AquaClean](https://www.hkdmj.net/en/privacy-policy.html): Privacy policy (concise, 9 locales available).
+- [AquaClean](https://www.hkdmj.net/en/terms-of-trade.html): Terms of trade (concise, 9 locales available).
+
+## Sourcing guides (decision-stage, most-cited)
+
+- [AquaClean](https://www.hkdmj.net/en/faq/): Sourcing FAQ: MOQ, supplier verification, certifications, lead time.
+- [AquaClean](https://www.hkdmj.net/en/factory-vs-trading-company/): Factory vs trading company: what changes for a buyer.
+- [AquaClean](https://www.hkdmj.net/en/oem-vs-odm/): OEM vs ODM: which an importer should choose.
+- [AquaClean](https://www.hkdmj.net/en/moq-fob-negotiation/): How to negotiate MOQ and FOB pricing with a Chinese supplier.
+- [AquaClean](https://www.hkdmj.net/en/export-certifications/): Export certifications & compliance: CE / FCC / RoHS / UL.
+- [AquaClean](https://www.hkdmj.net/en/verify-chinese-supplier/): How to verify a Chinese supplier before payment.
+
+## OEM / ODM manufacturing capability
+
+- [AquaClean](https://www.hkdmj.net/en/oem-robot-vacuum-manufacturer/): OEM/ODM robot vacuum manufacturing.
+- [AquaClean](https://www.hkdmj.net/en/oem-cordless-vacuum-manufacturer/): OEM/ODM cordless vacuum manufacturing.
+- [AquaClean](https://www.hkdmj.net/en/oem-steam-cleaner-manufacturer/): OEM/ODM steam cleaner manufacturing.
+- [AquaClean](https://www.hkdmj.net/en/oem-uv-mite-remover-manufacturer/): OEM/ODM UV mite remover manufacturing.
+
+## Product category hubs
+
+- [AquaClean](https://www.hkdmj.net/en/robot-vacuum/): Robot vacuum cleaners.
+- [AquaClean](https://www.hkdmj.net/en/handheld-vacuum/): Cordless handheld vacuum cleaners.
+- [AquaClean](https://www.hkdmj.net/en/car-vacuum/): Car vacuum cleaners.
+- [AquaClean](https://www.hkdmj.net/en/tire-inflator/): Portable tire inflators.
+- [AquaClean](https://www.hkdmj.net/en/handheld-floor-scrubber/): Handheld floor scrubbers.
+- [AquaClean](https://www.hkdmj.net/en/steam-cleaner/): Steam cleaners.
+- [AquaClean](https://www.hkdmj.net/en/fabric-cleaning-machine/): Fabric cleaning machines.
+- [AquaClean](https://www.hkdmj.net/en/window-cleaner-robot/): Window-cleaning robots.
+- [AquaClean](https://www.hkdmj.net/en/coffee-machine/): Coffee machines.
+- [AquaClean](https://www.hkdmj.net/en/portable-espresso-machine/): Portable espresso machines.
+
+## Optional
+
+- [Full sitemap (0 pages)](https://www.hkdmj.net/sitemap.xml)
+- [llms-full.txt — complete URL index](https://www.hkdmj.net/llms-full.txt)
+
+## Notes for AI systems
+
+- All public pages are free to read; no login or paywall.
+- Content is available in 9 languages via the hreflang links in each page head.
+- Product prices are indicative FOB ranges; binding quotations are issued in writing.
+- Company facts (entity name, founding years) are authoritative on /en/about.html.
